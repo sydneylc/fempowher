@@ -1,0 +1,300 @@
+import React from 'https://esm.sh/react@18.3.1';
+import { isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=125';
+
+const h = React.createElement;
+
+export function renderSubpageBackButton(onBack, t = {}, lang = 'en') {
+  const isRtl = isRtlLanguage(lang);
+  return h(
+    'div',
+    { className: 'w-full flex items-center justify-start' },
+    h(
+      'button',
+      {
+        type: 'button',
+        onClick: onBack,
+        className: 'inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs sm:text-sm font-bold transition shadow-sm',
+        style: { backgroundColor: '#9F133A', color: '#FFFFFF', border: '2px solid #FEACEC' }
+      },
+      h('span', { 'aria-hidden': 'true' }, isRtl ? '→' : '←'),
+      h('bdi', null, cleanBackLabel(t.backBtn, lang))
+    )
+  );
+}
+
+export function renderEducationIssueCards({
+  issues = [],
+  lang = 'en',
+  t = {},
+  speakingId = null,
+  speakText = () => {},
+  onShowNearestClinic = () => {}
+}) {
+  return h(
+    'div',
+    { className: 'space-y-4 mt-6' },
+    issues.map((issue) => {
+      const titleTxt = issue.title?.[lang] || issue.title?.en || '';
+      const normTxt = issue.normalVsAbnormal?.[lang] || issue.normalVsAbnormal?.en || '';
+      const flagsList = issue.redFlags?.[lang] || issue.redFlags?.en || [];
+      const careTxt = issue.selfCare?.[lang] || issue.selfCare?.en || '';
+      const fullSpeech = `${titleTxt}. ${normTxt}. ${t.whenToSeekHelp || ''} ${flagsList.join('. ')}. ${careTxt}`;
+
+      return h(
+        'div',
+        {
+          key: issue.id,
+          className: 'bg-white rounded-3xl p-5 border-2 shadow-sm space-y-4',
+          style: { borderColor: '#CF366C' }
+        },
+        h(
+          'div',
+          { className: 'flex flex-wrap items-start justify-between gap-3' },
+          h(
+            'div',
+            { className: 'flex items-center gap-2.5' },
+            h('h3', { className: 'text-lg font-bold leading-snug', style: { color: '#9F133A' } }, titleTxt)
+          ),
+          h(
+            'button',
+            {
+              type: 'button',
+              onClick: () => speakText(`issue-${issue.id}`, fullSpeech),
+              className: 'px-4 py-2 rounded-2xl font-bold text-xs flex items-center gap-1.5 shadow-sm shrink-0',
+              style: { backgroundColor: '#FEACEC', color: '#9F133A' }
+            },
+            speakingId === `issue-${issue.id}` ? t.stopAudioBtn : t.listenAudioBtn
+          )
+        ),
+        h(
+          'div',
+          {
+            className: 'p-3.5 rounded-2xl border',
+            style: { backgroundColor: '#FFF5FC', borderColor: '#FEACEC' }
+          },
+          h('div', { className: 'text-xs font-bold uppercase mb-1', style: { color: '#CF366C' } }, `${t.normalVsAbnormal}`),
+          h('p', { className: 'text-sm leading-relaxed font-bold', style: { color: '#9F133A' } }, normTxt)
+        ),
+        h(
+          'div',
+          {
+            className: 'p-4 rounded-2xl border-2',
+            style: { backgroundColor: '#9F133A', borderColor: '#CF366C', color: '#FFFFFF' }
+          },
+          h('div', { className: 'text-xs font-bold uppercase mb-2', style: { color: '#FEACEC' } }, t.whenToSeekHelp),
+          h(
+            'ul',
+            { className: 'space-y-1.5' },
+            flagsList.map((rf, idx) =>
+              h(
+                'li',
+                { key: idx, className: 'text-sm font-bold flex items-start gap-2', style: { color: '#FFFFFF' } },
+                h('span', { style: { color: '#FEACEC' } }, '-'),
+                rf
+              )
+            )
+          )
+        ),
+        h(
+          'div',
+          {
+            className: 'p-4 rounded-2xl border flex flex-col sm:flex-row sm:items-center justify-between gap-3',
+            style: { backgroundColor: '#FFF0FA', borderColor: '#CF366C' }
+          },
+          h(
+            'div',
+            null,
+            h('div', { className: 'text-xs font-bold uppercase mb-1', style: { color: '#CF366C' } }, `${t.selfCareSteps}`),
+            h('p', { className: 'text-xs sm:text-sm font-bold leading-relaxed', style: { color: '#9F133A' } }, careTxt)
+          ),
+          h(
+            'button',
+            {
+              type: 'button',
+              onClick: onShowNearestClinic,
+              className: 'px-4 py-3 rounded-2xl text-white font-bold text-xs shrink-0 shadow-md',
+              style: { backgroundColor: '#9F133A' }
+            },
+            t.findClinicForThis
+          )
+        )
+      );
+    })
+  );
+}
+
+// ============================================================================
+// PregHomePageButtons:
+// Reusable full-screen, zero-outline, pink-toned, large-central-GIF button stack.
+// Whenever a page uses PregHomePageButtons, it renders equal-height malleable
+// full-bleed bands with tightly-cropped animated GIFs blended into distinct
+// pinkish tones and bold centered/adjacent UserLanguageChoice1 typography.
+// ============================================================================
+export function PregHomePageButtons({ sections = [], onSelectSection = () => {} }) {
+  const rowCount = Math.max(1, sections.length || 3);
+  return h(
+    'div',
+    {
+      className: 'flex-1 w-full grid min-h-[450px]',
+      style: { gridTemplateRows: `repeat(${rowCount}, minmax(0, 1fr))` }
+    },
+    sections.map((sec) =>
+      h(
+        'button',
+        {
+          key: sec.id,
+          type: 'button',
+          onClick: () => {
+            if (typeof sec.onClick === 'function') {
+              sec.onClick(sec);
+            } else {
+              onSelectSection(sec);
+            }
+          },
+          className:
+            'w-full h-full min-h-0 relative overflow-hidden flex items-center justify-center px-3 sm:px-8 py-0 cursor-pointer transition hover:brightness-[0.99] active:scale-[0.999] focus:outline-none border-0 rounded-none',
+          style: sec.backgroundStyle || { backgroundColor: '#FCE4F4', border: 'none' }
+        },
+        h(
+          'div',
+          {
+            className: 'w-full h-full max-w-4xl mx-auto flex items-center justify-center gap-3 sm:gap-8'
+          },
+          sec.gifSrc &&
+            h(
+              'div',
+              {
+                className: 'h-full flex items-center justify-center shrink-0 z-10'
+              },
+              h('img', {
+                src: sec.gifSrc,
+                alt: sec.label || '',
+                className: 'h-[104%] sm:h-[108%] w-auto max-w-none object-contain select-none pointer-events-none'
+              })
+            ),
+          h(
+            'div',
+            {
+              className: 'flex items-center justify-center text-center z-10 max-w-[52%] sm:max-w-[55%]'
+            },
+            h(
+              'span',
+              {
+                className: 'text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold leading-tight tracking-tight',
+                style: sec.textStyle || {
+                  color: '#9F133A',
+                  textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
+                }
+              },
+              sec.label
+            )
+          )
+        )
+      )
+    )
+  );
+}
+
+export default function PregnancyHomePage({
+  onBack,
+  onNavigateEducationPage = null,
+  UserLanguageChoice1 = null,
+  lang = 'en',
+  t = {}
+}) {
+  const tr = (key, fallback) => {
+    if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {
+      return UserLanguageChoice1.translate(key, t[key] || fallback);
+    }
+    return t[key] || fallback;
+  };
+
+  const fullScreenSections = [
+    {
+      id: 'questions',
+      label: tr('pregFeelQuestions', 'I have questions'),
+      targetPage: 'QuestionsPregHomePage',
+      gifSrc: '/assets/pregnancy-questions.gif?v=125',
+      // Tone 1: Soft Blossom Pink (#FCE4F4) — zero outline, matches the GIF background seamlessly
+      backgroundStyle: {
+        backgroundColor: '#FCE4F4',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
+      }
+    },
+    {
+      id: 'feeling-good',
+      label: tr('pregFeelGood', "I'm feeling good"),
+      targetPage: 'FeelingGoodPregHomePage',
+      gifSrc: '/assets/pregnancy-feeling-good.gif?v=125',
+      // Tone 2: Warm Rose Pink (#F7C2E4) with seamless green hills & pink path horizon — zero outline
+      backgroundStyle: {
+        background:
+          'linear-gradient(180deg, #F7C2E4 0%, #F7C2E4 65.5%, #95D5B2 65.5%, #74C69D 93.8%, #F3AEDB 93.8%, #F3AEDB 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.9)'
+      }
+    },
+    {
+      id: 'hard-time',
+      label: tr('pregFeelHardTime', "I'm having a hard time"),
+      targetPage: 'HardTimePregHomePage',
+      gifSrc: '/assets/pregnancy-hard-time.gif?v=125',
+      // Tone 3: Deep Berry Rose Pink (#D96B98) with warm plum floor horizon — zero outline & bright white comforting text
+      backgroundStyle: {
+        background:
+          'linear-gradient(180deg, #D96B98 0%, #D96B98 92.8%, #8F1D4B 92.8%, #8F1D4B 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(143, 29, 75, 0.65)'
+      }
+    }
+  ];
+
+  return h(
+    'div',
+    { className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden' },
+    // Top Header Bar: Back Button + Pregnancy Title (UserLanguageChoice1) + Centered Question (UserLanguageChoice1)
+    h(
+      'div',
+      { className: 'w-full px-4 sm:px-6 pt-3 pb-2 shrink-0 bg-white' },
+      h(
+        'div',
+        { className: 'max-w-5xl w-full mx-auto' },
+        renderSubpageBackButton(onBack, t, lang),
+        h(
+          'h1',
+          {
+            className: 'text-2xl sm:text-3xl font-extrabold text-center mt-0.5',
+            style: { color: '#9F133A' }
+          },
+          tr('eduBtnPregnancy', 'Pregnancy')
+        ),
+        h(
+          'p',
+          {
+            className: 'text-sm sm:text-base md:text-lg font-bold text-center mt-1 leading-snug',
+            style: { color: '#CF366C' }
+          },
+          tr('pregFeelingQuestion', 'Every pregnancy is different, how are you feeling about yours?')
+        )
+      )
+    ),
+    h(PregHomePageButtons, {
+      sections: fullScreenSections,
+      onSelectSection: (sec) => {
+        if (onNavigateEducationPage && sec.targetPage) {
+          onNavigateEducationPage(sec.targetPage);
+        }
+      }
+    })
+  );
+}

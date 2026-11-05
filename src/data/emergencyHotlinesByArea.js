@@ -1,0 +1,779 @@
+// ============================================================================
+// Emergency & Crisis Hotlines by Region and Nation across Earth
+// Used at the top of the "Emergency contacts near you!" tab above Hospitals.
+// You can freely add or customize regional or local crisis lines here!
+// ============================================================================
+
+export const REGIONAL_CRISIS_OVERRIDES = [
+  {
+    match: ['bogota', 'bogotá', 'cundinamarca', 'soacha'],
+    nationalNumber: '123',
+    regionalNumber: '01 8000 112 137 (Línea Púrpura Bogotá)',
+    emergencyNumber: '123',
+    crisisLines: [
+      'Línea 155 (SALVIA): Call 155',
+      'Línea 106 (Salud para el Alma): Call 106'
+    ]
+  },
+  {
+    match: ['medellin', 'medellín', 'antioquia'],
+    nationalNumber: '123',
+    regionalNumber: '123 (Agencia Mujer Medellín)',
+    emergencyNumber: '123',
+    crisisLines: [
+      'Línea 155 (SALVIA): Call 155'
+    ]
+  },
+  {
+    match: ['cali', 'valle del cauca'],
+    nationalNumber: '123',
+    regionalNumber: '+57 602 668-8250 (Casa Matria Cali)',
+    emergencyNumber: '123',
+    crisisLines: [
+      'Línea 155 (SALVIA): Call 155'
+    ]
+  },
+  {
+    match: ['massachusetts', 'boston', 'worcester', 'springfield, ma', 'cambridge, ma'],
+    nationalNumber: '911',
+    regionalNumber: '1-877-785-2020 (SafeLink MA)',
+    emergencyNumber: '911',
+    crisisLines: [
+      'National Domestic Violence Hotline: Call 1-800-799-7233',
+      'Suicide & Crisis Lifeline: Call 988'
+    ]
+  },
+  {
+    match: ['lagos', 'ikeja'],
+    nationalNumber: '112',
+    regionalNumber: '767 (Lagos Emergency)',
+    emergencyNumber: '112',
+    crisisLines: [
+      'Lagos State DSVA Crisis Helpline: Call 0800-033-3333',
+      'WARIF 24/7 Crisis Line: Call +234 809 210 0008'
+    ]
+  },
+  {
+    match: ['cox', 'coz', 'ukhiya', 'ukhia', 'kutupalong', 'rohingya', 'teknaf'],
+    nationalNumber: '999',
+    regionalNumber: '+880 1713-377450 (Camp Safe Haven Dispatch)',
+    emergencyNumber: '999',
+    crisisLines: [
+      'Violence Against Women Helpline: Call 109'
+    ]
+  },
+  {
+    match: ['balochistan', 'baluchistan', 'quetta', 'gwadar', 'turbat', 'kalat', 'khuzdar'],
+    nationalNumber: '15 / 1122',
+    regionalNumber: '1089 (Balochistan Protection Line)',
+    emergencyNumber: '15 / 1122',
+    crisisLines: [
+      'National Women & Human Rights Crisis Helpline: Call 1099'
+    ]
+  },
+  {
+    match: ['mexico city', 'ciudad de méxico', 'cdmx', 'iztapalapa', 'cuauhtémoc', 'azcapotzalco'],
+    nationalNumber: '911',
+    regionalNumber: '*765 (SOS Mujeres CDMX)',
+    emergencyNumber: '911',
+    crisisLines: [
+      'Red Nacional de Refugios Crisis Line: Call 800 822 4460'
+    ]
+  }
+];
+
+export const NATIONAL_CRISIS_DIRECTORY = {
+  colombia: {
+    emergencyNumber: '123 (National Emergency, Police & Ambulance)',
+    crisisLines: [
+      'Línea 155 (SALVIA): Call 155 — 24/7 Women’s Crisis & Domestic Violence Support',
+      'Línea 122 (Fiscalía General): Call 122 — Gender-Based Violence Protection'
+    ]
+  },
+  'united states': {
+    emergencyNumber: '911 (Police, Fire & Medical Emergency)',
+    crisisLines: [
+      'National Domestic Violence Hotline: Call 1-800-799-7233 (SAFE) or Text START to 88788',
+      'Suicide & Crisis Lifeline: Call or Text 988',
+      'RAINN National Sexual Assault Hotline: Call 1-800-656-4673'
+    ]
+  },
+  usa: {
+    emergencyNumber: '911 (Police, Fire & Medical Emergency)',
+    crisisLines: [
+      'National Domestic Violence Hotline: Call 1-800-799-7233 (SAFE) or Text START to 88788',
+      'Suicide & Crisis Lifeline: Call or Text 988',
+      'RAINN National Sexual Assault Hotline: Call 1-800-656-4673'
+    ]
+  },
+  canada: {
+    emergencyNumber: '911 (Police, Fire & Medical Emergency)',
+    crisisLines: [
+      'Assaulted Women’s Helpline: Call 1-866-863-0511',
+      'Suicide Crisis Helpline: Call or Text 988',
+      'Hope for Wellness Indigenous Crisis Line: Call 1-855-242-3310'
+    ]
+  },
+  'united kingdom': {
+    emergencyNumber: '999 or 112 (Police, Ambulance & Fire Emergency)',
+    crisisLines: [
+      'National Domestic Abuse Helpline (Refuge): Call 0808 2000 247 (24/7 Free Crisis Support)',
+      'Rape Crisis National Helpline: Call 0808 500 2222'
+    ]
+  },
+  uk: {
+    emergencyNumber: '999 or 112 (Police, Ambulance & Fire Emergency)',
+    crisisLines: [
+      'National Domestic Abuse Helpline (Refuge): Call 0808 2000 247 (24/7 Free Crisis Support)',
+      'Rape Crisis National Helpline: Call 0808 500 2222'
+    ]
+  },
+  ireland: {
+    emergencyNumber: '999 or 112 (Emergency Services)',
+    crisisLines: [
+      'Women’s Aid Ireland 24hr National Freephone Helpline: Call 1800 341 900',
+      'Dublin Rape Crisis Centre National 24hr Helpline: Call 1800 77 8888'
+    ]
+  },
+  brazil: {
+    emergencyNumber: '190 (Military Police) / 192 (SAMU Medical Emergency)',
+    crisisLines: [
+      'Ligue 180 (Central de Atendimento à Mulher): Call 180 or WhatsApp +55 61 9610-0180 — 24/7 Crisis Support'
+    ]
+  },
+  peru: {
+    emergencyNumber: '105 (National Police) / 106 (SAMU Medical Emergency)',
+    crisisLines: [
+      'Línea 100 (MIMP Warmi Ñan / Aurora): Call 100 — 24/7 Women’s & Family Violence Crisis Support'
+    ]
+  },
+  chile: {
+    emergencyNumber: '133 (Carabineros Police) / 131 (SAMU Ambulance)',
+    crisisLines: [
+      'Fono Orientación en Violencia contra las Mujeres (SernamEG): Call 1455 — 24/7 Crisis Support',
+      'Fono Familia Carabineros: Call 149'
+    ]
+  },
+  argentina: {
+    emergencyNumber: '911 (National Emergency) / 107 (SAME Medical Emergency)',
+    crisisLines: [
+      'Línea 144: Call 144 or WhatsApp +54 9 11 2771-6463 — 24/7 Gender Violence Crisis Support',
+      'Línea 137: Call 137 — Emergency Victim Assistance'
+    ]
+  },
+  mexico: {
+    emergencyNumber: '911 (National Emergency)',
+    crisisLines: [
+      'Red Nacional de Refugios Crisis Helpline: Call 800 822 4460 — 24/7 Shelter & Crisis Support',
+      'Línea de la Vida / Crisis Support: Call 800 911 2000'
+    ]
+  },
+  uruguay: {
+    emergencyNumber: '911 (National Police & Emergency) / 105 (SAME Ambulance)',
+    crisisLines: [
+      'Inmujeres Violencia Basada en Género: Call 0800 4141 or *4141 (from mobile) — 24/7 Crisis Support'
+    ]
+  },
+  ecuador: {
+    emergencyNumber: '911 (ECU 911 National Emergency)',
+    crisisLines: [
+      'Línea de Apoyo a Mujeres Víctimas de Violencia: Call 911 (Option for Gender Violence Dispatch)'
+    ]
+  },
+  bolivia: {
+    emergencyNumber: '110 (Police Emergency) / 165 (Medical Emergency)',
+    crisisLines: [
+      'Fuerza Especial de Lucha Contra la Violencia (FELCV): Call 800 14 0348 — 24/7 Toll-Free Crisis Line'
+    ]
+  },
+  paraguay: {
+    emergencyNumber: '911 (National Emergency) / 141 (SEME Ambulance)',
+    crisisLines: [
+      'SOS Mujer (Ministerio de la Mujer): Call 137 — 24/7 Free Crisis Support'
+    ]
+  },
+  venezuela: {
+    emergencyNumber: '911 (VEN 911 National Emergency)',
+    crisisLines: [
+      'PsicoApoyo / Tinta Violeta Crisis Line: Call +58 412-6348902 / +58 424-1659742'
+    ]
+  },
+  'costa rica': {
+    emergencyNumber: '911 (National Emergency & INAMU Crisis Dispatch)',
+    crisisLines: [
+      'INAMU Violencia contra las Mujeres: Call 911 or 800-INAMUCR (800-462-6827)'
+    ]
+  },
+  'el salvador': {
+    emergencyNumber: '911 (National Emergency) / 132 (Medical Emergency)',
+    crisisLines: [
+      'ISDEMU Línea de Atención a Mujeres: Call 126 — 24/7 Crisis Support'
+    ]
+  },
+  guatemala: {
+    emergencyNumber: '110 (National Police) / 122 or 123 (Ambulance)',
+    crisisLines: [
+      'Ministerio Público Línea de Atención a la Mujer: Call 1572 — 24/7 Crisis Support'
+    ]
+  },
+  honduras: {
+    emergencyNumber: '911 (National Emergency)',
+    crisisLines: [
+      'Línea 114 (Mujer Vivir Sin Miedo): Call 114 — 24/7 Women’s Crisis Support'
+    ]
+  },
+  panama: {
+    emergencyNumber: '911 (SUME Medical Emergency) / 104 (Police)',
+    crisisLines: [
+      'Ministerio de la Mujer Línea de Orientación: Call 182'
+    ]
+  },
+  'dominican republic': {
+    emergencyNumber: '911 (National Emergency)',
+    crisisLines: [
+      'Línea Mujer *212 (Ministerio de la Mujer): Call *212 — 24/7 Confidential Crisis Support'
+    ]
+  },
+  nigeria: {
+    emergencyNumber: '112 (National Emergency Dispatch)',
+    crisisLines: []
+  },
+  'south africa': {
+    emergencyNumber: '112 (Mobile Emergency) / 10111 (SAPS Police) / 10177 (Ambulance)',
+    crisisLines: [
+      'GBV Command Centre (Gender-Based Violence): Call 0800 428 428 or *120*7867# — 24/7 Crisis Line',
+      'POWA / Stop Gender Violence Helpline: Call 0800 150 150'
+    ]
+  },
+  namibia: {
+    emergencyNumber: '10111 (Namibian Police) / +264 61 211 111 (Emergency)',
+    crisisLines: [
+      'GBV Protection & Lifeline/Childline Namibia: Call 106 or 116 (Toll-Free Crisis Support)'
+    ]
+  },
+  zimbabwe: {
+    emergencyNumber: '999 or 112 (National Emergency) / 995 (Police)',
+    crisisLines: [
+      'Musasa Project 24/7 Gender-Based Violence Crisis Line: Call 0808 0074'
+    ]
+  },
+  'cabo verde': {
+    emergencyNumber: '132 (Police) / 130 (Medical Emergency)',
+    crisisLines: [
+      'ICIEG Linha Verde Violência Baseada no Género: Call 800 18 18 (Toll-Free Crisis Line)'
+    ]
+  },
+  'cape verde': {
+    emergencyNumber: '132 (Police) / 130 (Medical Emergency)',
+    crisisLines: [
+      'ICIEG Linha Verde Violência Baseada no Género: Call 800 18 18 (Toll-Free Crisis Line)'
+    ]
+  },
+  kenya: {
+    emergencyNumber: '999 or 112 (National Emergency)',
+    crisisLines: [
+      'HAK National GBV Helpline Kenya: Call 1195 (24/7 Toll-Free Crisis Support)'
+    ]
+  },
+  uganda: {
+    emergencyNumber: '999 or 112 (National Emergency)',
+    crisisLines: [
+      'Sauti National GBV Helpline Uganda: Call 116 (Toll-Free Crisis Support)'
+    ]
+  },
+  tanzania: {
+    emergencyNumber: '112 or 114 (National Emergency)',
+    crisisLines: [
+      'National Crisis Helpline: Call 116'
+    ]
+  },
+  ethiopia: {
+    emergencyNumber: '911 or 991 (Police) / 907 (Red Cross Ambulance)',
+    crisisLines: [
+      'AWSAD / Women’s Protection Hotline Addis Ababa: Call 7711 or 6388'
+    ]
+  },
+  somalia: {
+    emergencyNumber: '888 (Police) / 999 (Emergency)',
+    crisisLines: [
+      'Somali Women Development Center (SWDC) Crisis Hotline: Call 5555'
+    ]
+  },
+  rwanda: {
+    emergencyNumber: '112 (National Police Emergency) / 912 (SAMU Ambulance)',
+    crisisLines: [
+      'Isange One Stop Centre GBV Hotline: Call 3512 or 3029 (24/7 Toll-Free)'
+    ]
+  },
+  ghana: {
+    emergencyNumber: '112 or 191 (Police) / 193 (Ambulance)',
+    crisisLines: [
+      'DOVVSU Domestic Violence Helpline: Call 0800 111 222'
+    ]
+  },
+  morocco: {
+    emergencyNumber: '19 (Police) / 15 (Ambulance) / 177 (Gendarmerie)',
+    crisisLines: [
+      'Kolona Maak National Women’s Violence Helpline: Call 8350 (24/7 Crisis Line)'
+    ]
+  },
+  egypt: {
+    emergencyNumber: '122 (Police) / 123 (Ambulance)',
+    crisisLines: [
+      'National Council for Women (NCW) Crisis Hotline: Call 15115'
+    ]
+  },
+  bangladesh: {
+    emergencyNumber: '999 (National Emergency Police, Fire & Ambulance)',
+    crisisLines: [
+      'National Helpline Center for Violence Against Women: Call 109 (24/7 Toll-Free)'
+    ]
+  },
+  pakistan: {
+    emergencyNumber: '15 (Police) / 1122 (Rescue & Ambulance)',
+    crisisLines: [
+      'Ministry of Human Rights Helpline: Call 1099',
+      'Rozan / Madadgaar Women Crisis Helpline: Call 1098'
+    ]
+  },
+  india: {
+    emergencyNumber: '112 (All-India Emergency Response)',
+    crisisLines: [
+      'Women Helpline (All-India): Call 181 or 1091 — 24/7 Crisis & Domestic Abuse Support',
+      'NCW 24/7 Women’s Distress Helpline: Call 7827-170-170'
+    ]
+  },
+  nepal: {
+    emergencyNumber: '100 (Police) / 102 (Ambulance)',
+    crisisLines: [
+      'Khabar Garau 1145 (National Women Commission Helpline): Call 1145 (24/7 Toll-Free)'
+    ]
+  },
+  afghanistan: {
+    emergencyNumber: '119 (Police) / 102 (Ambulance)',
+    crisisLines: []
+  },
+  philippines: {
+    emergencyNumber: '911 (National Emergency Hotline)',
+    crisisLines: [
+      'PNP Women and Children Protection Center Crisis Line: Call +63 2 8532-6690'
+    ]
+  },
+  indonesia: {
+    emergencyNumber: '112 (National Emergency) / 110 (Police) / 118 (Ambulance)',
+    crisisLines: [
+      'SAPA 129 (Ministry of Women Empowerment Crisis Line): Call 129 or WhatsApp +62 8111-129-129'
+    ]
+  },
+  japan: {
+    emergencyNumber: '110 (Police) / 119 (Ambulance & Fire)',
+    crisisLines: [
+      'DV Soudan Plus (24/7 Domestic Violence Crisis Line): Call 0120-279-889',
+      'Cure Time / Spousal Violence Counseling: Call 0570-0-55210'
+    ]
+  },
+  'south korea': {
+    emergencyNumber: '112 (Police) / 119 (Ambulance & Fire)',
+    crisisLines: [
+      'Women’s Emergency Hotline Korea: Call 1366 (24/7 Multilingual Crisis Support)'
+    ]
+  },
+  australia: {
+    emergencyNumber: '000 (Triple Zero — Police, Fire & Ambulance)',
+    crisisLines: [
+      '1800RESPECT (National Domestic, Family & Sexual Violence Line): Call 1800 737 732 (24/7)',
+      'Lifeline Australia: Call 13 11 14'
+    ]
+  },
+  'new zealand': {
+    emergencyNumber: '111 (Police, Fire & Ambulance Emergency)',
+    crisisLines: [
+      'Women’s Refuge Crisis Line: Call 0800 733 843 (0800 REFUGE — 24/7)',
+      'Are You OK Family Violence Line: Call 0800 456 450'
+    ]
+  },
+  france: {
+    emergencyNumber: '112 (European Emergency) / 15 (SAMU Ambulance) / 17 (Police)',
+    crisisLines: [
+      'Violences Femmes Info: Call 3919 (24/7 Free & Anonymous Crisis Line)'
+    ]
+  },
+  spain: {
+    emergencyNumber: '112 (General Emergency) / 091 (National Police)',
+    crisisLines: [
+      'Atención a Víctimas de Violencia de Género: Call 016 or WhatsApp +34 600 000 016 (24/7, Leaves No Bill Trace)'
+    ]
+  },
+  italy: {
+    emergencyNumber: '112 (Single Emergency Number) / 118 (Medical Emergency)',
+    crisisLines: [
+      'Numero Antiviolenza e Stalking: Call 1522 (24/7 Free & Multilingual Crisis Support)'
+    ]
+  },
+  germany: {
+    emergencyNumber: '112 (Ambulance & Fire) / 110 (Police)',
+    crisisLines: [
+      'Hilfetelefon Gewalt gegen Frauen: Call 116 016 (24/7 Free & Confidential in 18 Languages)'
+    ]
+  },
+  portugal: {
+    emergencyNumber: '112 (National Emergency)',
+    crisisLines: [
+      'CIG Informação a Vítimas de Violência Doméstica: Call 800 202 148 or SMS 3060 (24/7 Free)'
+    ]
+  },
+  turkey: {
+    emergencyNumber: '112 (Single National Emergency)',
+    crisisLines: [
+      'ALO 183 (Social Support & Violence Against Women Line): Call 183 (24/7 Free)'
+    ]
+  },
+  ukraine: {
+    emergencyNumber: '112 (General Emergency) / 102 (Police) / 103 (Ambulance)',
+    crisisLines: [
+      'La Strada Ukraine National Domestic Violence Hotline: Call 116 123 or 0 800 500 335 (24/7 Free)'
+    ]
+  },
+  poland: {
+    emergencyNumber: '112 (General Emergency) / 997 (Police) / 999 (Ambulance)',
+    crisisLines: [
+      'Niebieska Linia (Blue Line Domestic Violence Helpline): Call 800 120 002 (24/7 Free)'
+    ]
+  },
+  netherlands: {
+    emergencyNumber: '112 (National Emergency)',
+    crisisLines: [
+      'Veilig Thuis (Domestic Violence & Abuse Advice Line): Call 0800 2000 (24/7 Free)'
+    ]
+  },
+  belgium: {
+    emergencyNumber: '112 (Emergency & Ambulance) / 101 (Police)',
+    crisisLines: [
+      'Écoute Violences Conjugales: Call 0800 30 030 / Veilig Thuis Crisis Line: Call 1712'
+    ]
+  },
+  sweden: {
+    emergencyNumber: '112 (National Emergency)',
+    crisisLines: [
+      'Kvinnofridslinjen (National Women’s Peace Line): Call 020-50 50 50 (24/7 Free)'
+    ]
+  },
+  norway: {
+    emergencyNumber: '112 (Police) / 113 (Ambulance)',
+    crisisLines: [
+      'VO-linjen (Domestic Violence Helpline): Call 116 006 (24/7 Free)'
+    ]
+  },
+  denmark: {
+    emergencyNumber: '112 (National Emergency)',
+    crisisLines: [
+      'Lev Uden Vold (Live Without Violence National Hotline): Call 1888 (24/7 Free)'
+    ]
+  },
+  finland: {
+    emergencyNumber: '112 (National Emergency)',
+    crisisLines: [
+      'Nollalinja (Zero Line Domestic Violence Support): Call 080 005 005 (24/7 Free)'
+    ]
+  },
+  switzerland: {
+    emergencyNumber: '112 (General Emergency) / 117 (Police) / 144 (Ambulance)',
+    crisisLines: [
+      'Die Dargebotene Hand / La Main Tendue Crisis Line: Call 143 (24/7)'
+    ]
+  },
+  austria: {
+    emergencyNumber: '112 (General Emergency) / 133 (Police) / 144 (Ambulance)',
+    crisisLines: [
+      'Frauenhelpline gegen Gewalt (Women’s Helpline Against Violence): Call 0800 222 555 (24/7 Free)'
+    ]
+  },
+  greece: {
+    emergencyNumber: '112 (General Emergency) / 100 (Police) / 166 (EKAB Ambulance)',
+    crisisLines: [
+      'SOS 15900 (General Secretariat for Equality Women’s Crisis Line): Call 15900 (24/7)'
+    ]
+  },
+  romania: {
+    emergencyNumber: '112 (Single National Emergency)',
+    crisisLines: [
+      'ANES National Domestic Violence Helpline: Call 0800 500 333 (24/7 Toll-Free)'
+    ]
+  },
+  'czech republic': {
+    emergencyNumber: '112 (General Emergency) / 158 (Police) / 155 (Ambulance)',
+    crisisLines: [
+      'ROSA / Bílý kruh bezpečí Crisis Line: Call 116 006 (24/7 Toll-Free Victim Support)'
+    ]
+  },
+  hungary: {
+    emergencyNumber: '112 (Single National Emergency)',
+    crisisLines: [
+      'OKIT National Crisis & Domestic Violence Hotline: Call 06-80-20-55-20 (24/7 Free)'
+    ]
+  },
+  china: {
+    emergencyNumber: '110 (Police) / 120 (Ambulance)',
+    crisisLines: [
+      'All-China Women’s Federation Rights & Anti-Domestic Violence Hotline: Call 12338'
+    ]
+  },
+  taiwan: {
+    emergencyNumber: '110 (Police) / 119 (Ambulance & Fire)',
+    crisisLines: [
+      '113 Protection Hotline (Domestic Violence & Sexual Assault): Call 113 (24/7 Toll-Free)'
+    ]
+  },
+  thailand: {
+    emergencyNumber: '191 (Police) / 1669 (Medical Emergency)',
+    crisisLines: [
+      'One Stop Crisis Center (OSCC) Social Assistance Hotline: Call 1300 (24/7)'
+    ]
+  },
+  vietnam: {
+    emergencyNumber: '113 (Police) / 115 (Medical Emergency)',
+    crisisLines: [
+      'Peace House (Ngôi Nhà Bình Yên) Women’s Shelter Hotline: Call 1900 969 680'
+    ]
+  },
+  malaysia: {
+    emergencyNumber: '999 (National Emergency)',
+    crisisLines: [
+      'Talian Kasih 15999 (Ministry of Women Crisis Line): Call 15999 or WhatsApp +60 19-261 5999 (24/7)',
+      'Women’s Aid Organisation (WAO) Hotline: Call +60 3 3000 8858'
+    ]
+  },
+  singapore: {
+    emergencyNumber: '999 (Police) / 995 (Emergency Ambulance)',
+    crisisLines: [
+      'National Anti-Violence & Sexual Harassment Helpline (NAVH): Call 1800-777-0000 (24/7)',
+      'AWARE Women’s Helpline: Call 1800-777-5555'
+    ]
+  },
+  'sri lanka': {
+    emergencyNumber: '119 (Police Emergency) / 1990 (Suwa Seriya Ambulance)',
+    crisisLines: [
+      'Mithuru Piyasa / National Women’s Helpline: Call 1938 (24/7 Toll-Free)'
+    ]
+  },
+  myanmar: {
+    emergencyNumber: '199 (Police) / 192 (Ambulance)',
+    crisisLines: []
+  },
+  lebanon: {
+    emergencyNumber: '112 (Internal Security Police) / 140 (Red Cross Ambulance)',
+    crisisLines: [
+      'ABAAD Safe Line for Women: Call +961 81 78 81 78 (24/7 Crisis Support)',
+      'KAFA Violence & Exploitation 24/7 Helpline: Call +961 3 018 019'
+    ]
+  },
+  jordan: {
+    emergencyNumber: '911 (Unified National Emergency)',
+    crisisLines: [
+      'Family Protection Department / Jordanian Women’s Union Hotline: Call +962 6 567 4777'
+    ]
+  },
+  palestine: {
+    emergencyNumber: '100 (Police) / 101 (Red Crescent Ambulance)',
+    crisisLines: [
+      'SAWA All-Woman Crisis & Anti-Violence Helpline: Call 121 (Toll-Free)'
+    ]
+  },
+  syria: {
+    emergencyNumber: '112 (Police) / 110 (Ambulance)',
+    crisisLines: []
+  },
+  iraq: {
+    emergencyNumber: '104 (Police) / 122 (Ambulance)',
+    crisisLines: [
+      'Family & Child Protection Directorate Hotline: Call 139'
+    ]
+  },
+  yemen: {
+    emergencyNumber: '199 (Police & Emergency)',
+    crisisLines: []
+  },
+  sudan: {
+    emergencyNumber: '999 (National Emergency)',
+    crisisLines: []
+  },
+  'south sudan': {
+    emergencyNumber: '777 (National Police Emergency)',
+    crisisLines: []
+  },
+  'democratic republic of the congo': {
+    emergencyNumber: '112 (Emergency)',
+    crisisLines: []
+  },
+  cameroon: {
+    emergencyNumber: '112 or 117 (Police) / 119 (Medical Emergency)',
+    crisisLines: []
+  },
+  senegal: {
+    emergencyNumber: '17 (Police) / 1515 (SAMU Ambulance)',
+    crisisLines: [
+      'Ligne Verte Violences Basées sur le Genre (Ministry of Women): Call 116 (Toll-Free)'
+    ]
+  },
+  algeria: {
+    emergencyNumber: '1548 (Police) / 14 (Civil Protection Ambulance)',
+    crisisLines: [
+      'Ministry of National Solidarity Women’s Distress Line: Call 1026'
+    ]
+  },
+  tunisia: {
+    emergencyNumber: '197 (Police) / 190 (SAMU Ambulance)',
+    crisisLines: [
+      'Ligne Verte contre les Violences faites aux Femmes: Call 1899 (24/7 Toll-Free)'
+    ]
+  },
+  zambia: {
+    emergencyNumber: '999 or 991 (Police Emergency)',
+    crisisLines: [
+      'Lifeline / GBV Crisis Helpline Zambia: Call 933 or 116 (Toll-Free)'
+    ]
+  },
+  malawi: {
+    emergencyNumber: '997 (Police) / 998 (Ambulance)',
+    crisisLines: [
+      'Tithandizane National GBV Helpline: Call 5600 (Toll-Free)'
+    ]
+  },
+  mozambique: {
+    emergencyNumber: '112 or 119 (National Emergency)',
+    crisisLines: [
+      'Linha Fala Criança & Violência Baseada no Género: Call 116'
+    ]
+  },
+  haiti: {
+    emergencyNumber: '114 (National Police) / 116 (National Ambulance Center)',
+    crisisLines: []
+  },
+  jamaica: {
+    emergencyNumber: '119 (Police Emergency) / 110 (Ambulance)',
+    crisisLines: [
+      'Woman Inc. 24-Hour Crisis Hotline: Call +1 876-929-2997'
+    ]
+  },
+  'trinidad and tobago': {
+    emergencyNumber: '999 (Police) / 811 (Ambulance)',
+    crisisLines: [
+      'National Domestic Violence Hotline: Call 800-SAVE (800-7283) — 24/7 Toll-Free'
+    ]
+  },
+  cuba: {
+    emergencyNumber: '106 (Police) / 104 (Ambulance)',
+    crisisLines: [
+      'Línea Confiable para las Mujeres (FMC): Call 103'
+    ]
+  },
+  nicaragua: {
+    emergencyNumber: '118 (National Police) / 128 (Red Cross Ambulance)',
+    crisisLines: []
+  }
+};
+
+function extractCleanNationalNumber(rawStr = '') {
+  // Strip parenthetical explanations so "123 (National Emergency...)" -> "123"
+  // and "190 (Military Police) / 192 (SAMU Medical Emergency)" -> "190 / 192"
+  const stripped = String(rawStr)
+    .replace(/\([^)]*\)/g, '')
+    .replace(/\s+/g, ' ')
+    .replace(/\s*\/\s*/g, ' / ')
+    .trim();
+  return stripped || rawStr;
+}
+
+function parseCrisisLineToItem(lineStr = '') {
+  if (typeof lineStr === 'object' && lineStr !== null) {
+    return lineStr;
+  }
+  const str = String(lineStr);
+  // Pattern: "Name: Call 155 — Description" or "Name: Call 155"
+  const parts = str.split(':');
+  if (parts.length >= 2) {
+    const rawName = parts[0].trim();
+    const rest = parts.slice(1).join(':').trim();
+    const beforeDash = rest.split('—')[0].trim();
+    const cleanNum = beforeDash
+      .replace(/^Call\s+or\s+Text\s+/i, '')
+      .replace(/^Call\s+/i, '')
+      .replace(/\([^)]*\)/g, '')
+      .trim();
+    const labelText = rawName.toLowerCase().startsWith('crisis') ? rawName : `Crisis (${rawName})`;
+    return {
+      label: labelText,
+      originalName: rawName,
+      number: cleanNum || beforeDash
+    };
+  }
+  return {
+    label: 'Crisis',
+    originalName: '',
+    number: str
+  };
+}
+
+export function getImmediateCrisisInfoForArea(currentRegion, closestHospitals = [], closestShelters = []) {
+  const nearestFacility = closestHospitals[0] || closestShelters[0] || null;
+  const searchPool = [
+    currentRegion?.nameEn || '',
+    currentRegion?.nameLocal || '',
+    currentRegion?.country || '',
+    nearestFacility?.regionDistrict || '',
+    nearestFacility?.address?.en || ''
+  ]
+    .join(' ')
+    .toLowerCase();
+
+  // 1. Check specific regional/city overrides first (e.g. Bogotá, Massachusetts, Lagos, Cox's Bazar, Balochistan)
+  for (const override of REGIONAL_CRISIS_OVERRIDES) {
+    if (override.match.some((kw) => searchPool.includes(kw))) {
+      return {
+        nationalNumber: override.nationalNumber || extractCleanNationalNumber(override.emergencyNumber),
+        regionalNumber: override.regionalNumber || null,
+        emergencyNumber: override.emergencyNumber,
+        crisisLines: override.crisisLines || [],
+        crisisItems: (override.crisisLines || []).map(parseCrisisLineToItem)
+      };
+    }
+  }
+
+  // 2. Check country match against NATIONAL_CRISIS_DIRECTORY
+  for (const [countryKey, info] of Object.entries(NATIONAL_CRISIS_DIRECTORY)) {
+    if (searchPool.includes(countryKey)) {
+      return {
+        nationalNumber: info.nationalNumber || extractCleanNationalNumber(info.emergencyNumber),
+        regionalNumber: info.regionalNumber || null,
+        emergencyNumber: info.emergencyNumber,
+        crisisLines: info.crisisLines || [],
+        crisisItems: (info.crisisLines || []).map(parseCrisisLineToItem)
+      };
+    }
+  }
+
+  // 3. Fallback: derive from the closest facility's emergencyHotline field if present, else standard 112 / 911 / 999
+  const rawFacilityHotline =
+    nearestFacility?.emergencyHotline ||
+    closestShelters[0]?.emergencyHotline ||
+    closestHospitals[0]?.emergencyHotline ||
+    '';
+  if (rawFacilityHotline && !/112 \/ 911|Local Emergency/i.test(rawFacilityHotline)) {
+    const cleaned = extractCleanNationalNumber(rawFacilityHotline);
+    return {
+      nationalNumber: cleaned,
+      regionalNumber: null,
+      emergencyNumber: `${rawFacilityHotline}`,
+      crisisLines: [],
+      crisisItems: []
+    };
+  }
+
+  return {
+    nationalNumber: '112 / 911 / 999',
+    regionalNumber: null,
+    emergencyNumber: '112 / 911 / 999',
+    crisisLines: [],
+    crisisItems: []
+  };
+}

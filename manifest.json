@@ -1,0 +1,17 @@
+{
+  "name": "FemPowHer — Global Women's Reproductive Care & Safe Haven Map",
+  "short_name": "FemPowHer",
+  "description": "Local-first multilingual reproductive health, safe haven clinic map, emergency contacts, and age-specific medical guidance for women worldwide.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFBF7",
+  "theme_color": "#9D174D",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

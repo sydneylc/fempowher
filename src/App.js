@@ -39,7 +39,7 @@ import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=128';
 import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=128';
 import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=128';
 import MenopauseHomePage from './pages/MenopauseHomePage.js?v=119';
-import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=129';
+import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=130';
 import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=128';
 import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=128';
 import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=128';
@@ -198,7 +198,7 @@ export default function App() {
       setCustomTranslatedUi(null);
       return;
     }
-    const cacheKey = `fempowher_ai_ui_v97_${tlTarget}`;
+    const cacheKey = `fempowher_ai_ui_v130_${tlTarget}`;
     try {
       const cached = localStorage.getItem(cacheKey);
       if (cached) {
@@ -277,6 +277,10 @@ export default function App() {
       'pregSubPostpartum',
       'eduBtnMenopause',
       'eduBtnMenstrualCycle',
+      'cycleBtnFirstPeriod',
+      'cycleBtnMyCycle',
+      'cycleBtnPeriodsWorst',
+      'cycleBtnPeriodStopped',
       'eduBtnSexualHealth',
       'eduBtnDiseasesInjuries',
       'eduBtnForMe',

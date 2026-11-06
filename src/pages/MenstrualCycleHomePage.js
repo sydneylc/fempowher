@@ -67,15 +67,15 @@ export default function MenstrualCycleHomePage({
       id: 'period-stopped',
       label: tr('cycleBtnPeriodStopped', 'My period stopped!'),
       targetPage: 'PeriodStoppedHomePage',
-      gifSrc: '/assets/menstrual-period-stopped.gif?v=129',
+      gifSrc: '/assets/menstrual-period-stopped.gif?v=130',
       // Tone 4: Deep Berry Rose Pink (#D96B98) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#D96B98',
         border: 'none'
       },
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(143, 29, 75, 0.65)'
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.92)'
       }
     }
   ];

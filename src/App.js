@@ -10,7 +10,7 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=134';
+} from './data/translations.js?v=138';
 import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=132';
 import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=123';
 import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=120';
@@ -27,6 +27,7 @@ import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=18';
 import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=119';
 import MapLegend1 from './pages/MapLegend1.js?v=18';
 import DatabasePage1 from './pages/DatabasePage1.js?v=94';
+import MyBodyHomePage from './pages/MyBodyHomePage.js?v=138';
 import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=128';
 import PregnancyHomePage from './pages/PregnancyHomePage.js?v=137';
 import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=137';
@@ -262,6 +263,7 @@ export default function App() {
       'issuesSubtitle',
       'eduHeaderTitle',
       'eduSwitchAgePrompt',
+      'eduBtnMyBody',
       'eduBtnPregnancyAndBirth',
       'eduBtnPregnancy',
       'eduBtnPreConception',
@@ -1636,6 +1638,12 @@ export default function App() {
       : 'Your Country';
   const educationTableButtons = [
     {
+      id: 'my-body',
+      page: 'MyBodyHomePage',
+      label: t.eduBtnMyBody || 'My Body!',
+      shade: 'standard'
+    },
+    {
       id: 'pregnancy-and-birth',
       page: 'PregnancyAndBirthHomePage',
       label: t.eduBtnPregnancyAndBirth || 'Pregnancy & Birth',
@@ -2443,6 +2451,13 @@ export default function App() {
             onShowNearestClinic: handleShowNearestClinicFromEdu
           };
 
+          if (educationPage === 'MyBodyHomePage') {
+            return h(MyBodyHomePage, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage(null),
+              onNavigateEducationPage: (targetPage) => setEducationPage(targetPage)
+            });
+          }
           if (educationPage === 'PregnancyAndBirthHomePage') {
             return h(PregnancyAndBirthHomePage, {
               ...commonEduPageProps,

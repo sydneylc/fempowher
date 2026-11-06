@@ -10,7 +10,7 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=133';
+} from './data/translations.js?v=134';
 import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=132';
 import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=123';
 import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=120';

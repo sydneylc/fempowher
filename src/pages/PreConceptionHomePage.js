@@ -22,7 +22,7 @@ export default function PreConceptionHomePage({
       id: 'thinking-about-baby',
       label: tr('preConBtnThinking', "I'm thinking about having a baby!"),
       targetPage: 'ThinkingAboutBabyHomePage',
-      gifSrc: '/assets/preconception-thinking.gif?v=133',
+      gifSrc: '/assets/preconception-thinking.gif?v=135',
       // Tone 1: Soft Petal Pink (#FCE4F4) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#FCE4F4',
@@ -37,8 +37,8 @@ export default function PreConceptionHomePage({
       id: 'trying-to-have-baby',
       label: tr('preConBtnTrying', "I'm trying to have a baby!"),
       targetPage: 'TryingToHaveBabyHomePage',
-      gifSrc: null, // Ready for GIF when uploaded later
-      // Tone 2: Warm Rose Blossom Pink (#F8CBE6) — zero outline
+      gifSrc: '/assets/preconception-trying.gif?v=135',
+      // Tone 2: Warm Rose Blossom Pink (#F8CBE6) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#F8CBE6',
         border: 'none'
@@ -52,8 +52,8 @@ export default function PreConceptionHomePage({
       id: 'hard-time-getting-pregnant',
       label: tr('preConBtnHardTime', "I'm having a hard time getting pregnant!"),
       targetPage: 'HardTimeGettingPregnantHomePage',
-      gifSrc: null, // Ready for GIF when uploaded later
-      // Tone 3: Mauve-Rose Pink (#EDA4C6) — zero outline
+      gifSrc: '/assets/preconception-hard-time.gif?v=135',
+      // Tone 3: Mauve-Rose Pink (#EDA4C6) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#EDA4C6',
         border: 'none'

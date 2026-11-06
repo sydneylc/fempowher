@@ -169,7 +169,10 @@ export function PregHomePageButtons({ sections = [], onSelectSection = () => {} 
               h('img', {
                 src: sec.gifSrc,
                 alt: sec.label || '',
-                className: 'h-[104%] sm:h-[108%] w-auto max-w-none object-contain select-none pointer-events-none'
+                className:
+                  sec.imgClassName ||
+                  'h-[104%] sm:h-[108%] w-auto max-w-none object-contain select-none pointer-events-none',
+                style: sec.imgStyle || undefined
               })
             ),
           h(

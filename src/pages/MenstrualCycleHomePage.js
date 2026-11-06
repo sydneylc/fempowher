@@ -1,40 +1,113 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=119';
+import { PregHomePageButtons, renderSubpageBackButton } from './PregnancyHomePage.js?v=128';
 
 const h = React.createElement;
 
 export default function MenstrualCycleHomePage({
   onBack,
-  issues = [],
+  onNavigateEducationPage = null,
+  UserLanguageChoice1 = null,
   lang = 'en',
-  t = {},
-  speakingId = null,
-  speakText = () => {},
-  onShowNearestClinic = () => {}
+  t = {}
 }) {
+  const tr = (key, fallback) => {
+    if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {
+      return UserLanguageChoice1.translate(key, t[key] || fallback);
+    }
+    return t[key] || fallback;
+  };
+
+  const fullScreenSections = [
+    {
+      id: 'first-period',
+      label: tr('cycleBtnFirstPeriod', 'I got my first period!'),
+      targetPage: 'FirstPeriodHomePage',
+      gifSrc: '/assets/menstrual-first-period.gif?v=128',
+      // Tone 1: Soft Petal Pink (#FCE4F4) — zero outline, matches GIF background seamlessly
+      backgroundStyle: {
+        backgroundColor: '#FCE4F4',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
+      }
+    },
+    {
+      id: 'my-cycle',
+      label: tr('cycleBtnMyCycle', 'My cycle!'),
+      targetPage: 'MyCycleSubHomePage',
+      gifSrc: '/assets/menstrual-my-cycle.gif?v=128',
+      // Tone 2: Warm Rose Blossom Pink (#F8CBE6) — zero outline, matches GIF background seamlessly
+      backgroundStyle: {
+        backgroundColor: '#F8CBE6',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.9)'
+      }
+    },
+    {
+      id: 'periods-worst',
+      label: tr('cycleBtnPeriodsWorst', 'My periods are the worst!'),
+      targetPage: 'PainfulPeriodsHomePage',
+      gifSrc: '/assets/menstrual-periods-worst.gif?v=128',
+      // Tone 3: Mauve-Rose Pink (#EDA4C6) — zero outline, matches GIF background seamlessly
+      backgroundStyle: {
+        backgroundColor: '#EDA4C6',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.85)'
+      }
+    },
+    {
+      id: 'period-stopped',
+      label: tr('cycleBtnPeriodStopped', 'My period stopped!'),
+      targetPage: 'PeriodStoppedHomePage',
+      gifSrc: '/assets/menstrual-period-stopped.gif?v=128',
+      // Tone 4: Deep Berry Rose Pink (#D96B98) — zero outline, matches GIF background seamlessly
+      backgroundStyle: {
+        backgroundColor: '#D96B98',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(143, 29, 75, 0.65)'
+      }
+    }
+  ];
+
   return h(
     'div',
-    { className: 'min-h-full w-full bg-white flex flex-col p-4 sm:p-6' },
+    { className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden' },
+    // Top Header Bar: Back Button + Menstrual Cycle Title (UserLanguageChoice1)
     h(
       'div',
-      { className: 'max-w-3xl w-full mx-auto' },
-      renderSubpageBackButton(onBack, t, lang),
+      { className: 'w-full px-4 sm:px-6 pt-3 pb-2 shrink-0 bg-white' },
       h(
-        'h1',
-        {
-          className: 'text-2xl sm:text-3xl font-extrabold text-center mt-4',
-          style: { color: '#9F133A' }
-        },
-        t.eduBtnMenstrualCycle || 'Menstrual Cycle'
-      ),
-      renderEducationIssueCards({
-        issues,
-        lang,
-        t,
-        speakingId,
-        speakText,
-        onShowNearestClinic
-      })
-    )
+        'div',
+        { className: 'max-w-5xl w-full mx-auto' },
+        renderSubpageBackButton(onBack, t, lang),
+        h(
+          'h1',
+          {
+            className: 'text-2xl sm:text-3xl font-extrabold text-center mt-0.5',
+            style: { color: '#9F133A' }
+          },
+          tr('eduBtnMenstrualCycle', 'Menstrual Cycle')
+        )
+      )
+    ),
+    h(PregHomePageButtons, {
+      sections: fullScreenSections,
+      onSelectSection: (sec) => {
+        if (onNavigateEducationPage && sec.targetPage) {
+          onNavigateEducationPage(sec.targetPage);
+        }
+      }
+    })
   );
 }

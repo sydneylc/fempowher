@@ -10,7 +10,7 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=127';
+} from './data/translations.js?v=128';
 import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=120';
 import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=123';
 import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=120';
@@ -27,19 +27,23 @@ import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=18';
 import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=119';
 import MapLegend1 from './pages/MapLegend1.js?v=18';
 import DatabasePage1 from './pages/DatabasePage1.js?v=94';
-import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=127';
-import PregnancyHomePage from './pages/PregnancyHomePage.js?v=127';
-import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=127';
-import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=127';
-import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=127';
-import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=127';
-import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=127';
-import PostpartumHomePage from './pages/PostpartumHomePage.js?v=127';
-import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=127';
-import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=127';
-import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=127';
+import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=128';
+import PregnancyHomePage from './pages/PregnancyHomePage.js?v=128';
+import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=128';
+import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=128';
+import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=128';
+import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=128';
+import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=128';
+import PostpartumHomePage from './pages/PostpartumHomePage.js?v=128';
+import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=128';
+import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=128';
+import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=128';
 import MenopauseHomePage from './pages/MenopauseHomePage.js?v=119';
-import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=119';
+import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=128';
+import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=128';
+import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=128';
+import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=128';
+import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=128';
 import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=119';
 import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=119';
 import ForMeHomePage from './pages/ForMeHomePage.js?v=119';
@@ -2508,7 +2512,33 @@ export default function App() {
           if (educationPage === 'MenstrualCycleHomePage') {
             return h(MenstrualCycleHomePage, {
               ...commonEduPageProps,
+              onBack: () => setEducationPage(null),
+              onNavigateEducationPage: (targetPage) => setEducationPage(targetPage)
+            });
+          }
+          if (educationPage === 'FirstPeriodHomePage') {
+            return h(FirstPeriodHomePage, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage('MenstrualCycleHomePage'),
               issues: getEducationTopicIssues('menstrual-cycle', userCountryForStories, ageGroup)
+            });
+          }
+          if (educationPage === 'MyCycleSubHomePage') {
+            return h(MyCycleSubHomePage, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage('MenstrualCycleHomePage')
+            });
+          }
+          if (educationPage === 'PainfulPeriodsHomePage') {
+            return h(PainfulPeriodsHomePage, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage('MenstrualCycleHomePage')
+            });
+          }
+          if (educationPage === 'PeriodStoppedHomePage') {
+            return h(PeriodStoppedHomePage, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage('MenstrualCycleHomePage')
             });
           }
           if (educationPage === 'SexualHealthHomePage') {

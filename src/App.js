@@ -10,7 +10,7 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=128';
+} from './data/translations.js?v=133';
 import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=132';
 import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=123';
 import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=120';
@@ -28,8 +28,11 @@ import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=11
 import MapLegend1 from './pages/MapLegend1.js?v=18';
 import DatabasePage1 from './pages/DatabasePage1.js?v=94';
 import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=128';
-import PregnancyHomePage from './pages/PregnancyHomePage.js?v=128';
-import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=128';
+import PregnancyHomePage from './pages/PregnancyHomePage.js?v=133';
+import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=133';
+import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=133';
+import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=133';
+import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=133';
 import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=128';
 import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=128';
 import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=128';
@@ -198,7 +201,7 @@ export default function App() {
       setCustomTranslatedUi(null);
       return;
     }
-    const cacheKey = `fempowher_ai_ui_v131_${tlTarget}`;
+    const cacheKey = `fempowher_ai_ui_v133_${tlTarget}`;
     try {
       const cached = localStorage.getItem(cacheKey);
       if (cached) {
@@ -262,6 +265,9 @@ export default function App() {
       'eduBtnPregnancyAndBirth',
       'eduBtnPregnancy',
       'eduBtnPreConception',
+      'preConBtnThinking',
+      'preConBtnTrying',
+      'preConBtnHardTime',
       'eduBtnChildbirth',
       'eduBtnPostpartum',
       'eduBtnMiscarriage',
@@ -2455,7 +2461,26 @@ export default function App() {
             return h(PreConceptionHomePage, {
               ...commonEduPageProps,
               onBack: () => setEducationPage('PregnancyAndBirthHomePage'),
+              onNavigateEducationPage: (targetPage) => setEducationPage(targetPage)
+            });
+          }
+          if (educationPage === 'ThinkingAboutBabyHomePage') {
+            return h(ThinkingAboutBabyHomePage, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage('PreConceptionHomePage'),
               issues: getEducationTopicIssues('trying-to-conceive', userCountryForStories, ageGroup)
+            });
+          }
+          if (educationPage === 'TryingToHaveBabyHomePage') {
+            return h(TryingToHaveBabyHomePage, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage('PreConceptionHomePage')
+            });
+          }
+          if (educationPage === 'HardTimeGettingPregnantHomePage') {
+            return h(HardTimeGettingPregnantHomePage, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage('PreConceptionHomePage')
             });
           }
           if (educationPage === 'FeelingGoodPregHomePage') {

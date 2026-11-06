@@ -175,7 +175,9 @@ export function PregHomePageButtons({ sections = [], onSelectSection = () => {} 
           h(
             'div',
             {
-              className: 'flex items-center justify-center text-center z-10 max-w-[52%] sm:max-w-[55%]'
+              className: sec.gifSrc
+                ? 'flex items-center justify-center text-center z-10 max-w-[52%] sm:max-w-[55%]'
+                : 'flex items-center justify-center text-center z-10 max-w-[88%] sm:max-w-[80%]'
             },
             h(
               'span',

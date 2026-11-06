@@ -10,7 +10,7 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=138';
+} from './data/translations.js?v=140';
 import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=132';
 import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=123';
 import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=120';
@@ -28,6 +28,7 @@ import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=11
 import MapLegend1 from './pages/MapLegend1.js?v=18';
 import DatabasePage1 from './pages/DatabasePage1.js?v=94';
 import MyBodyHomePage from './pages/MyBodyHomePage.js?v=139';
+import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=140';
 import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=128';
 import PregnancyHomePage from './pages/PregnancyHomePage.js?v=137';
 import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=137';
@@ -264,6 +265,7 @@ export default function App() {
       'eduHeaderTitle',
       'eduSwitchAgePrompt',
       'eduBtnMyBody',
+      'eduBtnFamilyPlanning',
       'eduBtnPregnancyAndBirth',
       'eduBtnPregnancy',
       'eduBtnPreConception',
@@ -1654,6 +1656,7 @@ export default function App() {
     { id: 'menopause', page: 'MenopauseHomePage', label: t.eduBtnMenopause || 'Menopause', shade: 'standard' },
     { id: 'menstrual-cycle', page: 'MenstrualCycleHomePage', label: t.eduBtnMenstrualCycle || 'Menstrual Cycle', shade: 'standard' },
     { id: 'sexual-health', page: 'SexualHealthHomePage', label: t.eduBtnSexualHealth || 'Sexual Health', shade: 'standard' },
+    { id: 'family-planning', page: 'FamilyPlanningHomePage1', label: t.eduBtnFamilyPlanning || 'Family Planning', shade: 'standard' },
     { id: 'for-loved-one', page: 'ForALovedOneHomePage', label: t.eduBtnForLovedOne || 'For a Loved One', shade: 'lighter' },
     { id: 'for-me', page: 'ForMeHomePage', label: t.eduBtnForMe || 'For Me', shade: 'lighter' },
     {
@@ -2596,6 +2599,13 @@ export default function App() {
             return h(SexualHealthHomePage, {
               ...commonEduPageProps,
               issues: getEducationTopicIssues('sexual-health', userCountryForStories, ageGroup)
+            });
+          }
+          if (educationPage === 'FamilyPlanningHomePage1') {
+            return h(FamilyPlanningHomePage1, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage(null),
+              onNavigateEducationPage: (targetPage) => setEducationPage(targetPage)
             });
           }
           if (educationPage === 'ForALovedOneHomePage') {

@@ -198,7 +198,7 @@ export default function App() {
       setCustomTranslatedUi(null);
       return;
     }
-    const cacheKey = `fempowher_ai_ui_v130_${tlTarget}`;
+    const cacheKey = `fempowher_ai_ui_v131_${tlTarget}`;
     try {
       const cached = localStorage.getItem(cacheKey);
       if (cached) {
@@ -293,7 +293,13 @@ export default function App() {
       'privacyBadge',
       'languageLabel'
     ];
-    const sourceLines = keysToTranslate.map((k) => UI_TEXT.en[k] || '').join('\n');
+    const sourceLines = keysToTranslate
+      .map((k) =>
+        k === 'cycleBtnPeriodsWorst'
+          ? 'My periods are really painful, heavy, or hard to deal with!'
+          : UI_TEXT.en[k] || ''
+      )
+      .join('\n');
     fetch(
       `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${encodeURIComponent(
         tlTarget

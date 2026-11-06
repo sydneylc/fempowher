@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { PregHomePageButtons, renderSubpageBackButton } from './PregnancyHomePage.js?v=136';
+import { PregHomePageButtons, renderSubpageBackButton } from './PregnancyHomePage.js?v=137';
 
 const h = React.createElement;
 
@@ -22,26 +22,26 @@ export default function PreConceptionHomePage({
       id: 'thinking-about-baby',
       label: tr('preConBtnThinking', "I'm thinking about having a baby!"),
       targetPage: 'ThinkingAboutBabyHomePage',
-      gifSrc: '/assets/preconception-thinking.gif?v=136',
-      // Tone 1: Original Soft Petal Pink (#FCE4F4) — zero outline, matches GIF background seamlessly
+      gifSrc: '/assets/preconception-thinking.gif?v=137',
+      // Tone 1: Warm Bright Orange (#FE980F) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
-        backgroundColor: '#FCE4F4',
+        backgroundColor: '#FE980F',
         border: 'none'
       },
       textStyle: {
         color: '#9F133A',
-        textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
+        textShadow: '0 1px 10px rgba(255, 250, 240, 0.92)'
       }
     },
     {
       id: 'trying-to-have-baby',
       label: tr('preConBtnTrying', "I'm trying to have a baby!"),
       targetPage: 'TryingToHaveBabyHomePage',
-      gifSrc: '/assets/preconception-trying.gif?v=136',
+      gifSrc: '/assets/preconception-trying.gif?v=137',
       // Positioned slightly lower so the South Asian woman's head fits comfortably across all screen sizes
       imgClassName: 'h-[98%] sm:h-[102%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: { transform: 'translateY(4%)' },
-      // Tone 2: Original Warm Reddish-Orange (#EC6A4B) — zero outline, matches GIF background seamlessly
+      // Tone 2: Warm Reddish-Orange (#EC6A4B) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#EC6A4B',
         border: 'none'
@@ -55,15 +55,15 @@ export default function PreConceptionHomePage({
       id: 'hard-time-getting-pregnant',
       label: tr('preConBtnHardTime', "I'm having a hard time getting pregnant!"),
       targetPage: 'HardTimeGettingPregnantHomePage',
-      gifSrc: '/assets/preconception-hard-time.gif?v=136',
-      // Tone 3: Original Warm Rose-Red (#D76070) — zero outline, matches GIF background seamlessly
+      gifSrc: '/assets/preconception-hard-time.gif?v=137',
+      // Tone 3: Vibrant Crimson Red (#FA053E) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
-        backgroundColor: '#D76070',
+        backgroundColor: '#FA053E',
         border: 'none'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: '0 1px 10px rgba(255, 245, 248, 0.92)'
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(110, 9, 38, 0.65)'
       }
     }
   ];

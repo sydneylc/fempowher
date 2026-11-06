@@ -219,10 +219,10 @@ export default function PregnancyHomePage({
       id: 'questions',
       label: tr('pregFeelQuestions', 'I have questions'),
       targetPage: 'QuestionsPregHomePage',
-      gifSrc: '/assets/pregnancy-questions.gif?v=125',
-      // Tone 1: Soft Blossom Pink (#FCE4F4) — zero outline, matches the GIF background seamlessly
+      gifSrc: '/assets/pregnancy-questions.gif?v=137',
+      // Tone 1: Light Apple-Mint Green (#B2EAA2) — zero outline, matches the GIF background seamlessly
       backgroundStyle: {
-        backgroundColor: '#FCE4F4',
+        backgroundColor: '#B2EAA2',
         border: 'none'
       },
       textStyle: {
@@ -234,11 +234,11 @@ export default function PregnancyHomePage({
       id: 'feeling-good',
       label: tr('pregFeelGood', "I'm feeling good"),
       targetPage: 'FeelingGoodPregHomePage',
-      gifSrc: '/assets/pregnancy-feeling-good.gif?v=125',
-      // Tone 2: Warm Rose Pink (#F7C2E4) with seamless green hills & pink path horizon — zero outline
+      gifSrc: '/assets/pregnancy-feeling-good.gif?v=137',
+      // Tone 2: Emerald-Mint Green (#50D5A2) with Dark Olive Green Grass (#546414) — zero outline
       backgroundStyle: {
         background:
-          'linear-gradient(180deg, #F7C2E4 0%, #F7C2E4 65.5%, #95D5B2 65.5%, #74C69D 93.8%, #F3AEDB 93.8%, #F3AEDB 100%)',
+          'linear-gradient(180deg, #50D5A2 0%, #50D5A2 65.5%, #5E7018 65.5%, #546414 93.8%, #50D5A2 93.8%, #50D5A2 100%)',
         border: 'none'
       },
       textStyle: {
@@ -250,16 +250,16 @@ export default function PregnancyHomePage({
       id: 'hard-time',
       label: tr('pregFeelHardTime', "I'm having a hard time"),
       targetPage: 'HardTimePregHomePage',
-      gifSrc: '/assets/pregnancy-hard-time.gif?v=125',
-      // Tone 3: Deep Berry Rose Pink (#D96B98) with warm plum floor horizon — zero outline & bright white comforting text
+      gifSrc: '/assets/pregnancy-hard-time.gif?v=137',
+      // Tone 3: Deep Teal-Green (#0DAA8D) with Olive floor horizon & bright lime (#BEFE62) rug/leaves in GIF
       backgroundStyle: {
         background:
-          'linear-gradient(180deg, #D96B98 0%, #D96B98 92.8%, #8F1D4B 92.8%, #8F1D4B 100%)',
+          'linear-gradient(180deg, #0DAA8D 0%, #0DAA8D 92.8%, #546414 92.8%, #546414 100%)',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(143, 29, 75, 0.65)'
+        textShadow: '0 2px 10px rgba(8, 95, 78, 0.65)'
       }
     }
   ];

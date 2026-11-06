@@ -131365,5 +131365,592 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Sudanese female lawyers coalition providing legal defense and safe protection for women."
     }
+  },
+  {
+    "id": "zw-fb-milton-park-hq",
+    "regionDistrict": "Milton Park, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8136,
+    "lng": 31.0219,
+    "name": {
+      "en": "Friendship Bench Zimbabwe — Head Office & Women’s Safe Haven (Chigaro Cheushamwari)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "email": "info@friendshipbench.io",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 09:00–16:00",
+    "address": {
+      "en": "4 Weale Road, Milton Park, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Confidential Problem-Solving Therapy (Kufungisisa Support) with Trained Community Grandmothers (Ambuya Utano)",
+        "Women’s Safe Haven Peer Support Circles (Circle Kubatana Tose)",
+        "Perinatal Depression, Domestic Trauma & Crisis Referral Support"
+      ]
+    },
+    "directionsText": {
+      "en": "4 Weale Road, Milton Park, Harare, Zimbabwe. Email: info@friendshipbench.io."
+    }
+  },
+  {
+    "id": "zw-fb-avon-rise-hub",
+    "regionDistrict": "Avondale, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.7912,
+    "lng": 31.0364,
+    "name": {
+      "en": "Friendship Bench Hub — Avondale Women’s Safe Haven & Community Center"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "email": "thehub@friendshipbench.org",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 08:30–16:00",
+    "address": {
+      "en": "9 Avon Rise Road, Avondale, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Walk-In Safe Haven Counseling on Outdoor Wooden Benches with Ambuya Utano (Community Grandmothers)",
+        "Circle Kubatana Tose Women’s Mutual Aid & Economic Empowerment Groups",
+        "Maternal Mental Health & Gender-Based Violence Psychosocial Support"
+      ]
+    },
+    "directionsText": {
+      "en": "9 Avon Rise Road, Avondale, Harare, Zimbabwe. Email: thehub@friendshipbench.org."
+    }
+  },
+  {
+    "id": "zw-fb-mbare-polyclinic",
+    "regionDistrict": "Mbare, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8594,
+    "lng": 31.0389,
+    "name": {
+      "en": "Friendship Bench — Mbare Polyclinic Flagship Safe Haven (Ambuya Utano)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "email": "info@friendshipbench.io",
+    "website": "https://www.asranetwork.org/srr-series/zimbabwe-friendship-bench",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Mbare Polyclinic, Cnr Remembrance Drive & Chaminuka Street, Mbare, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Original Flagship Friendship Bench Site Founded in Mbare with 14 Community Grandmothers (Ambuya Utano)",
+        "Free Walk-In Kufungisisa Talk Therapy, Kuvhura Pfungwa (Opening the Mind), Kusimudzira (Uplifting) & Kusimbisa (Strengthening)",
+        "Maternal & Antenatal Clinic Integration, Domestic Violence Safe Referrals & Circle Kubatana Tose"
+      ]
+    },
+    "directionsText": {
+      "en": "Located on the grounds of Mbare Polyclinic, Cnr Remembrance Drive & Chaminuka Street, Mbare, Harare."
+    }
+  },
+  {
+    "id": "zw-fb-matapi-mbare",
+    "regionDistrict": "Mbare, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8548,
+    "lng": 31.0352,
+    "name": {
+      "en": "Friendship Bench — Matapi Satellite Clinic & Mbare Hostels Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "email": "info@friendshipbench.io",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Matapi Satellite Clinic & Mbare Hostels, Cripps Road / Pazarangu Avenue, Mbare, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Counseling (Ambuya Utano) for Women & Adolescent Girls in Mbare",
+        "Perinatal Mental Health Support, Trauma Counseling & Safe Haven Referrals"
+      ]
+    },
+    "directionsText": {
+      "en": "Matapi Satellite Clinic & Mbare Hostels, Mbare, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-highfield-polyclinic",
+    "regionDistrict": "Highfield, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8825,
+    "lng": 30.9854,
+    "name": {
+      "en": "Friendship Bench — Highfield Polyclinic Women’s Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Highfield Polyclinic, Mangwende Drive East, Old Highfield, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Problem-Solving Therapy with Community Grandmothers (Ambuya Utano)",
+        "Antenatal & Postnatal Emotional Support and Circle Kubatana Tose Women’s Groups"
+      ]
+    },
+    "directionsText": {
+      "en": "Highfield Polyclinic, Mangwende Drive East, Old Highfield, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-kambuzuma-polyclinic",
+    "regionDistrict": "Kambuzuma, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8582,
+    "lng": 30.9681,
+    "name": {
+      "en": "Friendship Bench — Kambuzuma Polyclinic Women’s Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Kambuzuma Polyclinic, Section 5, Kambuzuma, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano) & Women’s Support Circles",
+        "Maternal Health & Domestic Crisis Psychosocial Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Kambuzuma Polyclinic, Section 5, Kambuzuma, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-glenview-polyclinic",
+    "regionDistrict": "Glen View, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.9114,
+    "lng": 30.9462,
+    "name": {
+      "en": "Friendship Bench — Glen View Polyclinic & Satellite Clinic Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Glen View Polyclinic, Glen View 3, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano)",
+        "Maternal & Postpartum Emotional Support and Safe Haven Referrals"
+      ]
+    },
+    "directionsText": {
+      "en": "Glen View Polyclinic, Glen View 3, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-budiriro-polyclinic",
+    "regionDistrict": "Budiriro, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8938,
+    "lng": 30.9288,
+    "name": {
+      "en": "Friendship Bench — Budiriro Polyclinic & Satellite Clinic Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Budiriro Polyclinic, Budiriro 1, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano)",
+        "Women’s Peer Support & Maternal Mental Health Counseling"
+      ]
+    },
+    "directionsText": {
+      "en": "Budiriro Polyclinic, Budiriro 1, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-kuwadzana-polyclinic",
+    "regionDistrict": "Kuwadzana, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8294,
+    "lng": 30.9351,
+    "name": {
+      "en": "Friendship Bench — Kuwadzana Polyclinic & Satellite Clinic Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Kuwadzana Polyclinic, Kuwadzana 2, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano)",
+        "Perinatal Care Integration & Circle Kubatana Tose Support Groups"
+      ]
+    },
+    "directionsText": {
+      "en": "Kuwadzana Polyclinic, Kuwadzana 2, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-mufakose-polyclinic",
+    "regionDistrict": "Mufakose, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8664,
+    "lng": 30.9312,
+    "name": {
+      "en": "Friendship Bench — Mufakose Polyclinic Women’s Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Mufakose Polyclinic, Mufakose, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano)",
+        "Confidential Women’s Crisis Support & Safe Referrals"
+      ]
+    },
+    "directionsText": {
+      "en": "Mufakose Polyclinic, Mufakose, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-mabvuku-tafara",
+    "regionDistrict": "Mabvuku, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8342,
+    "lng": 31.1895,
+    "name": {
+      "en": "Friendship Bench — Mabvuku Polyclinic & Tafara FHS Women’s Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Mabvuku Polyclinic & Tafara Family Health Service, Mabvuku, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano)",
+        "Maternal Mental Health & Community Women’s Support Circles"
+      ]
+    },
+    "directionsText": {
+      "en": "Mabvuku Polyclinic & Tafara FHS, Mabvuku, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-hatcliffe-polyclinic",
+    "regionDistrict": "Borrowdale, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.6845,
+    "lng": 31.1182,
+    "name": {
+      "en": "Friendship Bench — Hatcliffe Polyclinic Women’s Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Hatcliffe Polyclinic, Hatcliffe, Borrowdale North, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano)",
+        "Antenatal & Postnatal Emotional Care and Women’s Support Groups"
+      ]
+    },
+    "directionsText": {
+      "en": "Hatcliffe Polyclinic, Hatcliffe, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-warren-park",
+    "regionDistrict": "Warren Park, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8358,
+    "lng": 30.9852,
+    "name": {
+      "en": "Friendship Bench — Warren Park Polyclinic Women’s Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Warren Park Polyclinic, Warren Park 1, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano)",
+        "Women’s Mutual Support Circles & Crisis Referrals"
+      ]
+    },
+    "directionsText": {
+      "en": "Warren Park Polyclinic, Warren Park 1, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-rutsanana-glen-norah",
+    "regionDistrict": "Glen Norah, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.9062,
+    "lng": 30.9718,
+    "name": {
+      "en": "Friendship Bench — Rutsanana Polyclinic & Glen Norah Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Rutsanana Polyclinic & Glen Norah Satellite Clinic, Glen Norah, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano)",
+        "Maternal & Perinatal Psychosocial Care and Peer Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Rutsanana Polyclinic, Glen Norah, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-rujeko-dzivarasekwa",
+    "regionDistrict": "Dzivarasekwa, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8012,
+    "lng": 30.9324,
+    "name": {
+      "en": "Friendship Bench — Rujeko DZ Polyclinic Women’s Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Rujeko Dzivarasekwa Polyclinic, Dzivarasekwa, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano)",
+        "Women’s Safe Space & Maternal Support Circles"
+      ]
+    },
+    "directionsText": {
+      "en": "Rujeko DZ Polyclinic, Dzivarasekwa, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-hatfield-braeside",
+    "regionDistrict": "Hatfield / Braeside, Harare, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -17.8685,
+    "lng": 31.0764,
+    "name": {
+      "en": "Friendship Bench — Hatfield Polyclinic & Braeside FHS Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Hatfield Polyclinic & Braeside Family Health Service, Elgin Road, Hatfield, Harare, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano)",
+        "Maternal & Family Health Psychosocial Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Hatfield Polyclinic & Braeside FHS, Hatfield, Harare, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-chitungwiza-clinics",
+    "regionDistrict": "Zengeza, Chitungwiza, Harare Province, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -18.0064,
+    "lng": 31.0668,
+    "name": {
+      "en": "Friendship Bench — Chitungwiza (Seke North, Seke South, Zengeza & St. Mary’s Clinics)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Zengeza Clinic, Seke North Clinic, Seke South Clinic & St. Mary’s Clinic, Chitungwiza, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy (Ambuya Utano) Across All 4 Chitungwiza Municipal Clinics",
+        "Perinatal Mental Health, Youth Bench (Inuka) & Women’s Support Circles"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at Zengeza, Seke North, Seke South, and St. Mary’s Municipal Clinics in Chitungwiza, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-bulawayo-hub",
+    "regionDistrict": "Bulawayo, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -20.1558,
+    "lng": 28.5832,
+    "name": {
+      "en": "Friendship Bench — Bulawayo Hub & Nkulumane Clinic Women’s Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano / Ugogo)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 08:00–16:00",
+    "address": {
+      "en": "Bulawayo Municipal Building, Tower Block, 1st Floor, Room 117 & Nkulumane Clinic, Bulawayo, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Problem-Solving Therapy with Community Grandmothers in IsiNdebele & English",
+        "Women’s Safe Haven Support Circles & Maternal Psychosocial Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Bulawayo Municipal Building Tower Block (1st Floor, Room 117) & Nkulumane Clinic, Bulawayo, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-gweru-mkoba",
+    "regionDistrict": "Kopje, Gweru, Midlands, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -19.4582,
+    "lng": 29.7824,
+    "name": {
+      "en": "Friendship Bench — Gweru (Mkoba, Mtapa & Senga Polyclinics) Women’s Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Mkoba Polyclinic, Mkoba 1 FHS, Mtapa Polyclinic & Senga Polyclinic, Gweru, Midlands, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy Across Gweru Municipal Clinics (Mkoba, Mtapa, Senga, Ivene, Woodlands)",
+        "Maternal & Perinatal Counseling and Women’s Peer Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Mkoba Polyclinic, Mtapa Polyclinic & Senga Polyclinic, Gweru, Midlands Province, Zimbabwe."
+    }
+  },
+  {
+    "id": "zw-fb-mutare-sakubva",
+    "regionDistrict": "Hospital Hill, Mutare, Manicaland, Zimbabwe",
+    "type": "safe-haven",
+    "lat": -18.9834,
+    "lng": 32.6542,
+    "name": {
+      "en": "Friendship Bench — Mutare (Sakubva, Chikanga & Dangamvura Clinics) Women’s Safe Haven"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven & Grandmother Problem-Solving Therapy (Ambuya Utano)"
+    },
+    "phone": "+263 784 236 633 / +263 772 329 362",
+    "emergencyHotline": "999 / 575",
+    "website": "https://www.friendshipbenchzimbabwe.org",
+    "openHours": "Mon–Fri 07:30–16:00",
+    "address": {
+      "en": "Sakubva Clinic, Chikanga Clinic, Dangamvura Clinic & Mutare City Clinic, Mutare, Manicaland, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Free Walk-In Grandmother Problem-Solving Therapy Across Mutare Municipal & Rural Clinics",
+        "Women’s Safe Haven Support Circles, Maternal Care & Trauma Referrals"
+      ]
+    },
+    "directionsText": {
+      "en": "Sakubva Clinic, Chikanga Clinic, Dangamvura Clinic & Mutare City Clinic, Mutare, Zimbabwe."
+    }
   }
 ];

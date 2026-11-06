@@ -11,7 +11,7 @@ import {
   isRtlLanguage,
   cleanBackLabel
 } from './data/translations.js?v=128';
-import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=120';
+import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=132';
 import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=123';
 import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=120';
 import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=97';
@@ -688,6 +688,7 @@ export default function App() {
           item.id.startsWith('peru-minsa-hosp-') ||
           item.id.startsWith('latam-dir-') ||
           item.id.startsWith('sudan-krt-') ||
+          item.id.startsWith('zw-fb-') ||
           item.id.startsWith('lila-')
         ) {
           continue;

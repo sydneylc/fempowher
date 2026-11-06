@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyBodyInteractiveHomePage1 — emPowHer Interactive Translucent Reproductive System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    .checkerboard {
+      background-image:
+        linear-gradient(45deg, rgba(140, 120, 150, 0.09) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(140, 120, 150, 0.09) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(140, 120, 150, 0.09) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(140, 120, 150, 0.09) 75%);
+      background-size: 24px 24px;
+      background-position: 0 0, 0 12px, 12px -12px, -12px 0;
+    }
+    .organ-btn {
+      cursor: pointer;
+      transition: filter 0.18s ease;
+    }
+    .organ-btn:hover {
+      filter: drop-shadow(0 0 8px rgba(255, 64, 129, 0.55));
+    }
+    .organ-btn.selected-organ {
+      filter: drop-shadow(0 0 12px rgba(255, 0, 102, 0.85));
+    }
+    input[type="range"] {
+      accent-color: #e6194b;
+    }
+  </style>
+</head>
+<body class="bg-[var(--background,#faf8f5)] text-[var(--foreground,#2b2235)] antialiased p-4 md:p-6">
+  <div class="max-w-7xl mx-auto space-y-4">
+    <!-- Top Header & Lifecycle State Buttons -->
+    <div class="bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+      <div>
+        <h1 class="text-lg md:text-xl font-bold tracking-tight">
+          emPowHer — Interactive Translucent Reproductive System
+        </h1>
+        <p class="text-xs md:text-sm text-[var(--muted-foreground,#6e5d78)]">
+          Every organ &amp; substructure is a translucent highlighter button with loose hand-drawn outlines. Click any part to inspect, stretch, wilt, resize, recolor, or drag to move.
+        </p>
+      </div>
+
+      <!-- Top Physiological State Presets -->
+      <div class="flex flex-wrap items-center gap-2" id="preset-buttons">
+        <button onclick="applyPreset('baseline')" id="preset-baseline" class="px-3.5 py-2 rounded-xl text-xs font-semibold border transition bg-pink-600 text-white border-pink-600 shadow-sm">
+          Baseline (Normal)
+        </button>
+        <button onclick="applyPreset('ovulation')" id="preset-ovulation" class="px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition">
+          Ovulation / Luteal
+        </button>
+        <button onclick="applyPreset('menstruation')" id="preset-menstruation" class="px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition">
+          Menstruation (Period)
+        </button>
+        <button onclick="applyPreset('pregnancy')" id="preset-pregnancy" class="px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition">
+          Pregnancy (Stretch)
+        </button>
+        <button onclick="applyPreset('lactation')" id="preset-lactation" class="px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition">
+          Lactation
+        </button>
+        <button onclick="applyPreset('menopause')" id="preset-menopause" class="px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition">
+          Menopause (Wilt)
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Interactive Workspace -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+      <!-- Left Column: Component Buttons Selector -->
+      <div class="lg:col-span-3 bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-3">
+        <div class="flex items-center justify-between">
+          <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--muted-foreground,#6e5d78)]">
+            Organ Buttons (12)
+          </h2>
+          <span class="text-xs text-[var(--muted-foreground,#6e5d78)]">Click to select</span>
+        </div>
+        <div id="organ-pill-list" class="grid grid-cols-1 gap-1.5"></div>
+
+        <div class="pt-2 border-t border-[var(--border,#e5dce8)] flex flex-col gap-2">
+          <label class="flex items-center gap-2 text-xs font-medium cursor-pointer">
+            <input type="checkbox" id="toggle-drag" checked class="rounded text-pink-600" />
+            <span>Enable direct drag-to-move on canvas</span>
+          </label>
+          <label class="flex items-center gap-2 text-xs font-medium cursor-pointer">
+            <input type="checkbox" id="toggle-checker" class="rounded text-pink-600" onchange="updateCanvasBg()" />
+            <span>Show transparency checkerboard</span>
+          </label>
+          <label class="flex items-center gap-2 text-xs font-medium cursor-pointer">
+            <input type="checkbox" id="toggle-labels" checked class="rounded text-pink-600" onchange="renderAnatomy()" />
+            <span>Show subtle floating callout pins</span>
+          </label>
+          <button onclick="exportSVG()" class="mt-1 w-full py-2 px-3 rounded-xl text-xs font-semibold bg-purple-600 text-white hover:bg-purple-700 transition shadow-sm">
+            Download Transparent SVG
+          </button>
+        </div>
+      </div>
+
+      <!-- Center Column: Translucent Loose-Outline SVG Canvas (No Background Necessary) -->
+      <div class="lg:col-span-6 rounded-2xl border border-[var(--border,#e5dce8)] flex flex-col items-center justify-center relative overflow-hidden p-2" id="canvas-container" style="background: transparent;">
+        <svg id="anatomy-svg" viewBox="-380 -510 760 980" class="w-full max-w-[600px] h-auto select-none" xmlns="http://www.w3.org/2000/svg"></svg>
+      </div>
+
+      <!-- Right Column: Live Manipulation Inspector for Selected Component -->
+      <div class="lg:col-span-3 bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-4">
+        <div class="flex items-center justify-between border-b border-[var(--border,#e5dce8)] pb-3">
+          <div class="flex items-center gap-2.5">
+            <span id="inspector-swatch" class="w-4 h-4 rounded-full border border-black/30 inline-block"></span>
+            <h2 id="inspector-title" class="text-base font-bold">Endometrium</h2>
+          </div>
+          <button onclick="resetSelectedOrgan()" class="text-xs font-semibold text-pink-600 hover:underline">
+            Reset Part
+          </button>
+        </div>
+
+        <p id="inspector-desc" class="text-xs text-[var(--muted-foreground,#6e5d78)] leading-relaxed"></p>
+
+        <!-- Sliders for Size, Stretch, Wilt/Morph, Position, Highlighter Color & Opacity -->
+        <div class="space-y-3 text-xs">
+          <div>
+            <div class="flex justify-between font-semibold mb-1">
+              <span>Horizontal Stretch (Scale X)</span>
+              <span id="val-scaleX">1.00x</span>
+            </div>
+            <input type="range" id="ctrl-scaleX" min="0.45" max="2.10" step="0.02" value="1.00" class="w-full" oninput="updateSelectedFromControls()" />
+          </div>
+
+          <div>
+            <div class="flex justify-between font-semibold mb-1">
+              <span>Vertical Stretch (Scale Y)</span>
+              <span id="val-scaleY">1.00x</span>
+            </div>
+            <input type="range" id="ctrl-scaleY" min="0.45" max="2.10" step="0.02" value="1.00" class="w-full" oninput="updateSelectedFromControls()" />
+          </div>
+
+          <div>
+            <div class="flex justify-between font-semibold mb-1">
+              <span id="label-morph">Wilt / Blossom / Thickness</span>
+              <span id="val-morph">0%</span>
+            </div>
+            <input type="range" id="ctrl-morph" min="-100" max="100" step="2" value="0" class="w-full" oninput="updateSelectedFromControls()" />
+          </div>
+
+          <div class="grid grid-cols-2 gap-2 pt-1">
+            <div>
+              <div class="flex justify-between font-semibold mb-1">
+                <span>Move X</span>
+                <span id="val-dx">0px</span>
+              </div>
+              <input type="range" id="ctrl-dx" min="-120" max="120" step="1" value="0" class="w-full" oninput="updateSelectedFromControls()" />
+            </div>
+            <div>
+              <div class="flex justify-between font-semibold mb-1">
+                <span>Move Y</span>
+                <span id="val-dy">0px</span>
+              </div>
+              <input type="range" id="ctrl-dy" min="-120" max="120" step="1" value="0" class="w-full" oninput="updateSelectedFromControls()" />
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between font-semibold mb-1">
+              <span>Rotation</span>
+              <span id="val-rot">0°</span>
+            </div>
+            <input type="range" id="ctrl-rot" min="-45" max="45" step="1" value="0" class="w-full" oninput="updateSelectedFromControls()" />
+          </div>
+
+          <div class="pt-2 border-t border-[var(--border,#e5dce8)] grid grid-cols-2 gap-3 items-center">
+            <div>
+              <label class="block font-semibold mb-1">Highlighter Color</label>
+              <input type="color" id="ctrl-color" value="#d90429" class="w-full h-8 rounded cursor-pointer border border-[var(--border,#e5dce8)]" oninput="updateSelectedFromControls()" />
+            </div>
+            <div>
+              <div class="flex justify-between font-semibold mb-1">
+                <span>Translucency</span>
+                <span id="val-opacity">54%</span>
+              </div>
+              <input type="range" id="ctrl-opacity" min="0.15" max="0.92" step="0.02" value="0.54" class="w-full" oninput="updateSelectedFromControls()" />
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-2 border-t border-[var(--border,#e5dce8)]">
+          <div class="text-xs font-semibold text-[var(--muted-foreground,#6e5d78)] mb-1">
+            Programmatic JS Hook:
+          </div>
+          <code id="code-preview" class="block text-xs bg-black/5 p-2 rounded-lg font-mono break-all">
+            ReproductiveModel.setOrgan('endometrium', { scaleX: 1, scaleY: 1, morph: 0 })
+          </code>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // =========================================================================
+    // ORGAN CATALOG & DEFAULT TRANSLUCENT HIGHLIGHTER CONFIGURATIONS
+    // =========================================================================
+    const ORGAN_DEFS = {
+      breasts: {
+        name: "Breasts (Mound, Areola & Nipple)",
+        color: "#FF9E7D",
+        rimColor: "#FF758F",
+        opacity: 0.40,
+        morphLabel: "Droop / Fullness",
+        desc: "Outer translucent breast mounds with central areola and nipple. Swells during pregnancy/lactation and gently softens/droops in menopause."
+      },
+      mammary_glands: {
+        name: "Mammary Glands & Milk Ducts",
+        color: "#FFB703",
+        rimColor: "#FB8500",
+        opacity: 0.56,
+        morphLabel: "Lobule Blossom / Wilt",
+        desc: "Radial milk-producing lobules and lactiferous ducts converging on the nipple. Blossoms in pregnancy/lactation and wilts/atrophies after menopause."
+      },
+      fallopian_tubes: {
+        name: "Fallopian Tubes & Fimbriae",
+        color: "#B565F7",
+        rimColor: "#7209B7",
+        opacity: 0.50,
+        morphLabel: "Lift / Wilt Droop",
+        desc: "Graceful uterine tubes extending from the uterine horns and ending in finger-like fimbriae that sweep the ovulated egg into the tube."
+      },
+      ovaries: {
+        name: "Ovaries & Internal Follicles",
+        color: "#00F5D4",
+        rimColor: "#00BBF9",
+        opacity: 0.52,
+        morphLabel: "Follicle Activity / Wilt",
+        desc: "Clear almond-shaped gonads containing translucent golden follicles at varying stages of maturation, anchored by the utero-ovarian ligaments."
+      },
+      uterus: {
+        name: "Uterus (Myometrium & Fundus)",
+        color: "#FF5D8F",
+        rimColor: "#FF0055",
+        opacity: 0.44,
+        morphLabel: "Fundus Dome Stretch",
+        desc: "Pear-shaped muscular outer organ (myometrium) that stretches dramatically during pregnancy and shrinks quietly in menopause."
+      },
+      endometrium: {
+        name: "Endometrium (Uterine Lining)",
+        color: "#D90429",
+        rimColor: "#EF233C",
+        opacity: 0.56,
+        morphLabel: "Lining Thickness / Shed",
+        desc: "Inner mucosal lining of the uterine cavity with scalloped waves. Thickens each cycle to nourish an embryo, sheds in menstruation, and thins in menopause."
+      },
+      cervix: {
+        name: "Cervix & Cervical Canal",
+        color: "#8338EC",
+        rimColor: "#5E60CE",
+        opacity: 0.50,
+        morphLabel: "Canal Dilation / Firmness",
+        desc: "Lower neck of the uterus projecting into the upper vaginal vault (fornix), containing the spindle-shaped cervical canal and external os."
+      },
+      vaginal_canal: {
+        name: "Vaginal Canal & Rugae",
+        color: "#FF9770",
+        rimColor: "#FF70A6",
+        opacity: 0.46,
+        morphLabel: "Elasticity / Rugae Depth",
+        desc: "Translucent muscular fibromuscular canal with transverse mucosal folds (rugae) allowing remarkable elasticity and distension."
+      },
+      clitoris: {
+        name: "Clitoris (Glans, Hood & Bulbs)",
+        color: "#FEE440",
+        rimColor: "#F15BB5",
+        opacity: 0.72,
+        morphLabel: "Engorgement / Sensitivity",
+        desc: "Front-facing glans clitoris crowned by the clitoral hood, plus its translucent wishbone-shaped internal crura and vestibular bulbs."
+      },
+      labia_majora: {
+        name: "Outer Lips (Labia Majora)",
+        color: "#F77F00",
+        rimColor: "#FCBF49",
+        opacity: 0.46,
+        morphLabel: "Cushion Fullness / Wilt",
+        desc: "Clear front-facing outer vaginal lips framing and protecting the external vulva."
+      },
+      labia_minora: {
+        name: "Inner Lips (Labia Minora)",
+        color: "#FF007F",
+        rimColor: "#FF5D8F",
+        opacity: 0.52,
+        morphLabel: "Petal Flare / Thinning",
+        desc: "Delicate front-facing inner vaginal lips enclosing the vestibule between the clitoris and vaginal opening."
+      },
+      vaginal_opening: {
+        name: "Vaginal Opening (Introitus)",
+        color: "#9E0B28",
+        rimColor: "#FF4D6D",
+        opacity: 0.60,
+        morphLabel: "Introitus Opening Width",
+        desc: "External front-view vaginal entrance within the vestibule leading directly into the vaginal canal."
+      }
+    };
+
+    // Live state per organ
+    const organState = {};
+    let selectedOrgan = "endometrium";
+    let currentPreset = "baseline";
+    let animFrameId = null;
+
+    function createDefaultState() {
+      const st = {};
+      for (const [id, def] of Object.entries(ORGAN_DEFS)) {
+        st[id] = {
+          scaleX: 1.0,
+          scaleY: 1.0,
+          morph: 0,      // -100 (wilt/thin) to +100 (stretch/blossom/thicken)
+          dx: 0,
+          dy: 0,
+          rot: 0,
+          color: def.color,
+          opacity: def.opacity
+        };
+      }
+      return st;
+    }
+
+    Object.assign(organState, createDefaultState());
+
+    // =========================================================================
+    // PHYSIOLOGICAL LIFECYCLE PRESETS (STRETCH, WILT, OVULATE, MENSTRUATE)
+    // =========================================================================
+    const PRESETS = {
+      baseline: {},
+      ovulation: {
+        ovaries:         { scaleX: 1.14, scaleY: 1.14, morph: 75,  dx: 0, dy: 0 },
+        fallopian_tubes: { scaleX: 1.04, scaleY: 1.05, morph: 35,  dx: 0, dy: 0 },
+        endometrium:     { scaleX: 1.05, scaleY: 1.05, morph: 65,  dx: 0, dy: 0 },
+        cervix:          { scaleX: 1.02, scaleY: 1.00, morph: 45,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.04, scaleY: 1.04, morph: 20,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.06, scaleY: 1.06, morph: 30,  dx: 0, dy: 0 }
+      },
+      menstruation: {
+        uterus:          { scaleX: 0.96, scaleY: 0.96, morph: -25, dx: 0, dy: 0 },
+        endometrium:     { scaleX: 0.96, scaleY: 0.96, morph: -75, dx: 0, dy: 0 },
+        cervix:          { scaleX: 1.00, scaleY: 1.00, morph: 35,  dx: 0, dy: 0 },
+        ovaries:         { scaleX: 0.96, scaleY: 0.96, morph: -20, dx: 0, dy: 0 }
+      },
+      pregnancy: {
+        uterus:          { scaleX: 1.65, scaleY: 1.56, morph: 95,  dx: 0, dy: 12 },
+        endometrium:     { scaleX: 1.62, scaleY: 1.54, morph: 90,  dx: 0, dy: 12 },
+        fallopian_tubes: { scaleX: 1.18, scaleY: 1.08, morph: 50,  dx: 0, dy: 26 },
+        ovaries:         { scaleX: 0.98, scaleY: 0.98, morph: 10,  dx: 0, dy: 24 },
+        cervix:          { scaleX: 1.12, scaleY: 0.92, morph: -35, dx: 0, dy: 0 },
+        vaginal_canal:   { scaleX: 1.16, scaleY: 1.00, morph: 40,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.18, scaleY: 1.18, morph: 65,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.24, scaleY: 1.24, morph: 85,  dx: 0, dy: 0 },
+        labia_majora:    { scaleX: 1.12, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
+        labia_minora:    { scaleX: 1.12, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
+        vaginal_opening: { scaleX: 1.14, scaleY: 1.10, morph: 30,  dx: 0, dy: 0 }
+      },
+      lactation: {
+        breasts:         { scaleX: 1.24, scaleY: 1.22, morph: 85,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.32, scaleY: 1.32, morph: 100, dx: 0, dy: 0 },
+        uterus:          { scaleX: 1.08, scaleY: 1.06, morph: 15,  dx: 0, dy: 0 },
+        endometrium:     { scaleX: 1.05, scaleY: 1.04, morph: -30, dx: 0, dy: 0 }
+      },
+      menopause: {
+        ovaries:         { scaleX: 0.64, scaleY: 0.58, morph: -95, dx: 0, dy: -18 },
+        fallopian_tubes: { scaleX: 0.86, scaleY: 0.88, morph: -90, dx: 0, dy: -16 },
+        uterus:          { scaleX: 0.74, scaleY: 0.75, morph: -80, dx: 0, dy: -10 },
+        endometrium:     { scaleX: 0.72, scaleY: 0.74, morph: -92, dx: 0, dy: -10 },
+        cervix:          { scaleX: 0.82, scaleY: 0.85, morph: -60, dx: 0, dy: -6 },
+        vaginal_canal:   { scaleX: 0.80, scaleY: 0.92, morph: -70, dx: 0, dy: 0 },
+        breasts:         { scaleX: 0.88, scaleY: 0.86, morph: -85, dx: 0, dy: -16 },
+        mammary_glands:  { scaleX: 0.72, scaleY: 0.72, morph: -90, dx: 0, dy: -16 },
+        labia_majora:    { scaleX: 0.84, scaleY: 0.86, morph: -70, dx: 0, dy: 0 },
+        labia_minora:    { scaleX: 0.80, scaleY: 0.84, morph: -75, dx: 0, dy: 0 },
+        vaginal_opening: { scaleX: 0.82, scaleY: 0.84, morph: -65, dx: 0, dy: 0 },
+        clitoris:        { scaleX: 0.88, scaleY: 0.88, morph: -40, dx: 0, dy: 0 }
+      }
+    };
+
+    // Smoothly interpolate all organs to a target preset
+    function applyPreset(presetName) {
+      currentPreset = presetName;
+      document.querySelectorAll('#preset-buttons button').forEach(btn => {
+        if (btn.id === 'preset-' + presetName) {
+          btn.className = "px-3.5 py-2 rounded-xl text-xs font-semibold border transition bg-pink-600 text-white border-pink-600 shadow-sm";
+        } else {
+          btn.className = "px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition";
+        }
+      });
+
+      const base = createDefaultState();
+      const overrides = PRESETS[presetName] || {};
+      const startState = JSON.parse(JSON.stringify(organState));
+      const targetState = {};
+
+      for (const id of Object.keys(ORGAN_DEFS)) {
+        targetState[id] = {
+          ...base[id],
+          color: organState[id].color,
+          opacity: organState[id].opacity,
+          ...(overrides[id] || {})
+        };
+      }
+
+      if (animFrameId) cancelAnimationFrame(animFrameId);
+      const t0 = performance.now();
+      const dur = 520;
+
+      function step(now) {
+        const p = Math.min(1, (now - t0) / dur);
+        const ease = 1 - Math.pow(1 - p, 3);
+        for (const id of Object.keys(ORGAN_DEFS)) {
+          for (const k of ['scaleX', 'scaleY', 'morph', 'dx', 'dy', 'rot']) {
+            organState[id][k] = startState[id][k] + (targetState[id][k] - startState[id][k]) * ease;
+          }
+        }
+        renderAnatomy();
+        syncControlsToSelected();
+        if (p < 1) {
+          animFrameId = requestAnimationFrame(step);
+        }
+      }
+      animFrameId = requestAnimationFrame(step);
+    }
+
+    // =========================================================================
+    // HELPER: RENDER TRANSLUCENT HIGHLIGHTER + LOOSE HAND-DRAWN DUAL OUTLINES
+    // =========================================================================
+    function highlighterGroup(organId, pathData, opts = {}) {
+      const st = organState[organId];
+      const def = ORGAN_DEFS[organId];
+      const fillCol = opts.fill || st.color;
+      const rimCol  = opts.rim  || def.rimColor;
+      const inkCol  = opts.ink  || "#2B2235";
+      const opacity = opts.opacity !== undefined ? opts.opacity : st.opacity;
+      const strokeW = opts.strokeW || 2.8;
+      const ox = opts.ox !== undefined ? opts.ox : 2.2;
+      const oy = opts.oy !== undefined ? opts.oy : -1.8;
+
+      return `
+        <!-- 1. Offset Translucent Highlighter Marker Fill -->
+        <path d="${pathData}" fill="${fillCol}" fill-opacity="${opacity.toFixed(2)}" transform="translate(${ox}, ${oy})" style="mix-blend-mode: multiply;" />
+        <!-- 2. Juicy Highlighter Rim Accent -->
+        <path d="${pathData}" fill="none" stroke="${rimCol}" stroke-width="${(strokeW * 2.8).toFixed(1)}" stroke-opacity="${(opacity * 0.58).toFixed(2)}" stroke-linecap="round" stroke-linejoin="round" transform="translate(${(ox*0.45).toFixed(1)}, ${(oy*0.45).toFixed(1)})" />
+        <!-- 3. Primary Loose Hand-Drawn Charcoal-Plum Outline -->
+        <path d="${pathData}" fill="none" stroke="${inkCol}" stroke-width="${strokeW}" stroke-opacity="0.86" stroke-linecap="round" stroke-linejoin="round" filter="url(#loose-pencil)" />
+        <!-- 4. Secondary Loose Sketch Pass -->
+        <path d="${pathData}" fill="none" stroke="${inkCol}" stroke-width="${(strokeW * 0.58).toFixed(2)}" stroke-opacity="0.45" stroke-linecap="round" stroke-linejoin="round" transform="translate(${(-ox*0.65).toFixed(1)}, ${(oy*0.65).toFixed(1)})" />
+      `;
+    }
+
+    function organTransformAttr(organId, pivotX, pivotY) {
+      const st = organState[organId];
+      return `translate(${st.dx.toFixed(1)}, ${st.dy.toFixed(1)}) translate(${pivotX}, ${pivotY}) rotate(${st.rot.toFixed(1)}) scale(${st.scaleX.toFixed(3)}, ${st.scaleY.toFixed(3)}) translate(${-pivotX}, ${-pivotY})`;
+    }
+
+    // =========================================================================
+    // MAIN PROCEDURAL SVG ANATOMY GENERATOR
+    // =========================================================================
+    function renderAnatomy() {
+      const svg = document.getElementById('anatomy-svg');
+      const showLabels = document.getElementById('toggle-labels').checked;
+
+      // Dynamic interdependence: when Uterus stretches, tubes/ovaries naturally follow its horns!
+      const utSt = organState.uterus;
+      const utTopY = -58 - (utSt.scaleY - 1.0) * 65 - (utSt.morph / 100) * 18;
+      const utHalfW = 78 * utSt.scaleX;
+      const utBotY = 120;
+      const cervixW = 32 * organState.cervix.scaleX;
+      const cervTopY = utBotY - 12;
+      const cervBotY = utBotY + 52 * organState.cervix.scaleY;
+
+      let html = `
+        <defs>
+          <!-- Subtle organic hand-drawn line wobble filter -->
+          <filter id="loose-pencil" x="-8%" y="-8%" width="116%" height="116%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.025" numOctaves="2" result="noise" seed="7" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.65" xChannelSelector="R" yChannelSelector="G" />
+          </filter>
+        </defs>
+      `;
+
+      // -----------------------------------------------------------------------
+      // 1. BREASTS (OUTER MOUND, AREOLA & NIPPLE) - BUTTON: 'breasts'
+      // -----------------------------------------------------------------------
+      const bSt = organState.breasts;
+      const bDroop = -(bSt.morph / 100) * 18; // negative morph = droop down in SVG (+Y is down)
+      const breastY = -315 + bDroop;
+      let breastsMarkup = '';
+      for (const side of [-1, 1]) {
+        const bx = side * 145;
+        const by = breastY;
+        const br = 92;
+        const moundPath = `
+          M ${bx} ${by - br * 0.98}
+          C ${bx + side * br * 0.62} ${by - br * 1.02}, ${bx + side * br * 1.08} ${by - br * 0.52}, ${bx + side * br * 1.02} ${by + br * 0.08}
+          C ${bx + side * br * 0.96} ${by + br * 0.68}, ${bx + side * br * 0.52} ${by + br * 1.02}, ${bx} ${by + br * 1.02}
+          C ${bx - side * br * 0.55} ${by + br * 1.02}, ${bx - side * br * 0.98} ${by + br * 0.58}, ${bx - side * br * 0.98} ${by}
+          C ${bx - side * br * 0.98} ${by - br * 0.58}, ${bx - side * br * 0.55} ${by - br * 0.98}, ${bx} ${by - br * 0.98} Z
+        `;
+        const creasePath = `M ${bx - br * 0.82} ${by + br * 0.56} Q ${bx} ${by + br * 1.18} ${bx + br * 0.82} ${by + br * 0.56}`;
+        breastsMarkup += highlighterGroup('breasts', moundPath, { ox: side * 2.2, oy: 1.8 });
+        breastsMarkup += `<path d="${creasePath}" fill="none" stroke="#2B2235" stroke-width="2.6" stroke-linecap="round" filter="url(#loose-pencil)" />`;
+      }
+      html += `<g class="organ-btn ${selectedOrgan === 'breasts' ? 'selected-organ' : ''}" data-organ="breasts" onclick="selectOrgan('breasts', event)" transform="${organTransformAttr('breasts', 0, breastY)}">${breastsMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 2. MAMMARY GLANDS & MILK DUCTS - BUTTON: 'mammary_glands'
+      // -----------------------------------------------------------------------
+      const mSt = organState.mammary_glands;
+      const lobFactor = Math.max(0.45, 1.0 + (mSt.morph / 100) * 0.38);
+      let mammaryMarkup = '';
+      for (const side of [-1, 1]) {
+        const bx = side * 145 + organState.breasts.dx;
+        const by = breastY + organState.breasts.dy;
+        const numLobes = 12;
+        for (let i = 0; i < numLobes; i++) {
+          const ang = (i * 2 * Math.PI / numLobes) + 0.12 * side;
+          const innerR = 17;
+          const stalkR = 36;
+          const wideR  = 56 * (0.78 + 0.22 * lobFactor);
+          const tipR   = (75 + (i % 2) * 6) * (0.75 + 0.25 * lobFactor);
+          const stalkAng = 0.042 * lobFactor;
+          const lobeAng  = 0.142 * lobFactor;
+
+          const x0 = bx + Math.cos(ang) * innerR;
+          const y0 = by + Math.sin(ang) * innerR;
+          const xStalkL = bx + Math.cos(ang - stalkAng) * stalkR;
+          const yStalkL = by + Math.sin(ang - stalkAng) * stalkR;
+          const xWideL  = bx + Math.cos(ang - lobeAng) * wideR;
+          const yWideL  = by + Math.sin(ang - lobeAng) * wideR;
+          const xTip    = bx + Math.cos(ang) * tipR;
+          const yTip    = by + Math.sin(ang) * tipR;
+          const xWideR  = bx + Math.cos(ang + lobeAng) * wideR;
+          const yWideR  = by + Math.sin(ang + lobeAng) * wideR;
+          const xStalkR = bx + Math.cos(ang + stalkAng) * stalkR;
+          const yStalkR = by + Math.sin(ang + stalkAng) * stalkR;
+
+          const ctrlL_X = bx + Math.cos(ang - lobeAng * 0.45) * ((wideR + tipR) * 0.52);
+          const ctrlL_Y = by + Math.sin(ang - lobeAng * 0.45) * ((wideR + tipR) * 0.52);
+          const ctrlR_X = bx + Math.cos(ang + lobeAng * 0.45) * ((wideR + tipR) * 0.52);
+          const ctrlR_Y = by + Math.sin(ang + lobeAng * 0.45) * ((wideR + tipR) * 0.52);
+
+          const lobePath = `
+            M ${x0.toFixed(1)} ${y0.toFixed(1)}
+            Q ${xStalkL.toFixed(1)} ${yStalkL.toFixed(1)} ${xWideL.toFixed(1)} ${yWideL.toFixed(1)}
+            Q ${ctrlL_X.toFixed(1)} ${ctrlL_Y.toFixed(1)} ${xTip.toFixed(1)} ${yTip.toFixed(1)}
+            Q ${ctrlR_X.toFixed(1)} ${ctrlR_Y.toFixed(1)} ${xWideR.toFixed(1)} ${yWideR.toFixed(1)}
+            Q ${xStalkR.toFixed(1)} ${yStalkR.toFixed(1)} ${x0.toFixed(1)} ${y0.toFixed(1)} Z
+          `;
+          mammaryMarkup += highlighterGroup('mammary_glands', lobePath, { strokeW: 1.7, ox: 1.2, oy: 1.2 });
+        }
+        // Central Areola & Nipple rendered over inner duct tips
+        const areolaPath = `M ${bx - 22} ${by} a 22 20 0 1 0 44 0 a 22 20 0 1 0 -44 0`;
+        const nipplePath = `M ${bx - 10.5} ${by} a 10.5 9.5 0 1 0 21 0 a 10.5 9.5 0 1 0 -21 0`;
+        mammaryMarkup += highlighterGroup('breasts', areolaPath, { fill: '#C95B63', rim: '#9E2A2B', opacity: 0.62, strokeW: 2.2 });
+        mammaryMarkup += highlighterGroup('breasts', nipplePath, { fill: '#F28482', rim: '#B5485D', opacity: 0.80, strokeW: 2.0 });
+      }
+      html += `<g class="organ-btn ${selectedOrgan === 'mammary_glands' ? 'selected-organ' : ''}" data-organ="mammary_glands" onclick="selectOrgan('mammary_glands', event)" transform="${organTransformAttr('mammary_glands', 0, breastY)}">${mammaryMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 3. VAGINAL CANAL & RUGAE - BUTTON: 'vaginal_canal'
+      // -----------------------------------------------------------------------
+      const vSt = organState.vaginal_canal;
+      const vagTopY = cervTopY + 14;
+      const vagBotY = 302;
+      const vagW = 42 * (1.0 + (vSt.morph / 100) * 0.16);
+      const vagPath = `
+        M ${-cervixW * 0.92} ${vagTopY + 6}
+        Q ${-vagW * 1.05} ${vagTopY - 12} ${-vagW} ${vagTopY + 18}
+        C ${-vagW * 1.12} ${(vagTopY + vagBotY) * 0.45}, ${-vagW * 0.90} ${(vagTopY + vagBotY) * 0.78}, ${-vagW * 0.72} ${vagBotY}
+        Q 0 ${vagBotY + 14} ${vagW * 0.72} ${vagBotY}
+        C ${vagW * 0.90} ${(vagTopY + vagBotY) * 0.78}, ${vagW * 1.12} ${(vagTopY + vagBotY) * 0.45}, ${vagW} ${vagTopY + 18}
+        Q ${vagW * 1.05} ${vagTopY - 12} ${cervixW * 0.92} ${vagTopY + 6} Z
+      `;
+      let vagMarkup = highlighterGroup('vaginal_canal', vagPath, { strokeW: 2.8 });
+      // Transverse vaginal rugae folds
+      for (let r = 0; r < 6; r++) {
+        const ry = cervBotY + 16 + r * 18.5;
+        const rw = vagW * 0.64;
+        const wave = (r % 2 === 0 ? -5.5 : 5.5) * (1.0 + (vSt.morph / 100) * 0.35);
+        vagMarkup += `<path d="M ${-rw} ${ry} Q 0 ${ry + wave} ${rw} ${ry}" fill="none" stroke="#D94E30" stroke-opacity="0.55" stroke-width="2.3" stroke-linecap="round" filter="url(#loose-pencil)" />`;
+      }
+      html += `<g class="organ-btn ${selectedOrgan === 'vaginal_canal' ? 'selected-organ' : ''}" data-organ="vaginal_canal" onclick="selectOrgan('vaginal_canal', event)" transform="${organTransformAttr('vaginal_canal', 0, (vagTopY + vagBotY) * 0.5)}">${vagMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 4. FALLOPIAN TUBES & FIMBRIAE - BUTTON: 'fallopian_tubes'
+      // -----------------------------------------------------------------------
+      const tSt = organState.fallopian_tubes;
+      const tubeDroop = -(tSt.morph / 100) * 32; // positive morph lifts, negative morph wilts/droops (+Y in SVG)
+      let tubesMarkup = '';
+      for (const side of [-1, 1]) {
+        const startX = side * (utHalfW * 0.85) + utSt.dx;
+        const startY = utTopY + 14 + utSt.dy;
+        const archX = side * (utHalfW + 78) + utSt.dx;
+        const archY = startY - 36 + tubeDroop * 0.5;
+        const endX = side * (utHalfW + 128) + utSt.dx;
+        const endY = startY + 36 + tubeDroop;
+
+        let fimbriaeSegs = '';
+        const numFim = 6;
+        for (let f = 0; f < numFim; f++) {
+          const t = f / (numFim - 1);
+          const baseAng = (side === 1) ? (0.25 + t * 1.65) : (Math.PI - 0.25 - t * 1.65);
+          const petalLen = 24 + (f % 2) * 8;
+          const tipX = endX + Math.cos(baseAng) * petalLen;
+          const tipY = endY + 10 + Math.sin(baseAng) * petalLen;
+          const valleyAng = baseAng + (side === 1 ? 0.14 : -0.14);
+          const valX = endX + Math.cos(valleyAng) * (petalLen * 0.45);
+          const valY = endY + 10 + Math.sin(valleyAng) * (petalLen * 0.45);
+          fimbriaeSegs += ` Q ${tipX.toFixed(1)} ${tipY.toFixed(1)} ${valX.toFixed(1)} ${valY.toFixed(1)}`;
+        }
+
+        const tubePath = `
+          M ${startX.toFixed(1)} ${(startY - 11).toFixed(1)}
+          C ${(startX + side * 42).toFixed(1)} ${(archY - 26).toFixed(1)}, ${(archX + side * 38).toFixed(1)} ${(archY - 20).toFixed(1)}, ${(endX + side * 20).toFixed(1)} ${(endY - 10).toFixed(1)}
+          ${fimbriaeSegs}
+          C ${(archX + side * 14).toFixed(1)} ${(archY + 6).toFixed(1)}, ${(startX + side * 35).toFixed(1)} ${(archY + 4).toFixed(1)}, ${startX.toFixed(1)} ${(startY + 9).toFixed(1)} Z
+        `;
+        tubesMarkup += highlighterGroup('fallopian_tubes', tubePath, { strokeW: 2.7 });
+        // Inner tubal lumen line
+        const lumenPath = `M ${startX} ${startY - 1} C ${startX + side * 38} ${archY - 11}, ${archX + side * 26} ${archY - 7}, ${endX + side * 4} ${endY + 4}`;
+        tubesMarkup += `<path d="${lumenPath}" fill="none" stroke="#560BAD" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="5,4" stroke-linecap="round" />`;
+      }
+      html += `<g class="organ-btn ${selectedOrgan === 'fallopian_tubes' ? 'selected-organ' : ''}" data-organ="fallopian_tubes" onclick="selectOrgan('fallopian_tubes', event)" transform="${organTransformAttr('fallopian_tubes', 0, utTopY)}">${tubesMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 5. OVARIES & INTERNAL FOLLICLES - BUTTON: 'ovaries'
+      // -----------------------------------------------------------------------
+      const oSt = organState.ovaries;
+      const isWiltedOvary = oSt.morph < -45;
+      let ovariesMarkup = '';
+      for (const side of [-1, 1]) {
+        const ovX = side * (utHalfW + 104) + utSt.dx;
+        const ovY = utTopY + 76 + tubeDroop + utSt.dy;
+        const ovW = 46;
+        const ovH = 31 * (1.0 + (oSt.morph / 100) * 0.22);
+
+        // Utero-ovarian ligament
+        const ligStartX = side * (utHalfW * 0.80) + utSt.dx;
+        const ligStartY = utTopY + 38 + utSt.dy;
+        const ligPath = `M ${ligStartX} ${ligStartY} Q ${(ligStartX + ovX) * 0.5} ${ovY - 14} ${ovX - side * ovW * 0.78} ${ovY - 4}`;
+        ovariesMarkup += `<path d="${ligPath}" fill="none" stroke="#00B4D8" stroke-opacity="0.52" stroke-width="8.5" stroke-linecap="round" />`;
+        ovariesMarkup += `<path d="${ligPath}" fill="none" stroke="#2B2235" stroke-width="2.2" stroke-linecap="round" filter="url(#loose-pencil)" />`;
+
+        let ovaryPath = '';
+        if (isWiltedOvary) {
+          ovaryPath = `
+            M ${ovX - ovW} ${ovY}
+            C ${ovX - ovW * 0.5} ${ovY - ovH * 1.15}, ${ovX + ovW * 0.5} ${ovY - ovH * 0.65}, ${ovX + ovW} ${ovY}
+            C ${ovX + ovW * 0.5} ${ovY + ovH * 1.15}, ${ovX - ovW * 0.5} ${ovY + ovH * 0.75}, ${ovX - ovW} ${ovY} Z
+          `;
+        } else {
+          ovaryPath = `M ${ovX - ovW} ${ovY} a ${ovW} ${ovH} 0 1 0 ${ovW * 2} 0 a ${ovW} ${ovH} 0 1 0 ${-ovW * 2} 0`;
+        }
+        ovariesMarkup += highlighterGroup('ovaries', ovaryPath, { strokeW: 2.8 });
+
+        // Internal Translucent Ovarian Follicles
+        const fCoords = [
+          [-0.45, -0.24, 7.5],
+          [-0.08,  0.32, 9.0],
+          [ 0.38, -0.20, 12.5],
+          [ 0.42,  0.28, 8.0],
+          [-0.42,  0.25, 6.5]
+        ];
+        const count = isWiltedOvary ? 2 : 5;
+        const folScale = Math.max(0.5, 1.0 + (oSt.morph / 100) * 0.35);
+        for (let f = 0; f < count; f++) {
+          const fx = ovX + side * fCoords[f][0] * ovW;
+          const fy = ovY + fCoords[f][1] * ovH;
+          const fr = fCoords[f][2] * folScale;
+          const folPath = `M ${fx - fr} ${fy} a ${fr} ${fr} 0 1 0 ${fr * 2} 0 a ${fr} ${fr} 0 1 0 -${fr * 2} 0`;
+          ovariesMarkup += highlighterGroup('ovaries', folPath, { fill: '#FEE440', rim: '#F15BB5', opacity: 0.74, strokeW: 1.7, ox: 1, oy: 1 });
+        }
+
+        // If ovulation preset or high ovary morph, show released ovum near fimbriae!
+        if (oSt.morph > 55 && side === 1) {
+          const eggX = ovX + 36;
+          const eggY = ovY - 34;
+          const eggPath = `M ${eggX - 11} ${eggY} a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0`;
+          ovariesMarkup += highlighterGroup('ovaries', eggPath, { fill: '#FEE440', rim: '#FF007F', opacity: 0.88, strokeW: 2.0 });
+        }
+      }
+      html += `<g class="organ-btn ${selectedOrgan === 'ovaries' ? 'selected-organ' : ''}" data-organ="ovaries" onclick="selectOrgan('ovaries', event)" transform="${organTransformAttr('ovaries', 0, utTopY + 76)}">${ovariesMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 6. UTERUS (MYOMETRIUM & FUNDUS) - BUTTON: 'uterus'
+      // -----------------------------------------------------------------------
+      const domeLift = 38 * (1.0 + (utSt.morph / 100) * 0.45);
+      const uterusPath = `
+        M ${-utHalfW} ${utTopY + 18}
+        C ${-utHalfW * 0.55} ${utTopY - domeLift}, ${utHalfW * 0.55} ${utTopY - domeLift}, ${utHalfW} ${utTopY + 18}
+        C ${utHalfW * 1.04} ${(utTopY + utBotY) * 0.48}, ${cervixW * 1.40} ${utBotY - 32}, ${cervixW} ${utBotY}
+        Q 0 ${utBotY + 14} ${-cervixW} ${utBotY}
+        C ${-cervixW * 1.40} ${utBotY - 32}, ${-utHalfW * 1.04} ${(utTopY + utBotY) * 0.48}, ${-utHalfW} ${utTopY + 18} Z
+      `;
+      const uterusMarkup = highlighterGroup('uterus', uterusPath, { strokeW: 3.2 });
+      html += `<g class="organ-btn ${selectedOrgan === 'uterus' ? 'selected-organ' : ''}" data-organ="uterus" onclick="selectOrgan('uterus', event)" transform="${organTransformAttr('uterus', 0, (utTopY + utBotY) * 0.5)}">${uterusMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 7. CERVIX & CERVICAL CANAL - BUTTON: 'cervix'
+      // -----------------------------------------------------------------------
+      const cSt = organState.cervix;
+      const canalW = Math.max(3, 7 + (cSt.morph / 100) * 6);
+      const cervixPath = `
+        M ${-cervixW} ${cervTopY + 6}
+        Q 0 ${cervTopY - 10} ${cervixW} ${cervTopY + 6}
+        C ${cervixW * 1.12} ${(cervTopY + cervBotY) * 0.5}, ${cervixW * 0.85} ${cervBotY}, 10 ${cervBotY}
+        Q 0 ${cervBotY - 11} -10 ${cervBotY}
+        C ${-cervixW * 0.85} ${cervBotY}, ${-cervixW * 1.12} ${(cervTopY + cervBotY) * 0.5}, ${-cervixW} ${cervTopY + 6} Z
+      `;
+      const canalPath = `
+        M 0 ${cervTopY - 4}
+        Q ${-canalW} ${(cervTopY + cervBotY) * 0.5} 0 ${cervBotY - 5}
+        Q ${canalW} ${(cervTopY + cervBotY) * 0.5} 0 ${cervTopY - 4} Z
+      `;
+      let cervixMarkup = highlighterGroup('cervix', cervixPath, { strokeW: 2.8 });
+      cervixMarkup += highlighterGroup('cervix', canalPath, { fill: '#3A0CA3', rim: '#4CC9F0', opacity: 0.52, strokeW: 1.8 });
+      html += `<g class="organ-btn ${selectedOrgan === 'cervix' ? 'selected-organ' : ''}" data-organ="cervix" onclick="selectOrgan('cervix', event)" transform="${organTransformAttr('cervix', 0, (cervTopY + cervBotY) * 0.5)}">${cervixMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 8. ENDOMETRIUM (INNER UTERINE LINING & CAVITY) - BUTTON: 'endometrium'
+      // -----------------------------------------------------------------------
+      const eSt = organState.endometrium;
+      const endoThick = Math.max(0.28, 1.0 + (eSt.morph / 100) * 0.55);
+      const inHalfW = 78 * 0.68;
+      const inTopY = -58 + 12;
+      const inBotY = 120 - 8;
+
+      const endoOuterPath = `
+        M ${-inHalfW} ${inTopY}
+        Q 0 ${inTopY - 16} ${inHalfW} ${inTopY}
+        C ${inHalfW * 0.78} ${(inTopY + inBotY) * 0.5}, 16 ${inBotY - 22}, 8 ${inBotY}
+        Q 0 ${inBotY + 6} -8 ${inBotY}
+        C -16 ${inBotY - 22}, ${-inHalfW * 0.78} ${(inTopY + inBotY) * 0.5}, ${-inHalfW} ${inTopY} Z
+      `;
+
+      // Scalloped wavy inner cavity edge
+      const cavScale = Math.max(0.32, Math.min(0.86, 1.0 - 0.28 * endoThick));
+      const cavW = inHalfW * cavScale;
+      const cavTopY = inTopY + 11 * endoThick;
+      const cavBotY = inBotY - 6;
+
+      let cavityPath = `M ${-cavW.toFixed(1)} ${cavTopY.toFixed(1)}`;
+      const topWaves = 6;
+      for (let w = 1; w <= topWaves; w++) {
+        const t0 = (w - 0.5) / topWaves;
+        const t1 = w / topWaves;
+        const wx0 = -cavW + 2 * cavW * t0;
+        const wx1 = -cavW + 2 * cavW * t1;
+        const wy0 = cavTopY + 6 * endoThick;
+        const wy1 = cavTopY - Math.sin(t1 * Math.PI) * 5;
+        cavityPath += ` Q ${wx0.toFixed(1)} ${wy0.toFixed(1)} ${wx1.toFixed(1)} ${wy1.toFixed(1)}`;
+      }
+      const sideWaves = 7;
+      for (let w = 1; w <= sideWaves; w++) {
+        const t0 = (w - 0.5) / sideWaves;
+        const t1 = w / sideWaves;
+        const x0 = (1 - t0) * cavW + t0 * 4 - 6 * endoThick;
+        const y0 = (1 - t0) * cavTopY + t0 * cavBotY;
+        const x1 = (1 - t1) * cavW + t1 * 4;
+        const y1 = (1 - t1) * cavTopY + t1 * cavBotY;
+        cavityPath += ` Q ${x0.toFixed(1)} ${y0.toFixed(1)} ${x1.toFixed(1)} ${y1.toFixed(1)}`;
+      }
+      cavityPath += ` L -4 ${cavBotY}`;
+      for (let w = sideWaves - 1; w >= 0; w--) {
+        const t0 = (w + 0.5) / sideWaves;
+        const t1 = w / sideWaves;
+        const x0 = -((1 - t0) * cavW + t0 * 4 - 6 * endoThick);
+        const y0 = (1 - t0) * cavTopY + t0 * cavBotY;
+        const x1 = -((1 - t1) * cavW + t1 * 4);
+        const y1 = (1 - t1) * cavTopY + t1 * cavBotY;
+        cavityPath += ` Q ${x0.toFixed(1)} ${y0.toFixed(1)} ${x1.toFixed(1)} ${y1.toFixed(1)}`;
+      }
+      cavityPath += ' Z';
+
+      let endoMarkup = highlighterGroup('endometrium', endoOuterPath, { strokeW: 2.5 });
+      endoMarkup += highlighterGroup('endometrium', cavityPath, { fill: '#FFB3C6', rim: '#FF8FA3', opacity: 0.65, strokeW: 2.0 });
+
+      // If Pregnancy preset (or high stretch), show gestational sac inside cavity
+      if (currentPreset === 'pregnancy' || (eSt.scaleX > 1.35 && eSt.morph > 50)) {
+        const sacY = (cavTopY + cavBotY) * 0.45;
+        const sacPath = `M -28 ${sacY} a 28 25 0 1 0 56 0 a 28 25 0 1 0 -56 0`;
+        endoMarkup += highlighterGroup('endometrium', sacPath, { fill: '#FEE440', rim: '#00BBF9', opacity: 0.60, strokeW: 2.0 });
+      }
+      // If Menstruation preset, show crimson droplets gently shedding
+      if (currentPreset === 'menstruation') {
+        endoMarkup += highlighterGroup('endometrium', `M -5 95 C -5 88, 0 84, 0 84 C 0 84, 5 88, 5 95 A 5 5 0 1 1 -5 95 Z`, { fill: '#D90429', opacity: 0.85, strokeW: 1.5 });
+        endoMarkup += highlighterGroup('endometrium', `M -4 148 C -4 142, 0 138, 0 138 C 0 138, 4 142, 4 148 A 4 4 0 1 1 -4 148 Z`, { fill: '#D90429', opacity: 0.85, strokeW: 1.5 });
+      }
+      html += `<g class="organ-btn ${selectedOrgan === 'endometrium' ? 'selected-organ' : ''}" data-organ="endometrium" onclick="selectOrgan('endometrium', event)" transform="${organTransformAttr('endometrium', 0, (inTopY + inBotY) * 0.5)}">${endoMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 9. FRONT-VIEW VULVA: INTERNAL CLITORAL BULBS & GLANS CLITORIS - BUTTON: 'clitoris'
+      // -----------------------------------------------------------------------
+      const vulvaCY = 362;
+      const majW = 70;
+      const majH = 90;
+      const minW = 38;
+      const minH = 66;
+      const clitY = vulvaCY - minH * 0.70;
+
+      const clitInternalPath = `
+        M 0 ${vulvaCY - majH * 0.62}
+        C -48 ${vulvaCY - majH * 0.20}, -44 ${vulvaCY + majH * 0.35}, -22 ${vulvaCY + majH * 0.25}
+        C -16 ${vulvaCY - majH * 0.15}, -8 ${vulvaCY - majH * 0.42}, 0 ${vulvaCY - majH * 0.46}
+        C 8 ${vulvaCY - majH * 0.42}, 16 ${vulvaCY - majH * 0.15}, 22 ${vulvaCY + majH * 0.25}
+        C 44 ${vulvaCY + majH * 0.35}, 48 ${vulvaCY - majH * 0.20}, 0 ${vulvaCY - majH * 0.62} Z
+      `;
+      const hoodPath = `M -16 ${clitY + 3} Q 0 ${clitY - 22} 16 ${clitY + 3}`;
+      const glansPath = `M -8.5 ${clitY} a 8.5 8.5 0 1 0 17 0 a 8.5 8.5 0 1 0 -17 0`;
+
+      // -----------------------------------------------------------------------
+      // 10. FRONT-VIEW LABIA MAJORA (OUTER LIPS) - BUTTON: 'labia_majora'
+      // -----------------------------------------------------------------------
+      let labMajMarkup = '';
+      for (const side of [-1, 1]) {
+        const lmPath = `
+          M 0 ${vulvaCY - majH * 0.86}
+          C ${side * majW * 0.98} ${vulvaCY - majH * 0.82}, ${side * majW * 1.05} ${vulvaCY + majH * 0.72}, 0 ${vulvaCY + majH * 0.90}
+          C ${side * majW * 0.36} ${vulvaCY + majH * 0.55}, ${side * majW * 0.40} ${vulvaCY - majH * 0.48}, 0 ${vulvaCY - majH * 0.86} Z
+        `;
+        labMajMarkup += highlighterGroup('labia_majora', lmPath, { strokeW: 2.8 });
+      }
+      html += `<g class="organ-btn ${selectedOrgan === 'labia_majora' ? 'selected-organ' : ''}" data-organ="labia_majora" onclick="selectOrgan('labia_majora', event)" transform="${organTransformAttr('labia_majora', 0, vulvaCY)}">${labMajMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 11. FRONT-VIEW LABIA MINORA (INNER LIPS) - BUTTON: 'labia_minora'
+      // -----------------------------------------------------------------------
+      let labMinMarkup = '';
+      for (const side of [-1, 1]) {
+        const lminPath = `
+          M 0 ${vulvaCY - minH * 0.84}
+          C ${side * minW * 1.08} ${vulvaCY - minH * 0.45}, ${side * minW * 0.92} ${vulvaCY + minH * 0.48}, 0 ${vulvaCY + minH * 0.82}
+          C ${side * minW * 0.32} ${vulvaCY + minH * 0.45}, ${side * minW * 0.34} ${vulvaCY - minH * 0.40}, 0 ${vulvaCY - minH * 0.84} Z
+        `;
+        labMinMarkup += highlighterGroup('labia_minora', lminPath, { strokeW: 2.5 });
+      }
+      html += `<g class="organ-btn ${selectedOrgan === 'labia_minora' ? 'selected-organ' : ''}" data-organ="labia_minora" onclick="selectOrgan('labia_minora', event)" transform="${organTransformAttr('labia_minora', 0, vulvaCY)}">${labMinMarkup}</g>`;
+
+      // Render Clitoris button over top of Labia junction so it is super easy to click
+      let clitMarkup = highlighterGroup('clitoris', clitInternalPath, { fill: '#00BBF9', rim: '#7209B7', opacity: 0.22, strokeW: 1.6 });
+      clitMarkup += highlighterGroup('clitoris', hoodPath, { fill: '#FF85A1', rim: '#FF007F', opacity: 0.58, strokeW: 2.2 });
+      clitMarkup += highlighterGroup('clitoris', glansPath, { strokeW: 2.2 });
+      html += `<g class="organ-btn ${selectedOrgan === 'clitoris' ? 'selected-organ' : ''}" data-organ="clitoris" onclick="selectOrgan('clitoris', event)" transform="${organTransformAttr('clitoris', 0, clitY)}">${clitMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 12. FRONT-VIEW VAGINAL OPENING (INTROITUS) - BUTTON: 'vaginal_opening'
+      // -----------------------------------------------------------------------
+      const introitusPath = `M -16 ${vulvaCY + 17} a 16 25 0 1 0 32 0 a 16 25 0 1 0 -32 0`;
+      const introMarkup = highlighterGroup('vaginal_opening', introitusPath, { strokeW: 2.6 });
+      html += `<g class="organ-btn ${selectedOrgan === 'vaginal_opening' ? 'selected-organ' : ''}" data-organ="vaginal_opening" onclick="selectOrgan('vaginal_opening', event)" transform="${organTransformAttr('vaginal_opening', 0, vulvaCY + 17)}">${introMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // OPTIONAL INTERACTIVE CALLOUT PINS
+      // -----------------------------------------------------------------------
+      if (showLabels) {
+        const pins = [
+          { id: 'breasts',         x: -255, y: -355, tx: -215, ty: -335, label: 'Breasts' },
+          { id: 'mammary_glands',  x:  255, y: -355, tx:  195, ty: -325, label: 'Mammary Glands' },
+          { id: 'fallopian_tubes', x: -275, y: -115, tx: -175, ty:  -78, label: 'Fallopian Tubes' },
+          { id: 'ovaries',         x: -285, y:   15, tx: -210, ty:   15, label: 'Ovaries & Follicles' },
+          { id: 'uterus',          x:  245, y:  -95, tx:   72, ty:  -55, label: 'Uterus' },
+          { id: 'endometrium',     x:  245, y:  -25, tx:   35, ty:   -5, label: 'Endometrium' },
+          { id: 'cervix',          x:  235, y:  135, tx:   32, ty:  135, label: 'Cervix' },
+          { id: 'vaginal_canal',   x: -235, y:  215, tx:  -42, ty:  215, label: 'Vaginal Canal' },
+          { id: 'clitoris',        x: -235, y:  310, tx:  -12, ty:  315, label: 'Clitoris' },
+          { id: 'labia_majora',    x:  235, y:  330, tx:   62, ty:  345, label: 'Outer Lips (Labia Majora)' },
+          { id: 'labia_minora',    x: -235, y:  375, tx:  -34, ty:  365, label: 'Inner Lips (Labia Minora)' },
+          { id: 'vaginal_opening', x:  235, y:  405, tx:   16, ty:  382, label: 'Vaginal Opening' }
+        ];
+        for (const p of pins) {
+          const isSel = selectedOrgan === p.id;
+          const col = ORGAN_DEFS[p.id].color;
+          html += `
+            <g class="cursor-pointer" onclick="selectOrgan('${p.id}', event)">
+              <line x1="${p.x}" y1="${p.y}" x2="${p.tx}" y2="${p.ty}" stroke="#2B2235" stroke-opacity="${isSel ? '0.85' : '0.35'}" stroke-width="${isSel ? '2' : '1.2'}" stroke-dasharray="3,3" />
+              <circle cx="${p.tx}" cy="${p.ty}" r="3.5" fill="${col}" stroke="#2B2235" stroke-width="1.2" />
+              <text x="${p.x + (p.x < 0 ? -6 : 6)}" y="${p.y + 4}" text-anchor="${p.x < 0 ? 'end' : 'start'}" font-size="12" font-weight="${isSel ? '700' : '600'}" fill="${isSel ? '#D90429' : '#2B2235'}">${p.label}</text>
+            </g>
+          `;
+        }
+      }
+
+      svg.innerHTML = html;
+      renderOrganPills();
+    }
+
+    // =========================================================================
+    // UI PILLS, INSPECTOR CONTROLS & DIRECT DRAG MANIPULATION
+    // =========================================================================
+    function renderOrganPills() {
+      const container = document.getElementById('organ-pill-list');
+      let out = '';
+      for (const [id, def] of Object.entries(ORGAN_DEFS)) {
+        const isSel = selectedOrgan === id;
+        const st = organState[id];
+        out += `
+          <button onclick="selectOrgan('${id}')" class="flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold border transition text-left ${isSel ? 'bg-pink-50 border-pink-500 text-pink-900 shadow-sm' : 'border-transparent hover:bg-black/5'}">
+            <span class="flex items-center gap-2 truncate">
+              <span class="w-3.5 h-3.5 rounded-full border border-black/30 shrink-0" style="background:${st.color}; opacity:${Math.min(1, st.opacity + 0.25)}"></span>
+              <span class="truncate">${def.name}</span>
+            </span>
+            <span class="text-[11px] opacity-65 ml-1">${st.scaleX.toFixed(1)}x</span>
+          </button>
+        `;
+      }
+      container.innerHTML = out;
+    }
+
+    function selectOrgan(organId, ev) {
+      if (ev) ev.stopPropagation();
+      selectedOrgan = organId;
+      syncControlsToSelected();
+      renderAnatomy();
+    }
+
+    function syncControlsToSelected() {
+      const def = ORGAN_DEFS[selectedOrgan];
+      const st = organState[selectedOrgan];
+      document.getElementById('inspector-swatch').style.background = st.color;
+      document.getElementById('inspector-title').textContent = def.name;
+      document.getElementById('inspector-desc').textContent = def.desc;
+      document.getElementById('label-morph').textContent = def.morphLabel;
+
+      document.getElementById('ctrl-scaleX').value = st.scaleX;
+      document.getElementById('val-scaleX').textContent = st.scaleX.toFixed(2) + 'x';
+
+      document.getElementById('ctrl-scaleY').value = st.scaleY;
+      document.getElementById('val-scaleY').textContent = st.scaleY.toFixed(2) + 'x';
+
+      document.getElementById('ctrl-morph').value = st.morph;
+      document.getElementById('val-morph').textContent = (st.morph > 0 ? '+' : '') + Math.round(st.morph) + '%';
+
+      document.getElementById('ctrl-dx').value = st.dx;
+      document.getElementById('val-dx').textContent = Math.round(st.dx) + 'px';
+
+      document.getElementById('ctrl-dy').value = st.dy;
+      document.getElementById('val-dy').textContent = Math.round(st.dy) + 'px';
+
+      document.getElementById('ctrl-rot').value = st.rot;
+      document.getElementById('val-rot').textContent = Math.round(st.rot) + '°';
+
+      document.getElementById('ctrl-color').value = st.color;
+      document.getElementById('ctrl-opacity').value = st.opacity;
+      document.getElementById('val-opacity').textContent = Math.round(st.opacity * 100) + '%';
+
+      document.getElementById('code-preview').textContent =
+        `ReproductiveModel.setOrgan('${selectedOrgan}', { scaleX: ${st.scaleX.toFixed(2)}, scaleY: ${st.scaleY.toFixed(2)}, morph: ${Math.round(st.morph)}, dx: ${Math.round(st.dx)}, dy: ${Math.round(st.dy)} })`;
+    }
+
+    function updateSelectedFromControls() {
+      const st = organState[selectedOrgan];
+      st.scaleX  = parseFloat(document.getElementById('ctrl-scaleX').value);
+      st.scaleY  = parseFloat(document.getElementById('ctrl-scaleY').value);
+      st.morph   = parseFloat(document.getElementById('ctrl-morph').value);
+      st.dx      = parseFloat(document.getElementById('ctrl-dx').value);
+      st.dy      = parseFloat(document.getElementById('ctrl-dy').value);
+      st.rot     = parseFloat(document.getElementById('ctrl-rot').value);
+      st.color   = document.getElementById('ctrl-color').value;
+      st.opacity = parseFloat(document.getElementById('ctrl-opacity').value);
+      syncControlsToSelected();
+      renderAnatomy();
+    }
+
+    function resetSelectedOrgan() {
+      const def = createDefaultState()[selectedOrgan];
+      Object.assign(organState[selectedOrgan], def);
+      syncControlsToSelected();
+      renderAnatomy();
+    }
+
+    function updateCanvasBg() {
+      const c = document.getElementById('canvas-container');
+      if (document.getElementById('toggle-checker').checked) {
+        c.classList.add('checkerboard');
+      } else {
+        c.classList.remove('checkerboard');
+      }
+    }
+
+    // Direct Pointer Dragging on SVG Organ Buttons
+    let dragOrgan = null;
+    let dragStartPt = null;
+    let dragStartOffset = null;
+
+    const svgEl = document.getElementById('anatomy-svg');
+    svgEl.addEventListener('pointerdown', (e) => {
+      if (!document.getElementById('toggle-drag').checked) return;
+      const g = e.target.closest('.organ-btn');
+      if (!g) return;
+      const id = g.getAttribute('data-organ');
+      selectOrgan(id);
+      dragOrgan = id;
+      const pt = svgEl.createSVGPoint();
+      pt.x = e.clientX;
+      pt.y = e.clientY;
+      dragStartPt = pt.matrixTransform(svgEl.getScreenCTM().inverse());
+      dragStartOffset = { dx: organState[id].dx, dy: organState[id].dy };
+      svgEl.setPointerCapture(e.pointerId);
+    });
+
+    svgEl.addEventListener('pointermove', (e) => {
+      if (!dragOrgan) return;
+      const pt = svgEl.createSVGPoint();
+      pt.x = e.clientX;
+      pt.y = e.clientY;
+      const cur = pt.matrixTransform(svgEl.getScreenCTM().inverse());
+      organState[dragOrgan].dx = Math.max(-120, Math.min(120, dragStartOffset.dx + (cur.x - dragStartPt.x)));
+      organState[dragOrgan].dy = Math.max(-120, Math.min(120, dragStartOffset.dy + (cur.y - dragStartPt.y)));
+      syncControlsToSelected();
+      renderAnatomy();
+    });
+
+    svgEl.addEventListener('pointerup', () => {
+      dragOrgan = null;
+    });
+
+    function exportSVG() {
+      const svgNode = document.getElementById('anatomy-svg');
+      const serializer = new XMLSerializer();
+      const source = serializer.serializeToString(svgNode);
+      const blob = new Blob([source], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `emPowHer_reproductive_system_${currentPreset}.svg`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    // Expose programmatic API on window for external app integration
+    window.ReproductiveModel = {
+      setOrgan(id, props) {
+        if (!organState[id]) return;
+        Object.assign(organState[id], props);
+        syncControlsToSelected();
+        renderAnatomy();
+      },
+      setPreset(name) {
+        applyPreset(name);
+      },
+      getState() {
+        return JSON.parse(JSON.stringify(organState));
+      }
+    };
+
+    // Initialize
+    syncControlsToSelected();
+    renderAnatomy();
+  </script>
+</body>
+</html>

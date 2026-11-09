@@ -716,9 +716,14 @@ export const NATIONAL_CRISIS_DIRECTORY = {
     ]
   },
   senegal: {
-    emergencyNumber: '17 (Police) / 1515 (SAMU Ambulance)',
+    emergencyNumber: '17 (Police) / 1515 (SAMU Ambulance) / 116 (Ligne Verte VBG & Centre Ginddi)',
     crisisLines: [
-      'Ligne Verte Violences Basées sur le Genre (Ministry of Women): Call 116 (Toll-Free)'
+      'Ligne Verte Nationale VBG & Centre Ginddi (24/7 Toll-Free Emergency Helpline & Shelter): Call 116',
+      'La Maison Rose (Association Unies Vers’Elle — Pikine/Guédiawaye Women & Young Mothers Safe House): Call +221 33 877 34 46',
+      'Association des Juristes Sénégalaises (AJS — Boutiques de Droit Free Legal Aid Helpline): Call 800 00 20 22 or +221 33 824 42 09',
+      'Samu Social Sénégal (Ouakam Emergency Night Medical & Shelter Protection): Call +221 33 860 28 06',
+      'Centre Régional Intégré “Kullimaaro” (Ziguinchor / Casamance Women’s Shelter): Call +221 33 991 12 80 / 116',
+      'Sénégal UNHCR MCO (+221 33 864 38 45), UNICEF (+221 33 831 02 00), IOM (+221 33 869 62 00) & Plan International (+221 33 865 35 50)'
     ]
   },
   mauritania: {

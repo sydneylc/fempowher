@@ -142487,5 +142487,401 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Founded in 2000 in Libreville, ONG SIFOS protects vulnerable young women and girls from exploitation and violence while providing social and vocational reintegration."
     }
+  },
+  {
+    "id": "senegal-maison-femme-camp-thiaroye-gare",
+    "regionDistrict": "Senegal (Dakar — Thiaroye / Pikine)",
+    "type": "safe-haven",
+    "lat": 14.7581013,
+    "lng": -17.3732567,
+    "name": {
+      "en": "Maison de la Femme et Centre Polyvalent de Camp Thiaroye Gare"
+    },
+    "categoryBadge": {
+      "en": "Women's Shelter & Multipurpose Empowerment Center (Thiaroye)"
+    },
+    "phone": "116 / 800 00 20 22",
+    "emergencyHotline": "116 (Ligne Verte Nationale VBG)",
+    "address": {
+      "en": "QJ5G+6MX, Camp Thiaroye Gare, Pikine, Dakar, Senegal"
+    },
+    "services": {
+      "en": [
+        "Women's Shelter & Safe Listening Space",
+        "Psychosocial Support & Domestic Violence Referral",
+        "Vocational Training & Women's Economic Empowerment",
+        "Maternal & Family Health Orientation"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at QJ5G+6MX in Camp Thiaroye Gare (Pikine/Dakar). Dedicated Maison de la Femme providing shelter support, listening, and empowerment for women and girls."
+    }
+  },
+  {
+    "id": "senegal-maison-rose-unies-vers-elle-pikine-guediawaye",
+    "regionDistrict": "Senegal (Dakar — Guédiawaye / Pikine)",
+    "type": "safe-haven",
+    "lat": 14.7691255,
+    "lng": -17.387584,
+    "name": {
+      "en": "LA MAISON ROSE (Association Unies Vers'Elle Sénégal — Pikine / Guédiawaye)"
+    },
+    "categoryBadge": {
+      "en": "Dedicated Women & Young Mothers Safe House (Domestic & Sexual Violence Shelter)"
+    },
+    "phone": "+221 33 877 34 46 / 116",
+    "emergencyHotline": "116 / +221 33 877 34 46",
+    "address": {
+      "en": "Dar As Salam, Ancien Tribunal Départemental de Pikine, Guédiawaye/Pikine, Dakar, Senegal (https://uniesverselle.org/notre-programmes/maison-rose/)"
+    },
+    "services": {
+      "en": [
+        "Emergency & Medium-Term Safe Shelter for Women, Girls & Young Mothers",
+        "Holistic Medical, Psychological & Trauma Reconstruction",
+        "Legal & Judicial Assistance for Rape, Incest & Domestic Violence Survivors",
+        "Literacy, Entrepreneurship & Reintegration Programs"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at Dar As Salam, Ancien Tribunal Départemental de Pikine (+221 33 877 34 46). Flagship safe house in Greater Dakar sheltering women, adolescent girls, and young mothers escaping sexual and domestic violence."
+    }
+  },
+  {
+    "id": "senegal-centre-ginddi-front-de-terre-dakar",
+    "regionDistrict": "Senegal (Dakar — Front de Terre)",
+    "type": "safe-haven",
+    "lat": 14.7297265,
+    "lng": -17.4449419,
+    "name": {
+      "en": "Centre Ginddi (National Emergency Protection Shelter & 116 Toll-Free Helpline Center)"
+    },
+    "categoryBadge": {
+      "en": "National 24/7 Emergency Shelter & 116 Helpline Hub (Ministry of Family)"
+    },
+    "phone": "116",
+    "emergencyHotline": "116 (Numéro Vert Gratuit 24/7)",
+    "address": {
+      "en": "Front de Terre Villa N° 82, Dakar, Senegal (https://centreginddi.sn/)"
+    },
+    "services": {
+      "en": [
+        "Operates Senegal's 24/7 Toll-Free 116 Abuse & VBG Helpline",
+        "Emergency Shelter for Abused Girls, Vulnerable Children & Young Mothers",
+        "Medical, Psychological & Social Triage",
+        "Family Mediation & Legal Protection"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at Front de Terre Villa N° 82, Dakar (https://centreginddi.sn/). National public protection center operating the 24/7 toll-free 116 helpline and providing emergency shelter and psychosocial care."
+    }
+  },
+  {
+    "id": "senegal-samu-social-ouakam-dakar",
+    "regionDistrict": "Senegal (Dakar — Ouakam)",
+    "type": "safe-haven",
+    "lat": 14.7279371,
+    "lng": -17.4924548,
+    "name": {
+      "en": "Samu Social Sénégal (Emergency Mobile Medical & Shelter Protection)"
+    },
+    "categoryBadge": {
+      "en": "Emergency Night Shelter, Medical Outreach & Vulnerable Girls Protection"
+    },
+    "phone": "+221 33 860 28 06 / 116",
+    "emergencyHotline": "+221 33 860 28 06 / 116",
+    "address": {
+      "en": "PGH5+52F, Ouakam, Dakar, Senegal (http://www.samusocialsenegal.com/)"
+    },
+    "services": {
+      "en": [
+        "Emergency Night Mobile Medical & Psychological Teams",
+        "Emergency Safe Shelter & Crisis Stabilization",
+        "Protection of Street-Connected Girls & Young Mothers"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at PGH5+52F, Ouakam, Dakar (+221 33 860 28 06, http://www.samusocialsenegal.com/). Provides emergency medical, psychological, and shelter care."
+    }
+  },
+  {
+    "id": "senegal-plan-international-keur-gorgui-dakar",
+    "regionDistrict": "Senegal (Dakar — Cité Keur Gorgui)",
+    "type": "safe-haven",
+    "lat": 14.7131128,
+    "lng": -17.4671611,
+    "name": {
+      "en": "Plan International Sénégal — Girls' Rights, Anti-FGM & Child Marriage Protection"
+    },
+    "categoryBadge": {
+      "en": "Adolescent Girls' Protection & SGBV Prevention NGO"
+    },
+    "phone": "+221 33 865 35 50 / 116",
+    "emergencyHotline": "116 / +221 33 865 35 50",
+    "address": {
+      "en": "Cité Keur Gorgui, lot n°AD17, Résidence EMESKA (en face ISCOM), Dakar, Senegal"
+    },
+    "services": {
+      "en": [
+        "Protection of Girls Against FGM/C, Forced/Child Marriage & SGBV",
+        "Adolescent Sexual & Reproductive Health Rights",
+        "Community Child & Girl Protection Committees"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at Cité Keur Gorgui, lot n°AD17, Résidence EMESKA (+221 33 865 35 50, http://plan-international.org/where-we-work/africa/senegal)."
+    }
+  },
+  {
+    "id": "senegal-unicef-wcaro-sco-almadies-dakar",
+    "regionDistrict": "Senegal (Dakar — Almadies)",
+    "type": "safe-haven",
+    "lat": 14.744496,
+    "lng": -17.5206298,
+    "name": {
+      "en": "UNICEF WCARO & Senegal Country Office — Maternal, Child & Girl Protection"
+    },
+    "categoryBadge": {
+      "en": "UN Regional & National Maternal/Girl Protection Hub"
+    },
+    "phone": "+221 33 831 02 00 / 116",
+    "emergencyHotline": "116 / +221 33 831 02 00",
+    "address": {
+      "en": "PFVF+RVR, Almadies, Dakar, Senegal (https://www.unicef.org/wca/)"
+    },
+    "services": {
+      "en": [
+        "Ending FGM/C & Child Marriage Programs",
+        "Maternal, Newborn & Adolescent Girl Health",
+        "Support to National 116 Helpline & GBV Response"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at PFVF+RVR, Almadies, Dakar (+221 33 831 02 00, https://www.unicef.org/wca/)."
+    }
+  },
+  {
+    "id": "senegal-unhcr-mco-dakar",
+    "regionDistrict": "Senegal (Dakar — Mermoz / Fann)",
+    "type": "safe-haven",
+    "lat": 14.7022271,
+    "lng": -17.4756991,
+    "name": {
+      "en": "Sénégal UNHCR Multi-Country Office (MCO) — Refugee Women's SGBV Protection"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Refugee Women's Protection & Legal Aid Hub"
+    },
+    "phone": "+221 33 864 38 45 / 116",
+    "emergencyHotline": "116 / +221 33 864 38 45",
+    "address": {
+      "en": "PG2F+VPV, Dakar, Senegal (https://reporting.unhcr.org/senegalmco)"
+    },
+    "services": {
+      "en": [
+        "Refugee & Asylum-Seeking Women's SGBV Protection",
+        "Partnership with OFADEC & AJS Boutiques de Droit",
+        "Emergency Medical & Psychosocial Referrals"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at PG2F+VPV, Dakar (+221 33 864 38 45, https://reporting.unhcr.org/senegalmco)."
+    }
+  },
+  {
+    "id": "senegal-iom-rue-leo-frobenius-dakar",
+    "regionDistrict": "Senegal (Dakar — Almadies / Ngor)",
+    "type": "safe-haven",
+    "lat": 14.738586,
+    "lng": -17.5135987,
+    "name": {
+      "en": "International Organization for Migration (IOM Senegal) — Counter-Trafficking & Migrant Women's Protection"
+    },
+    "categoryBadge": {
+      "en": "UN Migration, Anti-Trafficking & Women's Protection Hub"
+    },
+    "phone": "+221 33 869 62 00 / 116",
+    "emergencyHotline": "116 / +221 33 869 62 00",
+    "address": {
+      "en": "PFQP+CHJ, Rue Leo Frobenius, Dakar, Senegal"
+    },
+    "services": {
+      "en": [
+        "Protection & Safe Shelter Assistance for Trafficking Survivors",
+        "Psychosocial & Medical Support for Returning/Migrant Women",
+        "Emergency Humanitarian Protection"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at PFQP+CHJ, Rue Leo Frobenius, Dakar (+221 33 869 62 00)."
+    }
+  },
+  {
+    "id": "senegal-speak-up-africa-rue-jules-ferry-dakar",
+    "regionDistrict": "Senegal (Dakar — Plateau)",
+    "type": "safe-haven",
+    "lat": 14.6665552,
+    "lng": -17.4331355,
+    "name": {
+      "en": "Speak Up Africa (Voix EssentiELLES — Women's Health & Anti-GBV Leadership)"
+    },
+    "categoryBadge": {
+      "en": "Women's Health Advocacy & Voix EssentiELLES Hub"
+    },
+    "phone": "+221 33 822 49 22 / 116",
+    "emergencyHotline": "116 / +221 33 822 49 22",
+    "address": {
+      "en": "App. 87b - 8th Floor, Rue Jules Ferry, Dakar-Plateau, Senegal (http://www.speakupafrica.org/)"
+    },
+    "services": {
+      "en": [
+        "Voix EssentiELLES Women & Girls Health Fund",
+        "Maternal Health, Menstrual Hygiene & Disease Prevention",
+        "Gender Equality & GBV Prevention Advocacy"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at App. 87b, 8th Floor, Rue Jules Ferry, Dakar (+221 33 822 49 22, http://www.speakupafrica.org/)."
+    }
+  },
+  {
+    "id": "senegal-acdev-action-developpement-pikine",
+    "regionDistrict": "Senegal (Dakar — Pikine)",
+    "type": "safe-haven",
+    "lat": 14.7561253,
+    "lng": -17.3957777,
+    "name": {
+      "en": "ACDEV — Action et Développement Sénégal (Reproductive Health & GBV Prevention)"
+    },
+    "categoryBadge": {
+      "en": "Women's Reproductive Health, Family Planning & VBG NGO"
+    },
+    "phone": "+221 33 834 65 98 / 116",
+    "emergencyHotline": "116 / +221 33 834 65 98",
+    "address": {
+      "en": "QJ43+FM5, Pikine, Dakar, Senegal (http://acdev-inter.org/)"
+    },
+    "services": {
+      "en": [
+        "Community Family Planning & Maternal Health",
+        "Prevention of Gender-Based Violence & Early Marriage",
+        "Adolescent Girls' Health Counseling"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at QJ43+FM5 in Pikine, Dakar (+221 33 834 65 98, http://acdev-inter.org/). Focuses on maternal health, family planning, and GBV prevention."
+    }
+  },
+  {
+    "id": "senegal-social-change-factory-dakar",
+    "regionDistrict": "Senegal (Dakar)",
+    "type": "safe-haven",
+    "lat": 14.6909175,
+    "lng": -17.4588468,
+    "name": {
+      "en": "Social Change Factory — Young Women's Leadership & Civic Protection"
+    },
+    "categoryBadge": {
+      "en": "Youth & Young Women's Empowerment Organization"
+    },
+    "phone": "+221 33 825 44 22 / 116",
+    "emergencyHotline": "116 / +221 33 825 44 22",
+    "address": {
+      "en": "MGRR+9F6, Dakar, Senegal (http://www.socialchangefactory.org/)"
+    },
+    "services": {
+      "en": [
+        "Young Women's Empowerment & Leadership",
+        "Community Dialogue Against Gender Violence",
+        "Youth Health & Rights Education"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at MGRR+9F6, Dakar (+221 33 825 44 22, http://www.socialchangefactory.org/)."
+    }
+  },
+  {
+    "id": "senegal-centre-kullimaaro-ziguinchor-casamance",
+    "regionDistrict": "Senegal (Ziguinchor — Casamance)",
+    "type": "safe-haven",
+    "lat": 12.5645,
+    "lng": -16.2735,
+    "name": {
+      "en": "Centre Régional Intégré « Kullimaaro » & Boutique de Droit AJS (Ziguinchor)"
+    },
+    "categoryBadge": {
+      "en": "Holistic Emergency Women's Shelter, Medical & Legal Center (Casamance)"
+    },
+    "phone": "800 00 20 22 / 116 / +221 33 991 12 80",
+    "emergencyHotline": "116 / 800 00 20 22 (Numéro Vert AJS)",
+    "address": {
+      "en": "Ziguinchor, Casamance Region, Southern Senegal"
+    },
+    "services": {
+      "en": [
+        "18-Bed Emergency Women's Shelter (Up to 3 Months Renewable)",
+        "Free Medical & Psychological Care for GBV Survivors",
+        "AJS Boutique de Droit Free Legal & Judicial Assistance",
+        "Socio-Economic Reintegration (PFPC & UN Women)"
+      ]
+    },
+    "directionsText": {
+      "en": "Established by the Plateforme des Femmes pour la Paix en Casamance (PFPC) and UN Women in Ziguinchor, Centre Kullimaaro provides holistic emergency shelter, medical care, psychological counseling, and legal aid."
+    }
+  },
+  {
+    "id": "senegal-la-liane-maison-droits-femmes-saint-louis",
+    "regionDistrict": "Senegal (Saint-Louis)",
+    "type": "safe-haven",
+    "lat": 16.025,
+    "lng": -16.495,
+    "name": {
+      "en": "Association La Liane (Maison des Droits des Femmes & Refuge) & Boutique de Droit AJS Saint-Louis"
+    },
+    "categoryBadge": {
+      "en": "Women's Safe Shelter, Legal Clinic & Vulnerable Girls Protection (Saint-Louis)"
+    },
+    "phone": "800 00 20 22 / 116",
+    "emergencyHotline": "116 / 800 00 20 22",
+    "address": {
+      "en": "Saint-Louis, Northern Senegal (https://laliane.eu/)"
+    },
+    "services": {
+      "en": [
+        "Emergency Safe Shelter for Women & Girls Survivors of Violence",
+        "Maison des Droits des Femmes & AJS Boutique de Droit Legal Aid",
+        "Maternal Support, Psychological Counseling & Vocational Training"
+      ]
+    },
+    "directionsText": {
+      "en": "Operates a safe shelter and Maison des Droits des Femmes in Saint-Louis alongside the Association des Juristes Sénégalaises (AJS) Boutique de Droit."
+    }
+  },
+  {
+    "id": "senegal-aprofes-kaolack-thies-boutiques-de-droit",
+    "regionDistrict": "Senegal (Kaolack, Thiès, Kolda & Louga)",
+    "type": "safe-haven",
+    "lat": 14.152,
+    "lng": -16.0726,
+    "name": {
+      "en": "APROFES (Kaolack) & Réseau des Boutiques de Droit AJS (Thiès, Kaolack, Louga, Kolda & Kédougou)"
+    },
+    "categoryBadge": {
+      "en": "Regional Women's Shelters, Listening Cells & Free Legal Clinics"
+    },
+    "phone": "800 00 20 22 / 116 / +221 33 941 28 36",
+    "emergencyHotline": "800 00 20 22 (Numéro Vert AJS) / 116",
+    "address": {
+      "en": "Kaolack, Thiès (14.79N, 16.92W), Kolda (12.88N, 14.95W) & Kédougou, Senegal"
+    },
+    "services": {
+      "en": [
+        "APROFES Women's Listening & Shelter Support in Kaolack",
+        "AJS Boutiques de Droit Free Legal & Judicial Accompaniment (800 00 20 22)",
+        "Domestic Violence, Sexual Assault & Family Law Defense"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers APROFES in Kaolack and the Association des Juristes Sénégalaises (AJS) regional Boutiques de Droit across Thiès, Kaolack, Louga, Kolda, Sédhiou, and Kédougou."
+    }
   }
 ];

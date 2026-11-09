@@ -139837,5 +139837,1443 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Provincial hospitals providing maternal, surgical, and emergency care in the Lake Chad region (Bol), Kanem (Mao), and northern Chad (Faya-Largeau)."
     }
+  },
+  {
+    "id": "algeria-unhcr-tindouf-rabouni-sahrawi-camps-gbv",
+    "regionDistrict": "Algeria (Tindouf — Rabouni, Smara, Laayoune, Awserd & Boujdour Camps)",
+    "type": "safe-haven",
+    "lat": 27.5833,
+    "lng": -8.0333,
+    "name": {
+      "en": "UNHCR & NUSW (Unión Nacional de Mujeres Saharauis) Casas de la Mujer — Tindouf Refugee Camps"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Refugee Camp Women's Safe Spaces (Rabouni, Smara, Laayoune, Awserd, Boujdour)"
+    },
+    "phone": "+213 21 92 26 40 / 1026",
+    "emergencyHotline": "1026 (Algeria Women's Distress Line) / UNHCR Tindouf Sub-Office",
+    "address": {
+      "en": "Rabouni, Smara, Laayoune, Awserd & Boujdour Wilayas, Tindouf, Southwestern Algeria"
+    },
+    "services": {
+      "en": [
+        "Casas de la Mujer (Women's Centers in All 5 Sahrawi Camps)",
+        "UNHCR SGBV Protection & Legal Aid",
+        "Psychosocial Counseling & Maternal Nutrition Support",
+        "Hospital Nacional de Rabouni Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Women's Centers (Casas de la Mujer) operated by the National Union of Sahrawi Women (NUSW) and UNHCR across all five Sahrawi refugee camps near Tindouf."
+    }
+  },
+  {
+    "id": "algeria-eph-tindouf-rabouni-hospital",
+    "regionDistrict": "Algeria (Tindouf & Dakhla Camp)",
+    "type": "hospital",
+    "lat": 27.6711,
+    "lng": -8.1474,
+    "name": {
+      "en": "EPH Si El Haouès de Tindouf, EHS Mère-Enfant & Hospital Nacional de Rabouni"
+    },
+    "categoryBadge": {
+      "en": "Public Hospital, Mother-Child Center & Refugee Central Hospital"
+    },
+    "phone": "14 / 1548",
+    "emergencyHotline": "14 (Protection Civile) / 1026",
+    "address": {
+      "en": "Tindouf & Rabouni / Dakhla Camp (27.05N, 6.85W), Tindouf Wilaya, Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "Refugee Camp Regional Hospitals (Bolla, Smara, Dakhla, Awserd)",
+        "Pediatrics & Gynecology"
+      ]
+    },
+    "directionsText": {
+      "en": "Main public hospital and Mother-Child EHS in Tindouf alongside the central refugee hospital in Rabouni and camp hospitals."
+    }
+  },
+  {
+    "id": "algeria-dakhla-camp-sahrawi-hospital-safe-space",
+    "regionDistrict": "Algeria (Dakhla Sahrawi Refugee Camp — Tindouf South-East)",
+    "type": "safe-haven",
+    "lat": 27.046,
+    "lng": -6.835,
+    "name": {
+      "en": "Casa de la Mujer & Hospital Regional de Dakhla (Sahrawi Refugee Camp)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR & NUSW Women's Safe Space & Camp Maternity"
+    },
+    "phone": "1026 / 14",
+    "emergencyHotline": "1026 / 14",
+    "address": {
+      "en": "Wilaya de Dakhla (Refugee Camp), Southeast of Tindouf, Algeria"
+    },
+    "services": {
+      "en": [
+        "Women's Safe Space (Casa de la Mujer)",
+        "Midwifery & Safe Childbirth Clinic",
+        "UNHCR Protection & Psychosocial Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves the remote Dakhla Sahrawi refugee camp located 170 km southeast of Tindouf with a dedicated Casa de la Mujer and regional maternity clinic."
+    }
+  },
+  {
+    "id": "algeria-eph-bechar-ehs-mere-enfant",
+    "regionDistrict": "Algeria (Béchar & Beni Abbès)",
+    "type": "hospital",
+    "lat": 31.6167,
+    "lng": -2.2167,
+    "name": {
+      "en": "EPH Tourabi Boudjemaa de Béchar, EHS Mère-Enfant Béchar & EPH Beni Abbès"
+    },
+    "categoryBadge": {
+      "en": "Regional Public & Mother-Child Hospitals (Saoura Region)"
+    },
+    "phone": "+213 49 21 12 12 / 14",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "Béchar & Beni Abbès (30.13N, 2.16W), Southwestern Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Specialized Mother-Child Hospital (EHS Mère-Enfant)",
+        "Obstetrics, Gynecology & Neonatology",
+        "Emergency Trauma & Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional public hospital and dedicated Mother-Child hospital (EHS Mère-Enfant) serving Béchar, Beni Abbès, and the Saoura valley."
+    }
+  },
+  {
+    "id": "algeria-eph-adrar-timimoun-bordj-badji-mokhtar",
+    "regionDistrict": "Algeria (Adrar, Timimoun, Reggane & Bordj Badji Mokhtar)",
+    "type": "hospital",
+    "lat": 27.8742,
+    "lng": -0.2939,
+    "name": {
+      "en": "EPH Ibn Sina d'Adrar, EHS Mère-Enfant Adrar, EPH Timimoun & EPH Reggane"
+    },
+    "categoryBadge": {
+      "en": "Regional Saharan Referral & Mother-Child Hospitals (Touat-Gourara)"
+    },
+    "phone": "+213 49 36 11 11 / 14",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "Adrar, Timimoun (29.26N, 0.23E) & Reggane (26.71N, 0.17E), Central-West Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & High-Risk Obstetrics",
+        "Pediatrics & Neonatal Care",
+        "Forensic & GBV Survivor Medical Support (Hotline 1026)"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers EPH Ibn Sina and the Mother-Child hospital in Adrar, plus public hospitals in Timimoun and Reggane."
+    }
+  },
+  {
+    "id": "algeria-eph-reggane-aoulef-bordj-badji-mokhtar",
+    "regionDistrict": "Algeria (Reggane, Aoulef & Bordj Badji Mokhtar)",
+    "type": "hospital",
+    "lat": 26.715,
+    "lng": 0.171,
+    "name": {
+      "en": "EPH de Reggane, EPH d'Aoulef & EPH de Bordj Badji Mokhtar"
+    },
+    "categoryBadge": {
+      "en": "Deep South Public Maternity & Emergency Hospitals"
+    },
+    "phone": "14 / 1026",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "Reggane, Aoulef (26.96N, 1.08E) & Bordj Badji Mokhtar (21.33N, 0.95E), Southern Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency & Maternity Ward",
+        "Maternal & Child Health for Deep-South Oasis Communities",
+        "Psychosocial & Social Solidarity Referral (1026)"
+      ]
+    },
+    "directionsText": {
+      "en": "Public hospitals providing maternal and emergency healthcare across Reggane, Aoulef, and the far-southern border hub of Bordj Badji Mokhtar."
+    }
+  },
+  {
+    "id": "algeria-eph-in-salah-in-guezzam",
+    "regionDistrict": "Algeria (In Salah & In Guezzam)",
+    "type": "hospital",
+    "lat": 27.1935,
+    "lng": 2.4607,
+    "name": {
+      "en": "EPH d'In Salah & EPH d'In Guezzam (Tidikelt & Hoggar South)"
+    },
+    "categoryBadge": {
+      "en": "Public Saharan Hospital & Maternity Center"
+    },
+    "phone": "14 / 1026",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "In Salah (27.19N, 2.46E) & In Guezzam, Central Sahara, Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Delivery",
+        "Emergency Medicine & Surgery",
+        "Women's Health & Prenatal Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves the central Saharan wilaya of In Salah and southern border wilaya of In Guezzam."
+    }
+  },
+  {
+    "id": "algeria-eph-tamanrasset-ehs-mere-enfant-safe-space",
+    "regionDistrict": "Algeria (Tamanrasset / Hoggar)",
+    "type": "safe-haven",
+    "lat": 22.785,
+    "lng": 5.5228,
+    "name": {
+      "en": "DAS / Cellule d'Écoute VBG Tamanrasset, EPH Mesbah Baghdadi & EHS Mère-Enfant"
+    },
+    "categoryBadge": {
+      "en": "Women's Protection Cell, Refugee/Migrant Support & Mother-Child Hospital"
+    },
+    "phone": "1026 / +213 29 34 44 44 / 14",
+    "emergencyHotline": "1026 (National Women's Helpline) / 14",
+    "address": {
+      "en": "Tamanrasset, Ahaggar (Hoggar), Far-South Algeria"
+    },
+    "services": {
+      "en": [
+        "Direction de l'Action Sociale (DAS) Women's Shelter & Listening Cell (1026)",
+        "EHS Mère-Enfant (Dedicated Mother & Child Hospital)",
+        "EPH Mesbah Baghdadi 24/7 Obstetrics & Trauma",
+        "Caritas / Red Crescent Migrant & Refugee Women's Assistance"
+      ]
+    },
+    "directionsText": {
+      "en": "Major southern Algerian hub in Tamanrasset combining the DAS women's protection desk (1026), EHS Mère-Enfant maternity hospital, and EPH Mesbah Baghdadi."
+    }
+  },
+  {
+    "id": "algeria-eph-illizi-djanet-in-amenas",
+    "regionDistrict": "Algeria (Illizi, Djanet & In Amenas — Tassili n'Ajjer)",
+    "type": "hospital",
+    "lat": 26.4833,
+    "lng": 8.4667,
+    "name": {
+      "en": "EPH Targhi Wantimidi d'Illizi, EPH de Djanet & EPH d'In Amenas"
+    },
+    "categoryBadge": {
+      "en": "Southeastern Saharan Public & Maternity Hospitals (Tassili)"
+    },
+    "phone": "+213 29 41 12 12 / 14",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "Illizi (26.48N, 8.46E), Djanet (24.55N, 9.48E) & In Amenas (28.04N, 9.55E), Southeastern Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "Gynecology & Pediatrics",
+        "Mobile Nomadic Maternal Health Teams"
+      ]
+    },
+    "directionsText": {
+      "en": "Public referral hospitals and maternity wards serving Illizi, Djanet (Tassili n'Ajjer), and In Amenas in southeastern Algeria."
+    }
+  },
+  {
+    "id": "algeria-eph-djanet-tassili",
+    "regionDistrict": "Algeria (Djanet)",
+    "type": "hospital",
+    "lat": 24.5534,
+    "lng": 9.4844,
+    "name": {
+      "en": "EPH de Djanet & Maternité de Djanet (Tassili n'Ajjer)"
+    },
+    "categoryBadge": {
+      "en": "Public Hospital & 24/7 Maternity Ward"
+    },
+    "phone": "14 / 1026",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "Centre-Ville, Djanet, Southeastern Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Care",
+        "Emergency Medicine & Pediatrics",
+        "Women's Health & Family Planning"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary hospital and maternity unit serving the oasis city of Djanet and surrounding Tuareg communities."
+    }
+  },
+  {
+    "id": "algeria-eph-ouargla-ghardaia-touggourt-el-oued",
+    "regionDistrict": "Algeria (Ouargla, Ghardaïa, Touggourt & El Oued — Northern Sahara)",
+    "type": "hospital",
+    "lat": 31.95,
+    "lng": 5.3333,
+    "name": {
+      "en": "EPH Mohamed Boudiaf d'Ouargla, EHS Mère-Enfant Ouargla, EPH Ghardaïa & EPH Touggourt"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Mother-Child Hospitals (M'Zab, Ouargla & Oued Righ)"
+    },
+    "phone": "+213 29 71 14 14 / 14",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "Ouargla (31.95N, 5.33E), Ghardaïa (32.49N, 3.67E) & Touggourt (33.10N, 6.06E), Algeria"
+    },
+    "services": {
+      "en": [
+        "Dedicated Mother-Child Hospitals (EHS Mère-Enfant Ouargla, Ghardaïa & El Oued)",
+        "24/7 High-Risk Obstetrics & Neonatology",
+        "DAS Women's Protection & Shelter Referral (1026)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major northern Saharan hospital network including EPH Mohamed Boudiaf and EHS Mère-Enfant in Ouargla, Ghardaïa, Touggourt, and El Oued."
+    }
+  },
+  {
+    "id": "algeria-eph-el-meniaa-ghardaia",
+    "regionDistrict": "Algeria (El Meniaa / El Goléa)",
+    "type": "hospital",
+    "lat": 30.5833,
+    "lng": 2.8833,
+    "name": {
+      "en": "EPH Colonel Mohamed Chabani d'El Meniaa (El Goléa)"
+    },
+    "categoryBadge": {
+      "en": "Wilaya Public & Maternity Hospital"
+    },
+    "phone": "14 / 1026",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "El Meniaa (El Goléa), Central Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetrics",
+        "Emergency & Surgical Care",
+        "Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Public referral hospital serving the central Saharan wilaya of El Meniaa (El Goléa)."
+    }
+  },
+  {
+    "id": "western-sahara-laayoune-chr-moulay-hassan-mehdi",
+    "regionDistrict": "Western Sahara (Laâyoune & Smara)",
+    "type": "hospital",
+    "lat": 27.1536,
+    "lng": -13.2033,
+    "name": {
+      "en": "CHU de Laâyoune, CHR Moulay El Hassan Ben El Mehdi & Hôpital Provincial d'Es-Semara"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral, University & Maternity Hospitals"
+    },
+    "phone": "141 / 19 / 8350",
+    "emergencyHotline": "141 (SAMU) / 8350 (Women's Violence Helpline)",
+    "address": {
+      "en": "Laâyoune (27.15N, 13.20W) & Es-Semara (26.74N, 11.67W), Western Sahara"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Surgery",
+        "Cellule de Prise en Charge des Femmes Victimes de Violence (Tamkine / 8350)",
+        "Neonatology & Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional hospitals and integrated hospital GBV protection units serving Laâyoune, Boujdour, and Es-Semara."
+    }
+  },
+  {
+    "id": "western-sahara-dakhla-chr-hassan-ii-boujdour",
+    "regionDistrict": "Western Sahara (Dakhla & Boujdour)",
+    "type": "hospital",
+    "lat": 23.6848,
+    "lng": -15.9579,
+    "name": {
+      "en": "Centre Hospitalier Régional Hassan II de Dakhla & Hôpital Provincial de Boujdour"
+    },
+    "categoryBadge": {
+      "en": "Regional Maternity Hospital & Women's Protection Unit"
+    },
+    "phone": "141 / 8350",
+    "emergencyHotline": "141 / 8350",
+    "address": {
+      "en": "Dakhla (23.68N, 15.95W) & Boujdour (26.12N, 14.48W)"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "Hospital Women's Violence Unit (Cellule d'Écoute)",
+        "Gynecology & Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional hospital and maternity center in Dakhla alongside the provincial hospital in Boujdour."
+    }
+  },
+  {
+    "id": "mauritania-zouerate-fderik-bir-moghrein-tiris-zemmour",
+    "regionDistrict": "Mauritania (Zouerate, Fdérik & Bir Moghrein — Tiris Zemmour)",
+    "type": "hospital",
+    "lat": 22.7354,
+    "lng": -12.4713,
+    "name": {
+      "en": "Centre Hospitalier Régional de Zouérate, Polyclinique SNIM & CS Bir Moghrein"
+    },
+    "categoryBadge": {
+      "en": "Northern Regional & SNIM Maternity Hospitals (Tiris Zemmour)"
+    },
+    "phone": "101 / 80 00 10 10",
+    "emergencyHotline": "101 (SAMU) / 80 00 10 10 (AFCF VBG)",
+    "address": {
+      "en": "Zouérate, Fdérik & Bir Moghrein (25.22N, 11.58W), Tiris Zemmour, Northern Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Surgical Care (CHR Zouérate & Polyclinique SNIM)",
+        "AFCF / AMSME Northern Women's Protection Antenna",
+        "Prenatal & Pediatric Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves northern Mauritania (Zouérate, Fdérik, and Bir Moghrein) with the regional hospital, SNIM polyclinic maternity ward, and AFCF women's legal/GBV support."
+    }
+  },
+  {
+    "id": "mauritania-tidjikja-tagant-akjoujt-inchiri",
+    "regionDistrict": "Mauritania (Tidjikja & Akjoujt — Tagant & Inchiri)",
+    "type": "hospital",
+    "lat": 18.5564,
+    "lng": -11.4271,
+    "name": {
+      "en": "Centre Hospitalier Régional de Tidjikja (Tagant) & Hôpital d'Akjoujt (Inchiri)"
+    },
+    "categoryBadge": {
+      "en": "Central Saharan Regional Maternity Hospitals"
+    },
+    "phone": "101 / 80 00 10 10",
+    "emergencyHotline": "101 / 80 00 10 10",
+    "address": {
+      "en": "Tidjikja (Tagant) & Akjoujt (19.74N, 14.38W, Inchiri), Central Mauritania"
+    },
+    "services": {
+      "en": [
+        "Regional Maternity & Emergency Obstetrics",
+        "Women's Health & Safe Childbirth",
+        "Pediatrics & General Medicine"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional hospitals providing maternal, neonatal, and emergency care across central Mauritania (Tidjikja in Tagant and Akjoujt in Inchiri)."
+    }
+  },
+  {
+    "id": "mauritania-aioun-el-atrouss-hodh-el-gharbi",
+    "regionDistrict": "Mauritania (Aïoun el-Atrouss & Tintane — Hodh El Gharbi)",
+    "type": "hospital",
+    "lat": 16.6614,
+    "lng": -9.6149,
+    "name": {
+      "en": "Centre Hospitalier Régional d'Aïoun el-Atrouss & Antenne VBG Hodh El Gharbi"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral Maternity Hospital & Women's Protection"
+    },
+    "phone": "101 / 80 00 10 10",
+    "emergencyHotline": "101 / 80 00 10 10",
+    "address": {
+      "en": "Aïoun el-Atrouss & Tintane, Hodh El Gharbi, Southeastern Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Cesarean Surgery",
+        "UNFPA / AMSME Women's Safe Space & Fistula Prevention",
+        "Pediatrics & Emergency Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional referral hospital and maternal health hub for Hodh El Gharbi in southeastern Mauritania."
+    }
+  },
+  {
+    "id": "mauritania-unhcr-mbera-camp-bassikounou-safe-haven",
+    "regionDistrict": "Mauritania (Mbera Refugee Camp & Bassikounou — Hodh Ech Chargui)",
+    "type": "safe-haven",
+    "lat": 15.8622,
+    "lng": -5.9564,
+    "name": {
+      "en": "UNHCR, LWF & AMSME Espaces Sûrs — Camp de Réfugiés de Mbéra & Bassikounou"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Refugee Camp GBV Safe Spaces & Maternity Clinic"
+    },
+    "phone": "80 00 10 88 / 80 00 10 10",
+    "emergencyHotline": "80 00 10 88 (AMSME) / UNHCR Bassikounou",
+    "address": {
+      "en": "Mbera Refugee Camp & Bassikounou, Hodh Ech Chargui, Far-Eastern Mauritania"
+    },
+    "services": {
+      "en": [
+        "UNHCR / LWF / AMSME Women & Girls Safe Spaces (Espaces Sûrs)",
+        "72-Hour Clinical Care for Sexual Violence & Emergency Maternity",
+        "Psychosocial Counseling & Legal Aid for Malian Refugee Women"
+      ]
+    },
+    "directionsText": {
+      "en": "Dedicated UNHCR, Lutheran World Federation (LWF), and AMSME GBV safe spaces and camp health centers serving over 100,000 Malian refugees in Mbera Camp and Bassikounou."
+    }
+  },
+  {
+    "id": "mali-hopital-tombouctou-unhcr-safe-space",
+    "regionDistrict": "Mali (Timbuktu / Tombouctou, Goundam & Niafunké)",
+    "type": "safe-haven",
+    "lat": 16.7666,
+    "lng": -3.0026,
+    "name": {
+      "en": "Hôpital Régional de Tombouctou & Espace Sûr VBG / One-Stop Center (UNFPA / UNHCR)"
+    },
+    "categoryBadge": {
+      "en": "Regional Maternity Hospital & Women's GBV Safe Haven (Timbuktu)"
+    },
+    "phone": "80 00 11 15 / +223 21 92 10 05",
+    "emergencyHotline": "80 00 11 15 (Numéro Vert VBG Mali)",
+    "address": {
+      "en": "Quartier Sareikeina, Tombouctou (Timbuktu), Northern Mali"
+    },
+    "services": {
+      "en": [
+        "24/7 Regional Maternity & Obstetric Surgery",
+        "UNFPA / UNHCR Women's Safe Space (Espace Sûr)",
+        "Clinical Management of Rape (CMR) & Fistula Repair",
+        "Psychosocial & Legal Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional hospital of Timbuktu (Quartier Sareikeina) and integrated UNFPA/UNHCR women's safe space supporting displaced and local women across the Timbuktu region."
+    }
+  },
+  {
+    "id": "mali-hopital-gao-hangadoumbo-touré-safe-space",
+    "regionDistrict": "Mali (Gao, Ansongo & Bourem)",
+    "type": "safe-haven",
+    "lat": 16.2717,
+    "lng": -0.0447,
+    "name": {
+      "en": "Hôpital Hangadoumbo Moulaye Touré de Gao, One-Stop Center VBG & UNHCR Espace Sûr"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral Hospital, ICRC Surgical Hub & GBV One-Stop Center (Gao)"
+    },
+    "phone": "80 00 11 15 / +223 21 82 01 12",
+    "emergencyHotline": "80 00 11 15 (Numéro Vert VBG)",
+    "address": {
+      "en": "Quartier Sosso Koïra, Gao, Northeastern Mali"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Cesarean & Obstetric Fistula Unit",
+        "Holistic GBV One-Stop Center (Medical, Psychosocial, Legal)",
+        "ICRC-Supported Trauma & Maternal Surgery",
+        "UNHCR / COOPI Women & Girls Safe Spaces"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional hospital and holistic GBV One-Stop Center in Sosso Koïra, Gao, serving northeastern Mali."
+    }
+  },
+  {
+    "id": "mali-kidal-tessalit-aguelhok-csref-maternity",
+    "regionDistrict": "Mali (Kidal, Tessalit & Aguelhok — Adrar des Ifoghas)",
+    "type": "hospital",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "name": {
+      "en": "Centre de Santé de Référence (CSRéf) de Kidal & Maternité de Kidal (ICRC / MSF Supported)"
+    },
+    "categoryBadge": {
+      "en": "Northern Saharan Referral Maternity & Surgical Center (Kidal)"
+    },
+    "phone": "80 00 11 15",
+    "emergencyHotline": "80 00 11 15",
+    "address": {
+      "en": "Kidal, Tessalit & Aguelhok, Kidal Region, Far-Northern Mali"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care (ICRC / MSF Supported)",
+        "Safe Delivery & Prenatal Care",
+        "Confidential GBV Clinical Care & Psychosocial Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Reference health center and maternity hospital in Kidal supported by the International Committee of the Red Cross (ICRC) and MSF."
+    }
+  },
+  {
+    "id": "mali-menaka-unhcr-idp-safe-space-csref",
+    "regionDistrict": "Mali (Ménaka)",
+    "type": "safe-haven",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "name": {
+      "en": "UNHCR / UNFPA Espace Sûr Femmes & CSRéf de Ménaka"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Displaced Women's Safe Haven & Reference Maternity (Ménaka)"
+    },
+    "phone": "80 00 11 15",
+    "emergencyHotline": "80 00 11 15",
+    "address": {
+      "en": "Ménaka, Southeastern Sahara / Liptako-Gourma, Mali"
+    },
+    "services": {
+      "en": [
+        "UNHCR & Partner Women's Safe Spaces for IDPs & Refugees",
+        "CSRéf Ménaka 24/7 Maternity & Emergency Obstetrics (MSF Supported)",
+        "72-Hour Clinical Care for Sexual Violence Survivors"
+      ]
+    },
+    "directionsText": {
+      "en": "Frontline UNHCR/UNFPA safe space and MSF-supported reference maternity center serving displaced women and host communities in Ménaka."
+    }
+  },
+  {
+    "id": "mali-mopti-sevare-hopital-somine-dolo-safe-space",
+    "regionDistrict": "Mali (Mopti, Sévaré, Bandiagara & Douentza)",
+    "type": "hospital",
+    "lat": 14.5125,
+    "lng": -4.095,
+    "name": {
+      "en": "Hôpital Sominé Dolo de Mopti (Sévaré), One-Stop Center VBG & CSRéf Douentza"
+    },
+    "categoryBadge": {
+      "en": "Central Mali Regional Hospital, Fistula Center & GBV Safe Space"
+    },
+    "phone": "80 00 11 15 / +223 21 42 01 10",
+    "emergencyHotline": "80 00 11 15",
+    "address": {
+      "en": "Sévaré / Mopti & Douentza (15.00N, 2.95W), Central Mali"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology & Obstetric Fistula Repair",
+        "One-Stop Center VBG & IDP Women's Safe Spaces",
+        "Pediatrics & Emergency Trauma Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Central Mali's main regional referral hospital in Sévaré/Mopti alongside UNFPA/UNHCR GBV safe spaces and CSRéf Douentza."
+    }
+  },
+  {
+    "id": "mali-segou-hopital-nianankoro-fomba-san",
+    "regionDistrict": "Mali (Ségou, San & Niono)",
+    "type": "hospital",
+    "lat": 13.4317,
+    "lng": -6.2589,
+    "name": {
+      "en": "Hôpital Nianankoro Fomba de Ségou & Espace Sûr VBG Ségou"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral Maternity Hospital & Women's Protection"
+    },
+    "phone": "80 00 11 15 / +223 21 32 01 45",
+    "emergencyHotline": "80 00 11 15",
+    "address": {
+      "en": "Quartier Ségou Médine, Ségou & San, Central Mali"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "Obstetric Fistula Treatment & Family Planning",
+        "Integrated GBV Survivor Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral hospital in Ségou Médine serving the Ségou and San regions."
+    }
+  },
+  {
+    "id": "mali-kayes-hopital-fousseyni-daou-nioro-kita",
+    "regionDistrict": "Mali (Kayes, Nioro du Sahel & Kita)",
+    "type": "hospital",
+    "lat": 14.4469,
+    "lng": -11.4444,
+    "name": {
+      "en": "Hôpital Fousseyni Daou de Kayes & CSRéf Nioro du Sahel / Kita"
+    },
+    "categoryBadge": {
+      "en": "Western Regional Referral & Maternity Hospital (Kayes)"
+    },
+    "phone": "80 00 11 15 / +223 21 52 17 05",
+    "emergencyHotline": "80 00 11 15",
+    "address": {
+      "en": "Kayes Plateau, Kayes & Nioro du Sahel (15.22N, 9.58W), Western Mali"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Obstetrics & Gynecology",
+        "FGM Complication Care & Prevention (AMSOPT / APDF)",
+        "Pediatrics & Emergency Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Principal regional hospital for western Mali in Kayes Plateau, alongside reference maternity centers in Nioro du Sahel and Kita."
+    }
+  },
+  {
+    "id": "mali-sikasso-hopital-regional-koutiala",
+    "regionDistrict": "Mali (Sikasso & Koutiala)",
+    "type": "hospital",
+    "lat": 11.3175,
+    "lng": -5.6664,
+    "name": {
+      "en": "Hôpital Régional de Sikasso & Centre de Santé Mère-Enfant de Koutiala"
+    },
+    "categoryBadge": {
+      "en": "Southern Regional Referral & MSF Mother-Child Hospitals"
+    },
+    "phone": "80 00 11 15 / +223 21 62 02 18",
+    "emergencyHotline": "80 00 11 15",
+    "address": {
+      "en": "Quartier Lafiabougou, Sikasso & Koutiala (12.39N, 5.46W), Southern Mali"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care",
+        "MSF-Supported Pediatric & Maternal Center (Koutiala)",
+        "One-Stop VBG Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers Sikasso Regional Hospital in Lafiabougou and the renowned MSF-supported Mother-Child center in Koutiala."
+    }
+  },
+  {
+    "id": "niger-agadez-chr-unhcr-guichet-unique-safe-haven",
+    "regionDistrict": "Niger (Agadez & Tchirozérine — Aïr Region)",
+    "type": "safe-haven",
+    "lat": 16.9733,
+    "lng": 7.9911,
+    "name": {
+      "en": "UNHCR Sous-Délégation & Centre Humanitaire d'Agadez + CHR d'Agadez & CSME"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Refugee/Asylum Safe Haven & Regional Mother-Child Hospital (Agadez)"
+    },
+    "phone": "0 800 12 12 / 116 / +227 20 75 20 64",
+    "emergencyHotline": "0 800 12 12 (Ligne Verte Gratuite HCR Niger) / 15",
+    "address": {
+      "en": "Agadez, Aïr Region, Northern Niger"
+    },
+    "services": {
+      "en": [
+        "UNHCR Agadez Women & Girls Safe Space (Espace Sûr) & Toll-Free Line 0 800 12 12",
+        "Centre de Santé de la Mère et de l'Enfant (CSME d'Agadez)",
+        "CHR d'Agadez 24/7 Obstetrics & Surgery",
+        "APBE & AFJN Legal/Psychosocial Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Major northern Niger protection hub in Agadez combining UNHCR's humanitarian safe space for refugee/migrant women, the CSME Mother-Child Center, and CHR d'Agadez."
+    }
+  },
+  {
+    "id": "niger-arlit-assamaka-hospital-migrant-protection",
+    "regionDistrict": "Niger (Arlit & Assamaka — Northern Agadez)",
+    "type": "hospital",
+    "lat": 18.7369,
+    "lng": 7.3853,
+    "name": {
+      "en": "Hôpital de District d'Arlit, Hôpital SOMAIR & Espace Sûr Protection (Arlit / Assamaka)"
+    },
+    "categoryBadge": {
+      "en": "Northern Saharan Hospital, Maternity & Migrant/Refugee Women's Relief"
+    },
+    "phone": "0 800 12 12 / 15",
+    "emergencyHotline": "0 800 12 12 / 15",
+    "address": {
+      "en": "Arlit & Assamaka Border Post, Agadez Region, Northern Niger"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Medical Care (Hôpital d'Arlit)",
+        "MSF / IOM / UNHCR Emergency Maternal & Trauma Care in Arlit & Assamaka",
+        "Psychological First Aid & SGBV Protection"
+      ]
+    },
+    "directionsText": {
+      "en": "Provides hospital maternity care in Arlit and emergency medical/GBV protection for women and girls along the northern Assamaka–Arlit route."
+    }
+  },
+  {
+    "id": "niger-dirkou-bilma-kawer-oasis-hospital",
+    "regionDistrict": "Niger (Dirkou & Bilma — Kawar Oasis / Ténéré)",
+    "type": "hospital",
+    "lat": 18.9689,
+    "lng": 12.8939,
+    "name": {
+      "en": "Hôpital de District de Bilma / Dirkou & Centre de Santé Mère-Enfant (Kawar Oasis)"
+    },
+    "categoryBadge": {
+      "en": "Eastern Saharan District Maternity & Emergency Hospital"
+    },
+    "phone": "0 800 12 12 / 15",
+    "emergencyHotline": "0 800 12 12 / 15",
+    "address": {
+      "en": "Dirkou & Bilma (18.68N, 12.91E), Kawar Oasis, Northeastern Niger"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Delivery",
+        "Emergency Stabilization & Mobile Desert Clinics",
+        "Women & Girls Protection Desk"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves the remote Kawar oasis towns of Dirkou and Bilma in northeastern Niger's Ténéré desert."
+    }
+  },
+  {
+    "id": "niger-tahoua-chr-csme-abalak-intikane-unhcr",
+    "regionDistrict": "Niger (Tahoua, Abalak, Tassara & Intikane — Central Niger)",
+    "type": "safe-haven",
+    "lat": 14.8888,
+    "lng": 5.2692,
+    "name": {
+      "en": "UNHCR Sous-Délégation de Tahoua, CSME de Tahoua & CHR de Tahoua"
+    },
+    "categoryBadge": {
+      "en": "UNHCR GBV Safe Spaces & Regional Mother-Child Hospital (Tahoua & Abalak)"
+    },
+    "phone": "0 800 12 12 / 116 / 15",
+    "emergencyHotline": "0 800 12 12 (Ligne Verte HCR)",
+    "address": {
+      "en": "Tahoua, Abalak (15.45N, 6.27E) & Intikane / Telemces Refugee Hosting Zone, Niger"
+    },
+    "services": {
+      "en": [
+        "UNHCR Women's Safe Spaces (Tahoua, Abalak, Tassara, Intikane)",
+        "Centre de Santé de la Mère et de l'Enfant (CSME de Tahoua)",
+        "CHR de Tahoua 24/7 Obstetrics & Fistula Repair",
+        "Toll-Free Helpline 0 800 12 12"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers the UNHCR Tahoua sub-office, Women's Safe Spaces in Abalak/Tassara/Intikane, the Tahoua Mother-Child Center (CSME), and CHR de Tahoua."
+    }
+  },
+  {
+    "id": "niger-abalak-tanout-central-sahel-hospitals",
+    "regionDistrict": "Niger (Abalak & Tanout — Central Sahel)",
+    "type": "hospital",
+    "lat": 15.4508,
+    "lng": 6.2792,
+    "name": {
+      "en": "Hôpital de District d'Abalak & Hôpital de District de Tanout"
+    },
+    "categoryBadge": {
+      "en": "District Maternity Hospitals & UNHCR Refugee Health Hubs"
+    },
+    "phone": "0 800 12 12 / 15",
+    "emergencyHotline": "0 800 12 12 / 15",
+    "address": {
+      "en": "Abalak (Tahoua Region) & Tanout (14.97N, 8.88E, Zinder Region), Central Niger"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care",
+        "UNHCR Refugee & Host Community Maternal Health",
+        "72-Hour Clinical Care for GBV Survivors"
+      ]
+    },
+    "directionsText": {
+      "en": "District hospitals providing emergency obstetric and maternal care in Abalak and Tanout across central Niger."
+    }
+  },
+  {
+    "id": "niger-maradi-chr-csme-unhcr-safe-haven",
+    "regionDistrict": "Niger (Maradi, Guidan Roumdji & Madarounfa)",
+    "type": "safe-haven",
+    "lat": 13.5,
+    "lng": 7.1017,
+    "name": {
+      "en": "UNHCR Sous-Délégation de Maradi (Espaces Sûrs Chadakori/Dan Dadji Makaou), CSME & CHR de Maradi"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Refugee Women's Safe Spaces & Mother-Child Hospital (Maradi)"
+    },
+    "phone": "0 800 12 12 / 116 / 15",
+    "emergencyHotline": "0 800 12 12 (HCR Niger)",
+    "address": {
+      "en": "Maradi, Guidan Roumdji & Madarounfa, Southern-Central Niger"
+    },
+    "services": {
+      "en": [
+        "UNHCR Women's Safe Spaces in Refugee Villages (Chadakori, Dan Dadji Makaou, Garin Kaka)",
+        "Centre de Santé de la Mère et de l'Enfant (CSME de Maradi)",
+        "CHR de Maradi 24/7 Maternity & Fistula Unit"
+      ]
+    },
+    "directionsText": {
+      "en": "Coordinates UNHCR GBV protection for Nigerian refugees and host communities in Maradi alongside the CSME Mother-Child Hospital and CHR de Maradi."
+    }
+  },
+  {
+    "id": "niger-zinder-hopital-national-csme",
+    "regionDistrict": "Niger (Zinder, Mirriah & Gouré)",
+    "type": "hospital",
+    "lat": 13.8053,
+    "lng": 8.9883,
+    "name": {
+      "en": "Hôpital National de Zinder (HNZ), CSME de Zinder & Centre Fistule de Zinder"
+    },
+    "categoryBadge": {
+      "en": "National Tertiary Referral & Mother-Child Hospitals (Zinder)"
+    },
+    "phone": "15 / 0 800 12 12 / 116",
+    "emergencyHotline": "15 (SAMU) / 0 800 12 12",
+    "address": {
+      "en": "Zinder & Gouré (13.98N, 10.27E), Zinder Region, Southeastern Niger"
+    },
+    "services": {
+      "en": [
+        "24/7 Tertiary Maternity & Obstetric Surgery",
+        "Dedicated Mother & Child Center (CSME de Zinder)",
+        "Obstetric Fistula Surgical Repair Center",
+        "Holistic GBV Clinical & Psychosocial Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Niger's major eastern national referral hospital (Hôpital National de Zinder) and dedicated Mother-Child Center (CSME)."
+    }
+  },
+  {
+    "id": "niger-diffa-chr-csme-sayam-forage-nguigmi-unhcr",
+    "regionDistrict": "Niger (Diffa, Sayam Forage Camp, Maïné-Soroa & N'Guigmi)",
+    "type": "safe-haven",
+    "lat": 13.3154,
+    "lng": 12.6113,
+    "name": {
+      "en": "UNHCR Sous-Délégation de Diffa (Camp de Sayam Forage & N'Guigmi Espaces Sûrs), CSME & CHR de Diffa"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Lake Chad Basin GBV Safe Spaces & Mother-Child Hospital (Diffa)"
+    },
+    "phone": "0 800 12 12 / 116 / 15",
+    "emergencyHotline": "0 800 12 12 (Ligne Verte Gratuite HCR)",
+    "address": {
+      "en": "Diffa, Sayam Forage Refugee Camp, Maïné-Soroa & N'Guigmi (14.25N, 13.11E), Far-Eastern Niger"
+    },
+    "services": {
+      "en": [
+        "UNHCR & APBE Women's Safe Spaces (Sayam Forage Camp, Diffa, N'Guigmi, Kabelawa)",
+        "CSME de Diffa (Mother & Child Referral Hospital)",
+        "CHR de Diffa 24/7 Obstetric & Trauma Care",
+        "Toll-Free Helpline 0 800 12 12"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves over 250,000 displaced people and refugees in the Diffa region with UNHCR/APBE Women's Safe Spaces, the Diffa Mother-Child Hospital (CSME), and CHR de Diffa."
+    }
+  },
+  {
+    "id": "libya-sabha-medical-center-unhcr-fezzan-safe-space",
+    "regionDistrict": "Libya (Sabha / Sebha & Brak al-Shati — Fezzan)",
+    "type": "safe-haven",
+    "lat": 27.0377,
+    "lng": 14.4283,
+    "name": {
+      "en": "Sabha Medical Center (Maternity & OBGYN) & UNHCR / UNFPA Fezzan Women's Safe Space"
+    },
+    "categoryBadge": {
+      "en": "Southern Libya Tertiary Maternity Hospital & Women's Safe Space (Fezzan)"
+    },
+    "phone": "1504 / 1417 / 0800 300 046",
+    "emergencyHotline": "1504 (UNHCR Tawasul Toll-Free) / 1417 (National Psychosocial Line)",
+    "address": {
+      "en": "Sabha (Sebha) & Brak al-Shati (27.55N, 14.27E), Fezzan, Southern Libya"
+    },
+    "services": {
+      "en": [
+        "Sabha Medical Center 24/7 Obstetrics, Maternity & Neonatal ICU",
+        "UNHCR / UNFPA / IRC Women & Girls Safe Space in Sabha",
+        "72-Hour Emergency Medical & Psychosocial Care for Survivors",
+        "Brak General Hospital Maternity"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary tertiary hospital and maternity referral center for all of southern Libya (Fezzan), alongside UNHCR/UNFPA safe spaces for displaced, refugee, and local women in Sabha."
+    }
+  },
+  {
+    "id": "libya-ubari-ghat-hospital-maternity-fezzan",
+    "regionDistrict": "Libya (Ubari & Ghat — Southwestern Fezzan)",
+    "type": "hospital",
+    "lat": 26.5903,
+    "lng": 12.7751,
+    "name": {
+      "en": "Ubari General Hospital & Ghat General Hospital (Southwestern Fezzan)"
+    },
+    "categoryBadge": {
+      "en": "Regional Public & Maternity Hospitals (Wadi al-Hayaa & Ghat)"
+    },
+    "phone": "1504 / 1515",
+    "emergencyHotline": "1515 (Ambulance) / 1504 (UNHCR Tawasul)",
+    "address": {
+      "en": "Ubari (26.59N, 12.77E) & Ghat (24.96N, 10.18E), Southwestern Libya"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care (UNHCR / WHO Supported)",
+        "Pediatrics & Emergency Trauma",
+        "Mobile Protection & Maternal Clinics"
+      ]
+    },
+    "directionsText": {
+      "en": "General hospitals and maternity wards serving Ubari (Wadi al-Hayaa) and the far-southwestern border oasis of Ghat."
+    }
+  },
+  {
+    "id": "libya-ghat-general-hospital-safe-space",
+    "regionDistrict": "Libya (Ghat — Algerian/Nigerien Border Oasis)",
+    "type": "hospital",
+    "lat": 24.9633,
+    "lng": 10.18,
+    "name": {
+      "en": "Ghat General Hospital & Maternal-Child Clinic"
+    },
+    "categoryBadge": {
+      "en": "Oasis General Hospital & 24/7 Maternity"
+    },
+    "phone": "1515 / 1504",
+    "emergencyHotline": "1515 / 1504",
+    "address": {
+      "en": "Ghat, Fezzan, Southwestern Libya"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Delivery",
+        "Emergency Medical & Pediatric Care",
+        "Humanitarian Maternal Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves Ghat and surrounding Tuareg communities in far-southwestern Libya."
+    }
+  },
+  {
+    "id": "libya-murzuq-traghen-umm-al-aranib-fezzan",
+    "regionDistrict": "Libya (Murzuq, Traghen & Al Qatrun — Southern Fezzan)",
+    "type": "hospital",
+    "lat": 25.9155,
+    "lng": 13.9184,
+    "name": {
+      "en": "Murzuq General Hospital, Traghen Hospital & Al Qatrun Rural Hospital"
+    },
+    "categoryBadge": {
+      "en": "Southern Fezzan Public & Maternity Hospitals"
+    },
+    "phone": "1515 / 1504",
+    "emergencyHotline": "1515 / 1504",
+    "address": {
+      "en": "Murzuq (25.91N, 13.91E), Traghen (25.94N, 14.42E) & Al Qatrun (24.95N, 14.63E), Southern Libya"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean (Traghen & Murzuq)",
+        "Pediatric & Maternal Care",
+        "Refugee & IDP Medical Assistance"
+      ]
+    },
+    "directionsText": {
+      "en": "Key hospitals providing maternity and surgical care across the Murzuq basin, Traghen, and Al Qatrun in southern Fezzan."
+    }
+  },
+  {
+    "id": "libya-kufra-attia-al-kaseh-hospital-unhcr-sudan-response",
+    "regionDistrict": "Libya (Kufra & Tazerbo — Southeastern Sahara)",
+    "type": "safe-haven",
+    "lat": 24.1989,
+    "lng": 23.2909,
+    "name": {
+      "en": "Attia Al-Kaseh Teaching Hospital (Kufra), Kufra Maternity Clinic & UNHCR Sudanese Refugee Response"
+    },
+    "categoryBadge": {
+      "en": "Southeastern Libya Referral Hospital & UNHCR Refugee Women's Safe Haven"
+    },
+    "phone": "1504 / 1515",
+    "emergencyHotline": "1504 (UNHCR Tawasul) / 1515",
+    "address": {
+      "en": "Al Jawf, Kufra Oasis, Southeastern Libya"
+    },
+    "services": {
+      "en": [
+        "Attia Al-Kaseh Hospital 24/7 Obstetrics, Maternity & Surgery",
+        "UNHCR / WHO / Libyan Red Crescent Sudanese Refugee Women's Support",
+        "Psychosocial First Aid, Dignity Kits & Prenatal Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Major southeastern Saharan medical and humanitarian hub in Kufra (Attia Al-Kaseh Hospital), reinforced by UNHCR and WHO to support both local residents and tens of thousands of Sudanese refugee women."
+    }
+  },
+  {
+    "id": "libya-jufra-hun-waddan-sokna-hospital",
+    "regionDistrict": "Libya (Al Jufra — Hun, Waddan & Sokna)",
+    "type": "hospital",
+    "lat": 29.1268,
+    "lng": 15.9477,
+    "name": {
+      "en": "Afia Hospital (Hun / Al Jufra) & Waddan General Hospital"
+    },
+    "categoryBadge": {
+      "en": "Central Libya Oasis Referral & Maternity Hospitals"
+    },
+    "phone": "1515 / 1504",
+    "emergencyHotline": "1515",
+    "address": {
+      "en": "Hun & Waddan, Al Jufra District, Central Libya"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Surgery",
+        "Emergency & Trauma Care",
+        "Pediatrics & Women's Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional hospitals serving the central Libyan oasis district of Al Jufra (Hun, Waddan, and Sokna)."
+    }
+  },
+  {
+    "id": "libya-ghadames-nalut-gharyan-jabal-nafusa",
+    "regionDistrict": "Libya (Ghadames, Nalut & Gharyan — Western Interior)",
+    "type": "hospital",
+    "lat": 30.1337,
+    "lng": 9.5007,
+    "name": {
+      "en": "Ghadames General Hospital, Nalut Central Hospital & Gharyan Teaching Hospital"
+    },
+    "categoryBadge": {
+      "en": "Western Saharan & Nafusa Mountain Referral Maternity Hospitals"
+    },
+    "phone": "1515 / 1417",
+    "emergencyHotline": "1515 / 1417",
+    "address": {
+      "en": "Ghadames (30.13N, 9.50E), Nalut (31.86N, 10.98E) & Gharyan (32.17N, 13.02E), Western Libya"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Delivery",
+        "Emergency Surgery & Pediatrics",
+        "Women's Health & Psychosocial Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers Ghadames General Hospital on the Algerian/Tunisian border and the central hospitals of Nalut and Gharyan."
+    }
+  },
+  {
+    "id": "libya-sirte-ibn-sina-ajdabiya-jalu-awjila",
+    "regionDistrict": "Libya (Sirte, Ajdabiya & Jalu/Awjila Oases)",
+    "type": "hospital",
+    "lat": 31.2089,
+    "lng": 16.5887,
+    "name": {
+      "en": "Ibn Sina Teaching Hospital (Sirte), Al-Magariaf Hospital (Ajdabiya) & Jalu General Hospital"
+    },
+    "categoryBadge": {
+      "en": "Teaching & Regional Maternity Hospitals (Sirte Basin & Al Wahat)"
+    },
+    "phone": "1515 / 1504",
+    "emergencyHotline": "1515 / 1504",
+    "address": {
+      "en": "Sirte (31.20N, 16.58E), Ajdabiya (30.75N, 20.22E) & Jalu Oasis (29.03N, 21.54E), Libya"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology & Neonatal Care",
+        "UNFPA-Supported Maternity Wards",
+        "Emergency & Surgical Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Major hospitals serving Sirte, Ajdabiya, and the eastern Al Wahat oases of Jalu and Awjila."
+    }
+  },
+  {
+    "id": "egypt-kharga-dakhla-farafra-new-valley-hospitals",
+    "regionDistrict": "Egypt (Kharga, Dakhla & Farafra Oases — New Valley / Al Wadi Al Jadid)",
+    "type": "hospital",
+    "lat": 25.4474,
+    "lng": 30.546,
+    "name": {
+      "en": "El Kharga General Hospital, Dakhla General Hospital (Mut) & NCW New Valley Women's Branch"
+    },
+    "categoryBadge": {
+      "en": "Western Desert Oasis Referral Maternity Hospitals & NCW Protection (15115)"
+    },
+    "phone": "123 / 15115",
+    "emergencyHotline": "15115 (NCW Women's Complaints Hotline) / 123 (Ambulance)",
+    "address": {
+      "en": "El Kharga (25.44N, 30.54E), Mut / Dakhla Oasis (25.49N, 28.97E) & Farafra (27.05N, 27.97E), Egypt"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Obstetrics & Neonatal Care",
+        "National Council for Women (NCW) New Valley Branch & Shelter Referral (15115)",
+        "Emergency Trauma & Surgical Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Public general hospitals and maternity wards serving Egypt's Western Desert oases (Kharga, Dakhla, and Farafra) alongside the NCW 15115 women's protection branch."
+    }
+  },
+  {
+    "id": "egypt-siwa-marsa-matrouh-maternity-hospital",
+    "regionDistrict": "Egypt (Siwa Oasis & Marsa Matrouh)",
+    "type": "hospital",
+    "lat": 29.2032,
+    "lng": 25.5195,
+    "name": {
+      "en": "Siwa Central Hospital & Matrouh Obstetrics and Gynecology Hospital"
+    },
+    "categoryBadge": {
+      "en": "Oasis Hospital & Specialized Maternity Hospital (Matrouh Governorate)"
+    },
+    "phone": "123 / 15115",
+    "emergencyHotline": "123 / 15115",
+    "address": {
+      "en": "Siwa Oasis (29.20N, 25.51E) & Marsa Matrouh (31.35N, 27.23E), Northwestern Egypt"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Childbirth",
+        "Specialized OBGYN Hospital in Marsa Matrouh",
+        "NCW Women's Protection Hotline 15115"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers Siwa Central Hospital in the western desert oasis of Siwa and the dedicated Obstetrics & Gynecology Hospital in Marsa Matrouh."
+    }
+  },
+  {
+    "id": "egypt-aswan-university-hospital-unhcr-sudan-response",
+    "regionDistrict": "Egypt (Aswan, Kom Ombo, Edfu & Abu Simbel — Upper Egypt / Nubia)",
+    "type": "safe-haven",
+    "lat": 24.0889,
+    "lng": 32.8998,
+    "name": {
+      "en": "Aswan University Hospital (OBGYN Safe Woman Unit), UNHCR Aswan Hub & NCW / Ministry of Social Solidarity Shelter"
+    },
+    "categoryBadge": {
+      "en": "Upper Egypt University Maternity, Safe Woman Unit & UNHCR Refugee Hub (Aswan)"
+    },
+    "phone": "15115 / 01028859777 / 123",
+    "emergencyHotline": "15115 (NCW) / 01227733999 (PSTIC 24/7) / 123",
+    "address": {
+      "en": "Aswan, Kom Ombo & Abu Simbel (22.34N, 31.62E), Aswan Governorate, Southern Egypt"
+    },
+    "services": {
+      "en": [
+        "Aswan University Hospital Safe Woman Clinic (Al-Mar'a Al-Amina GBV Unit) & 24/7 Maternity",
+        "UNHCR, Care Egypt & Egyptian Red Crescent Sudanese Refugee Women's Protection",
+        "Ministry of Social Solidarity Women's Shelter (Markaz Estidafat Al-Mar'a)",
+        "Kom Ombo, Edfu & Abu Simbel International Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Critical southern Egyptian hub in Aswan combining Aswan University Hospital's Safe Woman GBV unit and maternity ward with UNHCR/Red Crescent protection for Sudanese refugee women."
+    }
+  },
+  {
+    "id": "egypt-luxor-qena-sohag-assiut-minya-upper-egypt",
+    "regionDistrict": "Egypt (Luxor, Qena, Sohag, Assiut & Minya — Upper Egypt Nile Valley)",
+    "type": "hospital",
+    "lat": 27.1783,
+    "lng": 31.1859,
+    "name": {
+      "en": "Assiut University Women's Health Hospital, Sohag/South Valley/Minya University Hospitals & Luxor Isis Specialized Maternity Hospital"
+    },
+    "categoryBadge": {
+      "en": "Upper Egypt Dedicated Women's Health Hospitals, Safe Woman Clinics & Shelters"
+    },
+    "phone": "15115 / 123",
+    "emergencyHotline": "15115 (NCW) / 123 (Ambulance)",
+    "address": {
+      "en": "Assiut (27.18N, 31.18E), Minya (28.10N, 30.75E), Sohag (26.55N, 31.69E), Qena & Luxor (25.68N, 32.63E), Upper Egypt"
+    },
+    "services": {
+      "en": [
+        "Assiut University Women's Health Hospital (Largest Dedicated OBGYN Hospital in Upper Egypt)",
+        "Isis Specialized Women & Maternity Hospital in Luxor",
+        "Safe Woman Units (Al-Mar'a Al-Amina) & MoSS Women's Shelters in Minya, Assiut & Qena"
+      ]
+    },
+    "directionsText": {
+      "en": "Upper Egypt's flagship women's hospitals and domestic violence shelters across Minya, Assiut, Sohag, Qena, and Luxor."
+    }
+  },
+  {
+    "id": "sudan-dongola-wadi-halfa-merowe-northern-state",
+    "regionDistrict": "Sudan (Dongola, Wadi Halfa & Merowe — Northern State)",
+    "type": "hospital",
+    "lat": 19.1698,
+    "lng": 30.4749,
+    "name": {
+      "en": "Dongola Specialized Maternity Hospital, Merowe Medical City & Wadi Halfa Hospital + CVAW Safe Space"
+    },
+    "categoryBadge": {
+      "en": "Northern Sudan Referral Maternity Hospitals & IDP Women's Safe Space (136)"
+    },
+    "phone": "136 / 999",
+    "emergencyHotline": "136 (CVAW National SGBV Helpline)",
+    "address": {
+      "en": "Dongola (19.17N, 30.47E), Merowe (18.47N, 31.81E) & Wadi Halfa (21.79N, 31.37E), Northern State, Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean for Host & Displaced Women",
+        "Merowe Medical City Tertiary Care",
+        "UNFPA / CVAW Women & Girls Safe Space (Hotline 136)"
+      ]
+    },
+    "directionsText": {
+      "en": "Key hospitals and UNFPA/CVAW women's safe spaces in Northern Sudan (Dongola, Merowe, and Wadi Halfa) supporting displaced families."
+    }
+  },
+  {
+    "id": "sudan-atbara-ed-damer-shendi-river-nile",
+    "regionDistrict": "Sudan (Atbara, Ed Damer & Shendi — River Nile State)",
+    "type": "hospital",
+    "lat": 17.7022,
+    "lng": 33.9864,
+    "name": {
+      "en": "Atbara Teaching Hospital, Ed Damer Teaching Hospital & Shendi El Mek Nimir University Hospital"
+    },
+    "categoryBadge": {
+      "en": "River Nile State Teaching Maternity Hospitals & Women's Safe Spaces"
+    },
+    "phone": "136 / 999",
+    "emergencyHotline": "136 (CVAW Helpline)",
+    "address": {
+      "en": "Atbara, Ed Damer & Shendi (16.69N, 33.43E), River Nile State, Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology & Emergency Delivery",
+        "UNFPA / CVAW Safe Spaces & Mobile Maternity Teams",
+        "Clinical Management of Rape (CMR)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major teaching hospitals and maternity centers serving Atbara, Ed Damer, and Shendi in River Nile State."
+    }
+  },
+  {
+    "id": "sudan-el-fasher-zamzam-camp-north-darfur",
+    "regionDistrict": "Sudan (El Fasher & Zamzam IDP Camp — North Darfur)",
+    "type": "safe-haven",
+    "lat": 13.6279,
+    "lng": 25.3494,
+    "name": {
+      "en": "El Fasher Saudi Maternity Hospital, El Fasher South Hospital & UNFPA/CVAW Safe Spaces (Zamzam Camp)"
+    },
+    "categoryBadge": {
+      "en": "Darfur Maternity Referral Hospital & IDP Camp Women's Safe Spaces"
+    },
+    "phone": "136 / 999",
+    "emergencyHotline": "136 (CVAW SGBV Helpline)",
+    "address": {
+      "en": "El Fasher & Zamzam Camp, North Darfur, Western Sudan"
+    },
+    "services": {
+      "en": [
+        "Saudi Obstetrics & Gynecology Hospital (Primary Maternity Referral in El Fasher)",
+        "UNFPA / CVAW / Local Emergency Response Rooms Women's Protection",
+        "Emergency Obstetric & SGBV Survivor Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers El Fasher's dedicated Saudi Maternity Hospital and women's protection responders serving El Fasher and Zamzam IDP camp in North Darfur."
+    }
+  },
+  {
+    "id": "sudan-nyala-el-geneina-zalingei-darfur-hospitals",
+    "regionDistrict": "Sudan (Nyala, El Geneina & Zalingei — South, West & Central Darfur)",
+    "type": "hospital",
+    "lat": 12.0489,
+    "lng": 24.8807,
+    "name": {
+      "en": "Nyala Teaching Hospital, Turkish Hospital Nyala, El Geneina Teaching Hospital & Zalingei Hospital (MSF Supported)"
+    },
+    "categoryBadge": {
+      "en": "Darfur Regional Teaching & MSF-Supported Maternity Hospitals"
+    },
+    "phone": "136 / 999",
+    "emergencyHotline": "136 (CVAW SGBV Helpline)",
+    "address": {
+      "en": "Nyala (12.05N, 24.88E), El Geneina (13.45N, 22.44E) & Zalingei (12.90N, 23.47E), Darfur, Western Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Maternity & Cesarean Surgery (MSF Supported)",
+        "72-Hour Clinical Care for Sexual Violence Survivors",
+        "Pediatric Nutrition & Neonatal Stabilization"
+      ]
+    },
+    "directionsText": {
+      "en": "Principal teaching and MSF-supported maternity hospitals across South Darfur (Nyala), West Darfur (El Geneina), and Central Darfur (Zalingei)."
+    }
+  },
+  {
+    "id": "sudan-el-obeid-kadugli-kosti-kordofan-white-nile",
+    "regionDistrict": "Sudan (El Obeid, Kadugli & Kosti/Rabak — Kordofan & White Nile)",
+    "type": "hospital",
+    "lat": 13.1842,
+    "lng": 30.2167,
+    "name": {
+      "en": "El Obeid Teaching Maternity Hospital, Kosti Obstetrics Hospital & UNHCR White Nile Refugee Camps Safe Spaces"
+    },
+    "categoryBadge": {
+      "en": "Regional Maternity Hospitals & UNHCR Refugee Camp GBV Safe Havens"
+    },
+    "phone": "136 / 999",
+    "emergencyHotline": "136 (CVAW Helpline)",
+    "address": {
+      "en": "El Obeid (North Kordofan), Kadugli (South Kordofan) & Kosti / Al Kashafa / Khor Al Waral Camps (13.16N, 32.66E, White Nile), Sudan"
+    },
+    "services": {
+      "en": [
+        "El Obeid & Kosti Teaching Maternity & Fistula Hospitals",
+        "UNHCR & UNFPA Women's Safe Spaces in White Nile Refugee Camps",
+        "Emergency Obstetric & SGBV Clinical Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves central-western Sudan (El Obeid, Kadugli) and the White Nile refugee camps (Kosti, Rabak, Al Kashafa, Khor Al Waral)."
+    }
   }
 ];

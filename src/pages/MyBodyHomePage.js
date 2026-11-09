@@ -22,7 +22,7 @@ export default function MyBodyHomePage({
   return h(
     'div',
     { className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden' },
-    // Top Header Bar with Back Button + My Body! Title
+    // Top Header Bar with Back Button + My Body Title
     h(
       'div',
       { className: 'w-full px-4 sm:px-6 pt-3 pb-2 shrink-0 bg-white border-b border-[#FEACEC]/50' },
@@ -36,7 +36,7 @@ export default function MyBodyHomePage({
             className: 'text-xl sm:text-2xl font-extrabold text-center flex-1',
             style: { color: '#9F133A' }
           },
-          tr('eduBtnMyBody', 'My Body!')
+          tr('eduBtnMyBody', 'My Body')
         ),
         h('div', { className: 'w-16 sm:w-20 shrink-0' })
       )
@@ -44,8 +44,8 @@ export default function MyBodyHomePage({
     // Embedded MyBodyInteractiveHomePage1.html
     h('iframe', {
       ref: iframeRef,
-      src: '/MyBodyInteractiveHomePage1.html?v=139',
-      title: tr('eduBtnMyBody', 'My Body!'),
+      src: '/MyBodyInteractiveHomePage1.html?v=141',
+      title: tr('eduBtnMyBody', 'My Body'),
       className: 'flex-1 w-full h-full border-0',
       onLoad: () => {
         try {

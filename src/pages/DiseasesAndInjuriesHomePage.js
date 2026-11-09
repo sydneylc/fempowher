@@ -6,12 +6,20 @@ const h = React.createElement;
 export default function DiseasesAndInjuriesHomePage({
   onBack,
   issues = [],
+  UserLanguageChoice1 = null,
   lang = 'en',
   t = {},
   speakingId = null,
   speakText = () => {},
   onShowNearestClinic = () => {}
 }) {
+  const tr = (key, fallback) => {
+    if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {
+      return UserLanguageChoice1.translate(key, t[key] || fallback);
+    }
+    return t[key] || fallback;
+  };
+
   return h(
     'div',
     { className: 'min-h-full w-full bg-white flex flex-col p-4 sm:p-6' },
@@ -25,7 +33,7 @@ export default function DiseasesAndInjuriesHomePage({
           className: 'text-2xl sm:text-3xl font-extrabold text-center mt-4',
           style: { color: '#9F133A' }
         },
-        t.eduBtnDiseasesInjuries || 'Reproductive Health Diseases and Injuries'
+        tr('eduBtnDiseasesInjuries', 'Reproductive Health Diseases & Injuries')
       ),
       renderEducationIssueCards({
         issues,

@@ -10,7 +10,7 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=140';
+} from './data/translations.js?v=141';
 import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=132';
 import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=123';
 import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=120';
@@ -27,7 +27,7 @@ import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=18';
 import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=119';
 import MapLegend1 from './pages/MapLegend1.js?v=18';
 import DatabasePage1 from './pages/DatabasePage1.js?v=94';
-import MyBodyHomePage from './pages/MyBodyHomePage.js?v=139';
+import MyBodyHomePage from './pages/MyBodyHomePage.js?v=141';
 import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=140';
 import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=128';
 import PregnancyHomePage from './pages/PregnancyHomePage.js?v=137';
@@ -52,7 +52,7 @@ import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=128';
 import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=119';
 import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=119';
 import ForMeHomePage from './pages/ForMeHomePage.js?v=119';
-import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=119';
+import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=141';
 import WorldviewHomePage from './pages/WorldviewHomePage.js?v=119';
 import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=119';
 import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=119';
@@ -1642,7 +1642,25 @@ export default function App() {
     {
       id: 'my-body',
       page: 'MyBodyHomePage',
-      label: t.eduBtnMyBody || 'My Body!',
+      label: t.eduBtnMyBody || 'My Body',
+      shade: 'standard'
+    },
+    {
+      id: 'menstrual-cycle',
+      page: 'MenstrualCycleHomePage',
+      label: t.eduBtnMenstrualCycle || 'Menstrual Cycle',
+      shade: 'standard'
+    },
+    {
+      id: 'sexual-health',
+      page: 'SexualHealthHomePage',
+      label: t.eduBtnSexualHealth || 'Sexual Health',
+      shade: 'standard'
+    },
+    {
+      id: 'family-planning',
+      page: 'FamilyPlanningHomePage1',
+      label: t.eduBtnFamilyPlanning || 'Family Planning',
       shade: 'standard'
     },
     {
@@ -1651,21 +1669,36 @@ export default function App() {
       label: t.eduBtnPregnancyAndBirth || 'Pregnancy & Birth',
       shade: 'standard'
     },
-    { id: 'postpartum', page: 'PostpartumHomePage', label: t.eduBtnPostpartum || 'Postpartum', shade: 'standard' },
-    { id: 'loss-of-a-child', page: 'LossOfAChildHomePage', label: t.eduBtnLossOfChild || 'Loss of a Child', shade: 'lighter' },
-    { id: 'menopause', page: 'MenopauseHomePage', label: t.eduBtnMenopause || 'Menopause', shade: 'standard' },
-    { id: 'menstrual-cycle', page: 'MenstrualCycleHomePage', label: t.eduBtnMenstrualCycle || 'Menstrual Cycle', shade: 'standard' },
-    { id: 'sexual-health', page: 'SexualHealthHomePage', label: t.eduBtnSexualHealth || 'Sexual Health', shade: 'standard' },
-    { id: 'family-planning', page: 'FamilyPlanningHomePage1', label: t.eduBtnFamilyPlanning || 'Family Planning', shade: 'standard' },
-    { id: 'for-loved-one', page: 'ForALovedOneHomePage', label: t.eduBtnForLovedOne || 'For a Loved One', shade: 'lighter' },
-    { id: 'for-me', page: 'ForMeHomePage', label: t.eduBtnForMe || 'For Me', shade: 'lighter' },
+    {
+      id: 'postpartum',
+      page: 'PostpartumHomePage',
+      label: t.eduBtnPostpartum || 'Postpartum',
+      shade: 'standard'
+    },
+    {
+      id: 'loss-of-a-child',
+      page: 'LossOfAChildHomePage',
+      label: t.eduBtnLossOfChild || 'Loss of a Child',
+      shade: 'lighter'
+    },
+    {
+      id: 'menopause',
+      page: 'MenopauseHomePage',
+      label: t.eduBtnMenopause || 'Menopause',
+      shade: 'standard'
+    },
     {
       id: 'diseases-injuries',
       page: 'DiseasesAndInjuriesHomePage',
-      label: t.eduBtnDiseasesInjuries || 'Reproductive Health Diseases and Injuries',
+      label: t.eduBtnDiseasesInjuries || 'Reproductive Health Diseases & Injuries',
       shade: 'darker'
     },
-    { id: 'worldview', page: 'WorldviewHomePage', label: t.eduBtnWorldview || 'Worldview', shade: 'darker' }
+    {
+      id: 'worldview',
+      page: 'WorldviewHomePage',
+      label: t.eduBtnWorldview || 'Worldview',
+      shade: 'darker'
+    }
   ];
   const activeEducationIssues =
     educationSelection?.type === 'age'

@@ -633,9 +633,13 @@ export const NATIONAL_CRISIS_DIRECTORY = {
     ]
   },
   palestine: {
-    emergencyNumber: '100 (Police) / 101 (Red Crescent Ambulance)',
+    emergencyNumber: '100 (Police Family & Juvenile Protection Unit) / 101 (Palestine Red Crescent Ambulance)',
     crisisLines: [
-      'SAWA All-Woman Crisis & Anti-Violence Helpline: Call 121 (Toll-Free)'
+      'SAWA 24/7 Toll-Free Anti-Violence & Psychosocial Helpline: Call 121 or 164 (West Bank & Gaza) / 1800-500-121 (Jerusalem) / WhatsApp +972 56-612-1012',
+      'Women’s Centre for Legal Aid and Counselling (WCLAC Emergency Protection): Call +970 2 295 6146 / 1800-220-100',
+      'Mehwar Center for the Protection of Women & Families (Bethlehem / Beit Sahour Shelter): Call +970 2 277 5626',
+      'Family Defense Society (FDS — Nablus Emergency Safe Home): Call +970 9 238 4518',
+      'Hayat Center & AISHA Protection Helpline (Gaza Strip): Call 1800-171-171 / +970 8 282 7047'
     ]
   },
   syria: {

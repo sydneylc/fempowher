@@ -72692,7 +72692,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "categoryBadge": {
       "en": "GNWS Verified Women’s Shelter & 24/7 Helpline"
     },
-    "phone": "+1 617-732 1934",
+    "phone": "121 / +970 2 295 6146",
     "emergencyHotline": "121 (SAWA Toll-Free 24/7 Women’s Helpline)",
     "address": {
       "en": "173 Main Street, Ramallah, Jerusalem, Bethlehem & Nablus, Palestine, 7154"
@@ -72720,7 +72720,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "categoryBadge": {
       "en": "GNWS Verified Women’s Shelter & 24/7 Helpline"
     },
-    "phone": "+1 617-732 4692",
+    "phone": "+970 2 277 5626",
     "emergencyHotline": "121 (SAWA Toll-Free 24/7 Women’s Helpline)",
     "address": {
       "en": "24 Main Street, Ramallah, Jerusalem, Bethlehem & Nablus, Palestine, 4624"
@@ -135980,6 +135980,156 @@ export const WORLD_CENTERS_DIRECTORY = [
     "Gynecologic & Obstetric Inpatient Ward",
     "24/7 General Emergency Room & Helicopter Medevac Link",
     "Social Work Support & Link to Eilat/Maslan Sexual Assault Crisis Center (1202)"
+  ]
+},
+{
+  "id": "palestine-unwomen-mehwar-shelter-bethlehem",
+  "type": "Safe Haven",
+  "lat": 31.7011,
+  "lng": 35.2258,
+  "phone": "+970-2-277-5626",
+  "country": "Palestine",
+  "region": "Bethlehem Governorate (West Bank)",
+  "city": "Beit Sahour / Bethlehem",
+  "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
+  "names": {
+    "en": "Mehwar Center for the Protection and Empowerment of Women and Families (مركز محور لحماية وتمكين المرأة والأسرة) — Bethlehem",
+    "ar": "مركز محور لحماية وتمكين المرأة والأسرة (بيت ساحور / بيت لحم)"
+  },
+  "address": "Wadi Al-ada, Beit Sahour, Bethlehem Governorate, Palestine | Tel: +970 2 277 5626 | SAWA 24/7 Toll-Free Line: 121 or 164",
+  "details": {
+    "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established in 2007 and operated under the Ministry of Social Development (MoSD) in Beit Sahour (Bethlehem), Mehwar is the primary national first-stage residential shelter in the southern West Bank for women and children survivors of domestic and gender-based violence, providing 24/7 safe accommodation, psychosocial therapy, legal representation, medical care, and vocational training."
+  },
+  "services": [
+    "UN Women Assessed First-Stage Residential Shelter for Women & Children",
+    "24/7 Safe Accommodation, Case Management & Family Protection Unit Coordination",
+    "Free Legal Aid (Sharia & Civil Courts), Psychological Counseling & Medical Care",
+    "Vocational Training, Economic Empowerment & Reintegration Support"
+  ]
+},
+{
+  "id": "palestine-unwomen-fds-nablus-safe-home",
+  "type": "Safe Haven",
+  "lat": 32.2211,
+  "lng": 35.2544,
+  "phone": "+970-9-238-4518",
+  "country": "Palestine",
+  "region": "Nablus Governorate (West Bank)",
+  "city": "Nablus",
+  "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
+  "names": {
+    "en": "Family Defense Society Safe Home (بيت الأمان / بيت الطوارئ — جمعية الدفاع عن الأسرة) — Nablus",
+    "ar": "بيت الأمان لحماية النساء — جمعية الدفاع عن الأسرة (نابلس)"
+  },
+  "address": "Nablus, Northern West Bank, Palestine | Tel: +970 9 238 4518 / +970 9 237 6701 | SAWA 24/7 Line: 121 or 164",
+  "details": {
+    "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Founded in 1994 by the Family Defense Society (FDS / جمعية الدفاع عن الأسرة) in Nablus, this is the first non-governmental emergency and first-stage women’s shelter in Palestine, serving the northern West Bank with 24/7 crisis protection, emergency safe lodging, legal defense, and trauma recovery."
+  },
+  "services": [
+    "UN Women Assessed Emergency & First-Stage Women’s Safe Home (Northern West Bank)",
+    "24/7 Emergency Shelter Intake & Takamul National Referral System Partner",
+    "Psychosocial Support, Legal Aid & Family Mediation / Protection",
+    "Vocational Rehabilitation & Economic Self-Sufficiency Programs"
+  ]
+},
+{
+  "id": "palestine-unwomen-jericho-emergency-protection-house",
+  "type": "Safe Haven",
+  "lat": 31.8611,
+  "lng": 35.4618,
+  "phone": "+970-2-295-6146",
+  "country": "Palestine",
+  "region": "Jericho Governorate (West Bank)",
+  "city": "Jericho",
+  "website": "https://www.wclac.org/",
+  "names": {
+    "en": "Jericho Emergency Protection House (بيت الطوارئ لحماية النساء — أريحا — WCLAC & MoSD) — Jericho",
+    "ar": "بيت الطوارئ لحماية النساء المعنفات — أريحا (مركز المرأة للإرشاد القانوني والاجتماعي ووزارة التنمية الاجتماعية)"
+  },
+  "address": "Jericho, West Bank, Palestine | WCLAC Emergency Line: +970 2 295 6146 / 1800-220-100 | Police Family Protection Unit: 100 | SAWA: 121",
+  "details": {
+    "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established by the Women’s Centre for Legal Aid and Counselling (WCLAC) in partnership with the Ministry of Social Development (MoSD) in Jericho as a 24/7 high-security emergency safe house accepting women and girls at immediate high risk of femicide or severe violence at any hour of the day or night."
+  },
+  "services": [
+    "UN Women Assessed 24/7 High-Security Emergency Protection Shelter",
+    "Immediate Round-the-Clock Admission for Women at High Risk of Femicide",
+    "Risk Assessment, Legal Representation & Police Family Protection Escort",
+    "Referral & Transition toMehwar or Nablus First-Stage Shelters"
+  ]
+},
+{
+  "id": "palestine-unwomen-hayat-center-gaza",
+  "type": "Safe Haven",
+  "lat": 31.5152,
+  "lng": 34.4511,
+  "phone": "1800-171-171",
+  "country": "Palestine",
+  "region": "Gaza Strip",
+  "city": "Gaza City & Deir al-Balah / Khan Younis",
+  "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
+  "names": {
+    "en": "Hayat Center for the Protection and Empowerment of Women and Families (مركز حياة لحماية وتمكين المرأة والأسرة) — Gaza",
+    "ar": "مركز حياة لحماية وتمكين المرأة والأسرة — غزة"
+  },
+  "address": "Al-Rimal, Gaza City & Mobile Displacement Protection Points (Deir al-Balah / Khan Younis), Gaza Strip | Toll-Free Helpline: 1800-171-171 | Tel: +970 8 282 7047 | SAWA: 164 / 121",
+  "details": {
+    "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established as an independent NGO coalition center (with CFTA, Wefaq, AISHA, and WAC) providing multi-sectoral anti-violence protection, emergency safe space, psychological first aid, legal aid, and dignity/empowerment services for women and girls in the Gaza Strip."
+  },
+  "services": [
+    "UN Women Assessed Anti-Violence Protection & Empowerment Center (Gaza Strip)",
+    "Toll-Free GBV & Psychological First Aid Helpline (1800-171-171 / 164)",
+    "Emergency Safe Spaces, Dignity Kits & Case Management for Displaced Women",
+    "Legal Counseling, Forensic/Medical Referral & Psychosocial Trauma Support"
+  ]
+},
+{
+  "id": "palestine-unwomen-beit-al-aman-gaza",
+  "type": "Safe Haven",
+  "lat": 31.5065,
+  "lng": 34.4628,
+  "phone": "164",
+  "country": "Palestine",
+  "region": "Gaza Strip",
+  "city": "Gaza City",
+  "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
+  "names": {
+    "en": "Beit Al-Aman Safe Home for Women (بيت الأمان لحماية النساء) & AISHA / Wefaq Women’s Protection Network — Gaza",
+    "ar": "بيت الأمان لحماية النساء وجمعية عايشة لحماية المرأة والطفل وجمعية وفاق — غزة"
+  },
+  "address": "Gaza City, Khan Younis & Rafah, Gaza Strip | SAWA Toll-Free Line: 164 or 121 | AISHA Helpline: 1800-171-171",
+  "details": {
+    "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Encompasses the Beit Al-Aman governmental safe home established in 2011 in Gaza alongside UN Women / UNFPA partner NGOs AISHA Association for Woman and Child Protection (جمعية عايشة) and Wefaq Society for Women and Child Care (جمعية وفاق), providing emergency protection, psychosocial support, and mobile GBV case management."
+  },
+  "services": [
+    "UN Women Assessed Residential Safe Home & Mobile Women’s Protection Teams",
+    "24/7 Psychosocial Crisis Line (164 / 121 / 1800-171-171)",
+    "Emergency Maternal & GBV Referral to Al-Awda, Nasser & PRCS Field Hospitals",
+    "Legal Aid, Cash/Dignity Assistance & Survivor Case Management"
+  ]
+},
+{
+  "id": "palestine-unwomen-wclac-sawa-psccw-ramallah-jerusalem-hebron",
+  "type": "Safe Haven",
+  "lat": 31.9029,
+  "lng": 35.1998,
+  "phone": "121",
+  "country": "Palestine",
+  "region": "Ramallah, East Jerusalem & Hebron",
+  "city": "Ramallah, Jerusalem & Hebron",
+  "website": "https://www.sawa.ps/",
+  "names": {
+    "en": "SAWA (مؤسسة سوا — 121 / 164 Helpline), WCLAC (مركز المرأة للإرشاد القانوني) & PSCCW (مركز الإرشاد النفسي) — Ramallah, Jerusalem & Hebron",
+    "ar": "مؤسسة سوا (خط الطوارئ 121 / 164) ومركز المرأة للإرشاد القانوني والاجتماعي (WCLAC) ومركز الإرشاد النفسي والاجتماعي للمرأة (PSCCW)"
+  },
+  "address": "Ramallah (Al-Bireh), East Jerusalem, Bethlehem & Hebron, Palestine | SAWA 24/7 Toll-Free: 121 or 164 (Jerusalem: 1800-500-121 / WhatsApp: +972 56-612-1012) | WCLAC: +970 2 295 6146 | PSCCW Bethlehem: +970 2 274 0049",
+  "details": {
+    "en": "Core NGO referral and protection network highlighted in the UN Women Palestine Assessment of Sheltering Services. SAWA operates Palestine’s 24/7 toll-free anti-violence helpline (121 / 164 / 1800-500-121), while WCLAC and the Psycho-Social Counseling Center for Women (PSCCW) provide emergency shelter placement, legal defense, psychological counseling, and transitional housing empowerment across Ramallah, East Jerusalem, Bethlehem, and Hebron."
+  },
+  "services": [
+    "SAWA 24/7 Toll-Free Women’s Anti-Violence Helpline (121 / 164 / 1800-500-121)",
+    "WhatsApp Confidential Crisis Chat (+972 56-612-1012)",
+    "WCLAC & PSCCW Emergency Shelter Placement, Legal Representation & Trauma Therapy",
+    "Direct Referral to Mehwar, Jericho & Nablus Safe Shelters"
   ]
 }
 ];

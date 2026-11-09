@@ -715,6 +715,26 @@ export const NATIONAL_CRISIS_DIRECTORY = {
       'Association des Femmes Juristes du Niger (AFJN) & Ligne 116: Call 116 / +227 20 73 56 36'
     ]
   },
+  'the gambia': {
+    emergencyNumber: '117 (Police) / 16 (Ambulance) / 1313 (National GBV Helpline) / 199 (Social Welfare)',
+    crisisLines: [
+      'National Toll-Free Gender-Based Violence (GBV) Helpline: Call 1313 (24/7)',
+      'Bakoteh Shelter (Ministry of Gender, Children & Social Welfare 24/7 Shelter): Call 1313 or 199',
+      'Gambia Center for Victims of Human Rights Violation (Kanifing Trauma & Legal Support): Call +220 446 0207',
+      'Female Lawyers Association Gambia (FLAG Free Legal Aid) & Network Against GBV (NGBV): Call +220 439 9837 / 1313',
+      'MCO (GAMCO) Brikama Women & Community Support: Call +220 637 0736'
+    ]
+  },
+  gambia: {
+    emergencyNumber: '117 (Police) / 16 (Ambulance) / 1313 (National GBV Helpline) / 199 (Social Welfare)',
+    crisisLines: [
+      'National Toll-Free Gender-Based Violence (GBV) Helpline: Call 1313 (24/7)',
+      'Bakoteh Shelter (Ministry of Gender, Children & Social Welfare 24/7 Shelter): Call 1313 or 199',
+      'Gambia Center for Victims of Human Rights Violation (Kanifing Trauma & Legal Support): Call +220 446 0207',
+      'Female Lawyers Association Gambia (FLAG Free Legal Aid) & Network Against GBV (NGBV): Call +220 439 9837 / 1313',
+      'MCO (GAMCO) Brikama Women & Community Support: Call +220 637 0736'
+    ]
+  },
   senegal: {
     emergencyNumber: '17 (Police) / 1515 (SAMU Ambulance) / 116 (Ligne Verte VBG & Centre Ginddi)',
     crisisLines: [

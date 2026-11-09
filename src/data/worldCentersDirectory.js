@@ -142883,5 +142883,260 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Covers APROFES in Kaolack and the Association des Juristes Sénégalaises (AJS) regional Boutiques de Droit across Thiès, Kaolack, Louga, Kolda, Sédhiou, and Kédougou."
     }
+  },
+  {
+    "id": "gambia-center-for-victims-of-human-rights-violation",
+    "regionDistrict": "The Gambia (Kanifing / Kotu — Greater Banjul)",
+    "type": "safe-haven",
+    "lat": 13.4419017,
+    "lng": -16.7165847,
+    "name": {
+      "en": "Gambia Center for Victims of Human Rights Violation (Women's SGBV & Trauma Rehabilitation)"
+    },
+    "categoryBadge": {
+      "en": "Survivor Trauma Counseling, Medical Rehabilitation & Legal Support"
+    },
+    "phone": "+220 446 0207 / 1313",
+    "emergencyHotline": "1313 (National GBV Helpline) / +220 446 0207",
+    "address": {
+      "en": "C7RM+Q97, Kotu / Senegambia Highway, Kanifing, The Gambia"
+    },
+    "services": {
+      "en": [
+        "Psychosocial & Trauma Counseling for Sexual & Gender-Based Violence Survivors",
+        "Medical Rehabilitation & Referral",
+        "Legal Assistance & Justice Accompaniment",
+        "Women's Survivor Support Groups"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at C7RM+Q97 in Kanifing (+220 446 0207). Provides trauma rehabilitation, medical support, and legal accompaniment for survivors of human rights and gender-based violence."
+    }
+  },
+  {
+    "id": "gambia-staelle-jonhson-womens-shelter-soma",
+    "regionDistrict": "The Gambia (Soma / Mansa Konko — Lower River Region)",
+    "type": "safe-haven",
+    "lat": 13.443182,
+    "lng": -15.310139,
+    "name": {
+      "en": "Staelle Jonhson Women's Shelter (Lower River Region)"
+    },
+    "categoryBadge": {
+      "en": "Interior Women's Shelter & Safe Haven (Lower River Region)"
+    },
+    "phone": "1313 / 199",
+    "emergencyHotline": "1313 (National GBV Helpline)",
+    "address": {
+      "en": "CMVQ+7WH, Soma / Mansa Konko Area, Lower River Region, The Gambia"
+    },
+    "services": {
+      "en": [
+        "Women's Safe Shelter & Emergency Accommodation",
+        "Domestic Violence Protection & Community Support",
+        "Referral to National 1313 GBV Helpline & Soma One-Stop Center"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at CMVQ+7WH in the Lower River Region of The Gambia. Dedicated women's shelter serving interior rural communities."
+    }
+  },
+  {
+    "id": "gambia-mco-gamco-brikama-new-town",
+    "regionDistrict": "The Gambia (Brikama — West Coast Region)",
+    "type": "safe-haven",
+    "lat": 13.2887689,
+    "lng": -16.6573513,
+    "name": {
+      "en": "MCO (GAMCO) — The Gambia (Brikama Women & Community Support)"
+    },
+    "categoryBadge": {
+      "en": "Community Charity, Women's Support & Social Assistance (Brikama)"
+    },
+    "phone": "+220 637 0736 / 1313",
+    "emergencyHotline": "1313 / +220 637 0736",
+    "address": {
+      "en": "78QV+G32 New Town, Brikama Hwy, Brikama, West Coast Region, The Gambia (http://www.gamco.org/)"
+    },
+    "services": {
+      "en": [
+        "Vulnerable Women & Family Welfare Assistance",
+        "Maternal & Community Health Support",
+        "Referral to Brikama GBV Protection Services"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 78QV+G32 New Town, Brikama Hwy (+220 637 0736, http://www.gamco.org/)."
+    }
+  },
+  {
+    "id": "gambia-bakoteh-shelter-kanifing",
+    "regionDistrict": "The Gambia (Bakoteh — Kanifing Municipality)",
+    "type": "safe-haven",
+    "lat": 13.4335369,
+    "lng": -16.6996431,
+    "name": {
+      "en": "Bakoteh Shelter (Ministry of Gender, Children & Social Welfare 24/7 Protection Shelter)"
+    },
+    "categoryBadge": {
+      "en": "National 24/7 Government Domestic Violence & Vulnerable Protection Shelter"
+    },
+    "phone": "1313 / 199",
+    "emergencyHotline": "1313 (National Toll-Free GBV Helpline) / 199 (Social Welfare Helpline)",
+    "address": {
+      "en": "C8M2+C49, Bakoteh, Kanifing Municipality, Greater Banjul, The Gambia"
+    },
+    "services": {
+      "en": [
+        "Open 24 Hours Emergency Safe Shelter & Rehabilitation",
+        "Operated by Ministry of Gender, Children and Social Welfare",
+        "Psychosocial Counseling, Medical Triage & Police Gender Unit Coordination",
+        "24/7 Toll-Free National GBV Helpline 1313"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at C8M2+C49 in Bakoteh (open 24 hours). The Gambia's primary public emergency shelter operated by the Ministry of Gender, Children and Social Welfare. Call 1313 or 199 toll-free."
+    }
+  },
+  {
+    "id": "gambia-flag-ngbv-gamcotrap-think-young-women-serrekunda",
+    "regionDistrict": "The Gambia (Serrekunda / Kanifing)",
+    "type": "safe-haven",
+    "lat": 13.4465,
+    "lng": -16.6815,
+    "name": {
+      "en": "Female Lawyers Association Gambia (FLAG), NGBV, GAMCOTRAP & Think Young Women"
+    },
+    "categoryBadge": {
+      "en": "Free Pro Bono Women's Legal Aid, Anti-FGM & One-Stop GBV Network"
+    },
+    "phone": "1313 / +220 439 9837 / +220 439 2117",
+    "emergencyHotline": "1313 (National GBV Helpline)",
+    "address": {
+      "en": "Kanifing / Serrekunda, Greater Banjul Area, The Gambia"
+    },
+    "services": {
+      "en": [
+        "FLAG Pro Bono Legal Aid & Prosecution of Domestic/Sexual Violence",
+        "Network Against Gender Based Violence (NGBV) One-Stop Center Coordination",
+        "GAMCOTRAP & Think Young Women Anti-FGM & Child Marriage Protection",
+        "Paradise Foundation / Safe Hands for Girls Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Coordinates free legal representation (FLAG), anti-FGM/child marriage protection (GAMCOTRAP & Think Young Women), and hospital One-Stop GBV Centers (NGBV) across The Gambia."
+    }
+  },
+  {
+    "id": "gambia-efsth-banjul-kanifing-brikama-one-stop-hospitals",
+    "regionDistrict": "The Gambia (Banjul, Kanifing & Brikama)",
+    "type": "hospital",
+    "lat": 13.4539,
+    "lng": -16.5719,
+    "name": {
+      "en": "Edward Francis Small Teaching Hospital (EFSTH Banjul), Kanifing General & Brikama District Hospitals + GBV One-Stop Centers"
+    },
+    "categoryBadge": {
+      "en": "National Teaching Maternity Hospital & Integrated GBV One-Stop Centers"
+    },
+    "phone": "+220 422 8223 / 1313 / 16",
+    "emergencyHotline": "1313 (GBV Helpline) / 16 (Ambulance)",
+    "address": {
+      "en": "Independence Drive, Banjul, Kanifing (13.44N, 16.67W) & Brikama, The Gambia"
+    },
+    "services": {
+      "en": [
+        "24/7 Tertiary Maternity, Obstetrics & Gynecology",
+        "Hospital One-Stop GBV Centers (Free Medical, Forensic, Police & Psychosocial Care)",
+        "Neonatal Intensive Care & Fistula Repair"
+      ]
+    },
+    "directionsText": {
+      "en": "The Gambia's main tertiary teaching hospital in Banjul (EFSTH) alongside Kanifing General Hospital and Brikama District Hospital, each hosting an integrated GBV One-Stop Center."
+    }
+  },
+  {
+    "id": "gambia-farafenni-bansang-basse-interior-hospitals",
+    "regionDistrict": "The Gambia (Farafenni, Bansang & Basse Santa Su — Interior Regions)",
+    "type": "hospital",
+    "lat": 13.5667,
+    "lng": -15.6,
+    "name": {
+      "en": "Farafenni General Hospital (North Bank), Bansang Hospital (Central River) & Basse District Hospital (Upper River)"
+    },
+    "categoryBadge": {
+      "en": "Interior Regional Referral Maternity Hospitals & GBV One-Stop Centers"
+    },
+    "phone": "1313 / 16",
+    "emergencyHotline": "1313 / 16",
+    "address": {
+      "en": "Farafenni (13.56N, 15.60W), Bansang (13.43N, 14.65W) & Basse Santa Su (13.31N, 14.21W), The Gambia"
+    },
+    "services": {
+      "en": [
+        "24/7 Regional Maternity & Emergency Cesarean Surgery",
+        "Integrated GBV One-Stop Centers (Bansang, Farafenni & Basse)",
+        "FGM Complication Care & Maternal-Child Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Major upcountry referral hospitals and One-Stop GBV Centers serving North Bank (Farafenni), Central River (Bansang), and Upper River (Basse Santa Su) regions."
+    }
+  },
+  {
+    "id": "gambia-bansang-hospital-central-river",
+    "regionDistrict": "The Gambia (Bansang — Central River Region)",
+    "type": "hospital",
+    "lat": 13.4333,
+    "lng": -14.65,
+    "name": {
+      "en": "Bansang General Hospital & One-Stop GBV Center (Central River Region)"
+    },
+    "categoryBadge": {
+      "en": "Upcountry Referral Maternity Hospital & GBV One-Stop Center"
+    },
+    "phone": "1313 / 16",
+    "emergencyHotline": "1313 / 16",
+    "address": {
+      "en": "Bansang, Central River Region, Eastern Gambia"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Surgery",
+        "Bansang One-Stop GBV Survivor Center",
+        "Pediatrics & Neonatal Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Oldest and largest upcountry referral hospital in eastern Gambia (Bansang), featuring a 24/7 maternity ward and GBV One-Stop Center."
+    }
+  },
+  {
+    "id": "gambia-basse-district-hospital-upper-river",
+    "regionDistrict": "The Gambia (Basse Santa Su — Upper River Region)",
+    "type": "hospital",
+    "lat": 13.3106,
+    "lng": -14.2147,
+    "name": {
+      "en": "Basse District Hospital & One-Stop GBV Center (Upper River Region)"
+    },
+    "categoryBadge": {
+      "en": "Eastern Regional Maternity Hospital & GBV One-Stop Center"
+    },
+    "phone": "1313 / 16",
+    "emergencyHotline": "1313 / 16",
+    "address": {
+      "en": "Basse Santa Su, Upper River Region, Far-Eastern Gambia"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care",
+        "One-Stop GBV Center",
+        "Women's Health & Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary referral hospital and maternity center serving Basse Santa Su and the Upper River Region."
+    }
   }
 ];

@@ -135569,5 +135569,417 @@ export const WORLD_CENTERS_DIRECTORY = [
     "Anonymous Online Chat & WhatsApp Emotional Support",
     "Multilingual Trauma & Domestic Distress Intervention"
   ]
+},
+{
+  "id": "israel-hosp-ichilov-lis-maternity-tel-aviv",
+  "type": "OBGYN",
+  "lat": 32.0809,
+  "lng": 34.7897,
+  "phone": "+972-3-697-4444",
+  "country": "Israel",
+  "region": "Tel Aviv District",
+  "city": "Tel Aviv",
+  "website": "https://www.tasmc.org.il/en/",
+  "names": {
+    "en": "Tel Aviv Sourasky Medical Center (Ichilov) & Lis Maternity and Women’s Hospital — Tel Aviv",
+    "he": "המרכז הרפואי תל אביב ע״ש סוראסקי (איכילוב) ובית החולים ליס לנשים וליולדות",
+    "ar": "مركز تل أبيب سوراسكي الطبي (إيخيلوف) ومستشفى ليس للنساء والولادة"
+  },
+  "address": "6 Weizmann Street, Tel Aviv 6423906, Israel | Tel: +972 3-697-4444 / *8801 | Emergency Ambulance: 101",
+  "details": {
+    "en": "Major metropolitan university teaching hospital in central Tel Aviv incorporating the Lis Maternity and Women’s Hospital, Dana-Dwek Children’s Hospital, 24/7 OBGYN emergency room, high-risk maternal-fetal medicine, IVF/fertility institute, and acute sexual assault forensic room (Hadar Akuti)."
+  },
+  "services": [
+    "Lis Maternity and Women’s Hospital (24/7 OBGYN Emergency & Delivery Suites)",
+    "High-Risk Pregnancy, Maternal-Fetal Medicine & Level III NICU",
+    "Acute Sexual Assault Forensic Center (Hadar Akuti)",
+    "Gynecologic Oncology, Endometriosis & Fertility / IVF Center"
+  ]
+},
+{
+  "id": "israel-hosp-sheba-tel-hashomer-ramat-gan",
+  "type": "OBGYN",
+  "lat": 32.0462,
+  "lng": 34.8423,
+  "phone": "+972-3-530-3030",
+  "country": "Israel",
+  "region": "Tel Aviv District",
+  "city": "Ramat Gan (Tel HaShomer)",
+  "website": "https://www.shebaonline.org/",
+  "names": {
+    "en": "Chaim Sheba Medical Center at Tel HaShomer (Josef Buchmann Gynecology & Maternity Center) — Ramat Gan",
+    "he": "המרכז הרפואי שיבא תל השומר (מרכז לנשים ויולדות ע״ש יוסף בוכמן)",
+    "ar": "مركز شيبا الطبي في تل هشومير (مركز النساء والولادة)"
+  },
+  "address": "Derech Sheba 2, Tel HaShomer, Ramat Gan 52621, Israel | Tel: +972 3-530-3030 | Emergency: 101",
+  "details": {
+    "en": "The largest medical center in Israel and the Middle East. Houses the Josef Buchmann Gynecology and Maternity Center, 24/7 Women’s Emergency Room, Safra Children’s Hospital, advanced fetal medicine and genetic institute, IVF & fertility preservation, and the Chava Center for maternal reproductive mental health."
+  },
+  "services": [
+    "Josef Buchmann Gynecology & Maternity Center (24/7 OBGYN ER)",
+    "High-Risk Obstetrics, Fetal Surgery & Neonatal Intensive Care",
+    "Chava Center for Postpartum & Reproductive Mental Health",
+    "Gynecologic Surgery, Fertility Preservation & IVF"
+  ]
+},
+{
+  "id": "israel-hosp-maayanei-hayeshua-ultra-orthodox-bnei-brak",
+  "type": "OBGYN",
+  "lat": 32.0837,
+  "lng": 34.8415,
+  "phone": "+972-3-577-1111",
+  "country": "Israel",
+  "region": "Tel Aviv District",
+  "city": "Bnei Brak",
+  "website": "https://www.mhmc.co.il/",
+  "names": {
+    "en": "Maayanei Hayeshua Medical Center (מעייני הישועה) — General & Maternity Hospital Specifically Tailored for Ultra-Orthodox (Haredi) Women — Bnei Brak",
+    "he": "המרכז הרפואי מעייני הישועה (בני ברק) — בית חולים כללי ואגף נשים ויולדות באווירה חרדית והלכתית",
+    "fr": "Centre Médical Maayanei Hayeshua — Hôpital et Maternité Spécialement Adapté aux Femmes Juives Ultra-Orthodoxes (Haredi) — Bnei Brak"
+  },
+  "address": "17 Povarsky Street, Bnei Brak 51544, Israel | Tel: +972 3-577-1111 | Emergency: 101",
+  "details": {
+    "en": "[ULTRA-ORTHODOX (HAREDI) HALACHIC HOSPITAL & MATERNITY CENTER] Public community general hospital in Bnei Brak operating strictly according to Jewish law (Halacha) and tailored specifically to the cultural, modesty, Shabbat, and Glatt Mehadrin kosher needs of Ultra-Orthodox (Haredi) and religious Jewish women. One of the busiest maternity and birth centers in Israel, offering 24/7 OBGYN emergency care, high-risk obstetrics, NICU, and culturally sensitive women’s mental health services."
+  },
+  "services": [
+    "Maternity & Delivery Ward Tailored Specifically for Ultra-Orthodox (Haredi) Women",
+    "Strict Halachic, Shabbat-Compliant & Glatt Mehadrin Hospital Environment",
+    "24/7 OBGYN Emergency Room, High-Risk Pregnancy & Neonatal ICU (NICU)",
+    "Gynecologic Surgery, Pelvic Floor & Culturally Sensitive Perinatal Mental Health"
+  ]
+},
+{
+  "id": "israel-hosp-rabin-beilinson-helen-schneider-petah-tikva",
+  "type": "OBGYN",
+  "lat": 32.0906,
+  "lng": 34.8669,
+  "phone": "+972-3-937-7377",
+  "country": "Israel",
+  "region": "Central District",
+  "city": "Petah Tikva",
+  "website": "https://hospitals.clalit.co.il/rabin/en/",
+  "names": {
+    "en": "Rabin Medical Center (Beilinson & Hasharon) & Helen Schneider Hospital for Women — Petah Tikva",
+    "he": "המרכז הרפואי רבין (בילינסון והשרון) ובית החולים לנשים ע״ש הלן שניידר — פתח תקווה"
+  },
+  "address": "39 Jabotinsky St, Petah Tikva 4941492, Israel | Tel: +972 3-937-7377 / +972 3-937-6666 | Emergency: 101",
+  "details": {
+    "en": "Major Clalit Health Services tertiary university hospital complex in Petah Tikva, featuring the dedicated Helen Schneider Hospital for Women (24/7 OBGYN emergency room, labor & delivery, high-risk maternal-fetal medicine, gynecologic oncology, and IVF) alongside Schneider Children’s Medical Center of Israel."
+  },
+  "services": [
+    "Helen Schneider Hospital for Women (24/7 OBGYN Emergency & Maternity)",
+    "High-Risk Pregnancy, Maternal-Fetal Medicine & Genetics",
+    "Gynecologic Oncology, Urogynecology & Fertility / IVF",
+    "Adjacent Schneider Children’s Medical Center & Level III NICU"
+  ]
+},
+{
+  "id": "israel-hosp-hadassah-ein-kerem-mount-scopus-jerusalem",
+  "type": "OBGYN",
+  "lat": 31.7651,
+  "lng": 35.1497,
+  "phone": "+972-2-677-7111",
+  "country": "Israel",
+  "region": "Jerusalem District",
+  "city": "Jerusalem (Ein Kerem & Mount Scopus)",
+  "website": "https://www.hadassah.org.il/en/",
+  "names": {
+    "en": "Hadassah University Medical Center (Ein Kerem & Mount Scopus Maternity Campuses) — Jerusalem",
+    "he": "המרכז הרפואי הדסה (עין כרם והר הצופים) — ירושלים",
+    "ar": "المركز الطبي الجامعي هداسا (عين كارم وجبل المشارف) — القدس"
+  },
+  "address": "Kalman Ya’akov Man St (Ein Kerem) & Sderot Churchill (Mount Scopus), Jerusalem, Israel | Tel: +972 2-677-7111 / +972 2-584-4111",
+  "details": {
+    "en": "Premier university teaching hospital system in Jerusalem operating two full-service campuses (Hadassah Ein Kerem and Hadassah Mount Scopus) serving Jewish and Arab communities across Jerusalem. Offers 24/7 OBGYN emergency care, natural & high-risk delivery centers, rooming-in maternity wards, Bat Ami Center for Victims of Sexual Abuse, and the Linda Joy Pollin Cardiovascular Wellness Center for Women."
+  },
+  "services": [
+    "24/7 OBGYN Emergency & Maternity Wards at Ein Kerem & Mount Scopus",
+    "Bat Ami Acute Sexual Assault Crisis & Forensic Center",
+    "High-Risk Obstetrics, NICU & Maternal-Fetal Medicine",
+    "Arabic, Hebrew, English & Russian Patient Navigation"
+  ]
+},
+{
+  "id": "israel-hosp-shaare-zedek-bikur-cholim-jerusalem",
+  "type": "OBGYN",
+  "lat": 31.7731,
+  "lng": 35.1846,
+  "phone": "+972-2-655-5111",
+  "country": "Israel",
+  "region": "Jerusalem District",
+  "city": "Jerusalem",
+  "website": "https://www.szmc.org.il/eng/",
+  "names": {
+    "en": "Shaare Zedek Medical Center & Bikur Cholim Maternity Campus (שערי צדק — General, Religious & Haredi-Friendly Maternity Hub) — Jerusalem",
+    "he": "המרכז הרפואי שערי צדק ושלוחת ביקור חולים (אגף נשים ויולדות) — ירושלים",
+    "ar": "مركز شعاري تسيديك الطبي — القدس"
+  },
+  "address": "12 Shmuel Bait St, Jerusalem 9103102 (and Bikur Cholim Campus, 5 Strauss St, Downtown Jerusalem), Israel | Tel: +972 2-655-5111",
+  "details": {
+    "en": "Delivering over 22,000 babies per year across its main Bayit Vegan campus and historic downtown Bikur Cholim maternity campus, Shaare Zedek is one of the largest maternity hospitals in the world. Operates under strict halachic supervision with extensive accommodations for Ultra-Orthodox (Haredi), Orthodox, and general patients across Jerusalem."
+  },
+  "services": [
+    "Wilf Woman and Infant Center (22,000+ Births/Year & 24/7 OBGYN ER)",
+    "Halachic, Shabbat-Compliant & Glatt Kosher Accommodations for Haredi & Religious Women",
+    "High-Risk Pregnancy, Level III NICU, Medical Genetics & Pre-Implantation Genetic Diagnosis (PGD)",
+    "Gynecologic Surgery, Endometriosis & Fertility / IVF"
+  ]
+},
+{
+  "id": "israel-hosp-laniado-sanz-ultra-orthodox-netanya",
+  "type": "OBGYN",
+  "lat": 32.3471,
+  "lng": 34.8562,
+  "phone": "+972-9-860-4666",
+  "country": "Israel",
+  "region": "Central District",
+  "city": "Netanya (Kiryat Sanz)",
+  "website": "https://www.laniado.org.il/en/",
+  "names": {
+    "en": "Laniado Hospital — Sanz Medical Center (לניאדו) — General & Maternity Hospital (Ultra-Orthodox / Haredi Halachic & General Care) — Netanya",
+    "he": "בית החולים לניאדו — מרכז רפואי צאנז (אגף נשים ויולדות) — נתניה"
+  },
+  "address": "16 Divrei Chaim St, Kiryat Sanz, Netanya 42150, Israel | Tel: +972 9-860-4666 / +972 9-860-9200 | Emergency: 101",
+  "details": {
+    "en": "[ULTRA-ORTHODOX (HAREDI) HALACHIC & COMMUNITY GENERAL HOSPITAL] Founded in Kiryat Sanz, Netanya by the Klausenburger Rebbe, Laniado serves the entire Netanya and Sharon region while operating under strict Halachic and Glatt Mehadrin kosher standards tailored for Ultra-Orthodox (Haredi) and religious Jewish women alongside the general public. Features a renowned Maternity & Natural Birth Center, 24/7 OBGYN emergency room, and NICU."
+  },
+  "services": [
+    "24/7 Maternity, Natural Birth Center & OBGYN Emergency Room",
+    "Halachic & Glatt Mehadrin Environment Tailored for Ultra-Orthodox (Haredi) & General Patients",
+    "High-Risk Maternal-Fetal Unit & Neonatal Intensive Care (NICU)",
+    "Gynecology, Breast Health & Women’s Outpatient Clinics"
+  ]
+},
+{
+  "id": "israel-hosp-shamir-assaf-harofeh-wolfson-central",
+  "type": "OBGYN",
+  "lat": 31.9639,
+  "lng": 34.8407,
+  "phone": "+972-8-977-9999",
+  "country": "Israel",
+  "region": "Central & Tel Aviv Districts",
+  "city": "Be’er Ya’akov (Rishon LeZion) & Holon",
+  "website": "https://www.shamir.org.il/en/",
+  "names": {
+    "en": "Shamir Medical Center (Assaf Harofeh) & Wolfson Medical Center (Holon)",
+    "he": "המרכז הרפואי שמיר (אסף הרופא) והמרכז הרפואי וולפסון (חולון)"
+  },
+  "address": "Shamir (Assaf Harofeh): Be’er Ya’akov 70300 (Tel: +972 8-977-9999) | Wolfson Medical Center: 62 HaLohamim St, Holon 58100 (Tel: +972 3-502-8211)",
+  "details": {
+    "en": "Major government general and teaching hospitals serving southern Gush Dan, Holon, Bat Yam, Rishon LeZion, Lod, and Ramla. Both feature 24/7 OBGYN emergency rooms, maternity and delivery centers, high-risk pregnancy wards, NICUs, and Wolfson’s National Sexual Assault Forensic Center (Room 4 / Hadar 4)."
+  },
+  "services": [
+    "24/7 OBGYN Emergency, Maternity & High-Risk Delivery Suites",
+    "Wolfson Room 4 (Hadar 4) 24/7 Sexual Assault Forensic & Trauma Center",
+    "Neonatal Intensive Care (NICU) & Pediatric Emergency",
+    "Gynecologic Surgery & Fertility / IVF Units"
+  ]
+},
+{
+  "id": "israel-hosp-meir-kfar-saba-hillel-yaffe-hadera",
+  "type": "OBGYN",
+  "lat": 32.1817,
+  "lng": 34.9012,
+  "phone": "+972-9-747-2555",
+  "country": "Israel",
+  "region": "Central & Haifa Districts",
+  "city": "Kfar Saba & Hadera",
+  "website": "https://hospitals.clalit.co.il/meir/en/",
+  "names": {
+    "en": "Meir Medical Center (Kfar Saba) & Hillel Yaffe Medical Center (Hadera)",
+    "he": "המרכז הרפואי מאיר (כפר סבא) והמרכז הרפואי הלל יפה (חדרה)",
+    "ar": "مركز مئير الطبي (كفار سابا) ومركز هيلل يافه الطبي (الخضيرة)"
+  },
+  "address": "Meir: 59 Tchernichovsky St, Kfar Saba (Tel: +972 9-747-2555) | Hillel Yaffe: Ha-Shalom St, Hadera (Tel: +972 4-774-4211)",
+  "details": {
+    "en": "Primary regional general hospitals serving the Sharon plain, Kfar Saba, Ra’anana, Hod HaSharon, Hadera, and Triangle Arab towns (Tayibe, Tira, Umm al-Fahm, Baqa al-Gharbiyye). Provide 24/7 maternity and OBGYN emergency care, high-risk obstetrics, NICU, and acute sexual assault care."
+  },
+  "services": [
+    "24/7 Maternity, Delivery & OBGYN Emergency Departments",
+    "High-Risk Pregnancy, Maternal-Fetal Medicine & Level III NICU",
+    "Hebrew & Arabic Patient Navigation & Social Work Domestic Abuse Screening",
+    "Gynecologic Surgery, Endometriosis & Fertility Clinics"
+  ]
+},
+{
+  "id": "israel-hosp-kaplan-rehovot-assuta-ashdod-tel-aviv",
+  "type": "OBGYN",
+  "lat": 31.8753,
+  "lng": 34.8197,
+  "phone": "+972-8-944-1211",
+  "country": "Israel",
+  "region": "Central & Southern Districts",
+  "city": "Rehovot, Ashdod & Tel Aviv",
+  "website": "https://www.assutaashdod.co.il/",
+  "names": {
+    "en": "Kaplan Medical Center (Rehovot), Assuta Ashdod Public Hospital & Assuta Ramat HaHayal (Tel Aviv)",
+    "he": "המרכז הרפואי קפלן (רחובות), בית החולים הציבורי אסותא אשדוד ואסותא רמת החייל"
+  },
+  "address": "Kaplan: Pasternak St, Rehovot (Tel: +972 8-944-1211) | Assuta Ashdod: 7 Ha-Refu’a St, Ashdod (Tel: +972 8-300-4100 / *8480) | Assuta Tel Aviv: 20 HaBarzel St (+972 3-764-4444)",
+  "details": {
+    "en": "Serving the southern Shfela and coastal corridor with full 24/7 public emergency and maternity departments at Kaplan Medical Center (Rehovot) and Assuta Ashdod University Hospital, plus advanced gynecologic surgery, breast oncology, and IVF at Assuta Ramat HaHayal."
+  },
+  "services": [
+    "24/7 Public OBGYN Emergency & Maternity Wards (Kaplan Rehovot & Assuta Ashdod)",
+    "High-Risk Pregnancy, NICU & Maternal-Fetal Medicine",
+    "Advanced Gynecologic Surgery, Breast Center & IVF Network",
+    "24/7 Emergency Domestic & Sexual Violence Social Work Support"
+  ]
+},
+{
+  "id": "israel-hosp-rambam-bnai-zion-carmel-haifa",
+  "type": "OBGYN",
+  "lat": 32.8331,
+  "lng": 34.9859,
+  "phone": "+972-4-777-2222",
+  "country": "Israel",
+  "region": "Haifa District",
+  "city": "Haifa",
+  "website": "https://www.rambam.org.il/en/",
+  "names": {
+    "en": "Rambam Health Care Campus, Bnai Zion Medical Center & Carmel Medical Center — Haifa",
+    "he": "הקריה הרפואית רמב״ם, המרכז הרפואי בני ציון והמרכז הרפואי כרמל — חיפה",
+    "ar": "مجمع رمبام الطبي، مركز بني تسيون الطبي ومركز الكرمل الطبي — حيفا"
+  },
+  "address": "Rambam: 8 HaAliya HaShniya St, Haifa (+972 4-777-2222) | Bnai Zion: 47 Golomb St (+972 4-835-9359) | Carmel: 7 Michal St (+972 4-825-0211)",
+  "details": {
+    "en": "Northern Israel’s premier hospital triad in Haifa, led by Rambam Health Care Campus (Level I Trauma & tertiary referral center for all of Northern Israel), Bnai Zion Medical Center, and Clalit’s Carmel Medical Center. All three operate 24/7 OBGYN emergency rooms, maternity and delivery suites, high-risk pregnancy departments, NICUs, and sexual assault forensic care."
+  },
+  "services": [
+    "24/7 Tertiary OBGYN Emergency, Maternity & Delivery Suites",
+    "High-Risk Maternal-Fetal Medicine & Ruth Rappaport Children’s Hospital NICU",
+    "24/7 Acute Sexual Assault Forensic Center (Rambam & Bnai Zion)",
+    "Gynecologic Oncology, Endometriosis & Fertility / IVF"
+  ]
+},
+{
+  "id": "israel-hosp-galilee-nahariya-ziv-safed",
+  "type": "OBGYN",
+  "lat": 33.0101,
+  "lng": 35.1208,
+  "phone": "+972-4-910-7107",
+  "country": "Israel",
+  "region": "Northern District",
+  "city": "Nahariya & Safed (Tzfat)",
+  "website": "https://www.gmc.org.il/",
+  "names": {
+    "en": "Galilee Medical Center (Nahariya) & Ziv Medical Center (Safed / Tzfat)",
+    "he": "המרכז הרפואי לגליל (נהריה) והמרכז הרפואי זיו (צפת)",
+    "ar": "مركز الجليل الطبي (نهاريا) ومركز زيف الطبي (صفد)"
+  },
+  "address": "Galilee Medical Center: Route 89, Nahariya (+972 4-910-7107) | Ziv Medical Center: Derech HaRambam, Safed / Tzfat (+972 4-682-8811)",
+  "details": {
+    "en": "Major northern general and teaching hospitals serving the Western Galilee (Nahariya, Acre/Akko, Ma’alot, Druze and Arab Galilee villages) and Upper Galilee / Golan Heights (Safed/Tzfat, including Safed’s large Ultra-Orthodox Haredi community). Both feature fortified underground maternity & NICU wards, 24/7 OBGYN emergency care, and sexual assault forensic units."
+  },
+  "services": [
+    "24/7 OBGYN Emergency, Maternity & Protected Delivery Wards",
+    "High-Risk Pregnancy, Maternal-Fetal Medicine & NICU",
+    "Culturally Tailored Care for Jewish, Ultra-Orthodox (Safed), Arab & Druze Women",
+    "Acute Sexual Assault Forensic Care & Domestic Violence Social Work"
+  ]
+},
+{
+  "id": "israel-hosp-emek-afula-tzafon-poriya-tiberias",
+  "type": "OBGYN",
+  "lat": 32.6331,
+  "lng": 35.3125,
+  "phone": "+972-4-649-4000",
+  "country": "Israel",
+  "region": "Northern District",
+  "city": "Afula & Tiberias",
+  "website": "https://hospitals.clalit.co.il/emek/en/",
+  "names": {
+    "en": "Emek Medical Center (Afula) & Tzafon Medical Center (Poriya — Tiberias)",
+    "he": "המרכז הרפואי העמק (עפולה) והמרכז הרפואי צפון (פוריה — טבריה)",
+    "ar": "مركز هعيمك الطبي (العفولة) ومركز تسافون بوريا الطبي (طبريا)"
+  },
+  "address": "Emek: 21 Yitzhak Rabin Blvd, Afula (+972 4-649-4000) | Tzafon (Poriya): Poriya, Tiberias (+972 4-665-2211)",
+  "details": {
+    "en": "Serving the Jezreel Valley, Lower Galilee, Beit She’an, and Sea of Galilee (Kinneret / Tiberias) regions. Tzafon (Poriya) Medical Center hosts Northern Israel’s flagship Tana Center (24/7 acute sexual assault treatment center) alongside modern maternity, high-risk obstetrics, and NICU facilities at both Emek and Poriya."
+  },
+  "services": [
+    "24/7 Maternity, Delivery & OBGYN Emergency Departments",
+    "Tana Center at Poriya (24/7 Regional Sexual Assault Forensic & Trauma Center)",
+    "High-Risk Pregnancy, NICU & Fertility / IVF Units",
+    "Multilingual Hebrew, Arabic & Russian Maternal Care"
+  ]
+},
+{
+  "id": "israel-hosp-nazareth-scottish-holy-family-french",
+  "type": "OBGYN",
+  "lat": 32.7042,
+  "lng": 35.2931,
+  "phone": "+972-4-602-8888",
+  "country": "Israel",
+  "region": "Northern District",
+  "city": "Nazareth",
+  "website": "https://nazarethhospital.com/",
+  "names": {
+    "en": "Nazareth Hospitals: EMMS Nazareth Hospital (Scottish), Holy Family Hospital (Italian) & St. Vincent de Paul (French Hospital) — Nazareth",
+    "ar": "مستشفيات الناصرة: مستشفى الناصرة (الإنجليزي)، مستشفى العائلة المقدسة (الإيطالي) ومستشفى القديس منصور (الفرنسي)",
+    "he": "בתי החולים בנצרת: בית החולים נצרת (האנגלי), בית החולים המשפחה הקדושה (האיטלקי) ובית החולים הצרפתי"
+  },
+  "address": "EMMS Nazareth Hospital: 11505 St, Nazareth (+972 4-602-8888) | Holy Family Hospital: 8000 St, Nazareth (+972 4-650-8999) | French Hospital: 5055 St (+972 4-650-9000)",
+  "details": {
+    "en": "The three historic non-profit general and maternity hospitals serving Nazareth and the Arab population of the Galilee. Provide 24/7 Arabic- and Hebrew-speaking maternity, labor and delivery, high-risk obstetrics, neonatal intensive care (NICU), and women’s surgical services."
+  },
+  "services": [
+    "24/7 Arabic & Hebrew Maternity, Delivery & OBGYN Emergency Care",
+    "High-Risk Pregnancy, Neonatal Intensive Care (NICU) & Pediatrics",
+    "Gynecologic Surgery, Breast Screening & Fertility Care",
+    "Direct Referral Link with Nazareth Arab Women’s Crisis Hotline (04-656-6813)"
+  ]
+},
+{
+  "id": "israel-hosp-soroka-beer-sheva-barzilai-ashkelon",
+  "type": "OBGYN",
+  "lat": 31.2588,
+  "lng": 34.8013,
+  "phone": "+972-8-640-0111",
+  "country": "Israel",
+  "region": "Southern District",
+  "city": "Be’er Sheva & Ashkelon",
+  "website": "https://hospitals.clalit.co.il/soroka/en/",
+  "names": {
+    "en": "Soroka University Medical Center (Saban Birth & Maternity Center — Be’er Sheva) & Barzilai Medical Center (Ashkelon)",
+    "he": "המרכז הרפואי האוניברסיטאי סורוקה (מרכז סבן למיילדות — באר שבע) והמרכז הרפואי ברזילי (אשקלון)",
+    "ar": "مركز سوروكا الطبي الجامعي (بئر السبع) ومركز برزيلاي الطبي (عسقلان)"
+  },
+  "address": "Soroka: 151 Yitzhak Rager Blvd, Be’er Sheva (+972 8-640-0111) | Barzilai: 2 Ha-Histadrut St, Ashkelon (+972 8-674-5555)",
+  "details": {
+    "en": "Soroka University Medical Center in Be’er Sheva is the sole Level I Trauma and tertiary referral hospital for the entire Negev (delivering over 17,000 babies annually at the Saban Birth and Maternity Center for Jewish and Negev Bedouin women), paired with Barzilai University Medical Center serving Ashkelon and the southern coast."
+  },
+  "services": [
+    "Saban Birth and Maternity Center at Soroka (17,000+ Births/Year & 24/7 OBGYN ER)",
+    "Protected Underground Delivery Rooms, High-Risk Obstetrics & Level III NICU",
+    "24/7 Southern Acute Sexual Assault Forensic Center (Soroka & Barzilai)",
+    "Hebrew, Arabic (Negev Bedouin), Russian & Amharic Maternal Navigation"
+  ]
+},
+{
+  "id": "israel-hosp-yoseftal-eilat",
+  "type": "OBGYN",
+  "lat": 29.5559,
+  "lng": 34.9412,
+  "phone": "+972-8-635-8011",
+  "country": "Israel",
+  "region": "Southern District",
+  "city": "Eilat",
+  "website": "https://hospitals.clalit.co.il/yoseftal/he/",
+  "names": {
+    "en": "Yoseftal Medical Center — Eilat",
+    "he": "המרכז הרפואי יוספטל — אילת",
+    "ar": "مركز يوسفتال الطبي — إيلات"
+  },
+  "address": "Yotam Rd, Eilat 88000, Israel | Tel: +972 8-635-8011 | Emergency: 101",
+  "details": {
+    "en": "Southernmost general hospital in Israel serving Eilat, the southern Arava, and Red Sea visitors. Operates a 24/7 emergency department, maternity and delivery ward, gynecology unit, and air-evacuation link to Soroka Medical Center."
+  },
+  "services": [
+    "24/7 Maternity, Delivery & OBGYN Emergency Care in Eilat",
+    "Gynecologic & Obstetric Inpatient Ward",
+    "24/7 General Emergency Room & Helicopter Medevac Link",
+    "Social Work Support & Link to Eilat/Maslan Sexual Assault Crisis Center (1202)"
+  ]
 }
 ];

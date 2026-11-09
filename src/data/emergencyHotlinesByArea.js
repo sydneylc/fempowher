@@ -678,6 +678,8 @@ export const NATIONAL_CRISIS_DIRECTORY = {
       'Numéro Vert National VBG (Gabon Égalité — 24/7 Toll-Free Domestic & Gender-Based Violence Helpline): Call 1404',
       'Centre d’Accueil Gabon Égalité (Nzeng-Ayong Safe Shelter & Legal Clinic, Libreville): Call 1404 / +241 011 76 00 00',
       'Observatoire des Droits de la Femme et de la Parité (ODEFPA) & ReFLeT Legal Clinic: Call +241 011 73 57 38 / 1404',
+      'UNFPA Gabon (Libreville Maternal Health & VBG Protection): Call +241 77 99 90 54',
+      'ONG Aurore (Port-Gentil Emergency Women’s Shelter “Un Refuge Pour Elles”), ONG Malachie & Cri de Femmes: Call 1404',
       'CHU Mère-Enfant Fondation Jeanne Ebori (24/7 Obstetrics, Maternity & SGBV Clinical Care, Libreville): Call +241 011 72 20 10 / 1300'
     ]
   },
@@ -758,8 +760,7 @@ export const NATIONAL_CRISIS_DIRECTORY = {
       'Linha Verde da Resposta Humanitária (UNHCR / IOM / WFP / UNICEF Protection Helpline): Call 1458 (Toll-Free)',
       'MULEIDE (Associação Mulher, Lei e Desenvolvimento — Maputo, Beira & Pemba Legal/VBG Shelter Support): Call +258 21 325 581 / +258 84 325 5810',
       'UNICEF Mozambique (1440 Av. do Zimbábwe, Maputo — Child & Maternal Protection): Call +258 21 481 100',
-      'IOM Mozambique (139 Rua Joseph Kizerbo, Maputo — Counter-Trafficking & Displaced Women): Call +258 21 489 946',
-      'Orfanato Melanie Center (Beira Safe Home & Vulnerable Girls Sanctuary): Call +258 84 956 5431'
+      'IOM Mozambique (139 Rua Joseph Kizerbo, Maputo — Counter-Trafficking & Displaced Women): Call +258 21 489 946'
     ]
   },
   haiti: {

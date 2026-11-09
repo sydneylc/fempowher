@@ -141950,34 +141950,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "mozambique-orfanato-melanie-center-beira",
-    "regionDistrict": "Mozambique (Beira — Sofala Province)",
-    "type": "safe-haven",
-    "lat": -19.7523679,
-    "lng": 34.8414907,
-    "name": {
-      "en": "Orfanato Melanie Center (Beira Safe Home & Child/Young Women's Sanctuary)"
-    },
-    "categoryBadge": {
-      "en": "Safe Home, Orphanage & Vulnerable Girls/Women Shelter (Beira)"
-    },
-    "phone": "+258 84 956 5431",
-    "emergencyHotline": "116 / +258 84 956 5431",
-    "address": {
-      "en": "6RXR+3H, Beira, Sofala Province, Mozambique"
-    },
-    "services": {
-      "en": [
-        "Safe Residential Care for Vulnerable Girls & Children",
-        "Emergency Housing & Nutritional Support",
-        "Psychosocial Care & Educational Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Located at 6RXR+3H in northern Beira, Sofala Province (+258 84 956 5431). Provides safe residential shelter and support for vulnerable girls and children."
-    }
-  },
-  {
     "id": "mozambique-unhcr-maputo-rua-pereira-marinho",
     "regionDistrict": "Mozambique (Maputo — Sommerschield)",
     "type": "safe-haven",
@@ -142371,6 +142343,149 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "Primary provincial hospital and maternity center serving Xai-Xai, Chókwè, and Gaza province."
+    }
+  },
+  {
+    "id": "gabon-unfpa-libreville-maternal-gbv",
+    "regionDistrict": "Gabon (Libreville — Batterie IV / Haut de Gué-Gué)",
+    "type": "safe-haven",
+    "lat": 0.4381625,
+    "lng": 9.4187031,
+    "name": {
+      "en": "UNFPA Gabon — Maternal Health, Family Planning & VBG Safe Space Coordination"
+    },
+    "categoryBadge": {
+      "en": "UN Reproductive Health & Gender-Based Violence Protection Hub"
+    },
+    "phone": "+241 77 99 90 54 / 1404",
+    "emergencyHotline": "1404 (Numéro Vert Gratuit VBG Gabon)",
+    "address": {
+      "en": "CCQ9+7F8, Libreville, Estuaire, Gabon (https://gabon.unfpa.org/fr)"
+    },
+    "services": {
+      "en": [
+        "Gender-Based Violence (VBG) Prevention & Survivor Referral (Hotline 1404)",
+        "Safe Motherhood, Midwifery & Obstetric Fistula Prevention",
+        "Adolescent Girls Reproductive Health & Family Planning",
+        "Emergency Dignity Kits & Clinical Care Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at CCQ9+7F8, Libreville (+241 77 99 90 54, https://gabon.unfpa.org/fr). Coordinates UNFPA maternal health, reproductive rights, and VBG protection programs across Gabon."
+    }
+  },
+  {
+    "id": "gabon-ong-rgedd-libreville",
+    "regionDistrict": "Gabon (Libreville)",
+    "type": "safe-haven",
+    "lat": 0.4251835,
+    "lng": 9.4515921,
+    "name": {
+      "en": "ONG RGEDD — Women's Community Resilience & Social Development"
+    },
+    "categoryBadge": {
+      "en": "Community NGO & Women's Empowerment Hub"
+    },
+    "phone": "+241 11 76 59 64 / 1404",
+    "emergencyHotline": "1404 (Numéro Vert VBG)",
+    "address": {
+      "en": "CFG2+3JG, Libreville, Estuaire, Gabon (http://www.ongrgedd.com/)"
+    },
+    "services": {
+      "en": [
+        "Community Women's Empowerment & Social Resilience",
+        "Health, Hygiene & Environmental Education",
+        "Referral to National 1404 GBV Protection Network"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at CFG2+3JG, Libreville (+241 11 76 59 64, http://www.ongrgedd.com/). Supports community development and women's social empowerment."
+    }
+  },
+  {
+    "id": "gabon-ong-aurore-refuge-pour-elles-port-gentil",
+    "regionDistrict": "Gabon (Port-Gentil — Ogooué-Maritime)",
+    "type": "safe-haven",
+    "lat": -0.7145,
+    "lng": 8.7785,
+    "name": {
+      "en": "ONG Aurore — Centre d'Accueil et d'Hébergement d'Urgence 'Un Refuge Pour Elles' (Port-Gentil)"
+    },
+    "categoryBadge": {
+      "en": "Dedicated Emergency Women's Shelter & Anti-Feminicide NGO (Port-Gentil)"
+    },
+    "phone": "1404 / +241 77 99 90 54",
+    "emergencyHotline": "1404 (Numéro Vert VBG)",
+    "address": {
+      "en": "Port-Gentil, Ogooué-Maritime Province, Gabon"
+    },
+    "services": {
+      "en": [
+        "Emergency Safe Shelter ('Un Refuge Pour Elles') for Domestic Violence Survivors",
+        "Psychosocial Listening & Trauma Accompaniment",
+        "Legal & Judicial Assistance Against Domestic Abuse & Feminicide",
+        "Financial Autonomy & Reintegration Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Led by Ida Flore Maroundou in Port-Gentil, ONG Aurore operates the 'Un Refuge Pour Elles' emergency women's shelter initiative and provides frontline advocacy, legal accompaniment, and shelter support for VBG survivors in Ogooué-Maritime."
+    }
+  },
+  {
+    "id": "gabon-ong-malachie-cri-de-femmes-akanda-libreville",
+    "regionDistrict": "Gabon (Akanda & Libreville)",
+    "type": "safe-haven",
+    "lat": 0.462,
+    "lng": 9.428,
+    "name": {
+      "en": "ONG Malachie & Association Cri de Femmes Gabon (Women's Rights & VBG Survivor Solidarity)"
+    },
+    "categoryBadge": {
+      "en": "Women's Rights NGO, Survivor Advocacy & Protection Network"
+    },
+    "phone": "1404 / +241 11 76 00 00",
+    "emergencyHotline": "1404 (Numéro Vert VBG)",
+    "address": {
+      "en": "Akanda & Libreville, Estuaire, Gabon"
+    },
+    "services": {
+      "en": [
+        "Emergency Solidarity & Accompaniment for Survivors of Domestic & Sexual Violence",
+        "Legal & Judicial Advocacy Against Impunity",
+        "Protection of Vulnerable Women & Adolescent Girls",
+        "Community Mediation & Human Rights Defense"
+      ]
+    },
+    "directionsText": {
+      "en": "Coalition of ONG Malachie (led by Pépecy Ogoulinguendé in Akanda/Libreville) and Association Cri de Femmes providing frontline solidarity, legal accompaniment, and protection for women and girls facing violence in Gabon."
+    }
+  },
+  {
+    "id": "gabon-ong-sifos-libreville-jeunes-filles",
+    "regionDistrict": "Gabon (Libreville)",
+    "type": "safe-haven",
+    "lat": 0.3885,
+    "lng": 9.463,
+    "name": {
+      "en": "ONG SIFOS (Soutien aux Initiatives Féminines et aux Œuvres Sociales)"
+    },
+    "categoryBadge": {
+      "en": "Vulnerable Young Women's Protection, Shelter Support & Vocational Hub"
+    },
+    "phone": "1404 / +241 011 73 57 38",
+    "emergencyHotline": "1404 (Numéro Vert VBG)",
+    "address": {
+      "en": "Libreville, Estuaire, Gabon"
+    },
+    "services": {
+      "en": [
+        "Protection Against Exploitation & Abuse of Young Women & Girls",
+        "Social Reintegration & Vocational Training",
+        "Psychosocial Support & Safe Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Founded in 2000 in Libreville, ONG SIFOS protects vulnerable young women and girls from exploitation and violence while providing social and vocational reintegration."
     }
   }
 ];

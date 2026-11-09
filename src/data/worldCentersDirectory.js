@@ -141890,5 +141890,487 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Emergency hospital and humanitarian safe space at Abu Simbel and the Egypt–Sudan border crossings supporting displaced women and families."
     }
+  },
+  {
+    "id": "mozambique-unicef-maputo-av-zimbabwe",
+    "regionDistrict": "Mozambique (Maputo — Sommerschield)",
+    "type": "safe-haven",
+    "lat": -25.9550301,
+    "lng": 32.5944453,
+    "name": {
+      "en": "UNICEF Mozambique — Child & Maternal Protection / GBV Response"
+    },
+    "categoryBadge": {
+      "en": "UN Maternal, Adolescent Girl & Child Protection Hub (Linha Fala Criança 116)"
+    },
+    "phone": "+258 21 481 100 / 116",
+    "emergencyHotline": "116 (Linha Fala Criança) / 1458 (Linha Verde Humanitária)",
+    "address": {
+      "en": "1440 Av. do Zimbábwe, Sommerschield, Maputo, Mozambique (https://www.unicef.org/mozambique)"
+    },
+    "services": {
+      "en": [
+        "Adolescent Girl & Child Protection Against Abuse & Early Marriage",
+        "Support to Centros de Atendimento Integrado (CAI) for GBV Survivors",
+        "Maternal, Neonatal & Infant Health Programs",
+        "Linha Fala Criança 116 Toll-Free Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 1440 Av. do Zimbábwe, Sommerschield, Maputo (+258 21 481 100, https://www.unicef.org/mozambique). Coordinates child and maternal protection and GBV survivor referral."
+    }
+  },
+  {
+    "id": "mozambique-iom-maputo-rua-joseph-kizerbo",
+    "regionDistrict": "Mozambique (Maputo — Sommerschield)",
+    "type": "safe-haven",
+    "lat": -25.9539909,
+    "lng": 32.5936767,
+    "name": {
+      "en": "IOM Mozambique — Anti-Trafficking, Migrant & Displaced Women's Protection"
+    },
+    "categoryBadge": {
+      "en": "UN Migration, Anti-Trafficking & GBV Protection Hub"
+    },
+    "phone": "+258 21 489 946 / 1458",
+    "emergencyHotline": "1458 (Linha Verde) / 116",
+    "address": {
+      "en": "139 Rua Joseph Kizerbo, Sommerschield, Maputo, Mozambique (http://mozambique.iom.int/)"
+    },
+    "services": {
+      "en": [
+        "Protection & Safe Shelter Referral for Trafficking Survivors",
+        "Mental Health & Psychosocial Support (MHPSS) for Displaced Women",
+        "Maternal & Reproductive Health Mobile Clinics",
+        "Humanitarian Assistance in Cyclone & Conflict Zones"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 139 Rua Joseph Kizerbo, Maputo (+258 21 489 946, http://mozambique.iom.int/). Provides counter-trafficking protection, psychosocial support, and displaced women's care."
+    }
+  },
+  {
+    "id": "mozambique-orfanato-melanie-center-beira",
+    "regionDistrict": "Mozambique (Beira — Sofala Province)",
+    "type": "safe-haven",
+    "lat": -19.7523679,
+    "lng": 34.8414907,
+    "name": {
+      "en": "Orfanato Melanie Center (Beira Safe Home & Child/Young Women's Sanctuary)"
+    },
+    "categoryBadge": {
+      "en": "Safe Home, Orphanage & Vulnerable Girls/Women Shelter (Beira)"
+    },
+    "phone": "+258 84 956 5431",
+    "emergencyHotline": "116 / +258 84 956 5431",
+    "address": {
+      "en": "6RXR+3H, Beira, Sofala Province, Mozambique"
+    },
+    "services": {
+      "en": [
+        "Safe Residential Care for Vulnerable Girls & Children",
+        "Emergency Housing & Nutritional Support",
+        "Psychosocial Care & Educational Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 6RXR+3H in northern Beira, Sofala Province (+258 84 956 5431). Provides safe residential shelter and support for vulnerable girls and children."
+    }
+  },
+  {
+    "id": "mozambique-unhcr-maputo-rua-pereira-marinho",
+    "regionDistrict": "Mozambique (Maputo — Sommerschield)",
+    "type": "safe-haven",
+    "lat": -25.9571843,
+    "lng": 32.594664,
+    "name": {
+      "en": "UNHCR Mozambique (ACNUR) — Refugee & Displaced Women's SGBV Protection"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Country Representation & SGBV Protection Desk"
+    },
+    "phone": "1458 / 116 / +258 21 490 242",
+    "emergencyHotline": "1458 (Linha Verde Gratuita) / 116",
+    "address": {
+      "en": "No. 179, Rua Pereira Marinho, Sommerschield, Maputo, Mozambique"
+    },
+    "services": {
+      "en": [
+        "Refugee & IDP Women's SGBV Case Management",
+        "Free Legal Aid & Documentation Protection",
+        "Psychosocial Support & Emergency Safe Shelter Referrals",
+        "Linha Verde 1458 Toll-Free Helpline"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at No. 179, Rua Pereira Marinho, Sommerschield, Maputo. Coordinates UNHCR protection, SGBV response, and legal aid for refugee and internally displaced women across Mozambique."
+    }
+  },
+  {
+    "id": "mozambique-muleide-wlsa-forum-mulher-maputo",
+    "regionDistrict": "Mozambique (Maputo Central & Matola)",
+    "type": "safe-haven",
+    "lat": -25.9665,
+    "lng": 32.5812,
+    "name": {
+      "en": "MULEIDE (Mulher, Lei e Desenvolvimento), WLSA Moçambique & Fórum Mulher — Maputo Legal & Crisis Shelter Network"
+    },
+    "categoryBadge": {
+      "en": "Women's Legal Aid, Psychosocial Counseling & Domestic Violence Shelter Network"
+    },
+    "phone": "+258 21 325 581 / +258 84 325 5810 / 116",
+    "emergencyHotline": "116 / 1458 / +258 21 325 581",
+    "address": {
+      "en": "Av. Paulo Samuel Kankhomba / Bairro Central, Maputo & Matola, Mozambique"
+    },
+    "services": {
+      "en": [
+        "MULEIDE Free Legal Aid & Psychological Counseling for Domestic Violence Survivors",
+        "WLSA Moçambique Women's Rights & Justice Advocacy",
+        "Centro de Atendimento Integrado (CAI) Maputo & Matola",
+        "Gabinete de Atendimento à Família e Menor Vítima de Violência (GAFMVV)"
+      ]
+    },
+    "directionsText": {
+      "en": "Maputo headquarters of MULEIDE, WLSA Moçambique, and Fórum Mulher providing free legal aid, psychological counseling, and referrals to Centros de Atendimento Integrado (CAI)."
+    }
+  },
+  {
+    "id": "mozambique-beira-cai-muleide-sofala",
+    "regionDistrict": "Mozambique (Beira & Dondo — Sofala Province)",
+    "type": "safe-haven",
+    "lat": -19.8316,
+    "lng": 34.837,
+    "name": {
+      "en": "Centro de Atendimento Integrado (CAI) da Beira & Delegação MULEIDE Sofala"
+    },
+    "categoryBadge": {
+      "en": "One-Stop GBV Survivor Center & Women's Legal Clinic (Beira)"
+    },
+    "phone": "116 / 1458",
+    "emergencyHotline": "116 / 1458",
+    "address": {
+      "en": "Beira & Dondo, Sofala Province, Central Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 One-Stop Medical, Police (GAFMVV), Psychological & Legal Care (IPAJ)",
+        "MULEIDE Sofala Women's Legal & Psychosocial Support",
+        "UNFPA Women & Girls Safe Spaces (Cyclone & IDP Recovery)"
+      ]
+    },
+    "directionsText": {
+      "en": "Provides integrated medical, forensic, psychological, and legal support for survivors of domestic and sexual violence in Beira and Sofala."
+    }
+  },
+  {
+    "id": "mozambique-pemba-muleide-unhcr-cabo-delgado-safe-space",
+    "regionDistrict": "Mozambique (Pemba, Montepuez & Metuge — Cabo Delgado)",
+    "type": "safe-haven",
+    "lat": -12.9732,
+    "lng": 40.5178,
+    "name": {
+      "en": "UNHCR, UNFPA & MULEIDE Espaços Seguros para Mulheres e Raparigas — Pemba & Metuge (Cabo Delgado)"
+    },
+    "categoryBadge": {
+      "en": "Humanitarian Women's Safe Spaces, CAI & Legal Aid (Cabo Delgado)"
+    },
+    "phone": "1458 / 116",
+    "emergencyHotline": "1458 (Linha Verde Gratuita) / 116",
+    "address": {
+      "en": "Pemba, Metuge & Montepuez IDP Sites, Cabo Delgado Province, Northern Mozambique"
+    },
+    "services": {
+      "en": [
+        "Women & Girls Safe Spaces (Espaços Seguros) for Conflict-Displaced Survivors",
+        "MULEIDE Cabo Delgado Legal & Psychosocial Counseling",
+        "Centro de Atendimento Integrado (CAI) Pemba",
+        "72-Hour Clinical Care for Sexual Assault & Dignity Kits"
+      ]
+    },
+    "directionsText": {
+      "en": "Frontline UNHCR, UNFPA, and MULEIDE safe spaces and integrated GBV centers supporting internally displaced women and girls across Pemba, Metuge, and Montepuez in Cabo Delgado."
+    }
+  },
+  {
+    "id": "mozambique-nampula-nafeza-cai-maratane",
+    "regionDistrict": "Mozambique (Nampula City & Maratane Refugee Camp)",
+    "type": "safe-haven",
+    "lat": -15.1165,
+    "lng": 39.2666,
+    "name": {
+      "en": "Associação Nafeza (Zambeziana/Nampula Women's Network), CAI Nampula & UNHCR Maratane Camp Safe Space"
+    },
+    "categoryBadge": {
+      "en": "Women's Shelter Network, One-Stop CAI & Refugee GBV Safe Haven"
+    },
+    "phone": "116 / 1458",
+    "emergencyHotline": "116 / 1458",
+    "address": {
+      "en": "Nampula City & Maratane Refugee Settlement, Nampula Province, Northern Mozambique"
+    },
+    "services": {
+      "en": [
+        "Centro de Atendimento Integrado às Vítimas de Violência (CAIVV Nampula)",
+        "UNHCR Maratane Refugee Camp Women's Safe Space",
+        "Free Legal Aid (IPAJ) & Psychosocial Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers the Nampula Integrated GBV Center (CAIVV), local women's associations, and UNHCR protection at Maratane Refugee Settlement."
+    }
+  },
+  {
+    "id": "mozambique-hospital-central-beira-sofala",
+    "regionDistrict": "Mozambique (Beira — Sofala Province)",
+    "type": "hospital",
+    "lat": -19.8364,
+    "lng": 34.8519,
+    "name": {
+      "en": "Hospital Central da Beira (HCB) — Maternidade & Ginecologia"
+    },
+    "categoryBadge": {
+      "en": "Central Mozambique Tertiary Referral & Maternity Hospital"
+    },
+    "phone": "+258 23 312 071 / 116",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Ponta Gêa, Beira, Sofala Province, Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 High-Risk Maternity & Obstetric Surgery",
+        "Obstetric Fistula Repair Center",
+        "Neonatal Intensive Care (NICU) & Pediatrics",
+        "Clinical Care for Sexual Violence Survivors"
+      ]
+    },
+    "directionsText": {
+      "en": "Mozambique's second-largest hospital and the main tertiary maternity and surgical referral center for all of central Mozambique."
+    }
+  },
+  {
+    "id": "mozambique-hospital-central-nampula",
+    "regionDistrict": "Mozambique (Nampula Province)",
+    "type": "hospital",
+    "lat": -15.1208,
+    "lng": 39.2625,
+    "name": {
+      "en": "Hospital Central de Nampula (HCN) — Maternidade & Saúde Materno-Infantil"
+    },
+    "categoryBadge": {
+      "en": "Northern Mozambique Tertiary Referral & Maternity Hospital"
+    },
+    "phone": "+258 26 213 100 / 116",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Nampula, Nampula Province, Northern Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Tertiary Maternity & Cesarean Delivery",
+        "Gynecology, Fistula Surgery & Cervical Cancer Screening",
+        "NICU & Pediatric Emergency Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Largest tertiary referral hospital for northern Mozambique, located in Nampula."
+    }
+  },
+  {
+    "id": "mozambique-hospital-central-quelimane-zambezia",
+    "regionDistrict": "Mozambique (Quelimane & Mocuba — Zambézia Province)",
+    "type": "hospital",
+    "lat": -17.8764,
+    "lng": 36.8872,
+    "name": {
+      "en": "Hospital Central de Quelimane, Hospital Provincial de Quelimane & CAI Zambézia"
+    },
+    "categoryBadge": {
+      "en": "Central Referral Maternity Hospital & Integrated GBV Center (Zambézia)"
+    },
+    "phone": "+258 24 212 142 / 116",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Quelimane & Mocuba, Zambézia Province, Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Fistula Repair",
+        "Centro de Atendimento Integrado (CAI) for GBV Survivors",
+        "Neonatology & Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves Zambézia province with the modern Hospital Central de Quelimane, provincial maternity services, and integrated GBV care."
+    }
+  },
+  {
+    "id": "mozambique-hospital-provincial-tete-moatize",
+    "regionDistrict": "Mozambique (Tete & Moatize — Tete Province)",
+    "type": "hospital",
+    "lat": -16.1564,
+    "lng": 33.5867,
+    "name": {
+      "en": "Hospital Provincial de Tete & Centro de Atendimento Integrado (CAI) de Tete"
+    },
+    "categoryBadge": {
+      "en": "Provincial Referral Maternity Hospital & GBV One-Stop Center"
+    },
+    "phone": "+258 25 222 033 / 116",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Tete & Moatize, Tete Province, Northwestern Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care",
+        "Clinical & Legal Care for GBV Survivors (CAI Tete)",
+        "Pediatrics & General Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary provincial hospital and maternity center serving Tete and northwestern Mozambique."
+    }
+  },
+  {
+    "id": "mozambique-hospital-provincial-chimoio-manica",
+    "regionDistrict": "Mozambique (Chimoio — Manica Province)",
+    "type": "hospital",
+    "lat": -19.1164,
+    "lng": 33.4833,
+    "name": {
+      "en": "Hospital Provincial de Chimoio & CAI Manica"
+    },
+    "categoryBadge": {
+      "en": "Provincial Referral Maternity Hospital & GBV Center (Manica)"
+    },
+    "phone": "+258 25 122 055 / 116",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Chimoio, Manica Province, Central Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Cesarean Surgery",
+        "Gynecology & Family Planning",
+        "Integrated GBV Care (CAI Chimoio)"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial referral hospital and maternity ward serving Chimoio and Manica province."
+    }
+  },
+  {
+    "id": "mozambique-hospital-provincial-pemba-cabo-delgado",
+    "regionDistrict": "Mozambique (Pemba — Cabo Delgado Province)",
+    "type": "hospital",
+    "lat": -12.9692,
+    "lng": 40.5056,
+    "name": {
+      "en": "Hospital Provincial de Pemba & Maternidade Provincial de Cabo Delgado"
+    },
+    "categoryBadge": {
+      "en": "Provincial Referral & Humanitarian Maternity Hospital (Cabo Delgado)"
+    },
+    "phone": "+258 27 220 315 / 1458",
+    "emergencyHotline": "1458 / 116",
+    "address": {
+      "en": "Pemba, Cabo Delgado Province, Northern Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics & Maternity (ICRC / MSF / UNFPA Supported)",
+        "Clinical Care for Conflict SGBV Survivors",
+        "Neonatal & Pediatric Intensive Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Main provincial referral hospital in Pemba serving both host communities and displaced families across Cabo Delgado."
+    }
+  },
+  {
+    "id": "mozambique-hospital-provincial-lichinga-niassa",
+    "regionDistrict": "Mozambique (Lichinga & Cuamba — Niassa Province)",
+    "type": "hospital",
+    "lat": -13.3128,
+    "lng": 35.2406,
+    "name": {
+      "en": "Hospital Provincial de Lichinga, Hospital Distrital de Cuamba & CAI Niassa"
+    },
+    "categoryBadge": {
+      "en": "Northwestern Provincial Referral Maternity Hospital (Niassa)"
+    },
+    "phone": "+258 27 120 230 / 116",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Lichinga & Cuamba (14.80S, 36.53E), Niassa Province, Northwestern Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Surgery",
+        "Integrated GBV Care (CAI Lichinga)",
+        "Pediatrics & Women's Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial referral hospital in Lichinga and rural hospital in Cuamba serving Niassa province."
+    }
+  },
+  {
+    "id": "mozambique-hospital-provincial-inhambane-maxixe",
+    "regionDistrict": "Mozambique (Inhambane & Maxixe — Inhambane Province)",
+    "type": "hospital",
+    "lat": -23.865,
+    "lng": 35.3833,
+    "name": {
+      "en": "Hospital Provincial de Inhambane, Hospital de Chicuque (Maxixe) & CAI Inhambane"
+    },
+    "categoryBadge": {
+      "en": "Southern Provincial & Rural Referral Maternity Hospitals"
+    },
+    "phone": "+258 29 320 455 / 116",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Inhambane & Maxixe (Chicuque Rural Hospital), Inhambane Province, Southern Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "Chicuque Rural Hospital Surgical & Maternal Center",
+        "CAI Inhambane GBV Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers Inhambane Provincial Hospital and the historic Chicuque Rural Hospital across the bay in Maxixe."
+    }
+  },
+  {
+    "id": "mozambique-hospital-provincial-xai-xai-chokwe-gaza",
+    "regionDistrict": "Mozambique (Xai-Xai & Chókwè — Gaza Province)",
+    "type": "hospital",
+    "lat": -25.0519,
+    "lng": 33.6442,
+    "name": {
+      "en": "Hospital Provincial de Xai-Xai, Hospital Rural de Chókwè & CAI Gaza"
+    },
+    "categoryBadge": {
+      "en": "Provincial Referral Maternity Hospital & GBV Center (Gaza)"
+    },
+    "phone": "+258 28 222 315 / 116",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Xai-Xai & Chókwè, Gaza Province, Southern Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Obstetrics & Gynecology",
+        "Centro de Atendimento Integrado (CAI) Xai-Xai",
+        "PMTCT, HIV & Reproductive Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary provincial hospital and maternity center serving Xai-Xai, Chókwè, and Gaza province."
+    }
   }
 ];

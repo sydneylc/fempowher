@@ -752,9 +752,14 @@ export const NATIONAL_CRISIS_DIRECTORY = {
     ]
   },
   mozambique: {
-    emergencyNumber: '112 or 119 (National Emergency)',
+    emergencyNumber: '112 or 119 (National Emergency) / 116 (Linha Fala Criança & VBG) / 1458 (Linha Verde)',
     crisisLines: [
-      'Linha Fala Criança & Violência Baseada no Género: Call 116'
+      'Linha Fala Criança & Violência Baseada no Género (24/7 Toll-Free): Call 116',
+      'Linha Verde da Resposta Humanitária (UNHCR / IOM / WFP / UNICEF Protection Helpline): Call 1458 (Toll-Free)',
+      'MULEIDE (Associação Mulher, Lei e Desenvolvimento — Maputo, Beira & Pemba Legal/VBG Shelter Support): Call +258 21 325 581 / +258 84 325 5810',
+      'UNICEF Mozambique (1440 Av. do Zimbábwe, Maputo — Child & Maternal Protection): Call +258 21 481 100',
+      'IOM Mozambique (139 Rua Joseph Kizerbo, Maputo — Counter-Trafficking & Displaced Women): Call +258 21 489 946',
+      'Orfanato Melanie Center (Beira Safe Home & Vulnerable Girls Sanctuary): Call +258 84 956 5431'
     ]
   },
   haiti: {

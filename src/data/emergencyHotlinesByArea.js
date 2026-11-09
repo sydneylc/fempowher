@@ -735,6 +735,24 @@ export const NATIONAL_CRISIS_DIRECTORY = {
       'MCO (GAMCO) Brikama Women & Community Support: Call +220 637 0736'
     ]
   },
+  'guinea-bissau': {
+    emergencyNumber: '117 (Police) / 119 (Medical Emergency) / 121 (Child & Women Protection)',
+    crisisLines: [
+      'Ministério da Mulher, Família e Solidariedade Social & IMC (Bissau): Call +245 955 595 009',
+      'RENLUV-GC/GB, CNAPN & ONG-NADEL (Anti-GBV & Anti-FGM Protection): Call +245 955 208 434',
+      'ONG Nova Esperança (+245 955 765 538), PRSP (+245 966 729 115) & Casa Emanuel (+245 956 072 131)',
+      'FEC / Cáritas Diocesana de Bissau (+245 955 554 715), IMVF PIMI Maternal Health (+245 955 456 910) & LICAMDH-GB (+245 957 965 252)'
+    ]
+  },
+  'guinea bissau': {
+    emergencyNumber: '117 (Police) / 119 (Medical Emergency) / 121 (Child & Women Protection)',
+    crisisLines: [
+      'Ministério da Mulher, Família e Solidariedade Social & IMC (Bissau): Call +245 955 595 009',
+      'RENLUV-GC/GB, CNAPN & ONG-NADEL (Anti-GBV & Anti-FGM Protection): Call +245 955 208 434',
+      'ONG Nova Esperança (+245 955 765 538), PRSP (+245 966 729 115) & Casa Emanuel (+245 956 072 131)',
+      'FEC / Cáritas Diocesana de Bissau (+245 955 554 715), IMVF PIMI Maternal Health (+245 955 456 910) & LICAMDH-GB (+245 957 965 252)'
+    ]
+  },
   senegal: {
     emergencyNumber: '17 (Police) / 1515 (SAMU Ambulance) / 116 (Ligne Verte VBG & Centre Ginddi)',
     crisisLines: [

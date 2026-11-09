@@ -143138,5 +143138,654 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Primary referral hospital and maternity center serving Basse Santa Su and the Upper River Region."
     }
+  },
+  {
+    "id": "guinea-bissau-ministerio-mulher-familia-imc-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau)",
+    "type": "safe-haven",
+    "lat": 11.8632196,
+    "lng": -15.5843227,
+    "name": {
+      "en": "Ministério da Mulher, Família e Solidariedade Social & Instituto da Mulher e Criança (IMC)"
+    },
+    "categoryBadge": {
+      "en": "National Ministry of Women, Family & GBV Protection Coordination"
+    },
+    "phone": "+245 955 595 009 / 121",
+    "emergencyHotline": "+245 955 595 009 / 121",
+    "address": {
+      "en": "VC78+77M, Avenida Combatentes da Liberdade da Pátria, Bissau, Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "Instituto da Mulher e da Criança (IMC) Women & Child Protection",
+        "Domestic & Gender-Based Violence Survivor Intake & Shelter Referral",
+        "Social Solidarity & Family Mediation",
+        "Coordination with RENLUV & UNFPA One-Stop Centers"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at VC78+77M in Bissau (+245 955 595 009). Houses the Ministry of Women, Family and Social Solidarity and coordinates national women's protection."
+    }
+  },
+  {
+    "id": "guinea-bissau-planeamento-familiar-aguibef-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau — Downtown)",
+    "type": "safe-haven",
+    "lat": 11.8620631,
+    "lng": -15.5820829,
+    "name": {
+      "en": "Planeamento Familiar & Saúde Reprodutiva (AGUIBEF / Ministry of Health Clinic)"
+    },
+    "categoryBadge": {
+      "en": "Family Planning, Contraception & Women's Sexual Health Clinic"
+    },
+    "phone": "+245 955 595 009",
+    "emergencyHotline": "119 / +245 955 595 009",
+    "address": {
+      "en": "14, Avenida Amílcar Cabral, Bissau, Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "Free & Confidential Family Planning & Contraception",
+        "Prenatal & Postpartum Reproductive Health",
+        "STI/HIV Screening & Adolescent Girls' Counseling",
+        "GBV Clinical & Psychosocial Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 14, Avenida Amílcar Cabral in central Bissau. Dedicated family planning and women's reproductive health clinic."
+    }
+  },
+  {
+    "id": "guinea-bissau-sede-nacional-ong-nadel-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau)",
+    "type": "safe-haven",
+    "lat": 11.8667543,
+    "lng": -15.605212,
+    "name": {
+      "en": "Sede Nacional ONG-NADEL (Núcleo de Acção para o Desenvolvimento Local — Anti-FGM & Girls' Protection)"
+    },
+    "categoryBadge": {
+      "en": "Frontline Anti-FGM, Forced Marriage & Women's Protection NGO"
+    },
+    "phone": "+245 955 208 434",
+    "emergencyHotline": "+245 955 208 434",
+    "address": {
+      "en": "V98V+PW3, Bissau, Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "Protection of Girls Against FGM (Mutilação Genital Feminina) & Forced/Early Marriage",
+        "Community Safe Spaces & Survivor Accompaniment",
+        "Women's Rights Education & Legal Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at V98V+PW3 in Bissau (+245 955 208 434). Leading Guinean NGO protecting girls and women from FGM and forced marriage."
+    }
+  },
+  {
+    "id": "guinea-bissau-ong-nova-esperanca-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau)",
+    "type": "safe-haven",
+    "lat": 11.8744229,
+    "lng": -15.6190982,
+    "name": {
+      "en": "ONG Nova Esperança — Guiné-Bissau (Women-Led Community & Vulnerable Women's Support)"
+    },
+    "categoryBadge": {
+      "en": "Women-Owned NGO & Vulnerable Women's Support Hub"
+    },
+    "phone": "+245 955 765 538",
+    "emergencyHotline": "+245 955 765 538",
+    "address": {
+      "en": "C. Postal 326, Bissau Códex 1001, Guinea-Bissau (https://ongnovaesperanca47.wixsite.com/website)"
+    },
+    "services": {
+      "en": [
+        "Women-Led Support for Vulnerable Women & Mothers",
+        "Community Health & Socio-Economic Empowerment",
+        "Psychosocial Listening & Solidarity"
+      ]
+    },
+    "directionsText": {
+      "en": "Women-led NGO in Bissau (+245 955 765 538, https://ongnovaesperanca47.wixsite.com/website) supporting vulnerable women and families."
+    }
+  },
+  {
+    "id": "guinea-bissau-shelter-for-life-international-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau)",
+    "type": "safe-haven",
+    "lat": 11.8560232,
+    "lng": -15.5862979,
+    "name": {
+      "en": "Shelter For Life International — Guinea-Bissau"
+    },
+    "categoryBadge": {
+      "en": "Humanitarian Relief & Women's Livelihood Protection NGO"
+    },
+    "phone": "+245 955 199 096",
+    "emergencyHotline": "+245 955 199 096",
+    "address": {
+      "en": "VC47+CF4, Bissau, Guinea-Bissau (http://www.shelter.org/)"
+    },
+    "services": {
+      "en": [
+        "Humanitarian Shelter & Community Infrastructure",
+        "Women's Economic & Agricultural Resilience",
+        "Community Crisis Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at VC47+CF4 in Bissau (+245 955 199 096, http://www.shelter.org/)."
+    }
+  },
+  {
+    "id": "guinea-bissau-imvf-vida-humanite-inclusion-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau — Av. da Unidade Africana & Rua Vitorino Costa)",
+    "type": "safe-haven",
+    "lat": 11.8655659,
+    "lng": -15.5867655,
+    "name": {
+      "en": "IMVF Guiné-Bissau (PIMI Maternal-Child Health), VIDA & Humanité & Inclusion"
+    },
+    "categoryBadge": {
+      "en": "Maternal & Infant Health (PIMI) and Inclusive Women's Protection Hubs"
+    },
+    "phone": "+245 955 456 910",
+    "emergencyHotline": "+245 955 456 910",
+    "address": {
+      "en": "Avenida da Unidade Africana, 40-A & Rua Vitorino Costa (VC47+6C4), Bissau, Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "PIMI Integrated Maternal & Infant Mortality Reduction Program (IMVF http://www.imvf.org/)",
+        "VIDA Maternal & Newborn Community Care (http://www.vida.org.pt/)",
+        "Humanité & Inclusion Protection for Women & Girls with Disabilities"
+      ]
+    },
+    "directionsText": {
+      "en": "Coordinates the nationwide PIMI maternal and infant health program (IMVF +245 955 456 910), VIDA community maternal care, and Humanité & Inclusion disability support."
+    }
+  },
+  {
+    "id": "guinea-bissau-fec-caritas-crs-oms-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau)",
+    "type": "safe-haven",
+    "lat": 11.8578588,
+    "lng": -15.6191269,
+    "name": {
+      "en": "FEC & Cáritas Diocesana de Bissau, Catholic Relief Services (CRS) & OMS Bissau"
+    },
+    "categoryBadge": {
+      "en": "Maternal-Child Solidarity, Anti-Trafficking & Humanitarian Health Network"
+    },
+    "phone": "+245 955 554 715 / +245 956 049 440 / +245 956 500 063",
+    "emergencyHotline": "+245 955 554 715 / +245 957 046 541",
+    "address": {
+      "en": "V95J+48X, Bairro da Cooperação Portuguesa & Av. dos Combatentes da Liberdade da Pátria, Bissau (http://www.fecongd.org/)"
+    },
+    "services": {
+      "en": [
+        "Cáritas Guiné-Bissau & FEC Protection of Vulnerable Mothers & Children",
+        "CRS Maternal & Child Nutrition and Malaria Prevention (+245 956 500 063)",
+        "WHO / OMS Bissau Maternal Health Coordination (+245 957 046 541)"
+      ]
+    },
+    "directionsText": {
+      "en": "Includes FEC / Cáritas Diocesana de Bissau (+245 955 554 715 / +245 956 049 440), Catholic Relief Services (+245 956 500 063), and OMS Bissau (+245 957 046 541)."
+    }
+  },
+  {
+    "id": "guinea-bissau-asad-swissaid-prsp-nova-mentalidade-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau — Penha-Brá & Centro)",
+    "type": "safe-haven",
+    "lat": 11.8685787,
+    "lng": -15.6106831,
+    "name": {
+      "en": "PRSP (B. Penha-Brá), ASAD Guiné-Bissau, Swissaid & Associação Nova Mentalidade"
+    },
+    "categoryBadge": {
+      "en": "Women-Owned Social Work, Anti-GBV & Women's Rights NGOs"
+    },
+    "phone": "+245 966 729 115 / +245 956 089 482 / +245 966 713 355",
+    "emergencyHotline": "+245 966 729 115",
+    "address": {
+      "en": "B. Penha-Brá Rua Guiné Telecom (PRSP), VC5C+CFC Rua nº 1 (ASAD) & VC67+MQG (Swissaid), Bissau"
+    },
+    "services": {
+      "en": [
+        "PRSP Women-Owned Social Work & Vulnerable Family Support (+245 966 729 115, http://www.prsp.gw/)",
+        "ASAD Guiné-Bissau Anti-GBV, Anti-FGM & Women's Rights Campaigns",
+        "Associação Nova Mentalidade (+245 956 089 482) & Jovens Líderes (+245 966 713 355)",
+        "Swissaid Rural Women's Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Cluster of women-owned social work and women's rights NGOs in Bissau including PRSP (+245 966 729 115), ASAD, Swissaid, and Associação Nova Mentalidade (+245 956 089 482)."
+    }
+  },
+  {
+    "id": "guinea-bissau-casa-emanuel-hefel-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau — Hefel / Av. Combatentes)",
+    "type": "safe-haven",
+    "lat": 11.8855751,
+    "lng": -15.6412209,
+    "name": {
+      "en": "Casa Emanuel — Maternal-Child Medical Center & Safe Sanctuary (Bissau)"
+    },
+    "categoryBadge": {
+      "en": "Maternal & Pediatric Clinic and Vulnerable Mothers/Girls Sanctuary"
+    },
+    "phone": "+245 956 072 131 / +245 966 886 314",
+    "emergencyHotline": "+245 956 072 131",
+    "address": {
+      "en": "V9P5+6GJ, Avenida dos Combatentes da Liberdade da Pátria, Bissau, Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "Maternal, Prenatal & Pediatric Healthcare Clinic",
+        "Safe Sanctuary & Nutritional Support for Vulnerable Mothers & Girls",
+        "WEC International (+245 966 886 314) & AMIDE Bissau Community Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at V9P5+6GJ, Avenida dos Combatentes da Liberdade da Pátria in Bissau (+245 956 072 131). Provides maternal-child medical care and safe support for vulnerable mothers and girls."
+    }
+  },
+  {
+    "id": "guinea-bissau-renluv-cnapn-amic-one-stop-center-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau)",
+    "type": "safe-haven",
+    "lat": 11.861,
+    "lng": -15.598,
+    "name": {
+      "en": "RENLUV-GC/GB, CNAPN & AMIC Integrated One-Stop GBV Center (Bissau)"
+    },
+    "categoryBadge": {
+      "en": "National Anti-GBV Coalition, Anti-FGM Committee & One-Stop Shelter Center"
+    },
+    "phone": "+245 955 595 009 / +245 955 208 434",
+    "emergencyHotline": "121 / +245 955 595 009",
+    "address": {
+      "en": "Bissau, Guinea-Bissau (UNFPA / AMIC / RENLUV One-Stop Center)"
+    },
+    "services": {
+      "en": [
+        "RENLUV (Rede Nacional de Luta contra a Violência Baseada no Género e Criança) Crisis Intake",
+        "AMIC & UNFPA Integrated One-Stop Center (Medical, Psychological, Social & Legal Support)",
+        "CNAPN National Committee for the Abandonment of FGM & Forced Marriage",
+        "Liga Guineense dos Direitos Humanos (LGDH) Casas de Direito Free Legal Aid"
+      ]
+    },
+    "directionsText": {
+      "en": "Guinea-Bissau's primary civil-society GBV response network (RENLUV), national anti-FGM committee (CNAPN), and UNFPA-supported AMIC One-Stop Center for survivors of domestic and sexual violence."
+    }
+  },
+  {
+    "id": "guinea-bissau-na-rota-dos-povos-catio-tombali",
+    "regionDistrict": "Guinea-Bissau (Catió — Tombali Region)",
+    "type": "safe-haven",
+    "lat": 11.2852852,
+    "lng": -15.2521368,
+    "name": {
+      "en": "Na Rota dos Povos — ONG Casa Voluntários (Catió Maternal & Women's Protection)"
+    },
+    "categoryBadge": {
+      "en": "Southern Region Maternal Health, Education & Women/Child Protection NGO"
+    },
+    "phone": "+351 939 902 540 / +245 966 641 643",
+    "emergencyHotline": "+245 966 641 643",
+    "address": {
+      "en": "7PPX+449, Catió, Tombali Region, Southern Guinea-Bissau (http://www.narotadospovos.org/)"
+    },
+    "services": {
+      "en": [
+        "Maternal & Infant Health Support in Tombali Region",
+        "Protection of Mothers & Infants at Risk",
+        "Girls' Education & Community Health Outreach"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 7PPX+449 in Catió, Tombali Region (http://www.narotadospovos.org/). Supports maternal health, girls' education, and vulnerable mothers and infants in southern Guinea-Bissau."
+    }
+  },
+  {
+    "id": "guinea-bissau-licamdh-helpo-abdullah-aid-interior",
+    "regionDistrict": "Guinea-Bissau (Quinará / Buba & Interior)",
+    "type": "safe-haven",
+    "lat": 11.7007734,
+    "lng": -15.2892117,
+    "name": {
+      "en": "LICAMDH-GB (Human Rights League), Associação Helpo & Abdullah Aid Guinea-Bissau"
+    },
+    "categoryBadge": {
+      "en": "Human Rights, Maternal-Child Support & Rural Relief NGOs"
+    },
+    "phone": "+245 957 965 252 / +245 955 795 231",
+    "emergencyHotline": "+245 957 965 252",
+    "address": {
+      "en": "Central & Southern Interior (11.7007N, 15.2892W) & Missão Dulombi (11.8617N, 14.5034W), Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "LICAMDH-GB Human & Women's Rights Defense (+245 957 965 252)",
+        "Associação Helpo Maternal & Child Nutrition/Education (https://www.helpo.pt/)",
+        "Abdullah Aid Humanitarian Support (+245 955 795 231) & Missão Dulombi"
+      ]
+    },
+    "directionsText": {
+      "en": "Provides human rights legal defense (LICAMDH-GB +245 957 965 252), maternal-child support (Associação Helpo), and rural relief across interior Guinea-Bissau."
+    }
+  },
+  {
+    "id": "guinea-bissau-hospital-nacional-simao-mendes-bissau",
+    "regionDistrict": "Guinea-Bissau (Bissau)",
+    "type": "hospital",
+    "lat": 11.8615,
+    "lng": -15.5815,
+    "name": {
+      "en": "Hospital Nacional Simão Mendes (HNSM — Maternidade Nacional) & Hospital Militar Principal"
+    },
+    "categoryBadge": {
+      "en": "National Tertiary Referral & Maternity Hospital (Bissau)"
+    },
+    "phone": "+245 320 2823 / 119",
+    "emergencyHotline": "119 (Emergency) / +245 955 595 009",
+    "address": {
+      "en": "Bissau, Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "24/7 National Maternity & High-Risk Obstetric Surgery",
+        "Obstetric Fistula Repair Center (UNFPA Supported)",
+        "Clinical Management of Sexual Violence Survivors",
+        "Neonatal Intensive Care & Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Guinea-Bissau's main national tertiary referral and maternity hospital in central Bissau."
+    }
+  },
+  {
+    "id": "guinea-bissau-hospital-cumura-hospital-bor-bissau",
+    "regionDistrict": "Guinea-Bissau (Cumura & Bór — Biombo / Greater Bissau)",
+    "type": "hospital",
+    "lat": 11.868,
+    "lng": -15.665,
+    "name": {
+      "en": "Hospital de Cumura (Catholic Mission Maternity Hospital) & Hospital Pediátrico São José de Bór"
+    },
+    "categoryBadge": {
+      "en": "Renowned Mission Maternity & Mother-Child Hospitals (Cumura & Bór)"
+    },
+    "phone": "+245 955 554 715",
+    "emergencyHotline": "119",
+    "address": {
+      "en": "Cumura & Bór, West of Bissau, Biombo Region, Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "Hospital de Cumura 24/7 Safe Maternity, Cesarean & PMTCT HIV Care",
+        "Hospital São José de Bór Pediatric & Maternal Surgery",
+        "Prenatal & Postpartum Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Two of Guinea-Bissau's most trusted mission referral hospitals in Cumura and Bór just west of Bissau, specializing in safe childbirth, PMTCT, and pediatric care."
+    }
+  },
+  {
+    "id": "guinea-bissau-hospital-regional-bafata-gabu-east",
+    "regionDistrict": "Guinea-Bissau (Bafatá & Gabú — Eastern Regions)",
+    "type": "hospital",
+    "lat": 12.1719,
+    "lng": -14.6575,
+    "name": {
+      "en": "Hospital Regional de Bafatá & Hospital Regional de Gabú + Centros de Direitos da Mulher"
+    },
+    "categoryBadge": {
+      "en": "Eastern Regional Referral Maternity Hospitals & Anti-FGM Hubs"
+    },
+    "phone": "+245 955 208 434",
+    "emergencyHotline": "119 / +245 955 595 009",
+    "address": {
+      "en": "Bafatá (12.17N, 14.65W) & Gabú (12.28N, 14.22W), Eastern Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "24/7 Regional Maternity & Emergency Obstetric Care (PIMI Supported)",
+        "FGM Complication Care & CNAPN / RENLUV Community Protection",
+        "Casa de Direito Legal Aid & Psychosocial Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral hospitals serving eastern Guinea-Bissau in Bafatá and Gabú, supported by the PIMI maternal health program and RENLUV/CNAPN women's protection teams."
+    }
+  },
+  {
+    "id": "guinea-bissau-hospital-regional-canchungo-mansoa-north",
+    "regionDistrict": "Guinea-Bissau (Canchungo & Mansôa — Cacheu & Oio Regions)",
+    "type": "hospital",
+    "lat": 12.0672,
+    "lng": -16.0333,
+    "name": {
+      "en": "Hospital Regional de Canchungo (Cacheu) & Hospital Regional de Mansôa (Oio)"
+    },
+    "categoryBadge": {
+      "en": "Northern & Central Regional Maternity Hospitals"
+    },
+    "phone": "119",
+    "emergencyHotline": "119",
+    "address": {
+      "en": "Canchungo (Cacheu Region) & Mansôa (12.07N, 15.31W, Oio Region), Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean Delivery",
+        "Gynecology, Family Planning & Prenatal Care",
+        "Pediatrics & General Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional hospitals serving northern Cacheu (Canchungo) and central Oio (Mansôa)."
+    }
+  },
+  {
+    "id": "guinea-bissau-hospital-buba-catio-bubaque-south-islands",
+    "regionDistrict": "Guinea-Bissau (Buba, Catió & Bubaque/Bolama — South & Bijagós Islands)",
+    "type": "hospital",
+    "lat": 11.5833,
+    "lng": -15.0,
+    "name": {
+      "en": "Hospital Regional de Buba (Quinará), Hospital de Catió (Tombali) & Hospital de Bubaque / Bolama (Bijagós)"
+    },
+    "categoryBadge": {
+      "en": "Southern & Island Regional Maternity Hospitals"
+    },
+    "phone": "119",
+    "emergencyHotline": "119",
+    "address": {
+      "en": "Buba (Quinará), Catió (Tombali) & Bubaque (11.28N, 15.83W, Bijagós Archipelago), Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Childbirth (PIMI Supported)",
+        "Island Emergency Maternal Boat/Medical Evacuation (Bubaque & Bolama)",
+        "Pediatrics & Women's Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional hospitals providing maternal and emergency care across southern Guinea-Bissau (Buba, Catió) and the Bijagós islands (Bubaque and Bolama)."
+    }
+  },
+  {
+    "id": "cabo-verde-mindelo-kawasaki-shelter-icieg",
+    "regionDistrict": "Cabo Verde (Mindelo — São Vicente Island)",
+    "type": "safe-haven",
+    "lat": 16.8810413,
+    "lng": -24.9732708,
+    "name": {
+      "en": "Mindelo Shelter (V2JG+CM9) & ICIEG / Rede Sol VBG Support Center (São Vicente)"
+    },
+    "categoryBadge": {
+      "en": "Emergency Shelter & Gender-Based Violence Support (São Vicente)"
+    },
+    "phone": "800 18 18 / 132",
+    "emergencyHotline": "800 18 18 (ICIEG Toll-Free VBG Line) / 132 (Police)",
+    "address": {
+      "en": "V2JG+CM9, Mindelo, São Vicente, Cabo Verde"
+    },
+    "services": {
+      "en": [
+        "Emergency Shelter & Social Protection",
+        "ICIEG (Instituto Cabo-Verdiano para a Igualdade e Equidade de Género) VBG Support",
+        "Free Legal & Psychological Assistance (Casa do Direito Mindelo)"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at V2JG+CM9 in Mindelo, São Vicente, Cabo Verde. Connected to Cabo Verde's ICIEG 800 18 18 toll-free domestic violence network."
+    }
+  },
+  {
+    "id": "usa-ma-boston-rosies-place-harrison-ave",
+    "regionDistrict": "United States (Boston, Massachusetts)",
+    "type": "safe-haven",
+    "lat": 42.3340923,
+    "lng": -71.0769049,
+    "name": {
+      "en": "Rosie's Place (Women's Sanctuary & Shelter — Boston)"
+    },
+    "categoryBadge": {
+      "en": "First Dedicated Women's Sanctuary in the US (Women-Owned)"
+    },
+    "phone": "+1 617-442-9322",
+    "emergencyHotline": "911 / +1 877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "889 Harrison Ave, Boston, MA 02118, USA (http://www.rosiesplace.org/)"
+    },
+    "services": {
+      "en": [
+        "Emergency Shelter & Overnight Sanctuary for Women",
+        "Women's Wellness Center, Legal Advocacy & Housing Stabilization",
+        "Free Meals, Showers & ESOL Classes"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 889 Harrison Ave, Boston, MA (+1 617-442-9322, http://www.rosiesplace.org/). Founded in 1974 as the first women's shelter in the United States."
+    }
+  },
+  {
+    "id": "usa-ma-boston-casa-myrna-blue-hill-ave",
+    "regionDistrict": "United States (Boston / Dorchester, Massachusetts)",
+    "type": "safe-haven",
+    "lat": 42.3098891,
+    "lng": -71.0826185,
+    "name": {
+      "en": "Casa Myrna (Domestic Violence Shelters & SafeLink 24/7 Statewide Hotline)"
+    },
+    "categoryBadge": {
+      "en": "Boston's Largest Domestic Violence Shelter & SafeLink 24/7 Hotline"
+    },
+    "phone": "+1 877-785-2020 / +1 617-521-0100",
+    "emergencyHotline": "+1 877-785-2020 (SafeLink 24/7 Toll-Free)",
+    "address": {
+      "en": "451 Blue Hill Ave, Boston, MA 02121, USA (http://www.casamyrna.org/)"
+    },
+    "services": {
+      "en": [
+        "Residential Domestic Violence Shelters for Women & Children",
+        "Operates SafeLink (+1 877-785-2020), Massachusetts's 24/7 Multilingual DV Hotline",
+        "Free Legal Advocacy, Counseling & Economic Stability"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 451 Blue Hill Ave, Boston, MA (+1 877-785-2020, http://www.casamyrna.org/)."
+    }
+  },
+  {
+    "id": "usa-ma-boston-womens-lunch-place-woods-mullen-missionary",
+    "regionDistrict": "United States (Boston, Massachusetts)",
+    "type": "safe-haven",
+    "lat": 42.3521236,
+    "lng": -71.0737378,
+    "name": {
+      "en": "Women's Lunch Place (Newbury St), Woods-Mullen Shelter (Mass Ave) & Missionary of Charity Women's Shelter"
+    },
+    "categoryBadge": {
+      "en": "Boston Women's Day Sanctuary & Overnight Shelters"
+    },
+    "phone": "+1 617-267-0200 / +1 617-534-7101 / +1 617-288-4182",
+    "emergencyHotline": "+1 877-785-2020 (SafeLink)",
+    "address": {
+      "en": "67 Newbury St (+1 617-267-0200), 794 Massachusetts Ave (+1 617-534-7101) & 401 Quincy St (+1 617-288-4182), Boston, MA"
+    },
+    "services": {
+      "en": [
+        "Women's Lunch Place Day Sanctuary, Medical Clinic & Domestic Violence Advocacy (https://www.womenslunchplace.org/)",
+        "Woods-Mullen Shelter (794 Massachusetts Ave)",
+        "Missionary of Charity Pregnant & Vulnerable Women's Shelter (401 Quincy St)"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers Women's Lunch Place (67 Newbury St), Woods-Mullen Shelter (794 Mass Ave), and Missionary of Charity Women's Shelter (401 Quincy St) in Boston."
+    }
+  },
+  {
+    "id": "usa-ma-cambridge-on-the-rise-somerville-st-patricks-milford",
+    "regionDistrict": "United States (Cambridge, Somerville & Milford, Massachusetts)",
+    "type": "safe-haven",
+    "lat": 42.3702191,
+    "lng": -71.1026691,
+    "name": {
+      "en": "On The Rise Women's Safe Haven (Cambridge), St. Patrick's Women's Shelter (Somerville) & Gan Rivkah Center (Milford)"
+    },
+    "categoryBadge": {
+      "en": "Greater Boston Women's Safe Havens & Shelters"
+    },
+    "phone": "+1 617-497-7968 / +1 617-628-3015 / +1 508-838-6151",
+    "emergencyHotline": "+1 877-785-2020",
+    "address": {
+      "en": "341 Broadway, Cambridge (+1 617-497-7968), 270 Washington St, Somerville (+1 617-628-3015) & 18 Cedar St, Milford (+1 508-838-6151), MA"
+    },
+    "services": {
+      "en": [
+        "On The Rise Safe Haven for Women in Crisis (http://www.ontherise.org/)",
+        "St. Patrick's Shelter for Women (https://www.ccab.org/basic-needs/shelters/)",
+        "Gan Rivkah Center (Milford)"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers On The Rise in Cambridge (341 Broadway), St. Patrick's Women's Shelter in Somerville (270 Washington St), and Gan Rivkah Center in Milford."
+    }
+  },
+  {
+    "id": "usa-ri-providence-sojourner-house-smith-st",
+    "regionDistrict": "United States (Providence, Rhode Island)",
+    "type": "safe-haven",
+    "lat": 41.8344955,
+    "lng": -71.4243354,
+    "name": {
+      "en": "Sojourner House (Domestic Violence, Sexual Assault & Human Trafficking Shelter — Providence)"
+    },
+    "categoryBadge": {
+      "en": "Rhode Island Domestic Violence & Trafficking Safe House"
+    },
+    "phone": "+1 401-861-6191 / +1 401-765-3232",
+    "emergencyHotline": "+1 401-765-3232 (Support Line) / +1 800-494-8100 (RI Coalition)",
+    "address": {
+      "en": "386 Smith St, Providence, RI 02908, USA (http://www.sojournerri.org/)"
+    },
+    "services": {
+      "en": [
+        "Emergency Safe Shelter & Transitional Housing for Abuse & Trafficking Survivors",
+        "Drop-In Advocacy, Sexual Health Clinic & Immigration Legal Support",
+        "LGBTQ+ & Culturally Specific Survivor Programs"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 386 Smith St, Providence, RI (+1 401-861-6191, http://www.sojournerri.org/)."
+    }
   }
 ];

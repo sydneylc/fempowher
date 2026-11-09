@@ -138892,5 +138892,950 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "From Wikipedia Lists of hospitals in Eritrea, Djibouti, and Madagascar."
     }
+  },
+  {
+    "id": "gabon-centre-accueil-gabon-egalite-nzeng-ayong",
+    "regionDistrict": "Gabon (Libreville - Nzeng-Ayong)",
+    "type": "safe-haven",
+    "lat": 0.4195,
+    "lng": 9.482,
+    "name": {
+      "en": "Centre d'Accueil Gabon Égalité (Nzeng-Ayong Safe Shelter & Legal Clinic)"
+    },
+    "categoryBadge": {
+      "en": "National Women's Shelter & One-Stop GBV Center (Hotline 1404)"
+    },
+    "phone": "1404 / +241 011 76 00 00",
+    "emergencyHotline": "1404 (Numéro Vert Gratuit VBG Gabon)",
+    "address": {
+      "en": "6e Arrondissement, Quartier Nzeng-Ayong, Libreville, Estuaire, Gabon"
+    },
+    "services": {
+      "en": [
+        "Emergency & Long-Stay Women's Shelter",
+        "Integrated Legal Clinic (Clinique Juridique)",
+        "Free Medical & Psychological Care",
+        "24/7 Toll-Free Hotline 1404",
+        "Socio-Economic Reintegration"
+      ]
+    },
+    "directionsText": {
+      "en": "Gabon's flagship national shelter for survivors of domestic and gender-based violence in Nzeng-Ayong (6th arrondissement of Libreville), offering emergency housing, free medical/psychological care, and an on-site legal clinic. Call 1404 toll-free 24/7."
+    }
+  },
+  {
+    "id": "gabon-odefpa-reflet-unhcr-libreville",
+    "regionDistrict": "Gabon (Libreville - Centre-Ville)",
+    "type": "safe-haven",
+    "lat": 0.3958,
+    "lng": 9.4512,
+    "name": {
+      "en": "ODEFPA (Observatoire des Droits de la Femme et de la Parité), ReFLeT & UNHCR Gabon Protection"
+    },
+    "categoryBadge": {
+      "en": "Women's Rights Observatory, Legal Aid & Refugee SGBV Desk"
+    },
+    "phone": "1404 / +241 011 73 57 38",
+    "emergencyHotline": "1404 (VBG Gabon)",
+    "address": {
+      "en": "Libreville (Montagne Sainte / Batterie IV), Estuaire, Gabon"
+    },
+    "services": {
+      "en": [
+        "ODEFPA Women's Legal Clinic",
+        "ReFLeT (Réseau Femme Lève-Toi) Listening Desk",
+        "UNHCR & Croix-Rouge Gabonaise Refugee GBV Protection",
+        "Protection Against Widowhood Spoliation & Domestic Abuse"
+      ]
+    },
+    "directionsText": {
+      "en": "Coordinates legal protection, widowhood rights defense, and psychosocial listening cells in Libreville alongside ReFLeT and UNHCR/Red Cross refugee protection teams."
+    }
+  },
+  {
+    "id": "gabon-port-gentil-antenne-vbg-affaires-sociales",
+    "regionDistrict": "Gabon (Port-Gentil - Ogooué-Maritime)",
+    "type": "safe-haven",
+    "lat": -0.7193,
+    "lng": 8.7815,
+    "name": {
+      "en": "Antenne Provinciale VBG & Direction des Affaires Sociales de Port-Gentil"
+    },
+    "categoryBadge": {
+      "en": "Provincial Women's Protection & GBV Listening Center"
+    },
+    "phone": "1404 / 1730",
+    "emergencyHotline": "1404 (Numéro Vert VBG)",
+    "address": {
+      "en": "Port-Gentil, Ogooué-Maritime Province, Gabon"
+    },
+    "services": {
+      "en": [
+        "GBV Survivor Intake & Emergency Referral",
+        "Psychosocial Counseling",
+        "Family Mediation & Legal Aid Referral",
+        "Child & Maternal Protection"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial social affairs and GBV protection hub serving women and girls in Port-Gentil and Ogooué-Maritime. Connected to the national 1404 toll-free hotline."
+    }
+  },
+  {
+    "id": "gabon-franceville-moanda-vbg-haut-ogooue",
+    "regionDistrict": "Gabon (Franceville & Moanda - Haut-Ogooué)",
+    "type": "safe-haven",
+    "lat": -1.6333,
+    "lng": 13.5833,
+    "name": {
+      "en": "Cellule d'Écoute VBG & Direction Provinciale des Affaires Sociales du Haut-Ogooué"
+    },
+    "categoryBadge": {
+      "en": "Regional Women's Safe Space & Social Protection (Franceville & Moanda)"
+    },
+    "phone": "1404 / 1730",
+    "emergencyHotline": "1404 (Numéro Vert VBG)",
+    "address": {
+      "en": "Franceville & Moanda, Haut-Ogooué Province, Gabon"
+    },
+    "services": {
+      "en": [
+        "Confidential GBV Listening Cell",
+        "Refugee & Host Community Women's Support",
+        "Medical & Judicial Referral",
+        "Emergency Social Assistance"
+      ]
+    },
+    "directionsText": {
+      "en": "Provides GBV listening, social protection, and medical/legal referrals for women and girls across Franceville, Moanda, and southeastern Gabon."
+    }
+  },
+  {
+    "id": "gabon-oyem-mouila-tchibanga-vbg-network",
+    "regionDistrict": "Gabon (Oyem, Mouila & Tchibanga)",
+    "type": "safe-haven",
+    "lat": 1.5995,
+    "lng": 11.5793,
+    "name": {
+      "en": "Antennes Provinciales VBG & Protection de la Femme (Oyem, Mouila & Tchibanga)"
+    },
+    "categoryBadge": {
+      "en": "Interior Provincial GBV & Women's Protection Network"
+    },
+    "phone": "1404",
+    "emergencyHotline": "1404 (Numéro Vert VBG)",
+    "address": {
+      "en": "Oyem (Woleu-Ntem), Mouila (Ngounié) & Tchibanga (Nyanga), Gabon"
+    },
+    "services": {
+      "en": [
+        "Provincial Social Services GBV Desks",
+        "UNHCR / Red Cross Border & Refugee Women's Protection",
+        "Psychosocial & Legal Orientation"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial social service and GBV protection desks supporting women, girls, and refugees across northern (Oyem) and southern (Mouila, Tchibanga) Gabon."
+    }
+  },
+  {
+    "id": "gabon-chu-mere-enfant-jeanne-ebori-libreville",
+    "regionDistrict": "Gabon (Libreville)",
+    "type": "hospital",
+    "lat": 0.4025,
+    "lng": 9.4402,
+    "name": {
+      "en": "CHU Mère-Enfant Fondation Jeanne Ebori (CHUMEFJE)"
+    },
+    "categoryBadge": {
+      "en": "National Mother & Child University Hospital (OBGYN & Neonatology)"
+    },
+    "phone": "+241 011 72 20 10 / 1300",
+    "emergencyHotline": "1300 (SAMU Gabon) / 1404 (VBG)",
+    "address": {
+      "en": "Quartier Louis / Bord de Mer, Libreville, Estuaire, Gabon"
+    },
+    "services": {
+      "en": [
+        "24/7 High-Risk Obstetrics & Maternity",
+        "Gynecological Surgery",
+        "Neonatal Intensive Care (NICU)",
+        "Clinical Management of Rape (CMR / PEP)",
+        "Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Gabon's premier university hospital dedicated exclusively to maternal, obstetric, gynecological, neonatal, and pediatric care in Libreville."
+    }
+  },
+  {
+    "id": "gabon-chul-hopital-general-libreville",
+    "regionDistrict": "Gabon (Libreville)",
+    "type": "hospital",
+    "lat": 0.3912,
+    "lng": 9.4545,
+    "name": {
+      "en": "Centre Hospitalier Universitaire de Libreville (CHUL) & Institut de Cancérologie (ICL)"
+    },
+    "categoryBadge": {
+      "en": "National Tertiary Teaching Hospital & Women's Oncology"
+    },
+    "phone": "+241 011 76 20 18 / 1300",
+    "emergencyHotline": "1300 (SAMU)",
+    "address": {
+      "en": "Centre-Ville & Angondjé, Libreville, Estuaire, Gabon"
+    },
+    "services": {
+      "en": [
+        "Obstetrics & Gynecology Department",
+        "24/7 Emergency & Trauma Care",
+        "Breast & Cervical Cancer Screening & Treatment (ICL Angondjé)",
+        "Forensic & SGBV Medical Certificates"
+      ]
+    },
+    "directionsText": {
+      "en": "Largest public university hospital in Gabon, alongside the Institut de Cancérologie de Libreville (ICL) in Angondjé for breast and cervical cancer care."
+    }
+  },
+  {
+    "id": "gabon-chuo-owendo-hiaobo-melen-libreville",
+    "regionDistrict": "Gabon (Owendo & Melen - Grand Libreville)",
+    "type": "hospital",
+    "lat": 0.2985,
+    "lng": 9.5042,
+    "name": {
+      "en": "CHU d'Owendo (CHUO), HIA Omar Bongo Ondimba (PK9) & CHR Estuaire de Melen"
+    },
+    "categoryBadge": {
+      "en": "University, Military & Regional Maternity Hospitals"
+    },
+    "phone": "+241 011 70 11 45 / 1300",
+    "emergencyHotline": "1300 (SAMU)",
+    "address": {
+      "en": "Owendo & PK9 Melen, Grand Libreville, Estuaire, Gabon"
+    },
+    "services": {
+      "en": [
+        "Maternity & Emergency Cesarean Delivery",
+        "Trauma & Surgical Care",
+        "Hôpital Sino-Gabonais & Coopération Égypto-Gabonaise",
+        "Mental Health & Postpartum Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Major public, university, and military referral hospitals serving southern and eastern Greater Libreville (Owendo and Melen PK9)."
+    }
+  },
+  {
+    "id": "gabon-chr-ntoum-akanda-polycliniques",
+    "regionDistrict": "Gabon (Akanda & Ntoum - Estuaire)",
+    "type": "hospital",
+    "lat": 0.485,
+    "lng": 9.412,
+    "name": {
+      "en": "CHU d'Angondjé (Akanda) & Polycliniques El-Rapha, Chambrier & Biyoghe"
+    },
+    "categoryBadge": {
+      "en": "University Hospital & 24/7 Private Maternity Clinics"
+    },
+    "phone": "+241 011 44 28 00 / 1300",
+    "emergencyHotline": "1300 (SAMU)",
+    "address": {
+      "en": "Akanda (Angondjé) & Libreville, Estuaire, Gabon"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & OBGYN Surgery",
+        "Fertility & Prenatal Diagnostics",
+        "Emergency Room & ICU"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers CHU d'Angondjé in Akanda as well as Libreville's major 24/7 private hospital clinics (Polyclinique El-Rapha, Polyclinique Chambrier, and Polyclinique Biyoghe)."
+    }
+  },
+  {
+    "id": "gabon-chr-port-gentil-ntchengue",
+    "regionDistrict": "Gabon (Port-Gentil - Ogooué-Maritime)",
+    "type": "hospital",
+    "lat": -0.732,
+    "lng": 8.789,
+    "name": {
+      "en": "Centre Hospitalier Régional de Port-Gentil (CHR Ntchengué) & Hôpital Sogara"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Maternity Hospital (Ogooué-Maritime)"
+    },
+    "phone": "+241 011 55 21 00 / 1300",
+    "emergencyHotline": "1300 / 1404",
+    "address": {
+      "en": "Ntchengué, Port-Gentil, Ogooué-Maritime Province, Gabon"
+    },
+    "services": {
+      "en": [
+        "Regional Maternity & Obstetrics Ward",
+        "Emergency Cesarean & Gynecology",
+        "Pediatrics & Neonatology",
+        "Clinical Care for Sexual Assault Survivors"
+      ]
+    },
+    "directionsText": {
+      "en": "Principal regional public hospital (CHR Ntchengué) and Sogara Hospital serving Port-Gentil and the Ogooué-Maritime province."
+    }
+  },
+  {
+    "id": "gabon-chr-amissa-bongo-franceville",
+    "regionDistrict": "Gabon (Franceville - Haut-Ogooué)",
+    "type": "hospital",
+    "lat": -1.628,
+    "lng": 13.588,
+    "name": {
+      "en": "Centre Hospitalier Régional Amissa Bongo de Franceville"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Maternal-Child Hospital (Haut-Ogooué)"
+    },
+    "phone": "+241 011 67 72 00 / 1300",
+    "emergencyHotline": "1300 / 1404",
+    "address": {
+      "en": "Franceville, Haut-Ogooué Province, Gabon"
+    },
+    "services": {
+      "en": [
+        "Regional Obstetrics, Gynecology & Maternity",
+        "Pediatrics & Neonatal Care",
+        "24/7 Emergency & Surgery",
+        "STI/HIV & Reproductive Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional public referral hospital for southeastern Gabon (Haut-Ogooué), providing comprehensive maternity, pediatric, and emergency surgical care."
+    }
+  },
+  {
+    "id": "gabon-hopital-albert-schweitzer-chr-lambarene",
+    "regionDistrict": "Gabon (Lambaréné - Moyen-Ogooué)",
+    "type": "hospital",
+    "lat": -0.7005,
+    "lng": 10.2405,
+    "name": {
+      "en": "Hôpital Albert Schweitzer & CHR Georges Rawiri de Lambaréné"
+    },
+    "categoryBadge": {
+      "en": "Historic Referral Hospital & Regional Maternity (Moyen-Ogooué)"
+    },
+    "phone": "+241 011 58 10 04",
+    "emergencyHotline": "1300 / 1404",
+    "address": {
+      "en": "Lambaréné, Moyen-Ogooué Province, Gabon"
+    },
+    "services": {
+      "en": [
+        "Maternity, Prenatal & Safe Delivery Care",
+        "Obstetric Surgery & Fistula Prevention",
+        "Tropical Medicine & Maternal Malaria Care (CERMEL)",
+        "Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Includes the historic Albert Schweitzer Hospital (founded 1913) and the public CHR Georges Rawiri serving women and families across Moyen-Ogooué."
+    }
+  },
+  {
+    "id": "gabon-chr-oyem-woleu-ntem",
+    "regionDistrict": "Gabon (Oyem - Woleu-Ntem)",
+    "type": "hospital",
+    "lat": 1.605,
+    "lng": 11.575,
+    "name": {
+      "en": "Centre Hospitalier Régional d'Oyem (CHR d'Oyem)"
+    },
+    "categoryBadge": {
+      "en": "Northern Regional Referral & Maternity Hospital (Woleu-Ntem)"
+    },
+    "phone": "+241 011 98 62 00",
+    "emergencyHotline": "1300 / 1404",
+    "address": {
+      "en": "Oyem, Woleu-Ntem Province, Gabon"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Emergencies",
+        "Gynecology & Family Planning",
+        "Pediatrics & General Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Main regional public hospital serving northern Gabon (Woleu-Ntem province, Oyem, Bitam, and border communities)."
+    }
+  },
+  {
+    "id": "gabon-chr-mouila-hopital-bongolo-lebamba",
+    "regionDistrict": "Gabon (Mouila & Lébamba - Ngounié)",
+    "type": "hospital",
+    "lat": -1.868,
+    "lng": 11.056,
+    "name": {
+      "en": "CHR de Mouila & Hôpital Évangélique de Bongolo (Lébamba)"
+    },
+    "categoryBadge": {
+      "en": "Regional Public & Mission Surgical/Maternity Hospitals (Ngounié)"
+    },
+    "phone": "+241 011 86 12 00",
+    "emergencyHotline": "1300 / 1404",
+    "address": {
+      "en": "Mouila & Lébamba (Bongolo), Ngounié Province, Gabon"
+    },
+    "services": {
+      "en": [
+        "Obstetrics, Cesarean Delivery & Gynecology",
+        "Bongolo Mission Hospital Surgical & Fistula Care",
+        "Ophthalmology, HIV/PMTCT & Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers the public Centre Hospitalier Régional de Mouila and the renowned Bongolo Hospital in Lébamba (major surgical and maternal referral center for southern Gabon)."
+    }
+  },
+  {
+    "id": "gabon-chr-tchibanga-nyanga",
+    "regionDistrict": "Gabon (Tchibanga - Nyanga)",
+    "type": "hospital",
+    "lat": -2.933,
+    "lng": 10.983,
+    "name": {
+      "en": "Centre Hospitalier Régional Benjamin Ngoubou de Tchibanga"
+    },
+    "categoryBadge": {
+      "en": "Southern Regional Referral & Maternity Hospital (Nyanga)"
+    },
+    "phone": "+241 011 82 01 00",
+    "emergencyHotline": "1300 / 1404",
+    "address": {
+      "en": "Tchibanga, Nyanga Province, Gabon"
+    },
+    "services": {
+      "en": [
+        "Maternity & Emergency Obstetric Care",
+        "Women's Health & Family Planning",
+        "Pediatrics & Emergency Medicine"
+      ]
+    },
+    "directionsText": {
+      "en": "Designated regional public hospital serving Gabon's southernmost Nyanga province."
+    }
+  },
+  {
+    "id": "gabon-chr-koulamoutou-makokou",
+    "regionDistrict": "Gabon (Koulamoutou & Makokou - Ogooué-Lolo & Ogooué-Ivindo)",
+    "type": "hospital",
+    "lat": -1.136,
+    "lng": 12.464,
+    "name": {
+      "en": "CHR Paul Moukambi (Koulamoutou) & CHR Omar Bongo Ondimba (Makokou)"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Maternity Hospitals (Ogooué-Lolo & Ogooué-Ivindo)"
+    },
+    "phone": "1300 / 1404",
+    "emergencyHotline": "1300 (SAMU)",
+    "address": {
+      "en": "Koulamoutou (Ogooué-Lolo) & Makokou (Ogooué-Ivindo), Gabon"
+    },
+    "services": {
+      "en": [
+        "Regional Maternity & Safe Childbirth",
+        "Emergency Cesarean & Gynecology",
+        "Pediatric & Rural Maternal Outreach"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional public hospitals serving central-interior Koulamoutou (Ogooué-Lolo) and northeastern Makokou (Ogooué-Ivindo)."
+    }
+  },
+  {
+    "id": "chad-maison-nationale-femme-celiaf-ndjamena",
+    "regionDistrict": "Chad (N'Djamena)",
+    "type": "safe-haven",
+    "lat": 12.119,
+    "lng": 15.058,
+    "name": {
+      "en": "Maison Nationale de la Femme, CELIAF & APLFT Legal Clinic (N'Djamena)"
+    },
+    "categoryBadge": {
+      "en": "National Women's Center, Shelter & Legal Aid (APLFT / CELIAF)"
+    },
+    "phone": "+235 66 29 09 61 / +235 22 52 21 66",
+    "emergencyHotline": "116 / +235 66 29 09 61",
+    "address": {
+      "en": "Quartier Sabangali / Moursal, N'Djamena, Chad"
+    },
+    "services": {
+      "en": [
+        "APLFT Legal Aid & Survivor Defense",
+        "CELIAF Women's Rights & Safe Space",
+        "Psychosocial Counseling & Medical Referral",
+        "Protection Against Forced/Child Marriage"
+      ]
+    },
+    "directionsText": {
+      "en": "Chadian national women's center and headquarters of APLFT (Association des Femmes Juristes) and CELIAF in N'Djamena."
+    }
+  },
+  {
+    "id": "chad-unhcr-adre-farchana-bredjing-treguine-gbv",
+    "regionDistrict": "Chad (Adré, Farchana, Bredjing & Treguine Camps - Ouaddaï)",
+    "type": "safe-haven",
+    "lat": 13.4667,
+    "lng": 22.2,
+    "name": {
+      "en": "UNHCR, HIAS & APLFT Women's Safe Spaces — Adré, Farchana, Bredjing & Treguine Refugee Camps"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Refugee Camp GBV Safe Spaces & Clinical Care (Ouaddaï)"
+    },
+    "phone": "+235 66 29 09 61 / +235 68 00 10 10",
+    "emergencyHotline": "116 / UNHCR Adré & Farchana Protection Desk",
+    "address": {
+      "en": "Adré Border Hub & Farchana, Bredjing, Treguine & Gaga Camps, Ouaddaï, Eastern Chad"
+    },
+    "services": {
+      "en": [
+        "HIAS Mental Health & Psychosocial Support (MHPSS)",
+        "APLFT Mobile Legal Clinics",
+        "UNFPA / ALIMA 72h Clinical Care for Sexual Violence Survivors",
+        "Espaces Sûrs pour Femmes et Filles (Sudanese Refugee Response)"
+      ]
+    },
+    "directionsText": {
+      "en": "Frontline UNHCR GBV protection and Women's Safe Spaces serving Sudanese refugee women and girls in Adré, Farchana, Bredjing, Treguine, and Gaga camps."
+    }
+  },
+  {
+    "id": "chad-unhcr-iriba-guereda-touloum-iridimi-gbv",
+    "regionDistrict": "Chad (Iriba, Guéréda, Touloum & Iridimi Camps - Wadi Fira)",
+    "type": "safe-haven",
+    "lat": 15.1167,
+    "lng": 22.25,
+    "name": {
+      "en": "UNHCR, HIAS & CRT Women's Safe Spaces — Iriba, Guéréda, Touloum, Iridimi, Am Nabak & Milé Camps"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Refugee Camp GBV Safe Havens (Wadi Fira)"
+    },
+    "phone": "+235 66 29 09 61",
+    "emergencyHotline": "116 / UNHCR Iriba & Guéréda Sub-Office",
+    "address": {
+      "en": "Iriba, Guéréda, Touloum, Iridimi, Kounoungou & Milé Refugee Camps, Wadi Fira, Chad"
+    },
+    "services": {
+      "en": [
+        "Women & Girls Safe Spaces (Espaces Sûrs)",
+        "HIAS & Croix-Rouge du Tchad (CRT) Psychosocial Care",
+        "APLFT Legal Aid",
+        "Emergency PEP Kits & Maternity Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "UNHCR, HIAS, APLFT, and Chadian Red Cross GBV protection hubs across the Wadi Fira refugee camps (Iriba, Guéréda, Touloum, Iridimi, Am Nabak, Milé, Kounoungou)."
+    }
+  },
+  {
+    "id": "chad-unhcr-goz-beida-djabal-goz-amir-zabout-gbv",
+    "regionDistrict": "Chad (Goz Beïda, Djabal, Goz Amir & Zabout Camps - Sila)",
+    "type": "safe-haven",
+    "lat": 12.2236,
+    "lng": 21.4144,
+    "name": {
+      "en": "UNHCR, HIAS & APLFT Safe Spaces — Goz Beïda, Djabal, Goz Amir & Zabout Refugee Camps (Sila)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Refugee Camp GBV Protection & Maisons d'Écoute (Sila)"
+    },
+    "phone": "+235 66 29 09 61",
+    "emergencyHotline": "116 / UNHCR Goz Beïda Sub-Office",
+    "address": {
+      "en": "Goz Beïda, Djabal, Goz Amir & Zabout Camps, Sila Province, Eastern Chad"
+    },
+    "services": {
+      "en": [
+        "Confidential GBV Case Management (HIAS & UNFPA)",
+        "Women's Listening Centers (Maisons d'Écoute)",
+        "Legal Aid (APLFT)",
+        "Dignity Kits & Safe Firewood/Water Protection"
+      ]
+    },
+    "directionsText": {
+      "en": "Provides safe spaces, trauma counseling, medical referrals, and legal aid for refugee and host-community women across Goz Beïda, Djabal, Goz Amir, and Zabout camps in Sila."
+    }
+  },
+  {
+    "id": "chad-unhcr-gore-maro-amboko-dosseye-gondje-gbv",
+    "regionDistrict": "Chad (Goré, Maro, Amboko, Dosseye & Gondjé Camps - Southern Chad)",
+    "type": "safe-haven",
+    "lat": 7.9286,
+    "lng": 16.6389,
+    "name": {
+      "en": "UNHCR & APLFT Espaces Sûrs — Goré, Maro, Amboko, Dosseye, Gondjé & Belom Camps (Southern Chad)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Southern Refugee Camps GBV & Women's Protection Network"
+    },
+    "phone": "+235 66 29 09 61",
+    "emergencyHotline": "116 / UNHCR Goré & Maro Field Offices",
+    "address": {
+      "en": "Goré (Amboko, Dosseye, Gondjé, Doholo) & Maro (Belom), Logone Oriental & Moyen-Chari, Southern Chad"
+    },
+    "services": {
+      "en": [
+        "CAR Refugee Women's Safe Spaces (Espaces Sûrs)",
+        "SGBV Clinical & Psychosocial Care",
+        "APLFT Legal Clinics in Moundou, Goré & Sarh",
+        "Maternal & Adolescent Girl Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "UNHCR and partner GBV protection network serving Central African Republic (CAR) refugee women and host communities in Southern Chad (Goré, Amboko, Dosseye, Gondjé, Belom, Maro)."
+    }
+  },
+  {
+    "id": "chad-unhcr-baga-sola-bol-dar-es-salam-lac-gbv",
+    "regionDistrict": "Chad (Baga Sola, Bol & Dar es Salam Camp - Lake Chad)",
+    "type": "safe-haven",
+    "lat": 13.5333,
+    "lng": 14.3167,
+    "name": {
+      "en": "UNHCR, UNFPA & CRT Safe Spaces — Baga Sola, Bol & Dar es Salam Camp (Lake Chad Basin)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Lake Chad IDP & Refugee Women's Safe Haven"
+    },
+    "phone": "+235 66 29 09 61",
+    "emergencyHotline": "116 / UNHCR Baga Sola Sub-Office",
+    "address": {
+      "en": "Baga Sola, Dar es Salam Refugee Camp & Bol, Lac Province, Western Chad"
+    },
+    "services": {
+      "en": [
+        "Boko Haram Survivor Trauma & SGBV Care",
+        "UNFPA Women & Girls Safe Spaces",
+        "72-Hour Emergency Medical & PEP Care",
+        "Socio-Economic Reintegration & Dignity Kits"
+      ]
+    },
+    "directionsText": {
+      "en": "Dedicated UNHCR and UNFPA GBV safe spaces supporting Nigerian refugees and internally displaced women in Baga Sola, Dar es Salam camp, and Bol around Lake Chad."
+    }
+  },
+  {
+    "id": "chad-hgrn-renaissance-amitie-ndjamena",
+    "regionDistrict": "Chad (N'Djamena)",
+    "type": "hospital",
+    "lat": 12.1085,
+    "lng": 15.042,
+    "name": {
+      "en": "Hôpital Général de Référence Nationale (HGRN), Hôpital de la Renaissance & Hôpital de l'Amitié Tchad-Chine"
+    },
+    "categoryBadge": {
+      "en": "National Tertiary Referral & Surgical Hospitals (N'Djamena)"
+    },
+    "phone": "+235 22 51 44 02 / 1313",
+    "emergencyHotline": "1313 / 22 51 44 02",
+    "address": {
+      "en": "Centre-Ville & Gardolé, N'Djamena, Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency & Tertiary Surgery",
+        "Obstetrics, Gynecology & Fistula Repair",
+        "Intensive Care & Diagnostics",
+        "Clinical Care for Sexual Assault Survivors"
+      ]
+    },
+    "directionsText": {
+      "en": "N'Djamena's primary national tertiary public hospitals (HGRN, Hôpital de la Renaissance, and Hôpital de l'Amitié Tchad-Chine)."
+    }
+  },
+  {
+    "id": "chad-chu-mere-enfant-bon-samaritain-ndjamena",
+    "regionDistrict": "Chad (N'Djamena - Walia & Sabangali)",
+    "type": "hospital",
+    "lat": 12.085,
+    "lng": 15.072,
+    "name": {
+      "en": "CHU de la Mère et de l'Enfant (HME) & CHU Le Bon Samaritain de Walia (N'Djamena)"
+    },
+    "categoryBadge": {
+      "en": "National Mother-Child & University Maternity Hospitals"
+    },
+    "phone": "+235 22 52 30 30",
+    "emergencyHotline": "1313",
+    "address": {
+      "en": "Avenue Mobutu & Quartier Walia, N'Djamena, Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 High-Risk Maternity & Emergency Cesarean",
+        "Obstetric Fistula Center (Centre Liberté)",
+        "Neonatal Intensive Care (NICU) & Pediatrics",
+        "Gynecology & Postpartum Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Chad's flagship national Mother and Child University Hospital (HME) and the Catholic teaching hospital CHU Le Bon Samaritain in Walia, N'Djamena."
+    }
+  },
+  {
+    "id": "chad-hopital-provincial-adventiste-moundou",
+    "regionDistrict": "Chad (Moundou - Logone Occidental)",
+    "type": "hospital",
+    "lat": 8.5667,
+    "lng": 16.0833,
+    "name": {
+      "en": "Hôpital Provincial de Moundou & Hôpital Adventiste de Moundou"
+    },
+    "categoryBadge": {
+      "en": "Southern Regional Referral & Maternity Hospitals (Logone Occidental)"
+    },
+    "phone": "+235 22 69 13 05",
+    "emergencyHotline": "1313 / 116",
+    "address": {
+      "en": "Moundou, Logone Occidental Province, Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Surgery",
+        "Gynecology & Fistula Repair",
+        "Pediatrics & Emergency Trauma Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional referral hospital and Adventist hospital serving Chad's second-largest city, Moundou, and Logone Occidental."
+    }
+  },
+  {
+    "id": "chad-hopital-regional-louis-pasteur-sarh",
+    "regionDistrict": "Chad (Sarh - Moyen-Chari)",
+    "type": "hospital",
+    "lat": 9.1428,
+    "lng": 18.3922,
+    "name": {
+      "en": "Hôpital Provincial de Sarh & Centre Hospitalier Louis Pasteur"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Maternity Hospital (Moyen-Chari)"
+    },
+    "phone": "+235 22 68 12 10",
+    "emergencyHotline": "1313 / 116",
+    "address": {
+      "en": "Sarh, Moyen-Chari Province, Southern Chad"
+    },
+    "services": {
+      "en": [
+        "Maternity & Emergency Obstetric Care",
+        "Gynecological & General Surgery",
+        "Pediatric Nutrition & Neonatal Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Principal regional hospital serving Sarh and the Moyen-Chari region in southern Chad."
+    }
+  },
+  {
+    "id": "chad-hopital-provincial-chu-abeche",
+    "regionDistrict": "Chad (Abéché - Ouaddaï)",
+    "type": "hospital",
+    "lat": 13.8292,
+    "lng": 20.8325,
+    "name": {
+      "en": "CHU / Hôpital Provincial d'Abéché & Maternité d'Abéché"
+    },
+    "categoryBadge": {
+      "en": "Eastern Chad Tertiary Referral & Maternity Hospital (Ouaddaï)"
+    },
+    "phone": "+235 22 69 81 15",
+    "emergencyHotline": "1313 / 116",
+    "address": {
+      "en": "Abéché, Ouaddaï Province, Eastern Chad"
+    },
+    "services": {
+      "en": [
+        "Eastern Chad Surgical & Obstetric Referral Hub",
+        "24/7 Maternity & Cesarean Delivery",
+        "Obstetric Fistula Treatment",
+        "Refugee Emergency Medical Evacuations"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary university and provincial referral hospital for all of Eastern Chad, receiving complex maternal and surgical referrals from Ouaddaï, Wadi Fira, and Sila refugee camps."
+    }
+  },
+  {
+    "id": "chad-hopital-bon-samaritain-goundi-koumra",
+    "regionDistrict": "Chad (Goundi & Koumra - Mandoul)",
+    "type": "hospital",
+    "lat": 9.3625,
+    "lng": 17.366,
+    "name": {
+      "en": "Hôpital Le Bon Samaritain de Goundi & Hôpital Provincial de Koumra"
+    },
+    "categoryBadge": {
+      "en": "Mission Surgical/Maternity Hospital & Provincial Hospital (Mandoul)"
+    },
+    "phone": "+235 66 29 09 61",
+    "emergencyHotline": "1313",
+    "address": {
+      "en": "Goundi & Koumra, Mandoul Province, Southern Chad"
+    },
+    "services": {
+      "en": [
+        "Renowned Maternity & Safe Delivery Center (Founded 1974)",
+        "Emergency Obstetric Surgery & Fistula Repair",
+        "Rural Health Center Network & Midwife Training"
+      ]
+    },
+    "directionsText": {
+      "en": "Includes the famous Hôpital Le Bon Samaritain de Goundi (founded in 1974) and Koumra Provincial Hospital serving women across the Mandoul province."
+    }
+  },
+  {
+    "id": "chad-hopital-adventiste-bere-kelo-tandjile",
+    "regionDistrict": "Chad (Béré, Kélo & Laï - Tandjilé)",
+    "type": "hospital",
+    "lat": 9.324,
+    "lng": 16.155,
+    "name": {
+      "en": "Hôpital Adventiste de Béré, Hôpital de District de Kélo & Hôpital Provincial de Laï"
+    },
+    "categoryBadge": {
+      "en": "Mission & District Maternity Hospitals (Tandjilé)"
+    },
+    "phone": "1313",
+    "emergencyHotline": "1313",
+    "address": {
+      "en": "Béré, Kélo & Laï, Tandjilé Province, Southwestern Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Cesarean Surgery",
+        "Women's Health & Prenatal Care",
+        "Pediatric & Nutritional Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Key Adventist mission and public district/provincial hospitals serving Béré, Kélo, and Laï in Tandjilé province."
+    }
+  },
+  {
+    "id": "chad-hopital-bongor-pala-doba-mayo-kebbi-logone",
+    "regionDistrict": "Chad (Bongor, Pala & Doba - Mayo-Kebbi & Logone Oriental)",
+    "type": "hospital",
+    "lat": 10.2806,
+    "lng": 15.3722,
+    "name": {
+      "en": "Hôpitaux Provinciaux de Bongor, Pala & Doba"
+    },
+    "categoryBadge": {
+      "en": "Provincial Referral & Maternity Hospitals (Southwest Chad)"
+    },
+    "phone": "1313",
+    "emergencyHotline": "1313 / 116",
+    "address": {
+      "en": "Bongor (Mayo-Kebbi Est), Pala (Mayo-Kebbi Ouest) & Doba (Logone Oriental), Chad"
+    },
+    "services": {
+      "en": [
+        "Provincial Maternity & Obstetric Surgery",
+        "Emergency Medical & Pediatric Care",
+        "Clinical Management of GBV Survivors"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial referral hospitals serving Bongor, Pala, and Doba across southwestern Chad."
+    }
+  },
+  {
+    "id": "chad-hopital-mongo-am-timan-ati-central-chad",
+    "regionDistrict": "Chad (Mongo, Am Timan & Ati - Guéra, Salamat & Batha)",
+    "type": "hospital",
+    "lat": 12.1844,
+    "lng": 18.693,
+    "name": {
+      "en": "Hôpitaux Provinciaux de Mongo (Guéra), Am Timan (Salamat) & Ati (Batha)"
+    },
+    "categoryBadge": {
+      "en": "Central & Southeastern Provincial Maternity Hospitals"
+    },
+    "phone": "1313",
+    "emergencyHotline": "1313",
+    "address": {
+      "en": "Mongo (Guéra), Am Timan (Salamat) & Ati (Batha), Central Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care (MSF Supported in Am Timan)",
+        "Maternal & Child Nutrition Stabilization",
+        "General Surgery & Women's Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial referral hospitals covering central and southeastern Chad (Mongo, Am Timan with MSF maternity/nutrition support, and Ati)."
+    }
+  },
+  {
+    "id": "chad-hopital-goz-beida-adre-biltine-iriba-east",
+    "regionDistrict": "Chad (Goz Beïda, Adré, Biltine & Iriba - Eastern Border)",
+    "type": "hospital",
+    "lat": 12.228,
+    "lng": 21.42,
+    "name": {
+      "en": "Hôpitaux de District et Provinciaux de Goz Beïda, Adré, Biltine & Iriba"
+    },
+    "categoryBadge": {
+      "en": "Eastern Humanitarian & Provincial Maternity Hospitals (ALIMA / MSF Supported)"
+    },
+    "phone": "1313 / 116",
+    "emergencyHotline": "1313 / 116",
+    "address": {
+      "en": "Goz Beïda (Sila), Adré (Ouaddaï) & Biltine / Iriba (Wadi Fira), Eastern Chad"
+    },
+    "services": {
+      "en": [
+        "Emergency Obstetric & Trauma Surgery (MSF / ALIMA Supported)",
+        "Maternity & Neonatal Care for Host & Sudanese Refugee Women",
+        "72-Hour Clinical Care for Sexual Violence"
+      ]
+    },
+    "directionsText": {
+      "en": "Frontline eastern provincial and district hospitals in Goz Beïda, Adré, Biltine, and Iriba reinforced by ALIMA, MSF, and UNFPA for emergency maternity and trauma care."
+    }
+  },
+  {
+    "id": "chad-hopital-bol-mao-faya-largeau-north-west",
+    "regionDistrict": "Chad (Bol, Mao & Faya-Largeau - Lac, Kanem & Borkou)",
+    "type": "hospital",
+    "lat": 13.4586,
+    "lng": 14.7147,
+    "name": {
+      "en": "Hôpitaux Provinciaux de Bol (Lac), Mao (Kanem) & Faya-Largeau (Borkou)"
+    },
+    "categoryBadge": {
+      "en": "Lake Chad, Kanem & Saharan Provincial Maternity Hospitals"
+    },
+    "phone": "1313",
+    "emergencyHotline": "1313",
+    "address": {
+      "en": "Bol (Lac), Mao (Kanem) & Faya-Largeau (Borkou), Western & Northern Chad"
+    },
+    "services": {
+      "en": [
+        "Provincial Maternity & Emergency Cesarean",
+        "Lake Chad IDP & Refugee Maternal Care (Bol & Baga Sola)",
+        "Saharan Regional Medical Referral (Faya-Largeau)"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial hospitals providing maternal, surgical, and emergency care in the Lake Chad region (Bol), Kanem (Mao), and northern Chad (Faya-Largeau)."
+    }
   }
 ];

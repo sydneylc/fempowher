@@ -141275,5 +141275,620 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Serves central-western Sudan (El Obeid, Kadugli) and the White Nile refugee camps (Kosti, Rabak, Al Kashafa, Khor Al Waral)."
     }
+  },
+  {
+    "id": "algeria-eph-beni-abbes-saoura",
+    "regionDistrict": "Algeria (Beni Abbès)",
+    "type": "hospital",
+    "lat": 30.1325,
+    "lng": -2.1667,
+    "name": {
+      "en": "EPH Mohamed Yaqoub de Beni Abbès & Maternité"
+    },
+    "categoryBadge": {
+      "en": "Wilaya Public & Maternity Hospital (Beni Abbès)"
+    },
+    "phone": "14 / 1026",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "Beni Abbès, Southwestern Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Childbirth",
+        "Emergency & Surgical Care",
+        "Pediatrics & Women's Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Public referral hospital and maternity ward serving the wilaya of Beni Abbès in the Saoura valley."
+    }
+  },
+  {
+    "id": "algeria-eph-timimoun-gourara",
+    "regionDistrict": "Algeria (Timimoun)",
+    "type": "hospital",
+    "lat": 29.2639,
+    "lng": 0.2306,
+    "name": {
+      "en": "EPH El Hachemi M'hamed de Timimoun & EHS Mère-Enfant"
+    },
+    "categoryBadge": {
+      "en": "Wilaya Public & Mother-Child Hospital (Gourara)"
+    },
+    "phone": "14 / 1026",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "Timimoun, Gourara Oasis, Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetrics",
+        "Pediatrics & Emergency Medicine",
+        "DAS Women's Protection Referral (1026)"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary public hospital and maternal-child center serving the wilaya of Timimoun."
+    }
+  },
+  {
+    "id": "algeria-eph-bordj-badji-mokhtar",
+    "regionDistrict": "Algeria (Bordj Badji Mokhtar — Tanezrouft South)",
+    "type": "hospital",
+    "lat": 21.3289,
+    "lng": 0.9542,
+    "name": {
+      "en": "EPH de Bordj Badji Mokhtar & Maternité"
+    },
+    "categoryBadge": {
+      "en": "Far-South Border Wilaya Public & Maternity Hospital"
+    },
+    "phone": "14 / 1026",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "Bordj Badji Mokhtar, Southern Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care",
+        "General Medicine & Pediatrics",
+        "Cross-Border Humanitarian Medical Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Public hospital serving the far-southern Algerian wilaya of Bordj Badji Mokhtar."
+    }
+  },
+  {
+    "id": "algeria-eph-in-guezzam-hoggar-south",
+    "regionDistrict": "Algeria (In Guezzam — Niger Border)",
+    "type": "hospital",
+    "lat": 19.5686,
+    "lng": 5.7722,
+    "name": {
+      "en": "EPH d'In Guezzam & Maternité d'Urgence"
+    },
+    "categoryBadge": {
+      "en": "Southern Border Wilaya Public & Maternity Hospital"
+    },
+    "phone": "14 / 1026",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "In Guezzam, Far-South Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency & Maternity Ward",
+        "Maternal & Pediatric Care",
+        "Red Crescent Migrant & Refugee First Aid"
+      ]
+    },
+    "directionsText": {
+      "en": "Public hospital serving the southern border wilaya of In Guezzam."
+    }
+  },
+  {
+    "id": "algeria-eph-ghardaia-ehs-mere-enfant",
+    "regionDistrict": "Algeria (Ghardaïa — M'Zab Valley)",
+    "type": "hospital",
+    "lat": 32.4909,
+    "lng": 3.6735,
+    "name": {
+      "en": "EPH Brahim Tirichine de Ghardaïa & EHS Mère-Enfant de Ghardaïa"
+    },
+    "categoryBadge": {
+      "en": "Regional Public & Dedicated Mother-Child Hospital"
+    },
+    "phone": "+213 29 25 10 10 / 14 / 1026",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "Ghardaïa, M'Zab Valley, Algeria"
+    },
+    "services": {
+      "en": [
+        "Dedicated Mother-Child Hospital (EHS Mère-Enfant)",
+        "24/7 Obstetrics, Gynecology & Neonatology",
+        "DAS Women's Shelter & Listening Cell (1026)"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves the M'Zab valley with EPH Brahim Tirichine and a dedicated Mother-Child hospital in Ghardaïa."
+    }
+  },
+  {
+    "id": "algeria-eph-in-amenas-tassili",
+    "regionDistrict": "Algeria (In Amenas — Illizi North)",
+    "type": "hospital",
+    "lat": 28.0486,
+    "lng": 9.5469,
+    "name": {
+      "en": "EPH d'In Amenas & Service de Maternité"
+    },
+    "categoryBadge": {
+      "en": "Public Hospital & 24/7 Maternity"
+    },
+    "phone": "14 / 1026",
+    "emergencyHotline": "14 / 1026",
+    "address": {
+      "en": "In Amenas, Illizi Wilaya, Eastern Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Surgery",
+        "Pediatrics & Women's Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Public hospital serving In Amenas and eastern Algeria near the Libyan border."
+    }
+  },
+  {
+    "id": "western-sahara-es-semara-boujdour-hospital",
+    "regionDistrict": "Western Sahara (Es-Semara / Smara)",
+    "type": "hospital",
+    "lat": 26.7384,
+    "lng": -11.6719,
+    "name": {
+      "en": "Hôpital Provincial d'Es-Semara & Cellule de Prise en Charge des Femmes"
+    },
+    "categoryBadge": {
+      "en": "Provincial Maternity Hospital & GBV Protection Cell"
+    },
+    "phone": "141 / 8350",
+    "emergencyHotline": "141 / 8350",
+    "address": {
+      "en": "Es-Semara (Smara), Interior Western Sahara"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Delivery",
+        "Hospital Women's Violence Unit (8350)",
+        "Emergency & Pediatric Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial hospital and maternity unit in interior Es-Semara."
+    }
+  },
+  {
+    "id": "mauritania-bir-moghrein-medical-center",
+    "regionDistrict": "Mauritania (Bir Moghrein — Far North Tiris Zemmour)",
+    "type": "hospital",
+    "lat": 25.2264,
+    "lng": -11.5806,
+    "name": {
+      "en": "Centre Médical de Bir Moghrein & Maternité"
+    },
+    "categoryBadge": {
+      "en": "Northernmost District Health & Maternity Center"
+    },
+    "phone": "101 / 80 00 10 10",
+    "emergencyHotline": "101 / 80 00 10 10",
+    "address": {
+      "en": "Bir Moghrein, Tiris Zemmour, Northern Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Midwifery Care",
+        "Emergency Stabilization & Evacuation",
+        "Primary Women's & Child Health"
+      ]
+    },
+    "directionsText": {
+      "en": "District medical and maternity center serving Bir Moghrein in far-northern Mauritania."
+    }
+  },
+  {
+    "id": "mauritania-akjoujt-hopital-inchiri",
+    "regionDistrict": "Mauritania (Akjoujt — Inchiri)",
+    "type": "hospital",
+    "lat": 19.7466,
+    "lng": -14.3853,
+    "name": {
+      "en": "Centre Hospitalier d'Akjoujt (Inchiri Regional Hospital)"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Maternity Hospital (Inchiri)"
+    },
+    "phone": "101 / 80 00 10 10",
+    "emergencyHotline": "101 / 80 00 10 10",
+    "address": {
+      "en": "Akjoujt, Inchiri Region, Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care",
+        "Surgery & Trauma Care",
+        "Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional hospital serving Akjoujt and the Inchiri region along the Nouakchott–Atar highway."
+    }
+  },
+  {
+    "id": "mali-taoudenni-araouane-northern-outreach",
+    "regionDistrict": "Mali (Taoudenni & Araouane — Far North)",
+    "type": "hospital",
+    "lat": 18.9044,
+    "lng": -3.5283,
+    "name": {
+      "en": "Centre de Santé d'Araouane / Taoudenni & Cliniques Mobiles Maternelles"
+    },
+    "categoryBadge": {
+      "en": "Saharan Health Post & Nomadic Maternal Outreach"
+    },
+    "phone": "80 00 11 15",
+    "emergencyHotline": "80 00 11 15",
+    "address": {
+      "en": "Araouane & Taoudenni Region, Northern Mali"
+    },
+    "services": {
+      "en": [
+        "Midwifery & Emergency Maternal Stabilization",
+        "Nomadic Women's Health & Nutrition",
+        "Evacuation Referral to Timbuktu Regional Hospital"
+      ]
+    },
+    "directionsText": {
+      "en": "Community health and mobile maternal clinic serving Araouane and the Taoudenni basin north of Timbuktu."
+    }
+  },
+  {
+    "id": "mali-tessalit-aguelhok-kidal-north",
+    "regionDistrict": "Mali (Tessalit — Far-North Kidal)",
+    "type": "hospital",
+    "lat": 20.1986,
+    "lng": 1.0114,
+    "name": {
+      "en": "Centre de Santé de Référence (CSRéf) de Tessalit & Maternité"
+    },
+    "categoryBadge": {
+      "en": "Northern Saharan Reference Health & Maternity Center"
+    },
+    "phone": "80 00 11 15",
+    "emergencyHotline": "80 00 11 15",
+    "address": {
+      "en": "Tessalit, Adrar des Ifoghas, Kidal Region, Far-Northern Mali"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Childbirth (ICRC Supported)",
+        "Emergency Medical & Pediatric Care",
+        "Women's Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Reference health and maternity center in the northern oasis of Tessalit near the Algerian border."
+    }
+  },
+  {
+    "id": "mali-nioro-du-sahel-diema-maternity",
+    "regionDistrict": "Mali (Nioro du Sahel & Diéma)",
+    "type": "hospital",
+    "lat": 15.2286,
+    "lng": -9.5861,
+    "name": {
+      "en": "Hôpital / CSRéf de Nioro du Sahel & Espace Sûr Femmes"
+    },
+    "categoryBadge": {
+      "en": "Regional Reference Maternity & Women's Protection Hub"
+    },
+    "phone": "80 00 11 15",
+    "emergencyHotline": "80 00 11 15",
+    "address": {
+      "en": "Nioro du Sahel, Northwestern Mali"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "FGM Complication Care & GBV Listening Cell",
+        "Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary reference hospital and maternity center in Nioro du Sahel near the Mauritanian border."
+    }
+  },
+  {
+    "id": "niger-assamaka-in-gall-agadez-west",
+    "regionDistrict": "Niger (In-Gall & Tchintabaraden — Western Aïr / Azawagh)",
+    "type": "hospital",
+    "lat": 16.7867,
+    "lng": 6.9342,
+    "name": {
+      "en": "Hôpital de District de Tchintabaraden (15.89N, 5.79E) & CSI d'In-Gall"
+    },
+    "categoryBadge": {
+      "en": "District Maternity Hospital & UNHCR Intikane / Telemces Referral"
+    },
+    "phone": "0 800 12 12 / 15",
+    "emergencyHotline": "0 800 12 12 (HCR Niger)",
+    "address": {
+      "en": "In-Gall (Agadez) & Tchintabaraden (Tahoua), Northern-Central Niger"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Care",
+        "UNHCR Refugee & Pastoralist Women's Health",
+        "GBV Protection & Referral (0 800 12 12)"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves pastoralist and refugee women across In-Gall and Tchintabaraden in northern-central Niger."
+    }
+  },
+  {
+    "id": "niger-goure-tanout-nguigmi-east-corridor",
+    "regionDistrict": "Niger (Gouré & N'Guigmi — Eastern Corridor)",
+    "type": "hospital",
+    "lat": 13.9836,
+    "lng": 10.2703,
+    "name": {
+      "en": "Hôpital de District de Gouré & Hôpital de District de N'Guigmi"
+    },
+    "categoryBadge": {
+      "en": "District Maternity Hospitals & UNFPA Safe Spaces"
+    },
+    "phone": "0 800 12 12 / 15",
+    "emergencyHotline": "0 800 12 12 / 15",
+    "address": {
+      "en": "Gouré (Zinder Region) & N'Guigmi (14.25N, 13.11E, Diffa Region), Eastern Niger"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "UNFPA / UNHCR Women's Safe Spaces",
+        "72-Hour Clinical Care for Survivors"
+      ]
+    },
+    "directionsText": {
+      "en": "District referral hospitals and maternity centers along the Zinder–Gouré–Diffa–N'Guigmi eastern corridor."
+    }
+  },
+  {
+    "id": "libya-tazerbo-jalu-awjila-cyrenaica-desert",
+    "regionDistrict": "Libya (Jalu, Awjila & Tazerbo Oases — Al Wahat)",
+    "type": "hospital",
+    "lat": 29.0331,
+    "lng": 21.5469,
+    "name": {
+      "en": "Jalu General Hospital, Awjila Rural Hospital & Tazerbo Clinic"
+    },
+    "categoryBadge": {
+      "en": "Eastern Libyan Desert Oasis Maternity & General Hospitals"
+    },
+    "phone": "1515 / 1504",
+    "emergencyHotline": "1515 / 1504",
+    "address": {
+      "en": "Jalu (29.03N, 21.54E), Awjila & Tazerbo (25.79N, 21.13E), Al Wahat, Eastern Libya"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Care",
+        "Emergency Trauma & Stabilization",
+        "Sudanese Refugee Corridor Medical Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Oasis hospitals serving Jalu, Awjila, and Tazerbo between Kufra and Ajdabiya in eastern Libya."
+    }
+  },
+  {
+    "id": "libya-al-qatrun-southern-border-fezzan",
+    "regionDistrict": "Libya (Al Qatrun — Southern Fezzan Border)",
+    "type": "hospital",
+    "lat": 24.9508,
+    "lng": 14.6331,
+    "name": {
+      "en": "Al Qatrun Rural Hospital & Maternal Emergency Clinic"
+    },
+    "categoryBadge": {
+      "en": "Southern Libyan Oasis Hospital & Maternity"
+    },
+    "phone": "1515 / 1504",
+    "emergencyHotline": "1515 / 1504",
+    "address": {
+      "en": "Al Qatrun, Murzuq District, Southern Fezzan, Libya"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Delivery",
+        "Emergency Stabilization & Mobile Health Teams",
+        "Migrant & Refugee Women's Medical Aid"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary hospital serving Al Qatrun in far-southern Fezzan along the Niger/Chad route."
+    }
+  },
+  {
+    "id": "chad-faya-largeau-borkou-ennedi-tibesti",
+    "regionDistrict": "Chad (Faya-Largeau, Fada & Bardaï — Borkou, Ennedi & Tibesti)",
+    "type": "hospital",
+    "lat": 17.9258,
+    "lng": 19.1042,
+    "name": {
+      "en": "Hôpital Provincial de Faya-Largeau (Borkou), Hôpital de Fada (Ennedi) & Hôpital de Bardaï (Tibesti)"
+    },
+    "categoryBadge": {
+      "en": "Northern Chad Saharan Provincial Maternity Hospitals (BET Region)"
+    },
+    "phone": "1313",
+    "emergencyHotline": "1313",
+    "address": {
+      "en": "Faya-Largeau (17.92N, 19.10E), Fada (17.18N, 21.58E) & Bardaï (21.35N, 17.00E), Northern Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Provincial Maternity & Emergency Cesarean",
+        "Emergency Trauma & Surgical Care",
+        "Maternal & Child Nutrition"
+      ]
+    },
+    "directionsText": {
+      "en": "Northern Chad's principal provincial hospital in Faya-Largeau (Borkou) alongside the provincial hospitals of Fada (Ennedi) and Bardaï (Tibesti)."
+    }
+  },
+  {
+    "id": "chad-fada-am-djarras-ennedi",
+    "regionDistrict": "Chad (Fada & Amdjarass — Ennedi-Ouest & Ennedi-Est)",
+    "type": "hospital",
+    "lat": 17.1853,
+    "lng": 21.5811,
+    "name": {
+      "en": "Hôpital Provincial de Fada & Hôpital Provincial d'Amdjarass (Ennedi)"
+    },
+    "categoryBadge": {
+      "en": "Northeastern Chad Provincial Maternity & Referral Hospitals"
+    },
+    "phone": "1313",
+    "emergencyHotline": "1313",
+    "address": {
+      "en": "Fada (Ennedi-Ouest) & Amdjarass (16.06N, 22.84E, Ennedi-Est), Northeastern Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Care",
+        "Sudanese Refugee & Host Community Medical Care (Amdjarass / Ouré Cassoni)",
+        "Pediatrics & Emergency Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial hospitals serving Fada and Amdjarass (including nearby Ouré Cassoni refugee camp) in Northeastern Chad."
+    }
+  },
+  {
+    "id": "chad-oure-cassoni-amdjarass-unhcr-safe-haven",
+    "regionDistrict": "Chad (Ouré Cassoni Refugee Camp & Amdjarass — Ennedi-Est)",
+    "type": "safe-haven",
+    "lat": 16.0125,
+    "lng": 22.956,
+    "name": {
+      "en": "UNHCR, HIAS & CRT Women's Safe Space — Camp de Réfugiés d'Ouré Cassoni (Cariari / Amdjarass)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Northernmost Darfur Refugee Camp GBV Safe Haven"
+    },
+    "phone": "+235 66 29 09 61 / 116",
+    "emergencyHotline": "116 / UNHCR Amdjarass & Ouré Cassoni",
+    "address": {
+      "en": "Ouré Cassoni Refugee Camp (near Amdjarass & Tiné border), Ennedi-Est, Northeastern Chad"
+    },
+    "services": {
+      "en": [
+        "UNHCR / HIAS / CRT Women & Girls Safe Space (Espace Sûr)",
+        "72-Hour Clinical Care for Sexual Violence & Emergency Maternity",
+        "Legal & Psychosocial Protection for Sudanese Refugees"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves over 50,000 Sudanese refugees at Ouré Cassoni camp near Amdjarass and the Tiné border crossing in Ennedi-Est."
+    }
+  },
+  {
+    "id": "chad-mao-moussoro-kanem-bahr-el-ghazal",
+    "regionDistrict": "Chad (Mao & Moussoro — Kanem & Bahr el Gazel)",
+    "type": "hospital",
+    "lat": 14.1212,
+    "lng": 15.3103,
+    "name": {
+      "en": "Hôpital Provincial de Mao (Kanem) & Hôpital Provincial de Moussoro (Bahr el Gazel)"
+    },
+    "categoryBadge": {
+      "en": "Sahelian Provincial Maternity & Nutrition Referral Hospitals"
+    },
+    "phone": "1313",
+    "emergencyHotline": "1313",
+    "address": {
+      "en": "Mao (14.12N, 15.31E) & Moussoro (13.64N, 16.49E), West-Central Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care",
+        "Maternal & Infant Acute Malnutrition Stabilization (ALIMA / UNICEF Supported)",
+        "Women's Health & Prenatal Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial referral hospitals in Mao (Kanem) and Moussoro (Bahr el Gazel) in west-central Chad."
+    }
+  },
+  {
+    "id": "egypt-dakhla-farafra-western-desert-hospital",
+    "regionDistrict": "Egypt (Dakhla & Farafra Oases — Western Desert)",
+    "type": "hospital",
+    "lat": 25.495,
+    "lng": 28.978,
+    "name": {
+      "en": "Dakhla General Hospital (Mut) & Farafra Central Hospital"
+    },
+    "categoryBadge": {
+      "en": "Western Desert Oasis Maternity & General Hospitals"
+    },
+    "phone": "123 / 15115",
+    "emergencyHotline": "123 (Ambulance) / 15115 (NCW)",
+    "address": {
+      "en": "Mut (Dakhla Oasis) & Farafra Oasis (27.05N, 27.97E), New Valley Governorate, Egypt"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "Neonatal Care & Pediatrics",
+        "NCW 15115 Women's Protection Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "General hospitals and maternity units serving Dakhla (Mut) and Farafra oases in Egypt's Western Desert."
+    }
+  },
+  {
+    "id": "egypt-abu-simbel-wadi-halfa-border-hospital",
+    "regionDistrict": "Egypt / Sudan Border (Abu Simbel & Argeen / Qustul Crossing)",
+    "type": "safe-haven",
+    "lat": 22.3372,
+    "lng": 31.6258,
+    "name": {
+      "en": "Abu Simbel International Hospital & Egyptian Red Crescent / UNHCR Border Safe Space"
+    },
+    "categoryBadge": {
+      "en": "Southern Border Maternity Hospital & Refugee Women's Relief Hub"
+    },
+    "phone": "123 / 15115 / 01227733999",
+    "emergencyHotline": "123 / 15115 / PSTIC 01227733999",
+    "address": {
+      "en": "Abu Simbel & Argeen/Qustul Border Crossings, Southern Aswan, Egypt"
+    },
+    "services": {
+      "en": [
+        "Abu Simbel International Hospital 24/7 Emergency & Maternity",
+        "Egyptian Red Crescent, UNHCR & UNFPA Safe Spaces for Women Arriving from Sudan",
+        "Psychological First Aid, Dignity Kits & Medical Triage"
+      ]
+    },
+    "directionsText": {
+      "en": "Emergency hospital and humanitarian safe space at Abu Simbel and the Egypt–Sudan border crossings supporting displaced women and families."
+    }
   }
 ];

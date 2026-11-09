@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { LOADING_SCREEN_WORD_ROWS, LANGUAGES, PREBOARDING_A_TEXT } from '../data/translations.js?v=155';
+import { LOADING_SCREEN_WORD_ROWS, LANGUAGES, PREBOARDING_A_TEXT } from '../data/translations.js?v=156';
 
 const h = React.createElement;
 

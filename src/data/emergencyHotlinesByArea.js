@@ -698,6 +698,14 @@ export const NATIONAL_CRISIS_DIRECTORY = {
       'Ligne Verte Violences Basées sur le Genre (Ministry of Women): Call 116 (Toll-Free)'
     ]
   },
+  mauritania: {
+    emergencyNumber: '101 (SAMU Mauritanie Ambulance) / 117 (Police) / 118 (Pompiers)',
+    crisisLines: [
+      'Association des Femmes Chefs de Famille (AFCF — Ligne Verte VBG): Call 800 01 010 / +222 45 25 10 80',
+      'Mother and Child Hospital Center (Centre Hospitalier Mère et Enfant — CHME Nouakchott): Call +222 22 07 29 43 / +222 36 34 60 45',
+      'Nouakchott National Hospital Center (CHN — Urgences): Call +222 45 25 72 61'
+    ]
+  },
   algeria: {
     emergencyNumber: '1548 (Police) / 14 (Civil Protection Ambulance)',
     crisisLines: [

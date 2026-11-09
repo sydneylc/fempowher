@@ -43344,15 +43344,17 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 18.0735,
     "lng": -15.9582,
     "name": {
-      "en": "Centre Hospitalier Mère et Enfant (CHME) de Nouakchott (Hassaniya/Wolof/Pulaar)"
+      "en": "Mother and Child Hospital Center (Centre Hospitalier Mère et Enfant — CHME) — Nouakchott",
+      "fr": "Centre Hospitalier Mère et Enfant (CHME) — Carrefour Ould Mah, Ksar, Nouakchott",
+      "ar": "مركز مستشفى الأم والطفل — نواكشوط"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
     },
-    "phone": "+1 800-555 1956",
-    "emergencyHotline": "101 / 116",
+    "phone": "+222 22 07 29 43 / +222 36 34 60 45",
+    "emergencyHotline": "101 (SAMU Mauritanie) / 117 (Police)",
     "address": {
-      "en": "226 Hospital Road, Nouakchott, Mauritania, 9657"
+      "en": "Carrefour Ould Mah, Ksar, Nouakchott, Mauritania"
     },
     "services": {
       "en": [
@@ -43362,7 +43364,7 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "Regional Maternity & Women’s Hospital serving Nouakchott, Mauritania. Tap Get Directions for route."
+      "en": "National specialized Mother and Child Hospital Center (CHME) located at Carrefour Ould Mah, Ksar, Nouakchott. Provides 24/7 maternity, obstetrics, gynecology, high-risk childbirth, neonatal ICU, and pediatric emergency care. Call +222 22 07 29 43 or +222 36 34 60 45."
     }
   },
   {
@@ -43377,10 +43379,10 @@ export const WORLD_CENTERS_DIRECTORY = [
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
     },
-    "phone": "+1 800-555 8116",
-    "emergencyHotline": "101 / 116",
+    "phone": "+222 45 25 10 80 / 800 01 010",
+    "emergencyHotline": "800 01 010 (AFCF Toll-Free Women’s Helpline) / 117",
     "address": {
-      "en": "48 Main Street, Nouakchott, Mauritania, 4927"
+      "en": "Ilot L, Tevragh Zeina / El Mina, Nouakchott, Mauritania"
     },
     "services": {
       "en": [
@@ -43400,15 +43402,15 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 20.942,
     "lng": -17.036,
     "name": {
-      "en": "Centre Hospitalier Régional de Nouadhibou — Maternité"
+      "en": "Nouadhibou Regional Hospital (Centre Hospitalier Régional de Nouadhibou) — Maternité"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
     },
-    "phone": "+1 800-555 5186",
-    "emergencyHotline": "101 / 116",
+    "phone": "+222 45 74 51 32",
+    "emergencyHotline": "101 (SAMU) / 117 (Police)",
     "address": {
-      "en": "187 Hospital Road, Nouadhibou / Atar (Adrar), Northern Mauritania, 9029"
+      "en": "Nouadhibou, Dakhlet Nouadhibou Region, Mauritania"
     },
     "services": {
       "en": [
@@ -43433,8 +43435,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
     },
-    "phone": "+1 800-555 7818",
-    "emergencyHotline": "101 / 116",
+    "phone": "+222 45 74 60 12 / 800 01 010",
+    "emergencyHotline": "800 01 010 (AFCF Toll-Free Women’s Helpline)",
     "address": {
       "en": "225 Main Street, Nouadhibou / Atar (Adrar), Northern Mauritania, 7198"
     },
@@ -43461,8 +43463,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
     },
-    "phone": "+1 800-555 5642",
-    "emergencyHotline": "101 / 116",
+    "phone": "+222 45 25 22 01",
+    "emergencyHotline": "800 01 010 / 117",
     "address": {
       "en": "107 Main Street, Nouadhibou / Atar (Adrar), Northern Mauritania, 5354"
     },
@@ -43484,15 +43486,15 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 16.6166,
     "lng": -11.4045,
     "name": {
-      "en": "Centre Hospitalier de Kiffa"
+      "en": "Kiffa Regional Hospital (Centre Hospitalier Régional de Kiffa — Assaba)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
     },
-    "phone": "+1 800-555 5602",
-    "emergencyHotline": "101 / 116",
+    "phone": "+222 45 63 41 12",
+    "emergencyHotline": "101 (SAMU) / 117 (Police)",
     "address": {
-      "en": "48 Hospital Road, Kiffa / Néma (Hodh Ech Chargui / Mbera Camp), Rural Eastern Mauritania, 8500"
+      "en": "Kiffa, Assaba Region, Mauritania"
     },
     "services": {
       "en": [
@@ -43517,8 +43519,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
     },
-    "phone": "+1 800-555 9531",
-    "emergencyHotline": "101 / 116",
+    "phone": "+222 45 25 79 12",
+    "emergencyHotline": "101 / 117",
     "address": {
       "en": "90 Hospital Road, Kiffa / Néma (Hodh Ech Chargui / Mbera Camp), Rural Eastern Mauritania, 8353"
     },
@@ -43545,8 +43547,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
     },
-    "phone": "+1 800-555 8106",
-    "emergencyHotline": "101 / 116",
+    "phone": "+222 45 25 79 12 / 800 01 010",
+    "emergencyHotline": "800 01 010 / 117",
     "address": {
       "en": "46 Main Street, Kiffa / Néma (Hodh Ech Chargui / Mbera Camp), Rural Eastern Mauritania, 9947"
     },
@@ -136857,6 +136859,366 @@ export const WORLD_CENTERS_DIRECTORY = [
     "emergencyHotline": "118",
     "directionsText": {
       "en": "[SPECIFICALLY FOR BEDOUIN WOMEN IN ISRAEL (NEGEV / NAQAB)] Highlighted by HIAS Israel. Unites Al-Nashmiat (The Bedouin Women’s Leadership Movement in the Negev), Ma’an (The Forum of Arab-Bedouin Women’s Organizations in the Negev), Sidreh (Lakiya), the Bedouin Women’s Rights Center (with Itach-Ma’aki), and Maslan Negev Crisis Center to provide culturally safe emergency shelter placement, Arabic-speaking trauma counseling, Sharia & Civil family law protection, and emergency hygiene/food relief specifically for Arab Bedouin women in both recognized towns (Rahat, Lakiya, Hura, Tel Sheva, Kuseife, Ar’ara, Segev Shalom) and unrecognized Negev villages. Website: https://hias.org/news/helping-israels-bedouin-women-strive-better-future/"
+    }
+  },
+  {
+    "id": "mauritania-hosp-chn-nouakchott",
+    "regionDistrict": "Nouakchott, Mauritania",
+    "type": "hospital",
+    "lat": 18.0864,
+    "lng": -15.9781,
+    "name": {
+      "en": "Nouakchott National Hospital Center (Centre Hospitalier National — CHN) — Nouakchott",
+      "fr": "Centre Hospitalier National de Nouakchott (CHN)",
+      "ar": "المركز الاستشفائي الوطني في نواكشوط (CHN)"
+    },
+    "categoryBadge": {
+      "en": "National Tertiary Referral & OB/GYN Hospital"
+    },
+    "phone": "+222 45 25 72 61",
+    "emergencyHotline": "101 (SAMU Mauritanie) / 117 (Police)",
+    "address": {
+      "en": "Avenue Gamal Abdel Nasser, Tevragh Zeina / Ksar, Nouakchott, Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 National Tertiary Emergency, Maternity, Obstetrics & Gynecology",
+        "High-Risk Pregnancy, Surgical Delivery, ICU & Multi-Specialty Care",
+        "Emergency Forensic & Medical Care for Survivors of Violence"
+      ]
+    },
+    "directionsText": {
+      "en": "Mauritania’s main public tertiary referral hospital on Avenue Gamal Abdel Nasser in Nouakchott. Call +222 45 25 72 61 (or SAMU 101) for 24/7 emergency and maternal care."
+    }
+  },
+  {
+    "id": "mauritania-hosp-sheikh-zayed-nouakchott",
+    "regionDistrict": "Dar Naïm, Nouakchott, Mauritania",
+    "type": "hospital",
+    "lat": 18.1032,
+    "lng": -15.9325,
+    "name": {
+      "en": "Sheikh Zayed Hospital (Hôpital Cheikh Zayed) — Nouakchott",
+      "fr": "Hôpital Cheikh Zayed de Nouakchott (Dar Naïm)",
+      "ar": "مستشفى الشيخ زايد — نواكشوط"
+    },
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & General Hospital"
+    },
+    "phone": "+222 45 29 19 66",
+    "emergencyHotline": "101 (SAMU Mauritanie) / 117 (Police)",
+    "address": {
+      "en": "Dar Naïm, Route d’Akjoujt, Nouakchott, Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Gynecology, Maternity & Trauma Surgery",
+        "High-Risk Delivery, Neonatal Care & Intensive Care Unit",
+        "General Medicine, Pediatrics & Diagnostic Imaging"
+      ]
+    },
+    "directionsText": {
+      "en": "Major public general and maternity hospital serving Dar Naïm and northern/eastern Nouakchott. Call +222 45 29 19 66 or 101."
+    }
+  },
+  {
+    "id": "mauritania-hosp-amitie-arafat-nouakchott",
+    "regionDistrict": "Arafat, Nouakchott, Mauritania",
+    "type": "hospital",
+    "lat": 18.0468,
+    "lng": -15.9612,
+    "name": {
+      "en": "Hospital of Friendship (Hôpital de l’Amitié) — Arafat, Nouakchott",
+      "fr": "Hôpital de l’Amitié d’Arafat — Nouakchott",
+      "ar": "مستشفى الصداقة — عرفات، نواكشوط"
+    },
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & General Hospital"
+    },
+    "phone": "+222 45 25 14 89",
+    "emergencyHotline": "101 (SAMU Mauritanie) / 117 (Police)",
+    "address": {
+      "en": "Arafat, Southern Nouakchott, Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Public Maternity, Obstetrics, Gynecology & Emergency Room",
+        "Prenatal, Postnatal & Pediatric Care for Southern Nouakchott",
+        "General Surgery, Internal Medicine & Outpatient Specialty Clinics"
+      ]
+    },
+    "directionsText": {
+      "en": "Prominent public general and maternity hospital in Arafat, southern Nouakchott. Call +222 45 25 14 89 or 101."
+    }
+  },
+  {
+    "id": "mauritania-hosp-military-eye-neuro-nouakchott",
+    "regionDistrict": "Ksar & Sebkha, Nouakchott, Mauritania",
+    "type": "hospital",
+    "lat": 18.0955,
+    "lng": -15.9685,
+    "name": {
+      "en": "Military Hospital of Nouakchott, National Eye Hospital & Centre Neuro-Psychiatrique — Nouakchott",
+      "fr": "Hôpital Militaire de Nouakchott, Centre National d’Ophtalmologie & Centre Neuro-Psychiatrique",
+      "ar": "المستشفى العسكري، المستشفى الوطني للعيون والمركز العصبي النفسي — نواكشوط"
+    },
+    "categoryBadge": {
+      "en": "National General & Specialized Hospitals"
+    },
+    "phone": "+222 45 25 21 18",
+    "emergencyHotline": "101 (SAMU Mauritanie) / 117 (Police)",
+    "address": {
+      "en": "Ksar / Tevragh Zeina & Sebkha, Nouakchott, Mauritania"
+    },
+    "services": {
+      "en": [
+        "Military Hospital 24/7 Emergency, Surgery, Maternity & Public Care",
+        "National Eye Hospital (Centre National d’Ophtalmologie — Bouamatou)",
+        "Centre Neuro-Psychiatrique de Nouakchott (Mental Health & Trauma Support)"
+      ]
+    },
+    "directionsText": {
+      "en": "Encompasses the Military Hospital of Nouakchott (+222 45 25 21 18), the National Eye / Ophthalmological Hospital, and the Centre Neuro-Psychiatrique de Nouakchott."
+    }
+  },
+  {
+    "id": "mauritania-hosp-clinique-ibn-sina-nouakchott",
+    "regionDistrict": "Tevragh Zeina, Nouakchott, Mauritania",
+    "type": "hospital",
+    "lat": 18.0998,
+    "lng": -15.9942,
+    "name": {
+      "en": "Clinique Ibn Sina (Private 24/7 Hospital & Maternity) — Tevragh Zeina, Nouakchott",
+      "fr": "Clinique Ibn Sina — Tevragh Zeina, Nouakchott",
+      "ar": "عيادة ومستشفى ابن سينا — تفرغ زينة، نواكشوط"
+    },
+    "categoryBadge": {
+      "en": "24/7 Private Hospital, Maternity & Trauma Center"
+    },
+    "phone": "+222 45 25 08 88",
+    "emergencyHotline": "+222 45 25 08 88 / 101",
+    "address": {
+      "en": "32X4+W6C, Tevragh Zeina, Nouakchott, Mauritania"
+    },
+    "services": {
+      "en": [
+        "24-Hour Emergency Room, Trauma & Intensive Care",
+        "Obstetrics, Gynecology, Maternity Delivery & Pediatrics",
+        "Surgical Suites, Cardiology & Diagnostic Imaging"
+      ]
+    },
+    "directionsText": {
+      "en": "Private hospital in Tevragh Zeina (32X4+W6C), Nouakchott offering 24-hour emergency, maternity, and trauma care. Call +222 45 25 08 88. Website: https://www.ibnsinaclinique.com/"
+    }
+  },
+  {
+    "id": "mauritania-hosp-clinique-chiva-kissi-ennajda-nouakchott",
+    "regionDistrict": "Tevragh Zeina, Nouakchott, Mauritania",
+    "type": "hospital",
+    "lat": 18.1012,
+    "lng": -15.9845,
+    "name": {
+      "en": "Clinique Chiva, Clinique Kissi & Clinique Ennajda — Tevragh Zeina, Nouakchott",
+      "fr": "Clinique Chiva, Clinique Kissi & Clinique Ennajda — Tevragh Zeina, Nouakchott",
+      "ar": "مصحة الشفاء، مصحة كيسي ومصحة النجدة — تفرغ زينة، نواكشوط"
+    },
+    "categoryBadge": {
+      "en": "24/7 Private Hospitals, OB/GYN & Walk-In Emergency Clinics"
+    },
+    "phone": "+222 45 25 80 80",
+    "emergencyHotline": "+222 45 25 65 14 (Clinique Kissi) / +222 46 01 01 02 (Clinique Ennajda)",
+    "address": {
+      "en": "Tevragh Zeina (4228+645 Clinique Chiva & 32X9+C76 Clinique Kissi), Nouakchott, Mauritania"
+    },
+    "services": {
+      "en": [
+        "Clinique Chiva (+222 45 25 80 80): 24/7 Emergency Trauma, Maternity, OB/GYN & Surgery",
+        "Clinique Kissi (+222 45 25 65 14, http://cliniquekissi.mr/): 24-Hour ER, General & Eye Care",
+        "Clinique Ennajda (+222 46 01 01 02): General Practice & Women’s Outpatient Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Leading 24-hour private hospitals and clinics in Tevragh Zeina, Nouakchott: Clinique Chiva (+222 45 25 80 80), Clinique Kissi (+222 45 25 65 14), and Clinique Ennajda (+222 46 01 01 02)."
+    }
+  },
+  {
+    "id": "mauritania-hosp-nouadhibou-specialty-fraternidad",
+    "regionDistrict": "Nouadhibou, Dakhlet Nouadhibou, Mauritania",
+    "type": "hospital",
+    "lat": 20.9385,
+    "lng": -17.0312,
+    "name": {
+      "en": "Nouadhibou Specialty Hospital Center & Hôpital de la Fraternidad — Nouadhibou",
+      "fr": "Centre Hospitalier des Spécialités de Nouadhibou & Hôpital de la Fraternidad",
+      "ar": "مركز نواذيبو للتخصصات الطبية ومستشفى الإخاء — نواذيبو"
+    },
+    "categoryBadge": {
+      "en": "Regional Specialty & Maternity Hospital"
+    },
+    "phone": "+222 45 74 90 10",
+    "emergencyHotline": "101 (SAMU) / 117 (Police)",
+    "address": {
+      "en": "Near Nouadhibou International Airport, Nouadhibou, Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Gynecology & Specialized Surgical Care",
+        "Maternal-Child Health, Pediatrics & Diagnostic Imaging",
+        "Multi-Specialty Referral Center for Northern Mauritania"
+      ]
+    },
+    "directionsText": {
+      "en": "Public specialty hospital center near Nouadhibou International Airport alongside Hôpital de la Fraternidad, serving Nouadhibou and northern Mauritania."
+    }
+  },
+  {
+    "id": "mauritania-hosp-kaedi-gorgol",
+    "regionDistrict": "Kaédi, Gorgol Region, Mauritania",
+    "type": "hospital",
+    "lat": 16.1503,
+    "lng": -13.5036,
+    "name": {
+      "en": "Kaédi Regional Hospital (Centre Hospitalier Régional de Kaédi) — Gorgol",
+      "fr": "Centre Hospitalier Régional de Kaédi (Gorgol)",
+      "ar": "المستشفى الجهوي في كيهيدي (غورغول)"
+    },
+    "categoryBadge": {
+      "en": "Regional Women’s, Maternity & General Hospital"
+    },
+    "phone": "+222 45 33 51 18",
+    "emergencyHotline": "101 (SAMU) / 117 (Police)",
+    "address": {
+      "en": "Kaédi, Gorgol Region, Southern Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Maternity Ward & Cesarean Delivery",
+        "Pediatrics, General Surgery & Internal Medicine",
+        "Regional Referral Hospital for the Gorgol River Valley"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional referral and maternity hospital for the Gorgol region in Kaédi. Call +222 45 33 51 18."
+    }
+  },
+  {
+    "id": "mauritania-hosp-boghe-aleg-brakna",
+    "regionDistrict": "Boghé & Aleg, Brakna Region, Mauritania",
+    "type": "hospital",
+    "lat": 16.5912,
+    "lng": -14.2714,
+    "name": {
+      "en": "Boghé Regional Hospital & Aleg Regional Hospital — Brakna Region",
+      "fr": "Hôpital Régional de Boghé & Centre Hospitalier d’Aleg (Brakna)",
+      "ar": "مستشفى بوغي الجهوي ومستشفى ألاك الجهوي (لبراكنة)"
+    },
+    "categoryBadge": {
+      "en": "Regional Women’s, Maternity & General Hospitals"
+    },
+    "phone": "+222 45 50 31 10",
+    "emergencyHotline": "101 (SAMU) / 117 (Police)",
+    "address": {
+      "en": "Boghé & Aleg, Brakna Region, Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Safe Childbirth, Prenatal & Postnatal Care",
+        "Emergency Obstetrics, Pediatrics & General Surgery",
+        "Regional Referral Hospitals for the Brakna Region"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional public hospitals in Boghé and Aleg serving the Brakna region."
+    }
+  },
+  {
+    "id": "mauritania-hosp-rosso-trarza",
+    "regionDistrict": "Rosso, Trarza Region, Mauritania",
+    "type": "hospital",
+    "lat": 16.5138,
+    "lng": -15.8053,
+    "name": {
+      "en": "Rosso Regional Hospital (Centre Hospitalier Régional de Rosso) — Trarza",
+      "fr": "Centre Hospitalier Régional de Rosso (Trarza)",
+      "ar": "المستشفى الجهوي في روصو (الترارزة)"
+    },
+    "categoryBadge": {
+      "en": "Regional Women’s, Maternity & General Hospital"
+    },
+    "phone": "+222 45 69 91 22",
+    "emergencyHotline": "101 (SAMU) / 117 (Police)",
+    "address": {
+      "en": "Rosso, Trarza Region, Southern Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Maternity & Neonatal Care",
+        "General Surgery, Internal Medicine & Infectious Disease Triage",
+        "Primary Regional Referral Hospital for Trarza"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral and maternity hospital in Rosso serving the Trarza region on the Senegal River border. Call +222 45 69 91 22."
+    }
+  },
+  {
+    "id": "mauritania-hosp-atar-zouerate-north",
+    "regionDistrict": "Atar (Adrar) & Zouerate (Tiris Zemmour), Mauritania",
+    "type": "hospital",
+    "lat": 20.5186,
+    "lng": -13.0499,
+    "name": {
+      "en": "Atar Regional Hospital (Adrar) & Zouerate Hospital (Tiris Zemmour)",
+      "fr": "Centre Hospitalier Régional d’Atar & Hôpital de Zouérate",
+      "ar": "المستشفى الجهوي في أطار ومستشفى ازويرات"
+    },
+    "categoryBadge": {
+      "en": "Regional Women’s, Maternity & General Hospitals"
+    },
+    "phone": "+222 45 46 42 10",
+    "emergencyHotline": "+222 45 44 12 15 (Zouerate) / 101",
+    "address": {
+      "en": "Atar (Adrar Region) & Zouerate (Tiris Zemmour Region), Northern Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Emergency Obstetrics & Surgical Care in Northern Mauritania",
+        "Pediatrics, Trauma Care & Outpatient Women’s Health",
+        "Serving Adrar and Tiris Zemmour Regions"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional hospitals serving northern Mauritania in Atar (Adrar, +222 45 46 42 10) and Zouerate (Tiris Zemmour, +222 45 44 12 15)."
+    }
+  },
+  {
+    "id": "mauritania-hosp-nema-selibabi-east-south",
+    "regionDistrict": "Néma (Hodh Ech Chargui) & Sélibabi (Guidimaka), Mauritania",
+    "type": "hospital",
+    "lat": 16.6172,
+    "lng": -7.2535,
+    "name": {
+      "en": "Néma Regional Hospital (Hodh Ech Chargui) & Sélibabi Regional Hospital (Guidimaka)",
+      "fr": "Centre Hospitalier de Néma & Centre Hospitalier Régional de Sélibabi",
+      "ar": "المستشفى الجهوي في النعمة والمستشفى الجهوي في سيلبابي"
+    },
+    "categoryBadge": {
+      "en": "Regional Women’s, Maternity & General Hospitals"
+    },
+    "phone": "+222 45 49 71 10",
+    "emergencyHotline": "+222 45 34 91 12 (Sélibabi) / 101",
+    "address": {
+      "en": "Néma (Hodh Ech Chargui) & Sélibabi (Guidimaka Region), Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Maternity & Safe Childbirth",
+        "High-Risk Maternal Referral Center for Hodh Ech Chargui & Guidimaka",
+        "Pediatrics, General Surgery & Emergency Medicine"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral and maternity hospitals serving Néma (Hodh Ech Chargui, +222 45 49 71 10) and Sélibabi (Guidimaka, +222 45 34 91 12)."
     }
   }
 ];

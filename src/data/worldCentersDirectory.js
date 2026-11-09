@@ -133622,5 +133622,448 @@ export const WORLD_CENTERS_DIRECTORY = [
       "en": "Tillabéri, Ouallam, Abala et Ayorou, Région de Tillabéri, Niger."
     },
     "website": "https://help.unhcr.org/niger/ou-chercher-de-laide/"
+  },
+  {
+    "id": "drc-wiki-kin-monkole",
+    "regionDistrict": "Commune de Mont-Ngafula, Kinshasa, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.4192,
+    "lng": 15.2918,
+    "name": {
+      "en": "Centre Hospitalier Mère et Enfant Monkole (CHME Monkole — Mother & Child Hospital, Kinshasa)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Mother & Child Hospital, OB/GYN, High-Risk Maternity & Neonatology"
+    },
+    "phone": "+243 896 903 385 / +243 999 932 143",
+    "emergencyHotline": "122 / +243 896 903 385",
+    "address": {
+      "en": "10, Avenue Monkole, Quartier Masanga-Mbila, Commune de Mont-Ngafula (et Annexe Gombe: 75 Av. Lokele), Kinshasa, DRC"
+    },
+    "services": {
+      "en": [
+        "Dedicated Mother & Child Referral Hospital (Maternité, Obstétrique, Gynécologie & Néonatologie)",
+        "Cervical & Breast Cancer Screening, Prenatal Care & Emergency C-Section",
+        "24/7 Emergency Maternal & Pediatric Care"
+      ]
+    },
+    "directionsText": {
+      "en": "10, Avenue Monkole, Quartier Masanga-Mbila, Commune de Mont-Ngafula, Kinshasa."
+    },
+    "website": "https://monkole.cd"
+  },
+  {
+    "id": "drc-wiki-kin-biamba-mutombo",
+    "regionDistrict": "Commune de Masina, Kinshasa, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.3875,
+    "lng": 15.3942,
+    "name": {
+      "en": "Hôpital Biamba Marie Mutombo (HBMM — Masina, Kinshasa)"
+    },
+    "categoryBadge": {
+      "en": "24/7 General & Maternity Hospital, OB/GYN & Women’s Oncology Screening"
+    },
+    "phone": "+243 812 235 424 / +243 817 442 511 / +243 812 932 276",
+    "emergencyHotline": "122 / +243 812 235 424",
+    "address": {
+      "en": "Boulevard Lumumba (Croisement Av. de la Victoire, Quartier Boba), Commune de Masina, Kinshasa, DRC"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & Neonatal Intensive Care",
+        "Free Annual Cervical & Breast Cancer Screening Campaigns for Women",
+        "Emergency Trauma & Surgical Care (+243 812 235 424)"
+      ]
+    },
+    "directionsText": {
+      "en": "Boulevard Lumumba, Quartier Boba, Commune de Masina, Kinshasa."
+    }
+  },
+  {
+    "id": "drc-wiki-kin-cuk",
+    "regionDistrict": "Commune de Lemba, Kinshasa, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.4178,
+    "lng": 15.3065,
+    "name": {
+      "en": "Cliniques Universitaires de Kinshasa (CUK — Département de Gynécologie-Obstétrique)"
+    },
+    "categoryBadge": {
+      "en": "National University Teaching Hospital, OB/GYN & SGBV Holistic Referral"
+    },
+    "phone": "+243 897 235 775 / +243 808 395 481 / +243 815 550 071",
+    "emergencyHotline": "122 / +243 897 235 775",
+    "address": {
+      "en": "Route de Kimwenza, Campus de l’Université de Kinshasa (UNIKIN), Commune de Lemba, Kinshasa, DRC"
+    },
+    "services": {
+      "en": [
+        "Tertiary Obstetrics & Gynecology, High-Risk Pregnancy & Fistula Repair",
+        "Forensic & Medical Care for Survivors of Sexual and Gender-Based Violence"
+      ]
+    },
+    "directionsText": {
+      "en": "Route de Kimwenza, Campus UNIKIN, Commune de Lemba, Kinshasa."
+    }
+  },
+  {
+    "id": "drc-wiki-kin-cinquantenaire",
+    "regionDistrict": "Commune de Kasa-Vubu, Kinshasa, Democratic Republic of the Congo",
+    "type": "hospital",
+    "lat": -4.3365,
+    "lng": 15.2988,
+    "name": {
+      "en": "Hôpital du Cinquantenaire de Kinshasa (Maternité & Gynécologie)"
+    },
+    "categoryBadge": {
+      "en": "National Referral Hospital — OB/GYN, Maternity & Advanced Imaging"
+    },
+    "phone": "+243 817 006 060 / +243 815 550 071",
+    "emergencyHotline": "122 / 112",
+    "address": {
+      "en": "Avenue de la Libération (ex-24 Novembre), Commune de Kasa-Vubu, Kinshasa, DRC"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Gynecology, Surgical Emergencies & Diagnostic Imaging",
+        "Emergency Obstetric & Post-Assault Medical Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Avenue de la Libération, Commune de Kasa-Vubu, Kinshasa."
+    }
+  },
+  {
+    "id": "drc-wiki-kin-ngaliema",
+    "regionDistrict": "Commune de la Gombe, Kinshasa, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.3115,
+    "lng": 15.2762,
+    "name": {
+      "en": "Clinique Ngaliema (Service de Gynécologie-Obstétrique — Gombe, Kinshasa)"
+    },
+    "categoryBadge": {
+      "en": "Public Referral Hospital, Maternity & Gynecology Center"
+    },
+    "phone": "+243 810 044 920 / +243 815 293 268",
+    "emergencyHotline": "122 / +243 810 044 920",
+    "address": {
+      "en": "8480, Avenue Papa Ileo (ex-Avenue des Cliniques), Commune de la Gombe, Kinshasa, DRC"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Obstetrics, Gynecology & Neonatal Care",
+        "Comprehensive Women’s Health & Emergency Care"
+      ]
+    },
+    "directionsText": {
+      "en": "8480, Avenue Papa Ileo (ex-des Cliniques), Commune de la Gombe, Kinshasa."
+    },
+    "website": "https://cliniquengaliema.org"
+  },
+  {
+    "id": "drc-wiki-kin-saint-joseph",
+    "regionDistrict": "Commune de Limete, Kinshasa, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.3512,
+    "lng": 15.3395,
+    "name": {
+      "en": "Hôpital Saint-Joseph de Kinshasa (Maternité & Centre Fistule — Limete)"
+    },
+    "categoryBadge": {
+      "en": "Non-Profit Diocesan Hospital — High-Volume Maternity & Fistula Repair"
+    },
+    "phone": "+243 815 293 268 / +243 896 903 385",
+    "emergencyHotline": "122 / 112",
+    "address": {
+      "en": "Avenue de la Foire N° 1811/104, Quartier Masiala (entre 14ème et 15ème Rue), Limete Résidentiel, Kinshasa, DRC"
+    },
+    "services": {
+      "en": [
+        "One of Kinshasa’s Largest Maternity Wards & Obstetric Fistula Repair Centers",
+        "Affordable Maternal, Neonatal & Gynecological Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Avenue de la Foire n° 1811/104, entre la 14ème et 15ème Rue, Limete Résidentiel, Kinshasa."
+    },
+    "website": "https://hopitalsaintjosephkinshasa.org"
+  },
+  {
+    "id": "drc-wiki-kin-nganda",
+    "regionDistrict": "Commune de Kintambo, Kinshasa, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.3318,
+    "lng": 15.2712,
+    "name": {
+      "en": "Centre Hospitalier Nganda (Maternité, Gynécologie & Oncologie Féminine — Kintambo, Kinshasa)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Oncology, Radiotherapy, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+243 818 130 950 / +243 898 950 500",
+    "emergencyHotline": "122 / +243 818 130 950",
+    "address": {
+      "en": "Avenue Haute Tension, Quartier Nganda, Commune de Kintambo, Kinshasa, DRC"
+    },
+    "services": {
+      "en": [
+        "Obstetrics, Gynecology, Maternity & Fertility Care",
+        "Specialized Breast & Cervical Cancer Diagnostics and Treatment"
+      ]
+    },
+    "directionsText": {
+      "en": "Quartier Nganda, Commune de Kintambo, Kinshasa."
+    }
+  },
+  {
+    "id": "drc-wiki-kin-hj-cmk-bondeko",
+    "regionDistrict": "Communes de Limete, Gombe & Kintambo, Kinshasa, Democratic Republic of the Congo",
+    "type": "hospital",
+    "lat": -4.3425,
+    "lng": 15.3312,
+    "name": {
+      "en": "HJ Hospitals, Centre Médical de Kinshasa (CMK), Clinique Bondeko, Centre Médical Phénix, Hôpital De Smet (Kinsuka) & CLOP"
+    },
+    "categoryBadge": {
+      "en": "Kinshasa Multi-Specialty & Women’s Health Hospital Network"
+    },
+    "phone": "+243 815 586 555 / +243 817 061 256",
+    "emergencyHotline": "122 / +243 815 586 555",
+    "address": {
+      "en": "HJ Hospitals (22309 Blvd Lumumba, Limete), CMK (Gombe), Clinique Bondeko (Limete), Kinsuka & Gombe, Kinshasa, DRC"
+    },
+    "services": {
+      "en": [
+        "HJ Hospitals 24/7 Emergency & OB/GYN (+243 815 586 555) & Centre Médical de Kinshasa CMK (+243 817 061 256)",
+        "Clinique Bondeko, Centre Médical Phénix, De Smet Hospital of Kinsuka (DHK) & CLOP (Clinique Oncologique du Pasteur)"
+      ]
+    },
+    "directionsText": {
+      "en": "Limete, Gombe et Kinsuka, Kinshasa, DRC."
+    },
+    "website": "https://hjhospitals.org"
+  },
+  {
+    "id": "drc-wiki-goma-hpnk",
+    "regionDistrict": "Quartier Les Volcans, Goma, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -1.6788,
+    "lng": 29.2262,
+    "name": {
+      "en": "Hôpital Provincial du Nord-Kivu (HPNK) / Hôpital Général de Goma"
+    },
+    "categoryBadge": {
+      "en": "Public Provincial Referral Hospital — 24/7 Maternity, OB/GYN & SGBV Care"
+    },
+    "phone": "+243 973 611 545 / +243 988 902 700",
+    "emergencyHotline": "122 / +243 973 611 545",
+    "address": {
+      "en": "Route Sake N° 57, Quartier Les Volcans, Commune de Goma, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Gynecology, C-Section & Neonatal Care (+243 973 611 545)",
+        "72-Hour Post-Assault Medical Care & Psychosocial Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Route Sake N° 57, Quartier Les Volcans, Commune de Goma, Nord-Kivu."
+    },
+    "website": "https://hpnkgoma.org"
+  },
+  {
+    "id": "drc-wiki-goma-charite-maternelle",
+    "regionDistrict": "Quartier Mapendo, Goma, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -1.6762,
+    "lng": 29.2315,
+    "name": {
+      "en": "Hôpital Général de Référence Charité Maternelle de Goma"
+    },
+    "categoryBadge": {
+      "en": "Maternity & OB/GYN Reference Hospital (Goma)"
+    },
+    "phone": "+243 852 206 560",
+    "emergencyHotline": "122 / +243 852 206 560",
+    "address": {
+      "en": "Boulevard Karisimbi N° 61, Quartier Mapendo, Commune de Goma, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Dedicated Maternal, Obstetric, Gynecological & Neonatal Reference Hospital",
+        "Prenatal Care, Safe Delivery & Postpartum Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Boulevard Karisimbi N° 61, Quartier Mapendo, Goma, Nord-Kivu."
+    },
+    "website": "https://hopitalcharitematernelle.org"
+  },
+  {
+    "id": "drc-wiki-goma-cbca-ndosho-virunga",
+    "regionDistrict": "Quartiers Ndosho, Virunga & Katindo, Goma, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "hospital",
+    "lat": -1.6615,
+    "lng": 29.2118,
+    "name": {
+      "en": "Hôpital CBCA Ndosho (Appui CICR), Hôpital CBCA Virunga, Goma Sanru, CH La Providence, Skyborne, CIMAK & CLOIC (Goma)"
+    },
+    "categoryBadge": {
+      "en": "Goma Surgical, Maternity & Oncology Hospital Network"
+    },
+    "phone": "+243 997 715 197 / +243 975 039 633",
+    "emergencyHotline": "122 / +243 997 715 197",
+    "address": {
+      "en": "Quartiers Ndosho, Virunga & Katindo, Ville de Goma, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Hôpital CBCA Ndosho (ICRC-Supported Emergency Trauma & Obstetric Surgery) & CBCA Virunga (+243 997 715 197)",
+        "Goma Sanru Hospital, Centre Hospitalier La Providence, Skyborne Hospital & Centre Médical Alanine",
+        "CIMAK Medical Imaging (+243 975 039 633) & CLOIC (Clinique Oncologique Intégrative du Congo)"
+      ]
+    },
+    "directionsText": {
+      "en": "Quartiers Ndosho, Virunga et Katindo, Ville de Goma, Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-wiki-bukavu-hpgrb",
+    "regionDistrict": "Commune de Kadutu, Bukavu, Sud-Kivu, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -2.5085,
+    "lng": 28.8542,
+    "name": {
+      "en": "Hôpital Provincial Général de Référence de Bukavu (HPGRB)"
+    },
+    "categoryBadge": {
+      "en": "Provincial Teaching & Referral Hospital — OB/GYN & Maternity (Bukavu)"
+    },
+    "phone": "+243 843 520 357 / +243 895 178 126",
+    "emergencyHotline": "122 / +243 843 520 357",
+    "address": {
+      "en": "Avenue Michombero, Commune de Kadutu, Bukavu, Sud-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "24/7 High-Risk Maternity, Gynecology, Neonatal & Surgical Care",
+        "Emergency Clinical Management of Sexual & Gender-Based Violence"
+      ]
+    },
+    "directionsText": {
+      "en": "Avenue Michombero, Commune de Kadutu, Bukavu, Sud-Kivu."
+    },
+    "website": "https://hpgrbukavu.org"
+  },
+  {
+    "id": "drc-wiki-uvira-lemera",
+    "regionDistrict": "Uvira & Lemera (Territoire d’Uvira), Sud-Kivu, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -3.3915,
+    "lng": 29.1412,
+    "name": {
+      "en": "Hôpital Général de Référence d’Uvira & Hôpital de Lemera (Territoire d’Uvira, Sud-Kivu)"
+    },
+    "categoryBadge": {
+      "en": "Reference Maternity & SGBV Emergency Hospitals (Uvira & Lemera)"
+    },
+    "phone": "+243 811 443 123 / +243 843 520 357",
+    "emergencyHotline": "122 / 112",
+    "address": {
+      "en": "Ville d’Uvira & Cité de Lemera (Hauts Plateaux / Plaine de la Ruzizi), Territoire d’Uvira, Sud-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetric & Gynecological Care in Uvira and Lemera",
+        "72-Hour Post-Assault PEP Kits & Referral to Panzi Legal Clinic Uvira"
+      ]
+    },
+    "directionsText": {
+      "en": "Ville d’Uvira et Cité de Lemera, Territoire d’Uvira, Sud-Kivu."
+    }
+  },
+  {
+    "id": "drc-wiki-lubumbashi-sendwe",
+    "regionDistrict": "Ville de Lubumbashi, Province du Haut-Katanga, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -11.6645,
+    "lng": 27.4882,
+    "name": {
+      "en": "Hôpital Provincial Général de Référence Jason Sendwe (Maternité — Lubumbashi)"
+    },
+    "categoryBadge": {
+      "en": "Provincial Referral Hospital — 24/7 Maternity & OB/GYN (Lubumbashi)"
+    },
+    "phone": "+243 812 793 148",
+    "emergencyHotline": "122 / +243 812 793 148",
+    "address": {
+      "en": "Avenue Sendwe, Commune de Lubumbashi, Ville de Lubumbashi, Haut-Katanga, DRC"
+    },
+    "services": {
+      "en": [
+        "Largest Public Maternity & OB/GYN Referral Hospital in Haut-Katanga",
+        "24/7 Emergency Obstetrics, Fistula Repair & SGBV Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Avenue Sendwe, Ville de Lubumbashi, Haut-Katanga."
+    }
+  },
+  {
+    "id": "drc-wiki-kisantu-saint-luc",
+    "regionDistrict": "Kisantu (Inkisi), Province du Kongo Central, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -5.1325,
+    "lng": 15.0592,
+    "name": {
+      "en": "Hôpital Saint-Luc de Kisantu (Hôpital Général de Référence — Kongo Central)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Diocesan Referral Hospital — Maternity & OB/GYN (Kisantu)"
+    },
+    "phone": "+243 998 587 954 / +243 891 616 211",
+    "emergencyHotline": "122 / +243 891 616 211",
+    "address": {
+      "en": "Kisantu (Inkisi), Territoire de Madimba, Province du Kongo Central, DRC"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Maternity, C-Section, Gynecology & Neonatal Care (+243 891 616 211)",
+        "Regional Referral Hospital for Kongo Central"
+      ]
+    },
+    "directionsText": {
+      "en": "Kisantu (Inkisi), Province du Kongo Central, DRC."
+    },
+    "website": "https://hslkisantu.cd"
+  },
+  {
+    "id": "drc-wiki-kimpese-ime",
+    "regionDistrict": "Cité de Kimpese, Province du Kongo Central, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -5.5582,
+    "lng": 14.4325,
+    "name": {
+      "en": "Institut Médical Évangélique (IME) de Kimpese / Kimpese Sanru Hospital (Kongo Central)"
+    },
+    "categoryBadge": {
+      "en": "Non-Profit Referral Hospital — Maternity, OB/GYN & Fistula Surgery (Kimpese)"
+    },
+    "phone": "+243 891 489 725",
+    "emergencyHotline": "122 / +243 891 489 725",
+    "address": {
+      "en": "Route Nationale N° 1, Cité de Kimpese, Territoire de Songololo, Province du Kongo Central, DRC"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Obstetrics, Reconstructive Surgery & Women’s Health Care",
+        "UNHCR Partner Referral Hospital for Refugees & Host Communities in Kongo Central"
+      ]
+    },
+    "directionsText": {
+      "en": "Cité de Kimpese, Route Nationale 1, Kongo Central, DRC."
+    }
   }
 ];

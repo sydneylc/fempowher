@@ -10,53 +10,53 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=156';
-import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=156';
-import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=156';
-import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=156';
-import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=156';
-import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=156';
+} from './data/translations.js?v=157';
+import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=157';
+import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=157';
+import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=157';
+import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=157';
+import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=157';
 
 // Import individual Page Components from src/pages/
-import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=156';
-import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=156';
-import NewUserPage from './pages/NewUserPage.js?v=156';
-import SignInPage from './pages/SignInPage.js?v=156';
-import AnonPage1 from './pages/AnonPage1.js?v=156';
-import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=156';
-import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=156';
-import MapLegend1 from './pages/MapLegend1.js?v=156';
-import DatabasePage1 from './pages/DatabasePage1.js?v=156';
-import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=156';
-import MyBodyHomePage from './pages/MyBodyHomePage.js?v=156';
-import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=156';
-import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=156';
-import PregnancyHomePage from './pages/PregnancyHomePage.js?v=156';
-import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=156';
-import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=156';
-import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=156';
-import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=156';
-import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=156';
-import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=156';
-import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=156';
-import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=156';
-import PostpartumHomePage from './pages/PostpartumHomePage.js?v=156';
-import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=156';
-import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=156';
-import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=156';
-import MenopauseHomePage from './pages/MenopauseHomePage.js?v=156';
-import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=156';
-import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=156';
-import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=156';
-import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=156';
-import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=156';
-import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=156';
-import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=156';
-import ForMeHomePage from './pages/ForMeHomePage.js?v=156';
-import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=156';
-import WorldviewHomePage from './pages/WorldviewHomePage.js?v=156';
-import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=156';
-import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=156';
+import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=157';
+import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=157';
+import NewUserPage from './pages/NewUserPage.js?v=157';
+import SignInPage from './pages/SignInPage.js?v=157';
+import AnonPage1 from './pages/AnonPage1.js?v=157';
+import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=157';
+import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=157';
+import MapLegend1 from './pages/MapLegend1.js?v=157';
+import DatabasePage1 from './pages/DatabasePage1.js?v=157';
+import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=157';
+import MyBodyHomePage from './pages/MyBodyHomePage.js?v=157';
+import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=157';
+import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=157';
+import PregnancyHomePage from './pages/PregnancyHomePage.js?v=157';
+import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=157';
+import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=157';
+import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=157';
+import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=157';
+import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=157';
+import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=157';
+import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=157';
+import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=157';
+import PostpartumHomePage from './pages/PostpartumHomePage.js?v=157';
+import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=157';
+import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=157';
+import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=157';
+import MenopauseHomePage from './pages/MenopauseHomePage.js?v=157';
+import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=157';
+import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=157';
+import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=157';
+import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=157';
+import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=157';
+import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=157';
+import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=157';
+import ForMeHomePage from './pages/ForMeHomePage.js?v=157';
+import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=157';
+import WorldviewHomePage from './pages/WorldviewHomePage.js?v=157';
+import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=157';
+import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=157';
 
 const h = React.createElement;
 
@@ -396,6 +396,22 @@ export default function App() {
       ? mapCenterCoords
       : currentRegion.userLocation || [20.0, 15.0];
 
+  const isSafeHavenFacility = (c) => {
+    if (!c) return false;
+    const rawType = String(c.type || '').trim().toLowerCase();
+    return (
+      rawType === 'safe-haven' ||
+      rawType === 'safe haven' ||
+      rawType === 'safehaven' ||
+      rawType === 'safe_haven' ||
+      rawType.includes('safe') ||
+      rawType.includes('haven') ||
+      rawType.includes('shelter') ||
+      rawType.includes('refuge') ||
+      rawType.includes('crisis')
+    );
+  };
+
   const allGlobalEmergencyPool = (() => {
     const curatedPool = [
       ...(CLINICS_BY_REGION['total-anon-earth'] || []),
@@ -424,7 +440,7 @@ export default function App() {
       if (!hasRealPhone) continue;
       const isDuplicateNearCurated = result.some(
         (cur) =>
-          (cur.type === 'safe-haven') === (liveC.type === 'safe-haven') &&
+          isSafeHavenFacility(cur) === isSafeHavenFacility(liveC) &&
           parseFloat(getDistanceKm(cur.lat, cur.lng, liveC.lat, liveC.lng)) < 2.5
       );
       if (isDuplicateNearCurated) continue;
@@ -493,7 +509,7 @@ export default function App() {
   const hasWomensHealthInTitle = (c) => {
     if (!c) return false;
     const allNames = c.name && typeof c.name === 'object' ? Object.values(c.name).join(' ') : String(c.name || '');
-    if (c.type === 'safe-haven') {
+    if (isSafeHavenFacility(c)) {
       return /matern|obstet|obstét|ginec|gynec|gynaec|ob\/gyn|ob-gyn|obgyn|midwife|midwifery|perinat|daktor meye|umuliso/i.test(
         allNames
       );
@@ -502,12 +518,13 @@ export default function App() {
   };
 
   const isWomensHealthFacility = (c) => {
-    if (!c || c.type === 'safe-haven') return false;
-    return c.type === 'obgyn' || hasWomensHealthInTitle(c);
+    if (!c || isSafeHavenFacility(c)) return false;
+    const rawType = String(c.type || '').trim().toLowerCase();
+    return rawType === 'obgyn' || hasWomensHealthInTitle(c);
   };
 
   const rawSortedHospitals = allGlobalEmergencyPool
-    .filter((c) => c.type !== 'safe-haven')
+    .filter((c) => !isSafeHavenFacility(c))
     .map((c) => ({
       ...c,
       distanceKmNum: parseFloat(getDistanceKm(emergencyUserLoc[0], emergencyUserLoc[1], c.lat, c.lng))
@@ -515,7 +532,7 @@ export default function App() {
     .sort((a, b) => a.distanceKmNum - b.distanceKmNum);
 
   const rawSortedShelters = allGlobalEmergencyPool
-    .filter((c) => c.type === 'safe-haven')
+    .filter((c) => isSafeHavenFacility(c))
     .map((c) => ({
       ...c,
       distanceKmNum: parseFloat(getDistanceKm(emergencyUserLoc[0], emergencyUserLoc[1], c.lat, c.lng))
@@ -800,11 +817,11 @@ export default function App() {
 
   const filteredClinics = clinics.filter((c) => {
     if (clinicFilter === 'all') return true;
-    if (clinicFilter === 'safe-haven') return c.type === 'safe-haven';
+    if (clinicFilter === 'safe-haven') return isSafeHavenFacility(c);
     if (clinicFilter === 'obgyn') {
       return isWomensHealthFacility(c);
     }
-    if (clinicFilter === 'hospital') return c.type !== 'safe-haven';
+    if (clinicFilter === 'hospital') return !isSafeHavenFacility(c);
     return c.type === clinicFilter;
   });
 
@@ -1366,7 +1383,7 @@ export default function App() {
 
     filteredClinics.forEach((clinic, idx) => {
       const isSelected = selectedClinic?.id === clinic.id;
-      const isSafeHaven = clinic.type === 'safe-haven';
+      const isSafeHaven = isSafeHavenFacility(clinic);
       const computedSize = Math.round(sizes[idx] * 0.84 * 10) / 10;
       const sizePx = isSelected ? Math.max(22, computedSize + 6) : Math.max(4.6, computedSize);
       const anchorPx = sizePx / 2;
@@ -1978,7 +1995,7 @@ export default function App() {
                         className: 'inline-block text-[11px] font-bold uppercase tracking-wide px-2.5 py-0.5 rounded-full mb-1',
                         style: { backgroundColor: '#FEACEC', color: '#9F133A'}
                       },
-                      selectedClinic.categoryBadge?.[lang] || selectedClinic.categoryBadge?.en || (selectedClinic.type === 'safe-haven' ? '24/7 Women’s Safe Haven' : 'Hospital & OB/GYN')
+                      selectedClinic.categoryBadge?.[lang] || selectedClinic.categoryBadge?.en || (isSafeHavenFacility(selectedClinic) ? '24/7 Women’s Safe Haven' : 'Hospital & OB/GYN')
                     ),
                     h(
                       'h3',

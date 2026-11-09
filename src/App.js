@@ -10,53 +10,53 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=148';
-import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=148';
-import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=123';
-import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=120';
-import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=148';
-import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=148';
+} from './data/translations.js?v=154';
+import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=154';
+import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=154';
+import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=154';
+import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=154';
+import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=154';
 
 // Import individual Page Components from src/pages/
-import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=17';
-import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=51';
-import NewUserPage from './pages/NewUserPage.js?v=119';
-import SignInPage from './pages/SignInPage.js?v=119';
-import AnonPage1 from './pages/AnonPage1.js?v=119';
-import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=18';
-import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=119';
-import MapLegend1 from './pages/MapLegend1.js?v=18';
-import DatabasePage1 from './pages/DatabasePage1.js?v=94';
-import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=142';
-import MyBodyHomePage from './pages/MyBodyHomePage.js?v=141';
-import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=140';
-import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=128';
-import PregnancyHomePage from './pages/PregnancyHomePage.js?v=137';
-import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=137';
-import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=133';
-import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=133';
-import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=133';
-import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=128';
-import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=128';
-import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=128';
-import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=128';
-import PostpartumHomePage from './pages/PostpartumHomePage.js?v=128';
-import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=128';
-import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=128';
-import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=128';
-import MenopauseHomePage from './pages/MenopauseHomePage.js?v=119';
-import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=130';
-import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=128';
-import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=128';
-import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=128';
-import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=128';
-import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=119';
-import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=119';
-import ForMeHomePage from './pages/ForMeHomePage.js?v=119';
-import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=141';
-import WorldviewHomePage from './pages/WorldviewHomePage.js?v=119';
-import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=119';
-import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=119';
+import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=154';
+import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=154';
+import NewUserPage from './pages/NewUserPage.js?v=154';
+import SignInPage from './pages/SignInPage.js?v=154';
+import AnonPage1 from './pages/AnonPage1.js?v=154';
+import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=154';
+import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=154';
+import MapLegend1 from './pages/MapLegend1.js?v=154';
+import DatabasePage1 from './pages/DatabasePage1.js?v=154';
+import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=154';
+import MyBodyHomePage from './pages/MyBodyHomePage.js?v=154';
+import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=154';
+import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=154';
+import PregnancyHomePage from './pages/PregnancyHomePage.js?v=154';
+import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=154';
+import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=154';
+import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=154';
+import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=154';
+import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=154';
+import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=154';
+import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=154';
+import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=154';
+import PostpartumHomePage from './pages/PostpartumHomePage.js?v=154';
+import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=154';
+import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=154';
+import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=154';
+import MenopauseHomePage from './pages/MenopauseHomePage.js?v=154';
+import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=154';
+import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=154';
+import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=154';
+import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=154';
+import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=154';
+import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=154';
+import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=154';
+import ForMeHomePage from './pages/ForMeHomePage.js?v=154';
+import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=154';
+import WorldviewHomePage from './pages/WorldviewHomePage.js?v=154';
+import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=154';
+import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=154';
 
 const h = React.createElement;
 
@@ -467,7 +467,9 @@ export default function App() {
 
   const getCleanClinicTitleAndPhone = (c) => {
     if (!c) return { cleanTitle: '', cleanPhone: '', cleanHotline: '' };
-    let rawTitle = String(c.name?.[lang] || c.name?.en || '').trim();
+    let rawTitle = String(
+      c.name?.[lang] || c.name?.en || c.names?.[lang] || c.names?.en || (typeof c.name === 'string' ? c.name : '')
+    ).trim();
     let extractedPhone = '';
     const match = rawTitle.match(
       /(?:[-–—•|,/(\s]*(?:tél\.?|tel\.?|téléphone|teléfono|telefono|phone|ph\.?|cel\.?|whatsapp)?\s*[:.]?\s*)((?:\+|00)?\d[\d\s\-().]{6,}\d)\)?\s*$/i
@@ -1908,11 +1910,11 @@ export default function App() {
                     activeRouteClinic.lat,
                     activeRouteClinic.lng
                   )} km ${t.distanceAway})`),
-                h('div', { className: 'font-bold text-sm mt-0.5'}, activeRouteClinic.name[lang] || activeRouteClinic.name.en),
+                h('div', { className: 'font-bold text-sm mt-0.5'}, activeRouteClinic.name?.[lang] || activeRouteClinic.name?.en || activeRouteClinic.names?.[lang] || activeRouteClinic.names?.en || ''),
                 h(
                   'div',
                   { className: 'mt-0.5', style: { color: '#FEACEC'} },
-                  activeRouteClinic.directionsText[lang] || activeRouteClinic.directionsText.en
+                  activeRouteClinic.directionsText?.[lang] || activeRouteClinic.directionsText?.en || activeRouteClinic.details?.en || ''
                 )
               ),
               h(
@@ -1924,8 +1926,8 @@ export default function App() {
                     onClick: () =>
                       speakText(
                         'route-voice',
-                        `${activeRouteClinic.name[lang] || activeRouteClinic.name.en}. ${
-                          activeRouteClinic.directionsText[lang] || activeRouteClinic.directionsText.en
+                        `${activeRouteClinic.name?.[lang] || activeRouteClinic.name?.en || activeRouteClinic.names?.en || ''}. ${
+                          activeRouteClinic.directionsText?.[lang] || activeRouteClinic.directionsText?.en || activeRouteClinic.details?.en || ''
                         }`),
                     className: 'px-2.5 py-1.5 rounded-lg font-bold text-xs',
                     style: { backgroundColor: '#FEACEC', color: '#9F133A'}
@@ -1976,7 +1978,7 @@ export default function App() {
                         className: 'inline-block text-[11px] font-bold uppercase tracking-wide px-2.5 py-0.5 rounded-full mb-1',
                         style: { backgroundColor: '#FEACEC', color: '#9F133A'}
                       },
-                      selectedClinic.categoryBadge[lang] || selectedClinic.categoryBadge.en
+                      selectedClinic.categoryBadge?.[lang] || selectedClinic.categoryBadge?.en || (selectedClinic.type === 'safe-haven' ? '24/7 Women’s Safe Haven' : 'Hospital & OB/GYN')
                     ),
                     h(
                       'h3',
@@ -2004,7 +2006,7 @@ export default function App() {
                   h(
                     'div',
                     { className: 'font-bold'},
-                    selectedClinic.address[lang] || selectedClinic.address.en,
+                    selectedClinic.address?.[lang] || selectedClinic.address?.en || (typeof selectedClinic.address === 'string' ? selectedClinic.address : ''),
                     ' (',
                     h(
                       'bdi',
@@ -2033,7 +2035,7 @@ export default function App() {
                   h(
                     'ul',
                     { className: 'space-y-1'},
-                    (selectedClinic.services[lang] || selectedClinic.services.en).map((srv, idx) => {
+                    (selectedClinic.services?.[lang] || selectedClinic.services?.en || (Array.isArray(selectedClinic.services) ? selectedClinic.services : [])).map((srv, idx) => {
                       const enSrv = selectedClinic.services?.en?.[idx] || '';
                       const isFemaleHealthLine = MATERNITY_NAME_REGEX.test(`${srv || ''} ${enSrv}`);
                       return h(
@@ -2053,7 +2055,7 @@ export default function App() {
                     className: 'mt-2.5 text-xs p-2.5 rounded-xl border font-bold',
                     style: { backgroundColor: '#FFF0FA', borderColor: '#CF366C', color: '#9F133A'}
                   },
-                  selectedClinic.directionsText[lang] || selectedClinic.directionsText.en
+                  selectedClinic.directionsText?.[lang] || selectedClinic.directionsText?.en || selectedClinic.details?.en || ''
                 ),
                 h(
                   'div',
@@ -2084,9 +2086,9 @@ export default function App() {
                       speakText(
                         `clinic-${selectedClinic.id}`,
                         `${cleanTitle}. ${
-                          selectedClinic.address[lang] || selectedClinic.address.en
-                        }. ${(selectedClinic.services[lang] || selectedClinic.services.en).join('. ')}. ${
-                          selectedClinic.directionsText[lang] || selectedClinic.directionsText.en
+                          selectedClinic.address?.[lang] || selectedClinic.address?.en || ''
+                        }. ${(selectedClinic.services?.[lang] || selectedClinic.services?.en || []).join('. ')}. ${
+                          selectedClinic.directionsText?.[lang] || selectedClinic.directionsText?.en || ''
                         }`),
                     className: 'mt-2 w-full py-2 px-3 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5',
                     style: { backgroundColor: '#FEACEC', color: '#9F133A'}

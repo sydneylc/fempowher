@@ -20551,7 +20551,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "world-hosp-211",
     "regionDistrict": "Billings / Crow Agency Rural Montana, USA",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 45.783,
     "lng": -108.5,
     "name": {
@@ -22147,7 +22147,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "world-hosp-235-u2",
     "regionDistrict": "El Fasher / Nyala, Darfur, Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 13.643,
     "lng": 25.331,
     "name": {
@@ -41464,7 +41464,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "nafrica-hosp-970-u2",
     "regionDistrict": "Kufra Oasis, Southeastern Sahara, Libya",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 24.2149,
     "lng": 23.2729,
     "name": {
@@ -42584,7 +42584,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "nafrica-hosp-985-u2",
     "regionDistrict": "Marsa Matrouh / Siwa Oasis, Western Desert, Egypt",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 31.3703,
     "lng": 27.2193,
     "name": {
@@ -44319,7 +44319,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "afg-hosp-1080-u2",
     "regionDistrict": "Sharana / Urgun, Paktika Province, Afghanistan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 33.1554,
     "lng": 68.7567,
     "name": {
@@ -51571,7 +51571,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "rus-hosp-1288-u2",
     "regionDistrict": "Saint Petersburg (Vasileostrovsky / Moika), Russia",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 59.9572,
     "lng": 30.2865,
     "name": {
@@ -51627,7 +51627,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "rus-hosp-1289",
     "regionDistrict": "Saint Petersburg (Suvorovsky / Liteyny), Russia",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 59.9389,
     "lng": 30.3694,
     "name": {
@@ -63751,7 +63751,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ago-hosp-1606-u2",
     "regionDistrict": "Luanda (Camama / Talatona), Luanda Province, Angola",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -8.9025,
     "lng": 13.2662,
     "name": {
@@ -72628,8 +72628,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1794-u2",
     "regionDistrict": "Ramallah, Jerusalem, Bethlehem & Nablus, Palestine",
     "type": "hospital",
-    "lat": 31.9198,
-    "lng": 35.1854,
+    "lat": 31.7797,
+    "lng": 35.2458,
     "name": {
       "en": "Al-Makassed Hospital"
     },
@@ -72639,7 +72639,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+970 2 240 6260",
     "emergencyHotline": "121 (SAWA Toll-Free 24/7 Women’s Helpline)",
     "address": {
-      "en": "146 Hospital Road, Ramallah, Jerusalem, Bethlehem & Nablus, Palestine, 1219"
+      "en": "Mount of Olives (At-Tur), East Jerusalem, Palestine"
     },
     "services": {
       "en": [
@@ -72656,8 +72656,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1794-u3",
     "regionDistrict": "Ramallah, Jerusalem, Bethlehem & Nablus, Palestine",
     "type": "hospital",
-    "lat": 31.8868,
-    "lng": 35.2224,
+    "lat": 32.2225,
+    "lng": 35.2415,
     "name": {
       "en": "Rafidia Hospital"
     },
@@ -72667,7 +72667,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+970 2 240 6260",
     "emergencyHotline": "121 (SAWA Toll-Free 24/7 Women’s Helpline)",
     "address": {
-      "en": "123 Hospital Road, Ramallah, Jerusalem, Bethlehem & Nablus, Palestine, 8244"
+      "en": "Rafidia Street, Nablus, West Bank, Palestine"
     },
     "services": {
       "en": [
@@ -78059,7 +78059,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "mng-hosp-1939",
     "regionDistrict": "Erdenet, Orkhon Province (Aimag), Mongolia",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 49.0278,
     "lng": 104.0444,
     "name": {
@@ -78339,7 +78339,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "mng-hosp-1943",
     "regionDistrict": "Arvaikheer, Övörkhangai Province, Mongolia",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 46.2639,
     "lng": 102.775,
     "name": {
@@ -78591,7 +78591,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "mng-hosp-1946",
     "regionDistrict": "Khovd, Khovd Province (Western Regional Hub), Mongolia",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 48.0056,
     "lng": 91.6419,
     "name": {
@@ -78927,7 +78927,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "mng-hosp-1950",
     "regionDistrict": "Dalanzadgad, Ömnögovi Province (South Gobi Desert), Mongolia",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 43.5708,
     "lng": 104.425,
     "name": {
@@ -79151,7 +79151,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "mng-hosp-1952",
     "regionDistrict": "Choibalsan, Dornod Province (Eastern Mongolia), Mongolia",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 48.0725,
     "lng": 114.5328,
     "name": {
@@ -95559,7 +95559,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "usa-hosp-4065-u3",
     "regionDistrict": "Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 42.8322,
     "lng": -106.2959,
     "name": {
@@ -103819,7 +103819,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6001",
     "regionDistrict": "Recoleta, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5919,
     "lng": -58.4025,
     "name": {
@@ -103847,7 +103847,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6002",
     "regionDistrict": "Barracas / Parque Patricios, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6331,
     "lng": -58.3908,
     "name": {
@@ -103875,7 +103875,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6003",
     "regionDistrict": "Parque Patricios, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6406,
     "lng": -58.4092,
     "name": {
@@ -103903,7 +103903,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6004",
     "regionDistrict": "Balvanera / Recoleta, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5989,
     "lng": -58.3994,
     "name": {
@@ -103931,7 +103931,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6005",
     "regionDistrict": "La Boca, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6283,
     "lng": -58.3658,
     "name": {
@@ -103959,7 +103959,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6006",
     "regionDistrict": "Recoleta, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5844,
     "lng": -58.4064,
     "name": {
@@ -103987,7 +103987,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6007",
     "regionDistrict": "Caballito, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6094,
     "lng": -58.4381,
     "name": {
@@ -104015,7 +104015,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6008",
     "regionDistrict": "Palermo, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5814,
     "lng": -58.4097,
     "name": {
@@ -104043,7 +104043,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6009",
     "regionDistrict": "Balvanera, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6172,
     "lng": -58.4094,
     "name": {
@@ -104071,7 +104071,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6010",
     "regionDistrict": "Flores, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6239,
     "lng": -58.4694,
     "name": {
@@ -104099,7 +104099,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6011",
     "regionDistrict": "Coghlan, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5653,
     "lng": -58.4711,
     "name": {
@@ -104155,7 +104155,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6013",
     "regionDistrict": "Monte Castro, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.625,
     "lng": -58.5067,
     "name": {
@@ -104183,7 +104183,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6014",
     "regionDistrict": "Flores, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6433,
     "lng": -58.4561,
     "name": {
@@ -104211,7 +104211,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6015",
     "regionDistrict": "Liniers, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6486,
     "lng": -58.515,
     "name": {
@@ -104239,7 +104239,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6016",
     "regionDistrict": "Parque Patricios, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6442,
     "lng": -58.4119,
     "name": {
@@ -104295,7 +104295,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6018",
     "regionDistrict": "Parque Patricios, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6347,
     "lng": -58.4044,
     "name": {
@@ -104323,7 +104323,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6019",
     "regionDistrict": "Almagro, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6064,
     "lng": -58.4256,
     "name": {
@@ -104379,7 +104379,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6021",
     "regionDistrict": "Balvanera, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6147,
     "lng": -58.3975,
     "name": {
@@ -104463,7 +104463,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6024",
     "regionDistrict": "Palermo, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5719,
     "lng": -58.4317,
     "name": {
@@ -104491,7 +104491,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6025",
     "regionDistrict": "Caballito / Parque Centenario, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.605,
     "lng": -58.4358,
     "name": {
@@ -104687,7 +104687,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6032",
     "regionDistrict": "Caballito, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6069,
     "lng": -58.4342,
     "name": {
@@ -104715,7 +104715,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6033",
     "regionDistrict": "Agronomía, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.595,
     "lng": -58.4942,
     "name": {
@@ -104743,7 +104743,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6034",
     "regionDistrict": "Barracas, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6356,
     "lng": -58.3847,
     "name": {
@@ -104939,7 +104939,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6041",
     "regionDistrict": "Palermo / Saavedra, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5819,
     "lng": -58.4042,
     "name": {
@@ -104995,7 +104995,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6043",
     "regionDistrict": "Recoleta, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5967,
     "lng": -58.4047,
     "name": {
@@ -105023,7 +105023,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6044",
     "regionDistrict": "Recoleta, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5958,
     "lng": -58.4022,
     "name": {
@@ -105051,7 +105051,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6045",
     "regionDistrict": "Palermo Chico, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5764,
     "lng": -58.4067,
     "name": {
@@ -105079,7 +105079,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6046",
     "regionDistrict": "Palermo, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5972,
     "lng": -58.4242,
     "name": {
@@ -105107,7 +105107,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6047",
     "regionDistrict": "Balvanera, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5997,
     "lng": -58.4056,
     "name": {
@@ -105135,7 +105135,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6048",
     "regionDistrict": "Palermo, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.575,
     "lng": -58.4267,
     "name": {
@@ -105163,7 +105163,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6049",
     "regionDistrict": "Palermo, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5794,
     "lng": -58.4269,
     "name": {
@@ -105191,7 +105191,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6050",
     "regionDistrict": "Recoleta, Buenos Aires (CABA), Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5928,
     "lng": -58.4069,
     "name": {
@@ -105247,7 +105247,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6052",
     "regionDistrict": "El Palomar / Morón, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6297,
     "lng": -58.5753,
     "name": {
@@ -105303,7 +105303,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6054",
     "regionDistrict": "Pilar, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.4567,
     "lng": -58.8669,
     "name": {
@@ -105331,7 +105331,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6055",
     "regionDistrict": "Lanús, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.7069,
     "lng": -58.3822,
     "name": {
@@ -105359,7 +105359,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6056",
     "regionDistrict": "Avellaneda, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6669,
     "lng": -58.3664,
     "name": {
@@ -105387,7 +105387,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6057",
     "regionDistrict": "Sarandí / Avellaneda, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6808,
     "lng": -58.3444,
     "name": {
@@ -105415,7 +105415,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6058",
     "regionDistrict": "General San Martín, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.5681,
     "lng": -58.5369,
     "name": {
@@ -105443,7 +105443,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6059",
     "regionDistrict": "Haedo / Morón, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6403,
     "lng": -58.5892,
     "name": {
@@ -105471,7 +105471,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6060",
     "regionDistrict": "General Rodríguez, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6022,
     "lng": -58.9606,
     "name": {
@@ -105499,7 +105499,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6061",
     "regionDistrict": "San Isidro, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.4775,
     "lng": -58.5236,
     "name": {
@@ -105527,7 +105527,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6062",
     "regionDistrict": "Gregorio de Laferrere (La Matanza), Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.7492,
     "lng": -58.5856,
     "name": {
@@ -105555,7 +105555,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6063",
     "regionDistrict": "González Catán (La Matanza), Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.7731,
     "lng": -58.6156,
     "name": {
@@ -105583,7 +105583,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6064",
     "regionDistrict": "La Plata, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.9214,
     "lng": -57.9347,
     "name": {
@@ -105667,7 +105667,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6067",
     "regionDistrict": "La Plata, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.9333,
     "lng": -57.9742,
     "name": {
@@ -105723,7 +105723,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6069",
     "regionDistrict": "Mar del Plata, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -38.0067,
     "lng": -57.5572,
     "name": {
@@ -105751,7 +105751,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6070",
     "regionDistrict": "Bahía Blanca, Provincia de Buenos Aires, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -38.7244,
     "lng": -62.2389,
     "name": {
@@ -105779,7 +105779,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6071",
     "regionDistrict": "Córdoba, Provincia de Córdoba, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -31.4075,
     "lng": -64.2056,
     "name": {
@@ -105863,7 +105863,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6074",
     "regionDistrict": "Córdoba, Provincia de Córdoba, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -31.4197,
     "lng": -64.1669,
     "name": {
@@ -105891,7 +105891,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6075",
     "regionDistrict": "Córdoba, Provincia de Córdoba, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -31.4486,
     "lng": -64.1939,
     "name": {
@@ -105919,7 +105919,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6076",
     "regionDistrict": "Córdoba, Provincia de Córdoba, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -31.4258,
     "lng": -64.1869,
     "name": {
@@ -105947,7 +105947,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6077",
     "regionDistrict": "Córdoba, Provincia de Córdoba, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -31.4256,
     "lng": -64.1422,
     "name": {
@@ -105975,7 +105975,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6078",
     "regionDistrict": "Villa María, Provincia de Córdoba, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -32.4044,
     "lng": -63.2356,
     "name": {
@@ -106003,7 +106003,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6079",
     "regionDistrict": "Río Cuarto, Provincia de Córdoba, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -33.1189,
     "lng": -64.3642,
     "name": {
@@ -106059,7 +106059,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6081",
     "regionDistrict": "Rosario, Provincia de Santa Fe, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -32.9383,
     "lng": -60.6644,
     "name": {
@@ -106087,7 +106087,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6082",
     "regionDistrict": "Rosario, Provincia de Santa Fe, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -32.9578,
     "lng": -60.6317,
     "name": {
@@ -106115,7 +106115,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6083",
     "regionDistrict": "Granadero Baigorria (Gran Rosario), Provincia de Santa Fe, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -32.8578,
     "lng": -60.7031,
     "name": {
@@ -106143,7 +106143,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6084",
     "regionDistrict": "Rosario, Provincia de Santa Fe, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -32.9997,
     "lng": -60.6467,
     "name": {
@@ -106171,7 +106171,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6085",
     "regionDistrict": "Santa Fe, Provincia de Santa Fe, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -31.6469,
     "lng": -60.7192,
     "name": {
@@ -106199,7 +106199,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6086",
     "regionDistrict": "Santa Fe, Provincia de Santa Fe, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -31.5889,
     "lng": -60.7169,
     "name": {
@@ -106283,7 +106283,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6089",
     "regionDistrict": "Godoy Cruz (Gran Mendoza), Provincia de Mendoza, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -32.9178,
     "lng": -68.8469,
     "name": {
@@ -106339,7 +106339,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6091",
     "regionDistrict": "San Rafael, Provincia de Mendoza, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -34.6197,
     "lng": -68.3375,
     "name": {
@@ -106507,7 +106507,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6097",
     "regionDistrict": "Paraná, Entre Ríos, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -31.7358,
     "lng": -60.5269,
     "name": {
@@ -106535,7 +106535,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6098",
     "regionDistrict": "Concordia, Entre Ríos, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -31.3683,
     "lng": -58.0211,
     "name": {
@@ -106619,7 +106619,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6101",
     "regionDistrict": "Eldorado, Misiones, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -26.4044,
     "lng": -54.6131,
     "name": {
@@ -106647,7 +106647,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6102",
     "regionDistrict": "Puerto Iguazú, Misiones, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -25.6019,
     "lng": -54.5719,
     "name": {
@@ -106675,7 +106675,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6103",
     "regionDistrict": "Presidencia Roque Sáenz Peña, Chaco, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -26.7889,
     "lng": -60.4369,
     "name": {
@@ -106703,7 +106703,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6104",
     "regionDistrict": "Formosa, Provincia de Formosa, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -26.1858,
     "lng": -58.1819,
     "name": {
@@ -106787,7 +106787,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6107",
     "regionDistrict": "San Fernando del Valle de Catamarca, Catamarca, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -28.4731,
     "lng": -65.7842,
     "name": {
@@ -106843,7 +106843,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6109",
     "regionDistrict": "La Rioja, Provincia de La Rioja, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -29.4067,
     "lng": -66.8542,
     "name": {
@@ -106899,7 +106899,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6111",
     "regionDistrict": "San Luis, Provincia de San Luis, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -33.2975,
     "lng": -66.3069,
     "name": {
@@ -106927,7 +106927,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6112",
     "regionDistrict": "Santa Rosa, La Pampa, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -36.6083,
     "lng": -64.2819,
     "name": {
@@ -106955,7 +106955,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6113",
     "regionDistrict": "Viedma, Río Negro, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -40.8139,
     "lng": -62.9967,
     "name": {
@@ -106983,7 +106983,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6114",
     "regionDistrict": "General Roca, Río Negro, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -39.0267,
     "lng": -67.5719,
     "name": {
@@ -107011,7 +107011,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6115",
     "regionDistrict": "Trelew, Chubut, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -43.2531,
     "lng": -65.3086,
     "name": {
@@ -107039,7 +107039,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6116",
     "regionDistrict": "Puerto Madryn, Chubut, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -42.7719,
     "lng": -65.0383,
     "name": {
@@ -107067,7 +107067,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6117",
     "regionDistrict": "El Calafate, Santa Cruz, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -50.3392,
     "lng": -72.2647,
     "name": {
@@ -107095,7 +107095,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "arg-wiki-hosp-6118",
     "regionDistrict": "Río Grande, Tierra del Fuego, Argentina",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -53.7869,
     "lng": -67.7056,
     "name": {
@@ -113205,7 +113205,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "png-wiki-hosp-24",
     "regionDistrict": "Waigani / Boroko, Port Moresby, National Capital District, Papua New Guinea",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -9.4519,
     "lng": 147.1889,
     "name": {
@@ -113373,7 +113373,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "png-wiki-hosp-30",
     "regionDistrict": "Togoba, Mount Hagen District, Western Highlands Province, Papua New Guinea",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -5.9106,
     "lng": 144.1619,
     "name": {
@@ -114835,7 +114835,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-15",
     "regionDistrict": "Fort McMurray, Alberta, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 56.7236,
     "lng": -111.3669,
     "name": {
@@ -114975,7 +114975,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-20",
     "regionDistrict": "Vancouver, British Columbia, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 49.2447,
     "lng": -123.1256,
     "name": {
@@ -115759,7 +115759,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-48",
     "regionDistrict": "Brandon, Manitoba, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 49.8394,
     "lng": -99.9389,
     "name": {
@@ -116179,7 +116179,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-63",
     "regionDistrict": "Grand Falls-Windsor, Newfoundland and Labrador, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 48.9389,
     "lng": -55.6619,
     "name": {
@@ -116207,7 +116207,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-64",
     "regionDistrict": "Gander, Newfoundland and Labrador, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 48.9589,
     "lng": -54.6186,
     "name": {
@@ -116235,7 +116235,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-65",
     "regionDistrict": "Happy Valley-Goose Bay, Newfoundland and Labrador, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 53.3089,
     "lng": -60.3519,
     "name": {
@@ -116319,7 +116319,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-68",
     "regionDistrict": "Hay River, Northwest Territories, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 60.8156,
     "lng": -115.7956,
     "name": {
@@ -116403,7 +116403,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-71",
     "regionDistrict": "Halifax, Nova Scotia, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 44.6378,
     "lng": -63.5856,
     "name": {
@@ -116515,7 +116515,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-75",
     "regionDistrict": "Truro, Nova Scotia, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 45.3519,
     "lng": -63.2856,
     "name": {
@@ -116795,7 +116795,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-85",
     "regionDistrict": "Toronto, Ontario, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 43.6394,
     "lng": -79.4508,
     "name": {
@@ -117803,7 +117803,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "canada-wiki-hosp-121",
     "regionDistrict": "Montreal, Quebec, Canada",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 45.4731,
     "lng": -73.6011,
     "name": {
@@ -120544,7 +120544,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "kazakh-hosp-7",
     "regionDistrict": "Astana, Kazakhstan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 51.0956,
     "lng": 71.4089,
     "name": {
@@ -120712,7 +120712,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "kazakh-hosp-13",
     "regionDistrict": "Almaty, Kazakhstan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 43.2356,
     "lng": 76.9639,
     "name": {
@@ -125488,7 +125488,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "Frikkie Meyer St, Kathu, 8446, South Africa."
-    }
+    },
+    "emergencyHotline": "+27 53 723 3231"
   },
   {
     "id": "za-wiki-hosp-135",
@@ -125513,7 +125514,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "19 End St, Postmasburg, 8420, South Africa."
-    }
+    },
+    "emergencyHotline": "+27 53 313 0665"
   },
   {
     "id": "za-wiki-hosp-136",
@@ -125538,7 +125540,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "DF Malan St, Hartswater, 8570, South Africa."
-    }
+    },
+    "emergencyHotline": "+27 53 474 0148"
   },
   {
     "id": "za-wiki-hosp-137",
@@ -125563,7 +125566,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "Grens St, Jan Kempdorp, 8550, South Africa."
-    }
+    },
+    "emergencyHotline": "+27 53 456 0114"
   },
   {
     "id": "namibia-hosp-1",
@@ -127521,7 +127525,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "zimbabwe-wiki-hosp-44",
     "regionDistrict": "Avenues, Harare, Zimbabwe",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -17.8186,
     "lng": 31.0469,
     "name": {
@@ -127861,7 +127865,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "caboverde-hosp-8",
     "regionDistrict": "Sal Rei, Boa Vista Island, Cabo Verde",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 16.1764,
     "lng": -22.9158,
     "name": {
@@ -127891,7 +127895,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "caboverde-hosp-9",
     "regionDistrict": "Santa Maria, Sal Island, Cabo Verde",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 16.5992,
     "lng": -22.9056,
     "name": {
@@ -127950,7 +127954,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "caboverde-hosp-11",
     "regionDistrict": "Sal Rei, Boa Vista Island, Cabo Verde",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 16.1786,
     "lng": -22.9178,
     "name": {
@@ -127978,7 +127982,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "caboverde-hosp-12",
     "regionDistrict": "Nova Sintra, Brava Island, Cabo Verde",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 14.8714,
     "lng": -24.6958,
     "name": {
@@ -128006,7 +128010,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "caboverde-hosp-13",
     "regionDistrict": "Porto Novo, Santo Antão Island, Cabo Verde",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 17.0208,
     "lng": -25.0647,
     "name": {
@@ -128034,7 +128038,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "caboverde-hosp-14",
     "regionDistrict": "Achada Santo António, Praia, Santiago Island, Cabo Verde",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 14.9086,
     "lng": -23.5186,
     "name": {
@@ -132014,7 +132018,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-panzi-hospital-one-stop-bukavu",
     "regionDistrict": "Quartier Panzi, Bukavu, Sud-Kivu, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -2.5389,
     "lng": 28.8608,
     "name": {
@@ -132153,7 +132157,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-tang-kalemie-1",
     "regionDistrict": "Ville de Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -5.9475,
     "lng": 29.1947,
     "name": {
@@ -132710,7 +132714,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-tang-nyemba-26",
     "regionDistrict": "Zone de Santé de Nyemba, Province du Tanganyika, Democratic Republic of the Congo",
-    "type": "clinic",
+    "type": "hospital",
     "lat": -5.915,
     "lng": 29.178,
     "name": {
@@ -132736,7 +132740,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-tang-nyemba-27",
     "regionDistrict": "Village Kyoko & Tundwa, Route Nyunzu, ZS Nyemba, Tanganyika, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -5.965,
     "lng": 28.985,
     "name": {
@@ -132842,7 +132846,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-tang-kabalo-36",
     "regionDistrict": "Cité de Kabalo, Province du Tanganyika, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -6.0548,
     "lng": 26.9165,
     "name": {
@@ -133059,7 +133063,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-nk-goma-heal-africa-keshero",
     "regionDistrict": "Ville de Goma, Nord-Kivu, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -1.6695,
     "lng": 29.2045,
     "name": {
@@ -133115,7 +133119,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-nk-karisimbi-virunga-cs",
     "regionDistrict": "Zone de Santé de Karisimbi (Virunga, Murara, Bujovu, Katoyi), Goma, Nord-Kivu, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -1.6512,
     "lng": 29.2385,
     "name": {
@@ -133626,7 +133630,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-kin-monkole",
     "regionDistrict": "Commune de Mont-Ngafula, Kinshasa, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.4192,
     "lng": 15.2918,
     "name": {
@@ -133655,7 +133659,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-kin-biamba-mutombo",
     "regionDistrict": "Commune de Masina, Kinshasa, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.3875,
     "lng": 15.3942,
     "name": {
@@ -133683,7 +133687,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-kin-cuk",
     "regionDistrict": "Commune de Lemba, Kinshasa, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.4178,
     "lng": 15.3065,
     "name": {
@@ -133737,7 +133741,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-kin-ngaliema",
     "regionDistrict": "Commune de la Gombe, Kinshasa, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.3115,
     "lng": 15.2762,
     "name": {
@@ -133765,7 +133769,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-kin-saint-joseph",
     "regionDistrict": "Commune de Limete, Kinshasa, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.3512,
     "lng": 15.3395,
     "name": {
@@ -133793,7 +133797,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-kin-nganda",
     "regionDistrict": "Commune de Kintambo, Kinshasa, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.3318,
     "lng": 15.2712,
     "name": {
@@ -133848,7 +133852,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-goma-hpnk",
     "regionDistrict": "Quartier Les Volcans, Goma, Nord-Kivu, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -1.6788,
     "lng": 29.2262,
     "name": {
@@ -133876,7 +133880,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-goma-charite-maternelle",
     "regionDistrict": "Quartier Mapendo, Goma, Nord-Kivu, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -1.6762,
     "lng": 29.2315,
     "name": {
@@ -133932,7 +133936,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-bukavu-hpgrb",
     "regionDistrict": "Commune de Kadutu, Bukavu, Sud-Kivu, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -2.5085,
     "lng": 28.8542,
     "name": {
@@ -133960,7 +133964,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-uvira-lemera",
     "regionDistrict": "Uvira & Lemera (Territoire d’Uvira), Sud-Kivu, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -3.3915,
     "lng": 29.1412,
     "name": {
@@ -133987,7 +133991,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-lubumbashi-sendwe",
     "regionDistrict": "Ville de Lubumbashi, Province du Haut-Katanga, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -11.6645,
     "lng": 27.4882,
     "name": {
@@ -134014,7 +134018,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-kisantu-saint-luc",
     "regionDistrict": "Kisantu (Inkisi), Province du Kongo Central, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -5.1325,
     "lng": 15.0592,
     "name": {
@@ -134042,7 +134046,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "drc-wiki-kimpese-ime",
     "regionDistrict": "Cité de Kimpese, Province du Kongo Central, Democratic Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -5.5582,
     "lng": 14.4325,
     "name": {
@@ -134069,7 +134073,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "roc-wiki-bzv-blanche-gomes",
     "regionDistrict": "Brazzaville, Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.2692,
     "lng": 15.2768,
     "name": {
@@ -134097,7 +134101,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "roc-wiki-bzv-talangai",
     "regionDistrict": "Arrondissement 6 Talangaï, Brazzaville, Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.2185,
     "lng": 15.2915,
     "name": {
@@ -134124,7 +134128,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "roc-wiki-bzv-makelekele",
     "regionDistrict": "Arrondissement 1 Makélékélé, Brazzaville, Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.2835,
     "lng": 15.2442,
     "name": {
@@ -134151,7 +134155,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "roc-wiki-pnr-loandjili",
     "regionDistrict": "Loandjili, Pointe-Noire, Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.7562,
     "lng": 11.8595,
     "name": {
@@ -134178,7 +134182,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "roc-wiki-pnr-tie-tie",
     "regionDistrict": "Arrondissement 3 Tié-Tié, Pointe-Noire, Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.7885,
     "lng": 11.8842,
     "name": {
@@ -134205,7 +134209,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "roc-wiki-dolisie-hopital",
     "regionDistrict": "Dolisie, Département du Niari, Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.1983,
     "lng": 12.6666,
     "name": {
@@ -134232,7 +134236,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "roc-wiki-plateaux-djambala-gamboma-abala",
     "regionDistrict": "Djambala, Gamboma & Abala, Département des Plateaux, Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -2.5447,
     "lng": 14.7533,
     "name": {
@@ -134259,7 +134263,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "roc-wiki-cuvette-owando-oyo-ewo",
     "regionDistrict": "Owando, Oyo & Ewo (Départements de la Cuvette & Cuvette-Ouest), Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -0.4819,
     "lng": 15.8997,
     "name": {
@@ -134286,7 +134290,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "roc-wiki-likouala-impfondo",
     "regionDistrict": "Impfondo, Département de la Likouala, Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 1.618,
     "lng": 18.0598,
     "name": {
@@ -134313,7 +134317,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "roc-wiki-pool-bouenza-kinkala-madingou",
     "regionDistrict": "Kinkala, Kindamba, Linzolo (Pool) & Madingou (Bouenza), Republic of the Congo",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": -4.3614,
     "lng": 14.7644,
     "name": {
@@ -134816,7 +134820,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ss-wiki-aweil-civil-hospital",
     "regionDistrict": "Aweil Town, Northern Bahr el Ghazal, South Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 8.7681,
     "lng": 27.3998,
     "name": {
@@ -134843,7 +134847,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ss-wiki-bentiu-civil-hospital",
     "regionDistrict": "Bentiu, Unity State, South Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 9.2333,
     "lng": 29.8333,
     "name": {
@@ -134870,7 +134874,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ss-wiki-malakal-teaching-hospital",
     "regionDistrict": "Malakal, Upper Nile State, South Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 9.5334,
     "lng": 31.6605,
     "name": {
@@ -134897,7 +134901,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ss-wiki-wau-teaching-hospital",
     "regionDistrict": "Wau, Western Bahr el Ghazal, South Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 7.7028,
     "lng": 27.995,
     "name": {
@@ -134924,7 +134928,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ss-wiki-juba-al-sabah-complex",
     "regionDistrict": "Juba, Central Equatoria, South Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 4.8495,
     "lng": 31.6012,
     "name": {
@@ -134951,7 +134955,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ss-wiki-bor-state-hospital",
     "regionDistrict": "Bor, Jonglei State, South Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 6.2059,
     "lng": 31.5564,
     "name": {
@@ -134978,7 +134982,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ss-wiki-rumbek-state-hospital",
     "regionDistrict": "Rumbek, Lakes State, South Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 6.8062,
     "lng": 29.6784,
     "name": {
@@ -135005,7 +135009,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ss-wiki-torit-nimule-hospitals",
     "regionDistrict": "Torit & Nimule, Eastern Equatoria State, South Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 4.4081,
     "lng": 32.5705,
     "name": {
@@ -135032,7 +135036,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ss-wiki-yambio-maridi-lui-hospitals",
     "regionDistrict": "Yambio, Maridi & Lui (Mundri East), Western Equatoria State, South Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 4.5721,
     "lng": 28.3955,
     "name": {
@@ -135059,7 +135063,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "ss-wiki-kuajok-state-hospital",
     "regionDistrict": "Kuajok, Warrap State, South Sudan",
-    "type": "obgyn",
+    "type": "hospital",
     "lat": 8.3005,
     "lng": 27.9912,
     "name": {
@@ -135083,1079 +135087,1776 @@ export const WORLD_CENTERS_DIRECTORY = [
       "en": "Kuajok Town, Warrap State, South Sudan."
     }
   },
-{
-  "id": "gnws-hq-valente-hague-netherlands",
-  "type": "Safe Haven",
-  "lat": 52.0786,
-  "lng": 4.3007,
-  "phone": "0800-2000",
-  "country": "Netherlands",
-  "region": "South Holland",
-  "city": "The Hague",
-  "website": "https://gnws.org/about-us/who-we-are/",
-  "names": {
-    "en": "GNWS Foundation HQ & Valente (Dutch Network of Women’s Shelters / Lila.help) — The Hague",
-    "nl": "Stichting GNWS & Valente (Landelijk Netwerk Vrouwenopvang / Lila.help) — Den Haag",
-    "fr": "Fondation GNWS & Valente (Réseau Néerlandais des Maisons d’Accueil / Lila.help) — La Haye"
-  },
-  "address": "The Hague (Den Haag) & Utrecht, Netherlands | Veilig Thuis 24/7 National Helpline: 0800-2000 | Global Directory: https://lila.help",
-  "details": {
-    "en": "Global headquarters of the Global Network of Women’s Shelters (GNWS Foundation, chaired by Aleid van den Brink) and Valente (formerly Federatie Opvang / Dutch Foundation of Women’s Shelters, host of the 3rd World Conference of Women’s Shelters in The Hague). Coordinates the global Lila.help directory of verified domestic & sexual violence helplines and connects directly to Dutch women’s shelters (Vrouwenopvang) via 0800-2000."
-  },
-  "services": [
-    "GNWS Global Secretariat & Lila.help Verified Helpline Directory",
-    "24/7 Dutch Women’s Shelter Placement (Veilig Thuis 0800-2000)",
-    "Emergency Safe Houses (Vrouwenopvang & Oranje Huis Network)",
-    "Trauma-Informed Psychosocial & Legal Advocacy"
-  ]
-},
-{
-  "id": "gnws-wave-network-vienna-austria",
-  "type": "Safe Haven",
-  "lat": 48.1986,
-  "lng": 16.3685,
-  "phone": "0800 222 555",
-  "country": "Austria",
-  "region": "Vienna",
-  "city": "Vienna",
-  "website": "https://wave-network.org/",
-  "names": {
-    "en": "WAVE Network (Women Against Violence Europe — GNWS European Regional Network) — Vienna",
-    "de": "WAVE Network (Women Against Violence Europe & Autonome Österreichische Frauenhäuser) — Wien",
-    "fr": "Réseau WAVE (Femmes Contre la Violence Europe — Réseau Européen GNWS) — Vienne"
-  },
-  "address": "Bacherplatz 10/6, 1050 Vienna, Austria | Tel: +43 1 548 27 20 | Austrian 24/7 Women’s Helpline (Frauenhelpline): 0800 222 555",
-  "details": {
-    "en": "The European regional pillar of the Global Network of Women’s Shelters (GNWS), uniting over 1,600 women’s NGOs, autonomous women’s shelters (Frauenhäuser), rape crisis centers, and national helplines across 46 European countries. Co-located in Vienna with the Association of Autonomous Austrian Women’s Shelters (AÖF, 24/7 helpline 0800 222 555)."
-  },
-  "services": [
-    "GNWS European Regional Women’s Shelter Network (46 Countries)",
-    "24/7 Autonomous Austrian Women’s Shelters Helpline (0800 222 555)",
-    "Cross-Border European Shelter Referral & Survivor Protection",
-    "Legal & Psychosocial Domestic Violence Support"
-  ]
-},
-{
-  "id": "gnws-anws-secretariat-taipei-taiwan",
-  "type": "Safe Haven",
-  "lat": 24.9856,
-  "lng": 121.5361,
-  "phone": "113",
-  "country": "Taiwan",
-  "region": "Taipei",
-  "city": "Taipei",
-  "website": "https://shelterasia.org/",
-  "names": {
-    "en": "Asian Network of Women’s Shelters (ANWS — GNWS Asia Regional Secretariat) — Taipei",
-    "zh": "亞洲婦女庇護安置網路 (ANWS 秘書處 / 勵馨基金會) — 台北",
-    "ja": "アジア女性シェルターネットワーク (ANWS — GNWSアジア地域事務局) — 台北"
-  },
-  "address": "Xindian District, New Taipei City / Taipei, Taiwan | Tel: +886 2 8911 8595 | Taiwan 24/7 Protection Hotline: 113",
-  "details": {
-    "en": "The Asian regional network of the Global Network of Women’s Shelters (GNWS), hosted alongside The Garden of Hope Foundation (chaired by GNWS Chair Chi Hui-Jung). Connects and supports over 50 women’s shelter organizations and crisis centers across 20+ Asian nations, providing emergency cross-border shelter coordination and 24/7 domestic & sexual violence protection (113 in Taiwan)."
-  },
-  "services": [
-    "GNWS Asian Regional Women’s Shelter Network (20+ Asian Nations)",
-    "24/7 Emergency Shelter Placement & Protection Hotline (113)",
-    "Migrant & Trafficked Women’s Safe Haven Coordination",
-    "Trauma Counseling, Legal Aid & Transitional Housing"
-  ]
-},
-{
-  "id": "gnws-nnedv-washington-dc-usa",
-  "type": "Safe Haven",
-  "lat": 38.9026,
-  "lng": -77.0311,
-  "phone": "1-800-799-7233",
-  "country": "United States",
-  "region": "District of Columbia",
-  "city": "Washington, D.C.",
-  "website": "https://nnedv.org/",
-  "names": {
-    "en": "NNEDV (National Network to End Domestic Violence & WomensLaw.org — GNWS US Hub) — Washington, D.C.",
-    "es": "Red Nacional para Terminar con la Violencia Doméstica (NNEDV y WomensLaw.org) — Washington, D.C."
-  },
-  "address": "1325 Massachusetts Ave NW, Suite 800, Washington, DC 20005, USA | Tel: +1 202-543-5566 | US 24/7 National DV Hotline: 1-800-799-SAFE (7233)",
-  "details": {
-    "en": "The United States national member network of the Global Network of Women’s Shelters (GNWS) and host of the 2nd World Conference of Women’s Shelters in Washington, D.C. Represents the 56 US state and territorial domestic violence coalitions and over 2,000 local women’s shelters, operating WomensLaw.org (free confidential legal email hotline in English & Spanish) and the Safety Net technology safety project."
-  },
-  "services": [
-    "GNWS US National Network of 56 Coalitions & 2,000+ Shelters",
-    "24/7 US National Domestic Violence Hotline Referral (1-800-799-7233)",
-    "WomensLaw.org Confidential Legal Information & Email Hotline",
-    "Safety Net Cyber-Stalking & Technology Abuse Protection"
-  ]
-},
-{
-  "id": "gnws-acws-edmonton-canada",
-  "type": "Safe Haven",
-  "lat": 53.5413,
-  "lng": -113.5065,
-  "phone": "1-866-331-3933",
-  "country": "Canada",
-  "region": "Alberta",
-  "city": "Edmonton",
-  "website": "https://acws.ca/",
-  "names": {
-    "en": "Alberta Council of Women’s Shelters (ACWS — Founding Host of GNWS) — Edmonton",
-    "fr": "Conseil des Refuges pour Femmes de l’Alberta (ACWS — Fondateur du GNWS) — Edmonton"
-  },
-  "address": "Suite 600, 10310 Jasper Avenue, Edmonton, AB T5J 2W4, Canada | 24/7 Toll-Free Alberta Shelter Line: 1-866-331-3933",
-  "details": {
-    "en": "Founding catalyst of the Global Network of Women’s Shelters (GNWS), having convened the historic 1st World Conference of Women’s Shelters in Edmonton in 2008. Connects survivors 24/7 via 1-866-331-3933 directly to over 50 emergency, Second-Stage, and First Nations on-reserve women’s shelters across Alberta."
-  },
-  "services": [
-    "24/7 Direct Women’s Shelter Connection Line (1-866-331-3933)",
-    "Emergency, Second-Stage & On-Reserve Indigenous Women’s Shelters",
-    "Danger Assessment & Safety Planning",
-    "Child Trauma Support & Pet-Friendly Safe Haven Referrals"
-  ]
-},
-{
-  "id": "gnws-womens-shelters-canada-ottawa",
-  "type": "Safe Haven",
-  "lat": 45.4192,
-  "lng": -75.6968,
-  "phone": "1-855-643-4782",
-  "country": "Canada",
-  "region": "Ontario",
-  "city": "Ottawa",
-  "website": "https://endvaw.ca/",
-  "names": {
-    "en": "Women’s Shelters Canada (Hébergements femmes Canada & ShelterSafe.ca — GNWS Hub) — Ottawa",
-    "fr": "Hébergements femmes Canada (Refuges pour femmes Canada / ShelterSafe.ca) — Ottawa"
-  },
-  "address": "85 Albert Street, Suite 1502, Ottawa, ON K1P 6A4, Canada | Tel: +1 613-680-5119 | Interactive Map: https://sheltersafe.ca",
-  "details": {
-    "en": "Core North American founding pillar of the Global Network of Women’s Shelters (GNWS), uniting 19 provincial, territorial, and Indigenous shelter associations representing over 600 emergency and transitional women’s shelters across Canada. Operates ShelterSafe.ca (HébergementSecours.ca) for immediate 24/7 shelter crisis line connections nationwide."
-  },
-  "services": [
-    "GNWS Canadian National Women’s Shelter Network (600+ Shelters)",
-    "ShelterSafe.ca / HébergementSecours.ca 24/7 Crisis Directory",
-    "Emergency Transition Houses & Second-Stage Housing Referrals",
-    "Bilingual English, French & Indigenous Survivor Advocacy"
-  ]
-},
-{
-  "id": "gnws-nacafv-first-nations-shelters-canada",
-  "type": "Safe Haven",
-  "lat": 45.4018,
-  "lng": -73.6815,
-  "phone": "1-855-242-3310",
-  "country": "Canada",
-  "region": "Quebec",
-  "city": "Kahnawake / Montreal",
-  "website": "https://www.nacafv.ca/",
-  "names": {
-    "en": "National Aboriginal Circle Against Family Violence (NACAFV — GNWS Network of First Nations Women’s Shelters)",
-    "fr": "Cercle National des Autochtones Contre la Violence Familiale (NACAFV — Réseau des Refuges des Premières Nations)"
-  },
-  "address": "Kahnawake Mohawk Territory, QC / Ottawa, ON, Canada | Tel: +1 450-638-2968 | Hope for Wellness 24/7 Indigenous Helpline: 1-855-242-3310",
-  "details": {
-    "en": "Representing the Network of First Nations Women’s Shelters at the heart of the Global Network of Women’s Shelters (GNWS). Supports and connects on-reserve and Indigenous-led women’s shelters, healing lodges, and transition houses across First Nations, Inuit, and Métis communities in Canada."
-  },
-  "services": [
-    "GNWS Network of First Nations, Inuit & Métis Women’s Shelters",
-    "Culturally Grounded Indigenous Healing Lodges & Safe Havens",
-    "24/7 Hope for Wellness Indigenous Crisis Line (1-855-242-3310)",
-    "MMIWG2S+ Safety Planning, Elder Support & Family Violence Advocacy"
-  ]
-},
-{
-  "id": "gnws-niwrc-stronghearts-montana-usa",
-  "type": "Safe Haven",
-  "lat": 45.6231,
-  "lng": -106.6667,
-  "phone": "1-844-762-8483",
-  "country": "United States",
-  "region": "Montana",
-  "city": "Lame Deer",
-  "website": "https://www.niwrc.org/",
-  "names": {
-    "en": "National Indigenous Women’s Resource Center (NIWRC & StrongHearts Native Helpline — GNWS First Nations Partner)",
-    "es": "Centro Nacional de Recursos para Mujeres Indígenas (NIWRC y Línea Nativa StrongHearts)"
-  },
-  "address": "515 Lame Deer Ave, Lame Deer, MT 59043, USA | Tel: +1 406-477-3896 | 24/7 StrongHearts Native Helpline: 1-844-7NATIVE (1-844-762-8483)",
-  "details": {
-    "en": "United States First Nations / Native American partner within the Global Network of Women’s Shelters (GNWS) Indigenous caucus. Dedicated to restoring sovereignty and safety for Native women across Tribal lands, co-operating the 24/7 StrongHearts Native Helpline (1-844-762-8483) and the National Tribal Clearinghouse on Sexual Assault."
-  },
-  "services": [
-    "24/7 StrongHearts Native Domestic & Sexual Violence Helpline (1-844-762-8483)",
-    "Tribal Safe Havens & Native Women’s Shelter Directory",
-    "Culturally Grounded Advocacy for American Indian & Alaska Native Survivors",
-    "Tribal Protection Order & Sovereignty Legal Support"
-  ]
-},
-{
-  "id": "gnws-wesnet-australia-canberra",
-  "type": "Safe Haven",
-  "lat": -35.2809,
-  "lng": 149.13,
-  "phone": "1800 737 732",
-  "country": "Australia",
-  "region": "Australian Capital Territory",
-  "city": "Canberra",
-  "website": "https://wesnet.org.au/",
-  "names": {
-    "en": "WESNET (Women’s Services Network Australia — GNWS Oceania Regional Hub)"
-  },
-  "address": "Canberra, ACT & Sydney, NSW, Australia | Tel: 1800 WESNET (1800 937 638) | Australia 24/7 DV Helpline (1800RESPECT): 1800 737 732",
-  "details": {
-    "en": "Australia’s national peak body for specialist women’s domestic and family violence refuges and shelters, and Oceania board leader of the Global Network of Women’s Shelters (GNWS, led by Karen Bentley; host of the 5th World Conference of Women’s Shelters in Sydney). Connects over 350 specialist women’s refuges across Australia, including Aboriginal and Torres Strait Islander safe houses and the Safe Connections survivor smartphone program."
-  },
-  "services": [
-    "GNWS Oceania Regional Network & 350+ Australian Women’s Refuges",
-    "24/7 National Sexual & Domestic Violence Counselling (1800 737 732)",
-    "WESNET Safe Connections Program (Safe Phones for Survivors)",
-    "Technology-Facilitated Abuse Safety & Specialist Refuge Referral"
-  ]
-},
-{
-  "id": "gnws-womens-refuge-new-zealand-wellington",
-  "type": "Safe Haven",
-  "lat": -41.2865,
-  "lng": 174.7762,
-  "phone": "0800 733 843",
-  "country": "New Zealand",
-  "region": "Wellington",
-  "city": "Wellington",
-  "website": "https://womensrefuge.org.nz/",
-  "names": {
-    "en": "Women’s Refuge New Zealand (Ngā Whare Waatea / NCIWR — GNWS Oceania & Indigenous Hub) — Wellington"
-  },
-  "address": "Level 5, 276 Lambton Quay, Wellington 6011, New Zealand | 24/7 Toll-Free Crisis Line: 0800 REFUGE (0800 733 843)",
-  "details": {
-    "en": "The National Collective of Independent Women’s Refuges (NCIWR / Ngā Whare Waatea) in Aotearoa New Zealand, a key Oceania and Indigenous Tangata Whenua pillar of the Global Network of Women’s Shelters (GNWS). Operates 40+ local safe houses (including kaupapa Māori refuges) and a 24/7 nationwide crisis line at 0800 733 843."
-  },
-  "services": [
-    "24/7 Nationwide Women’s Refuge Crisis Line (0800 733 843)",
-    "Confidential Safe Houses & Kaupapa Māori Tangata Whenua Refuges",
-    "Safe Escape Planning, Legal Protection Order Support & Advocacy",
-    "Child & Whānau Trauma Recovery Support"
-  ]
-},
-{
-  "id": "gnws-rire-inter-american-network-panama-latam",
-  "type": "Safe Haven",
-  "lat": 8.9824,
-  "lng": -79.5199,
-  "phone": "182",
-  "country": "Panama",
-  "region": "Panamá",
-  "city": "Panama City",
-  "website": "https://gnws.org/about-us/who-we-are/",
-  "names": {
-    "en": "Red Interamericana de Refugios (RIRE — GNWS Latin America & Caribbean Network)",
-    "es": "Red Interamericana de Refugios (RIRE) y Red Latinoamericana de Casas de Refugio — GNWS",
-    "pt": "Rede Interamericana de Abrigos de Mulheres (RIRE — Rede Latino-Americana GNWS)"
-  },
-  "address": "Panama City, Panama & Mexico City, Mexico | Panama 24/7 INAMU / Ministry of Women Line: 182 | Regional LatAm Network",
-  "details": {
-    "en": "The Inter-American and Latin American & Caribbean regional network of the Global Network of Women’s Shelters (GNWS), connecting Casas de Refugio, Casas de Acogida, and women’s shelters across Central America, South America, Mexico (with Red Nacional de Refugios), and the Caribbean."
-  },
-  "services": [
-    "GNWS Latin American & Caribbean Network of Casas de Refugio",
-    "24/7 Cross-Border Shelter Coordination for Women & Migrant Survivors",
-    "Emergency Albergues (Safe Houses) & Femicide Prevention",
-    "Free Legal, Psychological & Social Work Accompaniment"
-  ]
-},
-{
-  "id": "gnws-nsmsa-african-network-johannesburg-south-africa",
-  "type": "Safe Haven",
-  "lat": -26.2041,
-  "lng": 28.0473,
-  "phone": "0800 001 005",
-  "country": "South Africa",
-  "region": "Gauteng",
-  "city": "Johannesburg / Cape Town",
-  "website": "https://www.nsmsa.org.za/",
-  "names": {
-    "en": "National Shelter Movement of South Africa (NSMSA) & African Network of Women’s Shelters (ANWS-Africa — GNWS)",
-    "sw": "Mtandao wa Afrika wa Nyumba Salama za Wanawake (ANWS-Africa & NSMSA)",
-    "fr": "Réseau Africain des Refuges pour Femmes (ANWS-Afrique & NSMSA)"
-  },
-  "address": "Johannesburg (Gauteng) & Cape Town (Western Cape), South Africa | 24/7 National Shelter Helpline: 0800 001 005 | WhatsApp: +27 82 057 8600 / +27 82 058 2215 / +27 72 230 7147",
-  "details": {
-    "en": "Representing the African Network of Women’s Shelters (ANWS-Africa) within the Global Network of Women’s Shelters (GNWS) alongside the Nisaa Institute for Women’s Development. Coordinates nearly 100 domestic violence shelters across all 9 provinces of South Africa and partners with African women’s safe havens continent-wide, operating the 24/7 toll-free National Shelter Helpline (0800 001 005)."
-  },
-  "services": [
-    "24/7 Toll-Free National Shelter Placement Helpline (0800 001 005)",
-    "GNWS African Regional Network of Women’s Shelters (ANWS-Africa)",
-    "Emergency Safe Houses for Abused Women & Their Children",
-    "Psychosocial Support, Protection Orders & Court Preparation"
-  ]
-},
-{
-  "id": "israel-bat-melech-ultra-orthodox-womens-shelter-jerusalem",
-  "type": "Safe Haven",
-  "lat": 31.7857,
-  "lng": 35.2007,
-  "phone": "1-800-292-333",
-  "country": "Israel",
-  "region": "Jerusalem District",
-  "city": "Jerusalem & Bnei Brak / Central Israel",
-  "website": "https://batmelech.org/",
-  "names": {
-    "en": "Bat Melech (בת מלך) — Women’s Shelter SPECIFICALLY for Ultra-Orthodox (Haredi) & Orthodox Jewish Women",
-    "he": "בת מלך — מקלט לנשים מוכות המיועד במיוחד לנשים חרדיות ודתיות",
-    "fr": "Bat Melech (בת מלך) — Refuge SPÉCIFIQUEMENT pour les Femmes Juives Ultra-Orthodoxes (Haredi) et Religieuses",
-    "es": "Bat Melech (בת מלך) — Refugio ESPECÍFICAMENTE para Mujeres Judías Ultraortodoxas (Jaredíes) y Religiosas",
-    "ru": "Бат Мелех (בת מלך) — Убежище СПЕЦИАЛЬНО для ультраортодоксальных (харедим) и религиозных еврейских женщин"
-  },
-  "address": "Confidential Shelter Locations in Jerusalem & Central Israel (PO Box 23023, Jerusalem 9123011) | 24/7 Toll-Free Helpline: 1-800-292-333 | WhatsApp: +972 58-651-6103 (058-651-6103) | Office: +972 2-633-8929",
-  "details": {
-    "en": "[SPECIFICALLY FOR ULTRA-ORTHODOX (HAREDI) & ORTHODOX JEWISH WOMEN] Listed on the NO MORE Israel Directory. Bat Melech operates the only emergency domestic violence shelters in Israel built specifically for Ultra-Orthodox (Haredi) and Orthodox Jewish women and their children. Shelters maintain strict Glatt Mehadrin kashrut, full Shabbat and holiday observance, modest environments, and integration with Haredi/religious schools so women never have to choose between their religious way of life and escaping abuse. Also provides free representation by dual Rabbinical & Civil Court lawyers."
-  },
-  "services": [
-    "Dedicated Strictly Kosher (Mehadrin) & Shabbat-Observant Shelters for Ultra-Orthodox (Haredi) Women",
-    "24/7 Ultra-Orthodox & Religious Women’s DV Helpline (1-800-292-333) & WhatsApp (058-651-6103)",
-    "Free Dual Legal Representation in Rabbinical Courts (Beit Din / Gett) & Civil Family Courts",
-    "Haredi & Religious School Placement for Children & Transitional Halfway Apartments"
-  ]
-},
-{
-  "id": "israel-tahel-ultra-orthodox-crisis-center-jerusalem",
-  "type": "Safe Haven",
-  "lat": 31.7535,
-  "lng": 35.2137,
-  "phone": "*2511",
-  "country": "Israel",
-  "region": "Jerusalem District",
-  "city": "Jerusalem (Serving Nationwide)",
-  "website": "https://www.tahel.org.il/",
-  "names": {
-    "en": "Tahel (תהל) — 24/7 Crisis Center SPECIFICALLY for Ultra-Orthodox (Haredi) & Religious Jewish Women (*2511)",
-    "he": "תהל (מרכז סיוע לנשים וילדים דתיים וחרדים) — מוקד חירום 2511* לנשים חרדיות ודתיות",
-    "fr": "Tahel (תהל) — Centre de Crise 24/7 SPÉCIFIQUEMENT pour les Femmes Juives Ultra-Orthodoxes (Haredi) et Religieuses (*2511)",
-    "es": "Tahel (תהל) — Centro de Crisis 24/7 ESPECÍFICAMENTE para Mujeres Judías Ultraortodoxas (Jaredíes) y Religiosas (*2511)",
-    "ru": "Тахель (תהל) — Кризисный центр 24/7 СПЕЦИАЛЬНО для ультраортодоксальных (харедим) и религиозных женщин (*2511)"
-  },
-  "address": "Jerusalem (Nationwide Coverage), Israel | 24/7 Religious & Ultra-Orthodox Women’s Emergency Hotline: *2511 | WhatsApp: +972 52-836-1202 | Office: +972 2-673-0002",
-  "details": {
-    "en": "[SPECIFICALLY FOR ULTRA-ORTHODOX (HAREDI) & RELIGIOUS JEWISH WOMEN & CHILDREN] Listed on the NO MORE Israel Directory. Tahel is Israel’s dedicated 24-hour crisis center for Ultra-Orthodox (Haredi) and religious Jewish women, teenagers, and children experiencing domestic violence or sexual abuse. Provides culturally and halachically sensitive support in Hebrew, Yiddish, English, and French, hospital/police accompaniment, and direct placement into religious women’s shelters."
-  },
-  "services": [
-    "24/7 Emergency Hotline for Ultra-Orthodox (Haredi) & Religious Women (*2511)",
-    "Support in Hebrew, Yiddish, English & French by Religiously Observant Female Advocates",
-    "Confidential Sexual Assault & Domestic Abuse Counseling for Haredi Women & Teens",
-    "Medical, Police & Rabbinical/Civil Legal Accompaniment & Shelter Placement"
-  ]
-},
-{
-  "id": "israel-no2violence-wizo-national-shelters-tel-aviv",
-  "type": "Safe Haven",
-  "lat": 32.0755,
-  "lng": 34.7882,
-  "phone": "118",
-  "country": "Israel",
-  "region": "Tel Aviv District",
-  "city": "Tel Aviv (Nationwide Network)",
-  "website": "https://nomoredirectory.org/israel/",
-  "names": {
-    "en": "No2Violence (לא. לאלימות נגד נשים) & National Domestic Abuse Shelter Hotline (118 / *6724) — Tel Aviv",
-    "he": "לא. לאלימות נגד נשים ומוקד 118 הארצי למקלטים לנשים נפגעות אלימות",
-    "ar": "لا للعنف ضد النساء والخط الوطني لملاجئ النساء (118 / *6724) — تل أبيب"
-  },
-  "address": "Tel Aviv & Nationwide Confidential Shelters, Israel | National DV Hotline: 118 or 1-800-220-000 | No2Violence 24/7 Free Hotline: *6724 or 1-800-353-300",
-  "details": {
-    "en": "Listed on the NO MORE Israel Directory. Coordinates 24/7 emergency intake into Israel’s national network of women’s domestic violence shelters, halfway houses, and emergency protection centers via the Ministry of Welfare 24/7 Hotline (118 / 1-800-220-000) and the No2Violence 24-hour helpline (*6724 / 1-800-353-300)."
-  },
-  "services": [
-    "24/7 National Domestic Abuse Emergency Hotline (118 / 1-800-220-000)",
-    "24/7 No2Violence Shelter & Crisis Helpline (*6724 / 1-800-353-300)",
-    "Immediate Placement in Confidential Women’s & Children’s Shelters",
-    "Multilingual Support in Hebrew, Arabic, Russian, Amharic & English"
-  ]
-},
-{
-  "id": "israel-wizo-womens-shelters-helpline-tel-aviv",
-  "type": "Safe Haven",
-  "lat": 32.0778,
-  "lng": 34.7865,
-  "phone": "+972-3-692-3710",
-  "country": "Israel",
-  "region": "Tel Aviv District",
-  "city": "Tel Aviv & Jerusalem",
-  "website": "https://www.wizo.org/",
-  "names": {
-    "en": "WIZO Women’s Shelters & Domestic Violence Helpline (ויצו) — Tel Aviv & Jerusalem",
-    "he": "מקלטי ויצו לנשים נפגעות אלימות וקו הייעוץ הארצי"
-  },
-  "address": "38 King David Blvd, Tel Aviv, Israel | WIZO Helpline: +972 3-692-3710 / +972 3-692-3714 / +972 3-692-3715 | National DV Line: 118",
-  "details": {
-    "en": "Listed on the NO MORE Israel Directory. WIZO operates emergency battered women’s shelters, transitional housing apartments, legal aid bureaus, and domestic violence prevention centers across Israel."
-  },
-  "services": [
-    "Emergency Women’s Shelters & Transitional Second-Stage Apartments",
-    "WIZO Domestic Violence Helpline (+972 3-692-3710 / 3714 / 3715)",
-    "Family Law & Protection Order Legal Aid Bureaus",
-    "Child Trauma Therapy & Economic Reintegration"
-  ]
-},
-{
-  "id": "israel-arcci-1202-rape-crisis-center-tel-aviv",
-  "type": "Safe Haven",
-  "lat": 32.0636,
-  "lng": 34.7725,
-  "phone": "1202",
-  "country": "Israel",
-  "region": "Tel Aviv District",
-  "city": "Tel Aviv, Jerusalem, Haifa & Be’er Sheva",
-  "website": "https://www.1202.org.il/en/",
-  "names": {
-    "en": "Association of Rape Crisis Centers in Israel (ARCCI — 24/7 Women’s Sexual Assault Hotline 1202)",
-    "he": "איגוד מרכזי הסיוע לנפגעות ולנפגעי תקיפה מינית בישראל — מוקד חירום 1202",
-    "ar": "اتحاد مراكز المساعدة لضحايا الاعتداء الجنسي في إسرائيل — خط الطوارئ 1202"
-  },
-  "address": "9 regional crisis centers nationwide (Tel Aviv, Jerusalem, Haifa, Nazareth, Be’er Sheva, Ra’anana, Ashdod, Eilat & Kiryat Shmona) | 24/7 Women’s Crisis Line: 1202 | WhatsApp: 052-836-1202",
-  "details": {
-    "en": "Listed on the NO MORE Israel Directory. Umbrella of 9 regional sexual assault crisis centers across Israel operating the 24/7 confidential Women’s Sexual Assault Crisis Hotline (1202), hospital acute forensic room (Hadar Akuti) accompaniment, police/court advocacy, and trauma therapy."
-  },
-  "services": [
-    "24/7 Women’s Sexual Assault Crisis Hotline (Dial 1202)",
-    "24/7 Hospital Forensic Examination Room (Hadar Akuti) Accompaniment",
-    "Confidential WhatsApp & Online Chat Support (052-836-1202)",
-    "Free Legal & Trauma Recovery Support"
-  ]
-},
-{
-  "id": "israel-arab-womens-emergency-hotline-shelter-nazareth",
-  "type": "Safe Haven",
-  "lat": 32.7019,
-  "lng": 35.3035,
-  "phone": "04-656-6813",
-  "country": "Israel",
-  "region": "Northern District",
-  "city": "Nazareth & Haifa",
-  "website": "https://nomoredirectory.org/israel/",
-  "names": {
-    "en": "Women Against Violence (נשים נגד אלימות / نساء ضد العنف) — Arab Women’s 24-Hour Emergency Hotline & Shelter (Nazareth)",
-    "ar": "جمعية نساء ضد العنف — خط الطوارئ وملجأ النساء العربيات على مدار 24 ساعة (الناصرة)",
-    "he": "עמותת נשים נגד אלימות — קו חירום 24/7 ומקלט לנשים ערביות (נצרת)"
-  },
-  "address": "Nazareth & Haifa, Israel | 24/7 Arab Women’s Emergency Hotline: 04-656-6813 (+972 4-656-6813) | National DV Line: 118",
-  "details": {
-    "en": "[SPECIFICALLY FOR ARAB WOMEN] Listed on the NO MORE Israel Directory. Operates the 24-hour Arabic-language emergency sexual and domestic violence crisis hotline (04-656-6813), confidential emergency women’s shelter, and halfway house specifically serving Arab women and girls."
-  },
-  "services": [
-    "24/7 Arabic-Language Women’s Emergency Hotline (04-656-6813)",
-    "Confidential Emergency Shelter & Halfway House for Arab Women",
-    "Hospital, Police & Sharia/Civil Family Court Legal Accompaniment",
-    "Psychosocial & Youth Prevention Programs"
-  ]
-},
-{
-  "id": "israel-eran-aguda-crisis-support-tel-aviv",
-  "type": "Safe Haven",
-  "lat": 32.0661,
-  "lng": 34.7704,
-  "phone": "1201",
-  "country": "Israel",
-  "region": "Tel Aviv District",
-  "city": "Tel Aviv (Nationwide)",
-  "website": "https://en.eran.org.il/",
-  "names": {
-    "en": "ERAN Emotional First Aid (1201) & The Aguda LGBTQ+ Support Center — Tel Aviv",
-    "he": "ער״ן (עזרה ראשונה נפשית 1201) והאגודה למען הלהט״ב (בית דרור / קו הקשב)"
-  },
-  "address": "Tel Aviv & Nationwide, Israel | ERAN 24/7 Mental Health Crisis Line: 1201 | The Aguda Helpline: *2989 (+972 3-620-5590)",
-  "details": {
-    "en": "Listed on the NO MORE Israel Directory. Provides 24/7 free, anonymous emotional first aid and suicide/trauma crisis intervention nationwide via ERAN (1201), alongside The Aguda (Association for LGBTQ Equality, *2989) providing safe shelter referrals, legal advocacy, and anti-violence support."
-  },
-  "services": [
-    "24/7 ERAN Emotional First Aid & Crisis Hotline (Dial 1201)",
-    "The Aguda LGBTQ+ Crisis Line (*2989) & Safe Shelter Referrals",
-    "Anonymous Online Chat & WhatsApp Emotional Support",
-    "Multilingual Trauma & Domestic Distress Intervention"
-  ]
-},
-{
-  "id": "israel-hosp-ichilov-lis-maternity-tel-aviv",
-  "type": "OBGYN",
-  "lat": 32.0809,
-  "lng": 34.7897,
-  "phone": "+972-3-697-4444",
-  "country": "Israel",
-  "region": "Tel Aviv District",
-  "city": "Tel Aviv",
-  "website": "https://www.tasmc.org.il/en/",
-  "names": {
-    "en": "Tel Aviv Sourasky Medical Center (Ichilov) & Lis Maternity and Women’s Hospital — Tel Aviv",
-    "he": "המרכז הרפואי תל אביב ע״ש סוראסקי (איכילוב) ובית החולים ליס לנשים וליולדות",
-    "ar": "مركز تل أبيب سوراسكي الطبي (إيخيلوف) ومستشفى ليس للنساء والولادة"
-  },
-  "address": "6 Weizmann Street, Tel Aviv 6423906, Israel | Tel: +972 3-697-4444 / *8801 | Emergency Ambulance: 101",
-  "details": {
-    "en": "Major metropolitan university teaching hospital in central Tel Aviv incorporating the Lis Maternity and Women’s Hospital, Dana-Dwek Children’s Hospital, 24/7 OBGYN emergency room, high-risk maternal-fetal medicine, IVF/fertility institute, and acute sexual assault forensic room (Hadar Akuti)."
-  },
-  "services": [
-    "Lis Maternity and Women’s Hospital (24/7 OBGYN Emergency & Delivery Suites)",
-    "High-Risk Pregnancy, Maternal-Fetal Medicine & Level III NICU",
-    "Acute Sexual Assault Forensic Center (Hadar Akuti)",
-    "Gynecologic Oncology, Endometriosis & Fertility / IVF Center"
-  ]
-},
-{
-  "id": "israel-hosp-sheba-tel-hashomer-ramat-gan",
-  "type": "OBGYN",
-  "lat": 32.0462,
-  "lng": 34.8423,
-  "phone": "+972-3-530-3030",
-  "country": "Israel",
-  "region": "Tel Aviv District",
-  "city": "Ramat Gan (Tel HaShomer)",
-  "website": "https://www.shebaonline.org/",
-  "names": {
-    "en": "Chaim Sheba Medical Center at Tel HaShomer (Josef Buchmann Gynecology & Maternity Center) — Ramat Gan",
-    "he": "המרכז הרפואי שיבא תל השומר (מרכז לנשים ויולדות ע״ש יוסף בוכמן)",
-    "ar": "مركز شيبا الطبي في تل هشومير (مركز النساء والولادة)"
-  },
-  "address": "Derech Sheba 2, Tel HaShomer, Ramat Gan 52621, Israel | Tel: +972 3-530-3030 | Emergency: 101",
-  "details": {
-    "en": "The largest medical center in Israel and the Middle East. Houses the Josef Buchmann Gynecology and Maternity Center, 24/7 Women’s Emergency Room, Safra Children’s Hospital, advanced fetal medicine and genetic institute, IVF & fertility preservation, and the Chava Center for maternal reproductive mental health."
-  },
-  "services": [
-    "Josef Buchmann Gynecology & Maternity Center (24/7 OBGYN ER)",
-    "High-Risk Obstetrics, Fetal Surgery & Neonatal Intensive Care",
-    "Chava Center for Postpartum & Reproductive Mental Health",
-    "Gynecologic Surgery, Fertility Preservation & IVF"
-  ]
-},
-{
-  "id": "israel-hosp-maayanei-hayeshua-ultra-orthodox-bnei-brak",
-  "type": "OBGYN",
-  "lat": 32.0837,
-  "lng": 34.8415,
-  "phone": "+972-3-577-1111",
-  "country": "Israel",
-  "region": "Tel Aviv District",
-  "city": "Bnei Brak",
-  "website": "https://www.mhmc.co.il/",
-  "names": {
-    "en": "Maayanei Hayeshua Medical Center (מעייני הישועה) — General & Maternity Hospital Specifically Tailored for Ultra-Orthodox (Haredi) Women — Bnei Brak",
-    "he": "המרכז הרפואי מעייני הישועה (בני ברק) — בית חולים כללי ואגף נשים ויולדות באווירה חרדית והלכתית",
-    "fr": "Centre Médical Maayanei Hayeshua — Hôpital et Maternité Spécialement Adapté aux Femmes Juives Ultra-Orthodoxes (Haredi) — Bnei Brak"
-  },
-  "address": "17 Povarsky Street, Bnei Brak 51544, Israel | Tel: +972 3-577-1111 | Emergency: 101",
-  "details": {
-    "en": "[ULTRA-ORTHODOX (HAREDI) HALACHIC HOSPITAL & MATERNITY CENTER] Public community general hospital in Bnei Brak operating strictly according to Jewish law (Halacha) and tailored specifically to the cultural, modesty, Shabbat, and Glatt Mehadrin kosher needs of Ultra-Orthodox (Haredi) and religious Jewish women. One of the busiest maternity and birth centers in Israel, offering 24/7 OBGYN emergency care, high-risk obstetrics, NICU, and culturally sensitive women’s mental health services."
-  },
-  "services": [
-    "Maternity & Delivery Ward Tailored Specifically for Ultra-Orthodox (Haredi) Women",
-    "Strict Halachic, Shabbat-Compliant & Glatt Mehadrin Hospital Environment",
-    "24/7 OBGYN Emergency Room, High-Risk Pregnancy & Neonatal ICU (NICU)",
-    "Gynecologic Surgery, Pelvic Floor & Culturally Sensitive Perinatal Mental Health"
-  ]
-},
-{
-  "id": "israel-hosp-rabin-beilinson-helen-schneider-petah-tikva",
-  "type": "OBGYN",
-  "lat": 32.0906,
-  "lng": 34.8669,
-  "phone": "+972-3-937-7377",
-  "country": "Israel",
-  "region": "Central District",
-  "city": "Petah Tikva",
-  "website": "https://hospitals.clalit.co.il/rabin/en/",
-  "names": {
-    "en": "Rabin Medical Center (Beilinson & Hasharon) & Helen Schneider Hospital for Women — Petah Tikva",
-    "he": "המרכז הרפואי רבין (בילינסון והשרון) ובית החולים לנשים ע״ש הלן שניידר — פתח תקווה"
-  },
-  "address": "39 Jabotinsky St, Petah Tikva 4941492, Israel | Tel: +972 3-937-7377 / +972 3-937-6666 | Emergency: 101",
-  "details": {
-    "en": "Major Clalit Health Services tertiary university hospital complex in Petah Tikva, featuring the dedicated Helen Schneider Hospital for Women (24/7 OBGYN emergency room, labor & delivery, high-risk maternal-fetal medicine, gynecologic oncology, and IVF) alongside Schneider Children’s Medical Center of Israel."
-  },
-  "services": [
-    "Helen Schneider Hospital for Women (24/7 OBGYN Emergency & Maternity)",
-    "High-Risk Pregnancy, Maternal-Fetal Medicine & Genetics",
-    "Gynecologic Oncology, Urogynecology & Fertility / IVF",
-    "Adjacent Schneider Children’s Medical Center & Level III NICU"
-  ]
-},
-{
-  "id": "israel-hosp-hadassah-ein-kerem-mount-scopus-jerusalem",
-  "type": "OBGYN",
-  "lat": 31.7651,
-  "lng": 35.1497,
-  "phone": "+972-2-677-7111",
-  "country": "Israel",
-  "region": "Jerusalem District",
-  "city": "Jerusalem (Ein Kerem & Mount Scopus)",
-  "website": "https://www.hadassah.org.il/en/",
-  "names": {
-    "en": "Hadassah University Medical Center (Ein Kerem & Mount Scopus Maternity Campuses) — Jerusalem",
-    "he": "המרכז הרפואי הדסה (עין כרם והר הצופים) — ירושלים",
-    "ar": "المركز الطبي الجامعي هداسا (عين كارم وجبل المشارف) — القدس"
-  },
-  "address": "Kalman Ya’akov Man St (Ein Kerem) & Sderot Churchill (Mount Scopus), Jerusalem, Israel | Tel: +972 2-677-7111 / +972 2-584-4111",
-  "details": {
-    "en": "Premier university teaching hospital system in Jerusalem operating two full-service campuses (Hadassah Ein Kerem and Hadassah Mount Scopus) serving Jewish and Arab communities across Jerusalem. Offers 24/7 OBGYN emergency care, natural & high-risk delivery centers, rooming-in maternity wards, Bat Ami Center for Victims of Sexual Abuse, and the Linda Joy Pollin Cardiovascular Wellness Center for Women."
-  },
-  "services": [
-    "24/7 OBGYN Emergency & Maternity Wards at Ein Kerem & Mount Scopus",
-    "Bat Ami Acute Sexual Assault Crisis & Forensic Center",
-    "High-Risk Obstetrics, NICU & Maternal-Fetal Medicine",
-    "Arabic, Hebrew, English & Russian Patient Navigation"
-  ]
-},
-{
-  "id": "israel-hosp-shaare-zedek-bikur-cholim-jerusalem",
-  "type": "OBGYN",
-  "lat": 31.7731,
-  "lng": 35.1846,
-  "phone": "+972-2-655-5111",
-  "country": "Israel",
-  "region": "Jerusalem District",
-  "city": "Jerusalem",
-  "website": "https://www.szmc.org.il/eng/",
-  "names": {
-    "en": "Shaare Zedek Medical Center & Bikur Cholim Maternity Campus (שערי צדק — General, Religious & Haredi-Friendly Maternity Hub) — Jerusalem",
-    "he": "המרכז הרפואי שערי צדק ושלוחת ביקור חולים (אגף נשים ויולדות) — ירושלים",
-    "ar": "مركز شعاري تسيديك الطبي — القدس"
-  },
-  "address": "12 Shmuel Bait St, Jerusalem 9103102 (and Bikur Cholim Campus, 5 Strauss St, Downtown Jerusalem), Israel | Tel: +972 2-655-5111",
-  "details": {
-    "en": "Delivering over 22,000 babies per year across its main Bayit Vegan campus and historic downtown Bikur Cholim maternity campus, Shaare Zedek is one of the largest maternity hospitals in the world. Operates under strict halachic supervision with extensive accommodations for Ultra-Orthodox (Haredi), Orthodox, and general patients across Jerusalem."
-  },
-  "services": [
-    "Wilf Woman and Infant Center (22,000+ Births/Year & 24/7 OBGYN ER)",
-    "Halachic, Shabbat-Compliant & Glatt Kosher Accommodations for Haredi & Religious Women",
-    "High-Risk Pregnancy, Level III NICU, Medical Genetics & Pre-Implantation Genetic Diagnosis (PGD)",
-    "Gynecologic Surgery, Endometriosis & Fertility / IVF"
-  ]
-},
-{
-  "id": "israel-hosp-laniado-sanz-ultra-orthodox-netanya",
-  "type": "OBGYN",
-  "lat": 32.3471,
-  "lng": 34.8562,
-  "phone": "+972-9-860-4666",
-  "country": "Israel",
-  "region": "Central District",
-  "city": "Netanya (Kiryat Sanz)",
-  "website": "https://www.laniado.org.il/en/",
-  "names": {
-    "en": "Laniado Hospital — Sanz Medical Center (לניאדו) — General & Maternity Hospital (Ultra-Orthodox / Haredi Halachic & General Care) — Netanya",
-    "he": "בית החולים לניאדו — מרכז רפואי צאנז (אגף נשים ויולדות) — נתניה"
-  },
-  "address": "16 Divrei Chaim St, Kiryat Sanz, Netanya 42150, Israel | Tel: +972 9-860-4666 / +972 9-860-9200 | Emergency: 101",
-  "details": {
-    "en": "[ULTRA-ORTHODOX (HAREDI) HALACHIC & COMMUNITY GENERAL HOSPITAL] Founded in Kiryat Sanz, Netanya by the Klausenburger Rebbe, Laniado serves the entire Netanya and Sharon region while operating under strict Halachic and Glatt Mehadrin kosher standards tailored for Ultra-Orthodox (Haredi) and religious Jewish women alongside the general public. Features a renowned Maternity & Natural Birth Center, 24/7 OBGYN emergency room, and NICU."
-  },
-  "services": [
-    "24/7 Maternity, Natural Birth Center & OBGYN Emergency Room",
-    "Halachic & Glatt Mehadrin Environment Tailored for Ultra-Orthodox (Haredi) & General Patients",
-    "High-Risk Maternal-Fetal Unit & Neonatal Intensive Care (NICU)",
-    "Gynecology, Breast Health & Women’s Outpatient Clinics"
-  ]
-},
-{
-  "id": "israel-hosp-shamir-assaf-harofeh-wolfson-central",
-  "type": "OBGYN",
-  "lat": 31.9639,
-  "lng": 34.8407,
-  "phone": "+972-8-977-9999",
-  "country": "Israel",
-  "region": "Central & Tel Aviv Districts",
-  "city": "Be’er Ya’akov (Rishon LeZion) & Holon",
-  "website": "https://www.shamir.org.il/en/",
-  "names": {
-    "en": "Shamir Medical Center (Assaf Harofeh) & Wolfson Medical Center (Holon)",
-    "he": "המרכז הרפואי שמיר (אסף הרופא) והמרכז הרפואי וולפסון (חולון)"
-  },
-  "address": "Shamir (Assaf Harofeh): Be’er Ya’akov 70300 (Tel: +972 8-977-9999) | Wolfson Medical Center: 62 HaLohamim St, Holon 58100 (Tel: +972 3-502-8211)",
-  "details": {
-    "en": "Major government general and teaching hospitals serving southern Gush Dan, Holon, Bat Yam, Rishon LeZion, Lod, and Ramla. Both feature 24/7 OBGYN emergency rooms, maternity and delivery centers, high-risk pregnancy wards, NICUs, and Wolfson’s National Sexual Assault Forensic Center (Room 4 / Hadar 4)."
-  },
-  "services": [
-    "24/7 OBGYN Emergency, Maternity & High-Risk Delivery Suites",
-    "Wolfson Room 4 (Hadar 4) 24/7 Sexual Assault Forensic & Trauma Center",
-    "Neonatal Intensive Care (NICU) & Pediatric Emergency",
-    "Gynecologic Surgery & Fertility / IVF Units"
-  ]
-},
-{
-  "id": "israel-hosp-meir-kfar-saba-hillel-yaffe-hadera",
-  "type": "OBGYN",
-  "lat": 32.1817,
-  "lng": 34.9012,
-  "phone": "+972-9-747-2555",
-  "country": "Israel",
-  "region": "Central & Haifa Districts",
-  "city": "Kfar Saba & Hadera",
-  "website": "https://hospitals.clalit.co.il/meir/en/",
-  "names": {
-    "en": "Meir Medical Center (Kfar Saba) & Hillel Yaffe Medical Center (Hadera)",
-    "he": "המרכז הרפואי מאיר (כפר סבא) והמרכז הרפואי הלל יפה (חדרה)",
-    "ar": "مركز مئير الطبي (كفار سابا) ومركز هيلل يافه الطبي (الخضيرة)"
-  },
-  "address": "Meir: 59 Tchernichovsky St, Kfar Saba (Tel: +972 9-747-2555) | Hillel Yaffe: Ha-Shalom St, Hadera (Tel: +972 4-774-4211)",
-  "details": {
-    "en": "Primary regional general hospitals serving the Sharon plain, Kfar Saba, Ra’anana, Hod HaSharon, Hadera, and Triangle Arab towns (Tayibe, Tira, Umm al-Fahm, Baqa al-Gharbiyye). Provide 24/7 maternity and OBGYN emergency care, high-risk obstetrics, NICU, and acute sexual assault care."
-  },
-  "services": [
-    "24/7 Maternity, Delivery & OBGYN Emergency Departments",
-    "High-Risk Pregnancy, Maternal-Fetal Medicine & Level III NICU",
-    "Hebrew & Arabic Patient Navigation & Social Work Domestic Abuse Screening",
-    "Gynecologic Surgery, Endometriosis & Fertility Clinics"
-  ]
-},
-{
-  "id": "israel-hosp-kaplan-rehovot-assuta-ashdod-tel-aviv",
-  "type": "OBGYN",
-  "lat": 31.8753,
-  "lng": 34.8197,
-  "phone": "+972-8-944-1211",
-  "country": "Israel",
-  "region": "Central & Southern Districts",
-  "city": "Rehovot, Ashdod & Tel Aviv",
-  "website": "https://www.assutaashdod.co.il/",
-  "names": {
-    "en": "Kaplan Medical Center (Rehovot), Assuta Ashdod Public Hospital & Assuta Ramat HaHayal (Tel Aviv)",
-    "he": "המרכז הרפואי קפלן (רחובות), בית החולים הציבורי אסותא אשדוד ואסותא רמת החייל"
-  },
-  "address": "Kaplan: Pasternak St, Rehovot (Tel: +972 8-944-1211) | Assuta Ashdod: 7 Ha-Refu’a St, Ashdod (Tel: +972 8-300-4100 / *8480) | Assuta Tel Aviv: 20 HaBarzel St (+972 3-764-4444)",
-  "details": {
-    "en": "Serving the southern Shfela and coastal corridor with full 24/7 public emergency and maternity departments at Kaplan Medical Center (Rehovot) and Assuta Ashdod University Hospital, plus advanced gynecologic surgery, breast oncology, and IVF at Assuta Ramat HaHayal."
-  },
-  "services": [
-    "24/7 Public OBGYN Emergency & Maternity Wards (Kaplan Rehovot & Assuta Ashdod)",
-    "High-Risk Pregnancy, NICU & Maternal-Fetal Medicine",
-    "Advanced Gynecologic Surgery, Breast Center & IVF Network",
-    "24/7 Emergency Domestic & Sexual Violence Social Work Support"
-  ]
-},
-{
-  "id": "israel-hosp-rambam-bnai-zion-carmel-haifa",
-  "type": "OBGYN",
-  "lat": 32.8331,
-  "lng": 34.9859,
-  "phone": "+972-4-777-2222",
-  "country": "Israel",
-  "region": "Haifa District",
-  "city": "Haifa",
-  "website": "https://www.rambam.org.il/en/",
-  "names": {
-    "en": "Rambam Health Care Campus, Bnai Zion Medical Center & Carmel Medical Center — Haifa",
-    "he": "הקריה הרפואית רמב״ם, המרכז הרפואי בני ציון והמרכז הרפואי כרמל — חיפה",
-    "ar": "مجمع رمبام الطبي، مركز بني تسيون الطبي ومركز الكرمل الطبي — حيفا"
-  },
-  "address": "Rambam: 8 HaAliya HaShniya St, Haifa (+972 4-777-2222) | Bnai Zion: 47 Golomb St (+972 4-835-9359) | Carmel: 7 Michal St (+972 4-825-0211)",
-  "details": {
-    "en": "Northern Israel’s premier hospital triad in Haifa, led by Rambam Health Care Campus (Level I Trauma & tertiary referral center for all of Northern Israel), Bnai Zion Medical Center, and Clalit’s Carmel Medical Center. All three operate 24/7 OBGYN emergency rooms, maternity and delivery suites, high-risk pregnancy departments, NICUs, and sexual assault forensic care."
-  },
-  "services": [
-    "24/7 Tertiary OBGYN Emergency, Maternity & Delivery Suites",
-    "High-Risk Maternal-Fetal Medicine & Ruth Rappaport Children’s Hospital NICU",
-    "24/7 Acute Sexual Assault Forensic Center (Rambam & Bnai Zion)",
-    "Gynecologic Oncology, Endometriosis & Fertility / IVF"
-  ]
-},
-{
-  "id": "israel-hosp-galilee-nahariya-ziv-safed",
-  "type": "OBGYN",
-  "lat": 33.0101,
-  "lng": 35.1208,
-  "phone": "+972-4-910-7107",
-  "country": "Israel",
-  "region": "Northern District",
-  "city": "Nahariya & Safed (Tzfat)",
-  "website": "https://www.gmc.org.il/",
-  "names": {
-    "en": "Galilee Medical Center (Nahariya) & Ziv Medical Center (Safed / Tzfat)",
-    "he": "המרכז הרפואי לגליל (נהריה) והמרכז הרפואי זיו (צפת)",
-    "ar": "مركز الجليل الطبي (نهاريا) ومركز زيف الطبي (صفد)"
-  },
-  "address": "Galilee Medical Center: Route 89, Nahariya (+972 4-910-7107) | Ziv Medical Center: Derech HaRambam, Safed / Tzfat (+972 4-682-8811)",
-  "details": {
-    "en": "Major northern general and teaching hospitals serving the Western Galilee (Nahariya, Acre/Akko, Ma’alot, Druze and Arab Galilee villages) and Upper Galilee / Golan Heights (Safed/Tzfat, including Safed’s large Ultra-Orthodox Haredi community). Both feature fortified underground maternity & NICU wards, 24/7 OBGYN emergency care, and sexual assault forensic units."
-  },
-  "services": [
-    "24/7 OBGYN Emergency, Maternity & Protected Delivery Wards",
-    "High-Risk Pregnancy, Maternal-Fetal Medicine & NICU",
-    "Culturally Tailored Care for Jewish, Ultra-Orthodox (Safed), Arab & Druze Women",
-    "Acute Sexual Assault Forensic Care & Domestic Violence Social Work"
-  ]
-},
-{
-  "id": "israel-hosp-emek-afula-tzafon-poriya-tiberias",
-  "type": "OBGYN",
-  "lat": 32.6331,
-  "lng": 35.3125,
-  "phone": "+972-4-649-4000",
-  "country": "Israel",
-  "region": "Northern District",
-  "city": "Afula & Tiberias",
-  "website": "https://hospitals.clalit.co.il/emek/en/",
-  "names": {
-    "en": "Emek Medical Center (Afula) & Tzafon Medical Center (Poriya — Tiberias)",
-    "he": "המרכז הרפואי העמק (עפולה) והמרכז הרפואי צפון (פוריה — טבריה)",
-    "ar": "مركز هعيمك الطبي (العفولة) ومركز تسافون بوريا الطبي (طبريا)"
-  },
-  "address": "Emek: 21 Yitzhak Rabin Blvd, Afula (+972 4-649-4000) | Tzafon (Poriya): Poriya, Tiberias (+972 4-665-2211)",
-  "details": {
-    "en": "Serving the Jezreel Valley, Lower Galilee, Beit She’an, and Sea of Galilee (Kinneret / Tiberias) regions. Tzafon (Poriya) Medical Center hosts Northern Israel’s flagship Tana Center (24/7 acute sexual assault treatment center) alongside modern maternity, high-risk obstetrics, and NICU facilities at both Emek and Poriya."
-  },
-  "services": [
-    "24/7 Maternity, Delivery & OBGYN Emergency Departments",
-    "Tana Center at Poriya (24/7 Regional Sexual Assault Forensic & Trauma Center)",
-    "High-Risk Pregnancy, NICU & Fertility / IVF Units",
-    "Multilingual Hebrew, Arabic & Russian Maternal Care"
-  ]
-},
-{
-  "id": "israel-hosp-nazareth-scottish-holy-family-french",
-  "type": "OBGYN",
-  "lat": 32.7042,
-  "lng": 35.2931,
-  "phone": "+972-4-602-8888",
-  "country": "Israel",
-  "region": "Northern District",
-  "city": "Nazareth",
-  "website": "https://nazarethhospital.com/",
-  "names": {
-    "en": "Nazareth Hospitals: EMMS Nazareth Hospital (Scottish), Holy Family Hospital (Italian) & St. Vincent de Paul (French Hospital) — Nazareth",
-    "ar": "مستشفيات الناصرة: مستشفى الناصرة (الإنجليزي)، مستشفى العائلة المقدسة (الإيطالي) ومستشفى القديس منصور (الفرنسي)",
-    "he": "בתי החולים בנצרת: בית החולים נצרת (האנגלי), בית החולים המשפחה הקדושה (האיטלקי) ובית החולים הצרפתי"
-  },
-  "address": "EMMS Nazareth Hospital: 11505 St, Nazareth (+972 4-602-8888) | Holy Family Hospital: 8000 St, Nazareth (+972 4-650-8999) | French Hospital: 5055 St (+972 4-650-9000)",
-  "details": {
-    "en": "The three historic non-profit general and maternity hospitals serving Nazareth and the Arab population of the Galilee. Provide 24/7 Arabic- and Hebrew-speaking maternity, labor and delivery, high-risk obstetrics, neonatal intensive care (NICU), and women’s surgical services."
-  },
-  "services": [
-    "24/7 Arabic & Hebrew Maternity, Delivery & OBGYN Emergency Care",
-    "High-Risk Pregnancy, Neonatal Intensive Care (NICU) & Pediatrics",
-    "Gynecologic Surgery, Breast Screening & Fertility Care",
-    "Direct Referral Link with Nazareth Arab Women’s Crisis Hotline (04-656-6813)"
-  ]
-},
-{
-  "id": "israel-hosp-soroka-beer-sheva-barzilai-ashkelon",
-  "type": "OBGYN",
-  "lat": 31.2588,
-  "lng": 34.8013,
-  "phone": "+972-8-640-0111",
-  "country": "Israel",
-  "region": "Southern District",
-  "city": "Be’er Sheva & Ashkelon",
-  "website": "https://hospitals.clalit.co.il/soroka/en/",
-  "names": {
-    "en": "Soroka University Medical Center (Saban Birth & Maternity Center — Be’er Sheva) & Barzilai Medical Center (Ashkelon)",
-    "he": "המרכז הרפואי האוניברסיטאי סורוקה (מרכז סבן למיילדות — באר שבע) והמרכז הרפואי ברזילי (אשקלון)",
-    "ar": "مركز سوروكا الطبي الجامعي (بئر السبع) ومركز برزيلاي الطبي (عسقلان)"
-  },
-  "address": "Soroka: 151 Yitzhak Rager Blvd, Be’er Sheva (+972 8-640-0111) | Barzilai: 2 Ha-Histadrut St, Ashkelon (+972 8-674-5555)",
-  "details": {
-    "en": "Soroka University Medical Center in Be’er Sheva is the sole Level I Trauma and tertiary referral hospital for the entire Negev (delivering over 17,000 babies annually at the Saban Birth and Maternity Center for Jewish and Negev Bedouin women), paired with Barzilai University Medical Center serving Ashkelon and the southern coast."
-  },
-  "services": [
-    "Saban Birth and Maternity Center at Soroka (17,000+ Births/Year & 24/7 OBGYN ER)",
-    "Protected Underground Delivery Rooms, High-Risk Obstetrics & Level III NICU",
-    "24/7 Southern Acute Sexual Assault Forensic Center (Soroka & Barzilai)",
-    "Hebrew, Arabic (Negev Bedouin), Russian & Amharic Maternal Navigation"
-  ]
-},
-{
-  "id": "israel-hosp-yoseftal-eilat",
-  "type": "OBGYN",
-  "lat": 29.5559,
-  "lng": 34.9412,
-  "phone": "+972-8-635-8011",
-  "country": "Israel",
-  "region": "Southern District",
-  "city": "Eilat",
-  "website": "https://hospitals.clalit.co.il/yoseftal/he/",
-  "names": {
-    "en": "Yoseftal Medical Center — Eilat",
-    "he": "המרכז הרפואי יוספטל — אילת",
-    "ar": "مركز يوسفتال الطبي — إيلات"
-  },
-  "address": "Yotam Rd, Eilat 88000, Israel | Tel: +972 8-635-8011 | Emergency: 101",
-  "details": {
-    "en": "Southernmost general hospital in Israel serving Eilat, the southern Arava, and Red Sea visitors. Operates a 24/7 emergency department, maternity and delivery ward, gynecology unit, and air-evacuation link to Soroka Medical Center."
-  },
-  "services": [
-    "24/7 Maternity, Delivery & OBGYN Emergency Care in Eilat",
-    "Gynecologic & Obstetric Inpatient Ward",
-    "24/7 General Emergency Room & Helicopter Medevac Link",
-    "Social Work Support & Link to Eilat/Maslan Sexual Assault Crisis Center (1202)"
-  ]
-},
-{
-  "id": "palestine-unwomen-mehwar-shelter-bethlehem",
-  "type": "Safe Haven",
-  "lat": 31.7011,
-  "lng": 35.2258,
-  "phone": "+970-2-277-5626",
-  "country": "Palestine",
-  "region": "Bethlehem Governorate (West Bank)",
-  "city": "Beit Sahour / Bethlehem",
-  "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
-  "names": {
-    "en": "Mehwar Center for the Protection and Empowerment of Women and Families (مركز محور لحماية وتمكين المرأة والأسرة) — Bethlehem",
-    "ar": "مركز محور لحماية وتمكين المرأة والأسرة (بيت ساحور / بيت لحم)"
-  },
-  "address": "Wadi Al-ada, Beit Sahour, Bethlehem Governorate, Palestine | Tel: +970 2 277 5626 | SAWA 24/7 Toll-Free Line: 121 or 164",
-  "details": {
-    "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established in 2007 and operated under the Ministry of Social Development (MoSD) in Beit Sahour (Bethlehem), Mehwar is the primary national first-stage residential shelter in the southern West Bank for women and children survivors of domestic and gender-based violence, providing 24/7 safe accommodation, psychosocial therapy, legal representation, medical care, and vocational training."
-  },
-  "services": [
-    "UN Women Assessed First-Stage Residential Shelter for Women & Children",
-    "24/7 Safe Accommodation, Case Management & Family Protection Unit Coordination",
-    "Free Legal Aid (Sharia & Civil Courts), Psychological Counseling & Medical Care",
-    "Vocational Training, Economic Empowerment & Reintegration Support"
-  ]
-},
-{
-  "id": "palestine-unwomen-fds-nablus-safe-home",
-  "type": "Safe Haven",
-  "lat": 32.2211,
-  "lng": 35.2544,
-  "phone": "+970-9-238-4518",
-  "country": "Palestine",
-  "region": "Nablus Governorate (West Bank)",
-  "city": "Nablus",
-  "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
-  "names": {
-    "en": "Family Defense Society Safe Home (بيت الأمان / بيت الطوارئ — جمعية الدفاع عن الأسرة) — Nablus",
-    "ar": "بيت الأمان لحماية النساء — جمعية الدفاع عن الأسرة (نابلس)"
-  },
-  "address": "Nablus, Northern West Bank, Palestine | Tel: +970 9 238 4518 / +970 9 237 6701 | SAWA 24/7 Line: 121 or 164",
-  "details": {
-    "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Founded in 1994 by the Family Defense Society (FDS / جمعية الدفاع عن الأسرة) in Nablus, this is the first non-governmental emergency and first-stage women’s shelter in Palestine, serving the northern West Bank with 24/7 crisis protection, emergency safe lodging, legal defense, and trauma recovery."
-  },
-  "services": [
-    "UN Women Assessed Emergency & First-Stage Women’s Safe Home (Northern West Bank)",
-    "24/7 Emergency Shelter Intake & Takamul National Referral System Partner",
-    "Psychosocial Support, Legal Aid & Family Mediation / Protection",
-    "Vocational Rehabilitation & Economic Self-Sufficiency Programs"
-  ]
-},
-{
-  "id": "palestine-unwomen-jericho-emergency-protection-house",
-  "type": "Safe Haven",
-  "lat": 31.8611,
-  "lng": 35.4618,
-  "phone": "+970-2-295-6146",
-  "country": "Palestine",
-  "region": "Jericho Governorate (West Bank)",
-  "city": "Jericho",
-  "website": "https://www.wclac.org/",
-  "names": {
-    "en": "Jericho Emergency Protection House (بيت الطوارئ لحماية النساء — أريحا — WCLAC & MoSD) — Jericho",
-    "ar": "بيت الطوارئ لحماية النساء المعنفات — أريحا (مركز المرأة للإرشاد القانوني والاجتماعي ووزارة التنمية الاجتماعية)"
-  },
-  "address": "Jericho, West Bank, Palestine | WCLAC Emergency Line: +970 2 295 6146 / 1800-220-100 | Police Family Protection Unit: 100 | SAWA: 121",
-  "details": {
-    "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established by the Women’s Centre for Legal Aid and Counselling (WCLAC) in partnership with the Ministry of Social Development (MoSD) in Jericho as a 24/7 high-security emergency safe house accepting women and girls at immediate high risk of femicide or severe violence at any hour of the day or night."
-  },
-  "services": [
-    "UN Women Assessed 24/7 High-Security Emergency Protection Shelter",
-    "Immediate Round-the-Clock Admission for Women at High Risk of Femicide",
-    "Risk Assessment, Legal Representation & Police Family Protection Escort",
-    "Referral & Transition toMehwar or Nablus First-Stage Shelters"
-  ]
-},
-{
-  "id": "palestine-unwomen-hayat-center-gaza",
-  "type": "Safe Haven",
-  "lat": 31.5152,
-  "lng": 34.4511,
-  "phone": "1800-171-171",
-  "country": "Palestine",
-  "region": "Gaza Strip",
-  "city": "Gaza City & Deir al-Balah / Khan Younis",
-  "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
-  "names": {
-    "en": "Hayat Center for the Protection and Empowerment of Women and Families (مركز حياة لحماية وتمكين المرأة والأسرة) — Gaza",
-    "ar": "مركز حياة لحماية وتمكين المرأة والأسرة — غزة"
-  },
-  "address": "Al-Rimal, Gaza City & Mobile Displacement Protection Points (Deir al-Balah / Khan Younis), Gaza Strip | Toll-Free Helpline: 1800-171-171 | Tel: +970 8 282 7047 | SAWA: 164 / 121",
-  "details": {
-    "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established as an independent NGO coalition center (with CFTA, Wefaq, AISHA, and WAC) providing multi-sectoral anti-violence protection, emergency safe space, psychological first aid, legal aid, and dignity/empowerment services for women and girls in the Gaza Strip."
-  },
-  "services": [
-    "UN Women Assessed Anti-Violence Protection & Empowerment Center (Gaza Strip)",
-    "Toll-Free GBV & Psychological First Aid Helpline (1800-171-171 / 164)",
-    "Emergency Safe Spaces, Dignity Kits & Case Management for Displaced Women",
-    "Legal Counseling, Forensic/Medical Referral & Psychosocial Trauma Support"
-  ]
-},
-{
-  "id": "palestine-unwomen-beit-al-aman-gaza",
-  "type": "Safe Haven",
-  "lat": 31.5065,
-  "lng": 34.4628,
-  "phone": "164",
-  "country": "Palestine",
-  "region": "Gaza Strip",
-  "city": "Gaza City",
-  "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
-  "names": {
-    "en": "Beit Al-Aman Safe Home for Women (بيت الأمان لحماية النساء) & AISHA / Wefaq Women’s Protection Network — Gaza",
-    "ar": "بيت الأمان لحماية النساء وجمعية عايشة لحماية المرأة والطفل وجمعية وفاق — غزة"
-  },
-  "address": "Gaza City, Khan Younis & Rafah, Gaza Strip | SAWA Toll-Free Line: 164 or 121 | AISHA Helpline: 1800-171-171",
-  "details": {
-    "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Encompasses the Beit Al-Aman governmental safe home established in 2011 in Gaza alongside UN Women / UNFPA partner NGOs AISHA Association for Woman and Child Protection (جمعية عايشة) and Wefaq Society for Women and Child Care (جمعية وفاق), providing emergency protection, psychosocial support, and mobile GBV case management."
-  },
-  "services": [
-    "UN Women Assessed Residential Safe Home & Mobile Women’s Protection Teams",
-    "24/7 Psychosocial Crisis Line (164 / 121 / 1800-171-171)",
-    "Emergency Maternal & GBV Referral to Al-Awda, Nasser & PRCS Field Hospitals",
-    "Legal Aid, Cash/Dignity Assistance & Survivor Case Management"
-  ]
-},
-{
-  "id": "palestine-unwomen-wclac-sawa-psccw-ramallah-jerusalem-hebron",
-  "type": "Safe Haven",
-  "lat": 31.9029,
-  "lng": 35.1998,
-  "phone": "121",
-  "country": "Palestine",
-  "region": "Ramallah, East Jerusalem & Hebron",
-  "city": "Ramallah, Jerusalem & Hebron",
-  "website": "https://www.sawa.ps/",
-  "names": {
-    "en": "SAWA (مؤسسة سوا — 121 / 164 Helpline), WCLAC (مركز المرأة للإرشاد القانوني) & PSCCW (مركز الإرشاد النفسي) — Ramallah, Jerusalem & Hebron",
-    "ar": "مؤسسة سوا (خط الطوارئ 121 / 164) ومركز المرأة للإرشاد القانوني والاجتماعي (WCLAC) ومركز الإرشاد النفسي والاجتماعي للمرأة (PSCCW)"
-  },
-  "address": "Ramallah (Al-Bireh), East Jerusalem, Bethlehem & Hebron, Palestine | SAWA 24/7 Toll-Free: 121 or 164 (Jerusalem: 1800-500-121 / WhatsApp: +972 56-612-1012) | WCLAC: +970 2 295 6146 | PSCCW Bethlehem: +970 2 274 0049",
-  "details": {
-    "en": "Core NGO referral and protection network highlighted in the UN Women Palestine Assessment of Sheltering Services. SAWA operates Palestine’s 24/7 toll-free anti-violence helpline (121 / 164 / 1800-500-121), while WCLAC and the Psycho-Social Counseling Center for Women (PSCCW) provide emergency shelter placement, legal defense, psychological counseling, and transitional housing empowerment across Ramallah, East Jerusalem, Bethlehem, and Hebron."
-  },
-  "services": [
-    "SAWA 24/7 Toll-Free Women’s Anti-Violence Helpline (121 / 164 / 1800-500-121)",
-    "WhatsApp Confidential Crisis Chat (+972 56-612-1012)",
-    "WCLAC & PSCCW Emergency Shelter Placement, Legal Representation & Trauma Therapy",
-    "Direct Referral to Mehwar, Jericho & Nablus Safe Shelters"
-  ]
-},
-{
-  "id": "israel-bedouin-women-shelter-al-nashmiat-maan-negev",
-  "type": "Safe Haven",
-  "lat": 31.3189,
-  "lng": 34.7825,
-  "phone": "118",
-  "country": "Israel",
-  "region": "Southern District (Negev / Naqab)",
-  "city": "Be’er Sheva, Rahat, Lakiya & Unrecognized Negev Bedouin Villages",
-  "website": "https://hias.org/news/helping-israels-bedouin-women-strive-better-future/",
-  "names": {
-    "en": "Al-Nashmiat (النشميات), Ma’an & HIAS Negev Protection Network — Women’s Shelter & Support SPECIFICALLY for Bedouin Women (Be’er Sheva, Rahat & Lakiya)",
-    "ar": "حركة النشميات ومنتدى المؤسسات النسائية العربية البدوية في النقب (معاً) — ملجأ ودعم مخصص للنساء البدويات في النقب (بئر السبع، رهط واللقية)",
-    "he": "א-נשמיאת, פורום מען וסיוע HIAS בנגב — מענה, מקלט והגנה במיוחד לנשים בדואיות בנגב (באר שבע, רהט, לקיה והכפרים הלא-מוכרים)"
-  },
-  "address": "65 HaZvi St / Ben-Zvi St 11, Be’er Sheva, Rahat, Lakiya & Unrecognized Negev Villages, Israel | Bedouin Women’s Rights Center (Itach-Ma’aki / Ma’an): +972 8-627-2462 | Maslan Negev 24/7 Arabic/Bedouin Crisis Line: 1202 (+972 8-642-1313) | 24/7 Arabic Shelter Placement Line: 118",
-  "details": {
-    "en": "[SPECIFICALLY FOR BEDOUIN WOMEN IN ISRAEL (NEGEV / NAQAB)] Highlighted by HIAS Israel. Unites Al-Nashmiat (The Bedouin Women’s Leadership Movement in the Negev), Ma’an (The Forum of Arab-Bedouin Women’s Organizations in the Negev), Sidreh (Lakiya), the Bedouin Women’s Rights Center (with Itach-Ma’aki), and Maslan Negev Crisis Center to provide culturally safe emergency shelter placement, Arabic-speaking trauma counseling, Sharia & Civil family law protection, and emergency hygiene/food relief specifically for Arab Bedouin women in both recognized towns (Rahat, Lakiya, Hura, Tel Sheva, Kuseife, Ar’ara, Segev Shalom) and unrecognized Negev villages."
-  },
-  "services": [
-    "Confidential Emergency Shelter Placement Specifically for Bedouin Women & Children (Dial 118 / 1202)",
-    "Al-Nashmiat & HIAS Outreach to Unrecognized Negev Bedouin Villages (Food, Hygiene Kits & Safety)",
-    "Ma’an & Itach-Ma’aki Bedouin Women’s Rights Center (+972 8-627-2462 — Sharia & Civil Legal Aid)",
-    "Maslan 24/7 Negev Arabic/Bedouin Sexual & Domestic Violence Crisis Line (1202 / +972 8-642-1313)"
-  ]
-}
+  {
+    "id": "gnws-hq-valente-hague-netherlands",
+    "type": "safe-haven",
+    "lat": 52.0786,
+    "lng": 4.3007,
+    "phone": "0800-2000",
+    "country": "Netherlands",
+    "region": "South Holland",
+    "city": "The Hague",
+    "website": "https://gnws.org/about-us/who-we-are/",
+    "names": {
+      "en": "GNWS Foundation HQ & Valente (Dutch Network of Women’s Shelters / Lila.help) — The Hague",
+      "nl": "Stichting GNWS & Valente (Landelijk Netwerk Vrouwenopvang / Lila.help) — Den Haag",
+      "fr": "Fondation GNWS & Valente (Réseau Néerlandais des Maisons d’Accueil / Lila.help) — La Haye"
+    },
+    "address": {
+      "en": "The Hague (Den Haag) & Utrecht, Netherlands | Veilig Thuis 24/7 National Helpline: 0800-2000 | Global Directory: https://lila.help"
+    },
+    "details": {
+      "en": "Global headquarters of the Global Network of Women’s Shelters (GNWS Foundation, chaired by Aleid van den Brink) and Valente (formerly Federatie Opvang / Dutch Foundation of Women’s Shelters, host of the 3rd World Conference of Women’s Shelters in The Hague). Coordinates the global Lila.help directory of verified domestic & sexual violence helplines and connects directly to Dutch women’s shelters (Vrouwenopvang) via 0800-2000."
+    },
+    "services": {
+      "en": [
+        "GNWS Global Secretariat & Lila.help Verified Helpline Directory",
+        "24/7 Dutch Women’s Shelter Placement (Veilig Thuis 0800-2000)",
+        "Emergency Safe Houses (Vrouwenopvang & Oranje Huis Network)",
+        "Trauma-Informed Psychosocial & Legal Advocacy"
+      ]
+    },
+    "name": {
+      "en": "GNWS Foundation HQ & Valente (Dutch Network of Women’s Shelters / Lila.help) — The Hague",
+      "nl": "Stichting GNWS & Valente (Landelijk Netwerk Vrouwenopvang / Lila.help) — Den Haag",
+      "fr": "Fondation GNWS & Valente (Réseau Néerlandais des Maisons d’Accueil / Lila.help) — La Haye"
+    },
+    "regionDistrict": "The Hague, South Holland, Netherlands",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "0800-2000",
+    "directionsText": {
+      "en": "Global headquarters of the Global Network of Women’s Shelters (GNWS Foundation, chaired by Aleid van den Brink) and Valente (formerly Federatie Opvang / Dutch Foundation of Women’s Shelters, host of the 3rd World Conference of Women’s Shelters in The Hague). Coordinates the global Lila.help directory of verified domestic & sexual violence helplines and connects directly to Dutch women’s shelters (Vrouwenopvang) via 0800-2000. Website: https://gnws.org/about-us/who-we-are/"
+    }
+  },
+  {
+    "id": "gnws-wave-network-vienna-austria",
+    "type": "safe-haven",
+    "lat": 48.1986,
+    "lng": 16.3685,
+    "phone": "0800 222 555",
+    "country": "Austria",
+    "region": "Vienna",
+    "city": "Vienna",
+    "website": "https://wave-network.org/",
+    "names": {
+      "en": "WAVE Network (Women Against Violence Europe — GNWS European Regional Network) — Vienna",
+      "de": "WAVE Network (Women Against Violence Europe & Autonome Österreichische Frauenhäuser) — Wien",
+      "fr": "Réseau WAVE (Femmes Contre la Violence Europe — Réseau Européen GNWS) — Vienne"
+    },
+    "address": {
+      "en": "Bacherplatz 10/6, 1050 Vienna, Austria | Tel: +43 1 548 27 20 | Austrian 24/7 Women’s Helpline (Frauenhelpline): 0800 222 555"
+    },
+    "details": {
+      "en": "The European regional pillar of the Global Network of Women’s Shelters (GNWS), uniting over 1,600 women’s NGOs, autonomous women’s shelters (Frauenhäuser), rape crisis centers, and national helplines across 46 European countries. Co-located in Vienna with the Association of Autonomous Austrian Women’s Shelters (AÖF, 24/7 helpline 0800 222 555)."
+    },
+    "services": {
+      "en": [
+        "GNWS European Regional Women’s Shelter Network (46 Countries)",
+        "24/7 Autonomous Austrian Women’s Shelters Helpline (0800 222 555)",
+        "Cross-Border European Shelter Referral & Survivor Protection",
+        "Legal & Psychosocial Domestic Violence Support"
+      ]
+    },
+    "name": {
+      "en": "WAVE Network (Women Against Violence Europe — GNWS European Regional Network) — Vienna",
+      "de": "WAVE Network (Women Against Violence Europe & Autonome Österreichische Frauenhäuser) — Wien",
+      "fr": "Réseau WAVE (Femmes Contre la Violence Europe — Réseau Européen GNWS) — Vienne"
+    },
+    "regionDistrict": "Vienna, Vienna, Austria",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "0800 222 555",
+    "directionsText": {
+      "en": "The European regional pillar of the Global Network of Women’s Shelters (GNWS), uniting over 1,600 women’s NGOs, autonomous women’s shelters (Frauenhäuser), rape crisis centers, and national helplines across 46 European countries. Co-located in Vienna with the Association of Autonomous Austrian Women’s Shelters (AÖF, 24/7 helpline 0800 222 555). Website: https://wave-network.org/"
+    }
+  },
+  {
+    "id": "gnws-anws-secretariat-taipei-taiwan",
+    "type": "safe-haven",
+    "lat": 24.9856,
+    "lng": 121.5361,
+    "phone": "113",
+    "country": "Taiwan",
+    "region": "Taipei",
+    "city": "Taipei",
+    "website": "https://shelterasia.org/",
+    "names": {
+      "en": "Asian Network of Women’s Shelters (ANWS — GNWS Asia Regional Secretariat) — Taipei",
+      "zh": "亞洲婦女庇護安置網路 (ANWS 秘書處 / 勵馨基金會) — 台北",
+      "ja": "アジア女性シェルターネットワーク (ANWS — GNWSアジア地域事務局) — 台北"
+    },
+    "address": {
+      "en": "Xindian District, New Taipei City / Taipei, Taiwan | Tel: +886 2 8911 8595 | Taiwan 24/7 Protection Hotline: 113"
+    },
+    "details": {
+      "en": "The Asian regional network of the Global Network of Women’s Shelters (GNWS), hosted alongside The Garden of Hope Foundation (chaired by GNWS Chair Chi Hui-Jung). Connects and supports over 50 women’s shelter organizations and crisis centers across 20+ Asian nations, providing emergency cross-border shelter coordination and 24/7 domestic & sexual violence protection (113 in Taiwan)."
+    },
+    "services": {
+      "en": [
+        "GNWS Asian Regional Women’s Shelter Network (20+ Asian Nations)",
+        "24/7 Emergency Shelter Placement & Protection Hotline (113)",
+        "Migrant & Trafficked Women’s Safe Haven Coordination",
+        "Trauma Counseling, Legal Aid & Transitional Housing"
+      ]
+    },
+    "name": {
+      "en": "Asian Network of Women’s Shelters (ANWS — GNWS Asia Regional Secretariat) — Taipei",
+      "zh": "亞洲婦女庇護安置網路 (ANWS 秘書處 / 勵馨基金會) — 台北",
+      "ja": "アジア女性シェルターネットワーク (ANWS — GNWSアジア地域事務局) — 台北"
+    },
+    "regionDistrict": "Taipei, Taipei, Taiwan",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "113",
+    "directionsText": {
+      "en": "The Asian regional network of the Global Network of Women’s Shelters (GNWS), hosted alongside The Garden of Hope Foundation (chaired by GNWS Chair Chi Hui-Jung). Connects and supports over 50 women’s shelter organizations and crisis centers across 20+ Asian nations, providing emergency cross-border shelter coordination and 24/7 domestic & sexual violence protection (113 in Taiwan). Website: https://shelterasia.org/"
+    }
+  },
+  {
+    "id": "gnws-nnedv-washington-dc-usa",
+    "type": "safe-haven",
+    "lat": 38.9026,
+    "lng": -77.0311,
+    "phone": "1-800-799-7233",
+    "country": "United States",
+    "region": "District of Columbia",
+    "city": "Washington, D.C.",
+    "website": "https://nnedv.org/",
+    "names": {
+      "en": "NNEDV (National Network to End Domestic Violence & WomensLaw.org — GNWS US Hub) — Washington, D.C.",
+      "es": "Red Nacional para Terminar con la Violencia Doméstica (NNEDV y WomensLaw.org) — Washington, D.C."
+    },
+    "address": {
+      "en": "1325 Massachusetts Ave NW, Suite 800, Washington, DC 20005, USA | Tel: +1 202-543-5566 | US 24/7 National DV Hotline: 1-800-799-SAFE (7233)"
+    },
+    "details": {
+      "en": "The United States national member network of the Global Network of Women’s Shelters (GNWS) and host of the 2nd World Conference of Women’s Shelters in Washington, D.C. Represents the 56 US state and territorial domestic violence coalitions and over 2,000 local women’s shelters, operating WomensLaw.org (free confidential legal email hotline in English & Spanish) and the Safety Net technology safety project."
+    },
+    "services": {
+      "en": [
+        "GNWS US National Network of 56 Coalitions & 2,000+ Shelters",
+        "24/7 US National Domestic Violence Hotline Referral (1-800-799-7233)",
+        "WomensLaw.org Confidential Legal Information & Email Hotline",
+        "Safety Net Cyber-Stalking & Technology Abuse Protection"
+      ]
+    },
+    "name": {
+      "en": "NNEDV (National Network to End Domestic Violence & WomensLaw.org — GNWS US Hub) — Washington, D.C.",
+      "es": "Red Nacional para Terminar con la Violencia Doméstica (NNEDV y WomensLaw.org) — Washington, D.C."
+    },
+    "regionDistrict": "Washington, D.C., District of Columbia, United States",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "1-800-799-7233",
+    "directionsText": {
+      "en": "The United States national member network of the Global Network of Women’s Shelters (GNWS) and host of the 2nd World Conference of Women’s Shelters in Washington, D.C. Represents the 56 US state and territorial domestic violence coalitions and over 2,000 local women’s shelters, operating WomensLaw.org (free confidential legal email hotline in English & Spanish) and the Safety Net technology safety project. Website: https://nnedv.org/"
+    }
+  },
+  {
+    "id": "gnws-acws-edmonton-canada",
+    "type": "safe-haven",
+    "lat": 53.5413,
+    "lng": -113.5065,
+    "phone": "1-866-331-3933",
+    "country": "Canada",
+    "region": "Alberta",
+    "city": "Edmonton",
+    "website": "https://acws.ca/",
+    "names": {
+      "en": "Alberta Council of Women’s Shelters (ACWS — Founding Host of GNWS) — Edmonton",
+      "fr": "Conseil des Refuges pour Femmes de l’Alberta (ACWS — Fondateur du GNWS) — Edmonton"
+    },
+    "address": {
+      "en": "Suite 600, 10310 Jasper Avenue, Edmonton, AB T5J 2W4, Canada | 24/7 Toll-Free Alberta Shelter Line: 1-866-331-3933"
+    },
+    "details": {
+      "en": "Founding catalyst of the Global Network of Women’s Shelters (GNWS), having convened the historic 1st World Conference of Women’s Shelters in Edmonton in 2008. Connects survivors 24/7 via 1-866-331-3933 directly to over 50 emergency, Second-Stage, and First Nations on-reserve women’s shelters across Alberta."
+    },
+    "services": {
+      "en": [
+        "24/7 Direct Women’s Shelter Connection Line (1-866-331-3933)",
+        "Emergency, Second-Stage & On-Reserve Indigenous Women’s Shelters",
+        "Danger Assessment & Safety Planning",
+        "Child Trauma Support & Pet-Friendly Safe Haven Referrals"
+      ]
+    },
+    "name": {
+      "en": "Alberta Council of Women’s Shelters (ACWS — Founding Host of GNWS) — Edmonton",
+      "fr": "Conseil des Refuges pour Femmes de l’Alberta (ACWS — Fondateur du GNWS) — Edmonton"
+    },
+    "regionDistrict": "Edmonton, Alberta, Canada",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "1-866-331-3933",
+    "directionsText": {
+      "en": "Founding catalyst of the Global Network of Women’s Shelters (GNWS), having convened the historic 1st World Conference of Women’s Shelters in Edmonton in 2008. Connects survivors 24/7 via 1-866-331-3933 directly to over 50 emergency, Second-Stage, and First Nations on-reserve women’s shelters across Alberta. Website: https://acws.ca/"
+    }
+  },
+  {
+    "id": "gnws-womens-shelters-canada-ottawa",
+    "type": "safe-haven",
+    "lat": 45.4192,
+    "lng": -75.6968,
+    "phone": "1-855-643-4782",
+    "country": "Canada",
+    "region": "Ontario",
+    "city": "Ottawa",
+    "website": "https://endvaw.ca/",
+    "names": {
+      "en": "Women’s Shelters Canada (Hébergements femmes Canada & ShelterSafe.ca — GNWS Hub) — Ottawa",
+      "fr": "Hébergements femmes Canada (Refuges pour femmes Canada / ShelterSafe.ca) — Ottawa"
+    },
+    "address": {
+      "en": "85 Albert Street, Suite 1502, Ottawa, ON K1P 6A4, Canada | Tel: +1 613-680-5119 | Interactive Map: https://sheltersafe.ca"
+    },
+    "details": {
+      "en": "Core North American founding pillar of the Global Network of Women’s Shelters (GNWS), uniting 19 provincial, territorial, and Indigenous shelter associations representing over 600 emergency and transitional women’s shelters across Canada. Operates ShelterSafe.ca (HébergementSecours.ca) for immediate 24/7 shelter crisis line connections nationwide."
+    },
+    "services": {
+      "en": [
+        "GNWS Canadian National Women’s Shelter Network (600+ Shelters)",
+        "ShelterSafe.ca / HébergementSecours.ca 24/7 Crisis Directory",
+        "Emergency Transition Houses & Second-Stage Housing Referrals",
+        "Bilingual English, French & Indigenous Survivor Advocacy"
+      ]
+    },
+    "name": {
+      "en": "Women’s Shelters Canada (Hébergements femmes Canada & ShelterSafe.ca — GNWS Hub) — Ottawa",
+      "fr": "Hébergements femmes Canada (Refuges pour femmes Canada / ShelterSafe.ca) — Ottawa"
+    },
+    "regionDistrict": "Ottawa, Ontario, Canada",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "1-855-643-4782",
+    "directionsText": {
+      "en": "Core North American founding pillar of the Global Network of Women’s Shelters (GNWS), uniting 19 provincial, territorial, and Indigenous shelter associations representing over 600 emergency and transitional women’s shelters across Canada. Operates ShelterSafe.ca (HébergementSecours.ca) for immediate 24/7 shelter crisis line connections nationwide. Website: https://endvaw.ca/"
+    }
+  },
+  {
+    "id": "gnws-nacafv-first-nations-shelters-canada",
+    "type": "safe-haven",
+    "lat": 45.4018,
+    "lng": -73.6815,
+    "phone": "1-855-242-3310",
+    "country": "Canada",
+    "region": "Quebec",
+    "city": "Kahnawake / Montreal",
+    "website": "https://www.nacafv.ca/",
+    "names": {
+      "en": "National Aboriginal Circle Against Family Violence (NACAFV — GNWS Network of First Nations Women’s Shelters)",
+      "fr": "Cercle National des Autochtones Contre la Violence Familiale (NACAFV — Réseau des Refuges des Premières Nations)"
+    },
+    "address": {
+      "en": "Kahnawake Mohawk Territory, QC / Ottawa, ON, Canada | Tel: +1 450-638-2968 | Hope for Wellness 24/7 Indigenous Helpline: 1-855-242-3310"
+    },
+    "details": {
+      "en": "Representing the Network of First Nations Women’s Shelters at the heart of the Global Network of Women’s Shelters (GNWS). Supports and connects on-reserve and Indigenous-led women’s shelters, healing lodges, and transition houses across First Nations, Inuit, and Métis communities in Canada."
+    },
+    "services": {
+      "en": [
+        "GNWS Network of First Nations, Inuit & Métis Women’s Shelters",
+        "Culturally Grounded Indigenous Healing Lodges & Safe Havens",
+        "24/7 Hope for Wellness Indigenous Crisis Line (1-855-242-3310)",
+        "MMIWG2S+ Safety Planning, Elder Support & Family Violence Advocacy"
+      ]
+    },
+    "name": {
+      "en": "National Aboriginal Circle Against Family Violence (NACAFV — GNWS Network of First Nations Women’s Shelters)",
+      "fr": "Cercle National des Autochtones Contre la Violence Familiale (NACAFV — Réseau des Refuges des Premières Nations)"
+    },
+    "regionDistrict": "Kahnawake / Montreal, Quebec, Canada",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "1-855-242-3310",
+    "directionsText": {
+      "en": "Representing the Network of First Nations Women’s Shelters at the heart of the Global Network of Women’s Shelters (GNWS). Supports and connects on-reserve and Indigenous-led women’s shelters, healing lodges, and transition houses across First Nations, Inuit, and Métis communities in Canada. Website: https://www.nacafv.ca/"
+    }
+  },
+  {
+    "id": "gnws-niwrc-stronghearts-montana-usa",
+    "type": "safe-haven",
+    "lat": 45.6231,
+    "lng": -106.6667,
+    "phone": "1-844-762-8483",
+    "country": "United States",
+    "region": "Montana",
+    "city": "Lame Deer",
+    "website": "https://www.niwrc.org/",
+    "names": {
+      "en": "National Indigenous Women’s Resource Center (NIWRC & StrongHearts Native Helpline — GNWS First Nations Partner)",
+      "es": "Centro Nacional de Recursos para Mujeres Indígenas (NIWRC y Línea Nativa StrongHearts)"
+    },
+    "address": {
+      "en": "515 Lame Deer Ave, Lame Deer, MT 59043, USA | Tel: +1 406-477-3896 | 24/7 StrongHearts Native Helpline: 1-844-7NATIVE (1-844-762-8483)"
+    },
+    "details": {
+      "en": "United States First Nations / Native American partner within the Global Network of Women’s Shelters (GNWS) Indigenous caucus. Dedicated to restoring sovereignty and safety for Native women across Tribal lands, co-operating the 24/7 StrongHearts Native Helpline (1-844-762-8483) and the National Tribal Clearinghouse on Sexual Assault."
+    },
+    "services": {
+      "en": [
+        "24/7 StrongHearts Native Domestic & Sexual Violence Helpline (1-844-762-8483)",
+        "Tribal Safe Havens & Native Women’s Shelter Directory",
+        "Culturally Grounded Advocacy for American Indian & Alaska Native Survivors",
+        "Tribal Protection Order & Sovereignty Legal Support"
+      ]
+    },
+    "name": {
+      "en": "National Indigenous Women’s Resource Center (NIWRC & StrongHearts Native Helpline — GNWS First Nations Partner)",
+      "es": "Centro Nacional de Recursos para Mujeres Indígenas (NIWRC y Línea Nativa StrongHearts)"
+    },
+    "regionDistrict": "Lame Deer, Montana, United States",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "1-844-762-8483",
+    "directionsText": {
+      "en": "United States First Nations / Native American partner within the Global Network of Women’s Shelters (GNWS) Indigenous caucus. Dedicated to restoring sovereignty and safety for Native women across Tribal lands, co-operating the 24/7 StrongHearts Native Helpline (1-844-762-8483) and the National Tribal Clearinghouse on Sexual Assault. Website: https://www.niwrc.org/"
+    }
+  },
+  {
+    "id": "gnws-wesnet-australia-canberra",
+    "type": "safe-haven",
+    "lat": -35.2809,
+    "lng": 149.13,
+    "phone": "1800 737 732",
+    "country": "Australia",
+    "region": "Australian Capital Territory",
+    "city": "Canberra",
+    "website": "https://wesnet.org.au/",
+    "names": {
+      "en": "WESNET (Women’s Services Network Australia — GNWS Oceania Regional Hub)"
+    },
+    "address": {
+      "en": "Canberra, ACT & Sydney, NSW, Australia | Tel: 1800 WESNET (1800 937 638) | Australia 24/7 DV Helpline (1800RESPECT): 1800 737 732"
+    },
+    "details": {
+      "en": "Australia’s national peak body for specialist women’s domestic and family violence refuges and shelters, and Oceania board leader of the Global Network of Women’s Shelters (GNWS, led by Karen Bentley; host of the 5th World Conference of Women’s Shelters in Sydney). Connects over 350 specialist women’s refuges across Australia, including Aboriginal and Torres Strait Islander safe houses and the Safe Connections survivor smartphone program."
+    },
+    "services": {
+      "en": [
+        "GNWS Oceania Regional Network & 350+ Australian Women’s Refuges",
+        "24/7 National Sexual & Domestic Violence Counselling (1800 737 732)",
+        "WESNET Safe Connections Program (Safe Phones for Survivors)",
+        "Technology-Facilitated Abuse Safety & Specialist Refuge Referral"
+      ]
+    },
+    "name": {
+      "en": "WESNET (Women’s Services Network Australia — GNWS Oceania Regional Hub)"
+    },
+    "regionDistrict": "Canberra, Australian Capital Territory, Australia",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "1800 737 732",
+    "directionsText": {
+      "en": "Australia’s national peak body for specialist women’s domestic and family violence refuges and shelters, and Oceania board leader of the Global Network of Women’s Shelters (GNWS, led by Karen Bentley; host of the 5th World Conference of Women’s Shelters in Sydney). Connects over 350 specialist women’s refuges across Australia, including Aboriginal and Torres Strait Islander safe houses and the Safe Connections survivor smartphone program. Website: https://wesnet.org.au/"
+    }
+  },
+  {
+    "id": "gnws-womens-refuge-new-zealand-wellington",
+    "type": "safe-haven",
+    "lat": -41.2865,
+    "lng": 174.7762,
+    "phone": "0800 733 843",
+    "country": "New Zealand",
+    "region": "Wellington",
+    "city": "Wellington",
+    "website": "https://womensrefuge.org.nz/",
+    "names": {
+      "en": "Women’s Refuge New Zealand (Ngā Whare Waatea / NCIWR — GNWS Oceania & Indigenous Hub) — Wellington"
+    },
+    "address": {
+      "en": "Level 5, 276 Lambton Quay, Wellington 6011, New Zealand | 24/7 Toll-Free Crisis Line: 0800 REFUGE (0800 733 843)"
+    },
+    "details": {
+      "en": "The National Collective of Independent Women’s Refuges (NCIWR / Ngā Whare Waatea) in Aotearoa New Zealand, a key Oceania and Indigenous Tangata Whenua pillar of the Global Network of Women’s Shelters (GNWS). Operates 40+ local safe houses (including kaupapa Māori refuges) and a 24/7 nationwide crisis line at 0800 733 843."
+    },
+    "services": {
+      "en": [
+        "24/7 Nationwide Women’s Refuge Crisis Line (0800 733 843)",
+        "Confidential Safe Houses & Kaupapa Māori Tangata Whenua Refuges",
+        "Safe Escape Planning, Legal Protection Order Support & Advocacy",
+        "Child & Whānau Trauma Recovery Support"
+      ]
+    },
+    "name": {
+      "en": "Women’s Refuge New Zealand (Ngā Whare Waatea / NCIWR — GNWS Oceania & Indigenous Hub) — Wellington"
+    },
+    "regionDistrict": "Wellington, Wellington, New Zealand",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "0800 733 843",
+    "directionsText": {
+      "en": "The National Collective of Independent Women’s Refuges (NCIWR / Ngā Whare Waatea) in Aotearoa New Zealand, a key Oceania and Indigenous Tangata Whenua pillar of the Global Network of Women’s Shelters (GNWS). Operates 40+ local safe houses (including kaupapa Māori refuges) and a 24/7 nationwide crisis line at 0800 733 843. Website: https://womensrefuge.org.nz/"
+    }
+  },
+  {
+    "id": "gnws-rire-inter-american-network-panama-latam",
+    "type": "safe-haven",
+    "lat": 8.9824,
+    "lng": -79.5199,
+    "phone": "182",
+    "country": "Panama",
+    "region": "Panamá",
+    "city": "Panama City",
+    "website": "https://gnws.org/about-us/who-we-are/",
+    "names": {
+      "en": "Red Interamericana de Refugios (RIRE — GNWS Latin America & Caribbean Network)",
+      "es": "Red Interamericana de Refugios (RIRE) y Red Latinoamericana de Casas de Refugio — GNWS",
+      "pt": "Rede Interamericana de Abrigos de Mulheres (RIRE — Rede Latino-Americana GNWS)"
+    },
+    "address": {
+      "en": "Panama City, Panama & Mexico City, Mexico | Panama 24/7 INAMU / Ministry of Women Line: 182 | Regional LatAm Network"
+    },
+    "details": {
+      "en": "The Inter-American and Latin American & Caribbean regional network of the Global Network of Women’s Shelters (GNWS), connecting Casas de Refugio, Casas de Acogida, and women’s shelters across Central America, South America, Mexico (with Red Nacional de Refugios), and the Caribbean."
+    },
+    "services": {
+      "en": [
+        "GNWS Latin American & Caribbean Network of Casas de Refugio",
+        "24/7 Cross-Border Shelter Coordination for Women & Migrant Survivors",
+        "Emergency Albergues (Safe Houses) & Femicide Prevention",
+        "Free Legal, Psychological & Social Work Accompaniment"
+      ]
+    },
+    "name": {
+      "en": "Red Interamericana de Refugios (RIRE — GNWS Latin America & Caribbean Network)",
+      "es": "Red Interamericana de Refugios (RIRE) y Red Latinoamericana de Casas de Refugio — GNWS",
+      "pt": "Rede Interamericana de Abrigos de Mulheres (RIRE — Rede Latino-Americana GNWS)"
+    },
+    "regionDistrict": "Panama City, Panamá, Panama",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "182",
+    "directionsText": {
+      "en": "The Inter-American and Latin American & Caribbean regional network of the Global Network of Women’s Shelters (GNWS), connecting Casas de Refugio, Casas de Acogida, and women’s shelters across Central America, South America, Mexico (with Red Nacional de Refugios), and the Caribbean. Website: https://gnws.org/about-us/who-we-are/"
+    }
+  },
+  {
+    "id": "gnws-nsmsa-african-network-johannesburg-south-africa",
+    "type": "safe-haven",
+    "lat": -26.2041,
+    "lng": 28.0473,
+    "phone": "0800 001 005",
+    "country": "South Africa",
+    "region": "Gauteng",
+    "city": "Johannesburg / Cape Town",
+    "website": "https://www.nsmsa.org.za/",
+    "names": {
+      "en": "National Shelter Movement of South Africa (NSMSA) & African Network of Women’s Shelters (ANWS-Africa — GNWS)",
+      "sw": "Mtandao wa Afrika wa Nyumba Salama za Wanawake (ANWS-Africa & NSMSA)",
+      "fr": "Réseau Africain des Refuges pour Femmes (ANWS-Afrique & NSMSA)"
+    },
+    "address": {
+      "en": "Johannesburg (Gauteng) & Cape Town (Western Cape), South Africa | 24/7 National Shelter Helpline: 0800 001 005 | WhatsApp: +27 82 057 8600 / +27 82 058 2215 / +27 72 230 7147"
+    },
+    "details": {
+      "en": "Representing the African Network of Women’s Shelters (ANWS-Africa) within the Global Network of Women’s Shelters (GNWS) alongside the Nisaa Institute for Women’s Development. Coordinates nearly 100 domestic violence shelters across all 9 provinces of South Africa and partners with African women’s safe havens continent-wide, operating the 24/7 toll-free National Shelter Helpline (0800 001 005)."
+    },
+    "services": {
+      "en": [
+        "24/7 Toll-Free National Shelter Placement Helpline (0800 001 005)",
+        "GNWS African Regional Network of Women’s Shelters (ANWS-Africa)",
+        "Emergency Safe Houses for Abused Women & Their Children",
+        "Psychosocial Support, Protection Orders & Court Preparation"
+      ]
+    },
+    "name": {
+      "en": "National Shelter Movement of South Africa (NSMSA) & African Network of Women’s Shelters (ANWS-Africa — GNWS)",
+      "sw": "Mtandao wa Afrika wa Nyumba Salama za Wanawake (ANWS-Africa & NSMSA)",
+      "fr": "Réseau Africain des Refuges pour Femmes (ANWS-Afrique & NSMSA)"
+    },
+    "regionDistrict": "Johannesburg / Cape Town, Gauteng, South Africa",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "0800 001 005",
+    "directionsText": {
+      "en": "Representing the African Network of Women’s Shelters (ANWS-Africa) within the Global Network of Women’s Shelters (GNWS) alongside the Nisaa Institute for Women’s Development. Coordinates nearly 100 domestic violence shelters across all 9 provinces of South Africa and partners with African women’s safe havens continent-wide, operating the 24/7 toll-free National Shelter Helpline (0800 001 005). Website: https://www.nsmsa.org.za/"
+    }
+  },
+  {
+    "id": "israel-bat-melech-ultra-orthodox-womens-shelter-jerusalem",
+    "type": "safe-haven",
+    "lat": 31.7857,
+    "lng": 35.2007,
+    "phone": "1-800-292-333",
+    "country": "Israel",
+    "region": "Jerusalem District",
+    "city": "Jerusalem & Bnei Brak / Central Israel",
+    "website": "https://batmelech.org/",
+    "names": {
+      "en": "Bat Melech (בת מלך) — Women’s Shelter SPECIFICALLY for Ultra-Orthodox (Haredi) & Orthodox Jewish Women",
+      "he": "בת מלך — מקלט לנשים מוכות המיועד במיוחד לנשים חרדיות ודתיות",
+      "fr": "Bat Melech (בת מלך) — Refuge SPÉCIFIQUEMENT pour les Femmes Juives Ultra-Orthodoxes (Haredi) et Religieuses",
+      "es": "Bat Melech (בת מלך) — Refugio ESPECÍFICAMENTE para Mujeres Judías Ultraortodoxas (Jaredíes) y Religiosas",
+      "ru": "Бат Мелех (בת מלך) — Убежище СПЕЦИАЛЬНО для ультраортодоксальных (харедим) и религиозных еврейских женщин"
+    },
+    "address": {
+      "en": "Confidential Shelter Locations in Jerusalem & Central Israel (PO Box 23023, Jerusalem 9123011) | 24/7 Toll-Free Helpline: 1-800-292-333 | WhatsApp: +972 58-651-6103 (058-651-6103) | Office: +972 2-633-8929"
+    },
+    "details": {
+      "en": "[SPECIFICALLY FOR ULTRA-ORTHODOX (HAREDI) & ORTHODOX JEWISH WOMEN] Listed on the NO MORE Israel Directory. Bat Melech operates the only emergency domestic violence shelters in Israel built specifically for Ultra-Orthodox (Haredi) and Orthodox Jewish women and their children. Shelters maintain strict Glatt Mehadrin kashrut, full Shabbat and holiday observance, modest environments, and integration with Haredi/religious schools so women never have to choose between their religious way of life and escaping abuse. Also provides free representation by dual Rabbinical & Civil Court lawyers."
+    },
+    "services": {
+      "en": [
+        "Dedicated Strictly Kosher (Mehadrin) & Shabbat-Observant Shelters for Ultra-Orthodox (Haredi) Women",
+        "24/7 Ultra-Orthodox & Religious Women’s DV Helpline (1-800-292-333) & WhatsApp (058-651-6103)",
+        "Free Dual Legal Representation in Rabbinical Courts (Beit Din / Gett) & Civil Family Courts",
+        "Haredi & Religious School Placement for Children & Transitional Halfway Apartments"
+      ]
+    },
+    "name": {
+      "en": "Bat Melech (בת מלך) — Women’s Shelter SPECIFICALLY for Ultra-Orthodox (Haredi) & Orthodox Jewish Women",
+      "he": "בת מלך — מקלט לנשים מוכות המיועד במיוחד לנשים חרדיות ודתיות",
+      "fr": "Bat Melech (בת מלך) — Refuge SPÉCIFIQUEMENT pour les Femmes Juives Ultra-Orthodoxes (Haredi) et Religieuses",
+      "es": "Bat Melech (בת מלך) — Refugio ESPECÍFICAMENTE para Mujeres Judías Ultraortodoxas (Jaredíes) y Religiosas",
+      "ru": "Бат Мелех (בת מלך) — Убежище СПЕЦИАЛЬНО для ультраортодоксальных (харедим) и религиозных еврейских женщин"
+    },
+    "regionDistrict": "Jerusalem & Bnei Brak / Central Israel, Jerusalem District, Israel",
+    "categoryBadge": {
+      "en": "Women’s Shelter SPECIFICALLY for Ultra-Orthodox (Haredi) & Religious Jewish Women"
+    },
+    "emergencyHotline": "1-800-292-333",
+    "directionsText": {
+      "en": "[SPECIFICALLY FOR ULTRA-ORTHODOX (HAREDI) & ORTHODOX JEWISH WOMEN] Listed on the NO MORE Israel Directory. Bat Melech operates the only emergency domestic violence shelters in Israel built specifically for Ultra-Orthodox (Haredi) and Orthodox Jewish women and their children. Shelters maintain strict Glatt Mehadrin kashrut, full Shabbat and holiday observance, modest environments, and integration with Haredi/religious schools so women never have to choose between their religious way of life and escaping abuse. Also provides free representation by dual Rabbinical & Civil Court lawyers. Website: https://batmelech.org/"
+    }
+  },
+  {
+    "id": "israel-tahel-ultra-orthodox-crisis-center-jerusalem",
+    "type": "safe-haven",
+    "lat": 31.7535,
+    "lng": 35.2137,
+    "phone": "*2511",
+    "country": "Israel",
+    "region": "Jerusalem District",
+    "city": "Jerusalem (Serving Nationwide)",
+    "website": "https://www.tahel.org.il/",
+    "names": {
+      "en": "Tahel (תהל) — 24/7 Crisis Center SPECIFICALLY for Ultra-Orthodox (Haredi) & Religious Jewish Women (*2511)",
+      "he": "תהל (מרכז סיוע לנשים וילדים דתיים וחרדים) — מוקד חירום 2511* לנשים חרדיות ודתיות",
+      "fr": "Tahel (תהל) — Centre de Crise 24/7 SPÉCIFIQUEMENT pour les Femmes Juives Ultra-Orthodoxes (Haredi) et Religieuses (*2511)",
+      "es": "Tahel (תהל) — Centro de Crisis 24/7 ESPECÍFICAMENTE para Mujeres Judías Ultraortodoxas (Jaredíes) y Religiosas (*2511)",
+      "ru": "Тахель (תהל) — Кризисный центр 24/7 СПЕЦИАЛЬНО для ультраортодоксальных (харедим) и религиозных женщин (*2511)"
+    },
+    "address": {
+      "en": "Jerusalem (Nationwide Coverage), Israel | 24/7 Religious & Ultra-Orthodox Women’s Emergency Hotline: *2511 | WhatsApp: +972 52-836-1202 | Office: +972 2-673-0002"
+    },
+    "details": {
+      "en": "[SPECIFICALLY FOR ULTRA-ORTHODOX (HAREDI) & RELIGIOUS JEWISH WOMEN & CHILDREN] Listed on the NO MORE Israel Directory. Tahel is Israel’s dedicated 24-hour crisis center for Ultra-Orthodox (Haredi) and religious Jewish women, teenagers, and children experiencing domestic violence or sexual abuse. Provides culturally and halachically sensitive support in Hebrew, Yiddish, English, and French, hospital/police accompaniment, and direct placement into religious women’s shelters."
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Hotline for Ultra-Orthodox (Haredi) & Religious Women (*2511)",
+        "Support in Hebrew, Yiddish, English & French by Religiously Observant Female Advocates",
+        "Confidential Sexual Assault & Domestic Abuse Counseling for Haredi Women & Teens",
+        "Medical, Police & Rabbinical/Civil Legal Accompaniment & Shelter Placement"
+      ]
+    },
+    "name": {
+      "en": "Tahel (תהל) — 24/7 Crisis Center SPECIFICALLY for Ultra-Orthodox (Haredi) & Religious Jewish Women (*2511)",
+      "he": "תהל (מרכז סיוע לנשים וילדים דתיים וחרדים) — מוקד חירום 2511* לנשים חרדיות ודתיות",
+      "fr": "Tahel (תהל) — Centre de Crise 24/7 SPÉCIFIQUEMENT pour les Femmes Juives Ultra-Orthodoxes (Haredi) et Religieuses (*2511)",
+      "es": "Tahel (תהל) — Centro de Crisis 24/7 ESPECÍFICAMENTE para Mujeres Judías Ultraortodoxas (Jaredíes) y Religiosas (*2511)",
+      "ru": "Тахель (תהל) — Кризисный центр 24/7 СПЕЦИАЛЬНО для ультраортодоксальных (харедим) и религиозных женщин (*2511)"
+    },
+    "regionDistrict": "Jerusalem (Serving Nationwide), Jerusalem District, Israel",
+    "categoryBadge": {
+      "en": "Women’s Shelter SPECIFICALLY for Ultra-Orthodox (Haredi) & Religious Jewish Women"
+    },
+    "emergencyHotline": "*2511",
+    "directionsText": {
+      "en": "[SPECIFICALLY FOR ULTRA-ORTHODOX (HAREDI) & RELIGIOUS JEWISH WOMEN & CHILDREN] Listed on the NO MORE Israel Directory. Tahel is Israel’s dedicated 24-hour crisis center for Ultra-Orthodox (Haredi) and religious Jewish women, teenagers, and children experiencing domestic violence or sexual abuse. Provides culturally and halachically sensitive support in Hebrew, Yiddish, English, and French, hospital/police accompaniment, and direct placement into religious women’s shelters. Website: https://www.tahel.org.il/"
+    }
+  },
+  {
+    "id": "israel-no2violence-wizo-national-shelters-tel-aviv",
+    "type": "safe-haven",
+    "lat": 32.0755,
+    "lng": 34.7882,
+    "phone": "118",
+    "country": "Israel",
+    "region": "Tel Aviv District",
+    "city": "Tel Aviv (Nationwide Network)",
+    "website": "https://nomoredirectory.org/israel/",
+    "names": {
+      "en": "No2Violence (לא. לאלימות נגד נשים) & National Domestic Abuse Shelter Hotline (118 / *6724) — Tel Aviv",
+      "he": "לא. לאלימות נגד נשים ומוקד 118 הארצי למקלטים לנשים נפגעות אלימות",
+      "ar": "لا للعنف ضد النساء والخط الوطني لملاجئ النساء (118 / *6724) — تل أبيب"
+    },
+    "address": {
+      "en": "Tel Aviv & Nationwide Confidential Shelters, Israel | National DV Hotline: 118 or 1-800-220-000 | No2Violence 24/7 Free Hotline: *6724 or 1-800-353-300"
+    },
+    "details": {
+      "en": "Listed on the NO MORE Israel Directory. Coordinates 24/7 emergency intake into Israel’s national network of women’s domestic violence shelters, halfway houses, and emergency protection centers via the Ministry of Welfare 24/7 Hotline (118 / 1-800-220-000) and the No2Violence 24-hour helpline (*6724 / 1-800-353-300)."
+    },
+    "services": {
+      "en": [
+        "24/7 National Domestic Abuse Emergency Hotline (118 / 1-800-220-000)",
+        "24/7 No2Violence Shelter & Crisis Helpline (*6724 / 1-800-353-300)",
+        "Immediate Placement in Confidential Women’s & Children’s Shelters",
+        "Multilingual Support in Hebrew, Arabic, Russian, Amharic & English"
+      ]
+    },
+    "name": {
+      "en": "No2Violence (לא. לאלימות נגד נשים) & National Domestic Abuse Shelter Hotline (118 / *6724) — Tel Aviv",
+      "he": "לא. לאלימות נגד נשים ומוקד 118 הארצי למקלטים לנשים נפגעות אלימות",
+      "ar": "لا للعنف ضد النساء والخط الوطني لملاجئ النساء (118 / *6724) — تل أبيب"
+    },
+    "regionDistrict": "Tel Aviv (Nationwide Network), Tel Aviv District, Israel",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "118",
+    "directionsText": {
+      "en": "Listed on the NO MORE Israel Directory. Coordinates 24/7 emergency intake into Israel’s national network of women’s domestic violence shelters, halfway houses, and emergency protection centers via the Ministry of Welfare 24/7 Hotline (118 / 1-800-220-000) and the No2Violence 24-hour helpline (*6724 / 1-800-353-300). Website: https://nomoredirectory.org/israel/"
+    }
+  },
+  {
+    "id": "israel-wizo-womens-shelters-helpline-tel-aviv",
+    "type": "safe-haven",
+    "lat": 32.0778,
+    "lng": 34.7865,
+    "phone": "+972-3-692-3710",
+    "country": "Israel",
+    "region": "Tel Aviv District",
+    "city": "Tel Aviv & Jerusalem",
+    "website": "https://www.wizo.org/",
+    "names": {
+      "en": "WIZO Women’s Shelters & Domestic Violence Helpline (ויצו) — Tel Aviv & Jerusalem",
+      "he": "מקלטי ויצו לנשים נפגעות אלימות וקו הייעוץ הארצי"
+    },
+    "address": {
+      "en": "38 King David Blvd, Tel Aviv, Israel | WIZO Helpline: +972 3-692-3710 / +972 3-692-3714 / +972 3-692-3715 | National DV Line: 118"
+    },
+    "details": {
+      "en": "Listed on the NO MORE Israel Directory. WIZO operates emergency battered women’s shelters, transitional housing apartments, legal aid bureaus, and domestic violence prevention centers across Israel."
+    },
+    "services": {
+      "en": [
+        "Emergency Women’s Shelters & Transitional Second-Stage Apartments",
+        "WIZO Domestic Violence Helpline (+972 3-692-3710 / 3714 / 3715)",
+        "Family Law & Protection Order Legal Aid Bureaus",
+        "Child Trauma Therapy & Economic Reintegration"
+      ]
+    },
+    "name": {
+      "en": "WIZO Women’s Shelters & Domestic Violence Helpline (ויצו) — Tel Aviv & Jerusalem",
+      "he": "מקלטי ויצו לנשים נפגעות אלימות וקו הייעוץ הארצי"
+    },
+    "regionDistrict": "Tel Aviv & Jerusalem, Tel Aviv District, Israel",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "+972-3-692-3710",
+    "directionsText": {
+      "en": "Listed on the NO MORE Israel Directory. WIZO operates emergency battered women’s shelters, transitional housing apartments, legal aid bureaus, and domestic violence prevention centers across Israel. Website: https://www.wizo.org/"
+    }
+  },
+  {
+    "id": "israel-arcci-1202-rape-crisis-center-tel-aviv",
+    "type": "safe-haven",
+    "lat": 32.0636,
+    "lng": 34.7725,
+    "phone": "1202",
+    "country": "Israel",
+    "region": "Tel Aviv District",
+    "city": "Tel Aviv, Jerusalem, Haifa & Be’er Sheva",
+    "website": "https://www.1202.org.il/en/",
+    "names": {
+      "en": "Association of Rape Crisis Centers in Israel (ARCCI — 24/7 Women’s Sexual Assault Hotline 1202)",
+      "he": "איגוד מרכזי הסיוע לנפגעות ולנפגעי תקיפה מינית בישראל — מוקד חירום 1202",
+      "ar": "اتحاد مراكز المساعدة لضحايا الاعتداء الجنسي في إسرائيل — خط الطوارئ 1202"
+    },
+    "address": {
+      "en": "9 regional crisis centers nationwide (Tel Aviv, Jerusalem, Haifa, Nazareth, Be’er Sheva, Ra’anana, Ashdod, Eilat & Kiryat Shmona) | 24/7 Women’s Crisis Line: 1202 | WhatsApp: 052-836-1202"
+    },
+    "details": {
+      "en": "Listed on the NO MORE Israel Directory. Umbrella of 9 regional sexual assault crisis centers across Israel operating the 24/7 confidential Women’s Sexual Assault Crisis Hotline (1202), hospital acute forensic room (Hadar Akuti) accompaniment, police/court advocacy, and trauma therapy."
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Sexual Assault Crisis Hotline (Dial 1202)",
+        "24/7 Hospital Forensic Examination Room (Hadar Akuti) Accompaniment",
+        "Confidential WhatsApp & Online Chat Support (052-836-1202)",
+        "Free Legal & Trauma Recovery Support"
+      ]
+    },
+    "name": {
+      "en": "Association of Rape Crisis Centers in Israel (ARCCI — 24/7 Women’s Sexual Assault Hotline 1202)",
+      "he": "איגוד מרכזי הסיוע לנפגעות ולנפגעי תקיפה מינית בישראל — מוקד חירום 1202",
+      "ar": "اتحاد مراكز المساعدة لضحايا الاعتداء الجنسي في إسرائيل — خط الطوارئ 1202"
+    },
+    "regionDistrict": "Tel Aviv, Jerusalem, Haifa & Be’er Sheva, Tel Aviv District, Israel",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "1202",
+    "directionsText": {
+      "en": "Listed on the NO MORE Israel Directory. Umbrella of 9 regional sexual assault crisis centers across Israel operating the 24/7 confidential Women’s Sexual Assault Crisis Hotline (1202), hospital acute forensic room (Hadar Akuti) accompaniment, police/court advocacy, and trauma therapy. Website: https://www.1202.org.il/en/"
+    }
+  },
+  {
+    "id": "israel-arab-womens-emergency-hotline-shelter-nazareth",
+    "type": "safe-haven",
+    "lat": 32.7019,
+    "lng": 35.3035,
+    "phone": "04-656-6813",
+    "country": "Israel",
+    "region": "Northern District",
+    "city": "Nazareth & Haifa",
+    "website": "https://nomoredirectory.org/israel/",
+    "names": {
+      "en": "Women Against Violence (נשים נגד אלימות / نساء ضد العنف) — Arab Women’s 24-Hour Emergency Hotline & Shelter (Nazareth)",
+      "ar": "جمعية نساء ضد العنف — خط الطوارئ وملجأ النساء العربيات على مدار 24 ساعة (الناصرة)",
+      "he": "עמותת נשים נגד אלימות — קו חירום 24/7 ומקלט לנשים ערביות (נצרת)"
+    },
+    "address": {
+      "en": "Nazareth & Haifa, Israel | 24/7 Arab Women’s Emergency Hotline: 04-656-6813 (+972 4-656-6813) | National DV Line: 118"
+    },
+    "details": {
+      "en": "[SPECIFICALLY FOR ARAB WOMEN] Listed on the NO MORE Israel Directory. Operates the 24-hour Arabic-language emergency sexual and domestic violence crisis hotline (04-656-6813), confidential emergency women’s shelter, and halfway house specifically serving Arab women and girls."
+    },
+    "services": {
+      "en": [
+        "24/7 Arabic-Language Women’s Emergency Hotline (04-656-6813)",
+        "Confidential Emergency Shelter & Halfway House for Arab Women",
+        "Hospital, Police & Sharia/Civil Family Court Legal Accompaniment",
+        "Psychosocial & Youth Prevention Programs"
+      ]
+    },
+    "name": {
+      "en": "Women Against Violence (נשים נגד אלימות / نساء ضد العنف) — Arab Women’s 24-Hour Emergency Hotline & Shelter (Nazareth)",
+      "ar": "جمعية نساء ضد العنف — خط الطوارئ وملجأ النساء العربيات على مدار 24 ساعة (الناصرة)",
+      "he": "עמותת נשים נגד אלימות — קו חירום 24/7 ומקלט לנשים ערביות (נצרת)"
+    },
+    "regionDistrict": "Nazareth & Haifa, Northern District, Israel",
+    "categoryBadge": {
+      "en": "24/7 Emergency Shelter & Hotline Specifically for Arab Women"
+    },
+    "emergencyHotline": "04-656-6813",
+    "directionsText": {
+      "en": "[SPECIFICALLY FOR ARAB WOMEN] Listed on the NO MORE Israel Directory. Operates the 24-hour Arabic-language emergency sexual and domestic violence crisis hotline (04-656-6813), confidential emergency women’s shelter, and halfway house specifically serving Arab women and girls. Website: https://nomoredirectory.org/israel/"
+    }
+  },
+  {
+    "id": "israel-eran-aguda-crisis-support-tel-aviv",
+    "type": "safe-haven",
+    "lat": 32.0661,
+    "lng": 34.7704,
+    "phone": "1201",
+    "country": "Israel",
+    "region": "Tel Aviv District",
+    "city": "Tel Aviv (Nationwide)",
+    "website": "https://en.eran.org.il/",
+    "names": {
+      "en": "ERAN Emotional First Aid (1201) & The Aguda LGBTQ+ Support Center — Tel Aviv",
+      "he": "ער״ן (עזרה ראשונה נפשית 1201) והאגודה למען הלהט״ב (בית דרור / קו הקשב)"
+    },
+    "address": {
+      "en": "Tel Aviv & Nationwide, Israel | ERAN 24/7 Mental Health Crisis Line: 1201 | The Aguda Helpline: *2989 (+972 3-620-5590)"
+    },
+    "details": {
+      "en": "Listed on the NO MORE Israel Directory. Provides 24/7 free, anonymous emotional first aid and suicide/trauma crisis intervention nationwide via ERAN (1201), alongside The Aguda (Association for LGBTQ Equality, *2989) providing safe shelter referrals, legal advocacy, and anti-violence support."
+    },
+    "services": {
+      "en": [
+        "24/7 ERAN Emotional First Aid & Crisis Hotline (Dial 1201)",
+        "The Aguda LGBTQ+ Crisis Line (*2989) & Safe Shelter Referrals",
+        "Anonymous Online Chat & WhatsApp Emotional Support",
+        "Multilingual Trauma & Domestic Distress Intervention"
+      ]
+    },
+    "name": {
+      "en": "ERAN Emotional First Aid (1201) & The Aguda LGBTQ+ Support Center — Tel Aviv",
+      "he": "ער״ן (עזרה ראשונה נפשית 1201) והאגודה למען הלהט״ב (בית דרור / קו הקשב)"
+    },
+    "regionDistrict": "Tel Aviv (Nationwide), Tel Aviv District, Israel",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "1201",
+    "directionsText": {
+      "en": "Listed on the NO MORE Israel Directory. Provides 24/7 free, anonymous emotional first aid and suicide/trauma crisis intervention nationwide via ERAN (1201), alongside The Aguda (Association for LGBTQ Equality, *2989) providing safe shelter referrals, legal advocacy, and anti-violence support. Website: https://en.eran.org.il/"
+    }
+  },
+  {
+    "id": "israel-hosp-ichilov-lis-maternity-tel-aviv",
+    "type": "hospital",
+    "lat": 32.0809,
+    "lng": 34.7897,
+    "phone": "+972-3-697-4444",
+    "country": "Israel",
+    "region": "Tel Aviv District",
+    "city": "Tel Aviv",
+    "website": "https://www.tasmc.org.il/en/",
+    "names": {
+      "en": "Tel Aviv Sourasky Medical Center (Ichilov) & Lis Maternity and Women’s Hospital — Tel Aviv",
+      "he": "המרכז הרפואי תל אביב ע״ש סוראסקי (איכילוב) ובית החולים ליס לנשים וליולדות",
+      "ar": "مركز تل أبيب سوراسكي الطبي (إيخيلوف) ومستشفى ليس للنساء والولادة"
+    },
+    "address": {
+      "en": "6 Weizmann Street, Tel Aviv 6423906, Israel | Tel: +972 3-697-4444 / *8801 | Emergency Ambulance: 101"
+    },
+    "details": {
+      "en": "Major metropolitan university teaching hospital in central Tel Aviv incorporating the Lis Maternity and Women’s Hospital, Dana-Dwek Children’s Hospital, 24/7 OBGYN emergency room, high-risk maternal-fetal medicine, IVF/fertility institute, and acute sexual assault forensic room (Hadar Akuti)."
+    },
+    "services": {
+      "en": [
+        "Lis Maternity and Women’s Hospital (24/7 OBGYN Emergency & Delivery Suites)",
+        "High-Risk Pregnancy, Maternal-Fetal Medicine & Level III NICU",
+        "Acute Sexual Assault Forensic Center (Hadar Akuti)",
+        "Gynecologic Oncology, Endometriosis & Fertility / IVF Center"
+      ]
+    },
+    "name": {
+      "en": "Tel Aviv Sourasky Medical Center (Ichilov) & Lis Maternity and Women’s Hospital — Tel Aviv",
+      "he": "המרכז הרפואי תל אביב ע״ש סוראסקי (איכילוב) ובית החולים ליס לנשים וליולדות",
+      "ar": "مركز تل أبيب سوراسكي الطبي (إيخيلوف) ومستشفى ليس للنساء والولادة"
+    },
+    "regionDistrict": "Tel Aviv, Tel Aviv District, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-3-697-4444",
+    "directionsText": {
+      "en": "Major metropolitan university teaching hospital in central Tel Aviv incorporating the Lis Maternity and Women’s Hospital, Dana-Dwek Children’s Hospital, 24/7 OBGYN emergency room, high-risk maternal-fetal medicine, IVF/fertility institute, and acute sexual assault forensic room (Hadar Akuti). Website: https://www.tasmc.org.il/en/"
+    }
+  },
+  {
+    "id": "israel-hosp-sheba-tel-hashomer-ramat-gan",
+    "type": "hospital",
+    "lat": 32.0462,
+    "lng": 34.8423,
+    "phone": "+972-3-530-3030",
+    "country": "Israel",
+    "region": "Tel Aviv District",
+    "city": "Ramat Gan (Tel HaShomer)",
+    "website": "https://www.shebaonline.org/",
+    "names": {
+      "en": "Chaim Sheba Medical Center at Tel HaShomer (Josef Buchmann Gynecology & Maternity Center) — Ramat Gan",
+      "he": "המרכז הרפואי שיבא תל השומר (מרכז לנשים ויולדות ע״ש יוסף בוכמן)",
+      "ar": "مركز شيبا الطبي في تل هشومير (مركز النساء والولادة)"
+    },
+    "address": {
+      "en": "Derech Sheba 2, Tel HaShomer, Ramat Gan 52621, Israel | Tel: +972 3-530-3030 | Emergency: 101"
+    },
+    "details": {
+      "en": "The largest medical center in Israel and the Middle East. Houses the Josef Buchmann Gynecology and Maternity Center, 24/7 Women’s Emergency Room, Safra Children’s Hospital, advanced fetal medicine and genetic institute, IVF & fertility preservation, and the Chava Center for maternal reproductive mental health."
+    },
+    "services": {
+      "en": [
+        "Josef Buchmann Gynecology & Maternity Center (24/7 OBGYN ER)",
+        "High-Risk Obstetrics, Fetal Surgery & Neonatal Intensive Care",
+        "Chava Center for Postpartum & Reproductive Mental Health",
+        "Gynecologic Surgery, Fertility Preservation & IVF"
+      ]
+    },
+    "name": {
+      "en": "Chaim Sheba Medical Center at Tel HaShomer (Josef Buchmann Gynecology & Maternity Center) — Ramat Gan",
+      "he": "המרכז הרפואי שיבא תל השומר (מרכז לנשים ויולדות ע״ש יוסף בוכמן)",
+      "ar": "مركز شيبا الطبي في تل هشومير (مركز النساء والولادة)"
+    },
+    "regionDistrict": "Ramat Gan (Tel HaShomer), Tel Aviv District, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-3-530-3030",
+    "directionsText": {
+      "en": "The largest medical center in Israel and the Middle East. Houses the Josef Buchmann Gynecology and Maternity Center, 24/7 Women’s Emergency Room, Safra Children’s Hospital, advanced fetal medicine and genetic institute, IVF & fertility preservation, and the Chava Center for maternal reproductive mental health. Website: https://www.shebaonline.org/"
+    }
+  },
+  {
+    "id": "israel-hosp-maayanei-hayeshua-ultra-orthodox-bnei-brak",
+    "type": "hospital",
+    "lat": 32.0837,
+    "lng": 34.8415,
+    "phone": "+972-3-577-1111",
+    "country": "Israel",
+    "region": "Tel Aviv District",
+    "city": "Bnei Brak",
+    "website": "https://www.mhmc.co.il/",
+    "names": {
+      "en": "Maayanei Hayeshua Medical Center (מעייני הישועה) — General & Maternity Hospital Specifically Tailored for Ultra-Orthodox (Haredi) Women — Bnei Brak",
+      "he": "המרכז הרפואי מעייני הישועה (בני ברק) — בית חולים כללי ואגף נשים ויולדות באווירה חרדית והלכתית",
+      "fr": "Centre Médical Maayanei Hayeshua — Hôpital et Maternité Spécialement Adapté aux Femmes Juives Ultra-Orthodoxes (Haredi) — Bnei Brak"
+    },
+    "address": {
+      "en": "17 Povarsky Street, Bnei Brak 51544, Israel | Tel: +972 3-577-1111 | Emergency: 101"
+    },
+    "details": {
+      "en": "[ULTRA-ORTHODOX (HAREDI) HALACHIC HOSPITAL & MATERNITY CENTER] Public community general hospital in Bnei Brak operating strictly according to Jewish law (Halacha) and tailored specifically to the cultural, modesty, Shabbat, and Glatt Mehadrin kosher needs of Ultra-Orthodox (Haredi) and religious Jewish women. One of the busiest maternity and birth centers in Israel, offering 24/7 OBGYN emergency care, high-risk obstetrics, NICU, and culturally sensitive women’s mental health services."
+    },
+    "services": {
+      "en": [
+        "Maternity & Delivery Ward Tailored Specifically for Ultra-Orthodox (Haredi) Women",
+        "Strict Halachic, Shabbat-Compliant & Glatt Mehadrin Hospital Environment",
+        "24/7 OBGYN Emergency Room, High-Risk Pregnancy & Neonatal ICU (NICU)",
+        "Gynecologic Surgery, Pelvic Floor & Culturally Sensitive Perinatal Mental Health"
+      ]
+    },
+    "name": {
+      "en": "Maayanei Hayeshua Medical Center (מעייני הישועה) — General & Maternity Hospital Specifically Tailored for Ultra-Orthodox (Haredi) Women — Bnei Brak",
+      "he": "המרכז הרפואי מעייני הישועה (בני ברק) — בית חולים כללי ואגף נשים ויולדות באווירה חרדית והלכתית",
+      "fr": "Centre Médical Maayanei Hayeshua — Hôpital et Maternité Spécialement Adapté aux Femmes Juives Ultra-Orthodoxes (Haredi) — Bnei Brak"
+    },
+    "regionDistrict": "Bnei Brak, Tel Aviv District, Israel",
+    "categoryBadge": {
+      "en": "General & Maternity Hospital Tailored for Ultra-Orthodox (Haredi) Women"
+    },
+    "emergencyHotline": "+972-3-577-1111",
+    "directionsText": {
+      "en": "[ULTRA-ORTHODOX (HAREDI) HALACHIC HOSPITAL & MATERNITY CENTER] Public community general hospital in Bnei Brak operating strictly according to Jewish law (Halacha) and tailored specifically to the cultural, modesty, Shabbat, and Glatt Mehadrin kosher needs of Ultra-Orthodox (Haredi) and religious Jewish women. One of the busiest maternity and birth centers in Israel, offering 24/7 OBGYN emergency care, high-risk obstetrics, NICU, and culturally sensitive women’s mental health services. Website: https://www.mhmc.co.il/"
+    }
+  },
+  {
+    "id": "israel-hosp-rabin-beilinson-helen-schneider-petah-tikva",
+    "type": "hospital",
+    "lat": 32.0906,
+    "lng": 34.8669,
+    "phone": "+972-3-937-7377",
+    "country": "Israel",
+    "region": "Central District",
+    "city": "Petah Tikva",
+    "website": "https://hospitals.clalit.co.il/rabin/en/",
+    "names": {
+      "en": "Rabin Medical Center (Beilinson & Hasharon) & Helen Schneider Hospital for Women — Petah Tikva",
+      "he": "המרכז הרפואי רבין (בילינסון והשרון) ובית החולים לנשים ע״ש הלן שניידר — פתח תקווה"
+    },
+    "address": {
+      "en": "39 Jabotinsky St, Petah Tikva 4941492, Israel | Tel: +972 3-937-7377 / +972 3-937-6666 | Emergency: 101"
+    },
+    "details": {
+      "en": "Major Clalit Health Services tertiary university hospital complex in Petah Tikva, featuring the dedicated Helen Schneider Hospital for Women (24/7 OBGYN emergency room, labor & delivery, high-risk maternal-fetal medicine, gynecologic oncology, and IVF) alongside Schneider Children’s Medical Center of Israel."
+    },
+    "services": {
+      "en": [
+        "Helen Schneider Hospital for Women (24/7 OBGYN Emergency & Maternity)",
+        "High-Risk Pregnancy, Maternal-Fetal Medicine & Genetics",
+        "Gynecologic Oncology, Urogynecology & Fertility / IVF",
+        "Adjacent Schneider Children’s Medical Center & Level III NICU"
+      ]
+    },
+    "name": {
+      "en": "Rabin Medical Center (Beilinson & Hasharon) & Helen Schneider Hospital for Women — Petah Tikva",
+      "he": "המרכז הרפואי רבין (בילינסון והשרון) ובית החולים לנשים ע״ש הלן שניידר — פתח תקווה"
+    },
+    "regionDistrict": "Petah Tikva, Central District, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-3-937-7377",
+    "directionsText": {
+      "en": "Major Clalit Health Services tertiary university hospital complex in Petah Tikva, featuring the dedicated Helen Schneider Hospital for Women (24/7 OBGYN emergency room, labor & delivery, high-risk maternal-fetal medicine, gynecologic oncology, and IVF) alongside Schneider Children’s Medical Center of Israel. Website: https://hospitals.clalit.co.il/rabin/en/"
+    }
+  },
+  {
+    "id": "israel-hosp-hadassah-ein-kerem-mount-scopus-jerusalem",
+    "type": "hospital",
+    "lat": 31.7651,
+    "lng": 35.1497,
+    "phone": "+972-2-677-7111",
+    "country": "Israel",
+    "region": "Jerusalem District",
+    "city": "Jerusalem (Ein Kerem & Mount Scopus)",
+    "website": "https://www.hadassah.org.il/en/",
+    "names": {
+      "en": "Hadassah University Medical Center (Ein Kerem & Mount Scopus Maternity Campuses) — Jerusalem",
+      "he": "המרכז הרפואי הדסה (עין כרם והר הצופים) — ירושלים",
+      "ar": "المركز الطبي الجامعي هداسا (عين كارم وجبل المشارف) — القدس"
+    },
+    "address": {
+      "en": "Kalman Ya’akov Man St (Ein Kerem) & Sderot Churchill (Mount Scopus), Jerusalem, Israel | Tel: +972 2-677-7111 / +972 2-584-4111"
+    },
+    "details": {
+      "en": "Premier university teaching hospital system in Jerusalem operating two full-service campuses (Hadassah Ein Kerem and Hadassah Mount Scopus) serving Jewish and Arab communities across Jerusalem. Offers 24/7 OBGYN emergency care, natural & high-risk delivery centers, rooming-in maternity wards, Bat Ami Center for Victims of Sexual Abuse, and the Linda Joy Pollin Cardiovascular Wellness Center for Women."
+    },
+    "services": {
+      "en": [
+        "24/7 OBGYN Emergency & Maternity Wards at Ein Kerem & Mount Scopus",
+        "Bat Ami Acute Sexual Assault Crisis & Forensic Center",
+        "High-Risk Obstetrics, NICU & Maternal-Fetal Medicine",
+        "Arabic, Hebrew, English & Russian Patient Navigation"
+      ]
+    },
+    "name": {
+      "en": "Hadassah University Medical Center (Ein Kerem & Mount Scopus Maternity Campuses) — Jerusalem",
+      "he": "המרכז הרפואי הדסה (עין כרם והר הצופים) — ירושלים",
+      "ar": "المركز الطبي الجامعي هداسا (عين كارم وجبل المشارف) — القدس"
+    },
+    "regionDistrict": "Jerusalem (Ein Kerem & Mount Scopus), Jerusalem District, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-2-677-7111",
+    "directionsText": {
+      "en": "Premier university teaching hospital system in Jerusalem operating two full-service campuses (Hadassah Ein Kerem and Hadassah Mount Scopus) serving Jewish and Arab communities across Jerusalem. Offers 24/7 OBGYN emergency care, natural & high-risk delivery centers, rooming-in maternity wards, Bat Ami Center for Victims of Sexual Abuse, and the Linda Joy Pollin Cardiovascular Wellness Center for Women. Website: https://www.hadassah.org.il/en/"
+    }
+  },
+  {
+    "id": "israel-hosp-shaare-zedek-bikur-cholim-jerusalem",
+    "type": "hospital",
+    "lat": 31.7731,
+    "lng": 35.1846,
+    "phone": "+972-2-655-5111",
+    "country": "Israel",
+    "region": "Jerusalem District",
+    "city": "Jerusalem",
+    "website": "https://www.szmc.org.il/eng/",
+    "names": {
+      "en": "Shaare Zedek Medical Center & Bikur Cholim Maternity Campus (שערי צדק — General, Religious & Haredi-Friendly Maternity Hub) — Jerusalem",
+      "he": "המרכז הרפואי שערי צדק ושלוחת ביקור חולים (אגף נשים ויולדות) — ירושלים",
+      "ar": "مركز شعاري تسيديك الطبي — القدس"
+    },
+    "address": {
+      "en": "12 Shmuel Bait St, Jerusalem 9103102 (and Bikur Cholim Campus, 5 Strauss St, Downtown Jerusalem), Israel | Tel: +972 2-655-5111"
+    },
+    "details": {
+      "en": "Delivering over 22,000 babies per year across its main Bayit Vegan campus and historic downtown Bikur Cholim maternity campus, Shaare Zedek is one of the largest maternity hospitals in the world. Operates under strict halachic supervision with extensive accommodations for Ultra-Orthodox (Haredi), Orthodox, and general patients across Jerusalem."
+    },
+    "services": {
+      "en": [
+        "Wilf Woman and Infant Center (22,000+ Births/Year & 24/7 OBGYN ER)",
+        "Halachic, Shabbat-Compliant & Glatt Kosher Accommodations for Haredi & Religious Women",
+        "High-Risk Pregnancy, Level III NICU, Medical Genetics & Pre-Implantation Genetic Diagnosis (PGD)",
+        "Gynecologic Surgery, Endometriosis & Fertility / IVF"
+      ]
+    },
+    "name": {
+      "en": "Shaare Zedek Medical Center & Bikur Cholim Maternity Campus (שערי צדק — General, Religious & Haredi-Friendly Maternity Hub) — Jerusalem",
+      "he": "המרכז הרפואי שערי צדק ושלוחת ביקור חולים (אגף נשים ויולדות) — ירושלים",
+      "ar": "مركز شعاري تسيديك الطبي — القدس"
+    },
+    "regionDistrict": "Jerusalem, Jerusalem District, Israel",
+    "categoryBadge": {
+      "en": "General & Maternity Hospital Tailored for Ultra-Orthodox (Haredi) Women"
+    },
+    "emergencyHotline": "+972-2-655-5111",
+    "directionsText": {
+      "en": "Delivering over 22,000 babies per year across its main Bayit Vegan campus and historic downtown Bikur Cholim maternity campus, Shaare Zedek is one of the largest maternity hospitals in the world. Operates under strict halachic supervision with extensive accommodations for Ultra-Orthodox (Haredi), Orthodox, and general patients across Jerusalem. Website: https://www.szmc.org.il/eng/"
+    }
+  },
+  {
+    "id": "israel-hosp-laniado-sanz-ultra-orthodox-netanya",
+    "type": "hospital",
+    "lat": 32.3471,
+    "lng": 34.8562,
+    "phone": "+972-9-860-4666",
+    "country": "Israel",
+    "region": "Central District",
+    "city": "Netanya (Kiryat Sanz)",
+    "website": "https://www.laniado.org.il/en/",
+    "names": {
+      "en": "Laniado Hospital — Sanz Medical Center (לניאדו) — General & Maternity Hospital (Ultra-Orthodox / Haredi Halachic & General Care) — Netanya",
+      "he": "בית החולים לניאדו — מרכז רפואי צאנז (אגף נשים ויולדות) — נתניה"
+    },
+    "address": {
+      "en": "16 Divrei Chaim St, Kiryat Sanz, Netanya 42150, Israel | Tel: +972 9-860-4666 / +972 9-860-9200 | Emergency: 101"
+    },
+    "details": {
+      "en": "[ULTRA-ORTHODOX (HAREDI) HALACHIC & COMMUNITY GENERAL HOSPITAL] Founded in Kiryat Sanz, Netanya by the Klausenburger Rebbe, Laniado serves the entire Netanya and Sharon region while operating under strict Halachic and Glatt Mehadrin kosher standards tailored for Ultra-Orthodox (Haredi) and religious Jewish women alongside the general public. Features a renowned Maternity & Natural Birth Center, 24/7 OBGYN emergency room, and NICU."
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Natural Birth Center & OBGYN Emergency Room",
+        "Halachic & Glatt Mehadrin Environment Tailored for Ultra-Orthodox (Haredi) & General Patients",
+        "High-Risk Maternal-Fetal Unit & Neonatal Intensive Care (NICU)",
+        "Gynecology, Breast Health & Women’s Outpatient Clinics"
+      ]
+    },
+    "name": {
+      "en": "Laniado Hospital — Sanz Medical Center (לניאדו) — General & Maternity Hospital (Ultra-Orthodox / Haredi Halachic & General Care) — Netanya",
+      "he": "בית החולים לניאדו — מרכז רפואי צאנז (אגף נשים ויולדות) — נתניה"
+    },
+    "regionDistrict": "Netanya (Kiryat Sanz), Central District, Israel",
+    "categoryBadge": {
+      "en": "General & Maternity Hospital Tailored for Ultra-Orthodox (Haredi) Women"
+    },
+    "emergencyHotline": "+972-9-860-4666",
+    "directionsText": {
+      "en": "[ULTRA-ORTHODOX (HAREDI) HALACHIC & COMMUNITY GENERAL HOSPITAL] Founded in Kiryat Sanz, Netanya by the Klausenburger Rebbe, Laniado serves the entire Netanya and Sharon region while operating under strict Halachic and Glatt Mehadrin kosher standards tailored for Ultra-Orthodox (Haredi) and religious Jewish women alongside the general public. Features a renowned Maternity & Natural Birth Center, 24/7 OBGYN emergency room, and NICU. Website: https://www.laniado.org.il/en/"
+    }
+  },
+  {
+    "id": "israel-hosp-shamir-assaf-harofeh-wolfson-central",
+    "type": "hospital",
+    "lat": 31.9639,
+    "lng": 34.8407,
+    "phone": "+972-8-977-9999",
+    "country": "Israel",
+    "region": "Central & Tel Aviv Districts",
+    "city": "Be’er Ya’akov (Rishon LeZion) & Holon",
+    "website": "https://www.shamir.org.il/en/",
+    "names": {
+      "en": "Shamir Medical Center (Assaf Harofeh) & Wolfson Medical Center (Holon)",
+      "he": "המרכז הרפואי שמיר (אסף הרופא) והמרכז הרפואי וולפסון (חולון)"
+    },
+    "address": {
+      "en": "Shamir (Assaf Harofeh): Be’er Ya’akov 70300 (Tel: +972 8-977-9999) | Wolfson Medical Center: 62 HaLohamim St, Holon 58100 (Tel: +972 3-502-8211)"
+    },
+    "details": {
+      "en": "Major government general and teaching hospitals serving southern Gush Dan, Holon, Bat Yam, Rishon LeZion, Lod, and Ramla. Both feature 24/7 OBGYN emergency rooms, maternity and delivery centers, high-risk pregnancy wards, NICUs, and Wolfson’s National Sexual Assault Forensic Center (Room 4 / Hadar 4)."
+    },
+    "services": {
+      "en": [
+        "24/7 OBGYN Emergency, Maternity & High-Risk Delivery Suites",
+        "Wolfson Room 4 (Hadar 4) 24/7 Sexual Assault Forensic & Trauma Center",
+        "Neonatal Intensive Care (NICU) & Pediatric Emergency",
+        "Gynecologic Surgery & Fertility / IVF Units"
+      ]
+    },
+    "name": {
+      "en": "Shamir Medical Center (Assaf Harofeh) & Wolfson Medical Center (Holon)",
+      "he": "המרכז הרפואי שמיר (אסף הרופא) והמרכז הרפואי וולפסון (חולון)"
+    },
+    "regionDistrict": "Be’er Ya’akov (Rishon LeZion) & Holon, Central & Tel Aviv Districts, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-8-977-9999",
+    "directionsText": {
+      "en": "Major government general and teaching hospitals serving southern Gush Dan, Holon, Bat Yam, Rishon LeZion, Lod, and Ramla. Both feature 24/7 OBGYN emergency rooms, maternity and delivery centers, high-risk pregnancy wards, NICUs, and Wolfson’s National Sexual Assault Forensic Center (Room 4 / Hadar 4). Website: https://www.shamir.org.il/en/"
+    }
+  },
+  {
+    "id": "israel-hosp-meir-kfar-saba-hillel-yaffe-hadera",
+    "type": "hospital",
+    "lat": 32.1817,
+    "lng": 34.9012,
+    "phone": "+972-9-747-2555",
+    "country": "Israel",
+    "region": "Central & Haifa Districts",
+    "city": "Kfar Saba & Hadera",
+    "website": "https://hospitals.clalit.co.il/meir/en/",
+    "names": {
+      "en": "Meir Medical Center (Kfar Saba) & Hillel Yaffe Medical Center (Hadera)",
+      "he": "המרכז הרפואי מאיר (כפר סבא) והמרכז הרפואי הלל יפה (חדרה)",
+      "ar": "مركز مئير الطبي (كفار سابا) ومركز هيلل يافه الطبي (الخضيرة)"
+    },
+    "address": {
+      "en": "Meir: 59 Tchernichovsky St, Kfar Saba (Tel: +972 9-747-2555) | Hillel Yaffe: Ha-Shalom St, Hadera (Tel: +972 4-774-4211)"
+    },
+    "details": {
+      "en": "Primary regional general hospitals serving the Sharon plain, Kfar Saba, Ra’anana, Hod HaSharon, Hadera, and Triangle Arab towns (Tayibe, Tira, Umm al-Fahm, Baqa al-Gharbiyye). Provide 24/7 maternity and OBGYN emergency care, high-risk obstetrics, NICU, and acute sexual assault care."
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Delivery & OBGYN Emergency Departments",
+        "High-Risk Pregnancy, Maternal-Fetal Medicine & Level III NICU",
+        "Hebrew & Arabic Patient Navigation & Social Work Domestic Abuse Screening",
+        "Gynecologic Surgery, Endometriosis & Fertility Clinics"
+      ]
+    },
+    "name": {
+      "en": "Meir Medical Center (Kfar Saba) & Hillel Yaffe Medical Center (Hadera)",
+      "he": "המרכז הרפואי מאיר (כפר סבא) והמרכז הרפואי הלל יפה (חדרה)",
+      "ar": "مركز مئير الطبي (كفار سابا) ومركز هيلل يافه الطبي (الخضيرة)"
+    },
+    "regionDistrict": "Kfar Saba & Hadera, Central & Haifa Districts, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-9-747-2555",
+    "directionsText": {
+      "en": "Primary regional general hospitals serving the Sharon plain, Kfar Saba, Ra’anana, Hod HaSharon, Hadera, and Triangle Arab towns (Tayibe, Tira, Umm al-Fahm, Baqa al-Gharbiyye). Provide 24/7 maternity and OBGYN emergency care, high-risk obstetrics, NICU, and acute sexual assault care. Website: https://hospitals.clalit.co.il/meir/en/"
+    }
+  },
+  {
+    "id": "israel-hosp-kaplan-rehovot-assuta-ashdod-tel-aviv",
+    "type": "hospital",
+    "lat": 31.8753,
+    "lng": 34.8197,
+    "phone": "+972-8-944-1211",
+    "country": "Israel",
+    "region": "Central & Southern Districts",
+    "city": "Rehovot, Ashdod & Tel Aviv",
+    "website": "https://www.assutaashdod.co.il/",
+    "names": {
+      "en": "Kaplan Medical Center (Rehovot), Assuta Ashdod Public Hospital & Assuta Ramat HaHayal (Tel Aviv)",
+      "he": "המרכז הרפואי קפלן (רחובות), בית החולים הציבורי אסותא אשדוד ואסותא רמת החייל"
+    },
+    "address": {
+      "en": "Kaplan: Pasternak St, Rehovot (Tel: +972 8-944-1211) | Assuta Ashdod: 7 Ha-Refu’a St, Ashdod (Tel: +972 8-300-4100 / *8480) | Assuta Tel Aviv: 20 HaBarzel St (+972 3-764-4444)"
+    },
+    "details": {
+      "en": "Serving the southern Shfela and coastal corridor with full 24/7 public emergency and maternity departments at Kaplan Medical Center (Rehovot) and Assuta Ashdod University Hospital, plus advanced gynecologic surgery, breast oncology, and IVF at Assuta Ramat HaHayal."
+    },
+    "services": {
+      "en": [
+        "24/7 Public OBGYN Emergency & Maternity Wards (Kaplan Rehovot & Assuta Ashdod)",
+        "High-Risk Pregnancy, NICU & Maternal-Fetal Medicine",
+        "Advanced Gynecologic Surgery, Breast Center & IVF Network",
+        "24/7 Emergency Domestic & Sexual Violence Social Work Support"
+      ]
+    },
+    "name": {
+      "en": "Kaplan Medical Center (Rehovot), Assuta Ashdod Public Hospital & Assuta Ramat HaHayal (Tel Aviv)",
+      "he": "המרכז הרפואי קפלן (רחובות), בית החולים הציבורי אסותא אשדוד ואסותא רמת החייל"
+    },
+    "regionDistrict": "Rehovot, Ashdod & Tel Aviv, Central & Southern Districts, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-8-944-1211",
+    "directionsText": {
+      "en": "Serving the southern Shfela and coastal corridor with full 24/7 public emergency and maternity departments at Kaplan Medical Center (Rehovot) and Assuta Ashdod University Hospital, plus advanced gynecologic surgery, breast oncology, and IVF at Assuta Ramat HaHayal. Website: https://www.assutaashdod.co.il/"
+    }
+  },
+  {
+    "id": "israel-hosp-rambam-bnai-zion-carmel-haifa",
+    "type": "hospital",
+    "lat": 32.8331,
+    "lng": 34.9859,
+    "phone": "+972-4-777-2222",
+    "country": "Israel",
+    "region": "Haifa District",
+    "city": "Haifa",
+    "website": "https://www.rambam.org.il/en/",
+    "names": {
+      "en": "Rambam Health Care Campus, Bnai Zion Medical Center & Carmel Medical Center — Haifa",
+      "he": "הקריה הרפואית רמב״ם, המרכז הרפואי בני ציון והמרכז הרפואי כרמל — חיפה",
+      "ar": "مجمع رمبام الطبي، مركز بني تسيون الطبي ومركز الكرمل الطبي — حيفا"
+    },
+    "address": {
+      "en": "Rambam: 8 HaAliya HaShniya St, Haifa (+972 4-777-2222) | Bnai Zion: 47 Golomb St (+972 4-835-9359) | Carmel: 7 Michal St (+972 4-825-0211)"
+    },
+    "details": {
+      "en": "Northern Israel’s premier hospital triad in Haifa, led by Rambam Health Care Campus (Level I Trauma & tertiary referral center for all of Northern Israel), Bnai Zion Medical Center, and Clalit’s Carmel Medical Center. All three operate 24/7 OBGYN emergency rooms, maternity and delivery suites, high-risk pregnancy departments, NICUs, and sexual assault forensic care."
+    },
+    "services": {
+      "en": [
+        "24/7 Tertiary OBGYN Emergency, Maternity & Delivery Suites",
+        "High-Risk Maternal-Fetal Medicine & Ruth Rappaport Children’s Hospital NICU",
+        "24/7 Acute Sexual Assault Forensic Center (Rambam & Bnai Zion)",
+        "Gynecologic Oncology, Endometriosis & Fertility / IVF"
+      ]
+    },
+    "name": {
+      "en": "Rambam Health Care Campus, Bnai Zion Medical Center & Carmel Medical Center — Haifa",
+      "he": "הקריה הרפואית רמב״ם, המרכז הרפואי בני ציון והמרכז הרפואי כרמל — חיפה",
+      "ar": "مجمع رمبام الطبي، مركز بني تسيون الطبي ومركز الكرمل الطبي — حيفا"
+    },
+    "regionDistrict": "Haifa, Haifa District, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-4-777-2222",
+    "directionsText": {
+      "en": "Northern Israel’s premier hospital triad in Haifa, led by Rambam Health Care Campus (Level I Trauma & tertiary referral center for all of Northern Israel), Bnai Zion Medical Center, and Clalit’s Carmel Medical Center. All three operate 24/7 OBGYN emergency rooms, maternity and delivery suites, high-risk pregnancy departments, NICUs, and sexual assault forensic care. Website: https://www.rambam.org.il/en/"
+    }
+  },
+  {
+    "id": "israel-hosp-galilee-nahariya-ziv-safed",
+    "type": "hospital",
+    "lat": 33.0101,
+    "lng": 35.1208,
+    "phone": "+972-4-910-7107",
+    "country": "Israel",
+    "region": "Northern District",
+    "city": "Nahariya & Safed (Tzfat)",
+    "website": "https://www.gmc.org.il/",
+    "names": {
+      "en": "Galilee Medical Center (Nahariya) & Ziv Medical Center (Safed / Tzfat)",
+      "he": "המרכז הרפואי לגליל (נהריה) והמרכז הרפואי זיו (צפת)",
+      "ar": "مركز الجليل الطبي (نهاريا) ومركز زيف الطبي (صفد)"
+    },
+    "address": {
+      "en": "Galilee Medical Center: Route 89, Nahariya (+972 4-910-7107) | Ziv Medical Center: Derech HaRambam, Safed / Tzfat (+972 4-682-8811)"
+    },
+    "details": {
+      "en": "Major northern general and teaching hospitals serving the Western Galilee (Nahariya, Acre/Akko, Ma’alot, Druze and Arab Galilee villages) and Upper Galilee / Golan Heights (Safed/Tzfat, including Safed’s large Ultra-Orthodox Haredi community). Both feature fortified underground maternity & NICU wards, 24/7 OBGYN emergency care, and sexual assault forensic units."
+    },
+    "services": {
+      "en": [
+        "24/7 OBGYN Emergency, Maternity & Protected Delivery Wards",
+        "High-Risk Pregnancy, Maternal-Fetal Medicine & NICU",
+        "Culturally Tailored Care for Jewish, Ultra-Orthodox (Safed), Arab & Druze Women",
+        "Acute Sexual Assault Forensic Care & Domestic Violence Social Work"
+      ]
+    },
+    "name": {
+      "en": "Galilee Medical Center (Nahariya) & Ziv Medical Center (Safed / Tzfat)",
+      "he": "המרכז הרפואי לגליל (נהריה) והמרכז הרפואי זיו (צפת)",
+      "ar": "مركز الجليل الطبي (نهاريا) ومركز زيف الطبي (صفد)"
+    },
+    "regionDistrict": "Nahariya & Safed (Tzfat), Northern District, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-4-910-7107",
+    "directionsText": {
+      "en": "Major northern general and teaching hospitals serving the Western Galilee (Nahariya, Acre/Akko, Ma’alot, Druze and Arab Galilee villages) and Upper Galilee / Golan Heights (Safed/Tzfat, including Safed’s large Ultra-Orthodox Haredi community). Both feature fortified underground maternity & NICU wards, 24/7 OBGYN emergency care, and sexual assault forensic units. Website: https://www.gmc.org.il/"
+    }
+  },
+  {
+    "id": "israel-hosp-emek-afula-tzafon-poriya-tiberias",
+    "type": "hospital",
+    "lat": 32.6331,
+    "lng": 35.3125,
+    "phone": "+972-4-649-4000",
+    "country": "Israel",
+    "region": "Northern District",
+    "city": "Afula & Tiberias",
+    "website": "https://hospitals.clalit.co.il/emek/en/",
+    "names": {
+      "en": "Emek Medical Center (Afula) & Tzafon Medical Center (Poriya — Tiberias)",
+      "he": "המרכז הרפואי העמק (עפולה) והמרכז הרפואי צפון (פוריה — טבריה)",
+      "ar": "مركز هعيمك الطبي (العفولة) ومركز تسافون بوريا الطبي (طبريا)"
+    },
+    "address": {
+      "en": "Emek: 21 Yitzhak Rabin Blvd, Afula (+972 4-649-4000) | Tzafon (Poriya): Poriya, Tiberias (+972 4-665-2211)"
+    },
+    "details": {
+      "en": "Serving the Jezreel Valley, Lower Galilee, Beit She’an, and Sea of Galilee (Kinneret / Tiberias) regions. Tzafon (Poriya) Medical Center hosts Northern Israel’s flagship Tana Center (24/7 acute sexual assault treatment center) alongside modern maternity, high-risk obstetrics, and NICU facilities at both Emek and Poriya."
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Delivery & OBGYN Emergency Departments",
+        "Tana Center at Poriya (24/7 Regional Sexual Assault Forensic & Trauma Center)",
+        "High-Risk Pregnancy, NICU & Fertility / IVF Units",
+        "Multilingual Hebrew, Arabic & Russian Maternal Care"
+      ]
+    },
+    "name": {
+      "en": "Emek Medical Center (Afula) & Tzafon Medical Center (Poriya — Tiberias)",
+      "he": "המרכז הרפואי העמק (עפולה) והמרכז הרפואי צפון (פוריה — טבריה)",
+      "ar": "مركز هعيمك الطبي (العفولة) ومركز تسافون بوريا الطبي (طبريا)"
+    },
+    "regionDistrict": "Afula & Tiberias, Northern District, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-4-649-4000",
+    "directionsText": {
+      "en": "Serving the Jezreel Valley, Lower Galilee, Beit She’an, and Sea of Galilee (Kinneret / Tiberias) regions. Tzafon (Poriya) Medical Center hosts Northern Israel’s flagship Tana Center (24/7 acute sexual assault treatment center) alongside modern maternity, high-risk obstetrics, and NICU facilities at both Emek and Poriya. Website: https://hospitals.clalit.co.il/emek/en/"
+    }
+  },
+  {
+    "id": "israel-hosp-nazareth-scottish-holy-family-french",
+    "type": "hospital",
+    "lat": 32.7042,
+    "lng": 35.2931,
+    "phone": "+972-4-602-8888",
+    "country": "Israel",
+    "region": "Northern District",
+    "city": "Nazareth",
+    "website": "https://nazarethhospital.com/",
+    "names": {
+      "en": "Nazareth Hospitals: EMMS Nazareth Hospital (Scottish), Holy Family Hospital (Italian) & St. Vincent de Paul (French Hospital) — Nazareth",
+      "ar": "مستشفيات الناصرة: مستشفى الناصرة (الإنجليزي)، مستشفى العائلة المقدسة (الإيطالي) ومستشفى القديس منصور (الفرنسي)",
+      "he": "בתי החולים בנצרת: בית החולים נצרת (האנגלי), בית החולים המשפחה הקדושה (האיטלקי) ובית החולים הצרפתי"
+    },
+    "address": {
+      "en": "EMMS Nazareth Hospital: 11505 St, Nazareth (+972 4-602-8888) | Holy Family Hospital: 8000 St, Nazareth (+972 4-650-8999) | French Hospital: 5055 St (+972 4-650-9000)"
+    },
+    "details": {
+      "en": "The three historic non-profit general and maternity hospitals serving Nazareth and the Arab population of the Galilee. Provide 24/7 Arabic- and Hebrew-speaking maternity, labor and delivery, high-risk obstetrics, neonatal intensive care (NICU), and women’s surgical services."
+    },
+    "services": {
+      "en": [
+        "24/7 Arabic & Hebrew Maternity, Delivery & OBGYN Emergency Care",
+        "High-Risk Pregnancy, Neonatal Intensive Care (NICU) & Pediatrics",
+        "Gynecologic Surgery, Breast Screening & Fertility Care",
+        "Direct Referral Link with Nazareth Arab Women’s Crisis Hotline (04-656-6813)"
+      ]
+    },
+    "name": {
+      "en": "Nazareth Hospitals: EMMS Nazareth Hospital (Scottish), Holy Family Hospital (Italian) & St. Vincent de Paul (French Hospital) — Nazareth",
+      "ar": "مستشفيات الناصرة: مستشفى الناصرة (الإنجليزي)، مستشفى العائلة المقدسة (الإيطالي) ومستشفى القديس منصور (الفرنسي)",
+      "he": "בתי החולים בנצרת: בית החולים נצרת (האנגלי), בית החולים המשפחה הקדושה (האיטלקי) ובית החולים הצרפתי"
+    },
+    "regionDistrict": "Nazareth, Northern District, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-4-602-8888",
+    "directionsText": {
+      "en": "The three historic non-profit general and maternity hospitals serving Nazareth and the Arab population of the Galilee. Provide 24/7 Arabic- and Hebrew-speaking maternity, labor and delivery, high-risk obstetrics, neonatal intensive care (NICU), and women’s surgical services. Website: https://nazarethhospital.com/"
+    }
+  },
+  {
+    "id": "israel-hosp-soroka-beer-sheva-barzilai-ashkelon",
+    "type": "hospital",
+    "lat": 31.2588,
+    "lng": 34.8013,
+    "phone": "+972-8-640-0111",
+    "country": "Israel",
+    "region": "Southern District",
+    "city": "Be’er Sheva & Ashkelon",
+    "website": "https://hospitals.clalit.co.il/soroka/en/",
+    "names": {
+      "en": "Soroka University Medical Center (Saban Birth & Maternity Center — Be’er Sheva) & Barzilai Medical Center (Ashkelon)",
+      "he": "המרכז הרפואי האוניברסיטאי סורוקה (מרכז סבן למיילדות — באר שבע) והמרכז הרפואי ברזילי (אשקלון)",
+      "ar": "مركز سوروكا الطبي الجامعي (بئر السبع) ومركز برزيلاي الطبي (عسقلان)"
+    },
+    "address": {
+      "en": "Soroka: 151 Yitzhak Rager Blvd, Be’er Sheva (+972 8-640-0111) | Barzilai: 2 Ha-Histadrut St, Ashkelon (+972 8-674-5555)"
+    },
+    "details": {
+      "en": "Soroka University Medical Center in Be’er Sheva is the sole Level I Trauma and tertiary referral hospital for the entire Negev (delivering over 17,000 babies annually at the Saban Birth and Maternity Center for Jewish and Negev Bedouin women), paired with Barzilai University Medical Center serving Ashkelon and the southern coast."
+    },
+    "services": {
+      "en": [
+        "Saban Birth and Maternity Center at Soroka (17,000+ Births/Year & 24/7 OBGYN ER)",
+        "Protected Underground Delivery Rooms, High-Risk Obstetrics & Level III NICU",
+        "24/7 Southern Acute Sexual Assault Forensic Center (Soroka & Barzilai)",
+        "Hebrew, Arabic (Negev Bedouin), Russian & Amharic Maternal Navigation"
+      ]
+    },
+    "name": {
+      "en": "Soroka University Medical Center (Saban Birth & Maternity Center — Be’er Sheva) & Barzilai Medical Center (Ashkelon)",
+      "he": "המרכז הרפואי האוניברסיטאי סורוקה (מרכז סבן למיילדות — באר שבע) והמרכז הרפואי ברזילי (אשקלון)",
+      "ar": "مركز سوروكا الطبي الجامعي (بئر السبع) ومركز برزيلاي الطبي (عسقلان)"
+    },
+    "regionDistrict": "Be’er Sheva & Ashkelon, Southern District, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-8-640-0111",
+    "directionsText": {
+      "en": "Soroka University Medical Center in Be’er Sheva is the sole Level I Trauma and tertiary referral hospital for the entire Negev (delivering over 17,000 babies annually at the Saban Birth and Maternity Center for Jewish and Negev Bedouin women), paired with Barzilai University Medical Center serving Ashkelon and the southern coast. Website: https://hospitals.clalit.co.il/soroka/en/"
+    }
+  },
+  {
+    "id": "israel-hosp-yoseftal-eilat",
+    "type": "hospital",
+    "lat": 29.5559,
+    "lng": 34.9412,
+    "phone": "+972-8-635-8011",
+    "country": "Israel",
+    "region": "Southern District",
+    "city": "Eilat",
+    "website": "https://hospitals.clalit.co.il/yoseftal/he/",
+    "names": {
+      "en": "Yoseftal Medical Center — Eilat",
+      "he": "המרכז הרפואי יוספטל — אילת",
+      "ar": "مركز يوسفتال الطبي — إيلات"
+    },
+    "address": {
+      "en": "Yotam Rd, Eilat 88000, Israel | Tel: +972 8-635-8011 | Emergency: 101"
+    },
+    "details": {
+      "en": "Southernmost general hospital in Israel serving Eilat, the southern Arava, and Red Sea visitors. Operates a 24/7 emergency department, maternity and delivery ward, gynecology unit, and air-evacuation link to Soroka Medical Center."
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Delivery & OBGYN Emergency Care in Eilat",
+        "Gynecologic & Obstetric Inpatient Ward",
+        "24/7 General Emergency Room & Helicopter Medevac Link",
+        "Social Work Support & Link to Eilat/Maslan Sexual Assault Crisis Center (1202)"
+      ]
+    },
+    "name": {
+      "en": "Yoseftal Medical Center — Eilat",
+      "he": "המרכז הרפואי יוספטל — אילת",
+      "ar": "مركز يوسفتال الطبي — إيلات"
+    },
+    "regionDistrict": "Eilat, Southern District, Israel",
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & OB/GYN Hospital"
+    },
+    "emergencyHotline": "+972-8-635-8011",
+    "directionsText": {
+      "en": "Southernmost general hospital in Israel serving Eilat, the southern Arava, and Red Sea visitors. Operates a 24/7 emergency department, maternity and delivery ward, gynecology unit, and air-evacuation link to Soroka Medical Center. Website: https://hospitals.clalit.co.il/yoseftal/he/"
+    }
+  },
+  {
+    "id": "palestine-unwomen-mehwar-shelter-bethlehem",
+    "type": "safe-haven",
+    "lat": 31.7011,
+    "lng": 35.2258,
+    "phone": "+970-2-277-5626",
+    "country": "Palestine",
+    "region": "Bethlehem Governorate (West Bank)",
+    "city": "Beit Sahour / Bethlehem",
+    "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
+    "names": {
+      "en": "Mehwar Center for the Protection and Empowerment of Women and Families (مركز محور لحماية وتمكين المرأة والأسرة) — Bethlehem",
+      "ar": "مركز محور لحماية وتمكين المرأة والأسرة (بيت ساحور / بيت لحم)"
+    },
+    "address": {
+      "en": "Wadi Al-ada, Beit Sahour, Bethlehem Governorate, Palestine | Tel: +970 2 277 5626 | SAWA 24/7 Toll-Free Line: 121 or 164"
+    },
+    "details": {
+      "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established in 2007 and operated under the Ministry of Social Development (MoSD) in Beit Sahour (Bethlehem), Mehwar is the primary national first-stage residential shelter in the southern West Bank for women and children survivors of domestic and gender-based violence, providing 24/7 safe accommodation, psychosocial therapy, legal representation, medical care, and vocational training."
+    },
+    "services": {
+      "en": [
+        "UN Women Assessed First-Stage Residential Shelter for Women & Children",
+        "24/7 Safe Accommodation, Case Management & Family Protection Unit Coordination",
+        "Free Legal Aid (Sharia & Civil Courts), Psychological Counseling & Medical Care",
+        "Vocational Training, Economic Empowerment & Reintegration Support"
+      ]
+    },
+    "name": {
+      "en": "Mehwar Center for the Protection and Empowerment of Women and Families (مركز محور لحماية وتمكين المرأة والأسرة) — Bethlehem",
+      "ar": "مركز محور لحماية وتمكين المرأة والأسرة (بيت ساحور / بيت لحم)"
+    },
+    "regionDistrict": "Beit Sahour / Bethlehem, Bethlehem Governorate (West Bank), Palestine",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "+970-2-277-5626",
+    "directionsText": {
+      "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established in 2007 and operated under the Ministry of Social Development (MoSD) in Beit Sahour (Bethlehem), Mehwar is the primary national first-stage residential shelter in the southern West Bank for women and children survivors of domestic and gender-based violence, providing 24/7 safe accommodation, psychosocial therapy, legal representation, medical care, and vocational training. Website: https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services"
+    }
+  },
+  {
+    "id": "palestine-unwomen-fds-nablus-safe-home",
+    "type": "safe-haven",
+    "lat": 32.2211,
+    "lng": 35.2544,
+    "phone": "+970-9-238-4518",
+    "country": "Palestine",
+    "region": "Nablus Governorate (West Bank)",
+    "city": "Nablus",
+    "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
+    "names": {
+      "en": "Family Defense Society Safe Home (بيت الأمان / بيت الطوارئ — جمعية الدفاع عن الأسرة) — Nablus",
+      "ar": "بيت الأمان لحماية النساء — جمعية الدفاع عن الأسرة (نابلس)"
+    },
+    "address": {
+      "en": "Nablus, Northern West Bank, Palestine | Tel: +970 9 238 4518 / +970 9 237 6701 | SAWA 24/7 Line: 121 or 164"
+    },
+    "details": {
+      "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Founded in 1994 by the Family Defense Society (FDS / جمعية الدفاع عن الأسرة) in Nablus, this is the first non-governmental emergency and first-stage women’s shelter in Palestine, serving the northern West Bank with 24/7 crisis protection, emergency safe lodging, legal defense, and trauma recovery."
+    },
+    "services": {
+      "en": [
+        "UN Women Assessed Emergency & First-Stage Women’s Safe Home (Northern West Bank)",
+        "24/7 Emergency Shelter Intake & Takamul National Referral System Partner",
+        "Psychosocial Support, Legal Aid & Family Mediation / Protection",
+        "Vocational Rehabilitation & Economic Self-Sufficiency Programs"
+      ]
+    },
+    "name": {
+      "en": "Family Defense Society Safe Home (بيت الأمان / بيت الطوارئ — جمعية الدفاع عن الأسرة) — Nablus",
+      "ar": "بيت الأمان لحماية النساء — جمعية الدفاع عن الأسرة (نابلس)"
+    },
+    "regionDistrict": "Nablus, Nablus Governorate (West Bank), Palestine",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "+970-9-238-4518",
+    "directionsText": {
+      "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Founded in 1994 by the Family Defense Society (FDS / جمعية الدفاع عن الأسرة) in Nablus, this is the first non-governmental emergency and first-stage women’s shelter in Palestine, serving the northern West Bank with 24/7 crisis protection, emergency safe lodging, legal defense, and trauma recovery. Website: https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services"
+    }
+  },
+  {
+    "id": "palestine-unwomen-jericho-emergency-protection-house",
+    "type": "safe-haven",
+    "lat": 31.8611,
+    "lng": 35.4618,
+    "phone": "+970-2-295-6146",
+    "country": "Palestine",
+    "region": "Jericho Governorate (West Bank)",
+    "city": "Jericho",
+    "website": "https://www.wclac.org/",
+    "names": {
+      "en": "Jericho Emergency Protection House (بيت الطوارئ لحماية النساء — أريحا — WCLAC & MoSD) — Jericho",
+      "ar": "بيت الطوارئ لحماية النساء المعنفات — أريحا (مركز المرأة للإرشاد القانوني والاجتماعي ووزارة التنمية الاجتماعية)"
+    },
+    "address": {
+      "en": "Jericho, West Bank, Palestine | WCLAC Emergency Line: +970 2 295 6146 / 1800-220-100 | Police Family Protection Unit: 100 | SAWA: 121"
+    },
+    "details": {
+      "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established by the Women’s Centre for Legal Aid and Counselling (WCLAC) in partnership with the Ministry of Social Development (MoSD) in Jericho as a 24/7 high-security emergency safe house accepting women and girls at immediate high risk of femicide or severe violence at any hour of the day or night."
+    },
+    "services": {
+      "en": [
+        "UN Women Assessed 24/7 High-Security Emergency Protection Shelter",
+        "Immediate Round-the-Clock Admission for Women at High Risk of Femicide",
+        "Risk Assessment, Legal Representation & Police Family Protection Escort",
+        "Referral & Transition toMehwar or Nablus First-Stage Shelters"
+      ]
+    },
+    "name": {
+      "en": "Jericho Emergency Protection House (بيت الطوارئ لحماية النساء — أريحا — WCLAC & MoSD) — Jericho",
+      "ar": "بيت الطوارئ لحماية النساء المعنفات — أريحا (مركز المرأة للإرشاد القانوني والاجتماعي ووزارة التنمية الاجتماعية)"
+    },
+    "regionDistrict": "Jericho, Jericho Governorate (West Bank), Palestine",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "+970-2-295-6146",
+    "directionsText": {
+      "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established by the Women’s Centre for Legal Aid and Counselling (WCLAC) in partnership with the Ministry of Social Development (MoSD) in Jericho as a 24/7 high-security emergency safe house accepting women and girls at immediate high risk of femicide or severe violence at any hour of the day or night. Website: https://www.wclac.org/"
+    }
+  },
+  {
+    "id": "palestine-unwomen-hayat-center-gaza",
+    "type": "safe-haven",
+    "lat": 31.5152,
+    "lng": 34.4511,
+    "phone": "1800-171-171",
+    "country": "Palestine",
+    "region": "Gaza Strip",
+    "city": "Gaza City & Deir al-Balah / Khan Younis",
+    "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
+    "names": {
+      "en": "Hayat Center for the Protection and Empowerment of Women and Families (مركز حياة لحماية وتمكين المرأة والأسرة) — Gaza",
+      "ar": "مركز حياة لحماية وتمكين المرأة والأسرة — غزة"
+    },
+    "address": {
+      "en": "Al-Rimal, Gaza City & Mobile Displacement Protection Points (Deir al-Balah / Khan Younis), Gaza Strip | Toll-Free Helpline: 1800-171-171 | Tel: +970 8 282 7047 | SAWA: 164 / 121"
+    },
+    "details": {
+      "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established as an independent NGO coalition center (with CFTA, Wefaq, AISHA, and WAC) providing multi-sectoral anti-violence protection, emergency safe space, psychological first aid, legal aid, and dignity/empowerment services for women and girls in the Gaza Strip."
+    },
+    "services": {
+      "en": [
+        "UN Women Assessed Anti-Violence Protection & Empowerment Center (Gaza Strip)",
+        "Toll-Free GBV & Psychological First Aid Helpline (1800-171-171 / 164)",
+        "Emergency Safe Spaces, Dignity Kits & Case Management for Displaced Women",
+        "Legal Counseling, Forensic/Medical Referral & Psychosocial Trauma Support"
+      ]
+    },
+    "name": {
+      "en": "Hayat Center for the Protection and Empowerment of Women and Families (مركز حياة لحماية وتمكين المرأة والأسرة) — Gaza",
+      "ar": "مركز حياة لحماية وتمكين المرأة والأسرة — غزة"
+    },
+    "regionDistrict": "Gaza City & Deir al-Balah / Khan Younis, Gaza Strip, Palestine",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "1800-171-171",
+    "directionsText": {
+      "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Established as an independent NGO coalition center (with CFTA, Wefaq, AISHA, and WAC) providing multi-sectoral anti-violence protection, emergency safe space, psychological first aid, legal aid, and dignity/empowerment services for women and girls in the Gaza Strip. Website: https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services"
+    }
+  },
+  {
+    "id": "palestine-unwomen-beit-al-aman-gaza",
+    "type": "safe-haven",
+    "lat": 31.5065,
+    "lng": 34.4628,
+    "phone": "164",
+    "country": "Palestine",
+    "region": "Gaza Strip",
+    "city": "Gaza City",
+    "website": "https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services",
+    "names": {
+      "en": "Beit Al-Aman Safe Home for Women (بيت الأمان لحماية النساء) & AISHA / Wefaq Women’s Protection Network — Gaza",
+      "ar": "بيت الأمان لحماية النساء وجمعية عايشة لحماية المرأة والطفل وجمعية وفاق — غزة"
+    },
+    "address": {
+      "en": "Gaza City, Khan Younis & Rafah, Gaza Strip | SAWA Toll-Free Line: 164 or 121 | AISHA Helpline: 1800-171-171"
+    },
+    "details": {
+      "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Encompasses the Beit Al-Aman governmental safe home established in 2011 in Gaza alongside UN Women / UNFPA partner NGOs AISHA Association for Woman and Child Protection (جمعية عايشة) and Wefaq Society for Women and Child Care (جمعية وفاق), providing emergency protection, psychosocial support, and mobile GBV case management."
+    },
+    "services": {
+      "en": [
+        "UN Women Assessed Residential Safe Home & Mobile Women’s Protection Teams",
+        "24/7 Psychosocial Crisis Line (164 / 121 / 1800-171-171)",
+        "Emergency Maternal & GBV Referral to Al-Awda, Nasser & PRCS Field Hospitals",
+        "Legal Aid, Cash/Dignity Assistance & Survivor Case Management"
+      ]
+    },
+    "name": {
+      "en": "Beit Al-Aman Safe Home for Women (بيت الأمان لحماية النساء) & AISHA / Wefaq Women’s Protection Network — Gaza",
+      "ar": "بيت الأمان لحماية النساء وجمعية عايشة لحماية المرأة والطفل وجمعية وفاق — غزة"
+    },
+    "regionDistrict": "Gaza City, Gaza Strip, Palestine",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "164",
+    "directionsText": {
+      "en": "Evaluated in the UN Women Palestine Assessment of Sheltering Services. Encompasses the Beit Al-Aman governmental safe home established in 2011 in Gaza alongside UN Women / UNFPA partner NGOs AISHA Association for Woman and Child Protection (جمعية عايشة) and Wefaq Society for Women and Child Care (جمعية وفاق), providing emergency protection, psychosocial support, and mobile GBV case management. Website: https://palestine.unwomen.org/en/digital-library/publications/2018/10/assessment-of-sheltering-services"
+    }
+  },
+  {
+    "id": "palestine-unwomen-wclac-sawa-psccw-ramallah-jerusalem-hebron",
+    "type": "safe-haven",
+    "lat": 31.9029,
+    "lng": 35.1998,
+    "phone": "121",
+    "country": "Palestine",
+    "region": "Ramallah, East Jerusalem & Hebron",
+    "city": "Ramallah, Jerusalem & Hebron",
+    "website": "https://www.sawa.ps/",
+    "names": {
+      "en": "SAWA (مؤسسة سوا — 121 / 164 Helpline), WCLAC (مركز المرأة للإرشاد القانوني) & PSCCW (مركز الإرشاد النفسي) — Ramallah, Jerusalem & Hebron",
+      "ar": "مؤسسة سوا (خط الطوارئ 121 / 164) ومركز المرأة للإرشاد القانوني والاجتماعي (WCLAC) ومركز الإرشاد النفسي والاجتماعي للمرأة (PSCCW)"
+    },
+    "address": {
+      "en": "Ramallah (Al-Bireh), East Jerusalem, Bethlehem & Hebron, Palestine | SAWA 24/7 Toll-Free: 121 or 164 (Jerusalem: 1800-500-121 / WhatsApp: +972 56-612-1012) | WCLAC: +970 2 295 6146 | PSCCW Bethlehem: +970 2 274 0049"
+    },
+    "details": {
+      "en": "Core NGO referral and protection network highlighted in the UN Women Palestine Assessment of Sheltering Services. SAWA operates Palestine’s 24/7 toll-free anti-violence helpline (121 / 164 / 1800-500-121), while WCLAC and the Psycho-Social Counseling Center for Women (PSCCW) provide emergency shelter placement, legal defense, psychological counseling, and transitional housing empowerment across Ramallah, East Jerusalem, Bethlehem, and Hebron."
+    },
+    "services": {
+      "en": [
+        "SAWA 24/7 Toll-Free Women’s Anti-Violence Helpline (121 / 164 / 1800-500-121)",
+        "WhatsApp Confidential Crisis Chat (+972 56-612-1012)",
+        "WCLAC & PSCCW Emergency Shelter Placement, Legal Representation & Trauma Therapy",
+        "Direct Referral to Mehwar, Jericho & Nablus Safe Shelters"
+      ]
+    },
+    "name": {
+      "en": "SAWA (مؤسسة سوا — 121 / 164 Helpline), WCLAC (مركز المرأة للإرشاد القانوني) & PSCCW (مركز الإرشاد النفسي) — Ramallah, Jerusalem & Hebron",
+      "ar": "مؤسسة سوا (خط الطوارئ 121 / 164) ومركز المرأة للإرشاد القانوني والاجتماعي (WCLAC) ومركز الإرشاد النفسي والاجتماعي للمرأة (PSCCW)"
+    },
+    "regionDistrict": "Ramallah, Jerusalem & Hebron, Ramallah, East Jerusalem & Hebron, Palestine",
+    "categoryBadge": {
+      "en": "Verified 24/7 Women’s Safe Haven & Crisis Center"
+    },
+    "emergencyHotline": "121",
+    "directionsText": {
+      "en": "Core NGO referral and protection network highlighted in the UN Women Palestine Assessment of Sheltering Services. SAWA operates Palestine’s 24/7 toll-free anti-violence helpline (121 / 164 / 1800-500-121), while WCLAC and the Psycho-Social Counseling Center for Women (PSCCW) provide emergency shelter placement, legal defense, psychological counseling, and transitional housing empowerment across Ramallah, East Jerusalem, Bethlehem, and Hebron. Website: https://www.sawa.ps/"
+    }
+  },
+  {
+    "id": "israel-bedouin-women-shelter-al-nashmiat-maan-negev",
+    "type": "safe-haven",
+    "lat": 31.3189,
+    "lng": 34.7825,
+    "phone": "118",
+    "country": "Israel",
+    "region": "Southern District (Negev / Naqab)",
+    "city": "Be’er Sheva, Rahat, Lakiya & Unrecognized Negev Bedouin Villages",
+    "website": "https://hias.org/news/helping-israels-bedouin-women-strive-better-future/",
+    "names": {
+      "en": "Al-Nashmiat (النشميات), Ma’an & HIAS Negev Protection Network — Women’s Shelter & Support SPECIFICALLY for Bedouin Women (Be’er Sheva, Rahat & Lakiya)",
+      "ar": "حركة النشميات ومنتدى المؤسسات النسائية العربية البدوية في النقب (معاً) — ملجأ ودعم مخصص للنساء البدويات في النقب (بئر السبع، رهط واللقية)",
+      "he": "א-נשמיאת, פורום מען וסיוע HIAS בנגב — מענה, מקלט והגנה במיוחד לנשים בדואיות בנגב (באר שבע, רהט, לקיה והכפרים הלא-מוכרים)"
+    },
+    "address": {
+      "en": "65 HaZvi St / Ben-Zvi St 11, Be’er Sheva, Rahat, Lakiya & Unrecognized Negev Villages, Israel | Bedouin Women’s Rights Center (Itach-Ma’aki / Ma’an): +972 8-627-2462 | Maslan Negev 24/7 Arabic/Bedouin Crisis Line: 1202 (+972 8-642-1313) | 24/7 Arabic Shelter Placement Line: 118"
+    },
+    "details": {
+      "en": "[SPECIFICALLY FOR BEDOUIN WOMEN IN ISRAEL (NEGEV / NAQAB)] Highlighted by HIAS Israel. Unites Al-Nashmiat (The Bedouin Women’s Leadership Movement in the Negev), Ma’an (The Forum of Arab-Bedouin Women’s Organizations in the Negev), Sidreh (Lakiya), the Bedouin Women’s Rights Center (with Itach-Ma’aki), and Maslan Negev Crisis Center to provide culturally safe emergency shelter placement, Arabic-speaking trauma counseling, Sharia & Civil family law protection, and emergency hygiene/food relief specifically for Arab Bedouin women in both recognized towns (Rahat, Lakiya, Hura, Tel Sheva, Kuseife, Ar’ara, Segev Shalom) and unrecognized Negev villages."
+    },
+    "services": {
+      "en": [
+        "Confidential Emergency Shelter Placement Specifically for Bedouin Women & Children (Dial 118 / 1202)",
+        "Al-Nashmiat & HIAS Outreach to Unrecognized Negev Bedouin Villages (Food, Hygiene Kits & Safety)",
+        "Ma’an & Itach-Ma’aki Bedouin Women’s Rights Center (+972 8-627-2462 — Sharia & Civil Legal Aid)",
+        "Maslan 24/7 Negev Arabic/Bedouin Sexual & Domestic Violence Crisis Line (1202 / +972 8-642-1313)"
+      ]
+    },
+    "name": {
+      "en": "Al-Nashmiat (النشميات), Ma’an & HIAS Negev Protection Network — Women’s Shelter & Support SPECIFICALLY for Bedouin Women (Be’er Sheva, Rahat & Lakiya)",
+      "ar": "حركة النشميات ومنتدى المؤسسات النسائية العربية البدوية في النقب (معاً) — ملجأ ودعم مخصص للنساء البدويات في النقب (بئر السبع، رهط واللقية)",
+      "he": "א-נשמיאת, פורום מען וסיוע HIAS בנגב — מענה, מקלט והגנה במיוחד לנשים בדואיות בנגב (באר שבע, רהט, לקיה והכפרים הלא-מוכרים)"
+    },
+    "regionDistrict": "Be’er Sheva, Rahat, Lakiya & Unrecognized Negev Bedouin Villages, Southern District (Negev / Naqab), Israel",
+    "categoryBadge": {
+      "en": "Women’s Shelter & Protection Network SPECIFICALLY for Bedouin Women"
+    },
+    "emergencyHotline": "118",
+    "directionsText": {
+      "en": "[SPECIFICALLY FOR BEDOUIN WOMEN IN ISRAEL (NEGEV / NAQAB)] Highlighted by HIAS Israel. Unites Al-Nashmiat (The Bedouin Women’s Leadership Movement in the Negev), Ma’an (The Forum of Arab-Bedouin Women’s Organizations in the Negev), Sidreh (Lakiya), the Bedouin Women’s Rights Center (with Itach-Ma’aki), and Maslan Negev Crisis Center to provide culturally safe emergency shelter placement, Arabic-speaking trauma counseling, Sharia & Civil family law protection, and emergency hygiene/food relief specifically for Arab Bedouin women in both recognized towns (Rahat, Lakiya, Hura, Tel Sheva, Kuseife, Ar’ara, Segev Shalom) and unrecognized Negev villages. Website: https://hias.org/news/helping-israels-bedouin-women-strive-better-future/"
+    }
+  }
 ];

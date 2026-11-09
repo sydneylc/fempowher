@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=125';
+import { isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=154';
 
 const h = React.createElement;
 

@@ -796,6 +796,33 @@ export const NATIONAL_CRISIS_DIRECTORY = {
       'Tithandizane National GBV Helpline: Call 5600 (Toll-Free)'
     ]
   },
+  madagascar: {
+    emergencyNumber: '117 (Police) / 118 (Pompiers) / 813 (Ligne Verte VBG) / 147 (Assistance Enfants & Jeunes Filles)',
+    crisisLines: [
+      'Ligne Verte Nationale contre les Violences Basées sur le Genre (VBG): Call 813 (Toll-Free)',
+      'Ligne 147 (Protection des Enfants, Adolescentes & Centres Vonjy): Call 147 (Toll-Free)',
+      'Centres Vonjy (One-Stop Sexual & GBV Centers — Antananarivo Befelatanana, Toamasina, Mahajanga, Toliara, Nosy Be & Taolagnaro): Call 147 or 813',
+      'Centres d’Écoute et de Conseils Juridiques (CECJ), Trano Aro Zo & Brigade Féminine de Proximité: Call 813'
+    ]
+  },
+  comoros: {
+    emergencyNumber: '17 (Police) / 18 (Secours) / +269 332 37 87 (Service National d’Écoute VBG)',
+    crisisLines: [
+      'Service National d’Écoute et de Protection des Femmes et Enfants Victimes de Violence (Moroni, Mutsamudu & Fomboni): Call +269 332 37 87 or 1717',
+      'Centre Hospitalier National El-Maarouf (Moroni Maternity): Call +269 773 26 04',
+      'CHR de Hombo (Anjouan +269 771 01 33) & CHR de Fomboni (Mohéli +269 772 01 16)',
+      'Mayotte ACFAV & Violences Femmes Info: Call 3919 or +262 269 61 01 05'
+    ]
+  },
+  mauritius: {
+    emergencyNumber: '999 or 112 (Police) / 114 (SAMU Ambulance) / 139 (24/7 Domestic Violence Hotline)',
+    crisisLines: [
+      'National 24/7 Toll-Free Domestic Violence Hotline (Ministry of Gender & Family Support Bureaux): Call 139',
+      'SOS Femmes Mauritius (24/7 Domestic Violence Shelter & Crisis Line): Call +230 233 3054',
+      'Passerelle Women Centre & Shelter for Women in Distress: Call +230 5882 1000',
+      'Child & Family Protection Hotline: Call 119'
+    ]
+  },
   mozambique: {
     emergencyNumber: '112 or 119 (National Emergency) / 116 (Linha Fala Criança & VBG) / 1458 (Linha Verde)',
     crisisLines: [

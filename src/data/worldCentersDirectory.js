@@ -143787,5 +143787,1014 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Located at 386 Smith St, Providence, RI (+1 401-861-6191, http://www.sojournerri.org/)."
     }
+  },
+  {
+    "id": "madagascar-toamasina-centre-vonjy-cecj-east",
+    "regionDistrict": "Madagascar (Toamasina / Tamatave — Atsinanana)",
+    "type": "safe-haven",
+    "lat": -18.1445,
+    "lng": 49.3985,
+    "name": {
+      "en": "Centre Vonjy de Toamasina (CHU Analakininina), CECJ Toamasina & Brigade Féminine de Proximité"
+    },
+    "categoryBadge": {
+      "en": "One-Stop Sexual Violence Center, Legal Listening Cell & Women's Protection"
+    },
+    "phone": "147 / 813 / +261 20 53 320 18",
+    "emergencyHotline": "813 (Ligne Verte VBG) / 147 (Assistance Enfants & Jeunes Filles)",
+    "address": {
+      "en": "CHU Analakininina (Hôpital Be), Toamasina, Atsinanana Region, East Coast Madagascar"
+    },
+    "services": {
+      "en": [
+        "Centre Vonjy One-Stop Medical, Psychological & Judicial Care for Survivors",
+        "CECJ (Centre d'Écoute et de Conseils Juridiques) Domestic Violence Legal Aid",
+        "Brigade Féminine de Proximité (BFP) Police Gender Protection"
+      ]
+    },
+    "directionsText": {
+      "en": "Integrated One-Stop Centre Vonjy at Hôpital Be (CHU Analakininina) and CECJ listening center serving women and girls in Toamasina and the east coast."
+    }
+  },
+  {
+    "id": "madagascar-mahajanga-centre-vonjy-cecj-northwest",
+    "regionDistrict": "Madagascar (Mahajanga / Majunga — Boeny)",
+    "type": "safe-haven",
+    "lat": -15.7167,
+    "lng": 46.3167,
+    "name": {
+      "en": "Centre Vonjy de Mahajanga (CHU Androva) & CECJ Boeny Women's Protection"
+    },
+    "categoryBadge": {
+      "en": "One-Stop GBV Survivor Center & Legal Listening Hub (Northwest)"
+    },
+    "phone": "813 / 147",
+    "emergencyHotline": "813 / 147",
+    "address": {
+      "en": "CHU PZaGa Androva, Mahajanga, Boeny Region, Northwestern Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 One-Stop Medical, Psychological & Police/Legal Care (Centre Vonjy)",
+        "CECJ Domestic & Gender-Based Violence Counseling",
+        "Free Forensic & Reproductive Health Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Housed at CHU Androva in Mahajanga, providing free one-stop medical, psychosocial, and legal protection for survivors across northwestern Madagascar."
+    }
+  },
+  {
+    "id": "madagascar-nosy-be-centre-vonjy-diana",
+    "regionDistrict": "Madagascar (Nosy Be / Hell-Ville — Diana)",
+    "type": "safe-haven",
+    "lat": -13.4005,
+    "lng": 48.271,
+    "name": {
+      "en": "Centre Vonjy de Nosy Be (Hell-Ville) & CECJ Diana Protection"
+    },
+    "categoryBadge": {
+      "en": "One-Stop Sexual & Domestic Violence Center (Nosy Be Island)"
+    },
+    "phone": "147 / 813",
+    "emergencyHotline": "147 / 813",
+    "address": {
+      "en": "Hell-Ville (Andoany), Nosy Be, Diana Region, Northern Madagascar"
+    },
+    "services": {
+      "en": [
+        "Centre Vonjy One-Stop Medical, Psychological & Legal Care",
+        "Protection Against Sexual Exploitation & Abuse",
+        "CECJ Women's Listening & Legal Orientation"
+      ]
+    },
+    "directionsText": {
+      "en": "Dedicated Centre Vonjy in Hell-Ville (Nosy Be) supported by UNICEF and the Ministry of Population/Health."
+    }
+  },
+  {
+    "id": "madagascar-toliara-centre-vonjy-cecj-southwest",
+    "regionDistrict": "Madagascar (Toliara / Tuléar — Atsimo-Andrefana)",
+    "type": "safe-haven",
+    "lat": -23.35,
+    "lng": 43.6667,
+    "name": {
+      "en": "Centre Vonjy de Toliara, CECJ Atsimo-Andrefana & UNFPA Women's Safe Space"
+    },
+    "categoryBadge": {
+      "en": "One-Stop GBV Survivor Center & Women's Listening Hub (Southwest)"
+    },
+    "phone": "813 / 147",
+    "emergencyHotline": "813 / 147",
+    "address": {
+      "en": "Toliara (Tuléar), Atsimo-Andrefana Region, Southwestern Madagascar"
+    },
+    "services": {
+      "en": [
+        "Centre Vonjy One-Stop Survivor Care (Medical, Psychological, Judicial)",
+        "CECJ Listening & Legal Advice Center for Domestic Violence",
+        "UNFPA / Ministry of Population Women's Protection"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves southwestern Madagascar in Toliara with an integrated Centre Vonjy and CECJ legal/psychosocial listening center."
+    }
+  },
+  {
+    "id": "madagascar-taolagnaro-fort-dauphin-centre-vonjy-southeast",
+    "regionDistrict": "Madagascar (Taolagnaro / Fort-Dauphin — Anosy)",
+    "type": "safe-haven",
+    "lat": -25.0319,
+    "lng": 46.9925,
+    "name": {
+      "en": "Centre Vonjy de Taolagnaro (CHRR Philibert Tsiranana d'Amboanato) & CECJ Anosy"
+    },
+    "categoryBadge": {
+      "en": "One-Stop GBV Center & Women's Legal Listening Hub (Far South-East)"
+    },
+    "phone": "813 / 147",
+    "emergencyHotline": "813 / 147",
+    "address": {
+      "en": "CHRR Philibert Tsiranana d'Amboanato, Taolagnaro (Fort-Dauphin), Anosy Region, Southern Madagascar"
+    },
+    "services": {
+      "en": [
+        "Centre Vonjy Integrated Medical, Psychological & Legal Care",
+        "CECJ Anosy & Androy Women's Protection",
+        "UNFPA Southern Madagascar Mobile GBV & Maternal Clinics"
+      ]
+    },
+    "directionsText": {
+      "en": "Located within CHRR Philibert Tsiranana d'Amboanato in Taolagnaro (Fort-Dauphin), providing one-stop GBV and maternal protection in southern Madagascar."
+    }
+  },
+  {
+    "id": "madagascar-fianarantsoa-antsirabe-cecj-shelter",
+    "regionDistrict": "Madagascar (Fianarantsoa & Antsirabe — Southern Highlands)",
+    "type": "safe-haven",
+    "lat": -21.4527,
+    "lng": 47.0857,
+    "name": {
+      "en": "CECJ Fianarantsoa (Haute Matsiatra), CECJ Antsirabe & Trano Aro Zo Women's Legal/Crisis Network"
+    },
+    "categoryBadge": {
+      "en": "Women's Listening, Legal Aid & Domestic Violence Protection Centers"
+    },
+    "phone": "813 / 147",
+    "emergencyHotline": "813 / 147",
+    "address": {
+      "en": "Fianarantsoa (Haute Matsiatra) & Antsirabe (Vakinankaratra), Madagascar"
+    },
+    "services": {
+      "en": [
+        "Centres d'Écoute et de Conseils Juridiques (CECJ) for Domestic Violence Survivors",
+        "Trano Aro Zo Legal Clinic & Psychosocial Accompaniment",
+        "Brigade Féminine de Proximité Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Established CECJ and Trano Aro Zo women's protection centers in Fianarantsoa and Antsirabe."
+    }
+  },
+  {
+    "id": "madagascar-chu-antsiranana-diego-suarez-north",
+    "regionDistrict": "Madagascar (Antsiranana / Diego-Suarez — Diana, Far North)",
+    "type": "hospital",
+    "lat": -12.2787,
+    "lng": 49.2917,
+    "name": {
+      "en": "CHU Tanambao I d'Antsiranana (Diego-Suarez) — Maternité & Gynécologie"
+    },
+    "categoryBadge": {
+      "en": "Northern University Referral & Maternity Hospital (Diana)"
+    },
+    "phone": "+261 20 82 211 34",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Tanambao I, Antsiranana (Diego-Suarez), Diana Region, Far-Northern Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 University Maternity & Obstetric Surgery",
+        "Obstetric Fistula Repair & Gynecology",
+        "Pediatrics & Neonatal Intensive Care",
+        "CECJ Antsiranana Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary university referral hospital and maternity center for far-northern Madagascar in Antsiranana (Diego-Suarez)."
+    }
+  },
+  {
+    "id": "madagascar-chrr-sambava-antalaha-sava-northeast",
+    "regionDistrict": "Madagascar (Sambava & Antalaha — SAVA Region, Northeast)",
+    "type": "hospital",
+    "lat": -14.2667,
+    "lng": 50.1667,
+    "name": {
+      "en": "CHRR de Sambava (Besopaka) & Hôpital d'Antalaha (SAVA Region)"
+    },
+    "categoryBadge": {
+      "en": "Northeastern Regional Referral & Maternity Hospitals (SAVA)"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Sambava & Antalaha (14.90S, 50.27E), SAVA Region, Northeastern Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Regional Maternity & Emergency Cesarean",
+        "Gynecology, Family Planning & Fistula Care",
+        "Pediatrics & General Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional reference hospital in Sambava and district hospital in Antalaha serving the northeastern SAVA region."
+    }
+  },
+  {
+    "id": "madagascar-chrr-antsohihy-sofia-northwest",
+    "regionDistrict": "Madagascar (Antsohihy — Sofia Region)",
+    "type": "hospital",
+    "lat": -14.8796,
+    "lng": 47.9875,
+    "name": {
+      "en": "Centre Hospitalier de Référence Régionale (CHRR) d'Antsohihy (Sofia)"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Maternity Hospital (Sofia Region)"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Antsohihy, Sofia Region, Northwestern Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care",
+        "Obstetric Fistula & Women's Surgery",
+        "Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Main regional referral hospital serving Antsohihy and the Sofia region."
+    }
+  },
+  {
+    "id": "madagascar-chu-mahajanga-androva-mahabibo",
+    "regionDistrict": "Madagascar (Mahajanga — Boeny Region)",
+    "type": "hospital",
+    "lat": -15.722,
+    "lng": 46.311,
+    "name": {
+      "en": "CHU PZaGa d'Androva & CHU de Mahabibo (Mahajanga)"
+    },
+    "categoryBadge": {
+      "en": "University Referral & Maternity Hospitals (Northwest Coast)"
+    },
+    "phone": "+261 20 62 223 10",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Androva & Mahabibo, Mahajanga, Boeny Region, Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Tertiary Obstetrics, Gynecology & Maternity",
+        "Neonatology & Pediatric Surgery",
+        "On-Site Centre Vonjy One-Stop GBV Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Mahajanga's two university teaching hospitals providing tertiary maternity, surgical, and GBV care for northwestern Madagascar."
+    }
+  },
+  {
+    "id": "madagascar-chrr-maevatanana-betsiboka",
+    "regionDistrict": "Madagascar (Maevatanana — Betsiboka Region)",
+    "type": "hospital",
+    "lat": -16.95,
+    "lng": 46.8333,
+    "name": {
+      "en": "Centre Hospitalier de Référence Régionale (CHRR) de Maevatanana"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Maternity Hospital (Betsiboka)"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Maevatanana, Betsiboka Region, North-Central Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "Women's Health & Family Planning",
+        "Emergency Medicine"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral hospital serving Maevatanana and the Betsiboka region along RN4."
+    }
+  },
+  {
+    "id": "madagascar-chrr-maintirano-melaky-west",
+    "regionDistrict": "Madagascar (Maintirano — Melaky Region, West Coast)",
+    "type": "hospital",
+    "lat": -18.0635,
+    "lng": 44.0286,
+    "name": {
+      "en": "Centre Hospitalier de Référence Régionale (CHRR) de Maintirano (Melaky)"
+    },
+    "categoryBadge": {
+      "en": "Western Coastal Regional Referral & Maternity Hospital"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Maintirano, Melaky Region, Western Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Delivery",
+        "Emergency Obstetric Surgery",
+        "Pediatrics & Primary Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional hospital serving the remote western coastal region of Melaky (Maintirano)."
+    }
+  },
+  {
+    "id": "madagascar-chrr-ambatondrazaka-alaotra-mangoro",
+    "regionDistrict": "Madagascar (Ambatondrazaka & Moramanga — Alaotra-Mangoro)",
+    "type": "hospital",
+    "lat": -17.8333,
+    "lng": 48.4167,
+    "name": {
+      "en": "CHRR d'Ambatondrazaka & Hôpital de Moramanga (Alaotra-Mangoro)"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Maternity Hospitals (Alaotra-Mangoro)"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Ambatondrazaka & Moramanga (18.94S, 48.23E), Alaotra-Mangoro Region, Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Surgery",
+        "CECJ Listening & Women's Health Support",
+        "Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers CHRR d'Ambatondrazaka around Lake Alaotra and the district hospital of Moramanga."
+    }
+  },
+  {
+    "id": "madagascar-chu-toamasina-analakininina-morafeno",
+    "regionDistrict": "Madagascar (Toamasina / Tamatave — East Coast)",
+    "type": "hospital",
+    "lat": -18.1492,
+    "lng": 49.4023,
+    "name": {
+      "en": "CHU d'Analakininina (Hôpital Be) & CHU de Morafeno (Toamasina)"
+    },
+    "categoryBadge": {
+      "en": "Eastern University Referral & Maternity Hospitals"
+    },
+    "phone": "+261 20 53 320 18",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Toamasina, Atsinanana Region, East Coast Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Tertiary Maternity & High-Risk Obstetrics",
+        "Obstetric Fistula Surgical Center",
+        "Neonatal Intensive Care & Centre Vonjy"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary university referral hospitals for Madagascar's eastern coast in Toamasina."
+    }
+  },
+  {
+    "id": "madagascar-chrr-fenoarivo-atsinanana-sainte-marie",
+    "regionDistrict": "Madagascar (Fenoarivo Atsinanana / Fénérive-Est — Analanjirofo)",
+    "type": "hospital",
+    "lat": -17.3808,
+    "lng": 49.4083,
+    "name": {
+      "en": "CHRR de Fenoarivo Atsinanana (Fénérive-Est) & Hôpital de Sainte-Marie"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Maternity Hospital (Analanjirofo)"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Fenoarivo Atsinanana & Île Sainte-Marie (Nosy Boraha), Analanjirofo, Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "Women's Health & Family Planning",
+        "Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral hospital serving Analanjirofo along the northeastern coast."
+    }
+  },
+  {
+    "id": "madagascar-chrr-tsiroanomandidy-bongolava",
+    "regionDistrict": "Madagascar (Tsiroanomandidy — Bongolava Region)",
+    "type": "hospital",
+    "lat": -18.7697,
+    "lng": 46.0465,
+    "name": {
+      "en": "Centre Hospitalier de Référence Régionale (CHRR) de Tsiroanomandidy (Bongolava)"
+    },
+    "categoryBadge": {
+      "en": "Central-West Regional Referral & Maternity Hospital"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Tsiroanomandidy, Bongolava Region, Central-Western Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Obstetric Care",
+        "Emergency Surgery & Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral hospital serving Tsiroanomandidy and Bongolava west of Antananarivo."
+    }
+  },
+  {
+    "id": "madagascar-chrr-antsirabe-andranomadio-salfa",
+    "regionDistrict": "Madagascar (Antsirabe — Vakinankaratra)",
+    "type": "hospital",
+    "lat": -19.8659,
+    "lng": 47.0333,
+    "name": {
+      "en": "CHRR d'Antsirabe & Hôpital Luthérien d'Andranomadio (SALFA Antsirabe)"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Lutheran Mission Maternity Hospitals"
+    },
+    "phone": "+261 20 44 481 12",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Antsirabe, Vakinankaratra Region, Central Highlands, Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean",
+        "SALFA Lutheran Hospital Obstetrics & Fistula Care",
+        "Neonatology & Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers the public regional hospital (CHRR) and the renowned SALFA Lutheran Hospital in Antsirabe."
+    }
+  },
+  {
+    "id": "madagascar-chrr-morondava-menabe-west",
+    "regionDistrict": "Madagascar (Morondava — Menabe Region, West Coast)",
+    "type": "hospital",
+    "lat": -20.2887,
+    "lng": 44.3178,
+    "name": {
+      "en": "CHRR de Morondava, Hôpital SALFA Morondava & CECJ Menabe"
+    },
+    "categoryBadge": {
+      "en": "Western Regional Referral Maternity Hospital & GBV Listening Center"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Morondava, Menabe Region, West Coast Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Cesarean & Fistula Repair",
+        "CECJ Menabe Domestic Violence Legal & Psychosocial Support",
+        "Pediatrics & Emergency Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary regional hospital and CECJ women's protection center serving Morondava and the western Menabe region."
+    }
+  },
+  {
+    "id": "madagascar-chrr-ambositra-amoroni-mania",
+    "regionDistrict": "Madagascar (Ambositra — Amoron'i Mania)",
+    "type": "hospital",
+    "lat": -20.5303,
+    "lng": 47.2434,
+    "name": {
+      "en": "Centre Hospitalier de Référence Régionale (CHRR) d'Ambositra"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral & Maternity Hospital (Amoron'i Mania)"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Ambositra, Amoron'i Mania Region, Central Highlands, Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Safe Delivery",
+        "Gynecology & Emergency Surgery",
+        "Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral hospital serving Ambositra and Amoron'i Mania."
+    }
+  },
+  {
+    "id": "madagascar-chu-fianarantsoa-tambohobe-andrainjato",
+    "regionDistrict": "Madagascar (Fianarantsoa — Haute Matsiatra)",
+    "type": "hospital",
+    "lat": -21.442,
+    "lng": 47.088,
+    "name": {
+      "en": "CHU de Tambohobe & CHU d'Andrainjato (Fianarantsoa)"
+    },
+    "categoryBadge": {
+      "en": "Southern Highlands University Referral & Maternity Hospitals"
+    },
+    "phone": "+261 20 75 501 25",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Tambohobe & Andrainjato, Fianarantsoa, Haute Matsiatra, Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 University Maternity & Obstetric Surgery",
+        "Obstetric Fistula Treatment Center",
+        "Neonatal Intensive Care & Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Fianarantsoa's university teaching hospitals providing tertiary maternity and surgical care for the southern highlands."
+    }
+  },
+  {
+    "id": "madagascar-chrr-manakara-farafangana-southeast",
+    "regionDistrict": "Madagascar (Manakara & Farafangana — Southeast Coast)",
+    "type": "hospital",
+    "lat": -22.1486,
+    "lng": 48.0106,
+    "name": {
+      "en": "CHRR de Manakara (Fitovinany) & CHRR de Farafangana (Atsimo-Atsinanana)"
+    },
+    "categoryBadge": {
+      "en": "Southeastern Regional Referral & Maternity Hospitals"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Manakara (22.14S, 48.01E) & Farafangana (22.82S, 47.82E), Southeastern Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Obstetric Fistula & Cyclone Emergency Maternal Care (UNFPA Supported)",
+        "CECJ Women's Protection & Safe Spaces",
+        "Pediatrics & Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral hospitals serving Manakara and Farafangana along the southeastern coast."
+    }
+  },
+  {
+    "id": "madagascar-chrr-ihosy-ihorombe-south-central",
+    "regionDistrict": "Madagascar (Ihosy — Ihorombe Region)",
+    "type": "hospital",
+    "lat": -22.4029,
+    "lng": 46.1258,
+    "name": {
+      "en": "Centre Hospitalier de Référence Régionale (CHRR) d'Ihosy (Ihorombe)"
+    },
+    "categoryBadge": {
+      "en": "South-Central Regional Referral & Maternity Hospital"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Ihosy, Ihorombe Region, South-Central Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care",
+        "Women's Health & Family Planning",
+        "General Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral hospital serving Ihosy and the Ihorombe plateau along RN7."
+    }
+  },
+  {
+    "id": "madagascar-chu-toliara-mitsinjo-betanimena",
+    "regionDistrict": "Madagascar (Toliara / Tuléar — Atsimo-Andrefana)",
+    "type": "hospital",
+    "lat": -23.354,
+    "lng": 43.67,
+    "name": {
+      "en": "CHU Mitsinjo Betanimena & CHU Tanambao (Toliara)"
+    },
+    "categoryBadge": {
+      "en": "Southwestern University Referral & Maternity Hospitals"
+    },
+    "phone": "+261 20 94 412 10",
+    "emergencyHotline": "117 / 813",
+    "address": {
+      "en": "Toliara (Tuléar), Atsimo-Andrefana Region, Southwestern Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 University Maternity & Obstetric Surgery",
+        "Obstetric Fistula Repair Center",
+        "Pediatrics & Neonatal Intensive Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary university teaching and maternity hospitals for southwestern Madagascar in Toliara."
+    }
+  },
+  {
+    "id": "madagascar-chrr-ambovombe-androy-deep-south",
+    "regionDistrict": "Madagascar (Ambovombe — Androy Region, Deep South)",
+    "type": "hospital",
+    "lat": -25.1784,
+    "lng": 46.0872,
+    "name": {
+      "en": "CHRR d'Ambovombe (Androy), Hôpital Luthérien de Manambaro & Cliniques Mobiles UNFPA Grand Sud"
+    },
+    "categoryBadge": {
+      "en": "Deep South Regional Maternity Hospital & Maternal Nutrition Hub"
+    },
+    "phone": "117 / 813",
+    "emergencyHotline": "813 / 147",
+    "address": {
+      "en": "Ambovombe (Androy) & Manambaro (25.02S, 46.82E), Deep South Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Obstetric Care (MSF / UNFPA / UNICEF Supported)",
+        "Maternal & Infant Acute Malnutrition Stabilization",
+        "Hôpital Luthérien de Manambaro Surgical & Fistula Center"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves Madagascar's Grand Sud in Ambovombe (Androy) and Manambaro with emergency maternity, fistula repair, and maternal nutrition care."
+    }
+  },
+  {
+    "id": "comoros-moroni-service-ecoute-vbg-grande-comore",
+    "regionDistrict": "Comoros (Moroni — Grande Comore / Ngazidja)",
+    "type": "safe-haven",
+    "lat": -11.7022,
+    "lng": 43.2551,
+    "name": {
+      "en": "Service d'Écoute et de Protection des Femmes et Enfants Victimes de Violence (Moroni), Plateforme des Femmes & ACFAV"
+    },
+    "categoryBadge": {
+      "en": "National GBV Listening Center, Legal Aid & Women's Protection (Grande Comore)"
+    },
+    "phone": "+269 332 37 87 / 1717",
+    "emergencyHotline": "+269 332 37 87 (Numéro d'Urgence Écoute Victimes) / 1717",
+    "address": {
+      "en": "Moroni (with antennas in Mitsamiouli & Foumbouni), Grande Comore (Ngazidja), Union of the Comoros"
+    },
+    "services": {
+      "en": [
+        "Confidential GBV & Domestic Violence Listening Service (+269 332 37 87)",
+        "Free Psychological Counseling, Medical Escort & Legal Assistance (UNICEF / UNFPA Supported)",
+        "ACFAV (Association Comorienne pour le Bien-Être de la Famille) Reproductive Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Central Service d'Écoute in Moroni (with antennas in Mitsamiouli and Foumbouni) providing free psychological, medical, and legal protection for women and children (+269 332 37 87)."
+    }
+  },
+  {
+    "id": "comoros-moroni-chn-el-maarouf-mitsamiouli-hospital",
+    "regionDistrict": "Comoros (Moroni & Mitsamiouli — Grande Comore)",
+    "type": "hospital",
+    "lat": -11.7081,
+    "lng": 43.2536,
+    "name": {
+      "en": "Centre Hospitalier National El-Maarouf (Maternité Nationale Moroni) & Pôle Sanitaire de Mitsamiouli"
+    },
+    "categoryBadge": {
+      "en": "National Tertiary Referral & Maternity Hospital (Grande Comore)"
+    },
+    "phone": "+269 773 26 04 / +269 332 37 87",
+    "emergencyHotline": "17 / 18 / +269 332 37 87",
+    "address": {
+      "en": "Moroni & Mitsamiouli (11.38S, 43.28E), Grande Comore, Comoros"
+    },
+    "services": {
+      "en": [
+        "24/7 National Maternity, Obstetrics & Gynecology",
+        "Forensic & Clinical Care for Sexual Violence Survivors",
+        "Neonatology & Pediatrics"
+      ]
+    },
+    "directionsText": {
+      "en": "Largest national referral and maternity hospital in the Union of the Comoros (CHN El-Maarouf in Moroni)."
+    }
+  },
+  {
+    "id": "comoros-anjouan-mutsamudu-domoni-service-ecoute-vbg",
+    "regionDistrict": "Comoros (Mutsamudu & Domoni — Anjouan / Ndzuwani Island)",
+    "type": "safe-haven",
+    "lat": -12.1645,
+    "lng": 44.3965,
+    "name": {
+      "en": "Service d'Écoute et de Protection des Femmes et Enfants d'Anjouan (Mutsamudu, Domoni & Pomoni)"
+    },
+    "categoryBadge": {
+      "en": "Island GBV Listening Center, Legal Aid & Survivor Protection (Anjouan)"
+    },
+    "phone": "+269 332 37 87 / +269 771 01 44",
+    "emergencyHotline": "+269 332 37 87",
+    "address": {
+      "en": "Mutsamudu, Domoni & Pomoni, Anjouan (Ndzuwani), Union of the Comoros"
+    },
+    "services": {
+      "en": [
+        "Holistic GBV & Domestic Violence Listening & Case Management",
+        "Free Psychological & Judicial Support (UNICEF / UNFPA Supported)",
+        "Direct Referral to CHR de Hombo Maternity"
+      ]
+    },
+    "directionsText": {
+      "en": "Anjouan's dedicated Service d'Écoute in Mutsamudu (with antennas in Domoni and Pomoni) supporting women and children survivors of violence."
+    }
+  },
+  {
+    "id": "comoros-anjouan-chr-hombo-mutsamudu-domoni-hospital",
+    "regionDistrict": "Comoros (Mutsamudu & Domoni — Anjouan Island)",
+    "type": "hospital",
+    "lat": -12.1685,
+    "lng": 44.4015,
+    "name": {
+      "en": "Centre Hospitalier Régional de Hombo (Mutsamudu) & Hôpital de Domoni (Anjouan)"
+    },
+    "categoryBadge": {
+      "en": "Island Referral & Maternity Hospitals (Anjouan)"
+    },
+    "phone": "+269 771 01 33",
+    "emergencyHotline": "+269 332 37 87",
+    "address": {
+      "en": "Hombo, Mutsamudu & Domoni (12.25S, 44.53E), Anjouan, Comoros"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity & Emergency Cesarean Surgery",
+        "Gynecology & Family Planning",
+        "Forensic & Clinical Care for Survivors"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary referral hospital (CHR de Hombo in Mutsamudu) and Domoni Hospital serving Anjouan island."
+    }
+  },
+  {
+    "id": "comoros-moheli-fomboni-service-ecoute-chr-hospital",
+    "regionDistrict": "Comoros (Fomboni & Nioumachoua — Mohéli / Mwali Island)",
+    "type": "safe-haven",
+    "lat": -12.28,
+    "lng": 43.7425,
+    "name": {
+      "en": "Service d'Écoute et de Protection des Femmes de Mohéli & CHR de Fomboni Maternité"
+    },
+    "categoryBadge": {
+      "en": "Island GBV Listening Center & Regional Maternity Hospital (Mohéli)"
+    },
+    "phone": "+269 332 37 87 / +269 772 01 16",
+    "emergencyHotline": "+269 332 37 87",
+    "address": {
+      "en": "Fomboni & Nioumachoua, Mohéli (Mwali), Union of the Comoros"
+    },
+    "services": {
+      "en": [
+        "Service d'Écoute Psychological, Social & Legal Protection for Women & Girls",
+        "Centre Hospitalier Régional (CHR) de Fomboni 24/7 Maternity & Obstetrics",
+        "Family Planning & Prenatal Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Serves Mohéli island in Fomboni and Nioumachoua with the Service d'Écoute protection hub and CHR de Fomboni maternity hospital."
+    }
+  },
+  {
+    "id": "mayotte-mamoudzou-acfav-mlezi-maore-chm-maternity",
+    "regionDistrict": "Mayotte (Mamoudzou & Petite-Terre)",
+    "type": "safe-haven",
+    "lat": -12.7806,
+    "lng": 45.2278,
+    "name": {
+      "en": "ACFAV Mayotte (Refuge & Aide aux Femmes Victimes de Violences), Mlezi Maore & CHM Mamoudzou Maternité"
+    },
+    "categoryBadge": {
+      "en": "Emergency Women's Shelter (3919) & Centre Hospitalier de Mayotte Maternity"
+    },
+    "phone": "3919 / +262 269 61 01 05 / +262 269 61 80 00",
+    "emergencyHotline": "3919 (Violences Femmes Info) / 15 (SAMU)",
+    "address": {
+      "en": "Rue de l'Hôpital, Mamoudzou, Mayotte"
+    },
+    "services": {
+      "en": [
+        "ACFAV Mayotte & Mlezi Maore Emergency Women's Shelter & Legal/Psychological Support",
+        "Centre Hospitalier de Mayotte (CHM) 24/7 Maternity & Unité Médico-Judiciaire (UMJ)",
+        "24/7 Toll-Free Domestic Violence Helpline 3919"
+      ]
+    },
+    "directionsText": {
+      "en": "Combines ACFAV Mayotte's women's shelter and listening service (+262 269 61 01 05 / 3919) with the Centre Hospitalier de Mayotte (CHM) in Mamoudzou."
+    }
+  },
+  {
+    "id": "mauritius-sos-femmes-shelter-belle-etoile-coromandel",
+    "regionDistrict": "Mauritius (Belle-Étoile / Coromandel & Port Louis)",
+    "type": "safe-haven",
+    "lat": -20.1915,
+    "lng": 57.4725,
+    "name": {
+      "en": "SOS Femmes Mauritius — Domestic Violence Women's Shelter & 24/7 Helpline"
+    },
+    "categoryBadge": {
+      "en": "Dedicated Women & Children's Safe Haven Shelter (Hotline 139 / 233 3054)"
+    },
+    "phone": "+230 233 3054 / 139",
+    "emergencyHotline": "139 (24/7 National Toll-Free Domestic Violence Hotline) / +230 233 3054",
+    "address": {
+      "en": "G19, Belle-Étoile, Coromandel (near Port Louis & Beau Bassin), Mauritius (https://sosfemmes-mu.com/)"
+    },
+    "services": {
+      "en": [
+        "24/7 Safe Residential Shelter for Women & Children Escaping Domestic Violence, Rape or Incest",
+        "Free Legal Counsel (Protection Orders), Psychological Therapy & Childcare",
+        "24/7 Crisis Hotline (+230 233 3054 & National Toll-Free 139)",
+        "Economic Empowerment & Reintegration"
+      ]
+    },
+    "directionsText": {
+      "en": "Mauritius's premier dedicated women's domestic violence shelter in Belle-Étoile, Coromandel (+230 233 3054 / 139)."
+    }
+  },
+  {
+    "id": "mauritius-family-support-bureaux-passerelle-shelter-curepipe",
+    "regionDistrict": "Mauritius (Curepipe, Quatre Bornes, Rose Hill & Flacq)",
+    "type": "safe-haven",
+    "lat": -20.3167,
+    "lng": 57.5167,
+    "name": {
+      "en": "Passerelle Women Centre, Shelter for Women in Distress (Curepipe) & Ministry of Gender Family Support Bureaux (139)"
+    },
+    "categoryBadge": {
+      "en": "Women's Shelters & One-Stop Family Support Bureaux (24/7 Hotline 139)"
+    },
+    "phone": "139 / +230 5882 1000 / 119",
+    "emergencyHotline": "139 (24/7 Domestic Violence Hotline) / 119 (Child & Family Protection)",
+    "address": {
+      "en": "Curepipe / Forest Side, Quatre Bornes, Rose Hill, Bambous, Goodlands & Flacq, Mauritius"
+    },
+    "services": {
+      "en": [
+        "24/7 Toll-Free Domestic Violence Hotline 139",
+        "Passerelle Women Centre (+230 5882 1000) & Shelter for Women in Distress",
+        "One-Stop Family Support Bureaux (Free Legal, Psychological & Police Assistance)"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers Passerelle Women Centre, the Curepipe/Forest Side Women's Shelter, and Mauritius's island-wide Family Support Bureaux (call 139 toll-free 24/7)."
+    }
+  },
+  {
+    "id": "mauritius-jeetoo-hospital-port-louis-ssrn-pamplemousses",
+    "regionDistrict": "Mauritius (Port Louis & Pamplemousses — North)",
+    "type": "hospital",
+    "lat": -20.1654,
+    "lng": 57.5042,
+    "name": {
+      "en": "Dr. A. G. Jeetoo Hospital (Port Louis) & Sir Seewoosagur Ramgoolam National Hospital (SSRN Pamplemousses)"
+    },
+    "categoryBadge": {
+      "en": "National Tertiary Referral & Maternity Hospitals (Port Louis & North)"
+    },
+    "phone": "+230 212 3201 / +230 243 4661 / 114",
+    "emergencyHotline": "114 (SAMU Ambulance) / 139 (DV Hotline)",
+    "address": {
+      "en": "Volcy Pougnet St, Port Louis & Pamplemousses (20.10S, 57.57E), Mauritius"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology & High-Risk Maternity Wards",
+        "Neonatal Intensive Care (NICU) & Pediatrics",
+        "Hospital Domestic & Sexual Violence Medical/Forensic Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Principal public tertiary and maternity hospitals serving Port Louis (Dr. A. G. Jeetoo) and northern Mauritius (SSRN Pamplemousses)."
+    }
+  },
+  {
+    "id": "mauritius-victoria-hospital-candos-wellkin-moka",
+    "regionDistrict": "Mauritius (Quatre Bornes / Candos & Moka — Central Plateau)",
+    "type": "hospital",
+    "lat": -20.2736,
+    "lng": 57.4728,
+    "name": {
+      "en": "Victoria Hospital (Candos Maternity & Women's Center) & Wellkin Hospital (Moka)"
+    },
+    "categoryBadge": {
+      "en": "Regional Tertiary Maternity & Private Women's Hospitals"
+    },
+    "phone": "+230 425 3031 / +230 605 1000 / 114",
+    "emergencyHotline": "114 (SAMU) / 139",
+    "address": {
+      "en": "Candos, Quatre Bornes & Moka, Central Mauritius"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Neonatal ICU & Gynecological Surgery",
+        "Breast & Cervical Cancer Screening & Oncology",
+        "Emergency & Trauma Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Covers public Victoria Hospital in Candos (Quatre Bornes) and Wellkin Hospital in Moka."
+    }
+  },
+  {
+    "id": "mauritius-nehru-hospital-rose-belle-flacq-hospital",
+    "regionDistrict": "Mauritius (Rose Belle & Centre de Flacq — South & East)",
+    "type": "hospital",
+    "lat": -20.4042,
+    "lng": 57.5967,
+    "name": {
+      "en": "Jawaharlal Nehru Hospital (Rose Belle — South) & Bruno Cheong Hospital (Centre de Flacq — East)"
+    },
+    "categoryBadge": {
+      "en": "Southern & Eastern Regional Referral Maternity Hospitals"
+    },
+    "phone": "+230 627 4950 / +230 413 2532 / 114",
+    "emergencyHotline": "114 / 139",
+    "address": {
+      "en": "Rose Belle (Grand Port, South) & Centre de Flacq (20.19S, 57.72E, East), Mauritius"
+    },
+    "services": {
+      "en": [
+        "24/7 Regional Maternity & Emergency Cesarean",
+        "Gynecology, Prenatal Care & NICU",
+        "Flacq Women Centre & Family Support Bureau Referral (139)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major regional public hospitals serving southern (Jawaharlal Nehru Hospital, Rose Belle) and eastern (Bruno Cheong Hospital, Flacq) Mauritius."
+    }
+  },
+  {
+    "id": "mauritius-rodrigues-queen-elizabeth-hospital-port-mathurin",
+    "regionDistrict": "Mauritius (Rodrigues Island — Port Mathurin / Crève Coeur)",
+    "type": "hospital",
+    "lat": -19.6872,
+    "lng": 63.4189,
+    "name": {
+      "en": "Queen Elizabeth Hospital (Crève Coeur Maternity) & Rodrigues Family Support Bureau / Shelter"
+    },
+    "categoryBadge": {
+      "en": "Rodrigues Island Referral Maternity Hospital & Women's Shelter"
+    },
+    "phone": "+230 831 1602 / 139 / 114",
+    "emergencyHotline": "139 / 114",
+    "address": {
+      "en": "Crève Coeur, Port Mathurin, Rodrigues Island, Republic of Mauritius"
+    },
+    "services": {
+      "en": [
+        "24/7 Island Maternity, Obstetrics & Emergency Surgery",
+        "Rodrigues Family Support Bureau & Domestic Violence Shelter (Hotline 139)",
+        "Maternal & Child Health Clinics"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary hospital, maternity center, and women's domestic violence protection hub serving Rodrigues Island."
+    }
   }
 ];

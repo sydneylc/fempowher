@@ -133447,5 +133447,180 @@ export const WORLD_CENTERS_DIRECTORY = [
       "en": "Commune de la Gombe, Kinshasa, DRC."
     },
     "website": "https://panzifoundation.org"
+  },
+  {
+    "id": "niger-unhcr-guichet-unique-niamey",
+    "regionDistrict": "Niamey, Niger",
+    "type": "safe-haven",
+    "lat": 13.5186,
+    "lng": 2.1154,
+    "name": {
+      "en": "Guichet Unique de Niamey — HCR Niger (Service d’Assistance aux Victimes de VBG & Protection)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR One-Stop Protection Center, GBV Safe Haven & Medical/Social Referral (Niamey)"
+    },
+    "phone": "0 800 12 12 (Ligne Verte Gratuite) / +227 20 75 20 64",
+    "emergencyHotline": "0 800 12 12 / 15 / 17",
+    "address": {
+      "en": "Guichet Unique du HCR, Niamey, Niger (NGRNI@UNHCR.ORG)"
+    },
+    "services": {
+      "en": [
+        "Free Confidential Gender-Based Violence (VBG) Assistance, Safe Intake & Emergency Protection",
+        "Toll-Free Green Line 0 800 12 12 (Orange, Airtel, Moov) in French, Hausa, Zarma/Djerma, Arabic & English",
+        "Medical Care Certificates (Prise en Charge Médicale), Child Protection, Psychosocial & Legal Orientation (100% Free)"
+      ]
+    },
+    "directionsText": {
+      "en": "Guichet Unique du HCR, Niamey, Niger."
+    },
+    "website": "https://help.unhcr.org/niger/ou-chercher-de-laide/",
+    "openHours": "Mon–Thu 08:00–13:00 & 14:00–17:30; Fri 08:00–14:00"
+  },
+  {
+    "id": "niger-unhcr-agadez-etm",
+    "regionDistrict": "Quartier Jeune Cadre, Agadez, Région d’Agadez, Niger",
+    "type": "safe-haven",
+    "lat": 16.9736,
+    "lng": 7.9864,
+    "name": {
+      "en": "Sous-Délégation du HCR à Agadez & Centre de Transit d’Urgence (ETM) — Protection VBG"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Women’s Protection, Safe Haven & Emergency Transit Center (Agadez)"
+    },
+    "phone": "0 800 12 12 (Ligne Verte Gratuite) / +227 20 75 20 64",
+    "emergencyHotline": "0 800 12 12 / 15",
+    "address": {
+      "en": "Quartier Jeune Cadre, BP 12 201, Ville d’Agadez, Région d’Agadez, Niger"
+    },
+    "services": {
+      "en": [
+        "Emergency Safe Shelter, GBV Survivor Protection & Psychosocial Counseling for Displaced & Transit Women",
+        "Medical Referral to CSME Agadez (Centre de Santé de la Mère et de l’Enfant)",
+        "Toll-Free Green Line 0 800 12 12 (French, Hausa, Zarma, Arabic, English)"
+      ]
+    },
+    "directionsText": {
+      "en": "Quartier Jeune Cadre, Sous-Délégation du HCR, Agadez, Niger."
+    },
+    "website": "https://help.unhcr.org/niger/ou-chercher-de-laide/"
+  },
+  {
+    "id": "niger-unhcr-maradi-safe",
+    "regionDistrict": "Maradi (Chadakori, Dan Dadji Makaou & Garin Kaka), Région de Maradi, Niger",
+    "type": "safe-haven",
+    "lat": 13.5012,
+    "lng": 7.1025,
+    "name": {
+      "en": "Bureau du HCR à Maradi & Espaces Sûrs VBG (Villages d’Opportunités de Chadakori, Dan Dadji Makaou & Garin Kaka)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Women’s Safe Spaces, GBV Protection & Maternal Health Referral (Maradi)"
+    },
+    "phone": "0 800 12 12 (Ligne Verte Gratuite) / +227 20 75 20 64",
+    "emergencyHotline": "0 800 12 12 / 15",
+    "address": {
+      "en": "Ville de Maradi & Sites d’Accueil de Chadakori, Dan Dadji Makaou et Garin Kaka, Région de Maradi, Niger"
+    },
+    "services": {
+      "en": [
+        "Confidential GBV Listening Spaces, Psychosocial First Aid & Protection for Refugee and Host-Community Women",
+        "Free Public Health Facility Access & Maternity Referral (CSME Maradi)",
+        "Toll-Free UNHCR Helpline 0 800 12 12 (Hausa, French, Zarma, English, Arabic)"
+      ]
+    },
+    "directionsText": {
+      "en": "Ville de Maradi et sites de Chadakori, Dan Dadji Makaou et Garin Kaka, Région de Maradi."
+    },
+    "website": "https://help.unhcr.org/niger/ou-chercher-de-laide/"
+  },
+  {
+    "id": "niger-unhcr-diffa-safe",
+    "regionDistrict": "Diffa, Région de Diffa (Bassin du Lac Tchad), Niger",
+    "type": "safe-haven",
+    "lat": 13.3154,
+    "lng": 12.6113,
+    "name": {
+      "en": "Sous-Délégation du HCR à Diffa & Espaces Sûrs Femmes (Bassin du Lac Tchad)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR & Partner Women’s Safe Haven, GBV Protection & Maternal Referral (Diffa)"
+    },
+    "phone": "0 800 12 12 (Ligne Verte Gratuite) / +227 20 75 20 64",
+    "emergencyHotline": "0 800 12 12 / 15",
+    "address": {
+      "en": "Ville de Diffa, Région de Diffa, Niger"
+    },
+    "services": {
+      "en": [
+        "Free GBV Survivor Protection, Psychosocial Listening & Safe Shelter Referral in Lake Chad Basin",
+        "Emergency Obstetric & Fistula Care Referral (CSME Diffa & Hôpital Régional)",
+        "Toll-Free Green Line 0 800 12 12 (Kanuri, Hausa, French, Arabic)"
+      ]
+    },
+    "directionsText": {
+      "en": "Sous-Délégation du HCR, Ville de Diffa, Région de Diffa, Niger."
+    },
+    "website": "https://help.unhcr.org/niger/ou-chercher-de-laide/"
+  },
+  {
+    "id": "niger-unhcr-tahoua-safe",
+    "regionDistrict": "Tahoua, Intikane & Telemcès, Région de Tahoua, Niger",
+    "type": "safe-haven",
+    "lat": 14.8888,
+    "lng": 5.2692,
+    "name": {
+      "en": "Bureau du HCR à Tahoua & Services de Protection VBG (Tahoua / Zones d’Accueil)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Women’s Protection, GBV Assistance & Maternal Health Referral (Tahoua)"
+    },
+    "phone": "0 800 12 12 (Ligne Verte Gratuite) / +227 20 75 20 64",
+    "emergencyHotline": "0 800 12 12 / 15",
+    "address": {
+      "en": "Ville de Tahoua, Région de Tahoua, Niger"
+    },
+    "services": {
+      "en": [
+        "Free Confidential Protection, GBV Case Management & Psychosocial Support for Women and Girls",
+        "Direct Referral to CSME Tahoua (Centre de Santé de la Mère et de l’Enfant)",
+        "Toll-Free Green Line 0 800 12 12"
+      ]
+    },
+    "directionsText": {
+      "en": "Bureau du HCR, Ville de Tahoua, Région de Tahoua, Niger."
+    },
+    "website": "https://help.unhcr.org/niger/ou-chercher-de-laide/"
+  },
+  {
+    "id": "niger-unhcr-tillaberi-ouallam-abala",
+    "regionDistrict": "Tillabéri, Ouallam, Abala & Ayorou, Région de Tillabéri, Niger",
+    "type": "safe-haven",
+    "lat": 14.2071,
+    "lng": 1.4542,
+    "name": {
+      "en": "Antennes du HCR à Tillabéri, Ouallam, Abala & Ayorou — Protection des Femmes & Assistance VBG"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Women’s Safe Spaces, GBV Protection & Emergency Medical Referral (Tillabéri)"
+    },
+    "phone": "0 800 12 12 (Ligne Verte Gratuite) / +227 20 75 20 64",
+    "emergencyHotline": "0 800 12 12 / 15",
+    "address": {
+      "en": "Tillabéri, Ouallam, Camp d’Abala, Mangaize & Ayorou, Région de Tillabéri, Niger"
+    },
+    "services": {
+      "en": [
+        "Women’s Safe Spaces, GBV Survivor Care & Psychosocial Counseling Across Tillabéri Camps and Host Communities",
+        "Free Emergency Public Hospital Access & Maternity Referral",
+        "Toll-Free Green Line 0 800 12 12 (Zarma/Djerma, Hausa, French, Tamasheq, Arabic)"
+      ]
+    },
+    "directionsText": {
+      "en": "Tillabéri, Ouallam, Abala et Ayorou, Région de Tillabéri, Niger."
+    },
+    "website": "https://help.unhcr.org/niger/ou-chercher-de-laide/"
   }
 ];

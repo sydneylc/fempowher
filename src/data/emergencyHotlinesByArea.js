@@ -114,6 +114,17 @@ export const REGIONAL_CRISIS_OVERRIDES = [
       'Hôpital de Panzi (One-Stop Center VBG Bukavu): Call +243 894 153 354',
       'Maison Dorcas Transitional Care & City of Joy Sanctuary (Fondation Panzi): Call +243 811 443 123'
     ]
+  },
+  {
+    match: ['niamey', 'agadez', 'maradi', 'diffa', 'tahoua', 'tillaberi', 'tillabéri', 'zinder', 'ouallam', 'abala', 'ayorou'],
+    nationalNumber: '15 (SAMU Ambulance) / 17 (Police) / 18 (Sapeurs-Pompiers)',
+    regionalNumber: '0 800 12 12 (Ligne Verte Gratuite HCR Niger — Orange, Airtel, Moov)',
+    emergencyNumber: '0 800 12 12 / 15 / 17',
+    crisisLines: [
+      'Ligne Verte HCR Niger (Protection, VBG & Guichet Unique — Français, Haoussa, Djerma, Arabe, Anglais): Call 0 800 12 12 (Toll-Free)',
+      'Guichet Unique & Représentation HCR Niamey / Agadez: Call +227 20 75 20 64 (NGRNI@UNHCR.ORG)',
+      'Association des Femmes Juristes du Niger (AFJN Clinique Juridique Niamey): Call 116 / +227 20 73 56 36'
+    ]
   }
 ];
 
@@ -649,6 +660,14 @@ export const NATIONAL_CRISIS_DIRECTORY = {
   cameroon: {
     emergencyNumber: '112 or 117 (Police) / 119 (Medical Emergency)',
     crisisLines: []
+  },
+  niger: {
+    emergencyNumber: '15 (SAMU Medical) / 17 (Police) / 0 800 12 12 (Ligne Verte Gratuite HCR)',
+    crisisLines: [
+      'Ligne Verte Gratuite HCR Niger (VBG, Protection & Guichet Unique — Orange, Airtel, Moov): Call 0 800 12 12 (French, Hausa, Zarma/Djerma, Arabic, English)',
+      'Guichet Unique de Niamey & Sous-Délégations HCR (Agadez, Diffa, Maradi, Tahoua, Tillabéri): Call +227 20 75 20 64 (NGRNI@UNHCR.ORG)',
+      'Association des Femmes Juristes du Niger (AFJN) & Ligne 116: Call 116 / +227 20 73 56 36'
+    ]
   },
   senegal: {
     emergencyNumber: '17 (Police) / 1515 (SAMU Ambulance)',

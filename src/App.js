@@ -10,7 +10,7 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=141';
+} from './data/translations.js?v=142';
 import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=132';
 import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=123';
 import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=120';
@@ -27,6 +27,7 @@ import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=18';
 import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=119';
 import MapLegend1 from './pages/MapLegend1.js?v=18';
 import DatabasePage1 from './pages/DatabasePage1.js?v=94';
+import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=142';
 import MyBodyHomePage from './pages/MyBodyHomePage.js?v=141';
 import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=140';
 import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=128';
@@ -2678,91 +2679,16 @@ export default function App() {
             });
           }
 
-          return h(
-              'div',
-              { className: 'max-w-3xl w-full mx-auto p-4 sm:p-6 space-y-5'},
-              // Top Header Card: Keeps the exact Age Group selection at the top
-              h(
-                'div',
-                {
-                  className: 'text-white p-5 rounded-3xl shadow-lg',
-                  style: { background: 'linear-gradient(135deg, #9F133A 0%, #CF366C 100%)'}
-                },
-                h(
-                  'div',
-                  { className: 'text-xs font-bold uppercase tracking-wider', style: { color: '#FEACEC'} },
-                  `${displayUsername} • ${t.eduHeaderTitle || t.tabIssues}`
-                ),
-                h(
-                  'h2',
-                  { className: 'text-xl sm:text-2xl font-bold mt-1'},
-                  t.eduHeaderTitle || t.tabIssues
-                ),
-                h('p', { className: 'text-xs sm:text-sm mt-1', style: { color: '#FEACEC'} }, t.issuesSubtitle),
-                h(
-                  'div',
-                  { className: 'mt-4 pt-3 border-t', style: { borderColor: 'rgba(254,172,236,0.4)'} },
-                  h(
-                    'div',
-                    { className: 'text-[11px] font-bold mb-2', style: { color: '#FEACEC'} },
-                    t.eduSwitchAgePrompt || 'Select an Age Group (Check for yourself, a daughter, or an elder/grandmother):'
-                  ),
-                  h(
-                    'div',
-                    { className: 'flex flex-wrap gap-1.5'},
-                    AGE_GROUPS.map((ag) => {
-                      const isSelectedAge = ageGroup === ag.id;
-                      return h(
-                        'button',
-                        {
-                          key: ag.id,
-                          onClick: () => {
-                            setAgeGroup(ag.id);
-                          },
-                          className: 'px-3 py-1.5 rounded-xl text-xs font-bold transition',
-                          style: isSelectedAge
-                            ? { backgroundColor: '#FEACEC', color: '#9F133A', border: '2px solid #FFFFFF' }
-                            : { backgroundColor: 'rgba(255,255,255,0.18)', color: '#FFFFFF' }
-                        },
-                        formatDigitsForLang(ag.label)
-                      );
-                    })
-                  )
-                )
-              ),
-
-              // Equal-Sized Buttons Directly on Page (Each button navigates to its own new empty HomePage)
-              h(
-                'div',
-                {
-                  className: 'grid grid-cols-2 gap-3'
-                },
-                educationTableButtons.map((btn) => {
-                  const baseBg =
-                    btn.shade === 'lighter'
-                      ? 'linear-gradient(135deg, #CF366C 0%, #EA689A 100%)'
-                      : btn.shade === 'darker'
-                      ? 'linear-gradient(135deg, #6E0926 0%, #8F1034 100%)'
-                      : 'linear-gradient(135deg, #9F133A 0%, #CF366C 100%)';
-                  return h(
-                    'button',
-                    {
-                      key: btn.id,
-                      type: 'button',
-                      onClick: () => setEducationPage(btn.page),
-                      className:
-                        'w-full h-16 sm:h-20 px-4 py-2 rounded-2xl text-xs sm:text-sm font-bold transition text-center flex items-center justify-center shadow-md cursor-pointer leading-snug',
-                      style: {
-                        background: baseBg,
-                        color: '#FFFFFF',
-                        border: '2px solid #FFFFFF'
-                      }
-                    },
-                    btn.label
-                  );
-                })
-              )
-            );
+          return h(MyBodyandHealthHomePage1, {
+            displayUsername,
+            t,
+            AGE_GROUPS,
+            ageGroup,
+            setAgeGroup,
+            formatDigitsForLang,
+            educationTableButtons,
+            setEducationPage
+          });
         })(),
 
       activeTab === 'profile'&&
@@ -2838,11 +2764,8 @@ export default function App() {
         { id: 'emergency', title: t.tabEmergency, sub: null },
         {
           id: 'issues',
-          title: t.tabIssues,
-          sub:
-            educationSelection?.type === 'age'
-              ? `${t.tabIssuesSub} (${formatDigitsForLang(educationSelection.id)})`
-              : t.tabIssuesSub
+          title: t.tabIssues || 'My Body & Health',
+          sub: null
         },
         isAnonymous || username === 'Anonymous' || currentPage === 'TotalAnon'
           ? { id: 'being-a-woman', title: 'Being a Woman Worldview', sub: null }

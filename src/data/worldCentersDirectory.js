@@ -131952,5 +131952,1500 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Sakubva Clinic, Chikanga Clinic, Dangamvura Clinic & Mutare City Clinic, Mutare, Zimbabwe."
     }
+  },
+  {
+    "id": "drc-panzi-maison-dorcas-bukavu",
+    "regionDistrict": "Quartier Panzi, Commune d’Ibanda, Bukavu, Sud-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -2.5398,
+    "lng": 28.8622,
+    "name": {
+      "en": "Maison Dorcas (Fondation Panzi — Transitional Care & Safe Haven Center, Bukavu)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Transitional Safe Haven, Trauma Recovery & Socio-Economic Reintegration"
+    },
+    "phone": "+243 811 443 123 / +243 894 153 354",
+    "emergencyHotline": "122 / 495555 / +243 811 443 123",
+    "address": {
+      "en": "Avenue Jean Miruho 3, N° 24 / Mushununu, Quartier Panzi, Commune d’Ibanda, Bukavu, Sud-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Short & Medium-Term Safe Haven Transit Housing for SGBV Survivors & Young Mothers",
+        "Psychosocial Counseling, Healing in Harmony Music Therapy & Legal Clinic Referral",
+        "Literacy, Tailoring, Culinary & Micro-Enterprise Reintegration (Panzi Holistic Model)"
+      ]
+    },
+    "directionsText": {
+      "en": "Quartier Panzi, adjacent to Panzi Hospital, Commune d’Ibanda, Bukavu, South Kivu."
+    },
+    "website": "https://panzifoundation.org/maison-dorcas-transitional-care/"
+  },
+  {
+    "id": "drc-city-of-joy-bukavu",
+    "regionDistrict": "Quartier Panzi, Commune d’Ibanda, Bukavu, Sud-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -2.5412,
+    "lng": 28.8635,
+    "name": {
+      "en": "City of Joy — Women’s Transformational Sanctuary & Safe Haven (V-Day / Fondation Panzi, Bukavu)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Residential Safe Sanctuary, Trauma Healing & Leadership Community"
+    },
+    "phone": "+243 811 443 123 / +243 894 153 354",
+    "emergencyHotline": "122 / +243 811 443 123",
+    "address": {
+      "en": "Avenue Jean Miruho 3, N° 24, Quartier Panzi, Commune d’Ibanda, Bukavu, Sud-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Residential Sanctuary Turning Pain to Power for Women Survivors of Gender-Based Violence",
+        "Group Trauma Therapy, Self-Defense, Comprehensive Sexuality Education & Economic Empowerment",
+        "Directed by Christine Schuler Deschryver, Dr. Denis Mukwege & V-Day"
+      ]
+    },
+    "directionsText": {
+      "en": "Quartier Panzi, Commune d’Ibanda, Bukavu, South Kivu Province, DRC."
+    },
+    "website": "https://cityofjoycongo.org/about-city-of-joy/"
+  },
+  {
+    "id": "drc-panzi-hospital-one-stop-bukavu",
+    "regionDistrict": "Quartier Panzi, Bukavu, Sud-Kivu, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -2.5389,
+    "lng": 28.8608,
+    "name": {
+      "en": "Hôpital Général de Référence de Panzi — One-Stop Center VBG & Fistula Care (Bukavu)"
+    },
+    "categoryBadge": {
+      "en": "24/7 OB/GYN, Fistula Surgery & Holistic SGBV One-Stop Center"
+    },
+    "phone": "+243 894 153 354 / +243 811 443 123",
+    "emergencyHotline": "122 / +243 894 153 354",
+    "address": {
+      "en": "079 Avenue de l’Hôpital, Quartier Panzi, Commune d’Ibanda, Bukavu, Sud-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "72-Hour Post-Rape PEP Kits, Complex Traumatic Fistula & Reconstructive Gynecological Surgery",
+        "4-Pillar Holistic Care: Medical, Psychosocial, Legal Clinic & Socio-Economic Support",
+        "24/7 Maternity, High-Risk Obstetrics & Neonatal Intensive Care"
+      ]
+    },
+    "directionsText": {
+      "en": "079 Avenue de l’Hôpital, Quartier Panzi, Bukavu, South Kivu."
+    },
+    "website": "https://panzifoundation.org"
+  },
+  {
+    "id": "drc-panzi-mulamba-walungu",
+    "regionDistrict": "Mulamba, Territoire de Walungu, Sud-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -2.7584,
+    "lng": 28.6642,
+    "name": {
+      "en": "Centre Intégré & Clinique Juridique de Mulamba (Fondation Panzi One-Stop Center, Walungu)"
+    },
+    "categoryBadge": {
+      "en": "Rural One-Stop Safe Haven, OB/GYN Hospital & Legal Clinic (Fondation Panzi)"
+    },
+    "phone": "+243 811 443 123 / +243 894 153 354",
+    "emergencyHotline": "122 / +243 811 443 123",
+    "address": {
+      "en": "Hôpital de Mulamba, Territoire de Walungu, Sud-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Rural Holistic One-Stop Center for Survivors of Sexual & Gender-Based Violence",
+        "Emergency Obstetric Care, Psychosocial Listening & Free Legal Aid Clinic (Clinique Juridique)"
+      ]
+    },
+    "directionsText": {
+      "en": "Mulamba Health Zone, Walungu Territory, South Kivu Province, DRC."
+    },
+    "website": "https://panzifoundation.org"
+  },
+  {
+    "id": "drc-panzi-bulenga-kipuka",
+    "regionDistrict": "Bulenga, Sud-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -2.6182,
+    "lng": 28.7815,
+    "name": {
+      "en": "Centre Intégré & Clinique Juridique de Bulenga (Fondation Panzi One-Stop Center)"
+    },
+    "categoryBadge": {
+      "en": "Holistic SGBV Safe Haven, Medical & Legal Clinic (Fondation Panzi)"
+    },
+    "phone": "+243 811 443 123 / +243 894 153 354",
+    "emergencyHotline": "122 / +243 811 443 123",
+    "address": {
+      "en": "Centre Hospitalier de Bulenga, Sud-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Emergency Medical Care, Psychosocial Trauma Support & Legal Representation for Women",
+        "Safe Referral Pathway to Panzi Hospital & Maison Dorcas"
+      ]
+    },
+    "directionsText": {
+      "en": "Bulenga, South Kivu Province, DRC."
+    },
+    "website": "https://panzifoundation.org"
+  },
+  {
+    "id": "drc-panzi-bunyakiri-kavumu",
+    "regionDistrict": "Bunyakiri & Kavumu, Kalehe / Kabare, Sud-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -2.0892,
+    "lng": 28.5734,
+    "name": {
+      "en": "Clinique Juridique & Maison d’Écoute de Bunyakiri & Kavumu (Fondation Panzi / CICR)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Legal Clinic, Listening House (Maison d’Écoute) & Safe Haven"
+    },
+    "phone": "+243 811 443 123",
+    "emergencyHotline": "122 / +243 811 443 123",
+    "address": {
+      "en": "Bunyakiri & Kavumu, Territoire de Kalehe / Kabare, Sud-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Free Legal Aid, Court Accompaniment & Protection for Child and Adult Survivors",
+        "Confidential Psychosocial Listening & 72-Hour Medical Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Bunyakiri & Kavumu, South Kivu Province, DRC."
+    }
+  },
+  {
+    "id": "drc-panzi-kamituga-uvira",
+    "regionDistrict": "Uvira & Kamituga, Sud-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -3.3958,
+    "lng": 29.1378,
+    "name": {
+      "en": "Clinique Juridique & Antenne Fondation Panzi — Uvira & Kamituga (Sud-Kivu)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Legal Protection, Psychosocial Safe Space & SGBV Referral"
+    },
+    "phone": "+243 811 443 123",
+    "emergencyHotline": "122 / +243 811 443 123",
+    "address": {
+      "en": "Uvira Centre & Cité de Kamituga (Mwenga), Sud-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Free Legal Representation, Survivor Protection & Psychosocial Counseling",
+        "ICRC / Red Cross Maison d’Écoute & Medical Referral Network"
+      ]
+    },
+    "directionsText": {
+      "en": "Uvira and Kamituga, South Kivu Province, DRC."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-1",
+    "regionDistrict": "Ville de Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -5.9475,
+    "lng": 29.1947,
+    "name": {
+      "en": "Hôpital Général de Référence de Kalemie (Maternité & Prise en Charge VBG)"
+    },
+    "categoryBadge": {
+      "en": "Reference Hospital, 24/7 Maternity & SGBV Medical Care"
+    },
+    "phone": "+243 811 935 663 / +243 991 809 124",
+    "emergencyHotline": "122 / +243 811 935 663",
+    "address": {
+      "en": "Avenue de l’Hôpital 1, Ville de Kalemie, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetric & Gynecological Care",
+        "72-Hour Post-Assault Medical Care & Psychosocial Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Avenue de l’Hôpital 1, Ville de Kalemie, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-2",
+    "regionDistrict": "Ville de Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.9482,
+    "lng": 29.1955,
+    "name": {
+      "en": "Cellule d’Écoute APEF (Association pour la Promotion et l’Éveil de la Femme) — Kalemie"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Listening Cell (Cellule d’Écoute VBG) & Psychosocial Support"
+    },
+    "phone": "+243 813 268 324",
+    "emergencyHotline": "122 / +243 813 268 324",
+    "address": {
+      "en": "Avenue de l’Hôpital N° 22 (Derrière l’Hôpital Général), Kalemie, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Free Confidential Psychosocial Listening & Trauma Support for Women",
+        "Direct Referral to Kalemie General Hospital"
+      ]
+    },
+    "directionsText": {
+      "en": "Av. de l’Hôpital n°22, derrière l’Hôpital Général de Kalemie."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-3",
+    "regionDistrict": "Quartier Industriel, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.9398,
+    "lng": 29.1982,
+    "name": {
+      "en": "Centre d’Écoute de la CDJP — Maison de la Femme de Kalemie"
+    },
+    "categoryBadge": {
+      "en": "Women’s House (Maison de la Femme) & Psychosocial Listening Center"
+    },
+    "phone": "+243 812 797 694",
+    "emergencyHotline": "122 / +243 812 797 694",
+    "address": {
+      "en": "Avenue Lumumba, Quartier Industriel (Réf : Maison de la Femme de Kalemie), Kalemie, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Safe Listening Center (Centre d’Écoute), Legal Orientation & Women’s Protection",
+        "Psychosocial Support at Maison de la Femme"
+      ]
+    },
+    "directionsText": {
+      "en": "Avenue Lumumba, Quartier Industriel, Réf : Maison de la Femme de Kalemie."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-4",
+    "regionDistrict": "Quartier DAV, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.9345,
+    "lng": 29.189,
+    "name": {
+      "en": "Bureau d’Écoute de SAFEKA — Quartier DAV / CS Afia Bora (Kalemie)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Listening Office & GBV Survivor Accompaniment"
+    },
+    "phone": "+243 819 722 019",
+    "emergencyHotline": "122 / +243 819 722 019",
+    "address": {
+      "en": "Quartier DAV, Entrée Centre de Santé Afia Bora, Ville de Kalemie, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Confidential Psychosocial Listening & Case Management",
+        "Health Center Afia Bora Medical Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Quartier DAV, Entrée CS Afia Bora, Kalemie."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-5",
+    "regionDistrict": "Quartier Industriel, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.941,
+    "lng": 29.1995,
+    "name": {
+      "en": "Bureau d’Écoute AIDES — Avenue Lumumba, Kalemie"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Partner Women’s Safe Listening Office (Bureau d’Écoute VBG)"
+    },
+    "phone": "+243 815 883 669",
+    "emergencyHotline": "122 / +243 815 883 669",
+    "address": {
+      "en": "Avenue Lumumba, Quartier Industriel, Ville de Kalemie, Tanganyika, DRC (jkilala9@gmail.com)"
+    },
+    "services": {
+      "en": [
+        "Free Psychosocial First Aid, Listening & Survivor Protection",
+        "UNHCR Partner Support for Displaced & Local Women"
+      ]
+    },
+    "directionsText": {
+      "en": "Quartier Industriel, Avenue Lumumba, Kalemie."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-6",
+    "regionDistrict": "Quartier Abattoir / Kalunga, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.926,
+    "lng": 29.1815,
+    "name": {
+      "en": "Cellule d’Écoute OCB MAPENDO — Centre de Santé Kalunga (Quartier Abattoir, Kalemie)"
+    },
+    "categoryBadge": {
+      "en": "Community Women’s Safe Listening Cell & IDP Camp Support"
+    },
+    "phone": "+243 827 236 616",
+    "emergencyHotline": "122 / +243 827 236 616",
+    "address": {
+      "en": "Aire de Santé Undungu, Centre de Santé Kalunga (près du camp des déplacés de Kalunga), Quartier Abattoir, Kalemie, DRC"
+    },
+    "services": {
+      "en": [
+        "Psychosocial Listening & Protection for Displaced Women in Kalunga Camp",
+        "Integrated Health Center Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Centre de santé Kalunga non loin du camp des déplacés de Kalunga, Quartier Abattoir, Kalemie."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-7",
+    "regionDistrict": "Tabac Congo, Zone de Santé de Nyemba, Kalemie, Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.821,
+    "lng": 29.242,
+    "name": {
+      "en": "Cellule d’Écoute OCB WAMAMA TUENDE MBELE — Tabac Congo (ZS Nyemba / Kalemie)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Community Safe Space & Listening Cell"
+    },
+    "phone": "+243 823 591 774",
+    "emergencyHotline": "122 / +243 823 591 774",
+    "address": {
+      "en": "Aire de Santé de Tabac Congo, Zone de Santé de Nyemba, Route Kalemie-Kabimba (à 18 km de Kalemie centre), DRC"
+    },
+    "services": {
+      "en": [
+        "Community Women’s Support Circle (Wamama Tuende Mbele)",
+        "Psychosocial Listening & Health Center Tabac Congo Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Route Kalemie-Kabimba à 18 km de Kalemie centre non loin du CS de Tabac Congo."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-8",
+    "regionDistrict": "Aire de Santé Fatuma, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.953,
+    "lng": 29.176,
+    "name": {
+      "en": "OBC FFAD (Femmes de Fatuma en Action pour le Développement) — AS Fatuma (Appui IMC)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Community Protection Organization & Safe Space (IMC Partner)"
+    },
+    "phone": "+243 824 390 327",
+    "emergencyHotline": "122 / +243 824 390 327",
+    "address": {
+      "en": "Aire de Santé Fatuma, Ville de Kalemie, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Women-Led Psychosocial Support & GBV Survivor Accompaniment (Supported by International Medical Corps)",
+        "In-Person Community Safe Intake"
+      ]
+    },
+    "directionsText": {
+      "en": "Aire de Santé Fatuma, Kalemie, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-9",
+    "regionDistrict": "Aire de Santé Lwanika, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.961,
+    "lng": 29.168,
+    "name": {
+      "en": "OBC MALISAWA de l’AS Lwanika (avec l’appui de IMC) — Kalemie"
+    },
+    "categoryBadge": {
+      "en": "Community Women’s Safe Listening & Psychosocial Support (IMC Partner)"
+    },
+    "phone": "+243 826 747 467",
+    "emergencyHotline": "122 / +243 826 747 467",
+    "address": {
+      "en": "Aire de Santé Lwanika, Kalemie, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Psychosocial First Aid, Community Counseling & Medical Referral (IMC Partner)"
+      ]
+    },
+    "directionsText": {
+      "en": "Aire de Santé Lwanika, Kalemie, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-10",
+    "regionDistrict": "Aire de Santé Katibili, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.918,
+    "lng": 29.172,
+    "name": {
+      "en": "OBC MAENDELEO de l’AS Katibili (avec l’appui de IMC) — Kalemie"
+    },
+    "categoryBadge": {
+      "en": "Women’s Community Safe Haven & Psychosocial Support (IMC Partner)"
+    },
+    "phone": "+243 822 821 983",
+    "emergencyHotline": "122 / +243 822 821 983",
+    "address": {
+      "en": "Aire de Santé Katibili, Kalemie, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Psychosocial Listening, Survivor Accompaniment & Medical Referral (IMC Partner)"
+      ]
+    },
+    "directionsText": {
+      "en": "Aire de Santé Katibili, Kalemie, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-11",
+    "regionDistrict": "Aire de Santé Mulembwe, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.972,
+    "lng": 29.159,
+    "name": {
+      "en": "OBC UMOJA NI NGUVU de l’AS Mulembwe (avec l’appui de IMC) — Kalemie"
+    },
+    "categoryBadge": {
+      "en": "Women’s Solidarity Safe Space & Listening Cell (IMC Partner)"
+    },
+    "phone": "+243 822 547 836",
+    "emergencyHotline": "122 / +243 822 547 836",
+    "address": {
+      "en": "Aire de Santé Mulembwe, Kalemie, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Women’s Solidarity Group (Umoja Ni Nguvu), Psychosocial Support & GBV Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Aire de Santé Mulembwe, Kalemie, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-12",
+    "regionDistrict": "Aire de Santé Kawama, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.931,
+    "lng": 29.165,
+    "name": {
+      "en": "OBC UPENDO de l’AS Kawama (avec l’appui de IMC) — Kalemie"
+    },
+    "categoryBadge": {
+      "en": "Women’s Community Safe Space & Psychosocial Support (IMC Partner)"
+    },
+    "phone": "+243 818 774 081",
+    "emergencyHotline": "122 / +243 818 774 081",
+    "address": {
+      "en": "Aire de Santé Kawama, Kalemie, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Confidential Listening, Psychosocial Support & Health Center Referral (IMC Partner)"
+      ]
+    },
+    "directionsText": {
+      "en": "Aire de Santé Kawama, Kalemie, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-13",
+    "regionDistrict": "Aire de Santé Mulange, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.968,
+    "lng": 29.182,
+    "name": {
+      "en": "OBC TUUNGANE de l’AS Mulange (avec l’appui de IMC) — Kalemie"
+    },
+    "categoryBadge": {
+      "en": "Women’s Community Safe Space & Psychosocial Support (IMC Partner)"
+    },
+    "phone": "+243 828 327 985",
+    "emergencyHotline": "122 / +243 828 327 985",
+    "address": {
+      "en": "Aire de Santé Mulange, Kalemie, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Community Psychosocial Counseling & Survivor Referral (IMC Partner)"
+      ]
+    },
+    "directionsText": {
+      "en": "Aire de Santé Mulange, Kalemie, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-14",
+    "regionDistrict": "Aire de Santé Kasanga Nyemba, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.984,
+    "lng": 29.142,
+    "name": {
+      "en": "OBC TUPENDANE WA MAMA & Centre d’Écoute OCB Tupendane — Village Kasanga Nyemba (Kalemie)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Community Counseling & Safe Listening Center (IMC Partner)"
+    },
+    "phone": "+243 815 122 891 / +243 829 777 174",
+    "emergencyHotline": "122 / +243 829 777 174",
+    "address": {
+      "en": "Village Kasanga Nyemba, Aire de Santé Kasanga Nyemba, Kalemie, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Community Counselor (Conseillère Communautaire) & Women’s Mutual Support (Tupendane Wa Mama)",
+        "Psychosocial First Aid & Medical Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Village Kasanga Nyemba, Aire de Santé Kasanga Nyemba, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-15",
+    "regionDistrict": "Aire de Santé Kifungo, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.944,
+    "lng": 29.179,
+    "name": {
+      "en": "OBC TUENDELEE de l’AS Kifungo (avec l’appui de IMC) — Kalemie"
+    },
+    "categoryBadge": {
+      "en": "Women’s Community Safe Space & Psychosocial Support (IMC Partner)"
+    },
+    "phone": "+243 816 931 124",
+    "emergencyHotline": "122 / +243 816 931 124",
+    "address": {
+      "en": "Aire de Santé Kifungo, Ville de Kalemie, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Psychosocial Counseling & Survivor Accompaniment (IMC Partner)"
+      ]
+    },
+    "directionsText": {
+      "en": "Aire de Santé Kifungo, Kalemie, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-16",
+    "regionDistrict": "Quartier DAV, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.9362,
+    "lng": 29.1912,
+    "name": {
+      "en": "Point d’Écoute AVREO — Quartier DAV, Avenue Kamina N° 15 (Kalemie)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Listening Point (Point d’Écoute VBG)"
+    },
+    "phone": "+243 811 411 330",
+    "emergencyHotline": "122 / +243 811 411 330",
+    "address": {
+      "en": "Bureau AVREO, Quartier DAV, Avenue Kamina N° 15, Ville de Kalemie, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Confidential GBV Listening Point, Psychosocial Care & Legal/Medical Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Quartier DAV, Avenue Kamina N° 15, Ville de Kalemie."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-18",
+    "regionDistrict": "Village Nyemba, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.992,
+    "lng": 29.115,
+    "name": {
+      "en": "Cellule d’Écoute OCB AMKENI WA MAMA — Village Nyemba (Conseillère Communautaire)"
+    },
+    "categoryBadge": {
+      "en": "Rural Women’s Listening Cell & Community Counselor"
+    },
+    "phone": "+243 823 286 508",
+    "emergencyHotline": "122 / +243 823 286 508",
+    "address": {
+      "en": "Village Nyemba, Zone de Santé de Nyemba, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Community Women’s Counselor (Conseillère Communautaire Amkeni Wa Mama)",
+        "Psychosocial Support & Health Center Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Village Nyemba, Tanganyika Province, DRC."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-21",
+    "regionDistrict": "Ville de Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.9432,
+    "lng": 29.1934,
+    "name": {
+      "en": "Point d’Écoute de l’ONG Enfant Avenir — Kalemie"
+    },
+    "categoryBadge": {
+      "en": "Safe Listening Point for Women, Adolescent Girls & Youth"
+    },
+    "phone": "+243 828 338 646",
+    "emergencyHotline": "122 / +243 828 338 646",
+    "address": {
+      "en": "Ville de Kalemie, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Psychosocial Support & Protection for Women and Adolescent Girls"
+      ]
+    },
+    "directionsText": {
+      "en": "Ville de Kalemie, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-22",
+    "regionDistrict": "Quartier Joseph / Kichanga I, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.938,
+    "lng": 29.1865,
+    "name": {
+      "en": "Bureau d’Écoute de VAS Mondiale — Quartier Joseph, Kalemie"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Listening Office & Psychosocial Care"
+    },
+    "phone": "+243 823 656 795 / +243 808 484 383",
+    "emergencyHotline": "122 / +243 823 656 795",
+    "address": {
+      "en": "Quartier Joseph, Avenue Kichanga I, N° 65 (2ème Rue derrière Tcham Hôtel), Kalemie, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Confidential Psychosocial Listening, Trauma Support & Emergency Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Quartier Joseph, Avenue Kichanga I, N° 65, 2ème Rue derrière Tcham Hôtel, Kalemie."
+    }
+  },
+  {
+    "id": "drc-tang-kalemie-23",
+    "regionDistrict": "Commune de Lukuga, Kalemie, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.9295,
+    "lng": 29.184,
+    "name": {
+      "en": "Bureau d’Écoute ADLVOR — Quartier Filtisaf / Kitchanga, Commune de Lukuga (Kalemie)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Listening Office & Protection Center"
+    },
+    "phone": "+243 814 558 002 / +243 813 549 263",
+    "emergencyHotline": "122 / +243 814 558 002",
+    "address": {
+      "en": "Quartier Filtisaf / Kitchanga, derrière Baro N° 5167, Avenue de la Libération, Commune de Lukuga, Kalemie, DRC"
+    },
+    "services": {
+      "en": [
+        "Psychosocial First Aid, Safe Listening & Legal/Medical Accompaniment"
+      ]
+    },
+    "directionsText": {
+      "en": "Quartier Filtisaf/Kitchanga, derrière Baro N° 5167 Avenue de la Libération, Commune Lukuga, Kalemie."
+    }
+  },
+  {
+    "id": "drc-tang-nyemba-25",
+    "regionDistrict": "Zone de Santé de Nyemba, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.825,
+    "lng": 29.239,
+    "name": {
+      "en": "Aire de Santé Tabac Congo & Point d’Écoute AVREO de Tabac (ZS Nyemba)"
+    },
+    "categoryBadge": {
+      "en": "Health Area & Women’s Safe Listening Point (ZS Nyemba)"
+    },
+    "phone": "+243 829 359 177 / +243 827 438 516",
+    "emergencyHotline": "122 / +243 829 359 177",
+    "address": {
+      "en": "Aire de Santé Tabac Congo, Zone de Santé de Nyemba, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Primary Maternal & SGBV Medical Care",
+        "AVREO Confidential Psychosocial Listening Point"
+      ]
+    },
+    "directionsText": {
+      "en": "Aire de Santé Tabac Congo, Zone de Santé de Nyemba, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-nyemba-26",
+    "regionDistrict": "Zone de Santé de Nyemba, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "clinic",
+    "lat": -5.915,
+    "lng": 29.178,
+    "name": {
+      "en": "Aire de Santé Undugu — Zone de Santé de Nyemba (Kalemie / Tanganyika)"
+    },
+    "categoryBadge": {
+      "en": "Maternal Health & SGBV Referral Center"
+    },
+    "phone": "+243 812 501 933 / +243 822 111 388",
+    "emergencyHotline": "122 / +243 812 501 933",
+    "address": {
+      "en": "Aire de Santé Undugu, Zone de Santé de Nyemba, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Maternal Health, Post-Assault Care & Psychosocial Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Aire de Santé Undugu, Zone de Santé de Nyemba, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-nyemba-27",
+    "regionDistrict": "Village Kyoko & Tundwa, Route Nyunzu, ZS Nyemba, Tanganyika, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -5.965,
+    "lng": 28.985,
+    "name": {
+      "en": "Centres de Santé de Référence de Kyoko & de Tundwa (Route Nyunzu, ZS Nyemba)"
+    },
+    "categoryBadge": {
+      "en": "Reference Health Centers — Maternity & SGBV Emergency Care"
+    },
+    "phone": "+243 824 710 898 / +243 822 825 753",
+    "emergencyHotline": "122 / +243 824 710 898",
+    "address": {
+      "en": "Villages Kyoko & Tundwa, Route Nyunzu, Zone de Santé de Nyemba, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "24/7 Reference Maternity & Clinical Care for Survivors of Violence"
+      ]
+    },
+    "directionsText": {
+      "en": "Villages Kyoko et Tundwa, Route Nyunzu, ZS Nyemba, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-nyemba-29",
+    "regionDistrict": "Village Mayi Baridi, ZS Nyemba, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.975,
+    "lng": 29.045,
+    "name": {
+      "en": "Centre d’Écoute OCB Umoja wa Mama — Village Mayi Baridi (ZS Nyemba)"
+    },
+    "categoryBadge": {
+      "en": "Rural Women’s Listening Center & Community Counselor"
+    },
+    "phone": "+243 825 583 118 / +243 812 340 868",
+    "emergencyHotline": "122 / +243 825 583 118",
+    "address": {
+      "en": "Village Mayi Baridi, Zone de Santé de Nyemba, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Community Women’s Counselor (Umoja wa Mama)",
+        "Psychosocial Listening & Medical Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Village Mayi Baridi, Zone de Santé de Nyemba, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-nyemba-30",
+    "regionDistrict": "Muleka & Nyemba Centre, ZS Nyemba, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.988,
+    "lng": 29.088,
+    "name": {
+      "en": "Points d’Écoute AVREO — Aire de Santé de Muleka & CS de Nyemba"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Listening Points (Points d’Écoute VBG)"
+    },
+    "phone": "+243 817 111 618 / +243 815 339 688",
+    "emergencyHotline": "122 / +243 817 111 618",
+    "address": {
+      "en": "Aire de Santé de Muleka (+243 817 111 618) & Centre de Santé de Nyemba (+243 815 339 688), ZS Nyemba, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Confidential Psychosocial Listening Points & Health Center Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Aire de Santé de Muleka et CS de Nyemba, Zone de Santé de Nyemba, Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kabalo-33",
+    "regionDistrict": "Cité de Kabalo, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -6.0525,
+    "lng": 26.9142,
+    "name": {
+      "en": "Cellules d’Écoute APEF, ONG SAFEKA, TPO RDC & Point d’Écoute COUD — Cité de Kabalo"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Listening Network & Psychosocial Care (Cité de Kabalo)"
+    },
+    "phone": "+243 810 381 307 / +243 819 297 084 / +243 813 855 185 / +243 997 924 212",
+    "emergencyHotline": "122 / +243 810 381 307",
+    "address": {
+      "en": "Cité de Kabalo, Territoire de Kabalo, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "APEF Kabalo (+243 810 381 307) & ONG SAFEKA Kabalo (+243 819 297 084 / +243 822 642 618)",
+        "ONG TPO RDC Community Counselor (+243 813 855 185 / +243 850 771 700) & Point d’Écoute COUD (+243 997 924 212)"
+      ]
+    },
+    "directionsText": {
+      "en": "Cité de Kabalo, Territoire de Kabalo, Province du Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kabalo-36",
+    "regionDistrict": "Cité de Kabalo, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -6.0548,
+    "lng": 26.9165,
+    "name": {
+      "en": "CS Lukundula (HGR Kabalo), CS Katutu, CS Kasu & CS Pongo — Cité de Kabalo"
+    },
+    "categoryBadge": {
+      "en": "Reference Hospital & Health Centers for Maternity & SGBV Care"
+    },
+    "phone": "+243 824 801 957",
+    "emergencyHotline": "122 / +243 824 801 957",
+    "address": {
+      "en": "CS Lukundula (HGR), CS Katutu, CS Kasu & CS Pongo, Cité de Kabalo, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Emergency Maternal Care, 72-Hour Post-Assault PEP Kits & Psychosocial Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Cité de Kabalo (CS Lukundula HGR, Katutu, Kasu, Pongo), Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-kiambi-41",
+    "regionDistrict": "Cité de Kiambi, Territoire de Manono, Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -7.3342,
+    "lng": 28.0145,
+    "name": {
+      "en": "Association MAJAGUSI, Point d’Écoute AVREO & Cellule d’Écoute OCB Bwimi bwa Lolo — Cité de Kiambi"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Listening Points & Community Counselors (Kiambi)"
+    },
+    "phone": "+243 814 263 024 / +243 821 256 967 / +243 817 401 904",
+    "emergencyHotline": "122 / +243 814 263 024",
+    "address": {
+      "en": "Kiambi Centre (CS de Kiambi Centre) & Village Mbayo (Route Principale), Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Association MAJAGUSI Community Counselor (+243 814 263 024 / +243 821 256 967)",
+        "Point d’Écoute AVREO CS Kiambi Centre (+243 817 401 904) & OCB Bwimi bwa Lolo (Village Mbayo)"
+      ]
+    },
+    "directionsText": {
+      "en": "Kiambi Centre (CS de Kiambi) et Village Mbayo, Province du Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-ankoro-45",
+    "regionDistrict": "Cité d’Ankoro, Territoire de Manono, Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -6.7542,
+    "lng": 26.9485,
+    "name": {
+      "en": "OBC AUKA & OBC KIPENDANO — Cité d’Ankoro (Tanganyika)"
+    },
+    "categoryBadge": {
+      "en": "Community Women’s Safe Listening & Support Organizations"
+    },
+    "phone": "+243 820 486 193 / +243 818 342 141",
+    "emergencyHotline": "122 / +243 820 486 193",
+    "address": {
+      "en": "Cité d’Ankoro, Territoire de Manono, Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "OBC AUKA (+243 820 486 193) & OBC KIPENDANO (+243 818 342 141) Women’s Psychosocial Support & GBV Protection"
+      ]
+    },
+    "directionsText": {
+      "en": "Cité d’Ankoro, Province du Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-manono-47",
+    "regionDistrict": "Cité de Manono, Province du Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -7.2985,
+    "lng": 27.4152,
+    "name": {
+      "en": "Réseau des Cellules d’Écoute & Associations des Femmes de Manono (OBC Umoja, Mama Ni Mama, SAFEKA, Sauti ya Mama)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Listening Network & Community Protection Centers (Manono)"
+    },
+    "phone": "+243 817 343 492 / +243 823 309 337 / +243 819 879 876 / +243 820 877 167",
+    "emergencyHotline": "122 / +243 817 343 492",
+    "address": {
+      "en": "Cité de Manono (CS HGR, CS Cité, CS Lwakato, CS Muyumba Port, CS Kanteba & Kamala), Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "OBC Umoja CS HGR (+243 817 343 492), OBC Mama Ni Mama CS Cité (+243 823 309 337), OBC Mapendo CS Lwakato (+243 817 585 480)",
+        "OCB Katolo Susuka Umone / Muyumba Port (+243 827 302 377), OBC Source de Vie CS Kanteba (+243 829 297 918)",
+        "SOJFEP Manono & Kamala (+243 829 238 883), SAFEKA Manono (+243 819 879 876), PROMOUFE (+243 818 297 176), Sauti ya Mama (+243 820 877 167), Maman Kilela Balanda (+243 824 734 119)"
+      ]
+    },
+    "directionsText": {
+      "en": "Cité de Manono, Province du Tanganyika, DRC."
+    }
+  },
+  {
+    "id": "drc-tang-nyunzu-57",
+    "regionDistrict": "Cité de Nyunzu, Territoire de Nyunzu, Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.9522,
+    "lng": 28.0168,
+    "name": {
+      "en": "Espace Sûr AIDES Mukenza, APEF Nyunzu & Point d’Écoute Tchanga-Tchanga (Territoire de Nyunzu)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Space (Espace Sûr) & Listening Centers (Nyunzu)"
+    },
+    "phone": "+243 827 532 259 / +243 810 381 307 / +243 814 005 078",
+    "emergencyHotline": "122 / +243 827 532 259",
+    "address": {
+      "en": "Cité de Nyunzu (Mukenza, Tchanga-Tchanga à 1.5 km de l’HGR de Nyunzu & Mangala), Province du Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Espace Sûr AIDES Mukenza (+243 827 532 259) & APEF Cité de Nyunzu (+243 810 381 307)",
+        "Point d’Écoute Tchanga-Tchanga (+243 814 005 078) & OCB Twikwashane (+243 810 979 286 / +243 825 077 403 / +243 810 508 603)",
+        "OCB Maendeleo ya Mama Mangala (+243 819 180 079 / +243 823 957 701) & OCB Lwizi (+243 823 735 127 / +243 826 811 077)"
+      ]
+    },
+    "directionsText": {
+      "en": "Cité de Nyunzu, Aire de Santé de Tchanga-Tchanga (1.5 km de l’HGR de Nyunzu), Tanganyika."
+    }
+  },
+  {
+    "id": "drc-tang-nyunzu-61",
+    "regionDistrict": "Zones Rurales de Nyunzu (Kabeya Mayi, AS Ngoy, Ngombe Mwana, Makumbo), Tanganyika, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -5.9685,
+    "lng": 27.989,
+    "name": {
+      "en": "Réseau OCB Femmes Rurales de Nyunzu (Upendo wa Mama, Chako Ni Changu, Maendeleo ya Wamama, Umoja Ni Nguvu)"
+    },
+    "categoryBadge": {
+      "en": "Rural Women’s Psychosocial Officers & Safe Listening Network (ZS Nyunzu)"
+    },
+    "phone": "+243 829 777 562 / +243 829 777 174",
+    "emergencyHotline": "122 / +243 829 777 562",
+    "address": {
+      "en": "Villages Kabeya Mayi, AS Ngoy, AS Ngombe Mwana & AS Makumbo, Zone de Santé de Nyunzu, Tanganyika, DRC"
+    },
+    "services": {
+      "en": [
+        "Dedicated Psychosocial Officer (+243 829 777 562) & Focal Point (+243 829 777 174) for Off-Grid Rural Villages",
+        "OCB Upendo wa Mama (Kabeya Mayi), Chako Ni Changu (AS Ngoy), Maendeleo ya Wamama (AS Ngombe Mwana) & Umoja Ni Nguvu (AS Makumbo)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Nyunzu (Kabeya Mayi, AS Ngoy, AS Ngombe Mwana, AS Makumbo), Tanganyika."
+    }
+  },
+  {
+    "id": "drc-nk-goma-maison-femme",
+    "regionDistrict": "Ville de Goma, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -1.6785,
+    "lng": 29.2218,
+    "name": {
+      "en": "Maison de la Femme de Goma & Bureau de la SOFEPADI (Zone de Santé de Goma)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe House, Legal Clinic & Psychosocial Sanctuary (Goma)"
+    },
+    "phone": "+243 998 844 301 / +243 975 912 626 / +243 973 764 620",
+    "emergencyHotline": "122 / +243 998 844 301",
+    "address": {
+      "en": "Ville de Goma, Province du Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Maison de la Femme Goma (+243 998 844 301 / +243 975 912 626): Safe Space, Psychosocial Counseling & Socio-Economic Support",
+        "SOFEPADI Goma (+243 973 764 620): Solidarité Féminine pour la Paix et le Développement Intégral — Legal Clinic & SGBV Shelter Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Goma, Ville de Goma, Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-goma-actionaid-dfj",
+    "regionDistrict": "Ville de Goma, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -1.6742,
+    "lng": 29.2285,
+    "name": {
+      "en": "ActionAid Espace Sûr, DFJ (Dynamique des Femmes Juristes), MIDEFEHOPS & Point d’Écoute FDA — Goma"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Space (Espace Sûr) & Free Legal Protection Clinic (Goma)"
+    },
+    "phone": "+243 978 082 552 / +243 991 629 964 / +243 995 213 320",
+    "emergencyHotline": "122 / +243 978 082 552",
+    "address": {
+      "en": "Zone de Santé de Goma, Ville de Goma, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "ActionAid Espace Sûr Goma (+243 978 082 552 / +243 991 629 964): Confidential Women’s Safe Haven",
+        "DFJ Coordination Office (+243 995 213 320): Free Women’s Legal Aid & Court Protection",
+        "MIDEFEHOPS Social Worker (+243 992 972 303) & Point d’Écoute FDA (+243 974 420 433 / +243 974 711 961)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Goma, Ville de Goma, Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-goma-heal-africa-keshero",
+    "regionDistrict": "Ville de Goma, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -1.6695,
+    "lng": 29.2045,
+    "name": {
+      "en": "Hôpital HEAL Africa Goma, Hôpital de Kyeshero & Clinique Tumaini Buhimba (MSF-H)"
+    },
+    "categoryBadge": {
+      "en": "24/7 OB/GYN, Fistula Repair & SGBV One-Stop Hospitals (Goma)"
+    },
+    "phone": "+243 994 275 414 / +243 972 793 148 / +243 827 480 200",
+    "emergencyHotline": "122 / +243 994 275 414",
+    "address": {
+      "en": "Quartier Kyeshero, Buhimba & Centre-Ville, Goma, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "HEAL Africa Goma (+243 994 275 414) & Hôpital de Kyeshero (+243 972 793 148): Holistic OB/GYN, Fistula & Trauma Care",
+        "Clinique Tumaini Buhimba MSF-Hollande (+243 827 480 200), CS Afia Keshero (+243 975 140 463 / +243 997 775 031)",
+        "Centre Médical GESOM (+243 994 056 608), Centre Lydia ASPLC (+243 851 678 376) & Change Your World Camp Katindo (+243 993 919 473)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Goma (Kyeshero, Katindo, Buhimba), Goma, Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-karisimbi-mugunga-safe",
+    "regionDistrict": "Mugunga & Zone de Santé de Karisimbi, Goma, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -1.6245,
+    "lng": 29.1585,
+    "name": {
+      "en": "Maison d’Écoute CCPD Mugunga, Clinique Tumaini Mugunga (MSF-H) & HEAL Africa Karisimbi"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Listening House & Emergency SGBV Care (Mugunga / Karisimbi)"
+    },
+    "phone": "+243 990 650 774 / +243 997 714 155 / +243 827 480 200 / +243 978 062 915",
+    "emergencyHotline": "122 / +243 827 480 200",
+    "address": {
+      "en": "Quartier Mugunga, Lushagala & Karisimbi, Goma, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Maison d’Écoute CCPD Mugunga (+243 990 650 774 / +243 997 714 155) & Clinique Tumaini Mugunga / Lushagala MSF-H (+243 827 480 200)",
+        "HEAL Africa Karisimbi (+243 978 062 915), UPDDHE/GL (+243 995 907 624), Point d’Écoute FDA (+243 974 420 433)",
+        "APSYBEP-RDC (+243 972 477 846 / +243 975 853 585), MIDEFEHOPS (+243 992 972 303) & World Relief (+243 994 348 875)"
+      ]
+    },
+    "directionsText": {
+      "en": "Mugunga, Lushagala et Zone de Santé de Karisimbi, Goma, Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-karisimbi-virunga-cs",
+    "regionDistrict": "Zone de Santé de Karisimbi (Virunga, Murara, Bujovu, Katoyi), Goma, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "obgyn",
+    "lat": -1.6512,
+    "lng": 29.2385,
+    "name": {
+      "en": "HGR Virunga, CS Virunga (Hope in Action), CS Mugunga 1 & 3, CS Murara & CS Bujovu (ZS Karisimbi)"
+    },
+    "categoryBadge": {
+      "en": "Reference Hospital & Health Centers for Maternal & SGBV Care (Karisimbi)"
+    },
+    "phone": "+243 997 715 197 / +243 998 675 827 / +243 992 577 655",
+    "emergencyHotline": "122 / +243 997 715 197",
+    "address": {
+      "en": "Zone de Santé de Karisimbi, Goma, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "HGR Virunga (+243 997 715 197 / +243 998 675 827) & APS Hope in Action CS Virunga (+243 992 577 655)",
+        "CS Murara (+243 827 480 200), CS Mugunga 1 (+243 974 371 826 / +243 979 102 903), CS Mugunga 3 (+243 972 449 422 / +243 997 540 830)",
+        "CS Bujovu (+243 994 177 199), CS Baraka (+243 975 070 194) & CS Katoyi (+243 997 880 156)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Karisimbi, Goma, Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-nyiragongo-safe",
+    "regionDistrict": "Zone de Santé de Nyiragongo (Kanyaruchinya, Munigi, Kibati, Turunga), Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -1.5685,
+    "lng": 29.2485,
+    "name": {
+      "en": "Clinique Tumaini Turunga (MSF-H), HGR Nyiragongo & Centres IRC-OCB (Kingarame, Kalangala, Buhumba)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Spaces, IDP Protection & SGBV Medical Care (ZS Nyiragongo)"
+    },
+    "phone": "+243 827 480 200 / +243 999 036 854 / +243 970 524 708",
+    "emergencyHotline": "122 / +243 827 480 200",
+    "address": {
+      "en": "Zone de Santé de Nyiragongo (Turunga, Kanyaruchinya, Kibati, Munigi, Rusayo), Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "IRC-OCB Women’s Protection: Kingarame (+243 970 524 708 / +243 991 073 750), Kalangala (+243 994 165 858 / +243 991 771 422), Buhumba (+243 972 623 142) & UCNDK (+243 978 323 249)",
+        "Clinique Tumaini Turunga MSF-Hollande (+243 827 480 200) & HGR Nyiragongo (+243 999 036 854 / +243 997 739 267)",
+        "CS Kibati (+243 974 926 827), CH Rusayo (+243 978 234 593), CS Kiziba (+243 976 105 261), CS Kanyaruchinya (+243 977 306 698), CS Turunga (+243 970 739 744), CS Munigi (+243 997 477 394)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Nyiragongo, au nord de Goma, Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-mweso-tumaini-safe",
+    "regionDistrict": "Zone de Santé de Mweso & Kitshanga (Territoire de Masisi), Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -1.1325,
+    "lng": 29.0295,
+    "name": {
+      "en": "Cliniques Tumaini Mweso & Kitshanga (MSF-H), HGR Mweso, HEAL Africa, DFJ & IRC — ZS Mweso"
+    },
+    "categoryBadge": {
+      "en": "Women’s SGBV Clinics, Legal Aid & Safe Haven Network (Mweso & Kitshanga)"
+    },
+    "phone": "+243 844 368 366 / +243 810 220 248 / +243 889 896 298 / +243 816 107 486",
+    "emergencyHotline": "122 / +243 844 368 366",
+    "address": {
+      "en": "Mweso, Kitshanga & Mokoto, Zone de Santé de Mweso, Territoire de Masisi, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Clinique Tumaini Mweso MSF-H (+243 844 368 366 / +243 810 220 248), Clinique Tumaini Kitshanga MSF-H (+243 889 896 298) & HGR Mweso (+243 816 107 486)",
+        "HEAL Africa Mweso (+243 971 695 332), CSR Mokoto (+243 847 011 050), DFJ Legal Aid (+243 973 019 741), IRC (+243 894 220 449), AIDPROFEN (+243 893 804 009), CAJED (+243 995 861 264) & SOPROP (+243 891 397 107)",
+        "Save the Children / Umoja In Action (+243 859 337 155 / +243 842 350 383 / +243 898 833 871), DanChurchAid (+243 890 157 113 / +243 973 881 092), Hope in Action (+243 998 659 028) & War Child UK Kalinga (+243 810 793 136)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Mweso (Mweso, Kitshanga, Mokoto, Kalinga), Territoire de Masisi, Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-kirotshe-sake-safe",
+    "regionDistrict": "Saké, Bweremana & Rubaya (Zone de Santé de Kirotshe), Masisi, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -1.5738,
+    "lng": 29.0435,
+    "name": {
+      "en": "Maison d’Écoute Sauti ya Maman Mukongomani (Saké), Espace Sûr FDA (Bweremana), HEAL Africa Saké & HGR Kirotshe"
+    },
+    "categoryBadge": {
+      "en": "Women’s Listening House, Safe Space (Espace Sûr) & Maternity Hospital (ZS Kirotshe)"
+    },
+    "phone": "+243 973 118 209 / +243 974 420 433 / +243 979 321 115 / +243 894 428 902",
+    "emergencyHotline": "122 / +243 973 118 209",
+    "address": {
+      "en": "Saké, Kirotshe, Bweremana & Rubaya, Zone de Santé de Kirotshe, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Maison d’Écoute Sauti ya Maman Mukongomani Saké (+243 973 118 209) & Espace Sûr FDA Bweremana (+243 974 420 433 / +243 974 711 961)",
+        "HEAL Africa Saké (+243 979 321 115), HGR Kirotshe (+243 894 428 902 / +243 891 070 005) & CSR Afya Saké (+243 973 648 412)",
+        "War Child UK Rubaya (+243 810 793 136), CS Kimoka/Saké (+243 851 225 498), CS Rubaya (+243 852 041 437), CS Buroha/Kingi (+243 840 576 355), CS Bushuhe (+243 848 747 024) & CS Kyabondo (+243 972 568 097)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Kirotshe (Saké, Bweremana, Kirotshe, Rubaya), Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-katoyi-safe",
+    "regionDistrict": "Zone de Santé de Katoyi (Kibabi Buporo & Bihambwe), Masisi, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -1.452,
+    "lng": 28.895,
+    "name": {
+      "en": "Collectif Alpha Ujuvi (CAU / Help a Child) Bihambwe & War Child UK Kibabi Buporo (ZS Katoyi)"
+    },
+    "categoryBadge": {
+      "en": "Women & Girls Safe Listening Space (ZS Katoyi)"
+    },
+    "phone": "+243 998 211 245 / +243 990 553 587 / +243 810 793 136",
+    "emergencyHotline": "122 / +243 998 211 245",
+    "address": {
+      "en": "Bihambwe & Kibabi Buporo, Zone de Santé de Katoyi, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Help a Child / Collectif Alpha Ujuvi (CAU) Bihambwe (+243 998 211 245 / +243 990 553 587)",
+        "War Child UK EAE Kibabi Buporo (+243 810 793 136)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Katoyi (Bihambwe et Kibabi Buporo), Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-lubero-kayna-safe",
+    "regionDistrict": "Zone de Santé de Kayna (Kayna, Kirumba, Kanyabayonga), Territoire de Lubero, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -0.6025,
+    "lng": 29.1745,
+    "name": {
+      "en": "HGR de Kayna, Réseau PAP-RDC (Kirumba, Kanyabayonga, Kasando) & DanChurchAid — ZS Kayna (Lubero)"
+    },
+    "categoryBadge": {
+      "en": "Reference Hospital & Women’s Psychosocial Protection Network (ZS Kayna)"
+    },
+    "phone": "+243 977 220 389 / +243 970 200 430 / +243 997 784 445 / +243 972 738 213",
+    "emergencyHotline": "122 / +243 977 220 389",
+    "address": {
+      "en": "Kayna, Kirumba & Kanyabayonga, Zone de Santé de Kayna, Territoire de Lubero, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "HGR de Kayna (+243 977 220 389 / +243 970 200 430) & DanChurchAid Protection (+243 972 738 213 / +243 891 591 858 / +243 849 760 479 / +243 977 114 990)",
+        "PAP-RDC Health & SGBV Centers: CS Kirumba (+243 997 784 445), CS Kanyabayonga (+243 973 770 373), CS Kasando (+243 990 324 255), CS Busekera (+243 972 877 881), CS Vuhoyo (+243 998 856 643)",
+        "CS Bwatsinge (+243 997 284 537), CS Kamandi Lac (+243 994 158 492), CS Itsu (+243 994 383 977), CS Bulinda (+243 993 299 737), CS Vuvogho (+243 972 464 169), CS Mulinde (+243 997 933 212), CS Mighobwe (+243 994 373 920), CS Kikuvo (+243 997 622 368), CS Miriki (+243 998 904 121)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Kayna, Territoire de Lubero, Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-lubero-masereka-safe",
+    "regionDistrict": "Lubero & Zone de Santé de Masereka, Territoire de Lubero, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -0.1585,
+    "lng": 29.2345,
+    "name": {
+      "en": "Espaces Sûrs de Masereka & Kitembe + Hôpital Général de Lubero (Territoire de Lubero)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Spaces (Espaces Sûrs) & General Hospital (Lubero & Masereka)"
+    },
+    "phone": "+243 993 542 425 / +243 997 921 014 / +243 990 477 859",
+    "emergencyHotline": "122 / +243 993 542 425",
+    "address": {
+      "en": "Lubero & Masereka, Territoire de Lubero, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Espace Sûr AS Masereka (+243 993 542 425 / +243 994 616 723) & Espace Sûr AS Kitembe (+243 997 921 014)",
+        "Hôpital Général de Lubero (+243 990 477 859) & CS Masereka (+243 977 972 327 / +243 990 968 200)",
+        "CS Kitembe (+243 997 834 494 / +243 994 158 580), CS Mihake (+243 971 124 770), CS Kitsuku (+243 975 068 955) & CS Kitsimba (+243 977 055 171)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zones de Santé de Lubero et de Masereka, Territoire de Lubero, Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-lubero-biena-safdf",
+    "regionDistrict": "Zone de Santé de Biena (Biambwe, Masoya, Kaheku, Musenge), Lubero, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": 0.042,
+    "lng": 29.152,
+    "name": {
+      "en": "Réseau SAFDF (Solidarité des Associations Féminines pour les Droits des Femmes) — Zone de Santé de Biena"
+    },
+    "categoryBadge": {
+      "en": "SAFDF / Fondation RAJA Women’s Protection & Health Network (ZS Biena)"
+    },
+    "phone": "+243 972 888 245 / +243 998 469 629 / +243 811 684 741 / +243 976 279 673",
+    "emergencyHotline": "122 / +243 972 888 245",
+    "address": {
+      "en": "Biambwe, Kaheku, Masoya & Musenge, Zone de Santé de Biena, Territoire de Lubero, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Supported by SAFDF & Fondation RAJA-Danièle Marcovici / Lysistrata Grassroots Women’s Relays (Femmes Relais Terrain)",
+        "CSR Biambwe SAFDF (+243 972 888 245), CS Kaheku SAFDF (+243 998 469 629), CSR Masoya SAFDF (+243 811 684 741) & CS Musenge SAFDF (+243 976 279 673)"
+      ]
+    },
+    "directionsText": {
+      "en": "Zone de Santé de Biena, Territoire de Lubero, Nord-Kivu."
+    },
+    "website": "https://www.fondation-raja-marcovici.com"
+  },
+  {
+    "id": "drc-nk-walikale-pinga-kibua",
+    "regionDistrict": "Walikale, Pinga, Itebero & Kibua (Territoire de Walikale), Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -1.4255,
+    "lng": 28.0742,
+    "name": {
+      "en": "Clinique Tumaini Walikale (MSF-H), AVSD Walikale, Hope in Action & DanChurchAid (Pinga & Kibua)"
+    },
+    "categoryBadge": {
+      "en": "Women’s SGBV Clinic, Safe Haven & Psychosocial Support (Walikale Territory)"
+    },
+    "phone": "+243 810 832 642 / +243 814 867 704 / +243 994 039 028 / +243 816 393 930",
+    "emergencyHotline": "122 / +243 810 832 642",
+    "address": {
+      "en": "Zones de Santé de Walikale, Pinga, Itebero & Kibua, Territoire de Walikale, Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "MSF-H Clinique Tumaini Walikale & HGR Referral (+243 810 832 642 / +243 817 297 833 / +243 811 673 181)",
+        "AVSD Walikale & Itebero Focal Points (+243 814 867 704 / +243 992 976 840)",
+        "Hope in Action Pinga & Kibua (+243 994 039 028 / +243 997 984 179 / +243 994 978 445 / +243 814 439 533)",
+        "DanChurchAid Pinga (+243 816 393 930 / +243 831 418 008 / +243 972 077 139 / +243 814 071 293)"
+      ]
+    },
+    "directionsText": {
+      "en": "Territoire de Walikale (ZS Walikale, Pinga, Itebero et Kibua), Nord-Kivu."
+    }
+  },
+  {
+    "id": "drc-nk-beni-sofepadi",
+    "regionDistrict": "Ville de Beni & Oicha, Nord-Kivu, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": 0.4912,
+    "lng": 29.4731,
+    "name": {
+      "en": "SOFEPADI Beni (Centre d’Accueil Karibuni Wa Mama) & Maisons d’Écoute CICR (Beni / Oicha)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Transit Safe Haven, Legal Clinic & ICRC Listening House (Beni)"
+    },
+    "phone": "+243 973 764 620 / +243 998 399 694",
+    "emergencyHotline": "122 / +243 973 764 620",
+    "address": {
+      "en": "Ville de Beni & Oicha, Province du Nord-Kivu, DRC"
+    },
+    "services": {
+      "en": [
+        "Karibuni Wa Mama Transit Safe House, Holistic SGBV Medical & Psychosocial Care (SOFEPADI)",
+        "ICRC / Croix-Rouge RDC Maisons d’Écoute for Conflict-Affected Women & Girls"
+      ]
+    },
+    "directionsText": {
+      "en": "Ville de Beni et Oicha, Nord-Kivu."
+    },
+    "website": "https://sofepadirdc.org"
+  },
+  {
+    "id": "drc-ituri-bunia-safe",
+    "regionDistrict": "Ville de Bunia, Province de l’Ituri, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": 1.5594,
+    "lng": 30.2522,
+    "name": {
+      "en": "SOFEPADI Bunia, Maisons d’Écoute CICR & Espaces Protecteurs (Education Cannot Wait / FOMI) — Ituri"
+    },
+    "categoryBadge": {
+      "en": "Women & Adolescent Girls Safe Haven, Legal Clinic & Listening House (Bunia, Ituri)"
+    },
+    "phone": "+243 973 764 620 / +243 817 006 060",
+    "emergencyHotline": "122 / +243 973 764 620",
+    "address": {
+      "en": "Ville de Bunia, Province de l’Ituri, DRC"
+    },
+    "services": {
+      "en": [
+        "SOFEPADI Bunia Legal & Medical Clinic for Survivors of Sexual and Domestic Violence",
+        "ICRC Maisons d’Écoute & Education Cannot Wait (ECW) Protective Spaces for Displaced Girls"
+      ]
+    },
+    "directionsText": {
+      "en": "Ville de Bunia, Province de l’Ituri, DRC."
+    }
+  },
+  {
+    "id": "drc-kinshasa-panzi-fonarev",
+    "regionDistrict": "Kinshasa, Democratic Republic of the Congo",
+    "type": "safe-haven",
+    "lat": -4.3224,
+    "lng": 15.307,
+    "name": {
+      "en": "Antenne Fondation Panzi Kinshasa, FONAREV & Cliniques Juridiques VBG (Kinshasa)"
+    },
+    "categoryBadge": {
+      "en": "National Survivor Support, Reparations Fund & Women’s Legal Protection (Kinshasa)"
+    },
+    "phone": "+243 811 443 123",
+    "emergencyHotline": "122 (Ligne Verte Nationale VBG RDC)",
+    "address": {
+      "en": "Commune de la Gombe, Kinshasa, DRC"
+    },
+    "services": {
+      "en": [
+        "Fondation Panzi Kinshasa Holistic Care, Legal Accompaniment & National Advocacy",
+        "FONAREV (Fonds National des Réparations des Victimes de Violences Sexuelles) Medical & Legal Support",
+        "Toll-Free National GBV Helpline 122"
+      ]
+    },
+    "directionsText": {
+      "en": "Commune de la Gombe, Kinshasa, DRC."
+    },
+    "website": "https://panzifoundation.org"
   }
 ];

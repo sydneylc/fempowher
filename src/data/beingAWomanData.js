@@ -680,6 +680,88 @@ export const COUNTRY_WOMANHOOD_PROFILES = {
           'Community midwives (Dayat), UNFPA-supported mobile reproductive health teams, and functioning maternity hospitals in Omdurman, Port Sudan, Wad Madani, Kassala, and El Fasher continue providing emergency obstetric delivery, clean birth kits, and clinical management of gender-based violence.'
       }
     ]
+  },
+
+  'Democratic Republic of the Congo': {
+    genderOutlook: [
+      {
+        id: 'drc-sgbv-holistic-protection',
+        title: 'Protection Against Sexual & Domestic Violence, Maisons d’Écoute & One-Stop Centers in DRC',
+        summary:
+          'The DRC enacted landmark 2006 Sexual Violence Laws (Laws 06/018 and 06/019), the 2016 Family Code reform (abolishing the requirement for a wife to obtain her husband’s authorization for legal/economic acts), and established FONAREV (National Reparations Fund for Survivors of Conflict-Related Sexual Violence). In practice, grassroots women’s networks and One-Stop Centers bridge the gap where state courts and rural infrastructure face severe strain.',
+        keyRealities: [
+          'The 4-Pillar Holistic Model (Fondation Panzi, Maison Dorcas & City of Joy in Bukavu): Pioneered at Panzi Hospital in South Kivu, survivors receive integrated (1) emergency medical & fistula care (including 72-hour PEP kits), (2) trauma-informed psychosocial therapy, (3) free legal aid via Cliniques Juridiques (Mulamba, Bulenga, Bunyakiri, Kavumu, Kamituga, Uvira, Kinshasa), and (4) residential transitional housing & socio-economic reintegration at Maison Dorcas and the City of Joy.',
+          'Maisons d’Écoute, Cellules d’Écoute & Espaces Sûrs (UNHCR, ICRC & Grassroots Networks): Across Tanganyika (Kalemie, Nyemba, Kabalo, Kiambi, Ankoro, Manono, Nyunzu), North Kivu (Goma, Karisimbi, Nyiragongo, Mweso, Kirotshe/Saké, Katoyi, Lubero/Kayna/Masereka/Biena, Walikale/Pinga/Kibua, Beni), South Kivu, and Ituri, free confidential Listening Houses (Maisons d’Écoute supported by ICRC/Red Cross, UNHCR, SAFDF/Fondation RAJA, SOFEPADI, DFJ, HEAL Africa, and MSF Cliniques Tumaini) provide zero-cost psychological first aid and 72-hour medical referral.',
+          'Protective Learning Spaces for Girls (Education Cannot Wait): In displacement zones across Ituri, North Kivu, South Kivu, and Tanganyika, Education Cannot Wait (ECW) and local women-led NGOs run protective learning spaces and psychosocial support to shield displaced adolescent girls from gender-based violence and forced recruitment.'
+        ]
+      },
+      {
+        id: 'drc-divorce-custody',
+        title: 'Marriage, Divorce & Child Custody Realities in the DRC (Code de la Famille)',
+        summary:
+          'Under the revised Congolese Family Code (Law N° 16/008 of 2016 amending the 1987 Code de la Famille), statutory law recognizes civilly registered marriages (including monogamous or customary marriages recorded with the civil registry) and requires Courts of Peace (Tribunaux de Paix) to decide child custody according to the best interests of the child (Intérêt Supérieur de l’Enfant).',
+        keyRealities: [
+          'Leaving an Abusive Marriage & Free Legal Clinics: Physical abuse, marital rape, and severe mistreatment constitute legal grounds for divorce (destruction irrémédiable de l’union conjugale). Women’s legal clinics — including Dynamique des Femmes Juristes (DFJ in Goma & Mweso), SOFEPADI (Beni, Bunia & Goma), SAFDF (Biena/Lubero), and Panzi Cliniques Juridiques — represent women free of charge in court and help obtain birth certificates and custody orders.'
+        ]
+      }
+    ],
+    traditionalHealth: [
+      {
+        id: 'drc-maternal-solidarity',
+        title: 'Congolese Women’s Solidarity Circles (Wamama Tuende Mbele, Umoja Ni Nguvu) & Postpartum Care',
+        body:
+          'Across Congolese communities from Swahili-speaking Eastern DRC (Kivu and Tanganyika) to Lingala, Kikongo, and Tshiluba regions, mothers rely on women’s mutual-aid associations (such as Umoja wa Mama, Tupendane Wa Mama, and Mama Ni Mama) and elder female relatives during the postpartum recovery period, preparing iron-rich cassava leaf stews (Pondu / Sombe), amaranth greens (Lengalenga), and warm herbal washes.',
+        healthNote:
+          'Medical Perspective: Nutrient-dense greens like Pondu/Sombe and Lengalenga help rebuild maternal iron stores after childbirth, and community Conseillères Communautaires (female peer counselors) are a vital bridge for 72-hour emergency medical care and safe facility delivery at Reference Hospitals (HGR).'
+      }
+    ],
+    roleModels: [
+      {
+        id: 'rm-drc-christine',
+        name: 'Christine Schuler Deschryver',
+        years: 'Bukavu, Sud-Kivu, Democratic Republic of the Congo',
+        birthplace: 'Lubumbashi & Bukavu, DRC',
+        ethnicity: 'Congolese',
+        lat: -2.5412,
+        lng: 28.8635,
+        headline: 'Co-Founder & Director of City of Joy (Bukavu) & Champion of Congolese Survivors of Violence',
+        bio:
+          'Co-founder and Director of V-Day Congo and the City of Joy in Bukavu alongside Dr. Denis Mukwege and V (Eve Ensler), Christine Schuler Deschryver has dedicated her life to building a transformational residential sanctuary in South Kivu where thousands of Congolese women survivors of conflict-related sexual violence heal from trauma and train as community leaders.'
+      },
+      {
+        id: 'rm-drc-julienne',
+        name: 'Julienne Lusenge',
+        years: 'Beni, Nord-Kivu & Bunia, Ituri, Democratic Republic of the Congo',
+        birthplace: 'Haut-Uélé / Nord-Kivu, DRC',
+        ethnicity: 'Congolese',
+        lat: 0.4912,
+        lng: 29.4731,
+        headline: 'Co-Founder of SOFEPADI & Fonds pour les Femmes Congolaises (UN Human Rights Prize Laureate)',
+        bio:
+          'When armed conflict devastated Eastern DRC in 1998, Julienne Lusenge co-founded SOFEPADI (Solidarité Féminine pour la Paix et le Développement Intégral) in Beni, opening the Karibuni Wa Mama safe transit house, medical clinics for fistula and rape survivors, and legal clinics across North Kivu and Ituri, as well as the Fund for Congolese Women (FFC).'
+      },
+      {
+        id: 'rm-drc-chantal',
+        name: 'Chantal Yelu Mulop & Grassroots Conseillères of Tanganyika and Kivu',
+        years: 'Kinshasa, Kalemie & Goma, Democratic Republic of the Congo',
+        birthplace: 'Democratic Republic of the Congo',
+        ethnicity: 'Congolese',
+        lat: -5.9475,
+        lng: 29.1947,
+        headline: 'Leaders of the Maisons de la Femme, Cellules d’Écoute & National VBG Reform in DRC',
+        bio:
+          'From the Maisons de la Femme in Kalemie and Goma to rural Conseillères Communautaires in Nyunzu, Manono, Masisi, and Lubero, Congolese women advocates and legal reformers have built frontline listening cells and national mechanisms to break the silence around gender-based violence and bring free medical, psychological, and legal care to every province.'
+      }
+    ],
+    healthAlerts: [
+      {
+        id: 'drc-alert-72h',
+        title: 'Urgent 72-Hour Free Medical Care & Psychosocial Support for Survivors (UNHCR / Panzi / MSF / ICRC)',
+        severity: 'Critical 72-Hour Medical & Protection Notice',
+        body:
+          'If you have experienced sexual violence, seek medical care within 72 hours at any Hôpital Général de Référence (HGR), Clinique Tumaini (MSF), HEAL Africa, or Panzi Hospital for free HIV post-exposure prophylaxis (PEP), emergency contraception, STI treatment, and confidential psychosocial listening at any Maison d’Écoute or Espace Sûr. All UNHCR and partner GBV services are 100% free of charge.'
+      }
+    ]
   }
 };
 

@@ -79,6 +79,41 @@ export const REGIONAL_CRISIS_OVERRIDES = [
     crisisLines: [
       'Red Nacional de Refugios Crisis Line: Call 800 822 4460'
     ]
+  },
+  {
+    match: ['kalemie', 'tanganyika', 'nyemba', 'kabalo', 'kiambi', 'ankoro', 'manono', 'nyunzu'],
+    nationalNumber: '122 (Ligne Verte Nationale VBG RDC)',
+    regionalNumber: '+243 811 935 663 / +243 813 268 324 (HGR Kalemie & APEF Cellule d’Écoute)',
+    emergencyNumber: '122 / +243 811 935 663',
+    crisisLines: [
+      'Maison de la Femme / CDJP Kalemie: Call +243 812 797 694',
+      'Bureau d’Écoute SAFEKA Kalemie: Call +243 819 722 019',
+      'Bureau d’Écoute AIDES Kalemie: Call +243 815 883 669 & Nyunzu Espace Sûr: Call +243 827 532 259',
+      'Point d’Écoute AVREO Kalemie: Call +243 811 411 330'
+    ]
+  },
+  {
+    match: ['goma', 'karisimbi', 'nyiragongo', 'mweso', 'kitshanga', 'kirotshe', 'sake', 'saké', 'bweremana', 'katoyi', 'lubero', 'kayna', 'masereka', 'biena', 'walikale', 'pinga', 'kibua', 'beni', 'nord-kivu', 'north kivu'],
+    nationalNumber: '122 (Ligne Verte Nationale VBG RDC)',
+    regionalNumber: '+243 998 844 301 / +243 973 764 620 (Maison de la Femme & SOFEPADI Goma)',
+    emergencyNumber: '122 / +243 827 480 200',
+    crisisLines: [
+      'HEAL Africa Goma SGBV & Fistula Hospital: Call +243 994 275 414 / Karisimbi: +243 978 062 915',
+      'MSF-Hollande Clinique Tumaini (Goma / Mugunga / Turunga): Call +243 827 480 200',
+      'ActionAid Espace Sûr Goma: Call +243 978 082 552 / +243 991 629 964',
+      'DFJ (Dynamique des Femmes Juristes) Goma: Call +243 995 213 320 / Mweso: +243 973 019 741',
+      'Maison d’Écoute CCPD Mugunga: Call +243 990 650 774 / Saké: +243 973 118 209'
+    ]
+  },
+  {
+    match: ['bukavu', 'panzi', 'sud-kivu', 'south kivu', 'uvira', 'walungu', 'mulamba', 'bulenga', 'bunyakiri', 'kavumu', 'kamituga'],
+    nationalNumber: '122 / 495555 (Ligne Verte VBG RDC)',
+    regionalNumber: '+243 811 443 123 / +243 894 153 354 (Fondation Panzi, Maison Dorcas & City of Joy Bukavu)',
+    emergencyNumber: '122 / +243 894 153 354',
+    crisisLines: [
+      'Hôpital de Panzi (One-Stop Center VBG Bukavu): Call +243 894 153 354',
+      'Maison Dorcas Transitional Care & City of Joy Sanctuary (Fondation Panzi): Call +243 811 443 123'
+    ]
   }
 ];
 
@@ -602,8 +637,14 @@ export const NATIONAL_CRISIS_DIRECTORY = {
     crisisLines: []
   },
   'democratic republic of the congo': {
-    emergencyNumber: '112 (Emergency)',
-    crisisLines: []
+    emergencyNumber: '112 / 122 (Ligne Verte Nationale VBG Gratuite)',
+    crisisLines: [
+      'Ligne Verte Nationale VBG (Toll-Free Gender-Based Violence Helpline): Call 122 or 495555',
+      'Fondation Panzi, Hôpital de Panzi, Maison Dorcas & City of Joy (Bukavu / Sud-Kivu): Call +243 811 443 123 / +243 894 153 354',
+      'Maison de la Femme Goma (+243 998 844 301), SOFEPADI (+243 973 764 620), ActionAid Espace Sûr (+243 978 082 552) & DFJ (+243 995 213 320)',
+      'Cliniques Tumaini MSF-Hollande (Goma / Mugunga / Mweso / Walikale): Call +243 827 480 200 / +243 844 368 366',
+      'Kalemie & Tanganyika Listening Cells (APEF +243 813 268 324, Maison de la Femme CDJP +243 812 797 694, SAFEKA +243 819 722 019, AIDES +243 815 883 669, AVREO +243 811 411 330)'
+    ]
   },
   cameroon: {
     emergencyNumber: '112 or 117 (Police) / 119 (Medical Emergency)',

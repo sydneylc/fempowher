@@ -134065,5 +134065,276 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Cité de Kimpese, Route Nationale 1, Kongo Central, DRC."
     }
+  },
+  {
+    "id": "roc-wiki-bzv-blanche-gomes",
+    "regionDistrict": "Brazzaville, Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.2692,
+    "lng": 15.2768,
+    "name": {
+      "en": "Hôpital Spécialisé Mère-Enfant Blanche Gomes (Brazzaville)"
+    },
+    "categoryBadge": {
+      "en": "National Mother & Child Specialized Hospital — 24/7 OB/GYN, High-Risk Maternity & Neonatology"
+    },
+    "phone": "+242 05 551 37 39",
+    "emergencyHotline": "1444 / 118 / +242 05 551 37 39",
+    "address": {
+      "en": "Boulevard Denis Sassou Nguesso (Centre-Ville / Poto-Poto), Brazzaville, Republic of the Congo"
+    },
+    "services": {
+      "en": [
+        "National Referral Mother & Child Hospital (Obstétrique, Gynécologie, Maternité & Néonatologie)",
+        "24/7 Emergency C-Section, High-Risk Pregnancy & Post-Assault Maternal Care",
+        "Toll-Free GBV Helpline 1444 Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Boulevard Denis Sassou Nguesso, Centre-ville, Brazzaville, Republic of the Congo."
+    }
+  },
+  {
+    "id": "roc-wiki-bzv-talangai",
+    "regionDistrict": "Arrondissement 6 Talangaï, Brazzaville, Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.2185,
+    "lng": 15.2915,
+    "name": {
+      "en": "Hôpital de Référence de Talangaï (Hôpital de Base de Talangaï — Brazzaville)"
+    },
+    "categoryBadge": {
+      "en": "Public Reference Hospital — 24/7 Maternity & OB/GYN (Talangaï, Brazzaville)"
+    },
+    "phone": "+242 05 551 37 39 / 1444",
+    "emergencyHotline": "1444 / 118",
+    "address": {
+      "en": "Avenue des Trois Martyrs, Arrondissement 6 Talangaï, Brazzaville, Republic of the Congo"
+    },
+    "services": {
+      "en": [
+        "24/7 Public Maternity, Obstetrics, Gynecology & Emergency Delivery",
+        "Serving Northern Brazzaville (Talangaï & Ouenzé)"
+      ]
+    },
+    "directionsText": {
+      "en": "Avenue des Trois Martyrs, Arrondissement 6 Talangaï, Brazzaville."
+    }
+  },
+  {
+    "id": "roc-wiki-bzv-makelekele",
+    "regionDistrict": "Arrondissement 1 Makélékélé, Brazzaville, Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.2835,
+    "lng": 15.2442,
+    "name": {
+      "en": "Hôpital de Base de Makélékélé (Maternité — Brazzaville)"
+    },
+    "categoryBadge": {
+      "en": "Public Base Hospital — 24/7 Maternity & OB/GYN (Makélékélé, Brazzaville)"
+    },
+    "phone": "+242 05 538 73 74 / +242 06 684 79 87 / +242 06 978 79 05",
+    "emergencyHotline": "1444 / 118 / +242 05 538 73 74",
+    "address": {
+      "en": "Avenue Fulbert Youlou, Arrondissement 1 Makélékélé, Brazzaville, Republic of the Congo"
+    },
+    "services": {
+      "en": [
+        "24/7 Public Maternity, Prenatal Care, Safe Delivery & Postpartum Care",
+        "Emergency Obstetric & Gynecological Care (+242 05 538 73 74)"
+      ]
+    },
+    "directionsText": {
+      "en": "Avenue Fulbert Youlou, Arrondissement 1 Makélékélé, Brazzaville."
+    }
+  },
+  {
+    "id": "roc-wiki-pnr-loandjili",
+    "regionDistrict": "Loandjili, Pointe-Noire, Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.7562,
+    "lng": 11.8595,
+    "name": {
+      "en": "Hôpital Général de Loandjili (Maternité & Gynécologie — Pointe-Noire)"
+    },
+    "categoryBadge": {
+      "en": "General Referral Hospital — 24/7 Maternity & OB/GYN (Pointe-Noire)"
+    },
+    "phone": "+242 22 294 98 18",
+    "emergencyHotline": "1444 / 118 / +242 22 294 98 18",
+    "address": {
+      "en": "Route Nationale N° 1, Arrondissement 4 Loandjili, Pointe-Noire, Republic of the Congo"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, High-Risk Maternity & Surgical Emergencies",
+        "Clinical Care for Survivors of Gender-Based Violence"
+      ]
+    },
+    "directionsText": {
+      "en": "Route Nationale N° 1, Quartier Loandjili, Pointe-Noire, Republic of the Congo."
+    }
+  },
+  {
+    "id": "roc-wiki-pnr-tie-tie",
+    "regionDistrict": "Arrondissement 3 Tié-Tié, Pointe-Noire, Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.7885,
+    "lng": 11.8842,
+    "name": {
+      "en": "Hôpital de Base de Tié-Tié (Maternité — Pointe-Noire)"
+    },
+    "categoryBadge": {
+      "en": "Public Base Hospital — 24/7 Maternity & Women’s Health (Tié-Tié, Pointe-Noire)"
+    },
+    "phone": "+242 22 294 98 18 / 1444",
+    "emergencyHotline": "1444 / 118",
+    "address": {
+      "en": "Arrondissement 3 Tié-Tié, Pointe-Noire, Republic of the Congo"
+    },
+    "services": {
+      "en": [
+        "High-Volume Community Maternity, Prenatal Consultations & Emergency Delivery",
+        "Postpartum & Neonatal Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Arrondissement 3 Tié-Tié, Pointe-Noire, Republic of the Congo."
+    }
+  },
+  {
+    "id": "roc-wiki-dolisie-hopital",
+    "regionDistrict": "Dolisie, Département du Niari, Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.1983,
+    "lng": 12.6666,
+    "name": {
+      "en": "Hôpital Général de Dolisie & Hôpital de Base de Dolisie (Maternité — Niari)"
+    },
+    "categoryBadge": {
+      "en": "Regional General & Base Hospitals — 24/7 Maternity & OB/GYN (Dolisie)"
+    },
+    "phone": "1444 / 118",
+    "emergencyHotline": "1444 (Ligne Verte VBG Congo-Brazzaville)",
+    "address": {
+      "en": "Ville de Dolisie, Département du Niari, Republic of the Congo"
+    },
+    "services": {
+      "en": [
+        "24/7 Regional Maternity, Obstetrics, Gynecology & Emergency Surgery",
+        "Serving Dolisie and the Niari Department"
+      ]
+    },
+    "directionsText": {
+      "en": "Ville de Dolisie, Département du Niari, Republic of the Congo."
+    }
+  },
+  {
+    "id": "roc-wiki-plateaux-djambala-gamboma-abala",
+    "regionDistrict": "Djambala, Gamboma & Abala, Département des Plateaux, Republic of the Congo",
+    "type": "obgyn",
+    "lat": -2.5447,
+    "lng": 14.7533,
+    "name": {
+      "en": "Hôpitaux de Base de Djambala, de Gamboma & d’Abala (Département des Plateaux)"
+    },
+    "categoryBadge": {
+      "en": "Departmental Base Hospitals — Maternity & Emergency Obstetric Care (Plateaux)"
+    },
+    "phone": "1444 / 118",
+    "emergencyHotline": "1444 (Ligne Verte VBG Congo-Brazzaville)",
+    "address": {
+      "en": "Djambala, Gamboma & Abala, Département des Plateaux, Republic of the Congo"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Safe Childbirth, Prenatal Care & Emergency Obstetric Referral",
+        "Serving Djambala, Gamboma and Abala across the Plateaux Department"
+      ]
+    },
+    "directionsText": {
+      "en": "Djambala, Gamboma et Abala, Département des Plateaux, Republic of the Congo."
+    }
+  },
+  {
+    "id": "roc-wiki-cuvette-owando-oyo-ewo",
+    "regionDistrict": "Owando, Oyo & Ewo (Départements de la Cuvette & Cuvette-Ouest), Republic of the Congo",
+    "type": "obgyn",
+    "lat": -0.4819,
+    "lng": 15.8997,
+    "name": {
+      "en": "Hôpital Général du 31 Juillet d’Owando, Hôpital Général d’Oyo & Hôpital d’Ewo (Cuvette / Cuvette-Ouest)"
+    },
+    "categoryBadge": {
+      "en": "Regional Referral Hospitals — 24/7 Maternity & OB/GYN (Owando, Oyo & Ewo)"
+    },
+    "phone": "1444 / 118",
+    "emergencyHotline": "1444 (Ligne Verte VBG Congo-Brazzaville)",
+    "address": {
+      "en": "Owando & Oyo (Cuvette) et Ewo (Cuvette-Ouest), Republic of the Congo"
+    },
+    "services": {
+      "en": [
+        "Hôpital du 31 Juillet d’Owando, Hôpital Général d’Édith Lucie Bongo Ondimba (Oyo) & Hôpital de Base d’Ewo",
+        "24/7 Maternity, Obstetrics, Gynecology & Emergency Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "Owando, Oyo (Cuvette) et Ewo (Cuvette-Ouest), Republic of the Congo."
+    }
+  },
+  {
+    "id": "roc-wiki-likouala-impfondo",
+    "regionDistrict": "Impfondo, Département de la Likouala, Republic of the Congo",
+    "type": "obgyn",
+    "lat": 1.618,
+    "lng": 18.0598,
+    "name": {
+      "en": "Hôpital de Référence d’Impfondo (Maternité — Département de la Likouala)"
+    },
+    "categoryBadge": {
+      "en": "Departmental Hospital — Maternity, Refugee & Host-Community OB/GYN Care (Impfondo)"
+    },
+    "phone": "1444 / 118",
+    "emergencyHotline": "1444 (Ligne Verte VBG Congo-Brazzaville)",
+    "address": {
+      "en": "Ville d’Impfondo, Département de la Likouala, Republic of the Congo"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Maternity & SGBV Medical Care",
+        "Serving Impfondo and Northern River Communities in Likouala"
+      ]
+    },
+    "directionsText": {
+      "en": "Ville d’Impfondo, Département de la Likouala, Republic of the Congo."
+    }
+  },
+  {
+    "id": "roc-wiki-pool-bouenza-kinkala-madingou",
+    "regionDistrict": "Kinkala, Kindamba, Linzolo (Pool) & Madingou (Bouenza), Republic of the Congo",
+    "type": "obgyn",
+    "lat": -4.3614,
+    "lng": 14.7644,
+    "name": {
+      "en": "Hôpitaux de Base de Kinkala, Kindamba & Linzolo (Pool) + Hôpital de Madingou (Bouenza)"
+    },
+    "categoryBadge": {
+      "en": "Departmental Base Hospitals — Maternity & Women’s Health (Pool & Bouenza)"
+    },
+    "phone": "1444 / 118",
+    "emergencyHotline": "1444 (Ligne Verte VBG Congo-Brazzaville)",
+    "address": {
+      "en": "Kinkala, Kindamba & Linzolo (Département du Pool) et Madingou (Département de la Bouenza), Republic of the Congo"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Prenatal & Postpartum Care and Emergency Obstetric Referral",
+        "Serving Rural Communities Across Pool and Bouenza Departments"
+      ]
+    },
+    "directionsText": {
+      "en": "Kinkala, Kindamba, Linzolo (Pool) et Madingou (Bouenza), Republic of the Congo."
+    }
   }
 ];

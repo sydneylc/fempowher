@@ -10,12 +10,12 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=146';
-import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=146';
+} from './data/translations.js?v=147';
+import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=147';
 import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=123';
 import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=120';
-import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=146';
-import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=146';
+import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=147';
+import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=147';
 
 // Import individual Page Components from src/pages/
 import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=17';

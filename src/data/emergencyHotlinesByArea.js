@@ -125,6 +125,19 @@ export const REGIONAL_CRISIS_OVERRIDES = [
       'Guichet Unique & Représentation HCR Niamey / Agadez: Call +227 20 75 20 64 (NGRNI@UNHCR.ORG)',
       'Association des Femmes Juristes du Niger (AFJN Clinique Juridique Niamey): Call 116 / +227 20 73 56 36'
     ]
+  },
+  {
+    match: ['juba', 'wau', 'kuajok', 'aweil', 'malakal', 'bentiu', 'bor', 'yambio', 'torit', 'south sudan'],
+    nationalNumber: '777 (National Police Emergency) / 112',
+    regionalNumber: '+211 912 544 114 (Hope Restoration South Sudan) / +211 910 888 800 (Eve Organization)',
+    emergencyNumber: '777 / +211 912 544 114',
+    crisisLines: [
+      'Hope Restoration South Sudan (HRSS Munuki Block C, Juba): Call +211 912 544 114',
+      'Safer Women’s Initiative (SWI Block 8, Juba): Call +211 980 945 122 / +211 921 635 934',
+      'Women Empowerment for Reconciliation & Development (WERD Tong Ping, Juba): Call +211 920 791 796',
+      'Women for Justice and Equality (Gurei Market, Juba): Call +211 929 402 770 & Women Tears (Gudele): +211 928 777 307',
+      'Wau (WDG +211 924 883 349 & Mary Help Centre +211 924 489 100), Kuajok (+211 925 644 831) & Aweil (+211 922 205 374)'
+    ]
   }
 ];
 
@@ -644,8 +657,14 @@ export const NATIONAL_CRISIS_DIRECTORY = {
     crisisLines: []
   },
   'south sudan': {
-    emergencyNumber: '777 (National Police Emergency)',
-    crisisLines: []
+    emergencyNumber: '777 (National Police Emergency) / 112',
+    crisisLines: [
+      'Hope Restoration South Sudan (HRSS — Munuki Block C, Plot No. 349, Juba): Call +211 912 544 114',
+      'Safer Women’s Initiative (SWI — Block 8, Juba): Call +211 980 945 122 / +211 921 635 934',
+      'WERD (Tong Ping, Juba): Call +211 920 791 796 & Eve Organization for Women Devt (Juba): Call +211 910 888 800',
+      'Women for Justice & Equality (Gurei, Juba): Call +211 929 402 770, Women Tears (Gudele): +211 928 777 307 & Vision For Humanity (24/7): +211 929 292 979',
+      'Wau (WDG South Sudan +211 924 883 349 & Mary Help Centre +211 924 489 100), Kuajok Warrap Women’s Union (+211 925 644 831) & Aweil Women Empowerment Centre (+211 922 205 374)'
+    ]
   },
   'democratic republic of the congo': {
     emergencyNumber: '112 / 122 (Ligne Verte Nationale VBG Gratuite)',

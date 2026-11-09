@@ -134336,5 +134336,481 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Kinkala, Kindamba, Linzolo (Pool) et Madingou (Bouenza), Republic of the Congo."
     }
+  },
+  {
+    "id": "ss-juba-hope-restoration",
+    "regionDistrict": "Munuki Block C, Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8725,
+    "lng": 31.5642,
+    "name": {
+      "en": "Hope Restoration South Sudan (HRSS) — Women’s Protection & Safe Haven (Juba)"
+    },
+    "categoryBadge": {
+      "en": "Women-Led GBV Protection, Safe Space & Orphan/Survivor Care"
+    },
+    "phone": "+211 912 544 114",
+    "emergencyHotline": "777 / 112 / +211 912 544 114",
+    "address": {
+      "en": "Munuki Block C, Plot No. 349, Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Women & Girls Safe Spaces (WGSS), GBV Case Management & Psychosocial Support",
+        "Care for Orphans, Displaced Women & Survivors of Domestic and Conflict Violence"
+      ]
+    },
+    "directionsText": {
+      "en": "Munuki Block C, Plot No. 349, Juba, South Sudan."
+    },
+    "website": "https://hoperestorationsouthsudan.org/",
+    "openHours": "Opens 08:00"
+  },
+  {
+    "id": "ss-juba-womens-union",
+    "regionDistrict": "Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8408,
+    "lng": 31.6041,
+    "name": {
+      "en": "South Sudan Women’s Union (Juba)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Rights Union, Solidarity & Survivor Support Center"
+    },
+    "phone": "777 / +211 955 598 044",
+    "emergencyHotline": "777 / 112",
+    "address": {
+      "en": "RJR3+8J2, Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Women’s Mutual Aid, Community Protection & Referral to Safe Shelters and Legal Aid",
+        "Advocacy for Women’s Safety, Peacebuilding & Family Welfare"
+      ]
+    },
+    "directionsText": {
+      "en": "RJR3+8J2, Juba, South Sudan."
+    },
+    "openHours": "Opens 10:00"
+  },
+  {
+    "id": "ss-kuajok-warrap-womens-union",
+    "regionDistrict": "Kuajok, Warrap State, South Sudan",
+    "type": "safe-haven",
+    "lat": 8.3028,
+    "lng": 27.9829,
+    "name": {
+      "en": "Warrap State Women’s Union (Kuajok)"
+    },
+    "categoryBadge": {
+      "en": "State Women’s Protection Organization & Safe Listening Space (Warrap)"
+    },
+    "phone": "+211 925 644 831",
+    "emergencyHotline": "777 / +211 925 644 831",
+    "address": {
+      "en": "8X3M+45, Kuajok, Warrap State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Women’s Protection, Domestic Violence Mediation/Referral & Psychosocial Support in Warrap State",
+        "Emergency Referral to Kuajok State Hospital Maternity & One-Stop Center"
+      ]
+    },
+    "directionsText": {
+      "en": "8X3M+45, Kuajok, Warrap State, South Sudan."
+    }
+  },
+  {
+    "id": "ss-juba-werd",
+    "regionDistrict": "Tong Ping, Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8642,
+    "lng": 31.5918,
+    "name": {
+      "en": "Women Empowerment for Reconciliation & Development (WERD — Juba)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Trauma Healing & Empowerment Organization"
+    },
+    "phone": "+211 920 791 796",
+    "emergencyHotline": "777 / +211 920 791 796",
+    "address": {
+      "en": "Suk Sewe, Plot No. 3K, Tong Ping, Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Psychosocial Support, Trauma Healing & Socio-Economic Empowerment for Women and Girls",
+        "GBV Prevention, Protection & Community Reconciliation"
+      ]
+    },
+    "directionsText": {
+      "en": "Suk Sewe, Plot No. 3K, Tong Ping, Juba, South Sudan."
+    },
+    "website": "https://www.werdsouthsudan.org/"
+  },
+  {
+    "id": "ss-juba-women-justice-equality",
+    "regionDistrict": "Gurei, Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8593,
+    "lng": 31.5712,
+    "name": {
+      "en": "Women for Justice and Equality (Gurei Market, Juba)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Legal Justice, Equality & GBV Survivor Support"
+    },
+    "phone": "+211 929 402 770",
+    "emergencyHotline": "777 / +211 929 402 770",
+    "address": {
+      "en": "VH5C+PFX, Gurei Market, Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Legal Rights Orientation, Protection against Domestic & Gender-Based Violence",
+        "Community Women’s Support & Safe Referral in Gurei / Juba"
+      ]
+    },
+    "directionsText": {
+      "en": "VH5C+PFX, Gurei Market, Juba, South Sudan."
+    },
+    "openHours": "Opens 09:00"
+  },
+  {
+    "id": "ss-aweil-women-empowerment-centre",
+    "regionDistrict": "Aweil Town, Northern Bahr el Ghazal, South Sudan",
+    "type": "safe-haven",
+    "lat": 8.7667,
+    "lng": 27.4022,
+    "name": {
+      "en": "Women Empowerment Centre South Sudan (Aweil Town)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Space, Protection & Empowerment Center (Northern Bahr el Ghazal)"
+    },
+    "phone": "+211 922 205 374",
+    "emergencyHotline": "777 / +211 922 205 374",
+    "address": {
+      "en": "QC82+MRW, Aweil Town, Northern Bahr el Ghazal, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Women’s Safe Listening Space, Psychosocial Support & Livelihood Training in Aweil",
+        "Referral to Aweil State Hospital Maternity & Fistula/GBV Unit"
+      ]
+    },
+    "directionsText": {
+      "en": "QC82+MRW, Aweil Town, Northern Bahr el Ghazal, South Sudan."
+    }
+  },
+  {
+    "id": "ss-juba-safer-womens-initiative",
+    "regionDistrict": "Block 8, Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8685,
+    "lng": 31.5695,
+    "name": {
+      "en": "Safer Women’s Initiative (SWI — Block 8, Juba)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safety, Domestic Violence Prevention & Survivor Support"
+    },
+    "phone": "+211 980 945 122 / +211 921 635 934",
+    "emergencyHotline": "777 / +211 980 945 122",
+    "address": {
+      "en": "Block 8, Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Confidential Support & Safety Planning for Women Facing Domestic or Gender-Based Violence",
+        "Emergency Medical & Psychosocial Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Block 8, Juba, South Sudan."
+    }
+  },
+  {
+    "id": "ss-juba-rescue-initiative",
+    "regionDistrict": "Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8548,
+    "lng": 31.5845,
+    "name": {
+      "en": "The Rescue Initiative South Sudan (TRI-SS — Juba)"
+    },
+    "categoryBadge": {
+      "en": "Humanitarian Health, Women’s Protection & GBV Support Organization"
+    },
+    "phone": "+211 929 463 206",
+    "emergencyHotline": "777 / +211 929 463 206",
+    "address": {
+      "en": "Juba, Central Equatoria, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Community Maternal Health, Psychosocial Support & GBV Protection Field Programs",
+        "Emergency Humanitarian & Women’s Health Referrals"
+      ]
+    },
+    "directionsText": {
+      "en": "Juba, South Sudan."
+    },
+    "website": "https://therescueinitiativess.org/",
+    "openHours": "Opens 08:00"
+  },
+  {
+    "id": "ss-wau-mary-help-centre",
+    "regionDistrict": "Alelchok, Wau, Western Bahr el Ghazal, South Sudan",
+    "type": "safe-haven",
+    "lat": 7.7145,
+    "lng": 27.9881,
+    "name": {
+      "en": "Mary Help Centre Wau (Alelchok, Wau)"
+    },
+    "categoryBadge": {
+      "en": "Women & Children Safe Sanctuary, Maternal Care & Humanitarian Support (Wau)"
+    },
+    "phone": "+211 924 489 100",
+    "emergencyHotline": "777 / +211 924 489 100",
+    "address": {
+      "en": "PX7Q+Q64, Alelchok, Wau, Western Bahr el Ghazal, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Safe Sanctuary, Nursing/Maternal Health Support & Counseling for Vulnerable Women in Wau",
+        "Psychosocial Care & Referral to St. Daniel Comboni / Wau Teaching Hospital"
+      ]
+    },
+    "directionsText": {
+      "en": "PX7Q+Q64, Alelchok, Wau, Western Bahr el Ghazal, South Sudan."
+    }
+  },
+  {
+    "id": "ss-juba-unhcr-protection",
+    "regionDistrict": "Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8531,
+    "lng": 31.5996,
+    "name": {
+      "en": "UNHCR Juba Protection & GBV Support Center (UNHCR Prefab / Compound, Juba)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Refugee & Displaced Women’s Protection Center"
+    },
+    "phone": "+211 912 380 099 / +211 955 598 044",
+    "emergencyHotline": "777 / 112",
+    "address": {
+      "en": "VH3X+6RJ, Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Free Refugee & IDP Protection, GBV Survivor Assistance & Safe Shelter Referral",
+        "Psychosocial First Aid & Legal Documentation"
+      ]
+    },
+    "directionsText": {
+      "en": "VH3X+6RJ, Juba, South Sudan."
+    },
+    "openHours": "Opens 09:00"
+  },
+  {
+    "id": "ss-abyei-women-association",
+    "regionDistrict": "Abyei Town, Abyei Area",
+    "type": "safe-haven",
+    "lat": 9.5959,
+    "lng": 28.4476,
+    "name": {
+      "en": "Abyei Women Association (HCWX+928, Abyei)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Solidarity, Safe Space & Community Protection Association"
+    },
+    "phone": "777 / 112",
+    "emergencyHotline": "777 / 112",
+    "address": {
+      "en": "HCWX+928, Abyei Town"
+    },
+    "services": {
+      "en": [
+        "Community Women’s Safe Space, Mutual Aid & Protection for Displaced and Local Women in Abyei",
+        "Maternal & Psychosocial Support Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "HCWX+928, Abyei."
+    }
+  },
+  {
+    "id": "ss-juba-eve-organization",
+    "regionDistrict": "Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8518,
+    "lng": 31.6117,
+    "name": {
+      "en": "Eve Organization for Women Development (Juba)"
+    },
+    "categoryBadge": {
+      "en": "Premier Women-Led Rights, Peace & GBV Protection Organization"
+    },
+    "phone": "+211 910 888 800",
+    "emergencyHotline": "777 / +211 910 888 800",
+    "address": {
+      "en": "VJ26+PM6, near Caritas, Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Women’s Rights Advocacy, Reproductive Health Education & Young Women’s Leadership",
+        "Psychosocial Support & Referral for Survivors of Gender-Based Violence"
+      ]
+    },
+    "directionsText": {
+      "en": "VJ26+PM6, near Caritas, Juba, South Sudan."
+    },
+    "website": "http://www.evesouthsudan.org/",
+    "openHours": "Opens 09:00"
+  },
+  {
+    "id": "ss-juba-women-tears",
+    "regionDistrict": "Gudele, Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8698,
+    "lng": 31.5412,
+    "name": {
+      "en": "Women Tears Organization (Block VI, Gudele Rd, Juba)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Trauma Healing, Widow/Orphan Support & Safe Space"
+    },
+    "phone": "+211 928 777 307",
+    "emergencyHotline": "777 / +211 928 777 307",
+    "address": {
+      "en": "Block VI, Gudele Road, Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Trauma Counseling, Psychosocial Support & Livelihood Empowerment for Vulnerable Women in Gudele",
+        "Support for Widows, Single Mothers & Survivors of Domestic Violence"
+      ]
+    },
+    "directionsText": {
+      "en": "Block VI, Gudele Road, Juba, South Sudan."
+    },
+    "website": "https://womentears.com/"
+  },
+  {
+    "id": "ss-juba-vision-for-humanity",
+    "regionDistrict": "Airport Road, Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8665,
+    "lng": 31.5985,
+    "name": {
+      "en": "Vision For Humanity South Sudan (VFH-SS — 24/7 Women & Humanitarian Support, Juba)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Protection, Psychosocial & Humanitarian Support"
+    },
+    "phone": "+211 929 292 979",
+    "emergencyHotline": "777 / +211 929 292 979",
+    "address": {
+      "en": "Airport Road (near American Residence), Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Humanitarian Assistance, Women’s Protection & GBV Referral",
+        "Maternal & Community Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Airport Road near American Residence, Juba, South Sudan."
+    },
+    "website": "http://www.vfh-ss.org/",
+    "openHours": "Open 24 hours"
+  },
+  {
+    "id": "ss-juba-humanity-aid-services",
+    "regionDistrict": "Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8427,
+    "lng": 31.5843,
+    "name": {
+      "en": "Humanity Aid Services South Sudan (Juba)"
+    },
+    "categoryBadge": {
+      "en": "Humanitarian & Women’s Protection Support Center"
+    },
+    "phone": "+211 923 516 025",
+    "emergencyHotline": "777 / +211 923 516 025",
+    "address": {
+      "en": "RHVM+3P5, Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Protection, Psychosocial Support & Emergency Referral for Vulnerable Women and Families"
+      ]
+    },
+    "directionsText": {
+      "en": "RHVM+3P5, Juba, South Sudan."
+    },
+    "openHours": "Opens 08:00"
+  },
+  {
+    "id": "ss-wau-wdg",
+    "regionDistrict": "Aweil Jadid St, Wau, Western Bahr el Ghazal, South Sudan",
+    "type": "safe-haven",
+    "lat": 7.7058,
+    "lng": 27.9942,
+    "name": {
+      "en": "Women Development Group South Sudan (WDG — Wau)"
+    },
+    "categoryBadge": {
+      "en": "Women-Led Safe Space, GBV Protection & Livelihood Center (Wau)"
+    },
+    "phone": "+211 924 883 349",
+    "emergencyHotline": "777 / +211 924 883 349",
+    "address": {
+      "en": "Near Hankar, Aweil Jadid Street, Wau, Western Bahr el Ghazal, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Women & Girls Friendly Space, GBV Case Management, Counseling & Legal Referral in Wau",
+        "Peacebuilding & Economic Empowerment for Displaced and Local Women"
+      ]
+    },
+    "directionsText": {
+      "en": "Near Hankar, Aweil Jadid Street, Wau, South Sudan."
+    },
+    "website": "https://wdgsouthsudan.org/",
+    "openHours": "Opens 09:00"
+  },
+  {
+    "id": "ss-juba-drc-unwomen-iom",
+    "regionDistrict": "Block 3K South, Juba, Central Equatoria, South Sudan",
+    "type": "safe-haven",
+    "lat": 4.8581,
+    "lng": 31.5889,
+    "name": {
+      "en": "UN Women South Sudan, Danish Refugee Council (DRC) & IOM Protection Hub (Juba)"
+    },
+    "categoryBadge": {
+      "en": "International Women’s Protection, GBV Referral & Safe Shelter Coordination (Juba)"
+    },
+    "phone": "+211 955 598 044 / +211 927 171 290 / +211 912 380 099",
+    "emergencyHotline": "777 / +211 955 598 044",
+    "address": {
+      "en": "UN Women (VH6Q+8HR) & Danish Refugee Council (Block 3K South), Juba, South Sudan"
+    },
+    "services": {
+      "en": [
+        "UN Women Juba (+211 955 598 044): Women’s Protection, Legal Reform & Safe House Coordination",
+        "Danish Refugee Council Juba (+211 927 171 290): GBV Protection, Emergency Shelter & Legal Aid",
+        "IOM South Sudan (+211 912 380 099): Mental Health & Psychosocial Support (MHPSS) and One-Stop GBV Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "VH6Q+8HR (UN Women) and Block 3K South (Danish Refugee Council), Juba, South Sudan."
+    },
+    "website": "https://southsudan.iom.int/"
   }
 ];

@@ -137220,5 +137220,1677 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Regional referral and maternity hospitals serving Néma (Hodh Ech Chargui, +222 45 49 71 10) and Sélibabi (Guidimaka, +222 45 34 91 12)."
     }
+  },
+  {
+    "id": "unhcr-kenya-nairobi-hak1195-gvrc",
+    "regionDistrict": "Nairobi, Kenya",
+    "type": "safe-haven",
+    "lat": -1.2921,
+    "lng": 36.789,
+    "name": {
+      "en": "UNHCR Kenya Helpline (1517), HAK National GBV Hotline (1195) & GVRC Women’s Recovery Center — Nairobi",
+      "sw": "Simu ya Bure ya UNHCR Kenya (1517), HAK GBV (1195) na Kituo cha GVRC — Nairobi"
+    },
+    "categoryBadge": {
+      "en": "UNHCR & National 24/7 Women’s Safe Haven & GBV Recovery Center"
+    },
+    "phone": "1195 / 1517",
+    "emergencyHotline": "1195 (HAK 24/7 Toll-Free GBV Helpline) / 1517 (UNHCR 24/7 Helpline) / 0800 720 553 (COVAW)",
+    "address": {
+      "en": "Nairobi Women’s Hospital GVRC (Hurlingham / Adams) & UNHCR Nairobi, Kenya"
+    },
+    "services": {
+      "en": [
+        "UNHCR Kenya 24/7 Toll-Free Protection & GBV Helpline (Dial 1517)",
+        "National 24/7 GBV Helpline (HAK — Dial 1195) & COVAW Legal Aid (0800 720 553)",
+        "Gender Violence Recovery Centre (GVRC: +254 709 667 000 / +254 719 638 006)",
+        "Free 72-Hour Post-Rape PEP Medical Care, Trauma Counseling & Safe Shelter Referral"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Kenya (https://help.unhcr.org/kenya/). Call 1517 (UNHCR 24/7 toll-free), 1195 (HAK National GBV Helpline), or +254 709 667 000 (GVRC Nairobi)."
+    }
+  },
+  {
+    "id": "unhcr-kenya-kakuma-kalobeyei-drc-gbv",
+    "regionDistrict": "Kakuma & Kalobeyei, Turkana County, Kenya",
+    "type": "safe-haven",
+    "lat": 3.7167,
+    "lng": 34.8667,
+    "name": {
+      "en": "UNHCR Kakuma & Kalobeyei Refugee Camp GBV Safe Haven & DRC Helpline (0800 720 414) — Turkana",
+      "sw": "Kituo cha Usalama cha UNHCR na DRC kwa Waathiriwa wa GBV — Kakuma na Kalobeyei"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & 24/7 GBV Helpline"
+    },
+    "phone": "0800 720 414",
+    "emergencyHotline": "0800 720 414 (DRC Toll-Free GBV Line) / WhatsApp 0715 573 845 / 1517 (UNHCR)",
+    "address": {
+      "en": "Kakuma Refugee Camp & Kalobeyei Integrated Settlement, Turkana County, Kenya"
+    },
+    "services": {
+      "en": [
+        "Danish Refugee Council (DRC) Kakuma Toll-Free GBV Helpline (0800 720 414)",
+        "Confidential WhatsApp GBV Support (0715 573 845) & Protection Email (kenkaprt@unhcr.org)",
+        "Emergency Safe Houses for Women & Girls at Risk in Kakuma & Kalobeyei",
+        "IRC Medical Clinics, Psychosocial Support & Legal Assistance"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Kenya (https://help.unhcr.org/kenya/). Serves Kakuma and Kalobeyei with toll-free GBV helpline 0800 720 414 and WhatsApp 0715 573 845."
+    }
+  },
+  {
+    "id": "unhcr-kenya-dadaab-gbv-safe-haven",
+    "regionDistrict": "Dadaab (Hagadera, Ifo & Dagahaley), Garissa County, Kenya",
+    "type": "safe-haven",
+    "lat": 0.0512,
+    "lng": 40.3125,
+    "name": {
+      "en": "UNHCR Dadaab Refugee Complex Women’s Safe Haven & IRC / CARE GBV Support Center — Dadaab",
+      "so": "Xarunta Badbaadada Haweenka ee UNHCR Dadaab (Xagardheer, Ifo & Dhadhaab)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & 24/7 GBV Helpline"
+    },
+    "phone": "1517",
+    "emergencyHotline": "1517 (UNHCR 24/7 Toll-Free Line) / 1195 (National GBV Line) / kendaprt@unhcr.org",
+    "address": {
+      "en": "Hagadera, Ifo & Dagahaley Camps, Dadaab, Garissa County, Kenya"
+    },
+    "services": {
+      "en": [
+        "24/7 UNHCR Toll-Free Protection & SGBV Helpline (Dial 1517)",
+        "Women’s Wellness Centers & Confidential Safe Havens in Hagadera, Ifo & Dagahaley",
+        "Clinical Management of Rape (72-Hour PEP), FGM Protection & Maternal Triage",
+        "Somali, Oromo, Swahili & English Female Caseworkers"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Kenya (https://help.unhcr.org/kenya/). Provides free 24/7 SGBV protection, safe shelter, and medical care across Dadaab (call 1517)."
+    }
+  },
+  {
+    "id": "unhcr-uganda-frrm-fida-kampala-settlements",
+    "regionDistrict": "Kampala, Nakivale, Bidi Bidi & Kyaka II, Uganda",
+    "type": "safe-haven",
+    "lat": 0.3163,
+    "lng": 32.5822,
+    "name": {
+      "en": "UNHCR Uganda FRRM GBV Helpline (0800 32 32 32), Sauti (116) & FIDA Women’s Legal Aid — Kampala",
+      "sw": "Simu ya Bure ya UNHCR Uganda (0800 32 32 32) na Msaada wa Kisheria wa FIDA — Kampala"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & Toll-Free GBV Helpline"
+    },
+    "phone": "0800 32 32 32",
+    "emergencyHotline": "0800 32 32 32 (UNHCR Toll-Free FRRM Line) / 116 (National GBV Line) / 0800 111 500 (FIDA Legal Aid)",
+    "address": {
+      "en": "Kampala & Refugee Settlements (Nakivale, Bidi Bidi, Kyaka II, Rwamwanja, Adjumani, Palabek), Uganda"
+    },
+    "services": {
+      "en": [
+        "UNHCR Uganda Toll-Free FRRM GBV & Protection Helpline (0800 32 32 32)",
+        "FIDA Uganda Toll-Free Women’s Legal Aid Line (0800 111 500) & Police Protection (0800 199 199)",
+        "MIFUMI & ActionAid Women’s Safe Shelters & One-Stop GBV Recovery Centers",
+        "Psychosocial Counseling, Emergency Relocation & 72-Hour Medical PEP"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Uganda (https://help.unhcr.org/uganda/). Call 0800 32 32 32 (UNHCR FRRM toll-free), 116 (Sauti), or 0800 111 500 (FIDA Uganda)."
+    }
+  },
+  {
+    "id": "unhcr-sudan-1460-cvaw-khartoum-portsudan-darfur",
+    "regionDistrict": "Port Sudan, Khartoum & Darfur, Sudan",
+    "type": "safe-haven",
+    "lat": 19.6158,
+    "lng": 37.2164,
+    "name": {
+      "en": "UNHCR Sudan Interagency Protection & GBV Call Centre (1460) & CVAW / SIHA Women’s Safe Spaces — Port Sudan, Khartoum & Darfur",
+      "ar": "مركز اتصال المفوضية في السودان (1460) ووحدة مكافحة العنف ضد المرأة والمساحات الآمنة — بورتسودان والخرطوم ودارفور"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & 24/7 GBV Helpline"
+    },
+    "phone": "1460",
+    "emergencyHotline": "1460 (UNHCR Interagency Toll-Free Call Centre) / WhatsApp +249 90 093 4472 / Khartoum 0900934474 / Darfur 0900278666",
+    "address": {
+      "en": "Port Sudan (Red Sea), Khartoum / Omdurman, East Darfur (0900278666) & Central Darfur (0900933256), Sudan"
+    },
+    "services": {
+      "en": [
+        "UNHCR Sudan Interagency Toll-Free Protection & GBV Call Centre (Dial 1460)",
+        "UNHCR Sudan Confidential WhatsApp (+249 90 093 4472) & Sudani Line (123184860)",
+        "Regional Hotlines: Khartoum (0900934474), East Darfur (0900278666 / 0900278630), Central Darfur (0900933256)",
+        "UNFPA / CVAW Women & Girls Safe Spaces, Emergency Clinical Care & Trauma First Aid"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Sudan (https://help.unhcr.org/sudan/). Call 1460 toll-free or WhatsApp +249 90 093 4472 for immediate GBV and protection referrals."
+    }
+  },
+  {
+    "id": "unhcr-ethiopia-awsad-jrs-addis-ababa",
+    "regionDistrict": "Addis Ababa, Gambella, Shire & Jijiga, Ethiopia",
+    "type": "safe-haven",
+    "lat": 8.9982,
+    "lng": 38.7615,
+    "name": {
+      "en": "UNHCR Ethiopia Protection Hotline (+251 905 012823), AWSAD Women’s Sanctuary & Allegtha (6388) — Addis Ababa",
+      "am": "የተባበሩት መንግስታት የስደተኞች ኮሚሽን (UNHCR) እና የሴቶች መጠለያ (AWSAD / 6388) — አዲስ አበባ"
+    },
+    "categoryBadge": {
+      "en": "UNHCR & AWSAD Verified Women’s Safe Haven & GBV Hotline"
+    },
+    "phone": "+251 905 012823",
+    "emergencyHotline": "6388 or 7711 (Toll-Free GBV Hotlines) / +251 905 012823 (UNHCR Addis Ababa) / +251 114 704874 (JRS Protection)",
+    "address": {
+      "en": "Addis Ababa, Gambella, Melkadida, Assosa & Shire/Mekelle, Ethiopia"
+    },
+    "services": {
+      "en": [
+        "UNHCR Ethiopia Protection & GBV Call Centre (+251 905 012823 / 0944104567)",
+        "AWSAD (Association for Women’s Sanctuary and Development) Safe Houses (+251 116 672 290)",
+        "Toll-Free GBV & Women’s Crisis Hotlines (6388 / 7711 / 991)",
+        "Hospital One-Stop GBV Centers, Psychosocial Therapy, Childcare & Legal Aid"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Ethiopia (https://help.unhcr.org/ethiopia/). Call +251 905 012823 (UNHCR), 6388 / 7711 (GBV hotlines), or +251 114 704874 (JRS)."
+    }
+  },
+  {
+    "id": "unhcr-somalia-2772-hargeisa-bossaso-mogadishu",
+    "regionDistrict": "Mogadishu, Hargeisa (Somaliland) & Bossaso (Puntland), Somalia",
+    "type": "safe-haven",
+    "lat": 9.5624,
+    "lng": 44.077,
+    "name": {
+      "en": "UNHCR Somalia 24/7 Protection Helpline (2772), MoRHA Somaliland (2035) & Kaalo Puntland GBV Center",
+      "so": "Khadka Caawinta UNHCR Soomaaliya (2772), Hargeysa (2035) & Boosaaso"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified 24/7 Women’s Safe Haven & Protection Helpline"
+    },
+    "phone": "2772",
+    "emergencyHotline": "2772 (UNHCR Somalia 24/7 Emergency Helpline) / 2035 (Somaliland) / +252 907 794192 (Puntland Kaalo)",
+    "address": {
+      "en": "Mogadishu (+252 615 357881), Hargeisa (0634749009 / 2035) & Bossaso (+252 907 794192), Somalia"
+    },
+    "services": {
+      "en": [
+        "UNHCR Somalia Country-Wide 24/7 Emergency Protection & GBV Helpline (Dial 2772)",
+        "Somaliland MoRHA & WAAPO Women’s Protection Line (Dial 2035 / 0634749009)",
+        "Puntland Kaalo Legal & GBV Counseling (+252 907 794192) & Mogadishu SWDC Safe Spaces",
+        "Free Clinical Post-Rape Care, Dignity Kits, Safe Shelter & Legal Aid"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Somalia (https://help.unhcr.org/somalia/). Dial 2772 toll-free nationwide in Somalia (or 2035 in Hargeisa/Somaliland)."
+    }
+  },
+  {
+    "id": "unhcr-rwanda-kigali-huye-camps-gbv-isange",
+    "regionDistrict": "Kigali, Huye, Mahama, Kigeme, Kiziba & Mugombwa, Rwanda",
+    "type": "safe-haven",
+    "lat": -1.9441,
+    "lng": 30.0619,
+    "name": {
+      "en": "UNHCR Rwanda GBV Protection Line (0788 384 932 / 4433) & Isange One-Stop Center (3512) — Kigali & Refugee Camps",
+      "fr": "Ligne de Protection VBG du HCR Rwanda (0788 384 932 / 4433) & Centre Isange One-Stop (3512) — Kigali & Camps"
+    },
+    "categoryBadge": {
+      "en": "UNHCR & Isange Verified Women’s Safe Haven & 24/7 GBV Helpline"
+    },
+    "phone": "3512 / 4433",
+    "emergencyHotline": "3512 or 3029 (Isange One-Stop Center 24/7) / 4433 (Huye Toll-Free GBV Line) / 0788 384 932 (UNHCR GBV Line) / 8855 (Save the Children)",
+    "address": {
+      "en": "Kigali, Huye & Mahama, Kigeme, Kiziba, Mugombwa & Nyabiheke Refugee Camps, Rwanda"
+    },
+    "services": {
+      "en": [
+        "UNHCR Rwanda GBV & Protection Inquiries: 0788 384 932 / 0788 383 608 / WhatsApp 0787 900 957",
+        "Huye Toll-Free GBV Helpline: 4433 | Isange One-Stop Center 24/7 Toll-Free: 3512 / 3029",
+        "Camp Protection Lines: Save the Children (8855), Plan International Kigeme (0788 317 355), Kiziba (0788 317 354), Mugombwa/Nyabiheke (0788 317 364)",
+        "Free Emergency Safe Shelter, Forensic & PEP Medical Care, Psychosocial Therapy & Legal Aid"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Rwanda (https://help.unhcr.org/rwanda/). Call 3512 (Isange One-Stop Center), 4433 (Huye GBV toll-free), 8855 (Save the Children), or 0788 384 932 (UNHCR GBV)."
+    }
+  },
+  {
+    "id": "unhcr-burundi-seruka-bujumbura-gitega",
+    "regionDistrict": "Bujumbura, Gitega & Ruyigi, Burundi",
+    "type": "safe-haven",
+    "lat": -3.3822,
+    "lng": 29.3644,
+    "name": {
+      "en": "UNHCR Burundi VBG Support & Centre Seruka / Save the Children Maisons d’Écoute — Bujumbura & Camps",
+      "fr": "HCR Burundi Soutien VBG, Centre Seruka & Maisons d’Écoute Save the Children — Bujumbura & Camps"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & One-Stop VBG Center"
+    },
+    "phone": "+257 22 22 81 95",
+    "emergencyHotline": "116 (Ligne Gratuite Protection) / +257 22 22 81 95 (Centre Seruka) / +257 22 22 31 51 (HCR Bujumbura)",
+    "address": {
+      "en": "Bujumbura, Gitega, Ruyigi & Kavumu / Musasa / Bwagiriza / Nyankanda / Mulongwe Camps, Burundi"
+    },
+    "services": {
+      "en": [
+        "Centre Seruka 24/7 Sexual & Gender-Based Violence One-Stop Clinic (+257 22 22 81 95)",
+        "UNHCR Burundi & Save the Children Active Listening (Maisons d’Écoute) & Case Management",
+        "Free 72-Hour Post-Rape Medical PEP, Psychological Counseling & Dignity Kits",
+        "Legal Accompaniment & Safe Shelter Placement"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Burundi (https://help.unhcr.org/burundi/). Provides free SGBV medical, psychosocial, and listening center support in Bujumbura and refugee camps."
+    }
+  },
+  {
+    "id": "unhcr-tanzania-dar-nyarugusu-nduta-gbv",
+    "regionDistrict": "Dar es Salaam, Kasulu, Kibondo, Nyarugusu & Nduta Camps, Tanzania",
+    "type": "safe-haven",
+    "lat": -4.528,
+    "lng": 30.652,
+    "name": {
+      "en": "UNHCR Tanzania & IRC Women’s Wellness & GBV Safe Centers — Nyarugusu, Nduta & Dar es Salaam",
+      "sw": "Vituo vya Usalama vya Wanawake vya UNHCR na IRC — Nyarugusu, Nduta na Dar es Salaam"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & GBV Helpline"
+    },
+    "phone": "0800 750 075",
+    "emergencyHotline": "116 (National GBV & Child Helpline) / 0800 750 075 / 0800 780 100 (WLAC Toll-Free Legal Aid)",
+    "address": {
+      "en": "Nyarugusu & Nduta Refugee Camps (Kigoma Region) & Dar es Salaam, Tanzania"
+    },
+    "services": {
+      "en": [
+        "IRC & UNHCR 24/7 Women’s Wellness Centers & GBV Safe Houses in Nyarugusu & Nduta Camps",
+        "WLAC (Women’s Legal Aid Centre) Toll-Free Helpline (0800 780 100) & National Line (116)",
+        "Police Gender and Children’s Desks, 72-Hour Medical PEP & Psychosocial Support",
+        "Swahili, Kirundi, French, Bembe & English Female Caseworkers"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Tanzania (https://help.unhcr.org/tanzania/). Provides free 24/7 GBV safe spaces and clinical care in Nyarugusu, Nduta, and Dar es Salaam."
+    }
+  },
+  {
+    "id": "unhcr-burkina-faso-80001287-ouagadougou-dori",
+    "regionDistrict": "Ouagadougou, Bobo-Dioulasso, Dori, Djibo & Ouahigouya, Burkina Faso",
+    "type": "safe-haven",
+    "lat": 12.3714,
+    "lng": -1.5197,
+    "name": {
+      "en": "UNHCR Burkina Faso Ligne Verte VBG (800 01 287) & CONAREF Centres d’Écoute — Ouagadougou, Dori & Bobo-Dioulasso",
+      "fr": "HCR Burkina Faso Ligne Gratuite VBG (800 01 287 / 80 00 11 12) & Centres d’Écoute — Ouagadougou, Dori & Bobo-Dioulasso"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & Toll-Free VBG Green Line"
+    },
+    "phone": "800 01 287",
+    "emergencyHotline": "800 01 287 (Ligne Gratuite HCR Burkina Faso) / 80 00 11 12 (Ligne Nationale VBG)",
+    "address": {
+      "en": "Ouagadougou, Bobo-Dioulasso, Dori, Djibo & Ouahigouya, Burkina Faso"
+    },
+    "services": {
+      "en": [
+        "Ligne d’Assistance Gratuite HCR Burkina Faso (Dial 800 01 287) & Ligne Nationale VBG (80 00 11 12)",
+        "Urgences Médicales VBG (Traitement PEP VIH sous 72h & Contraception d’Urgence sous 120h)",
+        "Espaces Sûrs pour Femmes et Filles & Cellules d’Écoute CONAREF / HCR",
+        "Accompagnement Psychosocial, Juridique et Hébergement d’Urgence"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Burkina Faso (https://help.unhcr.org/burkinafaso/). Call 800 01 287 or 80 00 11 12 toll-free for immediate VBG medical and safe haven assistance."
+    }
+  },
+  {
+    "id": "unhcr-mali-80001115-bamako-mopti-gao",
+    "regionDistrict": "Bamako, Mopti, Gao & Tombouctou, Mali",
+    "type": "safe-haven",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "name": {
+      "en": "UNHCR Mali One-Stop Center VBG (80 00 11 15) & APDF Maison de la Femme — Bamako, Mopti & Gao",
+      "fr": "HCR Mali Guichet Unique VBG (Ligne Verte 80 00 11 15) & Maison de la Femme APDF — Bamako, Mopti & Gao"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & One-Stop VBG Center"
+    },
+    "phone": "80 00 11 15",
+    "emergencyHotline": "80 00 11 15 (Ligne Verte Nationale VBG) / +223 20 29 05 54 (HCR Bamako)",
+    "address": {
+      "en": "Bamako, Mopti, Ségou, Gao & Tombouctou, Mali"
+    },
+    "services": {
+      "en": [
+        "Ligne Verte Gratuite VBG au Mali (80 00 11 15)",
+        "One-Stop Centers (Guichets Uniques VBG) & APDF Maisons d’Hébergement d’Urgence",
+        "Prise en Charge Médicale Gratuite (Kit PEP sous 72h), Soutien Psychosocial & Aide Juridique",
+        "Espaces Sûrs pour Femmes Déplacées et Réfugiées"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Mali (https://help.unhcr.org/mali/). Call toll-free 80 00 11 15 or +223 20 29 05 54 for VBG safe shelter and medical care."
+    }
+  },
+  {
+    "id": "unhcr-chad-ndjamena-abeche-adre-vbg",
+    "regionDistrict": "N’Djamena, Abéché, Adré, Goz Beïda & Goré, Chad",
+    "type": "safe-haven",
+    "lat": 12.1348,
+    "lng": 15.0557,
+    "name": {
+      "en": "UNHCR Chad (Tchad) & CNARR Structures Focalisantes VBG & Maisons de la Femme — N’Djamena, Abéché & Adré",
+      "fr": "HCR Tchad, CNARR & Centres d’Écoute VBG — N’Djamena, Abéché, Adré & Goz Beïda",
+      "ar": "المفوضية السامية لشؤون اللاجئين في تشاد ومراكز الاستماع وحماية المرأة — انجمينا وأبشي وأدري"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & VBG Protection Center"
+    },
+    "phone": "+235 22 52 31 28",
+    "emergencyHotline": "119 / +235 22 52 31 28 (HCR N’Djamena) / +235 66 20 15 15 (Association des Femmes Juristes du Tchad)",
+    "address": {
+      "en": "N’Djamena, Abéché, Adré (Ouaddaï), Goz Beïda (Sila) & Goré (Logone Oriental), Chad"
+    },
+    "services": {
+      "en": [
+        "Structures Focalisantes VBG du HCR Tchad, UNFPA & CNARR dans les Camps et Sites Urbains",
+        "Cliniques Juridiques de l’AFJT (Association des Femmes Juristes du Tchad) & Maison Nationale de la Femme",
+        "Espaces Sûrs pour Femmes Réfugiées (Soudanaises, Centrafricaines) et Tchadiennes",
+        "Soins Médicaux d’Urgence VBG (PEP 72h), Écoute Psychosociale & Kits de Dignité"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Chad (https://help.unhcr.org/chad/). Provides free VBG protection, legal clinics, and safe spaces in N’Djamena, Abéché, Adré, and Goz Beïda."
+    }
+  },
+  {
+    "id": "unhcr-cameroon-yaounde-maroua-bertoua-vbg",
+    "regionDistrict": "Yaoundé, Douala, Maroua (Minawao), Bertoua & Bamenda, Cameroon",
+    "type": "safe-haven",
+    "lat": 3.888,
+    "lng": 11.509,
+    "name": {
+      "en": "UNHCR Cameroon Protection Hub (+237 222 20 29 54) & ALVF / ACAFEJ Women’s Safe Centers — Yaoundé, Douala & Maroua",
+      "fr": "HCR Cameroun Bureau de Protection (+237 222 20 29 54) & Centres d’Écoute VBG ALVF / ACAFEJ — Yaoundé, Douala & Maroua"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & VBG Protection Center"
+    },
+    "phone": "+237 222 20 29 54",
+    "emergencyHotline": "116 (Ligne Gratuite VBG / Enfance) / +237 222 20 29 54 (HCR Yaoundé)",
+    "address": {
+      "en": "Quartier Bastos, Rue n° 1778, Yaoundé (and Douala, Maroua/Minawao, Bertoua, Meiganga & Bamenda), Cameroon"
+    },
+    "services": {
+      "en": [
+        "UNHCR Cameroon Multi-Country Office Protection & VBG Desk (+237 222 20 29 54, cmrya@unhcr.org)",
+        "ALVF (Association de Lutte contre les Violences faites aux Femmes) & ACAFEJ Legal Clinics",
+        "Espaces Sûrs Femmes & Filles dans le Camp de Minawao (Extrême-Nord) et à l’Est (Bertoua)",
+        "Prise en Charge Médicale Gratuite (72h), Hébergement Temporaire & Soutien Psychosocial"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Cameroon (https://help.unhcr.org/cameroon/). Located at Quartier Bastos, Rue 1778, Yaoundé (+237 222 20 29 54 / Toll-free 116)."
+    }
+  },
+  {
+    "id": "unhcr-car-bangui-umirr-vbg",
+    "regionDistrict": "Bangui, Bambari, Bouar & Bossangoa, Central African Republic",
+    "type": "safe-haven",
+    "lat": 4.3612,
+    "lng": 18.555,
+    "name": {
+      "en": "UNHCR Central African Republic (RCA), UMIRR & AFJC Maisons d’Écoute VBG (1325 / 4040) — Bangui",
+      "fr": "HCR République Centrafricaine, UMIRR & Maisons d’Écoute VBG (1325 / 4040) — Bangui"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & One-Stop VBG Center"
+    },
+    "phone": "1325 / 4040",
+    "emergencyHotline": "1325 or 4040 (Ligne Verte Gratuite VBG RCA) / +236 72 50 11 11 (AFJC)",
+    "address": {
+      "en": "Avenue des Martyrs, Bangui (and Bambari, Bouar, Kaga-Bandoro & Bossangoa), Central African Republic"
+    },
+    "services": {
+      "en": [
+        "Ligne Verte Gratuite Nationale VBG en RCA (Dial 1325 or 4040)",
+        "UMIRR (Unité Mixte d’Intervention Rapide et de Répression des Violences Sexuelles faites aux Femmes)",
+        "AFJC (Association des Femmes Juristes de Centrafrique) & Maisons d’Écoute HCR / MSF Tongolo",
+        "Soins Médicaux d’Urgence Gratuits (72h), Hébergement Sécurisé & Accompagnement Judiciaire"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Central African Republic (https://help.unhcr.org/centralafricanrepublic/). Call 1325 or 4040 toll-free for immediate VBG protection."
+    }
+  },
+  {
+    "id": "unhcr-nigeria-abuja-maiduguri-ogoja-gbv",
+    "regionDistrict": "Abuja, Lagos, Maiduguri (Borno), Yola (Adamawa) & Ogoja (Cross River), Nigeria",
+    "type": "safe-haven",
+    "lat": 9.0765,
+    "lng": 7.3986,
+    "name": {
+      "en": "UNHCR Nigeria GBV Protection Network, Mirabel Centre & WARIF / NAPTIP Helpline (0800 033 3333 / 627) — Abuja, Lagos & Maiduguri"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & 24/7 GBV Helpline"
+    },
+    "phone": "0800 033 3333",
+    "emergencyHotline": "0800 033 3333 (Toll-Free GBV Hotline) / 627 (NAPTIP Shortcode) / 0800 800 8001 (WARIF 24/7)",
+    "address": {
+      "en": "Abuja (FCT), Lagos (LASUTH Mirabel Centre), Maiduguri (Borno State), Yola (Adamawa) & Ogoja/Ikom (Cross River), Nigeria"
+    },
+    "services": {
+      "en": [
+        "UNHCR Nigeria, Ministry of Women Affairs (MoWA) & CARITAS GBV Safe Spaces in Maiduguri, Yola & Ogoja",
+        "Toll-Free 24/7 GBV & Trafficking Hotlines: 0800 033 3333 / 627 / WARIF 0800 800 8001",
+        "Mirabel Sexual Assault Referral Centre (LASUTH Lagos: +234 815 577 0000) & Sexual Assault Referral Centres (SARCs) Nationwide",
+        "Free 72-Hour Post-Rape Medical PEP, Trauma Counseling, Legal Aid & Safe Shelter Placement"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Nigeria (https://help.unhcr.org/nigeria/). Call 0800 033 3333, 627, or 0800 800 8001 for 24/7 confidential GBV shelter and SARC medical care."
+    }
+  },
+  {
+    "id": "unhcr-senegal-dakar-gvf-bos-116",
+    "regionDistrict": "Dakar, Senegal",
+    "type": "safe-haven",
+    "lat": 14.6962,
+    "lng": -17.4581,
+    "name": {
+      "en": "UNHCR Senegal & Green Village Foundation (GVF / Bureau d’Orientation Sociale) & Ligne VBG 116 — Point E, Dakar",
+      "fr": "HCR Sénégal, Green Village Foundation (Bureau d’Orientation Sociale — BOS) & Ligne Verte VBG 116 — Point E, Dakar"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & Social Orientation Hub"
+    },
+    "phone": "+221 33 825 63 66",
+    "emergencyHotline": "116 (Ligne Verte Gratuite VBG Sénégal) / +221 77 450 81 06 (HCR Dakar WhatsApp) / +221 33 825 63 66 (BOS)",
+    "address": {
+      "en": "Villa 7B, Point E (en face de la piscine olympique), Dakar, Senegal"
+    },
+    "services": {
+      "en": [
+        "UNHCR Senegal Protection & WhatsApp Line (+221 77 450 81 06, senmobox@unhcr.org)",
+        "Green Village Foundation (GVF) / Bureau d’Orientation Sociale (BOS: Villa 7B Point E, +221 33 825 63 66)",
+        "Ligne Verte Nationale Gratuite contre les Violences faites aux Femmes (Dial 116) & Boutique de Droit AJS",
+        "Prise en Charge Médicale, Psychosociale et Hébergement d’Urgence"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Senegal (https://help.unhcr.org/senegal/). Located at Villa 7B, Point E, Dakar (+221 33 825 63 66 / +221 77 450 81 06 / Toll-Free 116)."
+    }
+  },
+  {
+    "id": "unhcr-djibouti-heron-ali-addeh-markazi-vbg",
+    "regionDistrict": "Djibouti City, Ali Addeh, Holl Holl & Markazi (Obock), Djibouti",
+    "type": "safe-haven",
+    "lat": 11.5992,
+    "lng": 43.1538,
+    "name": {
+      "en": "UNHCR Djibouti Protection Hub (+253 21 35 16 77), UNFD Cellule d’Écoute & Ali Addeh / Markazi Women’s Centers",
+      "fr": "HCR Djibouti Protection (+253 21 35 16 77), Cellule d’Écoute UNFD & Centres des Villages d’Ali Addeh, Holl Holl et Markazi",
+      "ar": "المفوضية السامية لشؤون اللاجئين في جيبوتي وخلية الاستماع للاتحاد الوطني لنساء جيبوتي"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & VBG Listening Center"
+    },
+    "phone": "+253 21 35 16 77",
+    "emergencyHotline": "+253 21 35 16 77 (HCR Djibouti) / +253 77 85 31 44 (Ali Addeh & Holl Holl) / +253 77 22 20 31 (Markazi Obock)",
+    "address": {
+      "en": "Lot No 24, Rue de l’IGAD, Quartier Héron, Djibouti City (and Ali Addeh, Holl Holl & Markazi Obock), Djibouti"
+    },
+    "services": {
+      "en": [
+        "UNHCR Djibouti Main Protection Desk (Quartier Héron: +253 21 35 16 77 / +253 21 35 22 00, djbdj@unhcr.org)",
+        "Ali Addeh & Holl Holl Refugee Villages Protection Line: +253 77 85 31 44 / +253 77 03 70 30",
+        "Markazi (Obock) Protection Line: ONARS +253 77 76 73 00 / HCR +253 77 22 20 31",
+        "UNFD Cellule d’Écoute VBG, Soins Médicaux Gratuits (72h) & Soutien Psychosocial"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Djibouti (https://help.unhcr.org/djibouti/). Located at Lot 24, Rue de l’IGAD, Quartier Héron, Djibouti (+253 21 35 16 77)."
+    }
+  },
+  {
+    "id": "unhcr-mauritania-80003000-nouakchott-mbera",
+    "regionDistrict": "Nouakchott, Nouadhibou, Néma & Mbera Camp (Bassikounou), Mauritania",
+    "type": "safe-haven",
+    "lat": 18.1065,
+    "lng": -16.0012,
+    "name": {
+      "en": "UNHCR Mauritania 24/7 Toll-Free VBG & Protection Green Lines (8000 3000 / 8000 3001 / 8000 3002) — Nouakchott & Mbera",
+      "fr": "HCR Mauritanie Lignes Vertes Gratuites 24/7 Protection & VBG (8000 3000 / 3001 / 3002) — Nouakchott, Nouadhibou & Camp de Mbera",
+      "ar": "الخط الأخضر المجاني للمفوضية في موريتانيا على مدار 24 ساعة (8000 3000 / 8000 3001 / 8000 3002) — نواكشوط ومخيم امبرة"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified 24/7 Women’s Safe Haven & Toll-Free Green Line"
+    },
+    "phone": "8000 3000",
+    "emergencyHotline": "8000 3000 / 8000 3001 / 8000 3002 (24/7 Toll-Free UNHCR Green Lines) / 800 01 010 (AFCF)",
+    "address": {
+      "en": "Îlot K No. 143, Route de la Corniche, Nouakchott (and Nouadhibou, Néma & Mbera Camp Bassikounou), Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Toll-Free UNHCR Mauritania Violence, Protection & SEA Hotlines: 8000 3000 / 8000 3001 / 8000 3002",
+        "Confidential Protection Email: maubapsea@unhcr.org",
+        "Operational VBG Partners (AFCF & CIAUD) in Nouakchott, Nouadhibou, Néma & Mbera Refugee Camp",
+        "Free Emergency Medical Referral (CHME), Legal Aid & Safe Shelter Placement"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Mauritania (https://help.unhcr.org/mauritania/). Call 24/7 toll-free on 8000 3000, 8000 3001, or 8000 3002."
+    }
+  },
+  {
+    "id": "unhcr-egypt-etijah-msf-care-refuge-cairo",
+    "regionDistrict": "Cairo, Giza (Mohandessin / 6th of October), Alexandria & Aswan, Egypt",
+    "type": "safe-haven",
+    "lat": 30.0561,
+    "lng": 31.2001,
+    "name": {
+      "en": "UNHCR Egypt GBV Network: Etijah 24/7 WhatsApp (01015450440), MSF Sexual Violence Clinic (Giza) & CARE / Refuge Egypt",
+      "ar": "شبكة حماية المرأة للمفوضية في مصر: اتجاه (01015450440)، عيادة أطباء بلا حدود بالمهندسين (01222213181) وهيئة كير — القاهرة والجيزة وأسوان"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified 24/7 GBV Safe Haven & Sexual Violence Clinic"
+    },
+    "phone": "01015450440",
+    "emergencyHotline": "01015450440 (Etijah 24/7 GBV WhatsApp) / 01222213181 (MSF Clinic Giza) / 01500093801 (Etijah Infoline) / 15115 (NCW Egypt)",
+    "address": {
+      "en": "MSF Clinic: 27 Al Quds Street, Mohandessin, Giza | Etijah, CARE Egypt & Refuge Egypt: Zamalek, Nasr City, 6th of October City, Alexandria & Aswan, Egypt"
+    },
+    "services": {
+      "en": [
+        "Etijah 24/7 GBV Emergency WhatsApp Line (01015450440) & Infoline (01500093801)",
+        "Médecins Sans Frontières (MSF) Sexual Violence Medical & Psychological Clinic (27 Al Quds St, Mohandessin, Giza — 01222213181)",
+        "Refuge Egypt Emergency 72-Hour Rape/GBV Clinics (Zamalek, Nasr City & 6th of October City)",
+        "CARE Egypt Women’s Safe Spaces & Legal/Psychosocial Support in Cairo & Aswan"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Egypt (https://help.unhcr.org/egypt/). Contact Etijah 24/7 WhatsApp 01015450440, MSF Sexual Violence Clinic at 27 Al Quds St, Mohandessin, Giza (01222213181), or National Council for Women 15115."
+    }
+  },
+  {
+    "id": "unhcr-libya-tawasul-1504-tripoli-benghazi",
+    "regionDistrict": "Tripoli & Benghazi, Libya",
+    "type": "safe-haven",
+    "lat": 32.8872,
+    "lng": 13.1913,
+    "name": {
+      "en": "UNHCR Libya Tawasul Protection Hotline (1504), Community Day Centers & National VAW Line (1417) — Tripoli & Benghazi",
+      "ar": "خط تواصل للمفوضية في ليبيا (1504) والمراكز المجتمعية وخط دعم المرأة (1417) — طرابلس وبنغازي"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Protection Center & GBV Hotline"
+    },
+    "phone": "1504",
+    "emergencyHotline": "1504 (UNHCR Libya Tawasul Call Center) / 1417 (Libya National VAW Psychosocial & Legal Helpline)",
+    "address": {
+      "en": "Gargaresh / Sarraj Community Day Center, Tripoli & Benghazi, Libya"
+    },
+    "services": {
+      "en": [
+        "UNHCR Libya Tawasul Call Center (Dial 1504) & National VAW Helpline (Dial 1417)",
+        "Urgent 72-Hour Post-Violence Medical Care & Vulnerability Assessments",
+        "Community Day Centers (CDCs) with CESVI, IRC & Norwegian Refugee Council",
+        "Confidential Psychosocial Counseling, Dignity Assistance & Emergency Safe Housing"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Libya (https://help.unhcr.org/libya/). Call 1504 (UNHCR Tawasul) or 1417 for urgent 72-hour medical and GBV protection referrals."
+    }
+  },
+  {
+    "id": "unhcr-morocco-rabat-takaddom-vbg-legal",
+    "regionDistrict": "Rabat, Casablanca, Oujda & Tangier, Morocco",
+    "type": "safe-haven",
+    "lat": 33.9892,
+    "lng": -6.8261,
+    "name": {
+      "en": "UNHCR Morocco Protection Hotline (+212 666 58 43 61) & Free GBV Legal Clinic (Takaddom, Rabat) & Kolona Maak (8350)",
+      "fr": "HCR Maroc Protection (+212 666 58 43 61), Cabinet Juridique Gratuit VBG (Takaddom, Rabat) & Kolona Maak (8350)",
+      "ar": "المفوضية السامية لشؤون اللاجئين في المغرب (+212 666 58 43 61) والعيادة القانونية المجانية بالرباط وخط كلنا معك (8350)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Protection & Free GBV Legal Center"
+    },
+    "phone": "+212 666 58 43 61",
+    "emergencyHotline": "8350 (Kolona Maak 24/7 Women’s Helpline) / +212 666 58 43 61 (UNHCR Protection) / +212 537 80 54 35 (Free Legal Aid)",
+    "address": {
+      "en": "55 bis, bloc 4, Takaddom, Rabat (and UNHCR Rabat +212 537 54 54 00), Morocco"
+    },
+    "services": {
+      "en": [
+        "UNHCR Morocco Protection Hotline (+212 666 58 43 61) & General Office (+212 537 54 54 00)",
+        "UNHCR Free Legal Partner (Cabinet Maître El Kbir Lemseguem: 55 bis, bloc 4, Takaddom, Rabat — +212 537 80 54 35 / +212 606 35 35 06)",
+        "National 24/7 Violence Against Women Helpline (Kolona Maak: 8350) & Foundation Orient-Occident",
+        "Hospital Batha / Hospital Cells for Women Victims of Violence, Psychosocial & Shelter Referrals"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Morocco (https://help.unhcr.org/morocco/). Free legal & GBV assistance at 55 bis, bloc 4, Takaddom, Rabat (+212 537 80 54 35 / +212 666 58 43 61 / National line 8350)."
+    }
+  },
+  {
+    "id": "unhcr-tunisia-tunis-sfax-zarzis-1899",
+    "regionDistrict": "Tunis, Sfax & Zarzis / Médenine, Tunisia",
+    "type": "safe-haven",
+    "lat": 36.8485,
+    "lng": 10.1815,
+    "name": {
+      "en": "UNHCR Tunisia Protection Hub, ATFD / Beity Women’s Shelters & Ligne Verte VBG (1899) — Tunis, Sfax & Zarzis",
+      "fr": "HCR Tunisie, Centres d’Hébergement ATFD / Beity & Ligne Verte 1899 — Tunis, Sfax & Zarzis",
+      "ar": "المفوضية السامية لشؤون اللاجئين في تونس وجمعية النساء الديمقراطيات وبيتي والخط الأخضر (1899) — تونس وصفاقس وجرجيس"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Women’s Safe Haven & 24/7 Toll-Free VBG Line"
+    },
+    "phone": "1899",
+    "emergencyHotline": "1899 (Ligne Verte Nationale Gratuite VBG 24/7) / +216 71 967 273 (HCR Tunis)",
+    "address": {
+      "en": "Tunis (Lac 1), Sfax & Zarzis / Médenine, Tunisia"
+    },
+    "services": {
+      "en": [
+        "National 24/7 Toll-Free Violence Against Women Green Line (Dial 1899)",
+        "UNHCR Tunisia & Tunisian Refugee Council (CTR) GBV Case Management in Tunis, Sfax & Zarzis",
+        "ATFD (Association Tunisienne des Femmes Démocrates) & Beity Emergency Women’s Shelters",
+        "Free Medical, Psychological & Legal Support for Refugee, Migrant & Tunisian Women"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Tunisia (https://help.unhcr.org/tunisia/). Call 1899 toll-free 24/7 or contact UNHCR/CTR in Tunis, Sfax, and Zarzis."
+    }
+  },
+  {
+    "id": "unhcr-south-africa-0800100030-gbv-command",
+    "regionDistrict": "Pretoria, Johannesburg, Cape Town & Durban, South Africa",
+    "type": "safe-haven",
+    "lat": -25.7681,
+    "lng": 28.2295,
+    "name": {
+      "en": "UNHCR South Africa Toll-Free Helpline (0800 100 030) & National GBV Command Centre (0800 428 428) — Pretoria & Nationwide"
+    },
+    "categoryBadge": {
+      "en": "UNHCR & National 24/7 GBV Command Centre & Shelter Helpline"
+    },
+    "phone": "0800 428 428",
+    "emergencyHotline": "0800 428 428 (24/7 GBV Command Centre) / 0800 001 005 (National Shelter Helpline) / 0800 100 030 (UNHCR Toll-Free) / 0800 150 150 (Women Abuse Line)",
+    "address": {
+      "en": "Pretoria, Johannesburg, Cape Town & Durban, South Africa"
+    },
+    "services": {
+      "en": [
+        "UNHCR South Africa Toll-Free Refugee Helpline: 0800 100 030",
+        "24/7 National GBV Command Centre: 0800 428 428 (or Free USSD *120*7867#)",
+        "National Shelter Movement 24/7 Helpline: 0800 001 005 (WhatsApp 082 057 8600) & Women Abuse Line: 0800 150 150",
+        "Human Trafficking Hotline: 0800 222 777 & Thuthuzela Care Centres (24/7 Rape Crisis Clinics)"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help South Africa (https://help.unhcr.org/southafrica/). Call 0800 428 428 (GBV Command Centre), 0800 001 005 (Shelter Placement), or 0800 100 030 (UNHCR)."
+    }
+  },
+  {
+    "id": "unhcr-zambia-malawi-mozambique-zimbabwe-gbv",
+    "regionDistrict": "Lusaka (Zambia), Lilongwe (Malawi), Maputo (Mozambique) & Harare (Zimbabwe)",
+    "type": "safe-haven",
+    "lat": -15.4167,
+    "lng": 28.2833,
+    "name": {
+      "en": "UNHCR Southern Africa GBV Helplines: Zambia Lifeline (933 / 116), Malawi Tithandizane (5600), Mozambique (116) & Zimbabwe Musasa (0808 0074)"
+    },
+    "categoryBadge": {
+      "en": "UNHCR Verified Southern Africa Women’s Safe Havens & Toll-Free GBV Lines"
+    },
+    "phone": "933 / 116",
+    "emergencyHotline": "Zambia: 933 or 116 | Malawi: 5600 | Mozambique: 116 or 1458 | Zimbabwe Musasa: 0808 0074",
+    "address": {
+      "en": "Lusaka & Meheba/Mantapala (Zambia), Lilongwe & Dzaleka (Malawi), Maputo & Maratane/Pemba (Mozambique), Harare & Tongogara (Zimbabwe)"
+    },
+    "services": {
+      "en": [
+        "UNHCR Zambia & Lifeline/Childline GBV One-Stop Centers: Call 933 or 116 (Toll-Free 24/7)",
+        "UNHCR Malawi (Dzaleka Camp & Lilongwe) & Tithandizane GBV Helpline: Call 5600 (Toll-Free)",
+        "UNHCR Mozambique (Maputo, Nampula/Maratane & Pemba) GBV Helpline: Call 116 or Linha Verde 1458",
+        "UNHCR Zimbabwe (Harare & Tongogara Camp) & Musasa Project 24/7 Shelters: Call 0808 0074"
+      ]
+    },
+    "directionsText": {
+      "en": "Listed on UNHCR Help Zambia, Malawi, Mozambique & Zimbabwe. Toll-free GBV helplines: Zambia 933 / 116, Malawi 5600, Mozambique 116 / 1458, Zimbabwe Musasa 0808 0074."
+    }
+  },
+  {
+    "id": "wiki-nigeria-national-hosp-abuja-uath",
+    "regionDistrict": "Abuja (FCT), Nigeria",
+    "type": "hospital",
+    "lat": 9.0392,
+    "lng": 7.4638,
+    "name": {
+      "en": "National Hospital Abuja & University of Abuja Teaching Hospital (Gwagwalada) — Abuja"
+    },
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & Tertiary Referral Hospital"
+    },
+    "phone": "+234 803 787 9543",
+    "emergencyHotline": "112 (National Emergency) / 0800 033 3333 (GBV Line)",
+    "address": {
+      "en": "Plot 132 Central Business District, Abuja & Gwagwalada, FCT, Nigeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Labour Ward & Level III Neonatal ICU",
+        "High-Risk Maternal-Fetal Medicine, IVF & Gynecologic Oncology",
+        "24/7 Emergency Trauma & Sexual Assault Referral Care"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Nigeria. Tertiary federal referral and maternity hospitals in Abuja FCT."
+    }
+  },
+  {
+    "id": "wiki-nigeria-luth-lagos-island-maternity",
+    "regionDistrict": "Lagos, Lagos State, Nigeria",
+    "type": "hospital",
+    "lat": 6.5176,
+    "lng": 3.3539,
+    "name": {
+      "en": "Lagos University Teaching Hospital (LUTH), Lagos Island Maternity Hospital & LASUTH (Mirabel Centre) — Lagos"
+    },
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & University Teaching Hospitals"
+    },
+    "phone": "+234 807 059 1395",
+    "emergencyHotline": "112 / 767 (Lagos Emergency) / +234 815 577 0000 (Mirabel SARC)",
+    "address": {
+      "en": "Idi-Araba (Surulere), Campbell Street (Lagos Island) & Ikeja, Lagos, Nigeria"
+    },
+    "services": {
+      "en": [
+        "Lagos Island Maternity Hospital (Dedicated Specialist Women’s & Maternity Hospital)",
+        "LUTH Idi-Araba & LASUTH Ikeja 24/7 Obstetric Emergency, High-Risk Delivery & NICU",
+        "Mirabel Sexual Assault Referral Centre (Free Forensic, PEP & Counseling at LASUTH)"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Nigeria. Premier maternity and teaching hospitals in Lagos."
+    }
+  },
+  {
+    "id": "wiki-nigeria-uch-ibadan-akth-kano-ubth-benin",
+    "regionDistrict": "Ibadan (Oyo), Kano (Kano State), Benin City (Edo) & Sokoto, Nigeria",
+    "type": "hospital",
+    "lat": 7.4018,
+    "lng": 3.9016,
+    "name": {
+      "en": "University College Hospital (UCH Ibadan), Aminu Kano Teaching Hospital (Kano), UBTH (Benin City) & UDUTH (Sokoto)"
+    },
+    "categoryBadge": {
+      "en": "Federal University Teaching & Maternity Hospitals"
+    },
+    "phone": "+234 813 173 3447",
+    "emergencyHotline": "112 (Nigeria National Emergency)",
+    "address": {
+      "en": "Ibadan (Oyo State), Kano (Kano State), Benin City (Edo State) & Sokoto, Nigeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Tertiary Obstetrics, Gynecology, Safe Childbirth & Vesicovaginal Fistula (VVF) Repair",
+        "High-Risk Pregnancy, Neonatal Intensive Care & Maternal Triage",
+        "Hospital-Based Sexual Assault Referral Centres (SARCs)"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Nigeria. Major federal teaching and maternity hospitals across Oyo, Kano, Edo, and Sokoto."
+    }
+  },
+  {
+    "id": "wiki-ghana-korle-bu-ridge-37-ugmc-accra",
+    "regionDistrict": "Accra, Greater Accra Region, Ghana",
+    "type": "hospital",
+    "lat": 5.5369,
+    "lng": -0.2274,
+    "name": {
+      "en": "Korle-Bu Teaching Hospital, Greater Accra Regional Hospital (Ridge), 37 Military Hospital & UGMC — Accra"
+    },
+    "categoryBadge": {
+      "en": "National Women’s, Maternity & Teaching Hospitals"
+    },
+    "phone": "+233 30 266 5401",
+    "emergencyHotline": "112 (Ghana National Emergency) / 0800 111 222 (DOVVSU GBV Line)",
+    "address": {
+      "en": "Korle Gonno, Ridge, 37 Liberation Rd & Legon, Accra, Ghana"
+    },
+    "services": {
+      "en": [
+        "Korle-Bu Maternity Block & Ridge Hospital 24/7 Obstetric & Gynecologic Emergency",
+        "37 Military Hospital & University of Ghana Medical Centre (UGMC) High-Risk Maternity & NICU",
+        "Domestic Violence and Victim Support Unit (DOVVSU) One-Stop Centre at Korle-Bu"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Ghana. Flagship national referral and maternity hospitals in Accra (+233 30 266 5401)."
+    }
+  },
+  {
+    "id": "wiki-ghana-kath-kumasi-tamale-cape-coast-ho",
+    "regionDistrict": "Kumasi (Ashanti), Tamale (Northern), Cape Coast (Central) & Ho (Volta), Ghana",
+    "type": "hospital",
+    "lat": 6.6974,
+    "lng": -1.6291,
+    "name": {
+      "en": "Komfo Anokye Teaching Hospital (KATH Kumasi), Tamale Teaching Hospital, Cape Coast Teaching Hospital & Ho Teaching Hospital"
+    },
+    "categoryBadge": {
+      "en": "Regional University Teaching & Maternity Hospitals"
+    },
+    "phone": "+233 32 202 2301",
+    "emergencyHotline": "112 (Ghana National Emergency)",
+    "address": {
+      "en": "Kumasi (Ashanti Region), Tamale (Northern Region), Cape Coast & Ho, Ghana"
+    },
+    "services": {
+      "en": [
+        "KATH Mother and Baby Unit (Kumasi) & Regional Teaching Maternity Wards",
+        "24/7 Emergency Obstetrics, Cesarean Delivery, Fistula Care & Neonatal ICU",
+        "Adolescent & Women’s Reproductive Health & SGBV Forensic Care"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Ghana. Major regional teaching hospitals in Kumasi, Tamale, Cape Coast, and Ho."
+    }
+  },
+  {
+    "id": "wiki-senegal-hopital-principal-fann-abass-ndao-dakar",
+    "regionDistrict": "Dakar, Touba & Saint-Louis, Senegal",
+    "type": "hospital",
+    "lat": 14.6644,
+    "lng": -17.4342,
+    "name": {
+      "en": "Hôpital Principal de Dakar, CHU de Fann, Maternité Abass Ndao, HOGGY & Hôpital de Touba — Dakar & Regions",
+      "fr": "Hôpital Principal de Dakar, CHU de Fann, Maternité de l’Hôpital Abass Ndao, HOGGY & Hôpital de Touba"
+    },
+    "categoryBadge": {
+      "en": "National University Teaching & Maternity Hospitals"
+    },
+    "phone": "+221 33 839 50 50",
+    "emergencyHotline": "1515 (SAMU Sénégal) / 116 (Ligne Verte VBG)",
+    "address": {
+      "en": "Avenue Nelson Mandela (Plateau) & Avenue Cheikh Anta Diop (Fann), Dakar, Touba & Saint-Louis, Senegal"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Gynecology, High-Risk Maternity & Neonatal Resuscitation",
+        "Maternité Abass Ndao, Hôpital Principal (+221 33 839 50 50) & CHU de Fann (+221 33 869 18 18)",
+        "Prise en Charge Médicale et Médico-Légale des Survivantes de VBG"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Senegal. Premier public university and maternity hospitals in Dakar, Touba, and Saint-Louis."
+    }
+  },
+  {
+    "id": "wiki-cotedivoire-chu-cocody-treichville-yopougon-angre-abidjan",
+    "regionDistrict": "Abidjan, Bouaké & Yamoussoukro, Côte d’Ivoire",
+    "type": "hospital",
+    "lat": 5.3484,
+    "lng": -3.9876,
+    "name": {
+      "en": "CHU de Cocody, CHU de Treichville, CHU de Yopougon, CHU d’Angré, PISAM & CHR de Bouaké / Yamoussoukro — Côte d’Ivoire",
+      "fr": "CHU de Cocody, CHU de Treichville, CHU de Yopougon, CHU d’Angré, PISAM (Abidjan) & CHR de Bouaké / Yamoussoukro"
+    },
+    "categoryBadge": {
+      "en": "National University Teaching & Maternity Hospitals"
+    },
+    "phone": "+225 27 22 44 91 00",
+    "emergencyHotline": "185 (SAMU Côte d’Ivoire) / 1308 (Ligne Verte VBG)",
+    "address": {
+      "en": "Cocody, Treichville, Yopougon & Angré (Abidjan), Bouaké & Yamoussoukro, Côte d’Ivoire"
+    },
+    "services": {
+      "en": [
+        "24/7 University Maternity, Obstetric Emergency, High-Risk Pregnancy & NICU",
+        "Polyclinique Internationale Sainte Anne-Marie (PISAM: +225 27 22 48 31 31)",
+        "Cliniques d’Urgence VBG & Santé Maternelle et Infantile"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Ivory Coast. Major university hospitals (CHU) and polyclinics in Abidjan, Bouaké, and Yamoussoukro."
+    }
+  },
+  {
+    "id": "wiki-mali-chu-point-g-gabriel-toure-bamako",
+    "regionDistrict": "Bamako & Kati, Mali",
+    "type": "hospital",
+    "lat": 12.6685,
+    "lng": -7.9942,
+    "name": {
+      "en": "CHU du Point G, CHU Gabriel Touré, Hôpital du Mali & CHU de Kati — Bamako",
+      "fr": "Centre Hospitalier Universitaire du Point G, CHU Gabriel Touré & Hôpital du Mali — Bamako"
+    },
+    "categoryBadge": {
+      "en": "National University Teaching & Maternity Hospitals"
+    },
+    "phone": "+223 20 22 50 02",
+    "emergencyHotline": "15 (Ambulance) / 80 00 11 15 (Ligne Verte VBG Mali)",
+    "address": {
+      "en": "Colline du Point G & Centre Commercial (CHU Gabriel Touré: +223 20 22 27 12), Bamako, Mali"
+    },
+    "services": {
+      "en": [
+        "24/7 National Obstetric & Gynecologic Emergency, Maternity & Fistula Repair",
+        "One-Stop Center (Guichet Unique VBG) intégré au CHU Gabriel Touré & Point G",
+        "High-Risk Pregnancy, Neonatal Intensive Care & Surgery"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Mali. National university teaching and maternity hospitals in Bamako."
+    }
+  },
+  {
+    "id": "wiki-burkina-chu-yalgado-tengandogo-bobo",
+    "regionDistrict": "Ouagadougou & Bobo-Dioulasso, Burkina Faso",
+    "type": "hospital",
+    "lat": 12.3831,
+    "lng": -1.5065,
+    "name": {
+      "en": "CHU Yalgado Ouédraogo (CHU-YO), CHU de Tengandogo, CHU Pédiatrique Charles De Gaulle (Ouagadougou) & CHU Souro Sanou (Bobo-Dioulasso)",
+      "fr": "CHU Yalgado Ouédraogo, CHU de Tengandogo (Ouagadougou) & CHU Souro Sanou (Bobo-Dioulasso)"
+    },
+    "categoryBadge": {
+      "en": "National University Teaching & Maternity Hospitals"
+    },
+    "phone": "+226 25 31 16 55",
+    "emergencyHotline": "112 (Urgences) / 800 01 287 (HCR VBG) / 80 00 11 12 (VBG)",
+    "address": {
+      "en": "Ouagadougou (+226 25 31 16 55 / +226 25 37 51 50) & Bobo-Dioulasso (+226 20 97 00 44), Burkina Faso"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternité, Urgences Gynéco-Obstétricales, Césariennes & Néonatologie",
+        "Prise en Charge Médicale Gratuite des Survivantes de Violences Sexuelles (PEP 72h)",
+        "Réparation des Fistules Obstétricales et Soins Prénatals à Haut Risque"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Burkina Faso. Principal university hospitals in Ouagadougou and Bobo-Dioulasso."
+    }
+  },
+  {
+    "id": "wiki-guinea-donka-ignace-deen-conakry",
+    "regionDistrict": "Conakry, Guinea",
+    "type": "hospital",
+    "lat": 9.5358,
+    "lng": -13.6812,
+    "name": {
+      "en": "Donka National University Hospital, CHU Ignace Deen & Sino-Guinean Friendship Hospital — Conakry",
+      "fr": "Hôpital National Donka, CHU Ignace Deen & Hôpital de l’Amitié Sino-Guinéenne — Conakry"
+    },
+    "categoryBadge": {
+      "en": "National University Teaching & Maternity Hospitals"
+    },
+    "phone": "+224 622 25 33 71",
+    "emergencyHotline": "116 (OPROGEM Police Protection Femmes/Enfants) / 442-020 (SAMU)",
+    "address": {
+      "en": "Camayenne (Donka), Kaloum (Ignace Deen) & Kipé (Sino-Guinéen), Conakry, Guinea"
+    },
+    "services": {
+      "en": [
+        "24/7 National Maternity, Obstetrics, Gynecology & Neonatal Intensive Care",
+        "High-Risk Childbirth, Fistula Repair & Emergency Surgery",
+        "Medico-Legal & PEP Care with OPROGEM for GBV Survivors"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Guinea. Major public university teaching and maternity hospitals in Conakry."
+    }
+  },
+  {
+    "id": "wiki-sierra-leone-pcmh-connaught-freetown",
+    "regionDistrict": "Freetown, Makeni & Kenema, Sierra Leone",
+    "type": "hospital",
+    "lat": 8.4844,
+    "lng": -13.2145,
+    "name": {
+      "en": "Princess Christian Maternity Hospital (PCMH — Cottage Hospital), Connaught Hospital (Freetown) & Makeni / Kenema Government Hospitals"
+    },
+    "categoryBadge": {
+      "en": "National Dedicated Maternity & Referral Hospitals"
+    },
+    "phone": "+232 76 602 460",
+    "emergencyHotline": "116 (Rainbo Initiative Toll-Free GBV Line) / 117 (Medical Emergency)",
+    "address": {
+      "en": "Fourah Bay Road & Percival Street, Freetown (and Makeni & Kenema), Sierra Leone"
+    },
+    "services": {
+      "en": [
+        "Princess Christian Maternity Hospital (PCMH): Sierra Leone’s Flagship National Women’s & Maternity Referral Hospital",
+        "Rainbo Centre Co-Located at PCMH, Makeni & Kenema Hospitals (Free 24/7 Rape & GBV Medical/Psychosocial Care, Call 116)",
+        "24/7 Emergency Obstetrics, Cesarean Delivery & Neonatal ICU"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Sierra Leone. Includes Princess Christian Maternity Hospital (PCMH) and Rainbo Initiative GBV Centers (Call 116)."
+    }
+  },
+  {
+    "id": "wiki-liberia-jfkmc-redemption-elwa-monrovia",
+    "regionDistrict": "Monrovia & Ganta (Nimba County), Liberia",
+    "type": "hospital",
+    "lat": 6.2882,
+    "lng": -10.7712,
+    "name": {
+      "en": "John F. Kennedy Medical Center (JFKMC Maternity Center), Redemption Hospital, ELWA Hospital & St. Joseph’s Catholic Hospital — Monrovia"
+    },
+    "categoryBadge": {
+      "en": "National Referral, Maternity & Teaching Hospitals"
+    },
+    "phone": "+231 77 017 3251",
+    "emergencyHotline": "116 (Liberia GBV Helpline) / 911",
+    "address": {
+      "en": "Sinkor (Tubman Blvd), New Kru Town, Paynesville & Congo Town, Monrovia, Liberia"
+    },
+    "services": {
+      "en": [
+        "JFK Memorial Medical Center Japanese-Liberian Maternity Center (24/7 OB/GYN & NICU)",
+        "One-Stop SGBV Clinics at JFKMC, Redemption & Duport Road for Free 72-Hour Post-Rape Care",
+        "High-Risk Pregnancy, Fistula Rehabilitation & Maternal Emergency Triage"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Liberia. Premier national referral and maternity hospitals in Monrovia."
+    }
+  },
+  {
+    "id": "wiki-benin-togo-gambia-maternity-hospitals",
+    "regionDistrict": "Cotonou (Benin), Lomé (Togo) & Banjul (The Gambia)",
+    "type": "hospital",
+    "lat": 6.3562,
+    "lng": 2.4385,
+    "name": {
+      "en": "Hôpital de la Mère et de l’Enfant Lagune (HOMEL) & CNHU-HKM (Cotonou, Benin), CHU Sylvanus Olympio & Dogta-Lafiè (Lomé, Togo) & Edward Francis Small Teaching Hospital (Banjul, The Gambia)",
+      "fr": "Hôpital de la Mère et de l’Enfant Lagune (HOMEL) & CNHU Cotonou (Bénin), CHU Sylvanus Olympio (Lomé, Togo) & EFSTH Banjul (Gambie)"
+    },
+    "categoryBadge": {
+      "en": "National Mother-Child & University Teaching Hospitals"
+    },
+    "phone": "+229 21 30 06 56",
+    "emergencyHotline": "Benin: 112 / 138 | Togo: 1011 / 8200 | The Gambia: 1313 (GBV Helpline) / 116",
+    "address": {
+      "en": "Cotonou & Parakou (Benin), Lomé (Togo: +228 22 21 25 01) & Independence Drive, Banjul (The Gambia: +220 422 8223)"
+    },
+    "services": {
+      "en": [
+        "HOMEL Cotonou (Dedicated National Mother and Child Hospital in Benin: +229 21 31 32 26)",
+        "CHU Sylvanus Olympio & CHU Campus Maternity Wards in Lomé, Togo (+228 22 21 25 01)",
+        "Edward Francis Small Teaching Hospital (EFSTH) Maternity & One-Stop GBV Centre in Banjul, The Gambia (Helpline 1313)"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia Lists of hospitals in Benin, Togo, and The Gambia. Flagship national maternity and university teaching hospitals."
+    }
+  },
+  {
+    "id": "wiki-cameroon-hgopy-yaounde-central-douala",
+    "regionDistrict": "Yaoundé, Douala, Mbingo & Limbe, Cameroon",
+    "type": "hospital",
+    "lat": 3.8965,
+    "lng": 11.5342,
+    "name": {
+      "en": "Hôpital Gynéco-Obstétrique et Pédiatrique de Yaoundé (HGOPY), Yaoundé Central Hospital, CHU de Yaoundé & Douala General / Laquintinie Hospital — Cameroon",
+      "fr": "Hôpital Gynéco-Obstétrique et Pédiatrique de Yaoundé (HGOPY), Hôpital Central de Yaoundé & Hôpital Général / Laquintinie de Douala"
+    },
+    "categoryBadge": {
+      "en": "National Women’s, Gynaeco-Obstetric & Referral Hospitals"
+    },
+    "phone": "+237 222 21 24 30",
+    "emergencyHotline": "119 (SAMU Cameroun) / 116 (VBG)",
+    "address": {
+      "en": "Ngousso (HGOPY), Messa (Central Hospital), Yaoundé & Beedi / Akwa, Douala, Cameroon"
+    },
+    "services": {
+      "en": [
+        "HGOPY Yaoundé & HGOPED Douala: Dedicated National Gynaeco-Obstetric, Maternity & Pediatric Referral Hospitals",
+        "24/7 Obstetric Emergency, High-Risk Pregnancy, Fistula Repair & Neonatal Intensive Care",
+        "Prise en Charge Médicale et Médico-Légale des Survivantes de VBG"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Cameroon. Led by the dedicated Gynaeco-Obstetric and Pediatric Hospitals in Yaoundé (HGOPY) and Douala (HGOPED)."
+    }
+  },
+  {
+    "id": "wiki-chad-car-gabon-burundi-maternity-hospitals",
+    "regionDistrict": "N’Djamena (Chad), Bangui (CAR), Libreville / Lambaréné (Gabon) & Bujumbura / Gitega (Burundi)",
+    "type": "hospital",
+    "lat": 12.1125,
+    "lng": 15.0418,
+    "name": {
+      "en": "Hôpital de la Mère et de l’Enfant & HGRN (N’Djamena, Chad), CHU Communautaire & Amitié (Bangui, CAR), CHU de Libreville & Fondation Jeanne Ebori (Gabon) & CHU de Kamenge / Roi Khaled (Bujumbura, Burundi)",
+      "fr": "Hôpital de la Mère et de l’Enfant & HGRN (N’Djamena), Hôpital Communautaire de Bangui, Fondation Mère-Enfant Jeanne Ebori (Libreville) & CHU de Kamenge (Bujumbura)"
+    },
+    "categoryBadge": {
+      "en": "National Mother-Child & University Teaching Hospitals"
+    },
+    "phone": "+235 22 51 44 14",
+    "emergencyHotline": "Chad: 1300 | CAR: 1325 / 1220 | Gabon: 1300 / 1404 | Burundi: 112 / 116",
+    "address": {
+      "en": "N’Djamena (Chad), Bangui (CAR), Libreville & Lambaréné (Gabon), Bujumbura & Gitega (Burundi)"
+    },
+    "services": {
+      "en": [
+        "Hôpital de la Mère et de l’Enfant de N’Djamena & Hôpital de la Renaissance (Chad)",
+        "Maternité du Complexe Hospitalier Universitaire Communautaire de Bangui (CAR)",
+        "Centre Hospitalier Universitaire Mère-Enfant Fondation Jeanne Ebori & CHUL (Libreville) + Albert Schweitzer Hospital (Lambaréné, Gabon)",
+        "CHU de Kamenge (Roi Khaled), Hôpital Prince Régent Charles & Kira Hospital (Bujumbura, Burundi)"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia Lists of hospitals in Chad, Central African Republic, Gabon, and Burundi."
+    }
+  },
+  {
+    "id": "wiki-angola-lucrecia-paim-josina-machel-luanda",
+    "regionDistrict": "Luanda, Angola",
+    "type": "hospital",
+    "lat": -8.8214,
+    "lng": 13.2385,
+    "name": {
+      "en": "Lucrécia Paím Maternity Hospital (Maternidade Lucrécia Paím), Josina Machel Hospital, Américo Boavida Hospital & Clínica Girassol — Luanda",
+      "pt": "Maternidade Lucrécia Paím, Hospital Josina Machel, Hospital Universitário Américo Boavida & Clínica Sagrada Esperança / Girassol — Luanda"
+    },
+    "categoryBadge": {
+      "en": "National Dedicated Maternity & Tertiary Referral Hospitals"
+    },
+    "phone": "+244 222 330 520",
+    "emergencyHotline": "112 / 116 (SOS Criança & Violência Doméstica Angola) / 145",
+    "address": {
+      "en": "Ingombota / Maianga, Luanda, Angola"
+    },
+    "services": {
+      "en": [
+        "Maternidade Lucrécia Paím: Angola’s Premier National Specialized Women’s, Maternity & Neonatal Referral Hospital",
+        "24/7 Emergency Obstetrics, High-Risk Childbirth, Fistula Care & Gynecologic Oncology",
+        "Gabinete de Apoio à Vítima de Violência Doméstica & Sexual"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Angola. Headlined by Maternidade Lucrécia Paím (+244 222 330 520) in Luanda."
+    }
+  },
+  {
+    "id": "wiki-kenya-knh-pumwani-aga-khan-mtrh",
+    "regionDistrict": "Nairobi, Eldoret & Mombasa, Kenya",
+    "type": "hospital",
+    "lat": -1.3011,
+    "lng": 36.8072,
+    "name": {
+      "en": "Kenyatta National Hospital (KNH), Pumwani Maternity Hospital, Aga Khan University Hospital, Nairobi Hospital & Moi Teaching and Referral Hospital (Eldoret) — Kenya",
+      "sw": "Hospitali ya Taifa ya Kenyatta (KNH), Hospitali ya Uzazi ya Pumwani, Aga Khan na MTRH Eldoret — Kenya"
+    },
+    "categoryBadge": {
+      "en": "National Referral, Maternity & University Teaching Hospitals"
+    },
+    "phone": "+254 20 272 6300",
+    "emergencyHotline": "1195 (HAK 24/7 GBV Helpline) / 999 / 112",
+    "address": {
+      "en": "Hospital Rd (KNH), General Waruinge St (Pumwani Maternity), Parklands (Aga Khan), Nairobi & Nandi Rd (MTRH Eldoret), Kenya"
+    },
+    "services": {
+      "en": [
+        "Pumwani Maternity Hospital (East Africa’s Largest Specialist Maternity Hospital in Nairobi)",
+        "Kenyatta National Hospital (KNH) GBV Recovery Centre & High-Risk Obstetric Wards (+254 20 272 6300)",
+        "Moi Teaching and Referral Hospital (MTRH Eldoret) Riley Mother and Baby Hospital & Tumaini SGBV Center"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Kenya. Includes KNH, Pumwani Maternity Hospital, Aga Khan, Nairobi Hospital, and MTRH Riley Mother & Baby Hospital."
+    }
+  },
+  {
+    "id": "wiki-uganda-kawempe-mulago-lacor",
+    "regionDistrict": "Kampala, Gulu & Arua, Uganda",
+    "type": "hospital",
+    "lat": 0.3542,
+    "lng": 32.5635,
+    "name": {
+      "en": "Kawempe National Referral Maternity Hospital, Mulago Specialised Women and Neonatal Hospital, Mengo Hospital & St. Mary’s Hospital Lacor (Gulu) — Uganda"
+    },
+    "categoryBadge": {
+      "en": "National Dedicated Women’s, Maternity & Neonatal Referral Hospitals"
+    },
+    "phone": "+256 414 532 000",
+    "emergencyHotline": "116 (Uganda National GBV Line) / 0800 199 199 (Police Protection)",
+    "address": {
+      "en": "Kawempe & Mulago Hill (Kampala), Mengo (Kampala), Gulu (Lacor) & Arua, Uganda"
+    },
+    "services": {
+      "en": [
+        "Mulago Specialised Women and Neonatal Hospital & Kawempe National Referral Maternity Hospital (Delivering 25,000+ Babies/Year)",
+        "24/7 Emergency Obstetrics, Maternal ICU, Fistula Repair, Reproductive Oncology & IVF",
+        "Hospital GBV One-Stop Center for 72-Hour Post-Rape PEP, Forensic Exams & Trauma Support"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Uganda. Includes Mulago Specialised Women and Neonatal Hospital, Kawempe Maternity Hospital, and St. Mary’s Hospital Lacor."
+    }
+  },
+  {
+    "id": "wiki-tanzania-muhimbili-aga-khan-bugando-kcmc",
+    "regionDistrict": "Dar es Salaam, Mwanza, Dodoma & Moshi, Tanzania",
+    "type": "hospital",
+    "lat": -6.8055,
+    "lng": 39.2731,
+    "name": {
+      "en": "Muhimbili National Hospital (MNH Maternity Block), Aga Khan Hospital (Dar es Salaam), Bugando Medical Centre (Mwanza), Benjamin Mkapa (Dodoma) & KCMC (Moshi) — Tanzania",
+      "sw": "Hospitali ya Taifa Muhimbili (MNH), Aga Khan (Dar es Salaam), Bugando (Mwanza) na KCMC (Moshi) — Tanzania"
+    },
+    "categoryBadge": {
+      "en": "National Referral, Zonal & Maternity Hospitals"
+    },
+    "phone": "+255 22 215 1367",
+    "emergencyHotline": "116 (Tanzania GBV Helpline) / 112 (Emergency)",
+    "address": {
+      "en": "Kalenga St, Upanga West, Dar es Salaam (+255 22 215 1367), Mwanza, Dodoma & Moshi, Tanzania"
+    },
+    "services": {
+      "en": [
+        "Muhimbili National Hospital (MNH) Maternity & New-Born Blocks (Upanga & Mloganzila)",
+        "One-Stop Jawabu GBV & Child Abuse Centers at Muhimbili, Mwananyamala, Amana, Temeke, Bugando & KCMC",
+        "24/7 High-Risk Obstetrics, Fistula Surgery (CCBRT Partner) & Neonatal ICU"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Tanzania. Covers Muhimbili National Hospital, Aga Khan Dar es Salaam, Bugando Mwanza, Benjamin Mkapa Dodoma, and KCMC Moshi."
+    }
+  },
+  {
+    "id": "wiki-ethiopia-tikur-anbessa-gandhi-st-pauls-ayder",
+    "regionDistrict": "Addis Ababa, Mekelle & Dessie, Ethiopia",
+    "type": "hospital",
+    "lat": 9.0138,
+    "lng": 38.7522,
+    "name": {
+      "en": "Gandhi Memorial Maternity Hospital, Tikur Anbessa (Black Lion) Specialized Hospital, St. Paul’s Hospital Millennium Medical College (Michu Clinic) & Ayder Hospital (Mekelle) — Ethiopia",
+      "am": "ጋንዲ መታሰቢያ ሆስፒታል (የእናቶች ሆስፒታል)፣ ጥቁር አንበሳ ስፔሻላይዝድ ሆስፒታል፣ ቅዱስ ጳውሎስ ሆስፒታል እና ዓይደር ሆስፒታል"
+    },
+    "categoryBadge": {
+      "en": "National Dedicated Maternity & University Teaching Hospitals"
+    },
+    "phone": "+251 11 551 8185",
+    "emergencyHotline": "907 (Ambulance Addis Ababa) / 6388 or 7711 (GBV Hotlines)",
+    "address": {
+      "en": "Kirkos (Gandhi Memorial), Lideta (Tikur Anbessa: +251 11 551 1211), Gulele (St. Paul’s), Addis Ababa & Mekelle (Ayder), Ethiopia"
+    },
+    "services": {
+      "en": [
+        "Gandhi Memorial Hospital: Ethiopia’s Premier Public Hospital Dedicated Exclusively to Maternity, Obstetrics & Gynecology",
+        "St. Paul’s Hospital Michu Reproductive Health Clinic & One-Stop SGBV Survivor Center",
+        "Tikur Anbessa (Black Lion) & Hamlin Fistula Hospital Addis Ababa (+251 11 371 6544) & Ayder Specialized Hospital (Mekelle)"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Ethiopia. Includes Gandhi Memorial Maternity Hospital, Tikur Anbessa, St. Paul’s, Hamlin Fistula Hospital, and Ayder."
+    }
+  },
+  {
+    "id": "wiki-rwanda-chuk-king-faisal-military-kigali",
+    "regionDistrict": "Kigali & Butare (Huye), Rwanda",
+    "type": "hospital",
+    "lat": -1.9556,
+    "lng": 30.0605,
+    "name": {
+      "en": "University Teaching Hospital of Kigali (CHUK), King Faisal Hospital, Rwanda Military Hospital (Kanombe) & CHUB (Butare) — Rwanda",
+      "fr": "Centre Hospitalier Universitaire de Kigali (CHUK), Hôpital Roi Fayçal, Hôpital Militaire de Kanombe & CHUB (Huye)"
+    },
+    "categoryBadge": {
+      "en": "National Referral, Maternity & Isange One-Stop Hospitals"
+    },
+    "phone": "+250 788 304 005",
+    "emergencyHotline": "912 (SAMU Ambulance Rwanda) / 3512 (Isange One-Stop Center 24/7)",
+    "address": {
+      "en": "KN 4 Ave (CHUK), KG 544 St (King Faisal: +250 252 588 888 / 3939), Kanombe, Kigali & Huye, Rwanda"
+    },
+    "services": {
+      "en": [
+        "24/7 Tertiary Obstetrics, Gynecology, High-Risk Maternity & Level III Neonatal ICU",
+        "Co-Located Isange One-Stop Centers (Dial 3512 Toll-Free) for 24/7 SGBV Medical, Forensic, Psychological & Police Care",
+        "Maternal-Fetal Medicine, Gynecologic Oncology & Fertility Care"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Rwanda. Major national referral and maternity hospitals in Kigali and Huye."
+    }
+  },
+  {
+    "id": "wiki-egypt-kasr-al-ainy-ain-shams-dar-al-fouad-cairo",
+    "regionDistrict": "Cairo, Giza & Alexandria, Egypt",
+    "type": "hospital",
+    "lat": 30.0318,
+    "lng": 31.2285,
+    "name": {
+      "en": "Cairo University Hospitals (Kasr Al Ainy Maternity Hospital), Ain Shams University Maternity Hospital, El-Shatby Maternity Hospital (Alexandria), As-Salam International & Dar Al Fouad — Egypt",
+      "ar": "مستشفيات جامعة القاهرة (مستشفى النساء والتوليد بقصر العيني)، مستشفى الدمرداش للنساء والتوليد (عين شمس) ومستشفى الشاطبي للولادة بالإسكندرية"
+    },
+    "categoryBadge": {
+      "en": "National University Maternity & Tertiary Referral Hospitals"
+    },
+    "phone": "+20 2 2365 4060",
+    "emergencyHotline": "123 (Egypt Ambulance) / 15115 (National Council for Women GBV Hotline)",
+    "address": {
+      "en": "Manial (Kasr Al Ainy), Abbassia (Ain Shams), Maadi (As-Salam: 19885), 6th of October (Dar Al Fouad: 16370) & Alexandria (El-Shatby), Egypt"
+    },
+    "services": {
+      "en": [
+        "Kasr Al Ainy Obstetrics & Gynecology Hospital & Ain Shams University Maternity Hospital (24/7 Free/Public Emergency Maternity)",
+        "El-Shatby University Maternity Hospital in Alexandria (Largest Women’s Hospital in Northern Egypt)",
+        "University Hospital Safe Women’s Clinics (وحدات المرأة الآمنة) for Domestic & Sexual Violence Survivors"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Egypt. Includes Kasr Al Ainy Maternity, Ain Shams Maternity, El-Shatby Maternity Alexandria, As-Salam International, and Dar Al Fouad."
+    }
+  },
+  {
+    "id": "wiki-morocco-chu-ibn-rochd-rabat-souissi-marrakech",
+    "regionDistrict": "Rabat, Casablanca & Marrakech, Morocco",
+    "type": "hospital",
+    "lat": 33.9808,
+    "lng": -6.8542,
+    "name": {
+      "en": "Maternité Universitaire Souissi & CHU Ibn Sina (Rabat), CHU Ibn Rochd & Maternité Lalla Meryem (Casablanca) & CHU Mohammed VI (Marrakech) — Morocco",
+      "fr": "Maternité Universitaire Souissi & CHU Ibn Sina (Rabat), CHU Ibn Rochd & Maternité Lalla Meryem (Casablanca) & CHU Mohammed VI (Marrakech)",
+      "ar": "مستشفى الولادة السويسي والمركز الاستشفائي ابن سينا (الرباط)، مستشفى ابن رشد ومستشفى الولادة للا مريم (الدار البيضاء) ومستشفى محمد السادس (مراكش)"
+    },
+    "categoryBadge": {
+      "en": "National University Maternity & Referral Hospitals"
+    },
+    "phone": "+212 537 67 64 64",
+    "emergencyHotline": "141 (SAMU Maroc) / 8350 (Kolona Maak Women’s Helpline)",
+    "address": {
+      "en": "Souissi (Rabat: +212 537 67 64 64), Quartier des Hôpitaux (Casablanca: +212 522 48 20 20) & Marrakech (+212 524 30 07 00), Morocco"
+    },
+    "services": {
+      "en": [
+        "Maternité Universitaire Souissi (Rabat) & Maternité Lalla Meryem / Harouchi (Casablanca): Flagship 24/7 Women’s & Maternity Hospitals",
+        "Unités Intégrées de Prise en Charge des Femmes et Enfants Victimes de Violence (Hospital GBV Units)",
+        "High-Risk Pregnancy, Neonatal Intensive Care & Gynecologic Oncology"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Morocco. Covers CHU Ibn Sina & Maternité Souissi (Rabat), CHU Ibn Rochd (Casablanca), and CHU Mohammed VI (Marrakech)."
+    }
+  },
+  {
+    "id": "wiki-algeria-mustapha-pacha-nafissa-hamoud-oran",
+    "regionDistrict": "Algiers & Oran, Algeria",
+    "type": "hospital",
+    "lat": 36.7618,
+    "lng": 3.0552,
+    "name": {
+      "en": "CHU Mustapha Pacha, CHU Nafissa Hamoud (Ex-Parnet Women’s & Maternity Hospital), CHU Béni Messous (Algiers) & CHU d’Oran — Algeria",
+      "fr": "CHU Mustapha Pacha, CHU Nafissa Hamoud (Ex-Parnet Maternité), CHU Béni Messous (Alger) & CHU d’Oran",
+      "ar": "المستشفى الجامعي مصطفى باشا، مستشفى نفيسة حمود للأم والطفل (بارني سابقاً) بالجزائر العاصمة والمستشفى الجامعي بوهران"
+    },
+    "categoryBadge": {
+      "en": "National University Maternity & Tertiary Hospitals"
+    },
+    "phone": "+213 21 23 55 55",
+    "emergencyHotline": "14 (Protection Civile Ambulance) / 1548 (Police) / 1026 (Women’s Distress Line)",
+    "address": {
+      "en": "Place du 1er Mai (Mustapha Pacha), Hussein Dey (Nafissa Hamoud), Béni Messous (Algiers) & Oran, Algeria"
+    },
+    "services": {
+      "en": [
+        "CHU Nafissa Hamoud (Ex-Parnet) & CHU Mustapha Pacha 24/7 Obstetrics, Gynecology & High-Risk Maternity",
+        "Forensic Medicine (Médecine Légale) & Psychological Care for Women Victims of Violence",
+        "Neonatal ICU, Breast & Cervical Oncology (EHS Pierre et Marie Curie)"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Algeria. Major university and maternity hospitals in Algiers and Oran."
+    }
+  },
+  {
+    "id": "wiki-tunisia-wassila-bourguiba-charles-nicolle-tunis",
+    "regionDistrict": "Tunis, Sousse & Sfax, Tunisia",
+    "type": "hospital",
+    "lat": 36.8012,
+    "lng": 10.1615,
+    "name": {
+      "en": "Centre de Maternité et de Néonatologie de Tunis (Wassila Bourguiba — La Rabta), Hôpital Charles Nicolle, Hôpital Aziza Othmana (Tunis), CHU Sahloul (Sousse) & CHU Habib Bourguiba (Sfax)",
+      "fr": "Centre de Maternité et de Néonatologie de Tunis (La Rabta), Hôpital Charles Nicolle (Tunis), CHU Sahloul (Sousse) & CHU Habib Bourguiba (Sfax)",
+      "ar": "مركز التوليد وطب الرضع بتونس (وسيلة بورقيبة - الرابطة)، مستشفى شارل نيكول بتونس والمستشفيات الجامعية بسوسة وصفاقس"
+    },
+    "categoryBadge": {
+      "en": "National Dedicated Maternity, Neonatology & University Hospitals"
+    },
+    "phone": "+216 71 577 800",
+    "emergencyHotline": "190 (SAMU Tunisie) / 1899 (Ligne Verte VBG 24/7)",
+    "address": {
+      "en": "Jebel Lakhdar / La Rabta (Tunis: +216 71 577 800), Sousse (+216 73 369 411) & Sfax (+216 74 240 855), Tunisia"
+    },
+    "services": {
+      "en": [
+        "Centre de Maternité et de Néonatologie de Tunis (Largest Dedicated Women’s & Maternity Hospital in Tunisia, ~15,000 Births/Year)",
+        "24/7 Emergency Obstetrics, High-Risk Pregnancy, Reproductive Medicine & Level III NICU",
+        "Direct Referral Partner with ONFP Sexual & Domestic Violence Units (Ligne 1899)"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Tunisia. Headlined by the Centre de Maternité et de Néonatologie de Tunis (La Rabta)."
+    }
+  },
+  {
+    "id": "wiki-libya-tripoli-medical-al-jalaa-maternity-benghazi",
+    "regionDistrict": "Tripoli, Benghazi & Misrata, Libya",
+    "type": "hospital",
+    "lat": 32.8635,
+    "lng": 13.2248,
+    "name": {
+      "en": "Al-Jalaa Maternity and Gynecology Hospital (Tripoli), Tripoli University Hospital (Tripoli Medical Center), Benghazi Medical Center & Misrata Medical Center — Libya",
+      "ar": "مستشفى الجلاء للنساء والولادة بطرابلس، مستشفى طرابلس الجامعي، مركز بنغازي الطبي ومركز مصراتة الطبي"
+    },
+    "categoryBadge": {
+      "en": "National Dedicated Maternity & University Hospitals"
+    },
+    "phone": "+218 21 462 3191",
+    "emergencyHotline": "1515 (Ambulance Libya) / 1417 (National VAW Helpline) / 1504 (UNHCR)",
+    "address": {
+      "en": "Furnaj (Tripoli University Hospital) & Al-Andalus / Central Tripoli (Al-Jalaa Maternity), Benghazi & Misrata, Libya"
+    },
+    "services": {
+      "en": [
+        "Al-Jalaa Hospital for Women and Maternity (Tripoli’s Flagship Public Obstetrics & Gynecology Hospital)",
+        "Tripoli University Hospital, Benghazi Medical Center & Misrata Medical Center 24/7 Maternity & NICU",
+        "UNFPA / Ministry of Health Safe Maternal & Emergency Obstetric Care"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Libya. Includes Al-Jalaa Maternity Hospital Tripoli, Tripoli University Hospital, Benghazi Medical Center, and Misrata Medical Center."
+    }
+  },
+  {
+    "id": "wiki-south-africa-baragwanath-groote-schuur-mowbray-luthuli",
+    "regionDistrict": "Johannesburg (Soweto), Cape Town & Durban, South Africa",
+    "type": "hospital",
+    "lat": -26.2597,
+    "lng": 27.9401,
+    "name": {
+      "en": "Chris Hani Baragwanath Academic Hospital (Soweto), Charlotte Maxeke Johannesburg Hospital, Groote Schuur & Mowbray Maternity Hospital (Cape Town) & Inkosi Albert Luthuli Central Hospital (Durban) — South Africa"
+    },
+    "categoryBadge": {
+      "en": "National Academic, Maternity & Thuthuzela Rape Care Hospitals"
+    },
+    "phone": "+27 11 933 8000",
+    "emergencyHotline": "0800 428 428 (GBV Command Centre) / 10177 (Ambulance) / 112",
+    "address": {
+      "en": "26 Chris Hani Rd, Soweto (+27 11 933 8000), Parktown Johannesburg (+27 11 488 4911), Observatory/Mowbray Cape Town (+27 21 404 9111 / +27 21 659 4111) & Durban (+27 31 240 1000), South Africa"
+    },
+    "services": {
+      "en": [
+        "Chris Hani Baragwanath Academic Hospital (Largest Hospital in Africa, Delivering 20,000+ Babies/Year) & Mowbray Maternity Hospital (Cape Town)",
+        "Co-Located 24/7 Thuthuzela Care Centres (One-Stop Forensic, Medical PEP, Psychological & Legal Rape Crisis Clinics)",
+        "High-Risk Maternal-Fetal Medicine, Termination of Pregnancy (Choice on Termination of Pregnancy Act) & Level III NICU"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in South Africa. Flagship academic and maternity hospitals across Johannesburg, Cape Town, and Durban."
+    }
+  },
+  {
+    "id": "wiki-zimbabwe-parirenyatwa-sally-mugabe-mpilo",
+    "regionDistrict": "Harare & Bulawayo, Zimbabwe",
+    "type": "hospital",
+    "lat": -17.8012,
+    "lng": 31.0458,
+    "name": {
+      "en": "Parirenyatwa Group of Hospitals (Mbuya Nehanda Maternity Hospital), Sally Mugabe Central Hospital (Harare) & Mpilo Central Hospital (Bulawayo) — Zimbabwe"
+    },
+    "categoryBadge": {
+      "en": "National Referral & Dedicated Maternity Hospitals"
+    },
+    "phone": "+263 242 701 555",
+    "emergencyHotline": "0808 0074 (Musasa 24/7 GBV Helpline) / 575 (Adult Rape Clinic Toll-Free) / 999",
+    "address": {
+      "en": "Mazowe Street (Parirenyatwa), Southerton (Sally Mugabe), Harare & Vera Road (Mpilo), Bulawayo, Zimbabwe"
+    },
+    "services": {
+      "en": [
+        "Mbuya Nehanda Maternity Hospital & Adult Rape Clinic (ARC — Toll-Free 0808 0472 / 575) at Parirenyatwa Hospital, Harare",
+        "Sally Mugabe (Harare Central) Maternity Hospital & Edith Opperman Maternity Wing",
+        "Mpilo Central Hospital & United Bulawayo Hospitals (UBH) 24/7 Maternity & SGBV One-Stop Clinics"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Zimbabwe. Includes Mbuya Nehanda Maternity Hospital and the Adult Rape Clinic at Parirenyatwa (Harare), Sally Mugabe Hospital, and Mpilo Bulawayo."
+    }
+  },
+  {
+    "id": "wiki-zambia-uth-women-newborn-levy-mwanawasa-ndola",
+    "regionDistrict": "Lusaka, Ndola & Kitwe, Zambia",
+    "type": "hospital",
+    "lat": -15.4342,
+    "lng": 28.3125,
+    "name": {
+      "en": "University Teaching Hospital — Women and Newborn Hospital (UTH Lusaka), Levy Mwanawasa University Teaching Hospital, Ndola Teaching Hospital & Kitwe Teaching Hospital — Zambia"
+    },
+    "categoryBadge": {
+      "en": "National Dedicated Women’s, Newborn & Teaching Hospitals"
+    },
+    "phone": "+260 211 251 451",
+    "emergencyHotline": "933 or 116 (Zambia Toll-Free GBV Helpline) / 991",
+    "address": {
+      "en": "Nationalist Road, Ridgeway, Lusaka (+260 211 251 451), Great East Rd (Levy Mwanawasa), Ndola & Kitwe, Zambia"
+    },
+    "services": {
+      "en": [
+        "UTH Women and Newborn Hospital: Zambia’s Dedicated National Tertiary Hospital for Obstetrics, Gynecology & Neonatology",
+        "24/7 One-Stop Gender-Based Violence (GBV) & Fast-Track Survivor Clinic at UTH, Levy Mwanawasa, Ndola & Kitwe",
+        "High-Risk Pregnancy, Fistula Repair, Cervical Cancer Screening & NICU"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia List of hospitals in Zambia. Led by the dedicated UTH Women and Newborn Hospital in Lusaka."
+    }
+  },
+  {
+    "id": "wiki-malawi-mozambique-central-maternity-hospitals",
+    "regionDistrict": "Blantyre & Lilongwe (Malawi) and Maputo, Beira & Nampula (Mozambique)",
+    "type": "hospital",
+    "lat": -15.8021,
+    "lng": 35.0185,
+    "name": {
+      "en": "Queen Elizabeth Central Hospital (Chatinkha Maternity Wing — Blantyre) & Kamuzu Central Hospital / Bwaila Maternity (Lilongwe, Malawi) & Maputo / Beira / Nampula Central Hospitals (Mozambique)",
+      "pt": "Hospital Central de Maputo, Beira e Nampula (Moçambique) & Queen Elizabeth / Kamuzu Central Hospitals (Malawi)"
+    },
+    "categoryBadge": {
+      "en": "National Central & Maternity Referral Hospitals"
+    },
+    "phone": "+265 1 874 333",
+    "emergencyHotline": "Malawi: 5600 (GBV Toll-Free) | Mozambique: 116 / 1458",
+    "address": {
+      "en": "Blantyre & Lilongwe (Malawi) | Avenida Agostinho Neto, Maputo (+258 21 357 900), Beira & Nampula (Mozambique)"
+    },
+    "services": {
+      "en": [
+        "Chatinkha Maternity Wing & One-Stop Chikwanekwane GBV Center at Queen Elizabeth Central Hospital (Blantyre)",
+        "Kamuzu Central Hospital & Bwaila Maternity Hospital (Ethel Mutharika Maternity Wing — Lilongwe, Malawi)",
+        "Hospital Central de Maputo, Beira & Nampula 24/7 Maternity & Centro de Atendimento Integrado (CAI) for GBV Survivors in Mozambique"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia Lists of hospitals in Malawi and Mozambique."
+    }
+  },
+  {
+    "id": "wiki-namibia-botswana-eswatini-lesotho-hospitals",
+    "regionDistrict": "Windhoek (Namibia), Gaborone / Francistown (Botswana), Mbabane / Manzini (Eswatini) & Maseru (Lesotho)",
+    "type": "hospital",
+    "lat": -22.5562,
+    "lng": 17.0745,
+    "name": {
+      "en": "Windhoek Central & Katutura State Hospitals (Namibia), Princess Marina & Nyangabgwe Hospitals (Botswana), Mbabane Govt & RFM Hospitals (Eswatini) & Queen ’Mamohato Memorial Hospital (Maseru, Lesotho)"
+    },
+    "categoryBadge": {
+      "en": "National Referral, Maternity & GBV Protection Hospitals"
+    },
+    "phone": "+264 61 203 3111",
+    "emergencyHotline": "Namibia: 106 (GBV) | Botswana: 997 / 0800 600 144 | Eswatini: 951 / 977 | Lesotho: 112 / 116",
+    "address": {
+      "en": "Windhoek (Namibia: +264 61 203 3111), Gaborone (Botswana: +267 362 1400), Mbabane/Manzini (Eswatini: +268 2404 2111) & Maseru (Lesotho: +266 2222 0000)"
+    },
+    "services": {
+      "en": [
+        "Windhoek Central & Katutura State Hospitals (Namibia) with Co-Located Gender-Based Violence Protection Units",
+        "Princess Marina Hospital (Gaborone) & Nyangabgwe Referral Hospital (Francistown, Botswana) 24/7 Maternity & NICU",
+        "Mbabane Government & RFM Hospital Manzini (Eswatini) & Queen ’Mamohato Memorial Hospital (Maseru, Lesotho)"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia Lists of hospitals in Namibia, Botswana, Eswatini, and Lesotho."
+    }
+  },
+  {
+    "id": "wiki-eritrea-djibouti-madagascar-hospitals",
+    "regionDistrict": "Asmara (Eritrea), Djibouti City (Djibouti) & Antananarivo (Madagascar)",
+    "type": "hospital",
+    "lat": 15.3385,
+    "lng": 38.9312,
+    "name": {
+      "en": "Orotta National Referral & Maternity Hospital (Asmara, Eritrea), Hôpital Général Peltier & Dar El Hanan Maternity (Djibouti) & HJRA / Befelatanana Maternity University Hospital (Antananarivo, Madagascar)",
+      "fr": "Hôpital Général Peltier & Maternité Dar El Hanan (Djibouti), CHU Joseph Ravoahangy Andrianavalona (HJRA) & Maternité de Befelatanana (Antananarivo) & Hôpital Orotta (Asmara)"
+    },
+    "categoryBadge": {
+      "en": "National Referral & Dedicated Maternity Hospitals"
+    },
+    "phone": "+291 1 202 914",
+    "emergencyHotline": "Eritrea: 114 | Djibouti: +253 21 35 27 12 / 19 | Madagascar: 147 / 813 (VBG Green Line)",
+    "address": {
+      "en": "Asmara (Eritrea), Djibouti City (Djibouti: +253 21 35 27 12) & Antananarivo (Madagascar: +261 20 22 279 79)"
+    },
+    "services": {
+      "en": [
+        "Orotta National Referral Maternity & Gynecology Hospital and Halibet / Sembel Hospitals (Asmara, Eritrea)",
+        "Hôpital Général Peltier, Maternité Dar El Hanan & Hôpital Militaire Bouffard (Djibouti City)",
+        "CHU de Gynécologie-Obstétrique de Befelatanana & Hôpital HJRA (Antananarivo, Madagascar — Vonjy VBG One-Stop Center)"
+      ]
+    },
+    "directionsText": {
+      "en": "From Wikipedia Lists of hospitals in Eritrea, Djibouti, and Madagascar."
+    }
   }
 ];

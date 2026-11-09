@@ -134812,5 +134812,275 @@ export const WORLD_CENTERS_DIRECTORY = [
       "en": "VH6Q+8HR (UN Women) and Block 3K South (Danish Refugee Council), Juba, South Sudan."
     },
     "website": "https://southsudan.iom.int/"
+  },
+  {
+    "id": "ss-wiki-aweil-civil-hospital",
+    "regionDistrict": "Aweil Town, Northern Bahr el Ghazal, South Sudan",
+    "type": "obgyn",
+    "lat": 8.7681,
+    "lng": 27.3998,
+    "name": {
+      "en": "Aweil Civil Hospital (Aweil State Hospital — MSF-Supported Maternity & Pediatric Wing)"
+    },
+    "categoryBadge": {
+      "en": "State Referral Hospital — 24/7 Maternity, Emergency Obstetrics & Neonatal Care (Aweil)"
+    },
+    "phone": "+211 922 205 374 / 662 / 777",
+    "emergencyHotline": "662 / 777 (GBV & Emergency Helpline South Sudan)",
+    "address": {
+      "en": "Aweil Town, Northern Bahr el Ghazal State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Free Maternity, High-Risk Obstetrics, C-Section & Neonatal Care (Supported by MSF)",
+        "Clinical Management of Rape (CMR) & Referral to Aweil Women Empowerment Centre"
+      ]
+    },
+    "directionsText": {
+      "en": "Aweil Town, Northern Bahr el Ghazal State, South Sudan."
+    }
+  },
+  {
+    "id": "ss-wiki-bentiu-civil-hospital",
+    "regionDistrict": "Bentiu, Unity State, South Sudan",
+    "type": "obgyn",
+    "lat": 9.2333,
+    "lng": 29.8333,
+    "name": {
+      "en": "Bentiu Civil Hospital (Bentiu State Hospital & MSF Camp Hospital — Unity State)"
+    },
+    "categoryBadge": {
+      "en": "State Referral & Humanitarian Hospital — 24/7 Maternity & SGBV Care (Bentiu)"
+    },
+    "phone": "662 / 777",
+    "emergencyHotline": "662 / 777 (GBV & Emergency Helpline South Sudan)",
+    "address": {
+      "en": "Bentiu Town & Bentiu IDP Camp Sector, Unity State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetric & Gynecological Care, Safe Delivery & Fistula Referral",
+        "Confidential 72-Hour Post-Assault Medical & Psychosocial Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Bentiu, Unity State, South Sudan."
+    }
+  },
+  {
+    "id": "ss-wiki-malakal-teaching-hospital",
+    "regionDistrict": "Malakal, Upper Nile State, South Sudan",
+    "type": "obgyn",
+    "lat": 9.5334,
+    "lng": 31.6605,
+    "name": {
+      "en": "Malakal Teaching Hospital (Upper Nile State Referral & Maternity Hospital)"
+    },
+    "categoryBadge": {
+      "en": "Regional Teaching Hospital — 24/7 Maternity, OB/GYN & Emergency Care (Malakal)"
+    },
+    "phone": "662 / 777",
+    "emergencyHotline": "662 / 777 (GBV & Emergency Helpline South Sudan)",
+    "address": {
+      "en": "Malakal Town, Upper Nile State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Maternity Ward, C-Section & Pediatric Care",
+        "One-Stop GBV & Maternal Health Referral for Upper Nile State"
+      ]
+    },
+    "directionsText": {
+      "en": "Malakal Town, Upper Nile State, South Sudan."
+    }
+  },
+  {
+    "id": "ss-wiki-wau-teaching-hospital",
+    "regionDistrict": "Wau, Western Bahr el Ghazal, South Sudan",
+    "type": "obgyn",
+    "lat": 7.7028,
+    "lng": 27.995,
+    "name": {
+      "en": "Wau Teaching Hospital & St. Daniel Comboni Catholic Hospital (Wau)"
+    },
+    "categoryBadge": {
+      "en": "Regional Teaching & Catholic Referral Hospitals — 24/7 Maternity & OB/GYN (Wau)"
+    },
+    "phone": "+211 924 489 100 / +211 924 883 349",
+    "emergencyHotline": "662 / 777 / +211 924 489 100",
+    "address": {
+      "en": "Wau Town, Western Bahr el Ghazal State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Fistula Repair & Neonatal Intensive Care",
+        "Integrated One-Stop GBV Care & Referral to WDG and Mary Help Centre Wau"
+      ]
+    },
+    "directionsText": {
+      "en": "Wau Town, Western Bahr el Ghazal State, South Sudan."
+    }
+  },
+  {
+    "id": "ss-wiki-juba-al-sabah-complex",
+    "regionDistrict": "Juba, Central Equatoria, South Sudan",
+    "type": "obgyn",
+    "lat": 4.8495,
+    "lng": 31.6012,
+    "name": {
+      "en": "Al-Sabah Children’s & Maternal Hospital, Juba Medical Complex, Giada Military Hospital & Gurei Medical Center (Juba)"
+    },
+    "categoryBadge": {
+      "en": "Juba Specialized Maternal, Pediatric & Multi-Specialty Hospitals"
+    },
+    "phone": "+211 912 544 114 / +211 929 463 206 / 662",
+    "emergencyHotline": "662 / 777",
+    "address": {
+      "en": "Juba Center, Giada & Gurei, Juba, Central Equatoria State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Al-Sabah Hospital: National Pediatric, Neonatal & Maternal Nutrition Referral Hospital",
+        "Juba Medical Complex, Prime Hospital, AMI South Sudan Clinic & Gurei Medical Center: 24/7 OB/GYN, Ultrasound & Safe Delivery"
+      ]
+    },
+    "directionsText": {
+      "en": "Juba Center and Gurei, Juba, Central Equatoria State, South Sudan."
+    }
+  },
+  {
+    "id": "ss-wiki-bor-state-hospital",
+    "regionDistrict": "Bor, Jonglei State, South Sudan",
+    "type": "obgyn",
+    "lat": 6.2059,
+    "lng": 31.5564,
+    "name": {
+      "en": "Bor State Hospital (Jonglei State Referral & Maternity Hospital)"
+    },
+    "categoryBadge": {
+      "en": "State Referral Hospital — 24/7 Maternity, OB/GYN & One-Stop GBV Center (Bor)"
+    },
+    "phone": "662 / 777",
+    "emergencyHotline": "662 / 777 (GBV & Emergency Helpline South Sudan)",
+    "address": {
+      "en": "Bor Town, Jonglei State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetric Care, C-Section, Prenatal Care & Safe Delivery",
+        "UNFPA-Supported One-Stop GBV & Maternal Health Unit"
+      ]
+    },
+    "directionsText": {
+      "en": "Bor Town, Jonglei State, South Sudan."
+    }
+  },
+  {
+    "id": "ss-wiki-rumbek-state-hospital",
+    "regionDistrict": "Rumbek, Lakes State, South Sudan",
+    "type": "obgyn",
+    "lat": 6.8062,
+    "lng": 29.6784,
+    "name": {
+      "en": "Rumbek State Hospital (Lakes State Referral & Maternity Hospital)"
+    },
+    "categoryBadge": {
+      "en": "State Referral Hospital — 24/7 Maternity, OB/GYN & Fistula Care (Rumbek)"
+    },
+    "phone": "662 / 777",
+    "emergencyHotline": "662 / 777 (GBV & Emergency Helpline South Sudan)",
+    "address": {
+      "en": "Rumbek Town, Lakes State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Emergency Obstetrics & Gynecological Surgery",
+        "Clinical Care for Survivors of Gender-Based Violence"
+      ]
+    },
+    "directionsText": {
+      "en": "Rumbek Town, Lakes State, South Sudan."
+    }
+  },
+  {
+    "id": "ss-wiki-torit-nimule-hospitals",
+    "regionDistrict": "Torit & Nimule, Eastern Equatoria State, South Sudan",
+    "type": "obgyn",
+    "lat": 4.4081,
+    "lng": 32.5705,
+    "name": {
+      "en": "Torit State General Hospital & Nimule Hospital (Eastern Equatoria State)"
+    },
+    "categoryBadge": {
+      "en": "State & Border Referral Hospitals — 24/7 Maternity & OB/GYN (Torit & Nimule)"
+    },
+    "phone": "662 / 777",
+    "emergencyHotline": "662 / 777 (GBV & Emergency Helpline South Sudan)",
+    "address": {
+      "en": "Torit Town & Nimule Border Town, Eastern Equatoria State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Maternity Ward, Prenatal Care & Post-Assault Care",
+        "Serving Torit, Nimule and Cross-Border Displaced Women"
+      ]
+    },
+    "directionsText": {
+      "en": "Torit Town and Nimule, Eastern Equatoria State, South Sudan."
+    }
+  },
+  {
+    "id": "ss-wiki-yambio-maridi-lui-hospitals",
+    "regionDistrict": "Yambio, Maridi & Lui (Mundri East), Western Equatoria State, South Sudan",
+    "type": "obgyn",
+    "lat": 4.5721,
+    "lng": 28.3955,
+    "name": {
+      "en": "Yambio State Hospital, Maridi County Hospital & Lui Hospital (Western Equatoria State)"
+    },
+    "categoryBadge": {
+      "en": "State & Mission Referral Hospitals — 24/7 Maternity, Midwifery & OB/GYN (Western Equatoria)"
+    },
+    "phone": "662 / 777",
+    "emergencyHotline": "662 / 777 (GBV & Emergency Helpline South Sudan)",
+    "address": {
+      "en": "Yambio, Maridi & Lui (Mundri East), Western Equatoria State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "Yambio State Hospital, Maridi Hospital (with Maridi Health Sciences Institute Midwifery School) & CUAMM-Supported Lui Hospital",
+        "24/7 Comprehensive Emergency Obstetric & Newborn Care (CEmONC) and GBV Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Yambio, Maridi and Lui, Western Equatoria State, South Sudan."
+    }
+  },
+  {
+    "id": "ss-wiki-kuajok-state-hospital",
+    "regionDistrict": "Kuajok, Warrap State, South Sudan",
+    "type": "obgyn",
+    "lat": 8.3005,
+    "lng": 27.9912,
+    "name": {
+      "en": "Kuajok State Hospital (Warrap State Referral & Maternity Hospital)"
+    },
+    "categoryBadge": {
+      "en": "State Referral Hospital — 24/7 Maternity & OB/GYN (Kuajok)"
+    },
+    "phone": "+211 925 644 831 / 662 / 777",
+    "emergencyHotline": "662 / 777 / +211 925 644 831",
+    "address": {
+      "en": "Kuajok Town, Warrap State, South Sudan"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Emergency Obstetrics & Neonatal Care",
+        "Partnered with Warrap State Women’s Union (+211 925 644 831) for Survivor Protection"
+      ]
+    },
+    "directionsText": {
+      "en": "Kuajok Town, Warrap State, South Sudan."
+    }
   }
 ];

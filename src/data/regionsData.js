@@ -1,5 +1,5 @@
 // Regions, Upazila District Polygons (matching the Cox's Bazar sketch), Women's Safe Havens, OB/GYN Clinics, Emergency Contacts & Public Health News
-import { WORLD_CENTERS_DIRECTORY } from './worldCentersDirectory.js?v=147';
+import { WORLD_CENTERS_DIRECTORY } from './worldCentersDirectory.js?v=148';
 
 export const FEATURED_REGIONS = [
   {

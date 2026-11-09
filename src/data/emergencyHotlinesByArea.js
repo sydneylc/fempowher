@@ -657,8 +657,29 @@ export const NATIONAL_CRISIS_DIRECTORY = {
     crisisLines: []
   },
   sudan: {
-    emergencyNumber: '999 (National Emergency)',
-    crisisLines: []
+    emergencyNumber: '999 (National Emergency) / 136 (CVAW National SGBV Helpline)',
+    crisisLines: [
+      'Combating Violence Against Women Unit (CVAW National SGBV Helpline): Call 136',
+      'SEEMA Center for Protection of Women & Child Rights & Mutawinat Legal Aid: Call 136'
+    ]
+  },
+  chad: {
+    emergencyNumber: '17 (Police) / 1313 (SAMU Medical Emergency) / 116 (VBG & Child Protection)',
+    crisisLines: [
+      'Association des Femmes Juristes du Tchad (APLFT — Legal Aid & VBG Listening Cells): Call +235 66 29 09 61',
+      'Maison Nationale de la Femme & CELIAF (N’Djamena): Call +235 22 52 21 66 / +235 66 29 09 61',
+      'UNHCR, HIAS & CRT Refugee Camp GBV Safe Spaces (Adré, Farchana, Bredjing, Treguine, Iriba, Guéréda, Goz Beïda, Goré, Maro & Baga Sola): Call 116 or +235 68 00 10 10',
+      'CHU de la Mère et de l’Enfant (HME N’Djamena — 24/7 Maternity & Fistula Center): Call +235 22 52 30 30'
+    ]
+  },
+  gabon: {
+    emergencyNumber: '1300 (SAMU Gabon Medical Emergency) / 1730 (Police) / 1404 (Numéro Vert VBG)',
+    crisisLines: [
+      'Numéro Vert National VBG (Gabon Égalité — 24/7 Toll-Free Domestic & Gender-Based Violence Helpline): Call 1404',
+      'Centre d’Accueil Gabon Égalité (Nzeng-Ayong Safe Shelter & Legal Clinic, Libreville): Call 1404 / +241 011 76 00 00',
+      'Observatoire des Droits de la Femme et de la Parité (ODEFPA) & ReFLeT Legal Clinic: Call +241 011 73 57 38 / 1404',
+      'CHU Mère-Enfant Fondation Jeanne Ebori (24/7 Obstetrics, Maternity & SGBV Clinical Care, Libreville): Call +241 011 72 20 10 / 1300'
+    ]
   },
   'south sudan': {
     emergencyNumber: '777 (National Police Emergency) / 112',

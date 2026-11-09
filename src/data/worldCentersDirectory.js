@@ -135082,5 +135082,308 @@ export const WORLD_CENTERS_DIRECTORY = [
     "directionsText": {
       "en": "Kuajok Town, Warrap State, South Sudan."
     }
-  }
+  },
+{
+  "id": "gnws-hq-valente-hague-netherlands",
+  "type": "Safe Haven",
+  "lat": 52.0786,
+  "lng": 4.3007,
+  "phone": "0800-2000",
+  "country": "Netherlands",
+  "region": "South Holland",
+  "city": "The Hague",
+  "website": "https://gnws.org/about-us/who-we-are/",
+  "names": {
+    "en": "GNWS Foundation HQ & Valente (Dutch Network of Women’s Shelters / Lila.help) — The Hague",
+    "nl": "Stichting GNWS & Valente (Landelijk Netwerk Vrouwenopvang / Lila.help) — Den Haag",
+    "fr": "Fondation GNWS & Valente (Réseau Néerlandais des Maisons d’Accueil / Lila.help) — La Haye"
+  },
+  "address": "The Hague (Den Haag) & Utrecht, Netherlands | Veilig Thuis 24/7 National Helpline: 0800-2000 | Global Directory: https://lila.help",
+  "details": {
+    "en": "Global headquarters of the Global Network of Women’s Shelters (GNWS Foundation, chaired by Aleid van den Brink) and Valente (formerly Federatie Opvang / Dutch Foundation of Women’s Shelters, host of the 3rd World Conference of Women’s Shelters in The Hague). Coordinates the global Lila.help directory of verified domestic & sexual violence helplines and connects directly to Dutch women’s shelters (Vrouwenopvang) via 0800-2000."
+  },
+  "services": [
+    "GNWS Global Secretariat & Lila.help Verified Helpline Directory",
+    "24/7 Dutch Women’s Shelter Placement (Veilig Thuis 0800-2000)",
+    "Emergency Safe Houses (Vrouwenopvang & Oranje Huis Network)",
+    "Trauma-Informed Psychosocial & Legal Advocacy"
+  ]
+},
+{
+  "id": "gnws-wave-network-vienna-austria",
+  "type": "Safe Haven",
+  "lat": 48.1986,
+  "lng": 16.3685,
+  "phone": "0800 222 555",
+  "country": "Austria",
+  "region": "Vienna",
+  "city": "Vienna",
+  "website": "https://wave-network.org/",
+  "names": {
+    "en": "WAVE Network (Women Against Violence Europe — GNWS European Regional Network) — Vienna",
+    "de": "WAVE Network (Women Against Violence Europe & Autonome Österreichische Frauenhäuser) — Wien",
+    "fr": "Réseau WAVE (Femmes Contre la Violence Europe — Réseau Européen GNWS) — Vienne"
+  },
+  "address": "Bacherplatz 10/6, 1050 Vienna, Austria | Tel: +43 1 548 27 20 | Austrian 24/7 Women’s Helpline (Frauenhelpline): 0800 222 555",
+  "details": {
+    "en": "The European regional pillar of the Global Network of Women’s Shelters (GNWS), uniting over 1,600 women’s NGOs, autonomous women’s shelters (Frauenhäuser), rape crisis centers, and national helplines across 46 European countries. Co-located in Vienna with the Association of Autonomous Austrian Women’s Shelters (AÖF, 24/7 helpline 0800 222 555)."
+  },
+  "services": [
+    "GNWS European Regional Women’s Shelter Network (46 Countries)",
+    "24/7 Autonomous Austrian Women’s Shelters Helpline (0800 222 555)",
+    "Cross-Border European Shelter Referral & Survivor Protection",
+    "Legal & Psychosocial Domestic Violence Support"
+  ]
+},
+{
+  "id": "gnws-anws-secretariat-taipei-taiwan",
+  "type": "Safe Haven",
+  "lat": 24.9856,
+  "lng": 121.5361,
+  "phone": "113",
+  "country": "Taiwan",
+  "region": "Taipei",
+  "city": "Taipei",
+  "website": "https://shelterasia.org/",
+  "names": {
+    "en": "Asian Network of Women’s Shelters (ANWS — GNWS Asia Regional Secretariat) — Taipei",
+    "zh": "亞洲婦女庇護安置網路 (ANWS 秘書處 / 勵馨基金會) — 台北",
+    "ja": "アジア女性シェルターネットワーク (ANWS — GNWSアジア地域事務局) — 台北"
+  },
+  "address": "Xindian District, New Taipei City / Taipei, Taiwan | Tel: +886 2 8911 8595 | Taiwan 24/7 Protection Hotline: 113",
+  "details": {
+    "en": "The Asian regional network of the Global Network of Women’s Shelters (GNWS), hosted alongside The Garden of Hope Foundation (chaired by GNWS Chair Chi Hui-Jung). Connects and supports over 50 women’s shelter organizations and crisis centers across 20+ Asian nations, providing emergency cross-border shelter coordination and 24/7 domestic & sexual violence protection (113 in Taiwan)."
+  },
+  "services": [
+    "GNWS Asian Regional Women’s Shelter Network (20+ Asian Nations)",
+    "24/7 Emergency Shelter Placement & Protection Hotline (113)",
+    "Migrant & Trafficked Women’s Safe Haven Coordination",
+    "Trauma Counseling, Legal Aid & Transitional Housing"
+  ]
+},
+{
+  "id": "gnws-nnedv-washington-dc-usa",
+  "type": "Safe Haven",
+  "lat": 38.9026,
+  "lng": -77.0311,
+  "phone": "1-800-799-7233",
+  "country": "United States",
+  "region": "District of Columbia",
+  "city": "Washington, D.C.",
+  "website": "https://nnedv.org/",
+  "names": {
+    "en": "NNEDV (National Network to End Domestic Violence & WomensLaw.org — GNWS US Hub) — Washington, D.C.",
+    "es": "Red Nacional para Terminar con la Violencia Doméstica (NNEDV y WomensLaw.org) — Washington, D.C."
+  },
+  "address": "1325 Massachusetts Ave NW, Suite 800, Washington, DC 20005, USA | Tel: +1 202-543-5566 | US 24/7 National DV Hotline: 1-800-799-SAFE (7233)",
+  "details": {
+    "en": "The United States national member network of the Global Network of Women’s Shelters (GNWS) and host of the 2nd World Conference of Women’s Shelters in Washington, D.C. Represents the 56 US state and territorial domestic violence coalitions and over 2,000 local women’s shelters, operating WomensLaw.org (free confidential legal email hotline in English & Spanish) and the Safety Net technology safety project."
+  },
+  "services": [
+    "GNWS US National Network of 56 Coalitions & 2,000+ Shelters",
+    "24/7 US National Domestic Violence Hotline Referral (1-800-799-7233)",
+    "WomensLaw.org Confidential Legal Information & Email Hotline",
+    "Safety Net Cyber-Stalking & Technology Abuse Protection"
+  ]
+},
+{
+  "id": "gnws-acws-edmonton-canada",
+  "type": "Safe Haven",
+  "lat": 53.5413,
+  "lng": -113.5065,
+  "phone": "1-866-331-3933",
+  "country": "Canada",
+  "region": "Alberta",
+  "city": "Edmonton",
+  "website": "https://acws.ca/",
+  "names": {
+    "en": "Alberta Council of Women’s Shelters (ACWS — Founding Host of GNWS) — Edmonton",
+    "fr": "Conseil des Refuges pour Femmes de l’Alberta (ACWS — Fondateur du GNWS) — Edmonton"
+  },
+  "address": "Suite 600, 10310 Jasper Avenue, Edmonton, AB T5J 2W4, Canada | 24/7 Toll-Free Alberta Shelter Line: 1-866-331-3933",
+  "details": {
+    "en": "Founding catalyst of the Global Network of Women’s Shelters (GNWS), having convened the historic 1st World Conference of Women’s Shelters in Edmonton in 2008. Connects survivors 24/7 via 1-866-331-3933 directly to over 50 emergency, Second-Stage, and First Nations on-reserve women’s shelters across Alberta."
+  },
+  "services": [
+    "24/7 Direct Women’s Shelter Connection Line (1-866-331-3933)",
+    "Emergency, Second-Stage & On-Reserve Indigenous Women’s Shelters",
+    "Danger Assessment & Safety Planning",
+    "Child Trauma Support & Pet-Friendly Safe Haven Referrals"
+  ]
+},
+{
+  "id": "gnws-womens-shelters-canada-ottawa",
+  "type": "Safe Haven",
+  "lat": 45.4192,
+  "lng": -75.6968,
+  "phone": "1-855-643-4782",
+  "country": "Canada",
+  "region": "Ontario",
+  "city": "Ottawa",
+  "website": "https://endvaw.ca/",
+  "names": {
+    "en": "Women’s Shelters Canada (Hébergements femmes Canada & ShelterSafe.ca — GNWS Hub) — Ottawa",
+    "fr": "Hébergements femmes Canada (Refuges pour femmes Canada / ShelterSafe.ca) — Ottawa"
+  },
+  "address": "85 Albert Street, Suite 1502, Ottawa, ON K1P 6A4, Canada | Tel: +1 613-680-5119 | Interactive Map: https://sheltersafe.ca",
+  "details": {
+    "en": "Core North American founding pillar of the Global Network of Women’s Shelters (GNWS), uniting 19 provincial, territorial, and Indigenous shelter associations representing over 600 emergency and transitional women’s shelters across Canada. Operates ShelterSafe.ca (HébergementSecours.ca) for immediate 24/7 shelter crisis line connections nationwide."
+  },
+  "services": [
+    "GNWS Canadian National Women’s Shelter Network (600+ Shelters)",
+    "ShelterSafe.ca / HébergementSecours.ca 24/7 Crisis Directory",
+    "Emergency Transition Houses & Second-Stage Housing Referrals",
+    "Bilingual English, French & Indigenous Survivor Advocacy"
+  ]
+},
+{
+  "id": "gnws-nacafv-first-nations-shelters-canada",
+  "type": "Safe Haven",
+  "lat": 45.4018,
+  "lng": -73.6815,
+  "phone": "1-855-242-3310",
+  "country": "Canada",
+  "region": "Quebec",
+  "city": "Kahnawake / Montreal",
+  "website": "https://www.nacafv.ca/",
+  "names": {
+    "en": "National Aboriginal Circle Against Family Violence (NACAFV — GNWS Network of First Nations Women’s Shelters)",
+    "fr": "Cercle National des Autochtones Contre la Violence Familiale (NACAFV — Réseau des Refuges des Premières Nations)"
+  },
+  "address": "Kahnawake Mohawk Territory, QC / Ottawa, ON, Canada | Tel: +1 450-638-2968 | Hope for Wellness 24/7 Indigenous Helpline: 1-855-242-3310",
+  "details": {
+    "en": "Representing the Network of First Nations Women’s Shelters at the heart of the Global Network of Women’s Shelters (GNWS). Supports and connects on-reserve and Indigenous-led women’s shelters, healing lodges, and transition houses across First Nations, Inuit, and Métis communities in Canada."
+  },
+  "services": [
+    "GNWS Network of First Nations, Inuit & Métis Women’s Shelters",
+    "Culturally Grounded Indigenous Healing Lodges & Safe Havens",
+    "24/7 Hope for Wellness Indigenous Crisis Line (1-855-242-3310)",
+    "MMIWG2S+ Safety Planning, Elder Support & Family Violence Advocacy"
+  ]
+},
+{
+  "id": "gnws-niwrc-stronghearts-montana-usa",
+  "type": "Safe Haven",
+  "lat": 45.6231,
+  "lng": -106.6667,
+  "phone": "1-844-762-8483",
+  "country": "United States",
+  "region": "Montana",
+  "city": "Lame Deer",
+  "website": "https://www.niwrc.org/",
+  "names": {
+    "en": "National Indigenous Women’s Resource Center (NIWRC & StrongHearts Native Helpline — GNWS First Nations Partner)",
+    "es": "Centro Nacional de Recursos para Mujeres Indígenas (NIWRC y Línea Nativa StrongHearts)"
+  },
+  "address": "515 Lame Deer Ave, Lame Deer, MT 59043, USA | Tel: +1 406-477-3896 | 24/7 StrongHearts Native Helpline: 1-844-7NATIVE (1-844-762-8483)",
+  "details": {
+    "en": "United States First Nations / Native American partner within the Global Network of Women’s Shelters (GNWS) Indigenous caucus. Dedicated to restoring sovereignty and safety for Native women across Tribal lands, co-operating the 24/7 StrongHearts Native Helpline (1-844-762-8483) and the National Tribal Clearinghouse on Sexual Assault."
+  },
+  "services": [
+    "24/7 StrongHearts Native Domestic & Sexual Violence Helpline (1-844-762-8483)",
+    "Tribal Safe Havens & Native Women’s Shelter Directory",
+    "Culturally Grounded Advocacy for American Indian & Alaska Native Survivors",
+    "Tribal Protection Order & Sovereignty Legal Support"
+  ]
+},
+{
+  "id": "gnws-wesnet-australia-canberra",
+  "type": "Safe Haven",
+  "lat": -35.2809,
+  "lng": 149.13,
+  "phone": "1800 737 732",
+  "country": "Australia",
+  "region": "Australian Capital Territory",
+  "city": "Canberra",
+  "website": "https://wesnet.org.au/",
+  "names": {
+    "en": "WESNET (Women’s Services Network Australia — GNWS Oceania Regional Hub)"
+  },
+  "address": "Canberra, ACT & Sydney, NSW, Australia | Tel: 1800 WESNET (1800 937 638) | Australia 24/7 DV Helpline (1800RESPECT): 1800 737 732",
+  "details": {
+    "en": "Australia’s national peak body for specialist women’s domestic and family violence refuges and shelters, and Oceania board leader of the Global Network of Women’s Shelters (GNWS, led by Karen Bentley; host of the 5th World Conference of Women’s Shelters in Sydney). Connects over 350 specialist women’s refuges across Australia, including Aboriginal and Torres Strait Islander safe houses and the Safe Connections survivor smartphone program."
+  },
+  "services": [
+    "GNWS Oceania Regional Network & 350+ Australian Women’s Refuges",
+    "24/7 National Sexual & Domestic Violence Counselling (1800 737 732)",
+    "WESNET Safe Connections Program (Safe Phones for Survivors)",
+    "Technology-Facilitated Abuse Safety & Specialist Refuge Referral"
+  ]
+},
+{
+  "id": "gnws-womens-refuge-new-zealand-wellington",
+  "type": "Safe Haven",
+  "lat": -41.2865,
+  "lng": 174.7762,
+  "phone": "0800 733 843",
+  "country": "New Zealand",
+  "region": "Wellington",
+  "city": "Wellington",
+  "website": "https://womensrefuge.org.nz/",
+  "names": {
+    "en": "Women’s Refuge New Zealand (Ngā Whare Waatea / NCIWR — GNWS Oceania & Indigenous Hub) — Wellington"
+  },
+  "address": "Level 5, 276 Lambton Quay, Wellington 6011, New Zealand | 24/7 Toll-Free Crisis Line: 0800 REFUGE (0800 733 843)",
+  "details": {
+    "en": "The National Collective of Independent Women’s Refuges (NCIWR / Ngā Whare Waatea) in Aotearoa New Zealand, a key Oceania and Indigenous Tangata Whenua pillar of the Global Network of Women’s Shelters (GNWS). Operates 40+ local safe houses (including kaupapa Māori refuges) and a 24/7 nationwide crisis line at 0800 733 843."
+  },
+  "services": [
+    "24/7 Nationwide Women’s Refuge Crisis Line (0800 733 843)",
+    "Confidential Safe Houses & Kaupapa Māori Tangata Whenua Refuges",
+    "Safe Escape Planning, Legal Protection Order Support & Advocacy",
+    "Child & Whānau Trauma Recovery Support"
+  ]
+},
+{
+  "id": "gnws-rire-inter-american-network-panama-latam",
+  "type": "Safe Haven",
+  "lat": 8.9824,
+  "lng": -79.5199,
+  "phone": "182",
+  "country": "Panama",
+  "region": "Panamá",
+  "city": "Panama City",
+  "website": "https://gnws.org/about-us/who-we-are/",
+  "names": {
+    "en": "Red Interamericana de Refugios (RIRE — GNWS Latin America & Caribbean Network)",
+    "es": "Red Interamericana de Refugios (RIRE) y Red Latinoamericana de Casas de Refugio — GNWS",
+    "pt": "Rede Interamericana de Abrigos de Mulheres (RIRE — Rede Latino-Americana GNWS)"
+  },
+  "address": "Panama City, Panama & Mexico City, Mexico | Panama 24/7 INAMU / Ministry of Women Line: 182 | Regional LatAm Network",
+  "details": {
+    "en": "The Inter-American and Latin American & Caribbean regional network of the Global Network of Women’s Shelters (GNWS), connecting Casas de Refugio, Casas de Acogida, and women’s shelters across Central America, South America, Mexico (with Red Nacional de Refugios), and the Caribbean."
+  },
+  "services": [
+    "GNWS Latin American & Caribbean Network of Casas de Refugio",
+    "24/7 Cross-Border Shelter Coordination for Women & Migrant Survivors",
+    "Emergency Albergues (Safe Houses) & Femicide Prevention",
+    "Free Legal, Psychological & Social Work Accompaniment"
+  ]
+},
+{
+  "id": "gnws-nsmsa-african-network-johannesburg-south-africa",
+  "type": "Safe Haven",
+  "lat": -26.2041,
+  "lng": 28.0473,
+  "phone": "0800 001 005",
+  "country": "South Africa",
+  "region": "Gauteng",
+  "city": "Johannesburg / Cape Town",
+  "website": "https://www.nsmsa.org.za/",
+  "names": {
+    "en": "National Shelter Movement of South Africa (NSMSA) & African Network of Women’s Shelters (ANWS-Africa — GNWS)",
+    "sw": "Mtandao wa Afrika wa Nyumba Salama za Wanawake (ANWS-Africa & NSMSA)",
+    "fr": "Réseau Africain des Refuges pour Femmes (ANWS-Afrique & NSMSA)"
+  },
+  "address": "Johannesburg (Gauteng) & Cape Town (Western Cape), South Africa | 24/7 National Shelter Helpline: 0800 001 005 | WhatsApp: +27 82 057 8600 / +27 82 058 2215 / +27 72 230 7147",
+  "details": {
+    "en": "Representing the African Network of Women’s Shelters (ANWS-Africa) within the Global Network of Women’s Shelters (GNWS) alongside the Nisaa Institute for Women’s Development. Coordinates nearly 100 domestic violence shelters across all 9 provinces of South Africa and partners with African women’s safe havens continent-wide, operating the 24/7 toll-free National Shelter Helpline (0800 001 005)."
+  },
+  "services": [
+    "24/7 Toll-Free National Shelter Placement Helpline (0800 001 005)",
+    "GNWS African Regional Network of Women’s Shelters (ANWS-Africa)",
+    "Emergency Safe Houses for Abused Women & Their Children",
+    "Psychosocial Support, Protection Orders & Court Preparation"
+  ]
+}
 ];

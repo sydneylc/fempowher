@@ -135385,5 +135385,189 @@ export const WORLD_CENTERS_DIRECTORY = [
     "Emergency Safe Houses for Abused Women & Their Children",
     "Psychosocial Support, Protection Orders & Court Preparation"
   ]
+},
+{
+  "id": "israel-bat-melech-ultra-orthodox-womens-shelter-jerusalem",
+  "type": "Safe Haven",
+  "lat": 31.7857,
+  "lng": 35.2007,
+  "phone": "1-800-292-333",
+  "country": "Israel",
+  "region": "Jerusalem District",
+  "city": "Jerusalem & Bnei Brak / Central Israel",
+  "website": "https://batmelech.org/",
+  "names": {
+    "en": "Bat Melech (בת מלך) — Women’s Shelter SPECIFICALLY for Ultra-Orthodox (Haredi) & Orthodox Jewish Women",
+    "he": "בת מלך — מקלט לנשים מוכות המיועד במיוחד לנשים חרדיות ודתיות",
+    "fr": "Bat Melech (בת מלך) — Refuge SPÉCIFIQUEMENT pour les Femmes Juives Ultra-Orthodoxes (Haredi) et Religieuses",
+    "es": "Bat Melech (בת מלך) — Refugio ESPECÍFICAMENTE para Mujeres Judías Ultraortodoxas (Jaredíes) y Religiosas",
+    "ru": "Бат Мелех (בת מלך) — Убежище СПЕЦИАЛЬНО для ультраортодоксальных (харедим) и религиозных еврейских женщин"
+  },
+  "address": "Confidential Shelter Locations in Jerusalem & Central Israel (PO Box 23023, Jerusalem 9123011) | 24/7 Toll-Free Helpline: 1-800-292-333 | WhatsApp: +972 58-651-6103 (058-651-6103) | Office: +972 2-633-8929",
+  "details": {
+    "en": "[SPECIFICALLY FOR ULTRA-ORTHODOX (HAREDI) & ORTHODOX JEWISH WOMEN] Listed on the NO MORE Israel Directory. Bat Melech operates the only emergency domestic violence shelters in Israel built specifically for Ultra-Orthodox (Haredi) and Orthodox Jewish women and their children. Shelters maintain strict Glatt Mehadrin kashrut, full Shabbat and holiday observance, modest environments, and integration with Haredi/religious schools so women never have to choose between their religious way of life and escaping abuse. Also provides free representation by dual Rabbinical & Civil Court lawyers."
+  },
+  "services": [
+    "Dedicated Strictly Kosher (Mehadrin) & Shabbat-Observant Shelters for Ultra-Orthodox (Haredi) Women",
+    "24/7 Ultra-Orthodox & Religious Women’s DV Helpline (1-800-292-333) & WhatsApp (058-651-6103)",
+    "Free Dual Legal Representation in Rabbinical Courts (Beit Din / Gett) & Civil Family Courts",
+    "Haredi & Religious School Placement for Children & Transitional Halfway Apartments"
+  ]
+},
+{
+  "id": "israel-tahel-ultra-orthodox-crisis-center-jerusalem",
+  "type": "Safe Haven",
+  "lat": 31.7535,
+  "lng": 35.2137,
+  "phone": "*2511",
+  "country": "Israel",
+  "region": "Jerusalem District",
+  "city": "Jerusalem (Serving Nationwide)",
+  "website": "https://www.tahel.org.il/",
+  "names": {
+    "en": "Tahel (תהל) — 24/7 Crisis Center SPECIFICALLY for Ultra-Orthodox (Haredi) & Religious Jewish Women (*2511)",
+    "he": "תהל (מרכז סיוע לנשים וילדים דתיים וחרדים) — מוקד חירום 2511* לנשים חרדיות ודתיות",
+    "fr": "Tahel (תהל) — Centre de Crise 24/7 SPÉCIFIQUEMENT pour les Femmes Juives Ultra-Orthodoxes (Haredi) et Religieuses (*2511)",
+    "es": "Tahel (תהל) — Centro de Crisis 24/7 ESPECÍFICAMENTE para Mujeres Judías Ultraortodoxas (Jaredíes) y Religiosas (*2511)",
+    "ru": "Тахель (תהל) — Кризисный центр 24/7 СПЕЦИАЛЬНО для ультраортодоксальных (харедим) и религиозных женщин (*2511)"
+  },
+  "address": "Jerusalem (Nationwide Coverage), Israel | 24/7 Religious & Ultra-Orthodox Women’s Emergency Hotline: *2511 | WhatsApp: +972 52-836-1202 | Office: +972 2-673-0002",
+  "details": {
+    "en": "[SPECIFICALLY FOR ULTRA-ORTHODOX (HAREDI) & RELIGIOUS JEWISH WOMEN & CHILDREN] Listed on the NO MORE Israel Directory. Tahel is Israel’s dedicated 24-hour crisis center for Ultra-Orthodox (Haredi) and religious Jewish women, teenagers, and children experiencing domestic violence or sexual abuse. Provides culturally and halachically sensitive support in Hebrew, Yiddish, English, and French, hospital/police accompaniment, and direct placement into religious women’s shelters."
+  },
+  "services": [
+    "24/7 Emergency Hotline for Ultra-Orthodox (Haredi) & Religious Women (*2511)",
+    "Support in Hebrew, Yiddish, English & French by Religiously Observant Female Advocates",
+    "Confidential Sexual Assault & Domestic Abuse Counseling for Haredi Women & Teens",
+    "Medical, Police & Rabbinical/Civil Legal Accompaniment & Shelter Placement"
+  ]
+},
+{
+  "id": "israel-no2violence-wizo-national-shelters-tel-aviv",
+  "type": "Safe Haven",
+  "lat": 32.0755,
+  "lng": 34.7882,
+  "phone": "118",
+  "country": "Israel",
+  "region": "Tel Aviv District",
+  "city": "Tel Aviv (Nationwide Network)",
+  "website": "https://nomoredirectory.org/israel/",
+  "names": {
+    "en": "No2Violence (לא. לאלימות נגד נשים) & National Domestic Abuse Shelter Hotline (118 / *6724) — Tel Aviv",
+    "he": "לא. לאלימות נגד נשים ומוקד 118 הארצי למקלטים לנשים נפגעות אלימות",
+    "ar": "لا للعنف ضد النساء والخط الوطني لملاجئ النساء (118 / *6724) — تل أبيب"
+  },
+  "address": "Tel Aviv & Nationwide Confidential Shelters, Israel | National DV Hotline: 118 or 1-800-220-000 | No2Violence 24/7 Free Hotline: *6724 or 1-800-353-300",
+  "details": {
+    "en": "Listed on the NO MORE Israel Directory. Coordinates 24/7 emergency intake into Israel’s national network of women’s domestic violence shelters, halfway houses, and emergency protection centers via the Ministry of Welfare 24/7 Hotline (118 / 1-800-220-000) and the No2Violence 24-hour helpline (*6724 / 1-800-353-300)."
+  },
+  "services": [
+    "24/7 National Domestic Abuse Emergency Hotline (118 / 1-800-220-000)",
+    "24/7 No2Violence Shelter & Crisis Helpline (*6724 / 1-800-353-300)",
+    "Immediate Placement in Confidential Women’s & Children’s Shelters",
+    "Multilingual Support in Hebrew, Arabic, Russian, Amharic & English"
+  ]
+},
+{
+  "id": "israel-wizo-womens-shelters-helpline-tel-aviv",
+  "type": "Safe Haven",
+  "lat": 32.0778,
+  "lng": 34.7865,
+  "phone": "+972-3-692-3710",
+  "country": "Israel",
+  "region": "Tel Aviv District",
+  "city": "Tel Aviv & Jerusalem",
+  "website": "https://www.wizo.org/",
+  "names": {
+    "en": "WIZO Women’s Shelters & Domestic Violence Helpline (ויצו) — Tel Aviv & Jerusalem",
+    "he": "מקלטי ויצו לנשים נפגעות אלימות וקו הייעוץ הארצי"
+  },
+  "address": "38 King David Blvd, Tel Aviv, Israel | WIZO Helpline: +972 3-692-3710 / +972 3-692-3714 / +972 3-692-3715 | National DV Line: 118",
+  "details": {
+    "en": "Listed on the NO MORE Israel Directory. WIZO operates emergency battered women’s shelters, transitional housing apartments, legal aid bureaus, and domestic violence prevention centers across Israel."
+  },
+  "services": [
+    "Emergency Women’s Shelters & Transitional Second-Stage Apartments",
+    "WIZO Domestic Violence Helpline (+972 3-692-3710 / 3714 / 3715)",
+    "Family Law & Protection Order Legal Aid Bureaus",
+    "Child Trauma Therapy & Economic Reintegration"
+  ]
+},
+{
+  "id": "israel-arcci-1202-rape-crisis-center-tel-aviv",
+  "type": "Safe Haven",
+  "lat": 32.0636,
+  "lng": 34.7725,
+  "phone": "1202",
+  "country": "Israel",
+  "region": "Tel Aviv District",
+  "city": "Tel Aviv, Jerusalem, Haifa & Be’er Sheva",
+  "website": "https://www.1202.org.il/en/",
+  "names": {
+    "en": "Association of Rape Crisis Centers in Israel (ARCCI — 24/7 Women’s Sexual Assault Hotline 1202)",
+    "he": "איגוד מרכזי הסיוע לנפגעות ולנפגעי תקיפה מינית בישראל — מוקד חירום 1202",
+    "ar": "اتحاد مراكز المساعدة لضحايا الاعتداء الجنسي في إسرائيل — خط الطوارئ 1202"
+  },
+  "address": "9 regional crisis centers nationwide (Tel Aviv, Jerusalem, Haifa, Nazareth, Be’er Sheva, Ra’anana, Ashdod, Eilat & Kiryat Shmona) | 24/7 Women’s Crisis Line: 1202 | WhatsApp: 052-836-1202",
+  "details": {
+    "en": "Listed on the NO MORE Israel Directory. Umbrella of 9 regional sexual assault crisis centers across Israel operating the 24/7 confidential Women’s Sexual Assault Crisis Hotline (1202), hospital acute forensic room (Hadar Akuti) accompaniment, police/court advocacy, and trauma therapy."
+  },
+  "services": [
+    "24/7 Women’s Sexual Assault Crisis Hotline (Dial 1202)",
+    "24/7 Hospital Forensic Examination Room (Hadar Akuti) Accompaniment",
+    "Confidential WhatsApp & Online Chat Support (052-836-1202)",
+    "Free Legal & Trauma Recovery Support"
+  ]
+},
+{
+  "id": "israel-arab-womens-emergency-hotline-shelter-nazareth",
+  "type": "Safe Haven",
+  "lat": 32.7019,
+  "lng": 35.3035,
+  "phone": "04-656-6813",
+  "country": "Israel",
+  "region": "Northern District",
+  "city": "Nazareth & Haifa",
+  "website": "https://nomoredirectory.org/israel/",
+  "names": {
+    "en": "Women Against Violence (נשים נגד אלימות / نساء ضد العنف) — Arab Women’s 24-Hour Emergency Hotline & Shelter (Nazareth)",
+    "ar": "جمعية نساء ضد العنف — خط الطوارئ وملجأ النساء العربيات على مدار 24 ساعة (الناصرة)",
+    "he": "עמותת נשים נגד אלימות — קו חירום 24/7 ומקלט לנשים ערביות (נצרת)"
+  },
+  "address": "Nazareth & Haifa, Israel | 24/7 Arab Women’s Emergency Hotline: 04-656-6813 (+972 4-656-6813) | National DV Line: 118",
+  "details": {
+    "en": "[SPECIFICALLY FOR ARAB WOMEN] Listed on the NO MORE Israel Directory. Operates the 24-hour Arabic-language emergency sexual and domestic violence crisis hotline (04-656-6813), confidential emergency women’s shelter, and halfway house specifically serving Arab women and girls."
+  },
+  "services": [
+    "24/7 Arabic-Language Women’s Emergency Hotline (04-656-6813)",
+    "Confidential Emergency Shelter & Halfway House for Arab Women",
+    "Hospital, Police & Sharia/Civil Family Court Legal Accompaniment",
+    "Psychosocial & Youth Prevention Programs"
+  ]
+},
+{
+  "id": "israel-eran-aguda-crisis-support-tel-aviv",
+  "type": "Safe Haven",
+  "lat": 32.0661,
+  "lng": 34.7704,
+  "phone": "1201",
+  "country": "Israel",
+  "region": "Tel Aviv District",
+  "city": "Tel Aviv (Nationwide)",
+  "website": "https://en.eran.org.il/",
+  "names": {
+    "en": "ERAN Emotional First Aid (1201) & The Aguda LGBTQ+ Support Center — Tel Aviv",
+    "he": "ער״ן (עזרה ראשונה נפשית 1201) והאגודה למען הלהט״ב (בית דרור / קו הקשב)"
+  },
+  "address": "Tel Aviv & Nationwide, Israel | ERAN 24/7 Mental Health Crisis Line: 1201 | The Aguda Helpline: *2989 (+972 3-620-5590)",
+  "details": {
+    "en": "Listed on the NO MORE Israel Directory. Provides 24/7 free, anonymous emotional first aid and suicide/trauma crisis intervention nationwide via ERAN (1201), alongside The Aguda (Association for LGBTQ Equality, *2989) providing safe shelter referrals, legal advocacy, and anti-violence support."
+  },
+  "services": [
+    "24/7 ERAN Emotional First Aid & Crisis Hotline (Dial 1201)",
+    "The Aguda LGBTQ+ Crisis Line (*2989) & Safe Shelter Referrals",
+    "Anonymous Online Chat & WhatsApp Emotional Support",
+    "Multilingual Trauma & Domestic Distress Intervention"
+  ]
 }
 ];

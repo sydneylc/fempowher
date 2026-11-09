@@ -749,6 +749,18 @@ export const NATIONAL_CRISIS_DIRECTORY = {
   nicaragua: {
     emergencyNumber: '118 (National Police) / 128 (Red Cross Ambulance)',
     crisisLines: []
+  },
+  israel: {
+    emergencyNumber: '100 (Police) / 101 (Magen David Adom Ambulance) / 118 (National DV Hotline)',
+    crisisLines: [
+      'National Domestic Abuse & Shelter Hotline: Call 118 or 1-800-220-000 (24/7 Toll-Free)',
+      'Bat Melech (Specifically for Ultra-Orthodox / Haredi & Orthodox Jewish Women’s Shelters): Call 1-800-292-333 / WhatsApp 058-651-6103',
+      'Tahel (Specifically for Ultra-Orthodox / Haredi & Religious Jewish Women’s 24/7 Crisis Line): Call *2511 / WhatsApp 052-836-1202',
+      'Women’s 24-Hour Sexual Assault Crisis Hotline (ARCCI): Call 1202',
+      'No2Violence 24/7 Emergency Hotline: Call *6724 or 1-800-353-300',
+      'WIZO Domestic Violence Helpline: Call +972 3-692-3710 / +972 3-692-3714',
+      'Arab Women’s 24-Hour Emergency Hotline: Call 04-656-6813'
+    ]
   }
 };
 

@@ -7026,8 +7026,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-1",
     "regionDistrict": "Boston, Massachusetts, USA",
     "type": "safe-haven",
-    "lat": 42.416,
-    "lng": -71.017,
+    "lat": 42.3385,
+    "lng": -71.1095,
     "name": {
       "en": "Casa Myrna"
     },
@@ -7054,8 +7054,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-1-u2",
     "regionDistrict": "Boston, Massachusetts, USA",
     "type": "safe-haven",
-    "lat": 42.432,
-    "lng": -71.035,
+    "lat": 42.3335,
+    "lng": -71.1045,
     "name": {
       "en": "Rosie’s Place Women’s Safe Haven"
     },
@@ -7110,8 +7110,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-2",
     "regionDistrict": "Worcester / Western MA, USA",
     "type": "safe-haven",
-    "lat": 42.342,
-    "lng": -71.712,
+    "lat": 42.2645,
+    "lng": -71.8045,
     "name": {
       "en": "YWCA Central Massachusetts Domestic Safe Haven (Worcester / Western MA, USA)"
     },
@@ -7166,8 +7166,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-3",
     "regionDistrict": "New York City, NY, USA",
     "type": "safe-haven",
-    "lat": 40.819,
-    "lng": -73.885,
+    "lat": 40.7415,
+    "lng": -73.9775,
     "name": {
       "en": "Sanctuary for Families Women’s Safe Haven NYC (New York City, NY, USA)"
     },
@@ -7222,8 +7222,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-4",
     "regionDistrict": "Buffalo / Upstate NY, USA",
     "type": "safe-haven",
-    "lat": 42.966,
-    "lng": -78.788,
+    "lat": 42.8885,
+    "lng": -78.8805,
     "name": {
       "en": "Haven House Domestic Violence Shelter Buffalo (Buffalo / Upstate NY, USA)"
     },
@@ -7278,8 +7278,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-5",
     "regionDistrict": "Philadelphia, PA, USA",
     "type": "safe-haven",
-    "lat": 40.032,
-    "lng": -75.075,
+    "lat": 39.9545,
+    "lng": -75.1675,
     "name": {
       "en": "Women Against Abuse Safe Haven Philadelphia (Philadelphia, PA, USA)"
     },
@@ -7334,8 +7334,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-6",
     "regionDistrict": "Pittsburgh, PA, USA",
     "type": "safe-haven",
-    "lat": 40.52,
-    "lng": -79.905,
+    "lat": 40.4425,
+    "lng": -79.9975,
     "name": {
       "en": "Women’s Center & Shelter of Greater Pittsburgh (Pittsburgh, PA, USA)"
     },
@@ -7390,8 +7390,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-7",
     "regionDistrict": "Washington, D.C., USA",
     "type": "safe-haven",
-    "lat": 38.987,
-    "lng": -76.946,
+    "lat": 38.9095,
+    "lng": -77.0385,
     "name": {
       "en": "House of Ruth"
     },
@@ -7418,8 +7418,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-7-u2",
     "regionDistrict": "Washington, D.C., USA",
     "type": "safe-haven",
-    "lat": 39.003,
-    "lng": -76.964,
+    "lat": 38.9045,
+    "lng": -77.0335,
     "name": {
       "en": "My Sister’s Place Safe Haven DC"
     },
@@ -7474,8 +7474,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-8",
     "regionDistrict": "Baltimore, Maryland, USA",
     "type": "safe-haven",
-    "lat": 39.37,
-    "lng": -76.522,
+    "lat": 39.2925,
+    "lng": -76.6145,
     "name": {
       "en": "House of Ruth Maryland Domestic Abuse Shelter (Baltimore, Maryland, USA)"
     },
@@ -7530,8 +7530,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-9",
     "regionDistrict": "Richmond, Virginia, USA",
     "type": "safe-haven",
-    "lat": 37.62,
-    "lng": -77.346,
+    "lat": 37.5425,
+    "lng": -77.4385,
     "name": {
       "en": "Safe Harbor Shelter & Domestic Violence Center (Richmond, Virginia, USA)"
     },
@@ -7586,8 +7586,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-10",
     "regionDistrict": "Charlotte, North Carolina, USA",
     "type": "safe-haven",
-    "lat": 35.307,
-    "lng": -80.753,
+    "lat": 35.2295,
+    "lng": -80.8455,
     "name": {
       "en": "Safe Alliance Domestic Violence Shelter Charlotte (Charlotte, North Carolina, USA)"
     },
@@ -7642,8 +7642,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-11-u2",
     "regionDistrict": "Atlanta, Georgia, USA",
     "type": "hospital",
-    "lat": 33.765,
-    "lng": -84.406,
+    "lat": 33.7515,
+    "lng": -84.3855,
     "name": {
       "en": "Emory Women’s Center"
     },
@@ -7670,8 +7670,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-11",
     "regionDistrict": "Atlanta, Georgia, USA",
     "type": "safe-haven",
-    "lat": 33.829,
-    "lng": -84.298,
+    "lat": 33.7515,
+    "lng": -84.3905,
     "name": {
       "en": "Partnership Against Domestic Violence Safe Haven (Atlanta, Georgia, USA)"
     },
@@ -7726,8 +7726,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-12",
     "regionDistrict": "Miami, Florida, USA",
     "type": "safe-haven",
-    "lat": 25.841,
-    "lng": -80.101,
+    "lat": 25.7635,
+    "lng": -80.1935,
     "name": {
       "en": "Lotus House Women’s Sanctuary & Shelter Miami (Miami, Florida, USA)"
     },
@@ -7782,8 +7782,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-13",
     "regionDistrict": "Orlando / Tampa, Florida, USA",
     "type": "safe-haven",
-    "lat": 28.618,
-    "lng": -81.289,
+    "lat": 28.5405,
+    "lng": -81.3815,
     "name": {
       "en": "Harbor House of Central Florida Safe Haven (Orlando / Tampa, Florida, USA)"
     },
@@ -7838,8 +7838,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-14",
     "regionDistrict": "New Orleans, Louisiana, USA",
     "type": "safe-haven",
-    "lat": 30.031,
-    "lng": -89.981,
+    "lat": 29.9535,
+    "lng": -90.0735,
     "name": {
       "en": "New Orleans Family Justice & Women’s Safe House (New Orleans, Louisiana, USA)"
     },
@@ -7894,8 +7894,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-15",
     "regionDistrict": "Houston, Texas, USA",
     "type": "safe-haven",
-    "lat": 29.84,
-    "lng": -95.279,
+    "lat": 29.7625,
+    "lng": -95.3715,
     "name": {
       "en": "Houston Area Women’s Center Safe Harbor (Houston, Texas, USA)"
     },
@@ -7950,8 +7950,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-16",
     "regionDistrict": "Dallas, Texas, USA",
     "type": "safe-haven",
-    "lat": 32.856,
-    "lng": -96.707,
+    "lat": 32.7785,
+    "lng": -96.7995,
     "name": {
       "en": "The Family Place Safe Haven Shelter Dallas (Dallas, Texas, USA)"
     },
@@ -8006,8 +8006,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-17",
     "regionDistrict": "San Antonio / Austin, Texas, USA",
     "type": "safe-haven",
-    "lat": 29.504,
-    "lng": -98.404,
+    "lat": 29.4265,
+    "lng": -98.4965,
     "name": {
       "en": "SAFE Alliance"
     },
@@ -8034,8 +8034,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-17-u2",
     "regionDistrict": "San Antonio / Austin, Texas, USA",
     "type": "safe-haven",
-    "lat": 29.52,
-    "lng": -98.422,
+    "lat": 29.4215,
+    "lng": -98.4915,
     "name": {
       "en": "Battered Women’s Shelter TX"
     },
@@ -8090,8 +8090,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-18",
     "regionDistrict": "Chicago, Illinois, USA",
     "type": "safe-haven",
-    "lat": 41.958,
-    "lng": -87.539,
+    "lat": 41.8805,
+    "lng": -87.6315,
     "name": {
       "en": "House of the Good Shepherd"
     },
@@ -8118,8 +8118,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-18-u2",
     "regionDistrict": "Chicago, Illinois, USA",
     "type": "safe-haven",
-    "lat": 41.974,
-    "lng": -87.557,
+    "lat": 41.8755,
+    "lng": -87.6265,
     "name": {
       "en": "Between Friends Safe Haven"
     },
@@ -8174,8 +8174,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-19",
     "regionDistrict": "Detroit, Michigan, USA",
     "type": "safe-haven",
-    "lat": 42.411,
-    "lng": -82.955,
+    "lat": 42.3335,
+    "lng": -83.0475,
     "name": {
       "en": "HAVEN & First Step Women’s Safe Shelter (Detroit, Michigan, USA)"
     },
@@ -8230,8 +8230,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-20",
     "regionDistrict": "Minneapolis, Minnesota, USA",
     "type": "safe-haven",
-    "lat": 45.057,
-    "lng": -93.175,
+    "lat": 44.9795,
+    "lng": -93.2675,
     "name": {
       "en": "Women’s Advocates Safe Shelter St. Paul/Minneapolis (Minneapolis, Minnesota, USA)"
     },
@@ -8286,8 +8286,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-21",
     "regionDistrict": "St. Louis, Missouri, USA",
     "type": "safe-haven",
-    "lat": 38.707,
-    "lng": -90.109,
+    "lat": 38.6295,
+    "lng": -90.2015,
     "name": {
       "en": "ALIVE & Safe Connections Women’s Shelter (St. Louis, Missouri, USA)"
     },
@@ -8342,8 +8342,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-22",
     "regionDistrict": "Denver, Colorado, USA",
     "type": "safe-haven",
-    "lat": 39.819,
-    "lng": -104.9,
+    "lat": 39.7415,
+    "lng": -104.9925,
     "name": {
       "en": "SafeHouse Denver Domestic Abuse Sanctuary (Denver, Colorado, USA)"
     },
@@ -8398,8 +8398,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-23",
     "regionDistrict": "Phoenix, Arizona, USA",
     "type": "safe-haven",
-    "lat": 33.528,
-    "lng": -111.984,
+    "lat": 33.4505,
+    "lng": -112.0765,
     "name": {
       "en": "Sojourner Center Women’s Safe Haven Phoenix (Phoenix, Arizona, USA)"
     },
@@ -8454,8 +8454,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-24",
     "regionDistrict": "Albuquerque, New Mexico, USA",
     "type": "safe-haven",
-    "lat": 35.164,
-    "lng": -106.56,
+    "lat": 35.0865,
+    "lng": -106.6525,
     "name": {
       "en": "S.A.F.E. House New Mexico Women’s Shelter (Albuquerque, New Mexico, USA)"
     },
@@ -8510,8 +8510,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-25",
     "regionDistrict": "Salt Lake City, Utah, USA",
     "type": "safe-haven",
-    "lat": 40.84,
-    "lng": -111.801,
+    "lat": 40.7625,
+    "lng": -111.8935,
     "name": {
       "en": "YWCA Utah Women in Jeopardy Safe Haven (Salt Lake City, Utah, USA)"
     },
@@ -8566,8 +8566,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-26",
     "regionDistrict": "Los Angeles, California, USA",
     "type": "safe-haven",
-    "lat": 34.132,
-    "lng": -118.153,
+    "lat": 34.0545,
+    "lng": -118.2455,
     "name": {
       "en": "Downtown Women’s Center"
     },
@@ -8594,8 +8594,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-26-u2",
     "regionDistrict": "Los Angeles, California, USA",
     "type": "safe-haven",
-    "lat": 34.148,
-    "lng": -118.171,
+    "lat": 34.0495,
+    "lng": -118.2405,
     "name": {
       "en": "Peace Over Violence Safe Haven"
     },
@@ -8650,8 +8650,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-27",
     "regionDistrict": "San Francisco, California, USA",
     "type": "safe-haven",
-    "lat": 37.854,
-    "lng": -122.329,
+    "lat": 37.7765,
+    "lng": -122.4215,
     "name": {
       "en": "La Casa de las Madres Domestic Violence Shelter (San Francisco, California, USA)"
     },
@@ -8706,8 +8706,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-28",
     "regionDistrict": "San Diego, California, USA",
     "type": "safe-haven",
-    "lat": 32.795,
-    "lng": -117.071,
+    "lat": 32.7175,
+    "lng": -117.1635,
     "name": {
       "en": "Becky’s House YWCA Safe Haven San Diego (San Diego, California, USA)"
     },
@@ -8762,8 +8762,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-29",
     "regionDistrict": "Seattle, Washington, USA",
     "type": "safe-haven",
-    "lat": 47.686,
-    "lng": -122.242,
+    "lat": 47.6085,
+    "lng": -122.3345,
     "name": {
       "en": "New Beginnings"
     },
@@ -8790,8 +8790,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-29-u2",
     "regionDistrict": "Seattle, Washington, USA",
     "type": "safe-haven",
-    "lat": 47.702,
-    "lng": -122.26,
+    "lat": 47.6035,
+    "lng": -122.3295,
     "name": {
       "en": "Mary’s Place Women’s Safe Haven"
     },
@@ -8846,8 +8846,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-30",
     "regionDistrict": "Portland, Oregon, USA",
     "type": "safe-haven",
-    "lat": 45.595,
-    "lng": -122.588,
+    "lat": 45.5175,
+    "lng": -122.6805,
     "name": {
       "en": "Bradley Angle"
     },
@@ -8874,8 +8874,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-30-u2",
     "regionDistrict": "Portland, Oregon, USA",
     "type": "safe-haven",
-    "lat": 45.611,
-    "lng": -122.606,
+    "lat": 45.5125,
+    "lng": -122.6755,
     "name": {
       "en": "Rose Haven Women’s Sanctuary"
     },
@@ -8930,8 +8930,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-31",
     "regionDistrict": "Anchorage, Alaska, USA",
     "type": "safe-haven",
-    "lat": 61.298,
-    "lng": -149.81,
+    "lat": 61.2205,
+    "lng": -149.9025,
     "name": {
       "en": "Abused Women’s Aid in Crisis (AWAIC) Shelter (Anchorage, Alaska, USA)"
     },
@@ -8986,8 +8986,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-32",
     "regionDistrict": "Honolulu, Hawaii, USA",
     "type": "safe-haven",
-    "lat": 21.386,
-    "lng": -157.768,
+    "lat": 21.3085,
+    "lng": -157.8605,
     "name": {
       "en": "Domestic Violence Action Center & Shelter Honolulu (Honolulu, Hawaii, USA)"
     },
@@ -9042,8 +9042,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-33-u2",
     "regionDistrict": "Toronto, Ontario, Canada",
     "type": "hospital",
-    "lat": 43.669,
-    "lng": -79.401,
+    "lat": 43.6555,
+    "lng": -79.3805,
     "name": {
       "en": "Mount Sinai Maternity"
     },
@@ -9070,8 +9070,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-33",
     "regionDistrict": "Toronto, Ontario, Canada",
     "type": "safe-haven",
-    "lat": 43.733,
-    "lng": -79.293,
+    "lat": 43.6555,
+    "lng": -79.3855,
     "name": {
       "en": "Nellie’s Shelter"
     },
@@ -9098,8 +9098,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-33-u2",
     "regionDistrict": "Toronto, Ontario, Canada",
     "type": "safe-haven",
-    "lat": 43.749,
-    "lng": -79.311,
+    "lat": 43.6505,
+    "lng": -79.3805,
     "name": {
       "en": "Red Door Family Safe Haven"
     },
@@ -9154,8 +9154,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-34",
     "regionDistrict": "Montreal, Quebec, Canada",
     "type": "safe-haven",
-    "lat": 45.581,
-    "lng": -73.477,
+    "lat": 45.5035,
+    "lng": -73.5695,
     "name": {
       "en": "Chez Doris"
     },
@@ -9182,8 +9182,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-34-u2",
     "regionDistrict": "Montreal, Quebec, Canada",
     "type": "safe-haven",
-    "lat": 45.597,
-    "lng": -73.495,
+    "lat": 45.4985,
+    "lng": -73.5645,
     "name": {
       "en": "Auberge Transition Women’s Safe Haven"
     },
@@ -9238,8 +9238,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-35",
     "regionDistrict": "Vancouver, BC, Canada",
     "type": "safe-haven",
-    "lat": 49.328,
-    "lng": -123.034,
+    "lat": 49.2505,
+    "lng": -123.1265,
     "name": {
       "en": "Downtown Eastside Women’s Centre (302 Columbia St, Vancouver)"
     },
@@ -9267,8 +9267,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-35-u2",
     "regionDistrict": "Vancouver, BC, Canada",
     "type": "safe-haven",
-    "lat": 49.344,
-    "lng": -123.052,
+    "lat": 49.2455,
+    "lng": -123.1215,
     "name": {
       "en": "Battered Women’s Support"
     },
@@ -9323,8 +9323,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-36",
     "regionDistrict": "Calgary, Alberta, Canada",
     "type": "safe-haven",
-    "lat": 51.124,
-    "lng": -113.981,
+    "lat": 51.0465,
+    "lng": -114.0735,
     "name": {
       "en": "Calgary Women’s Emergency Shelter / FearIsNotLove (Calgary, Alberta, Canada)"
     },
@@ -9379,8 +9379,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-37",
     "regionDistrict": "Winnipeg, Manitoba, Canada",
     "type": "safe-haven",
-    "lat": 49.975,
-    "lng": -97.048,
+    "lat": 49.8975,
+    "lng": -97.1405,
     "name": {
       "en": "Willow Place Domestic Abuse Safe Haven (Winnipeg, Manitoba, Canada)"
     },
@@ -9435,8 +9435,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-38",
     "regionDistrict": "Halifax, Nova Scotia, Canada",
     "type": "safe-haven",
-    "lat": 44.728,
-    "lng": -63.485,
+    "lat": 44.6505,
+    "lng": -63.5775,
     "name": {
       "en": "Bryony House Women’s Shelter Halifax (Halifax, Nova Scotia, Canada)"
     },
@@ -9491,8 +9491,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-39",
     "regionDistrict": "Iqaluit, Nunavut, Canada",
     "type": "safe-haven",
-    "lat": 63.826,
-    "lng": -68.427,
+    "lat": 63.7485,
+    "lng": -68.5195,
     "name": {
       "en": "Qimaavik Transition House Women’s Safe Haven (Iqaluit, Nunavut, Canada)"
     },
@@ -9547,8 +9547,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-40",
     "regionDistrict": "Mexico City, Mexico",
     "type": "safe-haven",
-    "lat": 19.512,
-    "lng": -99.043,
+    "lat": 19.4345,
+    "lng": -99.1355,
     "name": {
       "en": "Red Nacional de Refugios"
     },
@@ -9575,8 +9575,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-40-u2",
     "regionDistrict": "Mexico City, Mexico",
     "type": "safe-haven",
-    "lat": 19.528,
-    "lng": -99.061,
+    "lat": 19.4295,
+    "lng": -99.1305,
     "name": {
       "en": "LUNAS Safe Haven"
     },
@@ -9631,8 +9631,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-41",
     "regionDistrict": "Guadalajara, Jalisco, Mexico",
     "type": "safe-haven",
-    "lat": 20.739,
-    "lng": -103.259,
+    "lat": 20.6615,
+    "lng": -103.3515,
     "name": {
       "en": "Centro de Justicia para las Mujeres Jalisco (Guadalajara, Jalisco, Mexico)"
     },
@@ -9687,8 +9687,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-42",
     "regionDistrict": "Monterrey, Nuevo León, Mexico",
     "type": "safe-haven",
-    "lat": 25.766,
-    "lng": -100.226,
+    "lat": 25.6885,
+    "lng": -100.3185,
     "name": {
       "en": "Alternativas Pacíficas Refugio para Mujeres (Monterrey, Nuevo León, Mexico)"
     },
@@ -9743,8 +9743,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-43",
     "regionDistrict": "Oaxaca / Chiapas, Mexico",
     "type": "safe-haven",
-    "lat": 17.153,
-    "lng": -96.636,
+    "lat": 17.0755,
+    "lng": -96.7285,
     "name": {
       "en": "Casa de la Mujer Rosario Castellanos Safe Haven (Oaxaca / Chiapas, Mexico)"
     },
@@ -9799,8 +9799,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-44",
     "regionDistrict": "Guatemala City, Guatemala",
     "type": "safe-haven",
-    "lat": 14.714,
-    "lng": -90.416,
+    "lat": 14.6365,
+    "lng": -90.5085,
     "name": {
       "en": "Fundación Sobrevivientes"
     },
@@ -9827,8 +9827,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-44-u2",
     "regionDistrict": "Guatemala City, Guatemala",
     "type": "safe-haven",
-    "lat": 14.73,
-    "lng": -90.434,
+    "lat": 14.6315,
+    "lng": -90.5035,
     "name": {
       "en": "CAIMUS Women’s Shelter"
     },
@@ -9883,8 +9883,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-45",
     "regionDistrict": "San Salvador, El Salvador",
     "type": "safe-haven",
-    "lat": 13.772,
-    "lng": -89.128,
+    "lat": 13.6945,
+    "lng": -89.2205,
     "name": {
       "en": "ORMUSA & Ciudad Mujer Safe Haven Center (San Salvador, El Salvador)"
     },
@@ -9939,8 +9939,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-46",
     "regionDistrict": "Tegucigalpa, Honduras",
     "type": "safe-haven",
-    "lat": 14.152,
-    "lng": -87.102,
+    "lat": 14.0745,
+    "lng": -87.1945,
     "name": {
       "en": "Centro de Derechos de Mujeres (CDM) Safe Haven (Tegucigalpa, Honduras)"
     },
@@ -9995,8 +9995,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-47",
     "regionDistrict": "Managua, Nicaragua",
     "type": "safe-haven",
-    "lat": 12.194,
-    "lng": -86.146,
+    "lat": 12.1165,
+    "lng": -86.2385,
     "name": {
       "en": "Red de Mujeres Contra la Violencia Safe Space (Managua, Nicaragua)"
     },
@@ -10051,8 +10051,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-48",
     "regionDistrict": "San José, Costa Rica",
     "type": "safe-haven",
-    "lat": 10.008,
-    "lng": -84.0,
+    "lat": 9.9305,
+    "lng": -84.0925,
     "name": {
       "en": "INAMU Centros Especializados de Atención y Albergue (San José, Costa Rica)"
     },
@@ -10107,8 +10107,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-49",
     "regionDistrict": "Panama City, Panama",
     "type": "safe-haven",
-    "lat": 9.062,
-    "lng": -79.429,
+    "lat": 8.9845,
+    "lng": -79.5215,
     "name": {
       "en": "INAMU Albergue Seguro para Mujeres (Panama City, Panama)"
     },
@@ -10163,8 +10163,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-50",
     "regionDistrict": "Havana, Cuba",
     "type": "safe-haven",
-    "lat": 23.193,
-    "lng": -82.276,
+    "lat": 23.1155,
+    "lng": -82.3685,
     "name": {
       "en": "Consejería para la Mujer y la Familia Safe Space (Havana, Cuba)"
     },
@@ -10219,8 +10219,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-51",
     "regionDistrict": "Port-au-Prince, Haiti",
     "type": "safe-haven",
-    "lat": 18.674,
-    "lng": -72.217,
+    "lat": 18.5965,
+    "lng": -72.3095,
     "name": {
       "en": "SOFA (Solidarite Fanm Ayisyèn)"
     },
@@ -10247,8 +10247,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-51-u2",
     "regionDistrict": "Port-au-Prince, Haiti",
     "type": "safe-haven",
-    "lat": 18.69,
-    "lng": -72.235,
+    "lat": 18.5915,
+    "lng": -72.3045,
     "name": {
       "en": "Kay Fanm Safe Haven"
     },
@@ -10303,8 +10303,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-52",
     "regionDistrict": "Santo Domingo, Dominican Republic",
     "type": "safe-haven",
-    "lat": 18.566,
-    "lng": -69.841,
+    "lat": 18.4885,
+    "lng": -69.9335,
     "name": {
       "en": "Casas de Acogida Ministerio de la Mujer (Santo Domingo, Dominican Republic)"
     },
@@ -10359,8 +10359,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-53",
     "regionDistrict": "Kingston, Jamaica",
     "type": "safe-haven",
-    "lat": 18.097,
-    "lng": -76.719,
+    "lat": 18.0195,
+    "lng": -76.8115,
     "name": {
       "en": "Woman Inc. Crisis Centre & Safe Shelter Kingston (Kingston, Jamaica)"
     },
@@ -10415,8 +10415,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-54",
     "regionDistrict": "San Juan, Puerto Rico",
     "type": "safe-haven",
-    "lat": 18.545,
-    "lng": -66.015,
+    "lat": 18.4675,
+    "lng": -66.1075,
     "name": {
       "en": "Casa Protegida Julia de Burgos Safe Haven (San Juan, Puerto Rico)"
     },
@@ -10471,8 +10471,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-55",
     "regionDistrict": "Bogotá, Colombia",
     "type": "safe-haven",
-    "lat": 4.669,
-    "lng": -73.993,
+    "lat": 4.5915,
+    "lng": -74.0855,
     "name": {
       "en": "Casas Refugio"
     },
@@ -10499,8 +10499,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-55-u2",
     "regionDistrict": "Bogotá, Colombia",
     "type": "safe-haven",
-    "lat": 4.685,
-    "lng": -74.011,
+    "lat": 4.5865,
+    "lng": -74.0805,
     "name": {
       "en": "Línea Púrpura Safe Haven"
     },
@@ -10555,8 +10555,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-56",
     "regionDistrict": "Medellín / Cali, Colombia",
     "type": "safe-haven",
-    "lat": 6.324,
-    "lng": -75.491,
+    "lat": 6.2465,
+    "lng": -75.5835,
     "name": {
       "en": "Hogares de Acogida Medellín Women’s Shelter (Medellín / Cali, Colombia)"
     },
@@ -10611,8 +10611,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-57",
     "regionDistrict": "Caracas, Venezuela",
     "type": "safe-haven",
-    "lat": 10.56,
-    "lng": -66.813,
+    "lat": 10.4825,
+    "lng": -66.9055,
     "name": {
       "en": "CEPAZ & Tinta Violeta Women’s Emergency Safe Space (Caracas, Venezuela)"
     },
@@ -10667,8 +10667,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-58",
     "regionDistrict": "Quito, Ecuador",
     "type": "safe-haven",
-    "lat": -0.1,
-    "lng": -78.377,
+    "lat": -0.1775,
+    "lng": -78.4695,
     "name": {
       "en": "Casa de Refugio Matilde Women’s Safe Haven (Quito, Ecuador)"
     },
@@ -10723,8 +10723,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-59",
     "regionDistrict": "Lima, Peru",
     "type": "safe-haven",
-    "lat": -11.966,
-    "lng": -76.952,
+    "lat": -12.0435,
+    "lng": -77.0445,
     "name": {
       "en": "Hogares de Refugio Temporal"
     },
@@ -10751,8 +10751,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-59-u2",
     "regionDistrict": "Lima, Peru",
     "type": "safe-haven",
-    "lat": -11.95,
-    "lng": -76.97,
+    "lat": -12.0485,
+    "lng": -77.0395,
     "name": {
       "en": "Flora Tristán"
     },
@@ -10807,8 +10807,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-60",
     "regionDistrict": "Cusco, Peru",
     "type": "safe-haven",
-    "lat": -13.451,
-    "lng": -71.877,
+    "lat": -13.5285,
+    "lng": -71.9695,
     "name": {
       "en": "Casa de Acogida Mantay"
     },
@@ -10835,8 +10835,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-60-u2",
     "regionDistrict": "Cusco, Peru",
     "type": "safe-haven",
-    "lat": -13.435,
-    "lng": -71.895,
+    "lat": -13.5335,
+    "lng": -71.9645,
     "name": {
       "en": "CEM Cusco (Quechua/Spanish)"
     },
@@ -10891,8 +10891,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-61",
     "regionDistrict": "La Paz, Bolivia",
     "type": "safe-haven",
-    "lat": -16.409,
-    "lng": -68.029,
+    "lat": -16.4865,
+    "lng": -68.1215,
     "name": {
       "en": "Casa de la Mujer"
     },
@@ -10919,8 +10919,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-61-u2",
     "regionDistrict": "La Paz, Bolivia",
     "type": "safe-haven",
-    "lat": -16.393,
-    "lng": -68.047,
+    "lat": -16.4915,
+    "lng": -68.1165,
     "name": {
       "en": "SLIM Refugio (Aymara/Quechua/Spanish)"
     },
@@ -10975,8 +10975,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-62",
     "regionDistrict": "Santiago, Chile",
     "type": "safe-haven",
-    "lat": -33.368,
-    "lng": -70.579,
+    "lat": -33.4455,
+    "lng": -70.6715,
     "name": {
       "en": "SERNAMEG Casas de Acogida para Mujeres (Santiago, Chile)"
     },
@@ -11031,8 +11031,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-63",
     "regionDistrict": "Buenos Aires, Argentina",
     "type": "safe-haven",
-    "lat": -34.523,
-    "lng": -58.291,
+    "lat": -34.6005,
+    "lng": -58.3835,
     "name": {
       "en": "Hogar de Protección Integral"
     },
@@ -11059,8 +11059,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-63-u2",
     "regionDistrict": "Buenos Aires, Argentina",
     "type": "safe-haven",
-    "lat": -34.507,
-    "lng": -58.309,
+    "lat": -34.6055,
+    "lng": -58.3785,
     "name": {
       "en": "Línea 144 Safe Haven"
     },
@@ -11115,8 +11115,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-64",
     "regionDistrict": "Córdoba / Rosario, Argentina",
     "type": "safe-haven",
-    "lat": -31.34,
-    "lng": -64.098,
+    "lat": -31.4175,
+    "lng": -64.1905,
     "name": {
       "en": "Polo Integral de la Mujer en Situación de Violencia (Córdoba / Rosario, Argentina)"
     },
@@ -11171,8 +11171,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-65",
     "regionDistrict": "Montevideo, Uruguay",
     "type": "safe-haven",
-    "lat": -34.821,
-    "lng": -56.074,
+    "lat": -34.8985,
+    "lng": -56.1665,
     "name": {
       "en": "Inmujeres Centros de Estadía Transitoria (Montevideo, Uruguay)"
     },
@@ -11227,8 +11227,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-66",
     "regionDistrict": "Asunción, Paraguay",
     "type": "safe-haven",
-    "lat": -25.183,
-    "lng": -57.485,
+    "lat": -25.2605,
+    "lng": -57.5775,
     "name": {
       "en": "Centro Ciudad Mujer (Ñande Kerayvoty Renda) Safe Haven (Asunción, Paraguay)"
     },
@@ -11283,8 +11283,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-67",
     "regionDistrict": "São Paulo, Brazil",
     "type": "safe-haven",
-    "lat": -23.461,
-    "lng": -46.541,
+    "lat": -23.5385,
+    "lng": -46.6335,
     "name": {
       "en": "Casa da Mulher Brasileira Safe Haven São Paulo (São Paulo, Brazil)"
     },
@@ -11339,8 +11339,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-68",
     "regionDistrict": "Rio de Janeiro, Brazil",
     "type": "safe-haven",
-    "lat": -22.826,
-    "lng": -43.082,
+    "lat": -22.9035,
+    "lng": -43.1745,
     "name": {
       "en": "Casa Abrigo Lar da Mulher Rio de Janeiro (Rio de Janeiro, Brazil)"
     },
@@ -11395,8 +11395,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-69",
     "regionDistrict": "Salvador / Recife, Brazil",
     "type": "safe-haven",
-    "lat": -12.897,
-    "lng": -38.411,
+    "lat": -12.9745,
+    "lng": -38.5035,
     "name": {
       "en": "Centro de Referência Loreta Valadares Safe Haven (Salvador / Recife, Brazil)"
     },
@@ -11451,8 +11451,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-70",
     "regionDistrict": "Manaus, Amazonia, Brazil",
     "type": "safe-haven",
-    "lat": -3.039,
-    "lng": -59.931,
+    "lat": -3.1165,
+    "lng": -60.0235,
     "name": {
       "en": "Casa Abrigo Antônia Nascimento Priante (Manaus, Amazonia, Brazil)"
     },
@@ -11507,8 +11507,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-71",
     "regionDistrict": "London, United Kingdom",
     "type": "safe-haven",
-    "lat": 51.604,
-    "lng": -0.046,
+    "lat": 51.5265,
+    "lng": -0.1385,
     "name": {
       "en": "Refuge & Solace Women’s Aid Safe Haven London (London, United Kingdom)"
     },
@@ -11563,8 +11563,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-72",
     "regionDistrict": "Manchester / Birmingham, UK",
     "type": "safe-haven",
-    "lat": 53.539,
-    "lng": -2.136,
+    "lat": 53.4615,
+    "lng": -2.2285,
     "name": {
       "en": "Manchester Women’s Aid Safe Shelter (Manchester / Birmingham, UK)"
     },
@@ -11619,8 +11619,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-73",
     "regionDistrict": "Edinburgh / Glasgow, Scotland, UK",
     "type": "safe-haven",
-    "lat": 56.001,
-    "lng": -3.048,
+    "lat": 55.9235,
+    "lng": -3.1405,
     "name": {
       "en": "Scottish Women’s Aid"
     },
@@ -11647,8 +11647,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-73-u2",
     "regionDistrict": "Edinburgh / Glasgow, Scotland, UK",
     "type": "safe-haven",
-    "lat": 56.017,
-    "lng": -3.066,
+    "lat": 55.9185,
+    "lng": -3.1355,
     "name": {
       "en": "Edinburgh Shakti Safe Haven"
     },
@@ -11703,8 +11703,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-74",
     "regionDistrict": "Dublin, Ireland",
     "type": "safe-haven",
-    "lat": 53.43,
-    "lng": -6.17,
+    "lat": 53.3525,
+    "lng": -6.2625,
     "name": {
       "en": "Aoibhneas & Women’s Aid Safe Refuge Dublin (Dublin, Ireland)"
     },
@@ -11759,8 +11759,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-75",
     "regionDistrict": "Paris, France",
     "type": "safe-haven",
-    "lat": 48.949,
-    "lng": 2.479,
+    "lat": 48.8715,
+    "lng": 2.3865,
     "name": {
       "en": "La Maison des Femmes"
     },
@@ -11787,8 +11787,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-75-u2",
     "regionDistrict": "Paris, France",
     "type": "safe-haven",
-    "lat": 48.965,
-    "lng": 2.461,
+    "lat": 48.8665,
+    "lng": 2.3915,
     "name": {
       "en": "Solidarité Femmes Safe Haven"
     },
@@ -11843,8 +11843,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-76",
     "regionDistrict": "Lyon / Marseille, France",
     "type": "safe-haven",
-    "lat": 45.844,
-    "lng": 4.925,
+    "lat": 45.7665,
+    "lng": 4.8325,
     "name": {
       "en": "VIFFIL & Solidarité Femmes Safe Shelter (Lyon / Marseille, France)"
     },
@@ -11899,8 +11899,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-77",
     "regionDistrict": "Berlin, Germany",
     "type": "safe-haven",
-    "lat": 52.6,
-    "lng": 13.495,
+    "lat": 52.5225,
+    "lng": 13.4025,
     "name": {
       "en": "BIG Koordinierung"
     },
@@ -11927,8 +11927,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-77-u2",
     "regionDistrict": "Berlin, Germany",
     "type": "safe-haven",
-    "lat": 52.616,
-    "lng": 13.477,
+    "lat": 52.5175,
+    "lng": 13.4075,
     "name": {
       "en": "Autonome Frauenhäuser Berlin"
     },
@@ -11983,8 +11983,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-78",
     "regionDistrict": "Munich / Frankfurt, Germany",
     "type": "safe-haven",
-    "lat": 48.215,
-    "lng": 11.672,
+    "lat": 48.1375,
+    "lng": 11.5795,
     "name": {
       "en": "Frauenhilfe & Frauenhaus München Safe Haven (Munich / Frankfurt, Germany)"
     },
@@ -12039,8 +12039,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-79",
     "regionDistrict": "Amsterdam, Netherlands",
     "type": "safe-haven",
-    "lat": 52.447,
-    "lng": 4.994,
+    "lat": 52.3695,
+    "lng": 4.9015,
     "name": {
       "en": "Blijf Groep Oranje Huis Women’s Safe Haven (Amsterdam, Netherlands)"
     },
@@ -12095,8 +12095,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-80",
     "regionDistrict": "Brussels, Belgium",
     "type": "safe-haven",
-    "lat": 50.93,
-    "lng": 4.441,
+    "lat": 50.8525,
+    "lng": 4.3485,
     "name": {
       "en": "Refuge Pluriel"
     },
@@ -12123,8 +12123,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-80-u2",
     "regionDistrict": "Brussels, Belgium",
     "type": "safe-haven",
-    "lat": 50.946,
-    "lng": 4.423,
+    "lat": 50.8475,
+    "lng": 4.3535,
     "name": {
       "en": "Collectif Contre les Violences"
     },
@@ -12179,8 +12179,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-81",
     "regionDistrict": "Zurich / Geneva, Switzerland",
     "type": "safe-haven",
-    "lat": 47.456,
-    "lng": 8.631,
+    "lat": 47.3785,
+    "lng": 8.5385,
     "name": {
       "en": "Frauenhaus Zürich Violetta Safe Haven (Zurich / Geneva, Switzerland)"
     },
@@ -12235,8 +12235,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-82",
     "regionDistrict": "Vienna, Austria",
     "type": "safe-haven",
-    "lat": 48.288,
-    "lng": 16.463,
+    "lat": 48.2105,
+    "lng": 16.3705,
     "name": {
       "en": "Wiener Frauenhäuser Safe Shelter (Vienna, Austria)"
     },
@@ -12291,8 +12291,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-83",
     "regionDistrict": "Madrid, Spain",
     "type": "safe-haven",
-    "lat": 40.496,
-    "lng": -3.613,
+    "lat": 40.4185,
+    "lng": -3.7055,
     "name": {
       "en": "Red de Centros de Emergencia para Mujeres Madrid (Madrid, Spain)"
     },
@@ -12347,8 +12347,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-84",
     "regionDistrict": "Barcelona, Catalonia, Spain",
     "type": "safe-haven",
-    "lat": 41.467,
-    "lng": 2.258,
+    "lat": 41.3895,
+    "lng": 2.1655,
     "name": {
       "en": "SARA & Tamaia Viure Sense Violència Safe Haven (Barcelona, Catalonia, Spain)"
     },
@@ -12403,8 +12403,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-85",
     "regionDistrict": "Lisbon, Portugal",
     "type": "safe-haven",
-    "lat": 38.802,
-    "lng": -9.049,
+    "lat": 38.7245,
+    "lng": -9.1415,
     "name": {
       "en": "APAV & UMAR Casas de Abrigo para Mulheres (Lisbon, Portugal)"
     },
@@ -12459,8 +12459,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-86",
     "regionDistrict": "Rome, Italy",
     "type": "safe-haven",
-    "lat": 41.982,
-    "lng": 12.586,
+    "lat": 41.9045,
+    "lng": 12.4935,
     "name": {
       "en": "Casa Internazionale delle Donne"
     },
@@ -12487,8 +12487,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-86-u2",
     "regionDistrict": "Rome, Italy",
     "type": "safe-haven",
-    "lat": 41.998,
-    "lng": 12.568,
+    "lat": 41.8995,
+    "lng": 12.4985,
     "name": {
       "en": "D.i.Re Safe Haven"
     },
@@ -12543,8 +12543,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-87",
     "regionDistrict": "Milan / Naples, Italy",
     "type": "safe-haven",
-    "lat": 45.544,
-    "lng": 9.28,
+    "lat": 45.4665,
+    "lng": 9.1875,
     "name": {
       "en": "Casa delle Donne Maltrattate di Milano (CADMI) (Milan / Naples, Italy)"
     },
@@ -12599,8 +12599,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-88",
     "regionDistrict": "Athens, Greece",
     "type": "safe-haven",
-    "lat": 38.063,
-    "lng": 23.817,
+    "lat": 37.9855,
+    "lng": 23.7245,
     "name": {
       "en": "Diotima & General Secretariat Women’s Shelter Network (Athens, Greece)"
     },
@@ -12655,8 +12655,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-89",
     "regionDistrict": "Stockholm, Sweden",
     "type": "safe-haven",
-    "lat": 59.409,
-    "lng": 18.158,
+    "lat": 59.3315,
+    "lng": 18.0655,
     "name": {
       "en": "Roks & Unizon Kvinnojourer Women’s Shelter (Stockholm, Sweden)"
     },
@@ -12711,8 +12711,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-90",
     "regionDistrict": "Oslo, Norway",
     "type": "safe-haven",
-    "lat": 59.993,
-    "lng": 10.842,
+    "lat": 59.9155,
+    "lng": 10.7495,
     "name": {
       "en": "Oslo Krisesenter Safe Haven for Women (Oslo, Norway)"
     },
@@ -12767,8 +12767,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-91",
     "regionDistrict": "Copenhagen, Denmark",
     "type": "safe-haven",
-    "lat": 55.756,
-    "lng": 12.658,
+    "lat": 55.6785,
+    "lng": 12.5655,
     "name": {
       "en": "Dannerhuset Women’s Crisis Center Copenhagen (Copenhagen, Denmark)"
     },
@@ -12823,8 +12823,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-92",
     "regionDistrict": "Helsinki, Finland",
     "type": "safe-haven",
-    "lat": 60.249,
-    "lng": 25.028,
+    "lat": 60.1715,
+    "lng": 24.9355,
     "name": {
       "en": "Mona & Naisten Linja Safe Shelter Helsinki (Helsinki, Finland)"
     },
@@ -12879,8 +12879,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-93",
     "regionDistrict": "Reykjavik, Iceland",
     "type": "safe-haven",
-    "lat": 64.226,
-    "lng": -21.852,
+    "lat": 64.1485,
+    "lng": -21.9445,
     "name": {
       "en": "Kvennaathvarfið (The Women’s Shelter Reykjavik) (Reykjavik, Iceland)"
     },
@@ -12935,8 +12935,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-94",
     "regionDistrict": "Warsaw, Poland",
     "type": "safe-haven",
-    "lat": 52.309,
-    "lng": 21.102,
+    "lat": 52.2315,
+    "lng": 21.0095,
     "name": {
       "en": "Centrum Praw Kobiet (Women’s Rights Safe Shelter) (Warsaw, Poland)"
     },
@@ -12991,8 +12991,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-95",
     "regionDistrict": "Prague, Czechia",
     "type": "safe-haven",
-    "lat": 50.155,
-    "lng": 14.527,
+    "lat": 50.0775,
+    "lng": 14.4345,
     "name": {
       "en": "ROSA & Acorus Safe Haven for Women Prague (Prague, Czechia)"
     },
@@ -13047,8 +13047,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-96",
     "regionDistrict": "Budapest, Hungary",
     "type": "safe-haven",
-    "lat": 47.577,
-    "lng": 19.13,
+    "lat": 47.4995,
+    "lng": 19.0375,
     "name": {
       "en": "NANE & Patent Women’s Crisis Safe Space (Budapest, Hungary)"
     },
@@ -13103,8 +13103,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-97",
     "regionDistrict": "Bucharest, Romania",
     "type": "safe-haven",
-    "lat": 44.506,
-    "lng": 26.192,
+    "lat": 44.4285,
+    "lng": 26.0995,
     "name": {
       "en": "ANES & Casa Blu Safe Shelter for Women (Bucharest, Romania)"
     },
@@ -13159,8 +13159,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-98",
     "regionDistrict": "Sofia, Bulgaria",
     "type": "safe-haven",
-    "lat": 42.777,
-    "lng": 23.411,
+    "lat": 42.6995,
+    "lng": 23.3185,
     "name": {
       "en": "Animus Association Crisis Center & Shelter (Sofia, Bulgaria)"
     },
@@ -13215,8 +13215,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-99",
     "regionDistrict": "Belgrade, Serbia",
     "type": "safe-haven",
-    "lat": 44.866,
-    "lng": 20.538,
+    "lat": 44.7885,
+    "lng": 20.4455,
     "name": {
       "en": "Autonomous Women’s Center & Safe House Belgrade (Belgrade, Serbia)"
     },
@@ -13271,8 +13271,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-100",
     "regionDistrict": "Sarajevo, Bosnia & Herzegovina",
     "type": "safe-haven",
-    "lat": 43.936,
-    "lng": 18.503,
+    "lat": 43.8585,
+    "lng": 18.4105,
     "name": {
       "en": "Foundation Local Democracy Safe House Sarajevo (Sarajevo, Bosnia & Herzegovina)"
     },
@@ -13327,8 +13327,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-101",
     "regionDistrict": "Tirana, Albania",
     "type": "safe-haven",
-    "lat": 41.407,
-    "lng": 19.908,
+    "lat": 41.3295,
+    "lng": 19.8155,
     "name": {
       "en": "Counseling Line for Women & Girls Shelter Tirana (Tirana, Albania)"
     },
@@ -13383,8 +13383,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-102",
     "regionDistrict": "Kyiv, Ukraine",
     "type": "safe-haven",
-    "lat": 50.53,
-    "lng": 30.613,
+    "lat": 50.4525,
+    "lng": 30.5205,
     "name": {
       "en": "La Strada Ukraine"
     },
@@ -13411,8 +13411,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-102-u2",
     "regionDistrict": "Kyiv, Ukraine",
     "type": "safe-haven",
-    "lat": 50.546,
-    "lng": 30.595,
+    "lat": 50.4475,
+    "lng": 30.5255,
     "name": {
       "en": "UNFPA Survivor Relief Safe Haven"
     },
@@ -13467,8 +13467,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-103",
     "regionDistrict": "Lviv, Ukraine",
     "type": "safe-haven",
-    "lat": 49.919,
-    "lng": 24.119,
+    "lat": 49.8415,
+    "lng": 24.0265,
     "name": {
       "en": "Women’s Perspectives Center Safe Shelter Lviv (Lviv, Ukraine)"
     },
@@ -13523,8 +13523,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-104",
     "regionDistrict": "Tbilisi, Georgia",
     "type": "safe-haven",
-    "lat": 41.795,
-    "lng": 44.917,
+    "lat": 41.7175,
+    "lng": 44.8245,
     "name": {
       "en": "Sapari & State Fund Domestic Abuse Shelter Tbilisi (Tbilisi, Georgia)"
     },
@@ -13579,8 +13579,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-105",
     "regionDistrict": "Yerevan, Armenia",
     "type": "safe-haven",
-    "lat": 40.259,
-    "lng": 44.589,
+    "lat": 40.1815,
+    "lng": 44.4965,
     "name": {
       "en": "Women’s Support Center Safe Haven Yerevan (Yerevan, Armenia)"
     },
@@ -13635,8 +13635,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-106",
     "regionDistrict": "Baku, Azerbaijan",
     "type": "safe-haven",
-    "lat": 40.489,
-    "lng": 49.957,
+    "lat": 40.4115,
+    "lng": 49.8645,
     "name": {
       "en": "Tais & Clean World Women’s Aid Shelter Baku (Baku, Azerbaijan)"
     },
@@ -13691,8 +13691,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-107",
     "regionDistrict": "Cairo, Egypt",
     "type": "safe-haven",
-    "lat": 30.124,
-    "lng": 31.325,
+    "lat": 30.0465,
+    "lng": 31.2325,
     "name": {
       "en": "ADEW & NCW Women’s Safe Shelter Cairo (Cairo, Egypt)"
     },
@@ -13747,8 +13747,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-108",
     "regionDistrict": "Tunis, Tunisia",
     "type": "safe-haven",
-    "lat": 36.886,
-    "lng": 10.271,
+    "lat": 36.8085,
+    "lng": 10.1785,
     "name": {
       "en": "ATFD (Femmes Démocrates)"
     },
@@ -13775,8 +13775,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-108-u2",
     "regionDistrict": "Tunis, Tunisia",
     "type": "safe-haven",
-    "lat": 36.902,
-    "lng": 10.253,
+    "lat": 36.8035,
+    "lng": 10.1835,
     "name": {
       "en": "Beity Safe Haven"
     },
@@ -13831,8 +13831,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-109",
     "regionDistrict": "Algiers, Algeria",
     "type": "safe-haven",
-    "lat": 36.833,
-    "lng": 3.148,
+    "lat": 36.7555,
+    "lng": 3.0555,
     "name": {
       "en": "Réseau Wassila"
     },
@@ -13859,8 +13859,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-109-u2",
     "regionDistrict": "Algiers, Algeria",
     "type": "safe-haven",
-    "lat": 36.849,
-    "lng": 3.13,
+    "lat": 36.7505,
+    "lng": 3.0605,
     "name": {
       "en": "SOS Femmes en Détresse"
     },
@@ -13915,8 +13915,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-110",
     "regionDistrict": "Casablanca / Rabat, Morocco",
     "type": "safe-haven",
-    "lat": 33.653,
-    "lng": -7.499,
+    "lat": 33.5755,
+    "lng": -7.5915,
     "name": {
       "en": "Fédération Ligue Démocratique des Droits des Femmes (Casablanca / Rabat, Morocco)"
     },
@@ -13999,8 +13999,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-111",
     "regionDistrict": "Port Sudan, Red Sea State, Sudan",
     "type": "safe-haven",
-    "lat": 19.695,
-    "lng": 37.306,
+    "lat": 19.6175,
+    "lng": 37.2135,
     "name": {
       "en": "SIHA Network Red Sea Safe Haven (Port Sudan)"
     },
@@ -14027,8 +14027,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-111-u2",
     "regionDistrict": "Port Sudan, Red Sea State, Sudan",
     "type": "safe-haven",
-    "lat": 19.711,
-    "lng": 37.288,
+    "lat": 19.6125,
+    "lng": 37.2185,
     "name": {
       "en": "Combating Violence Against Women Unit (CVAW Port Sudan)"
     },
@@ -14083,8 +14083,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-112",
     "regionDistrict": "Juba, South Sudan",
     "type": "safe-haven",
-    "lat": 4.939,
-    "lng": 31.661,
+    "lat": 4.8615,
+    "lng": 31.5685,
     "name": {
       "en": "IRC & Crown the Woman One-Stop Safe Haven Juba (Juba, South Sudan)"
     },
@@ -14139,8 +14139,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-113",
     "regionDistrict": "Mekelle, Tigray, Ethiopia",
     "type": "safe-haven",
-    "lat": 13.586,
-    "lng": 39.552,
+    "lat": 13.5085,
+    "lng": 39.4595,
     "name": {
       "en": "Tigray One-Stop GBV & Women’s Safe Haven Center (Mekelle, Tigray, Ethiopia)"
     },
@@ -14195,8 +14195,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-114-u2",
     "regionDistrict": "Addis Ababa, Ethiopia",
     "type": "hospital",
-    "lat": 9.035,
-    "lng": 38.734,
+    "lat": 9.0215,
+    "lng": 38.7545,
     "name": {
       "en": "Hamlin Fistula Hospital"
     },
@@ -14223,8 +14223,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-114",
     "regionDistrict": "Addis Ababa, Ethiopia",
     "type": "safe-haven",
-    "lat": 9.099,
-    "lng": 38.842,
+    "lat": 9.0215,
+    "lng": 38.7495,
     "name": {
       "en": "AWSAD (Association for Women’s Sanctuary) Safe House (Addis Ababa, Ethiopia)"
     },
@@ -14279,8 +14279,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-115",
     "regionDistrict": "Asmara, Eritrea",
     "type": "safe-haven",
-    "lat": 15.421,
-    "lng": 39.022,
+    "lat": 15.3435,
+    "lng": 38.9295,
     "name": {
       "en": "NUEW Women’s Support & Safe Counseling Center (Asmara, Eritrea)"
     },
@@ -14335,8 +14335,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-116",
     "regionDistrict": "Djibouti City, Djibouti",
     "type": "safe-haven",
-    "lat": 11.652,
-    "lng": 43.235,
+    "lat": 11.5745,
+    "lng": 43.1425,
     "name": {
       "en": "UNFD Cellule d’Écoute Safe Haven Djibouti (Djibouti City, Djibouti)"
     },
@@ -14391,8 +14391,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-117",
     "regionDistrict": "Hargeisa, Somaliland",
     "type": "safe-haven",
-    "lat": 9.642,
-    "lng": 44.167,
+    "lat": 9.5645,
+    "lng": 44.0745,
     "name": {
       "en": "Baahi-Koob & WAAPO Women’s Safe Haven Hargeisa (Hargeisa, Somaliland)"
     },
@@ -14447,8 +14447,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-118",
     "regionDistrict": "Mogadishu, Somalia",
     "type": "safe-haven",
-    "lat": 2.112,
-    "lng": 45.388,
+    "lat": 2.0345,
+    "lng": 45.2955,
     "name": {
       "en": "SWDC & Elman Peace Drop-In Women’s Safe Haven (Mogadishu, Somalia)"
     },
@@ -14503,8 +14503,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-119-u2",
     "regionDistrict": "Nairobi, Kenya",
     "type": "hospital",
-    "lat": -1.279,
-    "lng": 36.766,
+    "lat": -1.2925,
+    "lng": 36.7865,
     "name": {
       "en": "Nairobi Women’s Hospital"
     },
@@ -14531,8 +14531,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-119",
     "regionDistrict": "Nairobi, Kenya",
     "type": "safe-haven",
-    "lat": -1.215,
-    "lng": 36.874,
+    "lat": -1.2925,
+    "lng": 36.7815,
     "name": {
       "en": "GVRC & Usikimye Safe House Nairobi (Nairobi, Kenya)"
     },
@@ -14587,8 +14587,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-120-u2",
     "regionDistrict": "Dadaab / Kakuma Camps, Kenya",
     "type": "hospital",
-    "lat": 0.067,
-    "lng": 40.294,
+    "lat": 0.0535,
+    "lng": 40.3145,
     "name": {
       "en": "MSF Dagahaley Maternity Hospital"
     },
@@ -14615,8 +14615,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-120",
     "regionDistrict": "Dadaab / Kakuma Camps, Kenya",
     "type": "safe-haven",
-    "lat": 0.131,
-    "lng": 40.402,
+    "lat": 0.0535,
+    "lng": 40.3095,
     "name": {
       "en": "UNHCR / CARE Women Friendly Safe Space Dadaab (Dadaab / Kakuma Camps, Kenya)"
     },
@@ -14671,8 +14671,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-121",
     "regionDistrict": "Kampala, Uganda",
     "type": "safe-haven",
-    "lat": 0.427,
-    "lng": 32.672,
+    "lat": 0.3495,
+    "lng": 32.5795,
     "name": {
       "en": "MIFUMI & CEDOVIP Women’s Safe Shelter Kampala (Kampala, Uganda)"
     },
@@ -14727,8 +14727,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-122-u2",
     "regionDistrict": "Kigali, Rwanda",
     "type": "hospital",
-    "lat": -1.928,
-    "lng": 30.043,
+    "lat": -1.9415,
+    "lng": 30.0635,
     "name": {
       "en": "Kacyiru Hospital"
     },
@@ -14755,8 +14755,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-122",
     "regionDistrict": "Kigali, Rwanda",
     "type": "safe-haven",
-    "lat": -1.864,
-    "lng": 30.151,
+    "lat": -1.9415,
+    "lng": 30.0585,
     "name": {
       "en": "Isange One Stop Centre for Women & Survivors (Kigali, Rwanda)"
     },
@@ -14811,8 +14811,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-123",
     "regionDistrict": "Bujumbura, Burundi",
     "type": "safe-haven",
-    "lat": -3.302,
-    "lng": 29.454,
+    "lat": -3.3795,
+    "lng": 29.3615,
     "name": {
       "en": "Centre Seruka GBV Medical & Safe Haven Bujumbura (Bujumbura, Burundi)"
     },
@@ -14867,8 +14867,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-124",
     "regionDistrict": "Dar es Salaam, Tanzania",
     "type": "safe-haven",
-    "lat": -6.712,
-    "lng": 39.298,
+    "lat": -6.7895,
+    "lng": 39.2055,
     "name": {
       "en": "Kivulini & WiLDAF Women’s Safe House Tanzania (Dar es Salaam, Tanzania)"
     },
@@ -14923,8 +14923,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-125-u2",
     "regionDistrict": "Bukavu / Goma, DR Congo",
     "type": "hospital",
-    "lat": -2.512,
-    "lng": 28.843,
+    "lat": -2.5255,
+    "lng": 28.8635,
     "name": {
       "en": "HEAL Africa Fistula Hospital"
     },
@@ -14951,8 +14951,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-125",
     "regionDistrict": "Bukavu / Goma, DR Congo",
     "type": "safe-haven",
-    "lat": -2.448,
-    "lng": 28.951,
+    "lat": -2.5255,
+    "lng": 28.8585,
     "name": {
       "en": "Maison Dorcas"
     },
@@ -14979,8 +14979,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-125-u2",
     "regionDistrict": "Bukavu / Goma, DR Congo",
     "type": "safe-haven",
-    "lat": -2.432,
-    "lng": 28.933,
+    "lat": -2.5305,
+    "lng": 28.8635,
     "name": {
       "en": "City of Joy Women’s Sanctuary"
     },
@@ -15035,8 +15035,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-126",
     "regionDistrict": "Kinshasa, DR Congo",
     "type": "safe-haven",
-    "lat": -4.242,
-    "lng": 15.403,
+    "lat": -4.3195,
+    "lng": 15.3105,
     "name": {
       "en": "SOFEPADI & Fonds pour les Femmes Safe Haven (Kinshasa, DR Congo)"
     },
@@ -15091,8 +15091,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-127",
     "regionDistrict": "Brazzaville, Republic of the Congo",
     "type": "safe-haven",
-    "lat": -4.183,
-    "lng": 15.332,
+    "lat": -4.2605,
+    "lng": 15.2395,
     "name": {
       "en": "Association des Femmes Juristes Safe Space (Brazzaville, Republic of the Congo)"
     },
@@ -15147,8 +15147,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-128",
     "regionDistrict": "Bangui, Central African Republic",
     "type": "safe-haven",
-    "lat": 4.474,
-    "lng": 18.648,
+    "lat": 4.3965,
+    "lng": 18.5555,
     "name": {
       "en": "AFJC & UNFPA Women’s Safe Space Bangui (Bangui, Central African Republic)"
     },
@@ -15203,8 +15203,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-129",
     "regionDistrict": "N’Djamena, Chad",
     "type": "safe-haven",
-    "lat": 12.214,
-    "lng": 15.145,
+    "lat": 12.1365,
+    "lng": 15.0525,
     "name": {
       "en": "Cellule de Liaison des Associations Féminines (CELIAF) (N’Djamena, Chad)"
     },
@@ -15259,8 +15259,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-130",
     "regionDistrict": "Yaoundé / Douala, Cameroon",
     "type": "safe-haven",
-    "lat": 3.928,
-    "lng": 11.592,
+    "lat": 3.8505,
+    "lng": 11.4995,
     "name": {
       "en": "ALVF (Association de Lutte contre les Violences faites aux Femmes) (Yaoundé / Douala, Cameroon)"
     },
@@ -15343,8 +15343,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-132",
     "regionDistrict": "Abuja / Kano, Nigeria",
     "type": "safe-haven",
-    "lat": 9.156,
-    "lng": 7.488,
+    "lat": 9.0785,
+    "lng": 7.3955,
     "name": {
       "en": "WRAPA & Dorothy Njemanze Safe Shelter Abuja (Abuja / Kano, Nigeria)"
     },
@@ -15399,8 +15399,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-133",
     "regionDistrict": "Accra, Ghana",
     "type": "safe-haven",
-    "lat": 5.636,
-    "lng": -0.106,
+    "lat": 5.5585,
+    "lng": -0.1985,
     "name": {
       "en": "The Ark Foundation"
     },
@@ -15427,8 +15427,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-133-u2",
     "regionDistrict": "Accra, Ghana",
     "type": "safe-haven",
-    "lat": 5.652,
-    "lng": -0.124,
+    "lat": 5.5535,
+    "lng": -0.1935,
     "name": {
       "en": "DOVVSU Women’s Shelter Accra"
     },
@@ -15483,8 +15483,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-134",
     "regionDistrict": "Abidjan, Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 5.439,
-    "lng": -3.918,
+    "lat": 5.3615,
+    "lng": -4.0105,
     "name": {
       "en": "Centre Pavillon Sainte-Lucie Safe Haven Abidjan (Abidjan, Côte d’Ivoire)"
     },
@@ -15539,8 +15539,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-135",
     "regionDistrict": "Dakar, Senegal",
     "type": "safe-haven",
-    "lat": 14.772,
-    "lng": -17.356,
+    "lat": 14.6945,
+    "lng": -17.4485,
     "name": {
       "en": "Maison Rose"
     },
@@ -15567,8 +15567,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-135-u2",
     "regionDistrict": "Dakar, Senegal",
     "type": "safe-haven",
-    "lat": 14.788,
-    "lng": -17.374,
+    "lat": 14.6895,
+    "lng": -17.4435,
     "name": {
       "en": "AJS Women’s Safe Haven Guédiawaye/Dakar"
     },
@@ -15623,8 +15623,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-136",
     "regionDistrict": "Bamako, Mali",
     "type": "safe-haven",
-    "lat": 12.719,
-    "lng": -7.912,
+    "lat": 12.6415,
+    "lng": -8.0045,
     "name": {
       "en": "APDF (Maison de la Femme) Safe Shelter Bamako (Bamako, Mali)"
     },
@@ -15679,8 +15679,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-137",
     "regionDistrict": "Ouagadougou, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.451,
-    "lng": -1.429,
+    "lat": 12.3735,
+    "lng": -1.5215,
     "name": {
       "en": "Association Voix de Femmes Safe Haven (Ouagadougou, Burkina Faso)"
     },
@@ -15735,8 +15735,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-138",
     "regionDistrict": "Conakry, Guinea",
     "type": "safe-haven",
-    "lat": 9.721,
-    "lng": -13.488,
+    "lat": 9.6435,
+    "lng": -13.5805,
     "name": {
       "en": "OPROGEM & Club des Jeunes Filles Safe Space (Conakry, Guinea)"
     },
@@ -15791,8 +15791,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-139",
     "regionDistrict": "Freetown, Sierra Leone",
     "type": "safe-haven",
-    "lat": 8.545,
-    "lng": -13.141,
+    "lat": 8.4675,
+    "lng": -13.2335,
     "name": {
       "en": "Rainbo Initiative Survivor & Women’s Safe Center (Freetown, Sierra Leone)"
     },
@@ -15847,8 +15847,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-140",
     "regionDistrict": "Monrovia, Liberia",
     "type": "safe-haven",
-    "lat": 6.395,
-    "lng": -10.717,
+    "lat": 6.3175,
+    "lng": -10.8095,
     "name": {
       "en": "WONGOSOL & One-Stop GBV Safe Haven Monrovia (Monrovia, Liberia)"
     },
@@ -15903,8 +15903,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-141",
     "regionDistrict": "Lusaka, Zambia",
     "type": "safe-haven",
-    "lat": -15.307,
-    "lng": 28.412,
+    "lat": -15.3845,
+    "lng": 28.3195,
     "name": {
       "en": "YWCA Zambia"
     },
@@ -15931,8 +15931,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-141-u2",
     "regionDistrict": "Lusaka, Zambia",
     "type": "safe-haven",
-    "lat": -15.291,
-    "lng": 28.394,
+    "lat": -15.3895,
+    "lng": 28.3245,
     "name": {
       "en": "Coordinated GBV One-Stop Shelter"
     },
@@ -15987,8 +15987,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-142",
     "regionDistrict": "Lilongwe, Malawi",
     "type": "safe-haven",
-    "lat": -13.882,
-    "lng": 33.864,
+    "lat": -13.9595,
+    "lng": 33.7715,
     "name": {
       "en": "Tithandizane & Chikulamayembe Women’s Safe Haven (Lilongwe, Malawi)"
     },
@@ -16043,8 +16043,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-143",
     "regionDistrict": "Harare, Zimbabwe",
     "type": "safe-haven",
-    "lat": -17.745,
-    "lng": 31.123,
+    "lat": -17.8225,
+    "lng": 31.0305,
     "name": {
       "en": "Musasa Project Women’s Safe Shelter Harare (Harare, Zimbabwe)"
     },
@@ -16099,8 +16099,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-144",
     "regionDistrict": "Maputo, Mozambique",
     "type": "safe-haven",
-    "lat": -25.889,
-    "lng": 32.663,
+    "lat": -25.9665,
+    "lng": 32.5705,
     "name": {
       "en": "Fórum Mulher"
     },
@@ -16127,8 +16127,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-144-u2",
     "regionDistrict": "Maputo, Mozambique",
     "type": "safe-haven",
-    "lat": -25.873,
-    "lng": 32.645,
+    "lat": -25.9715,
+    "lng": 32.5755,
     "name": {
       "en": "Gabinete de Atendimento à Mulher"
     },
@@ -16183,8 +16183,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-145",
     "regionDistrict": "Luanda, Angola",
     "type": "safe-haven",
-    "lat": -8.759,
-    "lng": 13.379,
+    "lat": -8.8365,
+    "lng": 13.2865,
     "name": {
       "en": "OMA Counseling & Women’s Protection Center (Luanda, Angola)"
     },
@@ -16380,8 +16380,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-150",
     "regionDistrict": "Antananarivo, Madagascar",
     "type": "safe-haven",
-    "lat": -18.799,
-    "lng": 47.597,
+    "lat": -18.8765,
+    "lng": 47.5045,
     "name": {
       "en": "Centre Vonjy"
     },
@@ -16408,8 +16408,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-150-u2",
     "regionDistrict": "Antananarivo, Madagascar",
     "type": "safe-haven",
-    "lat": -18.783,
-    "lng": 47.579,
+    "lat": -18.8815,
+    "lng": 47.5095,
     "name": {
       "en": "Trano Aro Zo Safe Haven"
     },
@@ -16464,8 +16464,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-151",
     "regionDistrict": "Amman, Jordan",
     "type": "safe-haven",
-    "lat": 32.043,
-    "lng": 36.0,
+    "lat": 31.9655,
+    "lng": 35.9075,
     "name": {
       "en": "Jordanian Women’s Union (JWU) Safe Haven Shelter (Amman, Jordan)"
     },
@@ -16520,8 +16520,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-152-u2",
     "regionDistrict": "Beirut, Lebanon",
     "type": "hospital",
-    "lat": 33.909,
-    "lng": 35.483,
+    "lat": 33.8955,
+    "lng": 35.5035,
     "name": {
       "en": "Red Cross"
     },
@@ -16548,8 +16548,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-152",
     "regionDistrict": "Beirut, Lebanon",
     "type": "safe-haven",
-    "lat": 33.973,
-    "lng": 35.591,
+    "lat": 33.8955,
+    "lng": 35.4985,
     "name": {
       "en": "ABAAD (RCDV) Safe Shelters for Women (Al-Dar) (Beirut, Lebanon)"
     },
@@ -16604,8 +16604,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-153-u2",
     "regionDistrict": "Damascus / Idlib, Syria",
     "type": "hospital",
-    "lat": 33.529,
-    "lng": 36.258,
+    "lat": 33.5155,
+    "lng": 36.2785,
     "name": {
       "en": "UNFPA Women’s Clinic"
     },
@@ -16632,8 +16632,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-153",
     "regionDistrict": "Damascus / Idlib, Syria",
     "type": "safe-haven",
-    "lat": 33.593,
-    "lng": 36.366,
+    "lat": 33.5155,
+    "lng": 36.2735,
     "name": {
       "en": "UNFPA / SARC Women & Girls Safe Space (Damascus / Idlib, Syria)"
     },
@@ -16688,8 +16688,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-154",
     "regionDistrict": "Baghdad / Erbil, Iraq & Kurdistan",
     "type": "safe-haven",
-    "lat": 36.27,
-    "lng": 44.099,
+    "lat": 36.1925,
+    "lng": 44.0065,
     "name": {
       "en": "WOLA & Asuda Organization for Combating Violence Against Women (Baghdad / Erbil, Iraq & Kurdistan)"
     },
@@ -16744,8 +16744,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-155",
     "regionDistrict": "Ramallah / Gaza, Palestine",
     "type": "safe-haven",
-    "lat": 31.983,
-    "lng": 35.293,
+    "lat": 31.9055,
+    "lng": 35.2005,
     "name": {
       "en": "Mehwar Center"
     },
@@ -16772,8 +16772,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-155-u2",
     "regionDistrict": "Ramallah / Gaza, Palestine",
     "type": "safe-haven",
-    "lat": 31.999,
-    "lng": 35.275,
+    "lat": 31.9005,
+    "lng": 35.2055,
     "name": {
       "en": "WCLAC Women’s Protection Shelter"
     },
@@ -16828,8 +16828,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-156",
     "regionDistrict": "Sana’a / Aden, Yemen",
     "type": "safe-haven",
-    "lat": 15.449,
-    "lng": 44.281,
+    "lat": 15.3715,
+    "lng": 44.1885,
     "name": {
       "en": "Yemen Women Union (YWU) Safe Shelter & Hotline (Sana’a / Aden, Yemen)"
     },
@@ -16884,8 +16884,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-157",
     "regionDistrict": "Riyadh / Jeddah, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 24.793,
-    "lng": 46.765,
+    "lat": 24.7155,
+    "lng": 46.6725,
     "name": {
       "en": "Family Protection & Social Protection Safe Shelter (Riyadh / Jeddah, Saudi Arabia)"
     },
@@ -16940,8 +16940,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-158",
     "regionDistrict": "Dubai / Abu Dhabi, UAE",
     "type": "safe-haven",
-    "lat": 25.284,
-    "lng": 55.36,
+    "lat": 25.2065,
+    "lng": 55.2675,
     "name": {
       "en": "Dubai Foundation for Women and Children (DFWAC) (Dubai / Abu Dhabi, UAE)"
     },
@@ -16996,8 +16996,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-159",
     "regionDistrict": "Istanbul / Ankara, Turkey",
     "type": "safe-haven",
-    "lat": 41.088,
-    "lng": 29.068,
+    "lat": 41.0105,
+    "lng": 28.9755,
     "name": {
       "en": "Mor Çatı Women’s Shelter Foundation & ŞÖNİM (Istanbul / Ankara, Turkey)"
     },
@@ -17052,8 +17052,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-160",
     "regionDistrict": "Tehran, Iran",
     "type": "safe-haven",
-    "lat": 35.769,
-    "lng": 51.479,
+    "lat": 35.6915,
+    "lng": 51.3865,
     "name": {
       "en": "Behzisti Social Emergency Women’s Safe House (Khaneh Aman) (Tehran, Iran)"
     },
@@ -17108,8 +17108,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-161-u2",
     "regionDistrict": "Kabul / Herat, Afghanistan",
     "type": "hospital",
-    "lat": 34.571,
-    "lng": 69.189,
+    "lat": 34.5575,
+    "lng": 69.2095,
     "name": {
       "en": "MSF Khost Maternity"
     },
@@ -17136,8 +17136,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-161",
     "regionDistrict": "Kabul / Herat, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.635,
-    "lng": 69.297,
+    "lat": 34.5575,
+    "lng": 69.2045,
     "name": {
       "en": "UNFPA Family Health Houses"
     },
@@ -17164,8 +17164,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-161-u2",
     "regionDistrict": "Kabul / Herat, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.651,
-    "lng": 69.279,
+    "lat": 34.5525,
+    "lng": 69.2095,
     "name": {
       "en": "Female Midwife Safe Clinics"
     },
@@ -17220,8 +17220,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-162",
     "regionDistrict": "Tashkent, Uzbekistan",
     "type": "safe-haven",
-    "lat": 41.379,
-    "lng": 69.33,
+    "lat": 41.3015,
+    "lng": 69.2375,
     "name": {
       "en": "Rahmdillik & National Women’s Rehabilitation Shelter (Tashkent, Uzbekistan)"
     },
@@ -17276,8 +17276,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-163",
     "regionDistrict": "Almaty, Kazakhstan",
     "type": "safe-haven",
-    "lat": 43.2344,
-    "lng": 76.9156,
+    "lat": 43.2245,
+    "lng": 76.8485,
     "name": {
       "en": "Union of Crisis Centers (Headquarters — Союз кризисных центров)"
     },
@@ -17332,8 +17332,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-164",
     "regionDistrict": "Bishkek, Kyrgyzstan",
     "type": "safe-haven",
-    "lat": 42.954,
-    "lng": 74.659,
+    "lat": 42.8765,
+    "lng": 74.5665,
     "name": {
       "en": "Sezim Crisis Center & Shelter for Women Bishkek (Bishkek, Kyrgyzstan)"
     },
@@ -17388,8 +17388,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-165",
     "regionDistrict": "Dushanbe, Tajikistan",
     "type": "safe-haven",
-    "lat": 38.639,
-    "lng": 68.877,
+    "lat": 38.5615,
+    "lng": 68.7845,
     "name": {
       "en": "Bovari & Gulrukhsor Women’s Crisis Center (Dushanbe, Tajikistan)"
     },
@@ -17444,8 +17444,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-166",
     "regionDistrict": "Quetta, Balochistan, Pakistan",
     "type": "safe-haven",
-    "lat": 30.279,
-    "lng": 67.099,
+    "lat": 30.2015,
+    "lng": 67.0065,
     "name": {
       "en": "Dar-ul-Aman & WPC Safe Haven Quetta (Quetta, Balochistan, Pakistan)"
     },
@@ -17500,8 +17500,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-167",
     "regionDistrict": "Peshawar, Khyber Pakhtunkhwa, Pakistan",
     "type": "safe-haven",
-    "lat": 34.095,
-    "lng": 71.614,
+    "lat": 34.0175,
+    "lng": 71.5215,
     "name": {
       "en": "Bolo Helpline"
     },
@@ -17528,8 +17528,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-167-u2",
     "regionDistrict": "Peshawar, Khyber Pakhtunkhwa, Pakistan",
     "type": "safe-haven",
-    "lat": 34.111,
-    "lng": 71.596,
+    "lat": 34.0125,
+    "lng": 71.5265,
     "name": {
       "en": "Dar-ul-Aman Peshawar Safe Haven"
     },
@@ -17584,8 +17584,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-168-u2",
     "regionDistrict": "Karachi, Sindh, Pakistan",
     "type": "hospital",
-    "lat": 24.876,
-    "lng": 66.983,
+    "lat": 24.8625,
+    "lng": 67.0035,
     "name": {
       "en": "JPMC OB/GYN Ward"
     },
@@ -17612,8 +17612,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-168",
     "regionDistrict": "Karachi, Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 24.94,
-    "lng": 67.091,
+    "lat": 24.8625,
+    "lng": 66.9985,
     "name": {
       "en": "Panah Shelter Home"
     },
@@ -17640,8 +17640,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-168-u2",
     "regionDistrict": "Karachi, Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 24.956,
-    "lng": 67.073,
+    "lat": 24.8575,
+    "lng": 67.0035,
     "name": {
       "en": "War Against Rape (WAR) Karachi"
     },
@@ -17696,8 +17696,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-169-u2",
     "regionDistrict": "Lahore, Punjab, Pakistan",
     "type": "hospital",
-    "lat": 31.536,
-    "lng": 74.34,
+    "lat": 31.5225,
+    "lng": 74.3605,
     "name": {
       "en": "Lady Aitchison Women’s Hospital"
     },
@@ -17724,8 +17724,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-169",
     "regionDistrict": "Lahore, Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 31.6,
-    "lng": 74.448,
+    "lat": 31.5225,
+    "lng": 74.3555,
     "name": {
       "en": "Dastak Charitable Trust Women’s Shelter Lahore (Lahore, Punjab, Pakistan)"
     },
@@ -17780,8 +17780,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-170",
     "regionDistrict": "Garhwal / Dehradun, Uttarakhand, India",
     "type": "safe-haven",
-    "lat": 30.398,
-    "lng": 78.121,
+    "lat": 30.3205,
+    "lng": 78.0285,
     "name": {
       "en": "Sakhi One-Stop Center & Women Safe Haven Garhwal (Garhwal / Dehradun, Uttarakhand, India)"
     },
@@ -17836,8 +17836,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-171-u2",
     "regionDistrict": "New Delhi, India",
     "type": "hospital",
-    "lat": 28.629,
-    "lng": 77.191,
+    "lat": 28.6155,
+    "lng": 77.2115,
     "name": {
       "en": "Sucheta Kriplani Hospital"
     },
@@ -17864,8 +17864,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-171",
     "regionDistrict": "New Delhi, India",
     "type": "safe-haven",
-    "lat": 28.693,
-    "lng": 77.299,
+    "lat": 28.6155,
+    "lng": 77.2065,
     "name": {
       "en": "Shakti Shalini"
     },
@@ -17892,8 +17892,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-171-u2",
     "regionDistrict": "New Delhi, India",
     "type": "safe-haven",
-    "lat": 28.709,
-    "lng": 77.281,
+    "lat": 28.6105,
+    "lng": 77.2115,
     "name": {
       "en": "Jagori Women’s Safe Shelter Delhi"
     },
@@ -17948,8 +17948,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-172",
     "regionDistrict": "Mumbai, Maharashtra, India",
     "type": "safe-haven",
-    "lat": 19.156,
-    "lng": 72.967,
+    "lat": 19.0785,
+    "lng": 72.8745,
     "name": {
       "en": "SNEHA & Majlis Women’s Crisis Safe Haven (Mumbai, Maharashtra, India)"
     },
@@ -18004,8 +18004,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-173",
     "regionDistrict": "Kolkata, West Bengal, India",
     "type": "safe-haven",
-    "lat": 22.652,
-    "lng": 88.453,
+    "lat": 22.5745,
+    "lng": 88.3605,
     "name": {
       "en": "Swayam & Apne Aap Women’s Safe Space Kolkata (Kolkata, West Bengal, India)"
     },
@@ -18060,8 +18060,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-174",
     "regionDistrict": "Chennai, Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 13.162,
-    "lng": 80.36,
+    "lat": 13.0845,
+    "lng": 80.2675,
     "name": {
       "en": "International Foundation for Crime Prevention"
     },
@@ -18088,8 +18088,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-174-u2",
     "regionDistrict": "Chennai, Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 13.178,
-    "lng": 80.342,
+    "lat": 13.0795,
+    "lng": 80.2725,
     "name": {
       "en": "Victim Care (PCVC)"
     },
@@ -18144,8 +18144,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-175",
     "regionDistrict": "Bengaluru, Karnataka, India",
     "type": "safe-haven",
-    "lat": 13.051,
-    "lng": 77.684,
+    "lat": 12.9735,
+    "lng": 77.5915,
     "name": {
       "en": "Vimochana & Parihar Family Counseling Safe Haven (Bengaluru, Karnataka, India)"
     },
@@ -18200,8 +18200,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-176",
     "regionDistrict": "Guwahati, Assam / Northeast India",
     "type": "safe-haven",
-    "lat": 26.224,
-    "lng": 91.826,
+    "lat": 26.1465,
+    "lng": 91.7335,
     "name": {
       "en": "North East Network (NEN)"
     },
@@ -18228,8 +18228,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-176-u2",
     "regionDistrict": "Guwahati, Assam / Northeast India",
     "type": "safe-haven",
-    "lat": 26.24,
-    "lng": 91.808,
+    "lat": 26.1415,
+    "lng": 91.7385,
     "name": {
       "en": "Sakhi Safe Shelter"
     },
@@ -18284,8 +18284,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-177",
     "regionDistrict": "Cox’s Bazar / Ukhiya, Bangladesh",
     "type": "safe-haven",
-    "lat": 21.278,
-    "lng": 92.248,
+    "lat": 21.2005,
+    "lng": 92.1555,
     "name": {
       "en": "UNFPA / BRAC Kutupalong Women Safe Haven (Cox’s Bazar / Ukhiya, Bangladesh)"
     },
@@ -18340,8 +18340,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-178-u2",
     "regionDistrict": "Dhaka, Bangladesh",
     "type": "hospital",
-    "lat": 23.796,
-    "lng": 90.389,
+    "lat": 23.7825,
+    "lng": 90.4095,
     "name": {
       "en": "Dhaka Medical One-Stop Crisis Center"
     },
@@ -18368,8 +18368,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-178",
     "regionDistrict": "Dhaka, Bangladesh",
     "type": "safe-haven",
-    "lat": 23.86,
-    "lng": 90.497,
+    "lat": 23.7825,
+    "lng": 90.4045,
     "name": {
       "en": "Bangladesh Mahila Parishad (BMP) Rokeya Sadan Shelter (Dhaka, Bangladesh)"
     },
@@ -18424,8 +18424,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-179",
     "regionDistrict": "Sylhet / Chittagong, Bangladesh",
     "type": "safe-haven",
-    "lat": 24.974,
-    "lng": 91.958,
+    "lat": 24.8965,
+    "lng": 91.8655,
     "name": {
       "en": "BRAC & BLAST Women’s Legal & Safe Shelter Sylhet (Sylhet / Chittagong, Bangladesh)"
     },
@@ -18480,8 +18480,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-180",
     "regionDistrict": "Kathmandu, Nepal",
     "type": "safe-haven",
-    "lat": 27.797,
-    "lng": 85.414,
+    "lat": 27.7195,
+    "lng": 85.3215,
     "name": {
       "en": "Saathi & Maiti Nepal Women’s Safe Haven (Kathmandu, Nepal)"
     },
@@ -18536,8 +18536,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-181-u2",
     "regionDistrict": "Colombo, Sri Lanka",
     "type": "hospital",
-    "lat": 6.943,
-    "lng": 79.843,
+    "lat": 6.9295,
+    "lng": 79.8635,
     "name": {
       "en": "De Soysa Maternity"
     },
@@ -18564,8 +18564,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-181",
     "regionDistrict": "Colombo, Sri Lanka",
     "type": "safe-haven",
-    "lat": 7.007,
-    "lng": 79.951,
+    "lat": 6.9295,
+    "lng": 79.8585,
     "name": {
       "en": "Women In Need (WIN) 24/7 Safe Shelter Colombo (Colombo, Sri Lanka)"
     },
@@ -18620,8 +18620,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-182",
     "regionDistrict": "Yangon / Rakhine, Myanmar",
     "type": "safe-haven",
-    "lat": 16.92,
-    "lng": 96.263,
+    "lat": 16.8425,
+    "lng": 96.1705,
     "name": {
       "en": "Akhaya Women"
     },
@@ -18648,8 +18648,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-182-u2",
     "regionDistrict": "Yangon / Rakhine, Myanmar",
     "type": "safe-haven",
-    "lat": 16.936,
-    "lng": 96.245,
+    "lat": 16.8375,
+    "lng": 96.1755,
     "name": {
       "en": "UNFPA Safe Space Myanmar"
     },
@@ -18704,8 +18704,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-183",
     "regionDistrict": "Bangkok / Mae Sot, Thailand",
     "type": "safe-haven",
-    "lat": 13.836,
-    "lng": 100.591,
+    "lat": 13.7585,
+    "lng": 100.4985,
     "name": {
       "en": "One Stop Crisis Center (OSCC)"
     },
@@ -18732,8 +18732,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-183-u2",
     "regionDistrict": "Bangkok / Mae Sot, Thailand",
     "type": "safe-haven",
-    "lat": 13.852,
-    "lng": 100.573,
+    "lat": 13.7535,
+    "lng": 100.5035,
     "name": {
       "en": "Friends of Women Shelter"
     },
@@ -18788,8 +18788,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-184",
     "regionDistrict": "Phnom Penh, Cambodia",
     "type": "safe-haven",
-    "lat": 11.636,
-    "lng": 105.018,
+    "lat": 11.5585,
+    "lng": 104.9255,
     "name": {
       "en": "CWCC (Cambodian Women’s Crisis Center) Safe Shelter (Phnom Penh, Cambodia)"
     },
@@ -18844,8 +18844,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-185",
     "regionDistrict": "Hanoi / Ho Chi Minh City, Vietnam",
     "type": "safe-haven",
-    "lat": 21.108,
-    "lng": 105.944,
+    "lat": 21.0305,
+    "lng": 105.8515,
     "name": {
       "en": "Peace House Shelter (Ngôi Nhà Bình Yên) for Women (Hanoi / Ho Chi Minh City, Vietnam)"
     },
@@ -18900,8 +18900,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-186",
     "regionDistrict": "Vientiane, Laos",
     "type": "safe-haven",
-    "lat": 18.055,
-    "lng": 102.723,
+    "lat": 17.9775,
+    "lng": 102.6305,
     "name": {
       "en": "Lao Women’s Union Counseling & Protection Shelter (Vientiane, Laos)"
     },
@@ -18956,8 +18956,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-187",
     "regionDistrict": "Kuala Lumpur, Malaysia",
     "type": "safe-haven",
-    "lat": 3.219,
-    "lng": 101.776,
+    "lat": 3.1415,
+    "lng": 101.6835,
     "name": {
       "en": "Women’s Aid Organisation (WAO) Refuge"
     },
@@ -18984,8 +18984,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-187-u2",
     "regionDistrict": "Kuala Lumpur, Malaysia",
     "type": "safe-haven",
-    "lat": 3.235,
-    "lng": 101.758,
+    "lat": 3.1365,
+    "lng": 101.6885,
     "name": {
       "en": "Talian Kasih"
     },
@@ -19040,8 +19040,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-188",
     "regionDistrict": "Singapore",
     "type": "safe-haven",
-    "lat": 1.432,
-    "lng": 103.909,
+    "lat": 1.3545,
+    "lng": 103.8165,
     "name": {
       "en": "AWARE & Star Shelter for Women Singapore (Singapore)"
     },
@@ -19096,8 +19096,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-189",
     "regionDistrict": "Jakarta, Indonesia",
     "type": "safe-haven",
-    "lat": -6.128,
-    "lng": 106.935,
+    "lat": -6.2055,
+    "lng": 106.8425,
     "name": {
       "en": "LBH APIK"
     },
@@ -19124,8 +19124,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-189-u2",
     "regionDistrict": "Jakarta, Indonesia",
     "type": "safe-haven",
-    "lat": -6.112,
-    "lng": 106.917,
+    "lat": -6.2105,
+    "lng": 106.8475,
     "name": {
       "en": "Rumah Aman Komnas Perempuan Safe Haven"
     },
@@ -19180,8 +19180,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-190",
     "regionDistrict": "Manila, Philippines",
     "type": "safe-haven",
-    "lat": 14.658,
-    "lng": 121.075,
+    "lat": 14.5805,
+    "lng": 120.9825,
     "name": {
       "en": "bathaluman / DSWD Haven for Women Manila (Manila, Philippines)"
     },
@@ -19236,8 +19236,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-191",
     "regionDistrict": "Tokyo, Japan",
     "type": "safe-haven",
-    "lat": 35.756,
-    "lng": 139.74,
+    "lat": 35.6785,
+    "lng": 139.6475,
     "name": {
       "en": "Tokyo Women’s Plaza"
     },
@@ -19264,8 +19264,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-191-u2",
     "regionDistrict": "Tokyo, Japan",
     "type": "safe-haven",
-    "lat": 35.772,
-    "lng": 139.722,
+    "lat": 35.6735,
+    "lng": 139.6525,
     "name": {
       "en": "DV Consultation Plus Safe Haven"
     },
@@ -19320,8 +19320,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-192",
     "regionDistrict": "Seoul, South Korea",
     "type": "safe-haven",
-    "lat": 37.646,
-    "lng": 127.068,
+    "lat": 37.5685,
+    "lng": 126.9755,
     "name": {
       "en": "Korea Women’s Hot Line"
     },
@@ -19348,8 +19348,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-192-u2",
     "regionDistrict": "Seoul, South Korea",
     "type": "safe-haven",
-    "lat": 37.662,
-    "lng": 127.05,
+    "lat": 37.5635,
+    "lng": 126.9805,
     "name": {
       "en": "Sunflower Center Shelter"
     },
@@ -19404,8 +19404,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-193",
     "regionDistrict": "Taipei, Taiwan",
     "type": "safe-haven",
-    "lat": 25.113,
-    "lng": 121.655,
+    "lat": 25.0355,
+    "lng": 121.5625,
     "name": {
       "en": "Garden of Hope Foundation (勵馨基金會) Women’s Shelter (Taipei, Taiwan)"
     },
@@ -19460,8 +19460,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-194",
     "regionDistrict": "Ulaanbaatar, Mongolia",
     "type": "safe-haven",
-    "lat": 47.966,
-    "lng": 106.995,
+    "lat": 47.8885,
+    "lng": 106.9025,
     "name": {
       "en": "National Center Against Violence (NCAV) Safe Shelter (Ulaanbaatar, Mongolia)"
     },
@@ -19516,8 +19516,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-195",
     "regionDistrict": "Sydney, Australia",
     "type": "safe-haven",
-    "lat": -33.838,
-    "lng": 151.329,
+    "lat": -33.9155,
+    "lng": 151.2365,
     "name": {
       "en": "Lou’s Place"
     },
@@ -19544,8 +19544,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-195-u2",
     "regionDistrict": "Sydney, Australia",
     "type": "safe-haven",
-    "lat": -33.822,
-    "lng": 151.311,
+    "lat": -33.9205,
+    "lng": 151.2415,
     "name": {
       "en": "Elsie Women’s Refuge Sydney"
     },
@@ -19600,8 +19600,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-196",
     "regionDistrict": "Melbourne, Australia",
     "type": "safe-haven",
-    "lat": -37.718,
-    "lng": 145.044,
+    "lat": -37.7955,
+    "lng": 144.9515,
     "name": {
       "en": "Safe Steps Family Violence Response Centre Victoria (Melbourne, Australia)"
     },
@@ -19656,8 +19656,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-197",
     "regionDistrict": "Brisbane / Perth, Australia",
     "type": "safe-haven",
-    "lat": -27.368,
-    "lng": 153.118,
+    "lat": -27.4455,
+    "lng": 153.0255,
     "name": {
       "en": "DVConnect Womensline Safe Haven Queensland (Brisbane / Perth, Australia)"
     },
@@ -19712,8 +19712,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-198",
     "regionDistrict": "Auckland, New Zealand",
     "type": "safe-haven",
-    "lat": -36.768,
-    "lng": 174.853,
+    "lat": -36.8455,
+    "lng": 174.7605,
     "name": {
       "en": "Women’s Refuge New Zealand"
     },
@@ -19740,8 +19740,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-198-u2",
     "regionDistrict": "Auckland, New Zealand",
     "type": "safe-haven",
-    "lat": -36.752,
-    "lng": 174.835,
+    "lat": -36.8505,
+    "lng": 174.7655,
     "name": {
       "en": "Shakti Safe House"
     },
@@ -19796,8 +19796,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-199",
     "regionDistrict": "Port Moresby, Papua New Guinea",
     "type": "safe-haven",
-    "lat": -9.363,
-    "lng": 147.27,
+    "lat": -9.4405,
+    "lng": 147.1775,
     "name": {
       "en": "Haus Ruth"
     },
@@ -19824,8 +19824,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-199-u2",
     "regionDistrict": "Port Moresby, Papua New Guinea",
     "type": "safe-haven",
-    "lat": -9.347,
-    "lng": 147.252,
+    "lat": -9.4455,
+    "lng": 147.1825,
     "name": {
       "en": "Bel Isi PNG Women’s Safe House"
     },
@@ -19880,8 +19880,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-200",
     "regionDistrict": "Suva, Fiji",
     "type": "safe-haven",
-    "lat": -18.061,
-    "lng": 178.531,
+    "lat": -18.1385,
+    "lng": 178.4385,
     "name": {
       "en": "Fiji Women’s Crisis Centre (FWCC) Safe Haven (Suva, Fiji)"
     },
@@ -19936,8 +19936,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-201",
     "regionDistrict": "Pine Ridge Reservation, South Dakota, USA",
     "type": "safe-haven",
-    "lat": 43.085,
-    "lng": -102.486,
+    "lat": 43.0275,
+    "lng": -102.5585,
     "name": {
       "en": "Sacred Shawl Women’s Society Safe Haven (Lakota) (Pine Ridge Reservation, South Dakota, USA)"
     },
@@ -19992,8 +19992,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-202",
     "regionDistrict": "Gallup / Navajo Nation, New Mexico & Arizona, USA",
     "type": "safe-haven",
-    "lat": 35.588,
-    "lng": -108.672,
+    "lat": 35.5305,
+    "lng": -108.7445,
     "name": {
       "en": "Roberta’s Place"
     },
@@ -20020,8 +20020,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-202-u2",
     "regionDistrict": "Gallup / Navajo Nation, New Mexico & Arizona, USA",
     "type": "safe-haven",
-    "lat": 35.604,
-    "lng": -108.69,
+    "lat": 35.5255,
+    "lng": -108.7395,
     "name": {
       "en": "Amiinibaahii Safe Haven (Diné/Navajo)"
     },
@@ -20076,8 +20076,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-203",
     "regionDistrict": "Cherokee / Qualla Boundary, North Carolina, USA",
     "type": "safe-haven",
-    "lat": 35.537,
-    "lng": -83.245,
+    "lat": 35.4795,
+    "lng": -83.3175,
     "name": {
       "en": "Ernestine Walkingstick Domestic Violence Shelter (Cherokee / Qualla Boundary, North Carolina, USA)"
     },
@@ -20132,8 +20132,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-204",
     "regionDistrict": "Bethel / Yukon-Kuskokwim Delta, Rural Alaska, USA",
     "type": "safe-haven",
-    "lat": 60.852,
-    "lng": -161.685,
+    "lat": 60.7945,
+    "lng": -161.7575,
     "name": {
       "en": "Tundra Women’s Coalition Safe Shelter (Yup’ik/English) (Bethel / Yukon-Kuskokwim Delta, Rural Alaska, USA)"
     },
@@ -20188,8 +20188,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-205",
     "regionDistrict": "Barrow / Utqiaġvik, North Slope Arctic Alaska, USA",
     "type": "safe-haven",
-    "lat": 71.35,
-    "lng": -156.718,
+    "lat": 71.2925,
+    "lng": -156.7905,
     "name": {
       "en": "Arctic Women in Crisis (AWIC) Safe Haven (Barrow / Utqiaġvik, North Slope Arctic Alaska, USA)"
     },
@@ -20244,8 +20244,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-206",
     "regionDistrict": "Pikeville / Eastern Kentucky Appalachia, USA",
     "type": "safe-haven",
-    "lat": 37.539,
-    "lng": -82.448,
+    "lat": 37.4815,
+    "lng": -82.5205,
     "name": {
       "en": "Turning Point"
     },
@@ -20272,8 +20272,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-206-u2",
     "regionDistrict": "Pikeville / Eastern Kentucky Appalachia, USA",
     "type": "safe-haven",
-    "lat": 37.555,
-    "lng": -82.466,
+    "lat": 37.4765,
+    "lng": -82.5155,
     "name": {
       "en": "LKLP Safe House Eastern Kentucky"
     },
@@ -20328,8 +20328,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-207",
     "regionDistrict": "Charleston / Rural West Virginia Appalachia, USA",
     "type": "safe-haven",
-    "lat": 38.409,
-    "lng": -81.562,
+    "lat": 38.3515,
+    "lng": -81.6345,
     "name": {
       "en": "Branches Domestic Violence Shelter Rural WV (Charleston / Rural West Virginia Appalachia, USA)"
     },
@@ -20384,8 +20384,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-208",
     "regionDistrict": "Selma / Black Belt Rural Alabama, USA",
     "type": "safe-haven",
-    "lat": 32.467,
-    "lng": -86.951,
+    "lat": 32.4095,
+    "lng": -87.0235,
     "name": {
       "en": "SABRA Sanctuary Domestic Abuse Shelter Selma (Selma / Black Belt Rural Alabama, USA)"
     },
@@ -20440,8 +20440,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-209",
     "regionDistrict": "Clarksdale / Mississippi Delta, USA",
     "type": "safe-haven",
-    "lat": 34.26,
-    "lng": -90.5,
+    "lat": 34.2025,
+    "lng": -90.5725,
     "name": {
       "en": "Care Lodge"
     },
@@ -20468,8 +20468,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-209-u2",
     "regionDistrict": "Clarksdale / Mississippi Delta, USA",
     "type": "safe-haven",
-    "lat": 34.276,
-    "lng": -90.518,
+    "lat": 34.1975,
+    "lng": -90.5675,
     "name": {
       "en": "Delta House Safe Haven Mississippi"
     },
@@ -20524,8 +20524,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-210",
     "regionDistrict": "McAllen / Rio Grande Valley Border, Texas, USA",
     "type": "safe-haven",
-    "lat": 26.263,
-    "lng": -98.16,
+    "lat": 26.2055,
+    "lng": -98.2325,
     "name": {
       "en": "Mujeres Unidas / Women Together Safe Shelter RGV (McAllen / Rio Grande Valley Border, Texas, USA)"
     },
@@ -20580,8 +20580,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-211-u2",
     "regionDistrict": "Billings / Crow Agency Rural Montana, USA",
     "type": "hospital",
-    "lat": 45.799,
-    "lng": -108.518,
+    "lat": 45.7855,
+    "lng": -108.4975,
     "name": {
       "en": "Crow/Northern Cheyenne IHS Maternity"
     },
@@ -20608,8 +20608,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-211",
     "regionDistrict": "Billings / Crow Agency Rural Montana, USA",
     "type": "safe-haven",
-    "lat": 45.843,
-    "lng": -108.43,
+    "lat": 45.7855,
+    "lng": -108.5025,
     "name": {
       "en": "YWCA Gateway House Rural Montana Safe Shelter (Billings / Crow Agency Rural Montana, USA)"
     },
@@ -20664,8 +20664,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-212",
     "regionDistrict": "Sioux Lookout / Nishnawbe Aski Nation, Rural Ontario, Canada",
     "type": "safe-haven",
-    "lat": 50.157,
-    "lng": -91.847,
+    "lat": 50.0995,
+    "lng": -91.9195,
     "name": {
       "en": "First Step Women’s Shelter Sioux Lookout (Ojibwe/Oji-Cree) (Sioux Lookout / Nishnawbe Aski Nation, Rural Ontario, Canada)"
     },
@@ -20720,8 +20720,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-213",
     "regionDistrict": "Yellowknife, Northwest Territories, Canada",
     "type": "safe-haven",
-    "lat": 62.514,
-    "lng": -114.301,
+    "lat": 62.4565,
+    "lng": -114.3735,
     "name": {
       "en": "Alison McAteer House"
     },
@@ -20748,8 +20748,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-213-u2",
     "regionDistrict": "Yellowknife, Northwest Territories, Canada",
     "type": "safe-haven",
-    "lat": 62.53,
-    "lng": -114.319,
+    "lat": 62.4515,
+    "lng": -114.3685,
     "name": {
       "en": "YWCA NWT Safe Haven"
     },
@@ -20804,8 +20804,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-214",
     "regionDistrict": "Whitehorse, Yukon, Canada",
     "type": "safe-haven",
-    "lat": 60.781,
-    "lng": -134.986,
+    "lat": 60.7235,
+    "lng": -135.0585,
     "name": {
       "en": "Kaushee’s Place Yukon Women’s Transition Home (Whitehorse, Yukon, Canada)"
     },
@@ -20860,8 +20860,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-215",
     "regionDistrict": "San Cristóbal de las Casas, Rural Chiapas, Mexico",
     "type": "safe-haven",
-    "lat": 16.797,
-    "lng": -92.567,
+    "lat": 16.7395,
+    "lng": -92.6395,
     "name": {
       "en": "COLEM & Casa de la Mujer Indígena Safe Haven Chiapas (San Cristóbal de las Casas, Rural Chiapas, Mexico)"
     },
@@ -20916,8 +20916,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-216",
     "regionDistrict": "Mérida / Rural Yucatán, Mexico",
     "type": "safe-haven",
-    "lat": 21.027,
-    "lng": -89.522,
+    "lat": 20.9695,
+    "lng": -89.5945,
     "name": {
       "en": "Centro de Atención y Refugio para Mujeres Indígenas (Mérida / Rural Yucatán, Mexico)"
     },
@@ -20972,8 +20972,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-217",
     "regionDistrict": "Quiché / Huehuetenango Highlands, Guatemala",
     "type": "safe-haven",
-    "lat": 15.09,
-    "lng": -91.078,
+    "lat": 15.0325,
+    "lng": -91.1505,
     "name": {
       "en": "Red de Mujeres Ixiles"
     },
@@ -21000,8 +21000,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-217-u2",
     "regionDistrict": "Quiché / Huehuetenango Highlands, Guatemala",
     "type": "safe-haven",
-    "lat": 15.106,
-    "lng": -91.096,
+    "lat": 15.0275,
+    "lng": -91.1455,
     "name": {
       "en": "CAIMUS Safe Shelter (K’iche’/Ixil)"
     },
@@ -21056,8 +21056,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-218",
     "regionDistrict": "Bluefields / Mosquito Coast, Rural Nicaragua",
     "type": "safe-haven",
-    "lat": 12.073,
-    "lng": -83.693,
+    "lat": 12.0155,
+    "lng": -83.7655,
     "name": {
       "en": "Nidia White Women’s Movement Safe Haven (Miskito/Creole) (Bluefields / Mosquito Coast, Rural Nicaragua)"
     },
@@ -21112,8 +21112,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-219",
     "regionDistrict": "Quibdó, Chocó Pacific Rainforest, Colombia",
     "type": "safe-haven",
-    "lat": 5.754,
-    "lng": -76.591,
+    "lat": 5.6965,
+    "lng": -76.6635,
     "name": {
       "en": "Red Departamental de Mujeres Chocoanas Safe Space (Quibdó, Chocó Pacific Rainforest, Colombia)"
     },
@@ -21168,8 +21168,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-220",
     "regionDistrict": "Riohacha, La Guajira (Wayuu Territory), Colombia",
     "type": "safe-haven",
-    "lat": 11.604,
-    "lng": -72.837,
+    "lat": 11.5465,
+    "lng": -72.9095,
     "name": {
       "en": "Fuerza de Mujeres Wayuu"
     },
@@ -21196,8 +21196,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-220-u2",
     "regionDistrict": "Riohacha, La Guajira (Wayuu Territory), Colombia",
     "type": "safe-haven",
-    "lat": 11.62,
-    "lng": -72.855,
+    "lat": 11.5415,
+    "lng": -72.9045,
     "name": {
       "en": "UNFPA Safe Haven (Riohacha, La Guajira (Wayuu Territory), Colombia)"
     },
@@ -21252,8 +21252,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-221",
     "regionDistrict": "Iquitos, Loreto Amazon Basin, Peru",
     "type": "safe-haven",
-    "lat": -3.683,
-    "lng": -73.181,
+    "lat": -3.7405,
+    "lng": -73.2535,
     "name": {
       "en": "Casa de Refugio Temporal Loreto"
     },
@@ -21280,8 +21280,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-221-u2",
     "regionDistrict": "Iquitos, Loreto Amazon Basin, Peru",
     "type": "safe-haven",
-    "lat": -3.667,
-    "lng": -73.199,
+    "lat": -3.7455,
+    "lng": -73.2485,
     "name": {
       "en": "CEM Rural"
     },
@@ -21336,8 +21336,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-222",
     "regionDistrict": "Puno / Lake Titicaca Altiplano, Peru",
     "type": "safe-haven",
-    "lat": -15.78,
-    "lng": -69.951,
+    "lat": -15.8375,
+    "lng": -70.0235,
     "name": {
       "en": "Centro Emergencia Mujer (CEM)"
     },
@@ -21364,8 +21364,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-222-u2",
     "regionDistrict": "Puno / Lake Titicaca Altiplano, Peru",
     "type": "safe-haven",
-    "lat": -15.764,
-    "lng": -69.969,
+    "lat": -15.8425,
+    "lng": -70.0185,
     "name": {
       "en": "Casa Refugio Puno"
     },
@@ -21420,8 +21420,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-223",
     "regionDistrict": "Potosí / Sucre Rural Highlands, Bolivia",
     "type": "safe-haven",
-    "lat": -19.523,
-    "lng": -65.683,
+    "lat": -19.5805,
+    "lng": -65.7555,
     "name": {
       "en": "Casa de Acogida de la Mujer Potosina Safe Haven (Potosí / Sucre Rural Highlands, Bolivia)"
     },
@@ -21476,8 +21476,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-224",
     "regionDistrict": "Rio Branco, Acre Amazonia, Brazil",
     "type": "safe-haven",
-    "lat": -9.915,
-    "lng": -67.754,
+    "lat": -9.9725,
+    "lng": -67.8265,
     "name": {
       "en": "Casa Rosa Mulher"
     },
@@ -21504,8 +21504,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-224-u2",
     "regionDistrict": "Rio Branco, Acre Amazonia, Brazil",
     "type": "safe-haven",
-    "lat": -9.899,
-    "lng": -67.772,
+    "lat": -9.9775,
+    "lng": -67.8215,
     "name": {
       "en": "Abrigo Ester"
     },
@@ -21560,8 +21560,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-225",
     "regionDistrict": "Boa Vista, Roraima (Yanomami / Border Region), Brazil",
     "type": "safe-haven",
-    "lat": 2.883,
-    "lng": -60.605,
+    "lat": 2.8255,
+    "lng": -60.6775,
     "name": {
       "en": "Casa da Mulher Brasileira Roraima (Indigenous & Refugee Safe Haven) (Boa Vista, Roraima (Yanomami / Border Region), Brazil)"
     },
@@ -21616,8 +21616,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-226",
     "regionDistrict": "Resistencia, Gran Chaco, Argentina",
     "type": "safe-haven",
-    "lat": -27.391,
-    "lng": -58.916,
+    "lat": -27.4485,
+    "lng": -58.9885,
     "name": {
       "en": "Hogar de Tránsito para Madres y Mujeres Chaco (Resistencia, Gran Chaco, Argentina)"
     },
@@ -21672,8 +21672,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-227",
     "regionDistrict": "Temuco, Araucanía (Mapuche Region), Chile",
     "type": "safe-haven",
-    "lat": -38.675,
-    "lng": -72.52,
+    "lat": -38.7325,
+    "lng": -72.5925,
     "name": {
       "en": "Casa de Acogida SernamEG Araucanía (Mapudungun/Spanish) (Temuco, Araucanía (Mapuche Region), Chile)"
     },
@@ -21728,8 +21728,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-228",
     "regionDistrict": "Timbuktu / Mopti Rural Niger Delta, Mali",
     "type": "safe-haven",
-    "lat": 16.826,
-    "lng": -2.932,
+    "lat": 16.7685,
+    "lng": -3.0045,
     "name": {
       "en": "Association des Femmes de Tombouctou Safe Space (Tamacheq/Songhai) (Timbuktu / Mopti Rural Niger Delta, Mali)"
     },
@@ -21784,8 +21784,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-229",
     "regionDistrict": "Agadez / Maradi Rural Sahel, Niger",
     "type": "safe-haven",
-    "lat": 17.033,
-    "lng": 8.061,
+    "lat": 16.9755,
+    "lng": 7.9885,
     "name": {
       "en": "CONIPRAT & UNFPA Safe Haven for Women & Girls Niger (Agadez / Maradi Rural Sahel, Niger)"
     },
@@ -21840,8 +21840,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-230",
     "regionDistrict": "Zinder / Diffa (Lake Chad Basin), Niger",
     "type": "safe-haven",
-    "lat": 13.865,
-    "lng": 9.058,
+    "lat": 13.8075,
+    "lng": 8.9855,
     "name": {
       "en": "Dimol & IRC Women Friendly Safe Space (Hausa/Kanuri) (Zinder / Diffa (Lake Chad Basin), Niger)"
     },
@@ -21896,8 +21896,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-231-u2",
     "regionDistrict": "Maiduguri, Borno State (Northeast Rural), Nigeria",
     "type": "hospital",
-    "lat": 11.847,
-    "lng": 13.133,
+    "lat": 11.8335,
+    "lng": 13.1535,
     "name": {
       "en": "MSF Gwange Maternity (Maiduguri, Borno State (Northeast Rural), Nigeria)"
     },
@@ -21924,8 +21924,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-231",
     "regionDistrict": "Maiduguri, Borno State (Northeast Rural), Nigeria",
     "type": "safe-haven",
-    "lat": 11.891,
-    "lng": 13.221,
+    "lat": 11.8335,
+    "lng": 13.1485,
     "name": {
       "en": "Bowdi & UNFPA One-Stop GBV Safe Haven Borno (Kanuri/Hausa) (Maiduguri, Borno State (Northeast Rural), Nigeria)"
     },
@@ -21980,8 +21980,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-232",
     "regionDistrict": "Sokoto / Zamfara Rural Northwest, Nigeria",
     "type": "safe-haven",
-    "lat": 13.065,
-    "lng": 5.317,
+    "lat": 13.0075,
+    "lng": 5.2445,
     "name": {
       "en": "Nana Khadija Centre for Women Protection Sokoto (Sokoto / Zamfara Rural Northwest, Nigeria)"
     },
@@ -22036,8 +22036,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-233",
     "regionDistrict": "Tamale, Northern Region, Ghana",
     "type": "safe-haven",
-    "lat": 9.463,
-    "lng": -0.772,
+    "lat": 9.4055,
+    "lng": -0.8445,
     "name": {
       "en": "Songtaba & Camfed Women’s Safe Shelter Northern Ghana (Dagbani) (Tamale, Northern Region, Ghana)"
     },
@@ -22092,8 +22092,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-234",
     "regionDistrict": "Abéché / Eastern Chad Refugee & Rural Belt",
     "type": "safe-haven",
-    "lat": 13.889,
-    "lng": 20.902,
+    "lat": 13.8315,
+    "lng": 20.8295,
     "name": {
       "en": "APLFT Women’s Legal & Safe Protection Center Abéché (Abéché / Eastern Chad Refugee & Rural Belt)"
     },
@@ -22148,8 +22148,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-235-u2",
     "regionDistrict": "El Fasher / Nyala, Darfur, Sudan",
     "type": "hospital",
-    "lat": 13.643,
-    "lng": 25.331,
+    "lat": 13.6295,
+    "lng": 25.3515,
     "name": {
       "en": "MSF South Darfur Clinic"
     },
@@ -22176,8 +22176,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-235",
     "regionDistrict": "El Fasher / Nyala, Darfur, Sudan",
     "type": "safe-haven",
-    "lat": 13.687,
-    "lng": 25.419,
+    "lat": 13.6295,
+    "lng": 25.3465,
     "name": {
       "en": "Darfur Women Action Group & Community Midwife Safe Network (El Fasher / Nyala, Darfur, Sudan)"
     },
@@ -22232,8 +22232,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-236",
     "regionDistrict": "Semera / Dubti, Afar Region, Ethiopia",
     "type": "safe-haven",
-    "lat": 11.852,
-    "lng": 41.078,
+    "lat": 11.7945,
+    "lng": 41.0055,
     "name": {
       "en": "APDA (Afar Pastoralist Development Assoc.) Women Safe Haven (Semera / Dubti, Afar Region, Ethiopia)"
     },
@@ -22288,8 +22288,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-237",
     "regionDistrict": "Jijiga, Somali Region (Ogaden), Ethiopia",
     "type": "safe-haven",
-    "lat": 9.414,
-    "lng": 42.865,
+    "lat": 9.3565,
+    "lng": 42.7925,
     "name": {
       "en": "AWSAD & OWDA Women Safe Shelter Jijiga (Af-Soomaali) (Jijiga, Somali Region (Ogaden), Ethiopia)"
     },
@@ -22344,8 +22344,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-238",
     "regionDistrict": "Hawassa / Sidama & Oromia Rural South, Ethiopia",
     "type": "safe-haven",
-    "lat": 7.11,
-    "lng": 38.565,
+    "lat": 7.0525,
+    "lng": 38.4925,
     "name": {
       "en": "AWSAD Hawassa Safe House for Women & Girls (Sidamo/Afaan Oromoo) (Hawassa / Sidama & Oromia Rural South, Ethiopia)"
     },
@@ -22400,8 +22400,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-239",
     "regionDistrict": "Baidoa, Bay Region (Rural South-Central), Somalia",
     "type": "safe-haven",
-    "lat": 3.173,
-    "lng": 43.719,
+    "lat": 3.1155,
+    "lng": 43.6465,
     "name": {
       "en": "SWDC & INTERSOS Women & Girls Safe Space Baidoa (Baidoa, Bay Region (Rural South-Central), Somalia)"
     },
@@ -22456,8 +22456,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-240",
     "regionDistrict": "Galkayo / Garowe, Puntland, Somalia",
     "type": "safe-haven",
-    "lat": 6.829,
-    "lng": 47.5,
+    "lat": 6.7715,
+    "lng": 47.4275,
     "name": {
       "en": "GRT & WAAPO Women’s Protection Shelter Puntland (Galkayo / Garowe, Puntland, Somalia)"
     },
@@ -22512,8 +22512,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-241",
     "regionDistrict": "Lodwar, Turkana County (Rural Arid North), Kenya",
     "type": "safe-haven",
-    "lat": 3.179,
-    "lng": 35.667,
+    "lat": 3.1215,
+    "lng": 35.5945,
     "name": {
       "en": "Turkana Women Advocacy"
     },
@@ -22540,8 +22540,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-241-u2",
     "regionDistrict": "Lodwar, Turkana County (Rural Arid North), Kenya",
     "type": "safe-haven",
-    "lat": 3.195,
-    "lng": 35.649,
+    "lat": 3.1165,
+    "lng": 35.5995,
     "name": {
       "en": "Peace Safe Haven (Lodwar, Turkana County (Rural Arid North), Kenya)"
     },
@@ -22596,8 +22596,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-242-u2",
     "regionDistrict": "Gulu, Acholi Sub-Region (Northern Rural), Uganda",
     "type": "hospital",
-    "lat": 2.788,
-    "lng": 32.27,
+    "lat": 2.7745,
+    "lng": 32.2905,
     "name": {
       "en": "Gulu Regional Maternity (Gulu, Acholi Sub-Region (Northern Rural), Uganda)"
     },
@@ -22624,8 +22624,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-242",
     "regionDistrict": "Gulu, Acholi Sub-Region (Northern Rural), Uganda",
     "type": "safe-haven",
-    "lat": 2.832,
-    "lng": 32.358,
+    "lat": 2.7745,
+    "lng": 32.2855,
     "name": {
       "en": "GWED-G & ActionAid Women’s Protection Shelter Gulu (Acholi) (Gulu, Acholi Sub-Region (Northern Rural), Uganda)"
     },
@@ -22680,8 +22680,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-243",
     "regionDistrict": "Moroto, Karamoja Region, Uganda",
     "type": "safe-haven",
-    "lat": 2.594,
-    "lng": 34.736,
+    "lat": 2.5365,
+    "lng": 34.6635,
     "name": {
       "en": "KADP & MIFUMI Karamoja Women’s Safe Space (Moroto, Karamoja Region, Uganda)"
     },
@@ -22736,8 +22736,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-244",
     "regionDistrict": "Kananga, Kasai Region, DR Congo",
     "type": "safe-haven",
-    "lat": -5.836,
-    "lng": 22.486,
+    "lat": -5.8935,
+    "lng": 22.4135,
     "name": {
       "en": "FMMDI (Femmes Main dans la Main) Safe Haven Kasai (Tshiluba) (Kananga, Kasai Region, DR Congo)"
     },
@@ -22792,8 +22792,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-245",
     "regionDistrict": "Pemba, Cabo Delgado (Northern Rural), Mozambique",
     "type": "safe-haven",
-    "lat": -12.913,
-    "lng": 40.587,
+    "lat": -12.9705,
+    "lng": 40.5145,
     "name": {
       "en": "MULEIDE & UNFPA Tenda Lilás Safe Space Cabo Delgado (Pemba, Cabo Delgado (Northern Rural), Mozambique)"
     },
@@ -22904,8 +22904,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-247",
     "regionDistrict": "Duhok / Sinjar, Nineveh & Kurdistan Region",
     "type": "safe-haven",
-    "lat": 36.927,
-    "lng": 43.02,
+    "lat": 36.8695,
+    "lng": 42.9475,
     "name": {
       "en": "Harikar & Yazda Women Survivors Safe Haven Center (Kurmanji) (Duhok / Sinjar, Nineveh & Kurdistan Region)"
     },
@@ -22960,8 +22960,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-248",
     "regionDistrict": "Diyarbakır / Van, Eastern Anatolia, Turkey",
     "type": "safe-haven",
-    "lat": 37.974,
-    "lng": 40.3,
+    "lat": 37.9165,
+    "lng": 40.2275,
     "name": {
       "en": "KAMER Foundation & Women’s Safe Shelter (Kurdish/Zazaki/Turkish) (Diyarbakır / Van, Eastern Anatolia, Turkey)"
     },
@@ -23016,8 +23016,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-249",
     "regionDistrict": "Zahedan / Chabahar, Sistan & Baluchestan",
     "type": "safe-haven",
-    "lat": 29.556,
-    "lng": 60.936,
+    "lat": 29.4985,
+    "lng": 60.8635,
     "name": {
       "en": "Mehr-e-Shams & Social Emergency Women’s Safe House (Zahedan / Chabahar, Sistan & Baluchestan)"
     },
@@ -23072,8 +23072,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-250",
     "regionDistrict": "Bamyan, Central Highlands, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.87,
-    "lng": 67.891,
+    "lat": 34.8125,
+    "lng": 67.8185,
     "name": {
       "en": "UNFPA Family Health House"
     },
@@ -23100,8 +23100,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-250-u2",
     "regionDistrict": "Bamyan, Central Highlands, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.886,
-    "lng": 67.873,
+    "lat": 34.8075,
+    "lng": 67.8235,
     "name": {
       "en": "Female Midwife Sanctuary"
     },
@@ -23156,8 +23156,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-251",
     "regionDistrict": "Khorog, Gorno-Badakhshan (Pamir Mountains), Tajikistan",
     "type": "safe-haven",
-    "lat": 37.551,
-    "lng": 71.623,
+    "lat": 37.4935,
+    "lng": 71.5505,
     "name": {
       "en": "Madina & Pamir Women’s Support Center (Khorog, Gorno-Badakhshan (Pamir Mountains), Tajikistan)"
     },
@@ -23212,8 +23212,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-252",
     "regionDistrict": "Nukus, Karakalpakstan (Aral Sea Region), Uzbekistan",
     "type": "safe-haven",
-    "lat": 42.521,
-    "lng": 59.686,
+    "lat": 42.4635,
+    "lng": 59.6135,
     "name": {
       "en": "Atjol & Women’s Rehabilitation Center Nukus (Nukus, Karakalpakstan (Aral Sea Region), Uzbekistan)"
     },
@@ -23268,8 +23268,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-253",
     "regionDistrict": "Turbat / Gwadar, Makran Rural Balochistan, Pakistan",
     "type": "safe-haven",
-    "lat": 26.068,
-    "lng": 63.108,
+    "lat": 26.0105,
+    "lng": 63.0355,
     "name": {
       "en": "Makran Women’s Welfare"
     },
@@ -23296,8 +23296,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-253-u2",
     "regionDistrict": "Turbat / Gwadar, Makran Rural Balochistan, Pakistan",
     "type": "safe-haven",
-    "lat": 26.084,
-    "lng": 63.09,
+    "lat": 26.0055,
+    "lng": 63.0405,
     "name": {
       "en": "Dar-ul-Aman Safe Haven"
     },
@@ -23352,8 +23352,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-254",
     "regionDistrict": "Khuzdar / Kalat, Central Balochistan, Pakistan",
     "type": "safe-haven",
-    "lat": 27.876,
-    "lng": 66.675,
+    "lat": 27.8185,
+    "lng": 66.6025,
     "name": {
       "en": "Women Crisis & Protection Center Khuzdar (Khuzdar / Kalat, Central Balochistan, Pakistan)"
     },
@@ -23408,8 +23408,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-255",
     "regionDistrict": "Swat / Mingora, Rural Khyber Pakhtunkhwa, Pakistan",
     "type": "safe-haven",
-    "lat": 34.831,
-    "lng": 72.43,
+    "lat": 34.7735,
+    "lng": 72.3575,
     "name": {
       "en": "Khwendo Kor"
     },
@@ -23436,8 +23436,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-255-u2",
     "regionDistrict": "Swat / Mingora, Rural Khyber Pakhtunkhwa, Pakistan",
     "type": "safe-haven",
-    "lat": 34.847,
-    "lng": 72.412,
+    "lat": 34.7685,
+    "lng": 72.3625,
     "name": {
       "en": "Dar-ul-Aman Swat Women’s Shelter"
     },
@@ -23492,8 +23492,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-256",
     "regionDistrict": "Gilgit / Hunza, Gilgit-Baltistan Karakoram, Pakistan",
     "type": "safe-haven",
-    "lat": 35.98,
-    "lng": 74.378,
+    "lat": 35.9225,
+    "lng": 74.3055,
     "name": {
       "en": "GB Women’s Development & Safe Protection Center (Gilgit / Hunza, Gilgit-Baltistan Karakoram, Pakistan)"
     },
@@ -23548,8 +23548,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-257-u2",
     "regionDistrict": "Chitral, Hindu Kush Mountains, Pakistan",
     "type": "hospital",
-    "lat": 35.867,
-    "lng": 71.768,
+    "lat": 35.8535,
+    "lng": 71.7885,
     "name": {
       "en": "AKHS Maternity (Khowar)"
     },
@@ -23576,8 +23576,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-257",
     "regionDistrict": "Chitral, Hindu Kush Mountains, Pakistan",
     "type": "safe-haven",
-    "lat": 35.911,
-    "lng": 71.856,
+    "lat": 35.8535,
+    "lng": 71.7835,
     "name": {
       "en": "Chitral Women’s Support & Safe Shelter (Chitral, Hindu Kush Mountains, Pakistan)"
     },
@@ -23632,8 +23632,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-258",
     "regionDistrict": "Srinagar / Anantnag, Kashmir",
     "type": "safe-haven",
-    "lat": 34.143,
-    "lng": 74.867,
+    "lat": 34.0855,
+    "lng": 74.7945,
     "name": {
       "en": "One-Stop Sakhi Center & Women’s Helpline Kashmir (Srinagar / Anantnag, Kashmir)"
     },
@@ -23688,8 +23688,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-259",
     "regionDistrict": "Leh, Ladakh Trans-Himalaya",
     "type": "safe-haven",
-    "lat": 34.212,
-    "lng": 77.647,
+    "lat": 34.1545,
+    "lng": 77.5745,
     "name": {
       "en": "Women’s Alliance of Ladakh"
     },
@@ -23716,8 +23716,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-259-u2",
     "regionDistrict": "Leh, Ladakh Trans-Himalaya",
     "type": "safe-haven",
-    "lat": 34.228,
-    "lng": 77.629,
+    "lat": 34.1495,
+    "lng": 77.5795,
     "name": {
       "en": "Sakhi Safe Space"
     },
@@ -23772,8 +23772,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-260",
     "regionDistrict": "Pauri / Chamoli / Gopeshwar, Rural Garhwal Himalayas, India",
     "type": "safe-haven",
-    "lat": 30.207,
-    "lng": 78.844,
+    "lat": 30.1495,
+    "lng": 78.7715,
     "name": {
       "en": "Mahila Samakhya"
     },
@@ -23800,8 +23800,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-260-u2",
     "regionDistrict": "Pauri / Chamoli / Gopeshwar, Rural Garhwal Himalayas, India",
     "type": "safe-haven",
-    "lat": 30.223,
-    "lng": 78.826,
+    "lat": 30.1445,
+    "lng": 78.7765,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Garhwal"
     },
@@ -23856,8 +23856,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-261-u2",
     "regionDistrict": "Almora / Pithoragarh, Kumaon Himalayas, India",
     "type": "hospital",
-    "lat": 29.605,
-    "lng": 79.628,
+    "lat": 29.5915,
+    "lng": 79.6485,
     "name": {
       "en": "Almora Women’s Base Hospital (Kumaoni)"
     },
@@ -23884,8 +23884,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-261",
     "regionDistrict": "Almora / Pithoragarh, Kumaon Himalayas, India",
     "type": "safe-haven",
-    "lat": 29.649,
-    "lng": 79.716,
+    "lat": 29.5915,
+    "lng": 79.6435,
     "name": {
       "en": "Uttarakhand Mahila Parishad"
     },
@@ -23912,8 +23912,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-261-u2",
     "regionDistrict": "Almora / Pithoragarh, Kumaon Himalayas, India",
     "type": "safe-haven",
-    "lat": 29.665,
-    "lng": 79.698,
+    "lat": 29.5865,
+    "lng": 79.6485,
     "name": {
       "en": "Sakhi Safe Shelter Kumaon"
     },
@@ -23968,8 +23968,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-262-u2",
     "regionDistrict": "Ranchi / Dumka, Jharkhand Adivasi Belt, India",
     "type": "hospital",
-    "lat": 23.36,
-    "lng": 85.291,
+    "lat": 23.3465,
+    "lng": 85.3115,
     "name": {
       "en": "Sadar Maternal Hospital (Santali/Mundari/Kurukh)"
     },
@@ -23996,8 +23996,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-262",
     "regionDistrict": "Ranchi / Dumka, Jharkhand Adivasi Belt, India",
     "type": "safe-haven",
-    "lat": 23.404,
-    "lng": 85.379,
+    "lat": 23.3465,
+    "lng": 85.3065,
     "name": {
       "en": "ASHA & Sakhi One-Stop Center for Tribal Women Jharkhand (Ranchi / Dumka, Jharkhand Adivasi Belt, India)"
     },
@@ -24052,8 +24052,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-263-u2",
     "regionDistrict": "Jagdalpur, Bastar Tribal Region, Chhattisgarh, India",
     "type": "hospital",
-    "lat": 19.09,
-    "lng": 81.99,
+    "lat": 19.0765,
+    "lng": 82.0105,
     "name": {
       "en": "Dimrapal Medical College Maternity (Gondi/Halbi)"
     },
@@ -24080,8 +24080,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-263",
     "regionDistrict": "Jagdalpur, Bastar Tribal Region, Chhattisgarh, India",
     "type": "safe-haven",
-    "lat": 19.134,
-    "lng": 82.078,
+    "lat": 19.0765,
+    "lng": 82.0055,
     "name": {
       "en": "Sakhi One-Stop Safe Haven"
     },
@@ -24108,8 +24108,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-263-u2",
     "regionDistrict": "Jagdalpur, Bastar Tribal Region, Chhattisgarh, India",
     "type": "safe-haven",
-    "lat": 19.15,
-    "lng": 82.06,
+    "lat": 19.0715,
+    "lng": 82.0105,
     "name": {
       "en": "Nava Bihan Bastar"
     },
@@ -24164,8 +24164,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-264",
     "regionDistrict": "Udaipur / Barmer, Rural Rajasthan, India",
     "type": "safe-haven",
-    "lat": 24.645,
-    "lng": 73.782,
+    "lat": 24.5875,
+    "lng": 73.7095,
     "name": {
       "en": "Astha Sansthan"
     },
@@ -24192,8 +24192,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-264-u2",
     "regionDistrict": "Udaipur / Barmer, Rural Rajasthan, India",
     "type": "safe-haven",
-    "lat": 24.661,
-    "lng": 73.764,
+    "lat": 24.5825,
+    "lng": 73.7145,
     "name": {
       "en": "Garima Greh Women’s Shelter (Mewari/Marwari)"
     },
@@ -24248,8 +24248,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-265",
     "regionDistrict": "Darbhanga / Mithila Rural Bihar, India",
     "type": "safe-haven",
-    "lat": 26.214,
-    "lng": 85.961,
+    "lat": 26.1565,
+    "lng": 85.8885,
     "name": {
       "en": "Bhumika Vihar"
     },
@@ -24276,8 +24276,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-265-u2",
     "regionDistrict": "Darbhanga / Mithila Rural Bihar, India",
     "type": "safe-haven",
-    "lat": 26.23,
-    "lng": 85.943,
+    "lat": 26.1515,
+    "lng": 85.8935,
     "name": {
       "en": "अल्पावास গৃহ (Short Stay Women’s Shelter)"
     },
@@ -24332,8 +24332,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-266",
     "regionDistrict": "Shillong, Meghalaya, Northeast India",
     "type": "safe-haven",
-    "lat": 25.638,
-    "lng": 91.963,
+    "lat": 25.5805,
+    "lng": 91.8905,
     "name": {
       "en": "Impulse NGO Network"
     },
@@ -24360,8 +24360,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-266-u2",
     "regionDistrict": "Shillong, Meghalaya, Northeast India",
     "type": "safe-haven",
-    "lat": 25.654,
-    "lng": 91.945,
+    "lat": 25.5755,
+    "lng": 91.8955,
     "name": {
       "en": "Sakhi One-Stop Shelter Shillong"
     },
@@ -24416,8 +24416,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-267",
     "regionDistrict": "Imphal, Manipur, Northeast India",
     "type": "safe-haven",
-    "lat": 24.877,
-    "lng": 94.006,
+    "lat": 24.8195,
+    "lng": 93.9335,
     "name": {
       "en": "Women Action for Development (WAD)"
     },
@@ -24444,8 +24444,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-267-u2",
     "regionDistrict": "Imphal, Manipur, Northeast India",
     "type": "safe-haven",
-    "lat": 24.893,
-    "lng": 93.988,
+    "lat": 24.8145,
+    "lng": 93.9385,
     "name": {
       "en": "Sakhi Safe Haven"
     },
@@ -24500,8 +24500,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-268",
     "regionDistrict": "Aizawl, Mizoram, Northeast India",
     "type": "safe-haven",
-    "lat": 23.787,
-    "lng": 92.787,
+    "lat": 23.7295,
+    "lng": 92.7145,
     "name": {
       "en": "Mizo Hmeichhe Insuihkhawm Pawl (MHIP) Women’s Shelter (Aizawl, Mizoram, Northeast India)"
     },
@@ -24556,8 +24556,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-269",
     "regionDistrict": "Rangamati / Bandarban, Chittagong Hill Tracts, Bangladesh",
     "type": "safe-haven",
-    "lat": 22.713,
-    "lng": 92.245,
+    "lat": 22.6555,
+    "lng": 92.1725,
     "name": {
       "en": "CHT Women’s Resource Network"
     },
@@ -24584,8 +24584,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-269-u2",
     "regionDistrict": "Rangamati / Bandarban, Chittagong Hill Tracts, Bangladesh",
     "type": "safe-haven",
-    "lat": 22.729,
-    "lng": 92.227,
+    "lat": 22.6505,
+    "lng": 92.1775,
     "name": {
       "en": "BRAC Safe Space"
     },
@@ -24640,8 +24640,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-270",
     "regionDistrict": "Sunamganj / Kurigram Rural Haor & Charlands, Bangladesh",
     "type": "safe-haven",
-    "lat": 25.125,
-    "lng": 91.465,
+    "lat": 25.0675,
+    "lng": 91.3925,
     "name": {
       "en": "Friendship & BRAC Floating Women’s Safe Clinic (Sunamganj / Kurigram Rural Haor & Charlands, Bangladesh)"
     },
@@ -24696,8 +24696,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-271",
     "regionDistrict": "Jumla / Karnali Rural Far-West Himalayas, Nepal",
     "type": "safe-haven",
-    "lat": 29.334,
-    "lng": 82.253,
+    "lat": 29.2765,
+    "lng": 82.1805,
     "name": {
       "en": "WOREC Nepal Chhaupadi & Domestic Safe Shelter Karnali (Jumla / Karnali Rural Far-West Himalayas, Nepal)"
     },
@@ -24752,8 +24752,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-272-u2",
     "regionDistrict": "Jaffna / Batticaloa, Northern & Eastern Sri Lanka",
     "type": "hospital",
-    "lat": 9.677,
-    "lng": 80.007,
+    "lat": 9.6635,
+    "lng": 80.0275,
     "name": {
       "en": "Well Woman Clinic (Tamil)"
     },
@@ -24780,8 +24780,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-272",
     "regionDistrict": "Jaffna / Batticaloa, Northern & Eastern Sri Lanka",
     "type": "safe-haven",
-    "lat": 9.721,
-    "lng": 80.095,
+    "lat": 9.6635,
+    "lng": 80.0225,
     "name": {
       "en": "Suriya Women’s Development Centre"
     },
@@ -24808,8 +24808,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-272-u2",
     "regionDistrict": "Jaffna / Batticaloa, Northern & Eastern Sri Lanka",
     "type": "safe-haven",
-    "lat": 9.737,
-    "lng": 80.077,
+    "lat": 9.6585,
+    "lng": 80.0275,
     "name": {
       "en": "WIN Safe Haven"
     },
@@ -24864,8 +24864,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-273",
     "regionDistrict": "Myitkyina, Kachin State / Shan Highlands, Myanmar",
     "type": "safe-haven",
-    "lat": 25.446,
-    "lng": 97.465,
+    "lat": 25.3885,
+    "lng": 97.3925,
     "name": {
       "en": "Kachin Women’s Association (KWAT) Safe House (Myitkyina, Kachin State / Shan Highlands, Myanmar)"
     },
@@ -24920,8 +24920,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-274",
     "regionDistrict": "Chiang Mai / Mae Hong Son Hill Tribes, Thailand",
     "type": "safe-haven",
-    "lat": 18.848,
-    "lng": 99.055,
+    "lat": 18.7905,
+    "lng": 98.9825,
     "name": {
       "en": "Wildflower Home Safe Haven for Single Mothers & Women (Chiang Mai / Mae Hong Son Hill Tribes, Thailand)"
     },
@@ -24976,8 +24976,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-275",
     "regionDistrict": "Davao / Cotabato, Mindanao, Philippines",
     "type": "safe-haven",
-    "lat": 7.133,
-    "lng": 125.682,
+    "lat": 7.0755,
+    "lng": 125.6095,
     "name": {
       "en": "Bathaluman Crisis Center"
     },
@@ -25004,8 +25004,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-275-u2",
     "regionDistrict": "Davao / Cotabato, Mindanao, Philippines",
     "type": "safe-haven",
-    "lat": 7.149,
-    "lng": 125.664,
+    "lat": 7.0705,
+    "lng": 125.6145,
     "name": {
       "en": "Talikala Women’s Safe Haven"
     },
@@ -25060,8 +25060,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-276",
     "regionDistrict": "Kupang, West Timor / East Nusa Tenggara, Indonesia",
     "type": "safe-haven",
-    "lat": -10.117,
-    "lng": 123.677,
+    "lat": -10.1745,
+    "lng": 123.6045,
     "name": {
       "en": "Rumah Perempuan Kupang Safe Shelter (Kupang, West Timor / East Nusa Tenggara, Indonesia)"
     },
@@ -25116,8 +25116,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-277",
     "regionDistrict": "Jayapura / Wamena, Papua Highlands, Indonesia",
     "type": "safe-haven",
-    "lat": -2.473,
-    "lng": 140.788,
+    "lat": -2.5305,
+    "lng": 140.7155,
     "name": {
       "en": "LP3AP Papua Women & Children Safe Haven (Jayapura / Wamena, Papua Highlands, Indonesia)"
     },
@@ -25172,8 +25172,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-278",
     "regionDistrict": "Dili, Timor-Leste",
     "type": "safe-haven",
-    "lat": -8.496,
-    "lng": 125.63,
+    "lat": -8.5535,
+    "lng": 125.5575,
     "name": {
       "en": "Fokupers (Uma Mahon)"
     },
@@ -25200,8 +25200,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-278-u2",
     "regionDistrict": "Dili, Timor-Leste",
     "type": "safe-haven",
-    "lat": -8.48,
-    "lng": 125.612,
+    "lat": -8.5585,
+    "lng": 125.5625,
     "name": {
       "en": "PRADET Women’s Safe House"
     },
@@ -25256,8 +25256,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-279",
     "regionDistrict": "Alice Springs, Central Australian Outback, Australia",
     "type": "safe-haven",
-    "lat": -23.638,
-    "lng": 133.95,
+    "lat": -23.6955,
+    "lng": 133.8775,
     "name": {
       "en": "NPY Women’s Council"
     },
@@ -25284,8 +25284,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-279-u2",
     "regionDistrict": "Alice Springs, Central Australian Outback, Australia",
     "type": "safe-haven",
-    "lat": -23.622,
-    "lng": 133.932,
+    "lat": -23.7005,
+    "lng": 133.8825,
     "name": {
       "en": "Alice Springs Women’s Shelter"
     },
@@ -25340,8 +25340,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-280",
     "regionDistrict": "Goroka, Eastern Highlands Province, Papua New Guinea",
     "type": "safe-haven",
-    "lat": -6.022,
-    "lng": 145.457,
+    "lat": -6.0795,
+    "lng": 145.3845,
     "name": {
       "en": "Goroka Family Support Centre (FSC)"
     },
@@ -25424,8 +25424,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-281",
     "regionDistrict": "Honiara, Solomon Islands",
     "type": "safe-haven",
-    "lat": -9.385,
-    "lng": 160.042,
+    "lat": -9.4425,
+    "lng": 159.9695,
     "name": {
       "en": "Christian Care Centre"
     },
@@ -25452,8 +25452,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-281-u2",
     "regionDistrict": "Honiara, Solomon Islands",
     "type": "safe-haven",
-    "lat": -9.369,
-    "lng": 160.024,
+    "lat": -9.4475,
+    "lng": 159.9745,
     "name": {
       "en": "SAFENET Women’s Safe Shelter"
     },
@@ -25508,8 +25508,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-282",
     "regionDistrict": "Port Vila, Vanuatu",
     "type": "safe-haven",
-    "lat": -17.673,
-    "lng": 168.397,
+    "lat": -17.7305,
+    "lng": 168.3245,
     "name": {
       "en": "Vanuatu Women’s Centre (VWC) Safe Counseling & Shelter (Port Vila, Vanuatu)"
     },
@@ -25564,8 +25564,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-283",
     "regionDistrict": "Apia, Samoa",
     "type": "safe-haven",
-    "lat": -13.79,
-    "lng": -171.681,
+    "lat": -13.8475,
+    "lng": -171.7535,
     "name": {
       "en": "Samoa Victim Support Group (SVSG) Campus of Hope Shelter (Apia, Samoa)"
     },
@@ -25620,8 +25620,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-beshariq-uz",
     "regionDistrict": "Beshariq, Fergana Region, Uzbekistan",
     "type": "safe-haven",
-    "lat": 40.4425,
-    "lng": 70.611,
+    "lat": 40.4383,
+    "lng": 70.5994,
     "name": {
       "en": "Beshariq Women’s Rehabilitation & Safe Haven Center (Ayollarni Reabilitatsiya va Moslashtirish Markazi — Beshariq)"
     },
@@ -25702,8 +25702,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-safe-samarkand-uz",
     "regionDistrict": "Samarkand, Uzbekistan",
     "type": "safe-haven",
-    "lat": 39.662,
-    "lng": 66.971,
+    "lat": 39.6567,
+    "lng": 66.9572,
     "name": {
       "en": "Rahmdillik Society Women’s Safe Haven Shelter (Samarkand, Uzbekistan)"
     },
@@ -25757,8 +25757,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-572",
     "regionDistrict": "New Delhi (South Delhi / GK), India",
     "type": "safe-haven",
-    "lat": 28.5944,
-    "lng": 77.294,
+    "lat": 28.5519,
+    "lng": 77.2365,
     "name": {
       "en": "Sakhi One-Stop Centre"
     },
@@ -25785,8 +25785,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-572-u2",
     "regionDistrict": "New Delhi (South Delhi / GK), India",
     "type": "safe-haven",
-    "lat": 28.6104,
-    "lng": 77.276,
+    "lat": 28.5469,
+    "lng": 77.2415,
     "name": {
       "en": "Jagori Women’s Safe Haven South Delhi"
     },
@@ -25841,8 +25841,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-573",
     "regionDistrict": "New Delhi (AIIMS / Ansari Nagar), India",
     "type": "safe-haven",
-    "lat": 28.6122,
-    "lng": 77.265,
+    "lat": 28.5697,
+    "lng": 77.2075,
     "name": {
       "en": "AIIMS One-Stop Crisis"
     },
@@ -25869,8 +25869,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-573-u2",
     "regionDistrict": "New Delhi (AIIMS / Ansari Nagar), India",
     "type": "safe-haven",
-    "lat": 28.6282,
-    "lng": 77.247,
+    "lat": 28.5647,
+    "lng": 77.2125,
     "name": {
       "en": "Shakti Shalini Safe Shelter Delhi"
     },
@@ -25925,8 +25925,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-574",
     "regionDistrict": "Gurugram, Haryana, India",
     "type": "safe-haven",
-    "lat": 28.4845,
-    "lng": 77.0966,
+    "lat": 28.442,
+    "lng": 77.0391,
     "name": {
       "en": "Sakhi One-Stop Centre Civil Hospital Gurugram"
     },
@@ -25981,8 +25981,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-575",
     "regionDistrict": "Faridabad / Rohtak, Haryana, India",
     "type": "safe-haven",
-    "lat": 28.9305,
-    "lng": 76.6616,
+    "lat": 28.888,
+    "lng": 76.6041,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Rohtak Haryana"
     },
@@ -26037,8 +26037,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-576",
     "regionDistrict": "Chandigarh / Mohali, Punjab, India",
     "type": "safe-haven",
-    "lat": 30.8099,
-    "lng": 76.8303,
+    "lat": 30.7674,
+    "lng": 76.7728,
     "name": {
       "en": "Sakhi One-Stop Centre"
     },
@@ -26065,8 +26065,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-576-u2",
     "regionDistrict": "Chandigarh / Mohali, Punjab, India",
     "type": "safe-haven",
-    "lat": 30.8259,
-    "lng": 76.8123,
+    "lat": 30.7624,
+    "lng": 76.7778,
     "name": {
       "en": "Mehar Baba Safe Shelter Chandigarh"
     },
@@ -26121,8 +26121,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-577",
     "regionDistrict": "Amritsar, Punjab, India",
     "type": "safe-haven",
-    "lat": 31.679,
-    "lng": 74.9273,
+    "lat": 31.6365,
+    "lng": 74.8698,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Amritsar"
     },
@@ -26177,8 +26177,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-578",
     "regionDistrict": "Ludhiana / Jalandhar, Punjab, India",
     "type": "safe-haven",
-    "lat": 30.946,
-    "lng": 75.9123,
+    "lat": 30.9035,
+    "lng": 75.8548,
     "name": {
       "en": "Sakhi One-Stop Domestic Abuse Shelter Ludhiana"
     },
@@ -26233,8 +26233,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-579",
     "regionDistrict": "Shimla, Himachal Pradesh, India",
     "type": "safe-haven",
-    "lat": 31.1498,
-    "lng": 77.2284,
+    "lat": 31.1073,
+    "lng": 77.1709,
     "name": {
       "en": "Sakhi One-Stop Centre"
     },
@@ -26261,8 +26261,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-579-u2",
     "regionDistrict": "Shimla, Himachal Pradesh, India",
     "type": "safe-haven",
-    "lat": 31.1658,
-    "lng": 77.2104,
+    "lat": 31.1023,
+    "lng": 77.1759,
     "name": {
       "en": "State Women’s Safe Haven Shimla"
     },
@@ -26317,8 +26317,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-580",
     "regionDistrict": "Kangra / Tanda, Himachal Pradesh, India",
     "type": "safe-haven",
-    "lat": 32.1448,
-    "lng": 76.3241,
+    "lat": 32.1023,
+    "lng": 76.2666,
     "name": {
       "en": "Sakhi One-Stop Safe Shelter Dharamshala/Kangra"
     },
@@ -26373,8 +26373,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-581",
     "regionDistrict": "Jammu, Jammu & Kashmir, India",
     "type": "safe-haven",
-    "lat": 32.7807,
-    "lng": 74.9105,
+    "lat": 32.7382,
+    "lng": 74.853,
     "name": {
       "en": "Sakhi One-Stop Centre for Women Jammu"
     },
@@ -26429,8 +26429,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-582",
     "regionDistrict": "Haridwar / Roorkee, Garhwal, Uttarakhand, India",
     "type": "safe-haven",
-    "lat": 29.9907,
-    "lng": 78.2192,
+    "lat": 29.9482,
+    "lng": 78.1617,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Haridwar"
     },
@@ -26485,8 +26485,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-583-u2",
     "regionDistrict": "Haldwani / Nainital, Kumaon, Uttarakhand, India",
     "type": "hospital",
-    "lat": 29.2343,
-    "lng": 79.495,
+    "lat": 29.2208,
+    "lng": 79.5155,
     "name": {
       "en": "Sushila Tiwari Maternity Wing Haldwani"
     },
@@ -26513,8 +26513,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-583",
     "regionDistrict": "Haldwani / Nainital, Kumaon, Uttarakhand, India",
     "type": "safe-haven",
-    "lat": 29.2633,
-    "lng": 79.568,
+    "lat": 29.2208,
+    "lng": 79.5105,
     "name": {
       "en": "Sakhi One-Stop Centre Nainital/Haldwani"
     },
@@ -26569,8 +26569,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-584",
     "regionDistrict": "Lucknow, Uttar Pradesh, India",
     "type": "safe-haven",
-    "lat": 26.9142,
-    "lng": 80.9713,
+    "lat": 26.8717,
+    "lng": 80.9138,
     "name": {
       "en": "HUMSAFAR & Aali Women’s Crisis Safe Haven Lucknow"
     },
@@ -26625,8 +26625,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-585-u2",
     "regionDistrict": "Varanasi, Uttar Pradesh, India",
     "type": "hospital",
-    "lat": 25.3336,
-    "lng": 82.9559,
+    "lat": 25.3201,
+    "lng": 82.9764,
     "name": {
       "en": "BHU OB/GYN"
     },
@@ -26653,8 +26653,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-585",
     "regionDistrict": "Varanasi, Uttar Pradesh, India",
     "type": "safe-haven",
-    "lat": 25.3626,
-    "lng": 83.0289,
+    "lat": 25.3201,
+    "lng": 82.9714,
     "name": {
       "en": "Guria & Sakhi One-Stop Safe Shelter Varanasi"
     },
@@ -26709,8 +26709,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-586",
     "regionDistrict": "Agra / Mathura, Uttar Pradesh, India",
     "type": "safe-haven",
-    "lat": 27.2217,
-    "lng": 78.0631,
+    "lat": 27.1792,
+    "lng": 78.0056,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Agra"
     },
@@ -26765,8 +26765,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-587",
     "regionDistrict": "Prayagraj (Allahabad), Uttar Pradesh, India",
     "type": "safe-haven",
-    "lat": 25.4808,
-    "lng": 81.9013,
+    "lat": 25.4383,
+    "lng": 81.8438,
     "name": {
       "en": "Sakhi One-Stop Centre Prayagraj"
     },
@@ -26821,8 +26821,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-588",
     "regionDistrict": "Kanpur, Uttar Pradesh, India",
     "type": "safe-haven",
-    "lat": 26.4949,
-    "lng": 80.3869,
+    "lat": 26.4524,
+    "lng": 80.3294,
     "name": {
       "en": "Sakhi One-Stop Safe Haven"
     },
@@ -26849,8 +26849,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-588-u2",
     "regionDistrict": "Kanpur, Uttar Pradesh, India",
     "type": "safe-haven",
-    "lat": 26.5109,
-    "lng": 80.3689,
+    "lat": 26.4474,
+    "lng": 80.3344,
     "name": {
       "en": "Subhashini Shelter Kanpur"
     },
@@ -26905,8 +26905,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-589",
     "regionDistrict": "Gorakhpur, Eastern UP, India",
     "type": "safe-haven",
-    "lat": 26.8056,
-    "lng": 83.4282,
+    "lat": 26.7631,
+    "lng": 83.3707,
     "name": {
       "en": "Sakhi One-Stop Centre Gorakhpur"
     },
@@ -26961,8 +26961,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-590",
     "regionDistrict": "Noida / Ghaziabad, UP, India",
     "type": "safe-haven",
-    "lat": 28.5805,
-    "lng": 77.446,
+    "lat": 28.538,
+    "lng": 77.3885,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Gautam Buddha Nagar"
     },
@@ -27017,8 +27017,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-591-u2",
     "regionDistrict": "Jaipur, Rajasthan, India",
     "type": "hospital",
-    "lat": 26.9284,
-    "lng": 75.7693,
+    "lat": 26.9149,
+    "lng": 75.7898,
     "name": {
       "en": "Zanana Hospital Jaipur"
     },
@@ -27045,8 +27045,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-591",
     "regionDistrict": "Jaipur, Rajasthan, India",
     "type": "safe-haven",
-    "lat": 26.9574,
-    "lng": 75.8423,
+    "lat": 26.9149,
+    "lng": 75.7848,
     "name": {
       "en": "Aparajita (Sakhi One-Stop Safe Haven) Jaipur"
     },
@@ -27101,8 +27101,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-592",
     "regionDistrict": "Jodhpur, Marwar, Rajasthan, India",
     "type": "safe-haven",
-    "lat": 26.2839,
-    "lng": 73.0793,
+    "lat": 26.2414,
+    "lng": 73.0218,
     "name": {
       "en": "Sambhali Trust"
     },
@@ -27129,8 +27129,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-592-u2",
     "regionDistrict": "Jodhpur, Marwar, Rajasthan, India",
     "type": "safe-haven",
-    "lat": 26.2999,
-    "lng": 73.0613,
+    "lat": 26.2364,
+    "lng": 73.0268,
     "name": {
       "en": "Aparajita Safe Shelter Jodhpur"
     },
@@ -27185,8 +27185,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-593",
     "regionDistrict": "Bikaner / Ajmer, Rajasthan, India",
     "type": "safe-haven",
-    "lat": 28.0679,
-    "lng": 73.3669,
+    "lat": 28.0254,
+    "lng": 73.3094,
     "name": {
       "en": "Aparajita Women’s Safe Haven Bikaner"
     },
@@ -27241,8 +27241,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-594",
     "regionDistrict": "Mumbai (Parel / South Mumbai), India",
     "type": "safe-haven",
-    "lat": 18.9882,
-    "lng": 72.888,
+    "lat": 18.9457,
+    "lng": 72.8305,
     "name": {
       "en": "Urja Trust"
     },
@@ -27269,8 +27269,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-594-u2",
     "regionDistrict": "Mumbai (Parel / South Mumbai), India",
     "type": "safe-haven",
-    "lat": 19.0042,
-    "lng": 72.87,
+    "lat": 18.9407,
+    "lng": 72.8355,
     "name": {
       "en": "Dilaasa Crisis Safe Haven Mumbai"
     },
@@ -27325,8 +27325,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-595-u2",
     "regionDistrict": "Mumbai (Andheri / Bandra), India",
     "type": "hospital",
-    "lat": 19.147,
-    "lng": 72.8085,
+    "lat": 19.1335,
+    "lng": 72.829,
     "name": {
       "en": "Cloudnine OB/GYN Hospital Mumbai"
     },
@@ -27353,8 +27353,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-595",
     "regionDistrict": "Mumbai (Andheri / Bandra), India",
     "type": "safe-haven",
-    "lat": 19.176,
-    "lng": 72.8815,
+    "lat": 19.1335,
+    "lng": 72.824,
     "name": {
       "en": "SNEHA Women’s Crisis & Safe Shelter Bandra/Dharavi"
     },
@@ -27409,8 +27409,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-596-u2",
     "regionDistrict": "Pune, Maharashtra, India",
     "type": "hospital",
-    "lat": 18.5364,
-    "lng": 73.8387,
+    "lat": 18.5229,
+    "lng": 73.8592,
     "name": {
       "en": "Sassoon OB/GYN Hospital Pune"
     },
@@ -27437,8 +27437,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-596",
     "regionDistrict": "Pune, Maharashtra, India",
     "type": "safe-haven",
-    "lat": 18.5654,
-    "lng": 73.9117,
+    "lat": 18.5229,
+    "lng": 73.8542,
     "name": {
       "en": "Chaitanya Mahila Mandal"
     },
@@ -27465,8 +27465,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-596-u2",
     "regionDistrict": "Pune, Maharashtra, India",
     "type": "safe-haven",
-    "lat": 18.5814,
-    "lng": 73.8937,
+    "lat": 18.5179,
+    "lng": 73.8592,
     "name": {
       "en": "Maher Safe Haven Pune"
     },
@@ -27521,8 +27521,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-597-u2",
     "regionDistrict": "Nagpur, Vidarbha, Maharashtra, India",
     "type": "hospital",
-    "lat": 21.1618,
-    "lng": 79.0702,
+    "lat": 21.1483,
+    "lng": 79.0907,
     "name": {
       "en": "Matru Seva Sangh Nagpur"
     },
@@ -27549,8 +27549,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-597",
     "regionDistrict": "Nagpur, Vidarbha, Maharashtra, India",
     "type": "safe-haven",
-    "lat": 21.1908,
-    "lng": 79.1432,
+    "lat": 21.1483,
+    "lng": 79.0857,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Nagpur"
     },
@@ -27605,8 +27605,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-598",
     "regionDistrict": "Chhatrapati Sambhajinagar (Aurangabad) / Nashik, India",
     "type": "safe-haven",
-    "lat": 19.9212,
-    "lng": 75.3983,
+    "lat": 19.8787,
+    "lng": 75.3408,
     "name": {
       "en": "Savali & Sakhi Women’s Safe Shelter"
     },
@@ -27661,8 +27661,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-599",
     "regionDistrict": "Ahmedabad, Gujarat, India",
     "type": "safe-haven",
-    "lat": 23.0675,
-    "lng": 72.6264,
+    "lat": 23.025,
+    "lng": 72.5689,
     "name": {
       "en": "AWAG (Ahmedabad Women’s Action Group)"
     },
@@ -27689,8 +27689,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-599-u2",
     "regionDistrict": "Ahmedabad, Gujarat, India",
     "type": "safe-haven",
-    "lat": 23.0835,
-    "lng": 72.6084,
+    "lat": 23.02,
+    "lng": 72.5739,
     "name": {
       "en": "Abhayam 181 Shelter"
     },
@@ -27745,8 +27745,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-600-u2",
     "regionDistrict": "Surat, Gujarat, India",
     "type": "hospital",
-    "lat": 21.1862,
-    "lng": 72.8131,
+    "lat": 21.1727,
+    "lng": 72.8336,
     "name": {
       "en": "Love N Care Women’s Hospital Surat"
     },
@@ -27773,8 +27773,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-600",
     "regionDistrict": "Surat, Gujarat, India",
     "type": "safe-haven",
-    "lat": 21.2152,
-    "lng": 72.8861,
+    "lat": 21.1727,
+    "lng": 72.8286,
     "name": {
       "en": "Sakhi One-Stop Centre"
     },
@@ -27801,8 +27801,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-600-u2",
     "regionDistrict": "Surat, Gujarat, India",
     "type": "safe-haven",
-    "lat": 21.2312,
-    "lng": 72.8681,
+    "lat": 21.1677,
+    "lng": 72.8336,
     "name": {
       "en": "Abhayam Safe Haven Surat"
     },
@@ -27857,8 +27857,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-601",
     "regionDistrict": "Vadodara / Rajkot, Gujarat, India",
     "type": "safe-haven",
-    "lat": 22.3522,
-    "lng": 73.2362,
+    "lat": 22.3097,
+    "lng": 73.1787,
     "name": {
       "en": "Olakh & Sakhi Women’s Safe Haven Vadodara"
     },
@@ -27913,8 +27913,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-602",
     "regionDistrict": "Bhuj, Kutch Rural District, Gujarat, India",
     "type": "safe-haven",
-    "lat": 23.287,
-    "lng": 69.7219,
+    "lat": 23.2445,
+    "lng": 69.6644,
     "name": {
       "en": "Kutch Mahila Vikas Sangathan (KMVS) Safe Shelter"
     },
@@ -27969,8 +27969,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-603",
     "regionDistrict": "Panaji / Margao, Goa, India",
     "type": "safe-haven",
-    "lat": 15.505,
-    "lng": 73.913,
+    "lat": 15.4625,
+    "lng": 73.8555,
     "name": {
       "en": "Bailancho Saad"
     },
@@ -27997,8 +27997,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-603-u2",
     "regionDistrict": "Panaji / Margao, Goa, India",
     "type": "safe-haven",
-    "lat": 15.521,
-    "lng": 73.895,
+    "lat": 15.4575,
+    "lng": 73.8605,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Goa"
     },
@@ -28053,8 +28053,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-604",
     "regionDistrict": "Bhopal, Madhya Pradesh, India",
     "type": "safe-haven",
-    "lat": 23.3049,
-    "lng": 77.4676,
+    "lat": 23.2624,
+    "lng": 77.4101,
     "name": {
       "en": "Gauravi One-Stop Crisis & Safe Haven Centre Bhopal"
     },
@@ -28109,8 +28109,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-605-u2",
     "regionDistrict": "Indore, Madhya Pradesh, India",
     "type": "hospital",
-    "lat": 22.7356,
-    "lng": 75.8397,
+    "lat": 22.7221,
+    "lng": 75.8602,
     "name": {
       "en": "Apollo Indore"
     },
@@ -28137,8 +28137,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-605",
     "regionDistrict": "Indore, Madhya Pradesh, India",
     "type": "safe-haven",
-    "lat": 22.7646,
-    "lng": 75.9127,
+    "lat": 22.7221,
+    "lng": 75.8552,
     "name": {
       "en": "Sakhi One-Stop Safe Shelter Indore"
     },
@@ -28193,8 +28193,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-606",
     "regionDistrict": "Gwalior / Jabalpur, Madhya Pradesh, India",
     "type": "safe-haven",
-    "lat": 26.2633,
-    "lng": 78.2378,
+    "lat": 26.2208,
+    "lng": 78.1803,
     "name": {
       "en": "Sakhi One-Stop Centre Gwalior"
     },
@@ -28249,8 +28249,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-607",
     "regionDistrict": "Raipur / Bilaspur, Chhattisgarh, India",
     "type": "safe-haven",
-    "lat": 21.2964,
-    "lng": 81.6846,
+    "lat": 21.2539,
+    "lng": 81.6271,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Raipur"
     },
@@ -28305,8 +28305,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-608",
     "regionDistrict": "Hyderabad (Bogulkunta / Banjara Hills), Telangana, India",
     "type": "safe-haven",
-    "lat": 17.436,
-    "lng": 78.5365,
+    "lat": 17.3935,
+    "lng": 78.479,
     "name": {
       "en": "Bharosa Support Centre"
     },
@@ -28333,8 +28333,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-608-u2",
     "regionDistrict": "Hyderabad (Bogulkunta / Banjara Hills), Telangana, India",
     "type": "safe-haven",
-    "lat": 17.452,
-    "lng": 78.5185,
+    "lat": 17.3885,
+    "lng": 78.484,
     "name": {
       "en": "Sakhi Safe Haven Hyderabad"
     },
@@ -28389,8 +28389,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-609-u2",
     "regionDistrict": "Hyderabad (Koti / Petlaburj), Telangana, India",
     "type": "hospital",
-    "lat": 17.3913,
-    "lng": 78.4564,
+    "lat": 17.3778,
+    "lng": 78.4769,
     "name": {
       "en": "Sultan Bazaar"
     },
@@ -28417,8 +28417,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-609",
     "regionDistrict": "Hyderabad (Koti / Petlaburj), Telangana, India",
     "type": "safe-haven",
-    "lat": 17.4203,
-    "lng": 78.5294,
+    "lat": 17.3778,
+    "lng": 78.4719,
     "name": {
       "en": "Prajwala & Sakhi One-Stop Shelter Hyderabad"
     },
@@ -28473,8 +28473,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-610",
     "regionDistrict": "Warangal / Nizamabad, Telangana, India",
     "type": "safe-haven",
-    "lat": 18.0139,
-    "lng": 79.6491,
+    "lat": 17.9714,
+    "lng": 79.5916,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Warangal"
     },
@@ -28529,8 +28529,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-611",
     "regionDistrict": "Visakhapatnam, Andhra Pradesh, India",
     "type": "safe-haven",
-    "lat": 17.7519,
-    "lng": 83.3596,
+    "lat": 17.7094,
+    "lng": 83.3021,
     "name": {
       "en": "Disha & Sakhi One-Stop Safe Shelter Visakhapatnam"
     },
@@ -28585,8 +28585,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-612-u2",
     "regionDistrict": "Vijayawada / Guntur, Andhra Pradesh, India",
     "type": "hospital",
-    "lat": 16.5222,
-    "lng": 80.63,
+    "lat": 16.5087,
+    "lng": 80.6505,
     "name": {
       "en": "Rainbow BirthRight Vijayawada"
     },
@@ -28613,8 +28613,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-612",
     "regionDistrict": "Vijayawada / Guntur, Andhra Pradesh, India",
     "type": "safe-haven",
-    "lat": 16.5512,
-    "lng": 80.703,
+    "lat": 16.5087,
+    "lng": 80.6455,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Vijayawada"
     },
@@ -28669,8 +28669,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-613",
     "regionDistrict": "Tirupati / Kurnool, Andhra Pradesh, India",
     "type": "safe-haven",
-    "lat": 13.6738,
-    "lng": 79.4742,
+    "lat": 13.6313,
+    "lng": 79.4167,
     "name": {
       "en": "Sakhi One-Stop Centre Tirupati"
     },
@@ -28725,8 +28725,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-614",
     "regionDistrict": "Vellore, Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 12.9699,
-    "lng": 79.1903,
+    "lat": 12.9274,
+    "lng": 79.1328,
     "name": {
       "en": "CMC Rural CHAD"
     },
@@ -28753,8 +28753,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-614-u2",
     "regionDistrict": "Vellore, Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 12.9859,
-    "lng": 79.1723,
+    "lat": 12.9224,
+    "lng": 79.1378,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Vellore"
     },
@@ -28809,8 +28809,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-615-u2",
     "regionDistrict": "Chennai (Triplicane / Alwarpet), Tamil Nadu, India",
     "type": "hospital",
-    "lat": 13.0747,
-    "lng": 80.2576,
+    "lat": 13.0612,
+    "lng": 80.2781,
     "name": {
       "en": "Kauvery / Apollo Cradle Chennai"
     },
@@ -28837,8 +28837,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-615",
     "regionDistrict": "Chennai (Triplicane / Alwarpet), Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 13.1037,
-    "lng": 80.3306,
+    "lat": 13.0612,
+    "lng": 80.2731,
     "name": {
       "en": "PCVC (Dhwani)"
     },
@@ -28865,8 +28865,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-615-u2",
     "regionDistrict": "Chennai (Triplicane / Alwarpet), Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 13.1197,
-    "lng": 80.3126,
+    "lat": 13.0562,
+    "lng": 80.2781,
     "name": {
       "en": "Amma One-Stop Safe Shelter Chennai"
     },
@@ -28921,8 +28921,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-616",
     "regionDistrict": "Madurai, Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 9.9702,
-    "lng": 78.1748,
+    "lat": 9.9277,
+    "lng": 78.1173,
     "name": {
       "en": "Ruskin & Sakhi One-Stop Safe Haven Madurai"
     },
@@ -28977,8 +28977,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-617-u2",
     "regionDistrict": "Coimbatore, Tamil Nadu, India",
     "type": "hospital",
-    "lat": 11.0328,
-    "lng": 76.9378,
+    "lat": 11.0193,
+    "lng": 76.9583,
     "name": {
       "en": "CMC Maternity Hospital Coimbatore"
     },
@@ -29005,8 +29005,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-617",
     "regionDistrict": "Coimbatore, Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 11.0618,
-    "lng": 77.0108,
+    "lat": 11.0193,
+    "lng": 76.9533,
     "name": {
       "en": "Sakhi One-Stop Safe Shelter Coimbatore"
     },
@@ -29061,8 +29061,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-618",
     "regionDistrict": "Tiruchirappalli (Trichy) / Salem, Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 10.8355,
-    "lng": 78.7597,
+    "lat": 10.793,
+    "lng": 78.7022,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Trichy"
     },
@@ -29117,8 +29117,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-619",
     "regionDistrict": "Puducherry, India",
     "type": "safe-haven",
-    "lat": 11.9866,
-    "lng": 79.8633,
+    "lat": 11.9441,
+    "lng": 79.8058,
     "name": {
       "en": "Red Cross"
     },
@@ -29145,8 +29145,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-619-u2",
     "regionDistrict": "Puducherry, India",
     "type": "safe-haven",
-    "lat": 12.0026,
-    "lng": 79.8453,
+    "lat": 11.9391,
+    "lng": 79.8108,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Puducherry"
     },
@@ -29201,8 +29201,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-620-u2",
     "regionDistrict": "Bengaluru (Indiranagar / Old Airport Rd), Karnataka, India",
     "type": "hospital",
-    "lat": 12.9752,
-    "lng": 77.63,
+    "lat": 12.9617,
+    "lng": 77.6505,
     "name": {
       "en": "Motherhood OB/GYN Bengaluru"
     },
@@ -29229,8 +29229,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-620",
     "regionDistrict": "Bengaluru (Indiranagar / Old Airport Rd), Karnataka, India",
     "type": "safe-haven",
-    "lat": 13.0042,
-    "lng": 77.703,
+    "lat": 12.9617,
+    "lng": 77.6455,
     "name": {
       "en": "Vanitha Sahayavani"
     },
@@ -29257,8 +29257,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-620-u2",
     "regionDistrict": "Bengaluru (Indiranagar / Old Airport Rd), Karnataka, India",
     "type": "safe-haven",
-    "lat": 13.0202,
-    "lng": 77.685,
+    "lat": 12.9567,
+    "lng": 77.6505,
     "name": {
       "en": "Vimochana Women’s Safe Haven"
     },
@@ -29313,8 +29313,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-621",
     "regionDistrict": "Mysuru, Karnataka, India",
     "type": "safe-haven",
-    "lat": 12.3408,
-    "lng": 76.6944,
+    "lat": 12.2983,
+    "lng": 76.6369,
     "name": {
       "en": "Odanadi Seva Samsthe"
     },
@@ -29341,8 +29341,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-621-u2",
     "regionDistrict": "Mysuru, Karnataka, India",
     "type": "safe-haven",
-    "lat": 12.3568,
-    "lng": 76.6764,
+    "lat": 12.2933,
+    "lng": 76.6419,
     "name": {
       "en": "Sakhi Safe Shelter Mysuru"
     },
@@ -29397,8 +29397,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-622",
     "regionDistrict": "Mangaluru / Udupi, Coastal Karnataka, India",
     "type": "safe-haven",
-    "lat": 12.9148,
-    "lng": 74.898,
+    "lat": 12.8723,
+    "lng": 74.8405,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Dakshina Kannada"
     },
@@ -29453,8 +29453,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-623",
     "regionDistrict": "Hubballi / Belagavi, North Karnataka, India",
     "type": "safe-haven",
-    "lat": 15.4097,
-    "lng": 75.179,
+    "lat": 15.3672,
+    "lng": 75.1215,
     "name": {
       "en": "Sakhi One-Stop Centre Hubballi-Dharwad"
     },
@@ -29509,8 +29509,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-624",
     "regionDistrict": "Thiruvananthapuram, Kerala, India",
     "type": "safe-haven",
-    "lat": 8.5465,
-    "lng": 77.0115,
+    "lat": 8.504,
+    "lng": 76.954,
     "name": {
       "en": "Bhoomika Gender Based Violence Centre"
     },
@@ -29537,8 +29537,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-624-u2",
     "regionDistrict": "Thiruvananthapuram, Kerala, India",
     "type": "safe-haven",
-    "lat": 8.5625,
-    "lng": 76.9935,
+    "lat": 8.499,
+    "lng": 76.959,
     "name": {
       "en": "Sakhi Shelter Trivandrum"
     },
@@ -29593,8 +29593,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-625-u2",
     "regionDistrict": "Kochi (Ernakulam), Kerala, India",
     "type": "hospital",
-    "lat": 10.0486,
-    "lng": 76.2819,
+    "lat": 10.0351,
+    "lng": 76.3024,
     "name": {
       "en": "Aster Medcity OB/GYN Centre Kochi"
     },
@@ -29621,8 +29621,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-625",
     "regionDistrict": "Kochi (Ernakulam), Kerala, India",
     "type": "safe-haven",
-    "lat": 10.0776,
-    "lng": 76.3549,
+    "lat": 10.0351,
+    "lng": 76.2974,
     "name": {
       "en": "Snehitha Gender Help Desk"
     },
@@ -29649,8 +29649,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-625-u2",
     "regionDistrict": "Kochi (Ernakulam), Kerala, India",
     "type": "safe-haven",
-    "lat": 10.0936,
-    "lng": 76.3369,
+    "lat": 10.0301,
+    "lng": 76.3024,
     "name": {
       "en": "Kudumbashree Safe Haven Kochi"
     },
@@ -29705,8 +29705,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-626",
     "regionDistrict": "Kozhikode (Calicut), Malabar, Kerala, India",
     "type": "safe-haven",
-    "lat": 11.3175,
-    "lng": 75.8922,
+    "lat": 11.275,
+    "lng": 75.8347,
     "name": {
       "en": "Anweshi Women’s Counseling & Safe Shelter Kozhikode"
     },
@@ -29761,8 +29761,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-627-u2",
     "regionDistrict": "Kolkata (Park Circus / Salt Lake), West Bengal, India",
     "type": "hospital",
-    "lat": 22.5571,
-    "lng": 88.3517,
+    "lat": 22.5436,
+    "lng": 88.3722,
     "name": {
       "en": "Bhagirathi Neotia Woman and Child Care Centre"
     },
@@ -29789,8 +29789,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-627",
     "regionDistrict": "Kolkata (Park Circus / Salt Lake), West Bengal, India",
     "type": "safe-haven",
-    "lat": 22.5861,
-    "lng": 88.4247,
+    "lat": 22.5436,
+    "lng": 88.3672,
     "name": {
       "en": "Swayam & Jabala Action Research Women’s Safe Haven Kolkata"
     },
@@ -29845,8 +29845,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-628",
     "regionDistrict": "Siliguri / Darjeeling, North Bengal, India",
     "type": "safe-haven",
-    "lat": 26.7721,
-    "lng": 88.4503,
+    "lat": 26.7296,
+    "lng": 88.3928,
     "name": {
       "en": "MARG & Sakhi One-Stop Safe Shelter Darjeeling/Siliguri"
     },
@@ -29901,8 +29901,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-629-u2",
     "regionDistrict": "Bhubaneswar / Cuttack, Odisha, India",
     "type": "hospital",
-    "lat": 20.4785,
-    "lng": 85.865,
+    "lat": 20.465,
+    "lng": 85.8855,
     "name": {
       "en": "KIMS Bhubaneswar"
     },
@@ -29929,8 +29929,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-629",
     "regionDistrict": "Bhubaneswar / Cuttack, Odisha, India",
     "type": "safe-haven",
-    "lat": 20.5075,
-    "lng": 85.938,
+    "lat": 20.465,
+    "lng": 85.8805,
     "name": {
       "en": "Maadhyam & Sakhi One-Stop Safe Haven Bhubaneswar"
     },
@@ -29985,8 +29985,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-630",
     "regionDistrict": "Rourkela / Sambalpur, Western Odisha, India",
     "type": "safe-haven",
-    "lat": 21.5119,
-    "lng": 84.0362,
+    "lat": 21.4694,
+    "lng": 83.9787,
     "name": {
       "en": "Sakhi One-Stop Centre Sundargarh/Sambalpur"
     },
@@ -30041,8 +30041,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-631-u2",
     "regionDistrict": "Patna, Bihar, India",
     "type": "hospital",
-    "lat": 25.6357,
-    "lng": 85.1408,
+    "lat": 25.6222,
+    "lng": 85.1613,
     "name": {
       "en": "Kurji Holy Family Women’s Hospital Patna"
     },
@@ -30069,8 +30069,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-631",
     "regionDistrict": "Patna, Bihar, India",
     "type": "safe-haven",
-    "lat": 25.6647,
-    "lng": 85.2138,
+    "lat": 25.6222,
+    "lng": 85.1563,
     "name": {
       "en": "Nari Gunjan"
     },
@@ -30097,8 +30097,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-631-u2",
     "regionDistrict": "Patna, Bihar, India",
     "type": "safe-haven",
-    "lat": 25.6807,
-    "lng": 85.1958,
+    "lat": 25.6172,
+    "lng": 85.1613,
     "name": {
       "en": "Mukhyamantri Nari Shakti Safe Shelter Patna"
     },
@@ -30153,8 +30153,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-632",
     "regionDistrict": "Muzaffarpur / Gaya, Bihar, India",
     "type": "safe-haven",
-    "lat": 26.1647,
-    "lng": 85.446,
+    "lat": 26.1222,
+    "lng": 85.3885,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Muzaffarpur"
     },
@@ -30209,8 +30209,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-633-u2",
     "regionDistrict": "Jamshedpur / Dhanbad, Jharkhand, India",
     "type": "hospital",
-    "lat": 22.8206,
-    "lng": 86.1849,
+    "lat": 22.8071,
+    "lng": 86.2054,
     "name": {
       "en": "MGM OB/GYN Jamshedpur"
     },
@@ -30237,8 +30237,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-633",
     "regionDistrict": "Jamshedpur / Dhanbad, Jharkhand, India",
     "type": "safe-haven",
-    "lat": 22.8496,
-    "lng": 86.2579,
+    "lat": 22.8071,
+    "lng": 86.2004,
     "name": {
       "en": "Sakhi One-Stop Safe Shelter East Singhbhum"
     },
@@ -30293,8 +30293,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-634",
     "regionDistrict": "Dibrugarh / Jorhat, Upper Assam, India",
     "type": "safe-haven",
-    "lat": 27.5178,
-    "lng": 94.967,
+    "lat": 27.4753,
+    "lng": 94.9095,
     "name": {
       "en": "Sakhi One-Stop Safe Haven for Tea Garden & Rural Women"
     },
@@ -30349,8 +30349,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-635",
     "regionDistrict": "Silchar, Barak Valley, Assam, India",
     "type": "safe-haven",
-    "lat": 24.8783,
-    "lng": 92.8339,
+    "lat": 24.8358,
+    "lng": 92.7764,
     "name": {
       "en": "Sakhi One-Stop Centre Cachar/Silchar"
     },
@@ -30405,8 +30405,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-636",
     "regionDistrict": "Gangtok, Sikkim, India",
     "type": "safe-haven",
-    "lat": 27.3764,
-    "lng": 88.6688,
+    "lat": 27.3339,
+    "lng": 88.6113,
     "name": {
       "en": "Sakhi One-Stop Centre Gangtok Sikkim"
     },
@@ -30461,8 +30461,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-637",
     "regionDistrict": "Itanagar, Arunachal Pradesh, India",
     "type": "safe-haven",
-    "lat": 27.1294,
-    "lng": 93.6603,
+    "lat": 27.0869,
+    "lng": 93.6028,
     "name": {
       "en": "Arunachal Pradesh Women’s Welfare Society (APWWS) Safe Haven"
     },
@@ -30517,8 +30517,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-638",
     "regionDistrict": "Kohima / Dimapur, Nagaland, India",
     "type": "safe-haven",
-    "lat": 25.7201,
-    "lng": 94.1636,
+    "lat": 25.6776,
+    "lng": 94.1061,
     "name": {
       "en": "Naga Mothers’ Association (NMA)"
     },
@@ -30545,8 +30545,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-638-u2",
     "regionDistrict": "Kohima / Dimapur, Nagaland, India",
     "type": "safe-haven",
-    "lat": 25.7361,
-    "lng": 94.1456,
+    "lat": 25.6726,
+    "lng": 94.1111,
     "name": {
       "en": "Sakhi Safe Shelter"
     },
@@ -30601,8 +30601,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-hosp-639-u2",
     "regionDistrict": "Agartala, Tripura, India",
     "type": "hospital",
-    "lat": 23.8475,
-    "lng": 91.2688,
+    "lat": 23.834,
+    "lng": 91.2893,
     "name": {
       "en": "GBP Medical College Maternity Wing Agartala"
     },
@@ -30629,8 +30629,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "india-safe-639",
     "regionDistrict": "Agartala, Tripura, India",
     "type": "safe-haven",
-    "lat": 23.8765,
-    "lng": 91.3418,
+    "lat": 23.834,
+    "lng": 91.2843,
     "name": {
       "en": "Sakhi One-Stop Safe Haven West Tripura"
     },
@@ -30685,8 +30685,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-708",
     "regionDistrict": "Gadchiroli Tribal Belt, Rural Maharashtra, India",
     "type": "safe-haven",
-    "lat": 20.2209,
-    "lng": 80.0515,
+    "lat": 20.1834,
+    "lng": 79.999,
     "name": {
       "en": "Amhi Amchya Arogyasathi"
     },
@@ -30713,8 +30713,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-708-u2",
     "regionDistrict": "Gadchiroli Tribal Belt, Rural Maharashtra, India",
     "type": "safe-haven",
-    "lat": 20.2369,
-    "lng": 80.0335,
+    "lat": 20.1784,
+    "lng": 80.004,
     "name": {
       "en": "Sakhi Rural Tribal Women Safe Haven Gadchiroli"
     },
@@ -30769,8 +30769,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-709-u2",
     "regionDistrict": "Jamkhed, Ahmednagar Rural Marathwada, Maharashtra, India",
     "type": "hospital",
-    "lat": 18.7536,
-    "lng": 75.2942,
+    "lat": 18.7401,
+    "lng": 75.3147,
     "name": {
       "en": "Village Health Worker Midwifery Center"
     },
@@ -30797,8 +30797,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-709",
     "regionDistrict": "Jamkhed, Ahmednagar Rural Marathwada, Maharashtra, India",
     "type": "safe-haven",
-    "lat": 18.7776,
-    "lng": 75.3622,
+    "lat": 18.7401,
+    "lng": 75.3097,
     "name": {
       "en": "CRHP Rural Women’s Sanctuary"
     },
@@ -30825,8 +30825,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-709-u2",
     "regionDistrict": "Jamkhed, Ahmednagar Rural Marathwada, Maharashtra, India",
     "type": "safe-haven",
-    "lat": 18.7936,
-    "lng": 75.3442,
+    "lat": 18.7351,
+    "lng": 75.3147,
     "name": {
       "en": "Self-Help Safe Haven Jamkhed"
     },
@@ -30881,8 +30881,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-710",
     "regionDistrict": "Beed / Latur / Osmanabad, Rural Marathwada, Maharashtra, India",
     "type": "safe-haven",
-    "lat": 19.0291,
-    "lng": 75.8101,
+    "lat": 18.9916,
+    "lng": 75.7576,
     "name": {
       "en": "Ekal Mahila Sanghatana"
     },
@@ -30909,8 +30909,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-710-u2",
     "regionDistrict": "Beed / Latur / Osmanabad, Rural Marathwada, Maharashtra, India",
     "type": "safe-haven",
-    "lat": 19.0451,
-    "lng": 75.7921,
+    "lat": 18.9866,
+    "lng": 75.7626,
     "name": {
       "en": "Sakhi One-Stop Rural Shelter Beed"
     },
@@ -30965,8 +30965,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-711",
     "regionDistrict": "Nandurbar (Satpura Tribal Belt), Maharashtra, India",
     "type": "safe-haven",
-    "lat": 21.4056,
-    "lng": 74.2915,
+    "lat": 21.3681,
+    "lng": 74.239,
     "name": {
       "en": "Sakhi One-Stop Tribal Women’s Safe Haven Nandurbar"
     },
@@ -31021,8 +31021,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-712",
     "regionDistrict": "Jhagadia, Bharuch Tribal Belt, Rural Gujarat, India",
     "type": "safe-haven",
-    "lat": 21.7597,
-    "lng": 73.2002,
+    "lat": 21.7222,
+    "lng": 73.1477,
     "name": {
       "en": "SEWA Rural Women’s Crisis"
     },
@@ -31049,8 +31049,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-712-u2",
     "regionDistrict": "Jhagadia, Bharuch Tribal Belt, Rural Gujarat, India",
     "type": "safe-haven",
-    "lat": 21.7757,
-    "lng": 73.1822,
+    "lat": 21.7172,
+    "lng": 73.1527,
     "name": {
       "en": "Mahila Safe Space Jhagadia"
     },
@@ -31105,8 +31105,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-713",
     "regionDistrict": "Ahwa, The Dangs Forest District, Rural Gujarat, India",
     "type": "safe-haven",
-    "lat": 20.7981,
-    "lng": 73.7365,
+    "lat": 20.7606,
+    "lng": 73.684,
     "name": {
       "en": "Sakhi One-Stop Safe Haven The Dangs"
     },
@@ -31161,8 +31161,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-714-u2",
     "regionDistrict": "Ganiyari, Bilaspur Rural Forest Belt, Chhattisgarh, India",
     "type": "hospital",
-    "lat": 22.2375,
-    "lng": 82.0632,
+    "lat": 22.224,
+    "lng": 82.0837,
     "name": {
       "en": "High-Risk Delivery Center Ganiyari"
     },
@@ -31189,8 +31189,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-714",
     "regionDistrict": "Ganiyari, Bilaspur Rural Forest Belt, Chhattisgarh, India",
     "type": "safe-haven",
-    "lat": 22.2615,
-    "lng": 82.1312,
+    "lat": 22.224,
+    "lng": 82.0787,
     "name": {
       "en": "JSS Phulwari & Rural Baiga/Gond Women’s Safe Haven Ganiyari"
     },
@@ -31245,8 +31245,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-715",
     "regionDistrict": "Dantewada / Sukma, South Bastar Rural Chhattisgarh, India",
     "type": "safe-haven",
-    "lat": 18.9356,
-    "lng": 81.4014,
+    "lat": 18.8981,
+    "lng": 81.3489,
     "name": {
       "en": "Sakhi Garima"
     },
@@ -31273,8 +31273,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-715-u2",
     "regionDistrict": "Dantewada / Sukma, South Bastar Rural Chhattisgarh, India",
     "type": "safe-haven",
-    "lat": 18.9516,
-    "lng": 81.3834,
+    "lat": 18.8931,
+    "lng": 81.3539,
     "name": {
       "en": "Nava Bihan Rural Tribal Women Shelter Dantewada"
     },
@@ -31329,8 +31329,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-716",
     "regionDistrict": "Ambikapur, Surguja Rural North Chhattisgarh, India",
     "type": "safe-haven",
-    "lat": 23.1586,
-    "lng": 83.2482,
+    "lat": 23.1211,
+    "lng": 83.1957,
     "name": {
       "en": "Sakhi One-Stop Rural Safe Haven Surguja"
     },
@@ -31385,8 +31385,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-717",
     "regionDistrict": "Kumbhalgarh / Rajsamand Rural Aravalli Hills, Rajasthan, India",
     "type": "safe-haven",
-    "lat": 25.1091,
-    "lng": 73.9321,
+    "lat": 25.0716,
+    "lng": 73.8796,
     "name": {
       "en": "ARTH & Rajsamand Rural Women’s Safe Haven"
     },
@@ -31441,8 +31441,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-718-u2",
     "regionDistrict": "Jaisalmer / Pokhran, Thar Desert Rural Rajasthan, India",
     "type": "hospital",
-    "lat": 26.9317,
-    "lng": 70.8903,
+    "lat": 26.9182,
+    "lng": 70.9108,
     "name": {
       "en": "Janani Express Hub"
     },
@@ -31469,8 +31469,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-718",
     "regionDistrict": "Jaisalmer / Pokhran, Thar Desert Rural Rajasthan, India",
     "type": "safe-haven",
-    "lat": 26.9557,
-    "lng": 70.9583,
+    "lat": 26.9182,
+    "lng": 70.9058,
     "name": {
       "en": "Aparajita & Desert Women’s Safe Shelter Jaisalmer"
     },
@@ -31525,8 +31525,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-719",
     "regionDistrict": "Banswara / Dungarpur (Vagad Tribal Belt), Rural Rajasthan, India",
     "type": "safe-haven",
-    "lat": 23.5861,
-    "lng": 74.4849,
+    "lat": 23.5486,
+    "lng": 74.4324,
     "name": {
       "en": "VAAGDHARA & Aparajita Tribal Women’s Safe Haven"
     },
@@ -31581,8 +31581,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-720",
     "regionDistrict": "Gudalur, Nilgiris Tribal Hills, Rural Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 11.543,
-    "lng": 76.5417,
+    "lat": 11.5055,
+    "lng": 76.4892,
     "name": {
       "en": "Adivasi Munnetra Sangam Women’s Safe Sanctuary Gudalur"
     },
@@ -31637,8 +31637,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-721",
     "regionDistrict": "Sittilingi, Dharmapuri Rural Valley, Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 11.9485,
-    "lng": 78.6412,
+    "lat": 11.911,
+    "lng": 78.5887,
     "name": {
       "en": "THI Rural Tribal Women’s Support & Safe Haven Sittilingi"
     },
@@ -31693,8 +31693,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-722",
     "regionDistrict": "Rameswaram / Ramanathapuram Coastal Rural Tamil Nadu, India",
     "type": "safe-haven",
-    "lat": 9.4039,
-    "lng": 78.8895,
+    "lat": 9.3664,
+    "lng": 78.837,
     "name": {
       "en": "Sakhi One-Stop Coastal & Rural Women Shelter"
     },
@@ -31749,8 +31749,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-723",
     "regionDistrict": "Kalahandi (Bhawanipatna), Rural KBK Belt, Odisha, India",
     "type": "safe-haven",
-    "lat": 19.9473,
-    "lng": 83.2147,
+    "lat": 19.9098,
+    "lng": 83.1622,
     "name": {
       "en": "Sakhi One-Stop"
     },
@@ -31777,8 +31777,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-723-u2",
     "regionDistrict": "Kalahandi (Bhawanipatna), Rural KBK Belt, Odisha, India",
     "type": "safe-haven",
-    "lat": 19.9633,
-    "lng": 83.1967,
+    "lat": 19.9048,
+    "lng": 83.1672,
     "name": {
       "en": "Swadhar Greh Rural Shelter Kalahandi"
     },
@@ -31833,8 +31833,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-724",
     "regionDistrict": "Koraput / Malkangiri, Southern Tribal Highlands, Odisha, India",
     "type": "safe-haven",
-    "lat": 18.8535,
-    "lng": 82.7623,
+    "lat": 18.816,
+    "lng": 82.7098,
     "name": {
       "en": "Ekta & Sakhi One-Stop Tribal Women Safe Haven Koraput"
     },
@@ -31889,8 +31889,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-725",
     "regionDistrict": "Mayurbhanj (Baripada), Similipal Rural Tribal Belt, Odisha, India",
     "type": "safe-haven",
-    "lat": 21.972,
-    "lng": 86.7852,
+    "lat": 21.9345,
+    "lng": 86.7327,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Mayurbhanj"
     },
@@ -31945,8 +31945,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-726-u2",
     "regionDistrict": "Sundarbans (Gosaba / Canning Island Delta), Rural West Bengal, India",
     "type": "hospital",
-    "lat": 22.1812,
-    "lng": 88.7835,
+    "lat": 22.1677,
+    "lng": 88.804,
     "name": {
       "en": "Southern Health Improvement Samity Boat Maternity Clinic"
     },
@@ -31973,8 +31973,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-726",
     "regionDistrict": "Sundarbans (Gosaba / Canning Island Delta), Rural West Bengal, India",
     "type": "safe-haven",
-    "lat": 22.2052,
-    "lng": 88.8515,
+    "lat": 22.1677,
+    "lng": 88.799,
     "name": {
       "en": "Sundarban Widows & Rural Women Safe Shelter Gosaba"
     },
@@ -32029,8 +32029,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-727-u2",
     "regionDistrict": "Purulia / Bankura (Jangal Mahal Rural Belt), West Bengal, India",
     "type": "hospital",
-    "lat": 23.3482,
-    "lng": 86.3436,
+    "lat": 23.3347,
+    "lng": 86.3641,
     "name": {
       "en": "Sickle Cell Unit Purulia"
     },
@@ -32057,8 +32057,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-727",
     "regionDistrict": "Purulia / Bankura (Jangal Mahal Rural Belt), West Bengal, India",
     "type": "safe-haven",
-    "lat": 23.3722,
-    "lng": 86.4116,
+    "lat": 23.3347,
+    "lng": 86.3591,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Purulia"
     },
@@ -32113,8 +32113,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-728-u2",
     "regionDistrict": "Cooch Behar / Alipurduar Tea Garden Belt, North Bengal, India",
     "type": "hospital",
-    "lat": 26.3402,
-    "lng": 89.4302,
+    "lat": 26.3267,
+    "lng": 89.4507,
     "name": {
       "en": "Tea Garden Rural Maternity Clinic Cooch Behar (Rajbanshi)"
     },
@@ -32141,8 +32141,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-728",
     "regionDistrict": "Cooch Behar / Alipurduar Tea Garden Belt, North Bengal, India",
     "type": "safe-haven",
-    "lat": 26.3642,
-    "lng": 89.4982,
+    "lat": 26.3267,
+    "lng": 89.4457,
     "name": {
       "en": "Dooars & Sakhi Tea Worker Women’s Safe Shelter"
     },
@@ -32197,8 +32197,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-729-u2",
     "regionDistrict": "Dumka / Pakur, Santhal Pargana Rural Jharkhand, India",
     "type": "hospital",
-    "lat": 24.2837,
-    "lng": 87.2318,
+    "lat": 24.2702,
+    "lng": 87.2523,
     "name": {
       "en": "Sadar Maternal Hospital Dumka (Santali/Malto)"
     },
@@ -32225,8 +32225,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-729",
     "regionDistrict": "Dumka / Pakur, Santhal Pargana Rural Jharkhand, India",
     "type": "safe-haven",
-    "lat": 24.3077,
-    "lng": 87.2998,
+    "lat": 24.2702,
+    "lng": 87.2473,
     "name": {
       "en": "Sakhi One-Stop Tribal Women’s Safe Haven Santhal Pargana"
     },
@@ -32281,8 +32281,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-730-u2",
     "regionDistrict": "Chaibasa, West Singhbhum (Saranda Forest), Rural Jharkhand, India",
     "type": "hospital",
-    "lat": 22.5679,
-    "lng": 85.7857,
+    "lat": 22.5544,
+    "lng": 85.8062,
     "name": {
       "en": "ANM Referral Center"
     },
@@ -32309,8 +32309,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-730",
     "regionDistrict": "Chaibasa, West Singhbhum (Saranda Forest), Rural Jharkhand, India",
     "type": "safe-haven",
-    "lat": 22.5919,
-    "lng": 85.8537,
+    "lat": 22.5544,
+    "lng": 85.8012,
     "name": {
       "en": "Johar & Sakhi Women’s Safe Shelter Chaibasa (Ho)"
     },
@@ -32365,8 +32365,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-731-u2",
     "regionDistrict": "Kishanganj / Purnia, Seemanchal Rural Floodplain, Bihar, India",
     "type": "hospital",
-    "lat": 26.1077,
-    "lng": 87.9203,
+    "lat": 26.0942,
+    "lng": 87.9408,
     "name": {
       "en": "JSSK Delivery Center (Surjapuri/Maithili)"
     },
@@ -32393,8 +32393,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-731",
     "regionDistrict": "Kishanganj / Purnia, Seemanchal Rural Floodplain, Bihar, India",
     "type": "safe-haven",
-    "lat": 26.1317,
-    "lng": 87.9883,
+    "lat": 26.0942,
+    "lng": 87.9358,
     "name": {
       "en": "Bhumika Vihar"
     },
@@ -32421,8 +32421,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-731-u2",
     "regionDistrict": "Kishanganj / Purnia, Seemanchal Rural Floodplain, Bihar, India",
     "type": "safe-haven",
-    "lat": 26.1477,
-    "lng": 87.9703,
+    "lat": 26.0892,
+    "lng": 87.9408,
     "name": {
       "en": "Seemanchal Rural Women’s Safe Haven"
     },
@@ -32477,8 +32477,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-732",
     "regionDistrict": "Bettiah, West Champaran (Tharuhat Rural Belt), Bihar, India",
     "type": "safe-haven",
-    "lat": 26.8425,
-    "lng": 84.5542,
+    "lat": 26.805,
+    "lng": 84.5017,
     "name": {
       "en": "Sakhi अल्पावास & Rural Women’s Safe Shelter Champaran"
     },
@@ -32533,8 +32533,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-733-u2",
     "regionDistrict": "Lalitpur / Mahoba / Banda, Rural Bundelkhand, UP & MP, India",
     "type": "hospital",
-    "lat": 24.7072,
-    "lng": 78.3958,
+    "lat": 24.6937,
+    "lng": 78.4163,
     "name": {
       "en": "Bundelkhand Rural CHC"
     },
@@ -32561,8 +32561,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-733",
     "regionDistrict": "Lalitpur / Mahoba / Banda, Rural Bundelkhand, UP & MP, India",
     "type": "safe-haven",
-    "lat": 24.7312,
-    "lng": 78.4638,
+    "lat": 24.6937,
+    "lng": 78.4113,
     "name": {
       "en": "Vanangana (Karwi/Banda) Dalit & Rural Women’s Safe Haven Bundelkhand"
     },
@@ -32617,8 +32617,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-734",
     "regionDistrict": "Bahraich / Shravasti, Terai Rural Border Belt, Uttar Pradesh, India",
     "type": "safe-haven",
-    "lat": 27.6143,
-    "lng": 81.6459,
+    "lat": 27.5768,
+    "lng": 81.5934,
     "name": {
       "en": "Sakhi One-Stop Rural Safe Haven Bahraich"
     },
@@ -32673,8 +32673,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-735-u2",
     "regionDistrict": "Jhabua / Alirajpur (Bhil Tribal Belt), Rural Madhya Pradesh, India",
     "type": "hospital",
-    "lat": 22.7834,
-    "lng": 74.5728,
+    "lat": 22.7699,
+    "lng": 74.5933,
     "name": {
       "en": "Sickle Cell Anemia Ward"
     },
@@ -32701,8 +32701,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-735",
     "regionDistrict": "Jhabua / Alirajpur (Bhil Tribal Belt), Rural Madhya Pradesh, India",
     "type": "safe-haven",
-    "lat": 22.8074,
-    "lng": 74.6408,
+    "lat": 22.7699,
+    "lng": 74.5883,
     "name": {
       "en": "Sakhi One-Stop Tribal Women’s Safe Haven Jhabua (Bhili)"
     },
@@ -32757,8 +32757,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-736-u2",
     "regionDistrict": "Mandla / Dindori (Baiga Chak Forest), Rural Madhya Pradesh, India",
     "type": "hospital",
-    "lat": 22.6142,
-    "lng": 80.3534,
+    "lat": 22.6007,
+    "lng": 80.3739,
     "name": {
       "en": "Gond Maternity Wing"
     },
@@ -32785,8 +32785,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-736",
     "regionDistrict": "Mandla / Dindori (Baiga Chak Forest), Rural Madhya Pradesh, India",
     "type": "safe-haven",
-    "lat": 22.6382,
-    "lng": 80.4214,
+    "lat": 22.6007,
+    "lng": 80.3689,
     "name": {
       "en": "Sakhi One-Stop Safe Shelter Mandla"
     },
@@ -32841,8 +32841,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-737",
     "regionDistrict": "Morena / Bhind, Rural Chambal Valley, Madhya Pradesh, India",
     "type": "safe-haven",
-    "lat": 26.5347,
-    "lng": 78.044,
+    "lat": 26.4972,
+    "lng": 77.9915,
     "name": {
       "en": "Gauravi / Sakhi Rural Women’s Safe Haven Morena"
     },
@@ -32897,8 +32897,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-738",
     "regionDistrict": "Kaza, Spiti Valley (High Himalaya), Rural Himachal Pradesh, India",
     "type": "safe-haven",
-    "lat": 32.2661,
-    "lng": 78.121,
+    "lat": 32.2286,
+    "lng": 78.0685,
     "name": {
       "en": "Spiti Ama Tshogpa (Mothers’ Association) Women Safe Space"
     },
@@ -32953,8 +32953,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-739-u2",
     "regionDistrict": "Uttarkashi / Purola, Upper Yamuna & Bhagirathi Valleys, Rural Garhwal, India",
     "type": "hospital",
-    "lat": 30.7428,
-    "lng": 78.4174,
+    "lat": 30.7293,
+    "lng": 78.4379,
     "name": {
       "en": "CHC Purola Rural Mountain Maternity (Garhwali)"
     },
@@ -32981,8 +32981,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-739",
     "regionDistrict": "Uttarkashi / Purola, Upper Yamuna & Bhagirathi Valleys, Rural Garhwal, India",
     "type": "safe-haven",
-    "lat": 30.7668,
-    "lng": 78.4854,
+    "lat": 30.7293,
+    "lng": 78.4329,
     "name": {
       "en": "Sakhi One-Stop Mountain Women’s Safe Haven Uttarkashi"
     },
@@ -33037,8 +33037,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-740",
     "regionDistrict": "Bageshwar / Champawat, Rural Interior Kumaon Himalayas, India",
     "type": "safe-haven",
-    "lat": 29.8762,
-    "lng": 79.8213,
+    "lat": 29.8387,
+    "lng": 79.7688,
     "name": {
       "en": "Sakhi One-Stop Safe Haven Bageshwar"
     },
@@ -33093,8 +33093,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-741-u2",
     "regionDistrict": "Kargil / Zanskar, Rural Ladakh, India",
     "type": "hospital",
-    "lat": 34.5699,
-    "lng": 76.1169,
+    "lat": 34.5564,
+    "lng": 76.1374,
     "name": {
       "en": "CHC Padum (Zanskar Rural Winter Maternity — Purgi/Zanskari)"
     },
@@ -33121,8 +33121,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-741",
     "regionDistrict": "Kargil / Zanskar, Rural Ladakh, India",
     "type": "safe-haven",
-    "lat": 34.5939,
-    "lng": 76.1849,
+    "lat": 34.5564,
+    "lng": 76.1324,
     "name": {
       "en": "Kargil Women’s Protection"
     },
@@ -33149,8 +33149,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-741-u2",
     "regionDistrict": "Kargil / Zanskar, Rural Ladakh, India",
     "type": "safe-haven",
-    "lat": 34.6099,
-    "lng": 76.1669,
+    "lat": 34.5514,
+    "lng": 76.1374,
     "name": {
       "en": "Sakhi Safe Space"
     },
@@ -33205,8 +33205,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-742-u2",
     "regionDistrict": "Majuli River Island / Dhemaji, Brahmaputra Rural Assam, India",
     "type": "hospital",
-    "lat": 26.9663,
-    "lng": 94.144,
+    "lat": 26.9528,
+    "lng": 94.1645,
     "name": {
       "en": "Boat Clinic Maternal Unit (Mising/Assamese)"
     },
@@ -33233,8 +33233,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-742",
     "regionDistrict": "Majuli River Island / Dhemaji, Brahmaputra Rural Assam, India",
     "type": "safe-haven",
-    "lat": 26.9903,
-    "lng": 94.212,
+    "lat": 26.9528,
+    "lng": 94.1595,
     "name": {
       "en": "Majuli Island Women’s Crisis"
     },
@@ -33261,8 +33261,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-742-u2",
     "regionDistrict": "Majuli River Island / Dhemaji, Brahmaputra Rural Assam, India",
     "type": "safe-haven",
-    "lat": 27.0063,
-    "lng": 94.194,
+    "lat": 26.9478,
+    "lng": 94.1645,
     "name": {
       "en": "Sakhi Safe Haven"
     },
@@ -33317,8 +33317,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-743",
     "regionDistrict": "Haflong, Dima Hasao Hills / Karbi Anglong, Rural Assam, India",
     "type": "safe-haven",
-    "lat": 25.2033,
-    "lng": 93.0668,
+    "lat": 25.1658,
+    "lng": 93.0143,
     "name": {
       "en": "Dima Hasao Sakhi One-Stop Women’s Shelter"
     },
@@ -33373,8 +33373,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-744",
     "regionDistrict": "Tura, Garo Hills, Rural Meghalaya, India",
     "type": "safe-haven",
-    "lat": 25.5541,
-    "lng": 90.2532,
+    "lat": 25.5166,
+    "lng": 90.2007,
     "name": {
       "en": "Mother’s Union Tura"
     },
@@ -33401,8 +33401,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-744-u2",
     "regionDistrict": "Tura, Garo Hills, Rural Meghalaya, India",
     "type": "safe-haven",
-    "lat": 25.5701,
-    "lng": 90.2352,
+    "lat": 25.5116,
+    "lng": 90.2057,
     "name": {
       "en": "Sakhi Safe Haven Garo Hills"
     },
@@ -33457,8 +33457,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-745",
     "regionDistrict": "Mon / Tuensang, Eastern Rural Nagaland, India",
     "type": "safe-haven",
-    "lat": 26.7625,
-    "lng": 95.0789,
+    "lat": 26.725,
+    "lng": 95.0264,
     "name": {
       "en": "Konyak Nyupuh Sheko Khong (KNSK Mothers’ Assoc.) Safe Haven"
     },
@@ -33513,8 +33513,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-746",
     "regionDistrict": "Churachandpur / Ukhrul, Rural Hill Districts, Manipur, India",
     "type": "safe-haven",
-    "lat": 24.3738,
-    "lng": 93.7293,
+    "lat": 24.3363,
+    "lng": 93.6768,
     "name": {
       "en": "Rural Hill Women’s Protection"
     },
@@ -33541,8 +33541,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-746-u2",
     "regionDistrict": "Churachandpur / Ukhrul, Rural Hill Districts, Manipur, India",
     "type": "safe-haven",
-    "lat": 24.3898,
-    "lng": 93.7113,
+    "lat": 24.3313,
+    "lng": 93.6818,
     "name": {
       "en": "Sakhi Safe Shelter"
     },
@@ -33597,8 +33597,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-747",
     "regionDistrict": "Tawang / Ziro, Rural Himalayan Arunachal Pradesh, India",
     "type": "safe-haven",
-    "lat": 27.6261,
-    "lng": 91.9094,
+    "lat": 27.5886,
+    "lng": 91.8569,
     "name": {
       "en": "APWWS Tawang Rural Women’s Safe Haven"
     },
@@ -33653,8 +33653,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-748-u2",
     "regionDistrict": "Wayanad (Kalpetta / Mananthavady), Western Ghats Tribal Kerala, India",
     "type": "hospital",
-    "lat": 11.8084,
-    "lng": 75.986,
+    "lat": 11.7949,
+    "lng": 76.0065,
     "name": {
       "en": "Sickle Cell Wing (Paniya/Kurichya)"
     },
@@ -33681,8 +33681,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-748",
     "regionDistrict": "Wayanad (Kalpetta / Mananthavady), Western Ghats Tribal Kerala, India",
     "type": "safe-haven",
-    "lat": 11.8324,
-    "lng": 76.054,
+    "lat": 11.7949,
+    "lng": 76.0015,
     "name": {
       "en": "Bhoomika & Snehitha Tribal Women’s Safe Haven Wayanad"
     },
@@ -33737,8 +33737,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-749-u2",
     "regionDistrict": "Idukki (Munnar Tea Estates), High Range Rural Kerala, India",
     "type": "hospital",
-    "lat": 10.1049,
-    "lng": 77.0415,
+    "lat": 10.0914,
+    "lng": 77.062,
     "name": {
       "en": "Idukki District Maternity"
     },
@@ -33765,8 +33765,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-749",
     "regionDistrict": "Idukki (Munnar Tea Estates), High Range Rural Kerala, India",
     "type": "safe-haven",
-    "lat": 10.1289,
-    "lng": 77.1095,
+    "lat": 10.0914,
+    "lng": 77.057,
     "name": {
       "en": "Snehitha Plantation & Rural Women’s Safe Shelter Idukki"
     },
@@ -33821,8 +33821,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-750-u2",
     "regionDistrict": "Raichur / Yadgir / Kalaburagi (Kalyana Karnataka Rural Belt), India",
     "type": "hospital",
-    "lat": 16.2236,
-    "lng": 77.3283,
+    "lat": 16.2101,
+    "lng": 77.3488,
     "name": {
       "en": "Nutrition Rehabilitation Wing"
     },
@@ -33849,8 +33849,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-750",
     "regionDistrict": "Raichur / Yadgir / Kalaburagi (Kalyana Karnataka Rural Belt), India",
     "type": "safe-haven",
-    "lat": 16.2476,
-    "lng": 77.3963,
+    "lat": 16.2101,
+    "lng": 77.3438,
     "name": {
       "en": "Sakhi One-Stop Rural Safe Haven Raichur"
     },
@@ -33905,8 +33905,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-751-u2",
     "regionDistrict": "Adilabad (Utnoor Gond/Kolam Tribal Belt), Rural Telangana, India",
     "type": "hospital",
-    "lat": 19.6801,
-    "lng": 78.514,
+    "lat": 19.6666,
+    "lng": 78.5345,
     "name": {
       "en": "Utnoor Rural ITDA Tribal Maternity Hospital (Gondi/Telugu)"
     },
@@ -33933,8 +33933,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-751",
     "regionDistrict": "Adilabad (Utnoor Gond/Kolam Tribal Belt), Rural Telangana, India",
     "type": "safe-haven",
-    "lat": 19.7041,
-    "lng": 78.582,
+    "lat": 19.6666,
+    "lng": 78.5295,
     "name": {
       "en": "Sakhi One-Stop Tribal Women’s Safe Haven Adilabad"
     },
@@ -33989,8 +33989,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-752",
     "regionDistrict": "Paderu / Araku Valley (Alluri Sitharama Raju Tribal District), Rural AP, India",
     "type": "safe-haven",
-    "lat": 18.1215,
-    "lng": 82.7125,
+    "lat": 18.084,
+    "lng": 82.66,
     "name": {
       "en": "Sakhi One-Stop Tribal Women Shelter Paderu"
     },
@@ -34045,8 +34045,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-753",
     "regionDistrict": "Anantapur (Bathalapalli), Rural Rayalaseema, Andhra Pradesh, India",
     "type": "safe-haven",
-    "lat": 14.5538,
-    "lng": 77.8189,
+    "lat": 14.5163,
+    "lng": 77.7664,
     "name": {
       "en": "RDT & Disha Rural Women’s Safe Sanctuary Anantapur"
     },
@@ -34101,8 +34101,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-754-u2",
     "regionDistrict": "Port Blair / Car Nicobar, Andaman & Nicobar Islands, India",
     "type": "hospital",
-    "lat": 11.6804,
-    "lng": 92.7171,
+    "lat": 11.6669,
+    "lng": 92.7376,
     "name": {
       "en": "BJR Hospital Car Nicobar — Island Maternity"
     },
@@ -34129,8 +34129,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-754",
     "regionDistrict": "Port Blair / Car Nicobar, Andaman & Nicobar Islands, India",
     "type": "safe-haven",
-    "lat": 11.7044,
-    "lng": 92.7851,
+    "lat": 11.6669,
+    "lng": 92.7326,
     "name": {
       "en": "Sakhi One-Stop Island Women’s Safe Haven"
     },
@@ -34185,8 +34185,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-hosp-755-u2",
     "regionDistrict": "Kavaratti / Agatti, Lakshadweep Coral Islands, India",
     "type": "hospital",
-    "lat": 10.5827,
-    "lng": 72.6237,
+    "lat": 10.5692,
+    "lng": 72.6442,
     "name": {
       "en": "Air-Ambulance Referral"
     },
@@ -34213,8 +34213,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rural-india-safe-755",
     "regionDistrict": "Kavaratti / Agatti, Lakshadweep Coral Islands, India",
     "type": "safe-haven",
-    "lat": 10.6067,
-    "lng": 72.6917,
+    "lat": 10.5692,
+    "lng": 72.6392,
     "name": {
       "en": "Sakhi One-Stop Women’s Safe Center Lakshadweep"
     },
@@ -34269,8 +34269,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-804-u2",
     "regionDistrict": "Beijing (Chaoyang / Dongcheng), China",
     "type": "hospital",
-    "lat": 39.9379,
-    "lng": 116.4448,
+    "lat": 39.9244,
+    "lng": 116.4653,
     "name": {
       "en": "PUMCH OB/GYN"
     },
@@ -34297,8 +34297,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-804",
     "regionDistrict": "Beijing (Chaoyang / Dongcheng), China",
     "type": "safe-haven",
-    "lat": 39.9719,
-    "lng": 116.5228,
+    "lat": 39.9244,
+    "lng": 116.4603,
     "name": {
       "en": "Maple Women’s Psychological Counseling Center"
     },
@@ -34325,8 +34325,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-804-u2",
     "regionDistrict": "Beijing (Chaoyang / Dongcheng), China",
     "type": "safe-haven",
-    "lat": 39.9879,
-    "lng": 116.5048,
+    "lat": 39.9194,
+    "lng": 116.4653,
     "name": {
       "en": "Beijing Anti-DV Shelter (红枫妇女中心 / 12338)"
     },
@@ -34381,8 +34381,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-805",
     "regionDistrict": "Beijing (Haidian / Xicheng), China",
     "type": "safe-haven",
-    "lat": 39.9888,
-    "lng": 116.4252,
+    "lat": 39.9413,
+    "lng": 116.3627,
     "name": {
       "en": "Beijing Women’s Federation Legal Aid & Safe Haven (北京市妇联维权中心)"
     },
@@ -34437,8 +34437,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-806",
     "regionDistrict": "Tianjin, China",
     "type": "safe-haven",
-    "lat": 39.1689,
-    "lng": 117.2559,
+    "lat": 39.1214,
+    "lng": 117.1934,
     "name": {
       "en": "Tianjin Women & Children’s Protection Safe Haven (天津反家暴庇护中心)"
     },
@@ -34493,8 +34493,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-807",
     "regionDistrict": "Shijiazhuang, Hebei, China",
     "type": "safe-haven",
-    "lat": 38.0928,
-    "lng": 114.5749,
+    "lat": 38.0453,
+    "lng": 114.5124,
     "name": {
       "en": "Hebei Women’s Rights & Domestic Abuse Shelter Shijiazhuang"
     },
@@ -34549,8 +34549,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-808",
     "regionDistrict": "Tangshan / Baoding, Hebei, China",
     "type": "safe-haven",
-    "lat": 39.6809,
-    "lng": 118.2402,
+    "lat": 39.6334,
+    "lng": 118.1777,
     "name": {
       "en": "Tangshan Women & Children’s Relief Safe Haven"
     },
@@ -34605,8 +34605,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-809",
     "regionDistrict": "Taiyuan, Shanxi, China",
     "type": "safe-haven",
-    "lat": 37.9206,
-    "lng": 112.6089,
+    "lat": 37.8731,
+    "lng": 112.5464,
     "name": {
       "en": "Shanxi 12338 Women’s Protection & Safe Shelter Taiyuan"
     },
@@ -34661,8 +34661,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-810",
     "regionDistrict": "Datong / Changzhi, Rural Shanxi, China",
     "type": "safe-haven",
-    "lat": 40.1268,
-    "lng": 113.3601,
+    "lat": 40.0793,
+    "lng": 113.2976,
     "name": {
       "en": "Datong Women’s Aid Safe Haven"
     },
@@ -34717,8 +34717,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-811",
     "regionDistrict": "Hohhot, Inner Mongolia, China",
     "type": "safe-haven",
-    "lat": 40.8926,
-    "lng": 111.8092,
+    "lat": 40.8451,
+    "lng": 111.7467,
     "name": {
       "en": "Inner Mongolia Women’s Federation Safe Shelter Hohhot"
     },
@@ -34773,8 +34773,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-812",
     "regionDistrict": "Hulunbuir / Chifeng, Rural Grassland Inner Mongolia, China",
     "type": "safe-haven",
-    "lat": 49.2653,
-    "lng": 119.8181,
+    "lat": 49.2178,
+    "lng": 119.7556,
     "name": {
       "en": "Hulunbuir Grassland Women’s Protection Center"
     },
@@ -34829,8 +34829,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-813-u2",
     "regionDistrict": "Shenyang, Liaoning, China",
     "type": "hospital",
-    "lat": 41.8128,
-    "lng": 123.3959,
+    "lat": 41.7993,
+    "lng": 123.4164,
     "name": {
       "en": "Liaoning Maternal Hospital (辽宁省妇幼保健院)"
     },
@@ -34857,8 +34857,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-813",
     "regionDistrict": "Shenyang, Liaoning, China",
     "type": "safe-haven",
-    "lat": 41.8468,
-    "lng": 123.4739,
+    "lat": 41.7993,
+    "lng": 123.4114,
     "name": {
       "en": "Shenyang Anti-Domestic Violence Safe Shelter (沈阳市反家暴庇护所)"
     },
@@ -34913,8 +34913,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-814",
     "regionDistrict": "Dalian, Liaoning, China",
     "type": "safe-haven",
-    "lat": 38.964,
-    "lng": 121.6747,
+    "lat": 38.9165,
+    "lng": 121.6122,
     "name": {
       "en": "Dalian Women’s Protection & Safe Haven Center"
     },
@@ -34969,8 +34969,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-815-u2",
     "regionDistrict": "Changchun, Jilin, China",
     "type": "hospital",
-    "lat": 43.9028,
-    "lng": 125.3065,
+    "lat": 43.8893,
+    "lng": 125.327,
     "name": {
       "en": "Changchun Obstetrics Hospital (长春市妇产医院)"
     },
@@ -34997,8 +34997,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-815",
     "regionDistrict": "Changchun, Jilin, China",
     "type": "safe-haven",
-    "lat": 43.9368,
-    "lng": 125.3845,
+    "lat": 43.8893,
+    "lng": 125.322,
     "name": {
       "en": "Jilin Women & Family Safe Shelter Changchun"
     },
@@ -35053,8 +35053,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-816",
     "regionDistrict": "Yanji, Yanbian Korean Autonomous Prefecture, Jilin, China",
     "type": "safe-haven",
-    "lat": 42.9413,
-    "lng": 129.5689,
+    "lat": 42.8938,
+    "lng": 129.5064,
     "name": {
       "en": "Yanbian Women’s Protection & Safe Haven (연변녀성보호센터)"
     },
@@ -35109,8 +35109,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-817-u2",
     "regionDistrict": "Harbin, Heilongjiang, China",
     "type": "hospital",
-    "lat": 45.7727,
-    "lng": 126.6244,
+    "lat": 45.7592,
+    "lng": 126.6449,
     "name": {
       "en": "Heilongjiang Maternal Hospital"
     },
@@ -35137,8 +35137,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-817",
     "regionDistrict": "Harbin, Heilongjiang, China",
     "type": "safe-haven",
-    "lat": 45.8067,
-    "lng": 126.7024,
+    "lat": 45.7592,
+    "lng": 126.6399,
     "name": {
       "en": "Heilongjiang Women’s Rights"
     },
@@ -35165,8 +35165,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-817-u2",
     "regionDistrict": "Harbin, Heilongjiang, China",
     "type": "safe-haven",
-    "lat": 45.8227,
-    "lng": 126.6844,
+    "lat": 45.7542,
+    "lng": 126.6449,
     "name": {
       "en": "Winter Safe Shelter Harbin"
     },
@@ -35221,8 +35221,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-818-u2",
     "regionDistrict": "Qiqihar / Mudanjiang, Rural Heilongjiang, China",
     "type": "hospital",
-    "lat": 47.3703,
-    "lng": 123.9002,
+    "lat": 47.3568,
+    "lng": 123.9207,
     "name": {
       "en": "Gynecological Branch"
     },
@@ -35249,8 +35249,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-818",
     "regionDistrict": "Qiqihar / Mudanjiang, Rural Heilongjiang, China",
     "type": "safe-haven",
-    "lat": 47.4043,
-    "lng": 123.9782,
+    "lat": 47.3568,
+    "lng": 123.9157,
     "name": {
       "en": "Qiqihar Women’s Aid Safe Haven"
     },
@@ -35305,8 +35305,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-819",
     "regionDistrict": "Shanghai (Huangpu / Xuhui), China",
     "type": "safe-haven",
-    "lat": 31.2652,
-    "lng": 121.541,
+    "lat": 31.2177,
+    "lng": 121.4785,
     "name": {
       "en": "Shanghai Anti-Domestic Violence Shelter & Women’s Legal Aid Center (上海市反家庭暴力庇护中心)"
     },
@@ -35361,8 +35361,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-820-u2",
     "regionDistrict": "Shanghai (Changning / Pudong), China",
     "type": "hospital",
-    "lat": 31.2176,
-    "lng": 121.404,
+    "lat": 31.2041,
+    "lng": 121.4245,
     "name": {
       "en": "IPMCH (国际和平妇幼保健院)"
     },
@@ -35389,8 +35389,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-820",
     "regionDistrict": "Shanghai (Changning / Pudong), China",
     "type": "safe-haven",
-    "lat": 31.2516,
-    "lng": 121.482,
+    "lat": 31.2041,
+    "lng": 121.4195,
     "name": {
       "en": "Shanghai Pudong Women & Children Protection Sanctuary"
     },
@@ -35445,8 +35445,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-821-u2",
     "regionDistrict": "Nanjing, Jiangsu, China",
     "type": "hospital",
-    "lat": 32.0575,
-    "lng": 118.7601,
+    "lat": 32.044,
+    "lng": 118.7806,
     "name": {
       "en": "Jiangsu Women’s Hospital"
     },
@@ -35473,8 +35473,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-821",
     "regionDistrict": "Nanjing, Jiangsu, China",
     "type": "safe-haven",
-    "lat": 32.0915,
-    "lng": 118.8381,
+    "lat": 32.044,
+    "lng": 118.7756,
     "name": {
       "en": "Jiangsu Provincial Anti-Domestic Violence Safe Haven Nanjing"
     },
@@ -35529,8 +35529,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-822",
     "regionDistrict": "Suzhou / Wuxi, Jiangsu, China",
     "type": "safe-haven",
-    "lat": 31.3489,
-    "lng": 120.6453,
+    "lat": 31.3014,
+    "lng": 120.5828,
     "name": {
       "en": "Suzhou Women’s Protection & Crisis Shelter"
     },
@@ -35585,8 +35585,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-823",
     "regionDistrict": "Xuzhou, Northern Jiangsu, China",
     "type": "safe-haven",
-    "lat": 34.2544,
-    "lng": 117.3458,
+    "lat": 34.2069,
+    "lng": 117.2833,
     "name": {
       "en": "Xuzhou Women & Children Rescue Safe Haven"
     },
@@ -35641,8 +35641,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-824-u2",
     "regionDistrict": "Hangzhou, Zhejiang, China",
     "type": "hospital",
-    "lat": 30.2752,
-    "lng": 120.1434,
+    "lat": 30.2617,
+    "lng": 120.1639,
     "name": {
       "en": "Zhejiang University (浙江大学医学院附属妇产科医院)"
     },
@@ -35669,8 +35669,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-824",
     "regionDistrict": "Hangzhou, Zhejiang, China",
     "type": "safe-haven",
-    "lat": 30.3092,
-    "lng": 120.2214,
+    "lat": 30.2617,
+    "lng": 120.1589,
     "name": {
       "en": "Zhejiang Women’s Federation Safe Haven Shelter Hangzhou"
     },
@@ -35725,8 +35725,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-825",
     "regionDistrict": "Ningbo / Wenzhou, Zhejiang, China",
     "type": "safe-haven",
-    "lat": 29.9183,
-    "lng": 121.604,
+    "lat": 29.8708,
+    "lng": 121.5415,
     "name": {
       "en": "Ningbo Anti-DV Safe Shelter for Women"
     },
@@ -35781,8 +35781,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-826",
     "regionDistrict": "Hefei, Anhui, China",
     "type": "safe-haven",
-    "lat": 31.8706,
-    "lng": 117.2872,
+    "lat": 31.8231,
+    "lng": 117.2247,
     "name": {
       "en": "Anhui Women’s Rights & Safe Haven Shelter Hefei"
     },
@@ -35837,8 +35837,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-827",
     "regionDistrict": "Wuhu / Bengbu, Rural Anhui, China",
     "type": "safe-haven",
-    "lat": 31.4029,
-    "lng": 118.4931,
+    "lat": 31.3554,
+    "lng": 118.4306,
     "name": {
       "en": "Wuhu Women’s Protection Safe Haven"
     },
@@ -35893,8 +35893,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-828",
     "regionDistrict": "Fuzhou, Fujian, China",
     "type": "safe-haven",
-    "lat": 26.1245,
-    "lng": 119.3565,
+    "lat": 26.077,
+    "lng": 119.294,
     "name": {
       "en": "Fujian Women’s Legal Aid & Safe Shelter Fuzhou"
     },
@@ -35949,8 +35949,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-829",
     "regionDistrict": "Xiamen / Quanzhou, Fujian, China",
     "type": "safe-haven",
-    "lat": 24.5298,
-    "lng": 118.1494,
+    "lat": 24.4823,
+    "lng": 118.0869,
     "name": {
       "en": "Xiamen Women & Children Safe Haven Center"
     },
@@ -36005,8 +36005,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-830",
     "regionDistrict": "Nanchang, Jiangxi, China",
     "type": "safe-haven",
-    "lat": 28.732,
-    "lng": 115.9179,
+    "lat": 28.6845,
+    "lng": 115.8554,
     "name": {
       "en": "Jiangxi 12338 Women’s Protection & Safe Shelter Nanchang"
     },
@@ -36061,8 +36061,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-831",
     "regionDistrict": "Ganzhou, Southern Rural Jiangxi, China",
     "type": "safe-haven",
-    "lat": 25.8792,
-    "lng": 114.9936,
+    "lat": 25.8317,
+    "lng": 114.9311,
     "name": {
       "en": "Ganzhou Hakka Women’s Support & Safe Haven"
     },
@@ -36117,8 +36117,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-832-u2",
     "regionDistrict": "Jinan, Shandong, China",
     "type": "hospital",
-    "lat": 36.6672,
-    "lng": 117.1021,
+    "lat": 36.6537,
+    "lng": 117.1226,
     "name": {
       "en": "Qilu OB/GYN"
     },
@@ -36145,8 +36145,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-832",
     "regionDistrict": "Jinan, Shandong, China",
     "type": "safe-haven",
-    "lat": 36.7012,
-    "lng": 117.1801,
+    "lat": 36.6537,
+    "lng": 117.1176,
     "name": {
       "en": "Shandong Anti-Domestic Violence Shelter Jinan"
     },
@@ -36201,8 +36201,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-833",
     "regionDistrict": "Qingdao / Yantai, Shandong, China",
     "type": "safe-haven",
-    "lat": 36.1171,
-    "lng": 120.4426,
+    "lat": 36.0696,
+    "lng": 120.3801,
     "name": {
       "en": "Qingdao Women’s Safe Haven & Crisis Center"
     },
@@ -36257,8 +36257,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-834",
     "regionDistrict": "Zhengzhou, Henan, China",
     "type": "safe-haven",
-    "lat": 34.7966,
-    "lng": 113.6853,
+    "lat": 34.7491,
+    "lng": 113.6228,
     "name": {
       "en": "Henan Women & Children Protection Safe Shelter Zhengzhou"
     },
@@ -36313,8 +36313,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-835",
     "regionDistrict": "Luoyang / Nanyang, Rural Henan, China",
     "type": "safe-haven",
-    "lat": 34.6697,
-    "lng": 112.514,
+    "lat": 34.6222,
+    "lng": 112.4515,
     "name": {
       "en": "Luoyang Women’s Aid Safe Haven"
     },
@@ -36369,8 +36369,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-836-u2",
     "regionDistrict": "Wuhan, Hubei, China",
     "type": "hospital",
-    "lat": 30.6088,
-    "lng": 114.2875,
+    "lat": 30.5953,
+    "lng": 114.308,
     "name": {
       "en": "Tongji Hospital OB/GYN"
     },
@@ -36397,8 +36397,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-836",
     "regionDistrict": "Wuhan, Hubei, China",
     "type": "safe-haven",
-    "lat": 30.6428,
-    "lng": 114.3655,
+    "lat": 30.5953,
+    "lng": 114.303,
     "name": {
       "en": "Wuhan Anti-Domestic Violence Safe Shelter (武汉市反家暴庇护中心)"
     },
@@ -36453,8 +36453,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-837",
     "regionDistrict": "Enshi, Tujia & Miao Autonomous Prefecture, Rural Hubei, China",
     "type": "safe-haven",
-    "lat": 30.3222,
-    "lng": 109.5481,
+    "lat": 30.2747,
+    "lng": 109.4856,
     "name": {
       "en": "Enshi Minority Women’s Safe Haven"
     },
@@ -36509,8 +36509,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-838-u2",
     "regionDistrict": "Changsha, Hunan, China",
     "type": "hospital",
-    "lat": 28.2442,
-    "lng": 112.9208,
+    "lat": 28.2307,
+    "lng": 112.9413,
     "name": {
       "en": "Xiangya OB/GYN"
     },
@@ -36537,8 +36537,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-838",
     "regionDistrict": "Changsha, Hunan, China",
     "type": "safe-haven",
-    "lat": 28.2782,
-    "lng": 112.9988,
+    "lat": 28.2307,
+    "lng": 112.9363,
     "name": {
       "en": "Hunan Women’s Federation Safe Shelter Changsha"
     },
@@ -36593,8 +36593,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-839",
     "regionDistrict": "Jishou, Xiangxi Tujia & Miao Autonomous Prefecture, Rural Hunan, China",
     "type": "safe-haven",
-    "lat": 28.3619,
-    "lng": 109.7989,
+    "lat": 28.3144,
+    "lng": 109.7364,
     "name": {
       "en": "Xiangxi Rural"
     },
@@ -36621,8 +36621,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-839-u2",
     "regionDistrict": "Jishou, Xiangxi Tujia & Miao Autonomous Prefecture, Rural Hunan, China",
     "type": "safe-haven",
-    "lat": 28.3779,
-    "lng": 109.7809,
+    "lat": 28.3094,
+    "lng": 109.7414,
     "name": {
       "en": "Miao Women’s Safe Haven"
     },
@@ -36677,8 +36677,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-840-u2",
     "regionDistrict": "Guangzhou, Guangdong, China",
     "type": "hospital",
-    "lat": 23.1451,
-    "lng": 113.2464,
+    "lat": 23.1316,
+    "lng": 113.2669,
     "name": {
       "en": "Guangzhou Women and Children’s Medical Center"
     },
@@ -36705,8 +36705,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-840",
     "regionDistrict": "Guangzhou, Guangdong, China",
     "type": "safe-haven",
-    "lat": 23.1791,
-    "lng": 113.3244,
+    "lat": 23.1316,
+    "lng": 113.2619,
     "name": {
       "en": "Guangzhou Anti-Domestic Violence Safe Shelter (广州市反家暴庇护所)"
     },
@@ -36761,8 +36761,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-841",
     "regionDistrict": "Shenzhen, Guangdong, China",
     "type": "safe-haven",
-    "lat": 22.5931,
-    "lng": 114.1179,
+    "lat": 22.5456,
+    "lng": 114.0554,
     "name": {
       "en": "Shenzhen Pengxing & Women’s Safe Haven Shelter (深圳反家暴庇护中心)"
     },
@@ -36817,8 +36817,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-842",
     "regionDistrict": "Shantou / Zhanjiang, Coastal Guangdong, China",
     "type": "safe-haven",
-    "lat": 23.4041,
-    "lng": 116.742,
+    "lat": 23.3566,
+    "lng": 116.6795,
     "name": {
       "en": "Chaoshan Women’s Support & Safe Shelter Shantou"
     },
@@ -36873,8 +36873,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-843",
     "regionDistrict": "Nanning, Guangxi Zhuang Autonomous Region, China",
     "type": "safe-haven",
-    "lat": 22.867,
-    "lng": 108.4265,
+    "lat": 22.8195,
+    "lng": 108.364,
     "name": {
       "en": "Guangxi Women & Children Rights Safe Haven Nanning"
     },
@@ -36929,8 +36929,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-844",
     "regionDistrict": "Guilin / Liuzhou / Baise, Rural Guangxi, China",
     "type": "safe-haven",
-    "lat": 25.3236,
-    "lng": 110.35,
+    "lat": 25.2761,
+    "lng": 110.2875,
     "name": {
       "en": "Guilin Rural"
     },
@@ -36957,8 +36957,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-844-u2",
     "regionDistrict": "Guilin / Liuzhou / Baise, Rural Guangxi, China",
     "type": "safe-haven",
-    "lat": 25.3396,
-    "lng": 110.332,
+    "lat": 25.2711,
+    "lng": 110.2925,
     "name": {
       "en": "Ethnic Women’s Safe Shelter"
     },
@@ -37013,8 +37013,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-845",
     "regionDistrict": "Haikou / Sanya, Hainan Island, China",
     "type": "safe-haven",
-    "lat": 20.094,
-    "lng": 110.2599,
+    "lat": 20.0465,
+    "lng": 110.1974,
     "name": {
       "en": "Hainan Island Women’s Protection Safe Haven Haikou"
     },
@@ -37069,8 +37069,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-846-u2",
     "regionDistrict": "Hong Kong SAR",
     "type": "hospital",
-    "lat": 22.2935,
-    "lng": 114.1551,
+    "lat": 22.28,
+    "lng": 114.1756,
     "name": {
       "en": "Kwong Wah Hospital — OB/GYN & Maternity"
     },
@@ -37097,8 +37097,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-846",
     "regionDistrict": "Hong Kong SAR",
     "type": "safe-haven",
-    "lat": 22.3275,
-    "lng": 114.2331,
+    "lat": 22.28,
+    "lng": 114.1706,
     "name": {
       "en": "Harmony House"
     },
@@ -37125,8 +37125,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-846-u2",
     "regionDistrict": "Hong Kong SAR",
     "type": "safe-haven",
-    "lat": 22.3435,
-    "lng": 114.2151,
+    "lat": 22.275,
+    "lng": 114.1756,
     "name": {
       "en": "RainLily Women’s Safe Haven Shelter Hong Kong (和諧之家 / 風雨蘭)"
     },
@@ -37181,8 +37181,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-847",
     "regionDistrict": "Macau SAR",
     "type": "safe-haven",
-    "lat": 22.2487,
-    "lng": 113.6039,
+    "lat": 22.2012,
+    "lng": 113.5414,
     "name": {
       "en": "Women’s General Association of Macau Safe Shelter (澳門婦女聯合總會庇護中心)"
     },
@@ -37237,8 +37237,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-848",
     "regionDistrict": "Chongqing, China",
     "type": "safe-haven",
-    "lat": 29.613,
-    "lng": 106.6116,
+    "lat": 29.5655,
+    "lng": 106.5491,
     "name": {
       "en": "Chongqing Women’s Federation Anti-DV Safe Haven"
     },
@@ -37293,8 +37293,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-849-u2",
     "regionDistrict": "Chengdu, Sichuan, China",
     "type": "hospital",
-    "lat": 30.656,
-    "lng": 104.047,
+    "lat": 30.6425,
+    "lng": 104.0675,
     "name": {
       "en": "Sichuan University (四川大学华西第二医院 / 华西妇产儿童医院)"
     },
@@ -37321,8 +37321,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-849",
     "regionDistrict": "Chengdu, Sichuan, China",
     "type": "safe-haven",
-    "lat": 30.69,
-    "lng": 104.125,
+    "lat": 30.6425,
+    "lng": 104.0625,
     "name": {
       "en": "Sichuan Anti-Domestic Violence Safe Shelter Chengdu"
     },
@@ -37377,8 +37377,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-850",
     "regionDistrict": "Xichang, Liangshan Yi Autonomous Prefecture, Rural Sichuan, China",
     "type": "safe-haven",
-    "lat": 27.9446,
-    "lng": 102.3234,
+    "lat": 27.8971,
+    "lng": 102.2609,
     "name": {
       "en": "Liangshan Yi Women & Maternal Protection Safe Haven"
     },
@@ -37433,8 +37433,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-851",
     "regionDistrict": "Kangding, Garzê Tibetan Autonomous Prefecture, Western Sichuan, China",
     "type": "safe-haven",
-    "lat": 30.101,
-    "lng": 102.0225,
+    "lat": 30.0535,
+    "lng": 101.96,
     "name": {
       "en": "Garzê Highland Women’s Safe Sanctuary"
     },
@@ -37489,8 +37489,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-852",
     "regionDistrict": "Guiyang, Guizhou, China",
     "type": "safe-haven",
-    "lat": 26.697,
-    "lng": 106.6902,
+    "lat": 26.6495,
+    "lng": 106.6277,
     "name": {
       "en": "Guizhou Women’s Legal Aid & Safe Shelter Guiyang"
     },
@@ -37545,8 +37545,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-853",
     "regionDistrict": "Kaili, Qiandongnan Miao & Dong Prefecture, Rural Guizhou, China",
     "type": "safe-haven",
-    "lat": 26.633,
-    "lng": 108.041,
+    "lat": 26.5855,
+    "lng": 107.9785,
     "name": {
       "en": "Qiandongnan Rural Village Women’s Safe Haven"
     },
@@ -37601,8 +37601,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-854-u2",
     "regionDistrict": "Kunming, Yunnan, China",
     "type": "hospital",
-    "lat": 25.0549,
-    "lng": 102.7003,
+    "lat": 25.0414,
+    "lng": 102.7208,
     "name": {
       "en": "Kunming Women’s Hospital"
     },
@@ -37629,8 +37629,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-854",
     "regionDistrict": "Kunming, Yunnan, China",
     "type": "safe-haven",
-    "lat": 25.0889,
-    "lng": 102.7783,
+    "lat": 25.0414,
+    "lng": 102.7158,
     "name": {
       "en": "Yunnan Women & Children Development Safe Shelter Kunming"
     },
@@ -37685,8 +37685,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-855",
     "regionDistrict": "Dali / Lijiang, Northwestern Rural Yunnan, China",
     "type": "safe-haven",
-    "lat": 25.6565,
-    "lng": 100.3276,
+    "lat": 25.609,
+    "lng": 100.2651,
     "name": {
       "en": "Dali Highland Women’s Protection & Safe Haven"
     },
@@ -37741,8 +37741,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-856",
     "regionDistrict": "Jinghong, Xishuangbanna Dai Autonomous Prefecture, Southern Yunnan, China",
     "type": "safe-haven",
-    "lat": 22.0588,
-    "lng": 100.8572,
+    "lat": 22.0113,
+    "lng": 100.7947,
     "name": {
       "en": "Xishuangbanna Border"
     },
@@ -37769,8 +37769,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-856-u2",
     "regionDistrict": "Jinghong, Xishuangbanna Dai Autonomous Prefecture, Southern Yunnan, China",
     "type": "safe-haven",
-    "lat": 22.0748,
-    "lng": 100.8392,
+    "lat": 22.0063,
+    "lng": 100.7997,
     "name": {
       "en": "Ethnic Women’s Safe Haven"
     },
@@ -37825,8 +37825,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-857",
     "regionDistrict": "Lhasa, Tibet Autonomous Region",
     "type": "safe-haven",
-    "lat": 29.7025,
-    "lng": 91.2321,
+    "lat": 29.655,
+    "lng": 91.1696,
     "name": {
       "en": "Lhasa Women & Mothers Safe Care Center"
     },
@@ -37881,8 +37881,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-858",
     "regionDistrict": "Shigatse / Chamdo, Rural Tibet",
     "type": "safe-haven",
-    "lat": 29.3169,
-    "lng": 88.9406,
+    "lat": 29.2694,
+    "lng": 88.8781,
     "name": {
       "en": "Shigatse Rural Maternal & Women’s Safe Space"
     },
@@ -37937,8 +37937,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-859",
     "regionDistrict": "Xi’an, Shaanxi, China",
     "type": "safe-haven",
-    "lat": 34.3158,
-    "lng": 109.0141,
+    "lat": 34.2683,
+    "lng": 108.9516,
     "name": {
       "en": "Shaanxi Maples"
     },
@@ -37965,8 +37965,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-859-u2",
     "regionDistrict": "Xi’an, Shaanxi, China",
     "type": "safe-haven",
-    "lat": 34.3318,
-    "lng": 108.9961,
+    "lat": 34.2633,
+    "lng": 108.9566,
     "name": {
       "en": "Red Phoenix Women’s Safe Haven Xi’an (陕西妇女法律研究与服务中心)"
     },
@@ -38021,8 +38021,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-860",
     "regionDistrict": "Yan’an / Yulin, Northern Rural Shaanxi, China",
     "type": "safe-haven",
-    "lat": 36.6353,
-    "lng": 109.5498,
+    "lat": 36.5878,
+    "lng": 109.4873,
     "name": {
       "en": "Northern Shaanxi Rural Women’s Safe Shelter"
     },
@@ -38077,8 +38077,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-861",
     "regionDistrict": "Lanzhou, Gansu, China",
     "type": "safe-haven",
-    "lat": 36.1111,
-    "lng": 103.8943,
+    "lat": 36.0636,
+    "lng": 103.8318,
     "name": {
       "en": "Gansu Women’s Federation Safe Haven Shelter Lanzhou"
     },
@@ -38133,8 +38133,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-862",
     "regionDistrict": "Linxia / Gannan, Rural Southern Gansu, China",
     "type": "safe-haven",
-    "lat": 35.6512,
-    "lng": 103.2705,
+    "lat": 35.6037,
+    "lng": 103.208,
     "name": {
       "en": "Gansu Rural"
     },
@@ -38161,8 +38161,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-862-u2",
     "regionDistrict": "Linxia / Gannan, Rural Southern Gansu, China",
     "type": "safe-haven",
-    "lat": 35.6672,
-    "lng": 103.2525,
+    "lat": 35.5987,
+    "lng": 103.213,
     "name": {
       "en": "Minority Women’s Safe Haven"
     },
@@ -38217,8 +38217,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-863-u2",
     "regionDistrict": "Xining, Qinghai, China",
     "type": "hospital",
-    "lat": 36.6331,
-    "lng": 101.7602,
+    "lat": 36.6196,
+    "lng": 101.7807,
     "name": {
       "en": "Qinghai Women and Children’s Hospital (青海省妇女儿童医院)"
     },
@@ -38245,8 +38245,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-863",
     "regionDistrict": "Xining, Qinghai, China",
     "type": "safe-haven",
-    "lat": 36.6671,
-    "lng": 101.8382,
+    "lat": 36.6196,
+    "lng": 101.7757,
     "name": {
       "en": "Qinghai Plateau Women’s Protection Safe Shelter Xining"
     },
@@ -38301,8 +38301,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-864",
     "regionDistrict": "Yushu, Tibetan Autonomous Prefecture, Rural Qinghai, China",
     "type": "safe-haven",
-    "lat": 33.0552,
-    "lng": 97.0666,
+    "lat": 33.0077,
+    "lng": 97.0041,
     "name": {
       "en": "Yushu Pastoral Women’s Safe Sanctuary"
     },
@@ -38357,8 +38357,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-hosp-865-u2",
     "regionDistrict": "Yinchuan, Ningxia Hui Autonomous Region, China",
     "type": "hospital",
-    "lat": 38.5032,
-    "lng": 106.2129,
+    "lat": 38.4897,
+    "lng": 106.2334,
     "name": {
       "en": "Ningxia Maternal Hospital (宁夏回族自治区妇幼保健院)"
     },
@@ -38385,8 +38385,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-865",
     "regionDistrict": "Yinchuan, Ningxia Hui Autonomous Region, China",
     "type": "safe-haven",
-    "lat": 38.5372,
-    "lng": 106.2909,
+    "lat": 38.4897,
+    "lng": 106.2284,
     "name": {
       "en": "Ningxia Women & Family Protection Safe Haven Yinchuan"
     },
@@ -38441,8 +38441,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-866",
     "regionDistrict": "Urumqi, Xinjiang, China",
     "type": "safe-haven",
-    "lat": 43.8756,
-    "lng": 87.6768,
+    "lat": 43.8281,
+    "lng": 87.6143,
     "name": {
       "en": "Xinjiang Women’s Protection"
     },
@@ -38469,8 +38469,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-866-u2",
     "regionDistrict": "Urumqi, Xinjiang, China",
     "type": "safe-haven",
-    "lat": 43.8916,
-    "lng": 87.6588,
+    "lat": 43.8231,
+    "lng": 87.6193,
     "name": {
       "en": "Aid Center Urumqi"
     },
@@ -38525,8 +38525,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-867",
     "regionDistrict": "Kashgar, Southern Xinjiang, China",
     "type": "safe-haven",
-    "lat": 39.5204,
-    "lng": 76.0498,
+    "lat": 39.4729,
+    "lng": 75.9873,
     "name": {
       "en": "Kashgar Women & Maternal Support Safe Center"
     },
@@ -38581,8 +38581,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "china-safe-868",
     "regionDistrict": "Yining (Ghulja), Ili Kazakh Autonomous Prefecture, Northern Xinjiang, China",
     "type": "safe-haven",
-    "lat": 43.9669,
-    "lng": 81.3842,
+    "lat": 43.9194,
+    "lng": 81.3217,
     "name": {
       "en": "Ili Valley Women’s Protection Safe Haven"
     },
@@ -38637,8 +38637,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-934",
     "regionDistrict": "Hussein Dey / Algiers, Algeria",
     "type": "safe-haven",
-    "lat": 36.7885,
-    "lng": 3.15,
+    "lat": 36.746,
+    "lng": 3.0925,
     "name": {
       "en": "Réseau Wassila"
     },
@@ -38665,8 +38665,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-934-u2",
     "regionDistrict": "Hussein Dey / Algiers, Algeria",
     "type": "safe-haven",
-    "lat": 36.8045,
-    "lng": 3.132,
+    "lat": 36.741,
+    "lng": 3.0975,
     "name": {
       "en": "SOS Femmes en Détresse Safe Haven Algiers"
     },
@@ -38721,8 +38721,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-935-u2",
     "regionDistrict": "Beni Messous / Bab El Oued, Algiers, Algeria",
     "type": "hospital",
-    "lat": 36.7952,
-    "lng": 2.9594,
+    "lat": 36.7817,
+    "lng": 2.9799,
     "name": {
       "en": "CHU Mohamed Lamine Debaghine (Bab El Oued) Maternity"
     },
@@ -38749,8 +38749,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-935",
     "regionDistrict": "Beni Messous / Bab El Oued, Algiers, Algeria",
     "type": "safe-haven",
-    "lat": 36.8242,
-    "lng": 3.0324,
+    "lat": 36.7817,
+    "lng": 2.9749,
     "name": {
       "en": "CIDDEF & Centre d’Accueil des Femmes Victimes de Violences Algiers"
     },
@@ -38805,8 +38805,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-936",
     "regionDistrict": "Blida, Mitidja, Algeria",
     "type": "safe-haven",
-    "lat": 36.515,
-    "lng": 2.8827,
+    "lat": 36.4725,
+    "lng": 2.8252,
     "name": {
       "en": "Association Femmes en Communication & Safe Space Blida"
     },
@@ -38861,8 +38861,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-937-u2",
     "regionDistrict": "Oran, Western Algeria",
     "type": "hospital",
-    "lat": 35.7131,
-    "lng": -0.6488,
+    "lat": 35.6996,
+    "lng": -0.6283,
     "name": {
       "en": "EHU 1er Novembre Maternity Complex"
     },
@@ -38889,8 +38889,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-937",
     "regionDistrict": "Oran, Western Algeria",
     "type": "safe-haven",
-    "lat": 35.7421,
-    "lng": -0.5758,
+    "lat": 35.6996,
+    "lng": -0.6333,
     "name": {
       "en": "Association FARD (Femmes Algériennes Revendiquant leurs Droits) Safe Haven Oran"
     },
@@ -38945,8 +38945,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-938-u2",
     "regionDistrict": "Tlemcen, Northwestern Algeria",
     "type": "hospital",
-    "lat": 34.8943,
-    "lng": -1.333,
+    "lat": 34.8808,
+    "lng": -1.3125,
     "name": {
       "en": "EHS Mère-Enfant Tlemcen"
     },
@@ -38973,8 +38973,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-938",
     "regionDistrict": "Tlemcen, Northwestern Algeria",
     "type": "safe-haven",
-    "lat": 34.9233,
-    "lng": -1.26,
+    "lat": 34.8808,
+    "lng": -1.3175,
     "name": {
       "en": "Tlemcen Women’s Protection & Family Safe Center"
     },
@@ -39029,8 +39029,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-939-u2",
     "regionDistrict": "Sidi Bel Abbès / Mascara, Algeria",
     "type": "hospital",
-    "lat": 35.2059,
-    "lng": -0.6489,
+    "lat": 35.1924,
+    "lng": -0.6284,
     "name": {
       "en": "EHS Maternité Sidi Bel Abbès"
     },
@@ -39057,8 +39057,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-939",
     "regionDistrict": "Sidi Bel Abbès / Mascara, Algeria",
     "type": "safe-haven",
-    "lat": 35.2349,
-    "lng": -0.5759,
+    "lat": 35.1924,
+    "lng": -0.6334,
     "name": {
       "en": "Sidi Bel Abbès Women’s Support & Safe Shelter"
     },
@@ -39113,8 +39113,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-940-u2",
     "regionDistrict": "Mostaganem / Chlef, Algeria",
     "type": "hospital",
-    "lat": 35.9471,
-    "lng": 0.0712,
+    "lat": 35.9336,
+    "lng": 0.0917,
     "name": {
       "en": "EHS Mère-Enfant Mostaganem"
     },
@@ -39141,8 +39141,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-940",
     "regionDistrict": "Mostaganem / Chlef, Algeria",
     "type": "safe-haven",
-    "lat": 35.9761,
-    "lng": 0.1442,
+    "lat": 35.9336,
+    "lng": 0.0867,
     "name": {
       "en": "Mostaganem Women’s Aid Safe Haven"
     },
@@ -39197,8 +39197,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-941-u2",
     "regionDistrict": "Tiaret / Saïda, High Plateaus Algeria",
     "type": "hospital",
-    "lat": 35.387,
-    "lng": 1.299,
+    "lat": 35.3735,
+    "lng": 1.3195,
     "name": {
       "en": "EPH Youcef Damerdji Tiaret"
     },
@@ -39225,8 +39225,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-941",
     "regionDistrict": "Tiaret / Saïda, High Plateaus Algeria",
     "type": "safe-haven",
-    "lat": 35.416,
-    "lng": 1.372,
+    "lat": 35.3735,
+    "lng": 1.3145,
     "name": {
       "en": "Tiaret High Plateaus Women’s Safe Center"
     },
@@ -39281,8 +39281,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-942-u2",
     "regionDistrict": "Tizi Ouzou, Kabylia, Algeria",
     "type": "hospital",
-    "lat": 36.7278,
-    "lng": 4.0279,
+    "lat": 36.7143,
+    "lng": 4.0484,
     "name": {
       "en": "EHS Mère-Enfant Sbihi Tizi Ouzou (Tamazight/Kabyle)"
     },
@@ -39309,8 +39309,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-942",
     "regionDistrict": "Tizi Ouzou, Kabylia, Algeria",
     "type": "safe-haven",
-    "lat": 36.7568,
-    "lng": 4.1009,
+    "lat": 36.7143,
+    "lng": 4.0434,
     "name": {
       "en": "Association Thighri N’Tmettouth (Cri de Femme) Safe Haven Tizi Ouzou"
     },
@@ -39365,8 +39365,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-943",
     "regionDistrict": "Béjaïa, Kabylia Coast, Algeria",
     "type": "safe-haven",
-    "lat": 36.7959,
-    "lng": 5.1117,
+    "lat": 36.7534,
+    "lng": 5.0542,
     "name": {
       "en": "Association Femmes Solidaires & Safe Space Béjaïa"
     },
@@ -39421,8 +39421,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-944-u2",
     "regionDistrict": "Sétif, Eastern High Plateaus, Algeria",
     "type": "hospital",
-    "lat": 36.2071,
-    "lng": 5.3957,
+    "lat": 36.1936,
+    "lng": 5.4162,
     "name": {
       "en": "EHS Mère-Enfant Sétif"
     },
@@ -39449,8 +39449,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-944",
     "regionDistrict": "Sétif, Eastern High Plateaus, Algeria",
     "type": "safe-haven",
-    "lat": 36.2361,
-    "lng": 5.4687,
+    "lat": 36.1936,
+    "lng": 5.4112,
     "name": {
       "en": "Sétif Women & Family Protection Safe Haven"
     },
@@ -39505,8 +39505,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-945-u2",
     "regionDistrict": "Constantine, Eastern Algeria",
     "type": "hospital",
-    "lat": 36.381,
-    "lng": 6.5967,
+    "lat": 36.3675,
+    "lng": 6.6172,
     "name": {
       "en": "EHS Mère-Enfant Sidi Mabrouk Constantine"
     },
@@ -39533,8 +39533,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-945",
     "regionDistrict": "Constantine, Eastern Algeria",
     "type": "safe-haven",
-    "lat": 36.41,
-    "lng": 6.6697,
+    "lat": 36.3675,
+    "lng": 6.6122,
     "name": {
       "en": "Association Rachda & Centre d’Écoute pour Femmes Constantine"
     },
@@ -39589,8 +39589,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-946-u2",
     "regionDistrict": "Annaba, Northeast Coast, Algeria",
     "type": "hospital",
-    "lat": 36.916,
-    "lng": 7.7487,
+    "lat": 36.9025,
+    "lng": 7.7692,
     "name": {
       "en": "EHS Mère-Enfant El Bouni Annaba"
     },
@@ -39617,8 +39617,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-946",
     "regionDistrict": "Annaba, Northeast Coast, Algeria",
     "type": "safe-haven",
-    "lat": 36.945,
-    "lng": 7.8217,
+    "lat": 36.9025,
+    "lng": 7.7642,
     "name": {
       "en": "Centre d’Accueil et d’Écoute des Femmes Annaba"
     },
@@ -39673,8 +39673,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-947-u2",
     "regionDistrict": "Batna, Aurès Mountains, Algeria",
     "type": "hospital",
-    "lat": 35.5719,
-    "lng": 6.1561,
+    "lat": 35.5584,
+    "lng": 6.1766,
     "name": {
       "en": "EHS Mère-Enfant Meriem Bouatoura Batna (Chaoui/Shawiya)"
     },
@@ -39701,8 +39701,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-947",
     "regionDistrict": "Batna, Aurès Mountains, Algeria",
     "type": "safe-haven",
-    "lat": 35.6009,
-    "lng": 6.2291,
+    "lat": 35.5584,
+    "lng": 6.1716,
     "name": {
       "en": "Aurès Women’s Protection & Safe Shelter Batna"
     },
@@ -39757,8 +39757,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-948-u2",
     "regionDistrict": "Biskra, Ziban Oasis Gateway, Algeria",
     "type": "hospital",
-    "lat": 34.8664,
-    "lng": 5.7101,
+    "lat": 34.8529,
+    "lng": 5.7306,
     "name": {
       "en": "EHS Mère-Enfant Biskra"
     },
@@ -39785,8 +39785,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-948",
     "regionDistrict": "Biskra, Ziban Oasis Gateway, Algeria",
     "type": "safe-haven",
-    "lat": 34.8954,
-    "lng": 5.7831,
+    "lat": 34.8529,
+    "lng": 5.7256,
     "name": {
       "en": "Biskra Oasis Women’s Support & Safe Haven"
     },
@@ -39841,8 +39841,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-949-u2",
     "regionDistrict": "Djelfa / Laghouat, Saharan Atlas, Algeria",
     "type": "hospital",
-    "lat": 34.6888,
-    "lng": 3.245,
+    "lat": 34.6753,
+    "lng": 3.2655,
     "name": {
       "en": "EPH Djelfa /CHU Laghouat"
     },
@@ -39869,8 +39869,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-949",
     "regionDistrict": "Djelfa / Laghouat, Saharan Atlas, Algeria",
     "type": "safe-haven",
-    "lat": 34.7178,
-    "lng": 3.318,
+    "lat": 34.6753,
+    "lng": 3.2605,
     "name": {
       "en": "Saharan Atlas Women’s Protection Center Djelfa"
     },
@@ -39925,8 +39925,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-950-u2",
     "regionDistrict": "Ghardaïa, M’zab Valley Sahara, Algeria",
     "type": "hospital",
-    "lat": 32.5069,
-    "lng": 3.6555,
+    "lat": 32.4934,
+    "lng": 3.676,
     "name": {
       "en": "EHS Mère-Enfant Ghardaïa (Tumzabt/Mozabite)"
     },
@@ -39953,8 +39953,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-950",
     "regionDistrict": "Ghardaïa, M’zab Valley Sahara, Algeria",
     "type": "safe-haven",
-    "lat": 32.5359,
-    "lng": 3.7285,
+    "lat": 32.4934,
+    "lng": 3.671,
     "name": {
       "en": "M’zab Women’s Support & Safe Sanctuary Ghardaïa"
     },
@@ -40009,8 +40009,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-951-u2",
     "regionDistrict": "Ouargla / Touggourt, Eastern Algerian Sahara, Algeria",
     "type": "hospital",
-    "lat": 31.9653,
-    "lng": 5.307,
+    "lat": 31.9518,
+    "lng": 5.3275,
     "name": {
       "en": "EHS Mère-Enfant Ouargla"
     },
@@ -40037,8 +40037,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-951",
     "regionDistrict": "Ouargla / Touggourt, Eastern Algerian Sahara, Algeria",
     "type": "safe-haven",
-    "lat": 31.9943,
-    "lng": 5.38,
+    "lat": 31.9518,
+    "lng": 5.3225,
     "name": {
       "en": "Ouargla Oasis Women & Maternal Safe Haven"
     },
@@ -40093,8 +40093,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-952-u2",
     "regionDistrict": "El Oued (Oued Souf), Grand Erg Oriental, Algeria",
     "type": "hospital",
-    "lat": 33.3843,
-    "lng": 6.8494,
+    "lat": 33.3708,
+    "lng": 6.8699,
     "name": {
       "en": "EPH Ben Amor Djillali El Oued"
     },
@@ -40121,8 +40121,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-952",
     "regionDistrict": "El Oued (Oued Souf), Grand Erg Oriental, Algeria",
     "type": "safe-haven",
-    "lat": 33.4133,
-    "lng": 6.9224,
+    "lat": 33.3708,
+    "lng": 6.8649,
     "name": {
       "en": "Souf Oasis Women’s Protection Center"
     },
@@ -40177,8 +40177,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-953-u2",
     "regionDistrict": "Béchar, Saoura Western Algerian Sahara, Algeria",
     "type": "hospital",
-    "lat": 31.6327,
-    "lng": -2.2347,
+    "lat": 31.6192,
+    "lng": -2.2142,
     "name": {
       "en": "EHS Mère-Enfant Béchar"
     },
@@ -40205,8 +40205,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-953",
     "regionDistrict": "Béchar, Saoura Western Algerian Sahara, Algeria",
     "type": "safe-haven",
-    "lat": 31.6617,
-    "lng": -2.1617,
+    "lat": 31.6192,
+    "lng": -2.2192,
     "name": {
       "en": "Saoura Women’s Aid & Safe Shelter Béchar"
     },
@@ -40261,8 +40261,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-954-u2",
     "regionDistrict": "Adrar / Timimoun, Touat Central Sahara, Algeria",
     "type": "hospital",
-    "lat": 27.8902,
-    "lng": -0.3119,
+    "lat": 27.8767,
+    "lng": -0.2914,
     "name": {
       "en": "EHS Mère-Enfant Adrar"
     },
@@ -40289,8 +40289,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-954",
     "regionDistrict": "Adrar / Timimoun, Touat Central Sahara, Algeria",
     "type": "safe-haven",
-    "lat": 27.9192,
-    "lng": -0.2389,
+    "lat": 27.8767,
+    "lng": -0.2964,
     "name": {
       "en": "Touat Oasis Women’s Safe Haven Adrar"
     },
@@ -40345,8 +40345,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-955-u2",
     "regionDistrict": "Tindouf (Sahrawi Refugee Camps & Southwest), Algeria",
     "type": "hospital",
-    "lat": 27.6871,
-    "lng": -8.1654,
+    "lat": 27.6736,
+    "lng": -8.1449,
     "name": {
       "en": "Rabouni National Maternity Hospital (Sahrawi Camps)"
     },
@@ -40373,8 +40373,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-955",
     "regionDistrict": "Tindouf (Sahrawi Refugee Camps & Southwest), Algeria",
     "type": "safe-haven",
-    "lat": 27.7161,
-    "lng": -8.0924,
+    "lat": 27.6736,
+    "lng": -8.1499,
     "name": {
       "en": "National Union of Sahrawi Women (UNMS) Safe Haven Center"
     },
@@ -40429,8 +40429,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-956",
     "regionDistrict": "Tamanrasset, Ahaggar Mountains Deep South Sahara, Algeria",
     "type": "safe-haven",
-    "lat": 22.83,
-    "lng": 5.5778,
+    "lat": 22.7875,
+    "lng": 5.5203,
     "name": {
       "en": "Ahaggar Tuareg"
     },
@@ -40457,8 +40457,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-956-u2",
     "regionDistrict": "Tamanrasset, Ahaggar Mountains Deep South Sahara, Algeria",
     "type": "safe-haven",
-    "lat": 22.846,
-    "lng": 5.5598,
+    "lat": 22.7825,
+    "lng": 5.5253,
     "name": {
       "en": "Migrant Women’s Safe Haven Tamanrasset"
     },
@@ -40513,8 +40513,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-957-u2",
     "regionDistrict": "Djanet / Illizi, Tassili n’Ajjer Sahara, Algeria",
     "type": "hospital",
-    "lat": 24.5694,
-    "lng": 9.4664,
+    "lat": 24.5559,
+    "lng": 9.4869,
     "name": {
       "en": "Illizi Oasis Maternal Clinic (Tamahaq)"
     },
@@ -40541,8 +40541,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-957",
     "regionDistrict": "Djanet / Illizi, Tassili n’Ajjer Sahara, Algeria",
     "type": "safe-haven",
-    "lat": 24.5984,
-    "lng": 9.5394,
+    "lat": 24.5559,
+    "lng": 9.4819,
     "name": {
       "en": "Tassili Women’s Safe Space Djanet"
     },
@@ -40597,8 +40597,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-958",
     "regionDistrict": "Tripoli (Central), Libya",
     "type": "safe-haven",
-    "lat": 32.9322,
-    "lng": 13.2463,
+    "lat": 32.8897,
+    "lng": 13.1888,
     "name": {
       "en": "UNFPA / Al-afaq Safe Space for Women & Girls Tripoli"
     },
@@ -40653,8 +40653,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-959",
     "regionDistrict": "Tripoli (Ain Zara / Tajoura), Libya",
     "type": "safe-haven",
-    "lat": 32.897,
-    "lng": 13.323,
+    "lat": 32.8545,
+    "lng": 13.2655,
     "name": {
       "en": "Psychosocial Support & Women’s Protection Shelter Tripoli"
     },
@@ -40709,8 +40709,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-960",
     "regionDistrict": "Misrata, Libya",
     "type": "safe-haven",
-    "lat": 32.4204,
-    "lng": 15.1475,
+    "lat": 32.3779,
+    "lng": 15.09,
     "name": {
       "en": "Misrata Red Crescent"
     },
@@ -40737,8 +40737,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-960-u2",
     "regionDistrict": "Misrata, Libya",
     "type": "safe-haven",
-    "lat": 32.4364,
-    "lng": 15.1295,
+    "lat": 32.3729,
+    "lng": 15.095,
     "name": {
       "en": "UNFPA Women’s Safe Haven"
     },
@@ -40793,8 +40793,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-961",
     "regionDistrict": "Zawiya / Sabratha, Western Coast, Libya",
     "type": "safe-haven",
-    "lat": 32.8021,
-    "lng": 12.7826,
+    "lat": 32.7596,
+    "lng": 12.7251,
     "name": {
       "en": "Western Libya Women’s Crisis & Safe Center Zawiya"
     },
@@ -40849,8 +40849,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-962",
     "regionDistrict": "Gharyan / Nafusa Mountains, Libya",
     "type": "safe-haven",
-    "lat": 32.2172,
-    "lng": 13.0753,
+    "lat": 32.1747,
+    "lng": 13.0178,
     "name": {
       "en": "Jabal Nafusa Women’s Support & Safe Space"
     },
@@ -40905,8 +40905,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-963",
     "regionDistrict": "Sirte, Central Coast, Libya",
     "type": "safe-haven",
-    "lat": 31.2539,
-    "lng": 16.6437,
+    "lat": 31.2114,
+    "lng": 16.5862,
     "name": {
       "en": "Sirte Women & Maternal Protection Center"
     },
@@ -40961,8 +40961,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-964-u2",
     "regionDistrict": "Benghazi, Cyrenaica, Libya",
     "type": "hospital",
-    "lat": 32.1354,
-    "lng": 20.0688,
+    "lat": 32.1219,
+    "lng": 20.0893,
     "name": {
       "en": "Benghazi Medical Center (BMC)"
     },
@@ -40989,8 +40989,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-964",
     "regionDistrict": "Benghazi, Cyrenaica, Libya",
     "type": "safe-haven",
-    "lat": 32.1644,
-    "lng": 20.1418,
+    "lat": 32.1219,
+    "lng": 20.0843,
     "name": {
       "en": "Libyan Women’s Platform"
     },
@@ -41017,8 +41017,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-964-u2",
     "regionDistrict": "Benghazi, Cyrenaica, Libya",
     "type": "safe-haven",
-    "lat": 32.1804,
-    "lng": 20.1238,
+    "lat": 32.1169,
+    "lng": 20.0893,
     "name": {
       "en": "UNFPA Safe Haven Benghazi"
     },
@@ -41073,8 +41073,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-965",
     "regionDistrict": "Al-Bayda / Shahhat (Jabal al-Akhdar), Libya",
     "type": "safe-haven",
-    "lat": 32.8077,
-    "lng": 21.8101,
+    "lat": 32.7652,
+    "lng": 21.7526,
     "name": {
       "en": "Green Mountain Women’s Protection Safe Haven"
     },
@@ -41129,8 +41129,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-966-u2",
     "regionDistrict": "Derna, Eastern Cyrenaica, Libya",
     "type": "hospital",
-    "lat": 32.783,
-    "lng": 22.6187,
+    "lat": 32.7695,
+    "lng": 22.6392,
     "name": {
       "en": "Red Crescent Field Maternity Unit Derna"
     },
@@ -41157,8 +41157,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-966",
     "regionDistrict": "Derna, Eastern Cyrenaica, Libya",
     "type": "safe-haven",
-    "lat": 32.812,
-    "lng": 22.6917,
+    "lat": 32.7695,
+    "lng": 22.6342,
     "name": {
       "en": "Derna Flood Recovery & Women’s Safe Sanctuary"
     },
@@ -41213,8 +41213,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-967-u2",
     "regionDistrict": "Tobruk, Eastern Border, Libya",
     "type": "hospital",
-    "lat": 32.0996,
-    "lng": 23.9584,
+    "lat": 32.0861,
+    "lng": 23.9789,
     "name": {
       "en": "Migrant Triage"
     },
@@ -41241,8 +41241,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-967",
     "regionDistrict": "Tobruk, Eastern Border, Libya",
     "type": "safe-haven",
-    "lat": 32.1286,
-    "lng": 24.0314,
+    "lat": 32.0861,
+    "lng": 23.9739,
     "name": {
       "en": "Tobruk Women"
     },
@@ -41269,8 +41269,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-967-u2",
     "regionDistrict": "Tobruk, Eastern Border, Libya",
     "type": "safe-haven",
-    "lat": 32.1446,
-    "lng": 24.0134,
+    "lat": 32.0811,
+    "lng": 23.9789,
     "name": {
       "en": "Refugee Safe Haven"
     },
@@ -41325,8 +41325,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-968",
     "regionDistrict": "Sabha, Fezzan Southern Sahara, Libya",
     "type": "safe-haven",
-    "lat": 27.0827,
-    "lng": 14.4833,
+    "lat": 27.0402,
+    "lng": 14.4258,
     "name": {
       "en": "Fezzan Women’s Safe Space"
     },
@@ -41353,8 +41353,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-968-u2",
     "regionDistrict": "Sabha, Fezzan Southern Sahara, Libya",
     "type": "safe-haven",
-    "lat": 27.0987,
-    "lng": 14.4653,
+    "lat": 27.0352,
+    "lng": 14.4308,
     "name": {
       "en": "UNFPA Mobile Midwife Hub Sabha"
     },
@@ -41409,8 +41409,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-969",
     "regionDistrict": "Ghat / Ubari, Southwest Sahara (Tuareg Region), Libya",
     "type": "safe-haven",
-    "lat": 25.0083,
-    "lng": 10.235,
+    "lat": 24.9658,
+    "lng": 10.1775,
     "name": {
       "en": "Acacus / Ghat Tuareg Women’s Safe Haven"
     },
@@ -41465,8 +41465,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-970-u2",
     "regionDistrict": "Kufra Oasis, Southeastern Sahara, Libya",
     "type": "hospital",
-    "lat": 24.2149,
-    "lng": 23.2729,
+    "lat": 24.2014,
+    "lng": 23.2934,
     "name": {
       "en": "Sudanese Refugee Clinic (Tebu/Arabic)"
     },
@@ -41493,8 +41493,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-970",
     "regionDistrict": "Kufra Oasis, Southeastern Sahara, Libya",
     "type": "safe-haven",
-    "lat": 24.2439,
-    "lng": 23.3459,
+    "lat": 24.2014,
+    "lng": 23.2884,
     "name": {
       "en": "Kufra Oasis Refugee"
     },
@@ -41521,8 +41521,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-970-u2",
     "regionDistrict": "Kufra Oasis, Southeastern Sahara, Libya",
     "type": "safe-haven",
-    "lat": 24.2599,
-    "lng": 23.3279,
+    "lat": 24.1964,
+    "lng": 23.2934,
     "name": {
       "en": "Local Women’s Safe Haven"
     },
@@ -41577,8 +41577,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-971",
     "regionDistrict": "Alexandria, Mediterranean Coast, Egypt",
     "type": "safe-haven",
-    "lat": 31.2539,
-    "lng": 29.9642,
+    "lat": 31.2114,
+    "lng": 29.9067,
     "name": {
       "en": "Alexandria Women’s Shelter"
     },
@@ -41605,8 +41605,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-971-u2",
     "regionDistrict": "Alexandria, Mediterranean Coast, Egypt",
     "type": "safe-haven",
-    "lat": 31.2699,
-    "lng": 29.9462,
+    "lat": 31.2064,
+    "lng": 29.9117,
     "name": {
       "en": "CEWLA Safe Haven"
     },
@@ -41661,8 +41661,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-972-u2",
     "regionDistrict": "Giza / Imbaba, Greater Cairo, Egypt",
     "type": "hospital",
-    "lat": 30.0291,
-    "lng": 31.1909,
+    "lat": 30.0156,
+    "lng": 31.2114,
     "name": {
       "en": "Galaa Teaching Maternity Hospital (مستشفى الجلاء التعليمي للولادة)"
     },
@@ -41689,8 +41689,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-972",
     "regionDistrict": "Giza / Imbaba, Greater Cairo, Egypt",
     "type": "safe-haven",
-    "lat": 30.0581,
-    "lng": 31.2639,
+    "lat": 30.0156,
+    "lng": 31.2064,
     "name": {
       "en": "6th of October / Giza Ministry of Social Solidarity Women’s Shelter"
     },
@@ -41745,8 +41745,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-973",
     "regionDistrict": "Mansoura, Dakahlia (Nile Delta), Egypt",
     "type": "safe-haven",
-    "lat": 31.0859,
-    "lng": 31.4335,
+    "lat": 31.0434,
+    "lng": 31.376,
     "name": {
       "en": "Mansoura Women’s Protection Shelter (Dar El-Diafa)"
     },
@@ -41801,8 +41801,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-974",
     "regionDistrict": "Tanta / Mahalla, Gharbia (Nile Delta), Egypt",
     "type": "safe-haven",
-    "lat": 30.8315,
-    "lng": 31.0554,
+    "lat": 30.789,
+    "lng": 30.9979,
     "name": {
       "en": "Delta Women’s Aid & Safe Shelter Tanta"
     },
@@ -41857,8 +41857,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-975-u2",
     "regionDistrict": "Port Said / Ismailia (Suez Canal), Egypt",
     "type": "hospital",
-    "lat": 31.2813,
-    "lng": 32.2839,
+    "lat": 31.2678,
+    "lng": 32.3044,
     "name": {
       "en": "Suez Canal University Maternity Hospital"
     },
@@ -41885,8 +41885,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-975",
     "regionDistrict": "Port Said / Ismailia (Suez Canal), Egypt",
     "type": "safe-haven",
-    "lat": 31.3103,
-    "lng": 32.3569,
+    "lat": 31.2678,
+    "lng": 32.2994,
     "name": {
       "en": "Canal Zone Women’s Protection Safe Haven Port Said"
     },
@@ -41941,8 +41941,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-976-u2",
     "regionDistrict": "El-Arish, North Sinai, Egypt",
     "type": "hospital",
-    "lat": 31.1481,
-    "lng": 33.7853,
+    "lat": 31.1346,
+    "lng": 33.8058,
     "name": {
       "en": "Humanitarian Triage Ward"
     },
@@ -41969,8 +41969,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-976",
     "regionDistrict": "El-Arish, North Sinai, Egypt",
     "type": "safe-haven",
-    "lat": 31.1771,
-    "lng": 33.8583,
+    "lat": 31.1346,
+    "lng": 33.8008,
     "name": {
       "en": "Egyptian Red Crescent"
     },
@@ -41997,8 +41997,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-976-u2",
     "regionDistrict": "El-Arish, North Sinai, Egypt",
     "type": "safe-haven",
-    "lat": 31.1931,
-    "lng": 33.8403,
+    "lat": 31.1296,
+    "lng": 33.8058,
     "name": {
       "en": "Sinai Women’s Safe Haven El-Arish"
     },
@@ -42053,8 +42053,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-977-u2",
     "regionDistrict": "Sharm El-Sheikh / El-Tor, South Sinai, Egypt",
     "type": "hospital",
-    "lat": 27.9318,
-    "lng": 34.312,
+    "lat": 27.9183,
+    "lng": 34.3325,
     "name": {
       "en": "Bedouin Outreach"
     },
@@ -42081,8 +42081,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-977",
     "regionDistrict": "Sharm El-Sheikh / El-Tor, South Sinai, Egypt",
     "type": "safe-haven",
-    "lat": 27.9608,
-    "lng": 34.385,
+    "lat": 27.9183,
+    "lng": 34.3275,
     "name": {
       "en": "South Sinai Bedouin & Women’s Support Center"
     },
@@ -42137,8 +42137,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-978",
     "regionDistrict": "Fayoum / Beni Suef, Middle Egypt",
     "type": "safe-haven",
-    "lat": 29.3534,
-    "lng": 30.8978,
+    "lat": 29.3109,
+    "lng": 30.8403,
     "name": {
       "en": "Beni Suef / Fayoum Women’s Shelter (Dar El-Hekma)"
     },
@@ -42193,8 +42193,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-979",
     "regionDistrict": "Minya, Upper Egypt",
     "type": "safe-haven",
-    "lat": 28.1549,
-    "lng": 30.8053,
+    "lat": 28.1124,
+    "lng": 30.7478,
     "name": {
       "en": "Minya Women’s Safe Haven & Legal Protection Center"
     },
@@ -42249,8 +42249,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-980",
     "regionDistrict": "Assiut, Upper Egypt",
     "type": "safe-haven",
-    "lat": 27.2233,
-    "lng": 31.2409,
+    "lat": 27.1808,
+    "lng": 31.1834,
     "name": {
       "en": "Assiut Upper Egypt Women’s Safe Shelter"
     },
@@ -42305,8 +42305,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-981",
     "regionDistrict": "Sohag / Qena, Upper Egypt",
     "type": "safe-haven",
-    "lat": 26.602,
-    "lng": 31.7498,
+    "lat": 26.5595,
+    "lng": 31.6923,
     "name": {
       "en": "Sohag Rural Upper Egypt Women’s Support Center"
     },
@@ -42361,8 +42361,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-982",
     "regionDistrict": "Luxor, Upper Egypt",
     "type": "safe-haven",
-    "lat": 25.7322,
-    "lng": 32.6946,
+    "lat": 25.6897,
+    "lng": 32.6371,
     "name": {
       "en": "Luxor Women’s Protection & Safe Haven"
     },
@@ -42417,8 +42417,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-983-u2",
     "regionDistrict": "Aswan (Nubia), Southern Egypt",
     "type": "hospital",
-    "lat": 24.1049,
-    "lng": 32.8818,
+    "lat": 24.0914,
+    "lng": 32.9023,
     "name": {
       "en": "Sudanese Refugee Maternity (Nubian/Arabic)"
     },
@@ -42445,8 +42445,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-983",
     "regionDistrict": "Aswan (Nubia), Southern Egypt",
     "type": "safe-haven",
-    "lat": 24.1339,
-    "lng": 32.9548,
+    "lat": 24.0914,
+    "lng": 32.8973,
     "name": {
       "en": "Aswan Nubian"
     },
@@ -42473,8 +42473,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-983-u2",
     "regionDistrict": "Aswan (Nubia), Southern Egypt",
     "type": "safe-haven",
-    "lat": 24.1499,
-    "lng": 32.9368,
+    "lat": 24.0864,
+    "lng": 32.9023,
     "name": {
       "en": "Refugee Women’s Safe Haven (UNFPA / NCW)"
     },
@@ -42529,8 +42529,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-984",
     "regionDistrict": "Hurghada / Quseir, Red Sea Coast, Egypt",
     "type": "safe-haven",
-    "lat": 27.3029,
-    "lng": 33.8666,
+    "lat": 27.2604,
+    "lng": 33.8091,
     "name": {
       "en": "Red Sea Women’s Support & Safe Center"
     },
@@ -42585,8 +42585,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-985-u2",
     "regionDistrict": "Marsa Matrouh / Siwa Oasis, Western Desert, Egypt",
     "type": "hospital",
-    "lat": 31.3703,
-    "lng": 27.2193,
+    "lat": 31.3568,
+    "lng": 27.2398,
     "name": {
       "en": "Siwa Oasis Rural Clinic (Siwi/Arabic)"
     },
@@ -42613,8 +42613,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-985",
     "regionDistrict": "Marsa Matrouh / Siwa Oasis, Western Desert, Egypt",
     "type": "safe-haven",
-    "lat": 31.3993,
-    "lng": 27.2923,
+    "lat": 31.3568,
+    "lng": 27.2348,
     "name": {
       "en": "Western Desert Women’s Safe Haven Matrouh"
     },
@@ -42669,8 +42669,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-986",
     "regionDistrict": "Kharga / Dakhla Oasis, New Valley (Wadi El-Gedid), Egypt",
     "type": "safe-haven",
-    "lat": 25.484,
-    "lng": 30.6136,
+    "lat": 25.4415,
+    "lng": 30.5561,
     "name": {
       "en": "New Valley Oasis Women’s Support & Safe Space"
     },
@@ -42725,8 +42725,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-987",
     "regionDistrict": "Marrakech / High Atlas, Morocco",
     "type": "safe-haven",
-    "lat": 31.6745,
-    "lng": -7.9261,
+    "lat": 31.632,
+    "lng": -7.9836,
     "name": {
       "en": "Association Ennakhil pour la Femme et l’Enfant Safe Haven Marrakech"
     },
@@ -42781,8 +42781,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-988",
     "regionDistrict": "Fes / Meknes, Morocco",
     "type": "safe-haven",
-    "lat": 34.0631,
-    "lng": -4.9528,
+    "lat": 34.0206,
+    "lng": -5.0103,
     "name": {
       "en": "Initiative Nationale & Centre d’Écoute pour Femmes Fès"
     },
@@ -42837,8 +42837,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-989-u2",
     "regionDistrict": "Tangier / Tetouan / Rif, Morocco",
     "type": "hospital",
-    "lat": 35.7755,
-    "lng": -5.852,
+    "lat": 35.762,
+    "lng": -5.8315,
     "name": {
       "en": "Hôpital Duc de Tovar Maternité Tangier"
     },
@@ -42865,8 +42865,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-989",
     "regionDistrict": "Tangier / Tetouan / Rif, Morocco",
     "type": "safe-haven",
-    "lat": 35.8045,
-    "lng": -5.779,
+    "lat": 35.762,
+    "lng": -5.8365,
     "name": {
       "en": "Association 100% Mamans (Single Mothers & Women’s Safe Shelter Tangier)"
     },
@@ -42921,8 +42921,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-990",
     "regionDistrict": "Oujda / Nador, Eastern Rif, Morocco",
     "type": "safe-haven",
-    "lat": 34.7264,
-    "lng": -1.8536,
+    "lat": 34.6839,
+    "lng": -1.9111,
     "name": {
       "en": "Centre d’Accueil des Femmes et Migrants Oujda"
     },
@@ -42977,8 +42977,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-991-u2",
     "regionDistrict": "Agadir / Souss-Massa, Morocco",
     "type": "hospital",
-    "lat": 30.4438,
-    "lng": -9.6161,
+    "lat": 30.4303,
+    "lng": -9.5956,
     "name": {
       "en": "Hôpital Hassan II Maternité Agadir"
     },
@@ -43005,8 +43005,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-991",
     "regionDistrict": "Agadir / Souss-Massa, Morocco",
     "type": "safe-haven",
-    "lat": 30.4728,
-    "lng": -9.5431,
+    "lat": 30.4303,
+    "lng": -9.6006,
     "name": {
       "en": "Association Tafiil Moubadarat Safe Shelter Agadir"
     },
@@ -43061,8 +43061,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-992",
     "regionDistrict": "Ouarzazate / Errachidia, Draa-Tafilalet Pre-Sahara, Morocco",
     "type": "safe-haven",
-    "lat": 30.9785,
-    "lng": -6.882,
+    "lat": 30.936,
+    "lng": -6.9395,
     "name": {
       "en": "Oasis & Atlas Women’s Safe Haven Ouarzazate"
     },
@@ -43117,8 +43117,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-993",
     "regionDistrict": "Laâyoune / Dakhla, Atlantic Sahara",
     "type": "safe-haven",
-    "lat": 27.1986,
-    "lng": -13.1483,
+    "lat": 27.1561,
+    "lng": -13.2058,
     "name": {
       "en": "Atlantic Sahara Women’s Support & Safe Center"
     },
@@ -43173,8 +43173,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-994",
     "regionDistrict": "Sfax / Sousse, Tunisia",
     "type": "safe-haven",
-    "lat": 34.7856,
-    "lng": 10.8153,
+    "lat": 34.7431,
+    "lng": 10.7578,
     "name": {
       "en": "ATFD & Centre d’Hébergement pour Femmes Victimes de Violence Sfax"
     },
@@ -43229,8 +43229,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-995",
     "regionDistrict": "Kairouan / Kasserine, Central Interior Tunisia",
     "type": "safe-haven",
-    "lat": 35.7231,
-    "lng": 10.1513,
+    "lat": 35.6806,
+    "lng": 10.0938,
     "name": {
       "en": "Kairouan Rural Women’s Protection & Safe Shelter"
     },
@@ -43285,8 +43285,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-996",
     "regionDistrict": "Gabès / Medenine / Tataouine, Southern Tunisia",
     "type": "safe-haven",
-    "lat": 33.9265,
-    "lng": 10.1532,
+    "lat": 33.884,
+    "lng": 10.0957,
     "name": {
       "en": "Southern Tunisia Women"
     },
@@ -43313,8 +43313,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-996-u2",
     "regionDistrict": "Gabès / Medenine / Tataouine, Southern Tunisia",
     "type": "safe-haven",
-    "lat": 33.9425,
-    "lng": 10.1352,
+    "lat": 33.879,
+    "lng": 10.1007,
     "name": {
       "en": "Refugee Safe Haven Medenine/Gabès"
     },
@@ -43371,8 +43371,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-997",
     "regionDistrict": "Nouakchott, Mauritania",
     "type": "safe-haven",
-    "lat": 18.1185,
-    "lng": -15.9032,
+    "lat": 18.076,
+    "lng": -15.9607,
     "name": {
       "en": "AFCF (Association des Femmes Chefs de Famille) Safe Shelter Nouakchott"
     },
@@ -43427,8 +43427,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-998",
     "regionDistrict": "Nouadhibou / Atar (Adrar), Northern Mauritania",
     "type": "safe-haven",
-    "lat": 20.987,
-    "lng": -16.981,
+    "lat": 20.9445,
+    "lng": -17.0385,
     "name": {
       "en": "AFCF Nouadhibou Women"
     },
@@ -43455,8 +43455,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-998-u2",
     "regionDistrict": "Nouadhibou / Atar (Adrar), Northern Mauritania",
     "type": "safe-haven",
-    "lat": 21.003,
-    "lng": -16.999,
+    "lat": 20.9395,
+    "lng": -17.0335,
     "name": {
       "en": "Migrant Safe Haven"
     },
@@ -43511,8 +43511,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-hosp-999-u2",
     "regionDistrict": "Kiffa / Néma (Hodh Ech Chargui / Mbera Camp), Rural Eastern Mauritania",
     "type": "hospital",
-    "lat": 16.6326,
-    "lng": -11.4225,
+    "lat": 16.6191,
+    "lng": -11.402,
     "name": {
       "en": "Mbera Refugee Camp Maternity"
     },
@@ -43539,8 +43539,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "nafrica-safe-999",
     "regionDistrict": "Kiffa / Néma (Hodh Ech Chargui / Mbera Camp), Rural Eastern Mauritania",
     "type": "safe-haven",
-    "lat": 16.6616,
-    "lng": -11.3495,
+    "lat": 16.6191,
+    "lng": -11.407,
     "name": {
       "en": "UNHCR / ALIMA Women’s Safe Space Kiffa & Mbera"
     },
@@ -43706,8 +43706,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1070",
     "regionDistrict": "Kabul (Shahr-e-Naw / Central), Afghanistan",
     "type": "safe-haven",
-    "lat": 34.5783,
-    "lng": 69.2217,
+    "lat": 34.5358,
+    "lng": 69.1642,
     "name": {
       "en": "UNFPA / Medica Afghanistan Women’s Psychosocial & Safe Counseling Center Kabul"
     },
@@ -43762,8 +43762,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1071",
     "regionDistrict": "Kabul (Foroshgah / Old City), Afghanistan",
     "type": "safe-haven",
-    "lat": 34.5636,
-    "lng": 69.2332,
+    "lat": 34.5211,
+    "lng": 69.1757,
     "name": {
       "en": "Afghan Women’s Network (AWN)"
     },
@@ -43790,8 +43790,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1071-u2",
     "regionDistrict": "Kabul (Foroshgah / Old City), Afghanistan",
     "type": "safe-haven",
-    "lat": 34.5796,
-    "lng": 69.2152,
+    "lat": 34.5161,
+    "lng": 69.1807,
     "name": {
       "en": "Female Midwife Safe Haven Central Kabul"
     },
@@ -43846,8 +43846,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1072",
     "regionDistrict": "Kabul (Dasht-e-Barchi, West Kabul), Afghanistan",
     "type": "safe-haven",
-    "lat": 34.5471,
-    "lng": 69.1314,
+    "lat": 34.5046,
+    "lng": 69.0739,
     "name": {
       "en": "Dasht-e-Barchi Community Midwife & Women’s Safe Space West Kabul"
     },
@@ -43902,8 +43902,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1073",
     "regionDistrict": "Kabul (Darulaman), Afghanistan",
     "type": "safe-haven",
-    "lat": 34.5202,
-    "lng": 69.1785,
+    "lat": 34.4777,
+    "lng": 69.121,
     "name": {
       "en": "CURE Women’s Fistula Recovery & Safe Sanctuary Darulaman"
     },
@@ -43958,8 +43958,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1074",
     "regionDistrict": "Kabul (Ali Abad / University District), Afghanistan",
     "type": "safe-haven",
-    "lat": 34.566,
-    "lng": 69.1888,
+    "lat": 34.5235,
+    "lng": 69.1313,
     "name": {
       "en": "AKHS / FMIC Maternal Support & Women’s Safe Center Kabul"
     },
@@ -44014,8 +44014,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-hosp-1075-u2",
     "regionDistrict": "Kabul (Shahrara / Karte Parwan), Afghanistan",
     "type": "hospital",
-    "lat": 34.5575,
-    "lng": 69.134,
+    "lat": 34.544,
+    "lng": 69.1545,
     "name": {
       "en": "Istiqlal Maternity Ward (شفاخانه شهرآرا و استقلال)"
     },
@@ -44042,8 +44042,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1075",
     "regionDistrict": "Kabul (Shahrara / Karte Parwan), Afghanistan",
     "type": "safe-haven",
-    "lat": 34.5865,
-    "lng": 69.207,
+    "lat": 34.544,
+    "lng": 69.1495,
     "name": {
       "en": "Shahrara Female Doctor & Safe Maternal Triage Center"
     },
@@ -44098,8 +44098,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1076",
     "regionDistrict": "Kandahar, Kandahar Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 31.6739,
-    "lng": 65.7922,
+    "lat": 31.6314,
+    "lng": 65.7347,
     "name": {
       "en": "UNFPA / IRC Women & Girls Safe Space & Family Health House Kandahar"
     },
@@ -44154,8 +44154,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1077",
     "regionDistrict": "Lashkargah, Helmand Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 31.6388,
-    "lng": 64.4266,
+    "lat": 31.5963,
+    "lng": 64.3691,
     "name": {
       "en": "MSF / UNFPA Female-Staffed Safe Maternal Sanctuary Lashkargah"
     },
@@ -44210,8 +44210,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1078",
     "regionDistrict": "Khost, Khost Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 33.3788,
-    "lng": 69.9719,
+    "lat": 33.3363,
+    "lng": 69.9144,
     "name": {
       "en": "Khost All-Female Midwife & Maternal Safe Haven (MSF / Community Clinics)"
     },
@@ -44266,8 +44266,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1079",
     "regionDistrict": "Gardez, Paktia Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 33.6424,
-    "lng": 69.2809,
+    "lat": 33.5999,
+    "lng": 69.2234,
     "name": {
       "en": "UNFPA Family Health House (آشیانه صحی فامیلی) Gardez"
     },
@@ -44322,8 +44322,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-hosp-1080-u2",
     "regionDistrict": "Sharana / Urgun, Paktika Province, Afghanistan",
     "type": "hospital",
-    "lat": 33.1554,
-    "lng": 68.7567,
+    "lat": 33.1419,
+    "lng": 68.7772,
     "name": {
       "en": "Earthquake Relief Clinic"
     },
@@ -44350,8 +44350,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1080",
     "regionDistrict": "Sharana / Urgun, Paktika Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 33.1844,
-    "lng": 68.8297,
+    "lat": 33.1419,
+    "lng": 68.7722,
     "name": {
       "en": "UNFPA Mobile Midwife & Women’s Safe Space Paktika"
     },
@@ -44406,8 +44406,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1081",
     "regionDistrict": "Qalat, Zabul Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 32.1506,
-    "lng": 66.9619,
+    "lat": 32.1081,
+    "lng": 66.9044,
     "name": {
       "en": "Zabul Rural Family Health House"
     },
@@ -44434,8 +44434,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1081-u2",
     "regionDistrict": "Qalat, Zabul Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 32.1666,
-    "lng": 66.9439,
+    "lat": 32.1031,
+    "lng": 66.9094,
     "name": {
       "en": "Female Midwife Post"
     },
@@ -44490,8 +44490,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1082",
     "regionDistrict": "Tarin Kowt, Uruzgan Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 32.6717,
-    "lng": 65.9283,
+    "lat": 32.6292,
+    "lng": 65.8708,
     "name": {
       "en": "Uruzgan UNFPA Family Health House for Rural Women"
     },
@@ -44546,8 +44546,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-hosp-1083-u2",
     "regionDistrict": "Zaranj, Nimruz Province (Sistan Border), Afghanistan",
     "type": "hospital",
-    "lat": 30.9756,
-    "lng": 61.8424,
+    "lat": 30.9621,
+    "lng": 61.8629,
     "name": {
       "en": "Returnee Women’s Clinic (Balochi/Pashto/Dari)"
     },
@@ -44574,8 +44574,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1083",
     "regionDistrict": "Zaranj, Nimruz Province (Sistan Border), Afghanistan",
     "type": "safe-haven",
-    "lat": 31.0046,
-    "lng": 61.9154,
+    "lat": 30.9621,
+    "lng": 61.8579,
     "name": {
       "en": "IOM / UNFPA Border Returnee Women’s Safe Haven Zaranj"
     },
@@ -44630,8 +44630,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1084",
     "regionDistrict": "Herat, Herat Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.3932,
-    "lng": 62.2547,
+    "lat": 34.3507,
+    "lng": 62.1972,
     "name": {
       "en": "Voice of Women Organization (VWO)"
     },
@@ -44658,8 +44658,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1084-u2",
     "regionDistrict": "Herat, Herat Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.4092,
-    "lng": 62.2367,
+    "lat": 34.3457,
+    "lng": 62.2022,
     "name": {
       "en": "UNFPA Women’s Safe Center Herat"
     },
@@ -44714,8 +44714,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1085",
     "regionDistrict": "Farah, Farah Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 32.4195,
-    "lng": 62.1714,
+    "lat": 32.377,
+    "lng": 62.1139,
     "name": {
       "en": "Farah Family Health House & Women’s Protection Post"
     },
@@ -44770,8 +44770,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1086",
     "regionDistrict": "Qala-e-Naw, Badghis Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 35.0324,
-    "lng": 63.1839,
+    "lat": 34.9899,
+    "lng": 63.1264,
     "name": {
       "en": "Badghis Rural Midwife & Women’s Safe Space Qala-e-Naw"
     },
@@ -44826,8 +44826,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1087",
     "regionDistrict": "Chaghcharan (Firuzkoh), Ghor Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.5677,
-    "lng": 65.3067,
+    "lat": 34.5252,
+    "lng": 65.2492,
     "name": {
       "en": "Ghor UNFPA Family Health House & Safe Sanctuary"
     },
@@ -44882,8 +44882,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1088",
     "regionDistrict": "Mazar-i-Sharif, Balkh Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 36.754,
-    "lng": 67.1659,
+    "lat": 36.7115,
+    "lng": 67.1084,
     "name": {
       "en": "UNHCR / UNFPA Women’s Community Support & Safe Haven Mazar-i-Sharif"
     },
@@ -44938,8 +44938,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1089",
     "regionDistrict": "Kunduz, Kunduz Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 36.773,
-    "lng": 68.912,
+    "lat": 36.7305,
+    "lng": 68.8545,
     "name": {
       "en": "Kunduz Women’s Health & Protection Safe Center (Uzbek/Pashto/Dari)"
     },
@@ -44994,8 +44994,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1090",
     "regionDistrict": "Fayzabad, Badakhshan Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 37.1616,
-    "lng": 70.635,
+    "lat": 37.1191,
+    "lng": 70.5775,
     "name": {
       "en": "Aga Khan Health Services (AKHS) Rural Badakhshan Midwife & Women’s Safe Network"
     },
@@ -45050,8 +45050,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1091",
     "regionDistrict": "Ishkashim / Wakhan Corridor, Pamir Badakhshan, Afghanistan",
     "type": "safe-haven",
-    "lat": 36.7694,
-    "lng": 71.6661,
+    "lat": 36.7269,
+    "lng": 71.6086,
     "name": {
       "en": "Wakhan Pamir Rural Midwife & Women’s Safe Post"
     },
@@ -45106,8 +45106,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1092",
     "regionDistrict": "Taloqan, Takhar Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 36.7811,
-    "lng": 69.5895,
+    "lat": 36.7386,
+    "lng": 69.532,
     "name": {
       "en": "Takhar Women’s Community & Family Health Safe Center"
     },
@@ -45162,8 +45162,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1093",
     "regionDistrict": "Pul-i-Khumri, Baghlan Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 35.9896,
-    "lng": 68.7701,
+    "lat": 35.9471,
+    "lng": 68.7126,
     "name": {
       "en": "Baghlan UNFPA Family Health House & Women’s Safe Space"
     },
@@ -45218,8 +45218,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1094",
     "regionDistrict": "Aybak, Samangan Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 36.3097,
-    "lng": 68.0705,
+    "lat": 36.2672,
+    "lng": 68.013,
     "name": {
       "en": "Samangan Rural Midwife & Women’s Safe Center"
     },
@@ -45274,8 +45274,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1095",
     "regionDistrict": "Sheberghan, Jowzjan Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 36.7126,
-    "lng": 65.8079,
+    "lat": 36.6701,
+    "lng": 65.7504,
     "name": {
       "en": "Jowzjan Women’s Protection & Family Health House Sheberghan"
     },
@@ -45330,8 +45330,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1096",
     "regionDistrict": "Maymana, Faryab Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 35.9664,
-    "lng": 64.8386,
+    "lat": 35.9239,
+    "lng": 64.7811,
     "name": {
       "en": "Faryab Rural Women’s Safe Space & Midwifery Hub"
     },
@@ -45386,8 +45386,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1097",
     "regionDistrict": "Sar-e Pol, Sar-e Pol Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 36.2604,
-    "lng": 65.9875,
+    "lat": 36.2179,
+    "lng": 65.93,
     "name": {
       "en": "Sar-e Pol Family Health House for Rural Women"
     },
@@ -45442,8 +45442,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-hosp-1098-u2",
     "regionDistrict": "Jalalabad, Nangarhar Province, Afghanistan",
     "type": "hospital",
-    "lat": 34.4425,
-    "lng": 70.4335,
+    "lat": 34.429,
+    "lng": 70.454,
     "name": {
       "en": "University Teaching Hospital — Maternity Tower (شفاخانه حوزوی ننگرهار)"
     },
@@ -45470,8 +45470,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1098",
     "regionDistrict": "Jalalabad, Nangarhar Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.4715,
-    "lng": 70.5065,
+    "lat": 34.429,
+    "lng": 70.449,
     "name": {
       "en": "HealthNet TPO"
     },
@@ -45498,8 +45498,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1098-u2",
     "regionDistrict": "Jalalabad, Nangarhar Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.4875,
-    "lng": 70.4885,
+    "lat": 34.424,
+    "lng": 70.454,
     "name": {
       "en": "UNFPA Women’s Safe Center Jalalabad (Pashto/Pashayi)"
     },
@@ -45554,8 +45554,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1099",
     "regionDistrict": "Asadabad, Kunar Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.9181,
-    "lng": 71.2019,
+    "lat": 34.8756,
+    "lng": 71.1444,
     "name": {
       "en": "Kunar Valley Family Health House"
     },
@@ -45582,8 +45582,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1099-u2",
     "regionDistrict": "Asadabad, Kunar Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.9341,
-    "lng": 71.1839,
+    "lat": 34.8706,
+    "lng": 71.1494,
     "name": {
       "en": "Female Midwife Post"
     },
@@ -45638,8 +45638,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1100",
     "regionDistrict": "Mehtarlam, Laghman Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.7164,
-    "lng": 70.2644,
+    "lat": 34.6739,
+    "lng": 70.2069,
     "name": {
       "en": "Laghman Women’s Health & Safe Counseling Center"
     },
@@ -45694,8 +45694,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1101",
     "regionDistrict": "Parun / Kamdesh, Nuristan Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 35.4656,
-    "lng": 70.9778,
+    "lat": 35.4231,
+    "lng": 70.9203,
     "name": {
       "en": "Nuristan UNFPA Rural Family Health House"
     },
@@ -45750,8 +45750,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1102",
     "regionDistrict": "Anabah, Panjshir Valley, Afghanistan",
     "type": "safe-haven",
-    "lat": 35.2739,
-    "lng": 69.4339,
+    "lat": 35.2314,
+    "lng": 69.3764,
     "name": {
       "en": "EMERGENCY Prenatal & Women’s Safe Care Network Panjshir"
     },
@@ -45806,8 +45806,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1103",
     "regionDistrict": "Charikar / Mahmud Raqi, Parwan & Kapisa, Afghanistan",
     "type": "safe-haven",
-    "lat": 35.0586,
-    "lng": 69.2264,
+    "lat": 35.0161,
+    "lng": 69.1689,
     "name": {
       "en": "Parwan & Kapisa Women’s Family Health Safe Space"
     },
@@ -45862,8 +45862,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1104",
     "regionDistrict": "Nili, Daykundi Province (Central Highlands), Afghanistan",
     "type": "safe-haven",
-    "lat": 33.7669,
-    "lng": 66.1853,
+    "lat": 33.7244,
+    "lng": 66.1278,
     "name": {
       "en": "Daykundi Rural Family Health House & Midwife Safe Haven"
     },
@@ -45918,8 +45918,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1105",
     "regionDistrict": "Ghazni, Ghazni Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 33.5901,
-    "lng": 68.4724,
+    "lat": 33.5476,
+    "lng": 68.4149,
     "name": {
       "en": "Ghazni Women & Maternal Support Safe Space"
     },
@@ -45974,8 +45974,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "afg-safe-1106",
     "regionDistrict": "Maidan Shahr / Pul-i-Alam, Wardak & Logar, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.4406,
-    "lng": 68.9219,
+    "lat": 34.3981,
+    "lng": 68.8644,
     "name": {
       "en": "Swedish Committee (SCA) / UNFPA Rural Midwife & Women’s Safe Post"
     },
@@ -46030,8 +46030,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1144",
     "regionDistrict": "Tehran (Tehranpars / East), Iran",
     "type": "safe-haven",
-    "lat": 35.7788,
-    "lng": 51.5869,
+    "lat": 35.7393,
+    "lng": 51.5324,
     "name": {
       "en": "Tehranpars Behzisti Safe House"
     },
@@ -46058,8 +46058,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1144-u2",
     "regionDistrict": "Tehran (Tehranpars / East), Iran",
     "type": "safe-haven",
-    "lat": 35.7948,
-    "lng": 51.5689,
+    "lat": 35.7343,
+    "lng": 51.5374,
     "name": {
       "en": "East Tehran Social Emergency 123 (خانه امن بهزیستی تهرانپارس)"
     },
@@ -46114,8 +46114,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1145",
     "regionDistrict": "Tehran (Central / Nejatollahi), Iran",
     "type": "safe-haven",
-    "lat": 35.7529,
-    "lng": 51.4687,
+    "lat": 35.7134,
+    "lng": 51.4142,
     "name": {
       "en": "Central Tehran Behzisti Women’s Safe House & Legal Crisis Center (خانه امن زنان مرکز تهران)"
     },
@@ -46170,8 +46170,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1146",
     "regionDistrict": "Tehran (South / Shush & Rey), Iran",
     "type": "safe-haven",
-    "lat": 35.7051,
-    "lng": 51.4867,
+    "lat": 35.6656,
+    "lng": 51.4322,
     "name": {
       "en": "Khane Khorshid (خانه خورشید)"
     },
@@ -46198,8 +46198,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1146-u2",
     "regionDistrict": "Tehran (South / Shush & Rey), Iran",
     "type": "safe-haven",
-    "lat": 35.7211,
-    "lng": 51.4687,
+    "lat": 35.6606,
+    "lng": 51.4372,
     "name": {
       "en": "Tolu-e Bi-Neshanha South Tehran Women’s Safe Sanctuary"
     },
@@ -46254,8 +46254,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1147",
     "regionDistrict": "Tehran (North / Gholhak & Shariati), Iran",
     "type": "safe-haven",
-    "lat": 35.8165,
-    "lng": 51.4946,
+    "lat": 35.777,
+    "lng": 51.4401,
     "name": {
       "en": "Shemiranat Women’s Safe House & Social Emergency 123 Center (مرکز مداخله در بحران شمیرانات)"
     },
@@ -46310,8 +46310,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1148",
     "regionDistrict": "Tehran (West / Ekbatan), Iran",
     "type": "safe-haven",
-    "lat": 35.7489,
-    "lng": 51.3595,
+    "lat": 35.7094,
+    "lng": 51.305,
     "name": {
       "en": "West Tehran Women’s Safe Haven & Crisis Support Center (خانه امن غرب تهران - بهزیستی)"
     },
@@ -46366,8 +46366,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1149",
     "regionDistrict": "Tehran (Keshavarz Blvd), Iran",
     "type": "safe-haven",
-    "lat": 35.7502,
-    "lng": 51.4322,
+    "lat": 35.7107,
+    "lng": 51.3777,
     "name": {
       "en": "Mehr Shams-Afarid Women’s Support & Safe Shelter Network Tehran (موسسه مهر شمس‌آفرید)"
     },
@@ -46422,8 +46422,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1150",
     "regionDistrict": "Tehran (Jomhouri / Baharestan), Iran",
     "type": "safe-haven",
-    "lat": 35.7334,
-    "lng": 51.4839,
+    "lat": 35.6939,
+    "lng": 51.4294,
     "name": {
       "en": "Baharestan Women’s Safe House & Family Protection Unit (خانه امن بانوان بهارستان)"
     },
@@ -46478,8 +46478,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1151",
     "regionDistrict": "Karaj, Alborz Province, Iran",
     "type": "safe-haven",
-    "lat": 35.8747,
-    "lng": 51.0435,
+    "lat": 35.8352,
+    "lng": 50.989,
     "name": {
       "en": "Alborz Provincial Behzisti Women’s Safe House (خانه امن زنان کرج - اورژانس اجتماعی ۱۲۳)"
     },
@@ -46534,8 +46534,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1152",
     "regionDistrict": "Mashhad (Central), Razavi Khorasan, Iran",
     "type": "safe-haven",
-    "lat": 36.3392,
-    "lng": 59.6587,
+    "lat": 36.2997,
+    "lng": 59.6042,
     "name": {
       "en": "Mashhad Behzisti Safe House for Women & Girls (خانه امن زنان مشهد - اورژانس اجتماعی ۱۲۳)"
     },
@@ -46590,8 +46590,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1153-u2",
     "regionDistrict": "Mashhad (Ahmadabad / West), Razavi Khorasan, Iran",
     "type": "hospital",
-    "lat": 36.3045,
-    "lng": 59.5452,
+    "lat": 36.291,
+    "lng": 59.5657,
     "name": {
       "en": "Bentolhoda Maternity Hospitals (بیمارستان قائم، امام رضا و زایشگاه بنت‌الهدی مشهد)"
     },
@@ -46618,8 +46618,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1153",
     "regionDistrict": "Mashhad (Ahmadabad / West), Razavi Khorasan, Iran",
     "type": "safe-haven",
-    "lat": 36.3305,
-    "lng": 59.6152,
+    "lat": 36.291,
+    "lng": 59.5607,
     "name": {
       "en": "Khorasan Women’s Crisis Intervention & Sanctuary Center (مرکز مداخله در بحران بانوان خراسان)"
     },
@@ -46674,8 +46674,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1154",
     "regionDistrict": "Neyshabur, Razavi Khorasan, Iran",
     "type": "safe-haven",
-    "lat": 36.2553,
-    "lng": 58.8478,
+    "lat": 36.2158,
+    "lng": 58.7933,
     "name": {
       "en": "Neyshabur Women’s Safe Haven"
     },
@@ -46702,8 +46702,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1154-u2",
     "regionDistrict": "Neyshabur, Razavi Khorasan, Iran",
     "type": "safe-haven",
-    "lat": 36.2713,
-    "lng": 58.8298,
+    "lat": 36.2108,
+    "lng": 58.7983,
     "name": {
       "en": "Behzisti 123 Center (خانه امن بانوان نیشابور)"
     },
@@ -46758,8 +46758,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1155",
     "regionDistrict": "Sabzevar, Razavi Khorasan, Iran",
     "type": "safe-haven",
-    "lat": 36.2546,
-    "lng": 57.7339,
+    "lat": 36.2151,
+    "lng": 57.6794,
     "name": {
       "en": "Sabzevar Social Emergency 123 & Women’s Shelter (اورژانس اجتماعی و خانه امن سبزوار)"
     },
@@ -46814,8 +46814,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1156",
     "regionDistrict": "Isfahan (Central), Isfahan Province, Iran",
     "type": "safe-haven",
-    "lat": 32.6959,
-    "lng": 51.718,
+    "lat": 32.6564,
+    "lng": 51.6635,
     "name": {
       "en": "Isfahan Behzisti Women’s Safe House & Social Emergency 123 (خانه امن زنان اصفهان)"
     },
@@ -46870,8 +46870,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1157-u2",
     "regionDistrict": "Isfahan (Sofeh / South), Isfahan Province, Iran",
     "type": "hospital",
-    "lat": 32.6205,
-    "lng": 51.6445,
+    "lat": 32.607,
+    "lng": 51.665,
     "name": {
       "en": "Saadatiyeh Maternity Center (بیمارستان الزهرا و زایشگاه سعدیه اصفهان)"
     },
@@ -46898,8 +46898,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1157",
     "regionDistrict": "Isfahan (Sofeh / South), Isfahan Province, Iran",
     "type": "safe-haven",
-    "lat": 32.6465,
-    "lng": 51.7145,
+    "lat": 32.607,
+    "lng": 51.66,
     "name": {
       "en": "Isfahan Women’s Protection & Family Crisis Shelter (مرکز حمایت روانی و خانه امن بانوان اصفهان)"
     },
@@ -46954,8 +46954,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1158-u2",
     "regionDistrict": "Kashan, Isfahan Province, Iran",
     "type": "hospital",
-    "lat": 34.001,
-    "lng": 51.392,
+    "lat": 33.9875,
+    "lng": 51.4125,
     "name": {
       "en": "Shahid Beheshti Hospital (زایشگاه شبیه‌خوانی و بیمارستان شهید بهشتی کاشان)"
     },
@@ -46982,8 +46982,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1158",
     "regionDistrict": "Kashan, Isfahan Province, Iran",
     "type": "safe-haven",
-    "lat": 34.027,
-    "lng": 51.462,
+    "lat": 33.9875,
+    "lng": 51.4075,
     "name": {
       "en": "Kashan Women’s Safe House & Social Emergency 123 (خانه امن بانوان کاشان)"
     },
@@ -47038,8 +47038,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1159",
     "regionDistrict": "Shiraz (Central / East), Fars Province, Iran",
     "type": "safe-haven",
-    "lat": 29.6338,
-    "lng": 52.6357,
+    "lat": 29.5943,
+    "lng": 52.5812,
     "name": {
       "en": "Shiraz Behzisti Women’s Safe House & Social Emergency 123 (خانه امن زنان شیراز)"
     },
@@ -47094,8 +47094,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1160-u2",
     "regionDistrict": "Shiraz (Zand / North), Fars Province, Iran",
     "type": "hospital",
-    "lat": 29.6455,
-    "lng": 52.5038,
+    "lat": 29.632,
+    "lng": 52.5243,
     "name": {
       "en": "Namazi Hospital (بیمارستان تخصصی زنان حافظ و نمازی شیراز)"
     },
@@ -47122,8 +47122,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1160",
     "regionDistrict": "Shiraz (Zand / North), Fars Province, Iran",
     "type": "safe-haven",
-    "lat": 29.6715,
-    "lng": 52.5738,
+    "lat": 29.632,
+    "lng": 52.5193,
     "name": {
       "en": "Fars Women’s Sanctuary & Crisis Counseling Center (مرکز مداخله در بحران و پناهگاه بانوان فارس)"
     },
@@ -47178,8 +47178,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1161-u2",
     "regionDistrict": "Jahrom & Lar, Southern Fars Province, Iran",
     "type": "hospital",
-    "lat": 28.516,
-    "lng": 53.542,
+    "lat": 28.5025,
+    "lng": 53.5625,
     "name": {
       "en": "Emam Reza Maternity Hospital Lar (بیمارستان پیمانیه جهرم و امام رضا لار)"
     },
@@ -47206,8 +47206,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1161",
     "regionDistrict": "Jahrom & Lar, Southern Fars Province, Iran",
     "type": "safe-haven",
-    "lat": 28.542,
-    "lng": 53.612,
+    "lat": 28.5025,
+    "lng": 53.5575,
     "name": {
       "en": "Southern Fars Rural Women’s Safe House"
     },
@@ -47234,8 +47234,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1161-u2",
     "regionDistrict": "Jahrom & Lar, Southern Fars Province, Iran",
     "type": "safe-haven",
-    "lat": 28.558,
-    "lng": 53.594,
+    "lat": 28.4975,
+    "lng": 53.5625,
     "name": {
       "en": "Mobile 123 Unit (اورژانس اجتماعی جنوب فارس)"
     },
@@ -47290,8 +47290,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1162",
     "regionDistrict": "Tabriz (Artesh St), East Azerbaijan, Iran",
     "type": "safe-haven",
-    "lat": 38.116,
-    "lng": 46.348,
+    "lat": 38.0765,
+    "lng": 46.2935,
     "name": {
       "en": "Tabriz Behzisti Women’s Safe House"
     },
@@ -47318,8 +47318,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1162-u2",
     "regionDistrict": "Tabriz (Artesh St), East Azerbaijan, Iran",
     "type": "safe-haven",
-    "lat": 38.132,
-    "lng": 46.33,
+    "lat": 38.0715,
+    "lng": 46.2985,
     "name": {
       "en": "Azeri-Speaking 123 Crisis Unit (خانه امن زنان تبریز)"
     },
@@ -47374,8 +47374,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1163-u2",
     "regionDistrict": "Tabriz (South / Taleghani), East Azerbaijan, Iran",
     "type": "hospital",
-    "lat": 38.0622,
-    "lng": 46.2605,
+    "lat": 38.0487,
+    "lng": 46.281,
     "name": {
       "en": "Perinatology Hospital (بیمارستان آموزشی درمانی زنان و زایمان طالقانی تبریز)"
     },
@@ -47402,8 +47402,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1163",
     "regionDistrict": "Tabriz (South / Taleghani), East Azerbaijan, Iran",
     "type": "safe-haven",
-    "lat": 38.0882,
-    "lng": 46.3305,
+    "lat": 38.0487,
+    "lng": 46.276,
     "name": {
       "en": "East Azerbaijan Women’s Legal & Emergency Shelter Network (مرکز حمایت از بانوان آذربایجان شرقی)"
     },
@@ -47458,8 +47458,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1164",
     "regionDistrict": "Urmia, West Azerbaijan, Iran",
     "type": "safe-haven",
-    "lat": 37.5947,
-    "lng": 45.1281,
+    "lat": 37.5552,
+    "lng": 45.0736,
     "name": {
       "en": "Urmia Behzisti Women’s Safe House (خانه امن زنان ارومیه - اورژانس اجتماعی ۱۲۳)"
     },
@@ -47514,8 +47514,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1165-u2",
     "regionDistrict": "Mahabad, West Azerbaijan, Iran",
     "type": "hospital",
-    "lat": 36.7791,
-    "lng": 45.7042,
+    "lat": 36.7656,
+    "lng": 45.7247,
     "name": {
       "en": "Kurdish Rural Midwifery Wing (بیمارستان امام خمینی مهاباد)"
     },
@@ -47542,8 +47542,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1165",
     "regionDistrict": "Mahabad, West Azerbaijan, Iran",
     "type": "safe-haven",
-    "lat": 36.8051,
-    "lng": 45.7742,
+    "lat": 36.7656,
+    "lng": 45.7197,
     "name": {
       "en": "Mahabad Kurdish Women’s Safe Space & Social Emergency 123 (مرکز اورژانس اجتماعی بانوان مهاباد)"
     },
@@ -47598,8 +47598,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1166",
     "regionDistrict": "Ahvaz, Khuzestan Province, Iran",
     "type": "safe-haven",
-    "lat": 31.3603,
-    "lng": 48.7226,
+    "lat": 31.3208,
+    "lng": 48.6681,
     "name": {
       "en": "Ahvaz Behzisti Women’s Safe House"
     },
@@ -47626,8 +47626,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1166-u2",
     "regionDistrict": "Ahvaz, Khuzestan Province, Iran",
     "type": "safe-haven",
-    "lat": 31.3763,
-    "lng": 48.7046,
+    "lat": 31.3158,
+    "lng": 48.6731,
     "name": {
       "en": "Arabic/Persian 123 Crisis Center (خانه امن زنان اهواز)"
     },
@@ -47682,8 +47682,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1167-u2",
     "regionDistrict": "Dezful & Abadan, Khuzestan Province, Iran",
     "type": "hospital",
-    "lat": 32.3971,
-    "lng": 48.3878,
+    "lat": 32.3836,
+    "lng": 48.4083,
     "name": {
       "en": "Taleghani Maternity Hospital Abadan (بیمارستان گنجویان دزفول و طالقانی آبادان)"
     },
@@ -47710,8 +47710,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1167",
     "regionDistrict": "Dezful & Abadan, Khuzestan Province, Iran",
     "type": "safe-haven",
-    "lat": 32.4231,
-    "lng": 48.4578,
+    "lat": 32.3836,
+    "lng": 48.4033,
     "name": {
       "en": "Dezful & Abadan Women’s Safe Haven & Social Emergency 123 (خانه امن بانوان دزفول و آبادان)"
     },
@@ -47766,8 +47766,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1168",
     "regionDistrict": "Rasht, Gilan Province, Iran",
     "type": "safe-haven",
-    "lat": 37.3228,
-    "lng": 49.6352,
+    "lat": 37.2833,
+    "lng": 49.5807,
     "name": {
       "en": "Gilan Behzisti Women’s Safe House Rasht (خانه امن زنان رشت - اورژانس اجتماعی ۱۲۳)"
     },
@@ -47822,8 +47822,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1169-u2",
     "regionDistrict": "Sari & Babol, Mazandaran Province, Iran",
     "type": "hospital",
-    "lat": 36.5793,
-    "lng": 53.0421,
+    "lat": 36.5658,
+    "lng": 53.0626,
     "name": {
       "en": "Rohani Hospital Babol (بیمارستان امام خمینی ساری و روحانی بابل)"
     },
@@ -47850,8 +47850,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1169",
     "regionDistrict": "Sari & Babol, Mazandaran Province, Iran",
     "type": "safe-haven",
-    "lat": 36.6053,
-    "lng": 53.1121,
+    "lat": 36.5658,
+    "lng": 53.0576,
     "name": {
       "en": "Mazandaran Provincial Women’s Safe House"
     },
@@ -47878,8 +47878,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1169-u2",
     "regionDistrict": "Sari & Babol, Mazandaran Province, Iran",
     "type": "safe-haven",
-    "lat": 36.6213,
-    "lng": 53.0941,
+    "lat": 36.5608,
+    "lng": 53.0626,
     "name": {
       "en": "123 Shelter (خانه امن زنان مازندران - ساری و بابل)"
     },
@@ -47934,8 +47934,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1170-u2",
     "regionDistrict": "Gorgan & Gonbad-e Kavus, Golestan Province, Iran",
     "type": "hospital",
-    "lat": 36.8587,
-    "lng": 54.4259,
+    "lat": 36.8452,
+    "lng": 54.4464,
     "name": {
       "en": "Shohada Turkmen Sahra Maternity (بیمارستان صیاد شیرازی گرگان و گنبد)"
     },
@@ -47962,8 +47962,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1170",
     "regionDistrict": "Gorgan & Gonbad-e Kavus, Golestan Province, Iran",
     "type": "safe-haven",
-    "lat": 36.8847,
-    "lng": 54.4959,
+    "lat": 36.8452,
+    "lng": 54.4414,
     "name": {
       "en": "Golestan & Turkmen Sahra Women’s Safe House (خانه امن زنان گرگان و ترکمن‌صحرا - ۱۲۳)"
     },
@@ -48018,8 +48018,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1171-u2",
     "regionDistrict": "Kermanshah, Kermanshah Province, Iran",
     "type": "hospital",
-    "lat": 34.3302,
-    "lng": 47.047,
+    "lat": 34.3167,
+    "lng": 47.0675,
     "name": {
       "en": "Imam Reza Perinatology Center (زایشگاه معتضدی و بیمارستان امام رضا کرمانشاه)"
     },
@@ -48046,8 +48046,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1171",
     "regionDistrict": "Kermanshah, Kermanshah Province, Iran",
     "type": "safe-haven",
-    "lat": 34.3562,
-    "lng": 47.117,
+    "lat": 34.3167,
+    "lng": 47.0625,
     "name": {
       "en": "Kermanshah Behzisti Women’s Safe House"
     },
@@ -48074,8 +48074,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1171-u2",
     "regionDistrict": "Kermanshah, Kermanshah Province, Iran",
     "type": "safe-haven",
-    "lat": 34.3722,
-    "lng": 47.099,
+    "lat": 34.3117,
+    "lng": 47.0675,
     "name": {
       "en": "Kurdish/Persian 123 Line (خانه امن زنان کرمانشاه)"
     },
@@ -48130,8 +48130,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1172",
     "regionDistrict": "Sanandaj, Kurdistan Province, Iran",
     "type": "safe-haven",
-    "lat": 35.3569,
-    "lng": 47.0443,
+    "lat": 35.3174,
+    "lng": 46.9898,
     "name": {
       "en": "Sanandaj Behzisti Women’s Safe House"
     },
@@ -48158,8 +48158,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1172-u2",
     "regionDistrict": "Sanandaj, Kurdistan Province, Iran",
     "type": "safe-haven",
-    "lat": 35.3729,
-    "lng": 47.0263,
+    "lat": 35.3124,
+    "lng": 46.9948,
     "name": {
       "en": "Kurdish Crisis Support (خانه امن زنان سنندج - ۱۲۳)"
     },
@@ -48214,8 +48214,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1173",
     "regionDistrict": "Kerman, Kerman Province, Iran",
     "type": "safe-haven",
-    "lat": 30.3259,
-    "lng": 57.1354,
+    "lat": 30.2864,
+    "lng": 57.0809,
     "name": {
       "en": "Kerman Behzisti Women’s Safe House & Rural Mobile 123 Team (خانه امن زنان کرمان)"
     },
@@ -48270,8 +48270,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1174-u2",
     "regionDistrict": "Bam & Jiroft, Southern Kerman Province, Iran",
     "type": "hospital",
-    "lat": 29.122,
-    "lng": 58.339,
+    "lat": 29.1085,
+    "lng": 58.3595,
     "name": {
       "en": "Kashani Maternity Hospital Jiroft (بیمارستان پاستور بم و کاشانی جیرفت)"
     },
@@ -48298,8 +48298,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1174",
     "regionDistrict": "Bam & Jiroft, Southern Kerman Province, Iran",
     "type": "safe-haven",
-    "lat": 29.148,
-    "lng": 58.409,
+    "lat": 29.1085,
+    "lng": 58.3545,
     "name": {
       "en": "Bam & Jiroft Women’s Safe Haven"
     },
@@ -48326,8 +48326,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1174-u2",
     "regionDistrict": "Bam & Jiroft, Southern Kerman Province, Iran",
     "type": "safe-haven",
-    "lat": 29.164,
-    "lng": 58.391,
+    "lat": 29.1035,
+    "lng": 58.3595,
     "name": {
       "en": "Earthquake/Crisis Support Center (خانه امن بانوان بم و جیرفت)"
     },
@@ -48382,8 +48382,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1175",
     "regionDistrict": "Zahedan, Sistan and Baluchestan, Iran",
     "type": "safe-haven",
-    "lat": 29.5383,
-    "lng": 60.9149,
+    "lat": 29.4988,
+    "lng": 60.8604,
     "name": {
       "en": "Zahedan Behzisti Women’s Safe House"
     },
@@ -48410,8 +48410,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1175-u2",
     "regionDistrict": "Zahedan, Sistan and Baluchestan, Iran",
     "type": "safe-haven",
-    "lat": 29.5543,
-    "lng": 60.8969,
+    "lat": 29.4938,
+    "lng": 60.8654,
     "name": {
       "en": "Balochi/Persian 123 Protection (خانه امن زنان زاهدان)"
     },
@@ -48466,8 +48466,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1176-u2",
     "regionDistrict": "Iranshahr & Chabahar (Makran Coast), Sistan and Baluchestan, Iran",
     "type": "hospital",
-    "lat": 27.2185,
-    "lng": 60.6668,
+    "lat": 27.205,
+    "lng": 60.6873,
     "name": {
       "en": "Imam Ali Maternity Hospital Chabahar (بیمارستان ایران ایرانشهر و امام علی چابهار)"
     },
@@ -48494,8 +48494,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1176",
     "regionDistrict": "Iranshahr & Chabahar (Makran Coast), Sistan and Baluchestan, Iran",
     "type": "safe-haven",
-    "lat": 27.2445,
-    "lng": 60.7368,
+    "lat": 27.205,
+    "lng": 60.6823,
     "name": {
       "en": "Baluchestan & Makran Rural Midwife Safe Space"
     },
@@ -48522,8 +48522,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1176-u2",
     "regionDistrict": "Iranshahr & Chabahar (Makran Coast), Sistan and Baluchestan, Iran",
     "type": "safe-haven",
-    "lat": 27.2605,
-    "lng": 60.7188,
+    "lat": 27.2,
+    "lng": 60.6873,
     "name": {
       "en": "123 Emergency (مرکز حمایت از زنان و مادران بلوچستان)"
     },
@@ -48578,8 +48578,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1177-u2",
     "regionDistrict": "Bandar Abbas & Qeshm/Kish Islands, Hormozgan, Iran",
     "type": "hospital",
-    "lat": 27.1992,
-    "lng": 56.2486,
+    "lat": 27.1857,
+    "lng": 56.2691,
     "name": {
       "en": "Kish Hospital (بیمارستان تخصصی زنان شریعتی بندرعباس)"
     },
@@ -48606,8 +48606,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1177",
     "regionDistrict": "Bandar Abbas & Qeshm/Kish Islands, Hormozgan, Iran",
     "type": "safe-haven",
-    "lat": 27.2252,
-    "lng": 56.3186,
+    "lat": 27.1857,
+    "lng": 56.2641,
     "name": {
       "en": "Hormozgan & Persian Gulf Islands Women’s Safe House (خانه امن زنان بندرعباس و جزایر خلیج فارس)"
     },
@@ -48662,8 +48662,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1178-u2",
     "regionDistrict": "Yazd, Yazd Province, Iran",
     "type": "hospital",
-    "lat": 31.9134,
-    "lng": 54.3389,
+    "lat": 31.8999,
+    "lng": 54.3594,
     "name": {
       "en": "Yazd Reproductive Institute (بیمارستان زنان مجیبیان و صدوقی یزد)"
     },
@@ -48690,8 +48690,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1178",
     "regionDistrict": "Yazd, Yazd Province, Iran",
     "type": "safe-haven",
-    "lat": 31.9394,
-    "lng": 54.4089,
+    "lat": 31.8999,
+    "lng": 54.3544,
     "name": {
       "en": "Yazd Behzisti Women’s Safe House & Social Emergency 123 (خانه امن زنان یزد)"
     },
@@ -48746,8 +48746,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1179",
     "regionDistrict": "Qom, Qom Province, Iran",
     "type": "safe-haven",
-    "lat": 34.6836,
-    "lng": 50.9266,
+    "lat": 34.6441,
+    "lng": 50.8721,
     "name": {
       "en": "Qom Behzisti Women’s Safe House & Family Crisis Center (خانه امن زنان قم - اورژانس اجتماعی ۱۲۳)"
     },
@@ -48802,8 +48802,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1180",
     "regionDistrict": "Arak, Markazi Province, Iran",
     "type": "safe-haven",
-    "lat": 34.1374,
-    "lng": 49.7533,
+    "lat": 34.0979,
+    "lng": 49.6988,
     "name": {
       "en": "Arak Behzisti Women’s Safe House (خانه امن زنان اراک - اورژانس اجتماعی ۱۲۳)"
     },
@@ -48858,8 +48858,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1181",
     "regionDistrict": "Hamedan, Hamedan Province, Iran",
     "type": "safe-haven",
-    "lat": 34.8409,
-    "lng": 48.567,
+    "lat": 34.8014,
+    "lng": 48.5125,
     "name": {
       "en": "Hamedan Behzisti Women’s Safe House (خانه امن زنان همدان - اورژانس اجتماعی ۱۲۳)"
     },
@@ -48914,8 +48914,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1182",
     "regionDistrict": "Qazvin, Qazvin Province, Iran",
     "type": "safe-haven",
-    "lat": 36.3108,
-    "lng": 50.0561,
+    "lat": 36.2713,
+    "lng": 50.0016,
     "name": {
       "en": "Qazvin Behzisti Women’s Safe House (خانه امن زنان قزوین - اورژانس اجتماعی ۱۲۳)"
     },
@@ -48970,8 +48970,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1183-u2",
     "regionDistrict": "Zanjan, Zanjan Province, Iran",
     "type": "hospital",
-    "lat": 36.6896,
-    "lng": 48.4607,
+    "lat": 36.6761,
+    "lng": 48.4812,
     "name": {
       "en": "Bahman Women’s & Maternity Hospitals (بیمارستان آیت‌الله موسوی و بهمن زنجان)"
     },
@@ -48998,8 +48998,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1183",
     "regionDistrict": "Zanjan, Zanjan Province, Iran",
     "type": "safe-haven",
-    "lat": 36.7156,
-    "lng": 48.5307,
+    "lat": 36.6761,
+    "lng": 48.4762,
     "name": {
       "en": "Zanjan Behzisti Women’s Safe House (خانه امن زنان زنجان - اورژانس اجتماعی ۱۲۳)"
     },
@@ -49054,8 +49054,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1184",
     "regionDistrict": "Ardabil, Ardabil Province, Iran",
     "type": "safe-haven",
-    "lat": 38.2918,
-    "lng": 48.3453,
+    "lat": 38.2523,
+    "lng": 48.2908,
     "name": {
       "en": "Ardabil Behzisti Women’s Safe House (خانه امن زنان اردبیل - اورژانس اجتماعی ۱۲۳)"
     },
@@ -49110,8 +49110,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1185",
     "regionDistrict": "Khorramabad, Lorestan Province, Iran",
     "type": "safe-haven",
-    "lat": 33.5298,
-    "lng": 48.4078,
+    "lat": 33.4903,
+    "lng": 48.3533,
     "name": {
       "en": "Lorestan Behzisti Women’s Safe House"
     },
@@ -49138,8 +49138,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1185-u2",
     "regionDistrict": "Khorramabad, Lorestan Province, Iran",
     "type": "safe-haven",
-    "lat": 33.5458,
-    "lng": 48.3898,
+    "lat": 33.4853,
+    "lng": 48.3583,
     "name": {
       "en": "Luri/Persian 123 Support (خانه امن زنان خرم‌آباد)"
     },
@@ -49194,8 +49194,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1186",
     "regionDistrict": "Ilam, Ilam Province, Iran",
     "type": "safe-haven",
-    "lat": 33.6794,
-    "lng": 46.4747,
+    "lat": 33.6399,
+    "lng": 46.4202,
     "name": {
       "en": "Ilam Behzisti Women’s Safe House (خانه امن زنان ایلام - اورژانس اجتماعی ۱۲۳)"
     },
@@ -49250,8 +49250,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1187-u2",
     "regionDistrict": "Shahrekord & Yasuj (Zagros Region), Iran",
     "type": "hospital",
-    "lat": 32.3416,
-    "lng": 50.8464,
+    "lat": 32.3281,
+    "lng": 50.8669,
     "name": {
       "en": "Imam Sajjad Maternity Hospital Yasuj (بیمارستان هاجر شهرکرد و امام سجاد یاسوج)"
     },
@@ -49278,8 +49278,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1187",
     "regionDistrict": "Shahrekord & Yasuj (Zagros Region), Iran",
     "type": "safe-haven",
-    "lat": 32.3676,
-    "lng": 50.9164,
+    "lat": 32.3281,
+    "lng": 50.8619,
     "name": {
       "en": "Zagros & Bakhtiari Nomadic/Rural Women’s Safe House (خانه امن زنان شهرکرد و یاسوج - ۱۲۳)"
     },
@@ -49334,8 +49334,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1188-u2",
     "regionDistrict": "Bushehr, Bushehr Province, Iran",
     "type": "hospital",
-    "lat": 28.9394,
-    "lng": 50.8023,
+    "lat": 28.9259,
+    "lng": 50.8228,
     "name": {
       "en": "Bentolhoda Maternity Hospital Bushehr (بیمارستان شهدای خلیج فارس و بنت‌الهدی بوشهر)"
     },
@@ -49362,8 +49362,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1188",
     "regionDistrict": "Bushehr, Bushehr Province, Iran",
     "type": "safe-haven",
-    "lat": 28.9654,
-    "lng": 50.8723,
+    "lat": 28.9259,
+    "lng": 50.8178,
     "name": {
       "en": "Bushehr Behzisti Women’s Safe House (خانه امن زنان بوشهر - اورژانس اجتماعی ۱۲۳)"
     },
@@ -49418,8 +49418,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-hosp-1189-u2",
     "regionDistrict": "Semnan & Shahroud, Semnan Province, Iran",
     "type": "hospital",
-    "lat": 35.5889,
-    "lng": 53.3791,
+    "lat": 35.5754,
+    "lng": 53.3996,
     "name": {
       "en": "Bahar Maternity Hospital Shahroud (بیمارستان امیرالمومنین سمنان و بهار شاهرود)"
     },
@@ -49446,8 +49446,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1189",
     "regionDistrict": "Semnan & Shahroud, Semnan Province, Iran",
     "type": "safe-haven",
-    "lat": 35.6149,
-    "lng": 53.4491,
+    "lat": 35.5754,
+    "lng": 53.3946,
     "name": {
       "en": "Semnan Provincial Women’s Safe House (خانه امن زنان سمنان و شاهرود - ۱۲۳)"
     },
@@ -49502,8 +49502,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1190",
     "regionDistrict": "Bojnord, North Khorasan Province, Iran",
     "type": "safe-haven",
-    "lat": 37.5167,
-    "lng": 57.381,
+    "lat": 37.4772,
+    "lng": 57.3265,
     "name": {
       "en": "North Khorasan Behzisti Women’s Safe House Bojnord (خانه امن زنان بجنورد - ۱۲۳)"
     },
@@ -49558,8 +49558,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "irn-safe-1191",
     "regionDistrict": "Birjand, South Khorasan Province, Iran",
     "type": "safe-haven",
-    "lat": 32.9069,
-    "lng": 59.2731,
+    "lat": 32.8674,
+    "lng": 59.2186,
     "name": {
       "en": "South Khorasan Behzisti Women’s Safe House Birjand (خانه امن زنان بیرجند - ۱۲۳)"
     },
@@ -49614,8 +49614,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1240",
     "regionDistrict": "Ürümqi (Xinshi District), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 43.9019,
-    "lng": 87.6397,
+    "lat": 43.8594,
+    "lng": 87.5822,
     "name": {
       "en": "Xinshi District Women’s Federation 12338 Safe Shelter (乌鲁木齐新市区妇联反家暴庇护中心)"
     },
@@ -49670,8 +49670,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1241",
     "regionDistrict": "Ürümqi (Tianshan District — 152 Longquan St), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 43.8335,
-    "lng": 87.6764,
+    "lat": 43.791,
+    "lng": 87.6189,
     "name": {
       "en": "Xinjiang Autonomous Region Women’s Protection & Safe Haven Center (新疆妇女儿童维权与反家暴庇护中心)"
     },
@@ -49726,8 +49726,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1242",
     "regionDistrict": "Ürümqi (Shuimogou District), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 43.9228,
-    "lng": 87.6753,
+    "lat": 43.8803,
+    "lng": 87.6178,
     "name": {
       "en": "Shuimogou Women & Children Legal Aid & Safe Sanctuary (乌鲁木齐水磨沟区妇女庇护站)"
     },
@@ -49782,8 +49782,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1243",
     "regionDistrict": "Aksu (Northwestern Taklamakan Basin), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 41.2125,
-    "lng": 80.3184,
+    "lat": 41.17,
+    "lng": 80.2609,
     "name": {
       "en": "Aksu Prefecture Women’s Safe Haven"
     },
@@ -49810,8 +49810,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1243-u2",
     "regionDistrict": "Aksu (Northwestern Taklamakan Basin), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 41.2285,
-    "lng": 80.3004,
+    "lat": 41.165,
+    "lng": 80.2659,
     "name": {
       "en": "12338 Protection Station (阿克苏地区妇女维权与反家暴救助站)"
     },
@@ -49866,8 +49866,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1244",
     "regionDistrict": "Kuqa (Northern Terminus of Tarim Desert Highway), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 41.7621,
-    "lng": 83.0175,
+    "lat": 41.7196,
+    "lng": 82.96,
     "name": {
       "en": "Kuqa Women & Maternal Desert Highway Safe Haven (库车市妇女儿童安全庇护站)"
     },
@@ -49922,8 +49922,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1245",
     "regionDistrict": "Hotan / Hetian (Southern Taklamakan Edge), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 37.1592,
-    "lng": 79.9772,
+    "lat": 37.1167,
+    "lng": 79.9197,
     "name": {
       "en": "Hotan Prefecture Uyghur"
     },
@@ -49950,8 +49950,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1245-u2",
     "regionDistrict": "Hotan / Hetian (Southern Taklamakan Edge), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 37.1752,
-    "lng": 79.9592,
+    "lat": 37.1117,
+    "lng": 79.9247,
     "name": {
       "en": "Mandarin Women’s Safe Haven (和田地区妇联12338妇女庇护中心)"
     },
@@ -50006,8 +50006,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1246",
     "regionDistrict": "Shache / Yarkand (Southwestern Tarim Basin), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 38.461,
-    "lng": 77.304,
+    "lat": 38.4185,
+    "lng": 77.2465,
     "name": {
       "en": "Yarkand Women’s Safe Shelter & Rural Midwife Outreach (莎车县妇女儿童救助庇护站)"
     },
@@ -50062,8 +50062,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1247",
     "regionDistrict": "Minfeng / Niya (Southern Terminus of Tarim Desert Highway), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 37.1108,
-    "lng": 82.7394,
+    "lat": 37.0683,
+    "lng": 82.6819,
     "name": {
       "en": "Minfeng Southern Taklamakan Oasis Women’s Safe Post (民丰县妇联安全庇护站)"
     },
@@ -50118,8 +50118,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-hosp-1248-u2",
     "regionDistrict": "Qiemo / Cherchen (Southeastern Taklamakan Desert), Xinjiang, China",
     "type": "hospital",
-    "lat": 38.1616,
-    "lng": 85.5117,
+    "lat": 38.1481,
+    "lng": 85.5322,
     "name": {
       "en": "Desert Maternal Clinic (且末县人民医院)"
     },
@@ -50146,8 +50146,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1248",
     "regionDistrict": "Qiemo / Cherchen (Southeastern Taklamakan Desert), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 38.1906,
-    "lng": 85.5847,
+    "lat": 38.1481,
+    "lng": 85.5272,
     "name": {
       "en": "Qiemo Oasis Women’s Safe Space"
     },
@@ -50174,8 +50174,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1248-u2",
     "regionDistrict": "Qiemo / Cherchen (Southeastern Taklamakan Desert), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 38.2066,
-    "lng": 85.5667,
+    "lat": 38.1431,
+    "lng": 85.5322,
     "name": {
       "en": "12338 Center (且末县妇女儿童维权庇护所)"
     },
@@ -50230,8 +50230,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1249",
     "regionDistrict": "Ruoqiang / Charklik (Lop Nur / Eastern Taklamakan Edge), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 39.0625,
-    "lng": 88.2233,
+    "lat": 39.02,
+    "lng": 88.1658,
     "name": {
       "en": "Ruoqiang Women’s Safe Haven"
     },
@@ -50258,8 +50258,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1249-u2",
     "regionDistrict": "Ruoqiang / Charklik (Lop Nur / Eastern Taklamakan Edge), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 39.0785,
-    "lng": 88.2053,
+    "lat": 39.015,
+    "lng": 88.1708,
     "name": {
       "en": "Desert Outreach Station (若羌县妇女救助庇护中心)"
     },
@@ -50314,8 +50314,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1250",
     "regionDistrict": "Kashgar / Kashi (Western Taklamakan Convergence), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 39.5154,
-    "lng": 76.0448,
+    "lat": 39.4729,
+    "lng": 75.9873,
     "name": {
       "en": "Kashgar Prefecture Women’s Safe Haven"
     },
@@ -50342,8 +50342,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1250-u2",
     "regionDistrict": "Kashgar / Kashi (Western Taklamakan Convergence), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 39.5314,
-    "lng": 76.0268,
+    "lat": 39.4679,
+    "lng": 75.9923,
     "name": {
       "en": "12338 Crisis Shelter (喀什地区妇女儿童反家暴庇护中心)"
     },
@@ -50398,8 +50398,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1251",
     "regionDistrict": "Atux / Artux, Kizilsu Kirghiz Prefecture, Xinjiang, China",
     "type": "safe-haven",
-    "lat": 39.7611,
-    "lng": 76.2233,
+    "lat": 39.7186,
+    "lng": 76.1658,
     "name": {
       "en": "Kizilsu Kirghiz"
     },
@@ -50426,8 +50426,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1251-u2",
     "regionDistrict": "Atux / Artux, Kizilsu Kirghiz Prefecture, Xinjiang, China",
     "type": "safe-haven",
-    "lat": 39.7771,
-    "lng": 76.2053,
+    "lat": 39.7136,
+    "lng": 76.1708,
     "name": {
       "en": "Uyghur Women’s Safe Haven (克州妇联12338妇女庇护站)"
     },
@@ -50482,8 +50482,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1252",
     "regionDistrict": "Taxkorgan / Tashkurgan (Pamir Plateau), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 37.8161,
-    "lng": 75.2836,
+    "lat": 37.7736,
+    "lng": 75.2261,
     "name": {
       "en": "Pamir Tajik Women & Maternal Safe Haven (塔什库尔干高原妇女儿童安全中心)"
     },
@@ -50538,8 +50538,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-hosp-1253-u2",
     "regionDistrict": "Korla (Northeastern Taklamakan Edge / Bosten Lake), Xinjiang, China",
     "type": "hospital",
-    "lat": 41.7419,
-    "lng": 86.1566,
+    "lat": 41.7284,
+    "lng": 86.1771,
     "name": {
       "en": "Bayingolin Prefecture Hospital (库尔勒市人民医院 / 巴州人民医院 — NE Taklamakan Acute & Maternity)"
     },
@@ -50566,8 +50566,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1253",
     "regionDistrict": "Korla (Northeastern Taklamakan Edge / Bosten Lake), Xinjiang, China",
     "type": "safe-haven",
-    "lat": 41.7709,
-    "lng": 86.2296,
+    "lat": 41.7284,
+    "lng": 86.1721,
     "name": {
       "en": "Korla & Bayingolin Women’s Safe Haven (库尔勒市妇联12338反家暴庇护中心)"
     },
@@ -50622,8 +50622,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1254",
     "regionDistrict": "Turpan, Turpan Basin, Xinjiang, China",
     "type": "safe-haven",
-    "lat": 42.9963,
-    "lng": 89.2445,
+    "lat": 42.9538,
+    "lng": 89.187,
     "name": {
       "en": "Turpan Women’s Safe Haven & Crisis Support Center (吐鲁番市妇女儿童维权庇护站)"
     },
@@ -50678,8 +50678,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1255",
     "regionDistrict": "Hami / Kumul (Eastern Xinjiang), China",
     "type": "safe-haven",
-    "lat": 42.8635,
-    "lng": 93.57,
+    "lat": 42.821,
+    "lng": 93.5125,
     "name": {
       "en": "Hami Women’s Safe Haven"
     },
@@ -50706,8 +50706,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1255-u2",
     "regionDistrict": "Hami / Kumul (Eastern Xinjiang), China",
     "type": "safe-haven",
-    "lat": 42.8795,
-    "lng": 93.552,
+    "lat": 42.816,
+    "lng": 93.5175,
     "name": {
       "en": "12338 Shelter (哈密市妇女反家暴庇护中心)"
     },
@@ -50762,8 +50762,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1256",
     "regionDistrict": "Yining / Ghulja, Ili Kazakh Autonomous Prefecture, Xinjiang, China",
     "type": "safe-haven",
-    "lat": 43.9619,
-    "lng": 81.3792,
+    "lat": 43.9194,
+    "lng": 81.3217,
     "name": {
       "en": "Ili Valley Kazakh"
     },
@@ -50790,8 +50790,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1256-u2",
     "regionDistrict": "Yining / Ghulja, Ili Kazakh Autonomous Prefecture, Xinjiang, China",
     "type": "safe-haven",
-    "lat": 43.9779,
-    "lng": 81.3612,
+    "lat": 43.9144,
+    "lng": 81.3267,
     "name": {
       "en": "Uyghur Women’s Safe Haven (伊宁市妇联12338妇女安全庇护中心)"
     },
@@ -50846,8 +50846,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1257",
     "regionDistrict": "Karamay, Northern Xinjiang, China",
     "type": "safe-haven",
-    "lat": 45.6249,
-    "lng": 84.9442,
+    "lat": 45.5824,
+    "lng": 84.8867,
     "name": {
       "en": "Karamay Women’s Safe Haven"
     },
@@ -50874,8 +50874,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1257-u2",
     "regionDistrict": "Karamay, Northern Xinjiang, China",
     "type": "safe-haven",
-    "lat": 45.6409,
-    "lng": 84.9262,
+    "lat": 45.5774,
+    "lng": 84.8917,
     "name": {
       "en": "12338 Protection Center (克拉玛依市反家暴庇护中心)"
     },
@@ -50930,8 +50930,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1258",
     "regionDistrict": "Shihezi & Changji, Northern Xinjiang, China",
     "type": "safe-haven",
-    "lat": 44.3509,
-    "lng": 86.0969,
+    "lat": 44.3084,
+    "lng": 86.0394,
     "name": {
       "en": "Shihezi & Changji Women’s Safe Shelter (石河子市妇女儿童维权庇护中心)"
     },
@@ -50986,8 +50986,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1259",
     "regionDistrict": "Bole, Bortala Mongol Autonomous Prefecture, Xinjiang, China",
     "type": "safe-haven",
-    "lat": 44.9511,
-    "lng": 82.1214,
+    "lat": 44.9086,
+    "lng": 82.0639,
     "name": {
       "en": "Bortala Women’s Safe Haven"
     },
@@ -51014,8 +51014,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1259-u2",
     "regionDistrict": "Bole, Bortala Mongol Autonomous Prefecture, Xinjiang, China",
     "type": "safe-haven",
-    "lat": 44.9671,
-    "lng": 82.1034,
+    "lat": 44.9036,
+    "lng": 82.0689,
     "name": {
       "en": "12338 Station (博州妇联妇女维权庇护站)"
     },
@@ -51070,8 +51070,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1260",
     "regionDistrict": "Tacheng / Tarbagatay, Northern Xinjiang, China",
     "type": "safe-haven",
-    "lat": 46.7903,
-    "lng": 83.0419,
+    "lat": 46.7478,
+    "lng": 82.9844,
     "name": {
       "en": "Tacheng Border Region Women’s Safe Haven (塔城地区妇女儿童反家暴庇护站)"
     },
@@ -51126,8 +51126,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-hosp-1261-u2",
     "regionDistrict": "Altay, Northernmost Xinjiang, China",
     "type": "hospital",
-    "lat": 47.8609,
-    "lng": 88.1223,
+    "lat": 47.8474,
+    "lng": 88.1428,
     "name": {
       "en": "Kazakh Maternal Health Center (阿勒泰地区人民医院 / 妇幼保健院)"
     },
@@ -51154,8 +51154,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1261",
     "regionDistrict": "Altay, Northernmost Xinjiang, China",
     "type": "safe-haven",
-    "lat": 47.8899,
-    "lng": 88.1953,
+    "lat": 47.8474,
+    "lng": 88.1378,
     "name": {
       "en": "Altay Pastoral"
     },
@@ -51182,8 +51182,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "xj-safe-1261-u2",
     "regionDistrict": "Altay, Northernmost Xinjiang, China",
     "type": "safe-haven",
-    "lat": 47.9059,
-    "lng": 88.1773,
+    "lat": 47.8424,
+    "lng": 88.1428,
     "name": {
       "en": "Nomadic Women’s Safe Haven (阿勒泰地区妇女儿童安全庇护中心)"
     },
@@ -51238,8 +51238,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1284-u2",
     "regionDistrict": "Moscow (Oparina / Southwest), Russia",
     "type": "hospital",
-    "lat": 55.6635,
-    "lng": 37.4752,
+    "lat": 55.65,
+    "lng": 37.4957,
     "name": {
       "en": "Perinatology (НМИЦ АГиП им. В.И. Кулакова)"
     },
@@ -51266,8 +51266,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1284",
     "regionDistrict": "Moscow (Oparina / Southwest), Russia",
     "type": "safe-haven",
-    "lat": 55.6925,
-    "lng": 37.5582,
+    "lat": 55.65,
+    "lng": 37.4907,
     "name": {
       "en": "ANNA National Center for Prevention of Violence"
     },
@@ -51294,8 +51294,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1284-u2",
     "regionDistrict": "Moscow (Oparina / Southwest), Russia",
     "type": "safe-haven",
-    "lat": 55.7085,
-    "lng": 37.5402,
+    "lat": 55.645,
+    "lng": 37.4957,
     "name": {
       "en": "Kitezh Shelter Moscow (Центр «АННА» и убежище «Китеж»)"
     },
@@ -51350,8 +51350,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1285",
     "regionDistrict": "Moscow (Shchepkinskiy / Central), Russia",
     "type": "safe-haven",
-    "lat": 55.8235,
-    "lng": 37.6938,
+    "lat": 55.781,
+    "lng": 37.6263,
     "name": {
       "en": "Moscow City Crisis Center for Women & Children (Кризисный центр помощи женщинам и детям г. Москвы)"
     },
@@ -51406,8 +51406,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1286-u2",
     "regionDistrict": "Moscow (Grokholsky / Tverskoy), Russia",
     "type": "hospital",
-    "lat": 55.7961,
-    "lng": 37.6232,
+    "lat": 55.7826,
+    "lng": 37.6437,
     "name": {
       "en": "JSC Medicina (Американский медицинский центр / МЕДСИ / АО «Медицина»)"
     },
@@ -51434,8 +51434,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1286",
     "regionDistrict": "Moscow (Grokholsky / Tverskoy), Russia",
     "type": "safe-haven",
-    "lat": 55.8251,
-    "lng": 37.7062,
+    "lat": 55.7826,
+    "lng": 37.6387,
     "name": {
       "en": "Sisters (Сёстры) Sexual Assault & Crisis Support Center Moscow (Центр «Сёстры» Москва)"
     },
@@ -51490,8 +51490,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1287-u2",
     "regionDistrict": "Moscow (Sevastopolskiy / Lapino), Russia",
     "type": "hospital",
-    "lat": 55.6849,
-    "lng": 37.5534,
+    "lat": 55.6714,
+    "lng": 37.5739,
     "name": {
       "en": "Lapino (Клинический госпиталь «Мать и дитя» и «Лапино»)"
     },
@@ -51518,8 +51518,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1287",
     "regionDistrict": "Moscow (Sevastopolskiy / Lapino), Russia",
     "type": "safe-haven",
-    "lat": 55.7139,
-    "lng": 37.6364,
+    "lat": 55.6714,
+    "lng": 37.5689,
     "name": {
       "en": "Dom Dlya Mamy (Дом для мамы) Crisis Maternity Shelter Moscow"
     },
@@ -51574,8 +51574,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1288-u2",
     "regionDistrict": "Saint Petersburg (Vasileostrovsky / Moika), Russia",
     "type": "hospital",
-    "lat": 59.9572,
-    "lng": 30.2865,
+    "lat": 59.9437,
+    "lng": 30.307,
     "name": {
       "en": "American Medical Clinic (НИИ им. Д.О. Отта и Американская Медицинская Клиника)"
     },
@@ -51602,8 +51602,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1288",
     "regionDistrict": "Saint Petersburg (Vasileostrovsky / Moika), Russia",
     "type": "safe-haven",
-    "lat": 59.9862,
-    "lng": 30.3695,
+    "lat": 59.9437,
+    "lng": 30.302,
     "name": {
       "en": "INGO Crisis Center for Women Saint Petersburg (Кризисный центр для женщин «ИНГО» СПб)"
     },
@@ -51658,8 +51658,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1289-u2",
     "regionDistrict": "Saint Petersburg (Suvorovsky / Liteyny), Russia",
     "type": "hospital",
-    "lat": 59.9549,
-    "lng": 30.3514,
+    "lat": 59.9414,
+    "lng": 30.3719,
     "name": {
       "en": "Scandinavia Ava-Peter Maternity Hospital (Евромед Клиника и родильный дом «Скандинавия»)"
     },
@@ -51686,8 +51686,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1289",
     "regionDistrict": "Saint Petersburg (Suvorovsky / Liteyny), Russia",
     "type": "safe-haven",
-    "lat": 59.9839,
-    "lng": 30.4344,
+    "lat": 59.9414,
+    "lng": 30.3669,
     "name": {
       "en": "Saint Petersburg Crisis Center Help for Women (Кризисный центр помощи женщинам Санкт-Петербурга)"
     },
@@ -51742,8 +51742,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1290",
     "regionDistrict": "Kaliningrad, Kaliningrad Oblast, Russia",
     "type": "safe-haven",
-    "lat": 54.7554,
-    "lng": 20.5172,
+    "lat": 54.7129,
+    "lng": 20.4497,
     "name": {
       "en": "Kaliningrad Women’s Crisis Shelter Bereg (Кризисный центр для женщин «Берег» Калининград)"
     },
@@ -51798,8 +51798,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1291",
     "regionDistrict": "Pskov & Veliky Novgorod, Northwestern Russia",
     "type": "safe-haven",
-    "lat": 57.8643,
-    "lng": 28.3968,
+    "lat": 57.8218,
+    "lng": 28.3293,
     "name": {
       "en": "Pskov Independent Social Women’s Center (Независимый социальный женский центр г. Псков)"
     },
@@ -51854,8 +51854,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1292",
     "regionDistrict": "Petrozavodsk, Republic of Karelia, Russia",
     "type": "safe-haven",
-    "lat": 61.8299,
-    "lng": 34.4119,
+    "lat": 61.7874,
+    "lng": 34.3444,
     "name": {
       "en": "Mama-Dom (Мама-Дом) Women & Children Safe Shelter Petrozavodsk"
     },
@@ -51910,8 +51910,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1293-u2",
     "regionDistrict": "Murmansk (Kola Peninsula Arctic), Russia",
     "type": "hospital",
-    "lat": 68.9745,
-    "lng": 33.0647,
+    "lat": 68.961,
+    "lng": 33.0852,
     "name": {
       "en": "Clinical Hospital (Мурманский областной перинатальный центр)"
     },
@@ -51938,8 +51938,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1293",
     "regionDistrict": "Murmansk (Kola Peninsula Arctic), Russia",
     "type": "safe-haven",
-    "lat": 69.0035,
-    "lng": 33.1477,
+    "lat": 68.961,
+    "lng": 33.0802,
     "name": {
       "en": "Murmansk Arctic Women’s Crisis Shelter Priorytet (Кризисный центр для женщин «Приоритет» Мурманск)"
     },
@@ -51994,8 +51994,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1294",
     "regionDistrict": "Arkhangelsk, Arkhangelsk Oblast, Russia",
     "type": "safe-haven",
-    "lat": 64.5851,
-    "lng": 40.6083,
+    "lat": 64.5426,
+    "lng": 40.5408,
     "name": {
       "en": "Nadezhda (Надежда) Crisis Shelter for Women Arkhangelsk"
     },
@@ -52050,8 +52050,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1295",
     "regionDistrict": "Vologda & Cherepovets, Vologda Oblast, Russia",
     "type": "safe-haven",
-    "lat": 59.2655,
-    "lng": 39.9565,
+    "lat": 59.223,
+    "lng": 39.889,
     "name": {
       "en": "Svetoch Women & Mothers Crisis Shelter Vologda (Приют для мам «Светоч» Вологда)"
     },
@@ -52106,8 +52106,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1296",
     "regionDistrict": "Syktyvkar, Komi Republic, Russia",
     "type": "safe-haven",
-    "lat": 61.7138,
-    "lng": 50.9014,
+    "lat": 61.6713,
+    "lng": 50.8339,
     "name": {
       "en": "Rayda Women’s Crisis Center Syktyvkar (Центр социальной помощи женщинам «Райда»)"
     },
@@ -52162,8 +52162,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1297",
     "regionDistrict": "Vorkuta (Arctic Komi Republic), Russia",
     "type": "safe-haven",
-    "lat": 67.5438,
-    "lng": 64.1175,
+    "lat": 67.5013,
+    "lng": 64.05,
     "name": {
       "en": "Vorkuta Arctic Women’s Social Protection Shelter (Отделение кризисной помощи женщинам Воркута)"
     },
@@ -52218,8 +52218,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1298",
     "regionDistrict": "Naryan-Mar, Nenets Autonomous Okrug (Arctic), Russia",
     "type": "safe-haven",
-    "lat": 67.6837,
-    "lng": 53.0687,
+    "lat": 67.6412,
+    "lng": 53.0012,
     "name": {
       "en": "Nenets Tundra"
     },
@@ -52246,8 +52246,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1298-u2",
     "regionDistrict": "Naryan-Mar, Nenets Autonomous Okrug (Arctic), Russia",
     "type": "safe-haven",
-    "lat": 67.6997,
-    "lng": 53.0507,
+    "lat": 67.6362,
+    "lng": 53.0062,
     "name": {
       "en": "Arctic Women’s Crisis Center Naryan-Mar"
     },
@@ -52302,8 +52302,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1299",
     "regionDistrict": "Yaroslavl, Yaroslavl Oblast, Russia",
     "type": "safe-haven",
-    "lat": 57.6711,
-    "lng": 39.9495,
+    "lat": 57.6286,
+    "lng": 39.882,
     "name": {
       "en": "Yaroslavl Women’s Safe House & Family Crisis Center (Кризисный центр для женщин Ярославль)"
     },
@@ -52358,8 +52358,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1300",
     "regionDistrict": "Tula & Ryazan, Central Russia",
     "type": "safe-haven",
-    "lat": 54.2411,
-    "lng": 37.6832,
+    "lat": 54.1986,
+    "lng": 37.6157,
     "name": {
       "en": "Tula Regional Crisis Center Help for Women (Кризисный центр помощи женщинам Тула)"
     },
@@ -52414,8 +52414,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1301",
     "regionDistrict": "Smolensk & Bryansk, Western Russia",
     "type": "safe-haven",
-    "lat": 54.8268,
-    "lng": 32.1051,
+    "lat": 54.7843,
+    "lng": 32.0376,
     "name": {
       "en": "Smolensk Дом для мамы (House for Mom) Women’s Shelter"
     },
@@ -52470,8 +52470,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1302",
     "regionDistrict": "Voronezh, Voronezh Oblast, Russia",
     "type": "safe-haven",
-    "lat": 51.717,
-    "lng": 39.2493,
+    "lat": 51.6745,
+    "lng": 39.1818,
     "name": {
       "en": "Burevestnik Crisis Shelter for Women Voronezh (Кризисный центр для женщин Воронеж)"
     },
@@ -52526,8 +52526,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1303",
     "regionDistrict": "Kursk & Belgorod, Central Black Earth Region, Russia",
     "type": "safe-haven",
-    "lat": 51.7823,
-    "lng": 36.2523,
+    "lat": 51.7398,
+    "lng": 36.1848,
     "name": {
       "en": "Chernozemye Women & Maternal Safe Shelter Kursk"
     },
@@ -52582,8 +52582,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1304",
     "regionDistrict": "Nizhny Novgorod, Nizhny Novgorod Oblast, Russia",
     "type": "safe-haven",
-    "lat": 56.3415,
-    "lng": 44.0011,
+    "lat": 56.299,
+    "lng": 43.9336,
     "name": {
       "en": "Nizhny Novgorod Women’s Crisis Center (Нижегородский женский кризисный центр)"
     },
@@ -52638,8 +52638,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1305",
     "regionDistrict": "Kazan, Republic of Tatarstan, Russia",
     "type": "safe-haven",
-    "lat": 55.8337,
-    "lng": 49.1871,
+    "lat": 55.7912,
+    "lng": 49.1196,
     "name": {
       "en": "Fatima Women’s Crisis Center"
     },
@@ -52666,8 +52666,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1305-u2",
     "regionDistrict": "Kazan, Republic of Tatarstan, Russia",
     "type": "safe-haven",
-    "lat": 55.8497,
-    "lng": 49.1691,
+    "lat": 55.7862,
+    "lng": 49.1246,
     "name": {
       "en": "Lila Rakhimova Shelter Kazan (Женский кризисный центр «Фатима» Казань)"
     },
@@ -52722,8 +52722,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1306-u2",
     "regionDistrict": "Samara, Samara Oblast, Russia",
     "type": "hospital",
-    "lat": 53.2161,
-    "lng": 50.132,
+    "lat": 53.2026,
+    "lng": 50.1525,
     "name": {
       "en": "IDK Mother and Child Hospital Samara (Перинатальный центр им. Середавина и госпиталь ИДК)"
     },
@@ -52750,8 +52750,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1306",
     "regionDistrict": "Samara, Samara Oblast, Russia",
     "type": "safe-haven",
-    "lat": 53.2451,
-    "lng": 50.215,
+    "lat": 53.2026,
+    "lng": 50.1475,
     "name": {
       "en": "Tyi Ne Odna (Ты не одна) Women’s Safe Shelter Samara"
     },
@@ -52806,8 +52806,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1307",
     "regionDistrict": "Saratov & Penza, Volga Region, Russia",
     "type": "safe-haven",
-    "lat": 51.5786,
-    "lng": 46.0993,
+    "lat": 51.5361,
+    "lng": 46.0318,
     "name": {
       "en": "Saratov Crisis Shelter for Women & Mothers (Кризисный центр для женщин Саратов)"
     },
@@ -52862,8 +52862,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1308",
     "regionDistrict": "Volgograd, Volgograd Oblast, Russia",
     "type": "safe-haven",
-    "lat": 48.753,
-    "lng": 44.5783,
+    "lat": 48.7105,
+    "lng": 44.5108,
     "name": {
       "en": "Pokrov & Volgograd Regional Women’s Crisis Shelter (Кризисный центр помощи женщинам Волгоград)"
     },
@@ -52918,8 +52918,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1309",
     "regionDistrict": "Astrakhan, Astrakhan Oblast, Russia",
     "type": "safe-haven",
-    "lat": 46.3947,
-    "lng": 48.1058,
+    "lat": 46.3522,
+    "lng": 48.0383,
     "name": {
       "en": "Astrakhan Crisis Center for Women (Кризисный центр помощи женщинам Астрахань)"
     },
@@ -52974,8 +52974,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1310",
     "regionDistrict": "Ufa, Republic of Bashkortostan, Russia",
     "type": "safe-haven",
-    "lat": 54.7838,
-    "lng": 56.0371,
+    "lat": 54.7413,
+    "lng": 55.9696,
     "name": {
       "en": "Musulmanskaya & Bashkir Women’s Crisis Shelter Semya Ufa (Кризисный центр «Семья» Уфа)"
     },
@@ -53030,8 +53030,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1311",
     "regionDistrict": "Perm, Perm Krai, Russia",
     "type": "safe-haven",
-    "lat": 58.0555,
-    "lng": 56.3152,
+    "lat": 58.013,
+    "lng": 56.2477,
     "name": {
       "en": "Territory of Women (Территория женщины) Crisis Shelter Perm"
     },
@@ -53086,8 +53086,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1312",
     "regionDistrict": "Izhevsk, Udmurt Republic, Russia",
     "type": "safe-haven",
-    "lat": 56.8977,
-    "lng": 53.2765,
+    "lat": 56.8552,
+    "lng": 53.209,
     "name": {
       "en": "Teplyi Dom (Тёплый дом) Women’s Safe Shelter Izhevsk"
     },
@@ -53142,8 +53142,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1313",
     "regionDistrict": "Kirov, Kirov Oblast, Russia",
     "type": "safe-haven",
-    "lat": 58.6485,
-    "lng": 49.733,
+    "lat": 58.606,
+    "lng": 49.6655,
     "name": {
       "en": "Kirov Crisis Center for Women & Mothers (Кризисный центр для женщин Киров)"
     },
@@ -53198,8 +53198,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1314",
     "regionDistrict": "Rostov-on-Don, Rostov Oblast, Russia",
     "type": "safe-haven",
-    "lat": 47.2807,
-    "lng": 39.7665,
+    "lat": 47.2382,
+    "lng": 39.699,
     "name": {
       "en": "Rostov Women’s Crisis Center & Safe Shelter (Ростовский кризисный центр помощи женщинам)"
     },
@@ -53254,8 +53254,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1315",
     "regionDistrict": "Krasnodar, Krasnodar Krai, Russia",
     "type": "safe-haven",
-    "lat": 45.0805,
-    "lng": 39.0403,
+    "lat": 45.038,
+    "lng": 38.9728,
     "name": {
       "en": "Krasnodar Regional Crisis Center for Women (Краснодарский краевой кризисный центр помощи женщинам)"
     },
@@ -53310,8 +53310,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1316-u2",
     "regionDistrict": "Sochi (Black Sea Coast), Krasnodar Krai, Russia",
     "type": "hospital",
-    "lat": 43.6015,
-    "lng": 39.7051,
+    "lat": 43.588,
+    "lng": 39.7256,
     "name": {
       "en": "International Medical Clinic Sochi (Перинатальный центр г. Сочи и международная клиника)"
     },
@@ -53338,8 +53338,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1316",
     "regionDistrict": "Sochi (Black Sea Coast), Krasnodar Krai, Russia",
     "type": "safe-haven",
-    "lat": 43.6305,
-    "lng": 39.7881,
+    "lat": 43.588,
+    "lng": 39.7206,
     "name": {
       "en": "NeMolchi & Sochi Women’s Safe Sanctuary (Кризисный центр помощи женщинам Сочи)"
     },
@@ -53394,8 +53394,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1317",
     "regionDistrict": "Stavropol & Pyatigorsk, Stavropol Krai, Russia",
     "type": "safe-haven",
-    "lat": 45.0878,
-    "lng": 42.0384,
+    "lat": 45.0453,
+    "lng": 41.9709,
     "name": {
       "en": "Dom Dlya Mamy Stavropol"
     },
@@ -53422,8 +53422,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1317-u2",
     "regionDistrict": "Stavropol & Pyatigorsk, Stavropol Krai, Russia",
     "type": "safe-haven",
-    "lat": 45.1038,
-    "lng": 42.0204,
+    "lat": 45.0403,
+    "lng": 41.9759,
     "name": {
       "en": "North Caucasus Women’s Shelter (Приют «Дом для мамы» Ставрополь)"
     },
@@ -53478,8 +53478,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1318",
     "regionDistrict": "Makhachkala, Republic of Dagestan, Russia",
     "type": "safe-haven",
-    "lat": 43.0299,
-    "lng": 47.5697,
+    "lat": 42.9874,
+    "lng": 47.5022,
     "name": {
       "en": "Teplyi Dom Na Gore (Тёплый дом на горе)"
     },
@@ -53506,8 +53506,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1318-u2",
     "regionDistrict": "Makhachkala, Republic of Dagestan, Russia",
     "type": "safe-haven",
-    "lat": 43.0459,
-    "lng": 47.5517,
+    "lat": 42.9824,
+    "lng": 47.5072,
     "name": {
       "en": "Marem North Caucasus Women’s Safe Shelter"
     },
@@ -53562,8 +53562,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1319-u2",
     "regionDistrict": "Vladikavkaz & Grozny, North Caucasus, Russia",
     "type": "hospital",
-    "lat": 43.0412,
-    "lng": 44.664,
+    "lat": 43.0277,
+    "lng": 44.6845,
     "name": {
       "en": "Chechen Republican Perinatal Centers (Республиканский перинатальный центр Владикавказ и Грозный)"
     },
@@ -53590,8 +53590,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1319",
     "regionDistrict": "Vladikavkaz & Grozny, North Caucasus, Russia",
     "type": "safe-haven",
-    "lat": 43.0702,
-    "lng": 44.747,
+    "lat": 43.0277,
+    "lng": 44.6795,
     "name": {
       "en": "North Caucasus Women’s Protection & Crisis Support Network"
     },
@@ -53646,8 +53646,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1320-u2",
     "regionDistrict": "Yekaterinburg, Sverdlovsk Oblast (Urals), Russia",
     "type": "hospital",
-    "lat": 56.8549,
-    "lng": 60.5877,
+    "lat": 56.8414,
+    "lng": 60.6082,
     "name": {
       "en": "UGMK-Health Hospital (Уральский НИИ ОММ и клиника «УГМК-Здоровье»)"
     },
@@ -53674,8 +53674,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1320",
     "regionDistrict": "Yekaterinburg, Sverdlovsk Oblast (Urals), Russia",
     "type": "safe-haven",
-    "lat": 56.8839,
-    "lng": 60.6707,
+    "lat": 56.8414,
+    "lng": 60.6032,
     "name": {
       "en": "Yekaterinburg Crisis Center Ekaterina"
     },
@@ -53702,8 +53702,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1320-u2",
     "regionDistrict": "Yekaterinburg, Sverdlovsk Oblast (Urals), Russia",
     "type": "safe-haven",
-    "lat": 56.8999,
-    "lng": 60.6527,
+    "lat": 56.8364,
+    "lng": 60.6082,
     "name": {
       "en": "Аистёнок Shelter (Кризисный центр «Екатерина» и «Аистёнок» Екатеринбург)"
     },
@@ -53758,8 +53758,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1321",
     "regionDistrict": "Chelyabinsk, Chelyabinsk Oblast (Urals), Russia",
     "type": "safe-haven",
-    "lat": 55.2094,
-    "lng": 61.5018,
+    "lat": 55.1669,
+    "lng": 61.4343,
     "name": {
       "en": "Bereg & Crisis Center of Chelyabinsk for Women (Кризисный центр г. Челябинска и приют «Берег»)"
     },
@@ -53814,8 +53814,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1322",
     "regionDistrict": "Orenburg, Orenburg Oblast, Russia",
     "type": "safe-haven",
-    "lat": 51.8132,
-    "lng": 55.162,
+    "lat": 51.7707,
+    "lng": 55.0945,
     "name": {
       "en": "Kolybel Women & Mothers Safe Shelter Orenburg (Кризисный центр «Колыбель» Оренбург)"
     },
@@ -53870,8 +53870,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1323",
     "regionDistrict": "Tyumen, Tyumen Oblast, Russia",
     "type": "safe-haven",
-    "lat": 57.1972,
-    "lng": 65.5922,
+    "lat": 57.1547,
+    "lng": 65.5247,
     "name": {
       "en": "Germes & Dom Dlya Mam Women’s Safe Shelter Tyumen (Кризисный центр для женщин Тюмень)"
     },
@@ -53926,8 +53926,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1324",
     "regionDistrict": "Surgut & Khanty-Mansiysk (Yugra), Western Siberia, Russia",
     "type": "safe-haven",
-    "lat": 61.299,
-    "lng": 73.4612,
+    "lat": 61.2565,
+    "lng": 73.3937,
     "name": {
       "en": "Yugra Women’s Crisis Shelter Sodeystvie Surgut (Кризисный центр помощи женщинам Сургут и ХМАО)"
     },
@@ -53982,8 +53982,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1325",
     "regionDistrict": "Salekhard & Novy Urengoy, Yamalo-Nenets Autonomous Okrug (Arctic Siberia), Russia",
     "type": "safe-haven",
-    "lat": 66.575,
-    "lng": 66.6669,
+    "lat": 66.5325,
+    "lng": 66.5994,
     "name": {
       "en": "Yamal Arctic"
     },
@@ -54010,8 +54010,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1325-u2",
     "regionDistrict": "Salekhard & Novy Urengoy, Yamalo-Nenets Autonomous Okrug (Arctic Siberia), Russia",
     "type": "safe-haven",
-    "lat": 66.591,
-    "lng": 66.6489,
+    "lat": 66.5275,
+    "lng": 66.6044,
     "name": {
       "en": "Nomadic Nenets Women’s Crisis Center Salekhard"
     },
@@ -54066,8 +54066,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1326",
     "regionDistrict": "Omsk, Omsk Oblast (Siberia), Russia",
     "type": "safe-haven",
-    "lat": 55.0335,
-    "lng": 73.3892,
+    "lat": 54.991,
+    "lng": 73.3217,
     "name": {
       "en": "Omsk Regional Crisis Center for Women (Центр социальной помощи женщинам Омск)"
     },
@@ -54122,8 +54122,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1327-u2",
     "regionDistrict": "Novosibirsk, Novosibirsk Oblast (Siberia), Russia",
     "type": "hospital",
-    "lat": 55.0244,
-    "lng": 82.9177,
+    "lat": 55.0109,
+    "lng": 82.9382,
     "name": {
       "en": "Avicenna Mother and Child Hospital (Областной перинатальный центр и госпиталь «Авиценна» Новосибирск)"
     },
@@ -54150,8 +54150,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1327",
     "regionDistrict": "Novosibirsk, Novosibirsk Oblast (Siberia), Russia",
     "type": "safe-haven",
-    "lat": 55.0534,
-    "lng": 83.0007,
+    "lat": 55.0109,
+    "lng": 82.9332,
     "name": {
       "en": "Maria & Nadezhda Women’s Crisis Shelters Novosibirsk (Кризисный центр для женщин «Мария» и «Надежда» Новосибирск)"
     },
@@ -54206,8 +54206,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1328",
     "regionDistrict": "Tomsk, Tomsk Oblast (Siberia), Russia",
     "type": "safe-haven",
-    "lat": 56.5296,
-    "lng": 85.0132,
+    "lat": 56.4871,
+    "lng": 84.9457,
     "name": {
       "en": "Semya & Tomsk Women’s Crisis Shelter (Кризисный центр для женщин г. Томска)"
     },
@@ -54262,8 +54262,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1329",
     "regionDistrict": "Kemerovo & Novokuznetsk (Kuzbass), Siberia, Russia",
     "type": "safe-haven",
-    "lat": 55.3997,
-    "lng": 86.1523,
+    "lat": 55.3572,
+    "lng": 86.0848,
     "name": {
       "en": "Kuzbass Women’s Crisis Shelter Kemerovo (Кризисный центр помощи женщинам Кемерово)"
     },
@@ -54318,8 +54318,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1330",
     "regionDistrict": "Barnaul, Altai Krai (Siberia), Russia",
     "type": "safe-haven",
-    "lat": 53.3929,
-    "lng": 83.8448,
+    "lat": 53.3504,
+    "lng": 83.7773,
     "name": {
       "en": "Altai Kraevoy Crisis Center for Women Barnaul (Краевой кризисный центр для женщин Барнаул)"
     },
@@ -54374,8 +54374,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1331",
     "regionDistrict": "Gorno-Altaysk, Altai Republic (Altai Mountains), Russia",
     "type": "safe-haven",
-    "lat": 52.0031,
-    "lng": 86.0253,
+    "lat": 51.9606,
+    "lng": 85.9578,
     "name": {
       "en": "Altai Mountain Women’s Safe Space & Crisis Shelter Gorno-Altaysk"
     },
@@ -54430,8 +54430,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1332",
     "regionDistrict": "Krasnoyarsk, Krasnoyarsk Krai (Central Siberia), Russia",
     "type": "safe-haven",
-    "lat": 56.0603,
-    "lng": 92.9582,
+    "lat": 56.0178,
+    "lng": 92.8907,
     "name": {
       "en": "Verba Crisis Center for Women & Families Krasnoyarsk (Кризисный центр «Верба» Красноярск)"
     },
@@ -54486,8 +54486,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1333",
     "regionDistrict": "Norilsk (Arctic Krasnoyarsk Krai), Russia",
     "type": "safe-haven",
-    "lat": 69.4008,
-    "lng": 88.2543,
+    "lat": 69.3583,
+    "lng": 88.1868,
     "name": {
       "en": "Norilsk Arctic Women’s Crisis Shelter & Social Protection Center"
     },
@@ -54542,8 +54542,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1334",
     "regionDistrict": "Abakan (Khakassia) & Kyzyl (Tuva Republic), Southern Siberia, Russia",
     "type": "safe-haven",
-    "lat": 51.7647,
-    "lng": 94.5028,
+    "lat": 51.7222,
+    "lng": 94.4353,
     "name": {
       "en": "Tuva & Khakassia Women’s Crisis Shelter Kyzyl & Abakan"
     },
@@ -54598,8 +54598,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1335-u2",
     "regionDistrict": "Irkutsk (Lake Baikal Region), Irkutsk Oblast, Russia",
     "type": "hospital",
-    "lat": 52.3029,
-    "lng": 104.287,
+    "lat": 52.2894,
+    "lng": 104.3075,
     "name": {
       "en": "City Perinatal Centers (Иркутский областной и городской перинатальные центры)"
     },
@@ -54626,8 +54626,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1335",
     "regionDistrict": "Irkutsk (Lake Baikal Region), Irkutsk Oblast, Russia",
     "type": "safe-haven",
-    "lat": 52.3319,
-    "lng": 104.37,
+    "lat": 52.2894,
+    "lng": 104.3025,
     "name": {
       "en": "Obereg & Maria Women’s Crisis Shelters Irkutsk (Благотворительный фонд и приют «Оберег» Иркутск)"
     },
@@ -54682,8 +54682,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1336",
     "regionDistrict": "Bratsk, Northern Irkutsk Oblast (Siberia), Russia",
     "type": "safe-haven",
-    "lat": 56.1964,
-    "lng": 101.6992,
+    "lat": 56.1539,
+    "lng": 101.6317,
     "name": {
       "en": "Bratsk Northern Baikal Women’s Safe Shelter"
     },
@@ -54738,8 +54738,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1337",
     "regionDistrict": "Ulan-Ude, Republic of Buryatia (East of Lake Baikal), Russia",
     "type": "safe-haven",
-    "lat": 51.8785,
-    "lng": 107.6491,
+    "lat": 51.836,
+    "lng": 107.5816,
     "name": {
       "en": "Buryatia Women’s Crisis Shelter Doverie Ulan-Ude (Кризисный центр для женщин Улан-Удэ)"
     },
@@ -54794,8 +54794,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1338",
     "regionDistrict": "Chita, Zabaykalsky Krai (Transbaikal), Russia",
     "type": "safe-haven",
-    "lat": 52.0965,
-    "lng": 113.5362,
+    "lat": 52.054,
+    "lng": 113.4687,
     "name": {
       "en": "Bereginya Crisis Center for Women Chita (Центр помощи женщинам «Берегиня» Чита)"
     },
@@ -54850,8 +54850,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1339",
     "regionDistrict": "Yakutsk, Sakha Republic (Yakutia), Russia",
     "type": "safe-haven",
-    "lat": 62.0805,
-    "lng": 129.7405,
+    "lat": 62.038,
+    "lng": 129.673,
     "name": {
       "en": "Yakutia Women’s Crisis Center Tarym"
     },
@@ -54878,8 +54878,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1339-u2",
     "regionDistrict": "Yakutsk, Sakha Republic (Yakutia), Russia",
     "type": "safe-haven",
-    "lat": 62.0965,
-    "lng": 129.7225,
+    "lat": 62.033,
+    "lng": 129.678,
     "name": {
       "en": "Tuymaada Shelter Yakutsk (Кризисный центр для женщин Якутск)"
     },
@@ -54934,8 +54934,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1340",
     "regionDistrict": "Mirny & Neryungri, Western & Southern Sakha Republic (Yakutia), Russia",
     "type": "safe-haven",
-    "lat": 62.5803,
-    "lng": 114.0261,
+    "lat": 62.5378,
+    "lng": 113.9586,
     "name": {
       "en": "Western Yakutia Women’s Safe Space & Crisis Support Mirny"
     },
@@ -54990,8 +54990,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1341",
     "regionDistrict": "Tiksi (Laptev Sea Arctic Coast), Sakha Republic, Russia",
     "type": "safe-haven",
-    "lat": 71.6816,
-    "lng": 128.9335,
+    "lat": 71.6391,
+    "lng": 128.866,
     "name": {
       "en": "Arctic Yakutia Indigenous Women & Maternal Support Post Tiksi"
     },
@@ -55046,8 +55046,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1342",
     "regionDistrict": "Blagoveshchensk, Amur Oblast (Far East), Russia",
     "type": "safe-haven",
-    "lat": 50.3357,
-    "lng": 127.5922,
+    "lat": 50.2932,
+    "lng": 127.5247,
     "name": {
       "en": "Amur Women’s Crisis Shelter Mechta Blagoveshchensk (Кризисный центр для женщин Благовещенск)"
     },
@@ -55102,8 +55102,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1343",
     "regionDistrict": "Khabarovsk & Komsomolsk-on-Amur, Khabarovsk Krai, Russia",
     "type": "safe-haven",
-    "lat": 48.5252,
-    "lng": 135.1369,
+    "lat": 48.4827,
+    "lng": 135.0694,
     "name": {
       "en": "Khabarovsk Women’s Crisis Shelter & Safe House (Хабаровский кризисный центр помощи женщинам)"
     },
@@ -55158,8 +55158,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1344-u2",
     "regionDistrict": "Vladivostok, Primorsky Krai (Pacific Coast), Russia",
     "type": "hospital",
-    "lat": 43.1315,
-    "lng": 131.8675,
+    "lat": 43.118,
+    "lng": 131.888,
     "name": {
       "en": "International Medical Clinic Vladivostok (Приморский краевой перинатальный центр Владивосток)"
     },
@@ -55186,8 +55186,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1344",
     "regionDistrict": "Vladivostok, Primorsky Krai (Pacific Coast), Russia",
     "type": "safe-haven",
-    "lat": 43.1605,
-    "lng": 131.9505,
+    "lat": 43.118,
+    "lng": 131.883,
     "name": {
       "en": "Vladivostok Crisis Shelter for Women & Mothers (Кризисный центр помощи женщинам Владивосток)"
     },
@@ -55242,8 +55242,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-hosp-1345-u2",
     "regionDistrict": "Yuzhno-Sakhalinsk, Sakhalin Island, Russia",
     "type": "hospital",
-    "lat": 46.9751,
-    "lng": 142.72,
+    "lat": 46.9616,
+    "lng": 142.7405,
     "name": {
       "en": "International SOS Clinic Yuzhno-Sakhalinsk (Сахалинский областной перинатальный центр)"
     },
@@ -55270,8 +55270,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1345",
     "regionDistrict": "Yuzhno-Sakhalinsk, Sakhalin Island, Russia",
     "type": "safe-haven",
-    "lat": 47.0041,
-    "lng": 142.803,
+    "lat": 46.9616,
+    "lng": 142.7355,
     "name": {
       "en": "Sakhalin Island Women’s Safe House Dom Nadezhdy (Приют для женщин «Дом надежды» Южно-Сахалинск)"
     },
@@ -55326,8 +55326,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1346",
     "regionDistrict": "Magadan (Sea of Okhotsk), Magadan Oblast, Russia",
     "type": "safe-haven",
-    "lat": 59.6062,
-    "lng": 150.8951,
+    "lat": 59.5637,
+    "lng": 150.8276,
     "name": {
       "en": "Magadan Far North Women’s Crisis Shelter (Кризисный центр помощи женщинам Магадан)"
     },
@@ -55382,8 +55382,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1347",
     "regionDistrict": "Petropavlovsk-Kamchatsky, Kamchatka Peninsula, Russia",
     "type": "safe-haven",
-    "lat": 53.0895,
-    "lng": 158.7158,
+    "lat": 53.047,
+    "lng": 158.6483,
     "name": {
       "en": "Kamchatka Peninsula Women’s Safe Shelter & Family Crisis Center"
     },
@@ -55438,8 +55438,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1348",
     "regionDistrict": "Anadyr, Chukotka Autonomous Okrug (Bering Sea Arctic), Russia",
     "type": "safe-haven",
-    "lat": 64.7787,
-    "lng": 177.5739,
+    "lat": 64.7362,
+    "lng": 177.5064,
     "name": {
       "en": "Chukotka Indigenous"
     },
@@ -55466,8 +55466,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "rus-safe-1348-u2",
     "regionDistrict": "Anadyr, Chukotka Autonomous Okrug (Bering Sea Arctic), Russia",
     "type": "safe-haven",
-    "lat": 64.7947,
-    "lng": 177.5559,
+    "lat": 64.7312,
+    "lng": 177.5114,
     "name": {
       "en": "Arctic Women’s Crisis Support Center Anadyr"
     },
@@ -55522,8 +55522,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1414-u2",
     "regionDistrict": "Karachi (Saddar / South), Sindh, Pakistan",
     "type": "hospital",
-    "lat": 24.8692,
-    "lng": 66.9989,
+    "lat": 24.8557,
+    "lng": 67.0194,
     "name": {
       "en": "Dr. Ruth Pfau Civil Hospital Karachi (لیڈی ڈفرن ہسپتال کراچی — Dedicated Women’s Hospital)"
     },
@@ -55550,8 +55550,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1414",
     "regionDistrict": "Karachi (Saddar / South), Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 24.8952,
-    "lng": 67.0689,
+    "lat": 24.8557,
+    "lng": 67.0144,
     "name": {
       "en": "Panah Shelter Home"
     },
@@ -55578,8 +55578,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1414-u2",
     "regionDistrict": "Karachi (Saddar / South), Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 24.9112,
-    "lng": 67.0509,
+    "lat": 24.8507,
+    "lng": 67.0194,
     "name": {
       "en": "Dar-ul-Aman Karachi (پناہ شیلٹر ہوم و دارالامان کراچی)"
     },
@@ -55634,8 +55634,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1415-u2",
     "regionDistrict": "Karachi (Stadium Road / Central), Sindh, Pakistan",
     "type": "hospital",
-    "lat": 24.9088,
-    "lng": 67.0567,
+    "lat": 24.8953,
+    "lng": 67.0772,
     "name": {
       "en": "Liaquat National Hospital (آغا خان ہسپتال)"
     },
@@ -55662,8 +55662,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1415",
     "regionDistrict": "Karachi (Stadium Road / Central), Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 24.9348,
-    "lng": 67.1267,
+    "lat": 24.8953,
+    "lng": 67.0722,
     "name": {
       "en": "War Against Rape (WAR)"
     },
@@ -55690,8 +55690,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1415-u2",
     "regionDistrict": "Karachi (Stadium Road / Central), Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 24.9508,
-    "lng": 67.1087,
+    "lat": 24.8903,
+    "lng": 67.0772,
     "name": {
       "en": "Edhi Women’s Safe Home Karachi (ایدھی ہوم و وار کراچی)"
     },
@@ -55746,8 +55746,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1416",
     "regionDistrict": "Karachi (Malir / Landhi Rural Corridor), Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 24.9035,
-    "lng": 67.2709,
+    "lat": 24.864,
+    "lng": 67.2164,
     "name": {
       "en": "Malir & Korangi Women’s Safe Space & Legal Aid Cell (ملیر ویمن پروٹیکشن سنٹر)"
     },
@@ -55802,8 +55802,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1417-u2",
     "regionDistrict": "Karachi (JPMC / Clifton / Korangi), Sindh, Pakistan",
     "type": "hospital",
-    "lat": 24.868,
-    "lng": 67.0262,
+    "lat": 24.8545,
+    "lng": 67.0467,
     "name": {
       "en": "Indus Hospital"
     },
@@ -55830,8 +55830,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1417",
     "regionDistrict": "Karachi (JPMC / Clifton / Korangi), Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 24.894,
-    "lng": 67.0962,
+    "lat": 24.8545,
+    "lng": 67.0417,
     "name": {
       "en": "Sindh Commission on the Status of Women Safe Haven Karachi"
     },
@@ -55886,8 +55886,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1418-u2",
     "regionDistrict": "Hyderabad & Jamshoro, Sindh, Pakistan",
     "type": "hospital",
-    "lat": 25.412,
-    "lng": 68.3398,
+    "lat": 25.3985,
+    "lng": 68.3603,
     "name": {
       "en": "Countess of Dufferin Hospital Hyderabad (لیاقت یونیورسٹی ہسپتال حیدرآباد)"
     },
@@ -55914,8 +55914,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1418",
     "regionDistrict": "Hyderabad & Jamshoro, Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 25.438,
-    "lng": 68.4098,
+    "lat": 25.3985,
+    "lng": 68.3553,
     "name": {
       "en": "Dar-ul-Aman (Safe House for Women) & Women Protection Cell Hyderabad (دارالامان حیدرآباد)"
     },
@@ -55970,8 +55970,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1419",
     "regionDistrict": "Nawabshah (Shaheed Benazirabad), Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 26.2862,
-    "lng": 68.462,
+    "lat": 26.2467,
+    "lng": 68.4075,
     "name": {
       "en": "Dar-ul-Aman Shaheed Benazirabad (دارالامان نواب شاہ)"
     },
@@ -56026,8 +56026,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1420",
     "regionDistrict": "Larkana, Upper Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 27.599,
-    "lng": 68.2548,
+    "lat": 27.5595,
+    "lng": 68.2003,
     "name": {
       "en": "Dar-ul-Aman Larkana Women’s Safe Shelter (دارالامان لاڑکانہ)"
     },
@@ -56082,8 +56082,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1421-u2",
     "regionDistrict": "Sukkur & Khairpur, Northern Sindh, Pakistan",
     "type": "hospital",
-    "lat": 27.7212,
-    "lng": 68.8394,
+    "lat": 27.7077,
+    "lng": 68.8599,
     "name": {
       "en": "Red Crescent Maternity Hospital Sukkur (سکھر میٹرنٹی ہسپتال)"
     },
@@ -56110,8 +56110,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1421",
     "regionDistrict": "Sukkur & Khairpur, Northern Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 27.7472,
-    "lng": 68.9094,
+    "lat": 27.7077,
+    "lng": 68.8549,
     "name": {
       "en": "Dar-ul-Aman Sukkur"
     },
@@ -56138,8 +56138,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1421-u2",
     "regionDistrict": "Sukkur & Khairpur, Northern Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 27.7632,
-    "lng": 68.8914,
+    "lat": 27.7027,
+    "lng": 68.8599,
     "name": {
       "en": "Northern Sindh Women’s Crisis Cell (دارالامان سکھر)"
     },
@@ -56194,8 +56194,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1422-u2",
     "regionDistrict": "Mithi (Tharparkar Desert) & Mirpurkhas, Sindh, Pakistan",
     "type": "hospital",
-    "lat": 24.753,
-    "lng": 69.7792,
+    "lat": 24.7395,
+    "lng": 69.7997,
     "name": {
       "en": "Nutrition Hospital Tharparkar & Civil Hospital Mirpurkhas (مٹھی تھرپارکر ہسپتال)"
     },
@@ -56222,8 +56222,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1422",
     "regionDistrict": "Mithi (Tharparkar Desert) & Mirpurkhas, Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 24.779,
-    "lng": 69.8492,
+    "lat": 24.7395,
+    "lng": 69.7947,
     "name": {
       "en": "Tharparkar Rural Women’s Safe Haven"
     },
@@ -56250,8 +56250,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1422-u2",
     "regionDistrict": "Mithi (Tharparkar Desert) & Mirpurkhas, Sindh, Pakistan",
     "type": "safe-haven",
-    "lat": 24.795,
-    "lng": 69.8312,
+    "lat": 24.7345,
+    "lng": 69.7997,
     "name": {
       "en": "Marvi Health Worker Network"
     },
@@ -56306,8 +56306,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1423-u2",
     "regionDistrict": "Lahore (Circular Road / Walled City), Punjab, Pakistan",
     "type": "hospital",
-    "lat": 31.604,
-    "lng": 74.2925,
+    "lat": 31.5905,
+    "lng": 74.313,
     "name": {
       "en": "Lady Aitchison Women’s Hospital Lahore (لیڈی ولنگڈن اور لیڈی ایچیسن ہسپتال لاہور)"
     },
@@ -56334,8 +56334,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1423",
     "regionDistrict": "Lahore (Circular Road / Walled City), Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 31.63,
-    "lng": 74.3625,
+    "lat": 31.5905,
+    "lng": 74.308,
     "name": {
       "en": "Dastak Charitable Trust Women’s Crisis Shelter Lahore (دستک شیلٹر برائے خواتین لاہور)"
     },
@@ -56390,8 +56390,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1424-u2",
     "regionDistrict": "Lahore (Queens Road / Central), Punjab, Pakistan",
     "type": "hospital",
-    "lat": 31.5706,
-    "lng": 74.3065,
+    "lat": 31.5571,
+    "lng": 74.327,
     "name": {
       "en": "Mayo Hospitals (سر گنگا رام ہسپتال)"
     },
@@ -56418,8 +56418,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1424",
     "regionDistrict": "Lahore (Queens Road / Central), Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 31.5966,
-    "lng": 74.3765,
+    "lat": 31.5571,
+    "lng": 74.322,
     "name": {
       "en": "Dar-ul-Aman Lahore (Kashana)"
     },
@@ -56446,8 +56446,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1424-u2",
     "regionDistrict": "Lahore (Queens Road / Central), Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 31.6126,
-    "lng": 74.3585,
+    "lat": 31.5521,
+    "lng": 74.327,
     "name": {
       "en": "Punjab Women Protection Authority Center (دارالامان لاہور)"
     },
@@ -56502,8 +56502,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1425-u2",
     "regionDistrict": "Lahore (Johar Town / Gulberg), Punjab, Pakistan",
     "type": "hospital",
-    "lat": 31.4857,
-    "lng": 74.2548,
+    "lat": 31.4722,
+    "lng": 74.2753,
     "name": {
       "en": "Breast Center"
     },
@@ -56530,8 +56530,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1425-u3",
     "regionDistrict": "Lahore (Johar Town / Gulberg), Punjab, Pakistan",
     "type": "hospital",
-    "lat": 31.4527,
-    "lng": 74.2918,
+    "lat": 31.4722,
+    "lng": 74.2753,
     "name": {
       "en": "Jinnah Hospital"
     },
@@ -56558,8 +56558,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1425-u4",
     "regionDistrict": "Lahore (Johar Town / Gulberg), Punjab, Pakistan",
     "type": "hospital",
-    "lat": 31.4917,
-    "lng": 74.2938,
+    "lat": 31.4722,
+    "lng": 74.2753,
     "name": {
       "en": "Hameed Latif Maternity Hospital Lahore"
     },
@@ -56586,8 +56586,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1425",
     "regionDistrict": "Lahore (Johar Town / Gulberg), Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 31.5117,
-    "lng": 74.3248,
+    "lat": 31.4722,
+    "lng": 74.2703,
     "name": {
       "en": "Bedari & Aurat Foundation Women’s Protection Sanctuary Lahore"
     },
@@ -56642,8 +56642,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1426-u2",
     "regionDistrict": "Rawalpindi, Punjab, Pakistan",
     "type": "hospital",
-    "lat": 33.6521,
-    "lng": 73.0457,
+    "lat": 33.6386,
+    "lng": 73.0662,
     "name": {
       "en": "Benazir Bhutto Hospital"
     },
@@ -56670,8 +56670,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1426-u3",
     "regionDistrict": "Rawalpindi, Punjab, Pakistan",
     "type": "hospital",
-    "lat": 33.6191,
-    "lng": 73.0827,
+    "lat": 33.6386,
+    "lng": 73.0662,
     "name": {
       "en": "Fauji Foundation Hospital Rawalpindi (ہولی فیملی ہسپتال)"
     },
@@ -56698,8 +56698,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1426",
     "regionDistrict": "Rawalpindi, Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 33.6781,
-    "lng": 73.1157,
+    "lat": 33.6386,
+    "lng": 73.0612,
     "name": {
       "en": "Dar-ul-Aman Rawalpindi"
     },
@@ -56726,8 +56726,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1426-u2",
     "regionDistrict": "Rawalpindi, Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 33.6941,
-    "lng": 73.0977,
+    "lat": 33.6336,
+    "lng": 73.0662,
     "name": {
       "en": "Potohar Women’s Crisis Center (دارالامان راولپنڈی)"
     },
@@ -56782,8 +56782,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1427-u2",
     "regionDistrict": "Faisalabad, Punjab, Pakistan",
     "type": "hospital",
-    "lat": 31.4551,
-    "lng": 73.0706,
+    "lat": 31.4416,
+    "lng": 73.0911,
     "name": {
       "en": "DHQ Teaching Hospital Mother & Child Center Faisalabad (الائیڈ ہسپتال فیصل آباد)"
     },
@@ -56810,8 +56810,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1427",
     "regionDistrict": "Faisalabad, Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 31.4811,
-    "lng": 73.1406,
+    "lat": 31.4416,
+    "lng": 73.0861,
     "name": {
       "en": "Dar-ul-Aman Faisalabad Women’s Safe Shelter (دارالامان فیصل آباد)"
     },
@@ -56866,8 +56866,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1428-u2",
     "regionDistrict": "Multan, South Punjab, Pakistan",
     "type": "hospital",
-    "lat": 30.2179,
-    "lng": 71.4345,
+    "lat": 30.2044,
+    "lng": 71.455,
     "name": {
       "en": "Fatima Jinnah Women Hospital Multan (نشتر ہسپتال و فاطمہ جناح ویمن ہسپتال ملتان)"
     },
@@ -56894,8 +56894,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1428",
     "regionDistrict": "Multan, South Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 30.2439,
-    "lng": 71.5045,
+    "lat": 30.2044,
+    "lng": 71.45,
     "name": {
       "en": "Violence Against Women Center (VAWC)"
     },
@@ -56922,8 +56922,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1428-u2",
     "regionDistrict": "Multan, South Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 30.2599,
-    "lng": 71.4865,
+    "lat": 30.1994,
+    "lng": 71.455,
     "name": {
       "en": "Dar-ul-Aman Multan (ویمن پروٹیکشن سنٹر و دارالامان ملتان)"
     },
@@ -56978,8 +56978,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1429",
     "regionDistrict": "Bahawalpur (Cholistan Region), South Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 29.4376,
-    "lng": 71.7356,
+    "lat": 29.3981,
+    "lng": 71.6811,
     "name": {
       "en": "Dar-ul-Aman Bahawalpur Women’s Safe House (دارالامان بہاولپور)"
     },
@@ -57034,8 +57034,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1430-u2",
     "regionDistrict": "Gujranwala & Sialkot, Northern Punjab, Pakistan",
     "type": "hospital",
-    "lat": 32.2037,
-    "lng": 74.1765,
+    "lat": 32.1902,
+    "lng": 74.197,
     "name": {
       "en": "Allama Iqbal Memorial Hospital Sialkot (Mother & Child Wing)"
     },
@@ -57062,8 +57062,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1430",
     "regionDistrict": "Gujranwala & Sialkot, Northern Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 32.2297,
-    "lng": 74.2465,
+    "lat": 32.1902,
+    "lng": 74.192,
     "name": {
       "en": "Dar-ul-Aman Gujranwala"
     },
@@ -57090,8 +57090,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1430-u2",
     "regionDistrict": "Gujranwala & Sialkot, Northern Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 32.2457,
-    "lng": 74.2285,
+    "lat": 32.1852,
+    "lng": 74.197,
     "name": {
       "en": "Sialkot Women’s Shelter (دارالامان گوجرانوالہ و سیالکوٹ)"
     },
@@ -57146,8 +57146,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1431",
     "regionDistrict": "Sargodha & Mianwali, Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 32.1256,
-    "lng": 72.7231,
+    "lat": 32.0861,
+    "lng": 72.6686,
     "name": {
       "en": "Dar-ul-Aman Sargodha Women’s Safe Haven (دارالامان سرگودھا)"
     },
@@ -57202,8 +57202,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1432",
     "regionDistrict": "Sahiwal & Okara, Central Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 30.7102,
-    "lng": 73.1634,
+    "lat": 30.6707,
+    "lng": 73.1089,
     "name": {
       "en": "Dar-ul-Aman Sahiwal Women’s Safe Shelter (دارالامان ساہیوال)"
     },
@@ -57258,8 +57258,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1433",
     "regionDistrict": "Dera Ghazi Khan (Koh-e-Suleman / South Punjab), Pakistan",
     "type": "safe-haven",
-    "lat": 30.0909,
-    "lng": 70.6975,
+    "lat": 30.0514,
+    "lng": 70.643,
     "name": {
       "en": "Dar-ul-Aman Dera Ghazi Khan Women’s Safe Haven (دارالامان ڈیرہ غازی خان)"
     },
@@ -57314,8 +57314,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1434",
     "regionDistrict": "Rahim Yar Khan, Southern Punjab, Pakistan",
     "type": "safe-haven",
-    "lat": 28.4632,
-    "lng": 70.3509,
+    "lat": 28.4237,
+    "lng": 70.2964,
     "name": {
       "en": "Dar-ul-Aman Rahim Yar Khan Women’s Shelter (دارالامان رحیم یار خان)"
     },
@@ -57370,8 +57370,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1435-u2",
     "regionDistrict": "Islamabad (G-8 / H-8), Capital Territory, Pakistan",
     "type": "hospital",
-    "lat": 33.7221,
-    "lng": 73.0359,
+    "lat": 33.7086,
+    "lng": 73.0564,
     "name": {
       "en": "Shifa International (پمز ہسپتال اسلام آباد)"
     },
@@ -57398,8 +57398,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1435",
     "regionDistrict": "Islamabad (G-8 / H-8), Capital Territory, Pakistan",
     "type": "safe-haven",
-    "lat": 33.7481,
-    "lng": 73.1059,
+    "lat": 33.7086,
+    "lng": 73.0514,
     "name": {
       "en": "Federal Shaheed Benazir Bhutto Crisis Center for Women"
     },
@@ -57426,8 +57426,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1435-u2",
     "regionDistrict": "Islamabad (G-8 / H-8), Capital Territory, Pakistan",
     "type": "safe-haven",
-    "lat": 33.7641,
-    "lng": 73.0879,
+    "lat": 33.7036,
+    "lng": 73.0564,
     "name": {
       "en": "Bedari Shelter Islamabad"
     },
@@ -57482,8 +57482,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1436-u2",
     "regionDistrict": "Peshawar, Khyber Pakhtunkhwa, Pakistan",
     "type": "hospital",
-    "lat": 34.0311,
-    "lng": 71.5069,
+    "lat": 34.0176,
+    "lng": 71.5274,
     "name": {
       "en": "Khyber Teaching Hospital"
     },
@@ -57510,8 +57510,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1436-u3",
     "regionDistrict": "Peshawar, Khyber Pakhtunkhwa, Pakistan",
     "type": "hospital",
-    "lat": 33.9981,
-    "lng": 71.5439,
+    "lat": 34.0176,
+    "lng": 71.5274,
     "name": {
       "en": "MSF Peshawar Women’s Hospital (لیڈی ریڈنگ و ایم ایس ایف ہسپتال پشاور)"
     },
@@ -57538,8 +57538,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1436",
     "regionDistrict": "Peshawar, Khyber Pakhtunkhwa, Pakistan",
     "type": "safe-haven",
-    "lat": 34.0571,
-    "lng": 71.5769,
+    "lat": 34.0176,
+    "lng": 71.5224,
     "name": {
       "en": "Dar-ul-Aman Peshawar"
     },
@@ -57566,8 +57566,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1436-u2",
     "regionDistrict": "Peshawar, Khyber Pakhtunkhwa, Pakistan",
     "type": "safe-haven",
-    "lat": 34.0731,
-    "lng": 71.5589,
+    "lat": 34.0126,
+    "lng": 71.5274,
     "name": {
       "en": "Bolo Helpline KP Women’s Safe Shelter (دارالامان پشاور)"
     },
@@ -57622,8 +57622,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1437",
     "regionDistrict": "Mardan & Swabi, Khyber Pakhtunkhwa, Pakistan",
     "type": "safe-haven",
-    "lat": 34.2406,
-    "lng": 72.0924,
+    "lat": 34.2011,
+    "lng": 72.0379,
     "name": {
       "en": "Dar-ul-Aman Mardan Women’s Safe House (دارالامان مردان)"
     },
@@ -57678,8 +57678,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1438",
     "regionDistrict": "Abbottabad & Mansehra (Hazara Region), KP, Pakistan",
     "type": "safe-haven",
-    "lat": 34.2108,
-    "lng": 73.2735,
+    "lat": 34.1713,
+    "lng": 73.219,
     "name": {
       "en": "Dar-ul-Aman Abbottabad Women’s Crisis Shelter (دارالامان ایبٹ آباد)"
     },
@@ -57734,8 +57734,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1439",
     "regionDistrict": "Mingora, Swat Valley, Khyber Pakhtunkhwa, Pakistan",
     "type": "safe-haven",
-    "lat": 34.8137,
-    "lng": 72.4122,
+    "lat": 34.7742,
+    "lng": 72.3577,
     "name": {
       "en": "Dar-ul-Aman Swat"
     },
@@ -57762,8 +57762,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1439-u2",
     "regionDistrict": "Mingora, Swat Valley, Khyber Pakhtunkhwa, Pakistan",
     "type": "safe-haven",
-    "lat": 34.8297,
-    "lng": 72.3942,
+    "lat": 34.7692,
+    "lng": 72.3627,
     "name": {
       "en": "Khwendo Kor Women’s Safe Space Mingora (دارالامان سوات)"
     },
@@ -57818,8 +57818,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1440",
     "regionDistrict": "Timergara (Lower Dir & Bajaur), KP, Pakistan",
     "type": "safe-haven",
-    "lat": 34.8698,
-    "lng": 71.8943,
+    "lat": 34.8303,
+    "lng": 71.8398,
     "name": {
       "en": "Malakand & Dir Women’s Protection & Safe Space Timergara"
     },
@@ -57874,8 +57874,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1441-u2",
     "regionDistrict": "Chitral (Hindu Kush Mountains), Upper KP, Pakistan",
     "type": "hospital",
-    "lat": 35.8678,
-    "lng": 71.7684,
+    "lat": 35.8543,
+    "lng": 71.7889,
     "name": {
       "en": "Aga Khan Health Service (AKHS) Booni / Garam Chashma Maternal Centers (چترال آغا خان میٹرنٹی سنٹر)"
     },
@@ -57902,8 +57902,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1441",
     "regionDistrict": "Chitral (Hindu Kush Mountains), Upper KP, Pakistan",
     "type": "safe-haven",
-    "lat": 35.8938,
-    "lng": 71.8384,
+    "lat": 35.8543,
+    "lng": 71.7839,
     "name": {
       "en": "Chitral Mountain Women’s Support"
     },
@@ -57930,8 +57930,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1441-u2",
     "regionDistrict": "Chitral (Hindu Kush Mountains), Upper KP, Pakistan",
     "type": "safe-haven",
-    "lat": 35.9098,
-    "lng": 71.8204,
+    "lat": 35.8493,
+    "lng": 71.7889,
     "name": {
       "en": "AKRSP Safe Space"
     },
@@ -57986,8 +57986,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1442",
     "regionDistrict": "Kohat & Hangu, Southern KP, Pakistan",
     "type": "safe-haven",
-    "lat": 33.6309,
-    "lng": 71.4949,
+    "lat": 33.5914,
+    "lng": 71.4404,
     "name": {
       "en": "Kohat Women’s Safe Space & Social Welfare Shelter"
     },
@@ -58042,8 +58042,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1443-u2",
     "regionDistrict": "Bannu & Waziristan, Southern KP, Pakistan",
     "type": "hospital",
-    "lat": 33.0021,
-    "lng": 70.5862,
+    "lat": 32.9886,
+    "lng": 70.6067,
     "name": {
       "en": "Khalifa Gul Nawaz Hospital (ویمن اینڈ چلڈرن ہسپتال بنوں)"
     },
@@ -58070,8 +58070,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1443",
     "regionDistrict": "Bannu & Waziristan, Southern KP, Pakistan",
     "type": "safe-haven",
-    "lat": 33.0281,
-    "lng": 70.6562,
+    "lat": 32.9886,
+    "lng": 70.6017,
     "name": {
       "en": "Bannu & Waziristan Displaced/Rural Women’s Safe Space"
     },
@@ -58126,8 +58126,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1444-u2",
     "regionDistrict": "Dera Ismail Khan, Southern KP, Pakistan",
     "type": "hospital",
-    "lat": 31.8474,
-    "lng": 70.8839,
+    "lat": 31.8339,
+    "lng": 70.9044,
     "name": {
       "en": "Mufti Mehmood Teaching Hospital D.I. Khan (زنانہ ہسپتال ڈیرہ اسماعیل خان)"
     },
@@ -58154,8 +58154,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1444",
     "regionDistrict": "Dera Ismail Khan, Southern KP, Pakistan",
     "type": "safe-haven",
-    "lat": 31.8734,
-    "lng": 70.9539,
+    "lat": 31.8339,
+    "lng": 70.8994,
     "name": {
       "en": "Dar-ul-Aman Dera Ismail Khan Women’s Shelter (دارالامان ڈیرہ اسماعیل خان)"
     },
@@ -58210,8 +58210,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1445-u2",
     "regionDistrict": "Quetta, Balochistan, Pakistan",
     "type": "hospital",
-    "lat": 30.1958,
-    "lng": 66.957,
+    "lat": 30.1823,
+    "lng": 66.9775,
     "name": {
       "en": "Bolan Medical Complex"
     },
@@ -58238,8 +58238,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1445-u3",
     "regionDistrict": "Quetta, Balochistan, Pakistan",
     "type": "hospital",
-    "lat": 30.1628,
-    "lng": 66.994,
+    "lat": 30.1823,
+    "lng": 66.9775,
     "name": {
       "en": "Benazir Bhutto Hospital Quetta (سنڈیمن و بولان میڈیکل کمپلیکس کوئٹہ)"
     },
@@ -58266,8 +58266,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1445",
     "regionDistrict": "Quetta, Balochistan, Pakistan",
     "type": "safe-haven",
-    "lat": 30.2218,
-    "lng": 67.027,
+    "lat": 30.1823,
+    "lng": 66.9725,
     "name": {
       "en": "Dar-ul-Aman Quetta"
     },
@@ -58294,8 +58294,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1445-u2",
     "regionDistrict": "Quetta, Balochistan, Pakistan",
     "type": "safe-haven",
-    "lat": 30.2378,
-    "lng": 67.009,
+    "lat": 30.1773,
+    "lng": 66.9775,
     "name": {
       "en": "Balochistan Women Crisis Center (دارالامان کوئٹہ)"
     },
@@ -58350,8 +58350,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1446",
     "regionDistrict": "Chaman & Kuchlak (Northern Balochistan), Pakistan",
     "type": "safe-haven",
-    "lat": 30.963,
-    "lng": 66.5117,
+    "lat": 30.9235,
+    "lng": 66.4572,
     "name": {
       "en": "Chaman Border & Rural Midwife Women’s Safe Space"
     },
@@ -58406,8 +58406,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1447",
     "regionDistrict": "Turbat (Kech / Makran Region), Balochistan, Pakistan",
     "type": "safe-haven",
-    "lat": 26.0451,
-    "lng": 63.1064,
+    "lat": 26.0056,
+    "lng": 63.0519,
     "name": {
       "en": "Makran Women’s Protection & Safe Space Turbat"
     },
@@ -58462,8 +58462,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1448-u2",
     "regionDistrict": "Gwadar (Makran Coast), Balochistan, Pakistan",
     "type": "hospital",
-    "lat": 25.1424,
-    "lng": 62.3045,
+    "lat": 25.1289,
+    "lng": 62.325,
     "name": {
       "en": "DHQ Hospital Gwadar — Maternity Wing (گوادر ہسپتال)"
     },
@@ -58490,8 +58490,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1448",
     "regionDistrict": "Gwadar (Makran Coast), Balochistan, Pakistan",
     "type": "safe-haven",
-    "lat": 25.1684,
-    "lng": 62.3745,
+    "lat": 25.1289,
+    "lng": 62.32,
     "name": {
       "en": "Gwadar Coastal Women’s Safe Center & Midwife Post"
     },
@@ -58546,8 +58546,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1449",
     "regionDistrict": "Khuzdar (Central Balochistan), Pakistan",
     "type": "safe-haven",
-    "lat": 27.842,
-    "lng": 66.6687,
+    "lat": 27.8025,
+    "lng": 66.6142,
     "name": {
       "en": "Khuzdar Rural Women’s Support & Safe Haven"
     },
@@ -58602,8 +58602,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1450",
     "regionDistrict": "Dera Murad Jamali & Sibi (Eastern Balochistan), Pakistan",
     "type": "safe-haven",
-    "lat": 28.5886,
-    "lng": 68.2751,
+    "lat": 28.5491,
+    "lng": 68.2206,
     "name": {
       "en": "Nasirabad & Sibi Rural Women’s Safe Space"
     },
@@ -58658,8 +58658,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1451",
     "regionDistrict": "Loralai & Zhob (Northeastern Balochistan), Pakistan",
     "type": "safe-haven",
-    "lat": 30.4125,
-    "lng": 68.6499,
+    "lat": 30.373,
+    "lng": 68.5954,
     "name": {
       "en": "Zhob & Loralai Women’s Safe Space"
     },
@@ -58714,8 +58714,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1452-u2",
     "regionDistrict": "Gilgit & Karimabad (Hunza), Gilgit-Baltistan, Pakistan",
     "type": "hospital",
-    "lat": 35.9368,
-    "lng": 74.2904,
+    "lat": 35.9233,
+    "lng": 74.3109,
     "name": {
       "en": "Aga Khan Medical Centre Gilgit / Hunza (آغا خان میڈیکل سینٹر گلگت و ہنزہ)"
     },
@@ -58742,8 +58742,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1452",
     "regionDistrict": "Gilgit & Karimabad (Hunza), Gilgit-Baltistan, Pakistan",
     "type": "safe-haven",
-    "lat": 35.9628,
-    "lng": 74.3604,
+    "lat": 35.9233,
+    "lng": 74.3059,
     "name": {
       "en": "Gilgit-Baltistan Women’s Safe House"
     },
@@ -58770,8 +58770,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1452-u2",
     "regionDistrict": "Gilgit & Karimabad (Hunza), Gilgit-Baltistan, Pakistan",
     "type": "safe-haven",
-    "lat": 35.9788,
-    "lng": 74.3424,
+    "lat": 35.9183,
+    "lng": 74.3109,
     "name": {
       "en": "AKRSP Women’s Resource Center"
     },
@@ -58826,8 +58826,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1453",
     "regionDistrict": "Skardu (Baltistan / Karakoram), Gilgit-Baltistan, Pakistan",
     "type": "safe-haven",
-    "lat": 35.3391,
-    "lng": 75.6853,
+    "lat": 35.2996,
+    "lng": 75.6308,
     "name": {
       "en": "Baltistan Women’s Safe Space & Maternal Support Skardu"
     },
@@ -58882,8 +58882,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1454-u2",
     "regionDistrict": "Muzaffarabad, Azad Jammu & Kashmir (AJK), Pakistan",
     "type": "hospital",
-    "lat": 34.386,
-    "lng": 73.4531,
+    "lat": 34.3725,
+    "lng": 73.4736,
     "name": {
       "en": "CMH Muzaffarabad — Mother & Child Wing (عباس انسٹی ٹیوٹ مظفرآباد)"
     },
@@ -58910,8 +58910,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1454",
     "regionDistrict": "Muzaffarabad, Azad Jammu & Kashmir (AJK), Pakistan",
     "type": "safe-haven",
-    "lat": 34.412,
-    "lng": 73.5231,
+    "lat": 34.3725,
+    "lng": 73.4686,
     "name": {
       "en": "Dar-ul-Aman Muzaffarabad Women’s Safe Shelter (دارالامان مظفرآباد)"
     },
@@ -58966,8 +58966,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-hosp-1455-u2",
     "regionDistrict": "Mirpur & Rawalakot, Azad Jammu & Kashmir (AJK), Pakistan",
     "type": "hospital",
-    "lat": 33.1638,
-    "lng": 73.7339,
+    "lat": 33.1503,
+    "lng": 73.7544,
     "name": {
       "en": "Gynae Wing (ڈی ایچ کیو ہسپتال میرپور)"
     },
@@ -58994,8 +58994,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "pak-safe-1455",
     "regionDistrict": "Mirpur & Rawalakot, Azad Jammu & Kashmir (AJK), Pakistan",
     "type": "safe-haven",
-    "lat": 33.1898,
-    "lng": 73.8039,
+    "lat": 33.1503,
+    "lng": 73.7494,
     "name": {
       "en": "Dar-ul-Aman Mirpur Women’s Safe House (دارالامان میرپور)"
     },
@@ -59050,8 +59050,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1498",
     "regionDistrict": "Riyadh (Al-malaz / King Fahad Medical City), Saudi Arabia",
     "type": "safe-haven",
-    "lat": 24.7312,
-    "lng": 46.7562,
+    "lat": 24.6917,
+    "lng": 46.7017,
     "name": {
       "en": "Riyadh Family Protection & Domestic Abuse Safe Shelter 1919 (مركز الحماية الأسرية ودار الحماية بالرياض)"
     },
@@ -59106,8 +59106,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1499-u2",
     "regionDistrict": "Riyadh (Al-Maather / Diplomatic Quarter), Saudi Arabia",
     "type": "hospital",
-    "lat": 24.6871,
-    "lng": 46.6576,
+    "lat": 24.6736,
+    "lng": 46.6781,
     "name": {
       "en": "King Khalid University Hospital Maternity Wing (مستشفى الملك فيصل التخصصي)"
     },
@@ -59134,8 +59134,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1499",
     "regionDistrict": "Riyadh (Al-Maather / Diplomatic Quarter), Saudi Arabia",
     "type": "safe-haven",
-    "lat": 24.7131,
-    "lng": 46.7276,
+    "lat": 24.6736,
+    "lng": 46.6731,
     "name": {
       "en": "Al-Nahda Women’s Empowerment & Crisis Support Center Riyadh (جمعية النهضة النسائية بالرياض)"
     },
@@ -59190,8 +59190,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1500-u2",
     "regionDistrict": "Riyadh (Khashm Al-Aan / National Guard), Saudi Arabia",
     "type": "hospital",
-    "lat": 24.7655,
-    "lng": 46.834,
+    "lat": 24.752,
+    "lng": 46.8545,
     "name": {
       "en": "Al Yamamah Maternity & Children Hospital (مدينة الملك عبدالعزيز الطبية ومستشفى اليمامة للولادة)"
     },
@@ -59218,8 +59218,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1500",
     "regionDistrict": "Riyadh (Khashm Al-Aan / National Guard), Saudi Arabia",
     "type": "safe-haven",
-    "lat": 24.7915,
-    "lng": 46.904,
+    "lat": 24.752,
+    "lng": 46.8495,
     "name": {
       "en": "East Riyadh Social Protection Unit for Women & Children (وحدة الحماية الاجتماعية شرق الرياض)"
     },
@@ -59274,8 +59274,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1501-u2",
     "regionDistrict": "Jeddah (Al-Hamra / Central), Makkah Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 21.5329,
-    "lng": 39.1568,
+    "lat": 21.5194,
+    "lng": 39.1773,
     "name": {
       "en": "King Faisal Specialist Hospital Jeddah (مستشفى المساعدية للولادة والأطفال بجدة)"
     },
@@ -59302,8 +59302,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1501",
     "regionDistrict": "Jeddah (Al-Hamra / Central), Makkah Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 21.5589,
-    "lng": 39.2268,
+    "lat": 21.5194,
+    "lng": 39.1723,
     "name": {
       "en": "Jeddah Family Protection Safe House"
     },
@@ -59330,8 +59330,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1501-u2",
     "regionDistrict": "Jeddah (Al-Hamra / Central), Makkah Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 21.5749,
-    "lng": 39.2088,
+    "lat": 21.5144,
+    "lng": 39.1773,
     "name": {
       "en": "Shamsaha Crisis Support (دار الحماية الاجتماعية بجدة)"
     },
@@ -59386,8 +59386,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1502-u2",
     "regionDistrict": "Jeddah (North / Al-Aziziyah), Makkah Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 21.5593,
-    "lng": 39.2012,
+    "lat": 21.5458,
+    "lng": 39.2217,
     "name": {
       "en": "King Abdulaziz University Hospital"
     },
@@ -59414,8 +59414,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1502-u3",
     "regionDistrict": "Jeddah (North / Al-Aziziyah), Makkah Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 21.5263,
-    "lng": 39.2382,
+    "lat": 21.5458,
+    "lng": 39.2217,
     "name": {
       "en": "Dr. Soliman Fakeeh Maternity Hospital (مستشفى جامعة الملك عبدالعزيز وسليمان فقيه)"
     },
@@ -59442,8 +59442,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1502",
     "regionDistrict": "Jeddah (North / Al-Aziziyah), Makkah Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 21.5853,
-    "lng": 39.2712,
+    "lat": 21.5458,
+    "lng": 39.2167,
     "name": {
       "en": "Al-Oula & Wafa Women’s Protection Sanctuary Jeddah (جمعية الأولى ومركز الحماية الأسرية بجدة)"
     },
@@ -59498,8 +59498,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1503-u2",
     "regionDistrict": "Makkah (Mecca), Makkah Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 21.4051,
-    "lng": 39.8399,
+    "lat": 21.3916,
+    "lng": 39.8604,
     "name": {
       "en": "Al-Noor Specialist Hospital (مستشفى الولادة والأطفال بمكة المكرمة ومستشفى النور)"
     },
@@ -59526,8 +59526,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1503",
     "regionDistrict": "Makkah (Mecca), Makkah Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 21.4311,
-    "lng": 39.9099,
+    "lat": 21.3916,
+    "lng": 39.8554,
     "name": {
       "en": "Makkah Social Protection & Women’s Safe Shelter (وحدة الحماية الاجتماعية بمكة المكرمة)"
     },
@@ -59582,8 +59582,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1504",
     "regionDistrict": "Taif, Makkah Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 21.3123,
-    "lng": 40.4678,
+    "lat": 21.2728,
+    "lng": 40.4133,
     "name": {
       "en": "Taif Family Protection & Safe House (وحدة الحماية الاجتماعية بالطائف)"
     },
@@ -59638,8 +59638,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1505-u2",
     "regionDistrict": "Madinah (Medina), Madinah Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 24.4832,
-    "lng": 39.5931,
+    "lat": 24.4697,
+    "lng": 39.6136,
     "name": {
       "en": "King Fahd Hospital Madinah (مستشفى النساء والولادة والأطفال بالمدينة المنورة)"
     },
@@ -59666,8 +59666,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1505",
     "regionDistrict": "Madinah (Medina), Madinah Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 24.5092,
-    "lng": 39.6631,
+    "lat": 24.4697,
+    "lng": 39.6086,
     "name": {
       "en": "Madinah Women’s Social Protection Safe Shelter (دار الحماية الاجتماعية بالمدينة المنورة)"
     },
@@ -59722,8 +59722,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1506-u2",
     "regionDistrict": "Yanbu, Madinah Province (Red Sea Coast), Saudi Arabia",
     "type": "hospital",
-    "lat": 24.1055,
-    "lng": 38.0438,
+    "lat": 24.092,
+    "lng": 38.0643,
     "name": {
       "en": "Yanbu General Hospital Maternity Wing (المركز الطبي للهيئة الملكية بينبع)"
     },
@@ -59750,8 +59750,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1506",
     "regionDistrict": "Yanbu, Madinah Province (Red Sea Coast), Saudi Arabia",
     "type": "safe-haven",
-    "lat": 24.1315,
-    "lng": 38.1138,
+    "lat": 24.092,
+    "lng": 38.0593,
     "name": {
       "en": "Yanbu Family Support & Women’s Safe Unit (وحدة الحماية الأسرية بينبع)"
     },
@@ -59806,8 +59806,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1507-u2",
     "regionDistrict": "Dammam, Khobar & Dhahran, Eastern Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 26.4367,
-    "lng": 50.0708,
+    "lat": 26.4232,
+    "lng": 50.0913,
     "name": {
       "en": "King Fahd University Hospital Khobar"
     },
@@ -59834,8 +59834,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1507-u3",
     "regionDistrict": "Dammam, Khobar & Dhahran, Eastern Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 26.4037,
-    "lng": 50.1078,
+    "lat": 26.4232,
+    "lng": 50.0913,
     "name": {
       "en": "Johns Hopkins Aramco Healthcare (مستشفى الولادة والأطفال بالدمام)"
     },
@@ -59862,8 +59862,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1507",
     "regionDistrict": "Dammam, Khobar & Dhahran, Eastern Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 26.4627,
-    "lng": 50.1408,
+    "lat": 26.4232,
+    "lng": 50.0863,
     "name": {
       "en": "Eastern Province Family Protection Safe Shelter Dammam (دار الحماية الاجتماعية بالمنطقة الشرقية)"
     },
@@ -59918,8 +59918,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1508-u2",
     "regionDistrict": "Al-Ahsa (Hofuf) & Qatif, Eastern Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 25.396,
-    "lng": 49.5708,
+    "lat": 25.3825,
+    "lng": 49.5913,
     "name": {
       "en": "Qatif Central Hospital (مستشفى الولادة والأطفال بالأحساء ومستشفى القطيف المركزي)"
     },
@@ -59946,8 +59946,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1508",
     "regionDistrict": "Al-Ahsa (Hofuf) & Qatif, Eastern Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 25.422,
-    "lng": 49.6408,
+    "lat": 25.3825,
+    "lng": 49.5863,
     "name": {
       "en": "Al-Ahsa Women’s Protection & Family Crisis Shelter (وحدة الحماية الاجتماعية بالأحساء)"
     },
@@ -60002,8 +60002,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1509-u2",
     "regionDistrict": "Jubail & Hafr Al-Batin, Northern Eastern Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 28.4488,
-    "lng": 45.9528,
+    "lat": 28.4353,
+    "lng": 45.9733,
     "name": {
       "en": "Jubail Royal Commission Hospital (مستشفى الولادة والأطفال بحفر الباطن والجبيل)"
     },
@@ -60030,8 +60030,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1509",
     "regionDistrict": "Jubail & Hafr Al-Batin, Northern Eastern Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 28.4748,
-    "lng": 46.0228,
+    "lat": 28.4353,
+    "lng": 45.9683,
     "name": {
       "en": "Hafr Al-Batin"
     },
@@ -60058,8 +60058,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1509-u2",
     "regionDistrict": "Jubail & Hafr Al-Batin, Northern Eastern Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 28.4908,
-    "lng": 46.0048,
+    "lat": 28.4303,
+    "lng": 45.9733,
     "name": {
       "en": "Jubail Women’s Protection Center (وحدة الحماية الاجتماعية بحفر الباطن)"
     },
@@ -60114,8 +60114,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1510-u2",
     "regionDistrict": "Abha & Khamis Mushait, Asir Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 18.2324,
-    "lng": 42.4873,
+    "lat": 18.2189,
+    "lng": 42.5078,
     "name": {
       "en": "Asir Central Hospital (مستشفى أبها للولادة والأطفال ومستشفى عسير المركزي)"
     },
@@ -60142,8 +60142,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1510",
     "regionDistrict": "Abha & Khamis Mushait, Asir Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 18.2584,
-    "lng": 42.5573,
+    "lat": 18.2189,
+    "lng": 42.5028,
     "name": {
       "en": "Asir Regional Women’s Safe Shelter Abha (دار الحماية الاجتماعية بمنطقة عسير)"
     },
@@ -60198,8 +60198,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1511-u2",
     "regionDistrict": "Jazan, Jazan Province (Southwest), Saudi Arabia",
     "type": "hospital",
-    "lat": 16.9052,
-    "lng": 42.5331,
+    "lat": 16.8917,
+    "lng": 42.5536,
     "name": {
       "en": "Sabya Maternity Hospital (مستشفى الملك فهد المركزي بجازان)"
     },
@@ -60226,8 +60226,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1511",
     "regionDistrict": "Jazan, Jazan Province (Southwest), Saudi Arabia",
     "type": "safe-haven",
-    "lat": 16.9312,
-    "lng": 42.6031,
+    "lat": 16.8917,
+    "lng": 42.5486,
     "name": {
       "en": "Jazan Women’s Social Protection Safe House (وحدة الحماية الاجتماعية بجازان)"
     },
@@ -60282,8 +60282,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1512-u2",
     "regionDistrict": "Najran, Najran Province (Southern Border), Saudi Arabia",
     "type": "hospital",
-    "lat": 17.5084,
-    "lng": 44.1097,
+    "lat": 17.4949,
+    "lng": 44.1302,
     "name": {
       "en": "King Khalid Hospital Najran (مستشفى الولادة والأطفال بنجران)"
     },
@@ -60310,8 +60310,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1512",
     "regionDistrict": "Najran, Najran Province (Southern Border), Saudi Arabia",
     "type": "safe-haven",
-    "lat": 17.5344,
-    "lng": 44.1797,
+    "lat": 17.4949,
+    "lng": 44.1252,
     "name": {
       "en": "Najran Family Protection & Women’s Shelter (وحدة الحماية الاجتماعية بنجران)"
     },
@@ -60366,8 +60366,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1513",
     "regionDistrict": "Al-Baha, Al-Baha Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 20.0549,
-    "lng": 41.5197,
+    "lat": 20.0154,
+    "lng": 41.4652,
     "name": {
       "en": "Al-Baha Women’s Protection Safe Unit (وحدة الحماية الاجتماعية بالباحة)"
     },
@@ -60422,8 +60422,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1514-u2",
     "regionDistrict": "Tabuk, Tabuk Province (Northwest), Saudi Arabia",
     "type": "hospital",
-    "lat": 28.3998,
-    "lng": 36.537,
+    "lat": 28.3863,
+    "lng": 36.5575,
     "name": {
       "en": "King Fahd Specialist Hospital Tabuk (مستشفى الولادة والأطفال بتبوك)"
     },
@@ -60450,8 +60450,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1514",
     "regionDistrict": "Tabuk, Tabuk Province (Northwest), Saudi Arabia",
     "type": "safe-haven",
-    "lat": 28.4258,
-    "lng": 36.607,
+    "lat": 28.3863,
+    "lng": 36.5525,
     "name": {
       "en": "Tabuk Family Protection & Women’s Safe House (دار الحماية الاجتماعية بتبوك)"
     },
@@ -60506,8 +60506,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1515-u2",
     "regionDistrict": "Hail, Hail Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 27.5274,
-    "lng": 41.7028,
+    "lat": 27.5139,
+    "lng": 41.7233,
     "name": {
       "en": "King Salman Specialist Hospital (مستشفى الولادة والأطفال بحائل)"
     },
@@ -60534,8 +60534,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1515",
     "regionDistrict": "Hail, Hail Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 27.5534,
-    "lng": 41.7728,
+    "lat": 27.5139,
+    "lng": 41.7183,
     "name": {
       "en": "Hail Women’s Protection & Crisis Shelter (وحدة الحماية الاجتماعية بحائل)"
     },
@@ -60590,8 +60590,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1516-u2",
     "regionDistrict": "Buraydah & Unaizah, Qassim Province, Saudi Arabia",
     "type": "hospital",
-    "lat": 26.342,
-    "lng": 43.957,
+    "lat": 26.3285,
+    "lng": 43.9775,
     "name": {
       "en": "King Saud Hospital Unaizah (مستشفى الولادة والأطفال ببريدة وعنيزة)"
     },
@@ -60618,8 +60618,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1516",
     "regionDistrict": "Buraydah & Unaizah, Qassim Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 26.368,
-    "lng": 44.027,
+    "lat": 26.3285,
+    "lng": 43.9725,
     "name": {
       "en": "Qassim Women’s Safe House & Family Protection Center (دار الحماية الاجتماعية بالقصيم)"
     },
@@ -60674,8 +60674,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-hosp-1517-u2",
     "regionDistrict": "Sakaka (Al-Jawf) & Arar (Northern Borders), Saudi Arabia",
     "type": "hospital",
-    "lat": 29.9857,
-    "lng": 40.1884,
+    "lat": 29.9722,
+    "lng": 40.2089,
     "name": {
       "en": "Arar Maternity Hospital (مستشفى الولادة والأطفال بالجوف وعرعر)"
     },
@@ -60702,8 +60702,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sau-safe-1517",
     "regionDistrict": "Sakaka (Al-Jawf) & Arar (Northern Borders), Saudi Arabia",
     "type": "safe-haven",
-    "lat": 30.0117,
-    "lng": 40.2584,
+    "lat": 29.9722,
+    "lng": 40.2039,
     "name": {
       "en": "Al-Jawf & Northern Borders Women’s Protection Center (وحدة الحماية الاجتماعية بالجوف والحدود الشمالية)"
     },
@@ -60758,8 +60758,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1518",
     "regionDistrict": "Muscat (Bawshar / Ghubrah), Muscat Governorate, Oman",
     "type": "safe-haven",
-    "lat": 23.617,
-    "lng": 58.4598,
+    "lat": 23.5775,
+    "lng": 58.4053,
     "name": {
       "en": "Dar Al-Wifaq (دار الوفاق) Family Protection Safe House Muscat — Ministry of Social Development"
     },
@@ -60814,8 +60814,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-hosp-1519-u2",
     "regionDistrict": "Muscat (Al Wattayah / Al Khoudh), Muscat Governorate, Oman",
     "type": "hospital",
-    "lat": 23.6163,
-    "lng": 58.4909,
+    "lat": 23.6028,
+    "lng": 58.5114,
     "name": {
       "en": "Sultan Qaboos University Hospital (مستشفى خولة ومجمع الوطية للولادة ومستشفى جامعة السلطان قابوس)"
     },
@@ -60842,8 +60842,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1519",
     "regionDistrict": "Muscat (Al Wattayah / Al Khoudh), Muscat Governorate, Oman",
     "type": "safe-haven",
-    "lat": 23.6423,
-    "lng": 58.5609,
+    "lat": 23.6028,
+    "lng": 58.5064,
     "name": {
       "en": "Omani Women’s Association (جمعية المرأة العمانية بمسقط)"
     },
@@ -60870,8 +60870,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1519-u2",
     "regionDistrict": "Muscat (Al Wattayah / Al Khoudh), Muscat Governorate, Oman",
     "type": "safe-haven",
-    "lat": 23.6583,
-    "lng": 58.5429,
+    "lat": 23.5978,
+    "lng": 58.5114,
     "name": {
       "en": "Shamsaha Oman Crisis Support"
     },
@@ -60926,8 +60926,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1520",
     "regionDistrict": "Salalah, Dhofar Governorate (Southern Oman), Oman",
     "type": "safe-haven",
-    "lat": 17.0571,
-    "lng": 54.1444,
+    "lat": 17.0176,
+    "lng": 54.0899,
     "name": {
       "en": "Dhofar Omani Women’s Association & Family Protection Safe Space Salalah (جمعية المرأة العمانية بصلالة)"
     },
@@ -60982,8 +60982,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1521",
     "regionDistrict": "Sohar, North Al Batinah Governorate, Oman",
     "type": "safe-haven",
-    "lat": 24.3881,
-    "lng": 56.7595,
+    "lat": 24.3486,
+    "lng": 56.705,
     "name": {
       "en": "Sohar Women’s Protection & Family Support Center (جمعية المرأة العمانية بصحار)"
     },
@@ -61038,8 +61038,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1522",
     "regionDistrict": "Rustaq & Barka, South Al Batinah Governorate, Oman",
     "type": "safe-haven",
-    "lat": 23.4328,
-    "lng": 57.4764,
+    "lat": 23.3933,
+    "lng": 57.4219,
     "name": {
       "en": "South Al Batinah Omani Women’s Safe Support Center Rustaq"
     },
@@ -61094,8 +61094,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1523",
     "regionDistrict": "Nizwa, Al Dakhiliyah Governorate (Interior Oman), Oman",
     "type": "safe-haven",
-    "lat": 22.9753,
-    "lng": 57.5853,
+    "lat": 22.9358,
+    "lng": 57.5308,
     "name": {
       "en": "Nizwa Omani Women’s Association & Family Protection Unit (جمعية المرأة العمانية بنزوى)"
     },
@@ -61150,8 +61150,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-hosp-1524-u2",
     "regionDistrict": "Sur, South Al Sharqiyah Governorate, Oman",
     "type": "hospital",
-    "lat": 22.5827,
-    "lng": 59.5109,
+    "lat": 22.5692,
+    "lng": 59.5314,
     "name": {
       "en": "Masirah Island Hospital (مستشفى صور المرجعي)"
     },
@@ -61178,8 +61178,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1524",
     "regionDistrict": "Sur, South Al Sharqiyah Governorate, Oman",
     "type": "safe-haven",
-    "lat": 22.6087,
-    "lng": 59.5809,
+    "lat": 22.5692,
+    "lng": 59.5264,
     "name": {
       "en": "Sur Omani Women’s Safe Support Center (جمعية المرأة العمانية بصور)"
     },
@@ -61234,8 +61234,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-hosp-1525-u2",
     "regionDistrict": "Ibra, North Al Sharqiyah Governorate, Oman",
     "type": "hospital",
-    "lat": 22.7066,
-    "lng": 58.5154,
+    "lat": 22.6931,
+    "lng": 58.5359,
     "name": {
       "en": "Sinaw Hospital — Maternity Wing (مستشفى إبراء المرجعي)"
     },
@@ -61262,8 +61262,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1525",
     "regionDistrict": "Ibra, North Al Sharqiyah Governorate, Oman",
     "type": "safe-haven",
-    "lat": 22.7326,
-    "lng": 58.5854,
+    "lat": 22.6931,
+    "lng": 58.5309,
     "name": {
       "en": "Ibra Women & Family Support Safe Space (جمعية المرأة العمانية بإبراء)"
     },
@@ -61318,8 +61318,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1526",
     "regionDistrict": "Ibri, Al Dhahirah Governorate, Oman",
     "type": "safe-haven",
-    "lat": 23.2677,
-    "lng": 56.5677,
+    "lat": 23.2282,
+    "lng": 56.5132,
     "name": {
       "en": "Al Dhahirah Women’s Support & Protection Center Ibri"
     },
@@ -61374,8 +61374,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1527",
     "regionDistrict": "Al Buraimi, Al Buraimi Governorate, Oman",
     "type": "safe-haven",
-    "lat": 24.2929,
-    "lng": 55.8451,
+    "lat": 24.2534,
+    "lng": 55.7906,
     "name": {
       "en": "Al Buraimi Omani Women’s Association & Safe Space"
     },
@@ -61430,8 +61430,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-hosp-1528-u2",
     "regionDistrict": "Haima & Duqm, Al Wusta Governorate (Central Oman), Oman",
     "type": "hospital",
-    "lat": 19.9741,
-    "lng": 56.2578,
+    "lat": 19.9606,
+    "lng": 56.2783,
     "name": {
       "en": "Duqm Medical Center — Rural Desert Maternal Triage (مستشفى هيماء والدقم)"
     },
@@ -61458,8 +61458,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1528",
     "regionDistrict": "Haima & Duqm, Al Wusta Governorate (Central Oman), Oman",
     "type": "safe-haven",
-    "lat": 20.0001,
-    "lng": 56.3278,
+    "lat": 19.9606,
+    "lng": 56.2733,
     "name": {
       "en": "Al Wusta Bedouin & Rural Women’s Safe Support Unit Haima"
     },
@@ -61514,8 +61514,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-hosp-1529-u2",
     "regionDistrict": "Khasab, Musandam Governorate (Strait of Hormuz), Oman",
     "type": "hospital",
-    "lat": 26.1959,
-    "lng": 56.2297,
+    "lat": 26.1824,
+    "lng": 56.2502,
     "name": {
       "en": "Dibba Hospital — Musandam Maternity Wing (مستشفى خصب المرجعي)"
     },
@@ -61542,8 +61542,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "omn-safe-1529",
     "regionDistrict": "Khasab, Musandam Governorate (Strait of Hormuz), Oman",
     "type": "safe-haven",
-    "lat": 26.2219,
-    "lng": 56.2997,
+    "lat": 26.1824,
+    "lng": 56.2452,
     "name": {
       "en": "Musandam Omani Women’s Association Safe Space Khasab"
     },
@@ -61598,8 +61598,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1530-u2",
     "regionDistrict": "Abu Dhabi & Al Ain, United Arab Emirates",
     "type": "hospital",
-    "lat": 24.5129,
-    "lng": 54.3376,
+    "lat": 24.4994,
+    "lng": 54.3581,
     "name": {
       "en": "Danat Al Emarat Women’s Hospital"
     },
@@ -61626,8 +61626,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1530-u3",
     "regionDistrict": "Abu Dhabi & Al Ain, United Arab Emirates",
     "type": "hospital",
-    "lat": 24.4799,
-    "lng": 54.3746,
+    "lat": 24.4994,
+    "lng": 54.3581,
     "name": {
       "en": "Tawam Hospital Al Ain (مستشفى الكورنيش ودانة الإمارات للنساء والولادة)"
     },
@@ -61654,8 +61654,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1530",
     "regionDistrict": "Abu Dhabi & Al Ain, United Arab Emirates",
     "type": "safe-haven",
-    "lat": 24.5389,
-    "lng": 54.4076,
+    "lat": 24.4994,
+    "lng": 54.3531,
     "name": {
       "en": "Ewaa Shelters for Women and Children"
     },
@@ -61682,8 +61682,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1530-u2",
     "regionDistrict": "Abu Dhabi & Al Ain, United Arab Emirates",
     "type": "safe-haven",
-    "lat": 24.5549,
-    "lng": 54.3896,
+    "lat": 24.4944,
+    "lng": 54.3581,
     "name": {
       "en": "Abu Dhabi Family Care Authority (مراكز إيواء للنساء والأطفال بأبوظبي)"
     },
@@ -61738,8 +61738,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1531-u2",
     "regionDistrict": "Dubai, United Arab Emirates",
     "type": "hospital",
-    "lat": 25.2445,
-    "lng": 55.3093,
+    "lat": 25.231,
+    "lng": 55.3298,
     "name": {
       "en": "Dubai Hospital"
     },
@@ -61766,8 +61766,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1531-u3",
     "regionDistrict": "Dubai, United Arab Emirates",
     "type": "hospital",
-    "lat": 25.2115,
-    "lng": 55.3463,
+    "lat": 25.231,
+    "lng": 55.3298,
     "name": {
       "en": "American Hospital Dubai (مستشفى لطيفة للنساء والأطفال بدبي)"
     },
@@ -61794,8 +61794,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1531",
     "regionDistrict": "Dubai, United Arab Emirates",
     "type": "safe-haven",
-    "lat": 25.2705,
-    "lng": 55.3793,
+    "lat": 25.231,
+    "lng": 55.3248,
     "name": {
       "en": "Dubai Foundation for Women and Children — DFWAC Safe Shelter (مؤسسة دبي لرعاية النساء والأطفال)"
     },
@@ -61850,8 +61850,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1532-u2",
     "regionDistrict": "Sharjah, Ras Al Khaimah & Fujairah (Northern Emirates), UAE",
     "type": "hospital",
-    "lat": 25.3623,
-    "lng": 55.4029,
+    "lat": 25.3488,
+    "lng": 55.4234,
     "name": {
       "en": "RAK Hospital"
     },
@@ -61878,8 +61878,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1532-u3",
     "regionDistrict": "Sharjah, Ras Al Khaimah & Fujairah (Northern Emirates), UAE",
     "type": "hospital",
-    "lat": 25.3293,
-    "lng": 55.4399,
+    "lat": 25.3488,
+    "lng": 55.4234,
     "name": {
       "en": "Fujairah Hospital (مستشفى القاسمي للنساء والولادة بالشارقة)"
     },
@@ -61906,8 +61906,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1532",
     "regionDistrict": "Sharjah, Ras Al Khaimah & Fujairah (Northern Emirates), UAE",
     "type": "safe-haven",
-    "lat": 25.3883,
-    "lng": 55.4729,
+    "lat": 25.3488,
+    "lng": 55.4184,
     "name": {
       "en": "Aman Shelter for Women and Children Sharjah"
     },
@@ -61934,8 +61934,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1532-u2",
     "regionDistrict": "Sharjah, Ras Al Khaimah & Fujairah (Northern Emirates), UAE",
     "type": "safe-haven",
-    "lat": 25.4043,
-    "lng": 55.4549,
+    "lat": 25.3438,
+    "lng": 55.4234,
     "name": {
       "en": "RAK (مركز أمان لإيواء النساء والأطفال بالشارقة ورأس الخيمة)"
     },
@@ -61990,8 +61990,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1533-u2",
     "regionDistrict": "Doha, Al Wakra & Al Khor, Qatar",
     "type": "hospital",
-    "lat": 25.3383,
-    "lng": 51.4211,
+    "lat": 25.3248,
+    "lng": 51.4416,
     "name": {
       "en": "Hamad Women’s Wellness and Research Center Doha (سدرة للطب ومركز صحة المرأة والأبحاث بالدوحة)"
     },
@@ -62018,8 +62018,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1533",
     "regionDistrict": "Doha, Al Wakra & Al Khor, Qatar",
     "type": "safe-haven",
-    "lat": 25.3643,
-    "lng": 51.4911,
+    "lat": 25.3248,
+    "lng": 51.4366,
     "name": {
       "en": "Aman Center for Protection and Social Rehabilitation — Qatar Safe House (مركز أمان للحماية والتأهيل الاجتماعي بقطر)"
     },
@@ -62074,8 +62074,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1534-u2",
     "regionDistrict": "Kuwait City, Hawalli, Farwaniya & Jahra, Kuwait",
     "type": "hospital",
-    "lat": 29.3535,
-    "lng": 47.8876,
+    "lat": 29.34,
+    "lng": 47.9081,
     "name": {
       "en": "Royale Hayat Hospital"
     },
@@ -62102,8 +62102,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1534",
     "regionDistrict": "Kuwait City, Hawalli, Farwaniya & Jahra, Kuwait",
     "type": "safe-haven",
-    "lat": 29.3795,
-    "lng": 47.9576,
+    "lat": 29.34,
+    "lng": 47.9031,
     "name": {
       "en": "Fanar Shelter for Protection from Domestic Violence"
     },
@@ -62130,8 +62130,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1534-u2",
     "regionDistrict": "Kuwait City, Hawalli, Farwaniya & Jahra, Kuwait",
     "type": "safe-haven",
-    "lat": 29.3955,
-    "lng": 47.9396,
+    "lat": 29.335,
+    "lng": 47.9081,
     "name": {
       "en": "Shamsaha Kuwait (مركز فنر للإيواء والحماية بالكويت)"
     },
@@ -62186,8 +62186,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1535-u2",
     "regionDistrict": "Manama, Muharraq & Riffa, Bahrain",
     "type": "hospital",
-    "lat": 26.2314,
-    "lng": 50.5517,
+    "lat": 26.2179,
+    "lng": 50.5722,
     "name": {
       "en": "Muharraq Maternity Hospital"
     },
@@ -62214,8 +62214,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1535-u3",
     "regionDistrict": "Manama, Muharraq & Riffa, Bahrain",
     "type": "hospital",
-    "lat": 26.1984,
-    "lng": 50.5887,
+    "lat": 26.2179,
+    "lng": 50.5722,
     "name": {
       "en": "Salmaniya Medical Complex"
     },
@@ -62242,8 +62242,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1535",
     "regionDistrict": "Manama, Muharraq & Riffa, Bahrain",
     "type": "safe-haven",
-    "lat": 26.2574,
-    "lng": 50.6217,
+    "lat": 26.2179,
+    "lng": 50.5672,
     "name": {
       "en": "Dar Al-Aman Safe Shelter"
     },
@@ -62270,8 +62270,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1535-u2",
     "regionDistrict": "Manama, Muharraq & Riffa, Bahrain",
     "type": "safe-haven",
-    "lat": 26.2734,
-    "lng": 50.6037,
+    "lat": 26.2129,
+    "lng": 50.5722,
     "name": {
       "en": "Shamsaha Bahrain Women’s Crisis Center (دار الأمان وشمسها البحرين)"
     },
@@ -62326,8 +62326,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-hosp-1536-u2",
     "regionDistrict": "Aden, Mukalla (Hadhramaut) & Taiz, Yemen",
     "type": "hospital",
-    "lat": 12.8814,
-    "lng": 45.0007,
+    "lat": 12.8679,
+    "lng": 45.0212,
     "name": {
       "en": "Mukalla Mother-Child Hospital (مستشفى الصداقة التعليمي للولادة بعدن والمكلا)"
     },
@@ -62354,8 +62354,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1536",
     "regionDistrict": "Aden, Mukalla (Hadhramaut) & Taiz, Yemen",
     "type": "safe-haven",
-    "lat": 12.9074,
-    "lng": 45.0707,
+    "lat": 12.8679,
+    "lng": 45.0162,
     "name": {
       "en": "Yemeni Women’s Union Safe Shelters"
     },
@@ -62382,8 +62382,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1536-u2",
     "regionDistrict": "Aden, Mukalla (Hadhramaut) & Taiz, Yemen",
     "type": "safe-haven",
-    "lat": 12.9234,
-    "lng": 45.0527,
+    "lat": 12.8629,
+    "lng": 45.0212,
     "name": {
       "en": "UNFPA Women’s Safe Spaces Aden"
     },
@@ -62410,8 +62410,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "gulf-safe-1536-u3",
     "regionDistrict": "Aden, Mukalla (Hadhramaut) & Taiz, Yemen",
     "type": "safe-haven",
-    "lat": 12.8904,
-    "lng": 45.0897,
+    "lat": 12.8619,
+    "lng": 45.0162,
     "name": {
       "en": "Mukalla (دار إيواء اتحاد نساء اليمن)"
     },
@@ -62466,8 +62466,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-hosp-1537-u2",
     "regionDistrict": "Abidjan (Bingerville / Cocody), Côte d’Ivoire",
     "type": "hospital",
-    "lat": 5.3722,
-    "lng": -3.9069,
+    "lat": 5.3587,
+    "lng": -3.8864,
     "name": {
       "en": "CHU de Cocody (Mother & Child Hospital Abidjan)"
     },
@@ -62494,8 +62494,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1537",
     "regionDistrict": "Abidjan (Bingerville / Cocody), Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 5.3982,
-    "lng": -3.8369,
+    "lat": 5.3587,
+    "lng": -3.8914,
     "name": {
       "en": "Pavillon d’Accueil des Femmes Victimes de VBG"
     },
@@ -62522,8 +62522,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1537-u2",
     "regionDistrict": "Abidjan (Bingerville / Cocody), Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 5.4142,
-    "lng": -3.8549,
+    "lat": 5.3537,
+    "lng": -3.8864,
     "name": {
       "en": "CPPE Cocody Safe Haven"
     },
@@ -62578,8 +62578,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-hosp-1538-u2",
     "regionDistrict": "Abidjan (Treichville, Yopougon & Angré), Côte d’Ivoire",
     "type": "hospital",
-    "lat": 5.3185,
-    "lng": -4.0198,
+    "lat": 5.305,
+    "lng": -3.9993,
     "name": {
       "en": "CHU de Yopougon"
     },
@@ -62606,8 +62606,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-hosp-1538-u3",
     "regionDistrict": "Abidjan (Treichville, Yopougon & Angré), Côte d’Ivoire",
     "type": "hospital",
-    "lat": 5.2855,
-    "lng": -3.9828,
+    "lat": 5.305,
+    "lng": -3.9993,
     "name": {
       "en": "CHU d’Angré"
     },
@@ -62634,8 +62634,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-hosp-1538-u4",
     "regionDistrict": "Abidjan (Treichville, Yopougon & Angré), Côte d’Ivoire",
     "type": "hospital",
-    "lat": 5.3245,
-    "lng": -3.9808,
+    "lat": 5.305,
+    "lng": -3.9993,
     "name": {
       "en": "Polyclinique PISAM (Maternité & Gynécologie Abidjan)"
     },
@@ -62662,8 +62662,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1538",
     "regionDistrict": "Abidjan (Treichville, Yopougon & Angré), Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 5.3445,
-    "lng": -3.9498,
+    "lat": 5.305,
+    "lng": -4.0043,
     "name": {
       "en": "Association des Femmes Juristes de Côte d’Ivoire (AFJCI)"
     },
@@ -62690,8 +62690,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1538-u2",
     "regionDistrict": "Abidjan (Treichville, Yopougon & Angré), Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 5.3605,
-    "lng": -3.9678,
+    "lat": 5.3,
+    "lng": -3.9993,
     "name": {
       "en": "ONG Sauvons Toujours Safe Shelter Abidjan"
     },
@@ -62746,8 +62746,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1539",
     "regionDistrict": "Yamoussoukro, District Autonome de Yamoussoukro, Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 6.8696,
-    "lng": -5.2373,
+    "lat": 6.8301,
+    "lng": -5.2918,
     "name": {
       "en": "Centre Social"
     },
@@ -62774,8 +62774,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1539-u2",
     "regionDistrict": "Yamoussoukro, District Autonome de Yamoussoukro, Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 6.8856,
-    "lng": -5.2553,
+    "lat": 6.8251,
+    "lng": -5.2868,
     "name": {
       "en": "Plateforme Multisectorielle VBG de Yamoussoukro"
     },
@@ -62830,8 +62830,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1540",
     "regionDistrict": "Bouaké, Vallée du Bandama, Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 7.7326,
-    "lng": -4.9783,
+    "lat": 7.6931,
+    "lng": -5.0328,
     "name": {
       "en": "Centre d’Écoute et d’Hébergement pour Femmes Victimes de VBG de Bouaké"
     },
@@ -62886,8 +62886,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-hosp-1541-u2",
     "regionDistrict": "San-Pédro, Bas-Sassandra (Southwest Coast), Côte d’Ivoire",
     "type": "hospital",
-    "lat": 4.7645,
-    "lng": -6.6543,
+    "lat": 4.751,
+    "lng": -6.6338,
     "name": {
       "en": "Urgences Obstétricales"
     },
@@ -62914,8 +62914,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1541",
     "regionDistrict": "San-Pédro, Bas-Sassandra (Southwest Coast), Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 4.7905,
-    "lng": -6.5843,
+    "lat": 4.751,
+    "lng": -6.6388,
     "name": {
       "en": "Maison d’Accueil des Femmes"
     },
@@ -62942,8 +62942,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1541-u2",
     "regionDistrict": "San-Pédro, Bas-Sassandra (Southwest Coast), Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 4.8065,
-    "lng": -6.6023,
+    "lat": 4.746,
+    "lng": -6.6338,
     "name": {
       "en": "Plateforme VBG de San-Pédro"
     },
@@ -62998,8 +62998,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1542",
     "regionDistrict": "Daloa, Haut-Sassandra, Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 6.9194,
-    "lng": -6.3982,
+    "lat": 6.8799,
+    "lng": -6.4527,
     "name": {
       "en": "Centre Social & Refuge pour Femmes de Daloa"
     },
@@ -63054,8 +63054,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1543",
     "regionDistrict": "Korhogo, Savanes District (Northern Côte d’Ivoire)",
     "type": "safe-haven",
-    "lat": 9.5,
-    "lng": -5.5776,
+    "lat": 9.4605,
+    "lng": -5.6321,
     "name": {
       "en": "Centre d’Accueil et de Protection des Femmes et Filles de Korhogo"
     },
@@ -63110,8 +63110,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-hosp-1544-u2",
     "regionDistrict": "Man, Montagnes District (Western Côte d’Ivoire)",
     "type": "hospital",
-    "lat": 7.4285,
-    "lng": -7.5718,
+    "lat": 7.415,
+    "lng": -7.5513,
     "name": {
       "en": "Fistules Obstétricales"
     },
@@ -63138,8 +63138,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1544",
     "regionDistrict": "Man, Montagnes District (Western Côte d’Ivoire)",
     "type": "safe-haven",
-    "lat": 7.4545,
-    "lng": -7.5018,
+    "lat": 7.415,
+    "lng": -7.5563,
     "name": {
       "en": "Espace Sûr pour Femmes"
     },
@@ -63166,8 +63166,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1544-u2",
     "regionDistrict": "Man, Montagnes District (Western Côte d’Ivoire)",
     "type": "safe-haven",
-    "lat": 7.4705,
-    "lng": -7.5198,
+    "lat": 7.41,
+    "lng": -7.5513,
     "name": {
       "en": "Clinique Juridique de Man"
     },
@@ -63222,8 +63222,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1545",
     "regionDistrict": "Gagnoa, Gôh-Djiboua District, Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 6.1739,
-    "lng": -5.8986,
+    "lat": 6.1344,
+    "lng": -5.9531,
     "name": {
       "en": "Centre de Protection de la Femme et de la Famille de Gagnoa"
     },
@@ -63278,8 +63278,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1546",
     "regionDistrict": "Abengourou, Comoé District (Eastern Côte d’Ivoire)",
     "type": "safe-haven",
-    "lat": 6.7717,
-    "lng": -3.4444,
+    "lat": 6.7322,
+    "lng": -3.4989,
     "name": {
       "en": "Centre Social & Refuge VBG d’Abengourou"
     },
@@ -63334,8 +63334,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1547",
     "regionDistrict": "Bondoukou, Zanzan District (Northeastern Côte d’Ivoire)",
     "type": "safe-haven",
-    "lat": 8.0822,
-    "lng": -2.748,
+    "lat": 8.0427,
+    "lng": -2.8025,
     "name": {
       "en": "Espace Sûr UNFPA & Centre Social des Femmes de Bondoukou"
     },
@@ -63390,8 +63390,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1548",
     "regionDistrict": "Odienné, Denguélé District (Northwestern Côte d’Ivoire)",
     "type": "safe-haven",
-    "lat": 9.5471,
-    "lng": -7.5123,
+    "lat": 9.5076,
+    "lng": -7.5668,
     "name": {
       "en": "Centre d’Écoute et de Protection des Femmes d’Odienné"
     },
@@ -63446,8 +63446,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1549",
     "regionDistrict": "Séguéla, Woroba District, Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 8.0031,
-    "lng": -6.6211,
+    "lat": 7.9636,
+    "lng": -6.6756,
     "name": {
       "en": "Centre Social des Femmes de Séguéla"
     },
@@ -63502,8 +63502,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-hosp-1550-u2",
     "regionDistrict": "Dimbokro, Lacs District & Aboisso, Sud-Comoé, Côte d’Ivoire",
     "type": "hospital",
-    "lat": 6.6628,
-    "lng": -4.7232,
+    "lat": 6.6493,
+    "lng": -4.7027,
     "name": {
       "en": "CHR d’Aboisso / Hôpital Général de Grand-Bassam — Maternité"
     },
@@ -63530,8 +63530,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1550",
     "regionDistrict": "Dimbokro, Lacs District & Aboisso, Sud-Comoé, Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 6.6888,
-    "lng": -4.6532,
+    "lat": 6.6493,
+    "lng": -4.7077,
     "name": {
       "en": "Plateforme VBG"
     },
@@ -63558,8 +63558,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "civ-safe-1550-u2",
     "regionDistrict": "Dimbokro, Lacs District & Aboisso, Sud-Comoé, Côte d’Ivoire",
     "type": "safe-haven",
-    "lat": 6.7048,
-    "lng": -4.6712,
+    "lat": 6.6443,
+    "lng": -4.7027,
     "name": {
       "en": "Maison de la Femme de Dimbokro et Grand-Bassam"
     },
@@ -63614,8 +63614,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1604",
     "regionDistrict": "Luanda (Ingombota / Central), Luanda Province, Angola",
     "type": "safe-haven",
-    "lat": -8.7786,
-    "lng": 13.2876,
+    "lat": -8.8181,
+    "lng": 13.2331,
     "name": {
       "en": "Centro de Aconselhamento Familiar"
     },
@@ -63642,8 +63642,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1604-u2",
     "regionDistrict": "Luanda (Ingombota / Central), Luanda Province, Angola",
     "type": "safe-haven",
-    "lat": -8.7626,
-    "lng": 13.2696,
+    "lat": -8.8231,
+    "lng": 13.2381,
     "name": {
       "en": "Casa de Abrigo MASFAMU Luanda (Refúgio contra a Violência Doméstica)"
     },
@@ -63698,8 +63698,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1605",
     "regionDistrict": "Luanda (Maculusso / Maianga), Luanda Province, Angola",
     "type": "safe-haven",
-    "lat": -8.7727,
-    "lng": 13.2932,
+    "lat": -8.8122,
+    "lng": 13.2387,
     "name": {
       "en": "Organização da Mulher Angolana (OMA) — Centro de Apoio Jurídico e Abrigo da Mulher Luanda"
     },
@@ -63754,8 +63754,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-hosp-1606-u2",
     "regionDistrict": "Luanda (Camama / Talatona), Luanda Province, Angola",
     "type": "hospital",
-    "lat": -8.9025,
-    "lng": 13.2662,
+    "lat": -8.916,
+    "lng": 13.2867,
     "name": {
       "en": "Clínica Multiperfil"
     },
@@ -63782,8 +63782,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1606",
     "regionDistrict": "Luanda (Camama / Talatona), Luanda Province, Angola",
     "type": "safe-haven",
-    "lat": -8.8765,
-    "lng": 13.3362,
+    "lat": -8.916,
+    "lng": 13.2817,
     "name": {
       "en": "Casa de Abrigo de Talatona"
     },
@@ -63810,8 +63810,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1606-u2",
     "regionDistrict": "Luanda (Camama / Talatona), Luanda Province, Angola",
     "type": "safe-haven",
-    "lat": -8.8605,
-    "lng": 13.3182,
+    "lat": -8.921,
+    "lng": 13.2867,
     "name": {
       "en": "Rede Mulher Angola Safe Haven"
     },
@@ -63866,8 +63866,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1607",
     "regionDistrict": "Viana & Cacuaco, Luanda Province, Angola",
     "type": "safe-haven",
-    "lat": -8.8616,
-    "lng": 13.4264,
+    "lat": -8.9011,
+    "lng": 13.3719,
     "name": {
       "en": "Centro Comunitário de Protecção da Mulher e Rapariga de Viana (UNFPA / MASFAMU)"
     },
@@ -63922,8 +63922,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-hosp-1608-u2",
     "regionDistrict": "Caxito, Bengo Province, Angola",
     "type": "hospital",
-    "lat": -8.5625,
-    "lng": 13.6462,
+    "lat": -8.576,
+    "lng": 13.6667,
     "name": {
       "en": "Centro Materno-Infantil de Caxito"
     },
@@ -63950,8 +63950,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1608",
     "regionDistrict": "Caxito, Bengo Province, Angola",
     "type": "safe-haven",
-    "lat": -8.5365,
-    "lng": 13.7162,
+    "lat": -8.576,
+    "lng": 13.6617,
     "name": {
       "en": "Centro de Aconselhamento Familiar e Abrigo da Mulher do Bengo (Caxito)"
     },
@@ -64006,8 +64006,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1609",
     "regionDistrict": "Benguela, Benguela Province, Angola",
     "type": "safe-haven",
-    "lat": -12.5343,
-    "lng": 13.4575,
+    "lat": -12.5738,
+    "lng": 13.403,
     "name": {
       "en": "Casa de Abrigo"
     },
@@ -64034,8 +64034,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1609-u2",
     "regionDistrict": "Benguela, Benguela Province, Angola",
     "type": "safe-haven",
-    "lat": -12.5183,
-    "lng": 13.4395,
+    "lat": -12.5788,
+    "lng": 13.408,
     "name": {
       "en": "Gabinete Provincial da Acção Social e Família de Benguela"
     },
@@ -64090,8 +64090,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1610",
     "regionDistrict": "Lobito, Benguela Province, Angola",
     "type": "safe-haven",
-    "lat": -12.3224,
-    "lng": 13.5881,
+    "lat": -12.3619,
+    "lng": 13.5336,
     "name": {
       "en": "Centro de Apoio à Mulher Vítima de Violência Doméstica do Lobito (OMA / MASFAMU)"
     },
@@ -64146,8 +64146,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1611",
     "regionDistrict": "Kuito, Bié Province (Central Highlands), Angola",
     "type": "safe-haven",
-    "lat": -12.3413,
-    "lng": 16.9853,
+    "lat": -12.3808,
+    "lng": 16.9308,
     "name": {
       "en": "Centro de Aconselhamento Familiar e Protecção da Mulher do Kuito (Bié)"
     },
@@ -64202,8 +64202,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1612",
     "regionDistrict": "Cabinda, Cabinda Province, Angola",
     "type": "safe-haven",
-    "lat": -5.508,
-    "lng": 12.252,
+    "lat": -5.5475,
+    "lng": 12.1975,
     "name": {
       "en": "Casa de Abrigo"
     },
@@ -64230,8 +64230,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1612-u2",
     "regionDistrict": "Cabinda, Cabinda Province, Angola",
     "type": "safe-haven",
-    "lat": -5.492,
-    "lng": 12.234,
+    "lat": -5.5525,
+    "lng": 12.2025,
     "name": {
       "en": "Centro de Apoio à Mulher de Cabinda (MASFAMU / OMA)"
     },
@@ -64286,8 +64286,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1613",
     "regionDistrict": "Menongue, Cuando Cubango Province, Angola",
     "type": "safe-haven",
-    "lat": -14.6165,
-    "lng": 17.743,
+    "lat": -14.656,
+    "lng": 17.6885,
     "name": {
       "en": "Centro de Aconselhamento e Protecção da Mulher de Menongue (UNFPA / MASFAMU)"
     },
@@ -64342,8 +64342,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1614",
     "regionDistrict": "N’dalatando, Cuanza Norte Province, Angola",
     "type": "safe-haven",
-    "lat": -9.2558,
-    "lng": 14.9636,
+    "lat": -9.2953,
+    "lng": 14.9091,
     "name": {
       "en": "Centro de Aconselhamento Familiar e Casa Segura de N’dalatando"
     },
@@ -64398,8 +64398,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1615",
     "regionDistrict": "Sumbe & Porto Amboim, Cuanza Sul Province, Angola",
     "type": "safe-haven",
-    "lat": -11.1641,
-    "lng": 13.8957,
+    "lat": -11.2036,
+    "lng": 13.8412,
     "name": {
       "en": "Centro Provincial de Apoio à Mulher e Família do Sumbe (Cuanza Sul)"
     },
@@ -64454,8 +64454,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1616",
     "regionDistrict": "Ondjiva, Cunene Province (Southern Angola), Angola",
     "type": "safe-haven",
-    "lat": -17.0247,
-    "lng": 15.7853,
+    "lat": -17.0642,
+    "lng": 15.7308,
     "name": {
       "en": "Espaço Seguro para Mulheres e Raparigas de Ondjiva (UNFPA / MASFAMU Cunene)"
     },
@@ -64510,8 +64510,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1617",
     "regionDistrict": "Chiulo (Ombadja Rural Mission), Cunene Province, Angola",
     "type": "safe-haven",
-    "lat": -16.4747,
-    "lng": 14.952,
+    "lat": -16.5142,
+    "lng": 14.8975,
     "name": {
       "en": "Casa de Espera Materna e Protecção Comunitária da Mulher Rural de Chiulo"
     },
@@ -64566,8 +64566,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1618",
     "regionDistrict": "Huambo, Huambo Province, Angola",
     "type": "safe-haven",
-    "lat": -12.7341,
-    "lng": 15.7912,
+    "lat": -12.7736,
+    "lng": 15.7367,
     "name": {
       "en": "Casa de Abrigo e Centro de Aconselhamento Familiar do Huambo (MASFAMU / OMA)"
     },
@@ -64622,8 +64622,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1619",
     "regionDistrict": "Kalukembe (Caluquembe Rural Mission), Huambo/Huíla Border, Angola",
     "type": "safe-haven",
-    "lat": -13.7413,
-    "lng": 14.7353,
+    "lat": -13.7808,
+    "lng": 14.6808,
     "name": {
       "en": "Centro de Reintegração e Abrigo para Mulheres com Fístula Obstétrica de Kalukembe"
     },
@@ -64678,8 +64678,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1620",
     "regionDistrict": "Lubango, Huíla Province, Angola",
     "type": "safe-haven",
-    "lat": -14.8752,
-    "lng": 13.5445,
+    "lat": -14.9147,
+    "lng": 13.49,
     "name": {
       "en": "Casa de Abrigo da Huíla"
     },
@@ -64706,8 +64706,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1620-u2",
     "regionDistrict": "Lubango, Huíla Province, Angola",
     "type": "safe-haven",
-    "lat": -14.8592,
-    "lng": 13.5265,
+    "lat": -14.9197,
+    "lng": 13.495,
     "name": {
       "en": "Centro de Aconselhamento Familiar do Lubango"
     },
@@ -64762,8 +64762,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1621",
     "regionDistrict": "Dundo & Lucapa, Lunda Norte Province, Angola",
     "type": "safe-haven",
-    "lat": -7.3383,
-    "lng": 20.887,
+    "lat": -7.3778,
+    "lng": 20.8325,
     "name": {
       "en": "Centro de Protecção da Mulher e Atendimento a Vítimas de VBG do Dundo (Lunda Norte)"
     },
@@ -64818,8 +64818,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1622",
     "regionDistrict": "Saurimo, Lunda Sul Province, Angola",
     "type": "safe-haven",
-    "lat": -9.6188,
-    "lng": 20.4436,
+    "lat": -9.6583,
+    "lng": 20.3891,
     "name": {
       "en": "Centro de Aconselhamento Familiar e Casa Segura de Saurimo (Lunda Sul)"
     },
@@ -64874,8 +64874,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1623",
     "regionDistrict": "Malanje, Malanje Province, Angola",
     "type": "safe-haven",
-    "lat": -9.4982,
-    "lng": 16.393,
+    "lat": -9.5377,
+    "lng": 16.3385,
     "name": {
       "en": "Casa de Abrigo e Centro de Apoio à Mulher de Malanje (MASFAMU / OMA)"
     },
@@ -64930,8 +64930,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1624",
     "regionDistrict": "Luena, Moxico Province (Eastern Angola), Angola",
     "type": "safe-haven",
-    "lat": -11.7413,
-    "lng": 19.9687,
+    "lat": -11.7808,
+    "lng": 19.9142,
     "name": {
       "en": "Centro de Aconselhamento Familiar e Espaço Seguro da Mulher do Luena (Moxico)"
     },
@@ -64986,8 +64986,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1625",
     "regionDistrict": "Moçâmedes (Namibe), Namibe Province, Angola",
     "type": "safe-haven",
-    "lat": -15.1541,
-    "lng": 12.2042,
+    "lat": -15.1936,
+    "lng": 12.1497,
     "name": {
       "en": "Centro de Apoio à Mulher e Família de Moçâmedes (Namibe)"
     },
@@ -65042,8 +65042,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1626",
     "regionDistrict": "Uíge, Uíge Province (Northern Angola), Angola",
     "type": "safe-haven",
-    "lat": -7.5667,
-    "lng": 15.1133,
+    "lat": -7.6062,
+    "lng": 15.0588,
     "name": {
       "en": "Centro de Aconselhamento Familiar e Protecção da Mulher do Uíge"
     },
@@ -65098,8 +65098,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ago-safe-1627",
     "regionDistrict": "M’banza-Kongo & Soyo, Zaire Province, Angola",
     "type": "safe-haven",
-    "lat": -6.225,
-    "lng": 14.2921,
+    "lat": -6.2645,
+    "lng": 14.2376,
     "name": {
       "en": "Centro de Apoio à Mulher e Vítimas de Violência Doméstica de M’banza-Kongo e Soyo"
     },
@@ -65154,8 +65154,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1652",
     "regionDistrict": "Cotonou (Lagune / Akpakpa), Littoral Department, Benin",
     "type": "safe-haven",
-    "lat": 6.4034,
-    "lng": 2.4905,
+    "lat": 6.3639,
+    "lng": 2.436,
     "name": {
       "en": "Centre Intégré de Prise en Charge des Victimes de VBG (CIPEC Cotonou)"
     },
@@ -65182,8 +65182,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1652-u2",
     "regionDistrict": "Cotonou (Lagune / Akpakpa), Littoral Department, Benin",
     "type": "safe-haven",
-    "lat": 6.4194,
-    "lng": 2.4725,
+    "lat": 6.3589,
+    "lng": 2.441,
     "name": {
       "en": "Institut National de la Femme (INF Bénin)"
     },
@@ -65238,8 +65238,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1653-u2",
     "regionDistrict": "Cotonou (Cadjèhoun / Menontin), Littoral Department, Benin",
     "type": "hospital",
-    "lat": 6.3682,
-    "lng": 2.3708,
+    "lat": 6.3547,
+    "lng": 2.3913,
     "name": {
       "en": "Hôpital de Zone de Menontin / Suru-Léré"
     },
@@ -65266,8 +65266,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1653",
     "regionDistrict": "Cotonou (Cadjèhoun / Menontin), Littoral Department, Benin",
     "type": "safe-haven",
-    "lat": 6.3942,
-    "lng": 2.4408,
+    "lat": 6.3547,
+    "lng": 2.3863,
     "name": {
       "en": "WILDAF Bénin"
     },
@@ -65294,8 +65294,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1653-u2",
     "regionDistrict": "Cotonou (Cadjèhoun / Menontin), Littoral Department, Benin",
     "type": "safe-haven",
-    "lat": 6.4102,
-    "lng": 2.4228,
+    "lat": 6.3497,
+    "lng": 2.3913,
     "name": {
       "en": "Fondation Regard d’Amour Women’s Safe Shelter Cotonou"
     },
@@ -65350,8 +65350,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1654",
     "regionDistrict": "Porto-Novo, Ouémé Department (Capital), Benin",
     "type": "safe-haven",
-    "lat": 6.5389,
-    "lng": 2.6809,
+    "lat": 6.4994,
+    "lng": 2.6264,
     "name": {
       "en": "Centre de Promotion Sociale (CPS)"
     },
@@ -65378,8 +65378,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1654-u2",
     "regionDistrict": "Porto-Novo, Ouémé Department (Capital), Benin",
     "type": "safe-haven",
-    "lat": 6.5549,
-    "lng": 2.6629,
+    "lat": 6.4944,
+    "lng": 2.6314,
     "name": {
       "en": "Maison d’Accueil des Femmes de Porto-Novo"
     },
@@ -65434,8 +65434,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1655",
     "regionDistrict": "Adjohoun & Bonou, Ouémé Valley, Benin",
     "type": "safe-haven",
-    "lat": 6.7442,
-    "lng": 2.5345,
+    "lat": 6.7047,
+    "lng": 2.48,
     "name": {
       "en": "Centre de Promotion Sociale et Espace Sûr des Femmes d’Adjohoun"
     },
@@ -65490,8 +65490,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1656",
     "regionDistrict": "Abomey-Calavi, Atlantique Department, Benin",
     "type": "safe-haven",
-    "lat": 6.4905,
-    "lng": 2.4076,
+    "lat": 6.451,
+    "lng": 2.3531,
     "name": {
       "en": "Centre d’Écoute, d’Orientation et d’Hébergement pour Femmes d’Abomey-Calavi (INF / CPS)"
     },
@@ -65546,8 +65546,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1657-u2",
     "regionDistrict": "Ouidah & Allada, Atlantique Department, Benin",
     "type": "hospital",
-    "lat": 6.3791,
-    "lng": 2.067,
+    "lat": 6.3656,
+    "lng": 2.0875,
     "name": {
       "en": "Hôpital de Zone d’Allada — Maternité"
     },
@@ -65574,8 +65574,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1657",
     "regionDistrict": "Ouidah & Allada, Atlantique Department, Benin",
     "type": "safe-haven",
-    "lat": 6.4051,
-    "lng": 2.137,
+    "lat": 6.3656,
+    "lng": 2.0825,
     "name": {
       "en": "Centre de Promotion Sociale et Protection de la Femme de Ouidah et Allada"
     },
@@ -65630,8 +65630,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1658-u2",
     "regionDistrict": "Lokossa & Comè, Mono Department, Benin",
     "type": "hospital",
-    "lat": 6.6547,
-    "lng": 1.6987,
+    "lat": 6.6412,
+    "lng": 1.7192,
     "name": {
       "en": "Hôpital de Zone de Comè"
     },
@@ -65658,8 +65658,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1658",
     "regionDistrict": "Lokossa & Comè, Mono Department, Benin",
     "type": "safe-haven",
-    "lat": 6.6807,
-    "lng": 1.7687,
+    "lat": 6.6412,
+    "lng": 1.7142,
     "name": {
       "en": "Centre Intégré VBG & Centre de Promotion Sociale de Lokossa (Mono)"
     },
@@ -65714,8 +65714,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1659-u2",
     "regionDistrict": "Aplahoué & Klouékanmè, Couffo Department, Benin",
     "type": "hospital",
-    "lat": 6.9493,
-    "lng": 1.6653,
+    "lat": 6.9358,
+    "lng": 1.6858,
     "name": {
       "en": "Hôpital de Zone de Klouékanmè — Maternité du Couffo"
     },
@@ -65742,8 +65742,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1659",
     "regionDistrict": "Aplahoué & Klouékanmè, Couffo Department, Benin",
     "type": "safe-haven",
-    "lat": 6.9753,
-    "lng": 1.7353,
+    "lat": 6.9358,
+    "lng": 1.6808,
     "name": {
       "en": "Centre de Promotion Sociale et Refuge pour Femmes du Couffo (Aplahoué)"
     },
@@ -65798,8 +65798,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1660-u2",
     "regionDistrict": "Abomey, Bohicon & Covè, Zou Department, Benin",
     "type": "hospital",
-    "lat": 7.1989,
-    "lng": 1.9732,
+    "lat": 7.1854,
+    "lng": 1.9937,
     "name": {
       "en": "Hôpital de Zone de Covè"
     },
@@ -65826,8 +65826,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1660",
     "regionDistrict": "Abomey, Bohicon & Covè, Zou Department, Benin",
     "type": "safe-haven",
-    "lat": 7.2249,
-    "lng": 2.0432,
+    "lat": 7.1854,
+    "lng": 1.9887,
     "name": {
       "en": "CIPEC d’Abomey (One-Stop GBV Safe Center) & Centre de Promotion Sociale d’Abomey-Bohicon"
     },
@@ -65882,8 +65882,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1661-u2",
     "regionDistrict": "Dassa-Zoumè & Savalou, Collines Department, Benin",
     "type": "hospital",
-    "lat": 7.7979,
-    "lng": 2.1653,
+    "lat": 7.7844,
+    "lng": 2.1858,
     "name": {
       "en": "Hôpital de Zone de Savalou — Maternité"
     },
@@ -65910,8 +65910,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1661",
     "regionDistrict": "Dassa-Zoumè & Savalou, Collines Department, Benin",
     "type": "safe-haven",
-    "lat": 7.8239,
-    "lng": 2.2353,
+    "lat": 7.7844,
+    "lng": 2.1808,
     "name": {
       "en": "Centre de Promotion Sociale et Protection des Femmes des Collines (Dassa-Zoumè)"
     },
@@ -65966,8 +65966,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1662-u2",
     "regionDistrict": "Pobè & Sakété, Plateau Department, Benin",
     "type": "hospital",
-    "lat": 6.996,
-    "lng": 2.646,
+    "lat": 6.9825,
+    "lng": 2.6665,
     "name": {
       "en": "Hôpital de Zone de Sakété — Maternité et Soins Obstétricaux"
     },
@@ -65994,8 +65994,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1662",
     "regionDistrict": "Pobè & Sakété, Plateau Department, Benin",
     "type": "safe-haven",
-    "lat": 7.022,
-    "lng": 2.716,
+    "lat": 6.9825,
+    "lng": 2.6615,
     "name": {
       "en": "Centre de Promotion Sociale et Espace Sûr des Femmes de Pobè (Plateau)"
     },
@@ -66050,8 +66050,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1663",
     "regionDistrict": "Parakou, Borgou Department (Northern Benin), Benin",
     "type": "safe-haven",
-    "lat": 9.3792,
-    "lng": 2.6823,
+    "lat": 9.3397,
+    "lng": 2.6278,
     "name": {
       "en": "CIPEC de Parakou (One-Stop GBV Shelter) & Centre de Promotion Sociale de Parakou"
     },
@@ -66106,8 +66106,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1664-u2",
     "regionDistrict": "Bembèrèkè & Nikki, Northern Borgou Department, Benin",
     "type": "hospital",
-    "lat": 10.2446,
-    "lng": 2.6439,
+    "lat": 10.2311,
+    "lng": 2.6644,
     "name": {
       "en": "Hôpital Sounon Sero de Nikki — Maternité Rurale et Fistules"
     },
@@ -66134,8 +66134,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1664",
     "regionDistrict": "Bembèrèkè & Nikki, Northern Borgou Department, Benin",
     "type": "safe-haven",
-    "lat": 10.2706,
-    "lng": 2.7139,
+    "lat": 10.2311,
+    "lng": 2.6594,
     "name": {
       "en": "Maison d’Accueil des Femmes et Centre Social de Bembèrèkè et Nikki"
     },
@@ -66190,8 +66190,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1665-u2",
     "regionDistrict": "Kandi, Malanville & Banikoara, Alibori Department (Far North), Benin",
     "type": "hospital",
-    "lat": 11.1502,
-    "lng": 2.9206,
+    "lat": 11.1367,
+    "lng": 2.9411,
     "name": {
       "en": "Hôpital de Zone de Malanville"
     },
@@ -66218,8 +66218,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1665-u3",
     "regionDistrict": "Kandi, Malanville & Banikoara, Alibori Department (Far North), Benin",
     "type": "hospital",
-    "lat": 11.1172,
-    "lng": 2.9576,
+    "lat": 11.1367,
+    "lng": 2.9411,
     "name": {
       "en": "Hôpital de Zone de Banikoara — Maternité"
     },
@@ -66246,8 +66246,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1665",
     "regionDistrict": "Kandi, Malanville & Banikoara, Alibori Department (Far North), Benin",
     "type": "safe-haven",
-    "lat": 11.1762,
-    "lng": 2.9906,
+    "lat": 11.1367,
+    "lng": 2.9361,
     "name": {
       "en": "Espace Sûr UNFPA & Centre de Promotion Sociale de Kandi et Malanville (Alibori)"
     },
@@ -66302,8 +66302,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1666-u2",
     "regionDistrict": "Natitingou & Tanguiéta, Atacora Department (Northwest), Benin",
     "type": "hospital",
-    "lat": 10.3202,
-    "lng": 1.3616,
+    "lat": 10.3067,
+    "lng": 1.3821,
     "name": {
       "en": "Hôpital Saint Jean de Dieu de Tanguiéta (National Obstetric Fistula & Maternal Center)"
     },
@@ -66330,8 +66330,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1666",
     "regionDistrict": "Natitingou & Tanguiéta, Atacora Department (Northwest), Benin",
     "type": "safe-haven",
-    "lat": 10.3462,
-    "lng": 1.4316,
+    "lat": 10.3067,
+    "lng": 1.3771,
     "name": {
       "en": "CIPEC de Natitingou & Centre de Réinsertion des Femmes Opérées de Fistule de Tanguiéta"
     },
@@ -66386,8 +66386,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-hosp-1667-u2",
     "regionDistrict": "Djougou & Bassila, Donga Department, Benin",
     "type": "hospital",
-    "lat": 9.7245,
-    "lng": 1.648,
+    "lat": 9.711,
+    "lng": 1.6685,
     "name": {
       "en": "Hôpital de Zone de Bassila — Maternité"
     },
@@ -66414,8 +66414,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "ben-safe-1667",
     "regionDistrict": "Djougou & Bassila, Donga Department, Benin",
     "type": "safe-haven",
-    "lat": 9.7505,
-    "lng": 1.718,
+    "lat": 9.711,
+    "lng": 1.6635,
     "name": {
       "en": "Centre de Promotion Sociale et Protection des Femmes de Djougou (Donga)"
     },
@@ -66470,8 +66470,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1684",
     "regionDistrict": "Gaborone (Central), South-East District, Botswana",
     "type": "safe-haven",
-    "lat": -24.6161,
-    "lng": 25.9751,
+    "lat": -24.6556,
+    "lng": 25.9206,
     "name": {
       "en": "Kagisano Society Women’s Shelter"
     },
@@ -66498,8 +66498,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1684-u2",
     "regionDistrict": "Gaborone (Central), South-East District, Botswana",
     "type": "safe-haven",
-    "lat": -24.6001,
-    "lng": 25.9571,
+    "lat": -24.6606,
+    "lng": 25.9256,
     "name": {
       "en": "Botswana GBV Prevention and Support Centre (BGBVC Gaborone)"
     },
@@ -66554,8 +66554,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1685-u2",
     "regionDistrict": "Gaborone (Block 9 / Mmopane), South-East District, Botswana",
     "type": "hospital",
-    "lat": -24.6304,
-    "lng": 25.89,
+    "lat": -24.6439,
+    "lng": 25.9105,
     "name": {
       "en": "Bokamoso Private Hospital"
     },
@@ -66582,8 +66582,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1685-u3",
     "regionDistrict": "Gaborone (Block 9 / Mmopane), South-East District, Botswana",
     "type": "hospital",
-    "lat": -24.6634,
-    "lng": 25.927,
+    "lat": -24.6439,
+    "lng": 25.9105,
     "name": {
       "en": "Gaborone Private Hospital"
     },
@@ -66610,8 +66610,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1685",
     "regionDistrict": "Gaborone (Block 9 / Mmopane), South-East District, Botswana",
     "type": "safe-haven",
-    "lat": -24.6044,
-    "lng": 25.96,
+    "lat": -24.6439,
+    "lng": 25.9055,
     "name": {
       "en": "Emang Basadi"
     },
@@ -66638,8 +66638,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1685-u2",
     "regionDistrict": "Gaborone (Block 9 / Mmopane), South-East District, Botswana",
     "type": "safe-haven",
-    "lat": -24.5884,
-    "lng": 25.942,
+    "lat": -24.6489,
+    "lng": 25.9105,
     "name": {
       "en": "BOFWA Women’s Legal Aid and Crisis Sanctuary Gaborone"
     },
@@ -66694,8 +66694,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1686",
     "regionDistrict": "Ramotswa, South-East District, Botswana",
     "type": "safe-haven",
-    "lat": -24.8302,
-    "lng": 25.8801,
+    "lat": -24.8697,
+    "lng": 25.8256,
     "name": {
       "en": "Ramotswa Women’s Safe Space"
     },
@@ -66722,8 +66722,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1686-u2",
     "regionDistrict": "Ramotswa, South-East District, Botswana",
     "type": "safe-haven",
-    "lat": -24.8142,
-    "lng": 25.8621,
+    "lat": -24.8747,
+    "lng": 25.8306,
     "name": {
       "en": "South-East District Gender Protection Unit"
     },
@@ -66778,8 +66778,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1687",
     "regionDistrict": "Francistown, North-East District, Botswana",
     "type": "safe-haven",
-    "lat": -21.1316,
-    "lng": 27.5645,
+    "lat": -21.1711,
+    "lng": 27.51,
     "name": {
       "en": "Francistown BGBVC Women’s Safe Shelter"
     },
@@ -66806,8 +66806,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1687-u2",
     "regionDistrict": "Francistown, North-East District, Botswana",
     "type": "safe-haven",
-    "lat": -21.1156,
-    "lng": 27.5465,
+    "lat": -21.1761,
+    "lng": 27.515,
     "name": {
       "en": "Northern Crisis Support Center"
     },
@@ -66862,8 +66862,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1688",
     "regionDistrict": "Masunga, North-East District, Botswana",
     "type": "safe-haven",
-    "lat": -20.5827,
-    "lng": 27.5001,
+    "lat": -20.6222,
+    "lng": 27.4456,
     "name": {
       "en": "Masunga Rural Women’s Protection & Social Welfare Safe Post"
     },
@@ -66918,8 +66918,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1689",
     "regionDistrict": "Maun, Ngamiland District (Okavango Delta), Botswana",
     "type": "safe-haven",
-    "lat": -19.9413,
-    "lng": 23.4687,
+    "lat": -19.9808,
+    "lng": 23.4142,
     "name": {
       "en": "Women Against Rape (WAR) Maun Safe House & Crisis Sanctuary"
     },
@@ -66974,8 +66974,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1690-u2",
     "regionDistrict": "Gumare & Shakawe (Western Okavango Delta), Ngamiland, Botswana",
     "type": "hospital",
-    "lat": -19.3532,
-    "lng": 22.1437,
+    "lat": -19.3667,
+    "lng": 22.1642,
     "name": {
       "en": "Shakawe Primary Hospital — Okavango Maternity Wards"
     },
@@ -67002,8 +67002,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1690",
     "regionDistrict": "Gumare & Shakawe (Western Okavango Delta), Ngamiland, Botswana",
     "type": "safe-haven",
-    "lat": -19.3272,
-    "lng": 22.2137,
+    "lat": -19.3667,
+    "lng": 22.1592,
     "name": {
       "en": "Okavango Delta Rural Women’s Safe Space"
     },
@@ -67030,8 +67030,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1690-u2",
     "regionDistrict": "Gumare & Shakawe (Western Okavango Delta), Ngamiland, Botswana",
     "type": "safe-haven",
-    "lat": -19.3112,
-    "lng": 22.1957,
+    "lat": -19.3717,
+    "lng": 22.1642,
     "name": {
       "en": "WAR Outreach Gumare"
     },
@@ -67086,8 +67086,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1691",
     "regionDistrict": "Kasane, Chobe District (Northern Border), Botswana",
     "type": "safe-haven",
-    "lat": -17.7594,
-    "lng": 25.2081,
+    "lat": -17.7989,
+    "lng": 25.1536,
     "name": {
       "en": "Chobe Women’s Safe Space & Gender Protection Desk Kasane"
     },
@@ -67142,8 +67142,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1692",
     "regionDistrict": "Serowe, Central District, Botswana",
     "type": "safe-haven",
-    "lat": -22.3413,
-    "lng": 26.7687,
+    "lat": -22.3808,
+    "lng": 26.7142,
     "name": {
       "en": "Serowe Women’s Crisis Support & Social Welfare Safe Haven"
     },
@@ -67198,8 +67198,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1693-u2",
     "regionDistrict": "Mahalapye & Sefhare, Central District, Botswana",
     "type": "hospital",
-    "lat": -23.0882,
-    "lng": 26.7962,
+    "lat": -23.1017,
+    "lng": 26.8167,
     "name": {
       "en": "Sefhare Primary Hospital — Maternity & Neonatal Block"
     },
@@ -67226,8 +67226,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1693",
     "regionDistrict": "Mahalapye & Sefhare, Central District, Botswana",
     "type": "safe-haven",
-    "lat": -23.0622,
-    "lng": 26.8662,
+    "lat": -23.1017,
+    "lng": 26.8117,
     "name": {
       "en": "Mahalapye Women’s Safe Space"
     },
@@ -67254,8 +67254,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1693-u2",
     "regionDistrict": "Mahalapye & Sefhare, Central District, Botswana",
     "type": "safe-haven",
-    "lat": -23.0462,
-    "lng": 26.8482,
+    "lat": -23.1067,
+    "lng": 26.8167,
     "name": {
       "en": "GBV Support Center"
     },
@@ -67310,8 +67310,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1694",
     "regionDistrict": "Palapye, Central District, Botswana",
     "type": "safe-haven",
-    "lat": -22.508,
-    "lng": 27.1853,
+    "lat": -22.5475,
+    "lng": 27.1308,
     "name": {
       "en": "Palapye Gender Protection & Women’s Crisis Center"
     },
@@ -67366,8 +67366,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1695-u2",
     "regionDistrict": "Selebi-Phikwe & Mmadinare, Central District, Botswana",
     "type": "hospital",
-    "lat": -21.9629,
-    "lng": 27.8248,
+    "lat": -21.9764,
+    "lng": 27.8453,
     "name": {
       "en": "Mmadinare Primary Hospital — Maternity Wing"
     },
@@ -67394,8 +67394,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1695",
     "regionDistrict": "Selebi-Phikwe & Mmadinare, Central District, Botswana",
     "type": "safe-haven",
-    "lat": -21.9369,
-    "lng": 27.8948,
+    "lat": -21.9764,
+    "lng": 27.8403,
     "name": {
       "en": "Selebi-Phikwe Women’s Safe Haven & Crisis Counseling Center"
     },
@@ -67450,8 +67450,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1696",
     "regionDistrict": "Bobonong, Bobirwa Sub-District, Central District, Botswana",
     "type": "safe-haven",
-    "lat": -21.9247,
-    "lng": 28.4687,
+    "lat": -21.9642,
+    "lng": 28.4142,
     "name": {
       "en": "Bobirwa Rural Women’s Safe Space Bobonong"
     },
@@ -67506,8 +67506,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1697-u2",
     "regionDistrict": "Letlhakane, Orapa & Rakops (Boteti / Makgadikgadi), Central District, Botswana",
     "type": "hospital",
-    "lat": -21.4007,
-    "lng": 25.5653,
+    "lat": -21.4142,
+    "lng": 25.5858,
     "name": {
       "en": "Orapa Mine Hospital"
     },
@@ -67534,8 +67534,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1697-u3",
     "regionDistrict": "Letlhakane, Orapa & Rakops (Boteti / Makgadikgadi), Central District, Botswana",
     "type": "hospital",
-    "lat": -21.4337,
-    "lng": 25.6023,
+    "lat": -21.4142,
+    "lng": 25.5858,
     "name": {
       "en": "Rakops Primary Hospital — Maternity"
     },
@@ -67562,8 +67562,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1697",
     "regionDistrict": "Letlhakane, Orapa & Rakops (Boteti / Makgadikgadi), Central District, Botswana",
     "type": "safe-haven",
-    "lat": -21.3747,
-    "lng": 25.6353,
+    "lat": -21.4142,
+    "lng": 25.5808,
     "name": {
       "en": "Boteti Sub-District Women’s Safe Space Letlhakane"
     },
@@ -67618,8 +67618,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1698-u2",
     "regionDistrict": "Tutume & Gweta, Northern Central District, Botswana",
     "type": "hospital",
-    "lat": -20.4673,
-    "lng": 27.0153,
+    "lat": -20.4808,
+    "lng": 27.0358,
     "name": {
       "en": "Gweta Primary Hospital — Rural Maternity"
     },
@@ -67646,8 +67646,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1698-u3",
     "regionDistrict": "Tutume & Gweta, Northern Central District, Botswana",
     "type": "hospital",
-    "lat": -20.5003,
-    "lng": 27.0523,
+    "lat": -20.4808,
+    "lng": 27.0358,
     "name": {
       "en": "Prenatal Ward"
     },
@@ -67674,8 +67674,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1698",
     "regionDistrict": "Tutume & Gweta, Northern Central District, Botswana",
     "type": "safe-haven",
-    "lat": -20.4413,
-    "lng": 27.0853,
+    "lat": -20.4808,
+    "lng": 27.0308,
     "name": {
       "en": "Tutume & Gweta Rural Women’s Protection Center"
     },
@@ -67730,8 +67730,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1699-u2",
     "regionDistrict": "Molepolole & Thamaga, Kweneng District, Botswana",
     "type": "hospital",
-    "lat": -24.3907,
-    "lng": 25.477,
+    "lat": -24.4042,
+    "lng": 25.4975,
     "name": {
       "en": "Thamaga Primary Hospital — Maternity Complex"
     },
@@ -67758,8 +67758,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1699",
     "regionDistrict": "Molepolole & Thamaga, Kweneng District, Botswana",
     "type": "safe-haven",
-    "lat": -24.3647,
-    "lng": 25.547,
+    "lat": -24.4042,
+    "lng": 25.4925,
     "name": {
       "en": "Kagisano Women’s Shelter Project Molepolole Drop-In & Safe House"
     },
@@ -67814,8 +67814,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1700",
     "regionDistrict": "Mochudi, Kgatleng District, Botswana",
     "type": "safe-haven",
-    "lat": -24.3747,
-    "lng": 26.202,
+    "lat": -24.4142,
+    "lng": 26.1475,
     "name": {
       "en": "Kgatleng Women’s Safe Shelter & Crisis Support Mochudi"
     },
@@ -67870,8 +67870,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1701-u2",
     "regionDistrict": "Kanye, Lobatse & Goodhope, Southern District, Botswana",
     "type": "hospital",
-    "lat": -24.9673,
-    "lng": 25.332,
+    "lat": -24.9808,
+    "lng": 25.3525,
     "name": {
       "en": "Athlone Hospital Lobatse"
     },
@@ -67898,8 +67898,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1701-u3",
     "regionDistrict": "Kanye, Lobatse & Goodhope, Southern District, Botswana",
     "type": "hospital",
-    "lat": -25.0003,
-    "lng": 25.369,
+    "lat": -24.9808,
+    "lng": 25.3525,
     "name": {
       "en": "Goodhope Primary Hospital"
     },
@@ -67926,8 +67926,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1701",
     "regionDistrict": "Kanye, Lobatse & Goodhope, Southern District, Botswana",
     "type": "safe-haven",
-    "lat": -24.9413,
-    "lng": 25.402,
+    "lat": -24.9808,
+    "lng": 25.3475,
     "name": {
       "en": "Southern District Women’s Safe Haven & Crisis Center Kanye & Lobatse"
     },
@@ -67982,8 +67982,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1702",
     "regionDistrict": "Jwaneng, Southern District, Botswana",
     "type": "safe-haven",
-    "lat": -24.5599,
-    "lng": 24.7801,
+    "lat": -24.5994,
+    "lng": 24.7256,
     "name": {
       "en": "Jwaneng Women’s Support & Safe Sanctuary"
     },
@@ -68038,8 +68038,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1703",
     "regionDistrict": "Ghanzi (Central Kalahari), Ghanzi District, Botswana",
     "type": "safe-haven",
-    "lat": -21.6558,
-    "lng": 21.6978,
+    "lat": -21.6953,
+    "lng": 21.6433,
     "name": {
       "en": "Kagisano Women’s Shelter Ghanzi"
     },
@@ -68066,8 +68066,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1703-u2",
     "regionDistrict": "Ghanzi (Central Kalahari), Ghanzi District, Botswana",
     "type": "safe-haven",
-    "lat": -21.6398,
-    "lng": 21.6798,
+    "lat": -21.7003,
+    "lng": 21.6483,
     "name": {
       "en": "San/Kalahari Indigenous Women’s Safe Space"
     },
@@ -68122,8 +68122,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-hosp-1704-u2",
     "regionDistrict": "Tsabong & Hukuntsi (Kalahari Desert), Kgalagadi District, Botswana",
     "type": "hospital",
-    "lat": -26.0057,
-    "lng": 22.3876,
+    "lat": -26.0192,
+    "lng": 22.4081,
     "name": {
       "en": "Hukuntsi Primary Hospital — Kgalagadi Maternity Wards"
     },
@@ -68150,8 +68150,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1704",
     "regionDistrict": "Tsabong & Hukuntsi (Kalahari Desert), Kgalagadi District, Botswana",
     "type": "safe-haven",
-    "lat": -25.9797,
-    "lng": 22.4576,
+    "lat": -26.0192,
+    "lng": 22.4031,
     "name": {
       "en": "Kgalagadi Desert Women’s Safe Haven"
     },
@@ -68178,8 +68178,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bwa-safe-1704-u2",
     "regionDistrict": "Tsabong & Hukuntsi (Kalahari Desert), Kgalagadi District, Botswana",
     "type": "safe-haven",
-    "lat": -25.9637,
-    "lng": 22.4396,
+    "lat": -26.0242,
+    "lng": 22.4081,
     "name": {
       "en": "Mobile Protection Unit Tsabong & Hukuntsi"
     },
@@ -68234,8 +68234,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1726",
     "regionDistrict": "Ouagadougou (Central / Koulouba), Centre Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.4225,
-    "lng": -1.459,
+    "lat": 12.387,
+    "lng": -1.5095,
     "name": {
       "en": "Centre Intégré de Prise en Charge des Victimes de VBG de Ouagadougou"
     },
@@ -68262,8 +68262,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1726-u2",
     "regionDistrict": "Ouagadougou (Central / Koulouba), Centre Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.4385,
-    "lng": -1.477,
+    "lat": 12.382,
+    "lng": -1.5045,
     "name": {
       "en": "AFJ/BF (Femmes Juristes)"
     },
@@ -68318,8 +68318,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1727",
     "regionDistrict": "Ouagadougou (Bogodogo), Centre Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.3731,
-    "lng": -1.4466,
+    "lat": 12.3376,
+    "lng": -1.4971,
     "name": {
       "en": "Association Voix de Femmes (AVF) & Refuge pour Femmes Victimes de VBG de Bogodogo"
     },
@@ -68374,8 +68374,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1728",
     "regionDistrict": "Ouagadougou (Tengandogo), Centre Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.3007,
-    "lng": -1.4892,
+    "lat": 12.2652,
+    "lng": -1.5397,
     "name": {
       "en": "Centre d’Écoute et d’Hébergement d’Urgence pour Femmes de Tengandogo (Action Sociale)"
     },
@@ -68430,8 +68430,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-hosp-1729-u2",
     "regionDistrict": "Ouagadougou (Wayalghin / Saint-Camille), Centre Region, Burkina Faso",
     "type": "hospital",
-    "lat": 12.3905,
-    "lng": -1.4893,
+    "lat": 12.377,
+    "lng": -1.4688,
     "name": {
       "en": "Hôpital Saint-Camille de Ouagadougou (HOSCO Maternité)"
     },
@@ -68458,8 +68458,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1729",
     "regionDistrict": "Ouagadougou (Wayalghin / Saint-Camille), Centre Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.4125,
-    "lng": -1.4233,
+    "lat": 12.377,
+    "lng": -1.4738,
     "name": {
       "en": "Maison de la Femme de Ouagadougou"
     },
@@ -68486,8 +68486,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1729-u2",
     "regionDistrict": "Ouagadougou (Wayalghin / Saint-Camille), Centre Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.4285,
-    "lng": -1.4413,
+    "lat": 12.372,
+    "lng": -1.4688,
     "name": {
       "en": "CNLPE (Comité National de Lutte contre la Pratique de l’Excision)"
     },
@@ -68542,8 +68542,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-hosp-1730-u2",
     "regionDistrict": "Ouagadougou (Tanghin / Pissy), Centre Region, Burkina Faso",
     "type": "hospital",
-    "lat": 12.3745,
-    "lng": -1.546,
+    "lat": 12.361,
+    "lng": -1.5255,
     "name": {
       "en": "CMA Paul VI / Pissy"
     },
@@ -68570,8 +68570,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1730",
     "regionDistrict": "Ouagadougou (Tanghin / Pissy), Centre Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.3965,
-    "lng": -1.48,
+    "lat": 12.361,
+    "lng": -1.5305,
     "name": {
       "en": "Centre d’Accueil et de Réinsertion des Femmes Victimes de Fistule et d’Exclusion (Schiphra / Pissy)"
     },
@@ -68626,8 +68626,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1731",
     "regionDistrict": "Bobo-Dioulasso (Central), Hauts-Bassins Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 11.2082,
-    "lng": -4.2528,
+    "lat": 11.1727,
+    "lng": -4.3033,
     "name": {
       "en": "Centre de Prise en Charge Intégrée VBG"
     },
@@ -68654,8 +68654,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1731-u2",
     "regionDistrict": "Bobo-Dioulasso (Central), Hauts-Bassins Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 11.2242,
-    "lng": -4.2708,
+    "lat": 11.1677,
+    "lng": -4.2983,
     "name": {
       "en": "Maison de la Femme de Bobo-Dioulasso"
     },
@@ -68710,8 +68710,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1732",
     "regionDistrict": "Bobo-Dioulasso (Pala / East), Hauts-Bassins Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 11.2016,
-    "lng": -4.1842,
+    "lat": 11.1661,
+    "lng": -4.2347,
     "name": {
       "en": "Espace Sûr pour Femmes et Filles des Hauts-Bassins (Bobo-Dioulasso / Pala)"
     },
@@ -68766,8 +68766,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1733",
     "regionDistrict": "Ouahigouya, Nord Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 13.6102,
-    "lng": -2.3639,
+    "lat": 13.5747,
+    "lng": -2.4144,
     "name": {
       "en": "Espace Sûr UNFPA & Centre de Promotion Sociale des Femmes de Ouahigouya (Nord)"
     },
@@ -68822,8 +68822,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1734",
     "regionDistrict": "Koudougou, Centre-Ouest Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.2906,
-    "lng": -2.3147,
+    "lat": 12.2551,
+    "lng": -2.3652,
     "name": {
       "en": "Maison de la Femme et Centre d’Écoute VBG de Koudougou (Centre-Ouest)"
     },
@@ -68878,8 +68878,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1735",
     "regionDistrict": "Banfora, Cascades Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 10.6713,
-    "lng": -4.7187,
+    "lat": 10.6358,
+    "lng": -4.7692,
     "name": {
       "en": "Centre de Protection et d’Accueil des Femmes des Cascades (Banfora)"
     },
@@ -68934,8 +68934,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-hosp-1736-u2",
     "regionDistrict": "Dédougou & Boromo, Boucle du Mouhoun Region, Burkina Faso",
     "type": "hospital",
-    "lat": 12.4793,
-    "lng": -3.4788,
+    "lat": 12.4658,
+    "lng": -3.4583,
     "name": {
       "en": "CMA de Boromo (Centre National de Référence des Fistules Obstétricales)"
     },
@@ -68962,8 +68962,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1736",
     "regionDistrict": "Dédougou & Boromo, Boucle du Mouhoun Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.5013,
-    "lng": -3.4128,
+    "lat": 12.4658,
+    "lng": -3.4633,
     "name": {
       "en": "Centre d’Accueil des Femmes et Filles de Dédougou et Boromo (Boucle du Mouhoun)"
     },
@@ -69018,8 +69018,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1737",
     "regionDistrict": "Kaya, Centre-Nord Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 13.1297,
-    "lng": -1.0364,
+    "lat": 13.0942,
+    "lng": -1.0869,
     "name": {
       "en": "Espace Sûr Humanitaire pour Femmes et Filles Déplacées de Kaya (UNFPA / Action Sociale)"
     },
@@ -69074,8 +69074,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1738",
     "regionDistrict": "Tenkodogo, Centre-Est Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 11.818,
-    "lng": -0.3217,
+    "lat": 11.7825,
+    "lng": -0.3722,
     "name": {
       "en": "Maison de la Femme et Centre d’Écoute VBG de Tenkodogo (Centre-Est)"
     },
@@ -69130,8 +69130,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1739",
     "regionDistrict": "Fada N’Gourma, Est Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.0996,
-    "lng": 0.4058,
+    "lat": 12.0641,
+    "lng": 0.3553,
     "name": {
       "en": "Espace Sûr pour Femmes et Filles de Fada N’Gourma (Région de l’Est)"
     },
@@ -69186,8 +69186,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1740",
     "regionDistrict": "Dori, Sahel Region (Northern Burkina Faso), Burkina Faso",
     "type": "safe-haven",
-    "lat": 14.0733,
-    "lng": 0.0136,
+    "lat": 14.0378,
+    "lng": -0.0369,
     "name": {
       "en": "Espace Sûr Humanitaire et Protection des Femmes du Sahel (Dori)"
     },
@@ -69242,8 +69242,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1741",
     "regionDistrict": "Gaoua, Sud-Ouest Region, Burkina Faso",
     "type": "safe-haven",
-    "lat": 10.3705,
-    "lng": -3.1334,
+    "lat": 10.335,
+    "lng": -3.1839,
     "name": {
       "en": "Maison de la Femme et Centre de Protection VBG de Gaoua (Sud-Ouest)"
     },
@@ -69298,8 +69298,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-hosp-1742-u2",
     "regionDistrict": "Ziniaré (Plateau-Central) & Manga (Centre-Sud), Burkina Faso",
     "type": "hospital",
-    "lat": 12.5982,
-    "lng": -1.3163,
+    "lat": 12.5847,
+    "lng": -1.2958,
     "name": {
       "en": "CHR de Manga — Services de Maternité et Santé Reproductive"
     },
@@ -69326,8 +69326,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "bfa-safe-1742",
     "regionDistrict": "Ziniaré (Plateau-Central) & Manga (Centre-Sud), Burkina Faso",
     "type": "safe-haven",
-    "lat": 12.6202,
-    "lng": -1.2503,
+    "lat": 12.5847,
+    "lng": -1.3008,
     "name": {
       "en": "Maisons de la Femme de Ziniaré et Manga (Plateau-Central & Centre-Sud)"
     },
@@ -69382,8 +69382,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1760-u2",
     "regionDistrict": "Dakar, Senegal",
     "type": "hospital",
-    "lat": 14.7088,
-    "lng": -17.4647,
+    "lat": 14.6953,
+    "lng": -17.4442,
     "name": {
       "en": "Hôpital Principal de Dakar — Maternité"
     },
@@ -69410,8 +69410,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1760",
     "regionDistrict": "Dakar, Senegal",
     "type": "safe-haven",
-    "lat": 14.7348,
-    "lng": -17.3947,
+    "lat": 14.6953,
+    "lng": -17.4492,
     "name": {
       "en": "Association des Juristes Sénégalaises (AJS)"
     },
@@ -69438,8 +69438,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1760-u2",
     "regionDistrict": "Dakar, Senegal",
     "type": "safe-haven",
-    "lat": 14.7508,
-    "lng": -17.4127,
+    "lat": 14.6903,
+    "lng": -17.4442,
     "name": {
       "en": "Comité de Lutte contre les Violences faites aux Femmes (CLVF)"
     },
@@ -69494,8 +69494,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1761-u2",
     "regionDistrict": "Bamako, Mali",
     "type": "hospital",
-    "lat": 12.6552,
-    "lng": -8.0209,
+    "lat": 12.6417,
+    "lng": -8.0004,
     "name": {
       "en": "CHU du Point G — Service de Gynécologie-Obstétrique"
     },
@@ -69522,8 +69522,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1761",
     "regionDistrict": "Bamako, Mali",
     "type": "safe-haven",
-    "lat": 12.6812,
-    "lng": -7.9509,
+    "lat": 12.6417,
+    "lng": -8.0054,
     "name": {
       "en": "APDF (Association pour le Progrès et la Défense des Droits des Femmes Maliennes)"
     },
@@ -69550,8 +69550,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1761-u2",
     "regionDistrict": "Bamako, Mali",
     "type": "safe-haven",
-    "lat": 12.6972,
-    "lng": -7.9689,
+    "lat": 12.6367,
+    "lng": -8.0004,
     "name": {
       "en": "WILDAF Mali"
     },
@@ -69606,8 +69606,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1762-u2",
     "regionDistrict": "Conakry, Guinea",
     "type": "hospital",
-    "lat": 9.5252,
-    "lng": -13.7302,
+    "lat": 9.5117,
+    "lng": -13.7097,
     "name": {
       "en": "Hôpital National Donka — Maternité de Conakry"
     },
@@ -69634,8 +69634,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1762",
     "regionDistrict": "Conakry, Guinea",
     "type": "safe-haven",
-    "lat": 9.5512,
-    "lng": -13.6602,
+    "lat": 9.5117,
+    "lng": -13.7147,
     "name": {
       "en": "OPROGEM (Office de Protection du Genre)"
     },
@@ -69662,8 +69662,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1762-u2",
     "regionDistrict": "Conakry, Guinea",
     "type": "safe-haven",
-    "lat": 9.5672,
-    "lng": -13.6782,
+    "lat": 9.5067,
+    "lng": -13.7097,
     "name": {
       "en": "Coalition Nationale des Femmes de Guinée"
     },
@@ -69718,8 +69718,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1763",
     "regionDistrict": "Freetown, Sierra Leone",
     "type": "safe-haven",
-    "lat": 8.526,
-    "lng": -13.1779,
+    "lat": 8.4865,
+    "lng": -13.2324,
     "name": {
       "en": "Rainbo Initiative (Rainbo Centre Freetown/Bo/Kenema/Makeni)"
     },
@@ -69746,8 +69746,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1763-u2",
     "regionDistrict": "Freetown, Sierra Leone",
     "type": "safe-haven",
-    "lat": 8.542,
-    "lng": -13.1959,
+    "lat": 8.4815,
+    "lng": -13.2274,
     "name": {
       "en": "Don Bosco Fambul"
     },
@@ -69802,8 +69802,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1764",
     "regionDistrict": "Monrovia, Liberia",
     "type": "safe-haven",
-    "lat": 6.3327,
-    "lng": -10.7085,
+    "lat": 6.2932,
+    "lng": -10.763,
     "name": {
       "en": "Women in Peacebuilding Network (WIPNET), AFELL"
     },
@@ -69830,8 +69830,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1764-u2",
     "regionDistrict": "Monrovia, Liberia",
     "type": "safe-haven",
-    "lat": 6.3487,
-    "lng": -10.7265,
+    "lat": 6.2882,
+    "lng": -10.758,
     "name": {
       "en": "SGBV One-Stop Center Monrovia"
     },
@@ -69886,8 +69886,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1765-u2",
     "regionDistrict": "Accra & Kumasi, Ghana",
     "type": "hospital",
-    "lat": 5.5524,
-    "lng": -0.2454,
+    "lat": 5.5389,
+    "lng": -0.2249,
     "name": {
       "en": "Ridge Hospital Accra"
     },
@@ -69914,8 +69914,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1765-u3",
     "regionDistrict": "Accra & Kumasi, Ghana",
     "type": "hospital",
-    "lat": 5.5194,
-    "lng": -0.2084,
+    "lat": 5.5389,
+    "lng": -0.2249,
     "name": {
       "en": "Komfo Anokye Hospital Kumasi"
     },
@@ -69942,8 +69942,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1765",
     "regionDistrict": "Accra & Kumasi, Ghana",
     "type": "safe-haven",
-    "lat": 5.5784,
-    "lng": -0.1754,
+    "lat": 5.5389,
+    "lng": -0.2299,
     "name": {
       "en": "The Ark Foundation Ghana (Women’s Crisis Shelter), FIDA Ghana & DOVVSU"
     },
@@ -69998,8 +69998,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1766-u2",
     "regionDistrict": "Lomé, Togo",
     "type": "hospital",
-    "lat": 6.1535,
-    "lng": 1.1945,
+    "lat": 6.14,
+    "lng": 1.215,
     "name": {
       "en": "CHU Campus de Lomé — Clinique de Gynécologie-Obstétrique"
     },
@@ -70026,8 +70026,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1766",
     "regionDistrict": "Lomé, Togo",
     "type": "safe-haven",
-    "lat": 6.1795,
-    "lng": 1.2645,
+    "lat": 6.14,
+    "lng": 1.21,
     "name": {
       "en": "GF2D (Groupe de Réflexion et d’Action Femme, Démocratie et Développement)"
     },
@@ -70054,8 +70054,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1766-u2",
     "regionDistrict": "Lomé, Togo",
     "type": "safe-haven",
-    "lat": 6.1955,
-    "lng": 1.2465,
+    "lat": 6.135,
+    "lng": 1.215,
     "name": {
       "en": "WILDAF Togo"
     },
@@ -70110,8 +70110,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1767",
     "regionDistrict": "Niamey, Niger",
     "type": "safe-haven",
-    "lat": 13.5557,
-    "lng": 2.1618,
+    "lat": 13.5162,
+    "lng": 2.1073,
     "name": {
       "en": "Association des Femmes Juristes du Niger (AFJN)"
     },
@@ -70138,8 +70138,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1767-u2",
     "regionDistrict": "Niamey, Niger",
     "type": "safe-haven",
-    "lat": 13.5717,
-    "lng": 2.1438,
+    "lat": 13.5112,
+    "lng": 2.1123,
     "name": {
       "en": "CONIPRAT Safe Center Niamey"
     },
@@ -70194,8 +70194,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1768-u2",
     "regionDistrict": "Yaoundé & Douala, Cameroon",
     "type": "hospital",
-    "lat": 3.8985,
-    "lng": 11.5134,
+    "lat": 3.885,
+    "lng": 11.5339,
     "name": {
       "en": "HGOPED Douala"
     },
@@ -70222,8 +70222,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1768",
     "regionDistrict": "Yaoundé & Douala, Cameroon",
     "type": "safe-haven",
-    "lat": 3.9245,
-    "lng": 11.5834,
+    "lat": 3.885,
+    "lng": 11.5289,
     "name": {
       "en": "ALVF (Association de Lutte contre les Violences faites aux Femmes)"
     },
@@ -70250,8 +70250,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1768-u2",
     "regionDistrict": "Yaoundé & Douala, Cameroon",
     "type": "safe-haven",
-    "lat": 3.9405,
-    "lng": 11.5654,
+    "lat": 3.88,
+    "lng": 11.5339,
     "name": {
       "en": "FIDA Cameroon"
     },
@@ -70306,8 +70306,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1769",
     "regionDistrict": "N’Djamena, Chad",
     "type": "safe-haven",
-    "lat": 12.1551,
-    "lng": 15.1012,
+    "lat": 12.1156,
+    "lng": 15.0467,
     "name": {
       "en": "CELIAF"
     },
@@ -70334,8 +70334,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1769-u2",
     "regionDistrict": "N’Djamena, Chad",
     "type": "safe-haven",
-    "lat": 12.1711,
-    "lng": 15.0832,
+    "lat": 12.1106,
+    "lng": 15.0517,
     "name": {
       "en": "Association des Femmes Juristes du Tchad (AFJT Safe Center)"
     },
@@ -70390,8 +70390,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1770-u2",
     "regionDistrict": "Bangui, Central African Republic",
     "type": "hospital",
-    "lat": 4.3772,
-    "lng": 18.537,
+    "lat": 4.3637,
+    "lng": 18.5575,
     "name": {
       "en": "CHU Communautaire de Bangui — Gynécologie-Obstétrique"
     },
@@ -70418,8 +70418,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1770",
     "regionDistrict": "Bangui, Central African Republic",
     "type": "safe-haven",
-    "lat": 4.4032,
-    "lng": 18.607,
+    "lat": 4.3637,
+    "lng": 18.5525,
     "name": {
       "en": "Association des Femmes Juristes de Centrafrique (AFJC)"
     },
@@ -70446,8 +70446,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1770-u2",
     "regionDistrict": "Bangui, Central African Republic",
     "type": "safe-haven",
-    "lat": 4.4192,
-    "lng": 18.589,
+    "lat": 4.3587,
+    "lng": 18.5575,
     "name": {
       "en": "Maison de la Femme Bangui"
     },
@@ -70502,8 +70502,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1771",
     "regionDistrict": "Libreville, Gabon",
     "type": "safe-haven",
-    "lat": 0.4344,
-    "lng": 9.5056,
+    "lat": 0.3949,
+    "lng": 9.4511,
     "name": {
       "en": "Observatoire des Droits de la Femme et de la Parité (ODFP Gabon)"
     },
@@ -70558,8 +70558,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1772-u2",
     "regionDistrict": "Brazzaville & Pointe-Noire, Republic of the Congo",
     "type": "hospital",
-    "lat": -4.2607,
-    "lng": 15.2482,
+    "lat": -4.2742,
+    "lng": 15.2687,
     "name": {
       "en": "Hôpital Général Adolphe Sicé de Pointe-Noire"
     },
@@ -70586,8 +70586,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1772",
     "regionDistrict": "Brazzaville & Pointe-Noire, Republic of the Congo",
     "type": "safe-haven",
-    "lat": -4.2347,
-    "lng": 15.3182,
+    "lat": -4.2742,
+    "lng": 15.2637,
     "name": {
       "en": "Association des Femmes Juristes du Congo (AFJC) & Centre d’Écoute VBG"
     },
@@ -70642,8 +70642,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1773-u2",
     "regionDistrict": "Bukavu & Goma (Eastern DRC), Democratic Republic of the Congo",
     "type": "hospital",
-    "lat": -2.5026,
-    "lng": 28.8392,
+    "lat": -2.5161,
+    "lng": 28.8597,
     "name": {
       "en": "HEAL Africa Hospital Goma"
     },
@@ -70670,8 +70670,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1773",
     "regionDistrict": "Bukavu & Goma (Eastern DRC), Democratic Republic of the Congo",
     "type": "safe-haven",
-    "lat": -2.4766,
-    "lng": 28.9092,
+    "lat": -2.5161,
+    "lng": 28.8547,
     "name": {
       "en": "Fondation Panzi (Maison Dorcas Safe House Bukavu), HEAL Africa & SOFEPADI"
     },
@@ -70726,8 +70726,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1774",
     "regionDistrict": "Kinshasa & Lubumbashi, Democratic Republic of the Congo",
     "type": "safe-haven",
-    "lat": -4.3742,
-    "lng": 15.3595,
+    "lat": -4.4137,
+    "lng": 15.305,
     "name": {
       "en": "FMMDI, Dynamique des Femmes Juristes & One-Stop Center VBG Kinshasa"
     },
@@ -70782,8 +70782,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1775-u2",
     "regionDistrict": "Kigali, Rwanda",
     "type": "hospital",
-    "lat": -1.9281,
-    "lng": 30.0714,
+    "lat": -1.9416,
+    "lng": 30.0919,
     "name": {
       "en": "Muhima District Maternity Hospital"
     },
@@ -70810,8 +70810,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1775",
     "regionDistrict": "Kigali, Rwanda",
     "type": "safe-haven",
-    "lat": -1.9021,
-    "lng": 30.1414,
+    "lat": -1.9416,
+    "lng": 30.0869,
     "name": {
       "en": "Isange One Stop Centre (Kacyiru Hospital & Nationwide)"
     },
@@ -70838,8 +70838,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1775-u2",
     "regionDistrict": "Kigali, Rwanda",
     "type": "safe-haven",
-    "lat": -1.8861,
-    "lng": 30.1234,
+    "lat": -1.9466,
+    "lng": 30.0919,
     "name": {
       "en": "Haguruka NGO"
     },
@@ -70894,8 +70894,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1776-u2",
     "regionDistrict": "Bujumbura & Gitega, Burundi",
     "type": "hospital",
-    "lat": -3.3601,
-    "lng": 29.342,
+    "lat": -3.3736,
+    "lng": 29.3625,
     "name": {
       "en": "Clinique Prince Régent Charles — Maternité"
     },
@@ -70922,8 +70922,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1776",
     "regionDistrict": "Bujumbura & Gitega, Burundi",
     "type": "safe-haven",
-    "lat": -3.3341,
-    "lng": 29.412,
+    "lat": -3.3736,
+    "lng": 29.3575,
     "name": {
       "en": "Centre Seruka (Bujumbura GBV One-Stop Center), Centre Humura (Gitega) & AFJB"
     },
@@ -70978,8 +70978,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1777-u2",
     "regionDistrict": "Kampala, Uganda",
     "type": "hospital",
-    "lat": 0.3636,
-    "lng": 32.558,
+    "lat": 0.3501,
+    "lng": 32.5785,
     "name": {
       "en": "Mulago Specialized Women & Neonatal Hospital"
     },
@@ -71006,8 +71006,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1777",
     "regionDistrict": "Kampala, Uganda",
     "type": "safe-haven",
-    "lat": 0.3896,
-    "lng": 32.628,
+    "lat": 0.3501,
+    "lng": 32.5735,
     "name": {
       "en": "MIFUMI (Domestic Violence Shelter & Helpline), CEDOVIP"
     },
@@ -71034,8 +71034,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1777-u2",
     "regionDistrict": "Kampala, Uganda",
     "type": "safe-haven",
-    "lat": 0.4056,
-    "lng": 32.61,
+    "lat": 0.3451,
+    "lng": 32.5785,
     "name": {
       "en": "FIDA Uganda"
     },
@@ -71090,8 +71090,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1778-u2",
     "regionDistrict": "Dar es Salaam & Arusha, Tanzania",
     "type": "hospital",
-    "lat": -6.7885,
-    "lng": 39.2556,
+    "lat": -6.802,
+    "lng": 39.2761,
     "name": {
       "en": "CCBRT Fistula and Maternity Hospital"
     },
@@ -71118,8 +71118,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1778",
     "regionDistrict": "Dar es Salaam & Arusha, Tanzania",
     "type": "safe-haven",
-    "lat": -6.7625,
-    "lng": 39.3256,
+    "lat": -6.802,
+    "lng": 39.2711,
     "name": {
       "en": "TAMWA (Tanzania Media Women’s Association), Kivulini"
     },
@@ -71146,8 +71146,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1778-u2",
     "regionDistrict": "Dar es Salaam & Arusha, Tanzania",
     "type": "safe-haven",
-    "lat": -6.7465,
-    "lng": 39.3076,
+    "lat": -6.807,
+    "lng": 39.2761,
     "name": {
       "en": "House of Peace Shelter"
     },
@@ -71202,8 +71202,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1779",
     "regionDistrict": "Lusaka, Zambia",
     "type": "safe-haven",
-    "lat": -15.3941,
-    "lng": 28.3653,
+    "lat": -15.4336,
+    "lng": 28.3108,
     "name": {
       "en": "YWCA Zambia Women’s Drop-In Centre & Safe Shelter"
     },
@@ -71230,8 +71230,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1779-u2",
     "regionDistrict": "Lusaka, Zambia",
     "type": "safe-haven",
-    "lat": -15.3781,
-    "lng": 28.3473,
+    "lat": -15.4386,
+    "lng": 28.3158,
     "name": {
       "en": "WLSA Zambia"
     },
@@ -71286,8 +71286,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1780-u2",
     "regionDistrict": "Lilongwe & Blantyre, Malawi",
     "type": "hospital",
-    "lat": -13.9673,
-    "lng": 33.7653,
+    "lat": -13.9808,
+    "lng": 33.7858,
     "name": {
       "en": "Chatinkha Maternity Wing (QECH Blantyre)"
     },
@@ -71314,8 +71314,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1780",
     "regionDistrict": "Lilongwe & Blantyre, Malawi",
     "type": "safe-haven",
-    "lat": -13.9413,
-    "lng": 33.8353,
+    "lat": -13.9808,
+    "lng": 33.7808,
     "name": {
       "en": "Tithandizane Helpline & Women’s Legal Resource Centre (WOLREC Malawi)"
     },
@@ -71370,8 +71370,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1781-u2",
     "regionDistrict": "Harare & Bulawayo, Zimbabwe",
     "type": "hospital",
-    "lat": -17.7859,
-    "lng": 31.0276,
+    "lat": -17.7994,
+    "lng": 31.0481,
     "name": {
       "en": "Mpilo Hospital"
     },
@@ -71398,8 +71398,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1781",
     "regionDistrict": "Harare & Bulawayo, Zimbabwe",
     "type": "safe-haven",
-    "lat": -17.7599,
-    "lng": 31.0976,
+    "lat": -17.7994,
+    "lng": 31.0431,
     "name": {
       "en": "Musasa Project (24/7 Women’s Shelters & Helpline) & Adult Rape Clinic (ARC)"
     },
@@ -71454,8 +71454,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1782",
     "regionDistrict": "Maputo & Beira, Mozambique",
     "type": "safe-haven",
-    "lat": -25.9272,
-    "lng": 32.6412,
+    "lat": -25.9667,
+    "lng": 32.5867,
     "name": {
       "en": "Fórum Mulher, WLSA Moçambique"
     },
@@ -71482,8 +71482,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1782-u2",
     "regionDistrict": "Maputo & Beira, Mozambique",
     "type": "safe-haven",
-    "lat": -25.9112,
-    "lng": 32.6232,
+    "lat": -25.9717,
+    "lng": 32.5917,
     "name": {
       "en": "Gabinete de Atendimento à Mulher Vítima de Violência"
     },
@@ -71538,8 +71538,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1783-u2",
     "regionDistrict": "Windhoek, Namibia",
     "type": "hospital",
-    "lat": -22.5326,
-    "lng": 17.0556,
+    "lat": -22.5461,
+    "lng": 17.0761,
     "name": {
       "en": "Katutura Intermediate Hospital"
     },
@@ -71566,8 +71566,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1783",
     "regionDistrict": "Windhoek, Namibia",
     "type": "safe-haven",
-    "lat": -22.5066,
-    "lng": 17.1256,
+    "lat": -22.5461,
+    "lng": 17.0711,
     "name": {
       "en": "Regain Trust , Sister Namibia"
     },
@@ -71594,8 +71594,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1783-u2",
     "regionDistrict": "Windhoek, Namibia",
     "type": "safe-haven",
-    "lat": -22.4906,
-    "lng": 17.1076,
+    "lat": -22.5511,
+    "lng": 17.0761,
     "name": {
       "en": "Friendly Haven Women’s Shelter Windhoek"
     },
@@ -71650,8 +71650,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1784-u2",
     "regionDistrict": "Mbabane & Manzini, Eswatini",
     "type": "hospital",
-    "lat": -26.3098,
-    "lng": 31.1262,
+    "lat": -26.3233,
+    "lng": 31.1467,
     "name": {
       "en": "Raleigh Fitkin Memorial (RFM) Hospital Manzini"
     },
@@ -71678,8 +71678,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1784",
     "regionDistrict": "Mbabane & Manzini, Eswatini",
     "type": "safe-haven",
-    "lat": -26.2838,
-    "lng": 31.1962,
+    "lat": -26.3233,
+    "lng": 31.1417,
     "name": {
       "en": "SWAGAA (Swaziland Action Group Against Abuse Shelter & Crisis Line)"
     },
@@ -71734,8 +71734,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1785",
     "regionDistrict": "Maseru, Lesotho",
     "type": "safe-haven",
-    "lat": -29.2731,
-    "lng": 27.5535,
+    "lat": -29.3126,
+    "lng": 27.499,
     "name": {
       "en": "WLSA Lesotho, Lapeng Mantšase Shelter & Child and Gender Protection Unit (CGPU)"
     },
@@ -71790,8 +71790,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1786",
     "regionDistrict": "Antananarivo, Madagascar",
     "type": "safe-haven",
-    "lat": -18.8766,
-    "lng": 47.5734,
+    "lat": -18.9161,
+    "lng": 47.5189,
     "name": {
       "en": "Centre Vonjy (One-Stop GBV Center Befelatanana)"
     },
@@ -71818,8 +71818,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1786-u2",
     "regionDistrict": "Antananarivo, Madagascar",
     "type": "safe-haven",
-    "lat": -18.8606,
-    "lng": 47.5554,
+    "lat": -18.9211,
+    "lng": 47.5239,
     "name": {
       "en": "Trano Aro Zo Shelter"
     },
@@ -71874,8 +71874,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1787-u2",
     "regionDistrict": "Mogadishu & Hargeisa, Somalia / Somaliland",
     "type": "hospital",
-    "lat": 9.572,
-    "lng": 44.0376,
+    "lat": 9.5585,
+    "lng": 44.0581,
     "name": {
       "en": "Banadir Maternity and Children Hospital"
     },
@@ -71902,8 +71902,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1787",
     "regionDistrict": "Mogadishu & Hargeisa, Somalia / Somaliland",
     "type": "safe-haven",
-    "lat": 9.598,
-    "lng": 44.1076,
+    "lat": 9.5585,
+    "lng": 44.0531,
     "name": {
       "en": "Baahi-Koob Sexual Assault Referral Centre (Hargeisa)"
     },
@@ -71930,8 +71930,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1787-u2",
     "regionDistrict": "Mogadishu & Hargeisa, Somalia / Somaliland",
     "type": "safe-haven",
-    "lat": 9.614,
-    "lng": 44.0896,
+    "lat": 9.5535,
+    "lng": 44.0581,
     "name": {
       "en": "Elman Peace Safe Houses"
     },
@@ -71986,8 +71986,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1788",
     "regionDistrict": "Juba, South Sudan",
     "type": "safe-haven",
-    "lat": 4.8937,
-    "lng": 31.6545,
+    "lat": 4.8542,
+    "lng": 31.6,
     "name": {
       "en": "Juba One-Stop GBV Center"
     },
@@ -72014,8 +72014,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1788-u2",
     "regionDistrict": "Juba, South Sudan",
     "type": "safe-haven",
-    "lat": 4.9097,
-    "lng": 31.6365,
+    "lat": 4.8492,
+    "lng": 31.605,
     "name": {
       "en": "South Sudan Women’s Empowerment Network"
     },
@@ -72070,8 +72070,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1789-u2",
     "regionDistrict": "Omdurman, Khartoum State, Sudan",
     "type": "hospital",
-    "lat": 15.6605,
-    "lng": 32.4676,
+    "lat": 15.647,
+    "lng": 32.4881,
     "name": {
       "en": "Al-Saudi Maternity Hospital Omdurman (المستشفى السعودي للولادة بأم درمان)"
     },
@@ -72182,8 +72182,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1790-u2",
     "regionDistrict": "Djibouti City, Djibouti & Asmara, Eritrea",
     "type": "hospital",
-    "lat": 11.6046,
-    "lng": 43.1276,
+    "lat": 11.5911,
+    "lng": 43.1481,
     "name": {
       "en": "Orotta National Referral Maternity Hospital"
     },
@@ -72210,8 +72210,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1790",
     "regionDistrict": "Djibouti City, Djibouti & Asmara, Eritrea",
     "type": "safe-haven",
-    "lat": 11.6306,
-    "lng": 43.1976,
+    "lat": 11.5911,
+    "lng": 43.1431,
     "name": {
       "en": "Union Nationale des Femmes Djiboutiennes (UNFD Cellule d’Écoute) & NUEW"
     },
@@ -72266,8 +72266,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1791-u2",
     "regionDistrict": "Baghdad, Erbil & Sulaymaniyah, Iraq",
     "type": "hospital",
-    "lat": 33.3312,
-    "lng": 44.4035,
+    "lat": 33.3177,
+    "lng": 44.424,
     "name": {
       "en": "Erbil Maternity Teaching Hospital"
     },
@@ -72294,8 +72294,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1791",
     "regionDistrict": "Baghdad, Erbil & Sulaymaniyah, Iraq",
     "type": "safe-haven",
-    "lat": 33.3572,
-    "lng": 44.4735,
+    "lat": 33.3177,
+    "lng": 44.419,
     "name": {
       "en": "Organization of Women’s Freedom in Iraq (OWFI Shelters), Asuda"
     },
@@ -72322,8 +72322,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1791-u2",
     "regionDistrict": "Baghdad, Erbil & Sulaymaniyah, Iraq",
     "type": "safe-haven",
-    "lat": 33.3732,
-    "lng": 44.4555,
+    "lat": 33.3127,
+    "lng": 44.424,
     "name": {
       "en": "Seed Foundation"
     },
@@ -72378,8 +72378,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1792-u2",
     "regionDistrict": "Amman & Irbid, Jordan",
     "type": "hospital",
-    "lat": 31.9554,
-    "lng": 35.9169,
+    "lat": 31.9419,
+    "lng": 35.9374,
     "name": {
       "en": "Jordan University Hospital"
     },
@@ -72406,8 +72406,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1792-u3",
     "regionDistrict": "Amman & Irbid, Jordan",
     "type": "hospital",
-    "lat": 31.9224,
-    "lng": 35.9539,
+    "lat": 31.9419,
+    "lng": 35.9374,
     "name": {
       "en": "King Abdullah University Hospital"
     },
@@ -72434,8 +72434,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1792",
     "regionDistrict": "Amman & Irbid, Jordan",
     "type": "safe-haven",
-    "lat": 31.9814,
-    "lng": 35.9869,
+    "lat": 31.9419,
+    "lng": 35.9324,
     "name": {
       "en": "Jordanian Women’s Union (JWU Shelter Hotline), Mizan for Law"
     },
@@ -72462,8 +72462,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1792-u2",
     "regionDistrict": "Amman & Irbid, Jordan",
     "type": "safe-haven",
-    "lat": 31.9974,
-    "lng": 35.9689,
+    "lat": 31.9369,
+    "lng": 35.9374,
     "name": {
       "en": "Dar Al-Wifaq Shelter"
     },
@@ -72518,8 +72518,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1793-u2",
     "regionDistrict": "Beirut & Tripoli, Lebanon",
     "type": "hospital",
-    "lat": 33.894,
-    "lng": 35.477,
+    "lat": 33.8805,
+    "lng": 35.4975,
     "name": {
       "en": "American University of Beirut Medical Center (AUBMC)"
     },
@@ -72546,8 +72546,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1793",
     "regionDistrict": "Beirut & Tripoli, Lebanon",
     "type": "safe-haven",
-    "lat": 33.92,
-    "lng": 35.547,
+    "lat": 33.8805,
+    "lng": 35.4925,
     "name": {
       "en": "ABAAD (أبعاد — Al-Dar Safe Shelters)"
     },
@@ -72574,8 +72574,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1793-u2",
     "regionDistrict": "Beirut & Tripoli, Lebanon",
     "type": "safe-haven",
-    "lat": 33.936,
-    "lng": 35.529,
+    "lat": 33.8755,
+    "lng": 35.4975,
     "name": {
       "en": "KAFA (كفى — Enough Violence & Exploitation)"
     },
@@ -72630,8 +72630,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1794-u2",
     "regionDistrict": "Ramallah, Jerusalem, Bethlehem & Nablus, Palestine",
     "type": "hospital",
-    "lat": 31.7797,
-    "lng": 35.2458,
+    "lat": 31.9063,
+    "lng": 35.2059,
     "name": {
       "en": "Al-Makassed Hospital"
     },
@@ -72686,8 +72686,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1794",
     "regionDistrict": "Ramallah, Jerusalem, Bethlehem & Nablus, Palestine",
     "type": "safe-haven",
-    "lat": 31.9458,
-    "lng": 35.2554,
+    "lat": 31.9063,
+    "lng": 35.2009,
     "name": {
       "en": "SAWA Organization (سوا), WCLAC"
     },
@@ -72714,8 +72714,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1794-u2",
     "regionDistrict": "Ramallah, Jerusalem, Bethlehem & Nablus, Palestine",
     "type": "safe-haven",
-    "lat": 31.9618,
-    "lng": 35.2374,
+    "lat": 31.9013,
+    "lng": 35.2059,
     "name": {
       "en": "Mehwar Safe Shelter for Women"
     },
@@ -72770,8 +72770,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1795-u2",
     "regionDistrict": "Damascus & Aleppo, Syria",
     "type": "hospital",
-    "lat": 33.5262,
-    "lng": 36.247,
+    "lat": 33.5127,
+    "lng": 36.2675,
     "name": {
       "en": "Aleppo Maternity Hospital"
     },
@@ -72798,8 +72798,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1795",
     "regionDistrict": "Damascus & Aleppo, Syria",
     "type": "safe-haven",
-    "lat": 33.5522,
-    "lng": 36.317,
+    "lat": 33.5127,
+    "lng": 36.2625,
     "name": {
       "en": "Syrian Family Planning Association"
     },
@@ -72826,8 +72826,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1795-u2",
     "regionDistrict": "Damascus & Aleppo, Syria",
     "type": "safe-haven",
-    "lat": 33.5682,
-    "lng": 36.299,
+    "lat": 33.5077,
+    "lng": 36.2675,
     "name": {
       "en": "UNFPA Women’s Safe Spaces Damascus"
     },
@@ -72882,8 +72882,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1796-u2",
     "regionDistrict": "Istanbul, Ankara & Izmir, Turkey",
     "type": "hospital",
-    "lat": 41.0316,
-    "lng": 29.0084,
+    "lat": 41.0181,
+    "lng": 29.0289,
     "name": {
       "en": "Etlik Zübeyde Hanım Women’s Hospital"
     },
@@ -72910,8 +72910,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1796",
     "regionDistrict": "Istanbul, Ankara & Izmir, Turkey",
     "type": "safe-haven",
-    "lat": 41.0576,
-    "lng": 29.0784,
+    "lat": 41.0181,
+    "lng": 29.0239,
     "name": {
       "en": "Mor Çatı Women’s Shelter Foundation (Mor Çatı Kadın Sığınağı Vakfı) & ŞÖNİM"
     },
@@ -72966,8 +72966,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1797-u2",
     "regionDistrict": "Tbilisi, Georgia",
     "type": "hospital",
-    "lat": 41.7259,
-    "lng": 44.775,
+    "lat": 41.7124,
+    "lng": 44.7955,
     "name": {
       "en": "Pineo Maternity Hospital Tbilisi"
     },
@@ -72994,8 +72994,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1797",
     "regionDistrict": "Tbilisi, Georgia",
     "type": "safe-haven",
-    "lat": 41.7519,
-    "lng": 44.845,
+    "lat": 41.7124,
+    "lng": 44.7905,
     "name": {
       "en": "Sapari, Anti-Violence Network of Georgia (AVNG)"
     },
@@ -73022,8 +73022,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1797-u2",
     "regionDistrict": "Tbilisi, Georgia",
     "type": "safe-haven",
-    "lat": 41.7679,
-    "lng": 44.827,
+    "lat": 41.7074,
+    "lng": 44.7955,
     "name": {
       "en": "State DV Shelter"
     },
@@ -73078,8 +73078,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1798-u2",
     "regionDistrict": "Yerevan, Armenia",
     "type": "hospital",
-    "lat": 40.1971,
-    "lng": 44.4956,
+    "lat": 40.1836,
+    "lng": 44.5161,
     "name": {
       "en": "Erebouni Maternity"
     },
@@ -73106,8 +73106,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1798",
     "regionDistrict": "Yerevan, Armenia",
     "type": "safe-haven",
-    "lat": 40.2231,
-    "lng": 44.5656,
+    "lat": 40.1836,
+    "lng": 44.5111,
     "name": {
       "en": "Women’s Support Center Armenia (Safe Houses) & Women’s Resource Center"
     },
@@ -73162,8 +73162,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1799-u2",
     "regionDistrict": "Baku, Azerbaijan",
     "type": "hospital",
-    "lat": 40.4013,
-    "lng": 49.8356,
+    "lat": 40.3878,
+    "lng": 49.8561,
     "name": {
       "en": "Republican Perinatal Center Baku (Respublika Perinatal Mərkəzi)"
     },
@@ -73190,8 +73190,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1799",
     "regionDistrict": "Baku, Azerbaijan",
     "type": "safe-haven",
-    "lat": 40.4273,
-    "lng": 49.9056,
+    "lat": 40.3878,
+    "lng": 49.8511,
     "name": {
       "en": "Təmiz Dünya (Clean World Aid to Women Shelter)"
     },
@@ -73218,8 +73218,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1799-u2",
     "regionDistrict": "Baku, Azerbaijan",
     "type": "safe-haven",
-    "lat": 40.4433,
-    "lng": 49.8876,
+    "lat": 40.3828,
+    "lng": 49.8561,
     "name": {
       "en": "860 Gender Violence Line"
     },
@@ -73386,8 +73386,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1801-u2",
     "regionDistrict": "Bishkek & Osh, Kyrgyzstan",
     "type": "hospital",
-    "lat": 42.8906,
-    "lng": 74.5518,
+    "lat": 42.8771,
+    "lng": 74.5723,
     "name": {
       "en": "Osh Interregional Maternity Hospital"
     },
@@ -73414,8 +73414,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1801",
     "regionDistrict": "Bishkek & Osh, Kyrgyzstan",
     "type": "safe-haven",
-    "lat": 42.9166,
-    "lng": 74.6218,
+    "lat": 42.8771,
+    "lng": 74.5673,
     "name": {
       "en": "Sezim Crisis Center (Кризисный центр «Сезим» Bishkek)"
     },
@@ -73442,8 +73442,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1801-u2",
     "regionDistrict": "Bishkek & Osh, Kyrgyzstan",
     "type": "safe-haven",
-    "lat": 42.9326,
-    "lng": 74.6038,
+    "lat": 42.8721,
+    "lng": 74.5723,
     "name": {
       "en": "Ak-Jurok Shelter Osh"
     },
@@ -73498,8 +73498,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1802-u2",
     "regionDistrict": "Dushanbe & Khujand, Tajikistan",
     "type": "hospital",
-    "lat": 38.5758,
-    "lng": 68.769,
+    "lat": 38.5623,
+    "lng": 68.7895,
     "name": {
       "en": "Perinatology (Пажӯҳишгоҳи акушерӣ ва гинекологӣ Dushanbe)"
     },
@@ -73526,8 +73526,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1802",
     "regionDistrict": "Dushanbe & Khujand, Tajikistan",
     "type": "safe-haven",
-    "lat": 38.6018,
-    "lng": 68.839,
+    "lat": 38.5623,
+    "lng": 68.7845,
     "name": {
       "en": "Gulrukhsor Women’s Crisis Center & Shelter (Гулрухсор)"
     },
@@ -73554,8 +73554,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1802-u2",
     "regionDistrict": "Dushanbe & Khujand, Tajikistan",
     "type": "safe-haven",
-    "lat": 38.6178,
-    "lng": 68.821,
+    "lat": 38.5573,
+    "lng": 68.7895,
     "name": {
       "en": "Bovari Center"
     },
@@ -73610,8 +73610,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1803",
     "regionDistrict": "Ashgabat, Turkmenistan",
     "type": "safe-haven",
-    "lat": 37.9434,
-    "lng": 58.4245,
+    "lat": 37.9039,
+    "lng": 58.37,
     "name": {
       "en": "Keik Okara Women’s Support & Crisis Center Ashgabat"
     },
@@ -73666,8 +73666,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1804-u2",
     "regionDistrict": "Ulaanbaatar, Mongolia",
     "type": "hospital",
-    "lat": 47.9345,
-    "lng": 106.8676,
+    "lat": 47.921,
+    "lng": 106.8881,
     "name": {
       "en": "Urgoo Maternity Hospital Ulaanbaatar"
     },
@@ -73694,8 +73694,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1804",
     "regionDistrict": "Ulaanbaatar, Mongolia",
     "type": "safe-haven",
-    "lat": 47.9605,
-    "lng": 106.9376,
+    "lat": 47.921,
+    "lng": 106.8831,
     "name": {
       "en": "National Center Against Violence Mongolia (Хүчирхийллийн Эсрэг Үндэсний Төв)"
     },
@@ -73750,8 +73750,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1805-u2",
     "regionDistrict": "Dublin, Ireland",
     "type": "hospital",
-    "lat": 53.3557,
-    "lng": -6.2644,
+    "lat": 53.3422,
+    "lng": -6.2439,
     "name": {
       "en": "The Rotunda Hospital"
     },
@@ -73778,8 +73778,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1805-u3",
     "regionDistrict": "Dublin, Ireland",
     "type": "hospital",
-    "lat": 53.3227,
-    "lng": -6.2274,
+    "lat": 53.3422,
+    "lng": -6.2439,
     "name": {
       "en": "Coombe Women & Infants Hospital"
     },
@@ -73806,8 +73806,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1805",
     "regionDistrict": "Dublin, Ireland",
     "type": "safe-haven",
-    "lat": 53.3817,
-    "lng": -6.1944,
+    "lat": 53.3422,
+    "lng": -6.2489,
     "name": {
       "en": "Women’s Aid Ireland"
     },
@@ -73834,8 +73834,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1805-u2",
     "regionDistrict": "Dublin, Ireland",
     "type": "safe-haven",
-    "lat": 53.3977,
-    "lng": -6.2124,
+    "lat": 53.3372,
+    "lng": -6.2439,
     "name": {
       "en": "Dublin Rape Crisis Centre"
     },
@@ -73890,8 +73890,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1806-u2",
     "regionDistrict": "Lisbon & Porto, Portugal",
     "type": "hospital",
-    "lat": 38.7449,
-    "lng": -9.1599,
+    "lat": 38.7314,
+    "lng": -9.1394,
     "name": {
       "en": "Centro Materno-Infantil do Norte"
     },
@@ -73918,8 +73918,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1806",
     "regionDistrict": "Lisbon & Porto, Portugal",
     "type": "safe-haven",
-    "lat": 38.7709,
-    "lng": -9.0899,
+    "lat": 38.7314,
+    "lng": -9.1444,
     "name": {
       "en": "APAV (Associação Portuguesa de Apoio à Vítima)"
     },
@@ -73946,8 +73946,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1806-u2",
     "regionDistrict": "Lisbon & Porto, Portugal",
     "type": "safe-haven",
-    "lat": 38.7869,
-    "lng": -9.1079,
+    "lat": 38.7264,
+    "lng": -9.1394,
     "name": {
       "en": "UMAR Women’s Shelters"
     },
@@ -74002,8 +74002,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1807",
     "regionDistrict": "Zurich & Geneva, Switzerland",
     "type": "safe-haven",
-    "lat": 47.4189,
-    "lng": 8.6012,
+    "lat": 47.3794,
+    "lng": 8.5467,
     "name": {
       "en": "DAO (Dachorganisation der Frauenhäuser Schweiz)"
     },
@@ -74030,8 +74030,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1807-u2",
     "regionDistrict": "Zurich & Geneva, Switzerland",
     "type": "safe-haven",
-    "lat": 47.4349,
-    "lng": 8.5832,
+    "lat": 47.3744,
+    "lng": 8.5517,
     "name": {
       "en": "Solidarité Femmes Genève"
     },
@@ -74086,8 +74086,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1808-u2",
     "regionDistrict": "Vienna, Austria",
     "type": "hospital",
-    "lat": 48.2366,
-    "lng": 16.3289,
+    "lat": 48.2231,
+    "lng": 16.3494,
     "name": {
       "en": "Klinik Ottakring Geburtshilfe"
     },
@@ -74114,8 +74114,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1808",
     "regionDistrict": "Vienna, Austria",
     "type": "safe-haven",
-    "lat": 48.2626,
-    "lng": 16.3989,
+    "lat": 48.2231,
+    "lng": 16.3444,
     "name": {
       "en": "Wiener Frauenhäuser"
     },
@@ -74142,8 +74142,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1808-u2",
     "regionDistrict": "Vienna, Austria",
     "type": "safe-haven",
-    "lat": 48.2786,
-    "lng": 16.3809,
+    "lat": 48.2181,
+    "lng": 16.3494,
     "name": {
       "en": "Österreichische Frauenhelpline gegen Gewalt"
     },
@@ -74198,8 +74198,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1809-u2",
     "regionDistrict": "Brussels, Belgium & Amsterdam, Netherlands",
     "type": "hospital",
-    "lat": 50.8507,
-    "lng": 4.3306,
+    "lat": 50.8372,
+    "lng": 4.3511,
     "name": {
       "en": "Amsterdam UMC Vrouw-Kind Centrum"
     },
@@ -74226,8 +74226,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1809",
     "regionDistrict": "Brussels, Belgium & Amsterdam, Netherlands",
     "type": "safe-haven",
-    "lat": 50.8767,
-    "lng": 4.4006,
+    "lat": 50.8372,
+    "lng": 4.3461,
     "name": {
       "en": "Écoute Violences Conjugales Belgium"
     },
@@ -74254,8 +74254,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1809-u2",
     "regionDistrict": "Brussels, Belgium & Amsterdam, Netherlands",
     "type": "safe-haven",
-    "lat": 50.8927,
-    "lng": 4.3826,
+    "lat": 50.8322,
+    "lng": 4.3511,
     "name": {
       "en": "Blijf Groep / Veilig Thuis Netherlands"
     },
@@ -74310,8 +74310,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1810",
     "regionDistrict": "Copenhagen, Denmark",
     "type": "safe-haven",
-    "lat": 55.7381,
-    "lng": 12.6187,
+    "lat": 55.6986,
+    "lng": 12.5642,
     "name": {
       "en": "Danner Krisecenter & Lev Uden Vold Safe Haven (Copenhagen, Denmark)"
     },
@@ -74366,8 +74366,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1811",
     "regionDistrict": "Reykjavik, Iceland",
     "type": "safe-haven",
-    "lat": 64.1806,
-    "lng": -21.8741,
+    "lat": 64.1411,
+    "lng": -21.9286,
     "name": {
       "en": "Kvennaathvarfið (The Icelandic Women’s Shelter) & Stígamót"
     },
@@ -74422,8 +74422,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1812-u2",
     "regionDistrict": "Prague, Czechia & Budapest, Hungary",
     "type": "hospital",
-    "lat": 50.0788,
-    "lng": 14.4034,
+    "lat": 50.0653,
+    "lng": 14.4239,
     "name": {
       "en": "Semmelweis Maternity Clinic"
     },
@@ -74450,8 +74450,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1812",
     "regionDistrict": "Prague, Czechia & Budapest, Hungary",
     "type": "safe-haven",
-    "lat": 50.1048,
-    "lng": 14.4734,
+    "lat": 50.0653,
+    "lng": 14.4189,
     "name": {
       "en": "ROSA Centrum pro Ženy / Acorus (Prague)"
     },
@@ -74478,8 +74478,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1812-u2",
     "regionDistrict": "Prague, Czechia & Budapest, Hungary",
     "type": "safe-haven",
-    "lat": 50.1208,
-    "lng": 14.4554,
+    "lat": 50.0603,
+    "lng": 14.4239,
     "name": {
       "en": "NANE / OKIT Crisis Line"
     },
@@ -74534,8 +74534,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1813-u2",
     "regionDistrict": "Bucharest, Romania & Sofia, Bulgaria",
     "type": "hospital",
-    "lat": 44.4693,
-    "lng": 26.0645,
+    "lat": 44.4558,
+    "lng": 26.085,
     "name": {
       "en": "Polizu (Bucharest)"
     },
@@ -74562,8 +74562,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1813-u3",
     "regionDistrict": "Bucharest, Romania & Sofia, Bulgaria",
     "type": "hospital",
-    "lat": 44.4363,
-    "lng": 26.1015,
+    "lat": 44.4558,
+    "lng": 26.085,
     "name": {
       "en": "Maichin Dom National Obstetrics Hospital (Майчин дом Sofia)"
     },
@@ -74590,8 +74590,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1813",
     "regionDistrict": "Bucharest, Romania & Sofia, Bulgaria",
     "type": "safe-haven",
-    "lat": 44.4953,
-    "lng": 26.1345,
+    "lat": 44.4558,
+    "lng": 26.08,
     "name": {
       "en": "ANES / Centrul Filia (Romania)"
     },
@@ -74618,8 +74618,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1813-u2",
     "regionDistrict": "Bucharest, Romania & Sofia, Bulgaria",
     "type": "safe-haven",
-    "lat": 44.5113,
-    "lng": 26.1165,
+    "lat": 44.4508,
+    "lng": 26.085,
     "name": {
       "en": "Animus Association Foundation"
     },
@@ -74674,8 +74674,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1814-u2",
     "regionDistrict": "Belgrade, Serbia & Zagreb, Croatia",
     "type": "hospital",
-    "lat": 44.8252,
-    "lng": 20.4439,
+    "lat": 44.8117,
+    "lng": 20.4644,
     "name": {
       "en": "Petrova Women’s Hospital (KBC Zagreb)"
     },
@@ -74702,8 +74702,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1814",
     "regionDistrict": "Belgrade, Serbia & Zagreb, Croatia",
     "type": "safe-haven",
-    "lat": 44.8512,
-    "lng": 20.5139,
+    "lat": 44.8117,
+    "lng": 20.4594,
     "name": {
       "en": "Autonomous Women’s Center Belgrade (Autonomni Ženski Centar)"
     },
@@ -74730,8 +74730,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1814-u2",
     "regionDistrict": "Belgrade, Serbia & Zagreb, Croatia",
     "type": "safe-haven",
-    "lat": 44.8672,
-    "lng": 20.4959,
+    "lat": 44.8067,
+    "lng": 20.4644,
     "name": {
       "en": "Autonomous Women’s House Zagreb"
     },
@@ -74786,8 +74786,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1815-u2",
     "regionDistrict": "Athens, Greece",
     "type": "hospital",
-    "lat": 37.9979,
-    "lng": 23.7406,
+    "lat": 37.9844,
+    "lng": 23.7611,
     "name": {
       "en": "Elena Venizelou Maternity Hospital"
     },
@@ -74814,8 +74814,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1815",
     "regionDistrict": "Athens, Greece",
     "type": "safe-haven",
-    "lat": 38.0239,
-    "lng": 23.8106,
+    "lat": 37.9844,
+    "lng": 23.7561,
     "name": {
       "en": "SOS 15900 General Secretariat for Equality Shelters"
     },
@@ -74842,8 +74842,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1815-u2",
     "regionDistrict": "Athens, Greece",
     "type": "safe-haven",
-    "lat": 38.0399,
-    "lng": 23.7926,
+    "lat": 37.9794,
+    "lng": 23.7611,
     "name": {
       "en": "Diotima Centre Athens"
     },
@@ -74898,8 +74898,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1816",
     "regionDistrict": "Kyiv & Lviv, Ukraine",
     "type": "safe-haven",
-    "lat": 50.4606,
-    "lng": 30.5639,
+    "lat": 50.4211,
+    "lng": 30.5094,
     "name": {
       "en": "La Strada Ukraine (Ла Страда-Україна)"
     },
@@ -74926,8 +74926,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1816-u2",
     "regionDistrict": "Kyiv & Lviv, Ukraine",
     "type": "safe-haven",
-    "lat": 50.4766,
-    "lng": 30.5459,
+    "lat": 50.4161,
+    "lng": 30.5144,
     "name": {
       "en": "Kyiv Crisis Shelter for Women"
     },
@@ -74982,8 +74982,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1817",
     "regionDistrict": "Guatemala City, Guatemala",
     "type": "safe-haven",
-    "lat": 14.6623,
-    "lng": -90.5041,
+    "lat": 14.6228,
+    "lng": -90.5586,
     "name": {
       "en": "Grupo Guatemalteco de Mujeres (GGM Centros de Apoyo Integral CAIMU)"
     },
@@ -75010,8 +75010,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1817-u2",
     "regionDistrict": "Guatemala City, Guatemala",
     "type": "safe-haven",
-    "lat": 14.6783,
-    "lng": -90.5221,
+    "lat": 14.6178,
+    "lng": -90.5536,
     "name": {
       "en": "Línea 1572"
     },
@@ -75066,8 +75066,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1818",
     "regionDistrict": "Tegucigalpa & San Pedro Sula, Honduras",
     "type": "safe-haven",
-    "lat": 14.1351,
-    "lng": -87.1394,
+    "lat": 14.0956,
+    "lng": -87.1939,
     "name": {
       "en": "Centro de Derechos de Mujeres (CDM)"
     },
@@ -75094,8 +75094,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1818-u2",
     "regionDistrict": "Tegucigalpa & San Pedro Sula, Honduras",
     "type": "safe-haven",
-    "lat": 14.1511,
-    "lng": -87.1574,
+    "lat": 14.0906,
+    "lng": -87.1889,
     "name": {
       "en": "Visitación Padilla Honduras"
     },
@@ -75150,8 +75150,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1819",
     "regionDistrict": "San Salvador, El Salvador",
     "type": "safe-haven",
-    "lat": 13.7478,
-    "lng": -89.1536,
+    "lat": 13.7083,
+    "lng": -89.2081,
     "name": {
       "en": "ORMUSA (Organización de Mujeres Salvadoreñas por la Paz)"
     },
@@ -75178,8 +75178,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1819-u2",
     "regionDistrict": "San Salvador, El Salvador",
     "type": "safe-haven",
-    "lat": 13.7638,
-    "lng": -89.1716,
+    "lat": 13.7033,
+    "lng": -89.2031,
     "name": {
       "en": "ISDEMU Línea 126"
     },
@@ -75234,8 +75234,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1820",
     "regionDistrict": "Managua, Nicaragua",
     "type": "safe-haven",
-    "lat": 12.1706,
-    "lng": -86.1999,
+    "lat": 12.1311,
+    "lng": -86.2544,
     "name": {
       "en": "Red de Mujeres contra la Violencia"
     },
@@ -75262,8 +75262,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1820-u2",
     "regionDistrict": "Managua, Nicaragua",
     "type": "safe-haven",
-    "lat": 12.1866,
-    "lng": -86.2179,
+    "lat": 12.1261,
+    "lng": -86.2494,
     "name": {
       "en": "Católicas por el Derecho a Decidir Nicaragua"
     },
@@ -75318,8 +75318,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1821",
     "regionDistrict": "San José, Costa Rica",
     "type": "safe-haven",
-    "lat": 9.9645,
-    "lng": -84.0299,
+    "lat": 9.925,
+    "lng": -84.0844,
     "name": {
       "en": "INAMU (Instituto Nacional de las Mujeres — Centros Especializados de Atención y Albergue)"
     },
@@ -75374,8 +75374,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1822",
     "regionDistrict": "Panama City, Panama",
     "type": "safe-haven",
-    "lat": 9.0128,
-    "lng": -79.4808,
+    "lat": 8.9733,
+    "lng": -79.5353,
     "name": {
       "en": "Espacio Encuentro de Mujeres (EEM)"
     },
@@ -75402,8 +75402,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1822-u2",
     "regionDistrict": "Panama City, Panama",
     "type": "safe-haven",
-    "lat": 9.0288,
-    "lng": -79.4988,
+    "lat": 8.9683,
+    "lng": -79.5303,
     "name": {
       "en": "Ministerio de la Mujer Línea 182"
     },
@@ -75458,8 +75458,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1823",
     "regionDistrict": "Havana, Cuba",
     "type": "safe-haven",
-    "lat": 23.1756,
-    "lng": -82.3405,
+    "lat": 23.1361,
+    "lng": -82.395,
     "name": {
       "en": "Federación de Mujeres Cubanas (FMC Casas de Orientación a la Mujer)"
     },
@@ -75486,8 +75486,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1823-u2",
     "regionDistrict": "Havana, Cuba",
     "type": "safe-haven",
-    "lat": 23.1916,
-    "lng": -82.3585,
+    "lat": 23.1311,
+    "lng": -82.39,
     "name": {
       "en": "Línea 103"
     },
@@ -75542,8 +75542,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1824",
     "regionDistrict": "Santo Domingo, Dominican Republic",
     "type": "safe-haven",
-    "lat": 18.5181,
-    "lng": -69.8383,
+    "lat": 18.4786,
+    "lng": -69.8928,
     "name": {
       "en": "Línea Mujer *212 (Ministerio de la Mujer Houses of Refuge)"
     },
@@ -75570,8 +75570,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1824-u2",
     "regionDistrict": "Santo Domingo, Dominican Republic",
     "type": "safe-haven",
-    "lat": 18.5341,
-    "lng": -69.8563,
+    "lat": 18.4736,
+    "lng": -69.8878,
     "name": {
       "en": "Núcleo de Apoyo a la Mujer"
     },
@@ -75626,8 +75626,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1825-u2",
     "regionDistrict": "Port-au-Prince, Haiti",
     "type": "hospital",
-    "lat": 18.5604,
-    "lng": -72.3444,
+    "lat": 18.5469,
+    "lng": -72.3239,
     "name": {
       "en": "Hôpital Universitaire de la Paix"
     },
@@ -75654,8 +75654,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1825",
     "regionDistrict": "Port-au-Prince, Haiti",
     "type": "safe-haven",
-    "lat": 18.5864,
-    "lng": -72.2744,
+    "lat": 18.5469,
+    "lng": -72.3289,
     "name": {
       "en": "Solidarité Fanm Ayisyèn (SOFA), Kay Fanm"
     },
@@ -75682,8 +75682,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1825-u2",
     "regionDistrict": "Port-au-Prince, Haiti",
     "type": "safe-haven",
-    "lat": 18.6024,
-    "lng": -72.2924,
+    "lat": 18.5419,
+    "lng": -72.3239,
     "name": {
       "en": "Nègès Mawon Haiti"
     },
@@ -75738,8 +75738,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1826-u2",
     "regionDistrict": "Kingston, Jamaica & Port of Spain, Trinidad and Tobago",
     "type": "hospital",
-    "lat": 17.9896,
-    "lng": -76.8122,
+    "lat": 17.9761,
+    "lng": -76.7917,
     "name": {
       "en": "Mount Hope Women’s Hospital"
     },
@@ -75766,8 +75766,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1826",
     "regionDistrict": "Kingston, Jamaica & Port of Spain, Trinidad and Tobago",
     "type": "safe-haven",
-    "lat": 18.0156,
-    "lng": -76.7422,
+    "lat": 17.9761,
+    "lng": -76.7967,
     "name": {
       "en": "Woman Inc. Crisis Centre & Shelter (Jamaica)"
     },
@@ -75794,8 +75794,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1826-u2",
     "regionDistrict": "Kingston, Jamaica & Port of Spain, Trinidad and Tobago",
     "type": "safe-haven",
-    "lat": 18.0316,
-    "lng": -76.7602,
+    "lat": 17.9711,
+    "lng": -76.7917,
     "name": {
       "en": "Coalition Against Domestic Violence"
     },
@@ -75850,8 +75850,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1827",
     "regionDistrict": "Caracas, Venezuela",
     "type": "safe-haven",
-    "lat": 10.5339,
-    "lng": -66.8794,
+    "lat": 10.4944,
+    "lng": -66.9339,
     "name": {
       "en": "CEPAZ, Tinta Violeta"
     },
@@ -75878,8 +75878,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1827-u2",
     "regionDistrict": "Caracas, Venezuela",
     "type": "safe-haven",
-    "lat": 10.5499,
-    "lng": -66.8974,
+    "lat": 10.4894,
+    "lng": -66.9289,
     "name": {
       "en": "PLAFAM Women’s Protection Network Caracas"
     },
@@ -75934,8 +75934,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1828",
     "regionDistrict": "Quito & Guayaquil, Ecuador",
     "type": "safe-haven",
-    "lat": -0.1688,
-    "lng": -78.4466,
+    "lat": -0.2083,
+    "lng": -78.5011,
     "name": {
       "en": "Casa de Refugio Matilde, CEPAM Quito/Guayaquil"
     },
@@ -75962,8 +75962,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1828-u2",
     "regionDistrict": "Quito & Guayaquil, Ecuador",
     "type": "safe-haven",
-    "lat": -0.1528,
-    "lng": -78.4646,
+    "lat": -0.2133,
+    "lng": -78.4961,
     "name": {
       "en": "Fundación María Guare"
     },
@@ -76018,8 +76018,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1829",
     "regionDistrict": "La Paz & Santa Cruz, Bolivia",
     "type": "safe-haven",
-    "lat": -16.4641,
-    "lng": -68.0672,
+    "lat": -16.5036,
+    "lng": -68.1217,
     "name": {
       "en": "Casa de la Mujer (Santa Cruz), Coordinadora de la Mujer"
     },
@@ -76046,8 +76046,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1829-u2",
     "regionDistrict": "La Paz & Santa Cruz, Bolivia",
     "type": "safe-haven",
-    "lat": -16.4481,
-    "lng": -68.0852,
+    "lat": -16.5086,
+    "lng": -68.1167,
     "name": {
       "en": "FELCV Bolivia"
     },
@@ -76102,8 +76102,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1830-u2",
     "regionDistrict": "Asunción, Paraguay",
     "type": "hospital",
-    "lat": -25.2976,
-    "lng": -57.5866,
+    "lat": -25.3111,
+    "lng": -57.5661,
     "name": {
       "en": "Cruz Roja Paraguaya Hospital Reina Sofía"
     },
@@ -76130,8 +76130,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1830",
     "regionDistrict": "Asunción, Paraguay",
     "type": "safe-haven",
-    "lat": -25.2716,
-    "lng": -57.5166,
+    "lat": -25.3111,
+    "lng": -57.5711,
     "name": {
       "en": "SOS Mujer 137"
     },
@@ -76158,8 +76158,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1830-u2",
     "regionDistrict": "Asunción, Paraguay",
     "type": "safe-haven",
-    "lat": -25.2556,
-    "lng": -57.5346,
+    "lat": -25.3161,
+    "lng": -57.5661,
     "name": {
       "en": "Centro Ciudad Mujer (Ñande Kerayvoty Renda)"
     },
@@ -76214,8 +76214,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1831",
     "regionDistrict": "Montevideo, Uruguay",
     "type": "safe-haven",
-    "lat": -34.8547,
-    "lng": -56.1116,
+    "lat": -34.8942,
+    "lng": -56.1661,
     "name": {
       "en": "Inmujeres — Línea Azul"
     },
@@ -76242,8 +76242,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1831-u2",
     "regionDistrict": "Montevideo, Uruguay",
     "type": "safe-haven",
-    "lat": -34.8387,
-    "lng": -56.1296,
+    "lat": -34.8992,
+    "lng": -56.1611,
     "name": {
       "en": "Cotidiano Mujer Uruguay"
     },
@@ -76298,8 +76298,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1832",
     "regionDistrict": "Kathmandu, Nepal",
     "type": "safe-haven",
-    "lat": 27.7323,
-    "lng": 85.3709,
+    "lat": 27.6928,
+    "lng": 85.3164,
     "name": {
       "en": "Saathi Women’s Shelter, WOREC Nepal"
     },
@@ -76326,8 +76326,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1832-u2",
     "regionDistrict": "Kathmandu, Nepal",
     "type": "safe-haven",
-    "lat": 27.7483,
-    "lng": 85.3529,
+    "lat": 27.6878,
+    "lng": 85.3214,
     "name": {
       "en": "Khabar Garau 1145 Helpline"
     },
@@ -76382,8 +76382,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1833-u2",
     "regionDistrict": "Colombo, Sri Lanka",
     "type": "hospital",
-    "lat": 6.9307,
-    "lng": 79.8598,
+    "lat": 6.9172,
+    "lng": 79.8803,
     "name": {
       "en": "Castle Street Hospital for Women"
     },
@@ -76410,8 +76410,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1833",
     "regionDistrict": "Colombo, Sri Lanka",
     "type": "safe-haven",
-    "lat": 6.9567,
-    "lng": 79.9298,
+    "lat": 6.9172,
+    "lng": 79.8753,
     "name": {
       "en": "Women In Need (WIN Sri Lanka Shelters & Crisis Centers)"
     },
@@ -76438,8 +76438,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1833-u2",
     "regionDistrict": "Colombo, Sri Lanka",
     "type": "safe-haven",
-    "lat": 6.9727,
-    "lng": 79.9118,
+    "lat": 6.9122,
+    "lng": 79.8803,
     "name": {
       "en": "Mithuru Piyasa"
     },
@@ -76494,8 +76494,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1834-u2",
     "regionDistrict": "Dhaka, Bangladesh",
     "type": "hospital",
-    "lat": 23.7421,
-    "lng": 90.3795,
+    "lat": 23.7286,
+    "lng": 90.4,
     "name": {
       "en": "Azimpur Maternity Hospital"
     },
@@ -76522,8 +76522,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1834-u3",
     "regionDistrict": "Dhaka, Bangladesh",
     "type": "hospital",
-    "lat": 23.7091,
-    "lng": 90.4165,
+    "lat": 23.7286,
+    "lng": 90.4,
     "name": {
       "en": "Bangabandhu Sheikh Mujib Hospital"
     },
@@ -76550,8 +76550,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1834",
     "regionDistrict": "Dhaka, Bangladesh",
     "type": "safe-haven",
-    "lat": 23.7681,
-    "lng": 90.4495,
+    "lat": 23.7286,
+    "lng": 90.395,
     "name": {
       "en": "Bangladesh National Woman Lawyers’ Association (BNWLA Shelter), Naripokkho"
     },
@@ -76578,8 +76578,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1834-u2",
     "regionDistrict": "Dhaka, Bangladesh",
     "type": "safe-haven",
-    "lat": 23.7841,
-    "lng": 90.4315,
+    "lat": 23.7236,
+    "lng": 90.4,
     "name": {
       "en": "Ain o Salish Kendra"
     },
@@ -76634,8 +76634,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1835",
     "regionDistrict": "Yangon, Myanmar",
     "type": "safe-haven",
-    "lat": 16.8256,
-    "lng": 96.1956,
+    "lat": 16.7861,
+    "lng": 96.1411,
     "name": {
       "en": "Akhaya Women Myanmar & Legal Clinic Myanmar Women’s Safe Network"
     },
@@ -76690,8 +76690,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1836",
     "regionDistrict": "Phnom Penh, Cambodia",
     "type": "safe-haven",
-    "lat": 11.6156,
-    "lng": 104.9689,
+    "lat": 11.5761,
+    "lng": 104.9144,
     "name": {
       "en": "Cambodian Women’s Crisis Centre (CWCC Safe Shelters Phnom Penh/Siem Reap/Banteay Meanchey)"
     },
@@ -76746,8 +76746,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1837-u2",
     "regionDistrict": "Vientiane, Laos",
     "type": "hospital",
-    "lat": 18.0102,
-    "lng": 102.6151,
+    "lat": 17.9967,
+    "lng": 102.6356,
     "name": {
       "en": "Setthathirath Hospital"
     },
@@ -76774,8 +76774,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1837",
     "regionDistrict": "Vientiane, Laos",
     "type": "safe-haven",
-    "lat": 18.0362,
-    "lng": 102.6851,
+    "lat": 17.9967,
+    "lng": 102.6306,
     "name": {
       "en": "Lao Women’s Union Counseling and Protection Center for Women & Children"
     },
@@ -76830,8 +76830,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1838-u2",
     "regionDistrict": "Hanoi & Ho Chi Minh City, Vietnam",
     "type": "hospital",
-    "lat": 21.0418,
-    "lng": 105.8289,
+    "lat": 21.0283,
+    "lng": 105.8494,
     "name": {
       "en": "Từ Dũ Maternity Hospital HCMC"
     },
@@ -76858,8 +76858,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1838",
     "regionDistrict": "Hanoi & Ho Chi Minh City, Vietnam",
     "type": "safe-haven",
-    "lat": 21.0678,
-    "lng": 105.8989,
+    "lat": 21.0283,
+    "lng": 105.8444,
     "name": {
       "en": "Ngôi Nhà Bình Yên (Peace House Shelter — Center for Women and Development CWD)"
     },
@@ -76914,8 +76914,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1839",
     "regionDistrict": "Kuala Lumpur, Malaysia",
     "type": "safe-haven",
-    "lat": 3.2134,
-    "lng": 101.7539,
+    "lat": 3.1739,
+    "lng": 101.6994,
     "name": {
       "en": "Women’s Aid Organisation (WAO Refuge & TINA Helpline)"
     },
@@ -76942,8 +76942,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1839-u2",
     "regionDistrict": "Kuala Lumpur, Malaysia",
     "type": "safe-haven",
-    "lat": 3.2294,
-    "lng": 101.7359,
+    "lat": 3.1689,
+    "lng": 101.7044,
     "name": {
       "en": "All Women’s Action Society (AWAM)"
     },
@@ -76998,8 +76998,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1840",
     "regionDistrict": "Singapore",
     "type": "safe-haven",
-    "lat": 1.3526,
-    "lng": 103.8989,
+    "lat": 1.3131,
+    "lng": 103.8444,
     "name": {
       "en": "AWARE Women’s Helpline & Sexual Assault Care Centre (SACC)"
     },
@@ -77026,8 +77026,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1840-u2",
     "regionDistrict": "Singapore",
     "type": "safe-haven",
-    "lat": 1.3686,
-    "lng": 103.8809,
+    "lat": 1.3081,
+    "lng": 103.8494,
     "name": {
       "en": "Star Shelter"
     },
@@ -77082,8 +77082,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1841-u2",
     "regionDistrict": "Manila, Philippines",
     "type": "hospital",
-    "lat": 14.6221,
-    "lng": 120.9639,
+    "lat": 14.6086,
+    "lng": 120.9844,
     "name": {
       "en": "Philippine General Hospital OB/GYN"
     },
@@ -77110,8 +77110,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1841",
     "regionDistrict": "Manila, Philippines",
     "type": "safe-haven",
-    "lat": 14.6481,
-    "lng": 121.0339,
+    "lat": 14.6086,
+    "lng": 120.9794,
     "name": {
       "en": "Women’s Crisis Center (WCC Manila), Lunas Collective"
     },
@@ -77138,8 +77138,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1841-u2",
     "regionDistrict": "Manila, Philippines",
     "type": "safe-haven",
-    "lat": 14.6641,
-    "lng": 121.0159,
+    "lat": 14.6036,
+    "lng": 120.9844,
     "name": {
       "en": "DSWD Haven for Women"
     },
@@ -77194,8 +77194,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1842-u2",
     "regionDistrict": "Jakarta & Yogyakarta, Indonesia",
     "type": "hospital",
-    "lat": -6.1696,
-    "lng": 106.7801,
+    "lat": -6.1831,
+    "lng": 106.8006,
     "name": {
       "en": "RSCM Kintani OB/GYN"
     },
@@ -77222,8 +77222,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1842",
     "regionDistrict": "Jakarta & Yogyakarta, Indonesia",
     "type": "safe-haven",
-    "lat": -6.1436,
-    "lng": 106.8501,
+    "lat": -6.1831,
+    "lng": 106.7956,
     "name": {
       "en": "Komnas Perempuan, LBH APIK, Pulih Foundation"
     },
@@ -77250,8 +77250,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1842-u2",
     "regionDistrict": "Jakarta & Yogyakarta, Indonesia",
     "type": "safe-haven",
-    "lat": -6.1276,
-    "lng": 106.8321,
+    "lat": -6.1881,
+    "lng": 106.8006,
     "name": {
       "en": "Rifka Annisa Women’s Crisis Center"
     },
@@ -77306,8 +77306,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1843",
     "regionDistrict": "Dili, Timor-Leste",
     "type": "safe-haven",
-    "lat": -8.5149,
-    "lng": 125.6401,
+    "lat": -8.5544,
+    "lng": 125.5856,
     "name": {
       "en": "FOKUPERS (Forum Komunikasi Untuk Perempuan Timor Lorosa’e — Uma Mahon Safe House) & PRADET"
     },
@@ -77362,8 +77362,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1844",
     "regionDistrict": "Port Moresby, Papua New Guinea",
     "type": "safe-haven",
-    "lat": -9.4347,
-    "lng": 147.2376,
+    "lat": -9.4742,
+    "lng": 147.1831,
     "name": {
       "en": "Femili PNG Case Management Centre"
     },
@@ -77390,8 +77390,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1844-u2",
     "regionDistrict": "Port Moresby, Papua New Guinea",
     "type": "safe-haven",
-    "lat": -9.4187,
-    "lng": 147.2196,
+    "lat": -9.4792,
+    "lng": 147.1881,
     "name": {
       "en": "1-Tok Kaunselin Helpim Lain"
     },
@@ -77446,8 +77446,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1845",
     "regionDistrict": "Suva, Fiji",
     "type": "safe-haven",
-    "lat": -18.0916,
-    "lng": 178.4945,
+    "lat": -18.1311,
+    "lng": 178.44,
     "name": {
       "en": "Fiji Women’s Crisis Centre (FWCC — Pacific Regional GBV Hub)"
     },
@@ -77502,8 +77502,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1846-u2",
     "regionDistrict": "Apia, Samoa & Honiara, Solomon Islands & Port Vila, Vanuatu",
     "type": "hospital",
-    "lat": -13.8259,
-    "lng": -171.7766,
+    "lat": -13.8394,
+    "lng": -171.7561,
     "name": {
       "en": "National Referral Hospital (Honiara)"
     },
@@ -77530,8 +77530,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1846-u3",
     "regionDistrict": "Apia, Samoa & Honiara, Solomon Islands & Port Vila, Vanuatu",
     "type": "hospital",
-    "lat": -13.8589,
-    "lng": -171.7396,
+    "lat": -13.8394,
+    "lng": -171.7561,
     "name": {
       "en": "Vila Central Hospital"
     },
@@ -77558,8 +77558,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1846",
     "regionDistrict": "Apia, Samoa & Honiara, Solomon Islands & Port Vila, Vanuatu",
     "type": "safe-haven",
-    "lat": -13.7999,
-    "lng": -171.7066,
+    "lat": -13.8394,
+    "lng": -171.7611,
     "name": {
       "en": "Samoa Victim Support Group (SVSG), SAFENET / Family Support Centre (Honiara)"
     },
@@ -77586,8 +77586,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-safe-1846-u2",
     "regionDistrict": "Apia, Samoa & Honiara, Solomon Islands & Port Vila, Vanuatu",
     "type": "safe-haven",
-    "lat": -13.7839,
-    "lng": -171.7246,
+    "lat": -13.8444,
+    "lng": -171.7561,
     "name": {
       "en": "Vanuatu Women’s Centre"
     },
@@ -77642,8 +77642,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1934",
     "regionDistrict": "Ulaanbaatar (Bayangol / National Maternal Hub), Mongolia",
     "type": "safe-haven",
-    "lat": 47.9634,
-    "lng": 106.9351,
+    "lat": 47.9239,
+    "lng": 106.8806,
     "name": {
       "en": "Holt International “It’s Safe Here” Women & Children Domestic Violence Shelter"
     },
@@ -77670,8 +77670,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1934-u2",
     "regionDistrict": "Ulaanbaatar (Bayangol / National Maternal Hub), Mongolia",
     "type": "safe-haven",
-    "lat": 47.9794,
-    "lng": 106.9171,
+    "lat": 47.9189,
+    "lng": 106.8856,
     "name": {
       "en": "NCAV Ulaanbaatar (Хүчирхийллийн Эсрэг Үндэсний Төв)"
     },
@@ -77726,8 +77726,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1935",
     "regionDistrict": "Ulaanbaatar (Songinokhairkhan Ger District / Ulaanchuluut), Mongolia",
     "type": "safe-haven",
-    "lat": 47.9578,
-    "lng": 106.8462,
+    "lat": 47.9183,
+    "lng": 106.7917,
     "name": {
       "en": "Holt International Family Strengthening"
     },
@@ -77754,8 +77754,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1935-u2",
     "regionDistrict": "Ulaanbaatar (Songinokhairkhan Ger District / Ulaanchuluut), Mongolia",
     "type": "safe-haven",
-    "lat": 47.9738,
-    "lng": 106.8282,
+    "lat": 47.9133,
+    "lng": 106.7967,
     "name": {
       "en": "Songinokhairkhan Ger District Women’s Safe Haven (Улаанчулуут / Сонгинохайрхан Түр хамгаалах байр)"
     },
@@ -77810,8 +77810,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1936",
     "regionDistrict": "Ulaanbaatar (Bayanzurkh / Amgalan District), Mongolia",
     "type": "safe-haven",
-    "lat": 47.9509,
-    "lng": 107.0376,
+    "lat": 47.9114,
+    "lng": 106.9831,
     "name": {
       "en": "Bayanzurkh District One-Stop Service Center"
     },
@@ -77838,8 +77838,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1936-u2",
     "regionDistrict": "Ulaanbaatar (Bayanzurkh / Amgalan District), Mongolia",
     "type": "safe-haven",
-    "lat": 47.9669,
-    "lng": 107.0196,
+    "lat": 47.9064,
+    "lng": 106.9881,
     "name": {
       "en": "Holt-Supported Women’s Safe House (Баянзүрх дүүргийн Нэг цэгийн үйлчилгээний төв)"
     },
@@ -77894,8 +77894,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-hosp-1937-u2",
     "regionDistrict": "Ulaanbaatar (Sukhbaatar / Chingeltei District), Mongolia",
     "type": "hospital",
-    "lat": 47.9355,
-    "lng": 106.9062,
+    "lat": 47.922,
+    "lng": 106.9267,
     "name": {
       "en": "Khuree Maternity Hospital (Хүрээ амаржих газар)"
     },
@@ -77922,8 +77922,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1937",
     "regionDistrict": "Ulaanbaatar (Sukhbaatar / Chingeltei District), Mongolia",
     "type": "safe-haven",
-    "lat": 47.9615,
-    "lng": 106.9762,
+    "lat": 47.922,
+    "lng": 106.9217,
     "name": {
       "en": "Sukhbaatar & National Trauma Center One-Stop GBV Shelter (ГССҮТ болон Сүхбаатар дүүргийн Нэг цэгийн үйлчилгээний төв)"
     },
@@ -77978,8 +77978,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1938",
     "regionDistrict": "Ulaanbaatar (Khan-Uul / Yaarmag District), Mongolia",
     "type": "safe-haven",
-    "lat": 47.9176,
-    "lng": 106.887,
+    "lat": 47.8781,
+    "lng": 106.8325,
     "name": {
       "en": "Khan-Uul District Women’s Safe Shelter"
     },
@@ -78006,8 +78006,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1938-u2",
     "regionDistrict": "Ulaanbaatar (Khan-Uul / Yaarmag District), Mongolia",
     "type": "safe-haven",
-    "lat": 47.9336,
-    "lng": 106.869,
+    "lat": 47.8731,
+    "lng": 106.8375,
     "name": {
       "en": "Princess Center for Protection of Girls"
     },
@@ -78034,8 +78034,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1938-u3",
     "regionDistrict": "Ulaanbaatar (Khan-Uul / Yaarmag District), Mongolia",
     "type": "safe-haven",
-    "lat": 47.9006,
-    "lng": 106.906,
+    "lat": 47.8721,
+    "lng": 106.8325,
     "name": {
       "en": "Young Women (Гүнж төв / Хан-Уул Түр хамгаалах байр)"
     },
@@ -78090,8 +78090,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-hosp-1939-u2",
     "regionDistrict": "Erdenet, Orkhon Province (Aimag), Mongolia",
     "type": "hospital",
-    "lat": 49.0438,
-    "lng": 104.0264,
+    "lat": 49.0303,
+    "lng": 104.0469,
     "name": {
       "en": "Treatment Center — Maternity Wing (Орхон аймгийн Бүсийн оношилгоо эмчилгээний төв — Төрөх тасаг)"
     },
@@ -78118,8 +78118,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1939",
     "regionDistrict": "Erdenet, Orkhon Province (Aimag), Mongolia",
     "type": "safe-haven",
-    "lat": 49.0698,
-    "lng": 104.0964,
+    "lat": 49.0303,
+    "lng": 104.0419,
     "name": {
       "en": "Orkhon Aimag NCAV Branch & One-Stop Domestic Violence Shelter Erdenet (Орхон аймгийн Нэг цэгийн үйлчилгээний төв)"
     },
@@ -78174,8 +78174,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1940",
     "regionDistrict": "Darkhan, Darkhan-Uul Province, Mongolia",
     "type": "safe-haven",
-    "lat": 49.5287,
-    "lng": 105.9748,
+    "lat": 49.4892,
+    "lng": 105.9203,
     "name": {
       "en": "Darkhan-Uul One-Stop Women’s Shelter"
     },
@@ -78202,8 +78202,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1940-u2",
     "regionDistrict": "Darkhan, Darkhan-Uul Province, Mongolia",
     "type": "safe-haven",
-    "lat": 49.5447,
-    "lng": 105.9568,
+    "lat": 49.4842,
+    "lng": 105.9253,
     "name": {
       "en": "NCAV Safe Haven (Дархан-Uul аймгийн Түр хамгаалах байр)"
     },
@@ -78258,8 +78258,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1941",
     "regionDistrict": "Mörön (Murun), Khövsgöl Province (Lake Khövsgöl Region), Mongolia",
     "type": "safe-haven",
-    "lat": 49.6762,
-    "lng": 100.2145,
+    "lat": 49.6367,
+    "lng": 100.16,
     "name": {
       "en": "Khövsgöl Aimag One-Stop Service Center & Women’s Safe Shelter Mörön (Хөвсгөл аймгийн Нэг цэгийн үйлчилгээний төв)"
     },
@@ -78314,8 +78314,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1942",
     "regionDistrict": "Tsetserleg, Arkhangai Province, Mongolia",
     "type": "safe-haven",
-    "lat": 47.517,
-    "lng": 101.5062,
+    "lat": 47.4775,
+    "lng": 101.4517,
     "name": {
       "en": "Arkhangai Women’s Safe Shelter & Family Crisis Center Tsetserleg (Архангай аймгийн Түр хамгаалах байр)"
     },
@@ -78370,8 +78370,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-hosp-1943-u2",
     "regionDistrict": "Arvaikheer, Övörkhangai Province, Mongolia",
     "type": "hospital",
-    "lat": 46.2799,
-    "lng": 102.757,
+    "lat": 46.2664,
+    "lng": 102.7775,
     "name": {
       "en": "Treatment Center — Maternity Wing (Өвөрхангай аймгийн БОЭТ)"
     },
@@ -78398,8 +78398,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1943",
     "regionDistrict": "Arvaikheer, Övörkhangai Province, Mongolia",
     "type": "safe-haven",
-    "lat": 46.3059,
-    "lng": 102.827,
+    "lat": 46.2664,
+    "lng": 102.7725,
     "name": {
       "en": "Övörkhangai One-Stop GBV Service Center & Women’s Safe House Arvaikheer"
     },
@@ -78454,8 +78454,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1944",
     "regionDistrict": "Bayankhongor, Bayankhongor Province, Mongolia",
     "type": "safe-haven",
-    "lat": 46.2364,
-    "lng": 100.7701,
+    "lat": 46.1969,
+    "lng": 100.7156,
     "name": {
       "en": "Bayankhongor Aimag One-Stop Women’s Safe Shelter (Баянхонгор аймгийн Нэг цэгийн үйлчилгээний төв)"
     },
@@ -78510,8 +78510,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-hosp-1945-u2",
     "regionDistrict": "Ölgii (Ulgii), Bayan-Ölgii Province (Kazakh Region), Mongolia",
     "type": "hospital",
-    "lat": 48.9843,
-    "lng": 89.9445,
+    "lat": 48.9708,
+    "lng": 89.965,
     "name": {
       "en": "Mongolian Maternity Ward (Баян-Өлгий аймгийн Нэгдсэн эмнэлэг)"
     },
@@ -78538,8 +78538,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1945",
     "regionDistrict": "Ölgii (Ulgii), Bayan-Ölgii Province (Kazakh Region), Mongolia",
     "type": "safe-haven",
-    "lat": 49.0103,
-    "lng": 90.0145,
+    "lat": 48.9708,
+    "lng": 89.96,
     "name": {
       "en": "Bayan-Ölgii One-Stop GBV Shelter"
     },
@@ -78566,8 +78566,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1945-u2",
     "regionDistrict": "Ölgii (Ulgii), Bayan-Ölgii Province (Kazakh Region), Mongolia",
     "type": "safe-haven",
-    "lat": 49.0263,
-    "lng": 89.9965,
+    "lat": 48.9658,
+    "lng": 89.965,
     "name": {
       "en": "Kazakh/Mongolian Women’s Safe Haven Ölgii"
     },
@@ -78622,8 +78622,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-hosp-1946-u2",
     "regionDistrict": "Khovd, Khovd Province (Western Regional Hub), Mongolia",
     "type": "hospital",
-    "lat": 48.0216,
-    "lng": 91.6239,
+    "lat": 48.0081,
+    "lng": 91.6444,
     "name": {
       "en": "Treatment Center — Maternity Complex (Ховд аймгийн БОЭТ — Төрөх тасаг)"
     },
@@ -78650,8 +78650,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1946",
     "regionDistrict": "Khovd, Khovd Province (Western Regional Hub), Mongolia",
     "type": "safe-haven",
-    "lat": 48.0476,
-    "lng": 91.6939,
+    "lat": 48.0081,
+    "lng": 91.6394,
     "name": {
       "en": "Khovd Aimag One-Stop Service Center"
     },
@@ -78678,8 +78678,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1946-u2",
     "regionDistrict": "Khovd, Khovd Province (Western Regional Hub), Mongolia",
     "type": "safe-haven",
-    "lat": 48.0636,
-    "lng": 91.6759,
+    "lat": 48.0031,
+    "lng": 91.6444,
     "name": {
       "en": "NCAV Western Women’s Shelter (Ховд аймгийн Нэг цэгийн үйлчилгээний төв)"
     },
@@ -78734,8 +78734,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1947",
     "regionDistrict": "Ulaangom, Uvs Province, Mongolia",
     "type": "safe-haven",
-    "lat": 50.0231,
-    "lng": 92.1187,
+    "lat": 49.9836,
+    "lng": 92.0642,
     "name": {
       "en": "Uvs Aimag One-Stop Women’s Safe Shelter Ulaangom (Увс аймгийн Түр хамгаалах байр)"
     },
@@ -78790,8 +78790,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1948",
     "regionDistrict": "Uliastai, Zavkhan Province, Mongolia",
     "type": "safe-haven",
-    "lat": 47.7837,
-    "lng": 96.8964,
+    "lat": 47.7442,
+    "lng": 96.8419,
     "name": {
       "en": "Zavkhan Aimag One-Stop GBV Service Center & Women’s Shelter Uliastai"
     },
@@ -78846,8 +78846,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-hosp-1949-u2",
     "regionDistrict": "Altai City, Govi-Altai Province, Mongolia",
     "type": "hospital",
-    "lat": 46.3882,
-    "lng": 96.2403,
+    "lat": 46.3747,
+    "lng": 96.2608,
     "name": {
       "en": "Mongolian National University Medical School Maternity (Говь-Алтай аймгийн Нэгдсэн эмнэлэг)"
     },
@@ -78874,8 +78874,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1949",
     "regionDistrict": "Altai City, Govi-Altai Province, Mongolia",
     "type": "safe-haven",
-    "lat": 46.4142,
-    "lng": 96.3103,
+    "lat": 46.3747,
+    "lng": 96.2558,
     "name": {
       "en": "Govi-Altai Nomadic"
     },
@@ -78902,8 +78902,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1949-u2",
     "regionDistrict": "Altai City, Govi-Altai Province, Mongolia",
     "type": "safe-haven",
-    "lat": 46.4302,
-    "lng": 96.2923,
+    "lat": 46.3697,
+    "lng": 96.2608,
     "name": {
       "en": "Herder Women’s Safe Shelter (Говь-Алтай аймгийн Нэг цэгийн үйлчилгээний төв)"
     },
@@ -78958,8 +78958,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-hosp-1950-u2",
     "regionDistrict": "Dalanzadgad, Ömnögovi Province (South Gobi Desert), Mongolia",
     "type": "hospital",
-    "lat": 43.5868,
-    "lng": 104.407,
+    "lat": 43.5733,
+    "lng": 104.4275,
     "name": {
       "en": "Treatment Center — Gobi Maternity Hospital (Өмнөговь аймгийн БОЭТ)"
     },
@@ -78986,8 +78986,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1950",
     "regionDistrict": "Dalanzadgad, Ömnögovi Province (South Gobi Desert), Mongolia",
     "type": "safe-haven",
-    "lat": 43.6128,
-    "lng": 104.477,
+    "lat": 43.5733,
+    "lng": 104.4225,
     "name": {
       "en": "Ömnögovi One-Stop Service Center"
     },
@@ -79014,8 +79014,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1950-u2",
     "regionDistrict": "Dalanzadgad, Ömnögovi Province (South Gobi Desert), Mongolia",
     "type": "safe-haven",
-    "lat": 43.6288,
-    "lng": 104.459,
+    "lat": 43.5683,
+    "lng": 104.4275,
     "name": {
       "en": "South Gobi Women’s Safe Shelter Dalanzadgad"
     },
@@ -79070,8 +79070,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-hosp-1951-u2",
     "regionDistrict": "Sainshand & Zamiin-Üüd, Dornogovi Province (East Gobi), Mongolia",
     "type": "hospital",
-    "lat": 44.9085,
-    "lng": 110.0984,
+    "lat": 44.895,
+    "lng": 110.1189,
     "name": {
       "en": "Border Health Center (Дорноговь аймгийн Нэгдсэн эмнэлэг)"
     },
@@ -79098,8 +79098,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1951",
     "regionDistrict": "Sainshand & Zamiin-Üüd, Dornogovi Province (East Gobi), Mongolia",
     "type": "safe-haven",
-    "lat": 44.9345,
-    "lng": 110.1684,
+    "lat": 44.895,
+    "lng": 110.1139,
     "name": {
       "en": "Dornogovi & Zamiin-Üüd Border Women’s Safe Shelter"
     },
@@ -79126,8 +79126,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1951-u2",
     "regionDistrict": "Sainshand & Zamiin-Üüd, Dornogovi Province (East Gobi), Mongolia",
     "type": "safe-haven",
-    "lat": 44.9505,
-    "lng": 110.1504,
+    "lat": 44.89,
+    "lng": 110.1189,
     "name": {
       "en": "Anti-Trafficking Center"
     },
@@ -79182,8 +79182,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-hosp-1952-u2",
     "regionDistrict": "Choibalsan, Dornod Province (Eastern Mongolia), Mongolia",
     "type": "hospital",
-    "lat": 48.0885,
-    "lng": 114.5148,
+    "lat": 48.075,
+    "lng": 114.5353,
     "name": {
       "en": "Treatment Center — Maternity Wing (Дорнод аймгийн БОЭТ)"
     },
@@ -79210,8 +79210,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1952",
     "regionDistrict": "Choibalsan, Dornod Province (Eastern Mongolia), Mongolia",
     "type": "safe-haven",
-    "lat": 48.1145,
-    "lng": 114.5848,
+    "lat": 48.075,
+    "lng": 114.5303,
     "name": {
       "en": "Dornod Aimag One-Stop Service Center"
     },
@@ -79238,8 +79238,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1952-u2",
     "regionDistrict": "Choibalsan, Dornod Province (Eastern Mongolia), Mongolia",
     "type": "safe-haven",
-    "lat": 48.1305,
-    "lng": 114.5668,
+    "lat": 48.07,
+    "lng": 114.5353,
     "name": {
       "en": "NCAV Eastern Women’s Shelter Choibalsan"
     },
@@ -79294,8 +79294,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "mng-safe-1953",
     "regionDistrict": "Chinggis City (Khentii) & Baruun-Urt (Sükhbaatar), Eastern Steppe, Mongolia",
     "type": "safe-haven",
-    "lat": 47.3614,
-    "lng": 110.7081,
+    "lat": 47.3219,
+    "lng": 110.6536,
     "name": {
       "en": "Khentii & Sükhbaatar One-Stop Domestic Violence Shelters (Хэнтий ба Сүхбаатар аймгийн Түр хамгаалах байр)"
     },
@@ -79350,8 +79350,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1974-u2",
     "regionDistrict": "Pok Fu Lam & Sai Ying Pun (Hong Kong West Cluster), Hong Kong",
     "type": "hospital",
-    "lat": 22.2863,
-    "lng": 114.1131,
+    "lat": 22.2728,
+    "lng": 114.1336,
     "name": {
       "en": "Tsan Yuk Hospital (贊育醫院)"
     },
@@ -79378,8 +79378,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1974",
     "regionDistrict": "Pok Fu Lam & Sai Ying Pun (Hong Kong West Cluster), Hong Kong",
     "type": "safe-haven",
-    "lat": 22.2823,
-    "lng": 114.1461,
+    "lat": 22.2728,
+    "lng": 114.1286,
     "name": {
       "en": "Po Leung Kuk Wai On Home for Women (保良局維安中心 — 24/7 Domestic Abuse Refuge)"
     },
@@ -79434,8 +79434,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1975",
     "regionDistrict": "Chai Wan (Hong Kong East Cluster), Hong Kong Island, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.2814,
-    "lng": 114.2514,
+    "lat": 22.2719,
+    "lng": 114.2339,
     "name": {
       "en": "PathFinders Hong Kong (融幼社 — Migrant Mothers & Pregnant Women Crisis Sanctuary) & Mother’s Choice (母親的抉擇)"
     },
@@ -79490,8 +79490,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1976-u2",
     "regionDistrict": "Happy Valley & Causeway Bay, Hong Kong Island, Hong Kong",
     "type": "hospital",
-    "lat": 22.2852,
-    "lng": 114.1653,
+    "lat": 22.2717,
+    "lng": 114.1858,
     "name": {
       "en": "St. Paul’s Hospital (聖保祿醫院)"
     },
@@ -79518,8 +79518,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1976",
     "regionDistrict": "Happy Valley & Causeway Bay, Hong Kong Island, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.2812,
-    "lng": 114.1983,
+    "lat": 22.2717,
+    "lng": 114.1808,
     "name": {
       "en": "Bethune House Migrant Women’s Refuge (白恩逢之家)"
     },
@@ -79546,8 +79546,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1976-u2",
     "regionDistrict": "Happy Valley & Causeway Bay, Hong Kong Island, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.2972,
-    "lng": 114.1803,
+    "lat": 22.2667,
+    "lng": 114.1858,
     "name": {
       "en": "Hong Kong Federation of Women’s Centres (香港婦女中心協會)"
     },
@@ -79602,8 +79602,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1977-u2",
     "regionDistrict": "The Peak, Mid-Levels & Wong Chuk Hang, Hong Kong Island, Hong Kong",
     "type": "hospital",
-    "lat": 22.2696,
-    "lng": 114.1423,
+    "lat": 22.2561,
+    "lng": 114.1628,
     "name": {
       "en": "Canossa Hospital (嘉諾撒醫院), HK Adventist Stubbs Rd"
     },
@@ -79630,8 +79630,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1977-u3",
     "regionDistrict": "The Peak, Mid-Levels & Wong Chuk Hang, Hong Kong Island, Hong Kong",
     "type": "hospital",
-    "lat": 22.2366,
-    "lng": 114.1793,
+    "lat": 22.2561,
+    "lng": 114.1628,
     "name": {
       "en": "Gleneagles HK (港怡醫院)"
     },
@@ -79658,8 +79658,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1977",
     "regionDistrict": "The Peak, Mid-Levels & Wong Chuk Hang, Hong Kong Island, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.2656,
-    "lng": 114.1753,
+    "lat": 22.2561,
+    "lng": 114.1578,
     "name": {
       "en": "Serene Court (恬寧居 — 24/7 Women’s Refuge for Domestic Violence Survivors)"
     },
@@ -79714,8 +79714,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1978-u2",
     "regionDistrict": "Yau Ma Tei & Jordan (Kowloon Central Cluster), Kowloon, Hong Kong",
     "type": "hospital",
-    "lat": 22.3307,
-    "lng": 114.1542,
+    "lat": 22.3172,
+    "lng": 114.1747,
     "name": {
       "en": "Kwong Wah Hospital (廣華醫院 — Obstetrics & Gynecology)"
     },
@@ -79742,8 +79742,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1978",
     "regionDistrict": "Yau Ma Tei & Jordan (Kowloon Central Cluster), Kowloon, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.3267,
-    "lng": 114.1872,
+    "lat": 22.3172,
+    "lng": 114.1697,
     "name": {
       "en": "RainLily (風雨蘭 — Association Concerning Sexual Violence Against Women 24/7 Crisis Centre at QEH/KWH)"
     },
@@ -79798,8 +79798,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1979-u2",
     "regionDistrict": "Kwun Tong & Tseung Kwan O (Kowloon East Cluster), Hong Kong",
     "type": "hospital",
-    "lat": 22.3388,
-    "lng": 114.2095,
+    "lat": 22.3253,
+    "lng": 114.23,
     "name": {
       "en": "Tseung Kwan O Hospital (將軍澳醫院)"
     },
@@ -79826,8 +79826,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1979",
     "regionDistrict": "Kwun Tong & Tseung Kwan O (Kowloon East Cluster), Hong Kong",
     "type": "safe-haven",
-    "lat": 22.3348,
-    "lng": 114.2425,
+    "lat": 22.3253,
+    "lng": 114.225,
     "name": {
       "en": "Harmony House (和諧之家 — Hong Kong’s First Battered Women & Children Shelter)"
     },
@@ -79882,8 +79882,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1980-u2",
     "regionDistrict": "Lai Chi Kok & Sham Shui Po (Kowloon West Cluster), Kowloon, Hong Kong",
     "type": "hospital",
-    "lat": 22.3566,
-    "lng": 114.1162,
+    "lat": 22.3431,
+    "lng": 114.1367,
     "name": {
       "en": "Caritas Medical Centre (明愛醫院)"
     },
@@ -79910,8 +79910,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1980",
     "regionDistrict": "Lai Chi Kok & Sham Shui Po (Kowloon West Cluster), Kowloon, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.3526,
-    "lng": 114.1492,
+    "lat": 22.3431,
+    "lng": 114.1317,
     "name": {
       "en": "Tung Wah Group of Hospitals CEASE Crisis Centre (東華三院芷若園 — 24/7 Domestic & Sexual Violence Shelter)"
     },
@@ -79966,8 +79966,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1981-u2",
     "regionDistrict": "Kowloon Tong & Kowloon City, Kowloon, Hong Kong",
     "type": "hospital",
-    "lat": 22.3552,
-    "lng": 114.1614,
+    "lat": 22.3417,
+    "lng": 114.1819,
     "name": {
       "en": "St. Teresa’s Hospital (聖德肋撒醫院 / 法國醫院)"
     },
@@ -79994,8 +79994,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1981",
     "regionDistrict": "Kowloon Tong & Kowloon City, Kowloon, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.3512,
-    "lng": 114.1944,
+    "lat": 22.3417,
+    "lng": 114.1769,
     "name": {
       "en": "Caritas Family Crisis Support Centre — 向晴軒 (24/7 Family & Women’s Crisis Shelter)"
     },
@@ -80050,8 +80050,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1982-u2",
     "regionDistrict": "Sha Tin (New Territories East Cluster), Hong Kong",
     "type": "hospital",
-    "lat": 22.3957,
-    "lng": 114.1837,
+    "lat": 22.3822,
+    "lng": 114.2042,
     "name": {
       "en": "CUHK Medical Centre (中大醫院)"
     },
@@ -80078,8 +80078,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1982-u3",
     "regionDistrict": "Sha Tin (New Territories East Cluster), Hong Kong",
     "type": "hospital",
-    "lat": 22.3627,
-    "lng": 114.2207,
+    "lat": 22.3822,
+    "lng": 114.2042,
     "name": {
       "en": "Union Hospital (仁安醫院)"
     },
@@ -80106,8 +80106,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1982",
     "regionDistrict": "Sha Tin (New Territories East Cluster), Hong Kong",
     "type": "safe-haven",
-    "lat": 22.3917,
-    "lng": 114.2167,
+    "lat": 22.3822,
+    "lng": 114.1992,
     "name": {
       "en": "Sunrise Court (保良局昕妍居 — 24/7 Refuge for Women & Children Victims of Domestic Violence)"
     },
@@ -80162,8 +80162,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1983-u2",
     "regionDistrict": "Tai Po & Sheung Shui (Northern New Territories), Hong Kong",
     "type": "hospital",
-    "lat": 22.4746,
-    "lng": 114.1573,
+    "lat": 22.4611,
+    "lng": 114.1778,
     "name": {
       "en": "North District Hospital (北區醫院)"
     },
@@ -80190,8 +80190,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1983",
     "regionDistrict": "Tai Po & Sheung Shui (Northern New Territories), Hong Kong",
     "type": "safe-haven",
-    "lat": 22.4706,
-    "lng": 114.1903,
+    "lat": 22.4611,
+    "lng": 114.1728,
     "name": {
       "en": "Tai Po"
     },
@@ -80218,8 +80218,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1983-u2",
     "regionDistrict": "Tai Po & Sheung Shui (Northern New Territories), Hong Kong",
     "type": "safe-haven",
-    "lat": 22.4866,
-    "lng": 114.1723,
+    "lat": 22.4561,
+    "lng": 114.1778,
     "name": {
       "en": "North District Integrated Family & Women’s Crisis Support Centre (大埔及北區婦女庇護支援服務)"
     },
@@ -80274,8 +80274,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1984-u2",
     "regionDistrict": "Tuen Mun & Yuen Long (New Territories West Cluster), Hong Kong",
     "type": "hospital",
-    "lat": 22.4235,
-    "lng": 113.9581,
+    "lat": 22.41,
+    "lng": 113.9786,
     "name": {
       "en": "Pok Oi Hospital (博愛醫院)"
     },
@@ -80302,8 +80302,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1984",
     "regionDistrict": "Tuen Mun & Yuen Long (New Territories West Cluster), Hong Kong",
     "type": "safe-haven",
-    "lat": 22.4195,
-    "lng": 113.9911,
+    "lat": 22.41,
+    "lng": 113.9736,
     "name": {
       "en": "Yan Oi Tong"
     },
@@ -80330,8 +80330,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1984-u2",
     "regionDistrict": "Tuen Mun & Yuen Long (New Territories West Cluster), Hong Kong",
     "type": "safe-haven",
-    "lat": 22.4355,
-    "lng": 113.9731,
+    "lat": 22.405,
+    "lng": 113.9786,
     "name": {
       "en": "Tin Shui Wai / Tuen Mun Women’s Crisis Support Center (屯門及天水圍婦女危機支援中心)"
     },
@@ -80386,8 +80386,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1985-u2",
     "regionDistrict": "Tsuen Wan & Kwai Tsing, New Territories, Hong Kong",
     "type": "hospital",
-    "lat": 22.3857,
-    "lng": 114.1014,
+    "lat": 22.3722,
+    "lng": 114.1219,
     "name": {
       "en": "Hong Kong Adventist Hospital — Tsuen Wan (香港港安醫院－荃灣 — Maternity)"
     },
@@ -80414,8 +80414,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1985",
     "regionDistrict": "Tsuen Wan & Kwai Tsing, New Territories, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.3817,
-    "lng": 114.1344,
+    "lat": 22.3722,
+    "lng": 114.1169,
     "name": {
       "en": "RainLily Tsuen Wan"
     },
@@ -80442,8 +80442,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1985-u2",
     "regionDistrict": "Tsuen Wan & Kwai Tsing, New Territories, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.3977,
-    "lng": 114.1164,
+    "lat": 22.3672,
+    "lng": 114.1219,
     "name": {
       "en": "Kwai Tsing Women’s Safe Support Centre (風雨蘭荃灣及葵青支援中心)"
     },
@@ -80498,8 +80498,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-hosp-1986-u2",
     "regionDistrict": "Tung Chung (Lantau Island) & Outlying Islands, Hong Kong",
     "type": "hospital",
-    "lat": 22.2979,
-    "lng": 113.9212,
+    "lat": 22.2844,
+    "lng": 113.9417,
     "name": {
       "en": "St. John Hospital Cheung Chau (長洲醫院)"
     },
@@ -80526,8 +80526,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1986",
     "regionDistrict": "Tung Chung (Lantau Island) & Outlying Islands, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.2939,
-    "lng": 113.9542,
+    "lat": 22.2844,
+    "lng": 113.9367,
     "name": {
       "en": "Tung Chung Safe Community"
     },
@@ -80554,8 +80554,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "hkg-safe-1986-u2",
     "regionDistrict": "Tung Chung (Lantau Island) & Outlying Islands, Hong Kong",
     "type": "safe-haven",
-    "lat": 22.3099,
-    "lng": 113.9362,
+    "lat": 22.2794,
+    "lng": 113.9417,
     "name": {
       "en": "Islands Women’s Crisis Support Service (東涌及離島婦女安全支援中心)"
     },
@@ -80610,8 +80610,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3001-u2",
     "regionDistrict": "São Paulo (Centro / Bela Vista), SP, Brazil",
     "type": "hospital",
-    "lat": -23.5398,
-    "lng": -46.6805,
+    "lat": -23.5533,
+    "lng": -46.66,
     "name": {
       "en": "Clínica Obstétrica / Hospital e Maternidade Santa Joana"
     },
@@ -80638,8 +80638,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3001",
     "regionDistrict": "São Paulo (Centro / Bela Vista), SP, Brazil",
     "type": "safe-haven",
-    "lat": -23.5418,
-    "lng": -46.6485,
+    "lat": -23.5533,
+    "lng": -46.665,
     "name": {
       "en": "Casa da Mulher Brasileira de São Paulo (Cambuci)"
     },
@@ -80666,8 +80666,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3001-u2",
     "regionDistrict": "São Paulo (Centro / Bela Vista), SP, Brazil",
     "type": "safe-haven",
-    "lat": -23.5258,
-    "lng": -46.6665,
+    "lat": -23.5583,
+    "lng": -46.66,
     "name": {
       "en": "Centro de Defesa e de Convivência da Mulher"
     },
@@ -80722,8 +80722,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3002",
     "regionDistrict": "São Paulo (Zona Leste / Zona Sul), SP, Brazil",
     "type": "safe-haven",
-    "lat": -23.5772,
-    "lng": -46.6248,
+    "lat": -23.5887,
+    "lng": -46.6413,
     "name": {
       "en": "Casa Abrigo Sigilosa Municipal"
     },
@@ -80750,8 +80750,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3002-u2",
     "regionDistrict": "São Paulo (Zona Leste / Zona Sul), SP, Brazil",
     "type": "safe-haven",
-    "lat": -23.5612,
-    "lng": -46.6428,
+    "lat": -23.5937,
+    "lng": -46.6363,
     "name": {
       "en": "Centro de Referência da Mulher São Paulo"
     },
@@ -80806,8 +80806,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3003-u2",
     "regionDistrict": "Campinas & Ribeirão Preto, SP, Brazil",
     "type": "hospital",
-    "lat": -22.8108,
-    "lng": -47.0818,
+    "lat": -22.8243,
+    "lng": -47.0613,
     "name": {
       "en": "HC Ribeirão Preto"
     },
@@ -80834,8 +80834,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3003",
     "regionDistrict": "Campinas & Ribeirão Preto, SP, Brazil",
     "type": "safe-haven",
-    "lat": -22.8128,
-    "lng": -47.0498,
+    "lat": -22.8243,
+    "lng": -47.0663,
     "name": {
       "en": "Casa Abrigo Sempre Viva (Campinas)"
     },
@@ -80862,8 +80862,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3003-u2",
     "regionDistrict": "Campinas & Ribeirão Preto, SP, Brazil",
     "type": "safe-haven",
-    "lat": -22.7968,
-    "lng": -47.0678,
+    "lat": -22.8293,
+    "lng": -47.0613,
     "name": {
       "en": "Centro de Referência da Mulher (CEAMO)"
     },
@@ -80918,8 +80918,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3004-u2",
     "regionDistrict": "Rio de Janeiro (Centro / Laranjeiras), RJ, Brazil",
     "type": "hospital",
-    "lat": -22.9159,
-    "lng": -43.2032,
+    "lat": -22.9294,
+    "lng": -43.1827,
     "name": {
       "en": "Instituto Fernandes Figueira (IFF/Fiocruz) & Hospital Maternidade Fernando Magalhães"
     },
@@ -80946,8 +80946,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3004",
     "regionDistrict": "Rio de Janeiro (Centro / Laranjeiras), RJ, Brazil",
     "type": "safe-haven",
-    "lat": -22.9179,
-    "lng": -43.1712,
+    "lat": -22.9294,
+    "lng": -43.1877,
     "name": {
       "en": "Casa da Mulher Carioca Dinah Coutinho"
     },
@@ -80974,8 +80974,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3004-u2",
     "regionDistrict": "Rio de Janeiro (Centro / Laranjeiras), RJ, Brazil",
     "type": "safe-haven",
-    "lat": -22.9019,
-    "lng": -43.1892,
+    "lat": -22.9344,
+    "lng": -43.1827,
     "name": {
       "en": "Abrigo Sigiloso Estadual RJ (CEAM Queimados / Centro)"
     },
@@ -81030,8 +81030,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3005",
     "regionDistrict": "Belo Horizonte & Contagem, MG, Brazil",
     "type": "safe-haven",
-    "lat": -19.9105,
-    "lng": -43.9212,
+    "lat": -19.922,
+    "lng": -43.9377,
     "name": {
       "en": "Casa Sempre Viva (Abrigo Estadual MG)"
     },
@@ -81058,8 +81058,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3005-u2",
     "regionDistrict": "Belo Horizonte & Contagem, MG, Brazil",
     "type": "safe-haven",
-    "lat": -19.8945,
-    "lng": -43.9392,
+    "lat": -19.927,
+    "lng": -43.9327,
     "name": {
       "en": "Centro Especializado de Atendimento à Mulher (Benvinda)"
     },
@@ -81114,8 +81114,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3006-u2",
     "regionDistrict": "Vitória & Vila Velha, ES, Brazil",
     "type": "hospital",
-    "lat": -20.2995,
-    "lng": -40.3308,
+    "lat": -20.313,
+    "lng": -40.3103,
     "name": {
       "en": "HUCAM Vitória"
     },
@@ -81142,8 +81142,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3006",
     "regionDistrict": "Vitória & Vila Velha, ES, Brazil",
     "type": "safe-haven",
-    "lat": -20.3015,
-    "lng": -40.2988,
+    "lat": -20.313,
+    "lng": -40.3153,
     "name": {
       "en": "Casa Abrigo Estadual do Espírito Santo"
     },
@@ -81170,8 +81170,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3006-u2",
     "regionDistrict": "Vitória & Vila Velha, ES, Brazil",
     "type": "safe-haven",
-    "lat": -20.2855,
-    "lng": -40.3168,
+    "lat": -20.318,
+    "lng": -40.3103,
     "name": {
       "en": "Centro de Referência de Atendimento à Mulher (CRAMSV)"
     },
@@ -81226,8 +81226,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3007",
     "regionDistrict": "Brasília (Asa Sul / Ceilândia), DF, Brazil",
     "type": "safe-haven",
-    "lat": -15.8127,
-    "lng": -47.9078,
+    "lat": -15.8242,
+    "lng": -47.9243,
     "name": {
       "en": "Casa da Mulher Brasileira de Brasília (Ceilândia)"
     },
@@ -81254,8 +81254,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3007-u2",
     "regionDistrict": "Brasília (Asa Sul / Ceilândia), DF, Brazil",
     "type": "safe-haven",
-    "lat": -15.7967,
-    "lng": -47.9258,
+    "lat": -15.8292,
+    "lng": -47.9193,
     "name": {
       "en": "Casa Abrigo do Distrito Federal"
     },
@@ -81310,8 +81310,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3008",
     "regionDistrict": "Goiânia, GO, Brazil",
     "type": "safe-haven",
-    "lat": -16.6729,
-    "lng": -49.2508,
+    "lat": -16.6844,
+    "lng": -49.2673,
     "name": {
       "en": "Casa Abrigo Sempre Viva Goiânia"
     },
@@ -81338,8 +81338,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3008-u2",
     "regionDistrict": "Goiânia, GO, Brazil",
     "type": "safe-haven",
-    "lat": -16.6569,
-    "lng": -49.2688,
+    "lat": -16.6894,
+    "lng": -49.2623,
     "name": {
       "en": "Centro de Referência Estadual da Igualdade (CREI)"
     },
@@ -81394,8 +81394,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3009",
     "regionDistrict": "Cuiabá & Rondonópolis, MT, Brazil",
     "type": "safe-haven",
-    "lat": -15.5874,
-    "lng": -56.0839,
+    "lat": -15.5989,
+    "lng": -56.1004,
     "name": {
       "en": "Casa de Amparo à Mulher Vítima de Violência de Cuiabá"
     },
@@ -81422,8 +81422,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3009-u2",
     "regionDistrict": "Cuiabá & Rondonópolis, MT, Brazil",
     "type": "safe-haven",
-    "lat": -15.5714,
-    "lng": -56.1019,
+    "lat": -15.6039,
+    "lng": -56.0954,
     "name": {
       "en": "Rede de Enfrentamento MT"
     },
@@ -81478,8 +81478,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3010",
     "regionDistrict": "Campo Grande & Dourados, MS, Brazil",
     "type": "safe-haven",
-    "lat": -20.4557,
-    "lng": -54.6061,
+    "lat": -20.4672,
+    "lng": -54.6226,
     "name": {
       "en": "Casa da Mulher Brasileira de Campo Grande (1st in Brazil)"
     },
@@ -81506,8 +81506,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3010-u2",
     "regionDistrict": "Campo Grande & Dourados, MS, Brazil",
     "type": "safe-haven",
-    "lat": -20.4397,
-    "lng": -54.6241,
+    "lat": -20.4722,
+    "lng": -54.6176,
     "name": {
       "en": "Casa Abrigo para Mulheres"
     },
@@ -81562,8 +81562,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3011-u2",
     "regionDistrict": "Salvador & Feira de Santana, BA, Brazil",
     "type": "hospital",
-    "lat": -12.9554,
-    "lng": -38.5194,
+    "lat": -12.9689,
+    "lng": -38.4989,
     "name": {
       "en": "Instituto de Perinatologia da Bahia (IPERBA) & Maternidade Tsylla Balbino"
     },
@@ -81590,8 +81590,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3011",
     "regionDistrict": "Salvador & Feira de Santana, BA, Brazil",
     "type": "safe-haven",
-    "lat": -12.9574,
-    "lng": -38.4874,
+    "lat": -12.9689,
+    "lng": -38.5039,
     "name": {
       "en": "Casa da Mulher Brasileira de Salvador"
     },
@@ -81618,8 +81618,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3011-u2",
     "regionDistrict": "Salvador & Feira de Santana, BA, Brazil",
     "type": "safe-haven",
-    "lat": -12.9414,
-    "lng": -38.5054,
+    "lat": -12.9739,
+    "lng": -38.4989,
     "name": {
       "en": "Centro Municipal de Referência Loreta Valadares"
     },
@@ -81674,8 +81674,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3012",
     "regionDistrict": "Recife & Petrolina (Sertão), PE, Brazil",
     "type": "safe-haven",
-    "lat": -8.0336,
-    "lng": -34.863,
+    "lat": -8.0451,
+    "lng": -34.8795,
     "name": {
       "en": "Centro de Referência Clarice Lispector (Recife)"
     },
@@ -81702,8 +81702,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3012-u2",
     "regionDistrict": "Recife & Petrolina (Sertão), PE, Brazil",
     "type": "safe-haven",
-    "lat": -8.0176,
-    "lng": -34.881,
+    "lat": -8.0501,
+    "lng": -34.8745,
     "name": {
       "en": "Casa Abrigo Estadual de Pernambuco"
     },
@@ -81758,8 +81758,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3013",
     "regionDistrict": "Fortaleza & Juazeiro do Norte (Cariri), CE, Brazil",
     "type": "safe-haven",
-    "lat": -3.7179,
-    "lng": -38.5127,
+    "lat": -3.7294,
+    "lng": -38.5292,
     "name": {
       "en": "Casa da Mulher Brasileira do Ceará (Fortaleza)"
     },
@@ -81786,8 +81786,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3013-u2",
     "regionDistrict": "Fortaleza & Juazeiro do Norte (Cariri), CE, Brazil",
     "type": "safe-haven",
-    "lat": -3.7019,
-    "lng": -38.5307,
+    "lat": -3.7344,
+    "lng": -38.5242,
     "name": {
       "en": "Casa da Mulher Cearense"
     },
@@ -81842,8 +81842,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3014",
     "regionDistrict": "São Luís & Imperatriz, MA, Brazil",
     "type": "safe-haven",
-    "lat": -2.5167,
-    "lng": -44.2928,
+    "lat": -2.5282,
+    "lng": -44.3093,
     "name": {
       "en": "Casa da Mulher Brasileira de São Luís"
     },
@@ -81870,8 +81870,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3014-u2",
     "regionDistrict": "São Luís & Imperatriz, MA, Brazil",
     "type": "safe-haven",
-    "lat": -2.5007,
-    "lng": -44.3108,
+    "lat": -2.5332,
+    "lng": -44.3043,
     "name": {
       "en": "Casa da Mulher Maranhense"
     },
@@ -81926,8 +81926,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3015",
     "regionDistrict": "Natal & Mossoró, RN, Brazil",
     "type": "safe-haven",
-    "lat": -5.7653,
-    "lng": -35.1869,
+    "lat": -5.7768,
+    "lng": -35.2034,
     "name": {
       "en": "Casa Abrigo Clara Camarão"
     },
@@ -81954,8 +81954,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3015-u2",
     "regionDistrict": "Natal & Mossoró, RN, Brazil",
     "type": "safe-haven",
-    "lat": -5.7493,
-    "lng": -35.2049,
+    "lat": -5.7818,
+    "lng": -35.1984,
     "name": {
       "en": "Centro de Referência Elizabeth Nasser"
     },
@@ -82010,8 +82010,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3016-u2",
     "regionDistrict": "João Pessoa & Campina Grande, PB, Brazil",
     "type": "hospital",
-    "lat": -7.1035,
-    "lng": -34.863,
+    "lat": -7.117,
+    "lng": -34.8425,
     "name": {
       "en": "Instituto de Saúde Elpídio de Almeida (ISEA Campina Grande)"
     },
@@ -82038,8 +82038,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3016",
     "regionDistrict": "João Pessoa & Campina Grande, PB, Brazil",
     "type": "safe-haven",
-    "lat": -7.1055,
-    "lng": -34.831,
+    "lat": -7.117,
+    "lng": -34.8475,
     "name": {
       "en": "Casa Abrigo Aryane Thaís"
     },
@@ -82066,8 +82066,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3016-u2",
     "regionDistrict": "João Pessoa & Campina Grande, PB, Brazil",
     "type": "safe-haven",
-    "lat": -7.0895,
-    "lng": -34.849,
+    "lat": -7.122,
+    "lng": -34.8425,
     "name": {
       "en": "Centro Estadual de Referência da Mulher Fátima Lopes"
     },
@@ -82122,8 +82122,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3017",
     "regionDistrict": "Maceió & Arapiraca, AL, Brazil",
     "type": "safe-haven",
-    "lat": -9.6518,
-    "lng": -35.721,
+    "lat": -9.6633,
+    "lng": -35.7375,
     "name": {
       "en": "Casa da Mulher Alagoana (Maceió)"
     },
@@ -82150,8 +82150,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3017-u2",
     "regionDistrict": "Maceió & Arapiraca, AL, Brazil",
     "type": "safe-haven",
-    "lat": -9.6358,
-    "lng": -35.739,
+    "lat": -9.6683,
+    "lng": -35.7325,
     "name": {
       "en": "Casa Abrigo Viva Vida"
     },
@@ -82206,8 +82206,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3018",
     "regionDistrict": "Teresina, PI & Aracaju, SE, Brazil",
     "type": "safe-haven",
-    "lat": -5.0752,
-    "lng": -42.7879,
+    "lat": -5.0867,
+    "lng": -42.8044,
     "name": {
       "en": "Casa da Mulher Brasileira de Teresina"
     },
@@ -82234,8 +82234,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3018-u2",
     "regionDistrict": "Teresina, PI & Aracaju, SE, Brazil",
     "type": "safe-haven",
-    "lat": -5.0592,
-    "lng": -42.8059,
+    "lat": -5.0917,
+    "lng": -42.7994,
     "name": {
       "en": "Centro de Referência Maria Pureza"
     },
@@ -82290,8 +82290,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3019",
     "regionDistrict": "Manaus & Tabatinga (Alto Solimões Amazon), AM, Brazil",
     "type": "safe-haven",
-    "lat": -3.105,
-    "lng": -60.0077,
+    "lat": -3.1165,
+    "lng": -60.0242,
     "name": {
       "en": "Serviço de Apoio Emergencial à Mulher (SAPEM Manaus)"
     },
@@ -82318,8 +82318,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3019-u2",
     "regionDistrict": "Manaus & Tabatinga (Alto Solimões Amazon), AM, Brazil",
     "type": "safe-haven",
-    "lat": -3.089,
-    "lng": -60.0257,
+    "lat": -3.1215,
+    "lng": -60.0192,
     "name": {
       "en": "Casa Abrigo Antônia Nascimento Priante"
     },
@@ -82374,8 +82374,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3020",
     "regionDistrict": "Belém, Santarém & Marabá, PA, Brazil",
     "type": "safe-haven",
-    "lat": -1.4418,
-    "lng": -48.4762,
+    "lat": -1.4533,
+    "lng": -48.4927,
     "name": {
       "en": "Casa da Mulher Brasileira de Ananindeua/Belém"
     },
@@ -82402,8 +82402,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3020-u2",
     "regionDistrict": "Belém, Santarém & Marabá, PA, Brazil",
     "type": "safe-haven",
-    "lat": -1.4258,
-    "lng": -48.4942,
+    "lat": -1.4583,
+    "lng": -48.4877,
     "name": {
       "en": "Abrigo Estadual Emanuelle Rendeiro"
     },
@@ -82458,8 +82458,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3021",
     "regionDistrict": "Rio Branco, AC & Porto Velho, RO (Western Amazon), Brazil",
     "type": "safe-haven",
-    "lat": -9.9614,
-    "lng": -67.8109,
+    "lat": -9.9729,
+    "lng": -67.8274,
     "name": {
       "en": "Casa Rosa Mulher (Rio Branco)"
     },
@@ -82486,8 +82486,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3021-u2",
     "regionDistrict": "Rio Branco, AC & Porto Velho, RO (Western Amazon), Brazil",
     "type": "safe-haven",
-    "lat": -9.9454,
-    "lng": -67.8289,
+    "lat": -9.9779,
+    "lng": -67.8224,
     "name": {
       "en": "Casa Abrigo Maternidade / SEAS"
     },
@@ -82542,8 +82542,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3022",
     "regionDistrict": "Boa Vista, RR, Macapá, AP & Palmas, TO, Brazil",
     "type": "safe-haven",
-    "lat": 2.8375,
-    "lng": -60.6618,
+    "lat": 2.826,
+    "lng": -60.6783,
     "name": {
       "en": "Casa da Mulher Brasileira de Boa Vista (Roraima Refugee & Indigenous Hub)"
     },
@@ -82570,8 +82570,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3022-u2",
     "regionDistrict": "Boa Vista, RR, Macapá, AP & Palmas, TO, Brazil",
     "type": "safe-haven",
-    "lat": 2.8535,
-    "lng": -60.6798,
+    "lat": 2.821,
+    "lng": -60.6733,
     "name": {
       "en": "CAM Macapá"
     },
@@ -82626,8 +82626,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3023-u2",
     "regionDistrict": "Curitiba & Londrina, PR, Brazil",
     "type": "hospital",
-    "lat": -25.4124,
-    "lng": -49.2913,
+    "lat": -25.4259,
+    "lng": -49.2708,
     "name": {
       "en": "HU Londrina"
     },
@@ -82654,8 +82654,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3023",
     "regionDistrict": "Curitiba & Londrina, PR, Brazil",
     "type": "safe-haven",
-    "lat": -25.4144,
-    "lng": -49.2593,
+    "lat": -25.4259,
+    "lng": -49.2758,
     "name": {
       "en": "Casa da Mulher Brasileira de Curitiba"
     },
@@ -82682,8 +82682,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3023-u2",
     "regionDistrict": "Curitiba & Londrina, PR, Brazil",
     "type": "safe-haven",
-    "lat": -25.3984,
-    "lng": -49.2773,
+    "lat": -25.4309,
+    "lng": -49.2708,
     "name": {
       "en": "Casa Abrigo Canto de Dália"
     },
@@ -82738,8 +82738,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3024",
     "regionDistrict": "Porto Alegre, RS & Florianópolis, SC, Brazil",
     "type": "safe-haven",
-    "lat": -30.0206,
-    "lng": -51.2037,
+    "lat": -30.0321,
+    "lng": -51.2202,
     "name": {
       "en": "Casa Viva Maria (Abrigo Municipal Porto Alegre)"
     },
@@ -82766,8 +82766,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3024-u2",
     "regionDistrict": "Porto Alegre, RS & Florianópolis, SC, Brazil",
     "type": "safe-haven",
-    "lat": -30.0046,
-    "lng": -51.2217,
+    "lat": -30.0371,
+    "lng": -51.2152,
     "name": {
       "en": "Centro de Referência Márcia Calixto"
     },
@@ -82794,8 +82794,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3024-u3",
     "regionDistrict": "Porto Alegre, RS & Florianópolis, SC, Brazil",
     "type": "safe-haven",
-    "lat": -30.0376,
-    "lng": -51.1847,
+    "lat": -30.0381,
+    "lng": -51.2202,
     "name": {
       "en": "CREMV Florianópolis"
     },
@@ -82850,8 +82850,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3025",
     "regionDistrict": "Buenos Aires (CABA — Parque Patricios / Recoleta), Argentina",
     "type": "safe-haven",
-    "lat": -34.6205,
-    "lng": -58.3902,
+    "lat": -34.632,
+    "lng": -58.4067,
     "name": {
       "en": "Centro Integral de la Mujer (CIM CABA)"
     },
@@ -82878,8 +82878,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3025-u2",
     "regionDistrict": "Buenos Aires (CABA — Parque Patricios / Recoleta), Argentina",
     "type": "safe-haven",
-    "lat": -34.6045,
-    "lng": -58.4082,
+    "lat": -34.637,
+    "lng": -58.4017,
     "name": {
       "en": "Hogares de Protección Integral (Línea 144)"
     },
@@ -82934,8 +82934,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3026",
     "regionDistrict": "La Plata, Mar del Plata & Bahía Blanca (Provincia de Buenos Aires), Argentina",
     "type": "safe-haven",
-    "lat": -34.9065,
-    "lng": -57.9396,
+    "lat": -34.918,
+    "lng": -57.9561,
     "name": {
       "en": "Hogar de Protección Integral La Plata"
     },
@@ -82962,8 +82962,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3026-u2",
     "regionDistrict": "La Plata, Mar del Plata & Bahía Blanca (Provincia de Buenos Aires), Argentina",
     "type": "safe-haven",
-    "lat": -34.8905,
-    "lng": -57.9576,
+    "lat": -34.923,
+    "lng": -57.9511,
     "name": {
       "en": "Red Provincial de Hogares Abiertos PBA"
     },
@@ -83018,8 +83018,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3027",
     "regionDistrict": "Córdoba, Provincia de Córdoba, Argentina",
     "type": "safe-haven",
-    "lat": -31.4061,
-    "lng": -64.1748,
+    "lat": -31.4176,
+    "lng": -64.1913,
     "name": {
       "en": "Polo Integral de la Mujer en Situación de Violencia (Córdoba) & Refugio Metropolitano"
     },
@@ -83074,8 +83074,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3028",
     "regionDistrict": "Rosario & Santa Fe, Provincia de Santa Fe, Argentina",
     "type": "safe-haven",
-    "lat": -32.9302,
-    "lng": -60.6365,
+    "lat": -32.9417,
+    "lng": -60.653,
     "name": {
       "en": "Casa de Amparo Alicia Moreau de Justo (Rosario)"
     },
@@ -83130,8 +83130,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3029",
     "regionDistrict": "Mendoza & San Juan (Cuyo), Argentina",
     "type": "safe-haven",
-    "lat": -32.8755,
-    "lng": -68.8318,
+    "lat": -32.887,
+    "lng": -68.8483,
     "name": {
       "en": "Hogar de Protección Integral para Mujeres (Mendoza)"
     },
@@ -83158,8 +83158,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3029-u2",
     "regionDistrict": "Mendoza & San Juan (Cuyo), Argentina",
     "type": "safe-haven",
-    "lat": -32.8595,
-    "lng": -68.8498,
+    "lat": -32.892,
+    "lng": -68.8433,
     "name": {
       "en": "Dirección de Género y Diversidad"
     },
@@ -83214,8 +83214,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3030",
     "regionDistrict": "San Miguel de Tucumán & Santiago del Estero, Argentina",
     "type": "safe-haven",
-    "lat": -26.7943,
-    "lng": -65.2036,
+    "lat": -26.8058,
+    "lng": -65.2201,
     "name": {
       "en": "Observatorio de la Mujer Tucumán"
     },
@@ -83242,8 +83242,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3030-u2",
     "regionDistrict": "San Miguel de Tucumán & Santiago del Estero, Argentina",
     "type": "safe-haven",
-    "lat": -26.7783,
-    "lng": -65.2216,
+    "lat": -26.8108,
+    "lng": -65.2151,
     "name": {
       "en": "Hogar de Protección Integral Noroeste"
     },
@@ -83298,8 +83298,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3031",
     "regionDistrict": "Salta & San Salvador de Jujuy (Andean Northwest), Argentina",
     "type": "safe-haven",
-    "lat": -24.7681,
-    "lng": -65.4092,
+    "lat": -24.7796,
+    "lng": -65.4257,
     "name": {
       "en": "Polo Integral de las Mujeres Salta"
     },
@@ -83326,8 +83326,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3031-u2",
     "regionDistrict": "Salta & San Salvador de Jujuy (Andean Northwest), Argentina",
     "type": "safe-haven",
-    "lat": -24.7521,
-    "lng": -65.4272,
+    "lat": -24.7846,
+    "lng": -65.4207,
     "name": {
       "en": "Centro de Atención a Mujeres Víctimas de Violencia Jujuy"
     },
@@ -83382,8 +83382,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3032",
     "regionDistrict": "Resistencia (Chaco), Corrientes & Posadas (Misiones), Argentina",
     "type": "safe-haven",
-    "lat": -27.4374,
-    "lng": -58.9727,
+    "lat": -27.4489,
+    "lng": -58.9892,
     "name": {
       "en": "Centro de Atención a Víctimas de Violencia (Línea 137 Misiones / Chaco)"
     },
@@ -83410,8 +83410,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3032-u2",
     "regionDistrict": "Resistencia (Chaco), Corrientes & Posadas (Misiones), Argentina",
     "type": "safe-haven",
-    "lat": -27.4214,
-    "lng": -58.9907,
+    "lat": -27.4539,
+    "lng": -58.9842,
     "name": {
       "en": "Hogar de Tránsito"
     },
@@ -83466,8 +83466,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3033",
     "regionDistrict": "Neuquén & San Carlos de Bariloche (Northern Patagonia), Argentina",
     "type": "safe-haven",
-    "lat": -38.9376,
-    "lng": -68.0451,
+    "lat": -38.9491,
+    "lng": -68.0616,
     "name": {
       "en": "Refugio Madre Teresa / Casa Integral de las Mujeres Neuquén"
     },
@@ -83494,8 +83494,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3033-u2",
     "regionDistrict": "Neuquén & San Carlos de Bariloche (Northern Patagonia), Argentina",
     "type": "safe-haven",
-    "lat": -38.9216,
-    "lng": -68.0631,
+    "lat": -38.9541,
+    "lng": -68.0566,
     "name": {
       "en": "Línea 148"
     },
@@ -83550,8 +83550,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3034",
     "regionDistrict": "Comodoro Rivadavia, Río Gallegos & Ushuaia (Southern Patagonia / Tierra del Fuego), Argentina",
     "type": "safe-haven",
-    "lat": -54.7879,
-    "lng": -68.289,
+    "lat": -54.7994,
+    "lng": -68.3055,
     "name": {
       "en": "Hogar de Protección Integral Austral"
     },
@@ -83578,8 +83578,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3034-u2",
     "regionDistrict": "Comodoro Rivadavia, Río Gallegos & Ushuaia (Southern Patagonia / Tierra del Fuego), Argentina",
     "type": "safe-haven",
-    "lat": -54.7719,
-    "lng": -68.307,
+    "lat": -54.8044,
+    "lng": -68.3005,
     "name": {
       "en": "Secretaría de la Mujer de Tierra del Fuego"
     },
@@ -83634,8 +83634,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3035-u2",
     "regionDistrict": "Bogotá D.C., Colombia",
     "type": "hospital",
-    "lat": 4.5882,
-    "lng": -74.0845,
+    "lat": 4.631,
+    "lng": -74.0621,
     "name": {
       "en": "Subred Integrada Materno-Perinatal — Hospital Materno Infantil"
     },
@@ -83662,8 +83662,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3035",
     "regionDistrict": "Bogotá D.C., Colombia",
     "type": "safe-haven",
-    "lat": 4.6584,
-    "lng": -74.1052,
+    "lat": 4.631,
+    "lng": -74.0671,
     "name": {
       "en": "Casas Refugio de Bogotá (Secretaría Distrital de la Mujer)"
     },
@@ -83690,8 +83690,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3035-u2",
     "regionDistrict": "Bogotá D.C., Colombia",
     "type": "safe-haven",
-    "lat": 4.6397,
-    "lng": -74.0857,
+    "lat": 4.626,
+    "lng": -74.0621,
     "name": {
       "en": "Casa de Igualdad de Oportunidades para las Mujeres — Teusaquillo (Bogotá)"
     },
@@ -83746,8 +83746,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3036-u2",
     "regionDistrict": "Medellín & Antioquia, Colombia",
     "type": "hospital",
-    "lat": 6.2602,
-    "lng": -75.5992,
+    "lat": 6.2467,
+    "lng": -75.5787,
     "name": {
       "en": "Clínica Universitaria Bolivariana & Hospital San Vicente Fundación"
     },
@@ -83774,8 +83774,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3036",
     "regionDistrict": "Medellín & Antioquia, Colombia",
     "type": "safe-haven",
-    "lat": 6.2582,
-    "lng": -75.5672,
+    "lat": 6.2467,
+    "lng": -75.5837,
     "name": {
       "en": "Hogares de Acogida de Medellín"
     },
@@ -83802,8 +83802,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3036-u2",
     "regionDistrict": "Medellín & Antioquia, Colombia",
     "type": "safe-haven",
-    "lat": 6.2742,
-    "lng": -75.5852,
+    "lat": 6.2417,
+    "lng": -75.5787,
     "name": {
       "en": "Atención 24/7 Violencias Basadas en Género (123 Mujer)"
     },
@@ -83858,8 +83858,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3037",
     "regionDistrict": "Cali, Buenaventura & Valle del Cauca, Colombia",
     "type": "safe-haven",
-    "lat": 3.4656,
-    "lng": -76.518,
+    "lat": 3.4541,
+    "lng": -76.5345,
     "name": {
       "en": "Casa Matria Cali"
     },
@@ -83886,8 +83886,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3037-u2",
     "regionDistrict": "Cali, Buenaventura & Valle del Cauca, Colombia",
     "type": "safe-haven",
-    "lat": 3.4816,
-    "lng": -76.536,
+    "lat": 3.4491,
+    "lng": -76.5295,
     "name": {
       "en": "Hogar de Acogida para Mujeres del Pacífico"
     },
@@ -83942,8 +83942,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3038-u2",
     "regionDistrict": "Barranquilla, Cartagena & Santa Marta (Caribbean Coast), Colombia",
     "type": "hospital",
-    "lat": 10.9845,
-    "lng": -74.7993,
+    "lat": 10.971,
+    "lng": -74.7788,
     "name": {
       "en": "Clínica Maternidad Rafael Calvo (Cartagena) & Hospital Julio Méndez Barreneche"
     },
@@ -83970,8 +83970,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3038",
     "regionDistrict": "Barranquilla, Cartagena & Santa Marta (Caribbean Coast), Colombia",
     "type": "safe-haven",
-    "lat": 10.9825,
-    "lng": -74.7673,
+    "lat": 10.971,
+    "lng": -74.7838,
     "name": {
       "en": "Casa Refugio Distrital de Barranquilla"
     },
@@ -83998,8 +83998,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3038-u2",
     "regionDistrict": "Barranquilla, Cartagena & Santa Marta (Caribbean Coast), Colombia",
     "type": "safe-haven",
-    "lat": 10.9985,
-    "lng": -74.7853,
+    "lat": 10.966,
+    "lng": -74.7788,
     "name": {
       "en": "Fundación Casa de la Mujer del Caribe"
     },
@@ -84054,8 +84054,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3039",
     "regionDistrict": "Bucaramanga & Cúcuta (Santanderes / Border Hub), Colombia",
     "type": "safe-haven",
-    "lat": 7.1333,
-    "lng": -73.1087,
+    "lat": 7.1218,
+    "lng": -73.1252,
     "name": {
       "en": "Centro Integral de la Mujer Bucaramanga"
     },
@@ -84082,8 +84082,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3039-u2",
     "regionDistrict": "Bucaramanga & Cúcuta (Santanderes / Border Hub), Colombia",
     "type": "safe-haven",
-    "lat": 7.1493,
-    "lng": -73.1267,
+    "lat": 7.1168,
+    "lng": -73.1202,
     "name": {
       "en": "Casa de Acogida Fronteriza Cúcuta"
     },
@@ -84138,8 +84138,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3040",
     "regionDistrict": "Pereira, Manizales & Ibagué (Eje Cafetero / Tolima), Colombia",
     "type": "safe-haven",
-    "lat": 4.8273,
-    "lng": -75.6821,
+    "lat": 4.8158,
+    "lng": -75.6986,
     "name": {
       "en": "Casa de la Mujer Empoderada Risaralda"
     },
@@ -84166,8 +84166,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3040-u2",
     "regionDistrict": "Pereira, Manizales & Ibagué (Eje Cafetero / Tolima), Colombia",
     "type": "safe-haven",
-    "lat": 4.8433,
-    "lng": -75.7001,
+    "lat": 4.8108,
+    "lng": -75.6936,
     "name": {
       "en": "Red de Refugios Eje Cafetero"
     },
@@ -84222,8 +84222,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3041",
     "regionDistrict": "Pasto, Popayán & Tumaco (Southwest / Nariño & Cauca), Colombia",
     "type": "safe-haven",
-    "lat": 1.2276,
-    "lng": -77.2671,
+    "lat": 1.2161,
+    "lng": -77.2836,
     "name": {
       "en": "Casa de Acogida para Mujeres Sobrevivientes de Violencia (Nariño / Cauca)"
     },
@@ -84278,8 +84278,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3042",
     "regionDistrict": "Quibdó (Chocó) & Riohacha (La Guajira Indigenous Hub), Colombia",
     "type": "safe-haven",
-    "lat": 5.7087,
-    "lng": -76.6471,
+    "lat": 5.6972,
+    "lng": -76.6636,
     "name": {
       "en": "Casa de la Mujer Chocoana (Quibdó)"
     },
@@ -84306,8 +84306,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3042-u2",
     "regionDistrict": "Quibdó (Chocó) & Riohacha (La Guajira Indigenous Hub), Colombia",
     "type": "safe-haven",
-    "lat": 5.7247,
-    "lng": -76.6651,
+    "lat": 5.6922,
+    "lng": -76.6586,
     "name": {
       "en": "Centro de Protección Wayuu"
     },
@@ -84362,8 +84362,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3043",
     "regionDistrict": "Villavicencio, Yopal & Leticia (Llanos & Amazonas), Colombia",
     "type": "safe-haven",
-    "lat": -4.2013,
-    "lng": -69.9266,
+    "lat": -4.2128,
+    "lng": -69.9431,
     "name": {
       "en": "Casa Refugio Llanos Orientales"
     },
@@ -84390,8 +84390,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3043-u2",
     "regionDistrict": "Villavicencio, Yopal & Leticia (Llanos & Amazonas), Colombia",
     "type": "safe-haven",
-    "lat": -4.1853,
-    "lng": -69.9446,
+    "lat": -4.2178,
+    "lng": -69.9381,
     "name": {
       "en": "Centro de Atención a la Mujer Indígena Amazónica"
     },
@@ -84446,8 +84446,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3044",
     "regionDistrict": "Lima (Cercado / San Isidro / Jesús María), Peru",
     "type": "safe-haven",
-    "lat": -12.0406,
-    "lng": -77.0107,
+    "lat": -12.0521,
+    "lng": -77.0272,
     "name": {
       "en": "Centro Emergencia Mujer (CEM Lima 24 Horas)"
     },
@@ -84474,8 +84474,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3044-u2",
     "regionDistrict": "Lima (Cercado / San Isidro / Jesús María), Peru",
     "type": "safe-haven",
-    "lat": -12.0246,
-    "lng": -77.0287,
+    "lat": -12.0571,
+    "lng": -77.0222,
     "name": {
       "en": "Hogar de Refugio Temporal (MIMP)"
     },
@@ -84530,8 +84530,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3045",
     "regionDistrict": "Cusco & Sacred Valley (Andean Highlands), Peru",
     "type": "safe-haven",
-    "lat": -13.518,
-    "lng": -71.9535,
+    "lat": -13.5295,
+    "lng": -71.97,
     "name": {
       "en": "Centro Emergencia Mujer (CEM Cusco)"
     },
@@ -84558,8 +84558,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3045-u2",
     "regionDistrict": "Cusco & Sacred Valley (Andean Highlands), Peru",
     "type": "safe-haven",
-    "lat": -13.502,
-    "lng": -71.9715,
+    "lat": -13.5345,
+    "lng": -71.965,
     "name": {
       "en": "Casa de Acogida Mantay (Madres Adolescentes y Mujeres)"
     },
@@ -84614,8 +84614,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3046",
     "regionDistrict": "Arequipa & Tacna (Southern Peru), Peru",
     "type": "safe-haven",
-    "lat": -16.395,
-    "lng": -71.5235,
+    "lat": -16.4065,
+    "lng": -71.54,
     "name": {
       "en": "Centro Emergencia Mujer Arequipa"
     },
@@ -84642,8 +84642,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3046-u2",
     "regionDistrict": "Arequipa & Tacna (Southern Peru), Peru",
     "type": "safe-haven",
-    "lat": -16.379,
-    "lng": -71.5415,
+    "lat": -16.4115,
+    "lng": -71.535,
     "name": {
       "en": "Hogar de Refugio Temporal Sur"
     },
@@ -84698,8 +84698,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3047",
     "regionDistrict": "Trujillo, Chiclayo & Piura (Northern Coast), Peru",
     "type": "safe-haven",
-    "lat": -8.0976,
-    "lng": -79.0148,
+    "lat": -8.1091,
+    "lng": -79.0313,
     "name": {
       "en": "Centro Emergencia Mujer (CEM Trujillo / Piura)"
     },
@@ -84726,8 +84726,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3047-u2",
     "regionDistrict": "Trujillo, Chiclayo & Piura (Northern Coast), Peru",
     "type": "safe-haven",
-    "lat": -8.0816,
-    "lng": -79.0328,
+    "lat": -8.1141,
+    "lng": -79.0263,
     "name": {
       "en": "Casa de Refugio de la Mujer Norte"
     },
@@ -84782,8 +84782,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3048",
     "regionDistrict": "Iquitos (Loreto), Pucallpa (Ucayali) & Puerto Maldonado (Amazon Basin), Peru",
     "type": "safe-haven",
-    "lat": -3.7351,
-    "lng": -73.2398,
+    "lat": -3.7466,
+    "lng": -73.2563,
     "name": {
       "en": "CEM Iquitos / Pucallpa"
     },
@@ -84810,8 +84810,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3048-u2",
     "regionDistrict": "Iquitos (Loreto), Pucallpa (Ucayali) & Puerto Maldonado (Amazon Basin), Peru",
     "type": "safe-haven",
-    "lat": -3.7191,
-    "lng": -73.2578,
+    "lat": -3.7516,
+    "lng": -73.2513,
     "name": {
       "en": "Hogar de Refugio Temporal Amazónico para Mujeres Indígenas"
     },
@@ -84866,8 +84866,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3049",
     "regionDistrict": "Puno (Lake Titicaca), Ayacucho, Huancayo & Cajamarca (High Andes), Peru",
     "type": "safe-haven",
-    "lat": -15.8262,
-    "lng": -70.0079,
+    "lat": -15.8377,
+    "lng": -70.0244,
     "name": {
       "en": "CEM Puno / Ayacucho / Huancayo"
     },
@@ -84894,8 +84894,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3049-u2",
     "regionDistrict": "Puno (Lake Titicaca), Ayacucho, Huancayo & Cajamarca (High Andes), Peru",
     "type": "safe-haven",
-    "lat": -15.8102,
-    "lng": -70.0259,
+    "lat": -15.8427,
+    "lng": -70.0194,
     "name": {
       "en": "Red de Hogares de Refugio Temporal Andinos"
     },
@@ -84950,8 +84950,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3050",
     "regionDistrict": "Santiago (Independencia / Providencia / Puente Alto), Chile",
     "type": "safe-haven",
-    "lat": -33.4349,
-    "lng": -70.6553,
+    "lat": -33.4464,
+    "lng": -70.6718,
     "name": {
       "en": "Casas de Acogida SernamEG Región Metropolitana"
     },
@@ -84978,8 +84978,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3050-u2",
     "regionDistrict": "Santiago (Independencia / Providencia / Puente Alto), Chile",
     "type": "safe-haven",
-    "lat": -33.4189,
-    "lng": -70.6733,
+    "lat": -33.4514,
+    "lng": -70.6668,
     "name": {
       "en": "Centros de la Mujer Santiago"
     },
@@ -85034,8 +85034,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3051",
     "regionDistrict": "Valparaíso & Viña del Mar, Chile",
     "type": "safe-haven",
-    "lat": -33.0332,
-    "lng": -71.5987,
+    "lat": -33.0447,
+    "lng": -71.6152,
     "name": {
       "en": "Casa de Acogida SernamEG Valparaíso"
     },
@@ -85062,8 +85062,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3051-u2",
     "regionDistrict": "Valparaíso & Viña del Mar, Chile",
     "type": "safe-haven",
-    "lat": -33.0172,
-    "lng": -71.6167,
+    "lat": -33.0497,
+    "lng": -71.6102,
     "name": {
       "en": "Centro de Atención Reparatoria a Mujeres"
     },
@@ -85118,8 +85118,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3052",
     "regionDistrict": "Concepción, Talcahuano & Chillán (Biobío / Ñuble), Chile",
     "type": "safe-haven",
-    "lat": -36.8061,
-    "lng": -73.0304,
+    "lat": -36.8176,
+    "lng": -73.0469,
     "name": {
       "en": "Casa de Acogida SernamEG Biobío"
     },
@@ -85146,8 +85146,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3052-u2",
     "regionDistrict": "Concepción, Talcahuano & Chillán (Biobío / Ñuble), Chile",
     "type": "safe-haven",
-    "lat": -36.7901,
-    "lng": -73.0484,
+    "lat": -36.8226,
+    "lng": -73.0419,
     "name": {
       "en": "Centro de la Mujer Concepción"
     },
@@ -85202,8 +85202,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3053",
     "regionDistrict": "Antofagasta, Calama, Iquique & Arica (Atacama & Far North), Chile",
     "type": "safe-haven",
-    "lat": -23.6369,
-    "lng": -70.3835,
+    "lat": -23.6484,
+    "lng": -70.4,
     "name": {
       "en": "Casas de Acogida SernamEG Norte Grande (Arica / Iquique / Antofagasta)"
     },
@@ -85258,8 +85258,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3054",
     "regionDistrict": "La Serena, Rancagua & Talca (Central Chile), Chile",
     "type": "safe-haven",
-    "lat": -29.8887,
-    "lng": -71.2379,
+    "lat": -29.9002,
+    "lng": -71.2544,
     "name": {
       "en": "Casa de Acogida SernamEG Coquimbo / Maule"
     },
@@ -85286,8 +85286,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3054-u2",
     "regionDistrict": "La Serena, Rancagua & Talca (Central Chile), Chile",
     "type": "safe-haven",
-    "lat": -29.8727,
-    "lng": -71.2559,
+    "lat": -29.9052,
+    "lng": -71.2494,
     "name": {
       "en": "Centros de la Mujer"
     },
@@ -85342,8 +85342,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3055",
     "regionDistrict": "Temuco (Araucanía), Valdivia & Puerto Montt, Chile",
     "type": "safe-haven",
-    "lat": -38.7219,
-    "lng": -72.5764,
+    "lat": -38.7334,
+    "lng": -72.5929,
     "name": {
       "en": "Casas de Acogida SernamEG Araucanía / Los Lagos (Atención Intercultural Mapuche)"
     },
@@ -85398,8 +85398,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3056",
     "regionDistrict": "Coyhaique (Aysén) & Punta Arenas (Magallanes / Strait of Magellan), Chile",
     "type": "safe-haven",
-    "lat": -53.1498,
-    "lng": -70.9031,
+    "lat": -53.1613,
+    "lng": -70.9196,
     "name": {
       "en": "Casa de Acogida SernamEG Magallanes y Antártica Chilena (Punta Arenas)"
     },
@@ -85454,8 +85454,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3057",
     "regionDistrict": "Caracas (San Martín / Los Chaguaramos), Distrito Capital, Venezuela",
     "type": "safe-haven",
-    "lat": 10.502,
-    "lng": -66.9055,
+    "lat": 10.4905,
+    "lng": -66.922,
     "name": {
       "en": "Casas de Abrigo INAMUJER Caracas"
     },
@@ -85482,8 +85482,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3057-u2",
     "regionDistrict": "Caracas (San Martín / Los Chaguaramos), Distrito Capital, Venezuela",
     "type": "safe-haven",
-    "lat": 10.518,
-    "lng": -66.9235,
+    "lat": 10.4855,
+    "lng": -66.917,
     "name": {
       "en": "Centros de Atención y Formación Integral de la Mujer (CAFIM)"
     },
@@ -85538,8 +85538,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3058",
     "regionDistrict": "Maracaibo & Cabimas, Zulia, Venezuela",
     "type": "safe-haven",
-    "lat": 10.6806,
-    "lng": -71.5984,
+    "lat": 10.6691,
+    "lng": -71.6149,
     "name": {
       "en": "Casa de Abrigo para Mujeres en Situación de Violencia Zulia"
     },
@@ -85566,8 +85566,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3058-u2",
     "regionDistrict": "Maracaibo & Cabimas, Zulia, Venezuela",
     "type": "safe-haven",
-    "lat": 10.6966,
-    "lng": -71.6164,
+    "lat": 10.6641,
+    "lng": -71.6099,
     "name": {
       "en": "Instituto Regional de la Mujer"
     },
@@ -85622,8 +85622,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3059",
     "regionDistrict": "Valencia, Maracay & Barquisimeto, Venezuela",
     "type": "safe-haven",
-    "lat": 10.176,
-    "lng": -67.9937,
+    "lat": 10.1645,
+    "lng": -68.0102,
     "name": {
       "en": "Red de Casas de Abrigo y Protección a la Mujer (Carabobo / Aragua / Lara)"
     },
@@ -85678,8 +85678,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3060",
     "regionDistrict": "Mérida, San Cristóbal (Táchira) & Barinas (Andes & Western Llanos), Venezuela",
     "type": "safe-haven",
-    "lat": 8.6037,
-    "lng": -71.1421,
+    "lat": 8.5922,
+    "lng": -71.1586,
     "name": {
       "en": "Casa de Abrigo Andina para la Mujer"
     },
@@ -85706,8 +85706,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3060-u2",
     "regionDistrict": "Mérida, San Cristóbal (Táchira) & Barinas (Andes & Western Llanos), Venezuela",
     "type": "safe-haven",
-    "lat": 8.6197,
-    "lng": -71.1601,
+    "lat": 8.5872,
+    "lng": -71.1536,
     "name": {
       "en": "Defensoría de los Derechos de la Mujer"
     },
@@ -85762,8 +85762,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3061",
     "regionDistrict": "Ciudad Guayana, Ciudad Bolívar, Maturín & Puerto Ayacucho (Amazonas), Venezuela",
     "type": "safe-haven",
-    "lat": 8.3254,
-    "lng": -62.6976,
+    "lat": 8.3139,
+    "lng": -62.7141,
     "name": {
       "en": "Centro de Atención Integral a la Mujer de Guayana y Amazonas Indígena"
     },
@@ -85818,8 +85818,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3062",
     "regionDistrict": "Quito, Pichincha, Ecuador",
     "type": "safe-haven",
-    "lat": -0.1952,
-    "lng": -78.4841,
+    "lat": -0.2067,
+    "lng": -78.5006,
     "name": {
       "en": "Casa de Acogida Casa Matilde (Quito)"
     },
@@ -85846,8 +85846,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3062-u2",
     "regionDistrict": "Quito, Pichincha, Ecuador",
     "type": "safe-haven",
-    "lat": -0.1792,
-    "lng": -78.5021,
+    "lat": -0.2117,
+    "lng": -78.4956,
     "name": {
       "en": "Casa de Refugio Warmi"
     },
@@ -85874,8 +85874,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3062-u3",
     "regionDistrict": "Quito, Pichincha, Ecuador",
     "type": "safe-haven",
-    "lat": -0.2122,
-    "lng": -78.4651,
+    "lat": -0.2127,
+    "lng": -78.5006,
     "name": {
       "en": "Centros Violeta"
     },
@@ -85930,8 +85930,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3063",
     "regionDistrict": "Guayaquil, Guayas, Ecuador",
     "type": "safe-haven",
-    "lat": -2.1754,
-    "lng": -79.8751,
+    "lat": -2.1869,
+    "lng": -79.8916,
     "name": {
       "en": "Casa de Acogida Hogar de Nazareth (CEPAM Guayaquil)"
     },
@@ -85958,8 +85958,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3063-u2",
     "regionDistrict": "Guayaquil, Guayas, Ecuador",
     "type": "safe-haven",
-    "lat": -2.1594,
-    "lng": -79.8931,
+    "lat": -2.1919,
+    "lng": -79.8866,
     "name": {
       "en": "Centro Violeta Guayaquil"
     },
@@ -86014,8 +86014,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3064",
     "regionDistrict": "Cuenca (Azuay) & Loja (Southern Highlands), Ecuador",
     "type": "safe-haven",
-    "lat": -2.8861,
-    "lng": -78.9919,
+    "lat": -2.8976,
+    "lng": -79.0084,
     "name": {
       "en": "Casa de Acogida María Amor (Cuenca)"
     },
@@ -86042,8 +86042,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3064-u2",
     "regionDistrict": "Cuenca (Azuay) & Loja (Southern Highlands), Ecuador",
     "type": "safe-haven",
-    "lat": -2.8701,
-    "lng": -79.0099,
+    "lat": -2.9026,
+    "lng": -79.0034,
     "name": {
       "en": "Red Nacional de Casas de Acogida del Ecuador"
     },
@@ -86098,8 +86098,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3065",
     "regionDistrict": "Manta, Portoviejo (Manabí), Esmeraldas & Machala (El Oro), Ecuador",
     "type": "safe-haven",
-    "lat": -0.9537,
-    "lng": -80.6949,
+    "lat": -0.9652,
+    "lng": -80.7114,
     "name": {
       "en": "Casas de Acogida Manabí, Esmeraldas y El Oro (Frontera Sur)"
     },
@@ -86154,8 +86154,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3066",
     "regionDistrict": "Ambato, Riobamba & Ibarra (Central & Northern Andes), Ecuador",
     "type": "safe-haven",
-    "lat": -1.2351,
-    "lng": -78.6027,
+    "lat": -1.2466,
+    "lng": -78.6192,
     "name": {
       "en": "Casa de Acogida Pequeña María (Ambato)"
     },
@@ -86182,8 +86182,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3066-u2",
     "regionDistrict": "Ambato, Riobamba & Ibarra (Central & Northern Andes), Ecuador",
     "type": "safe-haven",
-    "lat": -1.2191,
-    "lng": -78.6207,
+    "lat": -1.2516,
+    "lng": -78.6142,
     "name": {
       "en": "Centro de Protección Intercultural Kichwa"
     },
@@ -86238,8 +86238,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3067",
     "regionDistrict": "Tena (Napo), Puyo (Pastaza), Macas & Lago Agrio (Ecuadorian Amazon), Ecuador",
     "type": "safe-haven",
-    "lat": -0.9798,
-    "lng": -77.7989,
+    "lat": -0.9913,
+    "lng": -77.8154,
     "name": {
       "en": "Casa de Acogida de las Mujeres Amazónicas (Lago Agrio / Puyo / Macas)"
     },
@@ -86294,8 +86294,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3068",
     "regionDistrict": "La Paz & El Alto, Bolivia",
     "type": "safe-haven",
-    "lat": -16.486,
-    "lng": -68.1053,
+    "lat": -16.4975,
+    "lng": -68.1218,
     "name": {
       "en": "Casa de Acogida y Refugio Temporal Municipal (La Paz / El Alto)"
     },
@@ -86322,8 +86322,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3068-u2",
     "regionDistrict": "La Paz & El Alto, Bolivia",
     "type": "safe-haven",
-    "lat": -16.47,
-    "lng": -68.1233,
+    "lat": -16.5025,
+    "lng": -68.1168,
     "name": {
       "en": "Servicios Legales Integrales Municipales (SLIM)"
     },
@@ -86378,8 +86378,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3069",
     "regionDistrict": "Santa Cruz de la Sierra, Bolivia",
     "type": "safe-haven",
-    "lat": -17.7693,
-    "lng": -63.1681,
+    "lat": -17.7808,
+    "lng": -63.1846,
     "name": {
       "en": "Casa de la Mujer Santa Cruz"
     },
@@ -86406,8 +86406,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3069-u2",
     "regionDistrict": "Santa Cruz de la Sierra, Bolivia",
     "type": "safe-haven",
-    "lat": -17.7533,
-    "lng": -63.1861,
+    "lat": -17.7858,
+    "lng": -63.1796,
     "name": {
       "en": "Casa de Acogida Temporal para Mujeres en Situación de Violencia"
     },
@@ -86462,8 +86462,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3070",
     "regionDistrict": "Cochabamba, Bolivia",
     "type": "safe-haven",
-    "lat": -17.3755,
-    "lng": -66.1428,
+    "lat": -17.387,
+    "lng": -66.1593,
     "name": {
       "en": "Casa de Acogida de la Mujer Cochabamba"
     },
@@ -86490,8 +86490,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3070-u2",
     "regionDistrict": "Cochabamba, Bolivia",
     "type": "safe-haven",
-    "lat": -17.3595,
-    "lng": -66.1608,
+    "lat": -17.392,
+    "lng": -66.1543,
     "name": {
       "en": "Oficina de la Mujer (SLIM)"
     },
@@ -86546,8 +86546,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3071",
     "regionDistrict": "Sucre (Chuquisaca), Potosí, Oruro & Tarija, Bolivia",
     "type": "safe-haven",
-    "lat": -19.0056,
-    "lng": -65.2479,
+    "lat": -19.0171,
+    "lng": -65.2644,
     "name": {
       "en": "Casas de Acogida y Refugio Temporal de Chuquisaca, Potosí, Oruro y Tarija"
     },
@@ -86602,8 +86602,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3072",
     "regionDistrict": "Trinidad (Beni), Riberalta & Cobija (Pando — Bolivian Amazon), Bolivia",
     "type": "safe-haven",
-    "lat": -14.8193,
-    "lng": -64.886,
+    "lat": -14.8308,
+    "lng": -64.9025,
     "name": {
       "en": "Casa de Acogida Amazónica para Mujeres de Beni y Pando"
     },
@@ -86658,8 +86658,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3073",
     "regionDistrict": "Asunción & Villa Elisa / San Lorenzo, Paraguay",
     "type": "safe-haven",
-    "lat": -25.2727,
-    "lng": -57.633,
+    "lat": -25.2842,
+    "lng": -57.6495,
     "name": {
       "en": "Centro Ciudad Mujer (Ñande Kerayvoty Renda — Villa Elisa)"
     },
@@ -86686,8 +86686,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3073-u2",
     "regionDistrict": "Asunción & Villa Elisa / San Lorenzo, Paraguay",
     "type": "safe-haven",
-    "lat": -25.2567,
-    "lng": -57.651,
+    "lat": -25.2892,
+    "lng": -57.6445,
     "name": {
       "en": "Casa para Mujeres en Situación de Violencia (Min. de la Mujer)"
     },
@@ -86742,8 +86742,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3074",
     "regionDistrict": "Ciudad del Este (Alto Paraná) & Encarnación (Itapúa), Paraguay",
     "type": "safe-haven",
-    "lat": -25.4957,
-    "lng": -54.5971,
+    "lat": -25.5072,
+    "lng": -54.6136,
     "name": {
       "en": "Centro Regional de las Mujeres de Ciudad del Este"
     },
@@ -86770,8 +86770,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3074-u2",
     "regionDistrict": "Ciudad del Este (Alto Paraná) & Encarnación (Itapúa), Paraguay",
     "type": "safe-haven",
-    "lat": -25.4797,
-    "lng": -54.6151,
+    "lat": -25.5122,
+    "lng": -54.6086,
     "name": {
       "en": "Albergue Temporal Alto Paraná / Itapúa"
     },
@@ -86826,8 +86826,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3075",
     "regionDistrict": "Pedro Juan Caballero, Concepción & Filadelfia (Gran Chaco), Paraguay",
     "type": "safe-haven",
-    "lat": -22.3318,
-    "lng": -60.0175,
+    "lat": -22.3433,
+    "lng": -60.034,
     "name": {
       "en": "Centro Regional de las Mujeres de Filadelfia (Gran Chaco)"
     },
@@ -86854,8 +86854,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3075-u2",
     "regionDistrict": "Pedro Juan Caballero, Concepción & Filadelfia (Gran Chaco), Paraguay",
     "type": "safe-haven",
-    "lat": -22.3158,
-    "lng": -60.0355,
+    "lat": -22.3483,
+    "lng": -60.029,
     "name": {
       "en": "Red de Protección Indígena y Rural"
     },
@@ -86910,8 +86910,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3076",
     "regionDistrict": "Montevideo, Uruguay",
     "type": "safe-haven",
-    "lat": -34.8832,
-    "lng": -56.1505,
+    "lat": -34.8947,
+    "lng": -56.167,
     "name": {
       "en": "Servicio de Atención a Mujeres en Situación de Violencia Basada en Género (Inmujeres)"
     },
@@ -86938,8 +86938,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3076-u2",
     "regionDistrict": "Montevideo, Uruguay",
     "type": "safe-haven",
-    "lat": -34.8672,
-    "lng": -56.1685,
+    "lat": -34.8997,
+    "lng": -56.162,
     "name": {
       "en": "Centros de Estadía Transitoria"
     },
@@ -86994,8 +86994,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3077",
     "regionDistrict": "Salto, Paysandú, Maldonado & Rivera (Interior Uruguay), Uruguay",
     "type": "safe-haven",
-    "lat": -31.3693,
-    "lng": -57.9527,
+    "lat": -31.3808,
+    "lng": -57.9692,
     "name": {
       "en": "Servicios Especializados en Violencia Basada en Género Inmujeres (Litoral, Norte y Este)"
     },
@@ -87050,8 +87050,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3078-u2",
     "regionDistrict": "Georgetown, Demerara-Mahaica, Guyana",
     "type": "hospital",
-    "lat": 6.8297,
-    "lng": -58.1804,
+    "lat": 6.8162,
+    "lng": -58.1599,
     "name": {
       "en": "Woodlands Hospital"
     },
@@ -87078,8 +87078,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3078",
     "regionDistrict": "Georgetown, Demerara-Mahaica, Guyana",
     "type": "safe-haven",
-    "lat": 6.8277,
-    "lng": -58.1484,
+    "lat": 6.8162,
+    "lng": -58.1649,
     "name": {
       "en": "Help & Shelter Guyana (Georgetown Crisis Shelter)"
     },
@@ -87106,8 +87106,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3078-u2",
     "regionDistrict": "Georgetown, Demerara-Mahaica, Guyana",
     "type": "safe-haven",
-    "lat": 6.8437,
-    "lng": -58.1664,
+    "lat": 6.8112,
+    "lng": -58.1599,
     "name": {
       "en": "Ministry of Human Services Hope & Justice Centre"
     },
@@ -87162,8 +87162,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3079-u2",
     "regionDistrict": "New Amsterdam (Berbice), Linden & Lethem (Rupununi Hinterland), Guyana",
     "type": "hospital",
-    "lat": 6.2639,
-    "lng": -57.5353,
+    "lat": 6.2504,
+    "lng": -57.5148,
     "name": {
       "en": "Linden Hospital Complex"
     },
@@ -87190,8 +87190,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3079-u3",
     "regionDistrict": "New Amsterdam (Berbice), Linden & Lethem (Rupununi Hinterland), Guyana",
     "type": "hospital",
-    "lat": 6.2309,
-    "lng": -57.4983,
+    "lat": 6.2504,
+    "lng": -57.5148,
     "name": {
       "en": "Suddie Regional Hospital"
     },
@@ -87218,8 +87218,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3079-u4",
     "regionDistrict": "New Amsterdam (Berbice), Linden & Lethem (Rupununi Hinterland), Guyana",
     "type": "hospital",
-    "lat": 6.2699,
-    "lng": -57.4963,
+    "lat": 6.2504,
+    "lng": -57.5148,
     "name": {
       "en": "Lethem Regional Hospital"
     },
@@ -87246,8 +87246,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3079",
     "regionDistrict": "New Amsterdam (Berbice), Linden & Lethem (Rupununi Hinterland), Guyana",
     "type": "safe-haven",
-    "lat": 6.2619,
-    "lng": -57.5033,
+    "lat": 6.2504,
+    "lng": -57.5198,
     "name": {
       "en": "Hope & Justice Centre Berbice (Region 6)"
     },
@@ -87274,8 +87274,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3079-u2",
     "regionDistrict": "New Amsterdam (Berbice), Linden & Lethem (Rupununi Hinterland), Guyana",
     "type": "safe-haven",
-    "lat": 6.2779,
-    "lng": -57.5213,
+    "lat": 6.2454,
+    "lng": -57.5148,
     "name": {
       "en": "Hinterland Women’s Safe Support Network"
     },
@@ -87330,8 +87330,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3080-u2",
     "regionDistrict": "Paramaribo & Nieuw Nickerie, Suriname",
     "type": "hospital",
-    "lat": 5.842,
-    "lng": -55.192,
+    "lat": 5.8285,
+    "lng": -55.1715,
     "name": {
       "en": "Academisch Ziekenhuis Paramaribo (AZP)"
     },
@@ -87358,8 +87358,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-hosp-3080-u3",
     "regionDistrict": "Paramaribo & Nieuw Nickerie, Suriname",
     "type": "hospital",
-    "lat": 5.809,
-    "lng": -55.155,
+    "lat": 5.8285,
+    "lng": -55.1715,
     "name": {
       "en": "Mungra Medisch Centrum"
     },
@@ -87386,8 +87386,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3080",
     "regionDistrict": "Paramaribo & Nieuw Nickerie, Suriname",
     "type": "safe-haven",
-    "lat": 5.84,
-    "lng": -55.16,
+    "lat": 5.8285,
+    "lng": -55.1765,
     "name": {
       "en": "Stichting Stop Geweld tegen Vrouwen (Foundation Stop Violence Against Women)"
     },
@@ -87414,8 +87414,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3080-u2",
     "regionDistrict": "Paramaribo & Nieuw Nickerie, Suriname",
     "type": "safe-haven",
-    "lat": 5.856,
-    "lng": -55.178,
+    "lat": 5.8235,
+    "lng": -55.1715,
     "name": {
       "en": "Crisisopvang Paramaribo"
     },
@@ -87470,8 +87470,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3081",
     "regionDistrict": "Cayenne, Kourou & Saint-Laurent-du-Maroni, French Guiana",
     "type": "safe-haven",
-    "lat": 4.9512,
-    "lng": -52.312,
+    "lat": 4.9397,
+    "lng": -52.3285,
     "name": {
       "en": "Solidarité Femmes Guyane — Maison d’Accueil et d’Hébergement d’Urgence (Cayenne & Saint-Laurent)"
     },
@@ -87526,8 +87526,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "sam-safe-3082",
     "regionDistrict": "Stanley, Falkland Islands (Islas Malvinas)",
     "type": "safe-haven",
-    "lat": -51.6798,
-    "lng": -57.843,
+    "lat": -51.6913,
+    "lng": -57.8595,
     "name": {
       "en": "Falkland Islands Safeguarding & Domestic Abuse Support Sanctuary (Stanley)"
     },
@@ -87582,8 +87582,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4001-u2",
     "regionDistrict": "Birmingham & Huntsville, Alabama, USA",
     "type": "hospital",
-    "lat": 33.5219,
-    "lng": -86.8211,
+    "lat": 33.5084,
+    "lng": -86.8006,
     "name": {
       "en": "Huntsville Hospital for Women & Children"
     },
@@ -87610,8 +87610,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4001",
     "regionDistrict": "Birmingham & Huntsville, Alabama, USA",
     "type": "safe-haven",
-    "lat": 33.5209,
-    "lng": -86.7881,
+    "lat": 33.5084,
+    "lng": -86.8056,
     "name": {
       "en": "YWCA Central Alabama Domestic Violence Safe Haven & Crisis Center (Birmingham)"
     },
@@ -87666,8 +87666,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4002-u2",
     "regionDistrict": "Selma & Rural Black Belt / Mobile, Alabama, USA",
     "type": "hospital",
-    "lat": 32.43,
-    "lng": -87.0391,
+    "lat": 32.4165,
+    "lng": -87.0186,
     "name": {
       "en": "Vaughan Regional Medical Center (Selma Black Belt)"
     },
@@ -87694,8 +87694,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4002",
     "regionDistrict": "Selma & Rural Black Belt / Mobile, Alabama, USA",
     "type": "safe-haven",
-    "lat": 32.429,
-    "lng": -87.0061,
+    "lat": 32.4165,
+    "lng": -87.0236,
     "name": {
       "en": "SABRA Sanctuary (Selma & Rural Black Belt Domestic Violence Shelter)"
     },
@@ -87722,8 +87722,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4002-u2",
     "regionDistrict": "Selma & Rural Black Belt / Mobile, Alabama, USA",
     "type": "safe-haven",
-    "lat": 32.445,
-    "lng": -87.0241,
+    "lat": 32.4115,
+    "lng": -87.0186,
     "name": {
       "en": "Penelope House"
     },
@@ -87778,8 +87778,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4003-u2",
     "regionDistrict": "Anchorage & Fairbanks, Alaska, USA",
     "type": "hospital",
-    "lat": 61.1978,
-    "lng": -149.8202,
+    "lat": 61.1843,
+    "lng": -149.7997,
     "name": {
       "en": "Providence Alaska Medical Center"
     },
@@ -87806,8 +87806,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4003-u3",
     "regionDistrict": "Anchorage & Fairbanks, Alaska, USA",
     "type": "hospital",
-    "lat": 61.1648,
-    "lng": -149.7832,
+    "lat": 61.1843,
+    "lng": -149.7997,
     "name": {
       "en": "Fairbanks Memorial Hospital"
     },
@@ -87834,8 +87834,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4003",
     "regionDistrict": "Anchorage & Fairbanks, Alaska, USA",
     "type": "safe-haven",
-    "lat": 61.1968,
-    "lng": -149.7872,
+    "lat": 61.1843,
+    "lng": -149.8047,
     "name": {
       "en": "Abused Women’s Aid in Crisis (AWAIC Anchorage Safe Shelter)"
     },
@@ -87862,8 +87862,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4003-u2",
     "regionDistrict": "Anchorage & Fairbanks, Alaska, USA",
     "type": "safe-haven",
-    "lat": 61.2128,
-    "lng": -149.8052,
+    "lat": 61.1793,
+    "lng": -149.7997,
     "name": {
       "en": "Interior Alaska Center for Non-Violent Living"
     },
@@ -87918,8 +87918,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4004-u2",
     "regionDistrict": "Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA",
     "type": "hospital",
-    "lat": 60.8082,
-    "lng": -161.7738,
+    "lat": 60.7947,
+    "lng": -161.7533,
     "name": {
       "en": "Norton Sound Regional Hospital (Nome)"
     },
@@ -87946,8 +87946,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4004-u3",
     "regionDistrict": "Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA",
     "type": "hospital",
-    "lat": 60.7752,
-    "lng": -161.7368,
+    "lat": 60.7947,
+    "lng": -161.7533,
     "name": {
       "en": "Bartlett Regional Hospital"
     },
@@ -87974,8 +87974,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4004",
     "regionDistrict": "Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA",
     "type": "safe-haven",
-    "lat": 60.8072,
-    "lng": -161.7408,
+    "lat": 60.7947,
+    "lng": -161.7583,
     "name": {
       "en": "Tundra Women’s Coalition (Bethel Rural Alaska Safe Shelter)"
     },
@@ -88002,8 +88002,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4004-u2",
     "regionDistrict": "Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA",
     "type": "safe-haven",
-    "lat": 60.8232,
-    "lng": -161.7588,
+    "lat": 60.7897,
+    "lng": -161.7533,
     "name": {
       "en": "AWARE Shelter"
     },
@@ -88058,8 +88058,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4005-u2",
     "regionDistrict": "Phoenix & Tucson, Arizona, USA",
     "type": "hospital",
-    "lat": 33.4644,
-    "lng": -112.092,
+    "lat": 33.4509,
+    "lng": -112.0715,
     "name": {
       "en": "Banner Tucson"
     },
@@ -88086,8 +88086,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4005",
     "regionDistrict": "Phoenix & Tucson, Arizona, USA",
     "type": "safe-haven",
-    "lat": 33.4634,
-    "lng": -112.059,
+    "lat": 33.4509,
+    "lng": -112.0765,
     "name": {
       "en": "Chicanos Por La Causa De Colores Domestic Violence Shelter"
     },
@@ -88114,8 +88114,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4005-u2",
     "regionDistrict": "Phoenix & Tucson, Arizona, USA",
     "type": "safe-haven",
-    "lat": 33.4794,
-    "lng": -112.077,
+    "lat": 33.4459,
+    "lng": -112.0715,
     "name": {
       "en": "UMOM Halle Women’s Center"
     },
@@ -88142,8 +88142,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4005-u3",
     "regionDistrict": "Phoenix & Tucson, Arizona, USA",
     "type": "safe-haven",
-    "lat": 33.4464,
-    "lng": -112.04,
+    "lat": 33.4449,
+    "lng": -112.0765,
     "name": {
       "en": "Emerge Center"
     },
@@ -88198,8 +88198,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4006-u2",
     "regionDistrict": "Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA",
     "type": "hospital",
-    "lat": 36.151,
-    "lng": -111.2579,
+    "lat": 36.1375,
+    "lng": -111.2374,
     "name": {
       "en": "Chinle Comprehensive Health Care Facility (IHS)"
     },
@@ -88226,8 +88226,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4006",
     "regionDistrict": "Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA",
     "type": "safe-haven",
-    "lat": 36.15,
-    "lng": -111.2249,
+    "lat": 36.1375,
+    "lng": -111.2424,
     "name": {
       "en": "Ama Doo Alchini Bighan (ADABI Navajo Nation Domestic Violence Shelter)"
     },
@@ -88254,8 +88254,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4006-u2",
     "regionDistrict": "Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA",
     "type": "safe-haven",
-    "lat": 36.166,
-    "lng": -111.2429,
+    "lat": 36.1325,
+    "lng": -111.2374,
     "name": {
       "en": "Hopi Tewa Women’s Coalition"
     },
@@ -88310,8 +88310,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4007-u2",
     "regionDistrict": "Little Rock & Fayetteville / Delta, Arkansas, USA",
     "type": "hospital",
-    "lat": 34.7648,
-    "lng": -92.3369,
+    "lat": 34.7513,
+    "lng": -92.3164,
     "name": {
       "en": "Baptist Health Medical Center Little Rock"
     },
@@ -88338,8 +88338,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4007",
     "regionDistrict": "Little Rock & Fayetteville / Delta, Arkansas, USA",
     "type": "safe-haven",
-    "lat": 34.7638,
-    "lng": -92.3039,
+    "lat": 34.7513,
+    "lng": -92.3214,
     "name": {
       "en": "Women & Children First: The Center Against Family Violence (Little Rock Safe Shelter)"
     },
@@ -88394,8 +88394,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4008-u2",
     "regionDistrict": "Los Angeles, California, USA",
     "type": "hospital",
-    "lat": 34.074,
-    "lng": -118.2245,
+    "lat": 34.0605,
+    "lng": -118.204,
     "name": {
       "en": "UCLA Mattel / Ronald Reagan Medical Center"
     },
@@ -88422,8 +88422,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4008",
     "regionDistrict": "Los Angeles, California, USA",
     "type": "safe-haven",
-    "lat": 34.073,
-    "lng": -118.1915,
+    "lat": 34.0605,
+    "lng": -118.209,
     "name": {
       "en": "Downtown Women’s Center LA"
     },
@@ -88450,8 +88450,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4008-u2",
     "regionDistrict": "Los Angeles, California, USA",
     "type": "safe-haven",
-    "lat": 34.089,
-    "lng": -118.2095,
+    "lat": 34.0555,
+    "lng": -118.204,
     "name": {
       "en": "East Los Angeles Women’s Center"
     },
@@ -88478,8 +88478,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4008-u3",
     "regionDistrict": "Los Angeles, California, USA",
     "type": "safe-haven",
-    "lat": 34.056,
-    "lng": -118.1725,
+    "lat": 34.0545,
+    "lng": -118.209,
     "name": {
       "en": "Peace Over Violence Safe Shelter Network"
     },
@@ -88534,8 +88534,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4009-u2",
     "regionDistrict": "San Francisco & Oakland (Bay Area), California, USA",
     "type": "hospital",
-    "lat": 37.7822,
-    "lng": -122.4085,
+    "lat": 37.7687,
+    "lng": -122.388,
     "name": {
       "en": "Highland Hospital"
     },
@@ -88562,8 +88562,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4009",
     "regionDistrict": "San Francisco & Oakland (Bay Area), California, USA",
     "type": "safe-haven",
-    "lat": 37.7812,
-    "lng": -122.3755,
+    "lat": 37.7687,
+    "lng": -122.393,
     "name": {
       "en": "La Casa de las Madres (San Francisco 24/7 Women’s Shelter)"
     },
@@ -88590,8 +88590,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4009-u2",
     "regionDistrict": "San Francisco & Oakland (Bay Area), California, USA",
     "type": "safe-haven",
-    "lat": 37.7972,
-    "lng": -122.3935,
+    "lat": 37.7637,
+    "lng": -122.388,
     "name": {
       "en": "Ruby’s Place / Building Futures (East Bay)"
     },
@@ -88646,8 +88646,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4010-u2",
     "regionDistrict": "San Diego & Imperial Valley, California, USA",
     "type": "hospital",
-    "lat": 32.8149,
-    "lng": -117.1691,
+    "lat": 32.8014,
+    "lng": -117.1486,
     "name": {
       "en": "UC San Diego Health Jacobs Medical Center"
     },
@@ -88674,8 +88674,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4010-u3",
     "regionDistrict": "San Diego & Imperial Valley, California, USA",
     "type": "hospital",
-    "lat": 32.7819,
-    "lng": -117.1321,
+    "lat": 32.8014,
+    "lng": -117.1486,
     "name": {
       "en": "El Centro Regional Medical Center"
     },
@@ -88702,8 +88702,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4010",
     "regionDistrict": "San Diego & Imperial Valley, California, USA",
     "type": "safe-haven",
-    "lat": 32.8139,
-    "lng": -117.1361,
+    "lat": 32.8014,
+    "lng": -117.1536,
     "name": {
       "en": "YWCA San Diego Becky’s House Domestic Violence Shelter & Center for Community Solutions"
     },
@@ -88758,8 +88758,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4011-u2",
     "regionDistrict": "Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA",
     "type": "hospital",
-    "lat": 36.7628,
-    "lng": -119.7906,
+    "lat": 36.7493,
+    "lng": -119.7701,
     "name": {
       "en": "Kern Medical"
     },
@@ -88786,8 +88786,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4011",
     "regionDistrict": "Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA",
     "type": "safe-haven",
-    "lat": 36.7618,
-    "lng": -119.7576,
+    "lat": 36.7493,
+    "lng": -119.7751,
     "name": {
       "en": "Marjaree Mason Center (Fresno & Rural Central Valley Women’s Safe House)"
     },
@@ -88814,8 +88814,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4011-u2",
     "regionDistrict": "Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA",
     "type": "safe-haven",
-    "lat": 36.7778,
-    "lng": -119.7756,
+    "lat": 36.7443,
+    "lng": -119.7701,
     "name": {
       "en": "Alliance Against Family Violence"
     },
@@ -88870,8 +88870,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4012-u2",
     "regionDistrict": "Denver & Aurora, Colorado, USA",
     "type": "hospital",
-    "lat": 39.7619,
-    "lng": -104.856,
+    "lat": 39.7484,
+    "lng": -104.8355,
     "name": {
       "en": "Saint Joseph Hospital"
     },
@@ -88898,8 +88898,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4012",
     "regionDistrict": "Denver & Aurora, Colorado, USA",
     "type": "safe-haven",
-    "lat": 39.7609,
-    "lng": -104.823,
+    "lat": 39.7484,
+    "lng": -104.8405,
     "name": {
       "en": "SafeHouse Denver, The Delores Project & Family Tree Karlis Family Center"
     },
@@ -88954,8 +88954,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4013-u2",
     "regionDistrict": "New Haven & Hartford, Connecticut, USA",
     "type": "hospital",
-    "lat": 41.3201,
-    "lng": -72.9535,
+    "lat": 41.3066,
+    "lng": -72.933,
     "name": {
       "en": "Hartford Hospital Women’s Health Services"
     },
@@ -88982,8 +88982,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4013",
     "regionDistrict": "New Haven & Hartford, Connecticut, USA",
     "type": "safe-haven",
-    "lat": 41.3191,
-    "lng": -72.9205,
+    "lat": 41.3066,
+    "lng": -72.938,
     "name": {
       "en": "Umbrella Center for Domestic Violence Services (New Haven)"
     },
@@ -89010,8 +89010,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4013-u2",
     "regionDistrict": "New Haven & Hartford, Connecticut, USA",
     "type": "safe-haven",
-    "lat": 41.3351,
-    "lng": -72.9385,
+    "lat": 41.3016,
+    "lng": -72.933,
     "name": {
       "en": "Interval House"
     },
@@ -89066,8 +89066,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4014",
     "regionDistrict": "Wilmington & Newark, Delaware, USA",
     "type": "safe-haven",
-    "lat": 39.6987,
-    "lng": -75.6532,
+    "lat": 39.6862,
+    "lng": -75.6707,
     "name": {
       "en": "YWCA Delaware Home-Life Management Center & CHILD Inc. Domestic Violence Shelter"
     },
@@ -89122,8 +89122,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4015-u2",
     "regionDistrict": "Washington, District of Columbia (D.C.), USA",
     "type": "hospital",
-    "lat": 38.9456,
-    "lng": -77.0325,
+    "lat": 38.9321,
+    "lng": -77.012,
     "name": {
       "en": "George Washington University Hospital"
     },
@@ -89150,8 +89150,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4015-u3",
     "regionDistrict": "Washington, District of Columbia (D.C.), USA",
     "type": "hospital",
-    "lat": 38.9126,
-    "lng": -76.9955,
+    "lat": 38.9321,
+    "lng": -77.012,
     "name": {
       "en": "Howard University Hospital"
     },
@@ -89178,8 +89178,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4015",
     "regionDistrict": "Washington, District of Columbia (D.C.), USA",
     "type": "safe-haven",
-    "lat": 38.9446,
-    "lng": -76.9995,
+    "lat": 38.9321,
+    "lng": -77.017,
     "name": {
       "en": "House of Ruth (Washington D.C.)"
     },
@@ -89206,8 +89206,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4015-u2",
     "regionDistrict": "Washington, District of Columbia (D.C.), USA",
     "type": "safe-haven",
-    "lat": 38.9606,
-    "lng": -77.0175,
+    "lat": 38.9271,
+    "lng": -77.012,
     "name": {
       "en": "My Sister’s Place"
     },
@@ -89234,8 +89234,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4015-u3",
     "regionDistrict": "Washington, District of Columbia (D.C.), USA",
     "type": "safe-haven",
-    "lat": 38.9276,
-    "lng": -76.9805,
+    "lat": 38.9261,
+    "lng": -77.017,
     "name": {
       "en": "Calvary Women’s Services"
     },
@@ -89290,8 +89290,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4016-u2",
     "regionDistrict": "Orlando & Tampa, Florida, USA",
     "type": "hospital",
-    "lat": 28.5396,
-    "lng": -81.3958,
+    "lat": 28.5261,
+    "lng": -81.3753,
     "name": {
       "en": "Tampa General Hospital Women’s Institute"
     },
@@ -89318,8 +89318,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4016",
     "regionDistrict": "Orlando & Tampa, Florida, USA",
     "type": "safe-haven",
-    "lat": 28.5386,
-    "lng": -81.3628,
+    "lat": 28.5261,
+    "lng": -81.3803,
     "name": {
       "en": "Harbor House of Central Florida (Orlando)"
     },
@@ -89346,8 +89346,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4016-u2",
     "regionDistrict": "Orlando & Tampa, Florida, USA",
     "type": "safe-haven",
-    "lat": 28.5546,
-    "lng": -81.3808,
+    "lat": 28.5211,
+    "lng": -81.3753,
     "name": {
       "en": "The Spring of Tampa Bay Domestic Violence Shelter"
     },
@@ -89402,8 +89402,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4017-u2",
     "regionDistrict": "Miami & Fort Lauderdale, Florida, USA",
     "type": "hospital",
-    "lat": 25.8084,
-    "lng": -80.2296,
+    "lat": 25.7949,
+    "lng": -80.2091,
     "name": {
       "en": "Baptist Hospital of Miami"
     },
@@ -89430,8 +89430,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4017",
     "regionDistrict": "Miami & Fort Lauderdale, Florida, USA",
     "type": "safe-haven",
-    "lat": 25.8074,
-    "lng": -80.1966,
+    "lat": 25.7949,
+    "lng": -80.2141,
     "name": {
       "en": "Lotus House Women’s Shelter (Miami — Largest US Women’s Shelter) & Women In Distress of Broward County"
     },
@@ -89486,8 +89486,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4018-u2",
     "regionDistrict": "Jacksonville & Tallahassee / Panhandle, Florida, USA",
     "type": "hospital",
-    "lat": 30.365,
-    "lng": -81.6811,
+    "lat": 30.3515,
+    "lng": -81.6606,
     "name": {
       "en": "Tallahassee Memorial HealthCare Alexander D. Brickler Women’s Pavilion"
     },
@@ -89514,8 +89514,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4018",
     "regionDistrict": "Jacksonville & Tallahassee / Panhandle, Florida, USA",
     "type": "safe-haven",
-    "lat": 30.364,
-    "lng": -81.6481,
+    "lat": 30.3515,
+    "lng": -81.6656,
     "name": {
       "en": "Hubbard House (Jacksonville Domestic Violence Shelter) & Refuge House of the Big Bend (Tallahassee)"
     },
@@ -89570,8 +89570,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4019-u2",
     "regionDistrict": "Atlanta, Georgia, USA",
     "type": "hospital",
-    "lat": 33.7704,
-    "lng": -84.4001,
+    "lat": 33.7569,
+    "lng": -84.3796,
     "name": {
       "en": "Northside Hospital Atlanta Women’s Center"
     },
@@ -89598,8 +89598,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4019-u3",
     "regionDistrict": "Atlanta, Georgia, USA",
     "type": "hospital",
-    "lat": 33.7374,
-    "lng": -84.3631,
+    "lat": 33.7569,
+    "lng": -84.3796,
     "name": {
       "en": "Emory University Hospital Midtown"
     },
@@ -89626,8 +89626,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4019",
     "regionDistrict": "Atlanta, Georgia, USA",
     "type": "safe-haven",
-    "lat": 33.7694,
-    "lng": -84.3671,
+    "lat": 33.7569,
+    "lng": -84.3846,
     "name": {
       "en": "Partnership Against Domestic Violence (PADV Atlanta), Atlanta Day Shelter for Women & Children & Raksha"
     },
@@ -89682,8 +89682,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4020-u2",
     "regionDistrict": "Savannah, Augusta & Rural South Georgia, Georgia, USA",
     "type": "hospital",
-    "lat": 32.0475,
-    "lng": -81.1077,
+    "lat": 32.034,
+    "lng": -81.0872,
     "name": {
       "en": "Wellstar MCG Health"
     },
@@ -89710,8 +89710,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4020",
     "regionDistrict": "Savannah, Augusta & Rural South Georgia, Georgia, USA",
     "type": "safe-haven",
-    "lat": 32.0465,
-    "lng": -81.0747,
+    "lat": 32.034,
+    "lng": -81.0922,
     "name": {
       "en": "SAFE Shelter Center for Domestic Violence Services (Savannah)"
     },
@@ -89738,8 +89738,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4020-u2",
     "regionDistrict": "Savannah, Augusta & Rural South Georgia, Georgia, USA",
     "type": "safe-haven",
-    "lat": 32.0625,
-    "lng": -81.0927,
+    "lat": 32.029,
+    "lng": -81.0872,
     "name": {
       "en": "SafeHomes of Augusta"
     },
@@ -89794,8 +89794,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4021-u2",
     "regionDistrict": "Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA",
     "type": "hospital",
-    "lat": 21.3165,
-    "lng": -157.853,
+    "lat": 21.303,
+    "lng": -157.8325,
     "name": {
       "en": "Queen’s Medical Center"
     },
@@ -89822,8 +89822,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4021-u3",
     "regionDistrict": "Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA",
     "type": "hospital",
-    "lat": 21.2835,
-    "lng": -157.816,
+    "lat": 21.303,
+    "lng": -157.8325,
     "name": {
       "en": "Hilo Benioff Medical Center"
     },
@@ -89850,8 +89850,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4021",
     "regionDistrict": "Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA",
     "type": "safe-haven",
-    "lat": 21.3155,
-    "lng": -157.82,
+    "lat": 21.303,
+    "lng": -157.8375,
     "name": {
       "en": "Domestic Violence Action Center (Honolulu), Child & Family Service Oahu Shelter & Women Helping Women (Maui)"
     },
@@ -89906,8 +89906,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4022-u2",
     "regionDistrict": "Boise & Pocatello / Coeur d’Alene, Idaho, USA",
     "type": "hospital",
-    "lat": 43.6168,
-    "lng": -116.2139,
+    "lat": 43.6033,
+    "lng": -116.1934,
     "name": {
       "en": "Saint Alphonsus Regional Medical Center"
     },
@@ -89934,8 +89934,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4022",
     "regionDistrict": "Boise & Pocatello / Coeur d’Alene, Idaho, USA",
     "type": "safe-haven",
-    "lat": 43.6158,
-    "lng": -116.1809,
+    "lat": 43.6033,
+    "lng": -116.1984,
     "name": {
       "en": "Women’s and Children’s Alliance (WCA Boise Safe Shelter)"
     },
@@ -89962,8 +89962,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4022-u2",
     "regionDistrict": "Boise & Pocatello / Coeur d’Alene, Idaho, USA",
     "type": "safe-haven",
-    "lat": 43.6318,
-    "lng": -116.1989,
+    "lat": 43.5983,
+    "lng": -116.1934,
     "name": {
       "en": "Faces of Hope Victim Center"
     },
@@ -90018,8 +90018,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4023-u2",
     "regionDistrict": "Chicago, Illinois, USA",
     "type": "hospital",
-    "lat": 41.9125,
-    "lng": -87.6396,
+    "lat": 41.899,
+    "lng": -87.6191,
     "name": {
       "en": "Rush University Medical Center, UChicago Medicine"
     },
@@ -90046,8 +90046,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4023-u3",
     "regionDistrict": "Chicago, Illinois, USA",
     "type": "hospital",
-    "lat": 41.8795,
-    "lng": -87.6026,
+    "lat": 41.899,
+    "lng": -87.6191,
     "name": {
       "en": "Stroger Hospital of Cook County"
     },
@@ -90074,8 +90074,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4023",
     "regionDistrict": "Chicago, Illinois, USA",
     "type": "safe-haven",
-    "lat": 41.9115,
-    "lng": -87.6066,
+    "lat": 41.899,
+    "lng": -87.6241,
     "name": {
       "en": "House of the Good Shepherd, Sarah’s Inn, Apna Ghar"
     },
@@ -90102,8 +90102,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4023-u2",
     "regionDistrict": "Chicago, Illinois, USA",
     "type": "safe-haven",
-    "lat": 41.9275,
-    "lng": -87.6246,
+    "lat": 41.894,
+    "lng": -87.6191,
     "name": {
       "en": "Connections for Abused Women and their Children (CAWC)"
     },
@@ -90158,8 +90158,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4024-u2",
     "regionDistrict": "Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA",
     "type": "hospital",
-    "lat": 39.8218,
-    "lng": -89.6655,
+    "lat": 39.8083,
+    "lng": -89.645,
     "name": {
       "en": "OSF Saint Francis Medical Center (Peoria)"
     },
@@ -90186,8 +90186,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4024-u3",
     "regionDistrict": "Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA",
     "type": "hospital",
-    "lat": 39.7888,
-    "lng": -89.6285,
+    "lat": 39.8083,
+    "lng": -89.645,
     "name": {
       "en": "Memorial Hospital of Carbondale"
     },
@@ -90214,8 +90214,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4024",
     "regionDistrict": "Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA",
     "type": "safe-haven",
-    "lat": 39.8208,
-    "lng": -89.6325,
+    "lat": 39.8083,
+    "lng": -89.65,
     "name": {
       "en": "Sojourn Shelter and Services (Springfield)"
     },
@@ -90242,8 +90242,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4024-u2",
     "regionDistrict": "Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA",
     "type": "safe-haven",
-    "lat": 39.8368,
-    "lng": -89.6505,
+    "lat": 39.8033,
+    "lng": -89.645,
     "name": {
       "en": "The Women’s Center"
     },
@@ -90298,8 +90298,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4025-u2",
     "regionDistrict": "Indianapolis & Fort Wayne, Indiana, USA",
     "type": "hospital",
-    "lat": 39.7927,
-    "lng": -86.1933,
+    "lat": 39.7792,
+    "lng": -86.1728,
     "name": {
       "en": "Riley Maternity Tower (Indianapolis), Eskenazi Health"
     },
@@ -90326,8 +90326,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4025-u3",
     "regionDistrict": "Indianapolis & Fort Wayne, Indiana, USA",
     "type": "hospital",
-    "lat": 39.7597,
-    "lng": -86.1563,
+    "lat": 39.7792,
+    "lng": -86.1728,
     "name": {
       "en": "Parkview Women’s & Children’s Hospital"
     },
@@ -90354,8 +90354,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4025",
     "regionDistrict": "Indianapolis & Fort Wayne, Indiana, USA",
     "type": "safe-haven",
-    "lat": 39.7917,
-    "lng": -86.1603,
+    "lat": 39.7792,
+    "lng": -86.1778,
     "name": {
       "en": "Julian Center (Indianapolis Domestic Violence Shelter)"
     },
@@ -90382,8 +90382,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4025-u2",
     "regionDistrict": "Indianapolis & Fort Wayne, Indiana, USA",
     "type": "safe-haven",
-    "lat": 39.8077,
-    "lng": -86.1783,
+    "lat": 39.7742,
+    "lng": -86.1728,
     "name": {
       "en": "Coburn Place Safe Haven"
     },
@@ -90438,8 +90438,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4026-u2",
     "regionDistrict": "Iowa City & Des Moines, Iowa, USA",
     "type": "hospital",
-    "lat": 41.6786,
-    "lng": -91.5669,
+    "lat": 41.6651,
+    "lng": -91.5464,
     "name": {
       "en": "MercyOne Des Moines Birth Center"
     },
@@ -90466,8 +90466,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4026",
     "regionDistrict": "Iowa City & Des Moines, Iowa, USA",
     "type": "safe-haven",
-    "lat": 41.6776,
-    "lng": -91.5339,
+    "lat": 41.6651,
+    "lng": -91.5514,
     "name": {
       "en": "Domestic Violence Intervention Program (DVIP Iowa City) & Children & Families of Iowa Domestic Violence Services"
     },
@@ -90522,8 +90522,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4027-u2",
     "regionDistrict": "Wichita & Kansas City, Kansas, USA",
     "type": "hospital",
-    "lat": 37.7139,
-    "lng": -97.3093,
+    "lat": 37.7004,
+    "lng": -97.2888,
     "name": {
       "en": "The University of Kansas Hospital (Marc A. Asher Comprehensive Center)"
     },
@@ -90550,8 +90550,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4027",
     "regionDistrict": "Wichita & Kansas City, Kansas, USA",
     "type": "safe-haven",
-    "lat": 37.7129,
-    "lng": -97.2763,
+    "lat": 37.7004,
+    "lng": -97.2938,
     "name": {
       "en": "YWCA Wichita Women’s Crisis Center"
     },
@@ -90578,8 +90578,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4027-u2",
     "regionDistrict": "Wichita & Kansas City, Kansas, USA",
     "type": "safe-haven",
-    "lat": 37.7289,
-    "lng": -97.2943,
+    "lat": 37.6954,
+    "lng": -97.2888,
     "name": {
       "en": "Harbor House (Catholic Charities Wichita)"
     },
@@ -90634,8 +90634,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4028-u2",
     "regionDistrict": "Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA",
     "type": "hospital",
-    "lat": 38.2644,
-    "lng": -85.7649,
+    "lat": 38.2509,
+    "lng": -85.7444,
     "name": {
       "en": "UK Albert B. Chandler Hospital (Lexington)"
     },
@@ -90662,8 +90662,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4028-u3",
     "regionDistrict": "Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA",
     "type": "hospital",
-    "lat": 38.2314,
-    "lng": -85.7279,
+    "lat": 38.2509,
+    "lng": -85.7444,
     "name": {
       "en": "Pikeville Medical Center (Eastern KY Appalachia)"
     },
@@ -90690,8 +90690,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4028",
     "regionDistrict": "Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA",
     "type": "safe-haven",
-    "lat": 38.2634,
-    "lng": -85.7319,
+    "lat": 38.2509,
+    "lng": -85.7494,
     "name": {
       "en": "The Center for Women and Families (Louisville), Greenhouse17 (Lexington)"
     },
@@ -90718,8 +90718,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4028-u2",
     "regionDistrict": "Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA",
     "type": "safe-haven",
-    "lat": 38.2794,
-    "lng": -85.7499,
+    "lat": 38.2459,
+    "lng": -85.7444,
     "name": {
       "en": "LKLP Safe House (Hazard Appalachia)"
     },
@@ -90774,8 +90774,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4029",
     "regionDistrict": "Baton Rouge & New Orleans, Louisiana, USA",
     "type": "safe-haven",
-    "lat": 30.4202,
-    "lng": -91.03,
+    "lat": 30.4077,
+    "lng": -91.0475,
     "name": {
       "en": "Iris Domestic Violence Center (Baton Rouge)"
     },
@@ -90802,8 +90802,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4029-u2",
     "regionDistrict": "Baton Rouge & New Orleans, Louisiana, USA",
     "type": "safe-haven",
-    "lat": 30.4362,
-    "lng": -91.048,
+    "lat": 30.4027,
+    "lng": -91.0425,
     "name": {
       "en": "New Orleans Women & Children’s Shelter / Metro Centers for Community Advocacy"
     },
@@ -90858,8 +90858,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4030-u2",
     "regionDistrict": "Shreveport, Lafayette & Monroe, Louisiana, USA",
     "type": "hospital",
-    "lat": 32.498,
-    "lng": -93.7712,
+    "lat": 32.4845,
+    "lng": -93.7507,
     "name": {
       "en": "Lafayette General Women’s Center"
     },
@@ -90886,8 +90886,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4030",
     "regionDistrict": "Shreveport, Lafayette & Monroe, Louisiana, USA",
     "type": "safe-haven",
-    "lat": 32.497,
-    "lng": -93.7382,
+    "lat": 32.4845,
+    "lng": -93.7557,
     "name": {
       "en": "Providence House (Shreveport)"
     },
@@ -90914,8 +90914,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4030-u2",
     "regionDistrict": "Shreveport, Lafayette & Monroe, Louisiana, USA",
     "type": "safe-haven",
-    "lat": 32.513,
-    "lng": -93.7562,
+    "lat": 32.4795,
+    "lng": -93.7507,
     "name": {
       "en": "Faith House of Acadiana"
     },
@@ -90970,8 +90970,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4031-u2",
     "regionDistrict": "Portland, Bangor & Aroostook County, Maine, USA",
     "type": "hospital",
-    "lat": 43.6696,
-    "lng": -70.2938,
+    "lat": 43.6561,
+    "lng": -70.2733,
     "name": {
       "en": "Northern Light Eastern Maine Medical Center (Bangor)"
     },
@@ -90998,8 +90998,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4031-u3",
     "regionDistrict": "Portland, Bangor & Aroostook County, Maine, USA",
     "type": "hospital",
-    "lat": 43.6366,
-    "lng": -70.2568,
+    "lat": 43.6561,
+    "lng": -70.2733,
     "name": {
       "en": "Cary Medical Center (Caribou)"
     },
@@ -91026,8 +91026,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4031",
     "regionDistrict": "Portland, Bangor & Aroostook County, Maine, USA",
     "type": "safe-haven",
-    "lat": 43.6686,
-    "lng": -70.2608,
+    "lat": 43.6561,
+    "lng": -70.2783,
     "name": {
       "en": "Through These Doors (Portland Domestic Violence Resource Center), Partners for Peace (Bangor)"
     },
@@ -91054,8 +91054,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4031-u2",
     "regionDistrict": "Portland, Bangor & Aroostook County, Maine, USA",
     "type": "safe-haven",
-    "lat": 43.6846,
-    "lng": -70.2788,
+    "lat": 43.6511,
+    "lng": -70.2733,
     "name": {
       "en": "Hope and Justice Project"
     },
@@ -91110,8 +91110,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4032-u2",
     "regionDistrict": "Baltimore & Bethesda, Maryland, USA",
     "type": "hospital",
-    "lat": 39.3134,
-    "lng": -76.6104,
+    "lat": 39.2999,
+    "lng": -76.5899,
     "name": {
       "en": "University of Maryland Medical Center"
     },
@@ -91138,8 +91138,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4032-u3",
     "regionDistrict": "Baltimore & Bethesda, Maryland, USA",
     "type": "hospital",
-    "lat": 39.2804,
-    "lng": -76.5734,
+    "lat": 39.2999,
+    "lng": -76.5899,
     "name": {
       "en": "Mercy Medical Center (The Weinberg Center for Women’s Health)"
     },
@@ -91166,8 +91166,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4032",
     "regionDistrict": "Baltimore & Bethesda, Maryland, USA",
     "type": "safe-haven",
-    "lat": 39.3124,
-    "lng": -76.5774,
+    "lat": 39.2999,
+    "lng": -76.5949,
     "name": {
       "en": "House of Ruth Maryland (Baltimore 24/7 Safe Shelter)"
     },
@@ -91194,8 +91194,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4032-u2",
     "regionDistrict": "Baltimore & Bethesda, Maryland, USA",
     "type": "safe-haven",
-    "lat": 39.3284,
-    "lng": -76.5954,
+    "lat": 39.2949,
+    "lng": -76.5899,
     "name": {
       "en": "TurnAround Inc."
     },
@@ -91250,8 +91250,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4033-u2",
     "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
     "type": "hospital",
-    "lat": 42.352,
-    "lng": -71.125,
+    "lat": 42.3385,
+    "lng": -71.1045,
     "name": {
       "en": "Massachusetts General Hospital, Beth Israel Deaconess"
     },
@@ -91278,8 +91278,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4033-u3",
     "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
     "type": "hospital",
-    "lat": 42.319,
-    "lng": -71.088,
+    "lat": 42.3385,
+    "lng": -71.1045,
     "name": {
       "en": "UMass Memorial Medical Center"
     },
@@ -91306,8 +91306,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4033",
     "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
     "type": "safe-haven",
-    "lat": 42.351,
-    "lng": -71.092,
+    "lat": 42.3385,
+    "lng": -71.1095,
     "name": {
       "en": "Casa Myrna (Boston Domestic Violence Shelters)"
     },
@@ -91334,8 +91334,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4033-u2",
     "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
     "type": "safe-haven",
-    "lat": 42.367,
-    "lng": -71.11,
+    "lat": 42.3335,
+    "lng": -71.1045,
     "name": {
       "en": "Rosie’s Place (First Women’s Sanctuary in the US)"
     },
@@ -91362,8 +91362,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4033-u3",
     "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
     "type": "safe-haven",
-    "lat": 42.334,
-    "lng": -71.073,
+    "lat": 42.3325,
+    "lng": -71.1095,
     "name": {
       "en": "YWCA Central Massachusetts"
     },
@@ -91418,8 +91418,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4034-u2",
     "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
     "type": "hospital",
-    "lat": 42.2985,
-    "lng": -83.7447,
+    "lat": 42.285,
+    "lng": -83.7242,
     "name": {
       "en": "Hutzel Women’s Hospital / DMC (Detroit)"
     },
@@ -91446,8 +91446,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4034-u3",
     "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
     "type": "hospital",
-    "lat": 42.2655,
-    "lng": -83.7077,
+    "lat": 42.285,
+    "lng": -83.7242,
     "name": {
       "en": "Corewell Health Butterworth"
     },
@@ -91474,8 +91474,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4034",
     "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
     "type": "safe-haven",
-    "lat": 42.2975,
-    "lng": -83.7117,
+    "lat": 42.285,
+    "lng": -83.7292,
     "name": {
       "en": "SafeHouse Center (Ann Arbor)"
     },
@@ -91502,8 +91502,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4034-u2",
     "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
     "type": "safe-haven",
-    "lat": 42.3135,
-    "lng": -83.7297,
+    "lat": 42.28,
+    "lng": -83.7242,
     "name": {
       "en": "YWCA Interim House (Detroit)"
     },
@@ -91530,8 +91530,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4034-u3",
     "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
     "type": "safe-haven",
-    "lat": 42.2805,
-    "lng": -83.6927,
+    "lat": 42.279,
+    "lng": -83.7292,
     "name": {
       "en": "YWCA West Central Michigan"
     },
@@ -91586,8 +91586,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4035-u2",
     "regionDistrict": "Minneapolis, St. Paul & Rochester, Minnesota, USA",
     "type": "hospital",
-    "lat": 44.9902,
-    "lng": -93.2798,
+    "lat": 44.9767,
+    "lng": -93.2593,
     "name": {
       "en": "Mayo Clinic Hospital (Rochester OB/GYN)"
     },
@@ -91614,8 +91614,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4035",
     "regionDistrict": "Minneapolis, St. Paul & Rochester, Minnesota, USA",
     "type": "safe-haven",
-    "lat": 44.9892,
-    "lng": -93.2468,
+    "lat": 44.9767,
+    "lng": -93.2643,
     "name": {
       "en": "Women’s Advocates (St. Paul — First Domestic Violence Shelter in the US), Tubman & Cornerstone"
     },
@@ -91670,8 +91670,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4036-u2",
     "regionDistrict": "Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA",
     "type": "hospital",
-    "lat": 32.3436,
-    "lng": -90.1933,
+    "lat": 32.3301,
+    "lng": -90.1728,
     "name": {
       "en": "Delta Health System"
     },
@@ -91698,8 +91698,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4036",
     "regionDistrict": "Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA",
     "type": "safe-haven",
-    "lat": 32.3426,
-    "lng": -90.1603,
+    "lat": 32.3301,
+    "lng": -90.1778,
     "name": {
       "en": "Center for Violence Prevention (Jackson/Pearl Safe Haven)"
     },
@@ -91726,8 +91726,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4036-u2",
     "regionDistrict": "Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA",
     "type": "safe-haven",
-    "lat": 32.3586,
-    "lng": -90.1783,
+    "lat": 32.3251,
+    "lng": -90.1728,
     "name": {
       "en": "Oasis Women’s Shelter (Greenville Mississippi Delta)"
     },
@@ -91782,8 +91782,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4037-u2",
     "regionDistrict": "St. Louis & Kansas City, Missouri, USA",
     "type": "hospital",
-    "lat": 38.6526,
-    "lng": -90.282,
+    "lat": 38.6391,
+    "lng": -90.2615,
     "name": {
       "en": "Washington University Women & Infants Center (St. Louis), SSM Health St. Mary’s"
     },
@@ -91810,8 +91810,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4037-u3",
     "regionDistrict": "St. Louis & Kansas City, Missouri, USA",
     "type": "hospital",
-    "lat": 38.6196,
-    "lng": -90.245,
+    "lat": 38.6391,
+    "lng": -90.2615,
     "name": {
       "en": "Saint Luke’s Hospital"
     },
@@ -91838,8 +91838,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4037",
     "regionDistrict": "St. Louis & Kansas City, Missouri, USA",
     "type": "safe-haven",
-    "lat": 38.6516,
-    "lng": -90.249,
+    "lat": 38.6391,
+    "lng": -90.2665,
     "name": {
       "en": "ALIVE (Alternatives to Living in Violent Environments — St. Louis) , Safe Connections"
     },
@@ -91866,8 +91866,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4037-u2",
     "regionDistrict": "St. Louis & Kansas City, Missouri, USA",
     "type": "safe-haven",
-    "lat": 38.6676,
-    "lng": -90.267,
+    "lat": 38.6341,
+    "lng": -90.2615,
     "name": {
       "en": "Rose Brooks Center"
     },
@@ -91922,8 +91922,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4038-u2",
     "regionDistrict": "Billings, Missoula & Browning (Blackfeet Nation), Montana, USA",
     "type": "hospital",
-    "lat": 45.8057,
-    "lng": -108.5313,
+    "lat": 45.7922,
+    "lng": -108.5108,
     "name": {
       "en": "Providence St. Patrick Hospital (Missoula)"
     },
@@ -91950,8 +91950,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4038-u3",
     "regionDistrict": "Billings, Missoula & Browning (Blackfeet Nation), Montana, USA",
     "type": "hospital",
-    "lat": 45.7727,
-    "lng": -108.4943,
+    "lat": 45.7922,
+    "lng": -108.5108,
     "name": {
       "en": "Blackfeet Community Hospital (Browning IHS)"
     },
@@ -91978,8 +91978,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4038",
     "regionDistrict": "Billings, Missoula & Browning (Blackfeet Nation), Montana, USA",
     "type": "safe-haven",
-    "lat": 45.8047,
-    "lng": -108.4983,
+    "lat": 45.7922,
+    "lng": -108.5158,
     "name": {
       "en": "YWCA Billings Gateway House Shelter"
     },
@@ -92006,8 +92006,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4038-u2",
     "regionDistrict": "Billings, Missoula & Browning (Blackfeet Nation), Montana, USA",
     "type": "safe-haven",
-    "lat": 45.8207,
-    "lng": -108.5163,
+    "lat": 45.7872,
+    "lng": -108.5108,
     "name": {
       "en": "YWCA Missoula Pathways Domestic Violence Shelter"
     },
@@ -92062,8 +92062,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4039-u2",
     "regionDistrict": "Omaha & Lincoln, Nebraska, USA",
     "type": "hospital",
-    "lat": 41.2714,
-    "lng": -95.9936,
+    "lat": 41.2579,
+    "lng": -95.9731,
     "name": {
       "en": "Bryan Medical Center"
     },
@@ -92090,8 +92090,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4039",
     "regionDistrict": "Omaha & Lincoln, Nebraska, USA",
     "type": "safe-haven",
-    "lat": 41.2704,
-    "lng": -95.9606,
+    "lat": 41.2579,
+    "lng": -95.9781,
     "name": {
       "en": "Women’s Center for Advancement (WCA Omaha)"
     },
@@ -92118,8 +92118,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4039-u2",
     "regionDistrict": "Omaha & Lincoln, Nebraska, USA",
     "type": "safe-haven",
-    "lat": 41.2864,
-    "lng": -95.9786,
+    "lat": 41.2529,
+    "lng": -95.9731,
     "name": {
       "en": "Catholic Charities St. Teresa Shelter"
     },
@@ -92146,8 +92146,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4039-u3",
     "regionDistrict": "Omaha & Lincoln, Nebraska, USA",
     "type": "safe-haven",
-    "lat": 41.2534,
-    "lng": -95.9416,
+    "lat": 41.2519,
+    "lng": -95.9781,
     "name": {
       "en": "Friendship Home"
     },
@@ -92202,8 +92202,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4040-u2",
     "regionDistrict": "Las Vegas & Reno, Nevada, USA",
     "type": "hospital",
-    "lat": 36.1753,
-    "lng": -115.1875,
+    "lat": 36.1618,
+    "lng": -115.167,
     "name": {
       "en": "Sunrise Hospital"
     },
@@ -92230,8 +92230,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4040-u3",
     "regionDistrict": "Las Vegas & Reno, Nevada, USA",
     "type": "hospital",
-    "lat": 36.1423,
-    "lng": -115.1505,
+    "lat": 36.1618,
+    "lng": -115.167,
     "name": {
       "en": "Renown Regional Medical Center"
     },
@@ -92258,8 +92258,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4040",
     "regionDistrict": "Las Vegas & Reno, Nevada, USA",
     "type": "safe-haven",
-    "lat": 36.1743,
-    "lng": -115.1545,
+    "lat": 36.1618,
+    "lng": -115.172,
     "name": {
       "en": "The Shade Tree (Las Vegas 24-Hour Shelter for Women & Children), SafeNest & Domestic Violence Resource Center (Reno)"
     },
@@ -92314,8 +92314,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4041-u2",
     "regionDistrict": "Lebanon, Manchester & Concord, New Hampshire, USA",
     "type": "hospital",
-    "lat": 43.6912,
-    "lng": -72.2904,
+    "lat": 43.6777,
+    "lng": -72.2699,
     "name": {
       "en": "Elliot Hospital (Manchester)"
     },
@@ -92342,8 +92342,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4041-u3",
     "regionDistrict": "Lebanon, Manchester & Concord, New Hampshire, USA",
     "type": "hospital",
-    "lat": 43.6582,
-    "lng": -72.2534,
+    "lat": 43.6777,
+    "lng": -72.2699,
     "name": {
       "en": "Concord Hospital"
     },
@@ -92370,8 +92370,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4041",
     "regionDistrict": "Lebanon, Manchester & Concord, New Hampshire, USA",
     "type": "safe-haven",
-    "lat": 43.6902,
-    "lng": -72.2574,
+    "lat": 43.6777,
+    "lng": -72.2749,
     "name": {
       "en": "WISE of the Upper Valley (Lebanon), YWCA New Hampshire Crisis Service & Crisis Center of Central NH"
     },
@@ -92426,8 +92426,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4042-u2",
     "regionDistrict": "Newark, New Brunswick & Hackensack, New Jersey, USA",
     "type": "hospital",
-    "lat": 40.7572,
-    "lng": -74.2085,
+    "lat": 40.7437,
+    "lng": -74.188,
     "name": {
       "en": "Cooperman Barnabas Medical Center"
     },
@@ -92454,8 +92454,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4042-u3",
     "regionDistrict": "Newark, New Brunswick & Hackensack, New Jersey, USA",
     "type": "hospital",
-    "lat": 40.7242,
-    "lng": -74.1715,
+    "lat": 40.7437,
+    "lng": -74.188,
     "name": {
       "en": "Robert Wood Johnson University Hospital"
     },
@@ -92482,8 +92482,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4042-u4",
     "regionDistrict": "Newark, New Brunswick & Hackensack, New Jersey, USA",
     "type": "hospital",
-    "lat": 40.7632,
-    "lng": -74.1695,
+    "lat": 40.7437,
+    "lng": -74.188,
     "name": {
       "en": "Hackensack University Medical Center"
     },
@@ -92510,8 +92510,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4042",
     "regionDistrict": "Newark, New Brunswick & Hackensack, New Jersey, USA",
     "type": "safe-haven",
-    "lat": 40.7562,
-    "lng": -74.1755,
+    "lat": 40.7437,
+    "lng": -74.193,
     "name": {
       "en": "Safe House (Clara Maass / Essex County), Women Aware (Middlesex County) & Center for Hope and Safety (Bergen County)"
     },
@@ -92566,8 +92566,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4043-u2",
     "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
     "type": "hospital",
-    "lat": 35.1045,
-    "lng": -106.6364,
+    "lat": 35.091,
+    "lng": -106.6159,
     "name": {
       "en": "Presbyterian Hospital"
     },
@@ -92594,8 +92594,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4043-u3",
     "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
     "type": "hospital",
-    "lat": 35.0715,
-    "lng": -106.5994,
+    "lat": 35.091,
+    "lng": -106.6159,
     "name": {
       "en": "Gallup Indian Medical Center (IHS)"
     },
@@ -92622,8 +92622,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4043",
     "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
     "type": "safe-haven",
-    "lat": 35.1035,
-    "lng": -106.6034,
+    "lat": 35.091,
+    "lng": -106.6209,
     "name": {
       "en": "Barrett House"
     },
@@ -92650,8 +92650,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4043-u2",
     "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
     "type": "safe-haven",
-    "lat": 35.1195,
-    "lng": -106.6214,
+    "lat": 35.086,
+    "lng": -106.6159,
     "name": {
       "en": "S.A.F.E. House (Albuquerque)"
     },
@@ -92678,8 +92678,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4043-u3",
     "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
     "type": "safe-haven",
-    "lat": 35.0865,
-    "lng": -106.5844,
+    "lat": 35.085,
+    "lng": -106.6209,
     "name": {
       "en": "Esperanza Shelter (Santa Fe)"
     },
@@ -92706,8 +92706,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4043-u4",
     "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
     "type": "safe-haven",
-    "lat": 35.1255,
-    "lng": -106.5824,
+    "lat": 35.091,
+    "lng": -106.6209,
     "name": {
       "en": "Battered Families Services"
     },
@@ -92762,8 +92762,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4044-u2",
     "regionDistrict": "New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA",
     "type": "hospital",
-    "lat": 40.7805,
-    "lng": -73.9727,
+    "lat": 40.767,
+    "lng": -73.9522,
     "name": {
       "en": "Mount Sinai Hospital, NYC Health + Hospitals / Bellevue"
     },
@@ -92790,8 +92790,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4044-u3",
     "regionDistrict": "New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA",
     "type": "hospital",
-    "lat": 40.7475,
-    "lng": -73.9357,
+    "lat": 40.767,
+    "lng": -73.9522,
     "name": {
       "en": "NYU Langone"
     },
@@ -92818,8 +92818,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4044",
     "regionDistrict": "New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA",
     "type": "safe-haven",
-    "lat": 40.7795,
-    "lng": -73.9397,
+    "lat": 40.767,
+    "lng": -73.9572,
     "name": {
       "en": "Safe Horizon NYC Domestic Violence Shelters , Sanctuary for Families"
     },
@@ -92846,8 +92846,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4044-u2",
     "regionDistrict": "New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA",
     "type": "safe-haven",
-    "lat": 40.7955,
-    "lng": -73.9577,
+    "lat": 40.762,
+    "lng": -73.9522,
     "name": {
       "en": "Sakhi for South Asian Women"
     },
@@ -92902,8 +92902,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4045-u2",
     "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
     "type": "hospital",
-    "lat": 42.9201,
-    "lng": -78.8936,
+    "lat": 42.9066,
+    "lng": -78.8731,
     "name": {
       "en": "Strong Memorial Hospital (Rochester)"
     },
@@ -92930,8 +92930,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4045-u3",
     "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
     "type": "hospital",
-    "lat": 42.8871,
-    "lng": -78.8566,
+    "lat": 42.9066,
+    "lng": -78.8731,
     "name": {
       "en": "Crouse Hospital (Syracuse)"
     },
@@ -92958,8 +92958,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4045-u4",
     "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
     "type": "hospital",
-    "lat": 42.9261,
-    "lng": -78.8546,
+    "lat": 42.9066,
+    "lng": -78.8731,
     "name": {
       "en": "Albany Medical Center"
     },
@@ -92986,8 +92986,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4045",
     "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
     "type": "safe-haven",
-    "lat": 42.9191,
-    "lng": -78.8606,
+    "lat": 42.9066,
+    "lng": -78.8781,
     "name": {
       "en": "Haven House (Buffalo)"
     },
@@ -93014,8 +93014,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4045-u2",
     "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
     "type": "safe-haven",
-    "lat": 42.9351,
-    "lng": -78.8786,
+    "lat": 42.9016,
+    "lng": -78.8731,
     "name": {
       "en": "Willow Domestic Violence Center (Rochester)"
     },
@@ -93042,8 +93042,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4045-u3",
     "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
     "type": "safe-haven",
-    "lat": 42.9021,
-    "lng": -78.8416,
+    "lat": 42.9006,
+    "lng": -78.8781,
     "name": {
       "en": "Vera House (Syracuse) & Equinox"
     },
@@ -93098,8 +93098,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4046-u2",
     "regionDistrict": "Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA",
     "type": "hospital",
-    "lat": 35.92,
-    "lng": -79.069,
+    "lat": 35.9065,
+    "lng": -79.0485,
     "name": {
       "en": "Duke University Hospital (Durham), WakeMed Raleigh"
     },
@@ -93126,8 +93126,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4046-u3",
     "regionDistrict": "Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA",
     "type": "hospital",
-    "lat": 35.887,
-    "lng": -79.032,
+    "lat": 35.9065,
+    "lng": -79.0485,
     "name": {
       "en": "Atrium Health Carolinas Medical Center"
     },
@@ -93154,8 +93154,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4046",
     "regionDistrict": "Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA",
     "type": "safe-haven",
-    "lat": 35.919,
-    "lng": -79.036,
+    "lat": 35.9065,
+    "lng": -79.0535,
     "name": {
       "en": "Compass Center for Women and Families (Chapel Hill), InterAct of Wake County (Raleigh) & Safe Alliance (Charlotte)"
     },
@@ -93210,8 +93210,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4047-u2",
     "regionDistrict": "Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA",
     "type": "hospital",
-    "lat": 46.8932,
-    "lng": -96.8078,
+    "lat": 46.8797,
+    "lng": -96.7873,
     "name": {
       "en": "Quentin N. Burdick Memorial Health Care Facility (Belcourt IHS)"
     },
@@ -93238,8 +93238,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4047",
     "regionDistrict": "Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA",
     "type": "safe-haven",
-    "lat": 46.8922,
-    "lng": -96.7748,
+    "lat": 46.8797,
+    "lng": -96.7923,
     "name": {
       "en": "YWCA Cass Clay Emergency Shelter (Fargo)"
     },
@@ -93266,8 +93266,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4047-u2",
     "regionDistrict": "Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA",
     "type": "safe-haven",
-    "lat": 46.9082,
-    "lng": -96.7928,
+    "lat": 46.8747,
+    "lng": -96.7873,
     "name": {
       "en": "Abused Adult Resource Center (Bismarck)"
     },
@@ -93294,8 +93294,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4047-u3",
     "regionDistrict": "Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA",
     "type": "safe-haven",
-    "lat": 46.8752,
-    "lng": -96.7558,
+    "lat": 46.8737,
+    "lng": -96.7923,
     "name": {
       "en": "Hearts of Hope"
     },
@@ -93350,8 +93350,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4048-u2",
     "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
     "type": "hospital",
-    "lat": 41.5188,
-    "lng": -81.6393,
+    "lat": 41.5053,
+    "lng": -81.6188,
     "name": {
       "en": "University Hospitals MacDonald Women’s Hospital"
     },
@@ -93378,8 +93378,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4048-u3",
     "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
     "type": "hospital",
-    "lat": 41.4858,
-    "lng": -81.6023,
+    "lat": 41.5053,
+    "lng": -81.6188,
     "name": {
       "en": "Ohio State Wexner Medical Center"
     },
@@ -93406,8 +93406,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4048-u4",
     "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
     "type": "hospital",
-    "lat": 41.5248,
-    "lng": -81.6003,
+    "lat": 41.5053,
+    "lng": -81.6188,
     "name": {
       "en": "UC Medical Center"
     },
@@ -93434,8 +93434,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4048",
     "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
     "type": "safe-haven",
-    "lat": 41.5178,
-    "lng": -81.6063,
+    "lat": 41.5053,
+    "lng": -81.6238,
     "name": {
       "en": "Laura’s Home Women’s Crisis Center"
     },
@@ -93462,8 +93462,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4048-u2",
     "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
     "type": "safe-haven",
-    "lat": 41.5338,
-    "lng": -81.6243,
+    "lat": 41.5003,
+    "lng": -81.6188,
     "name": {
       "en": "Journey Center for Safety and Healing (Cleveland), LSS CHOICES (Columbus)"
     },
@@ -93490,8 +93490,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4048-u3",
     "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
     "type": "safe-haven",
-    "lat": 41.5008,
-    "lng": -81.5873,
+    "lat": 41.4993,
+    "lng": -81.6238,
     "name": {
       "en": "YWCA Greater Cincinnati"
     },
@@ -93546,8 +93546,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4049-u2",
     "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
     "type": "hospital",
-    "lat": 35.4979,
-    "lng": -97.5161,
+    "lat": 35.4844,
+    "lng": -97.4956,
     "name": {
       "en": "Saint Francis Hospital (Tulsa)"
     },
@@ -93574,8 +93574,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4049-u3",
     "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
     "type": "hospital",
-    "lat": 35.4649,
-    "lng": -97.4791,
+    "lat": 35.4844,
+    "lng": -97.4956,
     "name": {
       "en": "Cherokee Nation W.W. Hastings Hospital"
     },
@@ -93602,8 +93602,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4049",
     "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
     "type": "safe-haven",
-    "lat": 35.4969,
-    "lng": -97.4831,
+    "lat": 35.4844,
+    "lng": -97.5006,
     "name": {
       "en": "YWCA Oklahoma City Domestic Violence Shelter"
     },
@@ -93630,8 +93630,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4049-u2",
     "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
     "type": "safe-haven",
-    "lat": 35.5129,
-    "lng": -97.5011,
+    "lat": 35.4794,
+    "lng": -97.4956,
     "name": {
       "en": "Palomar Family Justice Center , Domestic Violence Intervention Services (Tulsa)"
     },
@@ -93658,8 +93658,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4049-u3",
     "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
     "type": "safe-haven",
-    "lat": 35.4799,
-    "lng": -97.4641,
+    "lat": 35.4784,
+    "lng": -97.5006,
     "name": {
       "en": "Cherokee Nation ONE FIRE"
     },
@@ -93714,8 +93714,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4050-u2",
     "regionDistrict": "Portland & Eugene, Oregon, USA",
     "type": "hospital",
-    "lat": 45.5149,
-    "lng": -122.704,
+    "lat": 45.5014,
+    "lng": -122.6835,
     "name": {
       "en": "PeaceHealth Sacred Heart"
     },
@@ -93742,8 +93742,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4050",
     "regionDistrict": "Portland & Eugene, Oregon, USA",
     "type": "safe-haven",
-    "lat": 45.5139,
-    "lng": -122.671,
+    "lat": 45.5014,
+    "lng": -122.6885,
     "name": {
       "en": "Bradley Angle, Raphael House of Portland"
     },
@@ -93770,8 +93770,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4050-u2",
     "regionDistrict": "Portland & Eugene, Oregon, USA",
     "type": "safe-haven",
-    "lat": 45.5299,
-    "lng": -122.689,
+    "lat": 45.4964,
+    "lng": -122.6835,
     "name": {
       "en": "Rose Haven Day Shelter for Women"
     },
@@ -93826,8 +93826,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4051-u2",
     "regionDistrict": "Pittsburgh & Philadelphia, Pennsylvania, USA",
     "type": "hospital",
-    "lat": 40.4535,
-    "lng": -79.9788,
+    "lat": 40.44,
+    "lng": -79.9583,
     "name": {
       "en": "Pennsylvania Hospital"
     },
@@ -93854,8 +93854,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4051",
     "regionDistrict": "Pittsburgh & Philadelphia, Pennsylvania, USA",
     "type": "safe-haven",
-    "lat": 40.4525,
-    "lng": -79.9458,
+    "lat": 40.44,
+    "lng": -79.9633,
     "name": {
       "en": "Women’s Center & Shelter of Greater Pittsburgh (First 6 DV Shelters in the US) & Women Against Abuse (Philadelphia)"
     },
@@ -93910,8 +93910,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4052",
     "regionDistrict": "Providence, Rhode Island, USA",
     "type": "safe-haven",
-    "lat": 41.8276,
-    "lng": -71.3983,
+    "lat": 41.8151,
+    "lng": -71.4158,
     "name": {
       "en": "Sojourner House"
     },
@@ -93938,8 +93938,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4052-u2",
     "regionDistrict": "Providence, Rhode Island, USA",
     "type": "safe-haven",
-    "lat": 41.8436,
-    "lng": -71.4163,
+    "lat": 41.8101,
+    "lng": -71.4108,
     "name": {
       "en": "Crossroads Rhode Island Women’s Shelter"
     },
@@ -93966,8 +93966,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4052-u3",
     "regionDistrict": "Providence, Rhode Island, USA",
     "type": "safe-haven",
-    "lat": 41.8106,
-    "lng": -71.3793,
+    "lat": 41.8091,
+    "lng": -71.4158,
     "name": {
       "en": "Rhode Island Coalition Against Domestic Violence"
     },
@@ -94022,8 +94022,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4053-u2",
     "regionDistrict": "Charleston, Columbia & Greenville, South Carolina, USA",
     "type": "hospital",
-    "lat": 32.801,
-    "lng": -79.9658,
+    "lat": 32.7875,
+    "lng": -79.9453,
     "name": {
       "en": "Pearl Tourville Women’s Pavilion (Charleston)"
     },
@@ -94050,8 +94050,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4053-u3",
     "regionDistrict": "Charleston, Columbia & Greenville, South Carolina, USA",
     "type": "hospital",
-    "lat": 32.768,
-    "lng": -79.9288,
+    "lat": 32.7875,
+    "lng": -79.9453,
     "name": {
       "en": "Prisma Health Baptist / Greenville"
     },
@@ -94078,8 +94078,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4053",
     "regionDistrict": "Charleston, Columbia & Greenville, South Carolina, USA",
     "type": "safe-haven",
-    "lat": 32.8,
-    "lng": -79.9328,
+    "lat": 32.7875,
+    "lng": -79.9503,
     "name": {
       "en": "My Sister’s House (Charleston), Sistercare (Columbia) & Safe Harbor (Greenville)"
     },
@@ -94134,8 +94134,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4054-u2",
     "regionDistrict": "Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA",
     "type": "hospital",
-    "lat": 43.5482,
-    "lng": -96.7616,
+    "lat": 43.5347,
+    "lng": -96.7411,
     "name": {
       "en": "Pine Ridge IHS Hospital (Oglala Lakota Nation)"
     },
@@ -94162,8 +94162,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4054",
     "regionDistrict": "Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA",
     "type": "safe-haven",
-    "lat": 43.5472,
-    "lng": -96.7286,
+    "lat": 43.5347,
+    "lng": -96.7461,
     "name": {
       "en": "Children’s Home Shelter for Family Safety (Sioux Falls), WAVI (Working Against Violence — Rapid City)"
     },
@@ -94190,8 +94190,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4054-u2",
     "regionDistrict": "Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA",
     "type": "safe-haven",
-    "lat": 43.5632,
-    "lng": -96.7466,
+    "lat": 43.5297,
+    "lng": -96.7411,
     "name": {
       "en": "Sacred Shawl Women’s Society"
     },
@@ -94246,8 +94246,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4055-u2",
     "regionDistrict": "Nashville, Memphis & Knoxville, Tennessee, USA",
     "type": "hospital",
-    "lat": 36.1579,
-    "lng": -86.8203,
+    "lat": 36.1444,
+    "lng": -86.7998,
     "name": {
       "en": "UT Medical Center"
     },
@@ -94274,8 +94274,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4055",
     "regionDistrict": "Nashville, Memphis & Knoxville, Tennessee, USA",
     "type": "safe-haven",
-    "lat": 36.1569,
-    "lng": -86.7873,
+    "lat": 36.1444,
+    "lng": -86.8048,
     "name": {
       "en": "YWCA Nashville"
     },
@@ -94302,8 +94302,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4055-u2",
     "regionDistrict": "Nashville, Memphis & Knoxville, Tennessee, USA",
     "type": "safe-haven",
-    "lat": 36.1729,
-    "lng": -86.8053,
+    "lat": 36.1394,
+    "lng": -86.7998,
     "name": {
       "en": "Middle Tennessee Weaver Domestic Violence Center"
     },
@@ -94330,8 +94330,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4055-u3",
     "regionDistrict": "Nashville, Memphis & Knoxville, Tennessee, USA",
     "type": "safe-haven",
-    "lat": 36.1399,
-    "lng": -86.7683,
+    "lat": 36.1384,
+    "lng": -86.8048,
     "name": {
       "en": "YWCA Greater Memphis Abused Women’s Services"
     },
@@ -94386,8 +94386,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4056-u2",
     "regionDistrict": "Houston & Galveston, Texas, USA",
     "type": "hospital",
-    "lat": 29.7242,
-    "lng": -95.4198,
+    "lat": 29.7107,
+    "lng": -95.3993,
     "name": {
       "en": "Ben Taub Hospital"
     },
@@ -94414,8 +94414,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4056-u3",
     "regionDistrict": "Houston & Galveston, Texas, USA",
     "type": "hospital",
-    "lat": 29.6912,
-    "lng": -95.3828,
+    "lat": 29.7107,
+    "lng": -95.3993,
     "name": {
       "en": "UTMB Galveston"
     },
@@ -94442,8 +94442,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4056",
     "regionDistrict": "Houston & Galveston, Texas, USA",
     "type": "safe-haven",
-    "lat": 29.7232,
-    "lng": -95.3868,
+    "lat": 29.7107,
+    "lng": -95.4043,
     "name": {
       "en": "Houston Area Women’s Center (HAWC 24/7 Safe Harbor), The Bridge Over Troubled Waters"
     },
@@ -94470,8 +94470,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4056-u2",
     "regionDistrict": "Houston & Galveston, Texas, USA",
     "type": "safe-haven",
-    "lat": 29.7392,
-    "lng": -95.4048,
+    "lat": 29.7057,
+    "lng": -95.3993,
     "name": {
       "en": "Daya Houston"
     },
@@ -94526,8 +94526,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4057-u2",
     "regionDistrict": "Dallas & Fort Worth, Texas, USA",
     "type": "hospital",
-    "lat": 32.8283,
-    "lng": -96.8569,
+    "lat": 32.8148,
+    "lng": -96.8364,
     "name": {
       "en": "Andrews Women’s Hospital"
     },
@@ -94554,8 +94554,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4057",
     "regionDistrict": "Dallas & Fort Worth, Texas, USA",
     "type": "safe-haven",
-    "lat": 32.8273,
-    "lng": -96.8239,
+    "lat": 32.8148,
+    "lng": -96.8414,
     "name": {
       "en": "Genesis Women’s Shelter & Support (Dallas)"
     },
@@ -94582,8 +94582,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4057-u2",
     "regionDistrict": "Dallas & Fort Worth, Texas, USA",
     "type": "safe-haven",
-    "lat": 32.8433,
-    "lng": -96.8419,
+    "lat": 32.8098,
+    "lng": -96.8364,
     "name": {
       "en": "The Family Place"
     },
@@ -94610,8 +94610,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4057-u3",
     "regionDistrict": "Dallas & Fort Worth, Texas, USA",
     "type": "safe-haven",
-    "lat": 32.8103,
-    "lng": -96.8049,
+    "lat": 32.8088,
+    "lng": -96.8414,
     "name": {
       "en": "SafeHaven of Tarrant County"
     },
@@ -94666,8 +94666,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4058-u2",
     "regionDistrict": "San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA",
     "type": "hospital",
-    "lat": 29.5234,
-    "lng": -98.5936,
+    "lat": 29.5099,
+    "lng": -98.5731,
     "name": {
       "en": "University Medical Center of El Paso"
     },
@@ -94694,8 +94694,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4058-u3",
     "regionDistrict": "San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA",
     "type": "hospital",
-    "lat": 29.4904,
-    "lng": -98.5566,
+    "lat": 29.5099,
+    "lng": -98.5731,
     "name": {
       "en": "DHR Health Women’s Hospital (Edinburg RGV)"
     },
@@ -94722,8 +94722,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4058",
     "regionDistrict": "San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA",
     "type": "safe-haven",
-    "lat": 29.5224,
-    "lng": -98.5606,
+    "lat": 29.5099,
+    "lng": -98.5781,
     "name": {
       "en": "Family Violence Prevention Services / Battered Women & Children’s Shelter (San Antonio), SAFE Alliance (Austin), Center Against Sexual & Family Violence (El Paso) & Mujeres Unidas (McAllen RGV)"
     },
@@ -94778,8 +94778,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4059-u2",
     "regionDistrict": "Salt Lake City & Provo, Utah, USA",
     "type": "hospital",
-    "lat": 40.7876,
-    "lng": -111.856,
+    "lat": 40.7741,
+    "lng": -111.8355,
     "name": {
       "en": "Intermountain Medical Center Women & Newborn Center"
     },
@@ -94806,8 +94806,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4059",
     "regionDistrict": "Salt Lake City & Provo, Utah, USA",
     "type": "safe-haven",
-    "lat": 40.7866,
-    "lng": -111.823,
+    "lat": 40.7741,
+    "lng": -111.8405,
     "name": {
       "en": "YWCA Utah Women in Jeopardy Shelter (Salt Lake City)"
     },
@@ -94834,8 +94834,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4059-u2",
     "regionDistrict": "Salt Lake City & Provo, Utah, USA",
     "type": "safe-haven",
-    "lat": 40.8026,
-    "lng": -111.841,
+    "lat": 40.7691,
+    "lng": -111.8355,
     "name": {
       "en": "South Valley Services"
     },
@@ -94890,8 +94890,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4060-u2",
     "regionDistrict": "Burlington & Rutland, Vermont, USA",
     "type": "hospital",
-    "lat": 44.4955,
-    "lng": -73.2138,
+    "lat": 44.482,
+    "lng": -73.1933,
     "name": {
       "en": "Rutland Regional Medical Center"
     },
@@ -94918,8 +94918,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4060",
     "regionDistrict": "Burlington & Rutland, Vermont, USA",
     "type": "safe-haven",
-    "lat": 44.4945,
-    "lng": -73.1808,
+    "lat": 44.482,
+    "lng": -73.1983,
     "name": {
       "en": "Steps to End Domestic Violence (Burlington)"
     },
@@ -94946,8 +94946,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4060-u2",
     "regionDistrict": "Burlington & Rutland, Vermont, USA",
     "type": "safe-haven",
-    "lat": 44.5105,
-    "lng": -73.1988,
+    "lat": 44.477,
+    "lng": -73.1933,
     "name": {
       "en": "NewStory Center"
     },
@@ -95002,8 +95002,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4061-u2",
     "regionDistrict": "Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA",
     "type": "hospital",
-    "lat": 37.5567,
-    "lng": -77.4481,
+    "lat": 37.5432,
+    "lng": -77.4276,
     "name": {
       "en": "Inova Fairfax Women’s Hospital"
     },
@@ -95030,8 +95030,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4061",
     "regionDistrict": "Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA",
     "type": "safe-haven",
-    "lat": 37.5557,
-    "lng": -77.4151,
+    "lat": 37.5432,
+    "lng": -77.4326,
     "name": {
       "en": "Safe Harbor &YWCA Richmond , Shelter for Help in Emergency (Charlottesville)"
     },
@@ -95058,8 +95058,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4061-u2",
     "regionDistrict": "Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA",
     "type": "safe-haven",
-    "lat": 37.5717,
-    "lng": -77.4331,
+    "lat": 37.5382,
+    "lng": -77.4276,
     "name": {
       "en": "YWCA South Hampton Roads"
     },
@@ -95114,8 +95114,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4062-u2",
     "regionDistrict": "Seattle, Tacoma & Spokane, Washington, USA",
     "type": "hospital",
-    "lat": 47.6662,
-    "lng": -122.3252,
+    "lat": 47.6527,
+    "lng": -122.3047,
     "name": {
       "en": "Harborview Medical Center, Swedish First Hill"
     },
@@ -95142,8 +95142,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4062-u3",
     "regionDistrict": "Seattle, Tacoma & Spokane, Washington, USA",
     "type": "hospital",
-    "lat": 47.6332,
-    "lng": -122.2882,
+    "lat": 47.6527,
+    "lng": -122.3047,
     "name": {
       "en": "Sacred Heart Medical Center"
     },
@@ -95170,8 +95170,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4062",
     "regionDistrict": "Seattle, Tacoma & Spokane, Washington, USA",
     "type": "safe-haven",
-    "lat": 47.6652,
-    "lng": -122.2922,
+    "lat": 47.6527,
+    "lng": -122.3097,
     "name": {
       "en": "New Beginnings (Seattle), Mary’s Place Women & Family Shelters, API Chaya"
     },
@@ -95198,8 +95198,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4062-u2",
     "regionDistrict": "Seattle, Tacoma & Spokane, Washington, USA",
     "type": "safe-haven",
-    "lat": 47.6812,
-    "lng": -122.3102,
+    "lat": 47.6477,
+    "lng": -122.3047,
     "name": {
       "en": "YWCA Spokane"
     },
@@ -95254,8 +95254,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4063-u2",
     "regionDistrict": "Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA",
     "type": "hospital",
-    "lat": 39.6685,
-    "lng": -79.974,
+    "lat": 39.655,
+    "lng": -79.9535,
     "name": {
       "en": "CAMC Women and Children’s Hospital (Charleston)"
     },
@@ -95282,8 +95282,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4063-u3",
     "regionDistrict": "Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA",
     "type": "hospital",
-    "lat": 39.6355,
-    "lng": -79.937,
+    "lat": 39.655,
+    "lng": -79.9535,
     "name": {
       "en": "Cabell Huntington Hospital"
     },
@@ -95310,8 +95310,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4063",
     "regionDistrict": "Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA",
     "type": "safe-haven",
-    "lat": 39.6675,
-    "lng": -79.941,
+    "lat": 39.655,
+    "lng": -79.9585,
     "name": {
       "en": "Rape and Domestic Violence Information Center (Morgantown)"
     },
@@ -95338,8 +95338,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4063-u2",
     "regionDistrict": "Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA",
     "type": "safe-haven",
-    "lat": 39.6835,
-    "lng": -79.959,
+    "lat": 39.65,
+    "lng": -79.9535,
     "name": {
       "en": "YWCA Resolve Family Abuse Program (Charleston) & Branches"
     },
@@ -95394,8 +95394,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4064-u2",
     "regionDistrict": "Madison, Milwaukee & Green Bay, Wisconsin, USA",
     "type": "hospital",
-    "lat": 43.074,
-    "lng": -89.4248,
+    "lat": 43.0605,
+    "lng": -89.4043,
     "name": {
       "en": "Froedtert Hospital (Milwaukee)"
     },
@@ -95422,8 +95422,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4064-u3",
     "regionDistrict": "Madison, Milwaukee & Green Bay, Wisconsin, USA",
     "type": "hospital",
-    "lat": 43.041,
-    "lng": -89.3878,
+    "lat": 43.0605,
+    "lng": -89.4043,
     "name": {
       "en": "Aurora Sinai Medical Center"
     },
@@ -95450,8 +95450,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4064",
     "regionDistrict": "Madison, Milwaukee & Green Bay, Wisconsin, USA",
     "type": "safe-haven",
-    "lat": 43.073,
-    "lng": -89.3918,
+    "lat": 43.0605,
+    "lng": -89.4093,
     "name": {
       "en": "Domestic Abuse Intervention Services (DAIS Madison), Sojourner Family Peace Center (Milwaukee)"
     },
@@ -95478,8 +95478,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4064-u2",
     "regionDistrict": "Madison, Milwaukee & Green Bay, Wisconsin, USA",
     "type": "safe-haven",
-    "lat": 43.089,
-    "lng": -89.4098,
+    "lat": 43.0555,
+    "lng": -89.4043,
     "name": {
       "en": "Golden House"
     },
@@ -95534,8 +95534,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4065-u2",
     "regionDistrict": "Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA",
     "type": "hospital",
-    "lat": 42.8652,
-    "lng": -106.3329,
+    "lat": 42.8517,
+    "lng": -106.3124,
     "name": {
       "en": "Cheyenne Regional Medical Center"
     },
@@ -95562,8 +95562,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4065-u3",
     "regionDistrict": "Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA",
     "type": "hospital",
-    "lat": 42.8322,
-    "lng": -106.2959,
+    "lat": 42.8517,
+    "lng": -106.3124,
     "name": {
       "en": "Fort Washakie Health Center (Wind River IHS)"
     },
@@ -95590,8 +95590,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4065",
     "regionDistrict": "Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA",
     "type": "safe-haven",
-    "lat": 42.8642,
-    "lng": -106.2999,
+    "lat": 42.8517,
+    "lng": -106.3174,
     "name": {
       "en": "Self Help Center (Casper)"
     },
@@ -95618,8 +95618,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4065-u2",
     "regionDistrict": "Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA",
     "type": "safe-haven",
-    "lat": 42.8802,
-    "lng": -106.3179,
+    "lat": 42.8467,
+    "lng": -106.3124,
     "name": {
       "en": "Safehouse Services"
     },
@@ -95674,8 +95674,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4066",
     "regionDistrict": "San Juan, Ponce & Mayagüez, Puerto Rico (USA)",
     "type": "safe-haven",
-    "lat": 18.4115,
-    "lng": -66.0596,
+    "lat": 18.399,
+    "lng": -66.0771,
     "name": {
       "en": "Casa Protegida Julia de Burgos (San Juan — First Women’s Shelter in Puerto Rico)"
     },
@@ -95702,8 +95702,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4066-u2",
     "regionDistrict": "San Juan, Ponce & Mayagüez, Puerto Rico (USA)",
     "type": "safe-haven",
-    "lat": 18.4275,
-    "lng": -66.0776,
+    "lat": 18.394,
+    "lng": -66.0721,
     "name": {
       "en": "Hogar Ruth"
     },
@@ -95730,8 +95730,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4066-u3",
     "regionDistrict": "San Juan, Ponce & Mayagüez, Puerto Rico (USA)",
     "type": "safe-haven",
-    "lat": 18.3945,
-    "lng": -66.0406,
+    "lat": 18.393,
+    "lng": -66.0771,
     "name": {
       "en": "Oficina de la Procuradora de las Mujeres"
     },
@@ -95786,8 +95786,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4067-u2",
     "regionDistrict": "Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands",
     "type": "hospital",
-    "lat": 18.3568,
-    "lng": -64.9325,
+    "lat": 18.3433,
+    "lng": -64.912,
     "name": {
       "en": "Governor Juan F. Luis Hospital"
     },
@@ -95814,8 +95814,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4067",
     "regionDistrict": "Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands",
     "type": "safe-haven",
-    "lat": 18.3558,
-    "lng": -64.8995,
+    "lat": 18.3433,
+    "lng": -64.917,
     "name": {
       "en": "Family Resource Center (St. Thomas) & Women’s Coalition of St. Croix"
     },
@@ -95870,8 +95870,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-hosp-4068-u2",
     "regionDistrict": "Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa)",
     "type": "hospital",
-    "lat": 13.5202,
-    "lng": 144.7595,
+    "lat": 13.5067,
+    "lng": 144.78,
     "name": {
       "en": "LBJ Tropical Medical Center"
     },
@@ -95898,8 +95898,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4068",
     "regionDistrict": "Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa)",
     "type": "safe-haven",
-    "lat": 13.5192,
-    "lng": 144.7925,
+    "lat": 13.5067,
+    "lng": 144.775,
     "name": {
       "en": "Guma’ Mami / Alee Shelter for Women & Children (Guam)"
     },
@@ -95926,8 +95926,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "usa-safe-4068-u2",
     "regionDistrict": "Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa)",
     "type": "safe-haven",
-    "lat": 13.5352,
-    "lng": 144.7745,
+    "lat": 13.5017,
+    "lng": 144.78,
     "name": {
       "en": "Karidat Social Services"
     },
@@ -95982,8 +95982,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5001-u2",
     "regionDistrict": "Randwick (Eastern Suburbs Sydney), NSW, Australia",
     "type": "hospital",
-    "lat": -33.9037,
-    "lng": 151.2212,
+    "lat": -33.9172,
+    "lng": 151.2417,
     "name": {
       "en": "Prince of Wales Hospital"
     },
@@ -96010,8 +96010,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5001",
     "regionDistrict": "Randwick (Eastern Suburbs Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.9057,
-    "lng": 151.2532,
+    "lat": -33.9172,
+    "lng": 151.2367,
     "name": {
       "en": "Lou’s Place"
     },
@@ -96038,8 +96038,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5001-u2",
     "regionDistrict": "Randwick (Eastern Suburbs Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.8897,
-    "lng": 151.2352,
+    "lat": -33.9222,
+    "lng": 151.2417,
     "name": {
       "en": "Eastern Suburbs Domestic Violence Women’s Refuge"
     },
@@ -96094,8 +96094,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5002",
     "regionDistrict": "Camperdown (Inner West Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.8754,
-    "lng": 151.1969,
+    "lat": -33.8869,
+    "lng": 151.1804,
     "name": {
       "en": "Elsie Women’s Refuge (Glebe — First Women’s Refuge in Australia)"
     },
@@ -96122,8 +96122,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5002-u2",
     "regionDistrict": "Camperdown (Inner West Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.8594,
-    "lng": 151.1789,
+    "lat": -33.8919,
+    "lng": 151.1854,
     "name": {
       "en": "Marrickville Women’s Refuge"
     },
@@ -96178,8 +96178,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5003-u2",
     "regionDistrict": "St Leonards & Northern Beaches (North Sydney), NSW, Australia",
     "type": "hospital",
-    "lat": -33.8051,
-    "lng": 151.1712,
+    "lat": -33.8186,
+    "lng": 151.1917,
     "name": {
       "en": "North Shore Private Hospital"
     },
@@ -96206,8 +96206,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5003-u3",
     "regionDistrict": "St Leonards & Northern Beaches (North Sydney), NSW, Australia",
     "type": "hospital",
-    "lat": -33.8381,
-    "lng": 151.2082,
+    "lat": -33.8186,
+    "lng": 151.1917,
     "name": {
       "en": "Mater Hospital Sydney"
     },
@@ -96234,8 +96234,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5003",
     "regionDistrict": "St Leonards & Northern Beaches (North Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.8071,
-    "lng": 151.2032,
+    "lat": -33.8186,
+    "lng": 151.1867,
     "name": {
       "en": "Mary’s House Refuge (North Shore)"
     },
@@ -96262,8 +96262,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5003-u2",
     "regionDistrict": "St Leonards & Northern Beaches (North Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.7911,
-    "lng": 151.1852,
+    "lat": -33.8236,
+    "lng": 151.1917,
     "name": {
       "en": "Northern Beaches Women’s Shelter (Manly)"
     },
@@ -96318,8 +96318,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5004-u2",
     "regionDistrict": "Westmead & Blacktown (Western Sydney), NSW, Australia",
     "type": "hospital",
-    "lat": -33.787,
-    "lng": 150.9706,
+    "lat": -33.8005,
+    "lng": 150.9911,
     "name": {
       "en": "Westmead Private Hospital"
     },
@@ -96346,8 +96346,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5004-u3",
     "regionDistrict": "Westmead & Blacktown (Western Sydney), NSW, Australia",
     "type": "hospital",
-    "lat": -33.82,
-    "lng": 151.0076,
+    "lat": -33.8005,
+    "lng": 150.9911,
     "name": {
       "en": "Blacktown Hospital Maternity"
     },
@@ -96374,8 +96374,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5004",
     "regionDistrict": "Westmead & Blacktown (Western Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.789,
-    "lng": 151.0026,
+    "lat": -33.8005,
+    "lng": 150.9861,
     "name": {
       "en": "Parramatta / Cumberland Women’s Domestic Violence Refuge"
     },
@@ -96402,8 +96402,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5004-u2",
     "regionDistrict": "Westmead & Blacktown (Western Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.773,
-    "lng": 150.9846,
+    "lat": -33.8055,
+    "lng": 150.9911,
     "name": {
       "en": "Immigrant Women’s Speakout Association"
     },
@@ -96458,8 +96458,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5005-u2",
     "regionDistrict": "Liverpool, Campbelltown & Bankstown (South Western Sydney), NSW, Australia",
     "type": "hospital",
-    "lat": -33.9035,
-    "lng": 150.9108,
+    "lat": -33.917,
+    "lng": 150.9313,
     "name": {
       "en": "Campbelltown Hospital"
     },
@@ -96486,8 +96486,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5005-u3",
     "regionDistrict": "Liverpool, Campbelltown & Bankstown (South Western Sydney), NSW, Australia",
     "type": "hospital",
-    "lat": -33.9365,
-    "lng": 150.9478,
+    "lat": -33.917,
+    "lng": 150.9313,
     "name": {
       "en": "Bankstown-Lidcombe Hospital"
     },
@@ -96514,8 +96514,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5005",
     "regionDistrict": "Liverpool, Campbelltown & Bankstown (South Western Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.9055,
-    "lng": 150.9428,
+    "lat": -33.917,
+    "lng": 150.9263,
     "name": {
       "en": "Bonnie Support Services (South West Sydney Women’s Refuge)"
     },
@@ -96542,8 +96542,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5005-u2",
     "regionDistrict": "Liverpool, Campbelltown & Bankstown (South Western Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.8895,
-    "lng": 150.9248,
+    "lat": -33.922,
+    "lng": 150.9313,
     "name": {
       "en": "Wilma Women’s Health Centre"
     },
@@ -96598,8 +96598,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5006-u2",
     "regionDistrict": "Kogarah & Sutherland (St George / South Sydney), NSW, Australia",
     "type": "hospital",
-    "lat": -33.9515,
-    "lng": 151.1162,
+    "lat": -33.965,
+    "lng": 151.1367,
     "name": {
       "en": "The Sutherland Hospital (Caringbah)"
     },
@@ -96626,8 +96626,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5006",
     "regionDistrict": "Kogarah & Sutherland (St George / South Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.9535,
-    "lng": 151.1482,
+    "lat": -33.965,
+    "lng": 151.1317,
     "name": {
       "en": "Orana Women’s Health"
     },
@@ -96654,8 +96654,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5006-u2",
     "regionDistrict": "Kogarah & Sutherland (St George / South Sydney), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.9375,
-    "lng": 151.1302,
+    "lat": -33.97,
+    "lng": 151.1367,
     "name": {
       "en": "St George Domestic Violence Refuge"
     },
@@ -96710,8 +96710,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5007-u2",
     "regionDistrict": "Penrith (Nepean / Blue Mountains), NSW, Australia",
     "type": "hospital",
-    "lat": -33.743,
-    "lng": 150.6956,
+    "lat": -33.7565,
+    "lng": 150.7161,
     "name": {
       "en": "Blue Mountains District ANZAC Memorial Hospital"
     },
@@ -96738,8 +96738,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5007",
     "regionDistrict": "Penrith (Nepean / Blue Mountains), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.745,
-    "lng": 150.7276,
+    "lat": -33.7565,
+    "lng": 150.7111,
     "name": {
       "en": "Penrith Women’s Health Centre"
     },
@@ -96766,8 +96766,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5007-u2",
     "regionDistrict": "Penrith (Nepean / Blue Mountains), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.729,
-    "lng": 150.7096,
+    "lat": -33.7615,
+    "lng": 150.7161,
     "name": {
       "en": "Nepean / Blue Mountains Domestic Violence Safe Refuge"
     },
@@ -96822,8 +96822,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5008-u2",
     "regionDistrict": "Newcastle & Maitland (Hunter Region), NSW, Australia",
     "type": "hospital",
-    "lat": -32.9074,
-    "lng": 151.6751,
+    "lat": -32.9209,
+    "lng": 151.6956,
     "name": {
       "en": "Maitland Hospital"
     },
@@ -96850,8 +96850,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5008",
     "regionDistrict": "Newcastle & Maitland (Hunter Region), NSW, Australia",
     "type": "safe-haven",
-    "lat": -32.9094,
-    "lng": 151.7071,
+    "lat": -32.9209,
+    "lng": 151.6906,
     "name": {
       "en": "Jenny’s Place Women and Children’s Refuge (Newcastle)"
     },
@@ -96878,8 +96878,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5008-u2",
     "regionDistrict": "Newcastle & Maitland (Hunter Region), NSW, Australia",
     "type": "safe-haven",
-    "lat": -32.8934,
-    "lng": 151.6891,
+    "lat": -32.9259,
+    "lng": 151.6956,
     "name": {
       "en": "Carrie’s Place"
     },
@@ -96934,8 +96934,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5009-u2",
     "regionDistrict": "Gosford & Wyong (Central Coast), NSW, Australia",
     "type": "hospital",
-    "lat": -33.4054,
-    "lng": 151.3216,
+    "lat": -33.4189,
+    "lng": 151.3421,
     "name": {
       "en": "Wyong Hospital (Central Coast LHD)"
     },
@@ -96962,8 +96962,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5009",
     "regionDistrict": "Gosford & Wyong (Central Coast), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.4074,
-    "lng": 151.3536,
+    "lat": -33.4189,
+    "lng": 151.3371,
     "name": {
       "en": "Central Coast Domestic Violence Crisis Refuge"
     },
@@ -96990,8 +96990,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5009-u2",
     "regionDistrict": "Gosford & Wyong (Central Coast), NSW, Australia",
     "type": "safe-haven",
-    "lat": -33.3914,
-    "lng": 151.3356,
+    "lat": -33.4239,
+    "lng": 151.3421,
     "name": {
       "en": "Coast Shelter for Women"
     },
@@ -97046,8 +97046,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5010-u2",
     "regionDistrict": "Wollongong, Shellharbour & Nowra (Illawarra / Shoalhaven), NSW, Australia",
     "type": "hospital",
-    "lat": -34.4082,
-    "lng": 150.8651,
+    "lat": -34.4217,
+    "lng": 150.8856,
     "name": {
       "en": "Wollongong Private Hospital"
     },
@@ -97074,8 +97074,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5010-u3",
     "regionDistrict": "Wollongong, Shellharbour & Nowra (Illawarra / Shoalhaven), NSW, Australia",
     "type": "hospital",
-    "lat": -34.4412,
-    "lng": 150.9021,
+    "lat": -34.4217,
+    "lng": 150.8856,
     "name": {
       "en": "Shoalhaven District Memorial Hospital"
     },
@@ -97102,8 +97102,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5010",
     "regionDistrict": "Wollongong, Shellharbour & Nowra (Illawarra / Shoalhaven), NSW, Australia",
     "type": "safe-haven",
-    "lat": -34.4102,
-    "lng": 150.8971,
+    "lat": -34.4217,
+    "lng": 150.8806,
     "name": {
       "en": "Illawarra Women’s Health Centre"
     },
@@ -97130,8 +97130,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5010-u2",
     "regionDistrict": "Wollongong, Shellharbour & Nowra (Illawarra / Shoalhaven), NSW, Australia",
     "type": "safe-haven",
-    "lat": -34.3942,
-    "lng": 150.8791,
+    "lat": -34.4267,
+    "lng": 150.8856,
     "name": {
       "en": "SAHSSI Women’s Refuge (Wollongong)"
     },
@@ -97158,8 +97158,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5010-u3",
     "regionDistrict": "Wollongong, Shellharbour & Nowra (Illawarra / Shoalhaven), NSW, Australia",
     "type": "safe-haven",
-    "lat": -34.4272,
-    "lng": 150.9161,
+    "lat": -34.4277,
+    "lng": 150.8806,
     "name": {
       "en": "Shoalhaven Women’s Health Centre"
     },
@@ -97214,8 +97214,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5011-u2",
     "regionDistrict": "Lismore, Tweed Heads & Byron Bay (Northern Rivers), NSW, Australia",
     "type": "hospital",
-    "lat": -28.797,
-    "lng": 153.2676,
+    "lat": -28.8105,
+    "lng": 153.2881,
     "name": {
       "en": "Tweed Valley Hospital (Kingscliff)"
     },
@@ -97242,8 +97242,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5011-u3",
     "regionDistrict": "Lismore, Tweed Heads & Byron Bay (Northern Rivers), NSW, Australia",
     "type": "hospital",
-    "lat": -28.83,
-    "lng": 153.3046,
+    "lat": -28.8105,
+    "lng": 153.2881,
     "name": {
       "en": "Grafton Base Hospital"
     },
@@ -97270,8 +97270,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5011",
     "regionDistrict": "Lismore, Tweed Heads & Byron Bay (Northern Rivers), NSW, Australia",
     "type": "safe-haven",
-    "lat": -28.799,
-    "lng": 153.2996,
+    "lat": -28.8105,
+    "lng": 153.2831,
     "name": {
       "en": "Women Up North Housing (Lismore / Northern Rivers Safe Haven)"
     },
@@ -97298,8 +97298,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5011-u2",
     "regionDistrict": "Lismore, Tweed Heads & Byron Bay (Northern Rivers), NSW, Australia",
     "type": "safe-haven",
-    "lat": -28.783,
-    "lng": 153.2816,
+    "lat": -28.8155,
+    "lng": 153.2881,
     "name": {
       "en": "Tweed Valley Women’s Service"
     },
@@ -97354,8 +97354,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5012-u2",
     "regionDistrict": "Coffs Harbour, Port Macquarie & Taree (Mid North Coast), NSW, Australia",
     "type": "hospital",
-    "lat": -30.3015,
-    "lng": 153.0756,
+    "lat": -30.315,
+    "lng": 153.0961,
     "name": {
       "en": "Port Macquarie Base Hospital"
     },
@@ -97382,8 +97382,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5012-u3",
     "regionDistrict": "Coffs Harbour, Port Macquarie & Taree (Mid North Coast), NSW, Australia",
     "type": "hospital",
-    "lat": -30.3345,
-    "lng": 153.1126,
+    "lat": -30.315,
+    "lng": 153.0961,
     "name": {
       "en": "Manning Base Hospital"
     },
@@ -97410,8 +97410,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5012",
     "regionDistrict": "Coffs Harbour, Port Macquarie & Taree (Mid North Coast), NSW, Australia",
     "type": "safe-haven",
-    "lat": -30.3035,
-    "lng": 153.1076,
+    "lat": -30.315,
+    "lng": 153.0911,
     "name": {
       "en": "Warrina Domestic & Family Violence Specialist Services Co-operative (Coffs Harbour)"
     },
@@ -97438,8 +97438,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5012-u2",
     "regionDistrict": "Coffs Harbour, Port Macquarie & Taree (Mid North Coast), NSW, Australia",
     "type": "safe-haven",
-    "lat": -30.2875,
-    "lng": 153.0896,
+    "lat": -30.32,
+    "lng": 153.0961,
     "name": {
       "en": "Liberty Domestic & Family Violence Specialist Services"
     },
@@ -97494,8 +97494,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5013-u2",
     "regionDistrict": "Tamworth, Armidale & Moree (New England / North West), NSW, Australia",
     "type": "hospital",
-    "lat": -31.0576,
-    "lng": 150.9081,
+    "lat": -31.0711,
+    "lng": 150.9286,
     "name": {
       "en": "Armidale Rural Referral Hospital"
     },
@@ -97522,8 +97522,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5013-u3",
     "regionDistrict": "Tamworth, Armidale & Moree (New England / North West), NSW, Australia",
     "type": "hospital",
-    "lat": -31.0906,
-    "lng": 150.9451,
+    "lat": -31.0711,
+    "lng": 150.9286,
     "name": {
       "en": "Moree District Hospital"
     },
@@ -97550,8 +97550,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5013",
     "regionDistrict": "Tamworth, Armidale & Moree (New England / North West), NSW, Australia",
     "type": "safe-haven",
-    "lat": -31.0596,
-    "lng": 150.9401,
+    "lat": -31.0711,
+    "lng": 150.9236,
     "name": {
       "en": "Tamworth Family Support Women’s Refuge"
     },
@@ -97578,8 +97578,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5013-u2",
     "regionDistrict": "Tamworth, Armidale & Moree (New England / North West), NSW, Australia",
     "type": "safe-haven",
-    "lat": -31.0436,
-    "lng": 150.9221,
+    "lat": -31.0761,
+    "lng": 150.9286,
     "name": {
       "en": "Armidale Women’s Housing Group"
     },
@@ -97634,8 +97634,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5014-u2",
     "regionDistrict": "Dubbo, Orange, Bathurst & Bourke (Western NSW), NSW, Australia",
     "type": "hospital",
-    "lat": -32.2226,
-    "lng": 148.6048,
+    "lat": -32.2361,
+    "lng": 148.6253,
     "name": {
       "en": "Orange Health Service"
     },
@@ -97662,8 +97662,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5014-u3",
     "regionDistrict": "Dubbo, Orange, Bathurst & Bourke (Western NSW), NSW, Australia",
     "type": "hospital",
-    "lat": -32.2556,
-    "lng": 148.6418,
+    "lat": -32.2361,
+    "lng": 148.6253,
     "name": {
       "en": "Bathurst Health Service"
     },
@@ -97690,8 +97690,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5014-u4",
     "regionDistrict": "Dubbo, Orange, Bathurst & Bourke (Western NSW), NSW, Australia",
     "type": "hospital",
-    "lat": -32.2166,
-    "lng": 148.6438,
+    "lat": -32.2361,
+    "lng": 148.6253,
     "name": {
       "en": "Bourke Multi-Purpose Service"
     },
@@ -97718,8 +97718,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5014",
     "regionDistrict": "Dubbo, Orange, Bathurst & Bourke (Western NSW), NSW, Australia",
     "type": "safe-haven",
-    "lat": -32.2246,
-    "lng": 148.6368,
+    "lat": -32.2361,
+    "lng": 148.6203,
     "name": {
       "en": "Orana Support Service Women’s Refuge (Dubbo)"
     },
@@ -97746,8 +97746,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5014-u2",
     "regionDistrict": "Dubbo, Orange, Bathurst & Bourke (Western NSW), NSW, Australia",
     "type": "safe-haven",
-    "lat": -32.2086,
-    "lng": 148.6188,
+    "lat": -32.2411,
+    "lng": 148.6253,
     "name": {
       "en": "Housing Plus White Tie Safe Houses (Orange / Bathurst)"
     },
@@ -97802,8 +97802,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5015-u2",
     "regionDistrict": "Wagga Wagga, Griffith & Albury (Murrumbidgee / Riverina), NSW, Australia",
     "type": "hospital",
-    "lat": -35.1029,
-    "lng": 147.3398,
+    "lat": -35.1164,
+    "lng": 147.3603,
     "name": {
       "en": "Griffith Base Hospital"
     },
@@ -97830,8 +97830,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5015-u3",
     "regionDistrict": "Wagga Wagga, Griffith & Albury (Murrumbidgee / Riverina), NSW, Australia",
     "type": "hospital",
-    "lat": -35.1359,
-    "lng": 147.3768,
+    "lat": -35.1164,
+    "lng": 147.3603,
     "name": {
       "en": "Albury Wodonga Health (Maternity)"
     },
@@ -97858,8 +97858,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5015",
     "regionDistrict": "Wagga Wagga, Griffith & Albury (Murrumbidgee / Riverina), NSW, Australia",
     "type": "safe-haven",
-    "lat": -35.1049,
-    "lng": 147.3718,
+    "lat": -35.1164,
+    "lng": 147.3553,
     "name": {
       "en": "Wagga Women’s Health Centre"
     },
@@ -97886,8 +97886,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5015-u2",
     "regionDistrict": "Wagga Wagga, Griffith & Albury (Murrumbidgee / Riverina), NSW, Australia",
     "type": "safe-haven",
-    "lat": -35.0889,
-    "lng": 147.3538,
+    "lat": -35.1214,
+    "lng": 147.3603,
     "name": {
       "en": "Linking Communities Network Safe House"
     },
@@ -97914,8 +97914,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5015-u3",
     "regionDistrict": "Wagga Wagga, Griffith & Albury (Murrumbidgee / Riverina), NSW, Australia",
     "type": "safe-haven",
-    "lat": -35.1219,
-    "lng": 147.3908,
+    "lat": -35.1224,
+    "lng": 147.3553,
     "name": {
       "en": "Yes Unlimited Women’s Refuge"
     },
@@ -97970,8 +97970,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5016-u2",
     "regionDistrict": "Bega, Goulburn & Moruya (Southern NSW), NSW, Australia",
     "type": "hospital",
-    "lat": -36.6721,
-    "lng": 149.8406,
+    "lat": -36.6856,
+    "lng": 149.8611,
     "name": {
       "en": "Goulburn Base Hospital"
     },
@@ -97998,8 +97998,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5016-u3",
     "regionDistrict": "Bega, Goulburn & Moruya (Southern NSW), NSW, Australia",
     "type": "hospital",
-    "lat": -36.7051,
-    "lng": 149.8776,
+    "lat": -36.6856,
+    "lng": 149.8611,
     "name": {
       "en": "Moruya District Hospital"
     },
@@ -98026,8 +98026,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5016",
     "regionDistrict": "Bega, Goulburn & Moruya (Southern NSW), NSW, Australia",
     "type": "safe-haven",
-    "lat": -36.6741,
-    "lng": 149.8726,
+    "lat": -36.6856,
+    "lng": 149.8561,
     "name": {
       "en": "Staying Home Leaving Violence"
     },
@@ -98054,8 +98054,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5016-u2",
     "regionDistrict": "Bega, Goulburn & Moruya (Southern NSW), NSW, Australia",
     "type": "safe-haven",
-    "lat": -36.6581,
-    "lng": 149.8546,
+    "lat": -36.6906,
+    "lng": 149.8611,
     "name": {
       "en": "Molonglo Support Services Women’s Refuge"
     },
@@ -98110,8 +98110,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5017",
     "regionDistrict": "Broken Hill & Wilcannia (Far West Outback), NSW, Australia",
     "type": "safe-haven",
-    "lat": -31.9379,
-    "lng": 141.4721,
+    "lat": -31.9494,
+    "lng": 141.4556,
     "name": {
       "en": "Broken Hill Salvation Army Catherine Haven Women’s Refuge"
     },
@@ -98138,8 +98138,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5017-u2",
     "regionDistrict": "Broken Hill & Wilcannia (Far West Outback), NSW, Australia",
     "type": "safe-haven",
-    "lat": -31.9219,
-    "lng": 141.4541,
+    "lat": -31.9544,
+    "lng": 141.4606,
     "name": {
       "en": "Maari Ma Health Aboriginal Corporation"
     },
@@ -98194,8 +98194,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5018-u2",
     "regionDistrict": "Parkville (Central Melbourne), VIC, Australia",
     "type": "hospital",
-    "lat": -37.7826,
-    "lng": 144.9367,
+    "lat": -37.7961,
+    "lng": 144.9572,
     "name": {
       "en": "Frances Perry House"
     },
@@ -98222,8 +98222,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5018",
     "regionDistrict": "Parkville (Central Melbourne), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.7846,
-    "lng": 144.9687,
+    "lat": -37.7961,
+    "lng": 144.9522,
     "name": {
       "en": "Safe Steps Family Violence Response Centre (24/7 Victoria Crisis Sanctuary)"
     },
@@ -98250,8 +98250,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5018-u2",
     "regionDistrict": "Parkville (Central Melbourne), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.7686,
-    "lng": 144.9507,
+    "lat": -37.8011,
+    "lng": 144.9572,
     "name": {
       "en": "McAuley Community Services for Women"
     },
@@ -98306,8 +98306,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5019-u2",
     "regionDistrict": "Heidelberg & Epping (Northern Melbourne), VIC, Australia",
     "type": "hospital",
-    "lat": -37.7404,
-    "lng": 145.0412,
+    "lat": -37.7539,
+    "lng": 145.0617,
     "name": {
       "en": "Northern Hospital (Epping Maternity)"
     },
@@ -98334,8 +98334,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5019",
     "regionDistrict": "Heidelberg & Epping (Northern Melbourne), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.7424,
-    "lng": 145.0732,
+    "lat": -37.7539,
+    "lng": 145.0567,
     "name": {
       "en": "Berry Street Northern Family Violence Service"
     },
@@ -98362,8 +98362,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5019-u2",
     "regionDistrict": "Heidelberg & Epping (Northern Melbourne), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.7264,
-    "lng": 145.0552,
+    "lat": -37.7589,
+    "lng": 145.0617,
     "name": {
       "en": "Elizabeth Morgan House Aboriginal Women’s Service"
     },
@@ -98418,8 +98418,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5020-u2",
     "regionDistrict": "Clayton, Dandenong & Berwick (South Eastern Melbourne), VIC, Australia",
     "type": "hospital",
-    "lat": -37.9043,
-    "lng": 145.1045,
+    "lat": -37.9178,
+    "lng": 145.125,
     "name": {
       "en": "Dandenong Hospital"
     },
@@ -98446,8 +98446,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5020-u3",
     "regionDistrict": "Clayton, Dandenong & Berwick (South Eastern Melbourne), VIC, Australia",
     "type": "hospital",
-    "lat": -37.9373,
-    "lng": 145.1415,
+    "lat": -37.9178,
+    "lng": 145.125,
     "name": {
       "en": "Casey Hospital"
     },
@@ -98474,8 +98474,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5020",
     "regionDistrict": "Clayton, Dandenong & Berwick (South Eastern Melbourne), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.9063,
-    "lng": 145.1365,
+    "lat": -37.9178,
+    "lng": 145.12,
     "name": {
       "en": "Wayss Family Violence Women’s Refuge (Dandenong)"
     },
@@ -98502,8 +98502,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5020-u2",
     "regionDistrict": "Clayton, Dandenong & Berwick (South Eastern Melbourne), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.8903,
-    "lng": 145.1185,
+    "lat": -37.9228,
+    "lng": 145.125,
     "name": {
       "en": "inTouch Multicultural Centre Against Family Violence"
     },
@@ -98558,8 +98558,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5021-u2",
     "regionDistrict": "St Albans, Footscray & Werribee (Western Melbourne), VIC, Australia",
     "type": "hospital",
-    "lat": -37.7432,
-    "lng": 144.7978,
+    "lat": -37.7567,
+    "lng": 144.8183,
     "name": {
       "en": "Werribee Mercy Hospital (Maternity)"
     },
@@ -98586,8 +98586,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5021",
     "regionDistrict": "St Albans, Footscray & Werribee (Western Melbourne), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.7452,
-    "lng": 144.8298,
+    "lat": -37.7567,
+    "lng": 144.8133,
     "name": {
       "en": "GenWest Family Violence Support & Women’s Health West Safe Refuge (Footscray / Sunshine)"
     },
@@ -98642,8 +98642,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5022-u2",
     "regionDistrict": "Box Hill, Ringwood & Frankston (Eastern Melbourne & Mornington Peninsula), VIC, Australia",
     "type": "hospital",
-    "lat": -37.7982,
-    "lng": 145.1006,
+    "lat": -37.8117,
+    "lng": 145.1211,
     "name": {
       "en": "Angliss Hospital"
     },
@@ -98670,8 +98670,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5022-u3",
     "regionDistrict": "Box Hill, Ringwood & Frankston (Eastern Melbourne & Mornington Peninsula), VIC, Australia",
     "type": "hospital",
-    "lat": -37.8312,
-    "lng": 145.1376,
+    "lat": -37.8117,
+    "lng": 145.1211,
     "name": {
       "en": "Frankston Hospital (Peninsula Health Women’s Unit)"
     },
@@ -98698,8 +98698,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5022",
     "regionDistrict": "Box Hill, Ringwood & Frankston (Eastern Melbourne & Mornington Peninsula), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.8002,
-    "lng": 145.1326,
+    "lat": -37.8117,
+    "lng": 145.1161,
     "name": {
       "en": "EDVOS / FVREE Eastern Domestic Violence Service"
     },
@@ -98726,8 +98726,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5022-u2",
     "regionDistrict": "Box Hill, Ringwood & Frankston (Eastern Melbourne & Mornington Peninsula), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.7842,
-    "lng": 145.1146,
+    "lat": -37.8167,
+    "lng": 145.1211,
     "name": {
       "en": "Good Shepherd Bayside Women’s Refuge"
     },
@@ -98782,8 +98782,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5023-u2",
     "regionDistrict": "Geelong & Warrnambool (Barwon South West), VIC, Australia",
     "type": "hospital",
-    "lat": -38.1357,
-    "lng": 144.3473,
+    "lat": -38.1492,
+    "lng": 144.3678,
     "name": {
       "en": "South West Healthcare"
     },
@@ -98810,8 +98810,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5023",
     "regionDistrict": "Geelong & Warrnambool (Barwon South West), VIC, Australia",
     "type": "safe-haven",
-    "lat": -38.1377,
-    "lng": 144.3793,
+    "lat": -38.1492,
+    "lng": 144.3628,
     "name": {
       "en": "The Sexual Assault & Family Violence Centre (SAFV Centre Geelong)"
     },
@@ -98838,8 +98838,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5023-u2",
     "regionDistrict": "Geelong & Warrnambool (Barwon South West), VIC, Australia",
     "type": "safe-haven",
-    "lat": -38.1217,
-    "lng": 144.3613,
+    "lat": -38.1542,
+    "lng": 144.3678,
     "name": {
       "en": "Emma House Domestic Violence Services"
     },
@@ -98894,8 +98894,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5024-u2",
     "regionDistrict": "Ballarat & Horsham (Grampians / Wimmera), VIC, Australia",
     "type": "hospital",
-    "lat": -37.5426,
-    "lng": 143.8295,
+    "lat": -37.5561,
+    "lng": 143.85,
     "name": {
       "en": "Wimmera Base Hospital"
     },
@@ -98922,8 +98922,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5024",
     "regionDistrict": "Ballarat & Horsham (Grampians / Wimmera), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.5446,
-    "lng": 143.8615,
+    "lat": -37.5561,
+    "lng": 143.845,
     "name": {
       "en": "WRISC Family Violence Support (Ballarat)"
     },
@@ -98950,8 +98950,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5024-u2",
     "regionDistrict": "Ballarat & Horsham (Grampians / Wimmera), VIC, Australia",
     "type": "safe-haven",
-    "lat": -37.5286,
-    "lng": 143.8435,
+    "lat": -37.5611,
+    "lng": 143.85,
     "name": {
       "en": "Grampians Community Health Safe Refuge"
     },
@@ -99006,8 +99006,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5025-u2",
     "regionDistrict": "Bendigo, Echuca & Mildura (Loddon Mallee), VIC, Australia",
     "type": "hospital",
-    "lat": -36.7318,
-    "lng": 144.2598,
+    "lat": -36.7453,
+    "lng": 144.2803,
     "name": {
       "en": "Mildura Base Public Hospital"
     },
@@ -99034,8 +99034,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5025",
     "regionDistrict": "Bendigo, Echuca & Mildura (Loddon Mallee), VIC, Australia",
     "type": "safe-haven",
-    "lat": -36.7338,
-    "lng": 144.2918,
+    "lat": -36.7453,
+    "lng": 144.2753,
     "name": {
       "en": "Centre for Non-Violence (CNV Bendigo)"
     },
@@ -99062,8 +99062,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5025-u2",
     "regionDistrict": "Bendigo, Echuca & Mildura (Loddon Mallee), VIC, Australia",
     "type": "safe-haven",
-    "lat": -36.7178,
-    "lng": 144.2738,
+    "lat": -36.7503,
+    "lng": 144.2803,
     "name": {
       "en": "Mallee Domestic Violence Services"
     },
@@ -99118,8 +99118,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5026-u2",
     "regionDistrict": "Shepparton, Wangaratta & Wodonga (Hume / Goulburn Valley), VIC, Australia",
     "type": "hospital",
-    "lat": -36.3476,
-    "lng": 145.387,
+    "lat": -36.3611,
+    "lng": 145.4075,
     "name": {
       "en": "Albury Wodonga Health (Wodonga Maternity Campus)"
     },
@@ -99146,8 +99146,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5026",
     "regionDistrict": "Shepparton, Wangaratta & Wodonga (Hume / Goulburn Valley), VIC, Australia",
     "type": "safe-haven",
-    "lat": -36.3496,
-    "lng": 145.419,
+    "lat": -36.3611,
+    "lng": 145.4025,
     "name": {
       "en": "Marian Community (VincentCare Shepparton Family Violence Refuge)"
     },
@@ -99174,8 +99174,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5026-u2",
     "regionDistrict": "Shepparton, Wangaratta & Wodonga (Hume / Goulburn Valley), VIC, Australia",
     "type": "safe-haven",
-    "lat": -36.3336,
-    "lng": 145.401,
+    "lat": -36.3661,
+    "lng": 145.4075,
     "name": {
       "en": "Junction Support Services"
     },
@@ -99230,8 +99230,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5027-u2",
     "regionDistrict": "Traralgon, Sale & Bairnsdale (Gippsland), VIC, Australia",
     "type": "hospital",
-    "lat": -38.1862,
-    "lng": 146.4551,
+    "lat": -38.1997,
+    "lng": 146.4756,
     "name": {
       "en": "Bairnsdale Regional Health Service"
     },
@@ -99258,8 +99258,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5027",
     "regionDistrict": "Traralgon, Sale & Bairnsdale (Gippsland), VIC, Australia",
     "type": "safe-haven",
-    "lat": -38.1882,
-    "lng": 146.4871,
+    "lat": -38.1997,
+    "lng": 146.4706,
     "name": {
       "en": "Quantum Support Services Gippsland Women’s Refuge"
     },
@@ -99286,8 +99286,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5027-u2",
     "regionDistrict": "Traralgon, Sale & Bairnsdale (Gippsland), VIC, Australia",
     "type": "safe-haven",
-    "lat": -38.1722,
-    "lng": 146.4691,
+    "lat": -38.2047,
+    "lng": 146.4756,
     "name": {
       "en": "Gippsland Lakes Complete Health"
     },
@@ -99342,8 +99342,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5028",
     "regionDistrict": "Herston (North Brisbane), QLD, Australia",
     "type": "safe-haven",
-    "lat": -27.4329,
-    "lng": 153.0421,
+    "lat": -27.4444,
+    "lng": 153.0256,
     "name": {
       "en": "DVConnect Womensline (24/7 Queensland Crisis Refuge Network)"
     },
@@ -99370,8 +99370,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5028-u2",
     "regionDistrict": "Herston (North Brisbane), QLD, Australia",
     "type": "safe-haven",
-    "lat": -27.4169,
-    "lng": 153.0241,
+    "lat": -27.4494,
+    "lng": 153.0306,
     "name": {
       "en": "Brisbane Domestic Violence Service (Micah Projects)"
     },
@@ -99426,8 +99426,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5029",
     "regionDistrict": "South Brisbane, QLD, Australia",
     "type": "safe-haven",
-    "lat": -27.4707,
-    "lng": 153.0418,
+    "lat": -27.4822,
+    "lng": 153.0253,
     "name": {
       "en": "Sera’s Women’s Shelter"
     },
@@ -99454,8 +99454,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5029-u2",
     "regionDistrict": "South Brisbane, QLD, Australia",
     "type": "safe-haven",
-    "lat": -27.4547,
-    "lng": 153.0238,
+    "lat": -27.4872,
+    "lng": 153.0303,
     "name": {
       "en": "Immigrant Women’s Support Service"
     },
@@ -99510,8 +99510,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5030-u2",
     "regionDistrict": "Chermside, Caboolture & Redcliffe (Moreton Bay / Metro North), QLD, Australia",
     "type": "hospital",
-    "lat": -27.0682,
-    "lng": 152.9328,
+    "lat": -27.0817,
+    "lng": 152.9533,
     "name": {
       "en": "Redcliffe Hospital"
     },
@@ -99538,8 +99538,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5030-u3",
     "regionDistrict": "Chermside, Caboolture & Redcliffe (Moreton Bay / Metro North), QLD, Australia",
     "type": "hospital",
-    "lat": -27.1012,
-    "lng": 152.9698,
+    "lat": -27.0817,
+    "lng": 152.9533,
     "name": {
       "en": "The Prince Charles Hospital"
     },
@@ -99566,8 +99566,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5030",
     "regionDistrict": "Chermside, Caboolture & Redcliffe (Moreton Bay / Metro North), QLD, Australia",
     "type": "safe-haven",
-    "lat": -27.0702,
-    "lng": 152.9648,
+    "lat": -27.0817,
+    "lng": 152.9483,
     "name": {
       "en": "Centre Against Domestic Abuse (CADA Caboolture / Redcliffe / Moreton Bay Safe Refuge)"
     },
@@ -99622,8 +99622,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5031-u2",
     "regionDistrict": "Logan, Ipswich & Redland (Metro South / West Moreton), QLD, Australia",
     "type": "hospital",
-    "lat": -27.6537,
-    "lng": 153.1153,
+    "lat": -27.6672,
+    "lng": 153.1358,
     "name": {
       "en": "Ipswich Hospital"
     },
@@ -99650,8 +99650,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5031-u3",
     "regionDistrict": "Logan, Ipswich & Redland (Metro South / West Moreton), QLD, Australia",
     "type": "hospital",
-    "lat": -27.6867,
-    "lng": 153.1523,
+    "lat": -27.6672,
+    "lng": 153.1358,
     "name": {
       "en": "Redland Hospital"
     },
@@ -99678,8 +99678,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5031",
     "regionDistrict": "Logan, Ipswich & Redland (Metro South / West Moreton), QLD, Australia",
     "type": "safe-haven",
-    "lat": -27.6557,
-    "lng": 153.1473,
+    "lat": -27.6672,
+    "lng": 153.1308,
     "name": {
       "en": "YFS Domestic and Family Violence Service (Logan) , Domestic Violence Action Centre (Ipswich)"
     },
@@ -99706,8 +99706,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5031-u2",
     "regionDistrict": "Logan, Ipswich & Redland (Metro South / West Moreton), QLD, Australia",
     "type": "safe-haven",
-    "lat": -27.6397,
-    "lng": 153.1293,
+    "lat": -27.6722,
+    "lng": 153.1358,
     "name": {
       "en": "Maybanke Shelter"
     },
@@ -99762,8 +99762,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5032-u2",
     "regionDistrict": "Southport (Gold Coast), QLD, Australia",
     "type": "hospital",
-    "lat": -27.9437,
-    "lng": 153.3634,
+    "lat": -27.9572,
+    "lng": 153.3839,
     "name": {
       "en": "Gold Coast Private Hospital"
     },
@@ -99790,8 +99790,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5032-u3",
     "regionDistrict": "Southport (Gold Coast), QLD, Australia",
     "type": "hospital",
-    "lat": -27.9767,
-    "lng": 153.4004,
+    "lat": -27.9572,
+    "lng": 153.3839,
     "name": {
       "en": "John Flynn Private Hospital"
     },
@@ -99818,8 +99818,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5032",
     "regionDistrict": "Southport (Gold Coast), QLD, Australia",
     "type": "safe-haven",
-    "lat": -27.9457,
-    "lng": 153.3954,
+    "lat": -27.9572,
+    "lng": 153.3789,
     "name": {
       "en": "Domestic Violence Prevention Centre Gold Coast (24/7 Women’s Refuge)"
     },
@@ -99874,8 +99874,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5033-u2",
     "regionDistrict": "Birtinya (Sunshine Coast) & Gympie, QLD, Australia",
     "type": "hospital",
-    "lat": -26.7293,
-    "lng": 153.0989,
+    "lat": -26.7428,
+    "lng": 153.1194,
     "name": {
       "en": "Buderim Private Hospital"
     },
@@ -99902,8 +99902,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5033-u3",
     "regionDistrict": "Birtinya (Sunshine Coast) & Gympie, QLD, Australia",
     "type": "hospital",
-    "lat": -26.7623,
-    "lng": 153.1359,
+    "lat": -26.7428,
+    "lng": 153.1194,
     "name": {
       "en": "Gympie Hospital"
     },
@@ -99930,8 +99930,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5033",
     "regionDistrict": "Birtinya (Sunshine Coast) & Gympie, QLD, Australia",
     "type": "safe-haven",
-    "lat": -26.7313,
-    "lng": 153.1309,
+    "lat": -26.7428,
+    "lng": 153.1144,
     "name": {
       "en": "SunnyKids / Kyabra Sunshine Coast Women’s Refuge"
     },
@@ -99958,8 +99958,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5033-u2",
     "regionDistrict": "Birtinya (Sunshine Coast) & Gympie, QLD, Australia",
     "type": "safe-haven",
-    "lat": -26.7153,
-    "lng": 153.1129,
+    "lat": -26.7478,
+    "lng": 153.1194,
     "name": {
       "en": "Centacare Domestic Violence Service"
     },
@@ -100014,8 +100014,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5034-u2",
     "regionDistrict": "Toowoomba, Warwick & Stanthorpe (Darling Downs), QLD, Australia",
     "type": "hospital",
-    "lat": -27.5534,
-    "lng": 151.9289,
+    "lat": -27.5669,
+    "lng": 151.9494,
     "name": {
       "en": "St Vincent’s Private Hospital Toowoomba"
     },
@@ -100042,8 +100042,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5034-u3",
     "regionDistrict": "Toowoomba, Warwick & Stanthorpe (Darling Downs), QLD, Australia",
     "type": "hospital",
-    "lat": -27.5864,
-    "lng": 151.9659,
+    "lat": -27.5669,
+    "lng": 151.9494,
     "name": {
       "en": "Warwick Hospital"
     },
@@ -100070,8 +100070,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5034",
     "regionDistrict": "Toowoomba, Warwick & Stanthorpe (Darling Downs), QLD, Australia",
     "type": "safe-haven",
-    "lat": -27.5554,
-    "lng": 151.9609,
+    "lat": -27.5669,
+    "lng": 151.9444,
     "name": {
       "en": "Protegea Women’s Shelter (Toowoomba) & Domestic Violence Action Centre Darling Downs"
     },
@@ -100126,8 +100126,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5035-u2",
     "regionDistrict": "Bundaberg, Hervey Bay & Maryborough (Wide Bay), QLD, Australia",
     "type": "hospital",
-    "lat": -24.8521,
-    "lng": 152.3228,
+    "lat": -24.8656,
+    "lng": 152.3433,
     "name": {
       "en": "Hervey Bay Hospital (Wide Bay Maternity)"
     },
@@ -100154,8 +100154,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5035",
     "regionDistrict": "Bundaberg, Hervey Bay & Maryborough (Wide Bay), QLD, Australia",
     "type": "safe-haven",
-    "lat": -24.8541,
-    "lng": 152.3548,
+    "lat": -24.8656,
+    "lng": 152.3383,
     "name": {
       "en": "EDON Place Domestic & Family Violence Centre (Bundaberg)"
     },
@@ -100182,8 +100182,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5035-u2",
     "regionDistrict": "Bundaberg, Hervey Bay & Maryborough (Wide Bay), QLD, Australia",
     "type": "safe-haven",
-    "lat": -24.8381,
-    "lng": 152.3368,
+    "lat": -24.8706,
+    "lng": 152.3433,
     "name": {
       "en": "Yoorana Women’s Domestic Violence Resource Service"
     },
@@ -100238,8 +100238,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5036-u2",
     "regionDistrict": "Rockhampton, Gladstone & Emerald (Central Queensland), QLD, Australia",
     "type": "hospital",
-    "lat": -23.3646,
-    "lng": 150.4789,
+    "lat": -23.3781,
+    "lng": 150.4994,
     "name": {
       "en": "Mater Misericordiae Hospital Rockhampton"
     },
@@ -100266,8 +100266,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5036-u3",
     "regionDistrict": "Rockhampton, Gladstone & Emerald (Central Queensland), QLD, Australia",
     "type": "hospital",
-    "lat": -23.3976,
-    "lng": 150.5159,
+    "lat": -23.3781,
+    "lng": 150.4994,
     "name": {
       "en": "Gladstone Hospital"
     },
@@ -100294,8 +100294,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5036-u4",
     "regionDistrict": "Rockhampton, Gladstone & Emerald (Central Queensland), QLD, Australia",
     "type": "hospital",
-    "lat": -23.3586,
-    "lng": 150.5179,
+    "lat": -23.3781,
+    "lng": 150.4994,
     "name": {
       "en": "Emerald Hospital"
     },
@@ -100322,8 +100322,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5036",
     "regionDistrict": "Rockhampton, Gladstone & Emerald (Central Queensland), QLD, Australia",
     "type": "safe-haven",
-    "lat": -23.3666,
-    "lng": 150.5109,
+    "lat": -23.3781,
+    "lng": 150.4944,
     "name": {
       "en": "Women’s Health Information"
     },
@@ -100350,8 +100350,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5036-u2",
     "regionDistrict": "Rockhampton, Gladstone & Emerald (Central Queensland), QLD, Australia",
     "type": "safe-haven",
-    "lat": -23.3506,
-    "lng": 150.4929,
+    "lat": -23.3831,
+    "lng": 150.4994,
     "name": {
       "en": "Referral Service Central Queensland (WHIRSCQ)"
     },
@@ -100378,8 +100378,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5036-u3",
     "regionDistrict": "Rockhampton, Gladstone & Emerald (Central Queensland), QLD, Australia",
     "type": "safe-haven",
-    "lat": -23.3836,
-    "lng": 150.5299,
+    "lat": -23.3841,
+    "lng": 150.4944,
     "name": {
       "en": "Rockhampton Women’s Shelter"
     },
@@ -100434,8 +100434,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5037-u2",
     "regionDistrict": "Mackay & Proserpine (Whitsunday), QLD, Australia",
     "type": "hospital",
-    "lat": -21.1321,
-    "lng": 149.1381,
+    "lat": -21.1456,
+    "lng": 149.1586,
     "name": {
       "en": "Mater Private Hospital Mackay"
     },
@@ -100462,8 +100462,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5037-u3",
     "regionDistrict": "Mackay & Proserpine (Whitsunday), QLD, Australia",
     "type": "hospital",
-    "lat": -21.1651,
-    "lng": 149.1751,
+    "lat": -21.1456,
+    "lng": 149.1586,
     "name": {
       "en": "Proserpine Hospital"
     },
@@ -100490,8 +100490,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5037",
     "regionDistrict": "Mackay & Proserpine (Whitsunday), QLD, Australia",
     "type": "safe-haven",
-    "lat": -21.1341,
-    "lng": 149.1701,
+    "lat": -21.1456,
+    "lng": 149.1536,
     "name": {
       "en": "Mackay Women’s Services"
     },
@@ -100518,8 +100518,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5037-u2",
     "regionDistrict": "Mackay & Proserpine (Whitsunday), QLD, Australia",
     "type": "safe-haven",
-    "lat": -21.1181,
-    "lng": 149.1521,
+    "lat": -21.1506,
+    "lng": 149.1586,
     "name": {
       "en": "Samaritech Domestic Violence Crisis Refuge"
     },
@@ -100574,8 +100574,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5038-u2",
     "regionDistrict": "Townsville & Ayr / Charters Towers (North Queensland), QLD, Australia",
     "type": "hospital",
-    "lat": -19.3037,
-    "lng": 146.7448,
+    "lat": -19.3172,
+    "lng": 146.7653,
     "name": {
       "en": "Mater Private Hospital Townsville"
     },
@@ -100602,8 +100602,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5038",
     "regionDistrict": "Townsville & Ayr / Charters Towers (North Queensland), QLD, Australia",
     "type": "safe-haven",
-    "lat": -19.3057,
-    "lng": 146.7768,
+    "lat": -19.3172,
+    "lng": 146.7603,
     "name": {
       "en": "North Queensland Combined Women’s Services (The Women’s Centre Townsville)"
     },
@@ -100630,8 +100630,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5038-u2",
     "regionDistrict": "Townsville & Ayr / Charters Towers (North Queensland), QLD, Australia",
     "type": "safe-haven",
-    "lat": -19.2897,
-    "lng": 146.7588,
+    "lat": -19.3222,
+    "lng": 146.7653,
     "name": {
       "en": "Sera’s Shelter"
     },
@@ -100686,8 +100686,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5039-u2",
     "regionDistrict": "Cairns, Innisfail & Atherton (Far North Queensland), QLD, Australia",
     "type": "hospital",
-    "lat": -16.8965,
-    "lng": 145.7509,
+    "lat": -16.91,
+    "lng": 145.7714,
     "name": {
       "en": "Cairns Private Hospital"
     },
@@ -100714,8 +100714,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5039-u3",
     "regionDistrict": "Cairns, Innisfail & Atherton (Far North Queensland), QLD, Australia",
     "type": "hospital",
-    "lat": -16.9295,
-    "lng": 145.7879,
+    "lat": -16.91,
+    "lng": 145.7714,
     "name": {
       "en": "Atherton Hospital"
     },
@@ -100742,8 +100742,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5039-u4",
     "regionDistrict": "Cairns, Innisfail & Atherton (Far North Queensland), QLD, Australia",
     "type": "hospital",
-    "lat": -16.8905,
-    "lng": 145.7899,
+    "lat": -16.91,
+    "lng": 145.7714,
     "name": {
       "en": "Innisfail Hospital"
     },
@@ -100770,8 +100770,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5039",
     "regionDistrict": "Cairns, Innisfail & Atherton (Far North Queensland), QLD, Australia",
     "type": "safe-haven",
-    "lat": -16.8985,
-    "lng": 145.7829,
+    "lat": -16.91,
+    "lng": 145.7664,
     "name": {
       "en": "Ruth’s Women’s Shelter Cairns, Cairns Regional Domestic Violence Service"
     },
@@ -100798,8 +100798,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5039-u2",
     "regionDistrict": "Cairns, Innisfail & Atherton (Far North Queensland), QLD, Australia",
     "type": "safe-haven",
-    "lat": -16.8825,
-    "lng": 145.7649,
+    "lat": -16.915,
+    "lng": 145.7714,
     "name": {
       "en": "Warringu Aboriginal"
     },
@@ -100826,8 +100826,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5039-u3",
     "regionDistrict": "Cairns, Innisfail & Atherton (Far North Queensland), QLD, Australia",
     "type": "safe-haven",
-    "lat": -16.9155,
-    "lng": 145.8019,
+    "lat": -16.916,
+    "lng": 145.7664,
     "name": {
       "en": "Torres Strait Islander Corporation"
     },
@@ -100882,8 +100882,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5040-u2",
     "regionDistrict": "Thursday Island (Torres Strait) & Weipa / Cooktown (Cape York Peninsula), QLD, Australia",
     "type": "hospital",
-    "lat": -10.5676,
-    "lng": 142.202,
+    "lat": -10.5811,
+    "lng": 142.2225,
     "name": {
       "en": "Bamaga Hospital"
     },
@@ -100910,8 +100910,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5040-u3",
     "regionDistrict": "Thursday Island (Torres Strait) & Weipa / Cooktown (Cape York Peninsula), QLD, Australia",
     "type": "hospital",
-    "lat": -10.6006,
-    "lng": 142.239,
+    "lat": -10.5811,
+    "lng": 142.2225,
     "name": {
       "en": "Weipa Integrated Health Service"
     },
@@ -100938,8 +100938,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5040-u4",
     "regionDistrict": "Thursday Island (Torres Strait) & Weipa / Cooktown (Cape York Peninsula), QLD, Australia",
     "type": "hospital",
-    "lat": -10.5616,
-    "lng": 142.241,
+    "lat": -10.5811,
+    "lng": 142.2225,
     "name": {
       "en": "Cooktown Hospital"
     },
@@ -100966,8 +100966,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5040",
     "regionDistrict": "Thursday Island (Torres Strait) & Weipa / Cooktown (Cape York Peninsula), QLD, Australia",
     "type": "safe-haven",
-    "lat": -10.5696,
-    "lng": 142.234,
+    "lat": -10.5811,
+    "lng": 142.2175,
     "name": {
       "en": "Mura Kosker Sorority (Torres Strait Women’s Shelter)"
     },
@@ -100994,8 +100994,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5040-u2",
     "regionDistrict": "Thursday Island (Torres Strait) & Weipa / Cooktown (Cape York Peninsula), QLD, Australia",
     "type": "safe-haven",
-    "lat": -10.5536,
-    "lng": 142.216,
+    "lat": -10.5861,
+    "lng": 142.2225,
     "name": {
       "en": "Cape York Family Violence Prevention Legal Service"
     },
@@ -101050,8 +101050,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5041-u2",
     "regionDistrict": "Mount Isa, Longreach & Roma (Outback North West, Central West & South West QLD), QLD, Australia",
     "type": "hospital",
-    "lat": -20.7129,
-    "lng": 139.4787,
+    "lat": -20.7264,
+    "lng": 139.4992,
     "name": {
       "en": "Longreach Hospital"
     },
@@ -101078,8 +101078,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5041-u3",
     "regionDistrict": "Mount Isa, Longreach & Roma (Outback North West, Central West & South West QLD), QLD, Australia",
     "type": "hospital",
-    "lat": -20.7459,
-    "lng": 139.5157,
+    "lat": -20.7264,
+    "lng": 139.4992,
     "name": {
       "en": "Roma Hospital (South West Health)"
     },
@@ -101106,8 +101106,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5041",
     "regionDistrict": "Mount Isa, Longreach & Roma (Outback North West, Central West & South West QLD), QLD, Australia",
     "type": "safe-haven",
-    "lat": -20.7149,
-    "lng": 139.5107,
+    "lat": -20.7264,
+    "lng": 139.4942,
     "name": {
       "en": "Nawamba House Women’s Shelter (Mount Isa) & Outback Queensland Domestic Violence Support Service"
     },
@@ -101162,8 +101162,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5042-u2",
     "regionDistrict": "Subiaco & Nedlands (Central Perth), WA, Australia",
     "type": "hospital",
-    "lat": -31.934,
-    "lng": 115.7976,
+    "lat": -31.9475,
+    "lng": 115.8181,
     "name": {
       "en": "St John of God Subiaco"
     },
@@ -101190,8 +101190,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5042",
     "regionDistrict": "Subiaco & Nedlands (Central Perth), WA, Australia",
     "type": "safe-haven",
-    "lat": -31.936,
-    "lng": 115.8296,
+    "lat": -31.9475,
+    "lng": 115.8131,
     "name": {
       "en": "Orana House Women’s Refuge"
     },
@@ -101218,8 +101218,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5042-u2",
     "regionDistrict": "Subiaco & Nedlands (Central Perth), WA, Australia",
     "type": "safe-haven",
-    "lat": -31.92,
-    "lng": 115.8116,
+    "lat": -31.9525,
+    "lng": 115.8181,
     "name": {
       "en": "Nardine Wimmin’s Refuge"
     },
@@ -101246,8 +101246,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5042-u3",
     "regionDistrict": "Subiaco & Nedlands (Central Perth), WA, Australia",
     "type": "safe-haven",
-    "lat": -31.953,
-    "lng": 115.8486,
+    "lat": -31.9535,
+    "lng": 115.8131,
     "name": {
       "en": "Patricia Giles Centre for Non-Violence"
     },
@@ -101302,8 +101302,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5043-u2",
     "regionDistrict": "Murdoch & Rockingham (South Metro Perth), WA, Australia",
     "type": "hospital",
-    "lat": -32.0532,
-    "lng": 115.8278,
+    "lat": -32.0667,
+    "lng": 115.8483,
     "name": {
       "en": "Rockingham General Hospital"
     },
@@ -101330,8 +101330,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5043",
     "regionDistrict": "Murdoch & Rockingham (South Metro Perth), WA, Australia",
     "type": "safe-haven",
-    "lat": -32.0552,
-    "lng": 115.8598,
+    "lat": -32.0667,
+    "lng": 115.8433,
     "name": {
       "en": "Lucy Saw Centre Association (Rockingham / Mandurah Women’s Refuge)"
     },
@@ -101358,8 +101358,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5043-u2",
     "regionDistrict": "Murdoch & Rockingham (South Metro Perth), WA, Australia",
     "type": "safe-haven",
-    "lat": -32.0392,
-    "lng": 115.8418,
+    "lat": -32.0717,
+    "lng": 115.8483,
     "name": {
       "en": "Zonta House Refuge Association"
     },
@@ -101414,8 +101414,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5044-u2",
     "regionDistrict": "Joondalup & Osborne Park (North Metro Perth), WA, Australia",
     "type": "hospital",
-    "lat": -31.7257,
-    "lng": 115.7542,
+    "lat": -31.7392,
+    "lng": 115.7747,
     "name": {
       "en": "Osborne Park Hospital (Women & Newborn Health Service)"
     },
@@ -101442,8 +101442,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5044",
     "regionDistrict": "Joondalup & Osborne Park (North Metro Perth), WA, Australia",
     "type": "safe-haven",
-    "lat": -31.7277,
-    "lng": 115.7862,
+    "lat": -31.7392,
+    "lng": 115.7697,
     "name": {
       "en": "Naomi Women’s Refuge"
     },
@@ -101470,8 +101470,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5044-u2",
     "regionDistrict": "Joondalup & Osborne Park (North Metro Perth), WA, Australia",
     "type": "safe-haven",
-    "lat": -31.7117,
-    "lng": 115.7682,
+    "lat": -31.7442,
+    "lng": 115.7747,
     "name": {
       "en": "Stirling Women’s Centre (North Perth)"
     },
@@ -101526,8 +101526,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5045-u2",
     "regionDistrict": "Midland & Armadale (East Metro Perth), WA, Australia",
     "type": "hospital",
-    "lat": -31.8746,
-    "lng": 115.9992,
+    "lat": -31.8881,
+    "lng": 116.0197,
     "name": {
       "en": "Private Hospital (Maternity)"
     },
@@ -101554,8 +101554,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5045-u3",
     "regionDistrict": "Midland & Armadale (East Metro Perth), WA, Australia",
     "type": "hospital",
-    "lat": -31.9076,
-    "lng": 116.0362,
+    "lat": -31.8881,
+    "lng": 116.0197,
     "name": {
       "en": "Armadale Health Service"
     },
@@ -101582,8 +101582,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5045",
     "regionDistrict": "Midland & Armadale (East Metro Perth), WA, Australia",
     "type": "safe-haven",
-    "lat": -31.8766,
-    "lng": 116.0312,
+    "lat": -31.8881,
+    "lng": 116.0147,
     "name": {
       "en": "Koolkuna Women’s Refuge (Midland)"
     },
@@ -101610,8 +101610,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5045-u2",
     "regionDistrict": "Midland & Armadale (East Metro Perth), WA, Australia",
     "type": "safe-haven",
-    "lat": -31.8606,
-    "lng": 116.0132,
+    "lat": -31.8931,
+    "lng": 116.0197,
     "name": {
       "en": "Starick Services Women’s Refuges (South East Metro Perth)"
     },
@@ -101666,8 +101666,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5046-u2",
     "regionDistrict": "Bunbury, Busselton & Mandurah (Peel & South West WA), WA, Australia",
     "type": "hospital",
-    "lat": -33.354,
-    "lng": 115.6292,
+    "lat": -33.3675,
+    "lng": 115.6497,
     "name": {
       "en": "Busselton Health Campus"
     },
@@ -101694,8 +101694,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5046-u3",
     "regionDistrict": "Bunbury, Busselton & Mandurah (Peel & South West WA), WA, Australia",
     "type": "hospital",
-    "lat": -33.387,
-    "lng": 115.6662,
+    "lat": -33.3675,
+    "lng": 115.6497,
     "name": {
       "en": "Peel Health Campus"
     },
@@ -101722,8 +101722,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5046",
     "regionDistrict": "Bunbury, Busselton & Mandurah (Peel & South West WA), WA, Australia",
     "type": "safe-haven",
-    "lat": -33.356,
-    "lng": 115.6612,
+    "lat": -33.3675,
+    "lng": 115.6447,
     "name": {
       "en": "South West Refuge Inc. (Bunbury)"
     },
@@ -101750,8 +101750,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5046-u2",
     "regionDistrict": "Bunbury, Busselton & Mandurah (Peel & South West WA), WA, Australia",
     "type": "safe-haven",
-    "lat": -33.34,
-    "lng": 115.6432,
+    "lat": -33.3725,
+    "lng": 115.6497,
     "name": {
       "en": "Pat Thomas House (Mandurah) & AccordWest"
     },
@@ -101806,8 +101806,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5047-u2",
     "regionDistrict": "Albany, Katanning & Narrogin (Great Southern & Wheatbelt WA), WA, Australia",
     "type": "hospital",
-    "lat": -34.9954,
-    "lng": 117.8842,
+    "lat": -35.0089,
+    "lng": 117.9047,
     "name": {
       "en": "Katanning Health Service"
     },
@@ -101834,8 +101834,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5047-u3",
     "regionDistrict": "Albany, Katanning & Narrogin (Great Southern & Wheatbelt WA), WA, Australia",
     "type": "hospital",
-    "lat": -35.0284,
-    "lng": 117.9212,
+    "lat": -35.0089,
+    "lng": 117.9047,
     "name": {
       "en": "Narrogin Health Service"
     },
@@ -101862,8 +101862,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5047-u4",
     "regionDistrict": "Albany, Katanning & Narrogin (Great Southern & Wheatbelt WA), WA, Australia",
     "type": "hospital",
-    "lat": -34.9894,
-    "lng": 117.9232,
+    "lat": -35.0089,
+    "lng": 117.9047,
     "name": {
       "en": "Northam Health Service"
     },
@@ -101890,8 +101890,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5047",
     "regionDistrict": "Albany, Katanning & Narrogin (Great Southern & Wheatbelt WA), WA, Australia",
     "type": "safe-haven",
-    "lat": -34.9974,
-    "lng": 117.9162,
+    "lat": -35.0089,
+    "lng": 117.8997,
     "name": {
       "en": "Albany Women’s Centre (Anglicare WA Safe Refuge)"
     },
@@ -101918,8 +101918,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5047-u2",
     "regionDistrict": "Albany, Katanning & Narrogin (Great Southern & Wheatbelt WA), WA, Australia",
     "type": "safe-haven",
-    "lat": -34.9814,
-    "lng": 117.8982,
+    "lat": -35.0139,
+    "lng": 117.9047,
     "name": {
       "en": "Wheatbelt Domestic Violence Crisis Service"
     },
@@ -101974,8 +101974,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5048-u2",
     "regionDistrict": "Kalgoorlie & Esperance (Goldfields-Esperance Outback), WA, Australia",
     "type": "hospital",
-    "lat": -30.7282,
-    "lng": 121.4487,
+    "lat": -30.7417,
+    "lng": 121.4692,
     "name": {
       "en": "Esperance Health Campus"
     },
@@ -102002,8 +102002,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5048",
     "regionDistrict": "Kalgoorlie & Esperance (Goldfields-Esperance Outback), WA, Australia",
     "type": "safe-haven",
-    "lat": -30.7302,
-    "lng": 121.4807,
+    "lat": -30.7417,
+    "lng": 121.4642,
     "name": {
       "en": "Finlayson House (Kalgoorlie Women’s Refuge)"
     },
@@ -102030,8 +102030,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5048-u2",
     "regionDistrict": "Kalgoorlie & Esperance (Goldfields-Esperance Outback), WA, Australia",
     "type": "safe-haven",
-    "lat": -30.7142,
-    "lng": 121.4627,
+    "lat": -30.7467,
+    "lng": 121.4692,
     "name": {
       "en": "Esperance Crisis Accommodation Service"
     },
@@ -102086,8 +102086,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5049-u2",
     "regionDistrict": "Geraldton & Carnarvon (Midwest & Gascoyne WA), WA, Australia",
     "type": "hospital",
-    "lat": -28.7687,
-    "lng": 114.5967,
+    "lat": -28.7822,
+    "lng": 114.6172,
     "name": {
       "en": "Carnarvon Health Campus"
     },
@@ -102114,8 +102114,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5049",
     "regionDistrict": "Geraldton & Carnarvon (Midwest & Gascoyne WA), WA, Australia",
     "type": "safe-haven",
-    "lat": -28.7707,
-    "lng": 114.6287,
+    "lat": -28.7822,
+    "lng": 114.6122,
     "name": {
       "en": "Chrysalis Support Services (Geraldton Women’s Refuge)"
     },
@@ -102142,8 +102142,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5049-u2",
     "regionDistrict": "Geraldton & Carnarvon (Midwest & Gascoyne WA), WA, Australia",
     "type": "safe-haven",
-    "lat": -28.7547,
-    "lng": 114.6107,
+    "lat": -28.7872,
+    "lng": 114.6172,
     "name": {
       "en": "Carnarvon Family Support Service"
     },
@@ -102198,8 +102198,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5050-u2",
     "regionDistrict": "Port Hedland, Karratha & Newman (Pilbara Region), WA, Australia",
     "type": "hospital",
-    "lat": -20.3662,
-    "lng": 118.5881,
+    "lat": -20.3797,
+    "lng": 118.6086,
     "name": {
       "en": "Karratha Health Campus"
     },
@@ -102226,8 +102226,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5050-u3",
     "regionDistrict": "Port Hedland, Karratha & Newman (Pilbara Region), WA, Australia",
     "type": "hospital",
-    "lat": -20.3992,
-    "lng": 118.6251,
+    "lat": -20.3797,
+    "lng": 118.6086,
     "name": {
       "en": "Newman Health Service"
     },
@@ -102254,8 +102254,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5050",
     "regionDistrict": "Port Hedland, Karratha & Newman (Pilbara Region), WA, Australia",
     "type": "safe-haven",
-    "lat": -20.3682,
-    "lng": 118.6201,
+    "lat": -20.3797,
+    "lng": 118.6036,
     "name": {
       "en": "Hedland Women’s Refuge"
     },
@@ -102282,8 +102282,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5050-u2",
     "regionDistrict": "Port Hedland, Karratha & Newman (Pilbara Region), WA, Australia",
     "type": "safe-haven",
-    "lat": -20.3522,
-    "lng": 118.6021,
+    "lat": -20.3847,
+    "lng": 118.6086,
     "name": {
       "en": "Salvation Army Karratha Women’s Refuge"
     },
@@ -102310,8 +102310,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5050-u3",
     "regionDistrict": "Port Hedland, Karratha & Newman (Pilbara Region), WA, Australia",
     "type": "safe-haven",
-    "lat": -20.3852,
-    "lng": 118.6391,
+    "lat": -20.3857,
+    "lng": 118.6036,
     "name": {
       "en": "Newman Women’s Shelter"
     },
@@ -102366,8 +102366,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5051-u2",
     "regionDistrict": "Broome, Derby & Kununurra (Kimberley Outback), WA, Australia",
     "type": "hospital",
-    "lat": -17.9432,
-    "lng": 122.2209,
+    "lat": -17.9567,
+    "lng": 122.2414,
     "name": {
       "en": "Derby Hospital"
     },
@@ -102394,8 +102394,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5051-u3",
     "regionDistrict": "Broome, Derby & Kununurra (Kimberley Outback), WA, Australia",
     "type": "hospital",
-    "lat": -17.9762,
-    "lng": 122.2579,
+    "lat": -17.9567,
+    "lng": 122.2414,
     "name": {
       "en": "Kununurra District Hospital"
     },
@@ -102422,8 +102422,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5051",
     "regionDistrict": "Broome, Derby & Kununurra (Kimberley Outback), WA, Australia",
     "type": "safe-haven",
-    "lat": -17.9452,
-    "lng": 122.2529,
+    "lat": -17.9567,
+    "lng": 122.2364,
     "name": {
       "en": "Marnja Jarndu Women’s Refuge (Broome)"
     },
@@ -102450,8 +102450,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5051-u2",
     "regionDistrict": "Broome, Derby & Kununurra (Kimberley Outback), WA, Australia",
     "type": "safe-haven",
-    "lat": -17.9292,
-    "lng": 122.2349,
+    "lat": -17.9617,
+    "lng": 122.2414,
     "name": {
       "en": "Derby Family Healing Centre"
     },
@@ -102478,8 +102478,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5051-u3",
     "regionDistrict": "Broome, Derby & Kununurra (Kimberley Outback), WA, Australia",
     "type": "safe-haven",
-    "lat": -17.9622,
-    "lng": 122.2719,
+    "lat": -17.9627,
+    "lng": 122.2364,
     "name": {
       "en": "Gawooleng Yawoodeng Aboriginal Corporation"
     },
@@ -102534,8 +102534,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5052-u2",
     "regionDistrict": "North Adelaide & Central Adelaide, SA, Australia",
     "type": "hospital",
-    "lat": -34.8965,
-    "lng": 138.5823,
+    "lat": -34.91,
+    "lng": 138.6028,
     "name": {
       "en": "Calvary North Adelaide"
     },
@@ -102562,8 +102562,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5052",
     "regionDistrict": "North Adelaide & Central Adelaide, SA, Australia",
     "type": "safe-haven",
-    "lat": -34.8985,
-    "lng": 138.6143,
+    "lat": -34.91,
+    "lng": 138.5978,
     "name": {
       "en": "Women’s Safety Services SA (24/7 Adelaide Crisis Sanctuary)"
     },
@@ -102590,8 +102590,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5052-u2",
     "regionDistrict": "North Adelaide & Central Adelaide, SA, Australia",
     "type": "safe-haven",
-    "lat": -34.8825,
-    "lng": 138.5963,
+    "lat": -34.915,
+    "lng": 138.6028,
     "name": {
       "en": "Catherine House for Women"
     },
@@ -102646,8 +102646,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5053-u2",
     "regionDistrict": "Bedford Park (South Adelaide) & Elizabeth Vale (North Metro Adelaide), SA, Australia",
     "type": "hospital",
-    "lat": -35.0048,
-    "lng": 138.5514,
+    "lat": -35.0183,
+    "lng": 138.5719,
     "name": {
       "en": "Lyell McEwin Hospital (Northern Adelaide Maternity)"
     },
@@ -102674,8 +102674,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5053",
     "regionDistrict": "Bedford Park (South Adelaide) & Elizabeth Vale (North Metro Adelaide), SA, Australia",
     "type": "safe-haven",
-    "lat": -35.0068,
-    "lng": 138.5834,
+    "lat": -35.0183,
+    "lng": 138.5669,
     "name": {
       "en": "Southern Domestic Violence Service"
     },
@@ -102702,8 +102702,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5053-u2",
     "regionDistrict": "Bedford Park (South Adelaide) & Elizabeth Vale (North Metro Adelaide), SA, Australia",
     "type": "safe-haven",
-    "lat": -34.9908,
-    "lng": 138.5654,
+    "lat": -35.0233,
+    "lng": 138.5719,
     "name": {
       "en": "Northern Adelaide Domestic Violence Crisis Refuge"
     },
@@ -102758,8 +102758,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5054-u2",
     "regionDistrict": "Mount Gambier, Berri (Riverland) & Murray Bridge, SA, Australia",
     "type": "hospital",
-    "lat": -37.7976,
-    "lng": 140.7501,
+    "lat": -37.8111,
+    "lng": 140.7706,
     "name": {
       "en": "Riverland General Hospital (Berri)"
     },
@@ -102786,8 +102786,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5054-u3",
     "regionDistrict": "Mount Gambier, Berri (Riverland) & Murray Bridge, SA, Australia",
     "type": "hospital",
-    "lat": -37.8306,
-    "lng": 140.7871,
+    "lat": -37.8111,
+    "lng": 140.7706,
     "name": {
       "en": "Murray Bridge Soldiers’ Memorial Hospital"
     },
@@ -102814,8 +102814,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5054",
     "regionDistrict": "Mount Gambier, Berri (Riverland) & Murray Bridge, SA, Australia",
     "type": "safe-haven",
-    "lat": -37.7996,
-    "lng": 140.7821,
+    "lat": -37.8111,
+    "lng": 140.7656,
     "name": {
       "en": "Limestone Coast Domestic Violence Service (Mount Gambier)"
     },
@@ -102842,8 +102842,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5054-u2",
     "regionDistrict": "Mount Gambier, Berri (Riverland) & Murray Bridge, SA, Australia",
     "type": "safe-haven",
-    "lat": -37.7836,
-    "lng": 140.7641,
+    "lat": -37.8161,
+    "lng": 140.7706,
     "name": {
       "en": "Riverland Domestic Violence Service"
     },
@@ -102898,8 +102898,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5055-u2",
     "regionDistrict": "Whyalla, Port Augusta, Port Pirie & Port Lincoln / Ceduna (Eyre & Far North SA), SA, Australia",
     "type": "hospital",
-    "lat": -32.4793,
-    "lng": 137.757,
+    "lat": -32.4928,
+    "lng": 137.7775,
     "name": {
       "en": "Whyalla Hospital"
     },
@@ -102926,8 +102926,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5055-u3",
     "regionDistrict": "Whyalla, Port Augusta, Port Pirie & Port Lincoln / Ceduna (Eyre & Far North SA), SA, Australia",
     "type": "hospital",
-    "lat": -32.5123,
-    "lng": 137.794,
+    "lat": -32.4928,
+    "lng": 137.7775,
     "name": {
       "en": "Port Lincoln Hospital"
     },
@@ -102954,8 +102954,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5055-u4",
     "regionDistrict": "Whyalla, Port Augusta, Port Pirie & Port Lincoln / Ceduna (Eyre & Far North SA), SA, Australia",
     "type": "hospital",
-    "lat": -32.4733,
-    "lng": 137.796,
+    "lat": -32.4928,
+    "lng": 137.7775,
     "name": {
       "en": "Ceduna District Health Services"
     },
@@ -102982,8 +102982,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5055",
     "regionDistrict": "Whyalla, Port Augusta, Port Pirie & Port Lincoln / Ceduna (Eyre & Far North SA), SA, Australia",
     "type": "safe-haven",
-    "lat": -32.4813,
-    "lng": 137.789,
+    "lat": -32.4928,
+    "lng": 137.7725,
     "name": {
       "en": "Yarredi Services (Port Lincoln), Kornar Winmil Yunti"
     },
@@ -103010,8 +103010,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5055-u2",
     "regionDistrict": "Whyalla, Port Augusta, Port Pirie & Port Lincoln / Ceduna (Eyre & Far North SA), SA, Australia",
     "type": "safe-haven",
-    "lat": -32.4653,
-    "lng": 137.771,
+    "lat": -32.4978,
+    "lng": 137.7775,
     "name": {
       "en": "Far North SA Aboriginal Women’s Safe House (Port Augusta / Ceduna)"
     },
@@ -103066,8 +103066,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5056-u2",
     "regionDistrict": "Hobart, TAS, Australia",
     "type": "hospital",
-    "lat": -42.8634,
-    "lng": 147.3114,
+    "lat": -42.8769,
+    "lng": 147.3319,
     "name": {
       "en": "Hobart Private Hospital"
     },
@@ -103094,8 +103094,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5056",
     "regionDistrict": "Hobart, TAS, Australia",
     "type": "safe-haven",
-    "lat": -42.8654,
-    "lng": 147.3434,
+    "lat": -42.8769,
+    "lng": 147.3269,
     "name": {
       "en": "Hobart Women’s Shelter, Annie Kenney Young Women’s Emergency Accommodation & Safe Choices Tasmania"
     },
@@ -103150,8 +103150,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5057-u2",
     "regionDistrict": "Launceston, Burnie & Latrobe (Northern & North West Tasmania), TAS, Australia",
     "type": "hospital",
-    "lat": -41.429,
-    "lng": 147.1256,
+    "lat": -41.4425,
+    "lng": 147.1461,
     "name": {
       "en": "North West Regional Hospital (Burnie)"
     },
@@ -103178,8 +103178,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5057-u3",
     "regionDistrict": "Launceston, Burnie & Latrobe (Northern & North West Tasmania), TAS, Australia",
     "type": "hospital",
-    "lat": -41.462,
-    "lng": 147.1626,
+    "lat": -41.4425,
+    "lng": 147.1461,
     "name": {
       "en": "Mersey Community Hospital"
     },
@@ -103206,8 +103206,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5057",
     "regionDistrict": "Launceston, Burnie & Latrobe (Northern & North West Tasmania), TAS, Australia",
     "type": "safe-haven",
-    "lat": -41.431,
-    "lng": 147.1576,
+    "lat": -41.4425,
+    "lng": 147.1411,
     "name": {
       "en": "Magnolia Place (Launceston Women’s Shelter)"
     },
@@ -103234,8 +103234,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5057-u2",
     "regionDistrict": "Launceston, Burnie & Latrobe (Northern & North West Tasmania), TAS, Australia",
     "type": "safe-haven",
-    "lat": -41.415,
-    "lng": 147.1396,
+    "lat": -41.4475,
+    "lng": 147.1461,
     "name": {
       "en": "Warrawee Women’s Shelter (Ulverstone / Burnie)"
     },
@@ -103290,8 +103290,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5058-u2",
     "regionDistrict": "Garran & Bruce (Canberra), ACT, Australia",
     "type": "hospital",
-    "lat": -35.3296,
-    "lng": 149.0828,
+    "lat": -35.3431,
+    "lng": 149.1033,
     "name": {
       "en": "North Canberra Hospital (Calvary Bruce Maternity)"
     },
@@ -103318,8 +103318,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5058",
     "regionDistrict": "Garran & Bruce (Canberra), ACT, Australia",
     "type": "safe-haven",
-    "lat": -35.3316,
-    "lng": 149.1148,
+    "lat": -35.3431,
+    "lng": 149.0983,
     "name": {
       "en": "Beryl Women Inc. (Canberra’s Longest-Running Women’s Refuge)"
     },
@@ -103346,8 +103346,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5058-u2",
     "regionDistrict": "Garran & Bruce (Canberra), ACT, Australia",
     "type": "safe-haven",
-    "lat": -35.3156,
-    "lng": 149.0968,
+    "lat": -35.3481,
+    "lng": 149.1033,
     "name": {
       "en": "Doris Women’s Refuge & Domestic Violence Crisis Service ACT"
     },
@@ -103402,8 +103402,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5059-u2",
     "regionDistrict": "Tiwi (Darwin) & Palmerston, NT, Australia",
     "type": "hospital",
-    "lat": -12.3459,
-    "lng": 130.8689,
+    "lat": -12.3594,
+    "lng": 130.8894,
     "name": {
       "en": "Darwin Private Hospital"
     },
@@ -103430,8 +103430,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5059-u3",
     "regionDistrict": "Tiwi (Darwin) & Palmerston, NT, Australia",
     "type": "hospital",
-    "lat": -12.3789,
-    "lng": 130.9059,
+    "lat": -12.3594,
+    "lng": 130.8894,
     "name": {
       "en": "Palmerston Regional Hospital"
     },
@@ -103458,8 +103458,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5059",
     "regionDistrict": "Tiwi (Darwin) & Palmerston, NT, Australia",
     "type": "safe-haven",
-    "lat": -12.3479,
-    "lng": 130.9009,
+    "lat": -12.3594,
+    "lng": 130.8844,
     "name": {
       "en": "Dawn House Women’s Shelter (Darwin)"
     },
@@ -103486,8 +103486,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5059-u2",
     "regionDistrict": "Tiwi (Darwin) & Palmerston, NT, Australia",
     "type": "safe-haven",
-    "lat": -12.3319,
-    "lng": 130.8829,
+    "lat": -12.3644,
+    "lng": 130.8894,
     "name": {
       "en": "Catherine Booth House"
     },
@@ -103514,8 +103514,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5059-u3",
     "regionDistrict": "Tiwi (Darwin) & Palmerston, NT, Australia",
     "type": "safe-haven",
-    "lat": -12.3649,
-    "lng": 130.9199,
+    "lat": -12.3654,
+    "lng": 130.8844,
     "name": {
       "en": "Ruby Gaea Darwin Centre Against Sexual Violence"
     },
@@ -103570,8 +103570,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5060-u2",
     "regionDistrict": "Katherine, Nhulunbuy (East Arnhem Land) & Tennant Creek (Barkly), NT, Australia",
     "type": "hospital",
-    "lat": -14.449,
-    "lng": 132.2453,
+    "lat": -14.4625,
+    "lng": 132.2658,
     "name": {
       "en": "Gove District Hospital (Nhulunbuy East Arnhem)"
     },
@@ -103598,8 +103598,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5060-u3",
     "regionDistrict": "Katherine, Nhulunbuy (East Arnhem Land) & Tennant Creek (Barkly), NT, Australia",
     "type": "hospital",
-    "lat": -14.482,
-    "lng": 132.2823,
+    "lat": -14.4625,
+    "lng": 132.2658,
     "name": {
       "en": "Tennant Creek Hospital"
     },
@@ -103626,8 +103626,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5060",
     "regionDistrict": "Katherine, Nhulunbuy (East Arnhem Land) & Tennant Creek (Barkly), NT, Australia",
     "type": "safe-haven",
-    "lat": -14.451,
-    "lng": 132.2773,
+    "lat": -14.4625,
+    "lng": 132.2608,
     "name": {
       "en": "Katherine Women’s Crisis Centre"
     },
@@ -103654,8 +103654,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5060-u2",
     "regionDistrict": "Katherine, Nhulunbuy (East Arnhem Land) & Tennant Creek (Barkly), NT, Australia",
     "type": "safe-haven",
-    "lat": -14.435,
-    "lng": 132.2593,
+    "lat": -14.4675,
+    "lng": 132.2658,
     "name": {
       "en": "East Arnhem Safe House (Nhulunbuy)"
     },
@@ -103682,8 +103682,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5060-u3",
     "regionDistrict": "Katherine, Nhulunbuy (East Arnhem Land) & Tennant Creek (Barkly), NT, Australia",
     "type": "safe-haven",
-    "lat": -14.468,
-    "lng": 132.2963,
+    "lat": -14.4685,
+    "lng": 132.2608,
     "name": {
       "en": "Tennant Creek Women’s Refuge"
     },
@@ -103738,8 +103738,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-hosp-5061-u2",
     "regionDistrict": "Alice Springs (Central Australia / Red Centre), NT, Australia",
     "type": "hospital",
-    "lat": -23.6909,
-    "lng": 133.8601,
+    "lat": -23.7044,
+    "lng": 133.8806,
     "name": {
       "en": "Congress Alukura Aboriginal Women’s Birthing Service"
     },
@@ -103766,8 +103766,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5061",
     "regionDistrict": "Alice Springs (Central Australia / Red Centre), NT, Australia",
     "type": "safe-haven",
-    "lat": -23.6929,
-    "lng": 133.8921,
+    "lat": -23.7044,
+    "lng": 133.8756,
     "name": {
       "en": "Women’s Safety Services of Central Australia (WoSSCA Alice Springs Shelter)"
     },
@@ -103794,8 +103794,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "aus-safe-5061-u2",
     "regionDistrict": "Alice Springs (Central Australia / Red Centre), NT, Australia",
     "type": "safe-haven",
-    "lat": -23.6769,
-    "lng": 133.8741,
+    "lat": -23.7094,
+    "lng": 133.8806,
     "name": {
       "en": "NPY Women’s Council Domestic Violence Service"
     },
@@ -119874,8 +119874,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "kazakh-safe-7",
     "regionDistrict": "Astana, Kazakhstan",
     "type": "safe-haven",
-    "lat": 51.1605,
-    "lng": 71.4704,
+    "lat": 51.0981,
+    "lng": 71.4064,
     "name": {
       "en": "Umit Crisis Center (Кризисный центр-приют «Үміт» Астана)"
     },

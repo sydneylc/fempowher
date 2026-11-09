@@ -136131,5 +136131,31 @@ export const WORLD_CENTERS_DIRECTORY = [
     "WCLAC & PSCCW Emergency Shelter Placement, Legal Representation & Trauma Therapy",
     "Direct Referral to Mehwar, Jericho & Nablus Safe Shelters"
   ]
+},
+{
+  "id": "israel-bedouin-women-shelter-al-nashmiat-maan-negev",
+  "type": "Safe Haven",
+  "lat": 31.3189,
+  "lng": 34.7825,
+  "phone": "118",
+  "country": "Israel",
+  "region": "Southern District (Negev / Naqab)",
+  "city": "Be’er Sheva, Rahat, Lakiya & Unrecognized Negev Bedouin Villages",
+  "website": "https://hias.org/news/helping-israels-bedouin-women-strive-better-future/",
+  "names": {
+    "en": "Al-Nashmiat (النشميات), Ma’an & HIAS Negev Protection Network — Women’s Shelter & Support SPECIFICALLY for Bedouin Women (Be’er Sheva, Rahat & Lakiya)",
+    "ar": "حركة النشميات ومنتدى المؤسسات النسائية العربية البدوية في النقب (معاً) — ملجأ ودعم مخصص للنساء البدويات في النقب (بئر السبع، رهط واللقية)",
+    "he": "א-נשמיאת, פורום מען וסיוע HIAS בנגב — מענה, מקלט והגנה במיוחד לנשים בדואיות בנגב (באר שבע, רהט, לקיה והכפרים הלא-מוכרים)"
+  },
+  "address": "65 HaZvi St / Ben-Zvi St 11, Be’er Sheva, Rahat, Lakiya & Unrecognized Negev Villages, Israel | Bedouin Women’s Rights Center (Itach-Ma’aki / Ma’an): +972 8-627-2462 | Maslan Negev 24/7 Arabic/Bedouin Crisis Line: 1202 (+972 8-642-1313) | 24/7 Arabic Shelter Placement Line: 118",
+  "details": {
+    "en": "[SPECIFICALLY FOR BEDOUIN WOMEN IN ISRAEL (NEGEV / NAQAB)] Highlighted by HIAS Israel. Unites Al-Nashmiat (The Bedouin Women’s Leadership Movement in the Negev), Ma’an (The Forum of Arab-Bedouin Women’s Organizations in the Negev), Sidreh (Lakiya), the Bedouin Women’s Rights Center (with Itach-Ma’aki), and Maslan Negev Crisis Center to provide culturally safe emergency shelter placement, Arabic-speaking trauma counseling, Sharia & Civil family law protection, and emergency hygiene/food relief specifically for Arab Bedouin women in both recognized towns (Rahat, Lakiya, Hura, Tel Sheva, Kuseife, Ar’ara, Segev Shalom) and unrecognized Negev villages."
+  },
+  "services": [
+    "Confidential Emergency Shelter Placement Specifically for Bedouin Women & Children (Dial 118 / 1202)",
+    "Al-Nashmiat & HIAS Outreach to Unrecognized Negev Bedouin Villages (Food, Hygiene Kits & Safety)",
+    "Ma’an & Itach-Ma’aki Bedouin Women’s Rights Center (+972 8-627-2462 — Sharia & Civil Legal Aid)",
+    "Maslan 24/7 Negev Arabic/Bedouin Sexual & Domestic Violence Crisis Line (1202 / +972 8-642-1313)"
+  ]
 }
 ];

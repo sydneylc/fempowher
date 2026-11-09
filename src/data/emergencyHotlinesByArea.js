@@ -763,7 +763,8 @@ export const NATIONAL_CRISIS_DIRECTORY = {
       'Women’s 24-Hour Sexual Assault Crisis Hotline (ARCCI): Call 1202',
       'No2Violence 24/7 Emergency Hotline: Call *6724 or 1-800-353-300',
       'WIZO Domestic Violence Helpline: Call +972 3-692-3710 / +972 3-692-3714',
-      'Arab Women’s 24-Hour Emergency Hotline: Call 04-656-6813'
+      'Arab Women’s 24-Hour Emergency Hotline: Call 04-656-6813',
+      'Al-Nashmiat & Ma’an Negev Protection Network (Specifically for Bedouin Women in the Negev): Call +972 8-627-2462 / Maslan Negev Arabic Crisis Line 1202 (+972 8-642-1313)'
     ]
   }
 };

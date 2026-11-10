@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=168';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=175';
 
 const h = React.createElement;
 
@@ -18,7 +18,7 @@ export default function PainfulPeriodsHomePage({
 
   return h(
     'div',
-    { className: 'min-h-full w-full bg-white flex flex-col p-4 sm:p-6' },
+    { className: 'min-h-full w-full shrink-0 bg-white flex flex-col p-4 sm:p-6' },
     h(
       'div',
       { className: 'max-w-3xl w-full mx-auto' },

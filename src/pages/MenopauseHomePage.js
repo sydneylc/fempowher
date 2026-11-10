@@ -1,121 +1,108 @@
-import React from 'react';
-import { UI_TEXT } from '../data/translations.js?v=171';
-import PregHomePageButtons from '../components/PregHomePageButtons.js?v=171';
+import React from 'https://esm.sh/react@18.3.1';
+import { PregHomePageButtons, renderSubpageBackButton } from './PregnancyHomePage.js?v=172';
 
 const h = React.createElement;
 
 export default function MenopauseHomePage({
-  lang,
-  t,
   onBack,
-  onNavigateEducationPage,
+  onNavigateEducationPage = null,
+  UserLanguageChoice1 = null,
+  lang = 'en',
+  t = {}
 }) {
-  const tr = (key, fallback) => (t && t[key]) || UI_TEXT[lang]?.[key] || UI_TEXT.en?.[key] || fallback;
-
-  const sections = [
-    {
-      id: 'what_is_menopause',
-      targetPage: 'WhatIsMenopauseHomePage',
-      label: tr('menoBtnWhatIs', 'What is menopause?'),
-      bgColor: '#FFF27A',
-      hoverColor: '#FBE862',
-      textColor: '#9B0E3E',
-      glowColor: '#FFF9B8',
-      imgSrc: './assets/menopause-what-is.gif?v=171',
-      imgAlt: tr('menoBtnWhatIs', 'What is menopause?'),
-    },
-    {
-      id: 'starting_menopause',
-      targetPage: 'StartingMenopauseHomePage',
-      label: tr('menoBtnStarting', "I think I'm starting menopause!"),
-      bgColor: '#FCE052',
-      hoverColor: '#F5D63D',
-      textColor: '#9B0E3E',
-      glowColor: '#FFF199',
-      imgSrc: './assets/menopause-starting.gif?v=171',
-      imgAlt: tr('menoBtnStarting', "I think I'm starting menopause!"),
-    },
-    {
-      id: 'hard_time_menopause',
-      targetPage: 'HardTimeMenopauseHomePage',
-      label: tr('menoBtnHardTime', 'Menopause is giving me a hard time!'),
-      bgColor: '#F6BC28',
-      hoverColor: '#EBB01E',
-      textColor: '#9B0E3E',
-      glowColor: '#FFE082',
-      imgSrc: './assets/menopause-hard-time.gif?v=171',
-      imgAlt: tr('menoBtnHardTime', 'Menopause is giving me a hard time!'),
-    },
-    {
-      id: 'after_menopause',
-      targetPage: 'AfterMenopauseHomePage',
-      label: tr('menoBtnAfter', 'My body after menopause!'),
-      bgColor: '#D6A124',
-      hoverColor: '#C9951B',
-      textColor: '#9B0E3E',
-      glowColor: '#FFE388',
-      imgSrc: './assets/menopause-after.gif?v=171',
-      imgAlt: tr('menoBtnAfter', 'My body after menopause!'),
-    },
-  ];
-
-  return h('div', {
-    className: 'education-topic-page menopause-home-page',
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      minHeight: 'calc(100vh - 130px)',
-      background: '#FFFDFEF9',
-      fontFamily: "'Kefa', Georgia, serif",
-      padding: 0,
-      margin: 0,
+  const tr = (key, fallback) => {
+    if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {
+      return UserLanguageChoice1.translate(key, t[key] || fallback);
     }
-  },
-    // Top Header Area (Back button + Title)
-    h('div', {
-      style: {
-        padding: '16px 16px 14px',
-        background: '#FFFFFF',
+    return t[key] || fallback;
+  };
+
+  const fullScreenSections = [
+    {
+      id: 'what-is-menopause',
+      label: tr('menoBtnWhatIs', 'What is menopause?'),
+      targetPage: 'WhatIsMenopauseHomePage',
+      gifSrc: '/assets/menopause-what-is.gif?v=172',
+      // Tone 1: Lightest Sunshine Yellow (#FFF27A) — zero outline, matches GIF background seamlessly
+      backgroundStyle: {
+        backgroundColor: '#FFF27A',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
       }
     },
-      h('button', {
-        type: 'button',
-        className: 'edu-TopicBackBtn',
-        onClick: onBack,
-        style: {
-          background: '#9B0E3E',
-          color: '#FFFFFF',
-          border: '2.5px solid #F7B6D2',
-          borderRadius: '999px',
-          padding: '8px 20px',
-          fontSize: '15px',
-          fontWeight: 700,
-          fontFamily: "'Kefa', Georgia, serif",
-          cursor: 'pointer',
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '6px',
-          boxShadow: '0 2px 6px rgba(155, 14, 62, 0.25)',
-          marginBottom: '6px',
-        }
-      }, `\u2190 ${tr('backButton', 'Back')}`),
+    {
+      id: 'starting-menopause',
+      label: tr('menoBtnStarting', "I think I'm starting menopause!"),
+      targetPage: 'StartingMenopauseHomePage',
+      gifSrc: '/assets/menopause-starting.gif?v=172',
+      // Tone 2: Warm Buttercup Yellow (#FCE052) — zero outline, matches GIF background seamlessly
+      backgroundStyle: {
+        backgroundColor: '#FCE052',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.9)'
+      }
+    },
+    {
+      id: 'hard-time-menopause',
+      label: tr('menoBtnHardTime', 'Menopause is giving me a hard time!'),
+      targetPage: 'HardTimeMenopauseHomePage',
+      gifSrc: '/assets/menopause-hard-time.gif?v=172',
+      // Tone 3: Deep Marigold Gold (#F6BC28) — zero outline, matches GIF background seamlessly
+      backgroundStyle: {
+        backgroundColor: '#F6BC28',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.85)'
+      }
+    },
+    {
+      id: 'after-menopause',
+      label: tr('menoBtnAfter', 'My body after menopause!'),
+      targetPage: 'AfterMenopauseHomePage',
+      gifSrc: '/assets/menopause-after.gif?v=172',
+      // Tone 4: Darkest Ochre Gold (#D6A124) — zero outline, matches GIF background seamlessly
+      backgroundStyle: {
+        backgroundColor: '#D6A124',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.92)'
+      }
+    }
+  ];
 
-      h('h1', {
-        style: {
-          textAlign: 'center',
-          color: '#9B0E3E',
-          fontSize: 'clamp(1.85rem, 4.5vw, 2.45rem)',
-          fontWeight: 800,
-          margin: '2px 0 6px',
-          fontFamily: "'Kefa', Georgia, serif",
-          letterSpacing: '-0.01em',
-        }
-      }, tr('eduTopicMenopauseTitle', 'Menopause'))
+  return h(
+    'div',
+    { className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden' },
+    // Top Header Bar: Back Button + Menopause Title (UserLanguageChoice1)
+    h(
+      'div',
+      { className: 'w-full px-4 sm:px-6 pt-3 pb-2 shrink-0 bg-white' },
+      h(
+        'div',
+        { className: 'max-w-5xl w-full mx-auto' },
+        renderSubpageBackButton(onBack, t, lang),
+        h(
+          'h1',
+          {
+            className: 'text-2xl sm:text-3xl font-extrabold text-center mt-0.5',
+            style: { color: '#9F133A' }
+          },
+          tr('eduBtnMenopause', 'Menopause')
+        )
+      )
     ),
-
-    // 4 Full-Width Stacked Section Bands via PregHomePageButtons
     h(PregHomePageButtons, {
-      sections,
+      sections: fullScreenSections,
       onSelectSection: (sec) => {
         if (onNavigateEducationPage && sec.targetPage) {
           onNavigateEducationPage(sec.targetPage);

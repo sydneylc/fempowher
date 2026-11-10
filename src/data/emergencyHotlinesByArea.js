@@ -419,9 +419,16 @@ export const NATIONAL_CRISIS_DIRECTORY = {
     ]
   },
   indonesia: {
-    emergencyNumber: '112 (National Emergency) / 110 (Police) / 118 (Ambulance)',
+    emergencyNumber: '112 (National Emergency) / 110 (Police) / 119 (Ambulance) / 129 (SAPA 129 Women & Children Helpline)',
     crisisLines: [
-      'SAPA 129 (Ministry of Women Empowerment Crisis Line): Call 129 or WhatsApp +62 8111-129-129'
+      'SAPA 129 (Sahabat Perempuan dan Anak — KemenPPPA 24/7 National Hotline): Call 129 or WhatsApp +62 8111-129-129',
+      'Komnas Perempuan (National Commission on Violence Against Women): Call +62 21 390 3963',
+      'Yayasan Pulih (Psychological Trauma & GBV Counseling): WhatsApp +62 811-843-6633 / +62 21 7884 2580',
+      'LBH APIK Jakarta (24/7 Women’s Legal Aid & Emergency Sanctuary): Call +62 21 8779 7289 / WhatsApp +62 813-8882-2669',
+      'Yayasan Puan Amal Hayati (UNFPA-Supported Pesantren Women’s Crisis Centers): Call +62 21 7888 2639',
+      'Rifka Annisa Women’s Crisis Center (Yogyakarta): Call +62 274 553333 / WhatsApp +62 857-9905-7765',
+      'WCC Jombang (East Java Women’s Crisis Center): Call +62 321 861555 / WhatsApp +62 812-3502-0262',
+      'TRUK-F Flores & SSpS / Good Shepherd Sisters Shelters (Maumere, Labuan Bajo & Ruteng): Call +62 382 22481'
     ]
   },
   japan: {

@@ -19065,90 +19065,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "world-hosp-189",
-    "regionDistrict": "Jakarta, Indonesia",
-    "type": "hospital",
-    "lat": -6.208,
-    "lng": 106.845,
-    "name": {
-      "en": "RSAB Harapan Kita (National Women & Children Hospital) (Jakarta, Indonesia)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+62 21 566 6714",
-    "emergencyHotline": "119 / 129",
-    "address": {
-      "en": "193 Hospital Road, Jakarta, Indonesia, 7476"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Jakarta, Indonesia. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-189",
-    "regionDistrict": "Jakarta, Indonesia",
-    "type": "safe-haven",
-    "lat": -6.2055,
-    "lng": 106.8425,
-    "name": {
-      "en": "LBH APIK Jakarta — Women’s Legal Aid & Crisis Sanctuary (Jakarta, Indonesia)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+62 21 566 6704",
-    "emergencyHotline": "119 / 129",
-    "address": {
-      "en": "135 Main Street, Jakarta, Indonesia, 2330"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (LBH APIK) serving Jakarta, Indonesia. Call 119 / 129 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-189-u2",
-    "regionDistrict": "Jakarta, Indonesia",
-    "type": "safe-haven",
-    "lat": -6.2105,
-    "lng": 106.8475,
-    "name": {
-      "en": "Rumah Aman Komnas Perempuan Safe Haven"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+62 21 566 6842",
-    "emergencyHotline": "119 / 129",
-    "address": {
-      "en": "198 Main Street, Jakarta, Indonesia, 6301"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Rumah Aman Komnas Perempuan Safe Haven) serving Jakarta, Indonesia. Call 119 / 129 for confidential intake."
-    }
-  },
-  {
     "id": "world-hosp-190",
     "regionDistrict": "Manila, Philippines",
     "type": "hospital",
@@ -25030,20 +24946,20 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-276",
-    "regionDistrict": "Kupang, West Timor / East Nusa Tenggara, Indonesia",
+    "regionDistrict": "Kupang, West Timor, East Nusa Tenggara, Indonesia",
     "type": "hospital",
     "lat": -10.177,
     "lng": 123.607,
     "name": {
-      "en": "RSUD Prof. Dr. W. Z. Johannes — Maternal Referral (Kupang, West Timor / East Nusa Tenggara, Indonesia)"
+      "en": "RSUD Prof. Dr. W. Z. Johannes Kupang — Provincial Maternity & OB/GYN Referral Hospital"
     },
     "categoryBadge": {
       "en": "Rural & Regional Maternity / OB-GYN Hospital"
     },
-    "phone": "+62 21 566 5412",
+    "phone": "+62 380 833 614",
     "emergencyHotline": "119 / 129",
     "address": {
-      "en": "RSUD Prof. Dr. W. Z. Johannes — Maternal Referral, Kupang, West Timor / East Nusa Tenggara, Indonesia"
+      "en": "Jl. Dr. Moch. Hatta No. 19, Oetete, Oebobo, Kota Kupang, East Nusa Tenggara 85111, Indonesia"
     },
     "services": {
       "en": [
@@ -25058,20 +24974,20 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-safe-276",
-    "regionDistrict": "Kupang, West Timor / East Nusa Tenggara, Indonesia",
+    "regionDistrict": "Kupang, West Timor, East Nusa Tenggara, Indonesia",
     "type": "safe-haven",
     "lat": -10.1745,
     "lng": 123.6045,
     "name": {
-      "en": "Rumah Perempuan Kupang Safe Shelter (Kupang, West Timor / East Nusa Tenggara, Indonesia)"
+      "en": "Rumah Perempuan Kupang — Women’s Crisis Center & Safe Shelter (West Timor)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
     },
-    "phone": "+62 21 566 6684",
+    "phone": "+62 380 826 765 / 129",
     "emergencyHotline": "119 / 129",
     "address": {
-      "en": "214 Main Street, Kupang, West Timor / East Nusa Tenggara, Indonesia, 2391"
+      "en": "Kota Kupang, West Timor, East Nusa Tenggara, Indonesia"
     },
     "services": {
       "en": [
@@ -25086,20 +25002,20 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-277",
-    "regionDistrict": "Jayapura / Wamena, Papua Highlands, Indonesia",
+    "regionDistrict": "Jayapura, Papua, Indonesia",
     "type": "hospital",
     "lat": -2.533,
     "lng": 140.718,
     "name": {
-      "en": "RSUD Jayapura — Maternal & Midwifery Center (Jayapura / Wamena, Papua Highlands, Indonesia)"
+      "en": "RSUD Jayapura (Dok II Regional Referral & Maternity Hospital, Jayapura)"
     },
     "categoryBadge": {
       "en": "Rural & Regional Maternity / OB-GYN Hospital"
     },
-    "phone": "+62 21 566 1570",
+    "phone": "+62 967 533 616",
     "emergencyHotline": "119 / 129",
     "address": {
-      "en": "179 Hospital Road, Jayapura / Wamena, Papua Highlands, Indonesia, 9518"
+      "en": "Jl. Kesehatan No. 1, Dok II, Bhayangkara, Jayapura Utara, Kota Jayapura, Papua 99112, Indonesia"
     },
     "services": {
       "en": [
@@ -25114,20 +25030,20 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-safe-277",
-    "regionDistrict": "Jayapura / Wamena, Papua Highlands, Indonesia",
+    "regionDistrict": "Jayapura, Papua, Indonesia",
     "type": "safe-haven",
     "lat": -2.5305,
     "lng": 140.7155,
     "name": {
-      "en": "LP3AP Papua Women & Children Safe Haven (Jayapura / Wamena, Papua Highlands, Indonesia)"
+      "en": "LP3AP Papua (Lembaga Pengkajian dan Pemberdayaan Perempuan dan Anak Papua) — Jayapura Safe Haven"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
     },
-    "phone": "+62 21 566 1776",
+    "phone": "129 / +62 811-1129-129",
     "emergencyHotline": "119 / 129",
     "address": {
-      "en": "121 Main Street, Jayapura / Wamena, Papua Highlands, Indonesia, 3049"
+      "en": "Abepura / Kota Jayapura, Papua, Indonesia"
     },
     "services": {
       "en": [
@@ -77160,118 +77076,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "24/7 Women’s Safe Haven (DSWD Haven for Women) serving Manila, Philippines. Call +63 2 8926 7744 (Women’s Crisis Center) / 911 for confidential intake."
-    }
-  },
-  {
-    "id": "lila-hosp-1842",
-    "regionDistrict": "Jakarta & Yogyakarta, Indonesia",
-    "type": "hospital",
-    "lat": -6.1856,
-    "lng": 106.7981,
-    "name": {
-      "en": "RSAB Harapan Kita (National Women and Children Hospital Jakarta)"
-    },
-    "categoryBadge": {
-      "en": "National Women’s, Maternity & OB/GYN Hospital"
-    },
-    "phone": "+62 21 566 8284",
-    "emergencyHotline": "129 (SAPA 129 Women & Children Protection Hotline) / +62 21 390 3963",
-    "address": {
-      "en": "60 Hospital Road, Jakarta & Yogyakarta, Indonesia, 6262"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Gynecology, Safe Childbirth & Neonatal ICU",
-        "High-Risk Pregnancy, Fistula Care, Prenatal Screening & Postpartum Triage",
-        "Direct Medical Partner for GNWS Women’s Shelters"
-      ]
-    },
-    "directionsText": {
-      "en": "Functioning Hospital (RSAB Harapan Kita (National Women and Children Hospital Jakarta)) serving Jakarta & Yogyakarta, Indonesia. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "lila-hosp-1842-u2",
-    "regionDistrict": "Jakarta & Yogyakarta, Indonesia",
-    "type": "hospital",
-    "lat": -6.1831,
-    "lng": 106.8006,
-    "name": {
-      "en": "RSCM Kintani OB/GYN"
-    },
-    "categoryBadge": {
-      "en": "National Women’s, Maternity & OB/GYN Hospital"
-    },
-    "phone": "+62 21 566 8284",
-    "emergencyHotline": "129 (SAPA 129 Women & Children Protection Hotline) / +62 21 390 3963",
-    "address": {
-      "en": "74 Hospital Road, Jakarta & Yogyakarta, Indonesia, 7950"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Gynecology, Safe Childbirth & Neonatal ICU",
-        "High-Risk Pregnancy, Fistula Care, Prenatal Screening & Postpartum Triage",
-        "Direct Medical Partner for GNWS Women’s Shelters"
-      ]
-    },
-    "directionsText": {
-      "en": "Functioning Hospital (RSCM Kintani OB/GYN) serving Jakarta & Yogyakarta, Indonesia. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "lila-safe-1842",
-    "regionDistrict": "Jakarta & Yogyakarta, Indonesia",
-    "type": "safe-haven",
-    "lat": -6.1831,
-    "lng": 106.7956,
-    "name": {
-      "en": "Komnas Perempuan, LBH APIK, Pulih Foundation"
-    },
-    "categoryBadge": {
-      "en": "GNWS Verified Women’s Shelter & 24/7 Helpline"
-    },
-    "phone": "+62 21 390 3963",
-    "emergencyHotline": "129 (SAPA 129 Women & Children Protection Hotline) / +62 21 390 3963",
-    "address": {
-      "en": "144 Main Street, Jakarta & Yogyakarta, Indonesia, 2927"
-    },
-    "services": {
-      "en": [
-        "GNWS & UN Women Vetted Confidential Domestic & Sexual Violence Shelter",
-        "24/7 Trauma-Informed Crisis Helpline, Emergency Safe Housing & Free Legal Advocacy",
-        "Direct Escort to National Maternity & OB/GYN Hospitals"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Komnas Perempuan, LBH APIK, Pulih Foundation) serving Jakarta & Yogyakarta, Indonesia. Call 129 (SAPA 129 Women & Children Protection Hotline) / +62 21 390 3963 for confidential intake."
-    }
-  },
-  {
-    "id": "lila-safe-1842-u2",
-    "regionDistrict": "Jakarta & Yogyakarta, Indonesia",
-    "type": "safe-haven",
-    "lat": -6.1881,
-    "lng": 106.8006,
-    "name": {
-      "en": "Rifka Annisa Women’s Crisis Center"
-    },
-    "categoryBadge": {
-      "en": "GNWS Verified Women’s Shelter & 24/7 Helpline"
-    },
-    "phone": "+62 21 390 3963",
-    "emergencyHotline": "129 (SAPA 129 Women & Children Protection Hotline) / +62 21 390 3963",
-    "address": {
-      "en": "90 Main Street, Jakarta & Yogyakarta, Indonesia, 5856"
-    },
-    "services": {
-      "en": [
-        "GNWS & UN Women Vetted Confidential Domestic & Sexual Violence Shelter",
-        "24/7 Trauma-Informed Crisis Helpline, Emergency Safe Housing & Free Legal Advocacy",
-        "Direct Escort to National Maternity & OB/GYN Hospitals"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Rifka Annisa Women’s Crisis Center) serving Jakarta & Yogyakarta, Indonesia. Call 129 (SAPA 129 Women & Children Protection Hotline) / +62 21 390 3963 for confidential intake."
     }
   },
   {
@@ -148320,6 +148124,3216 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "Eastern Mauritius’s regional maternity hospital and Flacq Family Support Bureau."
+    }
+  },
+  {
+    "id": "indo-gsr-good-shepherd-jakarta",
+    "type": "safe-haven",
+    "lat": -6.2305,
+    "lng": 106.8675,
+    "regionDistrict": "Jatinegara, East Jakarta, Indonesia",
+    "name": {
+      "en": "Rumah Perlindungan Perempuan dan Anak Suster-Suster Gembala Baik (Good Shepherd Sisters Shelter Jakarta)"
+    },
+    "address": {
+      "en": "Jl. Jatinegara Barat No. 122, Kampung Melayu, Jatinegara, Jakarta Timur 13320, Indonesia"
+    },
+    "phone": "+62 21 819 2324",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Featured in Global Sisters Report: operated by the Congregation of Our Lady of Charity of the Good Shepherd (RGS / Suster Gembala Baik) in East Jakarta; provides emergency safe shelter, trauma recovery, and anti-trafficking/domestic violence protection."
+    }
+  },
+  {
+    "id": "indo-gsr-good-shepherd-ruteng",
+    "type": "safe-haven",
+    "lat": -8.6114,
+    "lng": 120.4647,
+    "regionDistrict": "Ruteng, Manggarai, Flores, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "Rumah Perlindungan Perempuan dan Anak Suster-Suster Gembala Baik Ruteng (Good Shepherd Women’s Shelter Flores)"
+    },
+    "address": {
+      "en": "Ruteng, Kecamatan Langke Rembong, Kabupaten Manggarai, Pulau Flores, East Nusa Tenggara, Indonesia"
+    },
+    "phone": "+62 385 21245 / 129",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Featured in Global Sisters Report: safe shelter in Ruteng (Manggarai Regency, Flores) run by the Good Shepherd Sisters providing refuge, counseling, and community violence-prevention programs for abused women and girls."
+    }
+  },
+  {
+    "id": "indo-gsr-st-theresa-labuan-bajo",
+    "type": "safe-haven",
+    "lat": -8.4906,
+    "lng": 119.8872,
+    "regionDistrict": "Labuan Bajo, West Manggarai, Flores, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "Rumah Perlindungan Perempuan dan Anak Santa Theresia (St. Theresa Women’s Shelter — Holy Spirit Sisters / SSpS)"
+    },
+    "address": {
+      "en": "Labuan Bajo, Kecamatan Komodo, Kabupaten Manggarai Barat, Pulau Flores, East Nusa Tenggara, Indonesia"
+    },
+    "phone": "129 / +62 811-1129-129",
+    "emergencyHotline": "129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Featured in Global Sisters Report: managed by Missionary Sisters Servants of the Holy Spirit (SSpS, Sr. Frederika Tanggu Hana / Sr. Rita) in Labuan Bajo, sheltering women, migrant workers, and girls escaping domestic abuse, sexual violence, and trafficking."
+    }
+  },
+  {
+    "id": "indo-gsr-trukf-maumere",
+    "type": "safe-haven",
+    "lat": -8.6226,
+    "lng": 122.2128,
+    "regionDistrict": "Maumere, Sikka, Flores, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "TRUK-F (Tim Relawan untuk Kemanusiaan Flores — Holy Spirit Sisters / SSpS Women’s Crisis Shelter Maumere)"
+    },
+    "address": {
+      "en": "Jl. Jend. Ahmad Yani, Kota Baru, Alok Timur, Maumere, Kabupaten Sikka, Pulau Flores, East Nusa Tenggara 86111, Indonesia"
+    },
+    "phone": "+62 382 22481",
+    "emergencyHotline": "129 / +62 382 22481",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Featured in Global Sisters Report: founded in 1997 and led by Sr. Fransiska Imakulata (Sr. Eustochia, SSpS) in Maumere, Flores; provides a secure women’s shelter, legal advocacy, trauma counseling, and protection against domestic violence and human trafficking."
+    }
+  },
+  {
+    "id": "indo-gsr-ssps-atambua-timor",
+    "type": "safe-haven",
+    "lat": -9.1061,
+    "lng": 124.8925,
+    "regionDistrict": "Atambua, Belu, West Timor, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "Rumah Aman SSpS & JPIC Anti-Trafficking & Women’s Shelter Atambua (Timor Border Sanctuary)"
+    },
+    "address": {
+      "en": "Atambua, Kabupaten Belu, West Timor, East Nusa Tenggara, Indonesia"
+    },
+    "phone": "129 / +62 811-1129-129",
+    "emergencyHotline": "129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Catholic religious sisters’ safe house and anti-trafficking crisis sanctuary in Atambua (Belu Regency on the Timor-Leste border), protecting displaced and abused women and female migrant workers."
+    }
+  },
+  {
+    "id": "indo-unfpa-puan-amal-hayati-jakarta",
+    "type": "safe-haven",
+    "lat": -6.3282,
+    "lng": 106.8075,
+    "regionDistrict": "Jagakarsa, South Jakarta, Indonesia",
+    "name": {
+      "en": "Yayasan Puan Amal Hayati — Pesantren Women’s Crisis Center & Safe Shelter (Ciganjur, South Jakarta)"
+    },
+    "address": {
+      "en": "Jl. Warung Silah No. 10, Ciganjur, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12630, Indonesia"
+    },
+    "phone": "+62 21 7888 2639",
+    "emergencyHotline": "129 / +62 21 7888 2639",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Featured by UNFPA: Islamic women’s NGO founded by Former First Lady Sinta Nuriyah Abdurrahman Wahid in Ciganjur, South Jakarta; provides safe shelter, psychological counseling, legal aid to prosecute abusers in court, and religious women’s rights advocacy."
+    }
+  },
+  {
+    "id": "indo-unfpa-puan-amal-hayati-tasikmalaya",
+    "type": "safe-haven",
+    "lat": -7.3495,
+    "lng": 108.1256,
+    "regionDistrict": "Tasikmalaya, West Java, Indonesia",
+    "name": {
+      "en": "Puan Amal Hayati & UNFPA Women’s Crisis Center (Pesantren Cipasung Safe Shelter, Tasikmalaya)"
+    },
+    "address": {
+      "en": "Komplek Pondok Pesantren Cipasung, Cipakat, Singaparna, Kabupaten Tasikmalaya, West Java 46417, Indonesia"
+    },
+    "phone": "+62 265 545 123 / 129",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Featured by UNFPA: Puan Amal Hayati pesantren-based women’s crisis center and shelter in Tasikmalaya, West Java, working with hospitals, police, psychologists, and courts to shelter survivors and prosecute perpetrators."
+    }
+  },
+  {
+    "id": "indo-unfpa-puan-amal-hayati-indramayu",
+    "type": "safe-haven",
+    "lat": -6.3373,
+    "lng": 108.3258,
+    "regionDistrict": "Indramayu, West Java, Indonesia",
+    "name": {
+      "en": "Puan Amal Hayati & UNFPA Women’s Crisis Center & Safe Shelter — Indramayu"
+    },
+    "address": {
+      "en": "Kabupaten Indramayu, West Java, Indonesia"
+    },
+    "phone": "129 / +62 21 7888 2639",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Featured by UNFPA: Puan Amal Hayati women’s crisis center and shelter in Indramayu, West Java, protecting survivors of domestic violence, child marriage, and migrant-worker trafficking."
+    }
+  },
+  {
+    "id": "indo-unfpa-puan-amal-hayati-madura",
+    "type": "safe-haven",
+    "lat": -7.0455,
+    "lng": 112.7428,
+    "regionDistrict": "Bangkalan, Madura, East Java, Indonesia",
+    "name": {
+      "en": "Puan Amal Hayati Women’s Crisis Center & Safe Shelter — Bangkalan (Madura Island)"
+    },
+    "address": {
+      "en": "Kabupaten Bangkalan, Pulau Madura, East Java, Indonesia"
+    },
+    "phone": "129 / +62 21 7888 2639",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Featured by UNFPA: Puan Amal Hayati pesantren women’s crisis center on Madura Island (East Java), offering safe shelter, counseling, and legal representation."
+    }
+  },
+  {
+    "id": "indo-unfpa-puan-amal-hayati-jember",
+    "type": "safe-haven",
+    "lat": -8.1724,
+    "lng": 113.6995,
+    "regionDistrict": "Jember, East Java, Indonesia",
+    "name": {
+      "en": "Puan Amal Hayati Women’s Crisis Center & Safe Shelter — Jember"
+    },
+    "address": {
+      "en": "Kabupaten Jember, East Java, Indonesia"
+    },
+    "phone": "129 / +62 21 7888 2639",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Featured by UNFPA: Puan Amal Hayati women’s crisis center and shelter in Jember, East Java."
+    }
+  },
+  {
+    "id": "indo-unfpa-ppt-rs-polri-kramat-jati",
+    "type": "hospital",
+    "lat": -6.2698,
+    "lng": 106.8705,
+    "regionDistrict": "Kramat Jati, East Jakarta, Indonesia",
+    "name": {
+      "en": "Pusat Pelayanan Terpadu (PPT) Bunga Tanjung — RS Polri Dr. Soekanto Kramat Jati (One-Stop GBV & Maternal Hospital)"
+    },
+    "address": {
+      "en": "Jl. Raya Bogor, Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13510, Indonesia"
+    },
+    "phone": "+62 21 809 3288",
+    "emergencyHotline": "112 / 129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Partner hospital center highlighted by UNFPA & Puan Amal Hayati: Indonesia’s pioneering hospital-based One-Stop Crisis Center (PPT) for women and children survivors of domestic and sexual violence in East Jakarta."
+    }
+  },
+  {
+    "id": "indo-nomore-sapa-129-kemenpppa",
+    "type": "safe-haven",
+    "lat": -6.1731,
+    "lng": 106.8229,
+    "regionDistrict": "Gambir, Central Jakarta, Indonesia",
+    "name": {
+      "en": "SAPA 129 (Sahabat Perempuan dan Anak — KemenPPPA National 24/7 Women’s Crisis & Shelter Dispatch)"
+    },
+    "address": {
+      "en": "Jl. Medan Merdeka Barat No. 15, Gambir, Kota Jakarta Pusat, DKI Jakarta 10110, Indonesia"
+    },
+    "phone": "129 / +62 811-1129-129 / +62 21 384 2638",
+    "emergencyHotline": "129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "NO MORE Directory Indonesia: Ministry of Women Empowerment and Child Protection (KemenPPPA) 24/7 national helpline (129 / WhatsApp 08111-129-129) and emergency Rumah Aman (safe shelter) referral hub."
+    },
+    "website": "https://www.kemenpppa.go.id"
+  },
+  {
+    "id": "indo-nomore-komnas-perempuan",
+    "type": "safe-haven",
+    "lat": -6.1997,
+    "lng": 106.8351,
+    "regionDistrict": "Menteng, Central Jakarta, Indonesia",
+    "name": {
+      "en": "Komnas Perempuan (National Commission on Violence Against Women — Menteng)"
+    },
+    "address": {
+      "en": "Jl. Latuharhary No. 4B, Menteng, Kota Jakarta Pusat, DKI Jakarta 10310, Indonesia"
+    },
+    "phone": "+62 21 390 3963",
+    "emergencyHotline": "129 / +62 21 390 3963",
+    "openHours": "Mon–Fri 9 AM–5 PM (24/7 Referral via 129)",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "NO MORE Directory Indonesia: National Commission on Violence Against Women (Komnas Perempuan) headquarters in Menteng, Central Jakarta."
+    },
+    "website": "https://komnasperempuan.go.id"
+  },
+  {
+    "id": "indo-nomore-yayasan-pulih",
+    "type": "safe-haven",
+    "lat": -6.2768,
+    "lng": 106.8421,
+    "regionDistrict": "Pasar Minggu, South Jakarta, Indonesia",
+    "name": {
+      "en": "Yayasan Pulih (Pulih Foundation — Psychological Trauma Recovery & GBV Crisis Center)"
+    },
+    "address": {
+      "en": "Jl. Teluk Peleng No. 63A, Komplek Rawa Bambu 1, Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12520, Indonesia"
+    },
+    "phone": "+62 811-843-6633 / +62 21 7884 2580",
+    "emergencyHotline": "129 / +62 811-843-6633",
+    "openHours": "Mon–Sat 8 AM–5 PM (WhatsApp Crisis Line)",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "NO MORE Directory Indonesia: Yayasan Pulih trauma recovery and psychological counseling center for women and girls affected by domestic and sexual violence in South Jakarta."
+    },
+    "website": "https://yayasanpulih.org"
+  },
+  {
+    "id": "indo-nomore-lbh-apik-jakarta",
+    "type": "safe-haven",
+    "lat": -6.2612,
+    "lng": 106.8639,
+    "regionDistrict": "Kramat Jati, East Jakarta, Indonesia",
+    "name": {
+      "en": "LBH APIK Jakarta (Women’s Legal Aid Institute & Emergency Safe Sanctuary)"
+    },
+    "address": {
+      "en": "Jl. Tengah No. 31, RT.1/RW.9, Kampung Tengah, Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13540, Indonesia"
+    },
+    "phone": "+62 21 8779 7289 / +62 813-8882-2669",
+    "emergencyHotline": "129 / +62 813-8882-2669",
+    "openHours": "Open 24 hours (Emergency Hotline)",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "NO MORE Directory Indonesia: LBH APIK Jakarta provides free legal representation, protection orders, and emergency safe house placement for women escaping abuse."
+    },
+    "website": "https://lbhapik.org"
+  },
+  {
+    "id": "indo-nomore-mitra-perempuan",
+    "type": "safe-haven",
+    "lat": -6.2351,
+    "lng": 106.8532,
+    "regionDistrict": "Tebet, South Jakarta, Indonesia",
+    "name": {
+      "en": "Mitra Perempuan Women’s Crisis Center & Safe Shelter (Tebet, South Jakarta)"
+    },
+    "address": {
+      "en": "Kecamatan Tebet, Kota Jakarta Selatan, DKI Jakarta, Indonesia"
+    },
+    "phone": "+62 21 8379 0010",
+    "emergencyHotline": "129 / +62 21 8379 0010",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Mitra Perempuan Women’s Crisis Center in South Jakarta providing domestic violence shelter, crisis counseling, and legal accompaniment."
+    }
+  },
+  {
+    "id": "indo-nomore-rifka-annisa-yogyakarta",
+    "type": "safe-haven",
+    "lat": -7.7758,
+    "lng": 110.3547,
+    "regionDistrict": "Yogyakarta, Special Region of Yogyakarta, Indonesia",
+    "name": {
+      "en": "Rifka Annisa Women’s Crisis Center & Safe Shelter (Yogyakarta)"
+    },
+    "address": {
+      "en": "Jl. Jambon IV, Komplek Jatimulyo Indah, Kricak, Kec. Tegalrejo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55242, Indonesia"
+    },
+    "phone": "+62 274 553333 / +62 857-9905-7765",
+    "emergencyHotline": "129 / +62 274 553333",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "NO MORE Directory Indonesia: Indonesia’s first Women’s Crisis Center (founded 1993 in Yogyakarta), offering safe shelter, psychological counseling, legal advocacy, and medical accompaniment."
+    },
+    "website": "https://rifka-annisa.org"
+  },
+  {
+    "id": "indo-nomore-wcc-jombang",
+    "type": "safe-haven",
+    "lat": -7.5458,
+    "lng": 112.2335,
+    "regionDistrict": "Jombang, East Java, Indonesia",
+    "name": {
+      "en": "Women’s Crisis Center (WCC) Jombang — Safe Shelter & Legal Advocacy Center"
+    },
+    "address": {
+      "en": "Jl. Pattimura III No. 10, Sengon, Kec. Jombang, Kabupaten Jombang, East Java 61419, Indonesia"
+    },
+    "phone": "+62 321 861555 / +62 812-3502-0262",
+    "emergencyHotline": "129 / +62 812-3502-0262",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "NO MORE Directory Indonesia: Women’s Crisis Center (WCC) Jombang in East Java providing emergency shelter, trauma counseling, and legal defense for survivors of domestic and sexual violence."
+    },
+    "website": "https://wccjombang.org"
+  },
+  {
+    "id": "indo-wcc-savy-amira-surabaya",
+    "type": "safe-haven",
+    "lat": -7.3025,
+    "lng": 112.7582,
+    "regionDistrict": "Surabaya, East Java, Indonesia",
+    "name": {
+      "en": "Savy Amira Women’s Crisis Centre (Surabaya, East Java)"
+    },
+    "address": {
+      "en": "Jl. Raya Bratang Binangun No. 23, Baratajaya, Kec. Gubeng, Kota Surabaya, East Java 60284, Indonesia"
+    },
+    "phone": "+62 31 501 8348 / +62 811-3610-977",
+    "emergencyHotline": "129 / +62 811-3610-977",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Savy Amira Women’s Crisis Centre in Surabaya, East Java; provides psychosocial counseling, legal aid, and safe shelter referrals for survivors of gender-based violence."
+    },
+    "website": "https://savyamirawcc.com"
+  },
+  {
+    "id": "indo-wcc-dian-mutiara-malang",
+    "type": "safe-haven",
+    "lat": -7.9666,
+    "lng": 112.6326,
+    "regionDistrict": "Malang, East Java, Indonesia",
+    "name": {
+      "en": "WCC Dian Mutiara — Women’s Crisis Center & Shelter (Malang, East Java)"
+    },
+    "address": {
+      "en": "Kota Malang, East Java, Indonesia"
+    },
+    "phone": "+62 341 482 146 / 129",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Women’s Crisis Center Dian Mutiara in Malang, East Java."
+    }
+  },
+  {
+    "id": "indo-wcc-mawar-balqis-cirebon",
+    "type": "safe-haven",
+    "lat": -6.732,
+    "lng": 108.5523,
+    "regionDistrict": "Cirebon, West Java, Indonesia",
+    "name": {
+      "en": "WCC Mawar Balqis — Women’s Crisis Center & Pesantren Shelter (Cirebon, West Java)"
+    },
+    "address": {
+      "en": "Jl. KH. Masduki Ali, Kebonturi, Arjawinangun, Kabupaten Cirebon, West Java 45162, Indonesia"
+    },
+    "phone": "+62 231 357 059 / 129",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "WCC Mawar Balqis in Cirebon, West Java; shelters and defends women and girls facing domestic violence, trafficking, and forced marriage."
+    }
+  },
+  {
+    "id": "indo-wcc-bandung-uptd-ppa",
+    "type": "safe-haven",
+    "lat": -6.9175,
+    "lng": 107.6191,
+    "regionDistrict": "Bandung, West Java, Indonesia",
+    "name": {
+      "en": "UPTD PPA Provinsi Jawa Barat & LBH Bandung Women’s Crisis Shelter (Bandung)"
+    },
+    "address": {
+      "en": "Jl. LLRE Martadinata No. 2, Citarum, Kec. Bandung Wetan, Kota Bandung, West Java 40115, Indonesia"
+    },
+    "phone": "+62 852-2220-6777 / 129",
+    "emergencyHotline": "129 / +62 852-2220-6777",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "West Java Provincial Women and Child Protection Technical Unit (UPTD PPA Jabar) and Rumah Aman shelter in Bandung."
+    }
+  },
+  {
+    "id": "indo-wcc-spekham-surakarta",
+    "type": "safe-haven",
+    "lat": -7.5653,
+    "lng": 110.8122,
+    "regionDistrict": "Surakarta (Solo), Central Java, Indonesia",
+    "name": {
+      "en": "SPEK-HAM (Solidaritas Perempuan untuk Kemanusiaan dan Hak Asasi Manusia — Surakarta / Solo)"
+    },
+    "address": {
+      "en": "Kota Surakarta (Solo), Central Java, Indonesia"
+    },
+    "phone": "+62 271 715 709",
+    "emergencyHotline": "129 / +62 271 715 709",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "SPEK-HAM Women’s Crisis & Solidarity Center in Surakarta (Solo), Central Java."
+    },
+    "website": "https://spekham.org"
+  },
+  {
+    "id": "indo-wcc-lrckjham-semarang",
+    "type": "safe-haven",
+    "lat": -7.0051,
+    "lng": 110.4381,
+    "regionDistrict": "Semarang, Central Java, Indonesia",
+    "name": {
+      "en": "LRC-KJHAM (Legal Resources Center untuk Keadilan Jender dan Hak Asasi Manusia — Semarang)"
+    },
+    "address": {
+      "en": "Kota Semarang, Central Java, Indonesia"
+    },
+    "phone": "+62 24 844 7640 / +62 813-2571-1033",
+    "emergencyHotline": "129 / +62 813-2571-1033",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "LRC-KJHAM women’s legal aid and safe shelter center in Semarang, Central Java."
+    },
+    "website": "https://lrckjham.id"
+  },
+  {
+    "id": "indo-wcc-lbh-bali-denpasar",
+    "type": "safe-haven",
+    "lat": -8.6652,
+    "lng": 115.2248,
+    "regionDistrict": "Denpasar, Bali, Indonesia",
+    "name": {
+      "en": "LBH APIK Bali & LBH Bali Women’s Crisis Center (Denpasar, Bali)"
+    },
+    "address": {
+      "en": "Jl. Plawa No. 57, Sumerta, Kec. Denpasar Timur, Kota Denpasar, Bali 80236, Indonesia"
+    },
+    "phone": "+62 361 223 010 / 129",
+    "emergencyHotline": "129 / +62 361 223 010",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "LBH APIK Bali & LBH Bali Women’s Crisis Center in Denpasar, providing legal protection, counseling, and safe house referrals across Bali."
+    }
+  },
+  {
+    "id": "indo-wcc-lbh-apik-ntb-mataram",
+    "type": "safe-haven",
+    "lat": -8.5833,
+    "lng": 116.1167,
+    "regionDistrict": "Mataram, Lombok, West Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "LBH APIK NTB & Yayasan Tunas Alam Indonesia (SANTAI) Women’s Crisis Shelter (Mataram, Lombok)"
+    },
+    "address": {
+      "en": "Kota Mataram, Pulau Lombok, West Nusa Tenggara, Indonesia"
+    },
+    "phone": "+62 370 639 633 / 129",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Women’s legal aid and safe shelter network in Mataram, Lombok (West Nusa Tenggara)."
+    }
+  },
+  {
+    "id": "indo-wcc-flower-aceh",
+    "type": "safe-haven",
+    "lat": 5.5483,
+    "lng": 95.3238,
+    "regionDistrict": "Banda Aceh, Aceh, Sumatra, Indonesia",
+    "name": {
+      "en": "Flower Aceh & LBH APIK Aceh — Women’s Crisis & Safe Shelter Center (Banda Aceh)"
+    },
+    "address": {
+      "en": "Jl. T. Iskandar, Lambhuk, Kec. Ulee Kareng, Kota Banda Aceh, Aceh 23118, Indonesia"
+    },
+    "phone": "+62 651 22925 / 129",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Flower Aceh & LBH APIK Aceh in Banda Aceh, providing women’s protection, crisis shelter, and maternal/GBV advocacy across Aceh."
+    }
+  },
+  {
+    "id": "indo-wcc-hapsari-medan",
+    "type": "safe-haven",
+    "lat": 3.5852,
+    "lng": 98.6756,
+    "regionDistrict": "Medan, North Sumatra, Indonesia",
+    "name": {
+      "en": "HAPSARI & LBH APIK Medan — Women’s Crisis Center & Safe Shelter (Medan, North Sumatra)"
+    },
+    "address": {
+      "en": "Kota Medan, North Sumatra, Indonesia"
+    },
+    "phone": "+62 61 795 2566 / 129",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "North Sumatra women’s crisis shelter and legal protection center in Medan."
+    }
+  },
+  {
+    "id": "indo-wcc-nurani-perempuan-padang",
+    "type": "safe-haven",
+    "lat": -0.9242,
+    "lng": 100.3625,
+    "regionDistrict": "Padang, West Sumatra, Indonesia",
+    "name": {
+      "en": "Nurani Perempuan Women’s Crisis Center (Padang, West Sumatra)"
+    },
+    "address": {
+      "en": "Jl. Palembang No. 14, Ulak Karang Selatan, Kec. Padang Utara, Kota Padang, West Sumatra 25134, Indonesia"
+    },
+    "phone": "+62 751 705 7865 / +62 813-6344-5699",
+    "emergencyHotline": "129 / +62 813-6344-5699",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Nurani Perempuan Women’s Crisis Center in Padang, West Sumatra; provides emergency shelter, counseling, and legal advocacy for survivors of violence."
+    }
+  },
+  {
+    "id": "indo-wcc-cahaya-perempuan-bengkulu",
+    "type": "safe-haven",
+    "lat": -3.7928,
+    "lng": 102.2608,
+    "regionDistrict": "Bengkulu, Sumatra, Indonesia",
+    "name": {
+      "en": "WCC Cahaya Perempuan — Women’s Crisis Center & Safe Shelter (Bengkulu)"
+    },
+    "address": {
+      "en": "Jl. Kapuas Raya No. 79, Lingkar Barat, Kec. Gading Cempaka, Kota Bengkulu, Bengkulu 38225, Indonesia"
+    },
+    "phone": "+62 736 22699 / 129",
+    "emergencyHotline": "129 / +62 736 22699",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "WCC Cahaya Perempuan in Bengkulu, Sumatra; operates a safe house, crisis hotline, and legal/psychosocial support for women and girls."
+    }
+  },
+  {
+    "id": "indo-wcc-palembang",
+    "type": "safe-haven",
+    "lat": -2.9761,
+    "lng": 104.7754,
+    "regionDistrict": "Palembang, South Sumatra, Indonesia",
+    "name": {
+      "en": "Women’s Crisis Center (WCC) Palembang — Safe Shelter & Advocacy Center (South Sumatra)"
+    },
+    "address": {
+      "en": "Kota Palembang, South Sumatra, Indonesia"
+    },
+    "phone": "+62 711 360 662 / 129",
+    "emergencyHotline": "129 / +62 711 360 662",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Women’s Crisis Center (WCC) Palembang serving South Sumatra."
+    }
+  },
+  {
+    "id": "indo-wcc-damar-lampung",
+    "type": "safe-haven",
+    "lat": -5.4175,
+    "lng": 105.2612,
+    "regionDistrict": "Bandar Lampung, Lampung, Sumatra, Indonesia",
+    "name": {
+      "en": "Lembaga Advokasi Perempuan DAMAR — Women’s Crisis Center & Shelter (Bandar Lampung)"
+    },
+    "address": {
+      "en": "Kota Bandar Lampung, Lampung, Indonesia"
+    },
+    "phone": "+62 721 709 616 / 129",
+    "emergencyHotline": "129 / +62 721 709 616",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "DAMAR Women’s Advocacy & Crisis Shelter in Bandar Lampung."
+    }
+  },
+  {
+    "id": "indo-wcc-lbh-apik-pontianak",
+    "type": "safe-haven",
+    "lat": -0.0263,
+    "lng": 109.3425,
+    "regionDistrict": "Pontianak, West Kalimantan, Indonesia",
+    "name": {
+      "en": "LBH APIK Pontianak & Rumah Aman Kalimantan Barat (Pontianak, West Kalimantan)"
+    },
+    "address": {
+      "en": "Kota Pontianak, West Kalimantan, Indonesia"
+    },
+    "phone": "+62 561 748 258 / 129",
+    "emergencyHotline": "129 / +62 811-1129-129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "LBH APIK Pontianak and West Kalimantan women’s protection and anti-trafficking shelter."
+    }
+  },
+  {
+    "id": "indo-wcc-uptd-ppa-kaltim-samarinda",
+    "type": "safe-haven",
+    "lat": -0.5022,
+    "lng": 117.1536,
+    "regionDistrict": "Samarinda, East Kalimantan, Indonesia",
+    "name": {
+      "en": "UPTD PPA Kalimantan Timur & Rumah Aman Samarinda (East Kalimantan)"
+    },
+    "address": {
+      "en": "Kota Samarinda, East Kalimantan, Indonesia"
+    },
+    "phone": "129 / +62 811-1129-129",
+    "emergencyHotline": "129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "East Kalimantan Provincial Women and Child Protection Shelter (Rumah Aman UPTD PPA) in Samarinda."
+    }
+  },
+  {
+    "id": "indo-wcc-lbh-apik-makassar",
+    "type": "safe-haven",
+    "lat": -5.1477,
+    "lng": 119.4327,
+    "regionDistrict": "Makassar, South Sulawesi, Indonesia",
+    "name": {
+      "en": "LBH APIK Makassar & FPMP Women’s Crisis Shelter (Makassar, South Sulawesi)"
+    },
+    "address": {
+      "en": "Kota Makassar, South Sulawesi, Indonesia"
+    },
+    "phone": "+62 411 456 565 / 129",
+    "emergencyHotline": "129 / +62 411 456 565",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "LBH APIK Makassar & Forum Pemerhati Masalah Perempuan (FPMP) South Sulawesi women’s shelter and legal aid center."
+    }
+  },
+  {
+    "id": "indo-wcc-libu-perempuan-palu",
+    "type": "safe-haven",
+    "lat": -0.8917,
+    "lng": 119.8707,
+    "regionDistrict": "Palu, Central Sulawesi, Indonesia",
+    "name": {
+      "en": "LBH APIK Sulawesi Tengah & Libu Perempuan Women’s Safe House (Palu, Central Sulawesi)"
+    },
+    "address": {
+      "en": "Kota Palu, Central Sulawesi, Indonesia"
+    },
+    "phone": "129 / +62 811-1129-129",
+    "emergencyHotline": "129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Central Sulawesi women’s crisis center and safe house in Palu."
+    }
+  },
+  {
+    "id": "indo-wcc-swara-parangpuan-manado",
+    "type": "safe-haven",
+    "lat": 1.4748,
+    "lng": 124.8421,
+    "regionDistrict": "Manado, North Sulawesi, Indonesia",
+    "name": {
+      "en": "Swara Parangpuan Sulawesi Utara — Women’s Crisis Center & Safe Shelter (Manado)"
+    },
+    "address": {
+      "en": "Kota Manado, North Sulawesi, Indonesia"
+    },
+    "phone": "129 / +62 811-1129-129",
+    "emergencyHotline": "129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Swara Parangpuan Women’s Crisis Center in Manado, North Sulawesi."
+    }
+  },
+  {
+    "id": "indo-wcc-gasira-ambon",
+    "type": "safe-haven",
+    "lat": -3.6954,
+    "lng": 128.1814,
+    "regionDistrict": "Ambon, Maluku, Indonesia",
+    "name": {
+      "en": "Yayasan Gasira & LAPPAN Maluku — Women’s Crisis Center & Safe Haven (Ambon, Maluku)"
+    },
+    "address": {
+      "en": "Kota Ambon, Maluku, Indonesia"
+    },
+    "phone": "129 / +62 811-1129-129",
+    "emergencyHotline": "129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Women’s crisis shelter and peacebuilding/GBV protection center in Ambon, Maluku."
+    }
+  },
+  {
+    "id": "indo-wcc-daurmala-ternate",
+    "type": "safe-haven",
+    "lat": 0.7893,
+    "lng": 127.3772,
+    "regionDistrict": "Ternate, North Maluku, Indonesia",
+    "name": {
+      "en": "Daurmala Women’s Crisis Center & Safe Haven (Ternate, North Maluku)"
+    },
+    "address": {
+      "en": "Kota Ternate, North Maluku, Indonesia"
+    },
+    "phone": "129 / +62 811-1129-129",
+    "emergencyHotline": "129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Daurmala Women’s Crisis Center in Ternate, North Maluku."
+    }
+  },
+  {
+    "id": "indo-wcc-sorong-papua-barat",
+    "type": "safe-haven",
+    "lat": -0.8762,
+    "lng": 131.2558,
+    "regionDistrict": "Sorong, Southwest Papua, Indonesia",
+    "name": {
+      "en": "Rumah Aman UPTD PPA & Belantara Sorong Women’s Protection Center (Sorong, Southwest Papua)"
+    },
+    "address": {
+      "en": "Kota Sorong, Southwest Papua, Indonesia"
+    },
+    "phone": "129 / +62 811-1129-129",
+    "emergencyHotline": "129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Women’s safe shelter and crisis support center in Sorong, Southwest Papua."
+    }
+  },
+  {
+    "id": "indo-wcc-wamena-papua-pegunungan",
+    "type": "safe-haven",
+    "lat": -4.0956,
+    "lng": 138.9531,
+    "regionDistrict": "Wamena, Jayawijaya, Highland Papua, Indonesia",
+    "name": {
+      "en": "Yayasan Teratai Hati Papua & Wamena Highlands Women’s Safe Haven (Wamena, Highland Papua)"
+    },
+    "address": {
+      "en": "Wamena, Kabupaten Jayawijaya, Papua Pegunungan, Indonesia"
+    },
+    "phone": "129 / +62 811-1129-129",
+    "emergencyHotline": "129",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "Confidential Women’s Crisis Shelter (Rumah Aman) & 24/7 Protection",
+        "Trauma-Informed Psychological Counseling & Medical Escort",
+        "Pro-Bono Legal Aid, Police/Court Accompaniment & Survivor Empowerment"
+      ]
+    },
+    "directionsText": {
+      "en": "Unbundled Highland Papua women’s safe haven and maternal/GBV crisis center in Wamena (Jayawijaya Regency)."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsab-harapan-kita",
+    "type": "hospital",
+    "lat": -6.1856,
+    "lng": 106.7981,
+    "regionDistrict": "Slipi, West Jakarta, Indonesia",
+    "name": {
+      "en": "RSAB Harapan Kita (National Women and Children Hospital Jakarta)"
+    },
+    "address": {
+      "en": "Jl. Letjen S. Parman Kav. 87, Slipi, Kec. Palmerah, Kota Jakarta Barat, DKI Jakarta 11420, Indonesia"
+    },
+    "phone": "+62 21 566 8284",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Indonesia’s National Referral Center for Women and Children (Rumah Sakit Anak dan Bunda Harapan Kita) in West Jakarta."
+    },
+    "website": "https://www.rsabhk.co.id"
+  },
+  {
+    "id": "indo-wiki-hosp-rscm-jakarta",
+    "type": "hospital",
+    "lat": -6.1973,
+    "lng": 106.8473,
+    "regionDistrict": "Senen, Central Jakarta, Indonesia",
+    "name": {
+      "en": "RSUPN Dr. Cipto Mangunkusumo (RSCM) — Kiara Mother & Child Center & Kintani OB/GYN"
+    },
+    "address": {
+      "en": "Jl. Pangeran Diponegoro No. 71, Kenari, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta 10430, Indonesia"
+    },
+    "phone": "+62 21 1500 135",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Indonesia’s largest national public teaching hospital (affiliated with Universitas Indonesia) in Central Jakarta, featuring RSCM Kiara Mother & Child Center and RSCM Kintani OB/GYN."
+    },
+    "website": "https://rscm.co.id"
+  },
+  {
+    "id": "indo-wiki-hosp-rsia-bunda-jakarta",
+    "type": "hospital",
+    "lat": -6.1962,
+    "lng": 106.8375,
+    "regionDistrict": "Menteng, Central Jakarta, Indonesia",
+    "name": {
+      "en": "RSIA Bunda Jakarta (Bunda Menteng Mother and Child Hospital)"
+    },
+    "address": {
+      "en": "Jl. Teuku Cik Ditiro No. 28, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10350, Indonesia"
+    },
+    "phone": "+62 21 1500 799",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Premier specialized Mother and Child Hospital (Rumah Sakit Ibu dan Anak Bunda) in Menteng, Central Jakarta."
+    },
+    "website": "https://bunda.co.id"
+  },
+  {
+    "id": "indo-wiki-hosp-rspad-gatot-soebroto",
+    "type": "hospital",
+    "lat": -6.1764,
+    "lng": 106.8378,
+    "regionDistrict": "Senen, Central Jakarta, Indonesia",
+    "name": {
+      "en": "RSPAD Gatot Soebroto — Obstetrics, Gynecology & Emergency Center (Central Jakarta)"
+    },
+    "address": {
+      "en": "Jl. Abdul Rahman Saleh No. 24, Senen, Kota Jakarta Pusat, DKI Jakarta 10410, Indonesia"
+    },
+    "phone": "+62 21 344 1008",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Central referral hospital in Senen, Central Jakarta providing 24/7 obstetric, gynecological, and trauma care."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-fatmawati",
+    "type": "hospital",
+    "lat": -6.2952,
+    "lng": 106.7958,
+    "regionDistrict": "Cilandak, South Jakarta, Indonesia",
+    "name": {
+      "en": "RSUP Fatmawati — Maternal, Perinatal & Emergency Referral Hospital (South Jakarta)"
+    },
+    "address": {
+      "en": "Jl. RS Fatmawati Raya No. 4, Cilandak Barat, Kec. Cilandak, Kota Jakarta Selatan, DKI Jakarta 12430, Indonesia"
+    },
+    "phone": "+62 21 750 1524",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "National Class A public referral hospital in Cilandak, South Jakarta."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-persahabatan",
+    "type": "hospital",
+    "lat": -6.2045,
+    "lng": 106.8835,
+    "regionDistrict": "Pulo Gadung, East Jakarta, Indonesia",
+    "name": {
+      "en": "RSUP Persahabatan — Maternal & General National Referral Hospital (East Jakarta)"
+    },
+    "address": {
+      "en": "Jl. Persahabatan Raya No. 1, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta 13230, Indonesia"
+    },
+    "phone": "+62 21 489 1708",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "National public referral hospital in Rawamangun, East Jakarta."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rspi-pondok-indah",
+    "type": "hospital",
+    "lat": -6.2836,
+    "lng": 106.7815,
+    "regionDistrict": "Pondok Indah, South Jakarta, Indonesia",
+    "name": {
+      "en": "RS Pondok Indah (RSPI Pondok Indah — Maternity & Women’s Health Center)"
+    },
+    "address": {
+      "en": "Jl. Metro Duta Kav. UE, Pondok Indah, Kec. Kebayoran Lama, Kota Jakarta Selatan, DKI Jakarta 12310, Indonesia"
+    },
+    "phone": "+62 21 765 7525",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "JCI-accredited hospital in Pondok Indah, South Jakarta with comprehensive maternity, IVF, and gynecological care."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsia-kemang-medical-care",
+    "type": "hospital",
+    "lat": -6.2818,
+    "lng": 106.8206,
+    "regionDistrict": "Pasar Minggu, South Jakarta, Indonesia",
+    "name": {
+      "en": "RSIA Kemang Medical Care (Women and Children Hospital, South Jakarta)"
+    },
+    "address": {
+      "en": "Jl. Ampera Raya No. 34, Ragunan, Kec. Pasar Minggu, Kota Jakarta Selatan, DKI Jakarta 12550, Indonesia"
+    },
+    "phone": "+62 21 2754 5454",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Dedicated Women and Children Hospital (RSIA Kemang Medical Care) on Jl. Ampera Raya, South Jakarta."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-premier-jatinegara",
+    "type": "hospital",
+    "lat": -6.2215,
+    "lng": 106.8682,
+    "regionDistrict": "Jatinegara, East Jakarta, Indonesia",
+    "name": {
+      "en": "RS Premier Jatinegara — Obstetrics, Gynecology & Emergency Hospital (East Jakarta)"
+    },
+    "address": {
+      "en": "Jl. Jatinegara Timur No. 85-87, Bali Mester, Kec. Jatinegara, Kota Jakarta Timur, DKI Jakarta 13310, Indonesia"
+    },
+    "phone": "+62 21 2800 888",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "JCI-accredited hospital in Jatinegara, East Jakarta."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-premier-bintaro",
+    "type": "hospital",
+    "lat": -6.2764,
+    "lng": 106.7235,
+    "regionDistrict": "Bintaro, South Tangerang, Banten, Indonesia",
+    "name": {
+      "en": "RS Premier Bintaro — Maternity & Women’s Health Center (South Tangerang, Banten)"
+    },
+    "address": {
+      "en": "Jl. M.H. Thamrin No. 1, Pondok Jaya, Pondok Aren, Kota Tangerang Selatan, Banten 15224, Indonesia"
+    },
+    "phone": "+62 21 2762 5500",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "JCI-accredited maternal and general referral hospital in Bintaro, South Tangerang."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-eka-hospital-bsd",
+    "type": "hospital",
+    "lat": -6.2989,
+    "lng": 106.6698,
+    "regionDistrict": "BSD Serpong, South Tangerang, Banten, Indonesia",
+    "name": {
+      "en": "Eka Hospital BSD — Maternal & Perinatal Center (Serpong, South Tangerang, Banten)"
+    },
+    "address": {
+      "en": "Central Business District Lot IX, BSD City, Lengkong Gudang, Kec. Serpong, Kota Tangerang Selatan, Banten 15321, Indonesia"
+    },
+    "phone": "+62 21 2565 5555",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major JCI-accredited hospital in BSD City, Serpong, South Tangerang."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-siloam-lippo-village",
+    "type": "hospital",
+    "lat": -6.2268,
+    "lng": 106.6095,
+    "regionDistrict": "Karawaci, Tangerang, Banten, Indonesia",
+    "name": {
+      "en": "Siloam Hospitals Lippo Village — Maternity & Teaching Hospital (Karawaci, Tangerang, Banten)"
+    },
+    "address": {
+      "en": "Jl. Siloam No. 6, Bencongan, Kec. Kelapa Dua, Lippo Karawaci, Tangerang, Banten 15811, Indonesia"
+    },
+    "phone": "+62 21 8064 6900",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Flagship Siloam Hospitals teaching and maternal center in Lippo Village, Karawaci, Tangerang."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-banten-serang",
+    "type": "hospital",
+    "lat": -6.1562,
+    "lng": 106.1618,
+    "regionDistrict": "Serang, Banten, Indonesia",
+    "name": {
+      "en": "RSUD Banten — Provincial Maternal & Emergency Referral Hospital (Serang, Banten)"
+    },
+    "address": {
+      "en": "Jl. Syekh Nawawi Al-Bantani, Banjarsari, Kec. Cipocok Jaya, Kota Serang, Banten 42123, Indonesia"
+    },
+    "phone": "+62 254 849 0911",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Banten Provincial Public Referral Hospital in Serang, Banten."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rshs-bandung",
+    "type": "hospital",
+    "lat": -6.8981,
+    "lng": 107.5986,
+    "regionDistrict": "Bandung, West Java, Indonesia",
+    "name": {
+      "en": "RSUP Dr. Hasan Sadikin (RSHS Bandung — West Java National Maternal & Teaching Hospital)"
+    },
+    "address": {
+      "en": "Jl. Pasteur No. 38, Pasteur, Kec. Sukajadi, Kota Bandung, West Java 40161, Indonesia"
+    },
+    "phone": "+62 22 203 4953",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Top public teaching and maternal referral hospital for West Java in Bandung."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rskia-kota-bandung",
+    "type": "hospital",
+    "lat": -6.9462,
+    "lng": 107.5912,
+    "regionDistrict": "Bandung, West Java, Indonesia",
+    "name": {
+      "en": "RSKIA Kota Bandung (Bandung Special Mother and Child Hospital)"
+    },
+    "address": {
+      "en": "Jl. KH. Wahid Hasyim No. 311, Situsaeur, Kec. Bojongloa Kidul, Kota Bandung, West Java 40233, Indonesia"
+    },
+    "phone": "+62 22 8603 7777",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Bandung’s municipal specialized Mother and Child Hospital (Rumah Sakit Khusus Ibu dan Anak Kota Bandung)."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-bogor",
+    "type": "hospital",
+    "lat": -6.5795,
+    "lng": 106.7782,
+    "regionDistrict": "Bogor, West Java, Indonesia",
+    "name": {
+      "en": "RSUD Kota Bogor — Regional Maternity & Emergency Referral Hospital (Bogor, West Java)"
+    },
+    "address": {
+      "en": "Jl. Dr. Sumeru No. 120, Menteng, Kec. Bogor Barat, Kota Bogor, West Java 16112, Indonesia"
+    },
+    "phone": "+62 251 831 2292",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional public maternity and general referral hospital in Bogor, West Java."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-pmi-bogor",
+    "type": "hospital",
+    "lat": -6.5992,
+    "lng": 106.8051,
+    "regionDistrict": "Bogor, West Java, Indonesia",
+    "name": {
+      "en": "RS PMI Bogor (Indonesian Red Cross Hospital Bogor — Maternal & Emergency Care)"
+    },
+    "address": {
+      "en": "Jl. Raya Pajajaran No. 80, Tegallega, Kec. Bogor Tengah, Kota Bogor, West Java 16143, Indonesia"
+    },
+    "phone": "+62 251 832 4080",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Indonesian Red Cross (PMI) general and maternity hospital in central Bogor."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-gunung-jati-cirebon",
+    "type": "hospital",
+    "lat": -6.7295,
+    "lng": 108.5542,
+    "regionDistrict": "Cirebon, West Java, Indonesia",
+    "name": {
+      "en": "RSUD Gunung Jati Cirebon — Regional Maternal & OB/GYN Hospital (Cirebon, West Java)"
+    },
+    "address": {
+      "en": "Jl. Kesambi No. 56, Draja, Kec. Kesambi, Kota Cirebon, West Java 45134, Indonesia"
+    },
+    "phone": "+62 231 206 330",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary public referral hospital for eastern West Java in Cirebon."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-soekardjo-tasikmalaya",
+    "type": "hospital",
+    "lat": -7.3302,
+    "lng": 108.2225,
+    "regionDistrict": "Tasikmalaya, West Java, Indonesia",
+    "name": {
+      "en": "RSUD dr. Soekardjo Tasikmalaya — Maternal & PONEK Referral Hospital (Tasikmalaya, West Java)"
+    },
+    "address": {
+      "en": "Jl. Rumah Sakit No. 33, Empangsari, Kec. Tawang, Kota Tasikmalaya, West Java 46113, Indonesia"
+    },
+    "phone": "+62 265 331 683",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Main public referral hospital in Tasikmalaya (Priangan Timur, West Java), partnering with Puan Amal Hayati’s Women’s Crisis Center."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-kariadi-semarang",
+    "type": "hospital",
+    "lat": -6.9942,
+    "lng": 110.4075,
+    "regionDistrict": "Semarang, Central Java, Indonesia",
+    "name": {
+      "en": "RSUP Dr. Kariadi Semarang — Central Java National Teaching & Maternal Hospital"
+    },
+    "address": {
+      "en": "Jl. Dr. Sutomo No. 16, Randusari, Kec. Semarang Selatan, Kota Semarang, Central Java 50244, Indonesia"
+    },
+    "phone": "+62 24 841 3476",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Central Java’s primary national teaching and maternal/perinatal referral hospital in Semarang."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-sardjito-yogyakarta",
+    "type": "hospital",
+    "lat": -7.7686,
+    "lng": 110.3733,
+    "regionDistrict": "Sleman / Yogyakarta, Special Region of Yogyakarta, Indonesia",
+    "name": {
+      "en": "RSUP Dr. Sardjito Yogyakarta — UGM National Teaching & Perinatal Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Kesehatan No. 1, Sekip, Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284, Indonesia"
+    },
+    "phone": "+62 274 587 333",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Gadjah Mada University (UGM) national teaching hospital and maternal/perinatal referral center in Yogyakarta."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-bethesda-yogyakarta",
+    "type": "hospital",
+    "lat": -7.7832,
+    "lng": 110.3776,
+    "regionDistrict": "Yogyakarta, Special Region of Yogyakarta, Indonesia",
+    "name": {
+      "en": "RS Bethesda Yogyakarta — Maternity & General Referral Hospital (Gondokusuman, Yogyakarta)"
+    },
+    "address": {
+      "en": "Jl. Jend. Sudirman No. 70, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224, Indonesia"
+    },
+    "phone": "+62 274 586 688",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major historic general and maternity referral hospital in central Yogyakarta."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-panti-rapih-yogyakarta",
+    "type": "hospital",
+    "lat": -7.7768,
+    "lng": 110.3765,
+    "regionDistrict": "Yogyakarta, Special Region of Yogyakarta, Indonesia",
+    "name": {
+      "en": "RS Panti Rapih Yogyakarta — Catholic Maternity & General Hospital (Caturtunggal, Yogyakarta)"
+    },
+    "address": {
+      "en": "Jl. Cik Di Tiro No. 30, Samirono, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223, Indonesia"
+    },
+    "phone": "+62 274 563 333",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Renowned Catholic hospital in Yogyakarta operated by the Sisters of Charity of St. Charles Borromeo (CB), offering full maternity and OB/GYN care."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-moewardi-surakarta",
+    "type": "hospital",
+    "lat": -7.5588,
+    "lng": 110.8415,
+    "regionDistrict": "Surakarta (Solo), Central Java, Indonesia",
+    "name": {
+      "en": "RSUD Dr. Moewardi Surakarta — Maternal & OB/GYN Referral Hospital (Solo, Central Java)"
+    },
+    "address": {
+      "en": "Jl. Kolonel Sutarto No. 132, Jebres, Kec. Jebres, Kota Surakarta, Central Java 57126, Indonesia"
+    },
+    "phone": "+62 271 634 634",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major provincial teaching and maternity referral hospital in Surakarta (Solo), Central Java."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-margono-purwokerto",
+    "type": "hospital",
+    "lat": -7.4342,
+    "lng": 109.2665,
+    "regionDistrict": "Purwokerto, Banyumas, Central Java, Indonesia",
+    "name": {
+      "en": "RSUD Prof. Dr. Margono Soekarjo Purwokerto — Southern Central Java Maternal Referral"
+    },
+    "address": {
+      "en": "Jl. Dr. Gumbreg No. 1, Kebontebu, Berkoh, Kec. Purwokerto Selatan, Kabupaten Banyumas, Central Java 53146, Indonesia"
+    },
+    "phone": "+62 281 632 708",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional public referral hospital serving southwestern Central Java in Purwokerto."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-soetomo-surabaya",
+    "type": "hospital",
+    "lat": -7.2682,
+    "lng": 112.7582,
+    "regionDistrict": "Surabaya, East Java, Indonesia",
+    "name": {
+      "en": "RSUD Dr. Soetomo Surabaya — Eastern Indonesia Central Teaching & Maternal Hospital"
+    },
+    "address": {
+      "en": "Jl. Mayjen Prof. Dr. Moestopo No. 6-8, Airlangga, Kec. Gubeng, Kota Surabaya, East Java 60286, Indonesia"
+    },
+    "phone": "+62 31 550 1078",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Largest tertiary public teaching and maternal referral hospital in East Java (Surabaya)."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-unair-surabaya",
+    "type": "hospital",
+    "lat": -7.2698,
+    "lng": 112.7845,
+    "regionDistrict": "Mulyorejo, Surabaya, East Java, Indonesia",
+    "name": {
+      "en": "RS Universitas Airlangga (RS UNAIR Surabaya — Maternal & Perinatal Teaching Hospital)"
+    },
+    "address": {
+      "en": "Kampus C UNAIR, Jl. Dharmahusada Permai, Mulyorejo, Kota Surabaya, East Java 60115, Indonesia"
+    },
+    "phone": "+62 31 591 6290",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Airlangga University teaching hospital and maternity center in Mulyorejo, Surabaya."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsia-kendangsari-surabaya",
+    "type": "hospital",
+    "lat": -7.3265,
+    "lng": 112.7482,
+    "regionDistrict": "Tenggilis Mejoyo, Surabaya, East Java, Indonesia",
+    "name": {
+      "en": "RSIA Kendangsari Surabaya (Mother and Child Hospital, Surabaya)"
+    },
+    "address": {
+      "en": "Jl. Raya Kendangsari No. 38, Kendangsari, Kec. Tenggilis Mejoyo, Kota Surabaya, East Java 60292, Indonesia"
+    },
+    "phone": "+62 31 843 6200",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Dedicated Mother and Child Hospital (RSIA Kendangsari) in Surabaya."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-saiful-anwar-malang",
+    "type": "hospital",
+    "lat": -7.9725,
+    "lng": 112.6315,
+    "regionDistrict": "Malang, East Java, Indonesia",
+    "name": {
+      "en": "RSUD Dr. Saiful Anwar Malang — Maternal & Perinatal Referral Hospital (Malang, East Java)"
+    },
+    "address": {
+      "en": "Jl. Jaksa Agung Suprapto No. 2, Klojen, Kec. Klojen, Kota Malang, East Java 65112, Indonesia"
+    },
+    "phone": "+62 341 362 101",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major public teaching and obstetric referral hospital in Malang, East Java."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-soebandi-jember",
+    "type": "hospital",
+    "lat": -8.1518,
+    "lng": 113.7152,
+    "regionDistrict": "Jember, East Java, Indonesia",
+    "name": {
+      "en": "RSUD Dr. Soebandi Jember — Eastern Java Maternal & Emergency Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Dr. Soebandi No. 124, Patrang, Kabupaten Jember, East Java 68111, Indonesia"
+    },
+    "phone": "+62 331 487 441",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary public referral hospital for the Tapal Kuda (easternmost East Java) region in Jember."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-jombang",
+    "type": "hospital",
+    "lat": -7.5512,
+    "lng": 112.2352,
+    "regionDistrict": "Jombang, East Java, Indonesia",
+    "name": {
+      "en": "RSUD Kabupaten Jombang — PONEK Maternity & PPT Crisis Hospital (Jombang, East Java)"
+    },
+    "address": {
+      "en": "Jl. KH. Wahid Hasyim No. 52, Kepanjen, Kec. Jombang, Kabupaten Jombang, East Java 61416, Indonesia"
+    },
+    "phone": "+62 321 863 502",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Public regional referral hospital in Jombang partnering with WCC Jombang for maternal and GBV survivor care."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-zainoel-abidin-aceh",
+    "type": "hospital",
+    "lat": 5.5653,
+    "lng": 95.3378,
+    "regionDistrict": "Banda Aceh, Aceh, Sumatra, Indonesia",
+    "name": {
+      "en": "RSUD dr. Zainoel Abidin Banda Aceh — Aceh Provincial Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Tgk. Mohd. Daud Beureueh No. 108, Bandar Baru, Kec. Kuta Alam, Kota Banda Aceh, Aceh 24415, Indonesia"
+    },
+    "phone": "+62 651 34565",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Top provincial public referral hospital in Banda Aceh."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsia-provinsi-aceh",
+    "type": "hospital",
+    "lat": 5.5528,
+    "lng": 95.3185,
+    "regionDistrict": "Banda Aceh, Aceh, Sumatra, Indonesia",
+    "name": {
+      "en": "RSIA Provinsi Aceh (Aceh Provincial Mother and Child Hospital, Banda Aceh)"
+    },
+    "address": {
+      "en": "Jl. Prof. A. Majid Ibrahim I No. 3, Punge Jurong, Kec. Meuraxa, Kota Banda Aceh, Aceh 23116, Indonesia"
+    },
+    "phone": "+62 651 637 555",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Specialized government Mother and Child Hospital (Rumah Sakit Ibu dan Anak Provinsi Aceh) in Banda Aceh."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-adam-malik-medan",
+    "type": "hospital",
+    "lat": 3.5186,
+    "lng": 98.6085,
+    "regionDistrict": "Medan, North Sumatra, Indonesia",
+    "name": {
+      "en": "RSUP H. Adam Malik Medan — North Sumatra National Maternal & Teaching Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Bunga Lau No. 17, Kemenangan Tani, Kec. Medan Tuntungan, Kota Medan, North Sumatra 20136, Indonesia"
+    },
+    "phone": "+62 61 836 0143",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Northern Sumatra’s central Class A public referral hospital and maternal center in Medan."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsia-stella-maris-medan",
+    "type": "hospital",
+    "lat": 3.5752,
+    "lng": 98.6815,
+    "regionDistrict": "Medan, North Sumatra, Indonesia",
+    "name": {
+      "en": "RSIA Stella Maris Medan (Mother and Child Specialist Hospital, Medan)"
+    },
+    "address": {
+      "en": "Jl. Samanhudi No. 20, Jati, Kec. Medan Maimun, Kota Medan, North Sumatra 20152, Indonesia"
+    },
+    "phone": "+62 61 415 8383",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Leading Mother and Child Hospital (RSIA Stella Maris) in Medan, North Sumatra."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-djamil-padang",
+    "type": "hospital",
+    "lat": -0.9432,
+    "lng": 100.3668,
+    "regionDistrict": "Padang, West Sumatra, Indonesia",
+    "name": {
+      "en": "RSUP Dr. M. Djamil Padang — West Sumatra National Maternal & Obstetric Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Perintis Kemerdekaan, Sawahan Timur, Kec. Padang Timur, Kota Padang, West Sumatra 25129, Indonesia"
+    },
+    "phone": "+62 751 32371",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Central public referral hospital for West Sumatra in Padang."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-unand-padang",
+    "type": "hospital",
+    "lat": -0.9195,
+    "lng": 100.4565,
+    "regionDistrict": "Pauh, Padang, West Sumatra, Indonesia",
+    "name": {
+      "en": "RS Universitas Andalas (UNAND Teaching & Maternity Hospital, Padang)"
+    },
+    "address": {
+      "en": "Komplek Kampus UNAND Limau Manis, Kec. Pauh, Kota Padang, West Sumatra 25163, Indonesia"
+    },
+    "phone": "+62 751 846 5000",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Andalas University teaching and maternal hospital in Padang, West Sumatra."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-arifin-achmad-pekanbaru",
+    "type": "hospital",
+    "lat": 0.5236,
+    "lng": 101.4515,
+    "regionDistrict": "Pekanbaru, Riau, Sumatra, Indonesia",
+    "name": {
+      "en": "RSUD Arifin Achmad Pekanbaru — Riau Provincial Maternal & Emergency Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Diponegoro No. 2, Sumahilang, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau 28156, Indonesia"
+    },
+    "phone": "+62 761 21618",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Main provincial public referral hospital for Riau Province in Pekanbaru."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-eka-hospital-pekanbaru",
+    "type": "hospital",
+    "lat": 0.4822,
+    "lng": 101.4192,
+    "regionDistrict": "Pekanbaru, Riau, Sumatra, Indonesia",
+    "name": {
+      "en": "Eka Hospital Pekanbaru — JCI-Accredited Maternal & General Hospital (Pekanbaru, Riau)"
+    },
+    "address": {
+      "en": "Jl. Soekarno-Hatta KM 6.5, Tangkerang Barat, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28282, Indonesia"
+    },
+    "phone": "+62 761 698 9999",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "JCI-accredited general and maternity hospital in Pekanbaru, Riau."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsbp-batam",
+    "type": "hospital",
+    "lat": 1.1245,
+    "lng": 104.0042,
+    "regionDistrict": "Sekupang, Batam, Riau Islands, Indonesia",
+    "name": {
+      "en": "RS Badan Pengusahaan (RSBP) Batam — Riau Islands Public Referral & Maternity Hospital"
+    },
+    "address": {
+      "en": "Jl. Dr. Cipto Mangunkusumo No. 1, Tanjung Pinggir, Kec. Sekupang, Kota Batam, Kepulauan Riau 29428, Indonesia"
+    },
+    "phone": "+62 778 322 121",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major public referral and maternity hospital in Sekupang, Batam."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-awal-bros-batam",
+    "type": "hospital",
+    "lat": 1.1215,
+    "lng": 104.0412,
+    "regionDistrict": "Lubuk Baja, Batam, Riau Islands, Indonesia",
+    "name": {
+      "en": "RS Awal Bros Botania & Batam — Maternity & Women’s Care Center (Batam, Riau Islands)"
+    },
+    "address": {
+      "en": "Jl. Gajah Mada Kav. 1, Baloi Indah, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29432, Indonesia"
+    },
+    "phone": "+62 778 431 777",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "JCI-accredited private referral and maternity hospital in Batam."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-raden-mattaher-jambi",
+    "type": "hospital",
+    "lat": -1.6082,
+    "lng": 103.5805,
+    "regionDistrict": "Jambi, Sumatra, Indonesia",
+    "name": {
+      "en": "RSUD Raden Mattaher Jambi — Provincial Maternal & Emergency Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Letjen Suprapto No. 31, Telanaipura, Kota Jambi, Jambi 36361, Indonesia"
+    },
+    "phone": "+62 741 61692",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial public referral hospital in Jambi, Sumatra."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-yunus-bengkulu",
+    "type": "hospital",
+    "lat": -3.8295,
+    "lng": 102.3185,
+    "regionDistrict": "Bengkulu, Sumatra, Indonesia",
+    "name": {
+      "en": "RSUD Dr. M. Yunus Bengkulu — Provincial Maternal & Obstetric Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Bhayangkara, Sidomulyo, Kec. Gading Cempaka, Kota Bengkulu, Bengkulu 38211, Indonesia"
+    },
+    "phone": "+62 736 52004",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Main public referral hospital for Bengkulu Province."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-mohammad-hoesin-palembang",
+    "type": "hospital",
+    "lat": -2.9665,
+    "lng": 104.7495,
+    "regionDistrict": "Palembang, South Sumatra, Indonesia",
+    "name": {
+      "en": "RSUP Dr. Mohammad Hoesin Palembang — South Sumatra National Maternal Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Jend. Sudirman KM 3.5, Sekip Jaya, Kec. Kemuning, Kota Palembang, South Sumatra 30126, Indonesia"
+    },
+    "phone": "+62 711 354 088",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Southern Sumatra’s central Class A public referral and maternity teaching hospital in Palembang."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-pangkalpinang-babel",
+    "type": "hospital",
+    "lat": -2.1325,
+    "lng": 106.1145,
+    "regionDistrict": "Pangkalpinang, Bangka Belitung Islands, Indonesia",
+    "name": {
+      "en": "RSUD Depati Hamzah Pangkalpinang — Bangka Belitung Maternal & Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Soekarno Hatta, Bukitbesar, Kec. Girimaya, Kota Pangkalpinang, Kepulauan Bangka Belitung 33684, Indonesia"
+    },
+    "phone": "+62 717 422 693",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Public referral and maternity hospital in Pangkalpinang, Bangka Belitung Islands."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-abdul-moeloek-lampung",
+    "type": "hospital",
+    "lat": -5.4032,
+    "lng": 105.2586,
+    "regionDistrict": "Bandar Lampung, Lampung, Sumatra, Indonesia",
+    "name": {
+      "en": "RSUD Dr. H. Abdul Moeloek Bandar Lampung — Lampung Provincial Maternal Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Dr. Rivai No. 6, Penengahan, Kec. Tj. Karang Pusat, Kota Bandar Lampung, Lampung 35112, Indonesia"
+    },
+    "phone": "+62 721 703 312",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Top public referral hospital for Lampung Province in Bandar Lampung."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-urip-sumoharjo-lampung",
+    "type": "hospital",
+    "lat": -5.3912,
+    "lng": 105.2768,
+    "regionDistrict": "Way Halim, Bandar Lampung, Lampung, Indonesia",
+    "name": {
+      "en": "RS Urip Sumoharjo Bandar Lampung — Maternity & General Hospital"
+    },
+    "address": {
+      "en": "Jl. Urip Sumoharjo No. 200, Gunung Sulah, Kec. Way Halim, Kota Bandar Lampung, Lampung 35132, Indonesia"
+    },
+    "phone": "+62 721 771 322",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major private general and maternity hospital in Bandar Lampung."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-ngoerah-sanglah-bali",
+    "type": "hospital",
+    "lat": -8.6758,
+    "lng": 115.2128,
+    "regionDistrict": "Denpasar, Bali, Indonesia",
+    "name": {
+      "en": "RSUP Prof. Dr. I.G.N.G. Ngoerah (Sanglah Hospital Denpasar — Bali National Maternal & Trauma Referral)"
+    },
+    "address": {
+      "en": "Jl. Diponegoro, Dauh Puri Klod, Kec. Denpasar Barat, Kota Denpasar, Bali 80113, Indonesia"
+    },
+    "phone": "+62 361 227 911",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Bali’s primary national public referral hospital (formerly Sanglah Hospital) and maternal/trauma center in Denpasar."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsia-puri-bunda-bali",
+    "type": "hospital",
+    "lat": -8.6365,
+    "lng": 115.2162,
+    "regionDistrict": "Denpasar Utara, Bali, Indonesia",
+    "name": {
+      "en": "RSIA Puri Bunda Denpasar (Mother and Child Hospital, Bali)"
+    },
+    "address": {
+      "en": "Jl. Gatot Subroto VI No. 19, Dauh Puri Kaja, Kec. Denpasar Utara, Kota Denpasar, Bali 80233, Indonesia"
+    },
+    "phone": "+62 361 437 999",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Leading Mother and Child Hospital (RSIA Puri Bunda) in Denpasar, Bali."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-bimc-kuta-bali",
+    "type": "hospital",
+    "lat": -8.7222,
+    "lng": 115.1818,
+    "regionDistrict": "Kuta, Badung, Bali, Indonesia",
+    "name": {
+      "en": "BIMC Hospital Kuta — 24/7 Emergency & Women’s Medical Center (Badung, Bali)"
+    },
+    "address": {
+      "en": "Jl. Bypass Ngurah Rai No. 100X, Kuta, Kabupaten Badung, Bali 80361, Indonesia"
+    },
+    "phone": "+62 361 761 263",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 international emergency and medical center in Kuta, Bali."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-ntb-mataram",
+    "type": "hospital",
+    "lat": -8.6025,
+    "lng": 116.1432,
+    "regionDistrict": "Mataram, Lombok, West Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "RSUD Provinsi Nusa Tenggara Barat (RSUD NTB) — Mataram, Lombok Maternal Referral"
+    },
+    "address": {
+      "en": "Jl. Prabu Rangkasari, Dasan Cermen, Kec. Sandubaya, Kota Mataram, West Nusa Tenggara 83232, Indonesia"
+    },
+    "phone": "+62 370 750 2424",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Principal provincial referral hospital for West Nusa Tenggara (Lombok & Sumbawa) in Mataram."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-siloam-labuan-bajo",
+    "type": "hospital",
+    "lat": -8.4882,
+    "lng": 119.8835,
+    "regionDistrict": "Labuan Bajo, West Manggarai, Flores, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "Siloam Hospitals Labuan Bajo — 24/7 Maternal & Emergency Hospital (West Flores)"
+    },
+    "address": {
+      "en": "Jl. Gabriel Gampur, Gorontalo, Kec. Komodo, Labuan Bajo, Kabupaten Manggarai Barat, East Nusa Tenggara 86754, Indonesia"
+    },
+    "phone": "+62 385 238 1900",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 emergency and maternal hospital in Labuan Bajo, West Flores (partnering with St. Theresa Women’s Shelter)."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-komodo-labuan-bajo",
+    "type": "hospital",
+    "lat": -8.5325,
+    "lng": 119.8942,
+    "regionDistrict": "Labuan Bajo, West Manggarai, Flores, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "RSUD Komodo Labuan Bajo — West Manggarai Public Maternal Referral Hospital (Flores)"
+    },
+    "address": {
+      "en": "Jl. Trans Flores, Desa Golo Bilas, Kec. Komodo, Labuan Bajo, Kabupaten Manggarai Barat, East Nusa Tenggara, Indonesia"
+    },
+    "phone": "+62 385 244 3333",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Public regional referral hospital for West Manggarai Regency in Labuan Bajo, Flores."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-ben-mboi-ruteng",
+    "type": "hospital",
+    "lat": -8.6145,
+    "lng": 120.4682,
+    "regionDistrict": "Ruteng, Manggarai, Flores, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "RSUD dr. Ben Mboi Ruteng — Central Flores Public Maternal Hospital (Manggarai)"
+    },
+    "address": {
+      "en": "Jl. Dr. Soetomo No. 1, Watu, Kec. Langke Rembong, Ruteng, Kabupaten Manggarai, East Nusa Tenggara 86511, Indonesia"
+    },
+    "phone": "+62 385 21318",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional public referral hospital in Ruteng, Flores (partnering with the Good Shepherd Sisters Women’s Shelter)."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-st-rafael-cancar",
+    "type": "hospital",
+    "lat": -8.5985,
+    "lng": 120.3825,
+    "regionDistrict": "Cancar, Manggarai, Flores, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "RS St. Rafael Cancar — SSpS Catholic Sisters Maternity & General Hospital (Manggarai, Flores)"
+    },
+    "address": {
+      "en": "Jl. Raya Ruteng–Labuan Bajo, Cancar, Kec. Ruteng, Kabupaten Manggarai, Pulau Flores, East Nusa Tenggara, Indonesia"
+    },
+    "phone": "+62 385 21401",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Operated by the Missionary Sisters Servants of the Holy Spirit (SSpS) in Cancar, Manggarai, Flores."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-tc-hillers-maumere",
+    "type": "hospital",
+    "lat": -8.6258,
+    "lng": 122.2165,
+    "regionDistrict": "Maumere, Sikka, Flores, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "RSUD dr. T. C. Hillers Maumere — East Flores Maternal & Emergency Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Wairklau No. 1, Kota Uneng, Kec. Alok, Maumere, Kabupaten Sikka, Pulau Flores, East Nusa Tenggara 86113, Indonesia"
+    },
+    "phone": "+62 382 21617",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional public hospital in Maumere, Sikka Regency, Flores (partnering with TRUK-F Women’s Shelter)."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-waingapu-sumba",
+    "type": "hospital",
+    "lat": -9.6542,
+    "lng": 120.2645,
+    "regionDistrict": "Waingapu, East Sumba, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "RSUD Umbu Rara Meha Waingapu — East Sumba Maternal & Emergency Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Adam Malik No. 54, Kambajawa, Kec. Kota Waingapu, Kabupaten Sumba Timur, East Nusa Tenggara 87116, Indonesia"
+    },
+    "phone": "+62 387 61302",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Main public maternal and emergency referral hospital in Waingapu, East Sumba."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-karitas-waitabula-sumba",
+    "type": "hospital",
+    "lat": -9.4285,
+    "lng": 119.2345,
+    "regionDistrict": "Tambolaka / Waitabula, Southwest Sumba, East Nusa Tenggara, Indonesia",
+    "name": {
+      "en": "RS Karitas Waitabula — Southwest Sumba Maternity & General Hospital"
+    },
+    "address": {
+      "en": "Jl. Bulgur No. 1, Waitabula, Kota Tambolaka, Kabupaten Sumba Barat Daya, East Nusa Tenggara 87255, Indonesia"
+    },
+    "phone": "+62 387 252 4010",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary Catholic mission and maternal referral hospital serving western Sumba Island."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-soedarso-pontianak",
+    "type": "hospital",
+    "lat": -0.0625,
+    "lng": 109.3492,
+    "regionDistrict": "Pontianak, West Kalimantan, Indonesia",
+    "name": {
+      "en": "RSUD Dr. Soedarso Pontianak — West Kalimantan Provincial Maternal Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Dr. Soedarso No. 1, Bangka Belitung Laut, Kec. Pontianak Tenggara, Kota Pontianak, West Kalimantan 78124, Indonesia"
+    },
+    "phone": "+62 561 737 701",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Top provincial public hospital in Pontianak, West Kalimantan."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsia-anugerah-bunda-pontianak",
+    "type": "hospital",
+    "lat": -0.0445,
+    "lng": 109.3385,
+    "regionDistrict": "Pontianak, West Kalimantan, Indonesia",
+    "name": {
+      "en": "RSIA Anugerah Bunda Khatulistiwa (Mother and Child Hospital, Pontianak)"
+    },
+    "address": {
+      "en": "Jl. Jenderal Ahmad Yani, Bangka Belitung Laut, Kec. Pontianak Tenggara, Kota Pontianak, West Kalimantan 78124, Indonesia"
+    },
+    "phone": "+62 561 581 818",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Dedicated Mother and Child Hospital (RSIA Anugerah Bunda Khatulistiwa) in Pontianak."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-doris-sylvanus-palangkaraya",
+    "type": "hospital",
+    "lat": -2.2115,
+    "lng": 113.9182,
+    "regionDistrict": "Palangka Raya, Central Kalimantan, Indonesia",
+    "name": {
+      "en": "RSUD dr. Doris Sylvanus Palangka Raya — Central Kalimantan Maternal Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Tambun Bungai No. 4, Langkai, Kec. Pahandut, Kota Palangka Raya, Central Kalimantan 73111, Indonesia"
+    },
+    "phone": "+62 536 322 1717",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial public referral and maternity hospital in Palangka Raya, Central Kalimantan."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-ulin-banjarmasin",
+    "type": "hospital",
+    "lat": -3.3235,
+    "lng": 114.6028,
+    "regionDistrict": "Banjarmasin, South Kalimantan, Indonesia",
+    "name": {
+      "en": "RSUD Ulin Banjarmasin — South Kalimantan Provincial Teaching & Maternal Hospital"
+    },
+    "address": {
+      "en": "Jl. A. Yani KM 2.5 No. 43, Sungai Baru, Kec. Banjarmasin Tengah, Kota Banjarmasin, South Kalimantan 70233, Indonesia"
+    },
+    "phone": "+62 511 325 2180",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Principal tertiary public referral hospital for South Kalimantan in Banjarmasin."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-aws-samarinda",
+    "type": "hospital",
+    "lat": -0.4782,
+    "lng": 117.1452,
+    "regionDistrict": "Samarinda, East Kalimantan, Indonesia",
+    "name": {
+      "en": "RSUD Abdul Wahab Sjahranie Samarinda — East Kalimantan Provincial Maternal Referral"
+    },
+    "address": {
+      "en": "Jl. Palang Merah Indonesia No. 1, Sidodadi, Kec. Samarinda Ulu, Kota Samarinda, East Kalimantan 75123, Indonesia"
+    },
+    "phone": "+62 541 738 118",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Class A provincial referral hospital in Samarinda, East Kalimantan."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-kanujoso-balikpapan",
+    "type": "hospital",
+    "lat": -1.2158,
+    "lng": 116.8685,
+    "regionDistrict": "Balikpapan, East Kalimantan, Indonesia",
+    "name": {
+      "en": "RSUD Dr. Kanujoso Djatiwibowo Balikpapan — East Kalimantan Maternal & Trauma Referral"
+    },
+    "address": {
+      "en": "Jl. MT. Haryono No. 656, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, East Kalimantan 76115, Indonesia"
+    },
+    "phone": "+62 542 873 901",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major public referral hospital in Balikpapan, East Kalimantan."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-ikn-nusantara",
+    "type": "hospital",
+    "lat": -0.9685,
+    "lng": 116.7025,
+    "regionDistrict": "Sepaku / Nusantara (IKN), North Penajam Paser, East Kalimantan, Indonesia",
+    "name": {
+      "en": "RSUP Ibu Kota Nusantara (IKN) & RSUD Sepaku — Nusantara Capital Maternal Hospital"
+    },
+    "address": {
+      "en": "Kawasan Inti Pusat Pemerintahan (KIPP) Ibu Kota Nusantara, Sepaku, Penajam Paser Utara, East Kalimantan, Indonesia"
+    },
+    "phone": "112 / 119",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "National central referral hospital serving the Nusantara capital region (IKN) and Sepaku in East Kalimantan."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-tarakan-kaltara",
+    "type": "hospital",
+    "lat": 3.3145,
+    "lng": 117.5912,
+    "regionDistrict": "Tarakan, North Kalimantan, Indonesia",
+    "name": {
+      "en": "RSUD dr. H. Jusuf SK Tarakan — North Kalimantan Provincial Maternal Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Pulau Irian No. 1, Kp. Satu Skip, Kec. Tarakan Tengah, Kota Tarakan, North Kalimantan 77113, Indonesia"
+    },
+    "phone": "+62 551 21166",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial public referral hospital serving North Kalimantan in Tarakan."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-wahidin-makassar",
+    "type": "hospital",
+    "lat": -5.1342,
+    "lng": 119.4935,
+    "regionDistrict": "Tamalanrea, Makassar, South Sulawesi, Indonesia",
+    "name": {
+      "en": "RSUP Dr. Wahidin Sudirohusodo Makassar — Eastern Indonesia Central Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Perintis Kemerdekaan KM 11, Tamalanrea, Kota Makassar, South Sulawesi 90245, Indonesia"
+    },
+    "phone": "+62 411 584 677",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Eastern Indonesia’s principal Class A national referral and teaching hospital in Makassar."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rskdia-siti-fatimah-makassar",
+    "type": "hospital",
+    "lat": -5.1462,
+    "lng": 119.4215,
+    "regionDistrict": "Mamajang, Makassar, South Sulawesi, Indonesia",
+    "name": {
+      "en": "RSKDIA Siti Fatimah Makassar (South Sulawesi Provincial Mother and Child Hospital)"
+    },
+    "address": {
+      "en": "Jl. Gunung Merapi No. 75, Lariang Bangi, Kec. Makassar, Kota Makassar, South Sulawesi 90141, Indonesia"
+    },
+    "phone": "+62 411 361 6956",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Dedicated provincial Mother and Child Hospital (Rumah Sakit Khusus Daerah Ibu dan Anak Siti Fatimah) in Makassar."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-sulbar-mamuju",
+    "type": "hospital",
+    "lat": -2.6815,
+    "lng": 118.8895,
+    "regionDistrict": "Mamuju, West Sulawesi, Indonesia",
+    "name": {
+      "en": "RSUD Provinsi Sulawesi Barat — Mamuju Maternal & Emergency Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. RE Martadinata, Simboro, Kec. Simboro Dan Kepulauan, Kabupaten Mamuju, West Sulawesi 91512, Indonesia"
+    },
+    "phone": "+62 426 232 5252",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial public referral hospital in Mamuju, West Sulawesi."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-undata-palu",
+    "type": "hospital",
+    "lat": -0.8582,
+    "lng": 119.8835,
+    "regionDistrict": "Palu, Central Sulawesi, Indonesia",
+    "name": {
+      "en": "RSUD Undata Palu — Central Sulawesi Provincial Maternal & Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. RE. Martadinata, Tondo, Kec. Mantikulore, Kota Palu, Central Sulawesi 94119, Indonesia"
+    },
+    "phone": "+62 451 490 8020",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Main provincial public referral hospital in Palu, Central Sulawesi."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-bahteramas-kendari",
+    "type": "hospital",
+    "lat": -4.0285,
+    "lng": 122.5125,
+    "regionDistrict": "Kendari, Southeast Sulawesi, Indonesia",
+    "name": {
+      "en": "RSUD Bahteramas Kendari — Southeast Sulawesi Provincial Maternal Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Kapten Piere Tendean No. 50, Watubangga, Kec. Baruga, Kota Kendari, Southeast Sulawesi 93116, Indonesia"
+    },
+    "phone": "+62 401 319 5611",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial public referral hospital in Kendari, Southeast Sulawesi."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-aloei-saboe-gorontalo",
+    "type": "hospital",
+    "lat": 0.5512,
+    "lng": 123.0815,
+    "regionDistrict": "Gorontalo, Sulawesi, Indonesia",
+    "name": {
+      "en": "RSUD Prof. Dr. H. Aloei Saboe — Gorontalo Provincial Maternal Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Prof. Dr. H. Aloei Saboe No. 92, Wongkaditi, Kota Utara, Kota Gorontalo, Gorontalo 96115, Indonesia"
+    },
+    "phone": "+62 435 821 924",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary public referral hospital for Gorontalo Province."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsup-kandou-manado",
+    "type": "hospital",
+    "lat": 1.4542,
+    "lng": 124.8085,
+    "regionDistrict": "Manado, North Sulawesi, Indonesia",
+    "name": {
+      "en": "RSUP Prof. Dr. R. D. Kandou Manado — North Sulawesi National Maternal Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Raya Tanawangko No. 56, Malalayang Satu Barat, Kec. Malalayang, Kota Manado, North Sulawesi 95163, Indonesia"
+    },
+    "phone": "+62 431 838 3058",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Class A national referral and teaching hospital for northern Sulawesi in Manado."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-haulussy-ambon",
+    "type": "hospital",
+    "lat": -3.7042,
+    "lng": 128.1652,
+    "regionDistrict": "Nusaniwe, Ambon, Maluku, Indonesia",
+    "name": {
+      "en": "RSUD Dr. M. Haulussy Ambon — Maluku Provincial Maternal Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Dr. Kayadoe, Benteng, Kec. Nusaniwe, Kota Ambon, Maluku 97116, Indonesia"
+    },
+    "phone": "+62 911 344 871",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Main provincial public referral hospital in Ambon, Maluku."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rs-al-fatah-ambon",
+    "type": "hospital",
+    "lat": -3.6968,
+    "lng": 128.1782,
+    "regionDistrict": "Sirimau, Ambon, Maluku, Indonesia",
+    "name": {
+      "en": "RS Al-Fatah Ambon — Maternity & General Hospital (Sirimau, Ambon, Maluku)"
+    },
+    "address": {
+      "en": "Jl. Sultan Babullah No. 2, Honipopu, Kec. Sirimau, Kota Ambon, Maluku 97126, Indonesia"
+    },
+    "phone": "+62 911 343 421",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major general and maternity hospital in central Ambon, Maluku."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-chasan-boesoirie-ternate",
+    "type": "hospital",
+    "lat": 0.7852,
+    "lng": 127.3815,
+    "regionDistrict": "Ternate, North Maluku, Indonesia",
+    "name": {
+      "en": "RSUD Dr. H. Chasan Boesoirie Ternate — North Maluku Provincial Maternal Hospital"
+    },
+    "address": {
+      "en": "Jl. Cempaka, Tanah Tinggi Barat, Kec. Ternate Selatan, Kota Ternate, North Maluku 97722, Indonesia"
+    },
+    "phone": "+62 921 312 1281",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial public referral hospital in Ternate, North Maluku."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-sele-be-solu-sorong",
+    "type": "hospital",
+    "lat": -0.8925,
+    "lng": 131.3012,
+    "regionDistrict": "Sorong, Southwest Papua, Indonesia",
+    "name": {
+      "en": "RSUD Sele Be Solu Sorong — Southwest Papua Maternal & Emergency Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Klamono KM 12, Klawuyuk, Kec. Sorong Timur, Kota Sorong, Southwest Papua 98417, Indonesia"
+    },
+    "phone": "+62 951 321 850",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major public referral hospital in Sorong, Southwest Papua."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-manokwari-papua-barat",
+    "type": "hospital",
+    "lat": -0.8652,
+    "lng": 134.0625,
+    "regionDistrict": "Manokwari, West Papua, Indonesia",
+    "name": {
+      "en": "RSUD Provinsi Papua Barat — Manokwari Maternal & Referral Hospital (West Papua)"
+    },
+    "address": {
+      "en": "Jl. Bhayangkara, Sowi, Distrik Manokwari Selatan, Kabupaten Manokwari, West Papua 98315, Indonesia"
+    },
+    "phone": "+62 986 211 180",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Provincial public referral hospital in Manokwari, West Papua."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsmm-timika-papua-tengah",
+    "type": "hospital",
+    "lat": -4.5325,
+    "lng": 136.8852,
+    "regionDistrict": "Timika, Mimika, Central Papua, Indonesia",
+    "name": {
+      "en": "RS Mitra Masyarakat (RSMM) Timika — Central Papua Maternal & General Hospital"
+    },
+    "address": {
+      "en": "Jl. Caritas No. 1, Timika Jaya, Distrik Mimika Baru, Kabupaten Mimika, Central Papua 99963, Indonesia"
+    },
+    "phone": "+62 901 324 055",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Major Caritas-affiliated referral and maternity hospital serving Timika, Central Papua."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-mimika-timika",
+    "type": "hospital",
+    "lat": -4.5162,
+    "lng": 136.8615,
+    "regionDistrict": "Timika, Mimika, Central Papua, Indonesia",
+    "name": {
+      "en": "RSUD Kabupaten Mimika — Public Maternal & Emergency Referral Hospital (Timika, Central Papua)"
+    },
+    "address": {
+      "en": "Jl. Yos Sudarso KM 4, Mawokauw Jaya, Distrik Wania, Timika, Kabupaten Mimika, Central Papua 99910, Indonesia"
+    },
+    "phone": "+62 901 323 230",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Public regional referral hospital in Timika, Mimika Regency, Central Papua."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-wamena-papua-pegunungan",
+    "type": "hospital",
+    "lat": -4.0982,
+    "lng": 138.9512,
+    "regionDistrict": "Wamena, Jayawijaya, Highland Papua, Indonesia",
+    "name": {
+      "en": "RSUD Wamena — Highland Papua Maternal & Emergency Referral Hospital (Jayawijaya)"
+    },
+    "address": {
+      "en": "Jl. Trikora No. 9, Wamena Kota, Distrik Wamena, Kabupaten Jayawijaya, Papua Pegunungan 99511, Indonesia"
+    },
+    "phone": "+62 969 31062",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Primary public referral hospital for the Central Highlands (Papua Pegunungan) in Wamena."
+    }
+  },
+  {
+    "id": "indo-wiki-hosp-rsud-merauke-papua-selatan",
+    "type": "hospital",
+    "lat": -8.4932,
+    "lng": 140.4018,
+    "regionDistrict": "Merauke, South Papua, Indonesia",
+    "name": {
+      "en": "RSUD Merauke — South Papua Maternal & Emergency Referral Hospital"
+    },
+    "address": {
+      "en": "Jl. Soekarjo Wiryopranoto No. 1, Maro, Distrik Merauke, Kabupaten Merauke, South Papua 99613, Indonesia"
+    },
+    "phone": "+62 971 321 125",
+    "emergencyHotline": "112 / 119",
+    "openHours": "Open 24 hours",
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Maternity & Emergency C-Section",
+        "High-Risk Perinatal, Neonatal ICU (NICU) & PONEK Maternal Triage",
+        "Gynecology, Postpartum Care & Forensic GBV Referral (PPT/PKT)"
+      ]
+    },
+    "directionsText": {
+      "en": "Main public referral hospital for South Papua in Merauke."
     }
   }
 ];

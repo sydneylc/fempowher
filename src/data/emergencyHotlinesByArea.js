@@ -833,6 +833,16 @@ export const NATIONAL_CRISIS_DIRECTORY = {
       'IOM Mozambique (139 Rua Joseph Kizerbo, Maputo — Counter-Trafficking & Displaced Women): Call +258 21 489 946'
     ]
   },
+  tanzania: {
+    emergencyNumber: '112 (National Police & Emergency) / 116 (National GBV & Child Protection Helpline) / 0800 780 070 (UNHCR Helpline)',
+    crisisLines: [
+      'National Gender-Based Violence & Child Helpline (C-Sema / Police Gender Desk — 24/7 Toll-Free): Call 116',
+      'UNHCR Tanzania & IRC Protection Helpline (Nyarugusu, Nduta, Kasulu, Kigoma & Dar es Salaam): Call 0800 780 070',
+      'WLAC (Women’s Legal Aid Centre — Dar es Salaam, Kasulu, Nyarugusu & Nduta): Call 0800 780 100 / +255 22 266 4051',
+      'TAMWA (Tanzania Media Women’s Association GBV Crisis Center, Sinza-Mori): Call +255 22 277 2681',
+      'Marie Stopes Tanzania (Maternal & Reproductive Care Helpline): Call 0800 750 100 (Toll-Free)'
+    ]
+  },
   haiti: {
     emergencyNumber: '114 (National Police) / 116 (National Ambulance Center)',
     crisisLines: []

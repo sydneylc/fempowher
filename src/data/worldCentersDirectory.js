@@ -1,5 +1,5 @@
 // Global Women's Safe Havens, Maternity & OB/GYN Hospitals Directory
-// Total Verified Individual Global & Rural Centers: 3584
+// Total Verified Individual Global & Rural Centers: 5265
 export const WORLD_CENTERS_DIRECTORY = [
   {
     "id": "latam-dir-safe-1",
@@ -7029,7 +7029,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 42.3385,
     "lng": -71.1095,
     "name": {
-      "en": "Casa Myrna"
+      "en": "Casa Myrna Vazquez Domestic Violence Safe Haven (Boston, MA)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -7393,7 +7393,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 38.9095,
     "lng": -77.0385,
     "name": {
-      "en": "House of Ruth"
+      "en": "House of Ruth Domestic Violence Safe Shelter (Washington, D.C.)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -7617,7 +7617,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 33.749,
     "lng": -84.388,
     "name": {
-      "en": "Grady Memorial"
+      "en": "Grady Memorial Hospital — Jane Fonda Women’s & Maternity Center (Atlanta, GA)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -8004,12 +8004,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-safe-17",
-    "regionDistrict": "San Antonio / Austin, Texas, USA",
+    "regionDistrict": "Austin, Texas, USA",
     "type": "safe-haven",
-    "lat": 29.4265,
-    "lng": -98.4965,
+    "lat": 30.2672,
+    "lng": -97.7431,
     "name": {
-      "en": "SAFE Alliance"
+      "en": "SAFE Alliance (Stop Abuse For Everyone) Women’s Shelter (Austin, TX)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -8765,7 +8765,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 47.6085,
     "lng": -122.3345,
     "name": {
-      "en": "New Beginnings"
+      "en": "New Beginnings Domestic Violence Safe Shelter (Seattle, WA)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -8849,7 +8849,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 45.5175,
     "lng": -122.6805,
     "name": {
-      "en": "Bradley Angle"
+      "en": "Bradley Angle Domestic Violence Resource & Shelter Center (Portland, OR)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -9073,7 +9073,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 43.6555,
     "lng": -79.3855,
     "name": {
-      "en": "Nellie’s Shelter"
+      "en": "Nellie’s Shelter for Women & Children (Toronto, ON)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -9157,7 +9157,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 45.5035,
     "lng": -73.5695,
     "name": {
-      "en": "Chez Doris"
+      "en": "Chez Doris Women’s Day Shelter & Sanctuary (Montreal, QC)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -10474,7 +10474,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 4.5915,
     "lng": -74.0855,
     "name": {
-      "en": "Casas Refugio"
+      "en": "Casas Refugio — Secretaría Distrital de la Mujer (Bogotá, Colombia)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -10525,10 +10525,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-56",
-    "regionDistrict": "Medellín / Cali, Colombia",
+    "regionDistrict": "Medellín, Antioquia, Colombia",
     "type": "hospital",
-    "lat": 6.244,
-    "lng": -75.581,
+    "lat": 6.2442,
+    "lng": -75.5812,
     "name": {
       "en": "Clínica Universitaria Bolivariana — Maternidad (Medellín / Cali, Colombia)"
     },
@@ -10754,7 +10754,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -12.0485,
     "lng": -77.0395,
     "name": {
-      "en": "Flora Tristán"
+      "en": "Centro de la Mujer Peruana Flora Tristán (Lima, Peru)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -10894,7 +10894,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -16.4865,
     "lng": -68.1215,
     "name": {
-      "en": "Casa de la Mujer"
+      "en": "Casa de la Mujer — Protección y Refugio (Santa Cruz / La Paz, Bolivia)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -11085,10 +11085,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-64",
-    "regionDistrict": "Córdoba / Rosario, Argentina",
+    "regionDistrict": "Córdoba, Argentina",
     "type": "hospital",
-    "lat": -31.42,
-    "lng": -64.188,
+    "lat": -31.4201,
+    "lng": -64.1888,
     "name": {
       "en": "Hospital Materno Provincial Dr. Felipe Lucini (Córdoba / Rosario, Argentina)"
     },
@@ -11365,10 +11365,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-69",
-    "regionDistrict": "Salvador / Recife, Brazil",
+    "regionDistrict": "Salvador, Bahia, Brazil",
     "type": "hospital",
-    "lat": -12.977,
-    "lng": -38.501,
+    "lat": -12.9777,
+    "lng": -38.5016,
     "name": {
       "en": "Maternidade Climério de Oliveira (Salvador / Recife, Brazil)"
     },
@@ -11617,10 +11617,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-safe-73",
-    "regionDistrict": "Edinburgh / Glasgow, Scotland, UK",
+    "regionDistrict": "Glasgow, Scotland, UK",
     "type": "safe-haven",
-    "lat": 55.9235,
-    "lng": -3.1405,
+    "lat": 55.8642,
+    "lng": -4.2518,
     "name": {
       "en": "Scottish Women’s Aid"
     },
@@ -11645,10 +11645,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-safe-73-u2",
-    "regionDistrict": "Edinburgh / Glasgow, Scotland, UK",
+    "regionDistrict": "Edinburgh, Scotland, UK",
     "type": "safe-haven",
-    "lat": 55.9185,
-    "lng": -3.1355,
+    "lat": 55.9533,
+    "lng": -3.1883,
     "name": {
       "en": "Edinburgh Shakti Safe Haven"
     },
@@ -11902,7 +11902,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 52.5225,
     "lng": 13.4025,
     "name": {
-      "en": "BIG Koordinierung"
+      "en": "BIG Koordinierung & Berliner Krisendienst Frauenhaus (Berlin, Germany)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -12098,7 +12098,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 50.8525,
     "lng": 4.3485,
     "name": {
-      "en": "Refuge Pluriel"
+      "en": "Refuge Pluriel — Maison d’Accueil pour Femmes (Brussels, Belgium)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -13834,7 +13834,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 36.7555,
     "lng": 3.0555,
     "name": {
-      "en": "Réseau Wassila"
+      "en": "Réseau Wassila / Avife — Aide aux Femmes et Enfants Victimes de Violences (Algiers, Algeria)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -14478,7 +14478,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -1.295,
     "lng": 36.784,
     "name": {
-      "en": "Pumwani Maternity"
+      "en": "Pumwani Maternity Hospital (Nairobi, Kenya)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -14562,7 +14562,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 0.051,
     "lng": 40.312,
     "name": {
-      "en": "IRC Hagadera"
+      "en": "IRC Hagadera Refugee Camp Maternity & Women’s Hospital (Dadaab, Kenya)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -14585,10 +14585,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-120-u2",
-    "regionDistrict": "Dadaab / Kakuma Camps, Kenya",
+    "regionDistrict": "Dagahaley Camp, Dadaab, Kenya",
     "type": "hospital",
-    "lat": 0.0535,
-    "lng": 40.3145,
+    "lat": 0.1815,
+    "lng": 40.2895,
     "name": {
       "en": "MSF Dagahaley Maternity Hospital"
     },
@@ -14702,7 +14702,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -1.944,
     "lng": 30.061,
     "name": {
-      "en": "CHUK Maternity"
+      "en": "University Teaching Hospital of Kigali (CHUK) — Maternity Department (Kigali, Rwanda)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -14730,7 +14730,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -1.9415,
     "lng": 30.0635,
     "name": {
-      "en": "Kacyiru Hospital"
+      "en": "Kacyiru District Hospital — Isange One-Stop & Maternity Center (Kigali, Rwanda)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -14837,12 +14837,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-124",
-    "regionDistrict": "Dar es Salaam, Tanzania",
+    "regionDistrict": "Upanga West, Dar es Salaam, Tanzania",
     "type": "hospital",
-    "lat": -6.792,
-    "lng": 39.208,
+    "lat": -6.8045,
+    "lng": 39.2736,
     "name": {
-      "en": "Muhimbili National Hospital — Maternity Block (Dar es Salaam, Tanzania)"
+      "en": "Muhimbili National Hospital (MNH) — Maternity & Obstetrics Institute (Upanga, Dar es Salaam)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -14865,12 +14865,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-safe-124",
-    "regionDistrict": "Dar es Salaam, Tanzania",
+    "regionDistrict": "Mikocheni / Kinondoni, Dar es Salaam, Tanzania",
     "type": "safe-haven",
-    "lat": -6.7895,
-    "lng": 39.2055,
+    "lat": -6.7642,
+    "lng": 39.2565,
     "name": {
-      "en": "Kivulini & WiLDAF Women’s Safe House Tanzania (Dar es Salaam, Tanzania)"
+      "en": "WiLDAF Tanzania & WLAC Women’s Legal Aid & Safe Protection Clinic (Kinondoni, Dar es Salaam)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -14893,12 +14893,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-125",
-    "regionDistrict": "Bukavu / Goma, DR Congo",
+    "regionDistrict": "Bukavu, South Kivu, DR Congo",
     "type": "hospital",
     "lat": -2.528,
     "lng": 28.861,
     "name": {
-      "en": "Panzi Hospital"
+      "en": "Panzi Hospital (Hôpital Général de Référence de Panzi — Dr. Denis Mukwege Foundation, Bukavu)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -14921,10 +14921,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-125-u2",
-    "regionDistrict": "Bukavu / Goma, DR Congo",
+    "regionDistrict": "Goma, North Kivu, DR Congo",
     "type": "hospital",
-    "lat": -2.5255,
-    "lng": 28.8635,
+    "lat": -1.6792,
+    "lng": 29.2285,
     "name": {
       "en": "HEAL Africa Fistula Hospital"
     },
@@ -14949,12 +14949,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-safe-125",
-    "regionDistrict": "Bukavu / Goma, DR Congo",
+    "regionDistrict": "Bukavu, South Kivu, DR Congo",
     "type": "safe-haven",
-    "lat": -2.5255,
+    "lat": -2.5245,
     "lng": 28.8585,
     "name": {
-      "en": "Maison Dorcas"
+      "en": "Maison Dorcas — Panzi Foundation Aftercare & Women’s Safe Sanctuary (Bukavu, DR Congo)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -14977,10 +14977,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-safe-125-u2",
-    "regionDistrict": "Bukavu / Goma, DR Congo",
+    "regionDistrict": "Bukavu, South Kivu, DR Congo",
     "type": "safe-haven",
-    "lat": -2.5305,
-    "lng": 28.8635,
+    "lat": -2.5215,
+    "lng": 28.8545,
     "name": {
       "en": "City of Joy Women’s Sanctuary"
     },
@@ -15542,7 +15542,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 14.6945,
     "lng": -17.4485,
     "name": {
-      "en": "Maison Rose"
+      "en": "La Maison Rose (Association Unies Vers’Elle — Guédiawaye / Dakar, Senegal)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -15906,7 +15906,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -15.3845,
     "lng": 28.3195,
     "name": {
-      "en": "YWCA Zambia"
+      "en": "YWCA Zambia — Women’s Safe Shelter & GBV Crisis Center (Lusaka, Zambia)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -16102,7 +16102,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -25.9665,
     "lng": 32.5705,
     "name": {
-      "en": "Fórum Mulher"
+      "en": "Fórum Mulher — Rede de Proteção e Direitos da Mulher (Maputo, Mozambique)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -16242,7 +16242,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -22.464,
     "lng": 17.137,
     "name": {
-      "en": "GBV Protection Unit"
+      "en": "Namibia Ministry of Gender GBV Protection Unit & Safe Shelter (Windhoek, Namibia)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -16383,7 +16383,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -18.8765,
     "lng": 47.5045,
     "name": {
-      "en": "Centre Vonjy"
+      "en": "Centre Vonjy — One-Stop GBV & Maternal Protection Center (Befelatanana, Antananarivo)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -16523,7 +16523,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 33.8955,
     "lng": 35.5035,
     "name": {
-      "en": "Red Cross"
+      "en": "Lebanese Red Cross Maternal & Emergency Medical Center (Beirut, Lebanon)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -16607,7 +16607,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 33.5155,
     "lng": 36.2785,
     "name": {
-      "en": "UNFPA Women’s Clinic"
+      "en": "UNFPA Syria Women & Reproductive Health Clinic (Damascus / Idlib, Syria)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -16747,7 +16747,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 31.9055,
     "lng": 35.2005,
     "name": {
-      "en": "Mehwar Center"
+      "en": "Mehwar Center for the Protection and Empowerment of Women and Families (Bethlehem / Palestine)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -17106,12 +17106,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-161-u2",
-    "regionDistrict": "Kabul / Herat, Afghanistan",
+    "regionDistrict": "Khost, Khost Province, Afghanistan",
     "type": "hospital",
-    "lat": 34.5575,
-    "lng": 69.2095,
+    "lat": 33.3338,
+    "lng": 69.9175,
     "name": {
-      "en": "MSF Khost Maternity"
+      "en": "MSF Khost Maternity Hospital (Khost, Afghanistan)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -17162,12 +17162,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-safe-161-u2",
-    "regionDistrict": "Kabul / Herat, Afghanistan",
+    "regionDistrict": "Herat, Herat Province, Afghanistan",
     "type": "safe-haven",
-    "lat": 34.5525,
-    "lng": 69.2095,
+    "lat": 34.3529,
+    "lng": 62.204,
     "name": {
-      "en": "Female Midwife Safe Clinics"
+      "en": "Afghan Midwives Association (AMA) Female Midwife Safe Clinics (Herat / Kabul, Afghanistan)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -17503,7 +17503,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 34.0175,
     "lng": 71.5215,
     "name": {
-      "en": "Bolo Helpline"
+      "en": "Bolo Helpline (0800-22227) & KP Women’s Crisis Referral Center (Peshawar, Pakistan)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -17587,7 +17587,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 24.8625,
     "lng": 67.0035,
     "name": {
-      "en": "JPMC OB/GYN Ward"
+      "en": "Jinnah Postgraduate Medical Centre (JPMC) — Obstetrics & Gynaecology Ward (Karachi, Pakistan)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -17671,7 +17671,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 31.52,
     "lng": 74.358,
     "name": {
-      "en": "Lady Willingdon"
+      "en": "Lady Willingdon Hospital — King Edward Medical University Maternity (Lahore, Pakistan)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -17867,7 +17867,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 28.6155,
     "lng": 77.2065,
     "name": {
-      "en": "Shakti Shalini"
+      "en": "Shakti Shalini — Women’s Crisis Shelter & Legal Aid (New Delhi, India)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -18091,7 +18091,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 13.0795,
     "lng": 80.2725,
     "name": {
-      "en": "Victim Care (PCVC)"
+      "en": "International Foundation for Crime Prevention and Victim Care — PCVC Dhwani Shelter (Chennai, India)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -18231,7 +18231,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 26.1415,
     "lng": 91.7385,
     "name": {
-      "en": "Sakhi Safe Shelter"
+      "en": "Sakhi One-Stop Women’s Crisis & Safe Shelter Center (Guwahati, Assam, India)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -18315,7 +18315,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 23.78,
     "lng": 90.407,
     "name": {
-      "en": "Azimpur Maternity"
+      "en": "Maternal and Child Health Training Institute — Azimpur Maternity Hospital (Dhaka, Bangladesh)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -18539,7 +18539,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 6.9295,
     "lng": 79.8635,
     "name": {
-      "en": "De Soysa Maternity"
+      "en": "De Soysa Hospital for Women — National Maternity Hospital (Colombo, Sri Lanka)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital"
@@ -18623,7 +18623,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 16.8425,
     "lng": 96.1705,
     "name": {
-      "en": "Akhaya Women"
+      "en": "Akhaya Women Myanmar — Gender Response & Safe Support Center (Yangon, Myanmar)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -18987,7 +18987,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 3.1365,
     "lng": 101.6885,
     "name": {
-      "en": "Talian Kasih"
+      "en": "Talian Kasih 15999 National Women’s Crisis & Shelter Helpline (Kuala Lumpur, Malaysia)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -19099,7 +19099,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -6.2055,
     "lng": 106.8425,
     "name": {
-      "en": "LBH APIK"
+      "en": "LBH APIK Jakarta — Women’s Legal Aid & Crisis Sanctuary (Jakarta, Indonesia)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -19519,7 +19519,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -33.9155,
     "lng": 151.2365,
     "name": {
-      "en": "Lou’s Place"
+      "en": "Lou’s Place — Daytime Safe Sanctuary & Crisis Support for Women (Sydney, NSW, Australia)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -19743,7 +19743,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -36.8505,
     "lng": 174.7655,
     "name": {
-      "en": "Shakti Safe House"
+      "en": "Shakti Ethnic Women’s Support Group & Safe House (Auckland, New Zealand)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -19799,7 +19799,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -9.4405,
     "lng": 147.1775,
     "name": {
-      "en": "Haus Ruth"
+      "en": "Haus Ruth — City Mission Women’s Crisis & Domestic Violence Shelter (Port Moresby, Papua New Guinea)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Abuse Shelter"
@@ -19995,7 +19995,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 35.5305,
     "lng": -108.7445,
     "name": {
-      "en": "Roberta’s Place"
+      "en": "Battered Families Services — Roberta’s Place Women’s Shelter (Gallup / Navajo Nation, NM)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -20247,7 +20247,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 37.4815,
     "lng": -82.5205,
     "name": {
-      "en": "Turning Point"
+      "en": "Turning Point Domestic Violence Services & Safe Shelter (Eastern Kentucky / Appalachia)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -20443,7 +20443,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 34.2025,
     "lng": -90.5725,
     "name": {
-      "en": "Care Lodge"
+      "en": "Care Lodge Domestic Violence Shelter (Mississippi / Delta Region)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -20555,7 +20555,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 45.783,
     "lng": -108.5,
     "name": {
-      "en": "Billings Clinic"
+      "en": "Billings Clinic — Family Birth Center & Maternal-Fetal Medicine (Billings, Montana)"
     },
     "categoryBadge": {
       "en": "Rural & Regional Maternity / OB-GYN Hospital"
@@ -20578,10 +20578,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-211-u2",
-    "regionDistrict": "Billings / Crow Agency Rural Montana, USA",
+    "regionDistrict": "Crow Agency, Rural Montana, USA",
     "type": "hospital",
-    "lat": 45.7855,
-    "lng": -108.4975,
+    "lat": 45.6058,
+    "lng": -107.4586,
     "name": {
       "en": "Crow/Northern Cheyenne IHS Maternity"
     },
@@ -21283,7 +21283,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -3.7455,
     "lng": -73.2485,
     "name": {
-      "en": "CEM Rural"
+      "en": "Centro Emergencia Mujer (CEM Rural) — Loreto Amazon Basin Protection Network (Iquitos, Peru)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -21367,7 +21367,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -15.8425,
     "lng": -70.0185,
     "name": {
-      "en": "Casa Refugio Puno"
+      "en": "Casa Refugio de la Mujer & CEM Puno (Puno / Lake Titicaca, Peru)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -21507,7 +21507,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -9.9775,
     "lng": -67.8215,
     "name": {
-      "en": "Abrigo Ester"
+      "en": "Casa Abrigo Ester — Refúgio Estadual para Mulheres (Rio Branco, Acre, Brazil)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -22146,10 +22146,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-hosp-235-u2",
-    "regionDistrict": "El Fasher / Nyala, Darfur, Sudan",
+    "regionDistrict": "Nyala, South Darfur, Sudan",
     "type": "hospital",
-    "lat": 13.6295,
-    "lng": 25.3515,
+    "lat": 12.0489,
+    "lng": 24.8807,
     "name": {
       "en": "MSF South Darfur Clinic"
     },
@@ -23294,12 +23294,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "world-safe-253-u2",
-    "regionDistrict": "Turbat / Gwadar, Makran Rural Balochistan, Pakistan",
+    "regionDistrict": "Gwadar, Makran Balochistan, Pakistan",
     "type": "safe-haven",
-    "lat": 26.0055,
-    "lng": 63.0405,
+    "lat": 25.1264,
+    "lng": 62.3225,
     "name": {
-      "en": "Dar-ul-Aman Safe Haven"
+      "en": "Dar-ul-Aman Women’s Protection Shelter (Gwadar / Turbat, Makran Balochistan)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -23719,7 +23719,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 34.1495,
     "lng": 77.5795,
     "name": {
-      "en": "Sakhi Safe Space"
+      "en": "Sakhi One-Stop Women’s Protection & Crisis Center (Leh, Ladakh)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -23831,7 +23831,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 29.589,
     "lng": 79.646,
     "name": {
-      "en": "Govind Singh Mahara"
+      "en": "Govind Singh Mahara Government Hospital & Female Maternity Center (Ranikhet / Almora, Uttarakhand)"
     },
     "categoryBadge": {
       "en": "Rural & Regional Maternity / OB-GYN Hospital"
@@ -23943,7 +23943,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 23.344,
     "lng": 85.309,
     "name": {
-      "en": "RIMS Ranchi"
+      "en": "Rajendra Institute of Medical Sciences (RIMS Ranchi) — Obstetrics & Gynaecology (Ranchi, Jharkhand)"
     },
     "categoryBadge": {
       "en": "Rural & Regional Maternity / OB-GYN Hospital"
@@ -24447,7 +24447,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 24.8145,
     "lng": 93.9385,
     "name": {
-      "en": "Sakhi Safe Haven"
+      "en": "Sakhi One-Stop Women’s Crisis & Safe Shelter Center (Imphal, Manipur)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -24587,7 +24587,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 22.6505,
     "lng": 92.1775,
     "name": {
-      "en": "BRAC Safe Space"
+      "en": "BRAC Chittagong Hill Tracts Women’s Safe Space & Legal Aid (Rangamati / Bandarban, Bangladesh)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -24811,7 +24811,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 9.6585,
     "lng": 80.0275,
     "name": {
-      "en": "WIN Safe Haven"
+      "en": "Women In Need (WIN) Crisis & Safe Shelter Center (Jaffna / Batticaloa, Sri Lanka)"
     },
     "categoryBadge": {
       "en": "Rural & Indigenous Women’s Safe Haven Shelter"
@@ -26460,7 +26460,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 29.2183,
     "lng": 79.513,
     "name": {
-      "en": "Base Hospital"
+      "en": " Soban Singh Jeena Base Hospital — Women & Maternity Wing (Haldwani, Uttarakhand, India)"
     },
     "categoryBadge": {
       "en": "OB/GYN, Maternity & Women’s Hospital"
@@ -26628,7 +26628,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 25.3201,
     "lng": 82.9764,
     "name": {
-      "en": "BHU OB/GYN"
+      "en": "Sir Sunderlal Hospital (BHU) — Department of Obstetrics & Gynaecology (Varanasi, UP, India)"
     },
     "categoryBadge": {
       "en": "OB/GYN, Maternity & Women’s Hospital"
@@ -27104,7 +27104,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 26.2414,
     "lng": 73.0218,
     "name": {
-      "en": "Sambhali Trust"
+      "en": "Sambhali Trust — Women’s Empowerment & Crisis Safe Center (Jodhpur, Rajasthan, India)"
     },
     "categoryBadge": {
       "en": "Sakhi One-Stop Centre & Women’s Safe Haven Shelter"
@@ -27244,7 +27244,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 18.9457,
     "lng": 72.8305,
     "name": {
-      "en": "Urja Trust"
+      "en": "Urja Trust — Young Women’s Safe Shelter & Sanctuary (Mumbai, Maharashtra, India)"
     },
     "categoryBadge": {
       "en": "Sakhi One-Stop Centre & Women’s Safe Haven Shelter"
@@ -27972,7 +27972,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 15.4625,
     "lng": 73.8555,
     "name": {
-      "en": "Bailancho Saad"
+      "en": "Bailancho Saad — Women’s Collective & Crisis Support Center (Panaji, Goa, India)"
     },
     "categoryBadge": {
       "en": "Sakhi One-Stop Centre & Women’s Safe Haven Shelter"
@@ -28112,7 +28112,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 22.7221,
     "lng": 75.8602,
     "name": {
-      "en": "Apollo Indore"
+      "en": "Apollo Hospitals Indore — Women’s & Maternity Center (Indore, Madhya Pradesh, India)"
     },
     "categoryBadge": {
       "en": "OB/GYN, Maternity & Women’s Hospital"
@@ -28392,7 +28392,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 17.3778,
     "lng": 78.4769,
     "name": {
-      "en": "Sultan Bazaar"
+      "en": "Government Maternity Hospital Sultan Bazaar (Koti, Hyderabad, Telangana, India)"
     },
     "categoryBadge": {
       "en": "OB/GYN, Maternity & Women’s Hospital"
@@ -28728,7 +28728,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 12.9274,
     "lng": 79.1328,
     "name": {
-      "en": "CMC Rural CHAD"
+      "en": "Christian Medical College (CMC Vellore) — CHAD Rural Women’s Outreach & Crisis Center (Vellore, TN)"
     },
     "categoryBadge": {
       "en": "Sakhi One-Stop Centre & Women’s Safe Haven Shelter"
@@ -28840,7 +28840,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 13.0612,
     "lng": 80.2731,
     "name": {
-      "en": "PCVC (Dhwani)"
+      "en": "PCVC Dhwani — Domestic Violence Crisis & Burn/Trauma Recovery Shelter (Chennai, Tamil Nadu, India)"
     },
     "categoryBadge": {
       "en": "Sakhi One-Stop Centre & Women’s Safe Haven Shelter"
@@ -29120,7 +29120,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 11.9441,
     "lng": 79.8058,
     "name": {
-      "en": "Red Cross"
+      "en": "Indian Red Cross Society & Puducherry One-Stop Women’s Crisis Center (Puducherry, India)"
     },
     "categoryBadge": {
       "en": "Sakhi One-Stop Centre & Women’s Safe Haven Shelter"
@@ -29568,7 +29568,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 10.0326,
     "lng": 76.2999,
     "name": {
-      "en": "Amrita Hospital"
+      "en": "Amrita Hospital Kochi — Department of Obstetrics & Gynaecology (Kochi, Kerala, India)"
     },
     "categoryBadge": {
       "en": "OB/GYN, Maternity & Women’s Hospital"
@@ -29904,7 +29904,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 20.465,
     "lng": 85.8855,
     "name": {
-      "en": "KIMS Bhubaneswar"
+      "en": "Kalinga Institute of Medical Sciences (KIMS) — Maternity & OB/GYN Center (Bhubaneswar, Odisha)"
     },
     "categoryBadge": {
       "en": "OB/GYN, Maternity & Women’s Hospital"
@@ -30016,7 +30016,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 25.6197,
     "lng": 85.1588,
     "name": {
-      "en": "PMCH Maternity"
+      "en": "Patna Medical College and Hospital (PMCH) — Maternity & Gynaecology Block (Patna, Bihar)"
     },
     "categoryBadge": {
       "en": "OB/GYN, Maternity & Women’s Hospital"
@@ -30072,7 +30072,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 25.6222,
     "lng": 85.1563,
     "name": {
-      "en": "Nari Gunjan"
+      "en": "Nari Gunjan — Dalit & Rural Women’s Protection & Safe Center (Patna, Bihar, India)"
     },
     "categoryBadge": {
       "en": "Sakhi One-Stop Centre & Women’s Safe Haven Shelter"
@@ -30548,7 +30548,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 25.6726,
     "lng": 94.1111,
     "name": {
-      "en": "Sakhi Safe Shelter"
+      "en": "Sakhi One-Stop Women’s Crisis Shelter (Dimapur / Kohima, Nagaland, India)"
     },
     "categoryBadge": {
       "en": "Sakhi One-Stop Centre & Women’s Safe Haven Shelter"
@@ -30576,7 +30576,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 23.8315,
     "lng": 91.2868,
     "name": {
-      "en": "IGM Hospital"
+      "en": "Indira Gandhi Memorial (IGM) Hospital — Mother & Child Block (Agartala, Tripura, India)"
     },
     "categoryBadge": {
       "en": "OB/GYN, Maternity & Women’s Hospital"
@@ -31248,7 +31248,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 18.8981,
     "lng": 81.3489,
     "name": {
-      "en": "Sakhi Garima"
+      "en": "Sakhi One-Stop Center & Garima Greh Tribal Women’s Shelter (Dantewada, Chhattisgarh, India)"
     },
     "categoryBadge": {
       "en": "Rural & Tribal Women’s Safe Haven (Sakhi / Swadhar)"
@@ -31444,7 +31444,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 26.9182,
     "lng": 70.9108,
     "name": {
-      "en": "Janani Express Hub"
+      "en": "Pokhran Sub-District Hospital & Janani Express Maternal Referral Hub (Jaisalmer, Rajasthan)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -31752,7 +31752,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 19.9098,
     "lng": 83.1622,
     "name": {
-      "en": "Sakhi One-Stop"
+      "en": "Sakhi One-Stop Women’s Protection Center (Bhawanipatna, Kalahandi, Odisha, India)"
     },
     "categoryBadge": {
       "en": "Rural & Tribal Women’s Safe Haven (Sakhi / Swadhar)"
@@ -32032,7 +32032,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 23.3347,
     "lng": 86.3641,
     "name": {
-      "en": "Sickle Cell Unit Purulia"
+      "en": "Bankura Sammilani Medical College — Maternal & Sickle Cell Care Unit (Bankura / Purulia, West Bengal)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -32088,7 +32088,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 26.3242,
     "lng": 89.4482,
     "name": {
-      "en": "MJN Hospital"
+      "en": "Maharaja Jitendra Narayan (MJN) Medical College & Hospital — Maternity Wing (Cooch Behar, West Bengal)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -32284,7 +32284,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 22.5544,
     "lng": 85.8062,
     "name": {
-      "en": "ANM Referral Center"
+      "en": "Noamundi / Saranda Rural Community Health Center & Maternal Referral Hub (West Singhbhum, Jharkhand)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -32396,7 +32396,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 26.0942,
     "lng": 87.9358,
     "name": {
-      "en": "Bhumika Vihar"
+      "en": "Bhumika Vihar — Seemanchal Anti-Trafficking & Girls’ Safe Shelter (Kishanganj / Purnia, Bihar)"
     },
     "categoryBadge": {
       "en": "Rural & Tribal Women’s Safe Haven (Sakhi / Swadhar)"
@@ -32536,7 +32536,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 24.6937,
     "lng": 78.4163,
     "name": {
-      "en": "Bundelkhand Rural CHC"
+      "en": "District Women’s (Mahila) Hospital Mahoba & Bundelkhand Rural CHC (Mahoba / Lalitpur, UP)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -32676,7 +32676,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 22.7699,
     "lng": 74.5933,
     "name": {
-      "en": "Sickle Cell Anemia Ward"
+      "en": "Alirajpur District Hospital — Tribal Maternal & Sickle Cell Care Unit (Alirajpur / Jhabua, MP)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -32760,7 +32760,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 22.6007,
     "lng": 80.3739,
     "name": {
-      "en": "Gond Maternity Wing"
+      "en": "Dindori District Hospital — Baiga & Gond Tribal Maternity Wing (Dindori / Mandla, Madhya Pradesh)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -33091,10 +33091,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "rural-india-hosp-741-u2",
-    "regionDistrict": "Kargil / Zanskar, Rural Ladakh, India",
+    "regionDistrict": "Padum (Zanskar Valley), Ladakh",
     "type": "hospital",
-    "lat": 34.5564,
-    "lng": 76.1374,
+    "lat": 33.4665,
+    "lng": 76.8775,
     "name": {
       "en": "CHC Padum (Zanskar Rural Winter Maternity — Purgi/Zanskari)"
     },
@@ -33152,7 +33152,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 34.5514,
     "lng": 76.1374,
     "name": {
-      "en": "Sakhi Safe Space"
+      "en": "Sakhi One-Stop Women’s Crisis & Safe Space Center (Kargil, Ladakh)"
     },
     "categoryBadge": {
       "en": "Rural & Tribal Women’s Safe Haven (Sakhi / Swadhar)"
@@ -33264,7 +33264,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 26.9478,
     "lng": 94.1645,
     "name": {
-      "en": "Sakhi Safe Haven"
+      "en": "Sakhi One-Stop Women’s Safe Haven (Dhemaji / Majuli River Island, Assam, India)"
     },
     "categoryBadge": {
       "en": "Rural & Tribal Women’s Safe Haven (Sakhi / Swadhar)"
@@ -33544,7 +33544,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 24.3313,
     "lng": 93.6818,
     "name": {
-      "en": "Sakhi Safe Shelter"
+      "en": "Sakhi One-Stop Women’s Safe Shelter (Ukhrul / Churachandpur, Manipur, India)"
     },
     "categoryBadge": {
       "en": "Rural & Tribal Women’s Safe Haven (Sakhi / Swadhar)"
@@ -33656,7 +33656,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 11.7949,
     "lng": 76.0065,
     "name": {
-      "en": "Sickle Cell Wing (Paniya/Kurichya)"
+      "en": "Government District Hospital Mananthavady — Tribal Maternal & Sickle Cell Wing (Wayanad, Kerala)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -33824,7 +33824,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 16.2101,
     "lng": 77.3488,
     "name": {
-      "en": "Nutrition Rehabilitation Wing"
+      "en": "Yadgir District Hospital — Maternal & Nutrition Rehabilitation Wing (Yadgir / Raichur, Karnataka)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -33880,7 +33880,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 19.6641,
     "lng": 78.532,
     "name": {
-      "en": "RIMS Adilabad"
+      "en": "Rajiv Gandhi Institute of Medical Sciences (RIMS Adilabad) — Mother & Child Hospital (Adilabad, Telangana)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -34099,10 +34099,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "rural-india-hosp-754-u2",
-    "regionDistrict": "Port Blair / Car Nicobar, Andaman & Nicobar Islands, India",
+    "regionDistrict": "Car Nicobar, Andaman & Nicobar Islands",
     "type": "hospital",
-    "lat": 11.6669,
-    "lng": 92.7376,
+    "lat": 9.1667,
+    "lng": 92.7833,
     "name": {
       "en": "BJR Hospital Car Nicobar — Island Maternity"
     },
@@ -34183,12 +34183,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "rural-india-hosp-755-u2",
-    "regionDistrict": "Kavaratti / Agatti, Lakshadweep Coral Islands, India",
+    "regionDistrict": "Agatti Island, Lakshadweep",
     "type": "hospital",
-    "lat": 10.5692,
-    "lng": 72.6442,
+    "lat": 10.858,
+    "lng": 72.1925,
     "name": {
-      "en": "Air-Ambulance Referral"
+      "en": "Government Hospital Agatti Island — Maternity & Emergency Air-Ambulance Referral Center (Lakshadweep)"
     },
     "categoryBadge": {
       "en": "Rural CHC / PHC / Tribal Maternity Hospital (JSSK / PMGSY)"
@@ -34272,7 +34272,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 39.9244,
     "lng": 116.4653,
     "name": {
-      "en": "PUMCH OB/GYN"
+      "en": "Peking Union Medical College Hospital (PUMCH / 北京协和医院) — Obstetrics & Gynecology (Beijing)"
     },
     "categoryBadge": {
       "en": "Grade-3A OB/GYN, Maternity & Women’s Hospital (妇产 / 妇幼保健院)"
@@ -35219,12 +35219,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "china-hosp-818-u2",
-    "regionDistrict": "Qiqihar / Mudanjiang, Rural Heilongjiang, China",
+    "regionDistrict": "Mudanjiang, Heilongjiang, China",
     "type": "hospital",
-    "lat": 47.3568,
-    "lng": 123.9207,
+    "lat": 44.5861,
+    "lng": 129.6,
     "name": {
-      "en": "Gynecological Branch"
+      "en": "Mudanjiang Maternal and Child Health Hospital (牡丹江市妇幼保健院 — Mudanjiang, Heilongjiang)"
     },
     "categoryBadge": {
       "en": "Grade-3A OB/GYN, Maternity & Women’s Hospital (妇产 / 妇幼保健院)"
@@ -35364,7 +35364,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 31.2041,
     "lng": 121.4245,
     "name": {
-      "en": "IPMCH (国际和平妇幼保健院)"
+      "en": "International Peace Maternity and Child Health Hospital (IPMCH / 中国福利会国际和平妇幼保健院 — Shanghai)"
     },
     "categoryBadge": {
       "en": "Grade-3A OB/GYN, Maternity & Women’s Hospital (妇产 / 妇幼保健院)"
@@ -36120,7 +36120,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 36.6537,
     "lng": 117.1226,
     "name": {
-      "en": "Qilu OB/GYN"
+      "en": "Qilu Hospital of Shandong University (山东大学齐鲁医院) — Obstetrics & Gynecology (Jinan, Shandong)"
     },
     "categoryBadge": {
       "en": "Grade-3A OB/GYN, Maternity & Women’s Hospital (妇产 / 妇幼保健院)"
@@ -36512,7 +36512,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 28.2307,
     "lng": 112.9413,
     "name": {
-      "en": "Xiangya OB/GYN"
+      "en": "Xiangya Hospital Central South University (中南大学湘雅医院) — Obstetrics & Gynecology (Changsha, Hunan)"
     },
     "categoryBadge": {
       "en": "Grade-3A OB/GYN, Maternity & Women’s Hospital (妇产 / 妇幼保健院)"
@@ -36596,7 +36596,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 28.3144,
     "lng": 109.7364,
     "name": {
-      "en": "Xiangxi Rural"
+      "en": "Xiangxi Autonomous Prefecture Women’s Federation & Rural Safe Haven (Jishou, Hunan, China)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Anti-DV Shelter (反家暴庇护中心 / 12338)"
@@ -36932,7 +36932,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 25.2761,
     "lng": 110.2875,
     "name": {
-      "en": "Guilin Rural"
+      "en": "Guilin & Liuzhou Women’s Federation Domestic Violence Shelter Center (Guangxi, China)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Anti-DV Shelter (反家暴庇护中心 / 12338)"
@@ -37100,7 +37100,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 22.28,
     "lng": 114.1706,
     "name": {
-      "en": "Harmony House"
+      "en": "Harmony House (和諧之家) — Domestic Violence Women’s Shelter & 24-Hour Hotline (Hong Kong)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Anti-DV Shelter (反家暴庇护中心 / 12338)"
@@ -37940,7 +37940,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 34.2683,
     "lng": 108.9516,
     "name": {
-      "en": "Shaanxi Maples"
+      "en": "Shaanxi Maple Women’s Psychological Counseling & Anti-DV Legal Center (Xi’an, Shaanxi, China)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Anti-DV Shelter (反家暴庇护中心 / 12338)"
@@ -38136,7 +38136,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 35.6037,
     "lng": 103.208,
     "name": {
-      "en": "Gansu Rural"
+      "en": "Linxia & Gannan Women’s Federation Maternal & Protection Center (Gansu, China)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Anti-DV Shelter (反家暴庇护中心 / 12338)"
@@ -38472,7 +38472,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 43.8231,
     "lng": 87.6193,
     "name": {
-      "en": "Aid Center Urumqi"
+      "en": "Urumqi Women’s Federation Legal Aid & Domestic Violence Protection Center (Urumqi, Xinjiang)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Anti-DV Shelter (反家暴庇护中心 / 12338)"
@@ -38640,7 +38640,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 36.746,
     "lng": 3.0925,
     "name": {
-      "en": "Réseau Wassila"
+      "en": "Réseau Wassila — Collectif de Défense des Droits des Femmes et des Enfants (Algiers, Algeria)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
@@ -39088,7 +39088,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 35.9311,
     "lng": 0.0892,
     "name": {
-      "en": "EPH Che Guevara"
+      "en": "EPH Che Guevara de Mostaganem — Service de Maternité (Mostaganem, Algeria)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -39172,7 +39172,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 35.371,
     "lng": 1.317,
     "name": {
-      "en": "EHS Mère-Enfant"
+      "en": "EHS Mère-Enfant de Tiaret & Saïda (High Plateaus, Algeria)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -39256,7 +39256,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 36.7118,
     "lng": 4.0459,
     "name": {
-      "en": "CHU Nedir Mohamed"
+      "en": "CHU Nedir Mohamed de Tizi Ouzou — Maternité Sebihi (Tizi Ouzou, Kabylia, Algeria)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -39480,7 +39480,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 36.365,
     "lng": 6.6147,
     "name": {
-      "en": "CHU Dr. Benbadis"
+      "en": "CHU Dr. Benbadis de Constantine — Maternité Sidi Mabrouk (Constantine, Algeria)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -39564,7 +39564,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 36.9,
     "lng": 7.7667,
     "name": {
-      "en": "CHU Ibn Rochd"
+      "en": "CHU Ibn Rochd d’Annaba — Clinique Mère-Enfant El Bouni (Annaba, Algeria)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -39816,7 +39816,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 34.6728,
     "lng": 3.263,
     "name": {
-      "en": "EHS Mère-Enfant"
+      "en": "EHS Mère-Enfant de Djelfa & Laghouat (Saharan Atlas, Algeria)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -39839,10 +39839,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "nafrica-hosp-949-u2",
-    "regionDistrict": "Djelfa / Laghouat, Saharan Atlas, Algeria",
+    "regionDistrict": "Laghouat, Saharan Atlas, Algeria",
     "type": "hospital",
-    "lat": 34.6753,
-    "lng": 3.2655,
+    "lat": 33.8,
+    "lng": 2.8651,
     "name": {
       "en": "EPH Djelfa /CHU Laghouat"
     },
@@ -40068,7 +40068,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 33.3683,
     "lng": 6.8674,
     "name": {
-      "en": "EHS Mère-Enfant"
+      "en": "EHS Mère-Enfant Bachir Bennacer d’El Oued (Oued Souf, Algeria)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -40236,7 +40236,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 27.8742,
     "lng": -0.2939,
     "name": {
-      "en": "EPH Ibn Sina"
+      "en": "EPH Ibn Sina d’Adrar — Maternité du Touat (Adrar, Algeria)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -40320,7 +40320,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 27.6711,
     "lng": -8.1474,
     "name": {
-      "en": "Tindouf Hospital"
+      "en": "EPH Si El Haouès de Tindouf — Maternité & Urgences (Tindouf, Algeria)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -40432,7 +40432,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 22.7875,
     "lng": 5.5203,
     "name": {
-      "en": "Ahaggar Tuareg"
+      "en": "Cellule d’Écoute & Protection des Femmes de l’Ahaggar (Tamanrasset, Algeria)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
@@ -40488,7 +40488,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 24.5534,
     "lng": 9.4844,
     "name": {
-      "en": "EPH Djanet"
+      "en": "EPH de Djanet — Maternité du Tassili n’Ajjer (Djanet, Algeria)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -40511,10 +40511,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "nafrica-hosp-957-u2",
-    "regionDistrict": "Djanet / Illizi, Tassili n’Ajjer Sahara, Algeria",
+    "regionDistrict": "Illizi, Tassili n’Ajjer, Algeria",
     "type": "hospital",
-    "lat": 24.5559,
-    "lng": 9.4869,
+    "lat": 26.4833,
+    "lng": 8.4667,
     "name": {
       "en": "Illizi Oasis Maternal Clinic (Tamahaq)"
     },
@@ -41104,7 +41104,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 32.767,
     "lng": 22.6367,
     "name": {
-      "en": "Al-Wahda Hospital"
+      "en": "Al-Wahda Teaching & Maternity Hospital (Derna, Cyrenaica, Libya)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -41216,7 +41216,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 32.0861,
     "lng": 23.9789,
     "name": {
-      "en": "Migrant Triage"
+      "en": "Tobruk Medical Center — Maternal & Migrant Emergency Triage Clinic (Tobruk, Libya)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -41244,7 +41244,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 32.0861,
     "lng": 23.9739,
     "name": {
-      "en": "Tobruk Women"
+      "en": "Tobruk Women’s Protection & Safe Space Center (Tobruk, Libya)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
@@ -41272,7 +41272,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 32.0811,
     "lng": 23.9789,
     "name": {
-      "en": "Refugee Safe Haven"
+      "en": "UNHCR / IRC Eastern Border Refugee Women’s Safe Haven (Tobruk, Libya)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
@@ -41608,7 +41608,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 31.2064,
     "lng": 29.9117,
     "name": {
-      "en": "CEWLA Safe Haven"
+      "en": "Center for Egyptian Women’s Legal Assistance (CEWLA) Safe Haven (Alexandria, Egypt)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
@@ -41636,7 +41636,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 30.0131,
     "lng": 31.2089,
     "name": {
-      "en": "Giza General"
+      "en": "Imbaba General & Maternity Hospital (Giza, Greater Cairo, Egypt)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -41855,10 +41855,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "nafrica-hosp-975-u2",
-    "regionDistrict": "Port Said / Ismailia (Suez Canal), Egypt",
+    "regionDistrict": "Ismailia (Suez Canal), Egypt",
     "type": "hospital",
-    "lat": 31.2678,
-    "lng": 32.3044,
+    "lat": 30.6043,
+    "lng": 32.2723,
     "name": {
       "en": "Suez Canal University Maternity Hospital"
     },
@@ -41944,7 +41944,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 31.1346,
     "lng": 33.8058,
     "name": {
-      "en": "Humanitarian Triage Ward"
+      "en": "El-Arish General Hospital — Maternal & Humanitarian Triage Ward (North Sinai, Egypt)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -42051,12 +42051,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "nafrica-hosp-977-u2",
-    "regionDistrict": "Sharm El-Sheikh / El-Tor, South Sinai, Egypt",
+    "regionDistrict": "El-Tor, South Sinai, Egypt",
     "type": "hospital",
-    "lat": 27.9183,
-    "lng": 34.3325,
+    "lat": 28.2417,
+    "lng": 33.6222,
     "name": {
-      "en": "Bedouin Outreach"
+      "en": "El-Tor General Hospital — South Sinai Maternal & Bedouin Women’s Outreach Clinic (Sinai, Egypt)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -42448,7 +42448,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 24.0914,
     "lng": 32.8973,
     "name": {
-      "en": "Aswan Nubian"
+      "en": "Aswan Nubian Women’s Safe Haven & NCW Protection Center (Aswan, Egypt)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
@@ -42583,10 +42583,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "nafrica-hosp-985-u2",
-    "regionDistrict": "Marsa Matrouh / Siwa Oasis, Western Desert, Egypt",
+    "regionDistrict": "Siwa Oasis, Western Desert, Egypt",
     "type": "hospital",
-    "lat": 31.3568,
-    "lng": 27.2398,
+    "lat": 29.2032,
+    "lng": 25.5195,
     "name": {
       "en": "Siwa Oasis Rural Clinic (Siwi/Arabic)"
     },
@@ -42812,7 +42812,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 35.7595,
     "lng": -5.834,
     "name": {
-      "en": "CHU Mohammed VI"
+      "en": "CHU Mohammed VI de Tanger — Hôpital Mère-Enfant (Tangier, Morocco)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -42952,7 +42952,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 30.4278,
     "lng": -9.5981,
     "name": {
-      "en": "CHU Souss-Massa"
+      "en": "CHU Souss-Massa & Hôpital Hassan II Maternité (Agadir, Morocco)"
     },
     "categoryBadge": {
       "en": "CHU / EPH Maternity, OB/GYN & Women’s Hospital"
@@ -43311,10 +43311,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "nafrica-safe-996-u2",
-    "regionDistrict": "Gabès / Medenine / Tataouine, Southern Tunisia",
+    "regionDistrict": "Médenine, Southern Tunisia",
     "type": "safe-haven",
-    "lat": 33.879,
-    "lng": 10.1007,
+    "lat": 33.3549,
+    "lng": 10.5055,
     "name": {
       "en": "Refugee Safe Haven Medenine/Gabès"
     },
@@ -43458,7 +43458,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 20.9395,
     "lng": -17.0335,
     "name": {
-      "en": "Migrant Safe Haven"
+      "en": "AMSME & Red Crescent Migrant Women’s Safe Haven (Nouadhibou, Mauritania)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Protection Shelter"
@@ -43509,10 +43509,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "nafrica-hosp-999-u2",
-    "regionDistrict": "Kiffa / Néma (Hodh Ech Chargui / Mbera Camp), Rural Eastern Mauritania",
+    "regionDistrict": "Mbera Refugee Camp (Bassikounou), Hodh Ech Chargui, Mauritania",
     "type": "hospital",
-    "lat": 16.6191,
-    "lng": -11.402,
+    "lat": 15.6542,
+    "lng": -5.7585,
     "name": {
       "en": "Mbera Refugee Camp Maternity"
     },
@@ -44437,7 +44437,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 32.1031,
     "lng": 66.9094,
     "name": {
-      "en": "Female Midwife Post"
+      "en": "Qalat Provincial Hospital — Female Midwife & Maternal Safe Post (Qalat, Zabul, Afghanistan)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Space & UNFPA Family Health House (آشیانه صحی فامیلی)"
@@ -45473,7 +45473,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 34.429,
     "lng": 70.449,
     "name": {
-      "en": "HealthNet TPO"
+      "en": "HealthNet TPO & UNFPA Women’s Psychosocial & Maternal Safe Space (Jalalabad, Nangarhar, Afghanistan)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Space & UNFPA Family Health House (آشیانه صحی فامیلی)"
@@ -45585,7 +45585,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 34.8706,
     "lng": 71.1494,
     "name": {
-      "en": "Female Midwife Post"
+      "en": "Asadabad Provincial Hospital — Female Midwife & Maternal Safe Post (Asadabad, Kunar, Afghanistan)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Space & UNFPA Family Health House (آشیانه صحی فامیلی)"
@@ -46565,7 +46565,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 36.2885,
     "lng": 59.5632,
     "name": {
-      "en": "Qaem, Imam Reza"
+      "en": "Qaem & Imam Reza University Hospitals — Obstetrics & Gynecology (Mashhad, Iran)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital (بیمارستان تخصصی زنان و زایمان)"
@@ -47237,7 +47237,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 28.4975,
     "lng": 53.5625,
     "name": {
-      "en": "Mobile 123 Unit (اورژانس اجتماعی جنوب فارس)"
+      "en": "Behzisti 123 Social Emergency & Women’s Safe Shelter Unit (Lar & Jahrom, Fars, Iran / اورژانس اجتماعی)"
     },
     "categoryBadge": {
       "en": "Women’s Safe House & Social Emergency 123 (خانه امن زنان - اورژانس اجتماعی ۱۲۳)"
@@ -47321,7 +47321,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 38.0715,
     "lng": 46.2985,
     "name": {
-      "en": "Azeri-Speaking 123 Crisis Unit (خانه امن زنان تبریز)"
+      "en": "Tabriz Behzisti 123 Social Emergency & Women’s Safe House (Tabriz, East Azerbaijan, Iran / خانه امن زنان تبریز)"
     },
     "categoryBadge": {
       "en": "Women’s Safe House & Social Emergency 123 (خانه امن زنان - اورژانس اجتماعی ۱۲۳)"
@@ -47517,7 +47517,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 36.7656,
     "lng": 45.7247,
     "name": {
-      "en": "Kurdish Rural Midwifery Wing (بیمارستان امام خمینی مهاباد)"
+      "en": "Imam Khomeini Hospital Mahabad — Maternity & Midwifery Wing (Mahabad, West Azerbaijan, Iran)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital (بیمارستان تخصصی زنان و زایمان)"
@@ -48945,7 +48945,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 36.6736,
     "lng": 48.4787,
     "name": {
-      "en": "Ayatollah Mousavi"
+      "en": "Ayatollah Mousavi Teaching & Maternity Hospital (Zanjan, Iran)"
     },
     "categoryBadge": {
       "en": "Women’s & Maternity Hospital (بیمارستان تخصصی زنان و زایمان)"
@@ -50401,7 +50401,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 39.7186,
     "lng": 76.1658,
     "name": {
-      "en": "Kizilsu Kirghiz"
+      "en": "Artux (Kizilsu) Women’s Federation & Maternal Protection Center (Artux, Xinjiang)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & 12338 Shelter (妇女维权与反家暴庇护所)"
@@ -50765,7 +50765,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 43.9194,
     "lng": 81.3217,
     "name": {
-      "en": "Ili Valley Kazakh"
+      "en": "Yining (Ghulja) Ili Valley Women’s Federation & Legal Aid Shelter (Yining, Xinjiang)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & 12338 Shelter (妇女维权与反家暴庇护所)"
@@ -51157,7 +51157,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 47.8474,
     "lng": 88.1378,
     "name": {
-      "en": "Altay Pastoral"
+      "en": "Altay Women’s Federation & Pastoral Maternal Safe Space (Altay, Xinjiang)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & 12338 Shelter (妇女维权与反家暴庇护所)"
@@ -51633,7 +51633,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 59.9389,
     "lng": 30.3694,
     "name": {
-      "en": "Euromed Clinic"
+      "en": "Euromed Clinic & Women’s Reproductive Health Center (Saint Petersburg, Russia)"
     },
     "categoryBadge": {
       "en": "Perinatal, Women’s & International Hospital (Перинатальный центр и родильный дом)"
@@ -52221,7 +52221,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 67.6412,
     "lng": 53.0012,
     "name": {
-      "en": "Nenets Tundra"
+      "en": "Naryan-Mar Regional Crisis Center for Women & Families (Nenets Autonomous Okrug, Russia)"
     },
     "categoryBadge": {
       "en": "Women’s Crisis Center & Safe Shelter (Кризисный центр помощи женщинам)"
@@ -53537,7 +53537,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 43.0252,
     "lng": 44.682,
     "name": {
-      "en": "North Ossetian"
+      "en": "Republican Clinical Perinatal & Maternity Center of North Ossetia (Vladikavkaz, Russia)"
     },
     "categoryBadge": {
       "en": "Perinatal, Women’s & International Hospital (Перинатальный центр и родильный дом)"
@@ -53985,7 +53985,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 66.5325,
     "lng": 66.5994,
     "name": {
-      "en": "Yamal Arctic"
+      "en": "Yamal-Nenets Regional Crisis Center for Women (Salekhard & Novy Urengoy, Russia)"
     },
     "categoryBadge": {
       "en": "Women’s Crisis Center & Safe Shelter (Кризисный центр помощи женщинам)"
@@ -54573,7 +54573,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 52.2869,
     "lng": 104.305,
     "name": {
-      "en": "Irkutsk Regional"
+      "en": "Irkutsk Regional Perinatal & Maternity Center (Irkutsk, Russia)"
     },
     "categoryBadge": {
       "en": "Perinatal, Women’s & International Hospital (Перинатальный центр и родильный дом)"
@@ -56505,7 +56505,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 31.4722,
     "lng": 74.2753,
     "name": {
-      "en": "Breast Center"
+      "en": "Shaukat Khanum & Gulberg Women’s Breast & Gynecology Center (Lahore, Punjab, Pakistan)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & Teaching Hospital (زچگی و زنانہ ہسپتال)"
@@ -58969,7 +58969,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 33.1503,
     "lng": 73.7544,
     "name": {
-      "en": "Gynae Wing (ڈی ایچ کیو ہسپتال میرپور)"
+      "en": "Divisional Headquarters (DHQ) Teaching Hospital Mirpur — Gynae & Maternity Wing (Mirpur, AJK)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & Teaching Hospital (زچگی و زنانہ ہسپتال)"
@@ -60028,12 +60028,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "sau-safe-1509",
-    "regionDistrict": "Jubail & Hafr Al-Batin, Northern Eastern Province, Saudi Arabia",
+    "regionDistrict": "Hafr Al-Batin, Eastern Province, Saudi Arabia",
     "type": "safe-haven",
-    "lat": 28.4353,
-    "lng": 45.9683,
+    "lat": 28.4328,
+    "lng": 45.9708,
     "name": {
-      "en": "Hafr Al-Batin"
+      "en": "Hafr Al-Batin Family Protection & Women’s Crisis Center (1919 — Hafr Al-Batin, Saudi Arabia)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Shelter & Family Protection Center (دار الحماية والإيواء)"
@@ -61848,10 +61848,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "gulf-hosp-1532-u2",
-    "regionDistrict": "Sharjah, Ras Al Khaimah & Fujairah (Northern Emirates), UAE",
+    "regionDistrict": "Ras Al Khaimah, UAE",
     "type": "hospital",
-    "lat": 25.3488,
-    "lng": 55.4234,
+    "lat": 25.7712,
+    "lng": 55.9625,
     "name": {
       "en": "RAK Hospital"
     },
@@ -62749,7 +62749,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 6.8301,
     "lng": -5.2918,
     "name": {
-      "en": "Centre Social"
+      "en": "Centre Social & Cellule d’Écoute VBG de Yamoussoukro (Yamoussoukro, Côte d’Ivoire)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & GBV Shelter (Maison d’Accueil VBG)"
@@ -63533,7 +63533,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 6.6493,
     "lng": -4.7077,
     "name": {
-      "en": "Plateforme VBG"
+      "en": "Plateforme de Lutte Contre les VBG de Dimbokro & Aboisso (Côte d’Ivoire)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & GBV Shelter (Maison d’Accueil VBG)"
@@ -64009,7 +64009,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -12.5738,
     "lng": 13.403,
     "name": {
-      "en": "Casa de Abrigo"
+      "en": "Casa de Abrigo & Centro de Aconselhamento Familiar de Benguela (MASFAMU / OMA — Benguela, Angola)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Shelter & Family Counseling Center (Casa de Abrigo MASFAMU / OMA)"
@@ -64205,7 +64205,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -5.5475,
     "lng": 12.1975,
     "name": {
-      "en": "Casa de Abrigo"
+      "en": "Casa de Abrigo & Centro de Apoio à Mulher de Cabinda (MASFAMU / OMA — Cabinda, Angola)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Shelter & Family Counseling Center (Casa de Abrigo MASFAMU / OMA)"
@@ -67649,7 +67649,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -20.4808,
     "lng": 27.0358,
     "name": {
-      "en": "Prenatal Ward"
+      "en": "Tutume Primary Hospital — Maternity & Prenatal Ward (Tutume, Central District, Botswana)"
     },
     "categoryBadge": {
       "en": "Referral, District & Primary Maternity Hospital (Kokelo ya Bomme)"
@@ -70192,10 +70192,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-hosp-1768-u2",
-    "regionDistrict": "Yaoundé & Douala, Cameroon",
+    "regionDistrict": "Douala, Littoral, Cameroon",
     "type": "hospital",
-    "lat": 3.885,
-    "lng": 11.5339,
+    "lat": 4.0825,
+    "lng": 9.7542,
     "name": {
       "en": "HGOPED Douala"
     },
@@ -70248,10 +70248,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-safe-1768-u2",
-    "regionDistrict": "Yaoundé & Douala, Cameroon",
+    "regionDistrict": "Douala, Littoral, Cameroon",
     "type": "safe-haven",
-    "lat": 3.88,
-    "lng": 11.5339,
+    "lat": 4.0511,
+    "lng": 9.7679,
     "name": {
       "en": "FIDA Cameroon"
     },
@@ -70309,7 +70309,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 12.1156,
     "lng": 15.0467,
     "name": {
-      "en": "CELIAF"
+      "en": "CELIAF (Cellule de Liaison et d’Information des Associations Féminines — N’Djamena, Chad)"
     },
     "categoryBadge": {
       "en": "GNWS Verified Women’s Shelter & 24/7 Helpline"
@@ -71060,12 +71060,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-hosp-1778",
-    "regionDistrict": "Dar es Salaam & Arusha, Tanzania",
+    "regionDistrict": "Ocean Road, Ilala, Dar es Salaam, Tanzania",
     "type": "hospital",
-    "lat": -6.8045,
-    "lng": 39.2736,
+    "lat": -6.8091,
+    "lng": 39.2932,
     "name": {
-      "en": "Muhimbili National Hospital Maternity Complex"
+      "en": "Aga Khan Hospital Dar es Salaam — Women & Children’s Health Center (Ocean Road, Dar es Salaam)"
     },
     "categoryBadge": {
       "en": "National Women’s, Maternity & OB/GYN Hospital"
@@ -71088,12 +71088,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-hosp-1778-u2",
-    "regionDistrict": "Dar es Salaam & Arusha, Tanzania",
+    "regionDistrict": "Msasani Peninsula, Dar es Salaam, Tanzania",
     "type": "hospital",
-    "lat": -6.802,
-    "lng": 39.2761,
+    "lat": -6.7595,
+    "lng": 39.2718,
     "name": {
-      "en": "CCBRT Fistula and Maternity Hospital"
+      "en": "CCBRT Maternity & Fistula Hospital (Msasani Peninsula, Dar es Salaam)"
     },
     "categoryBadge": {
       "en": "National Women’s, Maternity & OB/GYN Hospital"
@@ -71116,12 +71116,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-safe-1778",
-    "regionDistrict": "Dar es Salaam & Arusha, Tanzania",
+    "regionDistrict": "Sinza Mori, Ubungo, Dar es Salaam, Tanzania",
     "type": "safe-haven",
-    "lat": -6.802,
-    "lng": 39.2711,
+    "lat": -6.7785,
+    "lng": 39.2245,
     "name": {
-      "en": "TAMWA (Tanzania Media Women’s Association), Kivulini"
+      "en": "TAMWA (Tanzania Media Women’s Association) GBV Crisis & Legal Aid Center (Sinza, Dar es Salaam)"
     },
     "categoryBadge": {
       "en": "GNWS Verified Women’s Shelter & 24/7 Helpline"
@@ -71144,12 +71144,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-safe-1778-u2",
-    "regionDistrict": "Dar es Salaam & Arusha, Tanzania",
+    "regionDistrict": "Arusha, Northern Highlands, Tanzania",
     "type": "safe-haven",
-    "lat": -6.807,
-    "lng": 39.2761,
+    "lat": -3.3652,
+    "lng": 36.6825,
     "name": {
-      "en": "House of Peace Shelter"
+      "en": "CWCD House of Peace Women’s Safe Shelter (Center for Women and Children Development — Arusha)"
     },
     "categoryBadge": {
       "en": "GNWS Verified Women’s Shelter & 24/7 Helpline"
@@ -71368,10 +71368,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-hosp-1781-u2",
-    "regionDistrict": "Harare & Bulawayo, Zimbabwe",
+    "regionDistrict": "Bulawayo, Zimbabwe",
     "type": "hospital",
-    "lat": -17.7994,
-    "lng": 31.0481,
+    "lat": -20.1411,
+    "lng": 28.5728,
     "name": {
       "en": "Mpilo Hospital"
     },
@@ -72320,10 +72320,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-safe-1791-u2",
-    "regionDistrict": "Baghdad, Erbil & Sulaymaniyah, Iraq",
+    "regionDistrict": "Erbil, Kurdistan Region, Iraq",
     "type": "safe-haven",
-    "lat": 33.3127,
-    "lng": 44.424,
+    "lat": 36.1911,
+    "lng": 44.0092,
     "name": {
       "en": "Seed Foundation"
     },
@@ -72656,10 +72656,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-hosp-1794-u3",
-    "regionDistrict": "Ramallah, Jerusalem, Bethlehem & Nablus, Palestine",
+    "regionDistrict": "Nablus, West Bank, Palestine",
     "type": "hospital",
     "lat": 32.2225,
-    "lng": 35.2415,
+    "lng": 35.2425,
     "name": {
       "en": "Rafidia Hospital"
     },
@@ -73025,7 +73025,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 41.7074,
     "lng": 44.7955,
     "name": {
-      "en": "State DV Shelter"
+      "en": "Tbilisi State Shelter for Victims of Domestic Violence & Trafficking (116 006 — Tbilisi, Georgia)"
     },
     "categoryBadge": {
       "en": "GNWS Verified Women’s Shelter & 24/7 Helpline"
@@ -73552,10 +73552,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-safe-1802-u2",
-    "regionDistrict": "Dushanbe & Khujand, Tajikistan",
+    "regionDistrict": "Khujand, Sughd Region, Tajikistan",
     "type": "safe-haven",
-    "lat": 38.5573,
-    "lng": 68.7895,
+    "lat": 40.2833,
+    "lng": 69.6222,
     "name": {
       "en": "Bovari Center"
     },
@@ -75013,7 +75013,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 14.6178,
     "lng": -90.5536,
     "name": {
-      "en": "Línea 1572"
+      "en": "Ministerio Público — Modelo de Atención Integral para las Mujeres (MAIMI Línea 1572 — Guatemala City)"
     },
     "categoryBadge": {
       "en": "GNWS Verified Women’s Shelter & 24/7 Helpline"
@@ -75489,7 +75489,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 23.1311,
     "lng": -82.39,
     "name": {
-      "en": "Línea 103"
+      "en": "Federación de Mujeres Cubanas — Casas de Orientación a la Mujer y la Familia (Línea 103 — Havana, Cuba)"
     },
     "categoryBadge": {
       "en": "GNWS Verified Women’s Shelter & 24/7 Helpline"
@@ -76044,10 +76044,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "lila-safe-1829-u2",
-    "regionDistrict": "La Paz & Santa Cruz, Bolivia",
+    "regionDistrict": "Santa Cruz de la Sierra, Bolivia",
     "type": "safe-haven",
-    "lat": -16.5086,
-    "lng": -68.1167,
+    "lat": -17.7833,
+    "lng": -63.1821,
     "name": {
       "en": "FELCV Bolivia"
     },
@@ -80193,7 +80193,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 22.4611,
     "lng": 114.1728,
     "name": {
-      "en": "Tai Po"
+      "en": "Tai Po & North District FCPSU Social Welfare Women’s Crisis Center (Tai Po, Hong Kong)"
     },
     "categoryBadge": {
       "en": "Women’s Refuge & Crisis Centre (婦女庇護中心及危機支援)"
@@ -80305,7 +80305,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 22.41,
     "lng": 113.9736,
     "name": {
-      "en": "Yan Oi Tong"
+      "en": "Yan Oi Tong Community & Women’s Crisis Support Center (Tuen Mun, Hong Kong)"
     },
     "categoryBadge": {
       "en": "Women’s Refuge & Crisis Centre (婦女庇護中心及危機支援)"
@@ -80804,10 +80804,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "sam-hosp-3003-u2",
-    "regionDistrict": "Campinas & Ribeirão Preto, SP, Brazil",
+    "regionDistrict": "Ribeirão Preto, SP, Brazil",
     "type": "hospital",
-    "lat": -22.8243,
-    "lng": -47.0613,
+    "lat": -21.1704,
+    "lng": -47.8103,
     "name": {
       "en": "HC Ribeirão Preto"
     },
@@ -82568,10 +82568,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "sam-safe-3022-u2",
-    "regionDistrict": "Boa Vista, RR, Macapá, AP & Palmas, TO, Brazil",
+    "regionDistrict": "Macapá, Amapá, Brazil",
     "type": "safe-haven",
-    "lat": 2.821,
-    "lng": -60.6733,
+    "lat": 0.0356,
+    "lng": -51.0705,
     "name": {
       "en": "CAM Macapá"
     },
@@ -82624,10 +82624,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "sam-hosp-3023-u2",
-    "regionDistrict": "Curitiba & Londrina, PR, Brazil",
+    "regionDistrict": "Londrina, Paraná, Brazil",
     "type": "hospital",
-    "lat": -25.4259,
-    "lng": -49.2708,
+    "lat": -23.3195,
+    "lng": -51.1662,
     "name": {
       "en": "HU Londrina"
     },
@@ -83408,12 +83408,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "sam-safe-3032-u2",
-    "regionDistrict": "Resistencia (Chaco), Corrientes & Posadas (Misiones), Argentina",
+    "regionDistrict": "Corrientes, Argentina",
     "type": "safe-haven",
-    "lat": -27.4539,
-    "lng": -58.9842,
+    "lat": -27.4692,
+    "lng": -58.8306,
     "name": {
-      "en": "Hogar de Tránsito"
+      "en": "Hogar de Tránsito para Mujeres en Situación de Violencia (Línea 137 — Corrientes / Posadas, Argentina)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Crisis Shelter"
@@ -83492,12 +83492,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "sam-safe-3033-u2",
-    "regionDistrict": "Neuquén & San Carlos de Bariloche (Northern Patagonia), Argentina",
+    "regionDistrict": "San Carlos de Bariloche, Río Negro, Argentina",
     "type": "safe-haven",
-    "lat": -38.9541,
-    "lng": -68.0566,
+    "lat": -41.1335,
+    "lng": -71.3103,
     "name": {
-      "en": "Línea 148"
+      "en": "Centro de Atención a la Víctima & Refugio de Mujeres (Línea 148 — San Carlos de Bariloche, Argentina)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Crisis Shelter"
@@ -88056,10 +88056,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-hosp-4005-u2",
-    "regionDistrict": "Phoenix & Tucson, Arizona, USA",
+    "regionDistrict": "Tucson, Arizona, USA",
     "type": "hospital",
-    "lat": 33.4509,
-    "lng": -112.0715,
+    "lat": 32.2412,
+    "lng": -110.9465,
     "name": {
       "en": "Banner Tucson"
     },
@@ -88140,10 +88140,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-safe-4005-u3",
-    "regionDistrict": "Phoenix & Tucson, Arizona, USA",
+    "regionDistrict": "Tucson, Arizona, USA",
     "type": "safe-haven",
-    "lat": 33.4449,
-    "lng": -112.0765,
+    "lat": 32.2226,
+    "lng": -110.9747,
     "name": {
       "en": "Emerge Center"
     },
@@ -88532,10 +88532,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-hosp-4009-u2",
-    "regionDistrict": "San Francisco & Oakland (Bay Area), California, USA",
+    "regionDistrict": "Oakland (East Bay), California, USA",
     "type": "hospital",
-    "lat": 37.7687,
-    "lng": -122.388,
+    "lat": 37.7992,
+    "lng": -122.2315,
     "name": {
       "en": "Highland Hospital"
     },
@@ -88756,10 +88756,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-hosp-4011-u2",
-    "regionDistrict": "Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA",
+    "regionDistrict": "Bakersfield (Kern County), California, USA",
     "type": "hospital",
-    "lat": 36.7493,
-    "lng": -119.7701,
+    "lat": 35.3812,
+    "lng": -119.0187,
     "name": {
       "en": "Kern Medical"
     },
@@ -89008,10 +89008,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-safe-4013-u2",
-    "regionDistrict": "New Haven & Hartford, Connecticut, USA",
+    "regionDistrict": "Hartford, Connecticut, USA",
     "type": "safe-haven",
-    "lat": 41.3016,
-    "lng": -72.933,
+    "lat": 41.7658,
+    "lng": -72.6734,
     "name": {
       "en": "Interval House"
     },
@@ -92144,10 +92144,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-safe-4039-u3",
-    "regionDistrict": "Omaha & Lincoln, Nebraska, USA",
+    "regionDistrict": "Lincoln, Nebraska, USA",
     "type": "safe-haven",
-    "lat": 41.2519,
-    "lng": -95.9781,
+    "lat": 40.8136,
+    "lng": -96.7026,
     "name": {
       "en": "Friendship Home"
     },
@@ -92200,10 +92200,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-hosp-4040-u2",
-    "regionDistrict": "Las Vegas & Reno, Nevada, USA",
+    "regionDistrict": "Las Vegas, Nevada, USA",
     "type": "hospital",
-    "lat": 36.1618,
-    "lng": -115.167,
+    "lat": 36.1342,
+    "lng": -115.1345,
     "name": {
       "en": "Sunrise Hospital"
     },
@@ -92340,10 +92340,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-hosp-4041-u3",
-    "regionDistrict": "Lebanon, Manchester & Concord, New Hampshire, USA",
+    "regionDistrict": "Concord, New Hampshire, USA",
     "type": "hospital",
-    "lat": 43.6777,
-    "lng": -72.2699,
+    "lat": 43.2081,
+    "lng": -71.5376,
     "name": {
       "en": "Concord Hospital"
     },
@@ -93404,10 +93404,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-hosp-4048-u4",
-    "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
+    "regionDistrict": "Cincinnati, Ohio, USA",
     "type": "hospital",
-    "lat": 41.5053,
-    "lng": -81.6188,
+    "lat": 39.1389,
+    "lng": -84.5025,
     "name": {
       "en": "UC Medical Center"
     },
@@ -94244,10 +94244,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-hosp-4055-u2",
-    "regionDistrict": "Nashville, Memphis & Knoxville, Tennessee, USA",
+    "regionDistrict": "Knoxville, Tennessee, USA",
     "type": "hospital",
-    "lat": 36.1444,
-    "lng": -86.7998,
+    "lat": 35.9408,
+    "lng": -83.9435,
     "name": {
       "en": "UT Medical Center"
     },
@@ -94412,10 +94412,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-hosp-4056-u3",
-    "regionDistrict": "Houston & Galveston, Texas, USA",
+    "regionDistrict": "Galveston, Texas, USA",
     "type": "hospital",
-    "lat": 29.7107,
-    "lng": -95.3993,
+    "lat": 29.3125,
+    "lng": -94.7775,
     "name": {
       "en": "UTMB Galveston"
     },
@@ -94832,10 +94832,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-safe-4059-u2",
-    "regionDistrict": "Salt Lake City & Provo, Utah, USA",
+    "regionDistrict": "West Jordan / Salt Lake Valley, Utah, USA",
     "type": "safe-haven",
-    "lat": 40.7691,
-    "lng": -111.8355,
+    "lat": 40.5885,
+    "lng": -111.9125,
     "name": {
       "en": "South Valley Services"
     },
@@ -94944,10 +94944,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-safe-4060-u2",
-    "regionDistrict": "Burlington & Rutland, Vermont, USA",
+    "regionDistrict": "Rutland, Vermont, USA",
     "type": "safe-haven",
-    "lat": 44.477,
-    "lng": -73.1933,
+    "lat": 43.6106,
+    "lng": -72.9726,
     "name": {
       "en": "NewStory Center"
     },
@@ -95196,10 +95196,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-safe-4062-u2",
-    "regionDistrict": "Seattle, Tacoma & Spokane, Washington, USA",
+    "regionDistrict": "Spokane, Washington, USA",
     "type": "safe-haven",
-    "lat": 47.6477,
-    "lng": -122.3047,
+    "lat": 47.6588,
+    "lng": -117.426,
     "name": {
       "en": "YWCA Spokane"
     },
@@ -95476,10 +95476,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-safe-4064-u2",
-    "regionDistrict": "Madison, Milwaukee & Green Bay, Wisconsin, USA",
+    "regionDistrict": "Green Bay, Wisconsin, USA",
     "type": "safe-haven",
-    "lat": 43.0555,
-    "lng": -89.4043,
+    "lat": 44.5133,
+    "lng": -88.0133,
     "name": {
       "en": "Golden House"
     },
@@ -95700,10 +95700,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-safe-4066-u2",
-    "regionDistrict": "San Juan, Ponce & Mayagüez, Puerto Rico (USA)",
+    "regionDistrict": "Ponce, Puerto Rico",
     "type": "safe-haven",
-    "lat": 18.394,
-    "lng": -66.0721,
+    "lat": 18.0111,
+    "lng": -66.6141,
     "name": {
       "en": "Hogar Ruth"
     },
@@ -96456,10 +96456,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5005-u2",
-    "regionDistrict": "Liverpool, Campbelltown & Bankstown (South Western Sydney), NSW, Australia",
+    "regionDistrict": "Campbelltown (Macarthur), NSW, Australia",
     "type": "hospital",
-    "lat": -33.917,
-    "lng": 150.9313,
+    "lat": -34.0715,
+    "lng": 150.8065,
     "name": {
       "en": "Campbelltown Hospital"
     },
@@ -96820,10 +96820,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5008-u2",
-    "regionDistrict": "Newcastle & Maitland (Hunter Region), NSW, Australia",
+    "regionDistrict": "Maitland (Hunter Valley), NSW, Australia",
     "type": "hospital",
-    "lat": -32.9209,
-    "lng": 151.6956,
+    "lat": -32.7315,
+    "lng": 151.5545,
     "name": {
       "en": "Maitland Hospital"
     },
@@ -96876,10 +96876,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-safe-5008-u2",
-    "regionDistrict": "Newcastle & Maitland (Hunter Region), NSW, Australia",
+    "regionDistrict": "Maitland (Hunter Valley), NSW, Australia",
     "type": "safe-haven",
-    "lat": -32.9259,
-    "lng": 151.6956,
+    "lat": -32.7355,
+    "lng": 151.5585,
     "name": {
       "en": "Carrie’s Place"
     },
@@ -97240,10 +97240,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5011-u3",
-    "regionDistrict": "Lismore, Tweed Heads & Byron Bay (Northern Rivers), NSW, Australia",
+    "regionDistrict": "Grafton (Clarence Valley), NSW, Australia",
     "type": "hospital",
-    "lat": -28.8105,
-    "lng": 153.2881,
+    "lat": -29.6825,
+    "lng": 152.9335,
     "name": {
       "en": "Grafton Base Hospital"
     },
@@ -97380,10 +97380,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5012-u3",
-    "regionDistrict": "Coffs Harbour, Port Macquarie & Taree (Mid North Coast), NSW, Australia",
+    "regionDistrict": "Taree (Manning Valley), NSW, Australia",
     "type": "hospital",
-    "lat": -30.315,
-    "lng": 153.0961,
+    "lat": -31.9085,
+    "lng": 152.4595,
     "name": {
       "en": "Manning Base Hospital"
     },
@@ -97632,10 +97632,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5014-u2",
-    "regionDistrict": "Dubbo, Orange, Bathurst & Bourke (Western NSW), NSW, Australia",
+    "regionDistrict": "Orange (Central West NSW), NSW, Australia",
     "type": "hospital",
-    "lat": -32.2361,
-    "lng": 148.6253,
+    "lat": -33.3145,
+    "lng": 149.1025,
     "name": {
       "en": "Orange Health Service"
     },
@@ -98416,10 +98416,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5020-u2",
-    "regionDistrict": "Clayton, Dandenong & Berwick (South Eastern Melbourne), VIC, Australia",
+    "regionDistrict": "Dandenong, VIC, Australia",
     "type": "hospital",
-    "lat": -37.9178,
-    "lng": 145.125,
+    "lat": -37.9775,
+    "lng": 145.2185,
     "name": {
       "en": "Dandenong Hospital"
     },
@@ -98444,10 +98444,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5020-u3",
-    "regionDistrict": "Clayton, Dandenong & Berwick (South Eastern Melbourne), VIC, Australia",
+    "regionDistrict": "Berwick (Casey), VIC, Australia",
     "type": "hospital",
-    "lat": -37.9178,
-    "lng": 145.125,
+    "lat": -38.0445,
+    "lng": 145.3455,
     "name": {
       "en": "Casey Hospital"
     },
@@ -98640,10 +98640,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5022-u2",
-    "regionDistrict": "Box Hill, Ringwood & Frankston (Eastern Melbourne & Mornington Peninsula), VIC, Australia",
+    "regionDistrict": "Upper Ferntree Gully, VIC, Australia",
     "type": "hospital",
-    "lat": -37.8117,
-    "lng": 145.1211,
+    "lat": -37.9015,
+    "lng": 145.3095,
     "name": {
       "en": "Angliss Hospital"
     },
@@ -98780,10 +98780,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5023-u2",
-    "regionDistrict": "Geelong & Warrnambool (Barwon South West), VIC, Australia",
+    "regionDistrict": "Warrnambool, VIC, Australia",
     "type": "hospital",
-    "lat": -38.1492,
-    "lng": 144.3678,
+    "lat": -38.3815,
+    "lng": 142.4825,
     "name": {
       "en": "South West Healthcare"
     },
@@ -98892,10 +98892,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5024-u2",
-    "regionDistrict": "Ballarat & Horsham (Grampians / Wimmera), VIC, Australia",
+    "regionDistrict": "Horsham (Wimmera), VIC, Australia",
     "type": "hospital",
-    "lat": -37.5561,
-    "lng": 143.85,
+    "lat": -36.7155,
+    "lng": 142.2035,
     "name": {
       "en": "Wimmera Base Hospital"
     },
@@ -99508,10 +99508,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5030-u2",
-    "regionDistrict": "Chermside, Caboolture & Redcliffe (Moreton Bay / Metro North), QLD, Australia",
+    "regionDistrict": "Redcliffe, QLD, Australia",
     "type": "hospital",
-    "lat": -27.0817,
-    "lng": 152.9533,
+    "lat": -27.2265,
+    "lng": 153.1055,
     "name": {
       "en": "Redcliffe Hospital"
     },
@@ -99620,10 +99620,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5031-u2",
-    "regionDistrict": "Logan, Ipswich & Redland (Metro South / West Moreton), QLD, Australia",
+    "regionDistrict": "Ipswich, QLD, Australia",
     "type": "hospital",
-    "lat": -27.6672,
-    "lng": 153.1358,
+    "lat": -27.6195,
+    "lng": 152.7585,
     "name": {
       "en": "Ipswich Hospital"
     },
@@ -99648,10 +99648,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5031-u3",
-    "regionDistrict": "Logan, Ipswich & Redland (Metro South / West Moreton), QLD, Australia",
+    "regionDistrict": "Cleveland (Redland City), QLD, Australia",
     "type": "hospital",
-    "lat": -27.6672,
-    "lng": 153.1358,
+    "lat": -27.5415,
+    "lng": 153.2555,
     "name": {
       "en": "Redland Hospital"
     },
@@ -99900,10 +99900,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5033-u3",
-    "regionDistrict": "Birtinya (Sunshine Coast) & Gympie, QLD, Australia",
+    "regionDistrict": "Gympie, QLD, Australia",
     "type": "hospital",
-    "lat": -26.7428,
-    "lng": 153.1194,
+    "lat": -26.1885,
+    "lng": 152.6625,
     "name": {
       "en": "Gympie Hospital"
     },
@@ -100040,10 +100040,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5034-u3",
-    "regionDistrict": "Toowoomba, Warwick & Stanthorpe (Darling Downs), QLD, Australia",
+    "regionDistrict": "Warwick (Southern Downs), QLD, Australia",
     "type": "hospital",
-    "lat": -27.5669,
-    "lng": 151.9494,
+    "lat": -28.2155,
+    "lng": 152.0315,
     "name": {
       "en": "Warwick Hospital"
     },
@@ -100264,10 +100264,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5036-u3",
-    "regionDistrict": "Rockhampton, Gladstone & Emerald (Central Queensland), QLD, Australia",
+    "regionDistrict": "Gladstone, QLD, Australia",
     "type": "hospital",
-    "lat": -23.3781,
-    "lng": 150.4994,
+    "lat": -23.8515,
+    "lng": 151.2525,
     "name": {
       "en": "Gladstone Hospital"
     },
@@ -100292,10 +100292,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5036-u4",
-    "regionDistrict": "Rockhampton, Gladstone & Emerald (Central Queensland), QLD, Australia",
+    "regionDistrict": "Emerald (Central Highlands), QLD, Australia",
     "type": "hospital",
-    "lat": -23.3781,
-    "lng": 150.4994,
+    "lat": -23.5275,
+    "lng": 148.1615,
     "name": {
       "en": "Emerald Hospital"
     },
@@ -100460,10 +100460,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5037-u3",
-    "regionDistrict": "Mackay & Proserpine (Whitsunday), QLD, Australia",
+    "regionDistrict": "Proserpine (Whitsundays), QLD, Australia",
     "type": "hospital",
-    "lat": -21.1456,
-    "lng": 149.1586,
+    "lat": -20.4025,
+    "lng": 148.5795,
     "name": {
       "en": "Proserpine Hospital"
     },
@@ -100712,10 +100712,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5039-u3",
-    "regionDistrict": "Cairns, Innisfail & Atherton (Far North Queensland), QLD, Australia",
+    "regionDistrict": "Atherton (Tablelands), QLD, Australia",
     "type": "hospital",
-    "lat": -16.91,
-    "lng": 145.7714,
+    "lat": -17.2685,
+    "lng": 145.4755,
     "name": {
       "en": "Atherton Hospital"
     },
@@ -100740,10 +100740,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5039-u4",
-    "regionDistrict": "Cairns, Innisfail & Atherton (Far North Queensland), QLD, Australia",
+    "regionDistrict": "Innisfail (Cassowary Coast), QLD, Australia",
     "type": "hospital",
-    "lat": -16.91,
-    "lng": 145.7714,
+    "lat": -17.5235,
+    "lng": 146.0315,
     "name": {
       "en": "Innisfail Hospital"
     },
@@ -100801,7 +100801,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -16.915,
     "lng": 145.7714,
     "name": {
-      "en": "Warringu Aboriginal"
+      "en": "Warringu Aboriginal & Torres Strait Islander Corporation Women’s Shelter (Cairns, QLD, Australia)"
     },
     "categoryBadge": {
       "en": "Women’s Refuge & Family Violence Safe Haven"
@@ -100880,10 +100880,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5040-u2",
-    "regionDistrict": "Thursday Island (Torres Strait) & Weipa / Cooktown (Cape York Peninsula), QLD, Australia",
+    "regionDistrict": "Bamaga (Northern Peninsula Area), QLD, Australia",
     "type": "hospital",
-    "lat": -10.5811,
-    "lng": 142.2225,
+    "lat": -10.8912,
+    "lng": 142.3915,
     "name": {
       "en": "Bamaga Hospital"
     },
@@ -100936,10 +100936,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5040-u4",
-    "regionDistrict": "Thursday Island (Torres Strait) & Weipa / Cooktown (Cape York Peninsula), QLD, Australia",
+    "regionDistrict": "Cooktown (Cape York), QLD, Australia",
     "type": "hospital",
-    "lat": -10.5811,
-    "lng": 142.2225,
+    "lat": -15.4758,
+    "lng": 145.2481,
     "name": {
       "en": "Cooktown Hospital"
     },
@@ -101048,10 +101048,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5041-u2",
-    "regionDistrict": "Mount Isa, Longreach & Roma (Outback North West, Central West & South West QLD), QLD, Australia",
+    "regionDistrict": "Longreach (Central West Outback), QLD, Australia",
     "type": "hospital",
-    "lat": -20.7264,
-    "lng": 139.4992,
+    "lat": -23.4425,
+    "lng": 144.2495,
     "name": {
       "en": "Longreach Hospital"
     },
@@ -101692,10 +101692,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5046-u3",
-    "regionDistrict": "Bunbury, Busselton & Mandurah (Peel & South West WA), WA, Australia",
+    "regionDistrict": "Mandurah (Peel), WA, Australia",
     "type": "hospital",
-    "lat": -33.3675,
-    "lng": 115.6497,
+    "lat": -32.5365,
+    "lng": 115.7425,
     "name": {
       "en": "Peel Health Campus"
     },
@@ -102224,10 +102224,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5050-u3",
-    "regionDistrict": "Port Hedland, Karratha & Newman (Pilbara Region), WA, Australia",
+    "regionDistrict": "Newman (East Pilbara), WA, Australia",
     "type": "hospital",
-    "lat": -20.3797,
-    "lng": 118.6086,
+    "lat": -23.3565,
+    "lng": 119.7345,
     "name": {
       "en": "Newman Health Service"
     },
@@ -102364,10 +102364,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5051-u2",
-    "regionDistrict": "Broome, Derby & Kununurra (Kimberley Outback), WA, Australia",
+    "regionDistrict": "Derby (West Kimberley), WA, Australia",
     "type": "hospital",
-    "lat": -17.9567,
-    "lng": 122.2414,
+    "lat": -17.3095,
+    "lng": 123.6312,
     "name": {
       "en": "Derby Hospital"
     },
@@ -102924,10 +102924,10 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "aus-hosp-5055-u3",
-    "regionDistrict": "Whyalla, Port Augusta, Port Pirie & Port Lincoln / Ceduna (Eyre & Far North SA), SA, Australia",
+    "regionDistrict": "Port Lincoln (Eyre Peninsula), SA, Australia",
     "type": "hospital",
-    "lat": -32.4928,
-    "lng": 137.7775,
+    "lat": -34.724,
+    "lng": 135.859,
     "name": {
       "en": "Port Lincoln Hospital"
     },
@@ -130744,36 +130744,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "nigeria-safe-user-7",
-    "regionDistrict": "Ado, Nasarawa, Nigeria",
-    "type": "safe-haven",
-    "lat": 8.9958,
-    "lng": 7.6128,
-    "name": {
-      "en": "FACADO Orphanage"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven, Shelter & GBV Protection Center (Nigeria)"
-    },
-    "phone": "+234 806 566 7590",
-    "emergencyHotline": "112 / 0800 033 3333",
-    "openHours": "Open 24 hours",
-    "address": {
-      "en": "Church Road Before Science School, Ado, Nasarawa, Nigeria"
-    },
-    "services": {
-      "en": [
-        "Confidential Domestic Abuse, Sexual Assault & GBV Safe Shelter",
-        "Emergency Sanctuary, Trauma Counseling & Legal Protection",
-        "Direct Maternal & Hospital Referral"
-      ]
-    },
-    "directionsText": {
-      "en": "Located at Church Road Before Science School, Ado, Nasarawa, Nigeria. Tap Get Directions for route."
-    },
-    "website": "http://facado.org/"
-  },
-  {
     "id": "nigeria-safe-user-8",
     "regionDistrict": "Cadastral Zone, Abuja, Federal Capital Territory, Nigeria",
     "type": "safe-haven",
@@ -131096,35 +131066,6 @@ export const WORLD_CENTERS_DIRECTORY = [
       "en": "Located at 21 Akinsanya St, Lagos, Nigeria. Tap Get Directions for route."
     },
     "website": "https://projectalertnig.org/"
-  },
-  {
-    "id": "nigeria-safe-user-19",
-    "regionDistrict": "Ayobo, Lagos, Nigeria",
-    "type": "safe-haven",
-    "lat": 6.6058,
-    "lng": 3.2358,
-    "name": {
-      "en": "HOPE AT LAST ORPHANAGE HOME"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven, Shelter & GBV Protection Center (Nigeria)"
-    },
-    "phone": "+234 903 799 6663",
-    "emergencyHotline": "112 / 0800 033 3333",
-    "openHours": "Open · Closes 7 PM",
-    "address": {
-      "en": "Ona-Ara B/Stop, 23, Legacy road, Ayobo-Ipaja Rd, Ayobo, Lagos, Nigeria"
-    },
-    "services": {
-      "en": [
-        "Confidential Domestic Abuse, Sexual Assault & GBV Safe Shelter",
-        "Emergency Sanctuary, Trauma Counseling & Legal Protection",
-        "Direct Maternal & Hospital Referral"
-      ]
-    },
-    "directionsText": {
-      "en": "Located at Ona-Ara B/Stop, 23, Legacy road, Ayobo-Ipaja Rd, Ayobo, Lagos, Nigeria. Tap Get Directions for route."
-    }
   },
   {
     "id": "nigeria-safe-user-20",
@@ -137493,12 +137434,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "unhcr-tanzania-dar-nyarugusu-nduta-gbv",
-    "regionDistrict": "Dar es Salaam, Kasulu, Kibondo, Nyarugusu & Nduta Camps, Tanzania",
+    "regionDistrict": "Nyarugusu Refugee Camp (Kasulu, Kigoma Region), Tanzania",
     "type": "safe-haven",
     "lat": -4.528,
     "lng": 30.652,
     "name": {
-      "en": "UNHCR Tanzania & IRC Women’s Wellness & GBV Safe Centers — Nyarugusu, Nduta & Dar es Salaam",
+      "en": "UNHCR & IRC Women’s Wellness & GBV Safe Center — Nyarugusu Refugee Camp (Kasulu, Kigoma)",
       "sw": "Vituo vya Usalama vya Wanawake vya UNHCR na IRC — Nyarugusu, Nduta na Dar es Salaam"
     },
     "categoryBadge": {
@@ -138490,12 +138431,12 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "wiki-tanzania-muhimbili-aga-khan-bugando-kcmc",
-    "regionDistrict": "Dar es Salaam, Mwanza, Dodoma & Moshi, Tanzania",
+    "regionDistrict": "Mwanza, Lake Victoria Zone, Tanzania",
     "type": "hospital",
-    "lat": -6.8055,
-    "lng": 39.2731,
+    "lat": -2.5278,
+    "lng": 32.9056,
     "name": {
-      "en": "Muhimbili National Hospital (MNH Maternity Block), Aga Khan Hospital (Dar es Salaam), Bugando Medical Centre (Mwanza), Benjamin Mkapa (Dodoma) & KCMC (Moshi) — Tanzania",
+      "en": "Bugando Medical Centre (BMC) — Zonal Referral & Maternity Hospital (Mwanza, Tanzania)",
       "sw": "Hospitali ya Taifa Muhimbili (MNH), Aga Khan (Dar es Salaam), Bugando (Mwanza) na KCMC (Moshi) — Tanzania"
     },
     "categoryBadge": {
@@ -143597,7 +143538,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "regionDistrict": "Guinea-Bissau (Buba, Catió & Bubaque/Bolama — South & Bijagós Islands)",
     "type": "hospital",
     "lat": 11.5833,
-    "lng": -15.0,
+    "lng": -15,
     "name": {
       "en": "Hospital Regional de Buba (Quinará), Hospital de Catió (Tombali) & Hospital de Bubaque / Bolama (Bijagós)"
     },
@@ -144795,6 +144736,3590 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "Primary hospital, maternity center, and women's domestic violence protection hub serving Rodrigues Island."
+    }
+  },
+  {
+    "id": "tanzania-unhcr-irc-nduta-camp-kibondo",
+    "regionDistrict": "Nduta Refugee Camp (Kibondo, Kigoma Region), Tanzania",
+    "type": "safe-haven",
+    "lat": -3.655,
+    "lng": 30.785,
+    "name": {
+      "en": "UNHCR, IRC & DRC Women’s Wellness & GBV Safe Center — Nduta Refugee Camp (Kibondo)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+255 28 281 0200",
+    "emergencyHotline": "0800 780 070 / 116",
+    "address": {
+      "en": "Nduta Refugee Camp, Kibondo District, Kigoma Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Located inside Nduta Refugee Camp (Kibondo District, Kigoma Region). Toll-free UNHCR/GBV line 0800 780 070 / 116."
+    }
+  },
+  {
+    "id": "tanzania-nduta-camp-maternity-hospital-kibondo",
+    "regionDistrict": "Nduta Refugee Camp (Kibondo, Kigoma Region), Tanzania",
+    "type": "hospital",
+    "lat": -3.6585,
+    "lng": 30.7885,
+    "name": {
+      "en": "Nduta Refugee Camp Main Maternity & Referral Hospital (MSF / TRCS — Kibondo)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 28 281 0205",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Nduta Camp Health Sector, Kibondo District, Kigoma Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Main 24/7 maternity and emergency obstetric hospital serving Nduta Refugee Camp and Kibondo District."
+    }
+  },
+  {
+    "id": "tanzania-nyarugusu-camp-maternity-hospital-kasulu",
+    "regionDistrict": "Nyarugusu Refugee Camp (Kasulu, Kigoma Region), Tanzania",
+    "type": "hospital",
+    "lat": -4.5315,
+    "lng": 30.6555,
+    "name": {
+      "en": "Nyarugusu Refugee Camp Main Maternity & Referral Hospital (TRCS / MSF — Kasulu)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 28 281 0110",
+    "emergencyHotline": "0800 780 070 / 116",
+    "address": {
+      "en": "Nyarugusu Refugee Camp, Kasulu District, Kigoma Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 comprehensive emergency obstetric and neonatal care hospital in Nyarugusu Camp, Kasulu."
+    }
+  },
+  {
+    "id": "tanzania-kasulu-kabanga-hospital-kigoma",
+    "regionDistrict": "Kasulu, Kigoma Region, Tanzania",
+    "type": "hospital",
+    "lat": -4.5767,
+    "lng": 30.1025,
+    "name": {
+      "en": "Kasulu District Hospital & Kabanga Referral Hospital — Maternity Center (Kasulu, Kigoma)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 28 281 0012",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Kasulu Town & Kabanga, Kasulu District, Kigoma Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Serving Kasulu District and surrounding host/refugee communities in Kigoma Region."
+    }
+  },
+  {
+    "id": "tanzania-kigoma-maweni-hospital-wlac-safe-space",
+    "regionDistrict": "Kigoma, Kigoma Region, Tanzania",
+    "type": "hospital",
+    "lat": -4.8825,
+    "lng": 29.6315,
+    "name": {
+      "en": "Kigoma Regional Referral Hospital (Maweni Hospital) & One-Stop GBV Center (Kigoma)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 28 280 2059",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Maweni, Kigoma-Ujiji Municipality, Kigoma Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral maternity hospital and One-Stop GBV center on Lake Tanganyika in Kigoma."
+    }
+  },
+  {
+    "id": "tanzania-unhcr-dar-es-salaam-wlac-masaki",
+    "regionDistrict": "Masaki, Kinondoni, Dar es Salaam, Tanzania",
+    "type": "safe-haven",
+    "lat": -6.7512,
+    "lng": 39.2825,
+    "name": {
+      "en": "UNHCR Tanzania Country Office & WLAC Refugee Women’s Protection Center — Dar es Salaam"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+255 22 260 2708",
+    "emergencyHotline": "0800 780 070 / 116",
+    "address": {
+      "en": "Plot 1658, Masaki, Haile Selassie Road, Kinondoni, Dar es Salaam, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "UNHCR Tanzania Dar es Salaam Representation and WLAC refugee women’s legal and SGBV protection office."
+    }
+  },
+  {
+    "id": "tanzania-dar-mwananyamala-regional-hospital",
+    "regionDistrict": "Mwananyamala, Kinondoni, Dar es Salaam, Tanzania",
+    "type": "hospital",
+    "lat": -6.7797,
+    "lng": 39.2528,
+    "name": {
+      "en": "Mwananyamala Regional Referral Hospital — Maternity & One-Stop GBV Center (Kinondoni, Dar es Salaam)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 22 276 0500",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Mwananyamala Hospital Road, Kinondoni District, Dar es Salaam, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Public regional referral maternity hospital and integrated One-Stop GBV center in Kinondoni, Dar es Salaam."
+    }
+  },
+  {
+    "id": "tanzania-dar-amana-regional-hospital",
+    "regionDistrict": "Ilala, Dar es Salaam, Tanzania",
+    "type": "hospital",
+    "lat": -6.8239,
+    "lng": 39.2522,
+    "name": {
+      "en": "Amana Regional Referral Hospital — Maternity & One-Stop GBV Center (Ilala, Dar es Salaam)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 22 286 4168",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Uhuru Street, Ilala District, Dar es Salaam, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 public regional referral maternity hospital and One-Stop GBV survivor center in Ilala, Dar es Salaam."
+    }
+  },
+  {
+    "id": "tanzania-dar-temeke-regional-hospital",
+    "regionDistrict": "Temeke, Dar es Salaam, Tanzania",
+    "type": "hospital",
+    "lat": -6.8617,
+    "lng": 39.2614,
+    "name": {
+      "en": "Temeke Regional Referral Hospital — Maternity & One-Stop GBV Center (Temeke, Dar es Salaam)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 22 285 0142",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Temeke Stereo Road, Temeke District, Dar es Salaam, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 public regional referral maternity hospital and One-Stop GBV center in Temeke, Dar es Salaam."
+    }
+  },
+  {
+    "id": "tanzania-dar-kairuki-memorial-hospital-mikocheni",
+    "regionDistrict": "Mikocheni, Kinondoni, Dar es Salaam, Tanzania",
+    "type": "hospital",
+    "lat": -6.7689,
+    "lng": 39.2478,
+    "name": {
+      "en": "Hubert Kairuki Memorial University Hospital (HKMU — Maternity & OB/GYN, Mikocheni, Dar es Salaam)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 22 270 0021",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "322 Regent Estate, Chwaku Street, Mikocheni, Dar es Salaam, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "University teaching hospital with 24/7 obstetrics, gynecology, and fertility care in Mikocheni, Dar es Salaam."
+    }
+  },
+  {
+    "id": "tanzania-dar-rabininsia-marie-stopes-mwenge",
+    "regionDistrict": "Mwenge / Tegeta, Kinondoni, Dar es Salaam, Tanzania",
+    "type": "hospital",
+    "lat": -6.7315,
+    "lng": 39.2185,
+    "name": {
+      "en": "Rabininsia Memorial Hospital & Marie Stopes Tanzania Maternity Hospital (Mwenge, Dar es Salaam)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 22 277 4990",
+    "emergencyHotline": "0800 750 100 / 116",
+    "address": {
+      "en": "Mwenge & Tegeta, Bagamoyo Road, Kinondoni, Dar es Salaam, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 maternity, reproductive health, family planning, and post-abortion care hospital in Mwenge/Tegeta, Dar es Salaam."
+    }
+  },
+  {
+    "id": "tanzania-mwanza-kivulini-womens-safe-haven",
+    "regionDistrict": "Mwanza, Lake Victoria Zone, Tanzania",
+    "type": "safe-haven",
+    "lat": -2.5145,
+    "lng": 32.9035,
+    "name": {
+      "en": "Kivulini Women’s Rights Organization & GBV Crisis Shelter Network (Mwanza)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+255 28 250 0961",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Capri Point / Isamilo, Nyamagana District, Mwanza, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Leading Lake Zone women’s rights, domestic violence prevention, and survivor shelter network in Mwanza."
+    }
+  },
+  {
+    "id": "tanzania-mwanza-sekou-toure-regional-hospital",
+    "regionDistrict": "Mwanza, Lake Victoria Zone, Tanzania",
+    "type": "hospital",
+    "lat": -2.5186,
+    "lng": 32.9012,
+    "name": {
+      "en": "Sekou Toure Regional Referral Hospital — Maternity & One-Stop GBV Center (Mwanza)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 28 250 1059",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Balewa Road, Isamilo, Mwanza, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Public regional referral maternity hospital and One-Stop GBV center in central Mwanza."
+    }
+  },
+  {
+    "id": "tanzania-dodoma-benjamin-mkapa-hospital",
+    "regionDistrict": "Dodoma, Capital City District, Tanzania",
+    "type": "hospital",
+    "lat": -6.2125,
+    "lng": 35.8095,
+    "name": {
+      "en": "Benjamin Mkapa Hospital (BMH) — Zonal Referral & Maternity Hospital (Dodoma)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 26 296 3710",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "University of Dodoma (UDOM) Campus, Chimwaga, Dodoma, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Central Zone tertiary referral and teaching hospital in Dodoma."
+    }
+  },
+  {
+    "id": "tanzania-dodoma-regional-referral-hospital",
+    "regionDistrict": "Dodoma, Capital City District, Tanzania",
+    "type": "hospital",
+    "lat": -6.1789,
+    "lng": 35.7469,
+    "name": {
+      "en": "Dodoma Regional Referral Hospital — Maternity & One-Stop GBV Center (Dodoma)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 26 232 2326",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Hospital Road, Mazengo, Dodoma, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 public maternity referral hospital and One-Stop GBV survivor clinic in downtown Dodoma."
+    }
+  },
+  {
+    "id": "tanzania-dodoma-afnet-wildaf-womens-shelter",
+    "regionDistrict": "Dodoma, Capital City District, Tanzania",
+    "type": "safe-haven",
+    "lat": -6.1745,
+    "lng": 35.7525,
+    "name": {
+      "en": "AFNET (Anti-Female Genital Mutilation Network) & WiLDAF Women’s Safe Center (Dodoma)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+255 26 235 0048",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Area C / Kilimani, Dodoma, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Anti-FGM safe haven, legal aid, and domestic violence crisis support center in Dodoma."
+    }
+  },
+  {
+    "id": "tanzania-moshi-kcmc-zonal-hospital",
+    "regionDistrict": "Moshi, Kilimanjaro Region, Tanzania",
+    "type": "hospital",
+    "lat": -3.3208,
+    "lng": 37.3289,
+    "name": {
+      "en": "Kilimanjaro Christian Medical Centre (KCMC) — Zonal Maternity & Reproductive Health Hospital (Moshi)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 27 275 4377",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Longuo B, Sokoine Road, Moshi, Kilimanjaro Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Northern Zone tertiary teaching hospital for obstetrics, gynecology, fistula repair, and neonatal care in Moshi."
+    }
+  },
+  {
+    "id": "tanzania-moshi-mawenzi-regional-hospital",
+    "regionDistrict": "Moshi, Kilimanjaro Region, Tanzania",
+    "type": "hospital",
+    "lat": -3.3506,
+    "lng": 37.3408,
+    "name": {
+      "en": "Mawenzi Regional Referral Hospital — Maternity & One-Stop GBV Center (Moshi, Kilimanjaro)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 27 275 4361",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Mawenzi Road, Moshi Central, Kilimanjaro Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 public regional maternity hospital and One-Stop GBV center in Moshi."
+    }
+  },
+  {
+    "id": "tanzania-moshi-kwieco-womens-legal-crisis-shelter",
+    "regionDistrict": "Moshi, Kilimanjaro Region, Tanzania",
+    "type": "safe-haven",
+    "lat": -3.3475,
+    "lng": 37.3385,
+    "name": {
+      "en": "KWIECO (Kilimanjaro Women Information Exchange & Community Organization) Safe Center (Moshi)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+255 27 275 2393",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Kibo Road, Moshi Municipality, Kilimanjaro Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Women’s legal aid, GBV crisis shelter referral, and survivor protection center in Kilimanjaro."
+    }
+  },
+  {
+    "id": "tanzania-arusha-mount-meru-regional-hospital",
+    "regionDistrict": "Arusha, Arusha Region, Tanzania",
+    "type": "hospital",
+    "lat": -3.3686,
+    "lng": 36.6881,
+    "name": {
+      "en": "Mount Meru Regional Referral Hospital — Maternity & One-Stop GBV Center (Arusha)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 27 254 5325",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Kaloleni / Sekei, Arusha City, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 public regional maternity referral hospital and One-Stop GBV center in Arusha."
+    }
+  },
+  {
+    "id": "tanzania-arusha-almc-selian-lutheran-hospital",
+    "regionDistrict": "Arusha, Arusha Region, Tanzania",
+    "type": "hospital",
+    "lat": -3.3725,
+    "lng": 36.6942,
+    "name": {
+      "en": "Arusha Lutheran Medical Centre (ALMC) & Selian Lutheran Hospital — Maternity & Fistula Care (Arusha)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 27 254 8030",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Mianzini / Makiungu Road, Arusha, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 obstetric, gynecological, and fistula surgical hospital in Arusha."
+    }
+  },
+  {
+    "id": "tanzania-zanzibar-mnazi-mmoja-hospital-stone-town",
+    "regionDistrict": "Stone Town, Unguja, Zanzibar, Tanzania",
+    "type": "hospital",
+    "lat": -6.1695,
+    "lng": 39.1905,
+    "name": {
+      "en": "Mnazi Mmoja Referral Hospital — Maternity & One-Stop GBV Center (Stone Town, Zanzibar)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 24 223 1987",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Kaunda Road, Vuga, Stone Town, Unguja, Zanzibar, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "National referral maternity hospital and Mkono kwa Mkono One-Stop GBV center in Zanzibar."
+    }
+  },
+  {
+    "id": "tanzania-zanzibar-zafela-tamwa-safe-haven",
+    "regionDistrict": "Zanzibar City, Unguja, Zanzibar, Tanzania",
+    "type": "safe-haven",
+    "lat": -6.1642,
+    "lng": 39.2085,
+    "name": {
+      "en": "ZAFELA (Zanzibar Female Lawyers Association) & TAMWA Zanzibar Women’s Safe Center"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+255 24 223 0636",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Mpendae / Tunguu, Unguja, Zanzibar, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Women’s legal aid, domestic violence protection, and Mkono kwa Mkono GBV survivor support in Zanzibar."
+    }
+  },
+  {
+    "id": "tanzania-pemba-chake-chake-abdulla-mzee-hospital",
+    "regionDistrict": "Chake Chake & Mkoani, Pemba Island, Zanzibar, Tanzania",
+    "type": "hospital",
+    "lat": -5.2458,
+    "lng": 39.7667,
+    "name": {
+      "en": "Chake Chake Hospital & Abdulla Mzee Regional Hospital — Maternity & One-Stop Center (Pemba Island, Zanzibar)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 24 245 2012",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Chake Chake, South Pemba, Zanzibar, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 island maternity referral hospital and One-Stop GBV center on Pemba Island."
+    }
+  },
+  {
+    "id": "tanzania-mbeya-zonal-referral-meta-maternity",
+    "regionDistrict": "Mbeya, Southern Highlands, Tanzania",
+    "type": "hospital",
+    "lat": -8.9065,
+    "lng": 33.4562,
+    "name": {
+      "en": "Mbeya Zonal Referral Hospital (MZRH) — Meta Maternity Wing & One-Stop GBV Center (Mbeya)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 25 250 3456",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Hospital Hill / Meta, Mbeya City, Southern Highlands, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Southern Highlands tertiary zonal referral hospital and Meta Maternity Hospital in Mbeya."
+    }
+  },
+  {
+    "id": "tanzania-morogoro-regional-referral-hospital",
+    "regionDistrict": "Morogoro, Morogoro Region, Tanzania",
+    "type": "hospital",
+    "lat": -6.8278,
+    "lng": 37.6592,
+    "name": {
+      "en": "Morogoro Regional Referral Hospital — Maternity & One-Stop GBV Center (Morogoro)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 23 261 4096",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Boma Road, Morogoro Municipality, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 public regional maternity referral hospital and One-Stop GBV center in Morogoro."
+    }
+  },
+  {
+    "id": "tanzania-ifakara-st-francis-referral-hospital",
+    "regionDistrict": "Ifakara, Kilombero, Morogoro Region, Tanzania",
+    "type": "hospital",
+    "lat": -8.1336,
+    "lng": 36.6815,
+    "name": {
+      "en": "St. Francis Referral Hospital — Maternal & Reproductive Health Center (Ifakara, Morogoro)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 23 262 5005",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Ifakara Town, Kilombero District, Morogoro Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Zonal referral hospital with specialized rural maternal, obstetric, and neonatal care in Ifakara."
+    }
+  },
+  {
+    "id": "tanzania-tanga-bombo-regional-referral-hospital",
+    "regionDistrict": "Tanga, Tanga Region, Tanzania",
+    "type": "hospital",
+    "lat": -5.0689,
+    "lng": 39.1045,
+    "name": {
+      "en": "Bombo Regional Referral Hospital — Maternity & One-Stop GBV Center (Tanga)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 27 264 2997",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Bombo Area, Ocean Drive, Tanga City, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 public regional maternity referral hospital and One-Stop GBV center on the northern Swahili coast in Tanga."
+    }
+  },
+  {
+    "id": "tanzania-iringa-regional-referral-hospital",
+    "regionDistrict": "Iringa, Iringa Region, Tanzania",
+    "type": "hospital",
+    "lat": -7.7715,
+    "lng": 35.6945,
+    "name": {
+      "en": "Iringa Regional Referral Hospital — Maternity & One-Stop GBV Center (Iringa)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 26 270 2264",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "uhuru Avenue, Gangilonga, Iringa Municipality, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional referral maternity hospital and One-Stop GBV center in Iringa."
+    }
+  },
+  {
+    "id": "tanzania-tabora-kitete-regional-hospital",
+    "regionDistrict": "Tabora, Tabora Region, Tanzania",
+    "type": "hospital",
+    "lat": -5.0185,
+    "lng": 32.8045,
+    "name": {
+      "en": "Kitete Regional Referral Hospital — Maternity & One-Stop GBV Center (Tabora)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 26 260 4118",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Kitete, Tabora Municipality, Western Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional referral maternity hospital and One-Stop GBV center in Tabora."
+    }
+  },
+  {
+    "id": "tanzania-shinyanga-regional-hospital-agape-shelter",
+    "regionDistrict": "Shinyanga, Shinyanga Region, Tanzania",
+    "type": "safe-haven",
+    "lat": -3.6625,
+    "lng": 33.4235,
+    "name": {
+      "en": "Agape Knowledge Open School Women/Girls Safe Shelter & Shinyanga Regional Hospital One-Stop Center"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+255 28 276 2022",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Shinyanga Municipality, Shinyanga Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Safe shelter for survivors of child marriage/GBV and regional maternity One-Stop center in Shinyanga."
+    }
+  },
+  {
+    "id": "tanzania-mtwara-ligula-regional-hospital",
+    "regionDistrict": "Mtwara, Mtwara Region, Tanzania",
+    "type": "hospital",
+    "lat": -10.2736,
+    "lng": 40.1828,
+    "name": {
+      "en": "Ligula Regional Referral Hospital — Maternity & One-Stop GBV Center (Mtwara)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 23 233 3029",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Ligula, Mtwara-Mikindani Municipality, Southern Coast, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 Southern Zone regional maternity referral hospital and One-Stop GBV center in Mtwara."
+    }
+  },
+  {
+    "id": "tanzania-ndanda-st-benedicts-referral-hospital",
+    "regionDistrict": "Ndanda / Masasi, Mtwara & Lindi Regions, Tanzania",
+    "type": "hospital",
+    "lat": -10.4835,
+    "lng": 39.0325,
+    "name": {
+      "en": "St. Benedict’s Ndanda Referral Hospital — Maternity & Obstetric Center (Masasi, Mtwara)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 23 260 0014",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Ndanda Mission, Masasi District, Mtwara Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Major Southern Tanzania mission referral hospital for obstetrics and gynecology."
+    }
+  },
+  {
+    "id": "tanzania-bukoba-regional-referral-hospital-kagera",
+    "regionDistrict": "Bukoba, Kagera Region, Tanzania",
+    "type": "hospital",
+    "lat": -1.3315,
+    "lng": 31.8125,
+    "name": {
+      "en": "Bukoba Regional Referral Hospital — Maternity & One-Stop GBV Center (Kagera)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 28 222 0265",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Hospital Road, Bukoba Municipality, Kagera Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional referral maternity hospital and One-Stop GBV center in Bukoba (West Lake Victoria)."
+    }
+  },
+  {
+    "id": "tanzania-musoma-mara-hope-safe-house",
+    "regionDistrict": "Musoma & Mugumu (Serengeti), Mara Region, Tanzania",
+    "type": "safe-haven",
+    "lat": -1.5035,
+    "lng": 33.7985,
+    "name": {
+      "en": "Hope for Girls and Women in Tanzania (HGWT) Safe House (Mugumu/Musoma) & Mara Regional Hospital"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+255 756 802 152",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Musoma & Mugumu, Mara Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 anti-FGM & domestic violence safe houses in Musoma and Mugumu alongside Mara Regional Referral Hospital."
+    }
+  },
+  {
+    "id": "tanzania-songea-regional-referral-hospital-ruvuma",
+    "regionDistrict": "Songea, Ruvuma Region, Tanzania",
+    "type": "hospital",
+    "lat": -10.6815,
+    "lng": 35.6505,
+    "name": {
+      "en": "Songea Regional Referral Hospital (HOMSO) & St. Joseph’s Peramiho Maternity Hospital (Ruvuma)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 25 260 2219",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Songea Municipality & Peramiho, Ruvuma Region, Southern Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional maternity referral hospital in Songea and Peramiho."
+    }
+  },
+  {
+    "id": "tanzania-sumbawanga-regional-referral-hospital-rukwa",
+    "regionDistrict": "Sumbawanga, Rukwa Region, Tanzania",
+    "type": "hospital",
+    "lat": -7.9667,
+    "lng": 31.6167,
+    "name": {
+      "en": "Sumbawanga Regional Referral Hospital — Maternity & One-Stop GBV Center (Rukwa)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 25 280 2138",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Mazwi, Sumbawanga Municipality, Rukwa Region, Southwestern Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional maternity referral hospital and One-Stop GBV center in Sumbawanga."
+    }
+  },
+  {
+    "id": "israel-hosp-tzafon-poriya-tiberias",
+    "regionDistrict": "Tiberias (Poriya), Northern District, Israel",
+    "type": "hospital",
+    "lat": 32.7525,
+    "lng": 35.5412,
+    "name": {
+      "en": "Tzafon Medical Center (Poriya Hospital) — Maternity & Women’s Division (Tiberias)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+972 4 665 2211",
+    "emergencyHotline": "101 / 118",
+    "address": {
+      "en": "Poriya Illit, Lower Galilee, Tiberias, Israel"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 maternity and women’s health center overlooking the Sea of Galilee in Tiberias."
+    }
+  },
+  {
+    "id": "israel-hosp-barzilai-ashkelon",
+    "regionDistrict": "Ashkelon, Southern District, Israel",
+    "type": "hospital",
+    "lat": 31.6628,
+    "lng": 34.5582,
+    "name": {
+      "en": "Barzilai University Medical Center — Obstetrics, Maternity & Women’s Health (Ashkelon)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+972 8 674 5555",
+    "emergencyHotline": "101 / 118",
+    "address": {
+      "en": "Ha-Histadrut St 2, Ashkelon, Israel"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 university maternity and emergency hospital in Ashkelon."
+    }
+  },
+  {
+    "id": "palestine-unwomen-wclac-jerusalem-protection",
+    "regionDistrict": "East Jerusalem, Palestine",
+    "type": "safe-haven",
+    "lat": 31.7945,
+    "lng": 35.2312,
+    "name": {
+      "en": "WCLAC (Women’s Centre for Legal Aid and Counselling) & Juzoor Protection Hub — East Jerusalem"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+970 2 656 7619",
+    "emergencyHotline": "121 / 164",
+    "address": {
+      "en": "Sheikh Jarrah / Beit Hanina, East Jerusalem, Palestine"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 legal aid, emergency shelter referral, and psychosocial protection for women in East Jerusalem."
+    }
+  },
+  {
+    "id": "palestine-unwomen-wclac-psccw-hebron",
+    "regionDistrict": "Hebron (Al-Khalil), West Bank, Palestine",
+    "type": "safe-haven",
+    "lat": 31.5326,
+    "lng": 35.0998,
+    "name": {
+      "en": "WCLAC Hebron & Family Defense / Red Crescent Women’s Protection Center — Hebron (Al-Khalil)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+970 2 222 6994",
+    "emergencyHotline": "121 / 164",
+    "address": {
+      "en": "Ein Sarah Street, Hebron (Al-Khalil), West Bank, Palestine"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Women’s crisis counseling, legal defense, and safe shelter referral center in Hebron."
+    }
+  },
+  {
+    "id": "palestine-khan-younis-deir-al-balah-maternity-safe-space",
+    "regionDistrict": "Deir al-Balah & Khan Younis, Gaza Strip, Palestine",
+    "type": "safe-haven",
+    "lat": 31.3462,
+    "lng": 34.295,
+    "name": {
+      "en": "UNFPA / Wefaq & AISHA Women’s Safe Space & Al-Aqsa / Nasser Maternity Triage — Deir al-Balah & Khan Younis"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+970 8 282 7047",
+    "emergencyHotline": "121 / 101",
+    "address": {
+      "en": "Deir al-Balah & Khan Younis, Southern Gaza Strip, Palestine"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Emergency maternal kits, mobile midwifery, and GBV crisis support in Central and Southern Gaza."
+    }
+  },
+  {
+    "id": "israel-bedouin-women-center-rahat-negev",
+    "regionDistrict": "Rahat, Southern District (Negev / Naqab), Israel",
+    "type": "safe-haven",
+    "lat": 31.3925,
+    "lng": 34.7542,
+    "name": {
+      "en": "Ma’an — Forum of Arab Bedouin Women’s Organizations & Rahat Women’s Crisis Center (Rahat, Negev)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+972 8 623 2269",
+    "emergencyHotline": "118 / *6724",
+    "address": {
+      "en": "Rahat City Center, Negev (Naqab), Southern District, Israel"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Arabic-speaking domestic violence protection, legal aid, and shelter support for Bedouin women in Rahat."
+    }
+  },
+  {
+    "id": "mauritania-hosp-aleg-brakna",
+    "regionDistrict": "Aleg, Brakna Region, Mauritania",
+    "type": "hospital",
+    "lat": 17.0515,
+    "lng": -13.9125,
+    "name": {
+      "en": "Centre Hospitalier Régional d’Aleg — Maternité & Urgences (Aleg, Brakna)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+222 45 25 14 02",
+    "emergencyHotline": "8000 3000 / 116",
+    "address": {
+      "en": "Aleg, Brakna Region, Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional referral maternity hospital in Aleg, Brakna Region."
+    }
+  },
+  {
+    "id": "mauritania-hosp-selibabi-guidimaka",
+    "regionDistrict": "Sélibabi, Guidimaka Region, Mauritania",
+    "type": "hospital",
+    "lat": 15.1585,
+    "lng": -12.1842,
+    "name": {
+      "en": "Centre Hospitalier Régional de Sélibabi — Maternité & Antenne VBG (Guidimaka)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+222 45 35 11 08",
+    "emergencyHotline": "8000 3000 / 116",
+    "address": {
+      "en": "Sélibabi, Guidimaka Region, Southern Mauritania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional maternity hospital and women’s protection center in Sélibabi, Guidimaka."
+    }
+  },
+  {
+    "id": "kenya-unhcr-kalobeyei-settlement-safe-haven",
+    "regionDistrict": "Kalobeyei Integrated Settlement, Turkana County, Kenya",
+    "type": "safe-haven",
+    "lat": 3.7845,
+    "lng": 34.7385,
+    "name": {
+      "en": "UNHCR, DRC & IRC Women’s Safe Center & Maternity Health Center — Kalobeyei Settlement (Turkana)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+254 800 720 414",
+    "emergencyHotline": "1517 / 1195",
+    "address": {
+      "en": "Kalobeyei Village 1–3, Turkana West, Turkana County, Kenya"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 GBV safe space and maternal health clinic in Kalobeyei Settlement, Turkana."
+    }
+  },
+  {
+    "id": "kenya-dadaab-ifo-camp-maternity-safe-haven",
+    "regionDistrict": "Ifo Refugee Camp, Dadaab, Garissa County, Kenya",
+    "type": "safe-haven",
+    "lat": 0.1145,
+    "lng": 40.3185,
+    "name": {
+      "en": "UNHCR & CARE Women’s Safe Space & Ifo Camp Maternity Hospital (Dadaab, Garissa)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+254 800 720 063",
+    "emergencyHotline": "1517 / 1195",
+    "address": {
+      "en": "Ifo Refugee Camp, Dadaab, Garissa County, Kenya"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 women’s protection center and maternity hospital in Ifo Refugee Camp, Dadaab."
+    }
+  },
+  {
+    "id": "kenya-mtrh-riley-mother-baby-eldoret",
+    "regionDistrict": "Eldoret, Uasin Gishu County, Kenya",
+    "type": "hospital",
+    "lat": 0.5115,
+    "lng": 35.2805,
+    "name": {
+      "en": "Moi Teaching and Referral Hospital (MTRH) — Riley Mother and Baby Hospital & GBV Center (Eldoret)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+254 53 203 3471",
+    "emergencyHotline": "1195 / 999",
+    "address": {
+      "en": "Nandi Road, Eldoret, Uasin Gishu County, Western Kenya"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Western Kenya’s largest tertiary maternity hospital (Riley Mother & Baby Wing) and CARA GBV recovery center."
+    }
+  },
+  {
+    "id": "kenya-coast-general-hospital-mombasa",
+    "regionDistrict": "Mombasa, Mombasa County, Kenya",
+    "type": "hospital",
+    "lat": -4.0458,
+    "lng": 39.6712,
+    "name": {
+      "en": "Coast General Teaching and Referral Hospital — Maternity & GBV Recovery Center (Mombasa)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+254 41 231 4201",
+    "emergencyHotline": "1195 / 999",
+    "address": {
+      "en": "Kisauni Road, Mvita, Mombasa Island, Kenya"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 coastal tertiary maternity referral hospital and GBV recovery center in Mombasa."
+    }
+  },
+  {
+    "id": "uganda-unhcr-nakivale-refugee-settlement-gbv",
+    "regionDistrict": "Nakivale Refugee Settlement, Isingiro District, Uganda",
+    "type": "safe-haven",
+    "lat": -0.7785,
+    "lng": 30.9525,
+    "name": {
+      "en": "UNHCR, MTI & ALIGHT Women’s Safe Space & Nakivale Health Center IV Maternity (Isingiro)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+256 800 32 32 32",
+    "emergencyHotline": "0800 32 32 32 / 116",
+    "address": {
+      "en": "Nakivale Refugee Settlement, Isingiro District, Southwestern Uganda"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 refugee women’s GBV protection center and maternity clinic in Nakivale Settlement."
+    }
+  },
+  {
+    "id": "uganda-unhcr-bidi-bidi-yumbe-gbv-safe-space",
+    "regionDistrict": "Bidi Bidi Refugee Settlement, Yumbe District, Uganda",
+    "type": "safe-haven",
+    "lat": 3.465,
+    "lng": 31.245,
+    "name": {
+      "en": "UNHCR, IRC & DRC Women’s Safe Space & Yumbe Regional Referral Hospital — Bidi Bidi Settlement"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+256 800 32 32 32",
+    "emergencyHotline": "0800 32 32 32 / 116",
+    "address": {
+      "en": "Bidi Bidi Zones 1–5 & Yumbe Town, West Nile, Northern Uganda"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 women’s protection center and emergency obstetric care in Bidi Bidi Settlement and Yumbe."
+    }
+  },
+  {
+    "id": "uganda-unhcr-kyaka-ii-rwamwanja-gbv-safe-space",
+    "regionDistrict": "Kyaka II & Rwamwanja Settlements, Kyegegwa / Kamwenge, Uganda",
+    "type": "safe-haven",
+    "lat": 0.3545,
+    "lng": 31.0825,
+    "name": {
+      "en": "UNHCR, ALIGHT & MTI Women’s Safe Space & Bujubuli Maternity Health Center — Kyaka II Settlement"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+256 800 32 32 32",
+    "emergencyHotline": "0800 32 32 32 / 116",
+    "address": {
+      "en": "Bujubuli, Kyaka II Refugee Settlement, Kyegegwa District, Western Uganda"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 women’s safe center and maternity hospital in Kyaka II Refugee Settlement."
+    }
+  },
+  {
+    "id": "uganda-lacor-hospital-gulu",
+    "regionDistrict": "Gulu, Northern Region, Uganda",
+    "type": "hospital",
+    "lat": 2.7685,
+    "lng": 32.2515,
+    "name": {
+      "en": "St. Mary’s Hospital Lacor — Obstetrics, Gynecology & Maternity Center (Gulu, Northern Uganda)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+256 471 432 310",
+    "emergencyHotline": "0800 100 066 / 116",
+    "address": {
+      "en": "Juba Road, Lacor, Gulu City, Northern Uganda"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Major non-profit university teaching and maternity referral hospital in Gulu."
+    }
+  },
+  {
+    "id": "uganda-arua-regional-referral-hospital",
+    "regionDistrict": "Arua, West Nile Sub-Region, Uganda",
+    "type": "hospital",
+    "lat": 3.0215,
+    "lng": 30.9105,
+    "name": {
+      "en": "Arua Regional Referral Hospital — Maternity & West Nile GBV Recovery Center (Arua)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+256 476 420 160",
+    "emergencyHotline": "0800 32 32 32 / 116",
+    "address": {
+      "en": "Hospital Road, Arua City, West Nile, Uganda"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional referral maternity hospital serving Arua and West Nile refugee settlements."
+    }
+  },
+  {
+    "id": "ethiopia-gambella-hospital-unhcr-camps-gbv",
+    "regionDistrict": "Gambella, Gambella Region, Ethiopia",
+    "type": "safe-haven",
+    "lat": 8.2512,
+    "lng": 34.5885,
+    "name": {
+      "en": "UNHCR, IMC & RaDO Women’s Safe Space & Gambella General Hospital One-Stop GBV Center (Gambella)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+251 905 012 823",
+    "emergencyHotline": "6388 / 7711",
+    "address": {
+      "en": "Gambella Town & Jewi / Nguenyyiel / Pugnido Refugee Camps, Gambella, Ethiopia"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 GBV safe spaces across Gambella camps and One-Stop survivor clinic at Gambella General Hospital."
+    }
+  },
+  {
+    "id": "ethiopia-shire-suhul-hospital-tigray-gbv",
+    "regionDistrict": "Shire (Inda Selassie), Tigray Region, Ethiopia",
+    "type": "safe-haven",
+    "lat": 14.1025,
+    "lng": 38.2815,
+    "name": {
+      "en": "Suhul General Hospital One-Stop GBV Center & UNHCR/IRC Women’s Safe Space (Shire, Tigray)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+251 905 012 823",
+    "emergencyHotline": "6388 / 907",
+    "address": {
+      "en": "Shire (Inda Selassie), North Western Zone, Tigray, Ethiopia"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 emergency maternal care and One-Stop GBV trauma recovery center in Shire, Tigray."
+    }
+  },
+  {
+    "id": "ethiopia-jijiga-referral-hospital-awsad-somali",
+    "regionDistrict": "Jijiga, Somali Region, Ethiopia",
+    "type": "safe-haven",
+    "lat": 9.3515,
+    "lng": 42.7955,
+    "name": {
+      "en": "AWSAD Jijiga Women’s Safe Shelter & Sheik Hassen Yabare Referral Hospital One-Stop Center (Jijiga)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+251 25 775 2784",
+    "emergencyHotline": "6388 / 7711",
+    "address": {
+      "en": "Jijiga University Referral Hospital Road, Jijiga, Somali Region, Ethiopia"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "AWSAD safe house for women and girls and hospital-based One-Stop GBV center in Jijiga."
+    }
+  },
+  {
+    "id": "ethiopia-mekelle-ayder-hospital-awsad-tigray",
+    "regionDistrict": "Mekelle, Tigray Region, Ethiopia",
+    "type": "hospital",
+    "lat": 13.5085,
+    "lng": 39.4885,
+    "name": {
+      "en": "Ayder Comprehensive Specialized Hospital — Maternity, Fistula & One-Stop GBV Center (Mekelle, Tigray)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+251 34 441 6690",
+    "emergencyHotline": "6388 / 907",
+    "address": {
+      "en": "Mekelle University Ayder Campus, Mekelle, Tigray, Ethiopia"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Tertiary teaching maternity hospital, Michu reproductive clinic, and One-Stop GBV center in Mekelle."
+    }
+  },
+  {
+    "id": "ethiopia-dessie-specialized-hospital-amhara",
+    "regionDistrict": "Dessie, Amhara Region, Ethiopia",
+    "type": "hospital",
+    "lat": 11.1345,
+    "lng": 39.6365,
+    "name": {
+      "en": "Dessie Comprehensive Specialized Hospital — Maternity & One-Stop GBV Center (Dessie, Amhara)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+251 33 111 1699",
+    "emergencyHotline": "6388 / 907",
+    "address": {
+      "en": "Dessie, South Wollo Zone, Amhara Region, Ethiopia"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 tertiary maternity referral hospital and One-Stop GBV survivor center in Dessie."
+    }
+  },
+  {
+    "id": "somalia-bossaso-kaalo-wawa-puntland-gbv",
+    "regionDistrict": "Bossaso, Bari Region (Puntland), Somalia",
+    "type": "safe-haven",
+    "lat": 11.2842,
+    "lng": 49.1815,
+    "name": {
+      "en": "WAWA (We Are Women Activists) & Kaalo GBV One-Stop Safe Center & Bossaso General Hospital (Puntland)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+252 90 779 6521",
+    "emergencyHotline": "2772 / 555",
+    "address": {
+      "en": "Bossaso, Bari Region, Puntland, Somalia"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 Puntland women’s protection center, UNHCR helpline 2772, and Bossaso General Maternity Ward."
+    }
+  },
+  {
+    "id": "rwanda-mahama-camp-kirehe-isange-gbv",
+    "regionDistrict": "Mahama Refugee Camp, Kirehe District, Eastern Province, Rwanda",
+    "type": "safe-haven",
+    "lat": -2.2985,
+    "lng": 30.8245,
+    "name": {
+      "en": "UNHCR, Save the Children & Isange One-Stop GBV Safe Center — Mahama Refugee Camp & Kirehe Hospital"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+250 788 384 932",
+    "emergencyHotline": "3512 / 4433",
+    "address": {
+      "en": "Mahama Refugee Camp, Kirehe District, Eastern Province, Rwanda"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 Isange One-Stop GBV center and maternity clinic serving Mahama Camp and Kirehe."
+    }
+  },
+  {
+    "id": "rwanda-kiziba-karongi-camp-isange-gbv",
+    "regionDistrict": "Kiziba Refugee Camp, Karongi District, Western Province, Rwanda",
+    "type": "safe-haven",
+    "lat": -2.1285,
+    "lng": 29.3625,
+    "name": {
+      "en": "UNHCR & Isange One-Stop GBV Safe Center — Kiziba Refugee Camp & Kibuye Referral Hospital (Karongi)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+250 788 384 932",
+    "emergencyHotline": "3512 / 4433",
+    "address": {
+      "en": "Kiziba Camp & Kibuye, Karongi District, Western Province, Rwanda"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 women’s protection center and Kibuye Referral Hospital maternity care in Karongi."
+    }
+  },
+  {
+    "id": "rwanda-huye-butare-chub-kigeme-mugombwa",
+    "regionDistrict": "Huye (Butare) & Kigeme/Mugombwa Camps, Southern Province, Rwanda",
+    "type": "hospital",
+    "lat": -2.6115,
+    "lng": 29.7425,
+    "name": {
+      "en": "University Teaching Hospital of Butare (CHUB — Huye) & Isange One-Stop GBV Center (Southern Rwanda)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+250 252 530 254",
+    "emergencyHotline": "3512 / 112",
+    "address": {
+      "en": "Huye (Butare), Huye District, Southern Province, Rwanda"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Southern Rwanda’s tertiary university maternity hospital and Isange One-Stop GBV center."
+    }
+  },
+  {
+    "id": "burundi-gitega-regional-hospital-humura-gbv",
+    "regionDistrict": "Gitega, Gitega Province, Burundi",
+    "type": "safe-haven",
+    "lat": -3.4285,
+    "lng": 29.9245,
+    "name": {
+      "en": "Centre Humura One-Stop GBV Shelter & Hôpital Régional de Gitega Maternité (Gitega, Burundi)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+257 22 40 42 15",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Quartier Musinzira, Gitega, Burundi"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Integrated national One-Stop GBV recovery shelter (Centre Humura) and Gitega Regional Maternity Hospital."
+    }
+  },
+  {
+    "id": "burundi-ruyigi-hospital-bwagiriza-camp-gbv",
+    "regionDistrict": "Ruyigi & Bwagiriza/Kavumu Camps, Eastern Burundi",
+    "type": "safe-haven",
+    "lat": -3.4745,
+    "lng": 30.2485,
+    "name": {
+      "en": "UNHCR & Maison d’Écoute VBG — Bwagiriza/Kavumu Refugee Camps & Hôpital de Ruyigi (Eastern Burundi)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+257 22 22 32 45",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Ruyigi & Bwagiriza Camp, Ruyigi Province, Burundi"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 refugee and host community women’s safe center and Ruyigi Maternity Hospital."
+    }
+  },
+  {
+    "id": "burkina-faso-dori-chr-unhcr-sahel-gbv",
+    "regionDistrict": "Dori, Séno Province (Sahel Region), Burkina Faso",
+    "type": "safe-haven",
+    "lat": 14.035,
+    "lng": -0.0345,
+    "name": {
+      "en": "UNHCR & CONAREF Centre d’Écoute VBG & CHR de Dori Maternité (Dori, Sahel)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+226 80 00 12 87",
+    "emergencyHotline": "80 00 12 87 / 80 00 11 12",
+    "address": {
+      "en": "Dori, Séno Province, Sahel Region, Burkina Faso"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 toll-free VBG protection hub (80 00 12 87) and Dori Regional Hospital maternity ward."
+    }
+  },
+  {
+    "id": "burkina-faso-ouahigouya-chr-nord-gbv",
+    "regionDistrict": "Ouahigouya, Yatenga Province (Nord Region), Burkina Faso",
+    "type": "hospital",
+    "lat": 13.5825,
+    "lng": -2.4215,
+    "name": {
+      "en": "CHU Régional d’Ouahigouya — Maternité & Espace Sûr VBG (Ouahigouya, Nord)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+226 24 55 01 12",
+    "emergencyHotline": "80 00 12 87 / 112",
+    "address": {
+      "en": "Ouahigouya, Yatenga Province, Nord Region, Burkina Faso"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional university maternity hospital and IDP women’s safe space in Ouahigouya."
+    }
+  },
+  {
+    "id": "cameroon-maroua-minawao-camp-unhcr-alvf",
+    "regionDistrict": "Maroua & Minawao Camp, Far North Region, Cameroon",
+    "type": "safe-haven",
+    "lat": 10.5925,
+    "lng": 14.3185,
+    "name": {
+      "en": "UNHCR & ALVF Women’s Safe Center — Minawao Refugee Camp & Maroua Regional Hospital (Far North Cameroon)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+237 222 20 29 54",
+    "emergencyHotline": "1511 / 116",
+    "address": {
+      "en": "Maroua & Minawao Camp (Mokolo), Extreme-Nord, Cameroon"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 GBV safe spaces in Minawao Camp and Maroua alongside Maroua Regional Hospital Maternity."
+    }
+  },
+  {
+    "id": "cameroon-bertoua-regional-hospital-unhcr-east",
+    "regionDistrict": "Bertoua, East Region, Cameroon",
+    "type": "safe-haven",
+    "lat": 4.5775,
+    "lng": 13.6845,
+    "name": {
+      "en": "UNHCR East Cameroon Women’s Protection Center & Bertoua Regional Hospital Maternity (Bertoua)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+237 222 24 12 85",
+    "emergencyHotline": "1511 / 116",
+    "address": {
+      "en": "Bertoua, Lom-et-Djérem, East Region, Cameroon"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Serving CAR refugee and host women across Eastern Cameroon alongside Bertoua Regional Hospital."
+    }
+  },
+  {
+    "id": "cameroon-bamenda-regional-hospital-mbingo",
+    "regionDistrict": "Bamenda & Mbingo, North-West Region, Cameroon",
+    "type": "hospital",
+    "lat": 5.9631,
+    "lng": 10.1591,
+    "name": {
+      "en": "Bamenda Regional Hospital & Mbingo Baptist Hospital — Maternity & Women’s Protection (North-West Cameroon)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+237 233 36 11 19",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Hospital Roundabout, Mankon, Bamenda, North-West Region, Cameroon"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional referral maternity hospital and GBV clinical management center in Bamenda."
+    }
+  },
+  {
+    "id": "cameroon-limbe-regional-hospital-southwest",
+    "regionDistrict": "Limbe, South-West Region, Cameroon",
+    "type": "hospital",
+    "lat": 4.0185,
+    "lng": 9.2085,
+    "name": {
+      "en": "Limbe Regional Hospital (Mile 1 Hospital) — Obstetrics, Gynecology & Maternity (South-West Cameroon)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+237 233 33 22 44",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Mile 1, Limbe, Fako Division, South-West Region, Cameroon"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional referral maternity and surgical hospital in Limbe."
+    }
+  },
+  {
+    "id": "car-bambari-regional-hospital-vbg-ouaka",
+    "regionDistrict": "Bambari, Ouaka Prefecture, Central African Republic",
+    "type": "safe-haven",
+    "lat": 5.7685,
+    "lng": 20.6755,
+    "name": {
+      "en": "Hôpital Régional de Bambari (MSF Supported) & Maison d’Écoute VBG (Bambari, Ouaka, CAR)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+236 75 55 40 40",
+    "emergencyHotline": "4040 / 1325",
+    "address": {
+      "en": "Bambari, Ouaka Prefecture, Central African Republic"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 maternity hospital and holistic GBV survivor safe space in Bambari."
+    }
+  },
+  {
+    "id": "car-bouar-bossangoa-regional-hospitals-vbg",
+    "regionDistrict": "Bouar (Nana-Mambéré) & Bossangoa (Ouham), Central African Republic",
+    "type": "hospital",
+    "lat": 5.9345,
+    "lng": 15.5965,
+    "name": {
+      "en": "Hôpital Préfectoral de Bouar — Maternité & Maison d’Écoute VBG (Nana-Mambéré, CAR)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+236 72 50 13 25",
+    "emergencyHotline": "1325 / 4040",
+    "address": {
+      "en": "Bouar, Nana-Mambéré Prefecture, Western Central African Republic"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 maternity referral hospital and women’s protection center in Western CAR."
+    }
+  },
+  {
+    "id": "car-bangui-chu-communautaire-amitie-maternite",
+    "regionDistrict": "Bangui, Central African Republic",
+    "type": "hospital",
+    "lat": 4.3785,
+    "lng": 18.5625,
+    "name": {
+      "en": "CHU Communautaire de Bangui, CHU Maman Elisabeth Domitien & Hôpital de l’Amitié — Maternité (Bangui, CAR)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+236 21 61 45 10",
+    "emergencyHotline": "1325 / 4040",
+    "address": {
+      "en": "Avenue des Martyrs & Bimbo, Bangui, Central African Republic"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "National university maternity hospitals and UMIRR One-Stop GBV center in Bangui."
+    }
+  },
+  {
+    "id": "nigeria-yola-mauth-unhcr-adamawa-gbv",
+    "regionDistrict": "Yola, Adamawa State, Nigeria",
+    "type": "safe-haven",
+    "lat": 9.2035,
+    "lng": 12.4955,
+    "name": {
+      "en": "Modibbo Adama University Teaching Hospital (MAUTH Yola) SARCs & UNHCR Adamawa Women’s Safe Center"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+234 800 033 3333",
+    "emergencyHotline": "0800 033 3333 / 627",
+    "address": {
+      "en": "Lamido Zubairu Way, Yola Bye-Pass, Yola, Adamawa State, Nigeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 Sexual Assault Referral Centre (Hope Centre) and UNHCR women’s safe space in Yola."
+    }
+  },
+  {
+    "id": "nigeria-ogoja-unhcr-cross-river-gbv",
+    "regionDistrict": "Ogoja, Cross River State, Nigeria",
+    "type": "safe-haven",
+    "lat": 6.6585,
+    "lng": 8.7975,
+    "name": {
+      "en": "UNHCR Ogoja Sub-Office & General Hospital Ogoja Women’s Safe Space (Cross River, Nigeria)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+234 800 033 3333",
+    "emergencyHotline": "0800 033 3333 / 112",
+    "address": {
+      "en": "Igoli, Ogoja, Cross River State, Nigeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "Serving Cameroonian refugee women in Adagom/Okende settlements and host communities in Ogoja."
+    }
+  },
+  {
+    "id": "nigeria-akth-aminu-kano-teaching-hospital",
+    "regionDistrict": "Kano, Kano State, Nigeria",
+    "type": "hospital",
+    "lat": 11.9785,
+    "lng": 8.5542,
+    "name": {
+      "en": "Aminu Kano Teaching Hospital (AKTH) & Murtala Muhammad Specialist Hospital — Maternity & Waraka SARC (Kano)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+234 64 668 233",
+    "emergencyHotline": "0800 033 3333 / 112",
+    "address": {
+      "en": "Zaria Road, Kano, Kano State, Nigeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 tertiary maternity hospital, fistula center, and Waraka Sexual Assault Referral Centre in Kano."
+    }
+  },
+  {
+    "id": "nigeria-ubth-university-benin-teaching-hospital",
+    "regionDistrict": "Benin City, Edo State, Nigeria",
+    "type": "hospital",
+    "lat": 6.3912,
+    "lng": 5.6135,
+    "name": {
+      "en": "University of Benin Teaching Hospital (UBTH) & Vivian Sexual Assault Referral Centre (Benin City, Edo)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+234 52 600 418",
+    "emergencyHotline": "0800 033 3333 / 112",
+    "address": {
+      "en": "Ugbowo-Lagos Road, Benin City, Edo State, Nigeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 tertiary obstetrics and gynecology hospital and SARC survivor center in Benin City."
+    }
+  },
+  {
+    "id": "nigeria-uduth-usmanu-danfodiyo-sokoto",
+    "regionDistrict": "Sokoto, Sokoto State, Nigeria",
+    "type": "hospital",
+    "lat": 13.0485,
+    "lng": 5.2315,
+    "name": {
+      "en": "Usmanu Danfodiyo University Teaching Hospital (UDUTH) & Maryam Abacha Women & Children Hospital VVF Center (Sokoto)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+234 60 232 546",
+    "emergencyHotline": "0800 033 3333 / 112",
+    "address": {
+      "en": "Garba Nadama Road, Sokoto, Sokoto State, Nigeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 tertiary maternity hospital and iconic Maryam Abacha Vesicovaginal Fistula (VVF) Center in Sokoto."
+    }
+  },
+  {
+    "id": "ghana-tamale-teaching-hospital-northern",
+    "regionDistrict": "Tamale, Northern Region, Ghana",
+    "type": "hospital",
+    "lat": 9.3895,
+    "lng": -0.8235,
+    "name": {
+      "en": "Tamale Teaching Hospital (TTH) — Obstetrics, Gynecology & DOVVSU One-Stop Center (Tamale, Ghana)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+233 37 202 2454",
+    "emergencyHotline": "0800 111 222 / 112",
+    "address": {
+      "en": "Salaga Road, Tamale, Northern Region, Ghana"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Northern Ghana’s tertiary teaching maternity hospital and gender violence recovery unit."
+    }
+  },
+  {
+    "id": "ghana-cape-coast-teaching-hospital",
+    "regionDistrict": "Cape Coast, Central Region, Ghana",
+    "type": "hospital",
+    "lat": 5.1315,
+    "lng": -1.2795,
+    "name": {
+      "en": "Cape Coast Teaching Hospital (CCTH) — Obstetrics & Maternity Center (Cape Coast, Ghana)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+233 33 213 2440",
+    "emergencyHotline": "0800 111 222 / 112",
+    "address": {
+      "en": "Interbeton Road, Abura, Cape Coast, Central Region, Ghana"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 tertiary teaching maternity hospital in Cape Coast."
+    }
+  },
+  {
+    "id": "ghana-ho-teaching-hospital-volta",
+    "regionDistrict": "Ho, Volta Region, Ghana",
+    "type": "hospital",
+    "lat": 6.6015,
+    "lng": 0.4825,
+    "name": {
+      "en": "Ho Teaching Hospital — Maternal, Neonatal & Reproductive Health Center (Ho, Volta Region, Ghana)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+233 36 202 6442",
+    "emergencyHotline": "0800 111 222 / 112",
+    "address": {
+      "en": "Dutor Road, Trafalgar, Ho, Volta Region, Ghana"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 tertiary teaching maternity hospital serving Volta and Oti Regions."
+    }
+  },
+  {
+    "id": "senegal-touba-hopital-matlaboul-fawzaini-khadim",
+    "regionDistrict": "Touba, Diourbel Region, Senegal",
+    "type": "hospital",
+    "lat": 14.8585,
+    "lng": -15.8825,
+    "name": {
+      "en": "CHU Matlaboul Fawzaini & Hôpital Cheikh Ahmadoul Khadim — Maternité (Touba, Diourbel, Senegal)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+221 33 978 15 15",
+    "emergencyHotline": "116 / 1515",
+    "address": {
+      "en": "Touba Mosquée, Mbacké Department, Diourbel Region, Senegal"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 tertiary maternity and emergency referral hospitals in Touba."
+    }
+  },
+  {
+    "id": "cotedivoire-chu-bouake-maternite",
+    "regionDistrict": "Bouaké, Vallée du Bandama, Côte d’Ivoire",
+    "type": "hospital",
+    "lat": 7.6942,
+    "lng": -5.0315,
+    "name": {
+      "en": "Centre Hospitalier Universitaire (CHU) de Bouaké — Maternité & Clinique AIBEF (Bouaké, Côte d’Ivoire)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+225 27 31 63 21 90",
+    "emergencyHotline": "1308 / 110",
+    "address": {
+      "en": "Route de Béoumi, Bouaké, Vallée du Bandama, Côte d’Ivoire"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Central Côte d’Ivoire’s university maternity hospital and VBG care center in Bouaké."
+    }
+  },
+  {
+    "id": "sierra-leone-makeni-hospital-rainbo-center",
+    "regionDistrict": "Makeni, Bombali District (Northern Province), Sierra Leone",
+    "type": "safe-haven",
+    "lat": 8.8865,
+    "lng": -12.0442,
+    "name": {
+      "en": "Makeni Government Hospital Maternity & Rainbo Initiative Sexual Assault / GBV Center (Makeni)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+232 76 601 004",
+    "emergencyHotline": "116 / 999",
+    "address": {
+      "en": "Hospital Road, Makeni, Bombali District, Northern Sierra Leone"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 free clinical, psychosocial, and legal care at the Makeni Rainbo Centre and Maternity Hospital."
+    }
+  },
+  {
+    "id": "sierra-leone-kenema-hospital-rainbo-center",
+    "regionDistrict": "Kenema, Eastern Province, Sierra Leone",
+    "type": "safe-haven",
+    "lat": 7.8765,
+    "lng": -11.1905,
+    "name": {
+      "en": "Kenema Government Hospital Maternity & Rainbo Initiative Sexual Assault / GBV Center (Kenema)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+232 76 601 005",
+    "emergencyHotline": "116 / 999",
+    "address": {
+      "en": "Combema Road, Kenema, Eastern Province, Sierra Leone"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 free survivor support at the Kenema Rainbo Centre and Government Maternity Hospital."
+    }
+  },
+  {
+    "id": "liberia-ganta-united-methodist-hospital-nimba",
+    "regionDistrict": "Ganta, Nimba County, Liberia",
+    "type": "hospital",
+    "lat": 7.2345,
+    "lng": -8.9815,
+    "name": {
+      "en": "Ganta United Methodist Hospital — Maternity & One-Stop GBV Center (Ganta, Nimba County, Liberia)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+231 77 701 2345",
+    "emergencyHotline": "116 / 911",
+    "address": {
+      "en": "Main Street, Ganta, Nimba County, Northern Liberia"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 maternity referral hospital and One-Stop GBV survivor clinic in Nimba County."
+    }
+  },
+  {
+    "id": "togo-lome-chu-sylvanus-olympio-dogta-lafie",
+    "regionDistrict": "Lomé, Maritime Region, Togo",
+    "type": "hospital",
+    "lat": 6.1375,
+    "lng": 1.2185,
+    "name": {
+      "en": "CHU Sylvanus Olympio, CHU Campus & Hôpital Dogta-Lafiè — Maternité & Gynécologie (Lomé, Togo)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+228 22 21 25 01",
+    "emergencyHotline": "1011 / 8284",
+    "address": {
+      "en": "Rue de l’Hôpital, Tokoin, Lomé, Togo"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "National university maternity hospitals and GF2D/WILDAF VBG clinical referral in Lomé."
+    }
+  },
+  {
+    "id": "djibouti-ali-addeh-markazi-camps-unhcr-vbg",
+    "regionDistrict": "Ali Addeh (Ali Sabieh) & Markazi (Obock), Djibouti",
+    "type": "safe-haven",
+    "lat": 11.1525,
+    "lng": 42.8885,
+    "name": {
+      "en": "UNHCR & UNFD Cellule d’Écoute VBG — Camps d’Ali Addeh & Holl Holl (Ali Sabieh, Djibouti)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+253 21 35 16 77",
+    "emergencyHotline": "2020 / 17",
+    "address": {
+      "en": "Ali Addeh & Holl Holl Refugee Villages, Ali Sabieh Region, Djibouti"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 women’s protection center and maternity clinic in Ali Addeh and Holl Holl camps."
+    }
+  },
+  {
+    "id": "eritrea-asmara-orotta-national-maternity-hospital",
+    "regionDistrict": "Asmara, Maekel Region, Eritrea",
+    "type": "hospital",
+    "lat": 15.3385,
+    "lng": 38.9285,
+    "name": {
+      "en": "Orotta National Referral & Maternity Teaching Hospital (Asmara, Eritrea)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+291 1 127 766",
+    "emergencyHotline": "114 / 112",
+    "address": {
+      "en": "Orotta Medical Complex, Asmara, Eritrea"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Eritrea’s national tertiary maternity, fistula, and gynecological teaching hospital in Asmara."
+    }
+  },
+  {
+    "id": "morocco-oujda-chu-mohammed-vi-unhcr",
+    "regionDistrict": "Oujda, Oriental Region, Morocco",
+    "type": "hospital",
+    "lat": 34.6815,
+    "lng": -1.9085,
+    "name": {
+      "en": "CHU Mohammed VI d’Oujda — Hôpital Mère-Enfant & Cellule de Prise en Charge des Femmes (Oujda)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+212 536 53 91 00",
+    "emergencyHotline": "8350 / 19",
+    "address": {
+      "en": "BP 4806 Oujda Université, Oujda, Oriental, Morocco"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Eastern Morocco’s university Mother-Child hospital and Tamkine/UNHCR women’s protection unit."
+    }
+  },
+  {
+    "id": "morocco-marrakech-chu-mohammed-vi-mere-enfant",
+    "regionDistrict": "Marrakech, Marrakech-Safi, Morocco",
+    "type": "hospital",
+    "lat": 31.6625,
+    "lng": -7.9925,
+    "name": {
+      "en": "CHU Mohammed VI de Marrakech — Hôpital Mère-Enfant (Marrakech, Morocco)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+212 524 30 07 00",
+    "emergencyHotline": "8350 / 19",
+    "address": {
+      "en": "Avenue Ibn Sina, Amerchich, Marrakech, Morocco"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 university Mother-Child and maternity referral hospital in Marrakech."
+    }
+  },
+  {
+    "id": "algeria-oran-chu-benzerdjeb-ehs-nouar-fadela",
+    "regionDistrict": "Oran, Northwestern Algeria",
+    "type": "hospital",
+    "lat": 35.6915,
+    "lng": -0.6415,
+    "name": {
+      "en": "CHU d’Oran (Dr. Benzerdjeb) & EHS Mère-Enfant Nouar Fadéla — Maternité (Oran, Algeria)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+213 41 41 29 02",
+    "emergencyHotline": "1026 / 14",
+    "address": {
+      "en": "Boulevard Dr Benzerdjeb, Plateau, Oran, Algeria"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Western Algeria’s largest university maternity hospital and specialized Mother-Child hospital in Oran."
+    }
+  },
+  {
+    "id": "tunisia-sousse-chu-farhat-hached-maternite",
+    "regionDistrict": "Sousse, Sousse Governorate, Tunisia",
+    "type": "hospital",
+    "lat": 35.8315,
+    "lng": 10.6085,
+    "name": {
+      "en": "CHU Farhat Hached & CHU Sahloul de Sousse — Centre de Maternité et de Néonatologie (Sousse, Tunisia)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+216 73 219 500",
+    "emergencyHotline": "1899 / 190",
+    "address": {
+      "en": "Rue Ibn El Jazzar, Sousse, Tunisia"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 university maternity and neonatology center in Sousse."
+    }
+  },
+  {
+    "id": "tunisia-sfax-chu-hedi-chaker-maternite",
+    "regionDistrict": "Sfax, Sfax Governorate, Tunisia",
+    "type": "hospital",
+    "lat": 34.7405,
+    "lng": 10.7495,
+    "name": {
+      "en": "CHU Hédi Chaker & CHU Habib Bourguiba de Sfax — Service de Gynécologie-Obstétrique (Sfax, Tunisia)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+216 74 242 613",
+    "emergencyHotline": "1899 / 190",
+    "address": {
+      "en": "Route El Aïn Km 0.5, Sfax, Tunisia"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 university maternity center and ATFD/UNHCR protection referral in Sfax."
+    }
+  },
+  {
+    "id": "tunisia-zarzis-medenine-unhcr-protection-hospital",
+    "regionDistrict": "Zarzis & Médenine, Southern Tunisia",
+    "type": "safe-haven",
+    "lat": 33.5042,
+    "lng": 11.1125,
+    "name": {
+      "en": "UNHCR Zarzis Sub-Office, Beity / ATFD Women’s Safe Space & Hôpital Régional de Zarzis (Southern Tunisia)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+216 75 680 155",
+    "emergencyHotline": "1899 / 190",
+    "address": {
+      "en": "Zarzis, Médenine Governorate, Southern Tunisia"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 refugee and migrant women’s protection hub and maternity hospital in Zarzis."
+    }
+  },
+  {
+    "id": "libya-benghazi-medical-center-al-joumhouria-maternity",
+    "regionDistrict": "Benghazi, Cyrenaica, Libya",
+    "type": "hospital",
+    "lat": 32.0945,
+    "lng": 20.1185,
+    "name": {
+      "en": "Benghazi Medical Center (BMC) & Al-Joumhouria Maternity Hospital + UNHCR Tawasul 1504 (Benghazi)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+218 61 222 9123",
+    "emergencyHotline": "1504 / 1417",
+    "address": {
+      "en": "Hawari Road & Berka, Benghazi, Libya"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Eastern Libya’s primary tertiary maternity hospitals and UNHCR/UNFPA women’s safe space in Benghazi."
+    }
+  },
+  {
+    "id": "libya-misrata-medical-center-maternity",
+    "regionDistrict": "Misrata, Northwestern Libya",
+    "type": "hospital",
+    "lat": 32.3685,
+    "lng": 15.0925,
+    "name": {
+      "en": "Misrata Medical Center — Obstetrics, Gynecology & Maternity Hospital (Misrata, Libya)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+218 51 261 2220",
+    "emergencyHotline": "1417 / 1515",
+    "address": {
+      "en": "Tripoli Road, Misrata, Libya"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 tertiary maternity and women’s surgical hospital in Misrata."
+    }
+  },
+  {
+    "id": "zambia-ndola-teaching-hospital-copperbelt",
+    "regionDistrict": "Ndola, Copperbelt Province, Zambia",
+    "type": "hospital",
+    "lat": -12.9715,
+    "lng": 28.6365,
+    "name": {
+      "en": "Ndola Teaching Hospital — Maternity & Coordinated GBV One-Stop Center (Ndola, Copperbelt, Zambia)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+260 212 611 585",
+    "emergencyHotline": "933 / 116",
+    "address": {
+      "en": "Broadway / Postal Agency, Ndola, Copperbelt Province, Zambia"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 tertiary maternity hospital and GBV One-Stop Center in Ndola."
+    }
+  },
+  {
+    "id": "zambia-kitwe-teaching-hospital-copperbelt",
+    "regionDistrict": "Kitwe, Copperbelt Province, Zambia",
+    "type": "hospital",
+    "lat": -12.8055,
+    "lng": 28.2125,
+    "name": {
+      "en": "Kitwe Teaching Hospital — Obstetrics, Gynecology & GBV One-Stop Center (Kitwe, Copperbelt, Zambia)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+260 212 228 011",
+    "emergencyHotline": "933 / 116",
+    "address": {
+      "en": "Kuomboka Drive, Parklands, Kitwe, Copperbelt Province, Zambia"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 tertiary maternity hospital and GBV One-Stop Center in Kitwe."
+    }
+  },
+  {
+    "id": "malawi-lilongwe-kamuzu-central-bwaila-maternity",
+    "regionDistrict": "Lilongwe, Central Region, Malawi",
+    "type": "hospital",
+    "lat": -13.9785,
+    "lng": 33.7795,
+    "name": {
+      "en": "Kamuzu Central Hospital & Bwaila Maternity Hospital — One-Stop GBV Center (Lilongwe, Malawi)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+265 1 753 555",
+    "emergencyHotline": "5600 / 997",
+    "address": {
+      "en": "Mzimba Street & Bwaila, Lilongwe, Malawi"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Lilongwe’s high-volume public maternity hospital (Bwaila) and Tithandizane 5600 One-Stop GBV Center."
+    }
+  },
+  {
+    "id": "botswana-francistown-nyangabgwe-referral-hospital",
+    "regionDistrict": "Francistown, North-East District, Botswana",
+    "type": "hospital",
+    "lat": -21.1715,
+    "lng": 27.5125,
+    "name": {
+      "en": "Nyangabgwe Referral Hospital — Maternity & Women’s Shelter Referral (Francistown, Botswana)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+267 241 1000",
+    "emergencyHotline": "0800 600 144 / 997",
+    "address": {
+      "en": "Hospital Way, Francistown, Botswana"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Northern Botswana’s tertiary referral maternity hospital in Francistown."
+    }
+  },
+  {
+    "id": "eswatini-mbabane-govt-rfm-manzini-maternity",
+    "regionDistrict": "Mbabane & Manzini, Eswatini",
+    "type": "hospital",
+    "lat": -26.3255,
+    "lng": 31.1445,
+    "name": {
+      "en": "Mbabane Government Hospital & Raleigh Fitkin Memorial (RFM) Maternity Hospital + SWAGAA (Eswatini)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+268 2404 2111",
+    "emergencyHotline": "951 / 977",
+    "address": {
+      "en": "Hospital Hill, Mbabane & Manzini, Kingdom of Eswatini"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "National referral maternity hospitals and Swaziland Action Group Against Abuse (SWAGAA 951) in Mbabane & Manzini."
+    }
+  },
+  {
+    "id": "lesotho-maseru-queen-mamohato-memorial-hospital",
+    "regionDistrict": "Maseru, Lesotho",
+    "type": "hospital",
+    "lat": -29.3385,
+    "lng": 27.5225,
+    "name": {
+      "en": "Queen ’Mamohato Memorial Hospital (Tšepong) & Lapeng One-Stop GBV Safe Shelter (Maseru, Lesotho)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+266 2222 0000",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Botsabelo, Main South 1 Road, Maseru, Lesotho"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Lesotho’s national referral maternity hospital and Lapeng One-Stop GBV Care Center in Maseru."
+    }
+  },
+  {
+    "id": "gabon-moanda-hopital-comilog-vbg-haut-ogooue",
+    "regionDistrict": "Moanda, Haut-Ogooué Province, Gabon",
+    "type": "hospital",
+    "lat": -1.5645,
+    "lng": 13.2015,
+    "name": {
+      "en": "Centre Médical Marcel Abéké (COMILOG) & Centre Médical de Moanda — Maternité (Haut-Ogooué, Gabon)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+241 11 66 10 10",
+    "emergencyHotline": "1404 / 1300",
+    "address": {
+      "en": "Moanda, Lemboumbi-Leyou, Haut-Ogooué, Gabon"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 maternity and obstetric hospital serving Moanda in Haut-Ogooué."
+    }
+  },
+  {
+    "id": "gabon-lebamba-hopital-evangelique-bongolo",
+    "regionDistrict": "Lébamba (Bongolo), Ngounié Province, Gabon",
+    "type": "hospital",
+    "lat": -2.2125,
+    "lng": 11.4645,
+    "name": {
+      "en": "Hôpital Évangélique de Bongolo — Maternité & Chirurgie Gynécologique (Lébamba, Ngounié, Gabon)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+241 07 28 19 40",
+    "emergencyHotline": "1404 / 1300",
+    "address": {
+      "en": "Bongolo, Lébamba, Louetsi-Wano, Ngounié Province, Gabon"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Major Southern Gabon referral teaching hospital for obstetrics, C-sections, and fistula repair in Bongolo."
+    }
+  },
+  {
+    "id": "gabon-makokou-chr-omar-bongo-ogooue-ivindo",
+    "regionDistrict": "Makokou, Ogooué-Ivindo Province, Gabon",
+    "type": "hospital",
+    "lat": 0.5685,
+    "lng": 12.8585,
+    "name": {
+      "en": "Centre Hospitalier Régional Omar Bongo Ondimba de Makokou — Maternité (Ogooué-Ivindo, Gabon)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+241 11 90 30 12",
+    "emergencyHotline": "1404 / 1300",
+    "address": {
+      "en": "Makokou, Ivindo Department, Ogooué-Ivindo Province, Northeastern Gabon"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional maternity referral hospital in Makokou, Northeastern Gabon."
+    }
+  },
+  {
+    "id": "chad-farchana-bredjing-treguine-camps-unhcr-gbv",
+    "regionDistrict": "Farchana, Bredjing & Treguine Refugee Camps (Ouaddaï), Chad",
+    "type": "safe-haven",
+    "lat": 13.5285,
+    "lng": 21.5615,
+    "name": {
+      "en": "UNHCR, HIAS & APLFT Women’s Safe Spaces — Farchana, Bredjing & Treguine Refugee Camps (Ouaddaï, Chad)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+235 66 20 15 15",
+    "emergencyHotline": "1300 / 22 51 40 16",
+    "address": {
+      "en": "Farchana & Bredjing Refugee Camps (Adré / Hadjer Hadid), Ouaddaï, Eastern Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 refugee women’s safe spaces and IRC/MSF maternity clinics in Farchana, Bredjing, and Treguine camps."
+    }
+  },
+  {
+    "id": "chad-guereda-kounoungou-mile-camps-unhcr-gbv",
+    "regionDistrict": "Guéréda, Kounoungou & Milé Refugee Camps (Wadi Fira), Chad",
+    "type": "safe-haven",
+    "lat": 14.5085,
+    "lng": 22.0865,
+    "name": {
+      "en": "UNHCR, HIAS & CRT Women’s Safe Spaces — Guéréda, Kounoungou & Milé Camps (Wadi Fira, Chad)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+235 66 20 15 15",
+    "emergencyHotline": "1300 / 112",
+    "address": {
+      "en": "Guéréda, Dar Tama Department, Wadi Fira Province, Eastern Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
+        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 women’s protection centers and Guéréda District Maternity Hospital."
+    }
+  },
+  {
+    "id": "chad-koumra-hopital-provincial-mandoul",
+    "regionDistrict": "Koumra, Mandoul Province, Chad",
+    "type": "hospital",
+    "lat": 8.9125,
+    "lng": 17.5515,
+    "name": {
+      "en": "Hôpital Provincial de Koumra — Maternité & Cellule VBG (Mandoul, Southern Chad)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+235 22 68 10 22",
+    "emergencyHotline": "1300 / 112",
+    "address": {
+      "en": "Koumra, Mandoul Oriental, Mandoul Province, Southern Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 provincial maternity referral hospital in Koumra."
+    }
+  },
+  {
+    "id": "chad-lai-hopital-provincial-tandjile",
+    "regionDistrict": "Laï, Tandjilé Province, Chad",
+    "type": "hospital",
+    "lat": 9.3975,
+    "lng": 16.3015,
+    "name": {
+      "en": "Hôpital Provincial de Laï — Maternité & Santé Mère-Enfant (Tandjilé, Chad)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+235 22 69 40 15",
+    "emergencyHotline": "1300 / 112",
+    "address": {
+      "en": "Laï, Tandjilé Est, Tandjilé Province, Southwestern Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 provincial maternity referral hospital in Laï."
+    }
+  },
+  {
+    "id": "chad-doba-hopital-provincial-logone-oriental",
+    "regionDistrict": "Doba, Logone Oriental Province, Chad",
+    "type": "hospital",
+    "lat": 8.6515,
+    "lng": 16.8515,
+    "name": {
+      "en": "Hôpital Provincial de Doba — Maternité & Gynécologie (Logone Oriental, Southern Chad)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+235 22 69 11 08",
+    "emergencyHotline": "1300 / 112",
+    "address": {
+      "en": "Doba, La Pendé Department, Logone Oriental, Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 provincial maternity referral hospital in Doba."
+    }
+  },
+  {
+    "id": "chad-pala-hopital-provincial-mayo-kebbi-ouest",
+    "regionDistrict": "Pala, Mayo-Kebbi Ouest Province, Chad",
+    "type": "hospital",
+    "lat": 9.3645,
+    "lng": 14.9085,
+    "name": {
+      "en": "Hôpital Provincial de Pala — Maternité & Urgences Obstétricales (Mayo-Kebbi Ouest, Chad)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+235 22 69 70 14",
+    "emergencyHotline": "1300 / 112",
+    "address": {
+      "en": "Pala, Mayo-Dallah, Mayo-Kebbi Ouest Province, Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 provincial maternity hospital in Pala."
+    }
+  },
+  {
+    "id": "chad-am-timan-hopital-provincial-salamat",
+    "regionDistrict": "Am Timan, Salamat Province, Chad",
+    "type": "hospital",
+    "lat": 11.0385,
+    "lng": 20.2835,
+    "name": {
+      "en": "Hôpital Provincial d’Am Timan (MSF Supported) — Maternité (Salamat, Southeastern Chad)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+235 22 52 18 40",
+    "emergencyHotline": "1300 / 112",
+    "address": {
+      "en": "Am Timan, Barh Azoum, Salamat Province, Southeastern Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 provincial maternity and neonatal referral hospital in Am Timan."
+    }
+  },
+  {
+    "id": "chad-ati-hopital-provincial-batha",
+    "regionDistrict": "Ati, Batha Province, Chad",
+    "type": "hospital",
+    "lat": 13.2155,
+    "lng": 18.3385,
+    "name": {
+      "en": "Hôpital Provincial d’Ati — Maternité & Santé Mère-Enfant (Batha, Central Chad)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+235 22 52 14 20",
+    "emergencyHotline": "1300 / 112",
+    "address": {
+      "en": "Ati, Batha Ouest, Batha Province, Central Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 provincial maternity referral hospital in Central Chad."
+    }
+  },
+  {
+    "id": "chad-biltine-hopital-provincial-wadi-fira",
+    "regionDistrict": "Biltine, Wadi Fira Province, Chad",
+    "type": "hospital",
+    "lat": 14.5325,
+    "lng": 20.9245,
+    "name": {
+      "en": "Hôpital Provincial de Biltine — Maternité & Prise en Charge VBG (Wadi Fira, Eastern Chad)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+235 22 66 20 18",
+    "emergencyHotline": "1300 / 112",
+    "address": {
+      "en": "Biltine, Wadi Fira Province, Eastern Chad"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 provincial maternity referral hospital in Biltine."
+    }
+  },
+  {
+    "id": "guinea-bissau-gabu-hospital-regional-east",
+    "regionDistrict": "Gabú, Gabú Region, Guinea-Bissau",
+    "type": "hospital",
+    "lat": 12.2815,
+    "lng": -14.2235,
+    "name": {
+      "en": "Hospital Regional de Gabú (Hospital Walt Disney) — Maternidade & Centro de Apoio à Mulher (Gabú)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+245 95 572 14 20",
+    "emergencyHotline": "121 / 119",
+    "address": {
+      "en": "Gabú, Região de Gabú, Leste da Guiné-Bissau"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Eastern Guinea-Bissau’s regional maternity hospital and women’s rights center in Gabú."
+    }
+  },
+  {
+    "id": "guinea-bissau-mansoa-hospital-regional-oio",
+    "regionDistrict": "Mansôa, Oio Region, Guinea-Bissau",
+    "type": "hospital",
+    "lat": 12.0735,
+    "lng": -15.3185,
+    "name": {
+      "en": "Hospital Regional de Mansôa — Maternidade & Saúde Materno-Infantil (Oio, Guinea-Bissau)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+245 95 530 11 45",
+    "emergencyHotline": "121 / 119",
+    "address": {
+      "en": "Mansôa, Região de Oio, Guiné-Bissau"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional maternity referral hospital in Mansôa (Oio Region)."
+    }
+  },
+  {
+    "id": "guinea-bissau-bubaque-bijagos-island-hospital",
+    "regionDistrict": "Bubaque, Bijagós Archipelago (Bolama Region), Guinea-Bissau",
+    "type": "hospital",
+    "lat": 11.2985,
+    "lng": -15.8335,
+    "name": {
+      "en": "Hospital Marcelino Banca de Bubaque — Maternidade das Ilhas Bijagós (Bubaque, Guinea-Bissau)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+245 95 540 22 10",
+    "emergencyHotline": "121 / 119",
+    "address": {
+      "en": "Ilha de Bubaque, Arquipélago dos Bijagós, Região de Bolama, Guiné-Bissau"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 island maternity hospital serving the Bijagós Archipelago in Bubaque."
+    }
+  },
+  {
+    "id": "madagascar-antalaha-hopital-sava-northeast",
+    "regionDistrict": "Antalaha, SAVA Region, Madagascar",
+    "type": "hospital",
+    "lat": -14.8995,
+    "lng": 50.2785,
+    "name": {
+      "en": "Hôpital Be d’Antalaha (CHRD Antalaha) — Maternité & CECJ SAVA (Antalaha, Madagascar)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+261 20 88 811 15",
+    "emergencyHotline": "813 / 147",
+    "address": {
+      "en": "Antalaha, SAVA Region, Northeast Coast, Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 district referral maternity hospital and CECJ women’s protection center in Antalaha."
+    }
+  },
+  {
+    "id": "madagascar-moramanga-hopital-alaotra-mangoro",
+    "regionDistrict": "Moramanga, Alaotra-Mangoro Region, Madagascar",
+    "type": "hospital",
+    "lat": -18.9485,
+    "lng": 48.2295,
+    "name": {
+      "en": "Hôpital de District (CHRD) de Moramanga — Maternité & CECJ Moramanga (Alaotra-Mangoro, Madagascar)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+261 20 56 821 04",
+    "emergencyHotline": "813 / 147",
+    "address": {
+      "en": "Moramanga, Alaotra-Mangoro Region, Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 maternity hospital and CECJ women’s legal/crisis clinic in Moramanga."
+    }
+  },
+  {
+    "id": "madagascar-sainte-marie-nosy-boraha-hopital",
+    "regionDistrict": "Île Sainte-Marie (Nosy Boraha), Analanjirofo Region, Madagascar",
+    "type": "hospital",
+    "lat": -16.9925,
+    "lng": 49.8525,
+    "name": {
+      "en": "Hôpital d’Ambodifotatra — Maternité de l’Île Sainte-Marie (Nosy Boraha, Madagascar)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+261 20 57 401 12",
+    "emergencyHotline": "813 / 147",
+    "address": {
+      "en": "Ambodifotatra, Île Sainte-Marie (Nosy Boraha), Analanjirofo, Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 island maternity hospital on Île Sainte-Marie (Nosy Boraha)."
+    }
+  },
+  {
+    "id": "madagascar-farafangana-chrr-atsimo-atsinanana",
+    "regionDistrict": "Farafangana, Atsimo-Atsinanana Region, Madagascar",
+    "type": "hospital",
+    "lat": -22.8215,
+    "lng": 47.8285,
+    "name": {
+      "en": "Centre Hospitalier de Référence Régionale (CHRR) de Farafangana — Maternité & CECJ (Southeast Madagascar)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+261 20 73 910 18",
+    "emergencyHotline": "813 / 147",
+    "address": {
+      "en": "Farafangana, Atsimo-Atsinanana Region, Southeast Coast, Madagascar"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional referral maternity hospital and UNFPA/CECJ women’s protection center in Farafangana."
+    }
+  },
+  {
+    "id": "comoros-mitsamiouli-pole-sanitaire-north-ngazidja",
+    "regionDistrict": "Mitsamiouli, Northern Grande Comore (Ngazidja), Comoros",
+    "type": "hospital",
+    "lat": -11.3885,
+    "lng": 43.2895,
+    "name": {
+      "en": "Pôle Sanitaire de Mitsamiouli — Maternité & Urgences du Nord (Grande Comore, Comoros)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+269 773 80 12",
+    "emergencyHotline": "1717 / +269 332 37 87",
+    "address": {
+      "en": "Mitsamiouli, Nord de Ngazidja (Grande Comore), Union of the Comoros"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 regional maternity hospital serving northern Grande Comore."
+    }
+  },
+  {
+    "id": "comoros-domoni-hopital-anjouan",
+    "regionDistrict": "Domoni, Anjouan (Ndzuwani) Island, Comoros",
+    "type": "hospital",
+    "lat": -12.2565,
+    "lng": 44.5315,
+    "name": {
+      "en": "Hôpital de Domoni & Maternité de Bambao Mtsanga (Anjouan Island, Comoros)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+269 771 40 25",
+    "emergencyHotline": "1717 / +269 332 37 87",
+    "address": {
+      "en": "Domoni, Île d’Anjouan (Ndzuwani), Union of the Comoros"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 maternity hospital serving eastern Anjouan in Domoni."
+    }
+  },
+  {
+    "id": "mauritius-ssrn-hospital-pamplemousses-north",
+    "regionDistrict": "Pamplemousses, Northern Mauritius",
+    "type": "hospital",
+    "lat": -20.1045,
+    "lng": 57.5715,
+    "name": {
+      "en": "Sir Seewoosagur Ramgoolam National (SSRN) Hospital — Maternity & OB/GYN (Pamplemousses, Mauritius)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+230 209 3500",
+    "emergencyHotline": "139 / 114",
+    "address": {
+      "en": "Royal Road, Pamplemousses, Mauritius"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Northern Mauritius’s national tertiary referral and maternity hospital in Pamplemousses."
+    }
+  },
+  {
+    "id": "mauritius-wellkin-hospital-moka-central",
+    "regionDistrict": "Moka, Central Plateau, Mauritius",
+    "type": "hospital",
+    "lat": -20.2285,
+    "lng": 57.5015,
+    "name": {
+      "en": "Wellkin Hospital (C-Care Moka) — Maternity, Neonatal ICU & Women’s Centre (Moka, Mauritius)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+230 605 1000",
+    "emergencyHotline": "139 / 132",
+    "address": {
+      "en": "Royal Road, Moka, Mauritius"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "24/7 specialized maternity, gynecology, and neonatal intensive care hospital in Moka."
+    }
+  },
+  {
+    "id": "mauritius-bruno-cheong-hospital-flacq-east",
+    "regionDistrict": "Centre de Flacq, Flacq District (East), Mauritius",
+    "type": "hospital",
+    "lat": -20.1915,
+    "lng": 57.7165,
+    "name": {
+      "en": "Dr. Bruno Cheong Hospital (Flacq Hospital) — Maternity & Family Support Bureau (Centre de Flacq, Mauritius)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+230 402 0800",
+    "emergencyHotline": "139 / 114",
+    "address": {
+      "en": "Hospital Road, Centre de Flacq, Eastern Mauritius"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
+        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
+        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+      ]
+    },
+    "directionsText": {
+      "en": "Eastern Mauritius’s regional maternity hospital and Flacq Family Support Bureau."
     }
   }
 ];

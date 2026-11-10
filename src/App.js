@@ -10,53 +10,53 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=168';
-import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=168';
-import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=168';
-import { fetchLiveCentersNearPoint } from './data/liveOverpassDiscovery.js?v=168';
-import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=168';
-import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=168';
+} from './data/translations.js?v=169';
+import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=169';
+import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=169';
+import { fetchLiveCentersNearPoint, isInvalidFacilityName } from './data/liveOverpassDiscovery.js?v=169';
+import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=169';
+import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=169';
 
 // Import individual Page Components from src/pages/
-import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=168';
-import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=168';
-import NewUserPage from './pages/NewUserPage.js?v=168';
-import SignInPage from './pages/SignInPage.js?v=168';
-import AnonPage1 from './pages/AnonPage1.js?v=168';
-import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=168';
-import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=168';
-import MapLegend1 from './pages/MapLegend1.js?v=168';
-import DatabasePage1 from './pages/DatabasePage1.js?v=168';
-import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=168';
-import MyBodyHomePage from './pages/MyBodyHomePage.js?v=168';
-import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=168';
-import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=168';
-import PregnancyHomePage from './pages/PregnancyHomePage.js?v=168';
-import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=168';
-import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=168';
-import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=168';
-import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=168';
-import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=168';
-import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=168';
-import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=168';
-import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=168';
-import PostpartumHomePage from './pages/PostpartumHomePage.js?v=168';
-import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=168';
-import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=168';
-import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=168';
-import MenopauseHomePage from './pages/MenopauseHomePage.js?v=168';
-import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=168';
-import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=168';
-import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=168';
-import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=168';
-import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=168';
-import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=168';
-import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=168';
-import ForMeHomePage from './pages/ForMeHomePage.js?v=168';
-import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=168';
-import WorldviewHomePage from './pages/WorldviewHomePage.js?v=168';
-import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=168';
-import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=168';
+import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=169';
+import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=169';
+import NewUserPage from './pages/NewUserPage.js?v=169';
+import SignInPage from './pages/SignInPage.js?v=169';
+import AnonPage1 from './pages/AnonPage1.js?v=169';
+import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=169';
+import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=169';
+import MapLegend1 from './pages/MapLegend1.js?v=169';
+import DatabasePage1 from './pages/DatabasePage1.js?v=169';
+import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=169';
+import MyBodyHomePage from './pages/MyBodyHomePage.js?v=169';
+import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=169';
+import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=169';
+import PregnancyHomePage from './pages/PregnancyHomePage.js?v=169';
+import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=169';
+import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=169';
+import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=169';
+import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=169';
+import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=169';
+import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=169';
+import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=169';
+import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=169';
+import PostpartumHomePage from './pages/PostpartumHomePage.js?v=169';
+import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=169';
+import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=169';
+import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=169';
+import MenopauseHomePage from './pages/MenopauseHomePage.js?v=169';
+import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=169';
+import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=169';
+import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=169';
+import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=169';
+import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=169';
+import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=169';
+import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=169';
+import ForMeHomePage from './pages/ForMeHomePage.js?v=169';
+import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=169';
+import WorldviewHomePage from './pages/WorldviewHomePage.js?v=169';
+import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=169';
+import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=169';
 
 const h = React.createElement;
 
@@ -388,7 +388,23 @@ export default function App() {
     }
     return deduped;
   })();
-  const clinics = [...baseClinics, ...liveDiscoveredClinics];
+  const clinics = (() => {
+    const validLive = liveDiscoveredClinics.filter((lc) => {
+      if (!lc || !lc.id) return false;
+      const titleEn = lc.name?.en || (typeof lc.name === 'string' ? lc.name : '');
+      if (isInvalidFacilityName(titleEn)) return false;
+      const isDup = baseClinics.some(
+        (bc) =>
+          Math.abs((bc.lat || 0) - (lc.lat || 0)) < 0.0035 &&
+          Math.abs((bc.lng || 0) - (lc.lng || 0)) < 0.0035
+      );
+      return !isDup;
+    });
+    return [...baseClinics, ...validLive].filter((c) => {
+      const titleEn = c?.name?.en || (typeof c?.name === 'string' ? c.name : '');
+      return !isInvalidFacilityName(titleEn);
+    });
+  })();
 
   // User's active coordinates for Emergency Contacts distance sorting
   const emergencyUserLoc =
@@ -1259,11 +1275,10 @@ export default function App() {
     }
 
     // ========================================================================
-    // Dynamic Nearest-Neighbor Non-Overlapping Pin Sizing & Layout
-    // Every pin is sized as large as possible without overlapping its neighbors
-    // at the current zoom level (e.g., Mongolia stays larger at world zoom while
-    // dense clusters like Delhi shrink so zero pins overlap, and dynamically
-    // resize as you zoom in and out).
+    // Dynamic Sunflower Unbundling & Spatial-Grid Non-Overlapping Pin Layout
+    // Every pin in a multi-facility city or district is immediately fanned out
+    // at all zoom levels (even when zoomed out "higher up") so pins are never
+    // bundled or hidden on top of each other waiting for zoom-in to unfurl.
     // ========================================================================
     const currentZoom = map.getZoom();
     const n = filteredClinics.length;
@@ -1272,120 +1287,180 @@ export default function App() {
       return { x: p.x, y: p.y, origX: p.x, origY: p.y };
     });
 
-    const MAX_PIN_PX = currentZoom <= 3 ? 16.8 : currentZoom <= 5 ? 20.2 : 23.5;
-    const MIN_PIN_PX = currentZoom <= 3 ? 4.0 : currentZoom <= 5 ? 5.2 : 6.8;
-    const sameCityDegThreshold = currentZoom < 8 ? 0.22 : 0.002;
+    const MAX_PIN_PX = currentZoom <= 3 ? 15.5 : currentZoom <= 5 ? 19.0 : currentZoom <= 7 ? 21.5 : 24.0;
+    const MIN_PIN_PX = currentZoom <= 3 ? 6.2 : currentZoom <= 5 ? 7.4 : currentZoom <= 7 ? 8.6 : 10.0;
+    const basePinPx = currentZoom <= 3 ? 8.5 : currentZoom <= 5 ? 11.2 : currentZoom <= 7 ? 13.8 : 16.5;
 
-    // 1. Measure pixel distance to nearest regional neighbor (outside same-city twin pair)
-    const sizes = new Array(n).fill(MAX_PIN_PX);
-    const twinPartner = new Array(n).fill(-1);
-
+    // 1. Group pins that share the same local city/town area (tight 0.08 deg geographic grid)
+    //    and immediately unbundle them in a golden-angle sunflower spiral in pixel space
+    const cityGroups = new Map();
     for (let i = 0; i < n; i++) {
-      let nearestRegionalPx = Infinity;
-      let nearestTwinIdx = -1;
-      let nearestTwinGeoDist = Infinity;
-
       const ci = filteredClinics[i];
-      for (let j = 0; j < n; j++) {
-        if (i === j) continue;
-        const cj = filteredClinics[j];
-        const dLat = Math.abs(ci.lat - cj.lat);
-        const dLng = Math.abs(ci.lng - cj.lng);
-        const geoDist = Math.hypot(dLat, dLng);
+      const gx = Math.round(ci.lat / 0.08);
+      const gy = Math.round(ci.lng / 0.08);
+      const key = `${gx}_${gy}`;
+      let grp = cityGroups.get(key);
+      if (!grp) {
+        grp = [];
+        cityGroups.set(key, grp);
+      }
+      grp.push(i);
+    }
 
-        const dx = pts[i].origX - pts[j].origX;
-        const dy = pts[i].origY - pts[j].origY;
-        const distPx = Math.hypot(dx, dy);
+    const GOLDEN_ANGLE = 2.399963229728653; // pi * (3 - sqrt(5))
+    const spiralStepPx = Math.max(MIN_PIN_PX * 0.92, basePinPx * 0.76);
 
-        if (geoDist < sameCityDegThreshold) {
-          if (geoDist < nearestTwinGeoDist) {
-            nearestTwinGeoDist = geoDist;
-            nearestTwinIdx = j;
-          }
-        } else if (distPx < nearestRegionalPx) {
-          nearestRegionalPx = distPx;
+    for (const grp of cityGroups.values()) {
+      const k = grp.length;
+      if (k <= 1) continue;
+      let cx = 0;
+      let cy = 0;
+      for (let m = 0; m < k; m++) {
+        cx += pts[grp[m]].origX;
+        cy += pts[grp[m]].origY;
+      }
+      cx /= k;
+      cy /= k;
+
+      // Check how far apart the pins already are in pixel space at this zoom
+      let minInternalPx = Infinity;
+      for (let a = 0; a < k; a++) {
+        for (let b = a + 1; b < k; b++) {
+          const d = Math.hypot(
+            pts[grp[a]].origX - pts[grp[b]].origX,
+            pts[grp[a]].origY - pts[grp[b]].origY
+          );
+          if (d < minInternalPx) minInternalPx = d;
         }
       }
 
-      twinPartner[i] = nearestTwinIdx;
-      if (!isFinite(nearestRegionalPx)) nearestRegionalPx = MAX_PIN_PX * 3;
-
-      // If part of a same-city Hospital + Safe Haven pair, two pins share the regional space
-      const rawAllowed =
-        nearestTwinIdx !== -1 ? nearestRegionalPx * 0.45 : nearestRegionalPx * 0.84;
-      sizes[i] = Math.max(MIN_PIN_PX, Math.min(MAX_PIN_PX, rawAllowed));
-    }
-
-    // 2. Place same-city twin pairs (Hospital + Safe Haven) cleanly side-by-side in pixel space
-    const pairedVisited = new Set();
-    for (let i = 0; i < n; i++) {
-      const j = twinPartner[i];
-      if (j !== -1 && !pairedVisited.has(i) && !pairedVisited.has(j) && twinPartner[j] === i) {
-        pairedVisited.add(i);
-        pairedVisited.add(j);
-        const pairSize = Math.min(sizes[i], sizes[j]);
-        sizes[i] = pairSize;
-        sizes[j] = pairSize;
-        const midX = (pts[i].origX + pts[j].origX) / 2;
-        const midY = (pts[i].origY + pts[j].origY) / 2;
-        const sep = pairSize / 2 + 0.7;
-        pts[i].x = midX - sep;
-        pts[i].y = midY;
-        pts[j].x = midX + sep;
-        pts[j].y = midY;
+      // If pins are closer than basePinPx * 1.15, fan them out into an unbundled sunflower cluster
+      if (minInternalPx < basePinPx * 1.15) {
+        if (k === 2) {
+          const i0 = grp[0];
+          const i1 = grp[1];
+          const dx = pts[i1].origX - pts[i0].origX;
+          const dy = pts[i1].origY - pts[i0].origY;
+          const d = Math.hypot(dx, dy);
+          const angle = d > 0.2 ? Math.atan2(dy, dx) : 0.35;
+          const sep = spiralStepPx * 0.62;
+          pts[i0].x = cx - Math.cos(angle) * sep;
+          pts[i0].y = cy - Math.sin(angle) * sep;
+          pts[i1].x = cx + Math.cos(angle) * sep;
+          pts[i1].y = cy + Math.sin(angle) * sep;
+        } else {
+          // Sort deterministically by latitude/longitude so unbundled positions stay stable
+          grp.sort((a, b) => {
+            const ca = filteredClinics[a];
+            const cb = filteredClinics[b];
+            return ca.lat !== cb.lat ? cb.lat - ca.lat : ca.lng - cb.lng;
+          });
+          const blend = Math.max(0, Math.min(1, (basePinPx * 1.15 - minInternalPx) / (basePinPx * 1.15)));
+          for (let m = 0; m < k; m++) {
+            const idx = grp[m];
+            const r = spiralStepPx * 0.68 * Math.sqrt(m + 0.5);
+            const theta = m * GOLDEN_ANGLE;
+            const targetX = cx + r * Math.cos(theta);
+            const targetY = cy + r * Math.sin(theta);
+            pts[idx].x = pts[idx].origX * (1 - blend) + targetX * blend;
+            pts[idx].y = pts[idx].origY * (1 - blend) + targetY * blend;
+          }
+        }
       }
     }
 
-    // 3. Multi-pass circle-packing relaxation so close neighbors never overlap
-    for (let iter = 0; iter < 5; iter++) {
+    // 2. Fast spatial-hash circle relaxation so neighboring pins & unbundled clusters never overlap
+    const sizes = new Array(n).fill(basePinPx);
+    const gridCellPx = MAX_PIN_PX * 1.8;
+
+    for (let iter = 0; iter < 6; iter++) {
+      const spGrid = new Map();
       for (let i = 0; i < n; i++) {
-        for (let j = i + 1; j < n; j++) {
-          const dx = pts[j].x - pts[i].x;
-          const dy = pts[j].y - pts[i].y;
-          if (Math.abs(dx) > MAX_PIN_PX * 2 || Math.abs(dy) > MAX_PIN_PX * 2) continue;
-          const dist = Math.hypot(dx, dy);
-          const minDist = (sizes[i] + sizes[j]) / 2 + 1.0;
-          if (dist < minDist) {
-            // Shrink both slightly toward MIN_PIN_PX and nudge apart
-            sizes[i] = Math.max(MIN_PIN_PX, sizes[i] * 0.93);
-            sizes[j] = Math.max(MIN_PIN_PX, sizes[j] * 0.93);
-            const newMinDist = (sizes[i] + sizes[j]) / 2 + 1.0;
-            const overlap = newMinDist - dist;
-            if (overlap > 0) {
-              const ux = dist > 0.001 ? dx / dist : Math.cos(i + j);
-              const uy = dist > 0.001 ? dy / dist : Math.sin(i + j);
-              const push = overlap * 0.48;
-              pts[i].x -= ux * push;
-              pts[i].y -= uy * push;
-              pts[j].x += ux * push;
-              pts[j].y += uy * push;
+        const gx = Math.floor(pts[i].x / gridCellPx);
+        const gy = Math.floor(pts[i].y / gridCellPx);
+        const key = `${gx}_${gy}`;
+        let cell = spGrid.get(key);
+        if (!cell) {
+          cell = [];
+          spGrid.set(key, cell);
+        }
+        cell.push(i);
+      }
+
+      for (let i = 0; i < n; i++) {
+        const gx = Math.floor(pts[i].x / gridCellPx);
+        const gy = Math.floor(pts[i].y / gridCellPx);
+        for (let ox = -1; ox <= 1; ox++) {
+          for (let oy = -1; oy <= 1; oy++) {
+            const cell = spGrid.get(`${gx + ox}_${gy + oy}`);
+            if (!cell) continue;
+            for (let cIdx = 0; cIdx < cell.length; cIdx++) {
+              const j = cell[cIdx];
+              if (j <= i) continue;
+              const dx = pts[j].x - pts[i].x;
+              const dy = pts[j].y - pts[i].y;
+              const dist = Math.hypot(dx, dy);
+              const minDist = (sizes[i] + sizes[j]) * 0.48 + 1.1;
+              if (dist < minDist) {
+                sizes[i] = Math.max(MIN_PIN_PX, sizes[i] * 0.96);
+                sizes[j] = Math.max(MIN_PIN_PX, sizes[j] * 0.96);
+                const overlap = minDist - dist;
+                const ux = dist > 0.001 ? dx / dist : Math.cos((i * 7 + j * 13) % 360);
+                const uy = dist > 0.001 ? dy / dist : Math.sin((i * 7 + j * 13) % 360);
+                const push = overlap * 0.52;
+                pts[i].x -= ux * push;
+                pts[i].y -= uy * push;
+                pts[j].x += ux * push;
+                pts[j].y += uy * push;
+              }
             }
           }
         }
       }
     }
 
-    // 4. Final strict non-overlap clamp: guarantee diameter <= distance to closest actual neighbor
+    // 3. Final nearest-neighbor sizing: isolated pins grow up to MAX_PIN_PX while dense clusters stay crisp and distinct
+    const finalGrid = new Map();
+    for (let i = 0; i < n; i++) {
+      const gx = Math.floor(pts[i].x / gridCellPx);
+      const gy = Math.floor(pts[i].y / gridCellPx);
+      const key = `${gx}_${gy}`;
+      let cell = finalGrid.get(key);
+      if (!cell) {
+        cell = [];
+        finalGrid.set(key, cell);
+      }
+      cell.push(i);
+    }
+
     for (let i = 0; i < n; i++) {
       let minDistToAny = Infinity;
-      for (let j = 0; j < n; j++) {
-        if (i === j) continue;
-        const dx = pts[i].x - pts[j].x;
-        const dy = pts[i].y - pts[j].y;
-        if (Math.abs(dx) > MAX_PIN_PX * 2 || Math.abs(dy) > MAX_PIN_PX * 2) continue;
-        const d = Math.hypot(dx, dy);
-        if (d < minDistToAny) minDistToAny = d;
+      const gx = Math.floor(pts[i].x / gridCellPx);
+      const gy = Math.floor(pts[i].y / gridCellPx);
+      for (let ox = -1; ox <= 1; ox++) {
+        for (let oy = -1; oy <= 1; oy++) {
+          const cell = finalGrid.get(`${gx + ox}_${gy + oy}`);
+          if (!cell) continue;
+          for (let cIdx = 0; cIdx < cell.length; cIdx++) {
+            const j = cell[cIdx];
+            if (i === j) continue;
+            const d = Math.hypot(pts[i].x - pts[j].x, pts[i].y - pts[j].y);
+            if (d < minDistToAny) minDistToAny = d;
+          }
+        }
       }
       if (isFinite(minDistToAny)) {
-        sizes[i] = Math.max(3.5, Math.min(sizes[i], minDistToAny * 0.84));
+        sizes[i] = Math.max(MIN_PIN_PX, Math.min(MAX_PIN_PX, minDistToAny * 0.88));
+      } else {
+        sizes[i] = MAX_PIN_PX;
       }
     }
 
     filteredClinics.forEach((clinic, idx) => {
       const isSelected = selectedClinic?.id === clinic.id;
       const isSafeHaven = isSafeHavenFacility(clinic);
-      const computedSize = Math.round(sizes[idx] * 0.84 * 10) / 10;
-      const sizePx = isSelected ? Math.max(22, computedSize + 6) : Math.max(4.6, computedSize);
+      const computedSize = Math.round(sizes[idx] * 0.9 * 10) / 10;
+      const sizePx = isSelected ? Math.max(22, computedSize + 6) : Math.max(6.0, computedSize);
       const anchorPx = sizePx / 2;
 
       const renderLatLng = map.unproject([pts[idx].x, pts[idx].y], currentZoom);

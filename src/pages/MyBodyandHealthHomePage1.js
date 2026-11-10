@@ -34,37 +34,7 @@ export default function MyBodyandHealthHomePage1({
         { className: 'text-xl sm:text-2xl font-bold mt-1' },
         pageTitle
       ),
-      h('p', { className: 'text-xs sm:text-sm mt-1', style: { color: '#FEACEC' } }, t.issuesSubtitle),
-      h(
-        'div',
-        { className: 'mt-4 pt-3 border-t', style: { borderColor: 'rgba(254,172,236,0.4)' } },
-        h(
-          'div',
-          { className: 'text-[11px] font-bold mb-2', style: { color: '#FEACEC' } },
-          t.eduSwitchAgePrompt || 'Select an Age Group (Check for yourself, a daughter, or an elder/grandmother):'
-        ),
-        h(
-          'div',
-          { className: 'flex flex-wrap gap-1.5' },
-          AGE_GROUPS.map((ag) => {
-            const isSelectedAge = ageGroup === ag.id;
-            return h(
-              'button',
-              {
-                key: ag.id,
-                onClick: () => {
-                  setAgeGroup(ag.id);
-                },
-                className: 'px-3 py-1.5 rounded-xl text-xs font-bold transition',
-                style: isSelectedAge
-                  ? { backgroundColor: '#FEACEC', color: '#9F133A', border: '2px solid #FFFFFF' }
-                  : { backgroundColor: 'rgba(255,255,255,0.18)', color: '#FFFFFF' }
-              },
-              formatDigitsForLang(ag.label)
-            );
-          })
-        )
-      )
+      h('p', { className: 'text-xs sm:text-sm mt-1', style: { color: '#FEACEC' } }, t.issuesSubtitle)
     ),
 
     // Equal-Sized 10 Buttons Directly on Page (2x5 Grid)

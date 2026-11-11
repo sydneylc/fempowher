@@ -29,12 +29,50 @@
     input[type="range"] {
       accent-color: #e6194b;
     }
+    /* Custom scrollbar & drag styling for InteractiveAgeButtonsCarousel1 */
+    #InteractiveAgeButtonsCarousel1 {
+      scrollbar-width: thin;
+      scrollbar-color: #CF366C #faf3f7;
+      -webkit-overflow-scrolling: touch;
+      cursor: grab;
+    }
+    #InteractiveAgeButtonsCarousel1.is-dragging {
+      cursor: grabbing;
+      user-select: none;
+    }
+    #InteractiveAgeButtonsCarousel1::-webkit-scrollbar {
+      height: 6px;
+    }
+    #InteractiveAgeButtonsCarousel1::-webkit-scrollbar-track {
+      background: #faf3f7;
+      border-radius: 999px;
+    }
+    #InteractiveAgeButtonsCarousel1::-webkit-scrollbar-thumb {
+      background: #e29ab5;
+      border-radius: 999px;
+    }
+    .age-sketch-btn {
+      border: 2px solid #2B2235;
+      border-radius: 9px;
+      box-shadow: 2px 2px 0px rgba(43, 34, 53, 0.16);
+      transition: transform 0.14s ease, box-shadow 0.14s ease, background-color 0.14s ease;
+    }
+    .age-sketch-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 3px 3px 0px rgba(207, 54, 108, 0.35);
+    }
+    .age-sketch-btn.active-age-btn {
+      outline: 2.5px solid #CF366C;
+      outline-offset: 1px;
+      box-shadow: 3px 3px 0px rgba(207, 54, 108, 0.55);
+      font-weight: 800;
+    }
   </style>
 </head>
 <body class="bg-[var(--background,#faf8f5)] text-[var(--foreground,#2b2235)] antialiased p-4 md:p-6">
-  <div class="max-w-7xl mx-auto space-y-4">
-    <!-- Top Header & Lifecycle State Buttons -->
-    <div class="bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+  <div id="MyBodyHomePageList1" class="max-w-7xl mx-auto space-y-4">
+    <!-- 1. InteractiveTopSettings1: Top Header & Lifecycle State Buttons -->
+    <div id="InteractiveTopSettings1" data-piece-name="InteractiveTopSettings1" class="bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
       <div>
         <h1 class="text-lg md:text-xl font-bold tracking-tight">
           emPowHer — Interactive Translucent Reproductive System
@@ -67,10 +105,76 @@
       </div>
     </div>
 
+    <!-- 2. InteractiveAgeCarousel1: Age Meter Dial (8–105 yrs old) + Horizontal Interactive Buttons Carousel -->
+    <div id="InteractiveAgeCarousel1" data-piece-name="InteractiveAgeCarousel1" class="bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-3">
+      <!-- Header row with live age readout & optional attach-to-age toggle -->
+      <div class="flex flex-wrap items-center justify-between gap-2">
+        <div class="flex flex-wrap items-center gap-2.5">
+          <span class="text-xs font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#FEACEC]/45 text-[#9F133A] border border-[#CF366C]/30">
+            Age Meter (8 – 105 yrs old)
+          </span>
+          <span id="age-dial-readout" class="text-sm md:text-base font-extrabold text-[#2B2235]">
+            Age Group: 25–30 yrs (27 yrs old)
+          </span>
+          <span id="active-age-button-readout" class="text-xs font-semibold text-[#9F133A] bg-pink-50 border border-pink-200 px-2.5 py-0.5 rounded-lg hidden"></span>
+        </div>
+        <div class="flex flex-wrap items-center gap-3 text-xs">
+          <label class="inline-flex items-center gap-1.5 font-semibold text-[#2B2235] cursor-pointer select-none">
+            <input type="checkbox" id="toggle-attach-age" checked class="rounded text-[#CF366C]" onchange="updateAttachedBadge()" />
+            <span>Attach clicked button to my age group (<span id="attached-age-label">25–30</span>)</span>
+          </label>
+          <span class="text-[11px] text-[var(--muted-foreground,#6e5d78)]">
+            Drag the heart dial or swipe the carousel horizontally
+          </span>
+        </div>
+      </div>
+
+      <!-- TOP PIECE: InteractiveAgeDial1 (Horizontal Age Meter Line + Big Safe Haven Heart Dial) -->
+      <div id="InteractiveAgeDial1" data-piece-name="InteractiveAgeDial1" class="relative w-full pt-5 pb-7 px-4 md:px-7 select-none">
+        <!-- Horizontal Meter Line -->
+        <div id="age-meter-track" class="relative w-full h-10 flex items-center cursor-pointer">
+          <div class="w-full h-[3px] bg-[#2B2235] rounded-full relative"></div>
+          <!-- Dynamic Tick Marks & Age Bracket Labels (8–15 through 85–105) -->
+          <div id="age-meter-ticks" class="absolute inset-0 pointer-events-none"></div>
+
+          <!-- Draggable Safe Haven Heart Dial (Exact same heart as Women's Safe Haven on the map, BUT BIGGER) -->
+          <div
+            id="age-heart-handle"
+            role="slider"
+            aria-valuemin="8"
+            aria-valuemax="105"
+            aria-valuenow="27"
+            tabindex="0"
+            title="Drag the Women's Safe Haven Heart along the age meter (8–105 yrs)"
+            class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 z-20 cursor-grab active:cursor-grabbing transition-transform duration-75 hover:scale-110"
+            style="left: 25%;"
+          >
+            <svg viewBox="0 0 32 32" width="52" height="52" style="display:block;overflow:visible;filter:drop-shadow(0 3px 6px rgba(159,19,58,0.32));">
+              <path
+                d="M16.2 28.4 C13.5 26.2, 4.2 19.6, 3.6 11.8 C3.1 6.4, 7.2 3.2, 11.4 3.6 C14.1 3.9, 15.6 6.2, 16.3 7.9 C17.2 6.1, 19.3 4.1, 22.4 4.3 C26.8 4.6, 29.4 8.2, 28.5 13.2 C27.3 20.1, 18.8 26.5, 16.2 28.4 Z"
+                fill="#CF366C"
+                stroke="#9F133A"
+                stroke-width="1.1"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOTTOM PIECE: InteractiveAgeButtonsCarousel1 (Horizontal Draggable Carousel of Interactive Buttons by Age Group) -->
+      <div
+        id="InteractiveAgeButtonsCarousel1"
+        data-piece-name="InteractiveAgeButtonsCarousel1"
+        class="w-full overflow-x-auto pb-3 pt-1 px-2 border-t border-[var(--border,#e5dce8)]"
+      >
+        <div id="age-carousel-columns" class="inline-flex items-start gap-4 min-w-max pr-12"></div>
+      </div>
+    </div>
+
     <!-- Main Interactive Workspace -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
-      <!-- Left Column: Component Buttons Selector -->
-      <div class="lg:col-span-3 bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-3">
+      <!-- 3. OrganButtons1 — Left Column: Component Buttons Selector -->
+      <div id="OrganButtons1" data-piece-name="OrganButtons1" class="lg:col-span-3 bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-3">
         <div class="flex items-center justify-between">
           <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--muted-foreground,#6e5d78)]">
             Organ Buttons (12)
@@ -98,13 +202,15 @@
         </div>
       </div>
 
-      <!-- Center Column: Translucent Loose-Outline SVG Canvas (No Background Necessary) -->
-      <div class="lg:col-span-6 rounded-2xl border border-[var(--border,#e5dce8)] flex flex-col items-center justify-center relative overflow-hidden p-2" id="canvas-container" style="background: transparent;">
-        <svg id="anatomy-svg" viewBox="-380 -510 760 980" class="w-full max-w-[600px] h-auto select-none" xmlns="http://www.w3.org/2000/svg"></svg>
+      <!-- 4. MyBodyImage1 — Center Column: Translucent Loose-Outline SVG Canvas (No Background Necessary) -->
+      <div id="MyBodyImage1" data-piece-name="MyBodyImage1" class="lg:col-span-6 rounded-2xl border border-[var(--border,#e5dce8)] flex flex-col items-center justify-center relative overflow-hidden p-2" style="background: transparent;">
+        <div id="canvas-container" class="w-full flex flex-col items-center justify-center">
+          <svg id="anatomy-svg" viewBox="-380 -510 760 980" class="w-full max-w-[600px] h-auto select-none" xmlns="http://www.w3.org/2000/svg"></svg>
+        </div>
       </div>
 
-      <!-- Right Column: Live Manipulation Inspector for Selected Component -->
-      <div class="lg:col-span-3 bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-4">
+      <!-- 5. MyBodySettings1 — Right Column: Live Manipulation Inspector for Selected Component -->
+      <div id="MyBodySettings1" data-piece-name="MyBodySettings1" class="lg:col-span-3 bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-4">
         <div class="flex items-center justify-between border-b border-[var(--border,#e5dce8)] pb-3">
           <div class="flex items-center gap-2.5">
             <span id="inspector-swatch" class="w-4 h-4 rounded-full border border-black/30 inline-block"></span>
@@ -374,6 +480,209 @@
         labia_minora:    { scaleX: 0.80, scaleY: 0.84, morph: -75, dx: 0, dy: 0 },
         vaginal_opening: { scaleX: 0.82, scaleY: 0.84, morph: -65, dx: 0, dy: 0 },
         clitoris:        { scaleX: 0.88, scaleY: 0.88, morph: -40, dx: 0, dy: 0 }
+      },
+      // --- InteractiveAgeButtonsCarousel1 Presets (Ages 8 – 105 yrs) ---
+      breast_growth: {
+        breasts:         { scaleX: 1.08, scaleY: 1.08, morph: 45,  dx: 0, dy: 4 },
+        mammary_glands:  { scaleX: 1.10, scaleY: 1.10, morph: 50,  dx: 0, dy: 4 },
+        uterus:          { scaleX: 0.88, scaleY: 0.88, morph: -15, dx: 0, dy: 0 },
+        endometrium:     { scaleX: 0.88, scaleY: 0.88, morph: -10, dx: 0, dy: 0 },
+        ovaries:         { scaleX: 0.94, scaleY: 0.94, morph: 15,  dx: 0, dy: 0 }
+      },
+      first_period: {
+        uterus:          { scaleX: 0.94, scaleY: 0.94, morph: -20, dx: 0, dy: 0 },
+        endometrium:     { scaleX: 0.94, scaleY: 0.94, morph: -70, dx: 0, dy: 0 },
+        cervix:          { scaleX: 0.98, scaleY: 0.98, morph: 30,  dx: 0, dy: 0 },
+        ovaries:         { scaleX: 0.98, scaleY: 0.98, morph: 20,  dx: 0, dy: 0 }
+      },
+      stds: {
+        cervix:          { scaleX: 1.08, scaleY: 1.06, morph: 45,  dx: 0, dy: 0 },
+        vaginal_canal:   { scaleX: 1.06, scaleY: 1.02, morph: 35,  dx: 0, dy: 0 },
+        fallopian_tubes: { scaleX: 1.08, scaleY: 1.10, morph: 30,  dx: 0, dy: 0 },
+        labia_minora:    { scaleX: 1.06, scaleY: 1.05, morph: 30,  dx: 0, dy: 0 }
+      },
+      luteal: {
+        ovaries:         { scaleX: 1.14, scaleY: 1.14, morph: 75,  dx: 0, dy: 0 },
+        fallopian_tubes: { scaleX: 1.04, scaleY: 1.05, morph: 35,  dx: 0, dy: 0 },
+        endometrium:     { scaleX: 1.06, scaleY: 1.06, morph: 78,  dx: 0, dy: 0 },
+        cervix:          { scaleX: 1.02, scaleY: 1.00, morph: 35,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.05, scaleY: 1.05, morph: 25,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.07, scaleY: 1.07, morph: 35,  dx: 0, dy: 0 }
+      },
+      contraception: {
+        ovaries:         { scaleX: 0.92, scaleY: 0.92, morph: -40, dx: 0, dy: 0 },
+        endometrium:     { scaleX: 0.95, scaleY: 0.95, morph: -55, dx: 0, dy: 0 },
+        cervix:          { scaleX: 1.00, scaleY: 1.02, morph: -45, dx: 0, dy: 0 }
+      },
+      iud_insertions: {
+        uterus:          { scaleX: 1.02, scaleY: 1.02, morph: 10,  dx: 0, dy: 0 },
+        endometrium:     { scaleX: 0.98, scaleY: 0.98, morph: -45, dx: 0, dy: 0 },
+        cervix:          { scaleX: 1.02, scaleY: 1.00, morph: 15,  dx: 0, dy: 0 }
+      },
+      arm_implants: {
+        ovaries:         { scaleX: 0.90, scaleY: 0.90, morph: -45, dx: 0, dy: 0 },
+        endometrium:     { scaleX: 0.94, scaleY: 0.94, morph: -60, dx: 0, dy: 0 },
+        cervix:          { scaleX: 1.00, scaleY: 1.02, morph: -50, dx: 0, dy: 0 }
+      },
+      use_of_the_pill: {
+        ovaries:         { scaleX: 0.91, scaleY: 0.91, morph: -42, dx: 0, dy: 0 },
+        endometrium:     { scaleX: 0.95, scaleY: 0.95, morph: -52, dx: 0, dy: 0 },
+        cervix:          { scaleX: 1.00, scaleY: 1.02, morph: -45, dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.03, scaleY: 1.03, morph: 15,  dx: 0, dy: 0 }
+      },
+      depo: {
+        ovaries:         { scaleX: 0.88, scaleY: 0.88, morph: -50, dx: 0, dy: 0 },
+        endometrium:     { scaleX: 0.92, scaleY: 0.92, morph: -68, dx: 0, dy: 0 },
+        cervix:          { scaleX: 1.00, scaleY: 1.02, morph: -55, dx: 0, dy: 0 }
+      },
+      first_trimester: {
+        uterus:          { scaleX: 1.18, scaleY: 1.16, morph: 42,  dx: 0, dy: 4 },
+        endometrium:     { scaleX: 1.16, scaleY: 1.15, morph: 72,  dx: 0, dy: 4 },
+        fallopian_tubes: { scaleX: 1.05, scaleY: 1.02, morph: 20,  dx: 0, dy: 8 },
+        ovaries:         { scaleX: 1.06, scaleY: 1.06, morph: 45,  dx: 0, dy: 8 },
+        cervix:          { scaleX: 1.04, scaleY: 1.02, morph: -25, dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.08, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.12, scaleY: 1.12, morph: 48,  dx: 0, dy: 0 }
+      },
+      second_trimester: {
+        uterus:          { scaleX: 1.42, scaleY: 1.36, morph: 72,  dx: 0, dy: 8 },
+        endometrium:     { scaleX: 1.38, scaleY: 1.34, morph: 82,  dx: 0, dy: 8 },
+        fallopian_tubes: { scaleX: 1.12, scaleY: 1.05, morph: 35,  dx: 0, dy: 16 },
+        ovaries:         { scaleX: 1.00, scaleY: 1.00, morph: 20,  dx: 0, dy: 16 },
+        cervix:          { scaleX: 1.08, scaleY: 0.96, morph: -30, dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.14, scaleY: 1.14, morph: 52,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.18, scaleY: 1.18, morph: 70,  dx: 0, dy: 0 }
+      },
+      third_trimester: {
+        uterus:          { scaleX: 1.68, scaleY: 1.58, morph: 98,  dx: 0, dy: 12 },
+        endometrium:     { scaleX: 1.65, scaleY: 1.56, morph: 94,  dx: 0, dy: 12 },
+        fallopian_tubes: { scaleX: 1.18, scaleY: 1.08, morph: 50,  dx: 0, dy: 26 },
+        ovaries:         { scaleX: 0.98, scaleY: 0.98, morph: 10,  dx: 0, dy: 24 },
+        cervix:          { scaleX: 1.14, scaleY: 0.90, morph: -35, dx: 0, dy: 0 },
+        vaginal_canal:   { scaleX: 1.18, scaleY: 1.00, morph: 45,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 70,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.26, scaleY: 1.26, morph: 88,  dx: 0, dy: 0 },
+        labia_majora:    { scaleX: 1.12, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
+        labia_minora:    { scaleX: 1.12, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
+        vaginal_opening: { scaleX: 1.14, scaleY: 1.10, morph: 30,  dx: 0, dy: 0 }
+      },
+      after_pregnancy_loss: {
+        uterus:          { scaleX: 1.10, scaleY: 1.08, morph: 15,  dx: 0, dy: 2 },
+        endometrium:     { scaleX: 1.06, scaleY: 1.05, morph: -55, dx: 0, dy: 2 },
+        cervix:          { scaleX: 1.06, scaleY: 1.00, morph: 30,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.04, scaleY: 1.04, morph: 10,  dx: 0, dy: 0 }
+      },
+      birth: {
+        uterus:          { scaleX: 1.48, scaleY: 1.38, morph: 65,  dx: 0, dy: 10 },
+        endometrium:     { scaleX: 1.42, scaleY: 1.34, morph: 55,  dx: 0, dy: 10 },
+        cervix:          { scaleX: 1.46, scaleY: 0.78, morph: 98,  dx: 0, dy: 0 },
+        vaginal_canal:   { scaleX: 1.42, scaleY: 1.04, morph: 95,  dx: 0, dy: 0 },
+        vaginal_opening: { scaleX: 1.45, scaleY: 1.38, morph: 95,  dx: 0, dy: 0 },
+        labia_majora:    { scaleX: 1.22, scaleY: 1.16, morph: 55,  dx: 0, dy: 0 },
+        labia_minora:    { scaleX: 1.22, scaleY: 1.16, morph: 55,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 75,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.28, scaleY: 1.28, morph: 92,  dx: 0, dy: 0 }
+      },
+      vaginal_birth: {
+        uterus:          { scaleX: 1.45, scaleY: 1.35, morph: 60,  dx: 0, dy: 10 },
+        endometrium:     { scaleX: 1.40, scaleY: 1.32, morph: 50,  dx: 0, dy: 10 },
+        cervix:          { scaleX: 1.48, scaleY: 0.76, morph: 100, dx: 0, dy: 0 },
+        vaginal_canal:   { scaleX: 1.46, scaleY: 1.05, morph: 100, dx: 0, dy: 0 },
+        vaginal_opening: { scaleX: 1.48, scaleY: 1.40, morph: 100, dx: 0, dy: 0 },
+        labia_majora:    { scaleX: 1.24, scaleY: 1.18, morph: 60,  dx: 0, dy: 0 },
+        labia_minora:    { scaleX: 1.24, scaleY: 1.18, morph: 60,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 75,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.28, scaleY: 1.28, morph: 92,  dx: 0, dy: 0 }
+      },
+      c_section: {
+        uterus:          { scaleX: 1.26, scaleY: 1.22, morph: 35,  dx: 0, dy: 6 },
+        endometrium:     { scaleX: 1.22, scaleY: 1.18, morph: -25, dx: 0, dy: 6 },
+        cervix:          { scaleX: 1.06, scaleY: 1.00, morph: 10,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 75,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.28, scaleY: 1.28, morph: 92,  dx: 0, dy: 0 }
+      },
+      still_birth: {
+        uterus:          { scaleX: 1.24, scaleY: 1.20, morph: 25,  dx: 0, dy: 5 },
+        endometrium:     { scaleX: 1.18, scaleY: 1.15, morph: -45, dx: 0, dy: 5 },
+        cervix:          { scaleX: 1.22, scaleY: 0.90, morph: 55,  dx: 0, dy: 0 },
+        vaginal_canal:   { scaleX: 1.18, scaleY: 1.00, morph: 45,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.14, scaleY: 1.14, morph: 45,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.18, scaleY: 1.18, morph: 55,  dx: 0, dy: 0 }
+      },
+      second_pregnancy: {
+        uterus:          { scaleX: 1.68, scaleY: 1.58, morph: 96,  dx: 0, dy: 12 },
+        endometrium:     { scaleX: 1.64, scaleY: 1.55, morph: 92,  dx: 0, dy: 12 },
+        fallopian_tubes: { scaleX: 1.18, scaleY: 1.08, morph: 50,  dx: 0, dy: 26 },
+        cervix:          { scaleX: 1.16, scaleY: 0.92, morph: -25, dx: 0, dy: 0 },
+        vaginal_canal:   { scaleX: 1.18, scaleY: 1.02, morph: 45,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 70,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.26, scaleY: 1.26, morph: 88,  dx: 0, dy: 0 }
+      },
+      pregnancy_after_loss: {
+        uterus:          { scaleX: 1.52, scaleY: 1.46, morph: 85,  dx: 0, dy: 10 },
+        endometrium:     { scaleX: 1.48, scaleY: 1.44, morph: 85,  dx: 0, dy: 10 },
+        fallopian_tubes: { scaleX: 1.14, scaleY: 1.06, morph: 42,  dx: 0, dy: 20 },
+        ovaries:         { scaleX: 1.02, scaleY: 1.02, morph: 25,  dx: 0, dy: 18 },
+        cervix:          { scaleX: 1.10, scaleY: 0.95, morph: -35, dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.16, scaleY: 1.16, morph: 60,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.22, scaleY: 1.22, morph: 78,  dx: 0, dy: 0 }
+      },
+      first_period_after_birth: {
+        uterus:          { scaleX: 1.06, scaleY: 1.05, morph: -15, dx: 0, dy: 0 },
+        endometrium:     { scaleX: 1.04, scaleY: 1.04, morph: -72, dx: 0, dy: 0 },
+        cervix:          { scaleX: 1.06, scaleY: 1.00, morph: 40,  dx: 0, dy: 0 },
+        vaginal_canal:   { scaleX: 1.06, scaleY: 1.00, morph: 20,  dx: 0, dy: 0 }
+      },
+      breast_feeding: {
+        breasts:         { scaleX: 1.26, scaleY: 1.24, morph: 88,  dx: 0, dy: 0 },
+        mammary_glands:  { scaleX: 1.34, scaleY: 1.34, morph: 100, dx: 0, dy: 0 },
+        uterus:          { scaleX: 1.04, scaleY: 1.04, morph: 10,  dx: 0, dy: 0 },
+        endometrium:     { scaleX: 1.02, scaleY: 1.02, morph: -35, dx: 0, dy: 0 }
+      },
+      not_breast_feeding: {
+        breasts:         { scaleX: 1.00, scaleY: 1.00, morph: -15, dx: 0, dy: -4 },
+        mammary_glands:  { scaleX: 0.94, scaleY: 0.94, morph: -25, dx: 0, dy: -4 },
+        uterus:          { scaleX: 1.04, scaleY: 1.04, morph: 5,   dx: 0, dy: 0 },
+        endometrium:     { scaleX: 1.02, scaleY: 1.02, morph: 15,  dx: 0, dy: 0 }
+      },
+      fibroids: {
+        uterus:          { scaleX: 1.22, scaleY: 1.18, morph: 48,  dx: 0, dy: 4 },
+        endometrium:     { scaleX: 1.12, scaleY: 1.10, morph: 45,  dx: 0, dy: 4 }
+      },
+      ovarian_cyst: {
+        ovaries:         { scaleX: 1.32, scaleY: 1.32, morph: 90,  dx: 0, dy: 0 },
+        fallopian_tubes: { scaleX: 1.06, scaleY: 1.06, morph: 20,  dx: 0, dy: 0 }
+      },
+      ovarian_cancer: {
+        ovaries:         { scaleX: 1.38, scaleY: 1.36, morph: 95,  dx: 0, dy: 0 },
+        fallopian_tubes: { scaleX: 1.10, scaleY: 1.10, morph: 15,  dx: 0, dy: 0 }
+      },
+      hysterectomy: {
+        uterus:          { scaleX: 0.86, scaleY: 0.86, morph: -60, dx: 0, dy: 0 },
+        endometrium:     { scaleX: 0.84, scaleY: 0.84, morph: -80, dx: 0, dy: 0 },
+        cervix:          { scaleX: 0.88, scaleY: 0.85, morph: -50, dx: 0, dy: 0 }
+      },
+      perimenopause: {
+        ovaries:         { scaleX: 0.82, scaleY: 0.78, morph: -55, dx: 0, dy: -8 },
+        fallopian_tubes: { scaleX: 0.94, scaleY: 0.94, morph: -45, dx: 0, dy: -8 },
+        uterus:          { scaleX: 0.90, scaleY: 0.90, morph: -35, dx: 0, dy: -4 },
+        endometrium:     { scaleX: 0.88, scaleY: 0.88, morph: -48, dx: 0, dy: -4 },
+        breasts:         { scaleX: 0.95, scaleY: 0.94, morph: -40, dx: 0, dy: -8 },
+        mammary_glands:  { scaleX: 0.86, scaleY: 0.86, morph: -50, dx: 0, dy: -8 }
+      },
+      post_menopause: {
+        ovaries:         { scaleX: 0.58, scaleY: 0.52, morph: -100, dx: 0, dy: -22 },
+        fallopian_tubes: { scaleX: 0.82, scaleY: 0.84, morph: -95,  dx: 0, dy: -18 },
+        uterus:          { scaleX: 0.68, scaleY: 0.70, morph: -90,  dx: 0, dy: -12 },
+        endometrium:     { scaleX: 0.66, scaleY: 0.68, morph: -98,  dx: 0, dy: -12 },
+        cervix:          { scaleX: 0.78, scaleY: 0.80, morph: -70,  dx: 0, dy: -8 },
+        vaginal_canal:   { scaleX: 0.76, scaleY: 0.88, morph: -80,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 0.84, scaleY: 0.82, morph: -92,  dx: 0, dy: -18 },
+        mammary_glands:  { scaleX: 0.66, scaleY: 0.66, morph: -96,  dx: 0, dy: -18 },
+        labia_majora:    { scaleX: 0.80, scaleY: 0.82, morph: -80,  dx: 0, dy: 0 },
+        labia_minora:    { scaleX: 0.76, scaleY: 0.80, morph: -85,  dx: 0, dy: 0 },
+        vaginal_opening: { scaleX: 0.78, scaleY: 0.80, morph: -75,  dx: 0, dy: 0 },
+        clitoris:        { scaleX: 0.84, scaleY: 0.84, morph: -50,  dx: 0, dy: 0 }
       }
     };
 
@@ -674,11 +983,32 @@
         }
 
         // If ovulation preset or high ovary morph, show released ovum near fimbriae!
-        if (oSt.morph > 55 && side === 1) {
+        if ((currentPreset === 'ovulation' || currentPreset === 'luteal' || oSt.morph > 55) && side === 1 && currentPreset !== 'ovarian_cyst' && currentPreset !== 'ovarian_cancer') {
           const eggX = ovX + 36;
           const eggY = ovY - 34;
           const eggPath = `M ${eggX - 11} ${eggY} a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0`;
           ovariesMarkup += highlighterGroup('ovaries', eggPath, { fill: '#FEE440', rim: '#FF007F', opacity: 0.88, strokeW: 2.0 });
+        }
+
+        // If Ovarian Cyst selected: render prominent translucent fluid-filled cyst on right ovary
+        if (currentPreset === 'ovarian_cyst' && side === 1) {
+          const cystX = ovX + 18;
+          const cystY = ovY + 4;
+          const cystPath = `M ${cystX - 24} ${cystY} a 24 22 0 1 0 48 0 a 24 22 0 1 0 -48 0`;
+          ovariesMarkup += highlighterGroup('ovaries', cystPath, { fill: '#4CC9F0', rim: '#7209B7', opacity: 0.72, strokeW: 2.4 });
+        }
+
+        // If Ovarian Cancer selected: render lobulated irregular translucent mass overlay on right ovary
+        if (currentPreset === 'ovarian_cancer' && side === 1) {
+          const mX = ovX + 14;
+          const mY = ovY + 2;
+          const massPath = `
+            M ${mX - 26} ${mY - 6}
+            C ${mX - 22} ${mY - 28}, ${mX + 8} ${mY - 30}, ${mX + 24} ${mY - 12}
+            C ${mX + 36} ${mY - 2}, ${mX + 32} ${mY + 22}, ${mX + 12} ${mY + 26}
+            C ${mX - 6} ${mY + 32}, ${mX - 30} ${mY + 18}, ${mX - 26} ${mY - 6} Z
+          `;
+          ovariesMarkup += highlighterGroup('ovaries', massPath, { fill: '#F72585', rim: '#3A0CA3', opacity: 0.76, strokeW: 2.5 });
         }
       }
       html += `<g class="organ-btn ${selectedOrgan === 'ovaries' ? 'selected-organ' : ''}" data-organ="ovaries" onclick="selectOrgan('ovaries', event)" transform="${organTransformAttr('ovaries', 0, utTopY + 76)}">${ovariesMarkup}</g>`;
@@ -694,7 +1024,35 @@
         Q 0 ${utBotY + 14} ${-cervixW} ${utBotY}
         C ${-cervixW * 1.40} ${utBotY - 32}, ${-utHalfW * 1.04} ${(utTopY + utBotY) * 0.48}, ${-utHalfW} ${utTopY + 18} Z
       `;
-      const uterusMarkup = highlighterGroup('uterus', uterusPath, { strokeW: 3.2 });
+      let uterusMarkup = '';
+      if (currentPreset === 'hysterectomy') {
+        // Hysterectomy: ghosted dashed surgical outline showing where uterus was removed
+        uterusMarkup += `<path d="${uterusPath}" fill="#FF5D8F" fill-opacity="0.08" stroke="#9F133A" stroke-width="2.2" stroke-dasharray="7,6" />`;
+      } else {
+        uterusMarkup += highlighterGroup('uterus', uterusPath, { strokeW: 3.2 });
+      }
+      // If Fibroids selected: render hand-drawn uterine fibroid nodules (myomas) in the myometrium
+      if (currentPreset === 'fibroids') {
+        const fibs = [
+          { x: -42, y: -12, rx: 18, ry: 15 },
+          { x:  46, y:   8, rx: 22, ry: 18 },
+          { x: -24, y:  48, rx: 14, ry: 12 },
+          { x:  18, y: -42, rx: 15, ry: 13 }
+        ];
+        for (const fb of fibs) {
+          const fbPath = `M ${fb.x - fb.rx} ${fb.y} a ${fb.rx} ${fb.ry} 0 1 0 ${fb.rx * 2} 0 a ${fb.rx} ${fb.ry} 0 1 0 ${-fb.rx * 2} 0`;
+          uterusMarkup += highlighterGroup('uterus', fbPath, { fill: '#9B5DE5', rim: '#F15BB5', opacity: 0.72, strokeW: 2.1 });
+        }
+      }
+      // If C-section selected: render low-transverse C-section incision line with suture ticks
+      if (currentPreset === 'c_section') {
+        const incY = utBotY - 26;
+        uterusMarkup += `<path d="M -38 ${incY} Q 0 ${incY + 10} 38 ${incY}" fill="none" stroke="#9F133A" stroke-width="3.0" stroke-linecap="round" filter="url(#loose-pencil)" />`;
+        for (let sx = -30; sx <= 30; sx += 12) {
+          const sy = incY + (1 - (sx * sx) / 1400) * 5;
+          uterusMarkup += `<line x1="${sx}" y1="${sy - 5}" x2="${sx}" y2="${sy + 5}" stroke="#2B2235" stroke-width="2.0" stroke-linecap="round" />`;
+        }
+      }
       html += `<g class="organ-btn ${selectedOrgan === 'uterus' ? 'selected-organ' : ''}" data-organ="uterus" onclick="selectOrgan('uterus', event)" transform="${organTransformAttr('uterus', 0, (utTopY + utBotY) * 0.5)}">${uterusMarkup}</g>`;
 
       // -----------------------------------------------------------------------
@@ -714,8 +1072,25 @@
         Q ${-canalW} ${(cervTopY + cervBotY) * 0.5} 0 ${cervBotY - 5}
         Q ${canalW} ${(cervTopY + cervBotY) * 0.5} 0 ${cervTopY - 4} Z
       `;
-      let cervixMarkup = highlighterGroup('cervix', cervixPath, { strokeW: 2.8 });
-      cervixMarkup += highlighterGroup('cervix', canalPath, { fill: '#3A0CA3', rim: '#4CC9F0', opacity: 0.52, strokeW: 1.8 });
+      let cervixMarkup = '';
+      if (currentPreset === 'hysterectomy') {
+        cervixMarkup += `<path d="${cervixPath}" fill="#8338EC" fill-opacity="0.10" stroke="#5E60CE" stroke-width="2.0" stroke-dasharray="5,5" />`;
+      } else {
+        cervixMarkup += highlighterGroup('cervix', cervixPath, { strokeW: 2.8 });
+        cervixMarkup += highlighterGroup('cervix', canalPath, { fill: '#3A0CA3', rim: '#4CC9F0', opacity: 0.52, strokeW: 1.8 });
+      }
+      // If hormonal contraception (pill, implant, depo, contraception), show thickened cervical mucus barrier
+      if (['contraception', 'arm_implants', 'use_of_the_pill', 'depo'].includes(currentPreset)) {
+        const cyMid = (cervTopY + cervBotY) * 0.5;
+        cervixMarkup += `<ellipse cx="0" cy="${cyMid}" rx="9" ry="16" fill="#00F5D4" fill-opacity="0.65" stroke="#00BBF9" stroke-width="1.8" stroke-dasharray="3,2" />`;
+      }
+      // If STDs selected, show warm inflammatory markers along cervix & upper vaginal vault
+      if (currentPreset === 'stds') {
+        const stdDots = [[-14, cervTopY + 22], [15, cervTopY + 26], [-8, cervBotY - 10], [11, cervBotY - 8], [0, cervBotY + 18], [-18, cervBotY + 34], [16, cervBotY + 42]];
+        for (const [dx, dy] of stdDots) {
+          cervixMarkup += `<circle cx="${dx}" cy="${dy}" r="5.5" fill="#FF0055" fill-opacity="0.72" stroke="#FFBE0B" stroke-width="1.8" />`;
+        }
+      }
       html += `<g class="organ-btn ${selectedOrgan === 'cervix' ? 'selected-organ' : ''}" data-organ="cervix" onclick="selectOrgan('cervix', event)" transform="${organTransformAttr('cervix', 0, (cervTopY + cervBotY) * 0.5)}">${cervixMarkup}</g>`;
 
       // -----------------------------------------------------------------------
@@ -774,17 +1149,44 @@
       }
       cavityPath += ' Z';
 
-      let endoMarkup = highlighterGroup('endometrium', endoOuterPath, { strokeW: 2.5 });
-      endoMarkup += highlighterGroup('endometrium', cavityPath, { fill: '#FFB3C6', rim: '#FF8FA3', opacity: 0.65, strokeW: 2.0 });
-
-      // If Pregnancy preset (or high stretch), show gestational sac inside cavity
-      if (currentPreset === 'pregnancy' || (eSt.scaleX > 1.35 && eSt.morph > 50)) {
-        const sacY = (cavTopY + cavBotY) * 0.45;
-        const sacPath = `M -28 ${sacY} a 28 25 0 1 0 56 0 a 28 25 0 1 0 -56 0`;
-        endoMarkup += highlighterGroup('endometrium', sacPath, { fill: '#FEE440', rim: '#00BBF9', opacity: 0.60, strokeW: 2.0 });
+      let endoMarkup = '';
+      if (currentPreset === 'hysterectomy') {
+        endoMarkup += `<path d="${endoOuterPath}" fill="none" stroke="#EF233C" stroke-opacity="0.22" stroke-width="1.6" stroke-dasharray="5,5" />`;
+      } else {
+        endoMarkup += highlighterGroup('endometrium', endoOuterPath, { strokeW: 2.5 });
+        endoMarkup += highlighterGroup('endometrium', cavityPath, { fill: '#FFB3C6', rim: '#FF8FA3', opacity: 0.65, strokeW: 2.0 });
       }
-      // If Menstruation preset, show crimson droplets gently shedding
-      if (currentPreset === 'menstruation') {
+
+      // If IUD insertions selected: render translucent T-shaped IUD inside the uterine cavity + strings in cervix
+      if (currentPreset === 'iud_insertions') {
+        const iudTopY = cavTopY + 12;
+        const iudBotY = cavBotY - 4;
+        endoMarkup += `
+          <g filter="url(#loose-pencil)">
+            <path d="M -26 ${iudTopY} L 26 ${iudTopY}" stroke="#00BBF9" stroke-width="7.5" stroke-linecap="round" stroke-opacity="0.65" />
+            <path d="M 0 ${iudTopY} L 0 ${iudBotY}" stroke="#00BBF9" stroke-width="7.5" stroke-linecap="round" stroke-opacity="0.65" />
+            <path d="M -26 ${iudTopY} L 26 ${iudTopY} M 0 ${iudTopY} L 0 ${iudBotY}" stroke="#2B2235" stroke-width="2.6" stroke-linecap="round" />
+            <circle cx="-26" cy="${iudTopY}" r="3.5" fill="#FEE440" stroke="#2B2235" stroke-width="1.6" />
+            <circle cx="26" cy="${iudTopY}" r="3.5" fill="#FEE440" stroke="#2B2235" stroke-width="1.6" />
+            <circle cx="0" cy="${iudBotY}" r="3.2" fill="#FEE440" stroke="#2B2235" stroke-width="1.6" />
+            <path d="M 0 ${iudBotY + 3} Q -7 ${iudBotY + 26} -5 ${iudBotY + 46}" fill="none" stroke="#2B2235" stroke-width="1.6" stroke-dasharray="3,2" />
+            <path d="M 0 ${iudBotY + 3} Q 7 ${iudBotY + 26} 6 ${iudBotY + 46}" fill="none" stroke="#2B2235" stroke-width="1.6" stroke-dasharray="3,2" />
+          </g>
+        `;
+      }
+
+      // If Pregnancy / Trimester presets (or high stretch), show gestational sac scaled to stage
+      if (['pregnancy', 'first_trimester', 'second_trimester', 'third_trimester', 'second_pregnancy', 'pregnancy_after_loss'].includes(currentPreset) || (eSt.scaleX > 1.35 && eSt.morph > 50)) {
+        const sacY = (cavTopY + cavBotY) * 0.45;
+        let rx = 28, ry = 25;
+        if (currentPreset === 'first_trimester') { rx = 14; ry = 13; }
+        else if (currentPreset === 'second_trimester') { rx = 22; ry = 20; }
+        else if (currentPreset === 'third_trimester' || currentPreset === 'second_pregnancy') { rx = 31; ry = 28; }
+        const sacPath = `M ${-rx} ${sacY} a ${rx} ${ry} 0 1 0 ${rx * 2} 0 a ${rx} ${ry} 0 1 0 ${-rx * 2} 0`;
+        endoMarkup += highlighterGroup('endometrium', sacPath, { fill: '#FEE440', rim: '#00BBF9', opacity: 0.66, strokeW: 2.0 });
+      }
+      // If Menstruation / First Period / Postpartum Period / Loss preset, show crimson droplets gently shedding
+      if (['menstruation', 'first_period', 'first_period_after_birth', 'after_pregnancy_loss'].includes(currentPreset)) {
         endoMarkup += highlighterGroup('endometrium', `M -5 95 C -5 88, 0 84, 0 84 C 0 84, 5 88, 5 95 A 5 5 0 1 1 -5 95 Z`, { fill: '#D90429', opacity: 0.85, strokeW: 1.5 });
         endoMarkup += highlighterGroup('endometrium', `M -4 148 C -4 142, 0 138, 0 138 C 0 138, 4 142, 4 148 A 4 4 0 1 1 -4 148 Z`, { fill: '#D90429', opacity: 0.85, strokeW: 1.5 });
       }
@@ -1046,6 +1448,410 @@
         return JSON.parse(JSON.stringify(organState));
       }
     };
+
+    // =========================================================================
+    // INTERACTIVE AGE CAROUSEL 1 (InteractiveAgeDial1 + InteractiveAgeButtonsCarousel1)
+    // =========================================================================
+    const AGE_BRACKETS = [
+      {
+        id: '8-15',
+        label: '8–15',
+        minAge: 8,
+        maxAge: 15,
+        topNote: '→ till end of period',
+        buttons: [
+          { id: 'breast_growth', label: 'Breast growth', preset: 'breast_growth', bg: '#FFE2BA' },
+          { id: 'stds_early', label: "STD's", preset: 'stds', bg: '#FFFFFF' },
+          { id: 'first_period', label: 'First period', preset: 'first_period', bg: '#FFD6A5' },
+          { id: 'menstruation_age', label: 'Menstruation', preset: 'menstruation', bg: '#FFCCE7', note: '→ till end of period' },
+          { id: 'luteal_age', label: 'Luteal', preset: 'luteal', bg: '#FFD6EC', note: '(till menopause) →' }
+        ]
+      },
+      {
+        id: '15-20',
+        label: '15–20',
+        minAge: 15,
+        maxAge: 20,
+        buttons: [
+          { id: 'contraception', label: 'Contraception', preset: 'contraception', bg: '#FFFFFF', arrow: true },
+          { id: 'iud_insertions', label: 'IUD insertions', preset: 'iud_insertions', bg: '#FFFFFF', arrow: true },
+          { id: 'arm_implants', label: 'Arm implants', preset: 'arm_implants', bg: '#FFFFFF', arrow: true },
+          { id: 'use_of_the_pill', label: 'Use of the pill', preset: 'use_of_the_pill', bg: '#FFFFFF', arrow: true },
+          { id: 'depo', label: 'Depo', preset: 'depo', bg: '#FFFFFF', arrow: true }
+        ]
+      },
+      {
+        id: '20-25',
+        label: '20–25',
+        minAge: 20,
+        maxAge: 25,
+        buttons: [
+          { id: 'pregnancy_main', label: 'Pregnancy', preset: 'pregnancy', bg: '#FFFFFF' },
+          { id: 'first_trimester', label: '1st trimester', preset: 'first_trimester', bg: '#FFFFFF', arrow: true },
+          { id: 'second_trimester', label: '2nd trimester', preset: 'second_trimester', bg: '#FFFFFF', arrow: true },
+          { id: 'third_trimester', label: '3rd trimester', preset: 'third_trimester', bg: '#FFFFFF', arrow: true },
+          { id: 'after_pregnancy_loss', label: 'After a pregnancy loss', preset: 'after_pregnancy_loss', bg: '#FFFFFF' }
+        ]
+      },
+      {
+        id: '25-30',
+        label: '25–30',
+        minAge: 25,
+        maxAge: 30,
+        buttons: [
+          { id: 'birth', label: 'Birth', preset: 'birth', bg: '#FFFFFF' },
+          { id: 'vaginal_birth', label: 'Vaginal', preset: 'vaginal_birth', bg: '#FFFFFF' },
+          { id: 'c_section', label: 'C-section', preset: 'c_section', bg: '#FFFFFF' },
+          { id: 'still_birth', label: 'Still birth', preset: 'still_birth', bg: '#FFFFFF' }
+        ]
+      },
+      {
+        id: '30-35',
+        label: '30–35',
+        minAge: 30,
+        maxAge: 35,
+        buttons: [
+          { id: 'second_pregnancy', label: '2nd pregnancy', preset: 'second_pregnancy', bg: '#FFFFFF' },
+          { id: 'pregnancy_after_loss', label: 'Pregnancy after loss', preset: 'pregnancy_after_loss', bg: '#FFFFFF' },
+          { id: 'first_period_after_birth', label: 'First period after birth', preset: 'first_period_after_birth', bg: '#FFFFFF' }
+        ]
+      },
+      {
+        id: '35-40',
+        label: '35–40',
+        minAge: 35,
+        maxAge: 40,
+        buttons: [
+          { id: 'breast_feeding', label: 'Breast feeding', preset: 'breast_feeding', bg: '#FFFFFF' },
+          { id: 'not_breast_feeding', label: 'Not breast feeding', preset: 'not_breast_feeding', bg: '#FFFFFF' }
+        ]
+      },
+      {
+        id: '40-45',
+        label: '40–45',
+        minAge: 40,
+        maxAge: 45,
+        buttons: [
+          { id: 'fibroids', label: 'Fibroids', preset: 'fibroids', bg: '#FFFFFF' },
+          { id: 'ovarian_cyst', label: 'Ovarian cyst', preset: 'ovarian_cyst', bg: '#FFFFFF' },
+          { id: 'hysterectomy_40', label: 'Hysterectomy', preset: 'hysterectomy', bg: '#FFFFFF' }
+        ]
+      },
+      {
+        id: '45-50',
+        label: '45–50',
+        minAge: 45,
+        maxAge: 50,
+        buttons: [
+          { id: 'hysterectomy', label: 'Hysterectomy', preset: 'hysterectomy', bg: '#FFFFFF' },
+          { id: 'ovarian_cancer', label: 'Ovarian cancer', preset: 'ovarian_cancer', bg: '#FFFFFF' },
+          { id: 'fibroids_45', label: 'Fibroids', preset: 'fibroids', bg: '#FFFFFF' },
+          { id: 'ovarian_cyst_45', label: 'Ovarian cyst', preset: 'ovarian_cyst', bg: '#FFFFFF' },
+          { id: 'perimenopause', label: 'Perimenopause', preset: 'perimenopause', bg: '#FFF7AE' }
+        ]
+      },
+      {
+        id: '50-55',
+        label: '50–55',
+        minAge: 50,
+        maxAge: 55,
+        buttons: [
+          { id: 'menopause_50', label: 'Menopause', preset: 'menopause', bg: '#FCE052' },
+          { id: 'ovarian_cancer_50', label: 'Ovarian cancer', preset: 'ovarian_cancer', bg: '#FFFFFF' },
+          { id: 'hysterectomy_50', label: 'Hysterectomy', preset: 'hysterectomy', bg: '#FFFFFF' }
+        ]
+      },
+      {
+        id: '55-65',
+        label: '55–65',
+        minAge: 55,
+        maxAge: 65,
+        buttons: [
+          { id: 'menopause_55', label: 'Menopause', preset: 'menopause', bg: '#F6BC28' },
+          { id: 'post_menopause_55', label: 'Post-menopause', preset: 'post_menopause', bg: '#FFFFFF' }
+        ]
+      },
+      {
+        id: '65-75',
+        label: '65–75',
+        minAge: 65,
+        maxAge: 75,
+        buttons: [
+          { id: 'post_menopause_65', label: 'Post-menopause', preset: 'post_menopause', bg: '#D6A124' },
+          { id: 'ovarian_cancer_65', label: 'Ovarian cancer', preset: 'ovarian_cancer', bg: '#FFFFFF' }
+        ]
+      },
+      {
+        id: '75-85',
+        label: '75–85',
+        minAge: 75,
+        maxAge: 85,
+        buttons: [
+          { id: 'post_menopause_75', label: 'Post-menopause (75–85)', preset: 'post_menopause', bg: '#FFFFFF' }
+        ]
+      },
+      {
+        id: '85-105',
+        label: '85–105',
+        minAge: 85,
+        maxAge: 105,
+        buttons: [
+          { id: 'post_menopause_85', label: 'Post-menopause (85–105)', preset: 'post_menopause', bg: '#FFFFFF' }
+        ]
+      }
+    ];
+
+    let currentAgePercent = 3 / (AGE_BRACKETS.length - 1); // Starts on 25–30 bracket (index 3)
+    let currentBracketIndex = 3;
+    let activeAgeButtonId = null;
+    let activeAgeButtonLabel = null;
+
+    function renderAgeMeterTicks() {
+      const ticksContainer = document.getElementById('age-meter-ticks');
+      if (!ticksContainer) return;
+      let html = '';
+      const n = AGE_BRACKETS.length;
+      for (let i = 0; i < n; i++) {
+        const pct = (i / (n - 1)) * 100;
+        const b = AGE_BRACKETS[i];
+        const isCurrent = i === currentBracketIndex;
+        html += `
+          <div
+            class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 flex flex-col items-center pointer-events-auto cursor-pointer group"
+            style="left: ${pct.toFixed(2)}%;"
+            onclick="jumpToAgeBracket(${i})"
+          >
+            <div class="w-[2.5px] ${isCurrent ? 'h-7 bg-[#CF366C]' : 'h-5 bg-[#2B2235] group-hover:bg-[#CF366C]'} rounded-full transition-all"></div>
+            <span class="mt-1.5 text-[11px] md:text-xs font-extrabold whitespace-nowrap ${isCurrent ? 'text-[#9F133A] scale-105' : 'text-[#2B2235] opacity-85'} transition-transform">
+              ${b.label}
+            </span>
+          </div>
+        `;
+      }
+      ticksContainer.innerHTML = html;
+    }
+
+    function renderAgeCarouselColumns() {
+      const colsContainer = document.getElementById('age-carousel-columns');
+      if (!colsContainer) return;
+      let html = '';
+      for (let i = 0; i < AGE_BRACKETS.length; i++) {
+        const b = AGE_BRACKETS[i];
+        const isCurrentBracket = i === currentBracketIndex;
+        let btnsHtml = '';
+        for (const btn of b.buttons) {
+          const isAct = activeAgeButtonId === btn.id;
+          const arrowHtml = btn.arrow
+            ? `<span class="ml-1.5 text-[#CF366C] font-extrabold text-sm leading-none">→</span>`
+            : '';
+          const noteHtml = btn.note
+            ? `<span class="block text-[10px] font-bold text-[#CF366C] leading-tight mt-0.5">${btn.note}</span>`
+            : '';
+          btnsHtml += `
+            <button
+              type="button"
+              id="age-btn-${btn.id}"
+              onclick="handleAgeButtonClick('${btn.id}', '${btn.preset}', '${btn.label.replace(/'/g, "\\'")}', ${i})"
+              class="age-sketch-btn px-3 py-1.5 text-xs font-bold text-[#2B2235] text-left flex flex-col justify-center ${isAct ? 'active-age-btn' : ''}"
+              style="background-color: ${isAct ? '#FEACEC' : (btn.bg || '#FFFFFF')};"
+            >
+              <span class="inline-flex items-center justify-between w-full whitespace-nowrap">
+                <span>${btn.label}</span>
+                ${arrowHtml}
+              </span>
+              ${noteHtml}
+            </button>
+          `;
+        }
+
+        html += `
+          <div
+            id="age-col-${i}"
+            data-bracket-index="${i}"
+            class="flex flex-col gap-2 min-w-[155px] md:min-w-[172px] p-2.5 rounded-xl border transition-all ${
+              isCurrentBracket
+                ? 'bg-[#FEACEC]/20 border-[#CF366C]/50 shadow-sm'
+                : 'bg-white/70 border-transparent hover:border-[#e5dce8]'
+            }"
+          >
+            <div class="flex items-center justify-between border-b border-[#e5dce8] pb-1 mb-0.5">
+              <span class="text-xs font-extrabold ${isCurrentBracket ? 'text-[#9F133A]' : 'text-[#6e5d78]'}">
+                Ages ${b.label}
+              </span>
+              ${
+                isCurrentBracket
+                  ? '<span class="text-[10px] font-extrabold uppercase px-1.5 py-0.5 rounded bg-[#CF366C] text-white">Dial</span>'
+                  : ''
+              }
+            </div>
+            <div class="flex flex-col gap-1.5">
+              ${btnsHtml}
+            </div>
+          </div>
+        `;
+      }
+      colsContainer.innerHTML = html;
+    }
+
+    function getAgeFromPercent(pct) {
+      const clamped = Math.max(0, Math.min(1, pct));
+      const n = AGE_BRACKETS.length;
+      const exactIdx = clamped * (n - 1);
+      const idx = Math.min(n - 1, Math.round(exactIdx));
+      const b = AGE_BRACKETS[idx];
+      const localT = Math.max(0, Math.min(1, exactIdx - Math.floor(exactIdx)));
+      const bFloor = AGE_BRACKETS[Math.floor(exactIdx)];
+      const ageVal = Math.round(bFloor.minAge + localT * (bFloor.maxAge - bFloor.minAge));
+      return { idx, bracket: b, age: ageVal };
+    }
+
+    function setAgeDialPercent(pct, options = { scrollCarousel: true }) {
+      const clamped = Math.max(0, Math.min(1, pct));
+      currentAgePercent = clamped;
+      const info = getAgeFromPercent(clamped);
+      currentBracketIndex = info.idx;
+
+      const handle = document.getElementById('age-heart-handle');
+      if (handle) {
+        handle.style.left = `${(clamped * 100).toFixed(2)}%`;
+        handle.setAttribute('aria-valuenow', String(info.age));
+      }
+
+      const readout = document.getElementById('age-dial-readout');
+      if (readout) {
+        readout.textContent = `Age Group: ${info.bracket.label} yrs (${info.age} yrs old)`;
+      }
+
+      const attachedAgeLbl = document.getElementById('attached-age-label');
+      if (attachedAgeLbl) {
+        attachedAgeLbl.textContent = info.bracket.label;
+      }
+
+      renderAgeMeterTicks();
+      renderAgeCarouselColumns();
+      updateAttachedBadge();
+
+      if (options.scrollCarousel) {
+        scrollCarouselToBracket(currentBracketIndex, options.instant);
+      }
+    }
+
+    function scrollCarouselToBracket(bracketIdx, instant = false) {
+      const carousel = document.getElementById('InteractiveAgeButtonsCarousel1');
+      const col = document.getElementById(`age-col-${bracketIdx}`);
+      if (!carousel || !col) return;
+      const targetLeft = col.offsetLeft - carousel.clientWidth / 2 + col.clientWidth / 2;
+      carousel.scrollTo({
+        left: Math.max(0, targetLeft),
+        behavior: instant ? 'auto' : 'smooth'
+      });
+    }
+
+    function jumpToAgeBracket(bracketIdx) {
+      const n = AGE_BRACKETS.length;
+      const pct = bracketIdx / (n - 1);
+      setAgeDialPercent(pct, { scrollCarousel: true, instant: false });
+    }
+
+    function handleAgeButtonClick(btnId, presetName, btnLabel, bracketIdx) {
+      activeAgeButtonId = btnId;
+      activeAgeButtonLabel = btnLabel;
+      applyPreset(presetName);
+      renderAgeCarouselColumns();
+      updateAttachedBadge();
+    }
+
+    function updateAttachedBadge() {
+      const badge = document.getElementById('active-age-button-readout');
+      if (!badge) return;
+      if (!activeAgeButtonLabel) {
+        badge.classList.add('hidden');
+        return;
+      }
+      badge.classList.remove('hidden');
+      const attachChecked = document.getElementById('toggle-attach-age')?.checked;
+      const bracketLabel = AGE_BRACKETS[currentBracketIndex]?.label || '25–30';
+      if (attachChecked) {
+        badge.textContent = `Active State: ${activeAgeButtonLabel} (Attached to Ages ${bracketLabel})`;
+      } else {
+        badge.textContent = `Active State: ${activeAgeButtonLabel} (Exploring freely — not attached to age)`;
+      }
+    }
+
+    // Setup Pointer Dragging on InteractiveAgeDial1 (Heart Handle & Track)
+    (function initAgeDialAndCarouselInteractions() {
+      const track = document.getElementById('age-meter-track');
+      const handle = document.getElementById('age-heart-handle');
+      const carousel = document.getElementById('InteractiveAgeButtonsCarousel1');
+      let isDraggingDial = false;
+
+      function updateFromClientX(clientX, instantScroll) {
+        if (!track) return;
+        const rect = track.getBoundingClientRect();
+        if (rect.width <= 0) return;
+        const pct = (clientX - rect.left) / rect.width;
+        setAgeDialPercent(pct, { scrollCarousel: true, instant: instantScroll });
+      }
+
+      if (handle) {
+        handle.addEventListener('pointerdown', (e) => {
+          e.stopPropagation();
+          isDraggingDial = true;
+          handle.setPointerCapture(e.pointerId);
+        });
+        handle.addEventListener('pointermove', (e) => {
+          if (!isDraggingDial) return;
+          updateFromClientX(e.clientX, true);
+        });
+        handle.addEventListener('pointerup', (e) => {
+          if (!isDraggingDial) return;
+          isDraggingDial = false;
+          // Smoothly center the active age bracket column on release
+          scrollCarouselToBracket(currentBracketIndex, false);
+        });
+      }
+
+      if (track) {
+        track.addEventListener('pointerdown', (e) => {
+          if (e.target.closest('#age-heart-handle')) return;
+          isDraggingDial = true;
+          updateFromClientX(e.clientX, false);
+        });
+      }
+
+      // Horizontal mouse/finger drag-to-scroll on InteractiveAgeButtonsCarousel1
+      if (carousel) {
+        let isDraggingCarousel = false;
+        let startX = 0;
+        let scrollStart = 0;
+        let movedDist = 0;
+
+        carousel.addEventListener('pointerdown', (e) => {
+          if (e.target.closest('button')) return;
+          isDraggingCarousel = true;
+          movedDist = 0;
+          startX = e.clientX;
+          scrollStart = carousel.scrollLeft;
+          carousel.classList.add('is-dragging');
+          carousel.setPointerCapture(e.pointerId);
+        });
+
+        carousel.addEventListener('pointermove', (e) => {
+          if (!isDraggingCarousel) return;
+          const dx = e.clientX - startX;
+          movedDist = Math.abs(dx);
+          carousel.scrollLeft = scrollStart - dx;
+        });
+
+        carousel.addEventListener('pointerup', () => {
+          isDraggingCarousel = false;
+          carousel.classList.remove('is-dragging');
+        });
+      }
+
+      // Initialize Age Dial at 25–30 yrs (index 3) matching sketch
+      setAgeDialPercent(3 / (AGE_BRACKETS.length - 1), { scrollCarousel: true, instant: true });
+    })();
 
     // Initialize
     syncControlsToSelected();

@@ -21,7 +21,11 @@ export default function MyBodyHomePage({
 
   return h(
     'div',
-    { className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden' },
+    {
+      id: 'MyBodyHomePageList1',
+      'data-piece-list': 'InteractiveTopSettings1,InteractiveAgeCarousel1,InteractiveAgeDial1,InteractiveAgeButtonsCarousel1,OrganButtons1,MyBodyImage1,MyBodySettings1',
+      className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden'
+    },
     // Top Header Bar with Back Button + My Body Title
     h(
       'div',
@@ -44,7 +48,7 @@ export default function MyBodyHomePage({
     // Embedded MyBodyInteractiveHomePage1.html
     h('iframe', {
       ref: iframeRef,
-      src: '/MyBodyInteractiveHomePage1.html?v=176',
+      src: '/MyBodyInteractiveHomePage1.html?v=179',
       title: tr('eduBtnMyBody', 'My Body'),
       className: 'flex-1 w-full h-full border-0',
       onLoad: () => {

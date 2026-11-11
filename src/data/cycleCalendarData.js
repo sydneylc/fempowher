@@ -85,6 +85,8 @@ export const CYCLE_PHASE_DEFINITIONS = [
 export function createBlankCycleCalendarState() {
   return {
     hasEnteredCycleData: false,
+    calendarPasswordEnabled: false,
+    calendarPassword: '',
     FirstDayOfPeriod1: '', // YYYY-MM-DD when user sets it in CalendarSettingsHomePage1
     PeriodDaysDuration1: 5, // 1–7 days customizable (includes FirstDayOfPeriod1 as day 1)
     FollicularPhaseDuration1: 5, // 1–7 days customizable
@@ -109,12 +111,14 @@ export function loadUserCycleCalendarState(usernameKey = 'Anonymous') {
     const raw = localStorage.getItem(storageKey);
     if (!raw) return createBlankCycleCalendarState();
     const parsed = JSON.parse(raw);
-    if (!parsed || typeof parsed !== 'object' || !parsed.hasEnteredCycleData || !parsed.FirstDayOfPeriod1) {
+    if (!parsed || typeof parsed !== 'object') {
       return createBlankCycleCalendarState();
     }
+    const hasCycle = Boolean(parsed.hasEnteredCycleData && parsed.FirstDayOfPeriod1);
     return {
       ...createBlankCycleCalendarState(),
       ...parsed,
+      hasEnteredCycleData: hasCycle,
       visiblePhases: {
         ...createBlankCycleCalendarState().visiblePhases,
         ...(parsed.visiblePhases || {})
@@ -279,6 +283,9 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     repeatsNote: 'Repeats over and over again...',
     calSettingsTitle: 'Calendar Settings',
     calSettingsSubtitle: 'Customize your cycle phases (1–7 days each). All colors are translucent on your calendar so phase transitions & overlaps stay visible.',
+    addPasswordLabel: 'Add a Password',
+    addPasswordDesc: 'Lock your cycle calendar with a password when opening the calendar widget.',
+    passwordInputPlaceholder: 'Enter a password for your calendar...',
     firstDayLabel: 'First Day of Period (Reported by User)',
     firstDayDesc: 'Bright red boxed day marking Day 1 of your menstrual bleeding.',
     periodDaysLabel: 'Days of Period (1–7 Days Customizable)',
@@ -324,6 +331,9 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     repeatsNote: 'يتكرر باستمرار...',
     calSettingsTitle: 'إعدادات التقويم',
     calSettingsSubtitle: 'خصّصي مراحل دورتكِ الشهرية (١–٧ أيام لكل مرحلة). جميع الألوان شفافة لإظهار التداخل.',
+    addPasswordLabel: 'إضافة كلمة مرور',
+    addPasswordDesc: 'اقفلي تقويم دورتكِ الشهرية بكلمة مرور عند الضغط على أداة التقويم.',
+    passwordInputPlaceholder: 'أدخلي كلمة مرور لتقويمكِ...',
     firstDayLabel: 'أول يوم للدورة الشهرية (تحدده المستخدمة)',
     firstDayDesc: 'مربع أحمر ساطع يحدد اليوم الأول للحيض.',
     periodDaysLabel: 'أيام الدورة الشهرية (١–٧ أيام قابلة للتخصيص)',
@@ -369,6 +379,9 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     repeatsNote: 'Se repite una y otra vez...',
     calSettingsTitle: 'Ajustes del Calendario',
     calSettingsSubtitle: 'Personaliza las fases de tu ciclo (1–7 días cada una). Los colores son translúcidos para mostrar superposiciones.',
+    addPasswordLabel: 'Añadir una Contraseña',
+    addPasswordDesc: 'Bloquea tu calendario del ciclo con una contraseña al abrir el widget.',
+    passwordInputPlaceholder: 'Escribe una contraseña para tu calendario...',
     firstDayLabel: 'Primer Día del Período (Reportado por la Usuaria)',
     firstDayDesc: 'Rojo brillante marcando el Día 1 de tu menstruación.',
     periodDaysLabel: 'Días de Período (1–7 Días Personalizables)',
@@ -414,6 +427,9 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     repeatsNote: 'Se répète continuellement...',
     calSettingsTitle: 'Réglages du Calendrier',
     calSettingsSubtitle: 'Personnalisez les phases de votre cycle (1 à 7 jours chacune).',
+    addPasswordLabel: 'Ajouter un Mot de Passe',
+    addPasswordDesc: 'Verrouillez votre calendrier avec un mot de passe.',
+    passwordInputPlaceholder: 'Entrez un mot de passe pour votre calendrier...',
     firstDayLabel: 'Premier Jour des Règles',
     firstDayDesc: 'Rouge vif marquant le 1er jour des règles.',
     periodDaysLabel: 'Jours des Règles (1–7 Jours)',

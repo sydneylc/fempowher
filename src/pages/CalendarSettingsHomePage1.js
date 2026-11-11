@@ -1,6 +1,6 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=184';
-import { isRtlLanguage } from '../data/translations.js?v=184';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=186';
+import { isRtlLanguage } from '../data/translations.js?v=186';
 import {
   CYCLE_PHASE_DEFINITIONS,
   createBlankCycleCalendarState,
@@ -8,7 +8,7 @@ import {
   loadUserCycleCalendarState,
   saveUserCycleCalendarState,
   renderGearHeartIcon
-} from '../data/cycleCalendarData.js?v=184';
+} from '../data/cycleCalendarData.js?v=186';
 
 const h = React.createElement;
 
@@ -39,6 +39,8 @@ export function CalendarSettingsHomePage1({
 
   const initial = cycleCalendarState || loadUserCycleCalendarState(UserNameChoiceInsert1);
 
+  const [passwordEnabled, setPasswordEnabled] = useState(Boolean(initial.calendarPasswordEnabled));
+  const [calendarPassword, setCalendarPassword] = useState(initial.calendarPassword || '');
   const [firstDay, setFirstDay] = useState(initial.FirstDayOfPeriod1 || '');
   const [periodDays, setPeriodDays] = useState(Number(initial.PeriodDaysDuration1) || 5);
   const [follicularDays, setFollicularDays] = useState(Number(initial.FollicularPhaseDuration1) || 5);
@@ -62,6 +64,8 @@ export function CalendarSettingsHomePage1({
     const nextState = {
       ...initial,
       hasEnteredCycleData: true,
+      calendarPasswordEnabled: Boolean(passwordEnabled),
+      calendarPassword: passwordEnabled ? String(calendarPassword || '') : '',
       FirstDayOfPeriod1: chosenFirstDay,
       PeriodDaysDuration1: Math.max(1, Math.min(7, Number(periodDays) || 5)),
       FollicularPhaseDuration1: Math.max(1, Math.min(7, Number(follicularDays) || 5)),
@@ -80,6 +84,8 @@ export function CalendarSettingsHomePage1({
 
   const handleResetToBlank = () => {
     const blankState = createBlankCycleCalendarState();
+    setPasswordEnabled(false);
+    setCalendarPassword('');
     setFirstDay('');
     setPeriodDays(5);
     setFollicularDays(5);
@@ -202,6 +208,93 @@ export function CalendarSettingsHomePage1({
       h(
         'form',
         { onSubmit: handleSave, className: 'space-y-4' },
+
+        // 0. FIRST BUBBLE: CalendarPasswordSetting1 — "Add a Password" + Apple iOS Green Lever Switch
+        h(
+          'div',
+          {
+            id: 'CalendarPasswordSetting1',
+            'data-piece-name': 'CalendarPasswordSetting1',
+            className: 'p-4 rounded-2xl border-2 border-black bg-white space-y-3'
+          },
+          h(
+            'div',
+            { className: 'flex items-center justify-between gap-3' },
+            h(
+              'div',
+              { className: 'min-w-0' },
+              h(
+                'label',
+                {
+                  className: 'text-sm sm:text-base font-black text-black block cursor-pointer',
+                  onClick: () => setPasswordEnabled((prev) => !prev)
+                },
+                ct('addPasswordLabel', 'Add a Password')
+              ),
+              h(
+                'p',
+                { className: 'text-xs font-semibold text-black/75 mt-0.5' },
+                ct(
+                  'addPasswordDesc',
+                  'Lock your cycle calendar with a password when opening the calendar widget.'
+                )
+              )
+            ),
+
+            // Apple-style Toggle Lever Switch (Turns Apple Green #34C759 when clicked ON)
+            h(
+              'button',
+              {
+                type: 'button',
+                role: 'switch',
+                'aria-checked': passwordEnabled,
+                onClick: () => setPasswordEnabled((prev) => !prev),
+                className:
+                  'relative inline-flex items-center shrink-0 cursor-pointer transition-colors duration-200 ease-in-out focus:outline-none',
+                style: {
+                  width: '54px',
+                  height: '32px',
+                  borderRadius: '9999px',
+                  backgroundColor: passwordEnabled ? '#34C759' : '#E5E5EA',
+                  border: '2px solid #000000',
+                  padding: '2px'
+                },
+                title: ct('addPasswordLabel', 'Add a Password')
+              },
+              h('span', {
+                className: 'inline-block rounded-full bg-white shadow-md transition-transform duration-200 ease-in-out',
+                style: {
+                  width: '24px',
+                  height: '24px',
+                  border: '1.5px solid #000000',
+                  transform: passwordEnabled
+                    ? isRtl
+                      ? 'translateX(-22px)'
+                      : 'translateX(22px)'
+                    : 'translateX(0px)'
+                }
+              })
+            )
+          ),
+
+          // When Apple lever is switched ON (green), reveal the password input box
+          passwordEnabled &&
+            h(
+              'div',
+              { className: 'pt-2 border-t border-black/15' },
+              h('input', {
+                type: 'password',
+                value: calendarPassword,
+                onChange: (e) => setCalendarPassword(e.target.value),
+                placeholder: ct(
+                  'passwordInputPlaceholder',
+                  'Enter a password for your calendar...'
+                ),
+                className:
+                  'w-full px-4 py-2.5 rounded-xl border-2 border-black bg-white text-black font-bold text-sm outline-none focus:ring-2 focus:ring-[#34C759]'
+              })
+            )
+        ),
 
         // 1. FirstDayOfPeriod1 (Bright Red boxed day)
         h(

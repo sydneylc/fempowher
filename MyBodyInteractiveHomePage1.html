@@ -69,7 +69,7 @@
     }
   </style>
 </head>
-<body class="bg-[var(--background,#faf8f5)] text-[var(--foreground,#2b2235)] antialiased p-4 md:p-6">
+<body class="bg-white text-[var(--foreground,#2b2235)] antialiased p-4 md:p-6">
   <div id="MyBodyHomePageList1" class="max-w-7xl mx-auto space-y-4">
     <!-- 1. InteractiveTopSettings1: Top Header & Lifecycle State Buttons -->
     <div id="InteractiveTopSettings1" data-piece-name="InteractiveTopSettings1" class="bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
@@ -270,10 +270,10 @@
         </div>
       </div>
 
-      <!-- 4. MyBodyImage1 — Center Column: Translucent Loose-Outline SVG Canvas (No Background Necessary) -->
-      <div id="MyBodyImage1" data-piece-name="MyBodyImage1" class="lg:col-span-6 rounded-2xl border border-[var(--border,#e5dce8)] flex flex-col items-center justify-center relative overflow-hidden p-2" style="background: transparent;">
-        <div id="canvas-container" class="w-full flex flex-col items-center justify-center">
-          <svg id="anatomy-svg" viewBox="-380 -510 760 980" class="w-full max-w-[600px] h-auto select-none" xmlns="http://www.w3.org/2000/svg"></svg>
+      <!-- 4. MyBodyImage1 — Center Column: Translucent Loose-Outline SVG Canvas (Pure White Background) -->
+      <div id="MyBodyImage1" data-piece-name="MyBodyImage1" class="lg:col-span-6 bg-white rounded-2xl border border-[var(--border,#e5dce8)] flex flex-col items-center justify-center relative overflow-hidden p-2" style="background-color: #ffffff;">
+        <div id="canvas-container" class="w-full bg-white flex flex-col items-center justify-center" style="background-color: #ffffff;">
+          <svg id="anatomy-svg" viewBox="-380 -510 760 980" class="w-full max-w-[600px] h-auto select-none bg-white" style="background-color: #ffffff;" xmlns="http://www.w3.org/2000/svg"></svg>
         </div>
       </div>
 
@@ -528,20 +528,20 @@
       },
       water_sac: {
         name: "Water Sac (Amniotic Sac)",
-        color: "#FFB703",
+        color: "#FFFFFF",
         rimColor: "#FB8500",
-        opacity: 0.84,
+        opacity: 0.95,
         morphLabel: "Membrane Stretch / Intactness",
-        desc: "Protective translucent golden-amber membrane sac (amniotic & chorionic membranes) enclosing the amniotic fluid and baby inside the uterus.",
+        desc: "Protective membrane sac (amniotic & chorionic membranes) with a clean white interior enclosing the amniotic fluid and baby inside the uterus.",
         isPregnancyComponent: true
       },
       amniotic_fluid: {
         name: "Amniotic Fluid (The Fluid)",
-        color: "#FFE599",
+        color: "#FFFFFF",
         rimColor: "#FFB703",
-        opacity: 0.78,
+        opacity: 0.95,
         morphLabel: "Fluid Cushion Volume",
-        desc: "Warm, cushioning fluid inside the water sac that protects the baby, regulates temperature, and supports lung and limb development.",
+        desc: "Clear, protective fluid inside the water sac (rendered with a clean white background) that cushions the baby and supports development.",
         isPregnancyComponent: true
       },
       fetus_baby: {
@@ -1922,10 +1922,10 @@
         `;
         if (isDamagedLoss || isAboutToBirth) {
           // Damaged / ruptured water sac (dashed/frayed bottom border showing membrane rupture or loss)
-          waterSacMarkup += highlighterGroup('water_sac', wsPath, { strokeW: 2.6, whiteMix: 0.90 });
+          waterSacMarkup += highlighterGroup('water_sac', wsPath, { fill: '#FFFFFF', strokeW: 2.6, whiteMix: 1.0 });
           waterSacMarkup += `<path d="${wsPath}" fill="none" stroke="#D90429" stroke-width="2.8" stroke-dasharray="6,5" />`;
         } else {
-          waterSacMarkup += highlighterGroup('water_sac', wsPath, { strokeW: 2.8, whiteMix: 0.86 });
+          waterSacMarkup += highlighterGroup('water_sac', wsPath, { fill: '#FFFFFF', strokeW: 2.8, whiteMix: 1.0 });
         }
         html += `<g class="organ-btn ${selectedOrgan === 'water_sac' ? 'selected-organ' : ''}" data-organ="water_sac" onclick="selectOrgan('water_sac', event)" transform="${organTransformAttr('water_sac', pregCenterX, pregCenterY)}">${waterSacMarkup}</g>`;
       }
@@ -1940,7 +1940,7 @@
           C ${(pregCenterX + flRx * 1.08).toFixed(1)} ${(pregCenterY - flRy * 0.92).toFixed(1)}, ${(pregCenterX + flRx * 1.10).toFixed(1)} ${(pregCenterY + flRy * 0.70).toFixed(1)}, ${pregCenterX} ${(pregCenterY + flRy).toFixed(1)}
           C ${(pregCenterX - flRx * 1.10).toFixed(1)} ${(pregCenterY + flRy * 0.70).toFixed(1)}, ${(pregCenterX - flRx * 1.08).toFixed(1)} ${(pregCenterY - flRy * 0.92).toFixed(1)}, ${pregCenterX} ${(pregCenterY - flRy).toFixed(1)} Z
         `;
-        fluidMarkup += highlighterGroup('amniotic_fluid', flPath, { strokeW: 2.0, whiteMix: 0.82 });
+        fluidMarkup += highlighterGroup('amniotic_fluid', flPath, { fill: '#FFFFFF', strokeW: 2.0, whiteMix: 1.0 });
         // Gentle cartoon fluid ripple arcs & warm floating droplets (no blue!)
         fluidMarkup += `<path d="M ${(pregCenterX - flRx * 0.55).toFixed(1)} ${(pregCenterY - flRy * 0.35).toFixed(1)} Q ${pregCenterX} ${(pregCenterY - flRy * 0.52).toFixed(1)} ${(pregCenterX + flRx * 0.55).toFixed(1)} ${(pregCenterY - flRy * 0.35).toFixed(1)}" fill="none" stroke="#FFB703" stroke-width="2.4" stroke-linecap="round" stroke-opacity="0.72" />`;
         fluidMarkup += `<circle cx="${(pregCenterX - flRx * 0.62).toFixed(1)}" cy="${(pregCenterY + flRy * 0.25).toFixed(1)}" r="4.2" fill="#FFFFFF" fill-opacity="0.80" />`;

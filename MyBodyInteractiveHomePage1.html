@@ -7,6 +7,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
   <style>
+    :root, html, body, #MyBodyHomePageList1, #MyBodyImage1 {
+      --background: #ffffff !important;
+      background: #ffffff !important;
+      background-color: #ffffff !important;
+    }
+    #canvas-container:not(.checkerboard),
+    #canvas-container:not(.checkerboard) #anatomy-svg {
+      background: #ffffff !important;
+      background-color: #ffffff !important;
+    }
     .checkerboard {
       background-image:
         linear-gradient(45deg, rgba(140, 120, 150, 0.09) 25%, transparent 25%),
@@ -270,10 +280,17 @@
         </div>
       </div>
 
-      <!-- 4. MyBodyImage1 — Center Column: Translucent Loose-Outline SVG Canvas (Pure White Background) -->
-      <div id="MyBodyImage1" data-piece-name="MyBodyImage1" class="lg:col-span-6 bg-white rounded-2xl border border-[var(--border,#e5dce8)] flex flex-col items-center justify-center relative overflow-hidden p-2" style="background-color: #ffffff;">
+      <!-- 4. MyBodyImage1 — Center Column: Translucent Loose-Outline SVG Canvas (Pure White Background & Full-Body Viewport Fit) -->
+      <div id="MyBodyImage1" data-piece-name="MyBodyImage1" class="lg:col-span-6 bg-white rounded-2xl border border-[var(--border,#e5dce8)] flex flex-col items-center justify-center relative overflow-hidden p-1.5" style="background-color: #ffffff;">
         <div id="canvas-container" class="w-full bg-white flex flex-col items-center justify-center" style="background-color: #ffffff;">
-          <svg id="anatomy-svg" viewBox="-380 -510 760 980" class="w-full max-w-[600px] h-auto select-none bg-white" style="background-color: #ffffff;" xmlns="http://www.w3.org/2000/svg"></svg>
+          <svg
+            id="anatomy-svg"
+            viewBox="-355 -422 710 865"
+            preserveAspectRatio="xMidYMid meet"
+            class="select-none bg-white"
+            style="width: auto; height: auto; max-width: 100%; max-height: calc(100vh - 20px); margin: 0 auto; display: block; background-color: #ffffff;"
+            xmlns="http://www.w3.org/2000/svg"
+          ></svg>
         </div>
       </div>
 
@@ -1445,6 +1462,7 @@
       const cervTopY = utBotY - 14;
       const cervBotY = utBotY + 50 * organState.cervix.scaleY;
 
+      const isChecker = document.getElementById('toggle-checker') && document.getElementById('toggle-checker').checked;
       let html = `
         <defs>
           <!-- Soft organic cartoon line filter -->
@@ -1453,6 +1471,7 @@
             <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.15" xChannelSelector="R" yChannelSelector="G" />
           </filter>
         </defs>
+        ${isChecker ? '' : '<rect x="-380" y="-510" width="760" height="980" fill="#FFFFFF" />'}
       `;
 
       // -----------------------------------------------------------------------
@@ -3040,6 +3059,28 @@
     // Initialize
     syncControlsToSelected();
     renderAnatomy();
+
+    // Notify parent MyBodyHomePage when scrolling so the top "My Body" title area shrinks when scrolling down
+    (function setupScrollShrinkNotification() {
+      const topSettings = document.getElementById('InteractiveTopSettings1');
+      const notifyScroll = () => {
+        const scrollTop = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        const isScrolled = scrollTop > 20;
+        if (topSettings) {
+          topSettings.style.padding = isScrolled ? '6px 12px' : '';
+          topSettings.style.transition = 'padding 0.18s ease';
+        }
+        try {
+          if (window.parent && window.parent !== window) {
+            window.parent.postMessage({ type: 'MY_BODY_SCROLL', scrollTop, isScrolled }, '*');
+          }
+        } catch (err) {
+          // Ignore cross-origin frame message errors if any
+        }
+      };
+      window.addEventListener('scroll', notifyScroll, { passive: true });
+      document.addEventListener('scroll', notifyScroll, { passive: true });
+    })();
   </script>
 </body>
 </html>

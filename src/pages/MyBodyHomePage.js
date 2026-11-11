@@ -1,10 +1,12 @@
 import React, { useRef, useState, useEffect } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=194';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=195';
+import { renderGearHeartIcon } from '../data/cycleCalendarData.js?v=195';
 
 const h = React.createElement;
 
 export default function MyBodyHomePage({
   onBack,
+  onOpenMyBodySettings = null,
   onNavigateEducationPage = null,
   UserLanguageChoice1 = null,
   lang = 'en',
@@ -30,14 +32,36 @@ export default function MyBodyHomePage({
     return t[key] || fallback;
   };
 
+  const handleMyBodySettingsClick = () => {
+    if (typeof onOpenMyBodySettings === 'function') {
+      onOpenMyBodySettings();
+      return;
+    }
+    try {
+      if (iframeRef.current && iframeRef.current.contentWindow && iframeRef.current.contentWindow.document) {
+        const doc = iframeRef.current.contentWindow.document;
+        const target = doc.getElementById('MyBodySettings1') || doc.getElementById('InteractiveTopSettings1');
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          target.style.boxShadow = '0 0 0 3px #CF366C';
+          setTimeout(() => {
+            target.style.boxShadow = '';
+          }, 1400);
+        }
+      }
+    } catch (err) {
+      // Ignore cross-origin frame access if any
+    }
+  };
+
   return h(
     'div',
     {
       id: 'MyBodyHomePageList1',
-      'data-piece-list': 'InteractiveTopSettings1,InteractiveAgeCarousel1,InteractiveAgeDial1,InteractiveActiveBodyFilters1,InteractiveAgeButtonsCarousel1,OrganButtons1,ConceptionComponents1,PregnancyComponents1,MyBodyImage1,MyBodySettings1',
+      'data-piece-list': 'MyBodySettingsButton1,InteractiveTopSettings1,InteractiveAgeCarousel1,InteractiveAgeDial1,InteractiveActiveBodyFilters1,InteractiveAgeButtonsCarousel1,OrganButtons1,ConceptionComponents1,PregnancyComponents1,MyBodyImage1,MyBodySettings1',
       className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden'
     },
-    // Top Header Bar with Back Button + My Body Title (automatically compacts when scrolling down!)
+    // Top Header Bar with Back Button + My Body Title + Top-Right MyBodySettingsButton1 (automatically compacts when scrolling down!)
     h(
       'div',
       {
@@ -67,13 +91,32 @@ export default function MyBodyHomePage({
           },
           tr('eduBtnMyBody', 'My Body')
         ),
-        h('div', { className: isScrolledDown ? 'w-12 shrink-0' : 'w-16 sm:w-20 shrink-0' })
+        // Top-Right Corner (Always Available): MyBodySettingsButton1 (New button using the same Gear-with-a-Heart icon as the Cycle Calendar)
+        h(
+          'button',
+          {
+            id: 'MyBodySettingsButton1',
+            'data-piece-name': 'MyBodySettingsButton1',
+            type: 'button',
+            onClick: handleMyBodySettingsClick,
+            className: `shrink-0 origin-right flex items-center gap-2 px-2.5 py-1.5 rounded-xl border-2 border-black bg-white hover:bg-black/5 shadow-sm cursor-pointer transition-all duration-150 active:scale-95 ${
+              isScrolledDown ? 'scale-75' : 'scale-100'
+            }`,
+            title: tr('mySettingsBtn', 'My Settings')
+          },
+          renderGearHeartIcon(h, 28, '#000000', '#CF366C'),
+          h(
+            'span',
+            { className: 'text-xs sm:text-sm font-extrabold text-black' },
+            tr('mySettingsBtn', 'My Settings')
+          )
+        )
       )
     ),
     // Embedded MyBodyInteractiveHomePage1.html
     h('iframe', {
       ref: iframeRef,
-      src: '/MyBodyInteractiveHomePage1.html?v=194',
+      src: '/MyBodyInteractiveHomePage1.html?v=195',
       title: tr('eduBtnMyBody', 'My Body'),
       className: 'flex-1 w-full h-full border-0 bg-white',
       style: { backgroundColor: '#ffffff' },

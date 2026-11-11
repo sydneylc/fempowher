@@ -692,10 +692,10 @@ export function getEducationTopicIssues(topicId, countryName = 'Your Country', u
         icon: '',
         severity: 'high',
         title: {
-          en: 'STIs / STDs Overview: Confidential Screening, Symptoms & Curable vs. Manageable Infections'
+          en: 'STDs Overview: Confidential Screening, Symptoms & Curable vs. Manageable Diseases'
         },
         normalVsAbnormal: {
-          en: 'MANY STIs HAVE ZERO SYMPTOMS AT FIRST: Over 70% of women with Chlamydia, Gonorrhea, HPV, or early HIV feel completely normal. When symptoms do appear, they include unusual yellow, green, or gray vaginal discharge, burning when urinating, bleeding between periods or after intimacy, pelvic or lower abdominal pain, or genital sores, blisters, or warts.'
+          en: 'MANY STDs HAVE ZERO SYMPTOMS AT FIRST: Over 70% of women with Chlamydia, Gonorrhea, HPV, or early HIV feel completely normal. When symptoms do appear, they include unusual yellow, green, or gray vaginal discharge, burning when urinating, bleeding between periods or after intimacy, pelvic or lower abdominal pain, or genital sores, blisters, or warts.'
         },
         redFlags: {
           en: [
@@ -705,7 +705,7 @@ export function getEducationTopicIssues(topicId, countryName = 'Your Country', u
           ]
         },
         selfCare: {
-          en: 'Bacterial and parasitic STIs (Chlamydia, Gonorrhea, Syphilis, Trichomoniasis) are 100% curable with simple antibiotics, and viral STIs (HIV, HPV, Herpes, Hepatitis B) are safely manageable with modern medicine and vaccines. Use the map to find free, judgment-free STI testing and treatment at any Women’s Safe Haven or OB/GYN clinic.'
+          en: 'Bacterial and parasitic STDs (Chlamydia, Gonorrhea, Syphilis, Trichomoniasis) are 100% curable with simple antibiotics, and viral STDs (HIV, HPV, Herpes, Hepatitis B) are safely manageable with modern medicine and vaccines. Use the map to find free, judgment-free STD testing and treatment at any Women’s Safe Haven or OB/GYN clinic.'
         }
       },
       {
@@ -713,7 +713,7 @@ export function getEducationTopicIssues(topicId, countryName = 'Your Country', u
         icon: '',
         severity: 'info',
         title: {
-          en: 'Curable STIs / STDs: Chlamydia, Gonorrhea, Syphilis & Trichomoniasis'
+          en: 'Curable STDs: Chlamydia, Gonorrhea, Syphilis & Trichomoniasis'
         },
         normalVsAbnormal: {
           en: 'CURABLE WITH ANTIBIOTICS: Chlamydia, Gonorrhea, Syphilis, and Trichomoniasis are completely curable with a short course of oral or injectable medication. If left untreated, Chlamydia and Gonorrhea can silently climb into the uterus and Fallopian tubes, causing scar tissue, ectopic pregnancy, or infertility.'
@@ -734,20 +734,20 @@ export function getEducationTopicIssues(topicId, countryName = 'Your Country', u
         icon: '',
         severity: 'info',
         title: {
-          en: 'Viral STIs / STDs: HPV (Cervical Health), HIV (PrEP & PEP), Herpes (HSV) & Hepatitis B'
+          en: 'Viral STDs: HPV (Cervical Health), HIV (PrEP & PEP), Herpes (HSV) & Hepatitis B'
         },
         normalVsAbnormal: {
-          en: 'MANAGEABLE & PREVENTABLE: Human Papillomavirus (HPV) is the most common STI worldwide; most strains clear naturally, while high-risk strains can cause cervical cell changes that are 100% preventable with the HPV vaccine and routine cervical screening (Pap/HPV swab or VIA). HIV is completely manageable with daily antiretroviral therapy (ART), allowing women to live long, healthy lives and give birth to HIV-free babies.'
+          en: 'MANAGEABLE & PREVENTABLE: Human Papillomavirus (HPV) is the most common STD worldwide; most strains clear naturally, while high-risk strains can cause cervical cell changes that are 100% preventable with the HPV vaccine and routine cervical screening (Pap/HPV swab or VIA). HIV is completely manageable with daily antiretroviral therapy (ART), allowing women to live long, healthy lives and give birth to HIV-free babies.'
         },
         redFlags: {
           en: [
             'Bleeding after intimacy or between periods (always get a gentle cervical checkup)',
             'Painful grouped blisters or sores around the vulva or mouth (Herpes simplex — antiviral tablets shorten outbreaks and reduce transmission)',
-            'Unprotected exposure or sexual assault within the past 72 hours — go immediately to a Safe Haven or Hospital for emergency HIV PEP, emergency contraception, and preventive STI antibiotics'
+            'Unprotected exposure or sexual assault within the past 72 hours — go immediately to a Safe Haven or Hospital for emergency HIV PEP, emergency contraception, and preventive STD antibiotics'
           ]
         },
         selfCare: {
-          en: 'Having an STI never diminishes your worth. Every Women’s Safe Haven (pink heart pin) and OB/GYN center (red cross pin) on the FemPowHer map provides confidential care.'
+          en: 'Having an STD never diminishes your worth. Every Women’s Safe Haven (pink heart pin) and OB/GYN center (red cross pin) on the FemPowHer map provides confidential care.'
         }
       }
     ],

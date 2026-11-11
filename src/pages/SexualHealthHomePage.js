@@ -36,7 +36,7 @@ export default function SexualHealthHomePage({
         },
         tr('eduBtnSexualHealth', t.eduBtnSexualHealth || 'Sexual Health')
       ),
-      // STIs / STDs Button above the main info bubble -> opens STDMenuHomePage
+      // STDs Button above the main info bubble -> opens STDMenuHomePage
       h(
         'div',
         { className: 'mt-5 mb-2 flex justify-center' },
@@ -50,13 +50,25 @@ export default function SexualHealthHomePage({
               }
             },
             className:
-              'w-full sm:w-auto min-w-[260px] px-6 py-3.5 rounded-2xl text-sm sm:text-base font-extrabold text-white shadow-md hover:opacity-95 transition flex items-center justify-center gap-2 cursor-pointer',
+              'w-full sm:w-auto min-w-[260px] px-6 py-3 rounded-2xl text-white shadow-md hover:opacity-95 transition flex flex-col items-center justify-center cursor-pointer',
             style: {
               background: 'linear-gradient(135deg, #9F133A 0%, #CF366C 100%)',
               border: '2px solid #FEACEC'
             }
           },
-          tr('eduBtnSTIs', 'STIs / STDs')
+          h(
+            'span',
+            { className: 'text-base sm:text-lg font-extrabold leading-tight' },
+            tr('eduBtnSTDs', 'STDs')
+          ),
+          h(
+            'span',
+            {
+              className: 'text-[11px] sm:text-xs font-semibold leading-tight mt-0.5',
+              style: { color: '#FEACEC' }
+            },
+            tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases')
+          )
         )
       ),
       renderEducationIssueCards({

@@ -33,18 +33,15 @@ export default function STDMenuHomePage({
           className: 'text-2xl sm:text-3xl font-extrabold text-center mt-4',
           style: { color: '#9F133A' }
         },
-        tr('eduBtnSTIs', 'STIs / STDs')
+        tr('eduBtnSTDs', 'STDs')
       ),
       h(
         'p',
         {
-          className: 'text-xs sm:text-sm text-center font-medium mt-1.5 mb-2',
+          className: 'text-xs sm:text-sm text-center font-bold mt-1 mb-2',
           style: { color: '#6E0926' }
         },
-        tr(
-          'eduSubtitleSTIs',
-          'Sexually Transmitted Infections & Diseases — Symptoms, Protection, Confidential Testing & Treatment'
-        )
+        tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases')
       ),
       renderEducationIssueCards({
         issues,

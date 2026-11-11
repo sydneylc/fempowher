@@ -3,6 +3,7 @@ import React from 'https://esm.sh/react@18.3.1';
 const h = React.createElement;
 
 export default function MyBodyandHealthHomePage1({
+  UserNameChoiceInsert1,
   displayUsername = 'User',
   t = {},
   AGE_GROUPS = [],
@@ -13,6 +14,7 @@ export default function MyBodyandHealthHomePage1({
   setEducationPage = () => {}
 }) {
   const pageTitle = t.eduHeaderTitle || t.tabIssues || 'My Body & Health';
+  const activeUserName = UserNameChoiceInsert1 || displayUsername;
 
   return h(
     'div',
@@ -27,7 +29,7 @@ export default function MyBodyandHealthHomePage1({
       h(
         'div',
         { className: 'text-xs font-bold uppercase tracking-wider', style: { color: '#FEACEC' } },
-        `${displayUsername} • ${pageTitle}`
+        `${activeUserName} • ${pageTitle}`
       ),
       h(
         'h2',

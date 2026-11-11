@@ -357,6 +357,14 @@ export default function App() {
   // UserLanguageChoice1: Variable representing the user's chosen language preference
   // Any titles or text subject to UserLanguageChoice1 dynamically translate to the user's chosen language
   const UserLanguageChoice1 = resolveUserLanguageChoice1(lang, writtenLanguage, t);
+  // UserNameChoiceInsert1: Variable representing the username chosen by the user (or translated 'Anonymous' when anonymous)
+  const UserNameChoiceInsert1 =
+    isAnonymous || username === 'Anonymous'
+      ? t.anonymousLabel || 'Anonymous'
+      : username || t.anonymousLabel || 'User';
+  if (typeof window !== 'undefined') {
+    window.UserNameChoiceInsert1 = UserNameChoiceInsert1;
+  }
   const isRtl = isRtlLanguage(lang, writtenLanguage);
 
   useEffect(() => {
@@ -1264,7 +1272,7 @@ export default function App() {
     }
 
     const userLoc = currentRegion.userLocation;
-    const displayUser = isAnonymous ? 'Anonymous' : username || 'User';
+    const displayUser = UserNameChoiceInsert1;
     const userLabel =
       currentRegion.userLocationLabel?.[lang] || currentRegion.userLocationLabel?.en || 'Your Location';
 
@@ -1814,10 +1822,7 @@ export default function App() {
       : educationSelection?.type === 'topic'
       ? getEducationTopicIssues(educationSelection.id, userCountryForStories, ageGroup)
       : [];
-  const displayUsername =
-    isAnonymous || username === 'Anonymous'
-      ? t.anonymousLabel || 'Anonymous'
-      : username || t.anonymousLabel || 'User';
+  const displayUsername = UserNameChoiceInsert1;
   const displayRegionName =
     currentRegion.id === 'total-anon-earth'
       ? t.totalAnonEarthLabel || currentRegion.nameEn
@@ -2868,7 +2873,8 @@ export default function App() {
           }
 
           return h(MyBodyandHealthHomePage1, {
-            displayUsername,
+            UserNameChoiceInsert1,
+            displayUsername: UserNameChoiceInsert1,
             t,
             AGE_GROUPS,
             ageGroup,

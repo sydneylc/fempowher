@@ -1,5 +1,5 @@
 import React, { useRef } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=187';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=188';
 
 const h = React.createElement;
 
@@ -48,7 +48,7 @@ export default function MyBodyHomePage({
     // Embedded MyBodyInteractiveHomePage1.html
     h('iframe', {
       ref: iframeRef,
-      src: '/MyBodyInteractiveHomePage1.html?v=187',
+      src: '/MyBodyInteractiveHomePage1.html?v=188',
       title: tr('eduBtnMyBody', 'My Body'),
       className: 'flex-1 w-full h-full border-0',
       onLoad: () => {

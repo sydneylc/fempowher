@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=186';
-import { isRtlLanguage } from '../data/translations.js?v=186';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=188';
+import { isRtlLanguage } from '../data/translations.js?v=188';
 import {
   getCycleCalText,
   formatMonthYearForLang,
   getPhasesForDate,
   loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=186';
+} from '../data/cycleCalendarData.js?v=188';
 
 const h = React.createElement;
 
@@ -70,23 +70,23 @@ export function CycleCalendarWidget1({
       className:
         'group relative flex flex-col items-stretch text-left cursor-pointer select-none transition-transform duration-150 hover:scale-[1.015] active:scale-[0.99] focus:outline-none',
       style: {
-        // 2x Bigger Calendar Widget (~436px x 436px, responsive on smaller screens)
-        width: 'min(436px, 92vw)',
-        minHeight: '436px'
+        // Right in-between the original (218px) and the 2x (436px) size: 326px x 326px
+        width: 'min(326px, 88vw)',
+        minHeight: '326px'
       }
     },
     // Top overhanging rounded pill bar (matches Sketch 1 & Sketch 2: "{UserNameChoiceInsert1}'s Cycle Calendar")
     h(
       'div',
       {
-        className: 'w-full px-5 py-3 rounded-3xl border-[3px] border-black bg-white shadow-md z-10 flex items-center justify-center text-center',
+        className: 'w-full px-4 py-2 rounded-2xl border-[2.5px] border-black bg-white shadow-sm z-10 flex items-center justify-center text-center',
         style: {
-          marginBottom: '-10px'
+          marginBottom: '-8px'
         }
       },
       h(
         'span',
-        { className: 'text-base sm:text-lg font-extrabold text-black leading-tight truncate' },
+        { className: 'text-sm sm:text-base font-extrabold text-black leading-tight truncate' },
         h(
           'span',
           { className: 'underline decoration-2 underline-offset-4 font-black' },
@@ -100,20 +100,20 @@ export function CycleCalendarWidget1({
       )
     ),
 
-    // Main 2x-sized rounded square body (white & black when blank; translucent ribbons when user adds data)
+    // Main rounded square body (326px x 326px)
     h(
       'div',
       {
         className:
-          'w-full flex-1 rounded-[38px] border-[3px] border-black bg-white pt-6 pb-4 px-5 shadow-lg flex flex-col justify-between overflow-hidden'
+          'w-full flex-1 rounded-[32px] border-[2.5px] border-black bg-white pt-4 pb-3 px-3.5 shadow-md flex flex-col justify-between overflow-hidden'
       },
       // Centered Current Month Title
       h(
         'div',
-        { className: 'text-center mb-2' },
+        { className: 'text-center mb-1.5' },
         h(
           'div',
-          { className: 'text-base sm:text-lg font-black uppercase tracking-wide text-black' },
+          { className: 'text-sm font-black uppercase tracking-wide text-black' },
           monthTitle
         )
       ),
@@ -121,13 +121,13 @@ export function CycleCalendarWidget1({
       // Weekday header row
       h(
         'div',
-        { className: 'grid grid-cols-7 gap-1 text-center border-b-2 border-black/30 pb-1.5 mb-1.5' },
+        { className: 'grid grid-cols-7 gap-1 text-center border-b border-black/30 pb-1 mb-1' },
         weekdaysShort.map((wd, idx) =>
           h(
             'div',
             {
               key: `wd-${idx}`,
-              className: 'text-xs sm:text-sm font-extrabold text-black/85'
+              className: 'text-[11px] font-extrabold text-black/85'
             },
             wd
           )
@@ -137,10 +137,10 @@ export function CycleCalendarWidget1({
       // Calendar Grid centered so it shows the current day
       h(
         'div',
-        { className: 'grid grid-cols-7 gap-y-1 text-center flex-1 items-center' },
+        { className: 'grid grid-cols-7 gap-y-0.5 text-center flex-1 items-center' },
         cells.map((dateObj, idx) => {
           if (!dateObj) {
-            return h('div', { key: `empty-${idx}`, className: 'h-9' });
+            return h('div', { key: `empty-${idx}`, className: 'h-6' });
           }
           const dayNum = dateObj.getDate();
           const isToday = dayNum === currentDay;
@@ -155,7 +155,7 @@ export function CycleCalendarWidget1({
             'div',
             {
               key: `day-${dayNum}`,
-              className: 'relative h-9 flex items-center justify-center',
+              className: 'relative h-6 flex items-center justify-center',
               style: {
                 // Translucent horizontal phase bar when user has entered data
                 backgroundColor: primaryPhase ? primaryPhase.rgbaFill : 'transparent',
@@ -165,19 +165,19 @@ export function CycleCalendarWidget1({
                     : 'none',
                 border:
                   hasFirstDayBox || hasLastDayBox
-                    ? '2px solid #000000'
+                    ? '1.75px solid #000000'
                     : isToday
-                    ? '2px solid #000000'
+                    ? '1.75px solid #000000'
                     : 'none',
-                borderRadius: hasFirstDayBox || hasLastDayBox ? '6px' : isToday ? '9999px' : '4px'
+                borderRadius: hasFirstDayBox || hasLastDayBox ? '5px' : isToday ? '9999px' : '3px'
               }
             },
             h(
               'span',
               {
                 className: isToday
-                  ? 'text-sm sm:text-base font-black text-black underline decoration-2 decoration-black'
-                  : 'text-xs sm:text-sm font-bold text-black'
+                  ? 'text-xs font-black text-black underline decoration-2 decoration-black'
+                  : 'text-[11px] font-bold text-black'
               },
               formatDigitsForLang(dayNum)
             )
@@ -190,10 +190,10 @@ export function CycleCalendarWidget1({
         'div',
         {
           className:
-            'mt-2 pt-2 border-t-2 border-black/20 flex items-center justify-between text-xs sm:text-sm font-bold text-black/85 group-hover:text-black'
+            'mt-1.5 pt-1.5 border-t border-black/20 flex items-center justify-between text-[11px] font-bold text-black/85 group-hover:text-black'
         },
         h('span', null, `${ct('todayBadge', 'Today')}: ${formatDigitsForLang(currentDay)}`),
-        h('span', { className: 'font-extrabold text-base' }, '↗')
+        h('span', { className: 'font-extrabold text-sm' }, '↗')
       )
     )
   );

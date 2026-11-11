@@ -10,57 +10,57 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=175';
-import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=175';
-import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=175';
-import { fetchLiveCentersNearPoint, isInvalidFacilityName } from './data/liveOverpassDiscovery.js?v=175';
-import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=175';
-import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=175';
+} from './data/translations.js?v=176';
+import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=176';
+import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=176';
+import { fetchLiveCentersNearPoint, isInvalidFacilityName } from './data/liveOverpassDiscovery.js?v=176';
+import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=176';
+import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=176';
 
 // Import individual Page Components from src/pages/
-import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=175';
-import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=175';
-import NewUserPage from './pages/NewUserPage.js?v=175';
-import SignInPage from './pages/SignInPage.js?v=175';
-import AnonPage1 from './pages/AnonPage1.js?v=175';
-import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=175';
-import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=175';
-import MapLegend1 from './pages/MapLegend1.js?v=175';
-import DatabasePage1 from './pages/DatabasePage1.js?v=175';
-import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=175';
-import MyBodyHomePage from './pages/MyBodyHomePage.js?v=175';
-import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=175';
-import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=175';
-import PregnancyHomePage from './pages/PregnancyHomePage.js?v=175';
-import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=175';
-import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=175';
-import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=175';
-import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=175';
-import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=175';
-import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=175';
-import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=175';
-import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=175';
-import PostpartumHomePage from './pages/PostpartumHomePage.js?v=175';
-import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=175';
-import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=175';
-import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=175';
-import MenopauseHomePage from './pages/MenopauseHomePage.js?v=175';
-import WhatIsMenopauseHomePage from './pages/WhatIsMenopauseHomePage.js?v=175';
-import StartingMenopauseHomePage from './pages/StartingMenopauseHomePage.js?v=175';
-import HardTimeMenopauseHomePage from './pages/HardTimeMenopauseHomePage.js?v=175';
-import AfterMenopauseHomePage from './pages/AfterMenopauseHomePage.js?v=175';
-import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=175';
-import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=175';
-import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=175';
-import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=175';
-import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=175';
-import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=175';
-import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=175';
-import ForMeHomePage from './pages/ForMeHomePage.js?v=175';
-import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=175';
-import WorldviewHomePage from './pages/WorldviewHomePage.js?v=175';
-import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=175';
-import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=175';
+import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=176';
+import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=176';
+import NewUserPage from './pages/NewUserPage.js?v=176';
+import SignInPage from './pages/SignInPage.js?v=176';
+import AnonPage1 from './pages/AnonPage1.js?v=176';
+import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=176';
+import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=176';
+import MapLegend1 from './pages/MapLegend1.js?v=176';
+import DatabasePage1 from './pages/DatabasePage1.js?v=176';
+import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=176';
+import MyBodyHomePage from './pages/MyBodyHomePage.js?v=176';
+import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=176';
+import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=176';
+import PregnancyHomePage from './pages/PregnancyHomePage.js?v=176';
+import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=176';
+import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=176';
+import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=176';
+import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=176';
+import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=176';
+import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=176';
+import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=176';
+import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=176';
+import PostpartumHomePage from './pages/PostpartumHomePage.js?v=176';
+import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=176';
+import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=176';
+import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=176';
+import MenopauseHomePage from './pages/MenopauseHomePage.js?v=176';
+import WhatIsMenopauseHomePage from './pages/WhatIsMenopauseHomePage.js?v=176';
+import StartingMenopauseHomePage from './pages/StartingMenopauseHomePage.js?v=176';
+import HardTimeMenopauseHomePage from './pages/HardTimeMenopauseHomePage.js?v=176';
+import AfterMenopauseHomePage from './pages/AfterMenopauseHomePage.js?v=176';
+import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=176';
+import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=176';
+import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=176';
+import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=176';
+import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=176';
+import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=176';
+import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=176';
+import ForMeHomePage from './pages/ForMeHomePage.js?v=176';
+import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=176';
+import WorldviewHomePage from './pages/WorldviewHomePage.js?v=176';
+import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=176';
+import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=176';
 
 const h = React.createElement;
 
@@ -2173,9 +2173,45 @@ export default function App() {
                     const distKm = Number(
                       getDistanceKm(origLat, origLng, destLat, destLng)
                     );
+                    const rawEnTitle = String(
+                      selectedClinic.name?.en || cleanTitle || ''
+                    ).trim();
+                    let placeNameForMaps = rawEnTitle
+                      .replace(/\s*\+\s*[^,()]+$/g, '')
+                      .replace(
+                        /\s*\((?:Pashto|Balochi|Af-Maay|Garhwali|Korean\/Mandarin|Uyghur\/Kyrgyz|Maternidad[^)]*|Servicios ILE[^)]*|Ultra-Orthodox[^)]*)\)/gi,
+                        ''
+                      )
+                      .trim();
+                    if (placeNameForMaps.includes(' — ')) {
+                      const [leftPart, rightPart] = placeNameForMaps.split(' — ', 2);
+                      if (
+                        /^(?:24\/7|Maternity|Maternal|Obstetric|OB\/GYN|Women|One-Stop|Provincial|Regional|National|District|High-Mountain|Pastoral|Nomadic|Comprehensive|Tertiary|Integrated|Daytime)/i.test(
+                          rightPart.trim()
+                        )
+                      ) {
+                        placeNameForMaps = leftPart.trim();
+                      } else {
+                        placeNameForMaps = `${leftPart.trim()} ${rightPart.trim()}`;
+                      }
+                    }
+                    const rawAddrEn = String(
+                      enrichedAddressById[selectedClinic.id] ||
+                        selectedClinic.address?.en ||
+                        selectedClinic.regionDistrict ||
+                        ''
+                    ).trim();
+                    const gmapsDestination = placeNameForMaps
+                      ? rawAddrEn &&
+                        !placeNameForMaps
+                          .toLowerCase()
+                          .includes(rawAddrEn.split(',')[0].trim().toLowerCase())
+                        ? `${placeNameForMaps}, ${rawAddrEn}`
+                        : `${placeNameForMaps}, ${rawAddrEn.split(',').slice(-2).join(', ').trim()}`
+                      : `${destLat},${destLng}`;
                     const gmapsParams = new URLSearchParams({
                       api: '1',
-                      destination: `${destLat},${destLng}`,
+                      destination: gmapsDestination.replace(/,\s*$/, ''),
                       travelmode: 'driving'
                     });
                     if (

@@ -8171,31 +8171,57 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "world-safe-19",
-    "regionDistrict": "Detroit, Michigan, USA",
+    "id": "world-safe-19-haven-pontiac",
+    "regionDistrict": "Pontiac / Oakland County (Metro Detroit), Michigan, USA",
     "type": "safe-haven",
-    "lat": 42.3335,
-    "lng": -83.0475,
+    "lat": 42.6585,
+    "lng": -83.2855,
     "name": {
-      "en": "HAVEN & First Step Women’s Safe Shelter (Detroit, Michigan, USA)"
+      "en": "HAVEN Oakland County Domestic Violence & Sexual Assault Shelter"
     },
     "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
+      "en": "24/7 Women’s Safe Haven & Domestic Violence Shelter"
     },
-    "phone": "+1 877-922-1274",
-    "emergencyHotline": "911 / 877-922-1274",
+    "phone": "+1 248-334-1274",
+    "emergencyHotline": "1-877-922-1274",
     "address": {
-      "en": "155 Main St, Detroit, Michigan, USA 98805"
+      "en": "801 Vanguard Drive, Pontiac, Michigan 48341, USA"
     },
     "services": {
       "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
+        "24/7 Emergency Domestic Violence & Sexual Assault Shelter",
+        "Forensic Nurse Examiner Program, Counseling & Legal Advocacy"
       ]
     },
     "directionsText": {
-      "en": "Women’s Safe Haven serving Detroit, Michigan, USA. Call 911 / 877-922-1274 for 24/7 safe intake."
+      "en": "HAVEN at 801 Vanguard Drive, Pontiac, Oakland County, Michigan."
+    }
+  },
+  {
+    "id": "world-safe-19-first-step-wayne-county",
+    "regionDistrict": "Plymouth / Wayne County (Metro Detroit), Michigan, USA",
+    "type": "safe-haven",
+    "lat": 42.3785,
+    "lng": -83.4685,
+    "name": {
+      "en": "First Step — Western & Downriver Wayne County Domestic Violence Shelter"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Domestic Violence Shelter"
+    },
+    "phone": "+1 734-722-6800",
+    "emergencyHotline": "1-888-453-5900",
+    "address": {
+      "en": "44567 Pinetree Drive, Plymouth, Michigan 48170, USA"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Shelter, Assault Response & Safe Housing",
+        "Free Counseling, Legal Advocacy & Children’s Programs"
+      ]
+    },
+    "directionsText": {
+      "en": "First Step at 44567 Pinetree Drive, Plymouth, Wayne County, Michigan."
     }
   },
   {
@@ -8283,31 +8309,57 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "world-safe-21",
+    "id": "world-safe-21-alive-st-louis",
     "regionDistrict": "St. Louis, Missouri, USA",
     "type": "safe-haven",
     "lat": 38.6295,
     "lng": -90.2015,
     "name": {
-      "en": "ALIVE & Safe Connections Women’s Shelter (St. Louis, Missouri, USA)"
+      "en": "ALIVE (Alternatives to Living In Violent Environments)"
     },
     "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
+      "en": "24/7 Domestic Violence Safe Shelter & Crisis Line"
     },
     "phone": "+1 314-993-2777",
-    "emergencyHotline": "911 / 314-993-2777",
+    "emergencyHotline": "314-993-2777",
     "address": {
-      "en": "Confidential Safe Haven Network, St. Louis, Missouri, USA"
+      "en": "St. Louis, Missouri, USA"
     },
     "services": {
       "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
+        "24/7 Emergency Safe Sanctuary & Nights of Safety Shelter",
+        "Court Advocacy, Individual Counseling & Support Groups"
       ]
     },
     "directionsText": {
-      "en": "Women’s Safe Haven serving St. Louis, Missouri, USA. Call 911 / 314-993-2777 for 24/7 safe intake."
+      "en": "ALIVE Domestic Violence Services in St. Louis, Missouri."
+    }
+  },
+  {
+    "id": "world-safe-21-safe-connections-st-louis",
+    "regionDistrict": "St. Louis, Missouri, USA",
+    "type": "safe-haven",
+    "lat": 38.6138,
+    "lng": -90.2892,
+    "name": {
+      "en": "Safe Connections"
+    },
+    "categoryBadge": {
+      "en": "24/7 Domestic & Sexual Violence Crisis Center"
+    },
+    "phone": "+1 314-531-2003",
+    "emergencyHotline": "314-531-2003",
+    "address": {
+      "en": "2165 Hampton Avenue, St. Louis, Missouri 63139, USA"
+    },
+    "services": {
+      "en": [
+        "24/7 Crisis Helpline, Trauma Therapy & Survivor Support",
+        "Domestic & Sexual Violence Prevention & Youth Education"
+      ]
+    },
+    "directionsText": {
+      "en": "Safe Connections at 2165 Hampton Avenue, St. Louis, Missouri."
     }
   },
   {
@@ -142008,86 +142060,164 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "mozambique-hospital-provincial-lichinga-niassa",
-    "regionDistrict": "Mozambique (Lichinga & Cuamba — Niassa Province)",
+    "regionDistrict": "Lichinga, Niassa Province, Mozambique",
     "type": "hospital",
     "lat": -13.3128,
     "lng": 35.2406,
     "name": {
-      "en": "Hospital Provincial de Lichinga, Hospital Distrital de Cuamba & CAI Niassa"
+      "en": "Hospital Provincial de Lichinga"
     },
     "categoryBadge": {
-      "en": "Northwestern Provincial Referral Maternity Hospital (Niassa)"
+      "en": "24/7 Provincial Maternity & CAI GBV Referral Hospital"
     },
-    "phone": "+258 27 120 230 / 116",
-    "emergencyHotline": "112 / 116",
+    "phone": "116 / 1458",
+    "emergencyHotline": "116 / 1458",
     "address": {
-      "en": "Lichinga & Cuamba (14.80S, 36.53E), Niassa Province, Northwestern Mozambique"
+      "en": "Lichinga, Niassa Province, Mozambique"
     },
     "services": {
       "en": [
-        "24/7 Maternity & Obstetric Surgery",
-        "Integrated GBV Care (CAI Lichinga)",
-        "Pediatrics & Women's Health"
+        "24/7 Provincial Maternity, Obstetrics & Gynecology",
+        "Centro de Atendimento Integrado (CAI) for GBV Survivors"
       ]
     },
     "directionsText": {
-      "en": "Provincial referral hospital in Lichinga and rural hospital in Cuamba serving Niassa province."
+      "en": "Hospital Provincial de Lichinga in Lichinga, Niassa Province."
     }
   },
   {
-    "id": "mozambique-hospital-provincial-inhambane-maxixe",
-    "regionDistrict": "Mozambique (Inhambane & Maxixe — Inhambane Province)",
+    "id": "mozambique-hospital-distrital-cuamba-niassa",
+    "regionDistrict": "Cuamba, Niassa Province, Mozambique",
+    "type": "hospital",
+    "lat": -14.8031,
+    "lng": 36.5372,
+    "name": {
+      "en": "Hospital Rural de Cuamba"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, Obstetric & GBV Referral Hospital"
+    },
+    "phone": "116 / 1458",
+    "emergencyHotline": "116 / 1458",
+    "address": {
+      "en": "Cuamba, Niassa Province, Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Maternity & C-Section Care",
+        "CAI One-Stop GBV & Maternal Protection"
+      ]
+    },
+    "directionsText": {
+      "en": "Hospital Rural de Cuamba in Cuamba, southern Niassa Province."
+    }
+  },
+  {
+    "id": "mozambique-hospital-provincial-inhambane",
+    "regionDistrict": "Inhambane, Inhambane Province, Mozambique",
     "type": "hospital",
     "lat": -23.865,
     "lng": 35.3833,
     "name": {
-      "en": "Hospital Provincial de Inhambane, Hospital de Chicuque (Maxixe) & CAI Inhambane"
+      "en": "Hospital Provincial de Inhambane"
     },
     "categoryBadge": {
-      "en": "Southern Provincial & Rural Referral Maternity Hospitals"
+      "en": "24/7 Provincial Maternity & OB/GYN Hospital"
     },
-    "phone": "+258 29 320 455 / 116",
-    "emergencyHotline": "112 / 116",
+    "phone": "116 / 1458",
+    "emergencyHotline": "116 / 1458",
     "address": {
-      "en": "Inhambane & Maxixe (Chicuque Rural Hospital), Inhambane Province, Southern Mozambique"
+      "en": "Inhambane City, Inhambane Province, Mozambique"
     },
     "services": {
       "en": [
-        "24/7 Maternity & Emergency Cesarean",
-        "Chicuque Rural Hospital Surgical & Maternal Center",
-        "CAI Inhambane GBV Support"
+        "24/7 Provincial Maternity, Obstetrics & Gynecology",
+        "CAI Integrated GBV Care Unit"
       ]
     },
     "directionsText": {
-      "en": "Covers Inhambane Provincial Hospital and the historic Chicuque Rural Hospital across the bay in Maxixe."
+      "en": "Hospital Provincial de Inhambane in Inhambane City."
     }
   },
   {
-    "id": "mozambique-hospital-provincial-xai-xai-chokwe-gaza",
-    "regionDistrict": "Mozambique (Xai-Xai & Chókwè — Gaza Province)",
+    "id": "mozambique-hospital-rural-chicuque-maxixe",
+    "regionDistrict": "Maxixe (Chicuque), Inhambane Province, Mozambique",
+    "type": "hospital",
+    "lat": -23.8167,
+    "lng": 35.3442,
+    "name": {
+      "en": "Hospital Rural de Chicuque (Maxixe)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, Fistula & Referral Hospital"
+    },
+    "phone": "116 / 1458",
+    "emergencyHotline": "116 / 1458",
+    "address": {
+      "en": "Chicuque, Maxixe, Inhambane Province, Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Surgical Obstetrics & Fistula Repair",
+        "Women’s & Maternal Health Clinic"
+      ]
+    },
+    "directionsText": {
+      "en": "Hospital Rural de Chicuque in Maxixe, Inhambane Province."
+    }
+  },
+  {
+    "id": "mozambique-hospital-provincial-xai-xai-gaza",
+    "regionDistrict": "Xai-Xai, Gaza Province, Mozambique",
     "type": "hospital",
     "lat": -25.0519,
     "lng": 33.6442,
     "name": {
-      "en": "Hospital Provincial de Xai-Xai, Hospital Rural de Chókwè & CAI Gaza"
+      "en": "Hospital Provincial de Xai-Xai"
     },
     "categoryBadge": {
-      "en": "Provincial Referral Maternity Hospital & GBV Center (Gaza)"
+      "en": "24/7 Provincial Maternity & OB/GYN Hospital"
     },
-    "phone": "+258 28 222 315 / 116",
-    "emergencyHotline": "112 / 116",
+    "phone": "116 / 1458",
+    "emergencyHotline": "116 / 1458",
     "address": {
-      "en": "Xai-Xai & Chókwè, Gaza Province, Southern Mozambique"
+      "en": "Xai-Xai, Gaza Province, Mozambique"
     },
     "services": {
       "en": [
-        "24/7 Maternity, Obstetrics & Gynecology",
-        "Centro de Atendimento Integrado (CAI) Xai-Xai",
-        "PMTCT, HIV & Reproductive Health"
+        "24/7 Provincial Maternity, Obstetrics & Gynecology",
+        "CAI Integrated GBV Protection Unit"
       ]
     },
     "directionsText": {
-      "en": "Primary provincial hospital and maternity center serving Xai-Xai, Chókwè, and Gaza province."
+      "en": "Hospital Provincial de Xai-Xai in Xai-Xai, Gaza Province."
+    }
+  },
+  {
+    "id": "mozambique-hospital-rural-chokwe-gaza",
+    "regionDistrict": "Chókwè, Gaza Province, Mozambique",
+    "type": "hospital",
+    "lat": -24.5333,
+    "lng": 32.9833,
+    "name": {
+      "en": "Hospital Rural de Chókwè (Hospital Carmelo)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, HIV/TB & Maternal Referral Hospital"
+    },
+    "phone": "116 / 1458",
+    "emergencyHotline": "116 / 1458",
+    "address": {
+      "en": "Chókwè, Gaza Province, Mozambique"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Obstetrics & Daughter of Charity Care",
+        "Maternal & Child Health Center"
+      ]
+    },
+    "directionsText": {
+      "en": "Hospital Rural de Chókwè in Chókwè, Gaza Province."
     }
   },
   {
@@ -142773,59 +142903,111 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "gambia-efsth-banjul-kanifing-brikama-one-stop-hospitals",
-    "regionDistrict": "The Gambia (Banjul, Kanifing & Brikama)",
+    "id": "gambia-efsth-banjul-teaching-hospital",
+    "regionDistrict": "Banjul, The Gambia",
     "type": "hospital",
     "lat": 13.4539,
     "lng": -16.5719,
     "name": {
-      "en": "Edward Francis Small Teaching Hospital (EFSTH Banjul), Kanifing General & Brikama District Hospitals + GBV One-Stop Centers"
+      "en": "Edward Francis Small Teaching Hospital (EFSTH)"
     },
     "categoryBadge": {
-      "en": "National Teaching Maternity Hospital & Integrated GBV One-Stop Centers"
+      "en": "24/7 National Maternity Teaching Hospital & GBV One-Stop Center"
     },
-    "phone": "+220 422 8223 / 1313 / 16",
-    "emergencyHotline": "1313 (GBV Helpline) / 16 (Ambulance)",
+    "phone": "1313 / 199",
+    "emergencyHotline": "1313",
     "address": {
-      "en": "Independence Drive, Banjul, Kanifing (13.44N, 16.67W) & Brikama, The Gambia"
+      "en": "Independence Drive, Banjul, The Gambia"
     },
     "services": {
       "en": [
-        "24/7 Tertiary Maternity, Obstetrics & Gynecology",
-        "Hospital One-Stop GBV Centers (Free Medical, Forensic, Police & Psychosocial Care)",
-        "Neonatal Intensive Care & Fistula Repair"
+        "24/7 National Maternity, Obstetrics & Gynecology",
+        "One-Stop SGBV Survivor Center"
       ]
     },
     "directionsText": {
-      "en": "The Gambia's main tertiary teaching hospital in Banjul (EFSTH) alongside Kanifing General Hospital and Brikama District Hospital, each hosting an integrated GBV One-Stop Center."
+      "en": "Edward Francis Small Teaching Hospital on Independence Drive, Banjul."
     }
   },
   {
-    "id": "gambia-farafenni-bansang-basse-interior-hospitals",
-    "regionDistrict": "The Gambia (Farafenni, Bansang & Basse Santa Su — Interior Regions)",
+    "id": "gambia-kanifing-general-hospital-serrekunda",
+    "regionDistrict": "Kanifing / Serrekunda, The Gambia",
+    "type": "hospital",
+    "lat": 13.4412,
+    "lng": -16.6745,
+    "name": {
+      "en": "Kanifing General Hospital (Serrekunda General Hospital)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity Hospital & One-Stop GBV Center"
+    },
+    "phone": "1313 / 199",
+    "emergencyHotline": "1313",
+    "address": {
+      "en": "Kanifing / Serrekunda, Greater Banjul, The Gambia"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Emergency Delivery & C-Section",
+        "One-Stop GBV Center"
+      ]
+    },
+    "directionsText": {
+      "en": "Kanifing General Hospital in Kanifing / Serrekunda."
+    }
+  },
+  {
+    "id": "gambia-brikama-district-hospital-west-coast",
+    "regionDistrict": "Brikama, West Coast Region, The Gambia",
+    "type": "hospital",
+    "lat": 13.2715,
+    "lng": -16.6492,
+    "name": {
+      "en": "Brikama District Hospital"
+    },
+    "categoryBadge": {
+      "en": "24/7 District Maternity Hospital & One-Stop GBV Center"
+    },
+    "phone": "1313 / 199",
+    "emergencyHotline": "1313",
+    "address": {
+      "en": "Brikama, West Coast Region, The Gambia"
+    },
+    "services": {
+      "en": [
+        "24/7 District Maternity & Obstetric Triage",
+        "One-Stop SGBV Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Brikama District Hospital in Brikama, West Coast Region."
+    }
+  },
+  {
+    "id": "gambia-farafenni-general-hospital-north-bank",
+    "regionDistrict": "Farafenni, North Bank Region, The Gambia",
     "type": "hospital",
     "lat": 13.5667,
     "lng": -15.6,
     "name": {
-      "en": "Farafenni General Hospital (North Bank), Bansang Hospital (Central River) & Basse District Hospital (Upper River)"
+      "en": "Farafenni General Hospital"
     },
     "categoryBadge": {
-      "en": "Interior Regional Referral Maternity Hospitals & GBV One-Stop Centers"
+      "en": "24/7 Regional Maternity Hospital & One-Stop GBV Center"
     },
-    "phone": "1313 / 16",
-    "emergencyHotline": "1313 / 16",
+    "phone": "1313 / 199",
+    "emergencyHotline": "1313",
     "address": {
-      "en": "Farafenni (13.56N, 15.60W), Bansang (13.43N, 14.65W) & Basse Santa Su (13.31N, 14.21W), The Gambia"
+      "en": "Farafenni, North Bank Region, The Gambia"
     },
     "services": {
       "en": [
-        "24/7 Regional Maternity & Emergency Cesarean Surgery",
-        "Integrated GBV One-Stop Centers (Bansang, Farafenni & Basse)",
-        "FGM Complication Care & Maternal-Child Health"
+        "24/7 Maternity, Obstetrics & Emergency Surgery",
+        "One-Stop GBV Center"
       ]
     },
     "directionsText": {
-      "en": "Major upcountry referral hospitals and One-Stop GBV Centers serving North Bank (Farafenni), Central River (Bansang), and Upper River (Basse Santa Su) regions."
+      "en": "Farafenni General Hospital in Farafenni, North Bank Region."
     }
   },
   {
@@ -143282,87 +143464,111 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "guinea-bissau-hospital-regional-bafata-gabu-east",
-    "regionDistrict": "Guinea-Bissau (Bafatá & Gabú — Eastern Regions)",
+    "id": "guinea-bissau-hospital-regional-bafata",
+    "regionDistrict": "Bafatá, Bafatá Region, Guinea-Bissau",
     "type": "hospital",
     "lat": 12.1719,
     "lng": -14.6575,
     "name": {
-      "en": "Hospital Regional de Bafatá & Hospital Regional de Gabú + Centros de Direitos da Mulher"
+      "en": "Hospital Regional de Bafatá"
     },
     "categoryBadge": {
-      "en": "Eastern Regional Referral Maternity Hospitals & Anti-FGM Hubs"
+      "en": "24/7 Regional Maternity & PIMI Referral Hospital"
     },
-    "phone": "+245 955 208 434",
-    "emergencyHotline": "119 / +245 955 595 009",
+    "phone": "119 / 121",
+    "emergencyHotline": "119 / 121",
     "address": {
-      "en": "Bafatá (12.17N, 14.65W) & Gabú (12.28N, 14.22W), Eastern Guinea-Bissau"
+      "en": "Bafatá, Bafatá Region, Guinea-Bissau"
     },
     "services": {
       "en": [
-        "24/7 Regional Maternity & Emergency Obstetric Care (PIMI Supported)",
-        "FGM Complication Care & CNAPN / RENLUV Community Protection",
-        "Casa de Direito Legal Aid & Psychosocial Support"
+        "24/7 Regional Maternity & Emergency Obstetrics",
+        "Women’s Rights & Anti-FGM Support"
       ]
     },
     "directionsText": {
-      "en": "Regional referral hospitals serving eastern Guinea-Bissau in Bafatá and Gabú, supported by the PIMI maternal health program and RENLUV/CNAPN women's protection teams."
+      "en": "Hospital Regional de Bafatá in Bafatá, Guinea-Bissau."
     }
   },
   {
-    "id": "guinea-bissau-hospital-regional-canchungo-mansoa-north",
-    "regionDistrict": "Guinea-Bissau (Canchungo & Mansôa — Cacheu & Oio Regions)",
+    "id": "guinea-bissau-hospital-regional-canchungo-cacheu",
+    "regionDistrict": "Canchungo, Cacheu Region, Guinea-Bissau",
     "type": "hospital",
     "lat": 12.0672,
     "lng": -16.0333,
     "name": {
-      "en": "Hospital Regional de Canchungo (Cacheu) & Hospital Regional de Mansôa (Oio)"
+      "en": "Hospital Regional de Canchungo"
     },
     "categoryBadge": {
-      "en": "Northern & Central Regional Maternity Hospitals"
+      "en": "24/7 Regional Maternity & Obstetric Referral Hospital"
     },
-    "phone": "119",
-    "emergencyHotline": "119",
+    "phone": "119 / 121",
+    "emergencyHotline": "119 / 121",
     "address": {
-      "en": "Canchungo (Cacheu Region) & Mansôa (12.07N, 15.31W, Oio Region), Guinea-Bissau"
+      "en": "Canchungo, Cacheu Region, Guinea-Bissau"
     },
     "services": {
       "en": [
-        "24/7 Maternity & Emergency Cesarean Delivery",
-        "Gynecology, Family Planning & Prenatal Care",
-        "Pediatrics & General Surgery"
+        "24/7 Regional Maternity, Obstetrics & Gynecology",
+        "Maternal & Child Health Care"
       ]
     },
     "directionsText": {
-      "en": "Primary regional hospitals serving northern Cacheu (Canchungo) and central Oio (Mansôa)."
+      "en": "Hospital Regional de Canchungo in Canchungo, Cacheu Region."
     }
   },
   {
-    "id": "guinea-bissau-hospital-buba-catio-bubaque-south-islands",
-    "regionDistrict": "Guinea-Bissau (Buba, Catió & Bubaque/Bolama — South & Bijagós Islands)",
+    "id": "guinea-bissau-hospital-regional-buba-quinara",
+    "regionDistrict": "Buba, Quinará Region, Guinea-Bissau",
     "type": "hospital",
     "lat": 11.5833,
-    "lng": -15,
+    "lng": -15.0,
     "name": {
-      "en": "Hospital Regional de Buba (Quinará), Hospital de Catió (Tombali) & Hospital de Bubaque / Bolama (Bijagós)"
+      "en": "Hospital Regional de Buba"
     },
     "categoryBadge": {
-      "en": "Southern & Island Regional Maternity Hospitals"
+      "en": "24/7 Regional Maternity & Obstetric Hospital"
     },
-    "phone": "119",
-    "emergencyHotline": "119",
+    "phone": "119 / 121",
+    "emergencyHotline": "119 / 121",
     "address": {
-      "en": "Buba (Quinará), Catió (Tombali) & Bubaque (11.28N, 15.83W, Bijagós Archipelago), Guinea-Bissau"
+      "en": "Buba, Quinará Region, Guinea-Bissau"
     },
     "services": {
       "en": [
-        "24/7 Maternity & Safe Childbirth (PIMI Supported)",
-        "Island Emergency Maternal Boat/Medical Evacuation (Bubaque & Bolama)",
-        "Pediatrics & Women's Health"
+        "24/7 Maternity & Emergency Obstetric Care",
+        "Maternal & Neonatal Health"
       ]
     },
     "directionsText": {
-      "en": "Regional hospitals providing maternal and emergency care across southern Guinea-Bissau (Buba, Catió) and the Bijagós islands (Bubaque and Bolama)."
+      "en": "Hospital Regional de Buba in Buba, Quinará Region."
+    }
+  },
+  {
+    "id": "guinea-bissau-hospital-bubaque-bijagos-islands",
+    "regionDistrict": "Bubaque, Bijagós Archipelago, Bolama Region, Guinea-Bissau",
+    "type": "hospital",
+    "lat": 11.2833,
+    "lng": -15.8333,
+    "name": {
+      "en": "Hospital Marcelino Banca de Bubaque"
+    },
+    "categoryBadge": {
+      "en": "24/7 Island Maternity & Emergency Referral Hospital"
+    },
+    "phone": "119 / 121",
+    "emergencyHotline": "119 / 121",
+    "address": {
+      "en": "Bubaque Island, Bijagós Archipelago, Guinea-Bissau"
+    },
+    "services": {
+      "en": [
+        "24/7 Island Maternity, Obstetrics & Sea-Ambulance Referral",
+        "Maternal & Child Health"
+      ]
+    },
+    "directionsText": {
+      "en": "Hospital Marcelino Banca on Bubaque Island, Bijagós Archipelago."
     }
   },
   {
@@ -144627,31 +144833,59 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "tanzania-kasulu-kabanga-hospital-kigoma",
+    "id": "tanzania-kasulu-district-hospital-kigoma",
     "regionDistrict": "Kasulu, Kigoma Region, Tanzania",
     "type": "hospital",
     "lat": -4.5767,
     "lng": 30.1025,
     "name": {
-      "en": "Kasulu District Hospital & Kabanga Referral Hospital — Maternity Center (Kasulu, Kigoma)"
+      "en": "Kasulu District Hospital"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & District Hospital"
+    },
+    "phone": "+255 28 281 0045",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Kasulu Town, Kigoma Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Obstetric Surgery & Emergency Delivery",
+        "GBV One-Stop Triage & Refugee Referral Care",
+        "Maternal & Child Health Clinic"
+      ]
+    },
+    "directionsText": {
+      "en": "Kasulu District Hospital in Kasulu Town, Kigoma Region."
+    }
+  },
+  {
+    "id": "tanzania-kabanga-referral-hospital-kasulu",
+    "regionDistrict": "Kabanga, Kasulu District, Kigoma Region, Tanzania",
+    "type": "hospital",
+    "lat": -4.6125,
+    "lng": 30.0685,
+    "name": {
+      "en": "Kabanga Referral Hospital"
     },
     "categoryBadge": {
       "en": "24/7 Maternity, OB/GYN & Referral Hospital"
     },
-    "phone": "+255 28 281 0012",
-    "emergencyHotline": "116 / 112",
+    "phone": "+255 28 281 0312",
+    "emergencyHotline": "112 / 116",
     "address": {
-      "en": "Kasulu Town & Kabanga, Kasulu District, Kigoma Region, Tanzania"
+      "en": "Kabanga, Kasulu District, Kigoma Region, Tanzania"
     },
     "services": {
       "en": [
-        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
-        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
-        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+        "24/7 Obstetric, Gynecological & Neonatal Care",
+        "Emergency C-Section & High-Risk Delivery Ward",
+        "Outpatient & Inpatient Women’s Health Services"
       ]
     },
     "directionsText": {
-      "en": "Serving Kasulu District and surrounding host/refugee communities in Kigoma Region."
+      "en": "Kabanga Referral Hospital in Kabanga, Kasulu District, Kigoma Region."
     }
   },
   {
@@ -144823,31 +145057,59 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "tanzania-dar-rabininsia-marie-stopes-mwenge",
-    "regionDistrict": "Mwenge / Tegeta, Kinondoni, Dar es Salaam, Tanzania",
+    "id": "tanzania-dar-rabininsia-memorial-hospital-tegeta",
+    "regionDistrict": "Tegeta, Kinondoni, Dar es Salaam, Tanzania",
     "type": "hospital",
-    "lat": -6.7315,
-    "lng": 39.2185,
+    "lat": -6.6578,
+    "lng": 39.2085,
     "name": {
-      "en": "Rabininsia Memorial Hospital & Marie Stopes Tanzania Maternity Hospital (Mwenge, Dar es Salaam)"
+      "en": "Rabininsia Memorial Hospital"
     },
     "categoryBadge": {
-      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+      "en": "24/7 Maternity, OB/GYN & Specialty Hospital"
     },
-    "phone": "+255 22 277 4990",
-    "emergencyHotline": "0800 750 100 / 116",
+    "phone": "+255 754 461 111",
+    "emergencyHotline": "112 / 116",
     "address": {
-      "en": "Mwenge & Tegeta, Bagamoyo Road, Kinondoni, Dar es Salaam, Tanzania"
+      "en": "Tegeta / Boko, Bagamoyo Road, Kinondoni, Dar es Salaam, Tanzania"
     },
     "services": {
       "en": [
-        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
-        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
-        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+        "24/7 Maternity, Obstetrics & Gynecology Department",
+        "Emergency C-Section & Neonatal Care",
+        "Comprehensive Women’s Reproductive Health Clinic"
       ]
     },
     "directionsText": {
-      "en": "24/7 maternity, reproductive health, family planning, and post-abortion care hospital in Mwenge/Tegeta, Dar es Salaam."
+      "en": "Rabininsia Memorial Hospital in Tegeta along Bagamoyo Road, Dar es Salaam."
+    }
+  },
+  {
+    "id": "tanzania-dar-marie-stopes-mwenge-hospital",
+    "regionDistrict": "Mwenge, Kinondoni, Dar es Salaam, Tanzania",
+    "type": "obgyn",
+    "lat": -6.7715,
+    "lng": 39.2275,
+    "name": {
+      "en": "Marie Stopes Tanzania — Mwenge Maternity & Women’s Hospital"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, Family Planning & OB/GYN Hospital"
+    },
+    "phone": "0800 75 75 75",
+    "emergencyHotline": "0800 75 75 75 / 116",
+    "address": {
+      "en": "Plot 421, Kijitonyama / Mwenge, Kinondoni, Dar es Salaam, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Safe Delivery, Maternity & Postnatal Care",
+        "Family Planning, STI Screening & Cervical Cancer Care",
+        "Confidential GBV & Post-Abortion / Maternal Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Marie Stopes Tanzania Specialist Hospital in Mwenge / Kijitonyama, Dar es Salaam."
     }
   },
   {
@@ -145103,31 +145365,59 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "tanzania-arusha-almc-selian-lutheran-hospital",
-    "regionDistrict": "Arusha, Arusha Region, Tanzania",
+    "id": "tanzania-arusha-almc-lutheran-medical-centre",
+    "regionDistrict": "Arusha Central, Arusha Region, Tanzania",
     "type": "hospital",
     "lat": -3.3725,
     "lng": 36.6942,
     "name": {
-      "en": "Arusha Lutheran Medical Centre (ALMC) & Selian Lutheran Hospital — Maternity & Fistula Care (Arusha)"
+      "en": "Arusha Lutheran Medical Centre (ALMC)"
     },
     "categoryBadge": {
-      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+      "en": "24/7 Maternity, Fistula & Referral Hospital"
     },
     "phone": "+255 27 254 8030",
-    "emergencyHotline": "116 / 112",
+    "emergencyHotline": "112 / 116",
     "address": {
-      "en": "Mianzini / Makiungu Road, Arusha, Tanzania"
+      "en": "Makiungu Road / Corridor Area, Arusha, Tanzania"
     },
     "services": {
       "en": [
-        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
-        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
-        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+        "24/7 Obstetrics, Gynecology & Emergency C-Section",
+        "Obstetric Fistula Repair & Maternal Recovery",
+        "Neonatal Intensive Care & Women’s Clinic"
       ]
     },
     "directionsText": {
-      "en": "24/7 obstetric, gynecological, and fistula surgical hospital in Arusha."
+      "en": "Arusha Lutheran Medical Centre (ALMC) in central Arusha, Tanzania."
+    }
+  },
+  {
+    "id": "tanzania-arusha-selian-lutheran-hospital-ngaramtoni",
+    "regionDistrict": "Ngaramtoni, Arusha District, Arusha Region, Tanzania",
+    "type": "hospital",
+    "lat": -3.3145,
+    "lng": 36.6315,
+    "name": {
+      "en": "Selian Lutheran Hospital"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, Fistula & Referral Hospital"
+    },
+    "phone": "+255 784 363 818",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Ngaramtoni, Arusha–Namanga Road, Arusha Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Rural & Maasai Women’s Maternity & Obstetric Care",
+        "Free Obstetric Fistula Surgery & Rehabilitation",
+        "Antenatal, Family Planning & GBV Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Selian Lutheran Hospital in Ngaramtoni along the Arusha–Namanga Road."
     }
   },
   {
@@ -145187,31 +145477,59 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "tanzania-pemba-chake-chake-abdulla-mzee-hospital",
-    "regionDistrict": "Chake Chake & Mkoani, Pemba Island, Zanzibar, Tanzania",
+    "id": "tanzania-pemba-chake-chake-hospital",
+    "regionDistrict": "Chake Chake, Pemba Island, Zanzibar, Tanzania",
     "type": "hospital",
     "lat": -5.2458,
     "lng": 39.7667,
     "name": {
-      "en": "Chake Chake Hospital & Abdulla Mzee Regional Hospital — Maternity & One-Stop Center (Pemba Island, Zanzibar)"
+      "en": "Chake Chake Hospital"
     },
     "categoryBadge": {
-      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+      "en": "24/7 Maternity, OB/GYN & One-Stop GBV Hospital"
     },
-    "phone": "+255 24 245 2012",
+    "phone": "+255 24 245 2011",
     "emergencyHotline": "116 / 112",
     "address": {
       "en": "Chake Chake, South Pemba, Zanzibar, Tanzania"
     },
     "services": {
       "en": [
-        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
-        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
-        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+        "24/7 Maternity, Emergency Delivery & C-Section Ward",
+        "Mkono kwa Mkono One-Stop GBV Crisis Center",
+        "Antenatal & Reproductive Health Services"
       ]
     },
     "directionsText": {
-      "en": "24/7 island maternity referral hospital and One-Stop GBV center on Pemba Island."
+      "en": "Chake Chake Hospital in central Chake Chake, Pemba Island, Zanzibar."
+    }
+  },
+  {
+    "id": "tanzania-pemba-abdulla-mzee-regional-hospital-mkoani",
+    "regionDistrict": "Mkoani, Pemba Island, Zanzibar, Tanzania",
+    "type": "hospital",
+    "lat": -5.3585,
+    "lng": 39.6445,
+    "name": {
+      "en": "Abdulla Mzee Regional Referral Hospital"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Regional Referral Hospital"
+    },
+    "phone": "+255 24 245 6014",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Mkoani, South Pemba, Zanzibar, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Gynecology & Surgical Maternity Care",
+        "One-Stop GBV & Maternal Protection Desk",
+        "Neonatal & Postpartum Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Abdulla Mzee Regional Hospital in Mkoani, Pemba Island, Zanzibar."
     }
   },
   {
@@ -145383,31 +145701,59 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "tanzania-shinyanga-regional-hospital-agape-shelter",
+    "id": "tanzania-shinyanga-agape-womens-safe-shelter",
     "regionDistrict": "Shinyanga, Shinyanga Region, Tanzania",
     "type": "safe-haven",
     "lat": -3.6625,
     "lng": 33.4235,
     "name": {
-      "en": "Agape Knowledge Open School Women/Girls Safe Shelter & Shinyanga Regional Hospital One-Stop Center"
+      "en": "Agape AIDS Control Programme & Knowledge Open School Safe Shelter"
     },
     "categoryBadge": {
-      "en": "Women’s Safe Haven, Shelter & Protection Center"
+      "en": "Women’s & Girls’ Safe Haven & Protection Shelter"
     },
-    "phone": "+255 28 276 2022",
+    "phone": "+255 754 547 315",
     "emergencyHotline": "116 / 112",
     "address": {
-      "en": "Shinyanga Municipality, Shinyanga Region, Tanzania"
+      "en": "Shinyanga Municipal, Shinyanga Region, Tanzania"
     },
     "services": {
       "en": [
-        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
-        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
-        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+        "24/7 Safe Haven for Girls & Young Mothers Escaping Child Marriage / GBV",
+        "Free Legal Aid, Psychosocial Counseling & Open School Education",
+        "Police Gender Desk & Medical Referral"
       ]
     },
     "directionsText": {
-      "en": "Safe shelter for survivors of child marriage/GBV and regional maternity One-Stop center in Shinyanga."
+      "en": "Agape Safe Shelter & Knowledge Open School in Shinyanga Municipal."
+    }
+  },
+  {
+    "id": "tanzania-shinyanga-regional-referral-hospital",
+    "regionDistrict": "Shinyanga, Shinyanga Region, Tanzania",
+    "type": "hospital",
+    "lat": -3.6715,
+    "lng": 33.4295,
+    "name": {
+      "en": "Shinyanga Regional Referral Hospital"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Regional Referral Hospital"
+    },
+    "phone": "+255 28 276 2022",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Shinyanga Municipal, Shinyanga Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Maternity & C-Section Care",
+        "One-Stop GBV Center & Forensic Medical Support",
+        "Antenatal, Postnatal & Reproductive Health Ward"
+      ]
+    },
+    "directionsText": {
+      "en": "Shinyanga Regional Referral Hospital in Shinyanga Municipal."
     }
   },
   {
@@ -145495,13 +145841,13 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "tanzania-musoma-mara-hope-safe-house",
-    "regionDistrict": "Musoma & Mugumu (Serengeti), Mara Region, Tanzania",
+    "id": "tanzania-mugumu-hope-safe-house-serengeti",
+    "regionDistrict": "Mugumu, Serengeti District, Mara Region, Tanzania",
     "type": "safe-haven",
-    "lat": -1.5035,
-    "lng": 33.7985,
+    "lat": -1.8481,
+    "lng": 34.7008,
     "name": {
-      "en": "Hope for Girls and Women in Tanzania (HGWT) Safe House (Mugumu/Musoma) & Mara Regional Hospital"
+      "en": "Hope for Girls and Women in Tanzania (HGWT) — Mugumu Safe House"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven, Shelter & Protection Center"
@@ -145509,17 +145855,73 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+255 756 802 152",
     "emergencyHotline": "116 / 112",
     "address": {
-      "en": "Musoma & Mugumu, Mara Region, Tanzania"
+      "en": "Mugumu Town, Serengeti District, Mara Region, Tanzania"
     },
     "services": {
       "en": [
-        "24/7 Women’s Safe Haven, GBV Crisis Protection & Psychosocial Care",
-        "Free Legal Aid, Police Gender Desk & Emergency Shelter Referral",
-        "Confidential Maternal, PEP/STI & Reproductive Health Support"
+        "24/7 Women’s Safe Haven, Anti-FGM Rescue & GBV Crisis Protection",
+        "Free Legal Aid, Police Gender Desk & Emergency Shelter",
+        "Confidential Psychosocial & Reproductive Health Support"
       ]
     },
     "directionsText": {
-      "en": "24/7 anti-FGM & domestic violence safe houses in Musoma and Mugumu alongside Mara Regional Referral Hospital."
+      "en": "Located in Mugumu Town, Serengeti District, Mara Region."
+    }
+  },
+  {
+    "id": "tanzania-musoma-kiabakari-hope-safe-house",
+    "regionDistrict": "Kiabakari / Butiama, Musoma, Mara Region, Tanzania",
+    "type": "safe-haven",
+    "lat": -1.7686,
+    "lng": 33.9631,
+    "name": {
+      "en": "Hope for Girls and Women in Tanzania (HGWT) — Kiabakari / Musoma Safe House"
+    },
+    "categoryBadge": {
+      "en": "Women’s Safe Haven, Shelter & Protection Center"
+    },
+    "phone": "+255 756 802 152",
+    "emergencyHotline": "116 / 112",
+    "address": {
+      "en": "Kiabakari, Butiama / Musoma Road, Mara Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Domestic Violence & Anti-FGM Safe Shelter",
+        "Free Legal Aid, Vocational Empowerment & Psychosocial Care",
+        "Police Gender Desk & Maternal Health Referrals"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at Kiabakari along the Musoma–Butiama Road, Mara Region."
+    }
+  },
+  {
+    "id": "tanzania-musoma-mara-regional-referral-hospital",
+    "regionDistrict": "Musoma, Mara Region, Tanzania",
+    "type": "hospital",
+    "lat": -1.4939,
+    "lng": 33.8015,
+    "name": {
+      "en": "Mara Regional Referral Hospital (Musoma)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Regional Referral Hospital"
+    },
+    "phone": "+255 28 262 2004",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Kwangwa / Mukendo, Musoma Municipal, Mara Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Maternity & C-Section Surgery",
+        "One-Stop GBV & Forensic Medical Care Center",
+        "Antenatal, Neonatal & Gynecological Ward"
+      ]
+    },
+    "directionsText": {
+      "en": "Mara Regional Referral Hospital in Musoma Municipal, Mara Region."
     }
   },
   {
@@ -145529,25 +145931,53 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -10.6815,
     "lng": 35.6505,
     "name": {
-      "en": "Songea Regional Referral Hospital (HOMSO) & St. Joseph’s Peramiho Maternity Hospital (Ruvuma)"
+      "en": "Songea Regional Referral Hospital (HOMSO)"
     },
     "categoryBadge": {
       "en": "24/7 Maternity, OB/GYN & Referral Hospital"
     },
-    "phone": "+255 25 260 2219",
-    "emergencyHotline": "116 / 112",
+    "phone": "+255 25 260 2019",
+    "emergencyHotline": "112 / 116",
     "address": {
-      "en": "Songea Municipality & Peramiho, Ruvuma Region, Southern Tanzania"
+      "en": "Songea Municipal, Ruvuma Region, Tanzania"
     },
     "services": {
       "en": [
-        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
-        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
-        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+        "24/7 Maternity, Obstetric Emergency & C-Section Care",
+        "One-Stop GBV Recovery & Social Welfare Desk",
+        "Inpatient & Outpatient Women’s Health Services"
       ]
     },
     "directionsText": {
-      "en": "24/7 regional maternity referral hospital in Songea and Peramiho."
+      "en": "Songea Regional Referral Hospital in Songea Municipal, Ruvuma Region."
+    }
+  },
+  {
+    "id": "tanzania-peramiho-st-josephs-mission-hospital-ruvuma",
+    "regionDistrict": "Peramiho, Songea District, Ruvuma Region, Tanzania",
+    "type": "hospital",
+    "lat": -10.6285,
+    "lng": 35.4625,
+    "name": {
+      "en": "St. Joseph’s Mission Hospital Peramiho"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+255 25 260 6450",
+    "emergencyHotline": "112 / 116",
+    "address": {
+      "en": "Peramiho, Songea District, Ruvuma Region, Tanzania"
+    },
+    "services": {
+      "en": [
+        "24/7 Comprehensive Maternity, OB/GYN & Neonatal ICU",
+        "Surgical Fistula Repair & High-Risk Pregnancy Care",
+        "Confidential Maternal & Reproductive Health Clinic"
+      ]
+    },
+    "directionsText": {
+      "en": "St. Joseph’s Mission Hospital in Peramiho, 24 km west of Songea, Ruvuma Region."
     }
   },
   {
@@ -147343,31 +147773,57 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "malawi-lilongwe-kamuzu-central-bwaila-maternity",
+    "id": "malawi-lilongwe-kamuzu-central-hospital",
     "regionDistrict": "Lilongwe, Central Region, Malawi",
     "type": "hospital",
     "lat": -13.9785,
     "lng": 33.7795,
     "name": {
-      "en": "Kamuzu Central Hospital & Bwaila Maternity Hospital — One-Stop GBV Center (Lilongwe, Malawi)"
+      "en": "Kamuzu Central Hospital"
     },
     "categoryBadge": {
-      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+      "en": "24/7 National Referral, OB/GYN & One-Stop GBV Hospital"
     },
-    "phone": "+265 1 753 555",
-    "emergencyHotline": "5600 / 997",
+    "phone": "5600 / 997",
+    "emergencyHotline": "5600",
     "address": {
-      "en": "Mzimba Street & Bwaila, Lilongwe, Malawi"
+      "en": "Area 33, Mzimba Street, Lilongwe, Malawi"
     },
     "services": {
       "en": [
-        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
-        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
-        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+        "24/7 Tertiary Obstetrics, Gynecology & High-Risk Maternity",
+        "Chikwanekwane One-Stop GBV Center"
       ]
     },
     "directionsText": {
-      "en": "Lilongwe’s high-volume public maternity hospital (Bwaila) and Tithandizane 5600 One-Stop GBV Center."
+      "en": "Kamuzu Central Hospital in Area 33, Lilongwe, Malawi."
+    }
+  },
+  {
+    "id": "malawi-lilongwe-bwaila-maternity-hospital",
+    "regionDistrict": "Bottom Hospital / Area 1, Lilongwe, Malawi",
+    "type": "obgyn",
+    "lat": -13.9875,
+    "lng": 33.7685,
+    "name": {
+      "en": "Bwaila Hospital (Bwaila Maternity Wing & Fistula Care Center)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, Fistula Repair & One-Stop GBV Hospital"
+    },
+    "phone": "5600 / 997",
+    "emergencyHotline": "5600",
+    "address": {
+      "en": "Old Town, Lilongwe, Malawi"
+    },
+    "services": {
+      "en": [
+        "24/7 High-Volume Maternity, Delivery & Neonatal Care",
+        "Freedom from Fistula Repair Center & One-Stop GBV Unit"
+      ]
+    },
+    "directionsText": {
+      "en": "Bwaila Maternity Hospital in Old Town, Lilongwe, Malawi."
     }
   },
   {
@@ -147399,31 +147855,57 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "eswatini-mbabane-govt-rfm-manzini-maternity",
-    "regionDistrict": "Mbabane & Manzini, Eswatini",
+    "id": "eswatini-mbabane-government-hospital",
+    "regionDistrict": "Mbabane, Hhohho Region, Eswatini",
     "type": "hospital",
     "lat": -26.3255,
     "lng": 31.1445,
     "name": {
-      "en": "Mbabane Government Hospital & Raleigh Fitkin Memorial (RFM) Maternity Hospital + SWAGAA (Eswatini)"
+      "en": "Mbabane Government Hospital"
     },
     "categoryBadge": {
-      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+      "en": "24/7 National Referral & Maternity Hospital"
     },
-    "phone": "+268 2404 2111",
+    "phone": "977 / 951",
     "emergencyHotline": "951 / 977",
     "address": {
-      "en": "Hospital Hill, Mbabane & Manzini, Kingdom of Eswatini"
+      "en": "Hospital Hill, Mbabane, Eswatini"
     },
     "services": {
       "en": [
-        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
-        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
-        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+        "24/7 National Maternity, Obstetrics & Gynecology",
+        "One-Stop GBV & SWAGAA Survivor Referral"
       ]
     },
     "directionsText": {
-      "en": "National referral maternity hospitals and Swaziland Action Group Against Abuse (SWAGAA 951) in Mbabane & Manzini."
+      "en": "Mbabane Government Hospital on Hospital Hill, Mbabane, Eswatini."
+    }
+  },
+  {
+    "id": "eswatini-manzini-raleigh-fitkin-memorial-hospital",
+    "regionDistrict": "Manzini, Manzini Region, Eswatini",
+    "type": "hospital",
+    "lat": -26.4925,
+    "lng": 31.3785,
+    "name": {
+      "en": "Raleigh Fitkin Memorial (RFM) Hospital"
+    },
+    "categoryBadge": {
+      "en": "24/7 Regional Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+268 2505 2211",
+    "emergencyHotline": "951 / 977",
+    "address": {
+      "en": "Manzini, Eswatini"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity, Labor & Delivery & Neonatal ICU",
+        "SWAGAA & GBV Crisis Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Raleigh Fitkin Memorial (RFM) Hospital in Manzini, Eswatini."
     }
   },
   {
@@ -147433,25 +147915,51 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": -29.3385,
     "lng": 27.5225,
     "name": {
-      "en": "Queen ’Mamohato Memorial Hospital (Tšepong) & Lapeng One-Stop GBV Safe Shelter (Maseru, Lesotho)"
+      "en": "Queen ’Mamohato Memorial Hospital"
     },
     "categoryBadge": {
-      "en": "24/7 Maternity, OB/GYN & Referral Hospital"
+      "en": "24/7 National Referral Maternity & OB/GYN Hospital"
     },
     "phone": "+266 2222 0000",
-    "emergencyHotline": "116 / 112",
+    "emergencyHotline": "112 / 116",
     "address": {
       "en": "Botsabelo, Main South 1 Road, Maseru, Lesotho"
     },
     "services": {
       "en": [
-        "24/7 Obstetrics, Gynecology, Maternity & C-Section Delivery",
-        "One-Stop GBV / Gender Desk Survivor Care & Neonatal ICU",
-        "High-Risk Pregnancy, Fistula & Reproductive Healthcare"
+        "24/7 National Obstetrics, Gynecology & Neonatal ICU",
+        "Emergency C-Section & Maternal Care"
       ]
     },
     "directionsText": {
-      "en": "Lesotho’s national referral maternity hospital and Lapeng One-Stop GBV Care Center in Maseru."
+      "en": "Queen ’Mamohato Memorial Hospital in Botsabelo, Maseru."
+    }
+  },
+  {
+    "id": "lesotho-maseru-lapeng-one-stop-gbv-shelter",
+    "regionDistrict": "Maseru Central, Lesotho",
+    "type": "safe-haven",
+    "lat": -29.3145,
+    "lng": 27.4855,
+    "name": {
+      "en": "Lapeng One-Stop Care and Support Centre"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & GBV Shelter"
+    },
+    "phone": "800 22 002",
+    "emergencyHotline": "800 22 002 / 112",
+    "address": {
+      "en": "Maseru Central, Maseru, Lesotho"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Domestic Violence & GBV Safe Shelter",
+        "Psychosocial Counseling, Legal Aid & Police CGPU Desk"
+      ]
+    },
+    "directionsText": {
+      "en": "Lapeng One-Stop GBV Shelter in Maseru Central, Lesotho."
     }
   },
   {

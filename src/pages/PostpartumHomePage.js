@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=175';
+import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=176';
 
 const h = React.createElement;
 

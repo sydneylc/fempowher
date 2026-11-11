@@ -191,32 +191,55 @@
 
     <!-- Main Interactive Workspace -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
-      <!-- 3. OrganButtons1 — Left Column: Component Buttons Selector -->
-      <div id="OrganButtons1" data-piece-name="OrganButtons1" class="lg:col-span-3 bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-3">
-        <div class="flex items-center justify-between">
-          <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--muted-foreground,#6e5d78)]">
-            Organ Buttons (12)
-          </h2>
-          <span class="text-xs text-[var(--muted-foreground,#6e5d78)]">Click to select</span>
-        </div>
-        <div id="organ-pill-list" class="grid grid-cols-1 gap-1.5"></div>
+      <!-- 3. Left Column: OrganButtons1 + Dynamic PregnancyComponents1 Bubble -->
+      <div class="lg:col-span-3 flex flex-col gap-4">
+        <div id="OrganButtons1" data-piece-name="OrganButtons1" class="bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-3">
+          <div class="flex items-center justify-between">
+            <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--muted-foreground,#6e5d78)]">
+              Organ Buttons (12)
+            </h2>
+            <span class="text-xs text-[var(--muted-foreground,#6e5d78)]">Click to select</span>
+          </div>
+          <div id="organ-pill-list" class="grid grid-cols-1 gap-1.5"></div>
 
-        <div class="pt-2 border-t border-[var(--border,#e5dce8)] flex flex-col gap-2">
-          <label class="flex items-center gap-2 text-xs font-medium cursor-pointer">
-            <input type="checkbox" id="toggle-drag" checked class="rounded text-pink-600" />
-            <span>Enable direct drag-to-move on canvas</span>
-          </label>
-          <label class="flex items-center gap-2 text-xs font-medium cursor-pointer">
-            <input type="checkbox" id="toggle-checker" class="rounded text-pink-600" onchange="updateCanvasBg()" />
-            <span>Show transparency checkerboard</span>
-          </label>
-          <label class="flex items-center gap-2 text-xs font-medium cursor-pointer">
-            <input type="checkbox" id="toggle-labels" checked class="rounded text-pink-600" onchange="renderAnatomy()" />
-            <span>Show subtle floating callout pins</span>
-          </label>
-          <button onclick="exportSVG()" class="mt-1 w-full py-2 px-3 rounded-xl text-xs font-semibold bg-purple-600 text-white hover:bg-purple-700 transition shadow-sm">
-            Download Transparent SVG
-          </button>
+          <div class="pt-2 border-t border-[var(--border,#e5dce8)] flex flex-col gap-2">
+            <label class="flex items-center gap-2 text-xs font-medium cursor-pointer">
+              <input type="checkbox" id="toggle-drag" checked class="rounded text-pink-600" />
+              <span>Enable direct drag-to-move on canvas</span>
+            </label>
+            <label class="flex items-center gap-2 text-xs font-medium cursor-pointer">
+              <input type="checkbox" id="toggle-checker" class="rounded text-pink-600" onchange="updateCanvasBg()" />
+              <span>Show transparency checkerboard</span>
+            </label>
+            <label class="flex items-center gap-2 text-xs font-medium cursor-pointer">
+              <input type="checkbox" id="toggle-labels" checked class="rounded text-pink-600" onchange="renderAnatomy()" />
+              <span>Show subtle floating callout pins</span>
+            </label>
+            <button onclick="exportSVG()" class="mt-1 w-full py-2 px-3 rounded-xl text-xs font-semibold bg-purple-600 text-white hover:bg-purple-700 transition shadow-sm">
+              Download Transparent SVG
+            </button>
+          </div>
+        </div>
+
+        <!-- 3B. PregnancyComponents1 — Dynamic Side Bubble (Same shape & functions as OrganButtons1) that appears whenever any Pregnancy-related filter is active -->
+        <div
+          id="PregnancyComponents1"
+          data-piece-name="PregnancyComponents1"
+          class="hidden bg-[var(--card,#ffffff)] border-2 border-[#CF366C] rounded-2xl p-4 shadow-md space-y-3 transition-all"
+        >
+          <div class="flex items-center justify-between border-b border-[#FEACEC] pb-2">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-[#CF366C] inline-block"></span>
+              <h2 class="text-sm font-extrabold uppercase tracking-wider text-[#9F133A]">
+                Pregnancy
+              </h2>
+            </div>
+            <span class="text-[11px] font-semibold text-[#9F133A]">Click to select / toggle</span>
+          </div>
+          <p id="pregnancy-bubble-subtitle" class="text-[11px] font-medium text-[#6e5d78] leading-snug">
+            Pregnancy components active on your body image. Click any component to inspect/adjust it, or toggle its visibility:
+          </p>
+          <div id="pregnancy-pill-list" class="grid grid-cols-1 gap-1.5"></div>
         </div>
       </div>
 
@@ -420,14 +443,149 @@
         opacity: 0.86,
         morphLabel: "Introitus Opening Width",
         desc: "Deep scarlet-red soft cartoon vaginal entrance leading into the vaginal canal."
+      },
+      // --- PREGNANCY COMPONENTS (Appear in PregnancyComponents1 Side Bubble when any Pregnancy filter is active) ---
+      placenta: {
+        name: "Placenta",
+        color: "#C9184A",
+        rimColor: "#800F2F",
+        opacity: 0.86,
+        morphLabel: "Placenta Thickness / Attachment",
+        desc: "Rich crimson-rose vascular organ that develops inside the uterus during pregnancy to provide oxygen and nutrients to the growing baby.",
+        isPregnancyComponent: true
+      },
+      umbilical_cord: {
+        name: "Umbilical Cord",
+        color: "#F48C06",
+        rimColor: "#D62828",
+        opacity: 0.88,
+        morphLabel: "Cord Coil / Length",
+        desc: "Soft coiled lifeline connecting the baby's abdomen to the placenta, carrying nutrient-rich blood and oxygen.",
+        isPregnancyComponent: true
+      },
+      water_sac: {
+        name: "Water Sac (Amniotic Sac)",
+        color: "#FFB703",
+        rimColor: "#FB8500",
+        opacity: 0.84,
+        morphLabel: "Membrane Stretch / Intactness",
+        desc: "Protective translucent golden-amber membrane sac (amniotic & chorionic membranes) enclosing the amniotic fluid and baby inside the uterus.",
+        isPregnancyComponent: true
+      },
+      amniotic_fluid: {
+        name: "Amniotic Fluid (The Fluid)",
+        color: "#FFE599",
+        rimColor: "#FFB703",
+        opacity: 0.78,
+        morphLabel: "Fluid Cushion Volume",
+        desc: "Warm, cushioning fluid inside the water sac that protects the baby, regulates temperature, and supports lung and limb development.",
+        isPregnancyComponent: true
+      },
+      fetus_baby: {
+        name: "Developing Baby / Embryo",
+        color: "#FFAD85",
+        rimColor: "#E07A5F",
+        opacity: 0.92,
+        morphLabel: "Curled Posture / Growth Size",
+        desc: "In the 1st trimester, appears as the early gestational egg/embryo sac; in the 2nd trimester, a curled baby at half-size; in the 3rd trimester and full-term pregnancy, a full-sized curled baby.",
+        isPregnancyComponent: true
       }
     };
 
-    // Live state per organ
+    const PREGNANCY_COMPONENT_IDS = ['placenta', 'umbilical_cord', 'water_sac', 'amniotic_fluid', 'fetus_baby'];
+    const PREGNANCY_PRESET_NAMES = [
+      'pregnancy',
+      'first_trimester',
+      'second_trimester',
+      'third_trimester',
+      'birth',
+      'vaginal_birth',
+      'c_section',
+      'still_birth',
+      'second_pregnancy',
+      'pregnancy_after_loss',
+      'actively_losing_pregnancy',
+      'pregnancy_loss',
+      'after_pregnancy_loss'
+    ];
+
+    // Live state per organ & pregnancy component
     const organState = {};
+    const pregnancyComponentEnabled = {
+      placenta: false,
+      umbilical_cord: false,
+      water_sac: false,
+      amniotic_fluid: false,
+      fetus_baby: false
+    };
     let selectedOrgan = "endometrium";
     let currentPreset = "baseline";
     let animFrameId = null;
+
+    function isPregnancyContextActive() {
+      return hasActivePreset(PREGNANCY_PRESET_NAMES);
+    }
+
+    function syncPregnancyComponentsForActiveFilters() {
+      const isPregActive = isPregnancyContextActive();
+      if (!isPregActive) {
+        for (const id of PREGNANCY_COMPONENT_IDS) {
+          pregnancyComponentEnabled[id] = false;
+        }
+        if (PREGNANCY_COMPONENT_IDS.includes(selectedOrgan)) {
+          selectedOrgan = 'uterus';
+        }
+        return;
+      }
+
+      // If ONLY "actively_losing_pregnancy", "pregnancy_loss", or "after_pregnancy_loss" is active (without an active ongoing trimester/pregnancy filter),
+      // NOT all components are automatically added — e.g. for actively losing a pregnancy, only placenta & water_sac start checked (fluid/baby can be toggled manually),
+      // and for pregnancy_loss / after_pregnancy_loss, only placenta starts checked by default so the user can toggle others on/off as needed!
+      const hasOngoingOrFullTerm = hasActivePreset([
+        'pregnancy',
+        'first_trimester',
+        'second_trimester',
+        'third_trimester',
+        'birth',
+        'vaginal_birth',
+        'c_section',
+        'still_birth',
+        'second_pregnancy',
+        'pregnancy_after_loss'
+      ]);
+
+      if (hasOngoingOrFullTerm) {
+        pregnancyComponentEnabled.placenta = true;
+        pregnancyComponentEnabled.umbilical_cord = true;
+        pregnancyComponentEnabled.water_sac = true;
+        pregnancyComponentEnabled.amniotic_fluid = true;
+        pregnancyComponentEnabled.fetus_baby = true;
+      } else if (hasActivePreset('actively_losing_pregnancy')) {
+        // Actively losing a pregnancy: not all components automatically added (placenta & detaching water sac shown; amniotic fluid / baby optional)
+        pregnancyComponentEnabled.placenta = true;
+        pregnancyComponentEnabled.water_sac = true;
+        pregnancyComponentEnabled.umbilical_cord = false;
+        pregnancyComponentEnabled.amniotic_fluid = false;
+        pregnancyComponentEnabled.fetus_baby = false;
+      } else {
+        // Pregnancy loss / After a pregnancy loss: not all components automatically added (all listed in the Pregnancy side bubble so user can click/toggle any of them)
+        pregnancyComponentEnabled.placenta = true;
+        pregnancyComponentEnabled.water_sac = false;
+        pregnancyComponentEnabled.umbilical_cord = false;
+        pregnancyComponentEnabled.amniotic_fluid = false;
+        pregnancyComponentEnabled.fetus_baby = false;
+      }
+    }
+
+    function togglePregnancyComponent(compId, ev) {
+      if (ev) ev.stopPropagation();
+      pregnancyComponentEnabled[compId] = !pregnancyComponentEnabled[compId];
+      if (pregnancyComponentEnabled[compId]) {
+        selectedOrgan = compId;
+      }
+      syncControlsToSelected();
+      renderAnatomy();
+    }
 
     function createDefaultState() {
       const st = {};
@@ -478,7 +636,12 @@
         mammary_glands:  { scaleX: 1.24, scaleY: 1.24, morph: 85,  dx: 0, dy: 0 },
         labia_majora:    { scaleX: 1.12, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
         labia_minora:    { scaleX: 1.12, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
-        vaginal_opening: { scaleX: 1.14, scaleY: 1.10, morph: 30,  dx: 0, dy: 0 }
+        vaginal_opening: { scaleX: 1.14, scaleY: 1.10, morph: 30,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 1.00, scaleY: 1.00, morph: 50,  dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 1.00, scaleY: 1.00, morph: 40,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 1.00, scaleY: 1.00, morph: 50,  dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 1.00, scaleY: 1.00, morph: 50,  dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 1.00, scaleY: 1.00, morph: 85,  dx: 0, dy: 0 }
       },
       lactation: {
         breasts:         { scaleX: 1.24, scaleY: 1.22, morph: 85,  dx: 0, dy: 0 },
@@ -567,7 +730,12 @@
         ovaries:         { scaleX: 1.06, scaleY: 1.06, morph: 45,  dx: 0, dy: 8 },
         cervix:          { scaleX: 1.04, scaleY: 1.02, morph: -25, dx: 0, dy: 0 },
         breasts:         { scaleX: 1.08, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
-        mammary_glands:  { scaleX: 1.12, scaleY: 1.12, morph: 48,  dx: 0, dy: 0 }
+        mammary_glands:  { scaleX: 1.12, scaleY: 1.12, morph: 48,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 0.56, scaleY: 0.56, morph: -20, dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 0.58, scaleY: 0.58, morph: -20, dx: 0, dy: 0 },
+        water_sac:       { scaleX: 0.56, scaleY: 0.56, morph: -10, dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 0.56, scaleY: 0.56, morph: -10, dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 0.65, scaleY: 0.65, morph: 10,  dx: 0, dy: 0 }
       },
       second_trimester: {
         uterus:          { scaleX: 1.42, scaleY: 1.36, morph: 72,  dx: 0, dy: 8 },
@@ -576,7 +744,12 @@
         ovaries:         { scaleX: 1.00, scaleY: 1.00, morph: 20,  dx: 0, dy: 16 },
         cervix:          { scaleX: 1.08, scaleY: 0.96, morph: -30, dx: 0, dy: 0 },
         breasts:         { scaleX: 1.14, scaleY: 1.14, morph: 52,  dx: 0, dy: 0 },
-        mammary_glands:  { scaleX: 1.18, scaleY: 1.18, morph: 70,  dx: 0, dy: 0 }
+        mammary_glands:  { scaleX: 1.18, scaleY: 1.18, morph: 70,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 0.80, scaleY: 0.80, morph: 20,  dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 0.80, scaleY: 0.80, morph: 20,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 0.78, scaleY: 0.78, morph: 25,  dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 0.78, scaleY: 0.78, morph: 25,  dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 0.50, scaleY: 0.50, morph: 50,  dx: 0, dy: 0 }
       },
       third_trimester: {
         uterus:          { scaleX: 1.68, scaleY: 1.58, morph: 98,  dx: 0, dy: 12 },
@@ -589,13 +762,43 @@
         mammary_glands:  { scaleX: 1.26, scaleY: 1.26, morph: 88,  dx: 0, dy: 0 },
         labia_majora:    { scaleX: 1.12, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
         labia_minora:    { scaleX: 1.12, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
-        vaginal_opening: { scaleX: 1.14, scaleY: 1.10, morph: 30,  dx: 0, dy: 0 }
+        vaginal_opening: { scaleX: 1.14, scaleY: 1.10, morph: 30,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 1.02, scaleY: 1.02, morph: 55,  dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 1.00, scaleY: 1.00, morph: 50,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 1.02, scaleY: 1.02, morph: 60,  dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 1.02, scaleY: 1.02, morph: 60,  dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 1.00, scaleY: 1.00, morph: 90,  dx: 0, dy: 0 }
+      },
+      actively_losing_pregnancy: {
+        uterus:          { scaleX: 1.22, scaleY: 1.18, morph: 20,  dx: 0, dy: 4 },
+        endometrium:     { scaleX: 1.16, scaleY: 1.12, morph: -60, dx: 0, dy: 4 },
+        cervix:          { scaleX: 1.18, scaleY: 0.92, morph: 65,  dx: 0, dy: 0 },
+        vaginal_canal:   { scaleX: 1.10, scaleY: 1.00, morph: 35,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.06, scaleY: 1.06, morph: 18,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 0.72, scaleY: 0.68, morph: -65, dx: 8, dy: 14 },
+        umbilical_cord:  { scaleX: 0.68, scaleY: 0.68, morph: -55, dx: 6, dy: 16 },
+        water_sac:       { scaleX: 0.72, scaleY: 0.66, morph: -75, dx: 4, dy: 18 },
+        amniotic_fluid:  { scaleX: 0.58, scaleY: 0.54, morph: -80, dx: 4, dy: 20 },
+        fetus_baby:      { scaleX: 0.52, scaleY: 0.52, morph: -40, dx: 4, dy: 18 }
+      },
+      pregnancy_loss: {
+        uterus:          { scaleX: 1.14, scaleY: 1.12, morph: 10,  dx: 0, dy: 3 },
+        endometrium:     { scaleX: 1.10, scaleY: 1.08, morph: -65, dx: 0, dy: 3 },
+        cervix:          { scaleX: 1.12, scaleY: 0.96, morph: 48,  dx: 0, dy: 0 },
+        breasts:         { scaleX: 1.05, scaleY: 1.05, morph: 12,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 0.64, scaleY: 0.60, morph: -75, dx: 6, dy: 16 },
+        umbilical_cord:  { scaleX: 0.60, scaleY: 0.60, morph: -70, dx: 4, dy: 18 },
+        water_sac:       { scaleX: 0.62, scaleY: 0.58, morph: -85, dx: 4, dy: 20 },
+        amniotic_fluid:  { scaleX: 0.48, scaleY: 0.45, morph: -90, dx: 4, dy: 22 },
+        fetus_baby:      { scaleX: 0.48, scaleY: 0.48, morph: -50, dx: 4, dy: 20 }
       },
       after_pregnancy_loss: {
         uterus:          { scaleX: 1.10, scaleY: 1.08, morph: 15,  dx: 0, dy: 2 },
         endometrium:     { scaleX: 1.06, scaleY: 1.05, morph: -55, dx: 0, dy: 2 },
         cervix:          { scaleX: 1.06, scaleY: 1.00, morph: 30,  dx: 0, dy: 0 },
-        breasts:         { scaleX: 1.04, scaleY: 1.04, morph: 10,  dx: 0, dy: 0 }
+        breasts:         { scaleX: 1.04, scaleY: 1.04, morph: 10,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 0.55, scaleY: 0.52, morph: -80, dx: 4, dy: 14 },
+        water_sac:       { scaleX: 0.55, scaleY: 0.50, morph: -85, dx: 4, dy: 16 }
       },
       birth: {
         uterus:          { scaleX: 1.48, scaleY: 1.38, morph: 65,  dx: 0, dy: 10 },
@@ -606,7 +809,12 @@
         labia_majora:    { scaleX: 1.22, scaleY: 1.16, morph: 55,  dx: 0, dy: 0 },
         labia_minora:    { scaleX: 1.22, scaleY: 1.16, morph: 55,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 75,  dx: 0, dy: 0 },
-        mammary_glands:  { scaleX: 1.28, scaleY: 1.28, morph: 92,  dx: 0, dy: 0 }
+        mammary_glands:  { scaleX: 1.28, scaleY: 1.28, morph: 92,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 0.98, scaleY: 0.96, morph: 40,  dx: 0, dy: 6 },
+        umbilical_cord:  { scaleX: 1.00, scaleY: 1.06, morph: 45,  dx: 0, dy: 12 },
+        water_sac:       { scaleX: 0.96, scaleY: 0.94, morph: -60, dx: 0, dy: 10 },
+        amniotic_fluid:  { scaleX: 0.78, scaleY: 0.76, morph: -55, dx: 0, dy: 14 },
+        fetus_baby:      { scaleX: 0.98, scaleY: 0.98, morph: 90,  dx: 0, dy: 18 }
       },
       vaginal_birth: {
         uterus:          { scaleX: 1.45, scaleY: 1.35, morph: 60,  dx: 0, dy: 10 },
@@ -617,14 +825,24 @@
         labia_majora:    { scaleX: 1.24, scaleY: 1.18, morph: 60,  dx: 0, dy: 0 },
         labia_minora:    { scaleX: 1.24, scaleY: 1.18, morph: 60,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 75,  dx: 0, dy: 0 },
-        mammary_glands:  { scaleX: 1.28, scaleY: 1.28, morph: 92,  dx: 0, dy: 0 }
+        mammary_glands:  { scaleX: 1.28, scaleY: 1.28, morph: 92,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 0.98, scaleY: 0.96, morph: 40,  dx: 0, dy: 6 },
+        umbilical_cord:  { scaleX: 1.00, scaleY: 1.08, morph: 45,  dx: 0, dy: 14 },
+        water_sac:       { scaleX: 0.96, scaleY: 0.94, morph: -65, dx: 0, dy: 10 },
+        amniotic_fluid:  { scaleX: 0.76, scaleY: 0.74, morph: -60, dx: 0, dy: 16 },
+        fetus_baby:      { scaleX: 0.98, scaleY: 0.98, morph: 92,  dx: 0, dy: 20 }
       },
       c_section: {
         uterus:          { scaleX: 1.26, scaleY: 1.22, morph: 35,  dx: 0, dy: 6 },
         endometrium:     { scaleX: 1.22, scaleY: 1.18, morph: -25, dx: 0, dy: 6 },
         cervix:          { scaleX: 1.06, scaleY: 1.00, morph: 10,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 75,  dx: 0, dy: 0 },
-        mammary_glands:  { scaleX: 1.28, scaleY: 1.28, morph: 92,  dx: 0, dy: 0 }
+        mammary_glands:  { scaleX: 1.28, scaleY: 1.28, morph: 92,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 0.92, scaleY: 0.92, morph: 30,  dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 0.92, scaleY: 0.92, morph: 30,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 0.92, scaleY: 0.92, morph: -35, dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 0.85, scaleY: 0.85, morph: -25, dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 0.92, scaleY: 0.92, morph: 75,  dx: 0, dy: 0 }
       },
       still_birth: {
         uterus:          { scaleX: 1.24, scaleY: 1.20, morph: 25,  dx: 0, dy: 5 },
@@ -632,7 +850,12 @@
         cervix:          { scaleX: 1.22, scaleY: 0.90, morph: 55,  dx: 0, dy: 0 },
         vaginal_canal:   { scaleX: 1.18, scaleY: 1.00, morph: 45,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.14, scaleY: 1.14, morph: 45,  dx: 0, dy: 0 },
-        mammary_glands:  { scaleX: 1.18, scaleY: 1.18, morph: 55,  dx: 0, dy: 0 }
+        mammary_glands:  { scaleX: 1.18, scaleY: 1.18, morph: 55,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 0.82, scaleY: 0.80, morph: -50, dx: 4, dy: 8 },
+        umbilical_cord:  { scaleX: 0.82, scaleY: 0.82, morph: -45, dx: 2, dy: 8 },
+        water_sac:       { scaleX: 0.82, scaleY: 0.80, morph: -60, dx: 0, dy: 8 },
+        amniotic_fluid:  { scaleX: 0.70, scaleY: 0.68, morph: -65, dx: 0, dy: 10 },
+        fetus_baby:      { scaleX: 0.78, scaleY: 0.78, morph: -30, dx: 0, dy: 8 }
       },
       second_pregnancy: {
         uterus:          { scaleX: 1.68, scaleY: 1.58, morph: 96,  dx: 0, dy: 12 },
@@ -641,7 +864,12 @@
         cervix:          { scaleX: 1.16, scaleY: 0.92, morph: -25, dx: 0, dy: 0 },
         vaginal_canal:   { scaleX: 1.18, scaleY: 1.02, morph: 45,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 70,  dx: 0, dy: 0 },
-        mammary_glands:  { scaleX: 1.26, scaleY: 1.26, morph: 88,  dx: 0, dy: 0 }
+        mammary_glands:  { scaleX: 1.26, scaleY: 1.26, morph: 88,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 1.02, scaleY: 1.02, morph: 55,  dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 1.00, scaleY: 1.00, morph: 50,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 1.02, scaleY: 1.02, morph: 60,  dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 1.02, scaleY: 1.02, morph: 60,  dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 1.00, scaleY: 1.00, morph: 90,  dx: 0, dy: 0 }
       },
       pregnancy_after_loss: {
         uterus:          { scaleX: 1.52, scaleY: 1.46, morph: 85,  dx: 0, dy: 10 },
@@ -650,7 +878,12 @@
         ovaries:         { scaleX: 1.02, scaleY: 1.02, morph: 25,  dx: 0, dy: 18 },
         cervix:          { scaleX: 1.10, scaleY: 0.95, morph: -35, dx: 0, dy: 0 },
         breasts:         { scaleX: 1.16, scaleY: 1.16, morph: 60,  dx: 0, dy: 0 },
-        mammary_glands:  { scaleX: 1.22, scaleY: 1.22, morph: 78,  dx: 0, dy: 0 }
+        mammary_glands:  { scaleX: 1.22, scaleY: 1.22, morph: 78,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 0.95, scaleY: 0.95, morph: 48,  dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 0.95, scaleY: 0.95, morph: 45,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 0.95, scaleY: 0.95, morph: 50,  dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 0.95, scaleY: 0.95, morph: 50,  dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 0.95, scaleY: 0.95, morph: 80,  dx: 0, dy: 0 }
       },
       first_period_after_birth: {
         uterus:          { scaleX: 1.06, scaleY: 1.05, morph: -15, dx: 0, dy: 0 },
@@ -765,6 +998,8 @@
         }
       });
 
+      syncPregnancyComponentsForActiveFilters();
+
       const base = createDefaultState();
       const overrides = PRESETS[presetName] || {};
       const targetState = {};
@@ -814,6 +1049,8 @@
         activeAgeButtonId = latest.id;
         activeAgeButtonLabel = activeAgeFilters.map(f => f.label).join(' + ');
       }
+
+      syncPregnancyComponentsForActiveFilters();
 
       document.querySelectorAll('#preset-buttons button').forEach(btn => {
         if (btn.id === 'preset-' + currentPreset) {
@@ -881,7 +1118,176 @@
       return `translate(${st.dx.toFixed(1)}, ${st.dy.toFixed(1)}) translate(${pivotX}, ${pivotY}) rotate(${st.rot.toFixed(1)}) scale(${st.scaleX.toFixed(3)}, ${st.scaleY.toFixed(3)}) translate(${-pivotX}, ${-pivotY})`;
     }
 
-    // Helper: generate a soft, puffy, bumpy cloud/berry path for cartoon ovaries & lobules
+    // Helper: generate the curled-up sleeping cartoon baby character (NO blue background, NO flower)
+    function buildCurledBabySVG(cx, cy, sizeScale = 1.0, isDamagedOrStill = false) {
+      const skinCol = organState.fetus_baby?.color || '#FFAD85';
+      const rimCol  = ORGAN_DEFS.fetus_baby?.rimColor || '#E07A5F';
+      const inkCol  = '#2B2235';
+      const op      = organState.fetus_baby?.opacity ?? 0.92;
+      const cheekCol = isDamagedOrStill ? '#E5989B' : '#FF758F';
+
+      // The baby is drawn centered around (0, 0) in local coordinates (~92px wide x 96px tall) and then scaled by sizeScale around (cx, cy)
+      return `
+        <g transform="translate(${cx.toFixed(1)}, ${cy.toFixed(1)}) scale(${sizeScale.toFixed(3)})">
+          <!-- Soft warm glow behind baby (no blue background!) -->
+          <ellipse cx="0" cy="4" rx="44" ry="46" fill="#FFE5D9" fill-opacity="0.32" />
+
+          <!-- Curled Back, Torso & Bottom (fetal position C-curve on right/bottom) -->
+          <path
+            d="M 16 -6
+               C 38 2, 42 28, 26 42
+               C 10 54, -18 52, -28 36
+               C -34 26, -26 10, -10 8
+               C 2 6, 8 -4, 16 -6 Z"
+            fill="${skinCol}"
+            fill-opacity="${op}"
+            stroke="${rimCol}"
+            stroke-width="3.2"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M 16 -6
+               C 38 2, 42 28, 26 42
+               C 10 54, -18 52, -28 36
+               C -34 26, -26 10, -10 8"
+            fill="none"
+            stroke="${inkCol}"
+            stroke-width="2.3"
+            stroke-linecap="round"
+            filter="url(#loose-pencil)"
+          />
+
+          <!-- Tucked-up Back Leg & Little Foot with Toes (left side) -->
+          <path
+            d="M -22 26
+               C -36 16, -36 -2, -22 -4
+               C -12 -5, -6 6, -10 18"
+            fill="${skinCol}"
+            stroke="${inkCol}"
+            stroke-width="2.1"
+            stroke-linecap="round"
+          />
+          <!-- Little Foot 1 (back foot) -->
+          <path
+            d="M -32 10
+               C -40 8, -42 18, -35 22
+               C -30 25, -24 20, -26 14 Z"
+            fill="${skinCol}"
+            stroke="${inkCol}"
+            stroke-width="2.0"
+          />
+          <circle cx="-40" cy="11" r="2.1" fill="${skinCol}" stroke="${inkCol}" stroke-width="1.4" />
+          <circle cx="-41" cy="15" r="1.9" fill="${skinCol}" stroke="${inkCol}" stroke-width="1.4" />
+          <circle cx="-40" cy="19" r="1.7" fill="${skinCol}" stroke="${inkCol}" stroke-width="1.4" />
+
+          <!-- Tucked-up Front Knee, Thigh & Little Foot with Toes (curled tight against belly) -->
+          <path
+            d="M -14 38
+               C -28 30, -28 4, -12 2
+               C 0 1, 4 16, -4 30"
+            fill="${skinCol}"
+            stroke="${rimCol}"
+            stroke-width="2.8"
+          />
+          <path
+            d="M -14 38
+               C -28 30, -28 4, -12 2
+               C 0 1, 2 14, -4 26"
+            fill="none"
+            stroke="${inkCol}"
+            stroke-width="2.2"
+            stroke-linecap="round"
+          />
+          <!-- Little Foot 2 (front foot sole & toes) -->
+          <path
+            d="M -25 16
+               C -33 14, -35 26, -27 30
+               C -21 32, -16 26, -19 19 Z"
+            fill="${skinCol}"
+            stroke="${inkCol}"
+            stroke-width="2.1"
+          />
+          <circle cx="-32" cy="16" r="2.2" fill="${skinCol}" stroke="${inkCol}" stroke-width="1.4" />
+          <circle cx="-34" cy="20" r="2.0" fill="${skinCol}" stroke="${inkCol}" stroke-width="1.4" />
+          <circle cx="-34" cy="24" r="1.8" fill="${skinCol}" stroke="${inkCol}" stroke-width="1.4" />
+          <circle cx="-32" cy="28" r="1.6" fill="${skinCol}" stroke="${inkCol}" stroke-width="1.4" />
+
+          <!-- Baby Head (tilted gently forward, curled in fetal posture) -->
+          <path
+            d="M -6 -38
+               C 14 -42, 32 -28, 30 -8
+               C 28 8, 12 16, -4 12
+               C -18 8, -24 -8, -18 -24
+               C -15 -32, -11 -37, -6 -38 Z"
+            fill="${skinCol}"
+            fill-opacity="${op}"
+            stroke="${rimCol}"
+            stroke-width="3.0"
+          />
+          <path
+            d="M -6 -38
+               C 14 -42, 32 -28, 30 -8
+               C 28 8, 12 16, -4 12
+               C -18 8, -24 -8, -18 -24
+               C -15 -32, -11 -37, -6 -38 Z"
+            fill="none"
+            stroke="${inkCol}"
+            stroke-width="2.3"
+            stroke-linecap="round"
+            filter="url(#loose-pencil)"
+          />
+
+          <!-- Cute Baby Ear (right side of head) -->
+          <path
+            d="M 28 -14
+               C 35 -15, 36 -4, 29 -2"
+            fill="${skinCol}"
+            stroke="${inkCol}"
+            stroke-width="2.1"
+            stroke-linecap="round"
+          />
+
+          <!-- Glossy White Cartoon Shine on Forehead & Hip (matching reference baby art!) -->
+          <path d="M -12 -28 Q -16 -18 -13 -10" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round" stroke-opacity="0.88" />
+          <path d="M -20 18 Q -22 28 -16 35" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-opacity="0.82" />
+          <path d="M 4 42 Q 14 43 22 36" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-opacity="0.82" />
+
+          <!-- Sleeping Closed Eyes, Soft Brows, Tiny Button Nose & Gentle Smile -->
+          <path d="M -11 -18 Q -6 -21 -1 -18" fill="none" stroke="${inkCol}" stroke-width="1.8" stroke-linecap="round" />
+          <path d="M 8 -18 Q 13 -21 18 -18" fill="none" stroke="${inkCol}" stroke-width="1.8" stroke-linecap="round" />
+          <path d="M -11 -11 Q -6 -7 -1 -11" fill="none" stroke="${inkCol}" stroke-width="2.1" stroke-linecap="round" />
+          <path d="M 8 -11 Q 13 -7 18 -11" fill="none" stroke="${inkCol}" stroke-width="2.1" stroke-linecap="round" />
+          <!-- Soft Rosy Cheeks -->
+          <ellipse cx="-10" cy="-5" rx="4.8" ry="2.8" fill="${cheekCol}" fill-opacity="0.48" />
+          <ellipse cx="16" cy="-5" rx="4.8" ry="2.8" fill="${cheekCol}" fill-opacity="0.48" />
+          <!-- Tiny Nose & Peaceful Curled Mouth -->
+          <path d="M 2 -7 Q 4 -5 6 -7" fill="none" stroke="${inkCol}" stroke-width="1.8" stroke-linecap="round" />
+          <path d="M -1 -1 Q 4 3 9 -1" fill="none" stroke="${inkCol}" stroke-width="1.9" stroke-linecap="round" />
+
+          <!-- Curled Arm & Tiny Tucked Hand Resting Under Chin (NO flower!) -->
+          <path
+            d="M 18 8
+               C 16 20, -2 20, -6 8
+               C -9 0, -6 -8, 0 -6"
+            fill="${skinCol}"
+            stroke="${rimCol}"
+            stroke-width="2.4"
+          />
+          <path
+            d="M 18 8
+               C 16 20, -2 20, -6 8
+               C -9 0, -6 -8, 0 -6"
+            fill="none"
+            stroke="${inkCol}"
+            stroke-width="2.1"
+            stroke-linecap="round"
+          />
+          <!-- Tiny Curled Fist Under Chin -->
+          <circle cx="1" cy="2" r="5.5" fill="${skinCol}" stroke="${inkCol}" stroke-width="2.0" />
+          <path d="M -1 0 Q 1 2 3 0" fill="none" stroke="${inkCol}" stroke-width="1.5" stroke-linecap="round" />
+        </g>
+      `;
+    }
     function buildCartoonCloudPath(cx, cy, rx, ry, numBumps = 7, bumpDepth = 0.18, phaseOffset = 0) {
       let d = '';
       for (let i = 0; i < numBumps; i++) {
@@ -1258,10 +1664,22 @@
         cervixMarkup += highlighterGroup('cervix', cervixPath, { strokeW: 3.0, whiteMix: 0.84 });
         cervixMarkup += highlighterGroup('cervix', canalPath, { fill: '#9E0B28', rim: '#78051B', opacity: 0.78, strokeW: 2.0, whiteMix: 0.75 });
       }
-      // If hormonal contraception (pill, implant, depo, contraception), show warm amber-yellow mucus plug barrier
-      if (hasActivePreset(['contraception', 'arm_implants', 'use_of_the_pill', 'depo'])) {
+      // If hormonal contraception (pill, implant, depo, contraception), OR healthy ongoing 1st/2nd/3rd trimester pregnancy, show protective cervical mucus plug barrier
+      if (hasActivePreset(['contraception', 'arm_implants', 'use_of_the_pill', 'depo']) || (hasActivePreset(['first_trimester', 'second_trimester', 'third_trimester', 'pregnancy', 'second_pregnancy', 'pregnancy_after_loss']) && !hasActivePreset(['birth', 'vaginal_birth', 'actively_losing_pregnancy', 'pregnancy_loss']))) {
         const cyMid = (cervTopY + cervBotY) * 0.5;
         cervixMarkup += `<ellipse cx="0" cy="${cyMid}" rx="10" ry="16" fill="#FFF3D1" stroke="#F48C06" stroke-width="3.0" stroke-dasharray="4,2" />`;
+      }
+      // If about to give birth (birth / vaginal_birth) or actively losing a pregnancy, show the cervical mucus plug lost / releasing ("bloody show") downward!
+      if (hasActivePreset(['birth', 'vaginal_birth', 'actively_losing_pregnancy', 'pregnancy_loss'])) {
+        const lostPlugY = cervBotY + 26;
+        cervixMarkup += `
+          <g>
+            <ellipse cx="0" cy="${lostPlugY}" rx="11" ry="15" fill="#FFE5D9" fill-opacity="0.88" stroke="#D90429" stroke-width="2.6" stroke-dasharray="4,3" />
+            <path d="M -4 ${lostPlugY - 6} Q 2 ${lostPlugY} -2 ${lostPlugY + 8}" fill="none" stroke="#D90429" stroke-width="2.2" stroke-linecap="round" />
+            <circle cx="-10" cy="${cervBotY + 8}" r="3.5" fill="#D90429" fill-opacity="0.75" />
+            <circle cx="9" cy="${cervBotY + 12}" r="3.0" fill="#FB8500" fill-opacity="0.75" />
+          </g>
+        `;
       }
       // If STDs selected, show warm orange-red cartoon inflammation spots along cervix
       if (hasActivePreset('stds')) {
@@ -1331,22 +1749,136 @@
         `;
       }
 
-      // If Pregnancy / Trimester presets (or high stretch), show warm golden-peach gestational sac
-      if (hasActivePreset(['pregnancy', 'first_trimester', 'second_trimester', 'third_trimester', 'second_pregnancy', 'pregnancy_after_loss']) || (eSt.scaleX > 1.35 && eSt.morph > 50)) {
-        const sacY = (cavTopY + cavBotY) * 0.45;
-        let rx = 28, ry = 25;
-        if (hasActivePreset('first_trimester')) { rx = 14; ry = 13; }
-        else if (hasActivePreset('second_trimester')) { rx = 22; ry = 20; }
-        else if (hasActivePreset(['third_trimester', 'second_pregnancy'])) { rx = 31; ry = 28; }
-        const sacPath = `M ${-rx} ${sacY} a ${rx} ${ry} 0 1 0 ${rx * 2} 0 a ${rx} ${ry} 0 1 0 ${-rx * 2} 0`;
-        endoMarkup += highlighterGroup('endometrium', sacPath, { fill: '#FFB703', rim: '#FB8500', opacity: 0.84, strokeW: 2.3, whiteMix: 0.80 });
-      }
       // If Menstruation / First Period / Postpartum Period / Loss preset, show cartoon crimson droplets
-      if (hasActivePreset(['menstruation', 'first_period', 'first_period_after_birth', 'after_pregnancy_loss'])) {
+      if (hasActivePreset(['menstruation', 'first_period', 'first_period_after_birth', 'actively_losing_pregnancy', 'pregnancy_loss', 'after_pregnancy_loss'])) {
         endoMarkup += highlighterGroup('endometrium', `M -6 95 C -6 87, 0 82, 0 82 C 0 82, 6 87, 6 95 A 6 6 0 1 1 -6 95 Z`, { fill: '#D90429', rim: '#9E0B28', opacity: 0.90, strokeW: 1.8, whiteMix: 0.65 });
         endoMarkup += highlighterGroup('endometrium', `M -5 148 C -5 141, 0 136, 0 136 C 0 136, 5 141, 5 148 A 5 5 0 1 1 -5 148 Z`, { fill: '#D90429', rim: '#9E0B28', opacity: 0.90, strokeW: 1.8, whiteMix: 0.65 });
       }
       html += `<g class="organ-btn ${selectedOrgan === 'endometrium' ? 'selected-organ' : ''}" data-organ="endometrium" onclick="selectOrgan('endometrium', event)" transform="${organTransformAttr('endometrium', 0, (inTopY + inBotY) * 0.5)}">${endoMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 8B. CLICKABLE PREGNANCY COMPONENTS (PLACENTA, WATER SAC, AMNIOTIC FLUID, UMBILICAL CORD, BABY / EMBRYO)
+      // All other body organs remain present, and these components are added inside the uterine cavity
+      // when a pregnancy filter is active (smaller in 1st trimester, damaged/detaching when actively losing,
+      // or ruptured water sac + lost mucus plug when about to give birth).
+      // -----------------------------------------------------------------------
+      const isPregActive = isPregnancyContextActive();
+      const isFirstTriOnly = hasActivePreset('first_trimester') && !hasActivePreset(['second_trimester', 'third_trimester', 'pregnancy', 'second_pregnancy', 'pregnancy_after_loss', 'birth', 'vaginal_birth', 'c_section', 'still_birth']);
+      const isSecondTriOnly = hasActivePreset('second_trimester') && !hasActivePreset(['third_trimester', 'pregnancy', 'second_pregnancy', 'pregnancy_after_loss', 'birth', 'vaginal_birth', 'c_section']);
+      const isDamagedLoss = hasActivePreset(['actively_losing_pregnancy', 'pregnancy_loss', 'after_pregnancy_loss']);
+      const isAboutToBirth = hasActivePreset(['birth', 'vaginal_birth']);
+      const isStillBirth = hasActivePreset('still_birth');
+
+      // Anchor coordinates inside the dynamically stretched uterine cavity
+      const pregCenterY = (utTopY + utBotY) * 0.44 + utSt.dy;
+      const pregCenterX = utSt.dx;
+      const sacRx = 48 * utSt.scaleX * (isFirstTriOnly ? 0.56 : isSecondTriOnly ? 0.80 : 0.96);
+      const sacRy = 54 * utSt.scaleY * (isFirstTriOnly ? 0.56 : isSecondTriOnly ? 0.80 : 0.96);
+
+      // 1) WATER SAC (AMNIOTIC SAC) — Clickable component: 'water_sac'
+      if (isPregActive && pregnancyComponentEnabled.water_sac) {
+        let waterSacMarkup = '';
+        const wsPath = `
+          M ${pregCenterX} ${(pregCenterY - sacRy).toFixed(1)}
+          C ${(pregCenterX + sacRx * 1.12).toFixed(1)} ${(pregCenterY - sacRy * 0.95).toFixed(1)}, ${(pregCenterX + sacRx * 1.16).toFixed(1)} ${(pregCenterY + sacRy * 0.72).toFixed(1)}, ${pregCenterX} ${(pregCenterY + sacRy).toFixed(1)}
+          C ${(pregCenterX - sacRx * 1.16).toFixed(1)} ${(pregCenterY + sacRy * 0.72).toFixed(1)}, ${(pregCenterX - sacRx * 1.12).toFixed(1)} ${(pregCenterY - sacRy * 0.95).toFixed(1)}, ${pregCenterX} ${(pregCenterY - sacRy).toFixed(1)} Z
+        `;
+        if (isDamagedLoss || isAboutToBirth) {
+          // Damaged / ruptured water sac (dashed/frayed bottom border showing membrane rupture or loss)
+          waterSacMarkup += highlighterGroup('water_sac', wsPath, { strokeW: 2.6, whiteMix: 0.90 });
+          waterSacMarkup += `<path d="${wsPath}" fill="none" stroke="#D90429" stroke-width="2.8" stroke-dasharray="6,5" />`;
+        } else {
+          waterSacMarkup += highlighterGroup('water_sac', wsPath, { strokeW: 2.8, whiteMix: 0.86 });
+        }
+        html += `<g class="organ-btn ${selectedOrgan === 'water_sac' ? 'selected-organ' : ''}" data-organ="water_sac" onclick="selectOrgan('water_sac', event)" transform="${organTransformAttr('water_sac', pregCenterX, pregCenterY)}">${waterSacMarkup}</g>`;
+      }
+
+      // 2) AMNIOTIC FLUID (THE FLUID) — Clickable component: 'amniotic_fluid'
+      if (isPregActive && pregnancyComponentEnabled.amniotic_fluid) {
+        const flRx = sacRx * 0.88;
+        const flRy = sacRy * 0.88;
+        let fluidMarkup = '';
+        const flPath = `
+          M ${pregCenterX} ${(pregCenterY - flRy).toFixed(1)}
+          C ${(pregCenterX + flRx * 1.08).toFixed(1)} ${(pregCenterY - flRy * 0.92).toFixed(1)}, ${(pregCenterX + flRx * 1.10).toFixed(1)} ${(pregCenterY + flRy * 0.70).toFixed(1)}, ${pregCenterX} ${(pregCenterY + flRy).toFixed(1)}
+          C ${(pregCenterX - flRx * 1.10).toFixed(1)} ${(pregCenterY + flRy * 0.70).toFixed(1)}, ${(pregCenterX - flRx * 1.08).toFixed(1)} ${(pregCenterY - flRy * 0.92).toFixed(1)}, ${pregCenterX} ${(pregCenterY - flRy).toFixed(1)} Z
+        `;
+        fluidMarkup += highlighterGroup('amniotic_fluid', flPath, { strokeW: 2.0, whiteMix: 0.82 });
+        // Gentle cartoon fluid ripple arcs & warm floating droplets (no blue!)
+        fluidMarkup += `<path d="M ${(pregCenterX - flRx * 0.55).toFixed(1)} ${(pregCenterY - flRy * 0.35).toFixed(1)} Q ${pregCenterX} ${(pregCenterY - flRy * 0.52).toFixed(1)} ${(pregCenterX + flRx * 0.55).toFixed(1)} ${(pregCenterY - flRy * 0.35).toFixed(1)}" fill="none" stroke="#FFB703" stroke-width="2.4" stroke-linecap="round" stroke-opacity="0.72" />`;
+        fluidMarkup += `<circle cx="${(pregCenterX - flRx * 0.62).toFixed(1)}" cy="${(pregCenterY + flRy * 0.25).toFixed(1)}" r="4.2" fill="#FFFFFF" fill-opacity="0.80" />`;
+        fluidMarkup += `<circle cx="${(pregCenterX + flRx * 0.64).toFixed(1)}" cy="${(pregCenterY - flRy * 0.15).toFixed(1)}" r="3.4" fill="#FFFFFF" fill-opacity="0.80" />`;
+        if (isAboutToBirth) {
+          // Amniotic fluid trickling down toward cervix ("water breaking")
+          fluidMarkup += `<path d="M ${pregCenterX} ${(pregCenterY + flRy).toFixed(1)} Q ${pregCenterX - 6} ${(pregCenterY + flRy + 26).toFixed(1)} ${pregCenterX + 3} ${(pregCenterY + flRy + 48).toFixed(1)}" fill="none" stroke="#FFB703" stroke-width="3.4" stroke-dasharray="5,4" stroke-linecap="round" />`;
+        }
+        html += `<g class="organ-btn ${selectedOrgan === 'amniotic_fluid' ? 'selected-organ' : ''}" data-organ="amniotic_fluid" onclick="selectOrgan('amniotic_fluid', event)" transform="${organTransformAttr('amniotic_fluid', pregCenterX, pregCenterY)}">${fluidMarkup}</g>`;
+      }
+
+      // 3) PLACENTA — Clickable component: 'placenta'
+      if (isPregActive && pregnancyComponentEnabled.placenta) {
+        // Cushioned vascular disc attached along upper-left uterine fundus/wall
+        const placX = pregCenterX - sacRx * 0.45;
+        const placY = pregCenterY - sacRy * 0.72;
+        const placRx = Math.max(18, sacRx * 0.58);
+        const placRy = Math.max(10, sacRy * 0.26);
+        let placentaMarkup = '';
+        const placPath = buildCartoonCloudPath(placX, placY, placRx, placRy, 7, 0.14, 0.3);
+        placentaMarkup += highlighterGroup('placenta', placPath, { strokeW: 2.8, whiteMix: isDamagedLoss ? 0.70 : 0.78 });
+        // Rich cartoon vascular tree vessels inside the placenta
+        placentaMarkup += `
+          <path d="M ${(placX - placRx * 0.55).toFixed(1)} ${placY.toFixed(1)} Q ${placX.toFixed(1)} ${(placY - placRy * 0.35).toFixed(1)} ${(placX + placRx * 0.55).toFixed(1)} ${placY.toFixed(1)}" fill="none" stroke="#800F2F" stroke-width="2.2" stroke-linecap="round" />
+          <path d="M ${placX.toFixed(1)} ${(placY - placRy * 0.4).toFixed(1)} L ${(placX + 4).toFixed(1)} ${(placY + placRy * 0.75).toFixed(1)}" fill="none" stroke="#800F2F" stroke-width="2.4" stroke-linecap="round" />
+        `;
+        if (isDamagedLoss) {
+          // Show detaching / damaged placental margin & crimson droplets when actively losing pregnancy
+          placentaMarkup += `<path d="M ${(placX - placRx * 0.8).toFixed(1)} ${(placY - placRy * 0.5).toFixed(1)} Q ${placX.toFixed(1)} ${(placY - placRy * 1.1).toFixed(1)} ${(placX + placRx * 0.8).toFixed(1)} ${(placY - placRy * 0.3).toFixed(1)}" fill="none" stroke="#D90429" stroke-width="3.0" stroke-dasharray="4,3" />`;
+          placentaMarkup += `<circle cx="${(placX - placRx * 0.3).toFixed(1)}" cy="${(placY + placRy * 1.2).toFixed(1)}" r="4.0" fill="#D90429" />`;
+          placentaMarkup += `<circle cx="${(placX + placRx * 0.25).toFixed(1)}" cy="${(placY + placRy * 1.45).toFixed(1)}" r="3.2" fill="#9E0B28" />`;
+        }
+        html += `<g class="organ-btn ${selectedOrgan === 'placenta' ? 'selected-organ' : ''}" data-organ="placenta" onclick="selectOrgan('placenta', event)" transform="${organTransformAttr('placenta', placX, placY)}">${placentaMarkup}</g>`;
+      }
+
+      // 4) UMBILICAL CORD — Clickable component: 'umbilical_cord'
+      if (isPregActive && pregnancyComponentEnabled.umbilical_cord) {
+        const cordStartX = pregCenterX - sacRx * 0.38;
+        const cordStartY = pregCenterY - sacRy * 0.52;
+        const cordEndX = pregCenterX - 4;
+        const cordEndY = pregCenterY + 6;
+        const ctrl1X = pregCenterX - sacRx * 0.75;
+        const ctrl1Y = pregCenterY - sacRy * 0.05;
+        const ctrl2X = pregCenterX - sacRx * 0.25;
+        const ctrl2Y = pregCenterY + sacRy * 0.28;
+        let cordMarkup = `
+          <g filter="url(#loose-pencil)">
+            <path d="M ${cordStartX.toFixed(1)} ${cordStartY.toFixed(1)} C ${ctrl1X.toFixed(1)} ${ctrl1Y.toFixed(1)}, ${ctrl2X.toFixed(1)} ${ctrl2Y.toFixed(1)}, ${cordEndX.toFixed(1)} ${cordEndY.toFixed(1)}" fill="none" stroke="${organState.umbilical_cord.color}" stroke-width="8.5" stroke-linecap="round" stroke-opacity="${organState.umbilical_cord.opacity}" />
+            <path d="M ${cordStartX.toFixed(1)} ${cordStartY.toFixed(1)} C ${ctrl1X.toFixed(1)} ${ctrl1Y.toFixed(1)}, ${ctrl2X.toFixed(1)} ${ctrl2Y.toFixed(1)}, ${cordEndX.toFixed(1)} ${cordEndY.toFixed(1)}" fill="none" stroke="#FFF3D1" stroke-width="3.6" stroke-dasharray="6,5" stroke-linecap="round" />
+            <path d="M ${cordStartX.toFixed(1)} ${cordStartY.toFixed(1)} C ${ctrl1X.toFixed(1)} ${ctrl1Y.toFixed(1)}, ${ctrl2X.toFixed(1)} ${ctrl2Y.toFixed(1)}, ${cordEndX.toFixed(1)} ${cordEndY.toFixed(1)}" fill="none" stroke="#2B2235" stroke-width="2.4" stroke-linecap="round" ${isDamagedLoss ? 'stroke-dasharray="5,4"' : ''} />
+          </g>
+        `;
+        html += `<g class="organ-btn ${selectedOrgan === 'umbilical_cord' ? 'selected-organ' : ''}" data-organ="umbilical_cord" onclick="selectOrgan('umbilical_cord', event)" transform="${organTransformAttr('umbilical_cord', pregCenterX, pregCenterY)}">${cordMarkup}</g>`;
+      }
+
+      // 5) DEVELOPING BABY / EMBRYO — Clickable component: 'fetus_baby'
+      // First trimester: keeps the golden egg-type gestational sac we already have!
+      // Second trimester: curled-up cartoon baby HALF the size (0.50x) of the 3rd-trimester baby!
+      // Third trimester / full-term pregnancy / birth: full-size (1.00x) curled-up cartoon baby!
+      if (isPregActive && pregnancyComponentEnabled.fetus_baby) {
+        let babyMarkup = '';
+        if (isFirstTriOnly) {
+          // 1st Trimester: the golden egg-type embryonic sac
+          const rx = 20, ry = 18;
+          const sacPath = `M ${(pregCenterX - rx).toFixed(1)} ${pregCenterY.toFixed(1)} a ${rx} ${ry} 0 1 0 ${rx * 2} 0 a ${rx} ${ry} 0 1 0 ${-rx * 2} 0`;
+          babyMarkup += highlighterGroup('water_sac', sacPath, { fill: '#FFB703', rim: '#FB8500', opacity: 0.90, strokeW: 2.6, whiteMix: 0.80 });
+          // Tiny curled early embryo bean inside the 1st-trimester egg
+          babyMarkup += `<circle cx="${(pregCenterX - 3).toFixed(1)}" cy="${(pregCenterY - 2).toFixed(1)}" r="5.5" fill="#FFAD85" stroke="#2B2235" stroke-width="1.8" />`;
+        } else {
+          // 2nd Trimester is HALF the size (0.52) of the 3rd Trimester / Full-Term curled baby (1.04)
+          const baseBabySize = isSecondTriOnly ? 0.52 : 1.04;
+          babyMarkup += buildCurledBabySVG(pregCenterX, pregCenterY + 4, baseBabySize, isDamagedLoss || isStillBirth);
+        }
+        html += `<g class="organ-btn ${selectedOrgan === 'fetus_baby' ? 'selected-organ' : ''}" data-organ="fetus_baby" onclick="selectOrgan('fetus_baby', event)" transform="${organTransformAttr('fetus_baby', pregCenterX, pregCenterY)}">${babyMarkup}</g>`;
+      }
 
       // -----------------------------------------------------------------------
       // 9, 10, 11, 12. SOFT CARTOON VULVA (LABIA MAJORA, LABIA MINORA, CLITORIS, VAGINAL OPENING)
@@ -1436,6 +1968,23 @@
           { id: 'labia_minora',    x: -235, y:  375, tx:  -34, ty:  365, label: 'Inner Lips (Labia Minora)' },
           { id: 'vaginal_opening', x:  235, y:  405, tx:   16, ty:  382, label: 'Vaginal Opening' }
         ];
+        if (isPregActive) {
+          if (pregnancyComponentEnabled.placenta) {
+            pins.push({ id: 'placenta', x: -255, y: -60, tx: pregCenterX - sacRx * 0.45, ty: pregCenterY - sacRy * 0.72, label: 'Placenta' });
+          }
+          if (pregnancyComponentEnabled.umbilical_cord) {
+            pins.push({ id: 'umbilical_cord', x: -265, y: 65, tx: pregCenterX - sacRx * 0.45, ty: pregCenterY, label: 'Umbilical Cord' });
+          }
+          if (pregnancyComponentEnabled.water_sac) {
+            pins.push({ id: 'water_sac', x: 245, y: 35, tx: pregCenterX + sacRx * 0.85, ty: pregCenterY + 12, label: 'Water Sac' });
+          }
+          if (pregnancyComponentEnabled.amniotic_fluid) {
+            pins.push({ id: 'amniotic_fluid', x: 245, y: 78, tx: pregCenterX + sacRx * 0.55, ty: pregCenterY + 28, label: 'Amniotic Fluid' });
+          }
+          if (pregnancyComponentEnabled.fetus_baby) {
+            pins.push({ id: 'fetus_baby', x: 245, y: -60, tx: pregCenterX + 8, ty: pregCenterY - 8, label: isFirstTriOnly ? '1st Trimester Embryo Sac' : isSecondTriOnly ? 'Baby (2nd Trimester)' : 'Baby' });
+          }
+        }
         for (const p of pins) {
           const isSel = selectedOrgan === p.id;
           const col = ORGAN_DEFS[p.id].color;
@@ -1451,6 +2000,7 @@
 
       svg.innerHTML = html;
       renderOrganPills();
+      renderPregnancyPills();
     }
 
     // =========================================================================
@@ -1460,6 +2010,7 @@
       const container = document.getElementById('organ-pill-list');
       let out = '';
       for (const [id, def] of Object.entries(ORGAN_DEFS)) {
+        if (def.isPregnancyComponent) continue;
         const isSel = selectedOrgan === id;
         const st = organState[id];
         out += `
@@ -1473,6 +2024,76 @@
         `;
       }
       container.innerHTML = out;
+    }
+
+    function renderPregnancyPills() {
+      const bubble = document.getElementById('PregnancyComponents1');
+      const container = document.getElementById('pregnancy-pill-list');
+      const subtitle = document.getElementById('pregnancy-bubble-subtitle');
+      if (!bubble || !container) return;
+
+      const isPregActive = isPregnancyContextActive();
+      if (!isPregActive) {
+        bubble.classList.add('hidden');
+        return;
+      }
+
+      bubble.classList.remove('hidden');
+
+      if (subtitle) {
+        if (hasActivePreset(['actively_losing_pregnancy', 'pregnancy_loss', 'after_pregnancy_loss']) && !hasActivePreset(['pregnancy', 'first_trimester', 'second_trimester', 'third_trimester', 'second_pregnancy', 'pregnancy_after_loss'])) {
+          subtitle.textContent = 'Pregnancy loss state active — not all components are automatically added. Click any component to inspect or toggle it on/off:';
+        } else {
+          subtitle.textContent = 'Pregnancy components added to your body image. Click any component to inspect/adjust it, or toggle its visibility:';
+        }
+      }
+
+      let out = '';
+      for (const id of PREGNANCY_COMPONENT_IDS) {
+        const def = ORGAN_DEFS[id];
+        const st = organState[id];
+        const isSel = selectedOrgan === id;
+        const isEnabled = !!pregnancyComponentEnabled[id];
+        out += `
+          <div class="flex items-center gap-1.5">
+            <input
+              type="checkbox"
+              ${isEnabled ? 'checked' : ''}
+              onchange="togglePregnancyComponent('${id}', event)"
+              title="Show or hide ${def.name} on MyBodyImage1"
+              class="rounded text-[#CF366C] cursor-pointer shrink-0"
+            />
+            <button
+              type="button"
+              onclick="selectPregnancyComponent('${id}', event)"
+              class="flex-1 flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold border transition text-left ${
+                isSel
+                  ? 'bg-pink-50 border-pink-500 text-pink-900 shadow-sm'
+                  : isEnabled
+                  ? 'border-[#F3C8DA] bg-[#FFF9FC] hover:bg-pink-50/50 text-[#2B2235]'
+                  : 'border-transparent bg-black/5 opacity-55 hover:opacity-85 text-[#6e5d78]'
+              }"
+            >
+              <span class="flex items-center gap-2 truncate">
+                <span class="w-3.5 h-3.5 rounded-full border border-black/30 shrink-0" style="background:${st.color}; opacity:${Math.min(1, st.opacity + 0.25)}"></span>
+                <span class="truncate">${def.name}</span>
+              </span>
+              <span class="text-[11px] opacity-70 ml-1">${isEnabled ? st.scaleX.toFixed(1) + 'x' : 'Off'}</span>
+            </button>
+          </div>
+        `;
+      }
+      container.innerHTML = out;
+    }
+
+    function selectPregnancyComponent(compId, ev) {
+      if (ev) ev.stopPropagation();
+      if (!pregnancyComponentEnabled[compId]) {
+        pregnancyComponentEnabled[compId] = true;
+      }
+      selectedOrgan = compId;
+      syncControlsToSelected();
+      renderAnatomy();
     }
 
     function selectOrgan(organId, ev) {
@@ -1656,6 +2277,8 @@
           { id: 'first_trimester', label: '1st trimester', preset: 'first_trimester', bg: '#FFFFFF', arrow: true },
           { id: 'second_trimester', label: '2nd trimester', preset: 'second_trimester', bg: '#FFFFFF', arrow: true },
           { id: 'third_trimester', label: '3rd trimester', preset: 'third_trimester', bg: '#FFFFFF', arrow: true },
+          { id: 'actively_losing_pregnancy', label: 'Actively losing a pregnancy', preset: 'actively_losing_pregnancy', bg: '#FFE5EC' },
+          { id: 'pregnancy_loss', label: 'Pregnancy loss', preset: 'pregnancy_loss', bg: '#FFFFFF' },
           { id: 'after_pregnancy_loss', label: 'After a pregnancy loss', preset: 'after_pregnancy_loss', bg: '#FFFFFF' }
         ]
       },

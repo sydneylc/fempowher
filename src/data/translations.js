@@ -786,6 +786,57 @@ export function resolveUserLanguageChoice1(lang = 'en', writtenLanguage = 'Engli
   };
 }
 
+// ============================================================================
+// WordORWord (`awordORaword`, e.g. `KeyORLegand` / `STIsORSTDs`):
+// Convention & Resolver Rule: When two words are joined by `OR` (e.g. `KeyORLegand`),
+// it selects the more globally recognized and accurately translatable option across
+// `UserLanguageChoice1` (or provides a 3rd unambiguous global alternative when
+// both single words risk mistranslation in neural/dictionary translation).
+// ============================================================================
+export const WORD_OR_WORD_REGISTRY = {
+  KeyORLegand: {
+    chosenEn: 'Map Key',
+    wordA: 'Key',
+    wordB: 'Legend',
+    reason:
+      'Standalone "Legend" mistranslates as "myth/folklore" in Arabic (أسطورة), Hindi (किंवदंती), Swahili (ngano), Amharic (አፈ ታሪክ), and Dari (افسانه); standalone "Key" mistranslates as a physical door lock key. Pairing "Key" as "Map Key" (or "Map Symbols") translates unambiguously across 250+ languages.',
+    translations: {
+      en: 'Map Key',
+      ar: 'مفتاح الخريطة',
+      rhg: 'Map ór Nishan (ম্যাপের চিহ্ন)',
+      bn: 'ম্যাপের চিহ্ন (Map Key)',
+      so: 'Tilmaanta Khariidadda',
+      prs: 'راهنمای نقشه',
+      hi: 'मानचित्र संकेत (Map Key)',
+      fa: 'راهنمای نقشه',
+      ps: 'د نقشې لارښود',
+      ur: 'نقشے کی علامات',
+      sw: 'Alama za Ramani',
+      am: 'የካርታ መፍቻ (Map Key)',
+      es: 'Clave del Mapa',
+      fr: 'Légende de la Carte',
+      pt: 'Legenda do Mapa',
+      ru: 'Условные обозначения',
+      zh: '地图图例'
+    }
+  }
+};
+
+export function resolveWordORWord(token = 'KeyORLegand', UserLanguageChoice1 = 'en') {
+  const langCode = String(UserLanguageChoice1 || 'en');
+  const entry = WORD_OR_WORD_REGISTRY[token];
+  if (entry) {
+    return entry.translations[langCode] || entry.chosenEn;
+  }
+  if (typeof token === 'string' && token.includes('OR')) {
+    const parts = token.split('OR').map((s) => s.trim()).filter(Boolean);
+    return parts[0] || token;
+  }
+  return token;
+}
+
+export const KeyORLegand = WORD_OR_WORD_REGISTRY.KeyORLegand;
+
 // Translations specifically for FemPowHerPreBoardingAPage (Malleable across device languages including Arabic RTL)
 export const PREBOARDING_A_TEXT = {
   en: {

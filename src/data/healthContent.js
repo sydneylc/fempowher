@@ -686,6 +686,71 @@ export function getEducationTopicIssues(topicId, countryName = 'Your Country', u
       AGE_SPECIFIC_ISSUES['30-40'][0],
       AGE_SPECIFIC_ISSUES['15-20'][0]
     ],
+    'std-menu': [
+      {
+        id: 'std-menu-overview-testing',
+        icon: '',
+        severity: 'high',
+        title: {
+          en: 'STIs / STDs Overview: Confidential Screening, Symptoms & Curable vs. Manageable Infections'
+        },
+        normalVsAbnormal: {
+          en: 'MANY STIs HAVE ZERO SYMPTOMS AT FIRST: Over 70% of women with Chlamydia, Gonorrhea, HPV, or early HIV feel completely normal. When symptoms do appear, they include unusual yellow, green, or gray vaginal discharge, burning when urinating, bleeding between periods or after intimacy, pelvic or lower abdominal pain, or genital sores, blisters, or warts.'
+        },
+        redFlags: {
+          en: [
+            'Lower abdominal pain, fever, and pain during intercourse (Pelvic Inflammatory Disease / PID — requires prompt antibiotics to protect your Fallopian tubes and fertility)',
+            'Any painless or painful genital sore, ulcer, blister, or rash on the palms/soles (Syphilis or Herpes — Syphilis is 100% curable with penicillin and critical to treat before or during pregnancy)',
+            'Possible exposure to HIV within the last 72 hours — Emergency Post-Exposure Prophylaxis (PEP) at any Women’s Safe Haven or Hospital can prevent infection'
+          ]
+        },
+        selfCare: {
+          en: 'Bacterial and parasitic STIs (Chlamydia, Gonorrhea, Syphilis, Trichomoniasis) are 100% curable with simple antibiotics, and viral STIs (HIV, HPV, Herpes, Hepatitis B) are safely manageable with modern medicine and vaccines. Use the map to find free, judgment-free STI testing and treatment at any Women’s Safe Haven or OB/GYN clinic.'
+        }
+      },
+      {
+        id: 'std-menu-bacterial-curable',
+        icon: '',
+        severity: 'info',
+        title: {
+          en: 'Curable STIs / STDs: Chlamydia, Gonorrhea, Syphilis & Trichomoniasis'
+        },
+        normalVsAbnormal: {
+          en: 'CURABLE WITH ANTIBIOTICS: Chlamydia, Gonorrhea, Syphilis, and Trichomoniasis are completely curable with a short course of oral or injectable medication. If left untreated, Chlamydia and Gonorrhea can silently climb into the uterus and Fallopian tubes, causing scar tissue, ectopic pregnancy, or infertility.'
+        },
+        redFlags: {
+          en: [
+            'Yellow-green frothy discharge, itching, or burning urination',
+            'A painless firm sore (chancre) that disappears on its own — Syphilis remains in the blood even after the sore heals and requires a quick blood test and antibiotic shot',
+            'Re-infection from an untreated partner — both partners should be treated before resuming intimacy'
+          ]
+        },
+        selfCare: {
+          en: 'Always finish the full course of prescribed antibiotics even if symptoms disappear after two days, and ask the clinic if they offer partner treatment packets.'
+        }
+      },
+      {
+        id: 'std-menu-viral-hpv-hiv-hsv',
+        icon: '',
+        severity: 'info',
+        title: {
+          en: 'Viral STIs / STDs: HPV (Cervical Health), HIV (PrEP & PEP), Herpes (HSV) & Hepatitis B'
+        },
+        normalVsAbnormal: {
+          en: 'MANAGEABLE & PREVENTABLE: Human Papillomavirus (HPV) is the most common STI worldwide; most strains clear naturally, while high-risk strains can cause cervical cell changes that are 100% preventable with the HPV vaccine and routine cervical screening (Pap/HPV swab or VIA). HIV is completely manageable with daily antiretroviral therapy (ART), allowing women to live long, healthy lives and give birth to HIV-free babies.'
+        },
+        redFlags: {
+          en: [
+            'Bleeding after intimacy or between periods (always get a gentle cervical checkup)',
+            'Painful grouped blisters or sores around the vulva or mouth (Herpes simplex — antiviral tablets shorten outbreaks and reduce transmission)',
+            'Unprotected exposure or sexual assault within the past 72 hours — go immediately to a Safe Haven or Hospital for emergency HIV PEP, emergency contraception, and preventive STI antibiotics'
+          ]
+        },
+        selfCare: {
+          en: 'Having an STI never diminishes your worth. Every Women’s Safe Haven (pink heart pin) and OB/GYN center (red cross pin) on the FemPowHer map provides confidential care.'
+        }
+      }
+    ],
     'for-me': [
       ...(AGE_SPECIFIC_ISSUES[userAgeGroup] || AGE_SPECIFIC_ISSUES['20-25']),
       {

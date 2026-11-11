@@ -191,12 +191,12 @@
 
     <!-- Main Interactive Workspace -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
-      <!-- 3. Left Column: OrganButtons1 + Dynamic PregnancyComponents1 Bubble -->
+      <!-- 3. Left Column: OrganButtons1 (13 Core Organs including Egg / Ovum) + AddedBubbleButtonType1 Side Bubbles (ConceptionComponents1 & PregnancyComponents1) -->
       <div class="lg:col-span-3 flex flex-col gap-4">
         <div id="OrganButtons1" data-piece-name="OrganButtons1" class="bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-3">
           <div class="flex items-center justify-between">
             <h2 class="text-sm font-bold uppercase tracking-wider text-[var(--muted-foreground,#6e5d78)]">
-              Organ Buttons (12)
+              Organ Buttons (13)
             </h2>
             <span class="text-xs text-[var(--muted-foreground,#6e5d78)]">Click to select</span>
           </div>
@@ -221,10 +221,35 @@
           </div>
         </div>
 
-        <!-- 3B. PregnancyComponents1 — Dynamic Side Bubble (Same shape & functions as OrganButtons1) that appears whenever any Pregnancy-related filter is active -->
+        <!-- 3A. ConceptionComponents1 — AddedBubbleButtonType1 Side Bubble (Appears below OrganButtons1 ONLY when 'Conception' is active; separate from PregnancyComponents1!) -->
+        <div
+          id="ConceptionComponents1"
+          data-piece-name="ConceptionComponents1"
+          data-bubble-type="AddedBubbleButtonType1"
+          class="hidden bg-[var(--card,#ffffff)] border-2 border-[#F48C06] rounded-2xl p-4 shadow-md space-y-3 transition-all"
+        >
+          <div class="flex items-center justify-between border-b border-[#FFE2BA] pb-2">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-[#F48C06] inline-block"></span>
+              <h2 class="text-sm font-extrabold uppercase tracking-wider text-[#9F133A]">
+                Conception
+              </h2>
+            </div>
+            <span class="text-[10px] font-bold px-1.5 py-0.5 rounded bg-[#FFF3D1] text-[#9F133A] border border-[#F48C06]/40">
+              AddedBubbleButtonType1
+            </span>
+          </div>
+          <p id="conception-bubble-subtitle" class="text-[11px] font-medium text-[#6e5d78] leading-snug">
+            Components &amp; characters active during conception (egg moving through Fallopian tube, white-with-black-outline sperm meeting the egg, and fertilized egg nestling in the uterus):
+          </p>
+          <div id="conception-pill-list" class="grid grid-cols-1 gap-1.5"></div>
+        </div>
+
+        <!-- 3B. PregnancyComponents1 — AddedBubbleButtonType1 Side Bubble (Appears below OrganButtons1 when any Pregnancy-related filter is active; NOT triggered by Conception!) -->
         <div
           id="PregnancyComponents1"
           data-piece-name="PregnancyComponents1"
+          data-bubble-type="AddedBubbleButtonType1"
           class="hidden bg-[var(--card,#ffffff)] border-2 border-[#CF366C] rounded-2xl p-4 shadow-md space-y-3 transition-all"
         >
           <div class="flex items-center justify-between border-b border-[#FEACEC] pb-2">
@@ -234,7 +259,9 @@
                 Pregnancy
               </h2>
             </div>
-            <span class="text-[11px] font-semibold text-[#9F133A]">Click to select / toggle</span>
+            <span class="text-[10px] font-bold px-1.5 py-0.5 rounded bg-[#FFF0F6] text-[#9F133A] border border-[#CF366C]/40">
+              AddedBubbleButtonType1
+            </span>
           </div>
           <p id="pregnancy-bubble-subtitle" class="text-[11px] font-medium text-[#6e5d78] leading-snug">
             Pregnancy components active on your body image. Click any component to inspect/adjust it, or toggle its visibility:
@@ -380,6 +407,14 @@
         morphLabel: "Follicle Activity / Wilt",
         desc: "Fluffy cloud-shaped cartoon ovaries containing warm golden-yellow follicles, anchored to the uterus by warm orange-gold ligaments."
       },
+      egg_ovum: {
+        name: "Egg / Ovum (Oocyte)",
+        color: "#FFB703",
+        rimColor: "#F48C06",
+        opacity: 0.90,
+        morphLabel: "Maturation / Radiance",
+        desc: "The female reproductive cell (egg / ovum) matured inside the ovarian follicle and released during ovulation into the Fallopian tube, where it can be met by sperm during conception."
+      },
       uterus: {
         name: "Uterus (Myometrium & Fundus)",
         color: "#F06292",
@@ -389,12 +424,12 @@
         desc: "Soft rose-pink cartoon pear-shaped muscular organ (myometrium) that stretches during pregnancy and shrinks gently in menopause."
       },
       endometrium: {
-        name: "Endometrium (Uterine Lining)",
+        name: "Uterine Lining",
         color: "#D61F3C",
         rimColor: "#B0122B",
         opacity: 0.84,
         morphLabel: "Lining Thickness / Shed",
-        desc: "Ruby-red inner cushion lining of the uterine cavity. Thickens each cycle, sheds in menstruation, and thins in menopause."
+        desc: "Ruby-red uterine lining (endometrium) cushioning the inside of the uterus. Thickens each cycle to nourish a fertilized egg, supports the placenta in pregnancy, sheds in menstruation, and thins in menopause."
       },
       cervix: {
         name: "Cervix & Cervical Canal",
@@ -444,6 +479,34 @@
         morphLabel: "Introitus Opening Width",
         desc: "Deep scarlet-red soft cartoon vaginal entrance leading into the vaginal canal."
       },
+      // --- CONCEPTION COMPONENTS & CHARACTERS (Appear in ConceptionComponents1 Side Bubble when 'Conception' is active) ---
+      sperm_cell: {
+        name: "Sperm (Meeting the Egg)",
+        color: "#FFFFFF",
+        rimColor: "#2B2235",
+        opacity: 0.96,
+        morphLabel: "Tail Wave / Swim Motion",
+        desc: "Outside sperm cells (drawn with a crisp black outline and pure white interior) swimming up through the cervix and uterus into the Fallopian tube to meet and fertilize the egg.",
+        isConceptionComponent: true
+      },
+      fertilized_egg_tube: {
+        name: "Egg Moving Through Fallopian Tube (Met by Sperm)",
+        color: "#FFB703",
+        rimColor: "#FB8500",
+        opacity: 0.92,
+        morphLabel: "Zona Pellucida Glow / Division",
+        desc: "The released golden egg (ovum) actively traveling through the ampulla of the Fallopian tube as the outside white-and-black sperm meets and fertilizes it.",
+        isConceptionComponent: true
+      },
+      nestling_egg_uterus: {
+        name: "Fertilized Egg Nestling in Uterus (Implantation)",
+        color: "#FF8FA3",
+        rimColor: "#D61F3C",
+        opacity: 0.92,
+        morphLabel: "Nestling Depth in Endometrium",
+        desc: "The fertilized egg (blastocyst) after traveling down the Fallopian tube, gently nestling and implanting into the warm, cushioned ruby-red uterine lining (endometrium).",
+        isConceptionComponent: true
+      },
       // --- PREGNANCY COMPONENTS (Appear in PregnancyComponents1 Side Bubble when any Pregnancy filter is active) ---
       placenta: {
         name: "Placenta",
@@ -492,6 +555,9 @@
       }
     };
 
+    const CONCEPTION_COMPONENT_IDS = ['sperm_cell', 'fertilized_egg_tube', 'nestling_egg_uterus'];
+    const CONCEPTION_PRESET_NAMES = ['conception'];
+
     const PREGNANCY_COMPONENT_IDS = ['placenta', 'umbilical_cord', 'water_sac', 'amniotic_fluid', 'fetus_baby'];
     const PREGNANCY_PRESET_NAMES = [
       'pregnancy',
@@ -509,8 +575,13 @@
       'after_pregnancy_loss'
     ];
 
-    // Live state per organ & pregnancy component
+    // Live state per organ, conception component & pregnancy component
     const organState = {};
+    const conceptionComponentEnabled = {
+      sperm_cell: false,
+      fertilized_egg_tube: false,
+      nestling_egg_uterus: false
+    };
     const pregnancyComponentEnabled = {
       placenta: false,
       umbilical_cord: false,
@@ -522,8 +593,48 @@
     let currentPreset = "baseline";
     let animFrameId = null;
 
+    function isConceptionContextActive() {
+      return hasActivePreset(CONCEPTION_PRESET_NAMES);
+    }
+
     function isPregnancyContextActive() {
       return hasActivePreset(PREGNANCY_PRESET_NAMES);
+    }
+
+    function syncConceptionComponentsForActiveFilters() {
+      const isConcActive = isConceptionContextActive();
+      if (!isConcActive) {
+        for (const id of CONCEPTION_COMPONENT_IDS) {
+          conceptionComponentEnabled[id] = false;
+        }
+        if (CONCEPTION_COMPONENT_IDS.includes(selectedOrgan)) {
+          selectedOrgan = 'egg_ovum';
+        }
+        return;
+      }
+      conceptionComponentEnabled.sperm_cell = true;
+      conceptionComponentEnabled.fertilized_egg_tube = true;
+      conceptionComponentEnabled.nestling_egg_uterus = true;
+    }
+
+    function toggleConceptionComponent(compId, ev) {
+      if (ev) ev.stopPropagation();
+      conceptionComponentEnabled[compId] = !conceptionComponentEnabled[compId];
+      if (conceptionComponentEnabled[compId]) {
+        selectedOrgan = compId;
+      }
+      syncControlsToSelected();
+      renderAnatomy();
+    }
+
+    function selectConceptionComponent(compId, ev) {
+      if (ev) ev.stopPropagation();
+      if (!conceptionComponentEnabled[compId]) {
+        conceptionComponentEnabled[compId] = true;
+      }
+      selectedOrgan = compId;
+      syncControlsToSelected();
+      renderAnatomy();
     }
 
     function syncPregnancyComponentsForActiveFilters() {
@@ -613,6 +724,7 @@
       baseline: {},
       ovulation: {
         ovaries:         { scaleX: 1.14, scaleY: 1.14, morph: 75,  dx: 0, dy: 0 },
+        egg_ovum:        { scaleX: 1.18, scaleY: 1.18, morph: 85,  dx: 0, dy: 0 },
         fallopian_tubes: { scaleX: 1.04, scaleY: 1.05, morph: 35,  dx: 0, dy: 0 },
         endometrium:     { scaleX: 1.05, scaleY: 1.05, morph: 65,  dx: 0, dy: 0 },
         cervix:          { scaleX: 1.02, scaleY: 1.00, morph: 45,  dx: 0, dy: 0 },
@@ -626,8 +738,8 @@
         ovaries:         { scaleX: 0.96, scaleY: 0.96, morph: -20, dx: 0, dy: 0 }
       },
       pregnancy: {
-        uterus:          { scaleX: 1.65, scaleY: 1.56, morph: 95,  dx: 0, dy: 12 },
-        endometrium:     { scaleX: 1.62, scaleY: 1.54, morph: 90,  dx: 0, dy: 12 },
+        uterus:          { scaleX: 1.52, scaleY: 1.48, morph: 95,  dx: 0, dy: 12 },
+        endometrium:     { scaleX: 1.52, scaleY: 1.48, morph: 90,  dx: 0, dy: 12 },
         fallopian_tubes: { scaleX: 1.18, scaleY: 1.08, morph: 50,  dx: 0, dy: 26 },
         ovaries:         { scaleX: 0.98, scaleY: 0.98, morph: 10,  dx: 0, dy: 24 },
         cervix:          { scaleX: 1.12, scaleY: 0.92, morph: -35, dx: 0, dy: 0 },
@@ -685,6 +797,7 @@
       },
       luteal: {
         ovaries:         { scaleX: 1.14, scaleY: 1.14, morph: 75,  dx: 0, dy: 0 },
+        egg_ovum:        { scaleX: 1.15, scaleY: 1.15, morph: 80,  dx: 0, dy: 0 },
         fallopian_tubes: { scaleX: 1.04, scaleY: 1.05, morph: 35,  dx: 0, dy: 0 },
         endometrium:     { scaleX: 1.06, scaleY: 1.06, morph: 78,  dx: 0, dy: 0 },
         cervix:          { scaleX: 1.02, scaleY: 1.00, morph: 35,  dx: 0, dy: 0 },
@@ -718,42 +831,46 @@
         cervix:          { scaleX: 1.00, scaleY: 1.02, morph: -55, dx: 0, dy: 0 }
       },
       conception: {
-        ovaries:         { scaleX: 1.12, scaleY: 1.12, morph: 70,  dx: 0, dy: 0 },
-        fallopian_tubes: { scaleX: 1.06, scaleY: 1.06, morph: 40,  dx: 0, dy: 0 },
-        endometrium:     { scaleX: 1.08, scaleY: 1.08, morph: 72,  dx: 0, dy: 0 },
-        cervix:          { scaleX: 1.04, scaleY: 1.00, morph: 45,  dx: 0, dy: 0 }
+        ovaries:             { scaleX: 1.12, scaleY: 1.12, morph: 70,  dx: 0, dy: 0 },
+        egg_ovum:            { scaleX: 1.22, scaleY: 1.22, morph: 90,  dx: 0, dy: 0 },
+        fallopian_tubes:     { scaleX: 1.06, scaleY: 1.06, morph: 40,  dx: 0, dy: 0 },
+        endometrium:         { scaleX: 1.08, scaleY: 1.08, morph: 72,  dx: 0, dy: 0 },
+        cervix:              { scaleX: 1.04, scaleY: 1.00, morph: 45,  dx: 0, dy: 0 },
+        sperm_cell:          { scaleX: 1.00, scaleY: 1.00, morph: 65,  dx: 0, dy: 0 },
+        fertilized_egg_tube: { scaleX: 1.00, scaleY: 1.00, morph: 80,  dx: 0, dy: 0 },
+        nestling_egg_uterus: { scaleX: 1.00, scaleY: 1.00, morph: 75,  dx: 0, dy: 0 }
       },
       first_trimester: {
-        uterus:          { scaleX: 1.18, scaleY: 1.16, morph: 42,  dx: 0, dy: 4 },
+        uterus:          { scaleX: 1.16, scaleY: 1.15, morph: 42,  dx: 0, dy: 4 },
         endometrium:     { scaleX: 1.16, scaleY: 1.15, morph: 72,  dx: 0, dy: 4 },
         fallopian_tubes: { scaleX: 1.05, scaleY: 1.02, morph: 20,  dx: 0, dy: 8 },
         ovaries:         { scaleX: 1.06, scaleY: 1.06, morph: 45,  dx: 0, dy: 8 },
         cervix:          { scaleX: 1.04, scaleY: 1.02, morph: -25, dx: 0, dy: 0 },
         breasts:         { scaleX: 1.08, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
         mammary_glands:  { scaleX: 1.12, scaleY: 1.12, morph: 48,  dx: 0, dy: 0 },
-        placenta:        { scaleX: 0.56, scaleY: 0.56, morph: -20, dx: 0, dy: 0 },
-        umbilical_cord:  { scaleX: 0.58, scaleY: 0.58, morph: -20, dx: 0, dy: 0 },
-        water_sac:       { scaleX: 0.56, scaleY: 0.56, morph: -10, dx: 0, dy: 0 },
-        amniotic_fluid:  { scaleX: 0.56, scaleY: 0.56, morph: -10, dx: 0, dy: 0 },
-        fetus_baby:      { scaleX: 0.65, scaleY: 0.65, morph: 10,  dx: 0, dy: 0 }
+        placenta:        { scaleX: 0.72, scaleY: 0.72, morph: -20, dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 0.72, scaleY: 0.72, morph: -20, dx: 0, dy: 0 },
+        water_sac:       { scaleX: 0.72, scaleY: 0.72, morph: -10, dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 0.72, scaleY: 0.72, morph: -10, dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 0.85, scaleY: 0.85, morph: 10,  dx: 0, dy: 0 }
       },
       second_trimester: {
-        uterus:          { scaleX: 1.42, scaleY: 1.36, morph: 72,  dx: 0, dy: 8 },
-        endometrium:     { scaleX: 1.38, scaleY: 1.34, morph: 82,  dx: 0, dy: 8 },
+        uterus:          { scaleX: 1.36, scaleY: 1.32, morph: 72,  dx: 0, dy: 8 },
+        endometrium:     { scaleX: 1.36, scaleY: 1.32, morph: 82,  dx: 0, dy: 8 },
         fallopian_tubes: { scaleX: 1.12, scaleY: 1.05, morph: 35,  dx: 0, dy: 16 },
         ovaries:         { scaleX: 1.00, scaleY: 1.00, morph: 20,  dx: 0, dy: 16 },
         cervix:          { scaleX: 1.08, scaleY: 0.96, morph: -30, dx: 0, dy: 0 },
         breasts:         { scaleX: 1.14, scaleY: 1.14, morph: 52,  dx: 0, dy: 0 },
         mammary_glands:  { scaleX: 1.18, scaleY: 1.18, morph: 70,  dx: 0, dy: 0 },
-        placenta:        { scaleX: 0.80, scaleY: 0.80, morph: 20,  dx: 0, dy: 0 },
-        umbilical_cord:  { scaleX: 0.80, scaleY: 0.80, morph: 20,  dx: 0, dy: 0 },
-        water_sac:       { scaleX: 0.78, scaleY: 0.78, morph: 25,  dx: 0, dy: 0 },
-        amniotic_fluid:  { scaleX: 0.78, scaleY: 0.78, morph: 25,  dx: 0, dy: 0 },
-        fetus_baby:      { scaleX: 0.50, scaleY: 0.50, morph: 50,  dx: 0, dy: 0 }
+        placenta:        { scaleX: 0.88, scaleY: 0.88, morph: 20,  dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 0.88, scaleY: 0.88, morph: 20,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 0.88, scaleY: 0.88, morph: 25,  dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 0.88, scaleY: 0.88, morph: 25,  dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 1.00, scaleY: 1.00, morph: 50,  dx: 0, dy: 0 }
       },
       third_trimester: {
-        uterus:          { scaleX: 1.68, scaleY: 1.58, morph: 98,  dx: 0, dy: 12 },
-        endometrium:     { scaleX: 1.65, scaleY: 1.56, morph: 94,  dx: 0, dy: 12 },
+        uterus:          { scaleX: 1.54, scaleY: 1.50, morph: 98,  dx: 0, dy: 12 },
+        endometrium:     { scaleX: 1.54, scaleY: 1.50, morph: 94,  dx: 0, dy: 12 },
         fallopian_tubes: { scaleX: 1.18, scaleY: 1.08, morph: 50,  dx: 0, dy: 26 },
         ovaries:         { scaleX: 0.98, scaleY: 0.98, morph: 10,  dx: 0, dy: 24 },
         cervix:          { scaleX: 1.14, scaleY: 0.90, morph: -35, dx: 0, dy: 0 },
@@ -763,46 +880,46 @@
         labia_majora:    { scaleX: 1.12, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
         labia_minora:    { scaleX: 1.12, scaleY: 1.08, morph: 35,  dx: 0, dy: 0 },
         vaginal_opening: { scaleX: 1.14, scaleY: 1.10, morph: 30,  dx: 0, dy: 0 },
-        placenta:        { scaleX: 1.02, scaleY: 1.02, morph: 55,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 1.00, scaleY: 1.00, morph: 55,  dx: 0, dy: 0 },
         umbilical_cord:  { scaleX: 1.00, scaleY: 1.00, morph: 50,  dx: 0, dy: 0 },
-        water_sac:       { scaleX: 1.02, scaleY: 1.02, morph: 60,  dx: 0, dy: 0 },
-        amniotic_fluid:  { scaleX: 1.02, scaleY: 1.02, morph: 60,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 1.00, scaleY: 1.00, morph: 60,  dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 1.00, scaleY: 1.00, morph: 60,  dx: 0, dy: 0 },
         fetus_baby:      { scaleX: 1.00, scaleY: 1.00, morph: 90,  dx: 0, dy: 0 }
       },
       actively_losing_pregnancy: {
         uterus:          { scaleX: 1.22, scaleY: 1.18, morph: 20,  dx: 0, dy: 4 },
-        endometrium:     { scaleX: 1.16, scaleY: 1.12, morph: -60, dx: 0, dy: 4 },
+        endometrium:     { scaleX: 1.22, scaleY: 1.18, morph: -60, dx: 0, dy: 4 },
         cervix:          { scaleX: 1.18, scaleY: 0.92, morph: 65,  dx: 0, dy: 0 },
         vaginal_canal:   { scaleX: 1.10, scaleY: 1.00, morph: 35,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.06, scaleY: 1.06, morph: 18,  dx: 0, dy: 0 },
-        placenta:        { scaleX: 0.72, scaleY: 0.68, morph: -65, dx: 8, dy: 14 },
-        umbilical_cord:  { scaleX: 0.68, scaleY: 0.68, morph: -55, dx: 6, dy: 16 },
-        water_sac:       { scaleX: 0.72, scaleY: 0.66, morph: -75, dx: 4, dy: 18 },
-        amniotic_fluid:  { scaleX: 0.58, scaleY: 0.54, morph: -80, dx: 4, dy: 20 },
-        fetus_baby:      { scaleX: 0.52, scaleY: 0.52, morph: -40, dx: 4, dy: 18 }
+        placenta:        { scaleX: 0.78, scaleY: 0.74, morph: -65, dx: 8, dy: 14 },
+        umbilical_cord:  { scaleX: 0.75, scaleY: 0.75, morph: -55, dx: 6, dy: 16 },
+        water_sac:       { scaleX: 0.78, scaleY: 0.74, morph: -75, dx: 4, dy: 18 },
+        amniotic_fluid:  { scaleX: 0.68, scaleY: 0.64, morph: -80, dx: 4, dy: 20 },
+        fetus_baby:      { scaleX: 0.85, scaleY: 0.85, morph: -40, dx: 4, dy: 18 }
       },
       pregnancy_loss: {
         uterus:          { scaleX: 1.14, scaleY: 1.12, morph: 10,  dx: 0, dy: 3 },
-        endometrium:     { scaleX: 1.10, scaleY: 1.08, morph: -65, dx: 0, dy: 3 },
+        endometrium:     { scaleX: 1.14, scaleY: 1.12, morph: -65, dx: 0, dy: 3 },
         cervix:          { scaleX: 1.12, scaleY: 0.96, morph: 48,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.05, scaleY: 1.05, morph: 12,  dx: 0, dy: 0 },
-        placenta:        { scaleX: 0.64, scaleY: 0.60, morph: -75, dx: 6, dy: 16 },
-        umbilical_cord:  { scaleX: 0.60, scaleY: 0.60, morph: -70, dx: 4, dy: 18 },
-        water_sac:       { scaleX: 0.62, scaleY: 0.58, morph: -85, dx: 4, dy: 20 },
-        amniotic_fluid:  { scaleX: 0.48, scaleY: 0.45, morph: -90, dx: 4, dy: 22 },
-        fetus_baby:      { scaleX: 0.48, scaleY: 0.48, morph: -50, dx: 4, dy: 20 }
+        placenta:        { scaleX: 0.72, scaleY: 0.68, morph: -75, dx: 6, dy: 16 },
+        umbilical_cord:  { scaleX: 0.70, scaleY: 0.70, morph: -70, dx: 4, dy: 18 },
+        water_sac:       { scaleX: 0.72, scaleY: 0.68, morph: -85, dx: 4, dy: 20 },
+        amniotic_fluid:  { scaleX: 0.60, scaleY: 0.58, morph: -90, dx: 4, dy: 22 },
+        fetus_baby:      { scaleX: 0.80, scaleY: 0.80, morph: -50, dx: 4, dy: 20 }
       },
       after_pregnancy_loss: {
         uterus:          { scaleX: 1.10, scaleY: 1.08, morph: 15,  dx: 0, dy: 2 },
-        endometrium:     { scaleX: 1.06, scaleY: 1.05, morph: -55, dx: 0, dy: 2 },
+        endometrium:     { scaleX: 1.10, scaleY: 1.08, morph: -55, dx: 0, dy: 2 },
         cervix:          { scaleX: 1.06, scaleY: 1.00, morph: 30,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.04, scaleY: 1.04, morph: 10,  dx: 0, dy: 0 },
-        placenta:        { scaleX: 0.55, scaleY: 0.52, morph: -80, dx: 4, dy: 14 },
-        water_sac:       { scaleX: 0.55, scaleY: 0.50, morph: -85, dx: 4, dy: 16 }
+        placenta:        { scaleX: 0.65, scaleY: 0.62, morph: -80, dx: 4, dy: 14 },
+        water_sac:       { scaleX: 0.65, scaleY: 0.60, morph: -85, dx: 4, dy: 16 }
       },
       birth: {
-        uterus:          { scaleX: 1.48, scaleY: 1.38, morph: 65,  dx: 0, dy: 10 },
-        endometrium:     { scaleX: 1.42, scaleY: 1.34, morph: 55,  dx: 0, dy: 10 },
+        uterus:          { scaleX: 1.48, scaleY: 1.42, morph: 65,  dx: 0, dy: 10 },
+        endometrium:     { scaleX: 1.48, scaleY: 1.42, morph: 55,  dx: 0, dy: 10 },
         cervix:          { scaleX: 1.46, scaleY: 0.78, morph: 98,  dx: 0, dy: 0 },
         vaginal_canal:   { scaleX: 1.42, scaleY: 1.04, morph: 95,  dx: 0, dy: 0 },
         vaginal_opening: { scaleX: 1.45, scaleY: 1.38, morph: 95,  dx: 0, dy: 0 },
@@ -813,12 +930,12 @@
         placenta:        { scaleX: 0.98, scaleY: 0.96, morph: 40,  dx: 0, dy: 6 },
         umbilical_cord:  { scaleX: 1.00, scaleY: 1.06, morph: 45,  dx: 0, dy: 12 },
         water_sac:       { scaleX: 0.96, scaleY: 0.94, morph: -60, dx: 0, dy: 10 },
-        amniotic_fluid:  { scaleX: 0.78, scaleY: 0.76, morph: -55, dx: 0, dy: 14 },
-        fetus_baby:      { scaleX: 0.98, scaleY: 0.98, morph: 90,  dx: 0, dy: 18 }
+        amniotic_fluid:  { scaleX: 0.85, scaleY: 0.82, morph: -55, dx: 0, dy: 14 },
+        fetus_baby:      { scaleX: 1.00, scaleY: 1.00, morph: 90,  dx: 0, dy: 18 }
       },
       vaginal_birth: {
-        uterus:          { scaleX: 1.45, scaleY: 1.35, morph: 60,  dx: 0, dy: 10 },
-        endometrium:     { scaleX: 1.40, scaleY: 1.32, morph: 50,  dx: 0, dy: 10 },
+        uterus:          { scaleX: 1.46, scaleY: 1.40, morph: 60,  dx: 0, dy: 10 },
+        endometrium:     { scaleX: 1.46, scaleY: 1.40, morph: 50,  dx: 0, dy: 10 },
         cervix:          { scaleX: 1.48, scaleY: 0.76, morph: 100, dx: 0, dy: 0 },
         vaginal_canal:   { scaleX: 1.46, scaleY: 1.05, morph: 100, dx: 0, dy: 0 },
         vaginal_opening: { scaleX: 1.48, scaleY: 1.40, morph: 100, dx: 0, dy: 0 },
@@ -829,61 +946,61 @@
         placenta:        { scaleX: 0.98, scaleY: 0.96, morph: 40,  dx: 0, dy: 6 },
         umbilical_cord:  { scaleX: 1.00, scaleY: 1.08, morph: 45,  dx: 0, dy: 14 },
         water_sac:       { scaleX: 0.96, scaleY: 0.94, morph: -65, dx: 0, dy: 10 },
-        amniotic_fluid:  { scaleX: 0.76, scaleY: 0.74, morph: -60, dx: 0, dy: 16 },
-        fetus_baby:      { scaleX: 0.98, scaleY: 0.98, morph: 92,  dx: 0, dy: 20 }
+        amniotic_fluid:  { scaleX: 0.85, scaleY: 0.82, morph: -60, dx: 0, dy: 16 },
+        fetus_baby:      { scaleX: 1.00, scaleY: 1.00, morph: 92,  dx: 0, dy: 20 }
       },
       c_section: {
-        uterus:          { scaleX: 1.26, scaleY: 1.22, morph: 35,  dx: 0, dy: 6 },
-        endometrium:     { scaleX: 1.22, scaleY: 1.18, morph: -25, dx: 0, dy: 6 },
+        uterus:          { scaleX: 1.38, scaleY: 1.34, morph: 35,  dx: 0, dy: 6 },
+        endometrium:     { scaleX: 1.38, scaleY: 1.34, morph: -25, dx: 0, dy: 6 },
         cervix:          { scaleX: 1.06, scaleY: 1.00, morph: 10,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 75,  dx: 0, dy: 0 },
         mammary_glands:  { scaleX: 1.28, scaleY: 1.28, morph: 92,  dx: 0, dy: 0 },
-        placenta:        { scaleX: 0.92, scaleY: 0.92, morph: 30,  dx: 0, dy: 0 },
-        umbilical_cord:  { scaleX: 0.92, scaleY: 0.92, morph: 30,  dx: 0, dy: 0 },
-        water_sac:       { scaleX: 0.92, scaleY: 0.92, morph: -35, dx: 0, dy: 0 },
-        amniotic_fluid:  { scaleX: 0.85, scaleY: 0.85, morph: -25, dx: 0, dy: 0 },
-        fetus_baby:      { scaleX: 0.92, scaleY: 0.92, morph: 75,  dx: 0, dy: 0 }
+        placenta:        { scaleX: 0.95, scaleY: 0.95, morph: 30,  dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 0.95, scaleY: 0.95, morph: 30,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 0.95, scaleY: 0.95, morph: -35, dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 0.90, scaleY: 0.90, morph: -25, dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 0.96, scaleY: 0.96, morph: 75,  dx: 0, dy: 0 }
       },
       still_birth: {
-        uterus:          { scaleX: 1.24, scaleY: 1.20, morph: 25,  dx: 0, dy: 5 },
-        endometrium:     { scaleX: 1.18, scaleY: 1.15, morph: -45, dx: 0, dy: 5 },
+        uterus:          { scaleX: 1.34, scaleY: 1.30, morph: 25,  dx: 0, dy: 5 },
+        endometrium:     { scaleX: 1.34, scaleY: 1.30, morph: -45, dx: 0, dy: 5 },
         cervix:          { scaleX: 1.22, scaleY: 0.90, morph: 55,  dx: 0, dy: 0 },
         vaginal_canal:   { scaleX: 1.18, scaleY: 1.00, morph: 45,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.14, scaleY: 1.14, morph: 45,  dx: 0, dy: 0 },
         mammary_glands:  { scaleX: 1.18, scaleY: 1.18, morph: 55,  dx: 0, dy: 0 },
-        placenta:        { scaleX: 0.82, scaleY: 0.80, morph: -50, dx: 4, dy: 8 },
-        umbilical_cord:  { scaleX: 0.82, scaleY: 0.82, morph: -45, dx: 2, dy: 8 },
-        water_sac:       { scaleX: 0.82, scaleY: 0.80, morph: -60, dx: 0, dy: 8 },
-        amniotic_fluid:  { scaleX: 0.70, scaleY: 0.68, morph: -65, dx: 0, dy: 10 },
-        fetus_baby:      { scaleX: 0.78, scaleY: 0.78, morph: -30, dx: 0, dy: 8 }
+        placenta:        { scaleX: 0.88, scaleY: 0.86, morph: -50, dx: 4, dy: 8 },
+        umbilical_cord:  { scaleX: 0.88, scaleY: 0.88, morph: -45, dx: 2, dy: 8 },
+        water_sac:       { scaleX: 0.88, scaleY: 0.86, morph: -60, dx: 0, dy: 8 },
+        amniotic_fluid:  { scaleX: 0.78, scaleY: 0.76, morph: -65, dx: 0, dy: 10 },
+        fetus_baby:      { scaleX: 0.90, scaleY: 0.90, morph: -30, dx: 0, dy: 8 }
       },
       second_pregnancy: {
-        uterus:          { scaleX: 1.68, scaleY: 1.58, morph: 96,  dx: 0, dy: 12 },
-        endometrium:     { scaleX: 1.64, scaleY: 1.55, morph: 92,  dx: 0, dy: 12 },
+        uterus:          { scaleX: 1.54, scaleY: 1.50, morph: 96,  dx: 0, dy: 12 },
+        endometrium:     { scaleX: 1.54, scaleY: 1.50, morph: 92,  dx: 0, dy: 12 },
         fallopian_tubes: { scaleX: 1.18, scaleY: 1.08, morph: 50,  dx: 0, dy: 26 },
         cervix:          { scaleX: 1.16, scaleY: 0.92, morph: -25, dx: 0, dy: 0 },
         vaginal_canal:   { scaleX: 1.18, scaleY: 1.02, morph: 45,  dx: 0, dy: 0 },
         breasts:         { scaleX: 1.20, scaleY: 1.20, morph: 70,  dx: 0, dy: 0 },
         mammary_glands:  { scaleX: 1.26, scaleY: 1.26, morph: 88,  dx: 0, dy: 0 },
-        placenta:        { scaleX: 1.02, scaleY: 1.02, morph: 55,  dx: 0, dy: 0 },
+        placenta:        { scaleX: 1.00, scaleY: 1.00, morph: 55,  dx: 0, dy: 0 },
         umbilical_cord:  { scaleX: 1.00, scaleY: 1.00, morph: 50,  dx: 0, dy: 0 },
-        water_sac:       { scaleX: 1.02, scaleY: 1.02, morph: 60,  dx: 0, dy: 0 },
-        amniotic_fluid:  { scaleX: 1.02, scaleY: 1.02, morph: 60,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 1.00, scaleY: 1.00, morph: 60,  dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 1.00, scaleY: 1.00, morph: 60,  dx: 0, dy: 0 },
         fetus_baby:      { scaleX: 1.00, scaleY: 1.00, morph: 90,  dx: 0, dy: 0 }
       },
       pregnancy_after_loss: {
-        uterus:          { scaleX: 1.52, scaleY: 1.46, morph: 85,  dx: 0, dy: 10 },
+        uterus:          { scaleX: 1.48, scaleY: 1.44, morph: 85,  dx: 0, dy: 10 },
         endometrium:     { scaleX: 1.48, scaleY: 1.44, morph: 85,  dx: 0, dy: 10 },
         fallopian_tubes: { scaleX: 1.14, scaleY: 1.06, morph: 42,  dx: 0, dy: 20 },
         ovaries:         { scaleX: 1.02, scaleY: 1.02, morph: 25,  dx: 0, dy: 18 },
         cervix:          { scaleX: 1.10, scaleY: 0.95, morph: -35, dx: 0, dy: 0 },
         breasts:         { scaleX: 1.16, scaleY: 1.16, morph: 60,  dx: 0, dy: 0 },
         mammary_glands:  { scaleX: 1.22, scaleY: 1.22, morph: 78,  dx: 0, dy: 0 },
-        placenta:        { scaleX: 0.95, scaleY: 0.95, morph: 48,  dx: 0, dy: 0 },
-        umbilical_cord:  { scaleX: 0.95, scaleY: 0.95, morph: 45,  dx: 0, dy: 0 },
-        water_sac:       { scaleX: 0.95, scaleY: 0.95, morph: 50,  dx: 0, dy: 0 },
-        amniotic_fluid:  { scaleX: 0.95, scaleY: 0.95, morph: 50,  dx: 0, dy: 0 },
-        fetus_baby:      { scaleX: 0.95, scaleY: 0.95, morph: 80,  dx: 0, dy: 0 }
+        placenta:        { scaleX: 0.96, scaleY: 0.96, morph: 48,  dx: 0, dy: 0 },
+        umbilical_cord:  { scaleX: 0.96, scaleY: 0.96, morph: 45,  dx: 0, dy: 0 },
+        water_sac:       { scaleX: 0.96, scaleY: 0.96, morph: 50,  dx: 0, dy: 0 },
+        amniotic_fluid:  { scaleX: 0.96, scaleY: 0.96, morph: 50,  dx: 0, dy: 0 },
+        fetus_baby:      { scaleX: 0.96, scaleY: 0.96, morph: 80,  dx: 0, dy: 0 }
       },
       first_period_after_birth: {
         uterus:          { scaleX: 1.06, scaleY: 1.05, morph: -15, dx: 0, dy: 0 },
@@ -999,6 +1116,7 @@
       });
 
       syncPregnancyComponentsForActiveFilters();
+      syncConceptionComponentsForActiveFilters();
 
       const base = createDefaultState();
       const overrides = PRESETS[presetName] || {};
@@ -1051,6 +1169,7 @@
       }
 
       syncPregnancyComponentsForActiveFilters();
+      syncConceptionComponentsForActiveFilters();
 
       document.querySelectorAll('#preset-buttons button').forEach(btn => {
         if (btn.id === 'preset-' + currentPreset) {
@@ -1564,14 +1683,6 @@
           ovariesMarkup += `<circle cx="${(fx - fr * 0.25).toFixed(1)}" cy="${(fy - fr * 0.25).toFixed(1)}" r="${Math.max(1.8, fr * 0.24).toFixed(1)}" fill="#FFFFFF" fill-opacity="0.92" />`;
         }
 
-        // If ovulation/luteal/conception preset, show released warm-golden ovum near fimbriae!
-        if ((hasActivePreset(['ovulation', 'luteal', 'conception']) || oSt.morph > 55) && side === 1 && !hasActivePreset(['ovarian_cyst', 'ovarian_cancer'])) {
-          const eggX = ovX + 34;
-          const eggY = ovY - 34;
-          const eggPath = `M ${eggX - 11} ${eggY} a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0`;
-          ovariesMarkup += highlighterGroup('ovaries', eggPath, { fill: '#FFB703', rim: '#F48C06', opacity: 0.90, strokeW: 2.2, whiteMix: 0.72 });
-        }
-
         // If Ovarian Cyst selected: render prominent cartoon cyst in warm amber-coral on right ovary
         if (hasActivePreset('ovarian_cyst') && side === 1) {
           const cystX = ovX + 18;
@@ -1589,6 +1700,30 @@
         }
       }
       html += `<g class="organ-btn ${selectedOrgan === 'ovaries' ? 'selected-organ' : ''}" data-organ="ovaries" onclick="selectOrgan('ovaries', event)" transform="${organTransformAttr('ovaries', 0, utTopY + 78)}">${ovariesMarkup}</g>`;
+
+      // -----------------------------------------------------------------------
+      // 5B. EGG / OVUM (OOCYTE) — CLICKABLE CORE ORGAN PART: 'egg_ovum'
+      // Always present as an organ part (maturing in/releasing from the right ovary,
+      // and actively released into the fimbriae/Fallopian tube during ovulation or conception!)
+      // -----------------------------------------------------------------------
+      if (!hasActivePreset(['ovarian_cyst', 'ovarian_cancer'])) {
+        const rightOvX = (utHalfW + 102) + utSt.dx;
+        const rightOvY = utTopY + 78 + tubeDroop + utSt.dy;
+        const isReleasedEgg = hasActivePreset(['ovulation', 'luteal', 'conception']) || organState.egg_ovum.morph > 35;
+        const eggBaseX = isReleasedEgg ? (rightOvX + 30) : (rightOvX + 14);
+        const eggBaseY = isReleasedEgg ? (rightOvY - 30) : (rightOvY - 6);
+        const eggR = isReleasedEgg ? 12.5 : 10.0;
+        let eggOvumMarkup = '';
+        // Outer golden-amber zona pellucida & corona radiata halo
+        const eggHaloPath = `M ${(eggBaseX - eggR * 1.28).toFixed(1)} ${eggBaseY.toFixed(1)} a ${(eggR * 1.28).toFixed(1)} ${(eggR * 1.28).toFixed(1)} 0 1 0 ${(eggR * 2.56).toFixed(1)} 0 a ${(eggR * 1.28).toFixed(1)} ${(eggR * 1.28).toFixed(1)} 0 1 0 -${(eggR * 2.56).toFixed(1)} 0`;
+        const eggCorePath = `M ${(eggBaseX - eggR).toFixed(1)} ${eggBaseY.toFixed(1)} a ${eggR.toFixed(1)} ${eggR.toFixed(1)} 0 1 0 ${(eggR * 2).toFixed(1)} 0 a ${eggR.toFixed(1)} ${eggR.toFixed(1)} 0 1 0 -${(eggR * 2).toFixed(1)} 0`;
+        eggOvumMarkup += `<path d="${eggHaloPath}" fill="#FFF3D1" fill-opacity="0.72" stroke="#FB8500" stroke-width="1.8" stroke-dasharray="3,2" />`;
+        eggOvumMarkup += highlighterGroup('egg_ovum', eggCorePath, { fill: organState.egg_ovum.color, rim: '#F48C06', opacity: 0.94, strokeW: 2.5, whiteMix: 0.68 });
+        // Warm inner nucleus & white cartoon shine dot
+        eggOvumMarkup += `<circle cx="${(eggBaseX + 1.5).toFixed(1)}" cy="${(eggBaseY + 1).toFixed(1)}" r="${(eggR * 0.38).toFixed(1)}" fill="#F48C06" fill-opacity="0.65" />`;
+        eggOvumMarkup += `<circle cx="${(eggBaseX - eggR * 0.34).toFixed(1)}" cy="${(eggBaseY - eggR * 0.34).toFixed(1)}" r="${(eggR * 0.25).toFixed(1)}" fill="#FFFFFF" fill-opacity="0.95" />`;
+        html += `<g class="organ-btn ${selectedOrgan === 'egg_ovum' ? 'selected-organ' : ''}" data-organ="egg_ovum" onclick="selectOrgan('egg_ovum', event)" transform="${organTransformAttr('egg_ovum', eggBaseX, eggBaseY)}">${eggOvumMarkup}</g>`;
+      }
 
       // -----------------------------------------------------------------------
       // 6. UTERUS (SOFT CARTOON PEAR SILHOUETTE & SHINE ARC) - BUTTON: 'uterus'
@@ -1691,44 +1826,47 @@
       html += `<g class="organ-btn ${selectedOrgan === 'cervix' ? 'selected-organ' : ''}" data-organ="cervix" onclick="selectOrgan('cervix', event)" transform="${organTransformAttr('cervix', 0, (cervTopY + cervBotY) * 0.5)}">${cervixMarkup}</g>`;
 
       // -----------------------------------------------------------------------
-      // 8. ENDOMETRIUM (SOFT CARTOON RUBY-RED INNER CUSHION) - BUTTON: 'endometrium'
+      // 8. UTERINE LINING (ENDOMETRIUM — RUBY-RED INNER LINING) - BUTTON: 'endometrium'
+      // Hugs the inside of the outer Uterus wall with a clean, proportionate border!
       // -----------------------------------------------------------------------
       const eSt = organState.endometrium;
-      const endoThick = Math.max(0.32, 1.0 + (eSt.morph / 100) * 0.52);
-      const inHalfW = 78 * 0.66;
-      const inTopY = -58 + 14;
-      const inBotY = 116 - 8;
+      const isPregActive = isPregnancyContextActive();
+      const endoThick = Math.max(0.45, 1.0 + (eSt.morph / 100) * 0.45);
+      const inHalfW = utHalfW - 6.5;
+      const inTopY = utTopY + 5.5;
+      const inBotY = utBotY - 4;
+      const inDomeLift = Math.max(18, domeLift - 5.5);
 
-      // Soft rounded heart-pear outer cushion
+      // Outer edge of the Uterine Lining hugs the inner contour of the Uterus wall
       const endoOuterPath = `
-        M ${-inHalfW} ${inTopY + 4}
-        C ${-inHalfW * 0.45} ${inTopY - 22}, ${inHalfW * 0.45} ${inTopY - 22}, ${inHalfW} ${inTopY + 4}
-        C ${inHalfW * 0.86} ${(inTopY + inBotY) * 0.52}, 18 ${inBotY - 20}, 9 ${inBotY}
-        Q 0 ${inBotY + 7} -9 ${inBotY}
-        C -18 ${inBotY - 20}, ${-inHalfW * 0.86} ${(inTopY + inBotY) * 0.52}, ${-inHalfW} ${inTopY + 4} Z
+        M ${-inHalfW} ${inTopY + 14}
+        C ${-inHalfW * 0.52} ${inTopY - inDomeLift}, ${inHalfW * 0.52} ${inTopY - inDomeLift}, ${inHalfW} ${inTopY + 14}
+        C ${inHalfW * 0.95} ${(inTopY + inBotY) * 0.36}, ${cervixW * 1.12} ${inBotY - 40}, ${cervixW * 0.78} ${inBotY - 8}
+        Q 0 ${inBotY + 10} ${-cervixW * 0.78} ${inBotY - 8}
+        C ${-cervixW * 1.12} ${inBotY - 40}, ${-inHalfW * 0.95} ${(inTopY + inBotY) * 0.36}, ${-inHalfW} ${inTopY + 14} Z
       `;
 
-      // Soft billowy cartoon inner cavity (gentle rounded clouds instead of sharp waves)
-      const cavScale = Math.max(0.34, Math.min(0.84, 1.0 - 0.26 * endoThick));
-      const cavW = inHalfW * cavScale;
-      const cavTopY = inTopY + 10 * endoThick;
-      const cavBotY = inBotY - 6;
+      // Inner uterine cavity enclosed by the ruby-red Uterine Lining
+      const liningBand = isPregActive ? 6.5 : Math.max(5.5, Math.min(13.5, 8.5 * endoThick));
+      const cavW = inHalfW - liningBand;
+      const cavTopY = inTopY + liningBand * 0.85;
+      const cavBotY = inBotY - 5;
+      const cavDomeLift = Math.max(12, inDomeLift - liningBand);
 
       const cavityPath = `
-        M ${-cavW.toFixed(1)} ${(cavTopY + 4).toFixed(1)}
-        Q ${(-cavW * 0.5).toFixed(1)} ${(cavTopY - 8 * endoThick).toFixed(1)} 0 ${(cavTopY - 4 * endoThick).toFixed(1)}
-        Q ${(cavW * 0.5).toFixed(1)} ${(cavTopY - 8 * endoThick).toFixed(1)} ${cavW.toFixed(1)} ${(cavTopY + 4).toFixed(1)}
-        C ${(cavW * 0.92).toFixed(1)} ${((cavTopY + cavBotY) * 0.42).toFixed(1)}, 14 ${(cavBotY - 18).toFixed(1)}, 5 ${cavBotY.toFixed(1)}
-        Q 0 ${(cavBotY + 4).toFixed(1)} -5 ${cavBotY.toFixed(1)}
-        C -14 ${(cavBotY - 18).toFixed(1)}, ${(-cavW * 0.92).toFixed(1)} ${((cavTopY + cavBotY) * 0.42).toFixed(1)}, ${-cavW.toFixed(1)} ${(cavTopY + 4).toFixed(1)} Z
+        M ${-cavW.toFixed(1)} ${(cavTopY + 12).toFixed(1)}
+        C ${(-cavW * 0.52).toFixed(1)} ${(cavTopY - cavDomeLift).toFixed(1)}, ${(cavW * 0.52).toFixed(1)} ${(cavTopY - cavDomeLift).toFixed(1)}, ${cavW.toFixed(1)} ${(cavTopY + 12).toFixed(1)}
+        C ${(cavW * 0.94).toFixed(1)} ${((cavTopY + cavBotY) * 0.38).toFixed(1)}, 16 ${(cavBotY - 24).toFixed(1)}, 6 ${cavBotY.toFixed(1)}
+        Q 0 ${(cavBotY + 5).toFixed(1)} -6 ${cavBotY.toFixed(1)}
+        C -16 ${(cavBotY - 24).toFixed(1)}, ${(-cavW * 0.94).toFixed(1)} ${((cavTopY + cavBotY) * 0.38).toFixed(1)}, ${-cavW.toFixed(1)} ${(cavTopY + 12).toFixed(1)} Z
       `;
 
       let endoMarkup = '';
       if (hasActivePreset('hysterectomy')) {
         endoMarkup += `<path d="${endoOuterPath}" fill="none" stroke="#D61F3C" stroke-opacity="0.22" stroke-width="1.8" stroke-dasharray="5,5" />`;
       } else {
-        endoMarkup += highlighterGroup('endometrium', endoOuterPath, { strokeW: 2.8, whiteMix: 0.84 });
-        endoMarkup += highlighterGroup('endometrium', cavityPath, { fill: '#FF758F', rim: '#D61F3C', opacity: 0.78, strokeW: 2.2, whiteMix: 0.88 });
+        endoMarkup += highlighterGroup('endometrium', endoOuterPath, { strokeW: 2.8, whiteMix: 0.78 });
+        endoMarkup += highlighterGroup('endometrium', cavityPath, { fill: '#FF758F', rim: '#D61F3C', opacity: 0.78, strokeW: 2.2, whiteMix: 0.90 });
       }
 
       // If IUD insertions selected: render warm golden-orange cartoon T-shaped IUD inside uterine cavity
@@ -1754,26 +1892,25 @@
         endoMarkup += highlighterGroup('endometrium', `M -6 95 C -6 87, 0 82, 0 82 C 0 82, 6 87, 6 95 A 6 6 0 1 1 -6 95 Z`, { fill: '#D90429', rim: '#9E0B28', opacity: 0.90, strokeW: 1.8, whiteMix: 0.65 });
         endoMarkup += highlighterGroup('endometrium', `M -5 148 C -5 141, 0 136, 0 136 C 0 136, 5 141, 5 148 A 5 5 0 1 1 -5 148 Z`, { fill: '#D90429', rim: '#9E0B28', opacity: 0.90, strokeW: 1.8, whiteMix: 0.65 });
       }
-      html += `<g class="organ-btn ${selectedOrgan === 'endometrium' ? 'selected-organ' : ''}" data-organ="endometrium" onclick="selectOrgan('endometrium', event)" transform="${organTransformAttr('endometrium', 0, (inTopY + inBotY) * 0.5)}">${endoMarkup}</g>`;
+      html += `<g class="organ-btn ${selectedOrgan === 'endometrium' ? 'selected-organ' : ''}" data-organ="endometrium" onclick="selectOrgan('endometrium', event)" transform="${organTransformAttr('endometrium', 0, (utTopY + utBotY) * 0.5)}">${endoMarkup}</g>`;
 
       // -----------------------------------------------------------------------
       // 8B. CLICKABLE PREGNANCY COMPONENTS (PLACENTA, WATER SAC, AMNIOTIC FLUID, UMBILICAL CORD, BABY / EMBRYO)
       // All other body organs remain present, and these components are added inside the uterine cavity
-      // when a pregnancy filter is active (smaller in 1st trimester, damaged/detaching when actively losing,
-      // or ruptured water sac + lost mucus plug when about to give birth).
+      // when a pregnancy filter is active (smaller in 1st trimester, 2nd trimester curled baby is half the size
+      // of 3rd trimester, and 3rd trimester curled baby takes up basically the entire uterus!).
       // -----------------------------------------------------------------------
-      const isPregActive = isPregnancyContextActive();
       const isFirstTriOnly = hasActivePreset('first_trimester') && !hasActivePreset(['second_trimester', 'third_trimester', 'pregnancy', 'second_pregnancy', 'pregnancy_after_loss', 'birth', 'vaginal_birth', 'c_section', 'still_birth']);
       const isSecondTriOnly = hasActivePreset('second_trimester') && !hasActivePreset(['third_trimester', 'pregnancy', 'second_pregnancy', 'pregnancy_after_loss', 'birth', 'vaginal_birth', 'c_section']);
       const isDamagedLoss = hasActivePreset(['actively_losing_pregnancy', 'pregnancy_loss', 'after_pregnancy_loss']);
       const isAboutToBirth = hasActivePreset(['birth', 'vaginal_birth']);
       const isStillBirth = hasActivePreset('still_birth');
 
-      // Anchor coordinates inside the dynamically stretched uterine cavity
-      const pregCenterY = (utTopY + utBotY) * 0.44 + utSt.dy;
+      // Anchor coordinates inside the dynamically stretched uterine cavity so the 3rd-trimester sac & baby fill the uterus!
+      const pregCenterY = ((utTopY - domeLift * 0.22) + utBotY) * 0.48 + utSt.dy;
       const pregCenterX = utSt.dx;
-      const sacRx = 48 * utSt.scaleX * (isFirstTriOnly ? 0.56 : isSecondTriOnly ? 0.80 : 0.96);
-      const sacRy = 54 * utSt.scaleY * (isFirstTriOnly ? 0.56 : isSecondTriOnly ? 0.80 : 0.96);
+      const sacRx = 62 * utSt.scaleX * (isFirstTriOnly ? 0.55 : isSecondTriOnly ? 0.84 : 0.98);
+      const sacRy = 76 * utSt.scaleY * (isFirstTriOnly ? 0.55 : isSecondTriOnly ? 0.84 : 0.98);
 
       // 1) WATER SAC (AMNIOTIC SAC) — Clickable component: 'water_sac'
       if (isPregActive && pregnancyComponentEnabled.water_sac) {
@@ -1795,8 +1932,8 @@
 
       // 2) AMNIOTIC FLUID (THE FLUID) — Clickable component: 'amniotic_fluid'
       if (isPregActive && pregnancyComponentEnabled.amniotic_fluid) {
-        const flRx = sacRx * 0.88;
-        const flRy = sacRy * 0.88;
+        const flRx = sacRx * 0.92;
+        const flRy = sacRy * 0.92;
         let fluidMarkup = '';
         const flPath = `
           M ${pregCenterX} ${(pregCenterY - flRy).toFixed(1)}
@@ -1817,11 +1954,11 @@
 
       // 3) PLACENTA — Clickable component: 'placenta'
       if (isPregActive && pregnancyComponentEnabled.placenta) {
-        // Cushioned vascular disc attached along upper-left uterine fundus/wall
-        const placX = pregCenterX - sacRx * 0.45;
-        const placY = pregCenterY - sacRy * 0.72;
-        const placRx = Math.max(18, sacRx * 0.58);
-        const placRy = Math.max(10, sacRy * 0.26);
+        // Cushioned vascular disc attached along upper-left uterine fundus/lining
+        const placX = pregCenterX - sacRx * 0.42;
+        const placY = pregCenterY - sacRy * 0.78;
+        const placRx = Math.max(22, sacRx * 0.54);
+        const placRy = Math.max(12, sacRy * 0.22);
         let placentaMarkup = '';
         const placPath = buildCartoonCloudPath(placX, placY, placRx, placRy, 7, 0.14, 0.3);
         placentaMarkup += highlighterGroup('placenta', placPath, { strokeW: 2.8, whiteMix: isDamagedLoss ? 0.70 : 0.78 });
@@ -1842,11 +1979,11 @@
       // 4) UMBILICAL CORD — Clickable component: 'umbilical_cord'
       if (isPregActive && pregnancyComponentEnabled.umbilical_cord) {
         const cordStartX = pregCenterX - sacRx * 0.38;
-        const cordStartY = pregCenterY - sacRy * 0.52;
-        const cordEndX = pregCenterX - 4;
-        const cordEndY = pregCenterY + 6;
-        const ctrl1X = pregCenterX - sacRx * 0.75;
-        const ctrl1Y = pregCenterY - sacRy * 0.05;
+        const cordStartY = pregCenterY - sacRy * 0.62;
+        const cordEndX = pregCenterX - 6;
+        const cordEndY = pregCenterY + 8;
+        const ctrl1X = pregCenterX - sacRx * 0.76;
+        const ctrl1Y = pregCenterY - sacRy * 0.08;
         const ctrl2X = pregCenterX - sacRx * 0.25;
         const ctrl2Y = pregCenterY + sacRy * 0.28;
         let cordMarkup = `
@@ -1860,24 +1997,108 @@
       }
 
       // 5) DEVELOPING BABY / EMBRYO — Clickable component: 'fetus_baby'
-      // First trimester: keeps the golden egg-type gestational sac we already have!
-      // Second trimester: curled-up cartoon baby HALF the size (0.50x) of the 3rd-trimester baby!
-      // Third trimester / full-term pregnancy / birth: full-size (1.00x) curled-up cartoon baby!
+      // First trimester: keeps the golden egg-type gestational sac!
+      // Second trimester: curled-up cartoon baby HALF the size (1.22x) of the 3rd-trimester baby!
+      // Third trimester / full-term pregnancy / birth: large curled-up cartoon baby (2.44x) taking up basically the entire uterus!
       if (isPregActive && pregnancyComponentEnabled.fetus_baby) {
         let babyMarkup = '';
         if (isFirstTriOnly) {
           // 1st Trimester: the golden egg-type embryonic sac
-          const rx = 20, ry = 18;
+          const rx = 25, ry = 22;
           const sacPath = `M ${(pregCenterX - rx).toFixed(1)} ${pregCenterY.toFixed(1)} a ${rx} ${ry} 0 1 0 ${rx * 2} 0 a ${rx} ${ry} 0 1 0 ${-rx * 2} 0`;
           babyMarkup += highlighterGroup('water_sac', sacPath, { fill: '#FFB703', rim: '#FB8500', opacity: 0.90, strokeW: 2.6, whiteMix: 0.80 });
           // Tiny curled early embryo bean inside the 1st-trimester egg
-          babyMarkup += `<circle cx="${(pregCenterX - 3).toFixed(1)}" cy="${(pregCenterY - 2).toFixed(1)}" r="5.5" fill="#FFAD85" stroke="#2B2235" stroke-width="1.8" />`;
+          babyMarkup += `<circle cx="${(pregCenterX - 3).toFixed(1)}" cy="${(pregCenterY - 2).toFixed(1)}" r="6.5" fill="#FFAD85" stroke="#2B2235" stroke-width="1.8" />`;
         } else {
-          // 2nd Trimester is HALF the size (0.52) of the 3rd Trimester / Full-Term curled baby (1.04)
-          const baseBabySize = isSecondTriOnly ? 0.52 : 1.04;
-          babyMarkup += buildCurledBabySVG(pregCenterX, pregCenterY + 4, baseBabySize, isDamagedLoss || isStillBirth);
+          // 3rd Trimester / Full-Term curled baby (2.44x) fills basically the entire uterus;
+          // 2nd Trimester curled baby (1.22x) is half the size of the 3rd Trimester baby!
+          const baseBabySize = isSecondTriOnly ? 1.22 : 2.44;
+          babyMarkup += buildCurledBabySVG(pregCenterX + 2, pregCenterY + 6, baseBabySize, isDamagedLoss || isStillBirth);
         }
         html += `<g class="organ-btn ${selectedOrgan === 'fetus_baby' ? 'selected-organ' : ''}" data-organ="fetus_baby" onclick="selectOrgan('fetus_baby', event)" transform="${organTransformAttr('fetus_baby', pregCenterX, pregCenterY)}">${babyMarkup}</g>`;
+      }
+
+      // -----------------------------------------------------------------------
+      // 8C. CLICKABLE CONCEPTION COMPONENTS (ConceptionComponents1 — AddedBubbleButtonType1)
+      // When 'Conception' is active:
+      //  1) 'fertilized_egg_tube': The golden egg actively moving through the right Fallopian tube arch
+      //  2) 'sperm_cell': Outside sperm (black outline #2B2235 + pure white middle #FFFFFF) swimming up & meeting the egg in the Fallopian tube
+      //  3) 'nestling_egg_uterus': The fertilized egg / blastocyst nestling into the ruby-red Uterine Lining in the uterus
+      // -----------------------------------------------------------------------
+      const isConcepActive = isConceptionContextActive();
+      const tubeMeetX = (utHalfW + 84) + utSt.dx;
+      const tubeMeetY = (utTopY - 26) + tubeDroop * 0.45 + utSt.dy;
+      const nestleX = (inHalfW * 0.52) + utSt.dx;
+      const nestleY = (utTopY + 26) + utSt.dy;
+
+      // 1) EGG MOVING THROUGH FALLOPIAN TUBE (MET BY SPERM) — Clickable component: 'fertilized_egg_tube'
+      if (isConcepActive && conceptionComponentEnabled.fertilized_egg_tube) {
+        const rightOvX = (utHalfW + 102) + utSt.dx;
+        const rightOvY = utTopY + 78 + tubeDroop + utSt.dy;
+        let tubeEggMarkup = `
+          <g filter="url(#loose-pencil)">
+            <!-- Active motion trail showing the egg moving from the right ovary up through the Fallopian tube arch -->
+            <path d="M ${(rightOvX + 26).toFixed(1)} ${(rightOvY - 22).toFixed(1)} C ${(rightOvX + 64).toFixed(1)} ${(utTopY + 8).toFixed(1)}, ${(tubeMeetX + 42).toFixed(1)} ${(tubeMeetY - 8).toFixed(1)}, ${tubeMeetX.toFixed(1)} ${tubeMeetY.toFixed(1)}" fill="none" stroke="#FFB703" stroke-width="3.2" stroke-dasharray="5,5" stroke-linecap="round" />
+            <circle cx="${(rightOvX + 44).toFixed(1)}" cy="${(rightOvY - 46).toFixed(1)}" r="5.0" fill="#FFF3D1" stroke="#FB8500" stroke-width="1.8" opacity="0.75" />
+            <circle cx="${(tubeMeetX + 36).toFixed(1)}" cy="${(tubeMeetY + 6).toFixed(1)}" r="7.5" fill="#FFF3D1" stroke="#FB8500" stroke-width="2.0" opacity="0.85" />
+            <!-- Golden Egg inside the Fallopian tube ampulla being met by the sperm -->
+            <circle cx="${tubeMeetX.toFixed(1)}" cy="${tubeMeetY.toFixed(1)}" r="16.5" fill="#FFF3D1" fill-opacity="0.85" stroke="#FB8500" stroke-width="2.2" stroke-dasharray="3,2" />
+            <circle cx="${tubeMeetX.toFixed(1)}" cy="${tubeMeetY.toFixed(1)}" r="12.5" fill="${organState.fertilized_egg_tube.color}" stroke="#2B2235" stroke-width="2.6" />
+            <circle cx="${(tubeMeetX - 2.5).toFixed(1)}" cy="${(tubeMeetY + 1).toFixed(1)}" r="4.5" fill="#F48C06" fill-opacity="0.85" />
+            <circle cx="${(tubeMeetX + 3.5).toFixed(1)}" cy="${(tubeMeetY - 1).toFixed(1)}" r="4.0" fill="#FFFFFF" stroke="#2B2235" stroke-width="1.5" />
+            <circle cx="${(tubeMeetX - 4.5).toFixed(1)}" cy="${(tubeMeetY - 4.5).toFixed(1)}" r="3.0" fill="#FFFFFF" fill-opacity="0.95" />
+          </g>
+        `;
+        html += `<g class="organ-btn ${selectedOrgan === 'fertilized_egg_tube' ? 'selected-organ' : ''}" data-organ="fertilized_egg_tube" onclick="selectOrgan('fertilized_egg_tube', event)" transform="${organTransformAttr('fertilized_egg_tube', tubeMeetX, tubeMeetY)}">${tubeEggMarkup}</g>`;
+      }
+
+      // 2) OUTSIDE SPERM (BLACK IN OUTLINE, WHITE IN MIDDLE) MEETING THE EGG — Clickable component: 'sperm_cell'
+      if (isConcepActive && conceptionComponentEnabled.sperm_cell) {
+        // Primary sperm meeting the egg right at the Fallopian tube ampulla (head touching the egg, wavy tail behind)
+        const sp1HeadX = tubeMeetX - 16;
+        const sp1HeadY = tubeMeetY - 2;
+        // Second swimming sperm traveling up from the uterine cavity into the Fallopian tube isthmus
+        const sp2HeadX = (utHalfW * 0.65) + utSt.dx;
+        const sp2HeadY = (utTopY + 4) + utSt.dy;
+        // Third swimming sperm ascending through the lower uterine cavity
+        const sp3HeadX = 14 + utSt.dx;
+        const sp3HeadY = (utBotY - 26) + utSt.dy;
+
+        let spermMarkup = `
+          <g filter="url(#loose-pencil)" opacity="${organState.sperm_cell.opacity}">
+            <!-- Sperm #1: Meeting the egg in the Fallopian tube (black outline #2B2235, pure white middle #FFFFFF) -->
+            <path d="M ${(sp1HeadX - 9).toFixed(1)} ${(sp1HeadY + 1).toFixed(1)} Q ${(sp1HeadX - 22).toFixed(1)} ${(sp1HeadY - 9).toFixed(1)} ${(sp1HeadX - 34).toFixed(1)} ${(sp1HeadY + 3).toFixed(1)} T ${(sp1HeadX - 56).toFixed(1)} ${(sp1HeadY + 6).toFixed(1)}" fill="none" stroke="#2B2235" stroke-width="3.2" stroke-linecap="round" />
+            <ellipse cx="${sp1HeadX.toFixed(1)}" cy="${sp1HeadY.toFixed(1)}" rx="9.5" ry="6.2" transform="rotate(8 ${sp1HeadX.toFixed(1)} ${sp1HeadY.toFixed(1)})" fill="#FFFFFF" stroke="#2B2235" stroke-width="2.8" />
+            <circle cx="${(sp1HeadX + 2.5).toFixed(1)}" cy="${(sp1HeadY - 1.5).toFixed(1)}" r="1.8" fill="#2B2235" />
+
+            <!-- Sperm #2: Entering Fallopian tube arch (black outline, white middle) -->
+            <path d="M ${(sp2HeadX - 7).toFixed(1)} ${(sp2HeadY + 5).toFixed(1)} Q ${(sp2HeadX - 18).toFixed(1)} ${(sp2HeadY + 18).toFixed(1)} ${(sp2HeadX - 28).toFixed(1)} ${(sp2HeadY + 12).toFixed(1)} T ${(sp2HeadX - 44).toFixed(1)} ${(sp2HeadY + 26).toFixed(1)}" fill="none" stroke="#2B2235" stroke-width="2.8" stroke-linecap="round" />
+            <ellipse cx="${sp2HeadX.toFixed(1)}" cy="${sp2HeadY.toFixed(1)}" rx="8.2" ry="5.4" transform="rotate(-32 ${sp2HeadX.toFixed(1)} ${sp2HeadY.toFixed(1)})" fill="#FFFFFF" stroke="#2B2235" stroke-width="2.6" />
+
+            <!-- Sperm #3: Swimming upward through uterine cavity (black outline, white middle) -->
+            <path d="M ${(sp3HeadX - 2).toFixed(1)} ${(sp3HeadY + 8).toFixed(1)} Q ${(sp3HeadX - 10).toFixed(1)} ${(sp3HeadY + 22).toFixed(1)} ${(sp3HeadX + 3).toFixed(1)} ${(sp3HeadY + 34).toFixed(1)} T ${(sp3HeadX - 4).toFixed(1)} ${(sp3HeadY + 50).toFixed(1)}" fill="none" stroke="#2B2235" stroke-width="2.6" stroke-linecap="round" />
+            <ellipse cx="${sp3HeadX.toFixed(1)}" cy="${sp3HeadY.toFixed(1)}" rx="5.2" ry="8.0" transform="rotate(14 ${sp3HeadX.toFixed(1)} ${sp3HeadY.toFixed(1)})" fill="#FFFFFF" stroke="#2B2235" stroke-width="2.5" />
+          </g>
+        `;
+        html += `<g class="organ-btn ${selectedOrgan === 'sperm_cell' ? 'selected-organ' : ''}" data-organ="sperm_cell" onclick="selectOrgan('sperm_cell', event)" transform="${organTransformAttr('sperm_cell', sp1HeadX, sp1HeadY)}">${spermMarkup}</g>`;
+      }
+
+      // 3) FERTILIZED EGG NESTLING IN UTERUS (IMPLANTATION INTO UTERINE LINING) — Clickable component: 'nestling_egg_uterus'
+      if (isConcepActive && conceptionComponentEnabled.nestling_egg_uterus) {
+        let nestleMarkup = `
+          <g filter="url(#loose-pencil)">
+            <!-- Travel path from Fallopian tube entrance down to the Uterine Lining nestling site -->
+            <path d="M ${(utHalfW * 0.78 + utSt.dx).toFixed(1)} ${(utTopY + 10 + utSt.dy).toFixed(1)} Q ${(nestleX + 12).toFixed(1)} ${(nestleY - 12).toFixed(1)} ${nestleX.toFixed(1)} ${nestleY.toFixed(1)}" fill="none" stroke="#F48C06" stroke-width="2.6" stroke-dasharray="4,4" stroke-linecap="round" />
+            <!-- Warm ruby-rose cushion pocket in the Uterine Lining cradling the nestling egg -->
+            <path d="M ${(nestleX + 4).toFixed(1)} ${(nestleY - 18).toFixed(1)} C ${(nestleX + 24).toFixed(1)} ${(nestleY - 12).toFixed(1)}, ${(nestleX + 24).toFixed(1)} ${(nestleY + 12).toFixed(1)}, ${(nestleX + 4).toFixed(1)} ${(nestleY + 18).toFixed(1)}" fill="none" stroke="#D61F3C" stroke-width="4.2" stroke-linecap="round" />
+            <circle cx="${nestleX.toFixed(1)}" cy="${nestleY.toFixed(1)}" r="15.0" fill="#FFF3D1" fill-opacity="0.82" stroke="#F48C06" stroke-width="2.2" stroke-dasharray="3,2" />
+            <circle cx="${nestleX.toFixed(1)}" cy="${nestleY.toFixed(1)}" r="11.0" fill="${organState.nestling_egg_uterus.color}" stroke="#2B2235" stroke-width="2.5" />
+            <circle cx="${(nestleX - 2.5).toFixed(1)}" cy="${(nestleY - 1.5).toFixed(1)}" r="3.5" fill="#D61F3C" fill-opacity="0.80" />
+            <circle cx="${(nestleX + 3.0).toFixed(1)}" cy="${(nestleY + 2.0).toFixed(1)}" r="3.0" fill="#FB8500" fill-opacity="0.85" />
+            <circle cx="${(nestleX - 3.5).toFixed(1)}" cy="${(nestleY - 3.5).toFixed(1)}" r="2.4" fill="#FFFFFF" fill-opacity="0.95" />
+          </g>
+        `;
+        html += `<g class="organ-btn ${selectedOrgan === 'nestling_egg_uterus' ? 'selected-organ' : ''}" data-organ="nestling_egg_uterus" onclick="selectOrgan('nestling_egg_uterus', event)" transform="${organTransformAttr('nestling_egg_uterus', nestleX, nestleY)}">${nestleMarkup}</g>`;
       }
 
       // -----------------------------------------------------------------------
@@ -1959,8 +2180,9 @@
           { id: 'mammary_glands',  x:  255, y: -355, tx:  195, ty: -325, label: 'Mammary Glands' },
           { id: 'fallopian_tubes', x: -275, y: -115, tx: -175, ty:  -78, label: 'Fallopian Tubes' },
           { id: 'ovaries',         x: -285, y:   15, tx: -210, ty:   15, label: 'Ovaries & Follicles' },
-          { id: 'uterus',          x:  245, y:  -95, tx:   72, ty:  -55, label: 'Uterus' },
-          { id: 'endometrium',     x:  245, y:  -25, tx:   35, ty:   -5, label: 'Endometrium' },
+          { id: 'egg_ovum',        x:  265, y:   15, tx:  195, ty:   14, label: 'Egg / Ovum' },
+          { id: 'uterus',          x:  245, y:  -95, tx:   76, ty:  -55, label: 'Uterus' },
+          { id: 'endometrium',     x:  245, y:  -25, tx:   66, ty:   -5, label: 'Uterine Lining' },
           { id: 'cervix',          x:  235, y:  135, tx:   32, ty:  135, label: 'Cervix' },
           { id: 'vaginal_canal',   x: -235, y:  215, tx:  -42, ty:  215, label: 'Vaginal Canal' },
           { id: 'clitoris',        x: -235, y:  310, tx:  -12, ty:  315, label: 'Clitoris' },
@@ -1968,9 +2190,20 @@
           { id: 'labia_minora',    x: -235, y:  375, tx:  -34, ty:  365, label: 'Inner Lips (Labia Minora)' },
           { id: 'vaginal_opening', x:  235, y:  405, tx:   16, ty:  382, label: 'Vaginal Opening' }
         ];
+        if (isConcepActive) {
+          if (conceptionComponentEnabled.fertilized_egg_tube) {
+            pins.push({ id: 'fertilized_egg_tube', x: 255, y: -125, tx: tubeMeetX, ty: tubeMeetY, label: 'Egg in Fallopian Tube' });
+          }
+          if (conceptionComponentEnabled.sperm_cell) {
+            pins.push({ id: 'sperm_cell', x: -265, y: -70, tx: tubeMeetX - 18, ty: tubeMeetY, label: 'Sperm Meeting Egg' });
+          }
+          if (conceptionComponentEnabled.nestling_egg_uterus) {
+            pins.push({ id: 'nestling_egg_uterus', x: 255, y: -58, tx: nestleX, ty: nestleY, label: 'Egg Nestling in Uterus' });
+          }
+        }
         if (isPregActive) {
           if (pregnancyComponentEnabled.placenta) {
-            pins.push({ id: 'placenta', x: -255, y: -60, tx: pregCenterX - sacRx * 0.45, ty: pregCenterY - sacRy * 0.72, label: 'Placenta' });
+            pins.push({ id: 'placenta', x: -255, y: -60, tx: pregCenterX - sacRx * 0.42, ty: pregCenterY - sacRy * 0.78, label: 'Placenta' });
           }
           if (pregnancyComponentEnabled.umbilical_cord) {
             pins.push({ id: 'umbilical_cord', x: -265, y: 65, tx: pregCenterX - sacRx * 0.45, ty: pregCenterY, label: 'Umbilical Cord' });
@@ -1982,7 +2215,7 @@
             pins.push({ id: 'amniotic_fluid', x: 245, y: 78, tx: pregCenterX + sacRx * 0.55, ty: pregCenterY + 28, label: 'Amniotic Fluid' });
           }
           if (pregnancyComponentEnabled.fetus_baby) {
-            pins.push({ id: 'fetus_baby', x: 245, y: -60, tx: pregCenterX + 8, ty: pregCenterY - 8, label: isFirstTriOnly ? '1st Trimester Embryo Sac' : isSecondTriOnly ? 'Baby (2nd Trimester)' : 'Baby' });
+            pins.push({ id: 'fetus_baby', x: 245, y: -60, tx: pregCenterX + 8, ty: pregCenterY - 8, label: isFirstTriOnly ? '1st Trimester Embryo Sac' : isSecondTriOnly ? 'Baby (2nd Trimester)' : 'Baby (3rd Trimester)' });
           }
         }
         for (const p of pins) {
@@ -2000,6 +2233,7 @@
 
       svg.innerHTML = html;
       renderOrganPills();
+      renderConceptionPills();
       renderPregnancyPills();
     }
 
@@ -2010,7 +2244,7 @@
       const container = document.getElementById('organ-pill-list');
       let out = '';
       for (const [id, def] of Object.entries(ORGAN_DEFS)) {
-        if (def.isPregnancyComponent) continue;
+        if (def.isPregnancyComponent || def.isConceptionComponent) continue;
         const isSel = selectedOrgan === id;
         const st = organState[id];
         out += `
@@ -2021,6 +2255,57 @@
             </span>
             <span class="text-[11px] opacity-65 ml-1">${st.scaleX.toFixed(1)}x</span>
           </button>
+        `;
+      }
+      container.innerHTML = out;
+    }
+
+    function renderConceptionPills() {
+      const bubble = document.getElementById('ConceptionComponents1');
+      const container = document.getElementById('conception-pill-list');
+      if (!bubble || !container) return;
+
+      const isConcepActive = isConceptionContextActive();
+      if (!isConcepActive) {
+        bubble.classList.add('hidden');
+        return;
+      }
+
+      bubble.classList.remove('hidden');
+
+      let out = '';
+      for (const id of CONCEPTION_COMPONENT_IDS) {
+        const def = ORGAN_DEFS[id];
+        const st = organState[id];
+        const isSel = selectedOrgan === id;
+        const isEnabled = !!conceptionComponentEnabled[id];
+        out += `
+          <div class="flex items-center gap-1.5">
+            <input
+              type="checkbox"
+              ${isEnabled ? 'checked' : ''}
+              onchange="toggleConceptionComponent('${id}', event)"
+              title="Show or hide ${def.name} on MyBodyImage1"
+              class="rounded text-[#CF366C] cursor-pointer shrink-0"
+            />
+            <button
+              type="button"
+              onclick="selectConceptionComponent('${id}', event)"
+              class="flex-1 flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold border transition text-left ${
+                isSel
+                  ? 'bg-pink-50 border-pink-500 text-pink-900 shadow-sm'
+                  : isEnabled
+                  ? 'border-[#F3C8DA] bg-[#FFF9FC] hover:bg-pink-50/50 text-[#2B2235]'
+                  : 'border-transparent bg-black/5 opacity-55 hover:opacity-85 text-[#6e5d78]'
+              }"
+            >
+              <span class="flex items-center gap-2 truncate">
+                <span class="w-3.5 h-3.5 rounded-full border border-black/40 shrink-0" style="background:${st.color}; opacity:${Math.min(1, st.opacity + 0.25)}"></span>
+                <span class="truncate">${def.name}</span>
+              </span>
+              <span class="text-[11px] opacity-70 ml-1">${isEnabled ? st.scaleX.toFixed(1) + 'x' : 'Off'}</span>
+            </button>
+          </div>
         `;
       }
       container.innerHTML = out;
@@ -2272,14 +2557,14 @@
         minAge: 20,
         maxAge: 25,
         buttons: [
-          { id: 'conception', label: 'Conception', preset: 'conception', bg: '#FFFFFF' },
-          { id: 'pregnancy_main', label: 'Pregnancy', preset: 'pregnancy', bg: '#FFFFFF' },
-          { id: 'first_trimester', label: '1st trimester', preset: 'first_trimester', bg: '#FFFFFF', arrow: true },
-          { id: 'second_trimester', label: '2nd trimester', preset: 'second_trimester', bg: '#FFFFFF', arrow: true },
-          { id: 'third_trimester', label: '3rd trimester', preset: 'third_trimester', bg: '#FFFFFF', arrow: true },
-          { id: 'actively_losing_pregnancy', label: 'Actively losing a pregnancy', preset: 'actively_losing_pregnancy', bg: '#FFE5EC' },
-          { id: 'pregnancy_loss', label: 'Pregnancy loss', preset: 'pregnancy_loss', bg: '#FFFFFF' },
-          { id: 'after_pregnancy_loss', label: 'After a pregnancy loss', preset: 'after_pregnancy_loss', bg: '#FFFFFF' }
+          { id: 'conception', label: 'Conception', preset: 'conception', bg: '#FFFFFF', bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'pregnancy_main', label: 'Pregnancy', preset: 'pregnancy', bg: '#FFFFFF', bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'first_trimester', label: '1st trimester', preset: 'first_trimester', bg: '#FFFFFF', arrow: true, bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'second_trimester', label: '2nd trimester', preset: 'second_trimester', bg: '#FFFFFF', arrow: true, bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'third_trimester', label: '3rd trimester', preset: 'third_trimester', bg: '#FFFFFF', arrow: true, bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'actively_losing_pregnancy', label: 'Actively losing a pregnancy', preset: 'actively_losing_pregnancy', bg: '#FFE5EC', bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'pregnancy_loss', label: 'Pregnancy loss', preset: 'pregnancy_loss', bg: '#FFFFFF', bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'after_pregnancy_loss', label: 'After a pregnancy loss', preset: 'after_pregnancy_loss', bg: '#FFFFFF', bubbleType: 'AddedBubbleButtonType1' }
         ]
       },
       {
@@ -2288,10 +2573,10 @@
         minAge: 25,
         maxAge: 30,
         buttons: [
-          { id: 'birth', label: 'Birth', preset: 'birth', bg: '#FFFFFF' },
-          { id: 'vaginal_birth', label: 'Vaginal', preset: 'vaginal_birth', bg: '#FFFFFF' },
-          { id: 'c_section', label: 'C-section', preset: 'c_section', bg: '#FFFFFF' },
-          { id: 'still_birth', label: 'Still birth', preset: 'still_birth', bg: '#FFFFFF' }
+          { id: 'birth', label: 'Birth', preset: 'birth', bg: '#FFFFFF', bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'vaginal_birth', label: 'Vaginal', preset: 'vaginal_birth', bg: '#FFFFFF', bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'c_section', label: 'C-section', preset: 'c_section', bg: '#FFFFFF', bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'still_birth', label: 'Still birth', preset: 'still_birth', bg: '#FFFFFF', bubbleType: 'AddedBubbleButtonType1' }
         ]
       },
       {
@@ -2300,8 +2585,8 @@
         minAge: 30,
         maxAge: 35,
         buttons: [
-          { id: 'second_pregnancy', label: '2nd pregnancy', preset: 'second_pregnancy', bg: '#FFFFFF' },
-          { id: 'pregnancy_after_loss', label: 'Pregnancy after loss', preset: 'pregnancy_after_loss', bg: '#FFFFFF' },
+          { id: 'second_pregnancy', label: '2nd pregnancy', preset: 'second_pregnancy', bg: '#FFFFFF', bubbleType: 'AddedBubbleButtonType1' },
+          { id: 'pregnancy_after_loss', label: 'Pregnancy after loss', preset: 'pregnancy_after_loss', bg: '#FFFFFF', bubbleType: 'AddedBubbleButtonType1' },
           { id: 'first_period_after_birth', label: 'First period after birth', preset: 'first_period_after_birth', bg: '#FFFFFF' }
         ]
       },

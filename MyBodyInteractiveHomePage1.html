@@ -532,6 +532,12 @@
         endometrium:     { scaleX: 0.92, scaleY: 0.92, morph: -68, dx: 0, dy: 0 },
         cervix:          { scaleX: 1.00, scaleY: 1.02, morph: -55, dx: 0, dy: 0 }
       },
+      conception: {
+        ovaries:         { scaleX: 1.12, scaleY: 1.12, morph: 70,  dx: 0, dy: 0 },
+        fallopian_tubes: { scaleX: 1.06, scaleY: 1.06, morph: 40,  dx: 0, dy: 0 },
+        endometrium:     { scaleX: 1.08, scaleY: 1.08, morph: 72,  dx: 0, dy: 0 },
+        cervix:          { scaleX: 1.04, scaleY: 1.00, morph: 45,  dx: 0, dy: 0 }
+      },
       first_trimester: {
         uterus:          { scaleX: 1.18, scaleY: 1.16, morph: 42,  dx: 0, dy: 4 },
         endometrium:     { scaleX: 1.16, scaleY: 1.15, morph: 72,  dx: 0, dy: 4 },
@@ -1483,6 +1489,7 @@
         minAge: 20,
         maxAge: 25,
         buttons: [
+          { id: 'conception', label: 'Conception', preset: 'conception', bg: '#FFFFFF' },
           { id: 'pregnancy_main', label: 'Pregnancy', preset: 'pregnancy', bg: '#FFFFFF' },
           { id: 'first_trimester', label: '1st trimester', preset: 'first_trimester', bg: '#FFFFFF', arrow: true },
           { id: 'second_trimester', label: '2nd trimester', preset: 'second_trimester', bg: '#FFFFFF', arrow: true },

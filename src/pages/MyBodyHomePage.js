@@ -1,5 +1,5 @@
 import React, { useRef } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=189';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=190';
 
 const h = React.createElement;
 
@@ -23,7 +23,7 @@ export default function MyBodyHomePage({
     'div',
     {
       id: 'MyBodyHomePageList1',
-      'data-piece-list': 'InteractiveTopSettings1,InteractiveAgeCarousel1,InteractiveAgeDial1,InteractiveAgeButtonsCarousel1,OrganButtons1,MyBodyImage1,MyBodySettings1',
+      'data-piece-list': 'InteractiveTopSettings1,InteractiveAgeCarousel1,InteractiveAgeDial1,InteractiveActiveBodyFilters1,InteractiveAgeButtonsCarousel1,OrganButtons1,MyBodyImage1,MyBodySettings1',
       className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden'
     },
     // Top Header Bar with Back Button + My Body Title
@@ -48,7 +48,7 @@ export default function MyBodyHomePage({
     // Embedded MyBodyInteractiveHomePage1.html
     h('iframe', {
       ref: iframeRef,
-      src: '/MyBodyInteractiveHomePage1.html?v=189',
+      src: '/MyBodyInteractiveHomePage1.html?v=190',
       title: tr('eduBtnMyBody', 'My Body'),
       className: 'flex-1 w-full h-full border-0',
       onLoad: () => {

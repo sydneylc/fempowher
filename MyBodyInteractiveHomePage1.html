@@ -301,103 +301,104 @@
   <script>
     // =========================================================================
     // ORGAN CATALOG & DEFAULT TRANSLUCENT HIGHLIGHTER CONFIGURATIONS
+    // Strictly harmonious palette of Reds, Pinks, Oranges & Yellows
     // =========================================================================
     const ORGAN_DEFS = {
       breasts: {
         name: "Breasts (Mound, Areola & Nipple)",
         color: "#FF9E7D",
         rimColor: "#FF758F",
-        opacity: 0.40,
+        opacity: 0.76,
         morphLabel: "Droop / Fullness",
-        desc: "Outer translucent breast mounds with central areola and nipple. Swells during pregnancy/lactation and gently softens/droops in menopause."
+        desc: "Soft cartoon breast mounds with central areola and nipple. Swells during pregnancy/lactation and gently softens/droops in menopause."
       },
       mammary_glands: {
         name: "Mammary Glands & Milk Ducts",
         color: "#FFB703",
         rimColor: "#FB8500",
-        opacity: 0.56,
+        opacity: 0.80,
         morphLabel: "Lobule Blossom / Wilt",
-        desc: "Radial milk-producing lobules and lactiferous ducts converging on the nipple. Blossoms in pregnancy/lactation and wilts/atrophies after menopause."
+        desc: "Soft puffy cartoon milk-producing lobules and ducts converging on the nipple. Blossoms in pregnancy/lactation and softens after menopause."
       },
       fallopian_tubes: {
         name: "Fallopian Tubes & Fimbriae",
-        color: "#B565F7",
-        rimColor: "#7209B7",
-        opacity: 0.50,
+        color: "#B81D5B",
+        rimColor: "#9A1148",
+        opacity: 0.84,
         morphLabel: "Lift / Wilt Droop",
-        desc: "Graceful uterine tubes extending from the uterine horns and ending in finger-like fimbriae that sweep the ovulated egg into the tube."
+        desc: "Raspberry dark-pink cartoon uterine tubes arching out from the uterus and curling around the ovaries with soft fimbriae fingers."
       },
       ovaries: {
         name: "Ovaries & Internal Follicles",
-        color: "#00F5D4",
-        rimColor: "#00BBF9",
-        opacity: 0.52,
+        color: "#F47C6A",
+        rimColor: "#E05A47",
+        opacity: 0.82,
         morphLabel: "Follicle Activity / Wilt",
-        desc: "Clear almond-shaped gonads containing translucent golden follicles at varying stages of maturation, anchored by the utero-ovarian ligaments."
+        desc: "Fluffy cloud-shaped cartoon ovaries containing warm golden-yellow follicles, anchored to the uterus by warm orange-gold ligaments."
       },
       uterus: {
         name: "Uterus (Myometrium & Fundus)",
-        color: "#FF5D8F",
-        rimColor: "#FF0055",
-        opacity: 0.44,
+        color: "#F06292",
+        rimColor: "#E0457B",
+        opacity: 0.82,
         morphLabel: "Fundus Dome Stretch",
-        desc: "Pear-shaped muscular outer organ (myometrium) that stretches dramatically during pregnancy and shrinks quietly in menopause."
+        desc: "Soft rose-pink cartoon pear-shaped muscular organ (myometrium) that stretches during pregnancy and shrinks gently in menopause."
       },
       endometrium: {
         name: "Endometrium (Uterine Lining)",
-        color: "#D90429",
-        rimColor: "#EF233C",
-        opacity: 0.56,
+        color: "#D61F3C",
+        rimColor: "#B0122B",
+        opacity: 0.84,
         morphLabel: "Lining Thickness / Shed",
-        desc: "Inner mucosal lining of the uterine cavity with scalloped waves. Thickens each cycle to nourish an embryo, sheds in menstruation, and thins in menopause."
+        desc: "Ruby-red inner cushion lining of the uterine cavity. Thickens each cycle, sheds in menstruation, and thins in menopause."
       },
       cervix: {
         name: "Cervix & Cervical Canal",
-        color: "#8338EC",
-        rimColor: "#5E60CE",
-        opacity: 0.50,
+        color: "#C42847",
+        rimColor: "#9E1933",
+        opacity: 0.82,
         morphLabel: "Canal Dilation / Firmness",
-        desc: "Lower neck of the uterus projecting into the upper vaginal vault (fornix), containing the spindle-shaped cervical canal and external os."
+        desc: "Warm cherry-red lower neck of the uterus with a soft rounded cervical canal and dimpled opening."
       },
       vaginal_canal: {
         name: "Vaginal Canal & Rugae",
-        color: "#FF9770",
-        rimColor: "#FF70A6",
-        opacity: 0.46,
+        color: "#E84A35",
+        rimColor: "#C93320",
+        opacity: 0.84,
         morphLabel: "Elasticity / Rugae Depth",
-        desc: "Translucent muscular fibromuscular canal with transverse mucosal folds (rugae) allowing remarkable elasticity and distension."
+        desc: "Warm coral-red cartoon cutaway muscular canal with scalloped inner walls and soft curved horizontal rugae bands."
       },
       clitoris: {
         name: "Clitoris (Glans, Hood & Bulbs)",
-        color: "#FEE440",
-        rimColor: "#F15BB5",
-        opacity: 0.72,
+        color: "#F59E0B",
+        rimColor: "#EA580C",
+        opacity: 0.86,
         morphLabel: "Engorgement / Sensitivity",
-        desc: "Front-facing glans clitoris crowned by the clitoral hood, plus its translucent wishbone-shaped internal crura and vestibular bulbs."
+        desc: "Warm golden-amber cartoon glans clitoris crowned by a soft hood and internal wishbone bulbs."
       },
       labia_majora: {
         name: "Outer Lips (Labia Majora)",
-        color: "#F77F00",
-        rimColor: "#FCBF49",
-        opacity: 0.46,
+        color: "#F46E42",
+        rimColor: "#D94E24",
+        opacity: 0.80,
         morphLabel: "Cushion Fullness / Wilt",
-        desc: "Clear front-facing outer vaginal lips framing and protecting the external vulva."
+        desc: "Soft puffy coral-orange cartoon outer vaginal lips framing and protecting the external vulva."
       },
       labia_minora: {
         name: "Inner Lips (Labia Minora)",
-        color: "#FF007F",
-        rimColor: "#FF5D8F",
-        opacity: 0.52,
+        color: "#E83865",
+        rimColor: "#C41E48",
+        opacity: 0.84,
         morphLabel: "Petal Flare / Thinning",
-        desc: "Delicate front-facing inner vaginal lips enclosing the vestibule between the clitoris and vaginal opening."
+        desc: "Soft wavy watermelon-pink cartoon inner vaginal lips enclosing the vestibule."
       },
       vaginal_opening: {
         name: "Vaginal Opening (Introitus)",
         color: "#9E0B28",
-        rimColor: "#FF4D6D",
-        opacity: 0.60,
+        rimColor: "#78051B",
+        opacity: 0.86,
         morphLabel: "Introitus Opening Width",
-        desc: "External front-view vaginal entrance within the vestibule leading directly into the vaginal canal."
+        desc: "Deep scarlet-red soft cartoon vaginal entrance leading into the vaginal canal."
       }
     };
 
@@ -736,28 +737,52 @@
     }
 
     // =========================================================================
-    // HELPER: RENDER TRANSLUCENT HIGHLIGHTER + LOOSE HAND-DRAWN DUAL OUTLINES
     // =========================================================================
+    // HELPER: BLEND ANY HEX COLOR WITH WHITE FOR ULTRA-LIGHT CARTOON INTERIOR
+    // & HIGHLIGHT THE BLACK OUTLINES WITH THE RICH ORGAN COLOR
+    // =========================================================================
+    function mixWithWhite(hex, whiteWeight = 0.85) {
+      if (!hex || typeof hex !== 'string') return '#FFF5F7';
+      let c = hex.trim().replace('#', '');
+      if (c.length === 3) {
+        c = c[0] + c[0] + c[1] + c[1] + c[2] + c[2];
+      }
+      const num = parseInt(c, 16);
+      if (isNaN(num)) return '#FFF5F7';
+      const r = (num >> 16) & 255;
+      const g = (num >> 8) & 255;
+      const b = num & 255;
+      const w = Math.max(0, Math.min(1, whiteWeight));
+      const nr = Math.round(r * (1 - w) + 255 * w);
+      const ng = Math.round(g * (1 - w) + 255 * w);
+      const nb = Math.round(b * (1 - w) + 255 * w);
+      return '#' + [nr, ng, nb].map(v => v.toString(16).padStart(2, '0')).join('');
+    }
+
     function highlighterGroup(organId, pathData, opts = {}) {
       const st = organState[organId];
       const def = ORGAN_DEFS[organId];
-      const fillCol = opts.fill || st.color;
-      const rimCol  = opts.rim  || def.rimColor;
+      const baseCol = opts.fill || st.color;
+      const rimCol  = opts.rim  || def.rimColor || baseCol;
       const inkCol  = opts.ink  || "#2B2235";
       const opacity = opts.opacity !== undefined ? opts.opacity : st.opacity;
-      const strokeW = opts.strokeW || 2.8;
-      const ox = opts.ox !== undefined ? opts.ox : 2.2;
-      const oy = opts.oy !== undefined ? opts.oy : -1.8;
+      const strokeW = opts.strokeW || 3.0;
+      const ox = opts.ox !== undefined ? opts.ox : 1.6;
+      const oy = opts.oy !== undefined ? opts.oy : -1.2;
+      const whiteMix = opts.whiteMix !== undefined ? opts.whiteMix : 0.85;
+      const lightInsideCol = mixWithWhite(baseCol, whiteMix);
 
       return `
-        <!-- 1. Offset Translucent Highlighter Marker Fill -->
-        <path d="${pathData}" fill="${fillCol}" fill-opacity="${opacity.toFixed(2)}" transform="translate(${ox}, ${oy})" style="mix-blend-mode: multiply;" />
-        <!-- 2. Juicy Highlighter Rim Accent -->
-        <path d="${pathData}" fill="none" stroke="${rimCol}" stroke-width="${(strokeW * 2.8).toFixed(1)}" stroke-opacity="${(opacity * 0.58).toFixed(2)}" stroke-linecap="round" stroke-linejoin="round" transform="translate(${(ox*0.45).toFixed(1)}, ${(oy*0.45).toFixed(1)})" />
-        <!-- 3. Primary Loose Hand-Drawn Charcoal-Plum Outline -->
-        <path d="${pathData}" fill="none" stroke="${inkCol}" stroke-width="${strokeW}" stroke-opacity="0.86" stroke-linecap="round" stroke-linejoin="round" filter="url(#loose-pencil)" />
-        <!-- 4. Secondary Loose Sketch Pass -->
-        <path d="${pathData}" fill="none" stroke="${inkCol}" stroke-width="${(strokeW * 0.58).toFixed(2)}" stroke-opacity="0.45" stroke-linecap="round" stroke-linejoin="round" transform="translate(${(-ox*0.65).toFixed(1)}, ${(oy*0.65).toFixed(1)})" />
+        <!-- 1. Much Lighter (Almost-White) Interior Fill of the Same Color -->
+        <path d="${pathData}" fill="${lightInsideCol}" fill-opacity="0.96" />
+        <!-- 2. Soft Offset Pastel Wash -->
+        <path d="${pathData}" fill="${baseCol}" fill-opacity="${(opacity * 0.16).toFixed(2)}" transform="translate(${ox}, ${oy})" />
+        <!-- 3. Colored Highlighter Band Highlighting the Black Outline -->
+        <path d="${pathData}" fill="none" stroke="${baseCol}" stroke-width="${(strokeW * 4.2).toFixed(1)}" stroke-opacity="${Math.min(0.88, opacity * 0.78).toFixed(2)}" stroke-linecap="round" stroke-linejoin="round" transform="translate(${(ox * 0.4).toFixed(1)}, ${(oy * 0.4).toFixed(1)})" />
+        <!-- 4. Deeper Rim Highlighter Accent Along Outline -->
+        <path d="${pathData}" fill="none" stroke="${rimCol}" stroke-width="${(strokeW * 2.3).toFixed(1)}" stroke-opacity="${Math.min(0.82, opacity * 0.56).toFixed(2)}" stroke-linecap="round" stroke-linejoin="round" />
+        <!-- 5. Soft Cartoon Dark Charcoal-Black Outline -->
+        <path d="${pathData}" fill="none" stroke="${inkCol}" stroke-width="${(strokeW * 1.15).toFixed(1)}" stroke-opacity="0.92" stroke-linecap="round" stroke-linejoin="round" filter="url(#loose-pencil)" />
       `;
     }
 
@@ -766,8 +791,31 @@
       return `translate(${st.dx.toFixed(1)}, ${st.dy.toFixed(1)}) translate(${pivotX}, ${pivotY}) rotate(${st.rot.toFixed(1)}) scale(${st.scaleX.toFixed(3)}, ${st.scaleY.toFixed(3)}) translate(${-pivotX}, ${-pivotY})`;
     }
 
+    // Helper: generate a soft, puffy, bumpy cloud/berry path for cartoon ovaries & lobules
+    function buildCartoonCloudPath(cx, cy, rx, ry, numBumps = 7, bumpDepth = 0.18, phaseOffset = 0) {
+      let d = '';
+      for (let i = 0; i < numBumps; i++) {
+        const a0 = (i * 2 * Math.PI / numBumps) + phaseOffset;
+        const a1 = ((i + 1) * 2 * Math.PI / numBumps) + phaseOffset;
+        const aMid = (a0 + a1) * 0.5;
+        const rIn = 1.0 - bumpDepth * 0.35;
+        const rOut = 1.0 + bumpDepth * (i % 2 === 0 ? 1.15 : 0.85);
+        const x0 = cx + Math.cos(a0) * rx * rIn;
+        const y0 = cy + Math.sin(a0) * ry * rIn;
+        const x1 = cx + Math.cos(a1) * rx * rIn;
+        const y1 = cy + Math.sin(a1) * ry * rIn;
+        const ctrlX = cx + Math.cos(aMid) * rx * rOut;
+        const ctrlY = cy + Math.sin(aMid) * ry * rOut;
+        if (i === 0) {
+          d += `M ${x0.toFixed(1)} ${y0.toFixed(1)} `;
+        }
+        d += `Q ${ctrlX.toFixed(1)} ${ctrlY.toFixed(1)} ${x1.toFixed(1)} ${y1.toFixed(1)} `;
+      }
+      return d + 'Z';
+    }
+
     // =========================================================================
-    // MAIN PROCEDURAL SVG ANATOMY GENERATOR
+    // MAIN PROCEDURAL CARTOON SVG ANATOMY GENERATOR
     // =========================================================================
     function renderAnatomy() {
       const svg = document.getElementById('anatomy-svg');
@@ -775,266 +823,302 @@
 
       // Dynamic interdependence: when Uterus stretches, tubes/ovaries naturally follow its horns!
       const utSt = organState.uterus;
-      const utTopY = -58 - (utSt.scaleY - 1.0) * 65 - (utSt.morph / 100) * 18;
-      const utHalfW = 78 * utSt.scaleX;
-      const utBotY = 120;
-      const cervixW = 32 * organState.cervix.scaleX;
-      const cervTopY = utBotY - 12;
-      const cervBotY = utBotY + 52 * organState.cervix.scaleY;
+      const utTopY = -62 - (utSt.scaleY - 1.0) * 65 - (utSt.morph / 100) * 18;
+      const utHalfW = 84 * utSt.scaleX;
+      const utBotY = 118;
+      const cervixW = 36 * organState.cervix.scaleX;
+      const cervTopY = utBotY - 14;
+      const cervBotY = utBotY + 50 * organState.cervix.scaleY;
 
       let html = `
         <defs>
-          <!-- Subtle organic hand-drawn line wobble filter -->
+          <!-- Soft organic cartoon line filter -->
           <filter id="loose-pencil" x="-8%" y="-8%" width="116%" height="116%">
-            <feTurbulence type="fractalNoise" baseFrequency="0.025" numOctaves="2" result="noise" seed="7" />
-            <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.65" xChannelSelector="R" yChannelSelector="G" />
+            <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" result="noise" seed="7" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.15" xChannelSelector="R" yChannelSelector="G" />
           </filter>
         </defs>
       `;
 
       // -----------------------------------------------------------------------
-      // 1. BREASTS (OUTER MOUND, AREOLA & NIPPLE) - BUTTON: 'breasts'
+      // 1. BREASTS / TEATS (SOFT CARTOON MOUNDS, AREOLA & NIPPLE) - BUTTON: 'breasts'
+      // Same warm peach/apricot color palette, softer cartoon silhouette + shine!
       // -----------------------------------------------------------------------
       const bSt = organState.breasts;
-      const bDroop = -(bSt.morph / 100) * 18; // negative morph = droop down in SVG (+Y is down)
+      const bDroop = -(bSt.morph / 100) * 18;
       const breastY = -315 + bDroop;
       let breastsMarkup = '';
       for (const side of [-1, 1]) {
-        const bx = side * 145;
+        const bx = side * 146;
         const by = breastY;
-        const br = 92;
+        const br = 94;
+        // Soft, plump cartoon teardrop-round breast mound
         const moundPath = `
-          M ${bx} ${by - br * 0.98}
-          C ${bx + side * br * 0.62} ${by - br * 1.02}, ${bx + side * br * 1.08} ${by - br * 0.52}, ${bx + side * br * 1.02} ${by + br * 0.08}
-          C ${bx + side * br * 0.96} ${by + br * 0.68}, ${bx + side * br * 0.52} ${by + br * 1.02}, ${bx} ${by + br * 1.02}
-          C ${bx - side * br * 0.55} ${by + br * 1.02}, ${bx - side * br * 0.98} ${by + br * 0.58}, ${bx - side * br * 0.98} ${by}
-          C ${bx - side * br * 0.98} ${by - br * 0.58}, ${bx - side * br * 0.55} ${by - br * 0.98}, ${bx} ${by - br * 0.98} Z
+          M ${bx} ${by - br * 0.94}
+          C ${bx + side * br * 0.72} ${by - br * 0.96}, ${bx + side * br * 1.14} ${by - br * 0.35}, ${bx + side * br * 1.06} ${by + br * 0.18}
+          C ${bx + side * br * 0.98} ${by + br * 0.76}, ${bx + side * br * 0.52} ${by + br * 1.08}, ${bx} ${by + br * 1.06}
+          C ${bx - side * br * 0.54} ${by + br * 1.04}, ${bx - side * br * 0.96} ${by + br * 0.62}, ${bx - side * br * 0.94} ${by + br * 0.04}
+          C ${bx - side * br * 0.92} ${by - br * 0.54}, ${bx - side * br * 0.52} ${by - br * 0.92}, ${bx} ${by - br * 0.94} Z
         `;
-        const creasePath = `M ${bx - br * 0.82} ${by + br * 0.56} Q ${bx} ${by + br * 1.18} ${bx + br * 0.82} ${by + br * 0.56}`;
-        breastsMarkup += highlighterGroup('breasts', moundPath, { ox: side * 2.2, oy: 1.8 });
-        breastsMarkup += `<path d="${creasePath}" fill="none" stroke="#2B2235" stroke-width="2.6" stroke-linecap="round" filter="url(#loose-pencil)" />`;
+        // Cartoon under-curve smile crease
+        const creasePath = `M ${bx - br * 0.76} ${by + br * 0.64} Q ${bx} ${by + br * 1.22} ${bx + br * 0.76} ${by + br * 0.64}`;
+        // Glossy white cartoon shine arc on upper breast curve
+        const shinePath = `M ${bx - side * br * 0.38} ${by - br * 0.68} Q ${bx + side * br * 0.15} ${by - br * 0.84} ${bx + side * br * 0.54} ${by - br * 0.48}`;
+        breastsMarkup += highlighterGroup('breasts', moundPath, { ox: side * 2.0, oy: 1.6, strokeW: 3.1, whiteMix: 0.84 });
+        breastsMarkup += `<path d="${creasePath}" fill="none" stroke="#2B2235" stroke-width="3.0" stroke-linecap="round" filter="url(#loose-pencil)" />`;
+        breastsMarkup += `<path d="${shinePath}" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-opacity="0.90" />`;
       }
       html += `<g class="organ-btn ${selectedOrgan === 'breasts' ? 'selected-organ' : ''}" data-organ="breasts" onclick="selectOrgan('breasts', event)" transform="${organTransformAttr('breasts', 0, breastY)}">${breastsMarkup}</g>`;
 
       // -----------------------------------------------------------------------
-      // 2. MAMMARY GLANDS & MILK DUCTS - BUTTON: 'mammary_glands'
+      // 2. MAMMARY GLANDS & MILK DUCTS (PUFFY CARTOON CLOUD LOBULES) - BUTTON: 'mammary_glands'
+      // Same warm golden-amber palette, soft cloud-like cartoon clusters!
       // -----------------------------------------------------------------------
       const mSt = organState.mammary_glands;
-      const lobFactor = Math.max(0.45, 1.0 + (mSt.morph / 100) * 0.38);
+      const lobFactor = Math.max(0.55, 1.0 + (mSt.morph / 100) * 0.35);
       let mammaryMarkup = '';
       for (const side of [-1, 1]) {
-        const bx = side * 145 + organState.breasts.dx;
-        const by = breastY + organState.breasts.dy;
-        const numLobes = 12;
-        for (let i = 0; i < numLobes; i++) {
-          const ang = (i * 2 * Math.PI / numLobes) + 0.12 * side;
-          const innerR = 17;
-          const stalkR = 36;
-          const wideR  = 56 * (0.78 + 0.22 * lobFactor);
-          const tipR   = (75 + (i % 2) * 6) * (0.75 + 0.25 * lobFactor);
-          const stalkAng = 0.042 * lobFactor;
-          const lobeAng  = 0.142 * lobFactor;
+        const bx = side * 146 + organState.breasts.dx;
+        const by = breastY + 6 + organState.breasts.dy;
+        const numClusters = 8;
+        for (let i = 0; i < numClusters; i++) {
+          const ang = (i * 2 * Math.PI / numClusters) + 0.22 * side;
+          const dist = 54 * (0.82 + 0.18 * lobFactor);
+          const cx = bx + Math.cos(ang) * dist;
+          const cy = by + Math.sin(ang) * dist;
+          const rx = 21 * (0.80 + 0.22 * lobFactor);
+          const ry = 17 * (0.80 + 0.22 * lobFactor);
 
-          const x0 = bx + Math.cos(ang) * innerR;
-          const y0 = by + Math.sin(ang) * innerR;
-          const xStalkL = bx + Math.cos(ang - stalkAng) * stalkR;
-          const yStalkL = by + Math.sin(ang - stalkAng) * stalkR;
-          const xWideL  = bx + Math.cos(ang - lobeAng) * wideR;
-          const yWideL  = by + Math.sin(ang - lobeAng) * wideR;
-          const xTip    = bx + Math.cos(ang) * tipR;
-          const yTip    = by + Math.sin(ang) * tipR;
-          const xWideR  = bx + Math.cos(ang + lobeAng) * wideR;
-          const yWideR  = by + Math.sin(ang + lobeAng) * wideR;
-          const xStalkR = bx + Math.cos(ang + stalkAng) * stalkR;
-          const yStalkR = by + Math.sin(ang + stalkAng) * stalkR;
+          // Soft curved milk duct stem connecting cluster to nipple
+          const stemX0 = bx + Math.cos(ang) * 16;
+          const stemY0 = by + Math.sin(ang) * 16;
+          const stemX1 = bx + Math.cos(ang) * (dist - rx * 0.55);
+          const stemY1 = by + Math.sin(ang) * (dist - ry * 0.55);
+          mammaryMarkup += `<path d="M ${stemX0.toFixed(1)} ${stemY0.toFixed(1)} Q ${(stemX0 + stemX1) * 0.5 + 4} ${(stemY0 + stemY1) * 0.5 - 3} ${stemX1.toFixed(1)} ${stemY1.toFixed(1)}" fill="none" stroke="#FB8500" stroke-width="4.5" stroke-opacity="0.55" stroke-linecap="round" />`;
+          mammaryMarkup += `<path d="M ${stemX0.toFixed(1)} ${stemY0.toFixed(1)} Q ${(stemX0 + stemX1) * 0.5 + 4} ${(stemY0 + stemY1) * 0.5 - 3} ${stemX1.toFixed(1)} ${stemY1.toFixed(1)}" fill="none" stroke="#2B2235" stroke-width="2.0" stroke-linecap="round" />`;
 
-          const ctrlL_X = bx + Math.cos(ang - lobeAng * 0.45) * ((wideR + tipR) * 0.52);
-          const ctrlL_Y = by + Math.sin(ang - lobeAng * 0.45) * ((wideR + tipR) * 0.52);
-          const ctrlR_X = bx + Math.cos(ang + lobeAng * 0.45) * ((wideR + tipR) * 0.52);
-          const ctrlR_Y = by + Math.sin(ang + lobeAng * 0.45) * ((wideR + tipR) * 0.52);
-
-          const lobePath = `
-            M ${x0.toFixed(1)} ${y0.toFixed(1)}
-            Q ${xStalkL.toFixed(1)} ${yStalkL.toFixed(1)} ${xWideL.toFixed(1)} ${yWideL.toFixed(1)}
-            Q ${ctrlL_X.toFixed(1)} ${ctrlL_Y.toFixed(1)} ${xTip.toFixed(1)} ${yTip.toFixed(1)}
-            Q ${ctrlR_X.toFixed(1)} ${ctrlR_Y.toFixed(1)} ${xWideR.toFixed(1)} ${yWideR.toFixed(1)}
-            Q ${xStalkR.toFixed(1)} ${yStalkR.toFixed(1)} ${x0.toFixed(1)} ${y0.toFixed(1)} Z
-          `;
-          mammaryMarkup += highlighterGroup('mammary_glands', lobePath, { strokeW: 1.7, ox: 1.2, oy: 1.2 });
+          // Puffy 5-bump cartoon cloud lobule cluster
+          const cloudLobule = buildCartoonCloudPath(cx, cy, rx, ry, 5, 0.20, ang);
+          mammaryMarkup += highlighterGroup('mammary_glands', cloudLobule, { strokeW: 2.1, ox: 1.0, oy: 1.0, whiteMix: 0.82 });
         }
-        // Central Areola & Nipple rendered over inner duct tips
-        const areolaPath = `M ${bx - 22} ${by} a 22 20 0 1 0 44 0 a 22 20 0 1 0 -44 0`;
-        const nipplePath = `M ${bx - 10.5} ${by} a 10.5 9.5 0 1 0 21 0 a 10.5 9.5 0 1 0 -21 0`;
-        mammaryMarkup += highlighterGroup('breasts', areolaPath, { fill: '#C95B63', rim: '#9E2A2B', opacity: 0.62, strokeW: 2.2 });
-        mammaryMarkup += highlighterGroup('breasts', nipplePath, { fill: '#F28482', rim: '#B5485D', opacity: 0.80, strokeW: 2.0 });
+        // Soft cartoon Areola & Button Nipple rendered over inner duct tips
+        const areolaPath = buildCartoonCloudPath(bx, by, 25, 22, 8, 0.06, 0.2);
+        const nipplePath = `
+          M ${bx - 11} ${by + 2}
+          C ${bx - 12} ${by - 10}, ${bx + 12} ${by - 10}, ${bx + 11} ${by + 2}
+          C ${bx + 10} ${by + 10}, ${bx - 10} ${by + 10}, ${bx - 11} ${by + 2} Z
+        `;
+        mammaryMarkup += highlighterGroup('breasts', areolaPath, { fill: '#D96B70', rim: '#B5485D', opacity: 0.78, strokeW: 2.4, whiteMix: 0.72 });
+        mammaryMarkup += highlighterGroup('breasts', nipplePath, { fill: '#E85D75', rim: '#9E2A2B', opacity: 0.88, strokeW: 2.4, whiteMix: 0.62 });
+        mammaryMarkup += `<circle cx="${bx - 3.5}" cy="${by - 2.5}" r="2.6" fill="#FFFFFF" fill-opacity="0.90" />`;
       }
       html += `<g class="organ-btn ${selectedOrgan === 'mammary_glands' ? 'selected-organ' : ''}" data-organ="mammary_glands" onclick="selectOrgan('mammary_glands', event)" transform="${organTransformAttr('mammary_glands', 0, breastY)}">${mammaryMarkup}</g>`;
 
       // -----------------------------------------------------------------------
-      // 3. VAGINAL CANAL & RUGAE - BUTTON: 'vaginal_canal'
+      // 3. VAGINAL CANAL & RUGAE (CARTOON CUTAWAY CANAL) - BUTTON: 'vaginal_canal'
+      // Matches the lower cutaway canal in the reference & red/coral markup!
       // -----------------------------------------------------------------------
       const vSt = organState.vaginal_canal;
-      const vagTopY = cervTopY + 14;
-      const vagBotY = 302;
-      const vagW = 42 * (1.0 + (vSt.morph / 100) * 0.16);
+      const vagTopY = cervTopY + 12;
+      const vagBotY = 298;
+      const vagW = 44 * (1.0 + (vSt.morph / 100) * 0.16);
+      // Cartoon cutaway outer silhouette with two cute rounded bottom tips
       const vagPath = `
-        M ${-cervixW * 0.92} ${vagTopY + 6}
-        Q ${-vagW * 1.05} ${vagTopY - 12} ${-vagW} ${vagTopY + 18}
-        C ${-vagW * 1.12} ${(vagTopY + vagBotY) * 0.45}, ${-vagW * 0.90} ${(vagTopY + vagBotY) * 0.78}, ${-vagW * 0.72} ${vagBotY}
-        Q 0 ${vagBotY + 14} ${vagW * 0.72} ${vagBotY}
-        C ${vagW * 0.90} ${(vagTopY + vagBotY) * 0.78}, ${vagW * 1.12} ${(vagTopY + vagBotY) * 0.45}, ${vagW} ${vagTopY + 18}
-        Q ${vagW * 1.05} ${vagTopY - 12} ${cervixW * 0.92} ${vagTopY + 6} Z
+        M ${-cervixW * 0.96} ${vagTopY + 4}
+        C ${-vagW * 1.08} ${vagTopY + 26}, ${-vagW * 1.06} ${(vagTopY + vagBotY) * 0.55}, ${-vagW * 0.94} ${vagBotY - 12}
+        Q ${-vagW * 0.88} ${vagBotY + 14} ${-vagW * 0.56} ${vagBotY + 8}
+        Q ${-vagW * 0.42} ${vagBotY - 6} 0 ${vagBotY - 6}
+        Q ${vagW * 0.42} ${vagBotY - 6} ${vagW * 0.56} ${vagBotY + 8}
+        Q ${vagW * 0.88} ${vagBotY + 14} ${vagW * 0.94} ${vagBotY - 12}
+        C ${vagW * 1.06} ${(vagTopY + vagBotY) * 0.55}, ${vagW * 1.08} ${vagTopY + 26}, ${cervixW * 0.96} ${vagTopY + 4} Z
       `;
-      let vagMarkup = highlighterGroup('vaginal_canal', vagPath, { strokeW: 2.8 });
-      // Transverse vaginal rugae folds
-      for (let r = 0; r < 6; r++) {
-        const ry = cervBotY + 16 + r * 18.5;
-        const rw = vagW * 0.64;
-        const wave = (r % 2 === 0 ? -5.5 : 5.5) * (1.0 + (vSt.morph / 100) * 0.35);
-        vagMarkup += `<path d="M ${-rw} ${ry} Q 0 ${ry + wave} ${rw} ${ry}" fill="none" stroke="#D94E30" stroke-opacity="0.55" stroke-width="2.3" stroke-linecap="round" filter="url(#loose-pencil)" />`;
+      let vagMarkup = highlighterGroup('vaginal_canal', vagPath, { strokeW: 3.1, whiteMix: 0.85 });
+
+      // Inner scalloped cartoon canal recess + curved horizontal rugae bands (just like the reference image!)
+      const innerCanalTopY = cervBotY + 4;
+      const innerCanalBotY = vagBotY - 8;
+      const innerW = vagW * 0.54;
+      let innerRecessPath = `M ${-innerW} ${innerCanalTopY} Q 0 ${innerCanalTopY + 8} ${innerW} ${innerCanalTopY}`;
+      const numRugs = 5;
+      for (let r = 0; r < numRugs; r++) {
+        const y0 = innerCanalTopY + (r / numRugs) * (innerCanalBotY - innerCanalTopY);
+        const y1 = innerCanalTopY + ((r + 1) / numRugs) * (innerCanalBotY - innerCanalTopY);
+        const ym = (y0 + y1) * 0.5;
+        innerRecessPath += ` Q ${innerW + 6} ${ym} ${innerW} ${y1}`;
+      }
+      innerRecessPath += ` Q 0 ${innerCanalBotY - 8} ${-innerW} ${innerCanalBotY}`;
+      for (let r = numRugs - 1; r >= 0; r--) {
+        const y0 = innerCanalTopY + (r / numRugs) * (innerCanalBotY - innerCanalTopY);
+        const y1 = innerCanalTopY + ((r + 1) / numRugs) * (innerCanalBotY - innerCanalTopY);
+        const ym = (y0 + y1) * 0.5;
+        innerRecessPath += ` Q ${-innerW - 6} ${ym} ${-innerW} ${y0}`;
+      }
+      innerRecessPath += ' Z';
+      vagMarkup += highlighterGroup('vaginal_canal', innerRecessPath, { fill: '#D93829', rim: '#9E1933', strokeW: 2.5, whiteMix: 0.78 });
+
+      // Soft curved horizontal cartoon rugae bands inside the canal
+      for (let r = 1; r <= 4; r++) {
+        const ry = innerCanalTopY + (r / 5) * (innerCanalBotY - innerCanalTopY);
+        const rw = innerW * 0.92;
+        const arch = -6 * (1.0 + (vSt.morph / 100) * 0.25);
+        vagMarkup += `<path d="M ${-rw.toFixed(1)} ${ry.toFixed(1)} Q 0 ${(ry + arch).toFixed(1)} ${rw.toFixed(1)} ${ry.toFixed(1)}" fill="none" stroke="#C93320" stroke-opacity="0.55" stroke-width="5.5" stroke-linecap="round" />`;
+        vagMarkup += `<path d="M ${-rw.toFixed(1)} ${ry.toFixed(1)} Q 0 ${(ry + arch).toFixed(1)} ${rw.toFixed(1)} ${ry.toFixed(1)}" fill="none" stroke="#2B2235" stroke-width="2.5" stroke-linecap="round" />`;
       }
       html += `<g class="organ-btn ${selectedOrgan === 'vaginal_canal' ? 'selected-organ' : ''}" data-organ="vaginal_canal" onclick="selectOrgan('vaginal_canal', event)" transform="${organTransformAttr('vaginal_canal', 0, (vagTopY + vagBotY) * 0.5)}">${vagMarkup}</g>`;
 
       // -----------------------------------------------------------------------
-      // 4. FALLOPIAN TUBES & FIMBRIAE - BUTTON: 'fallopian_tubes'
+      // 4. FALLOPIAN TUBES & FIMBRIAE (CARTOON C-ARCH & SOFT FINGERS) - BUTTON: 'fallopian_tubes'
+      // Same general pink family as uterus, but much more RASPBERRY DARK PINK!
+      // Arching out and curling down/inward to hug the cartoon ovaries!
       // -----------------------------------------------------------------------
       const tSt = organState.fallopian_tubes;
-      const tubeDroop = -(tSt.morph / 100) * 32; // positive morph lifts, negative morph wilts/droops (+Y in SVG)
+      const tubeDroop = -(tSt.morph / 100) * 28;
       let tubesMarkup = '';
       for (const side of [-1, 1]) {
-        const startX = side * (utHalfW * 0.85) + utSt.dx;
-        const startY = utTopY + 14 + utSt.dy;
-        const archX = side * (utHalfW + 78) + utSt.dx;
-        const archY = startY - 36 + tubeDroop * 0.5;
-        const endX = side * (utHalfW + 128) + utSt.dx;
-        const endY = startY + 36 + tubeDroop;
+        const startX = side * (utHalfW * 0.82) + utSt.dx;
+        const startY = utTopY + 12 + utSt.dy;
+        const ovX = side * (utHalfW + 102) + utSt.dx;
+        const ovY = utTopY + 78 + tubeDroop + utSt.dy;
 
-        let fimbriaeSegs = '';
-        const numFim = 6;
-        for (let f = 0; f < numFim; f++) {
-          const t = f / (numFim - 1);
-          const baseAng = (side === 1) ? (0.25 + t * 1.65) : (Math.PI - 0.25 - t * 1.65);
-          const petalLen = 24 + (f % 2) * 8;
-          const tipX = endX + Math.cos(baseAng) * petalLen;
-          const tipY = endY + 10 + Math.sin(baseAng) * petalLen;
-          const valleyAng = baseAng + (side === 1 ? 0.14 : -0.14);
-          const valX = endX + Math.cos(valleyAng) * (petalLen * 0.45);
-          const valY = endY + 10 + Math.sin(valleyAng) * (petalLen * 0.45);
-          fimbriaeSegs += ` Q ${tipX.toFixed(1)} ${tipY.toFixed(1)} ${valX.toFixed(1)} ${valY.toFixed(1)}`;
-        }
+        // Outer & inner C-curve control points so the tube arches high & curls around the outer ovary
+        const peakX = side * (utHalfW + 92) + utSt.dx;
+        const peakY = utTopY - 38 + tubeDroop * 0.4 + utSt.dy;
+        const outerCurveX = side * (utHalfW + 178) + utSt.dx;
+        const outerCurveY = utTopY + 18 + tubeDroop * 0.8 + utSt.dy;
+        const fimBaseX = ovX + side * 34;
+        const fimBaseY = ovY - 6;
+
+        // Plump cartoon tube with 4 soft rounded fimbriae fingers hugging the ovary
+        const f1TipX = ovX + side * 48, f1TipY = ovY + 22;
+        const f2TipX = ovX + side * 30, f2TipY = ovY + 18;
+        const f3TipX = ovX + side * 14, f3TipY = ovY + 4;
+        const f4TipX = ovX + side * 4,  f4TipY = ovY - 14;
 
         const tubePath = `
-          M ${startX.toFixed(1)} ${(startY - 11).toFixed(1)}
-          C ${(startX + side * 42).toFixed(1)} ${(archY - 26).toFixed(1)}, ${(archX + side * 38).toFixed(1)} ${(archY - 20).toFixed(1)}, ${(endX + side * 20).toFixed(1)} ${(endY - 10).toFixed(1)}
-          ${fimbriaeSegs}
-          C ${(archX + side * 14).toFixed(1)} ${(archY + 6).toFixed(1)}, ${(startX + side * 35).toFixed(1)} ${(archY + 4).toFixed(1)}, ${startX.toFixed(1)} ${(startY + 9).toFixed(1)} Z
+          M ${startX.toFixed(1)} ${(startY - 14).toFixed(1)}
+          C ${(startX + side * 38).toFixed(1)} ${(peakY - 14).toFixed(1)}, ${(peakX + side * 42).toFixed(1)} ${(peakY - 16).toFixed(1)}, ${(outerCurveX - side * 8).toFixed(1)} ${(outerCurveY - 22).toFixed(1)}
+          C ${(outerCurveX + side * 14).toFixed(1)} ${(outerCurveY + 12).toFixed(1)}, ${(fimBaseX + side * 24).toFixed(1)} ${(fimBaseY - 4).toFixed(1)}, ${(fimBaseX + side * 16).toFixed(1)} ${(fimBaseY + 12).toFixed(1)}
+          Q ${(f1TipX + side * 6).toFixed(1)} ${(f1TipY + 8).toFixed(1)} ${(fimBaseX + side * 4).toFixed(1)} ${(fimBaseY + 16).toFixed(1)}
+          Q ${f2TipX.toFixed(1)} ${(f2TipY + 14).toFixed(1)} ${(fimBaseX - side * 8).toFixed(1)} ${(fimBaseY + 8).toFixed(1)}
+          Q ${f3TipX.toFixed(1)} ${(f3TipY + 12).toFixed(1)} ${(fimBaseX - side * 16).toFixed(1)} ${(fimBaseY - 2).toFixed(1)}
+          Q ${(f4TipX - side * 8).toFixed(1)} ${(f4TipY - 4).toFixed(1)} ${(fimBaseX - side * 14).toFixed(1)} ${(fimBaseY - 18).toFixed(1)}
+          C ${(outerCurveX - side * 22).toFixed(1)} ${(outerCurveY + 2).toFixed(1)}, ${(peakX + side * 16).toFixed(1)} ${(peakY + 12).toFixed(1)}, ${(startX + side * 28).toFixed(1)} ${(startY + 4).toFixed(1)}
+          Q ${(startX + side * 12).toFixed(1)} ${(startY + 10).toFixed(1)} ${startX.toFixed(1)} ${(startY + 14).toFixed(1)} Z
         `;
-        tubesMarkup += highlighterGroup('fallopian_tubes', tubePath, { strokeW: 2.7 });
-        // Inner tubal lumen line
-        const lumenPath = `M ${startX} ${startY - 1} C ${startX + side * 38} ${archY - 11}, ${archX + side * 26} ${archY - 7}, ${endX + side * 4} ${endY + 4}`;
-        tubesMarkup += `<path d="${lumenPath}" fill="none" stroke="#560BAD" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="5,4" stroke-linecap="round" />`;
+        tubesMarkup += highlighterGroup('fallopian_tubes', tubePath, { strokeW: 3.1, whiteMix: 0.82 });
+
+        // Glossy white cartoon shine arc on top of each Fallopian tube arch (matching reference image!)
+        const tubeShinePath = `
+          M ${(startX + side * 42).toFixed(1)} ${(peakY - 2).toFixed(1)}
+          Q ${(peakX + side * 8).toFixed(1)} ${(peakY - 14).toFixed(1)} ${(peakX + side * 44).toFixed(1)} ${(peakY - 1).toFixed(1)}
+        `;
+        tubesMarkup += `<path d="${tubeShinePath}" fill="none" stroke="#FFFFFF" stroke-width="5.2" stroke-linecap="round" stroke-opacity="0.92" />`;
       }
       html += `<g class="organ-btn ${selectedOrgan === 'fallopian_tubes' ? 'selected-organ' : ''}" data-organ="fallopian_tubes" onclick="selectOrgan('fallopian_tubes', event)" transform="${organTransformAttr('fallopian_tubes', 0, utTopY)}">${tubesMarkup}</g>`;
 
       // -----------------------------------------------------------------------
-      // 5. OVARIES & INTERNAL FOLLICLES - BUTTON: 'ovaries'
+      // 5. OVARIES & INTERNAL FOLLICLES (FLUFFY CARTOON CLOUDS) - BUTTON: 'ovaries'
+      // Scalloped puffy cloud shape + warm golden-orange double-lined ligament!
       // -----------------------------------------------------------------------
       const oSt = organState.ovaries;
       const isWiltedOvary = oSt.morph < -45;
       let ovariesMarkup = '';
       for (const side of [-1, 1]) {
-        const ovX = side * (utHalfW + 104) + utSt.dx;
-        const ovY = utTopY + 76 + tubeDroop + utSt.dy;
-        const ovW = 46;
-        const ovH = 31 * (1.0 + (oSt.morph / 100) * 0.22);
+        const ovX = side * (utHalfW + 102) + utSt.dx;
+        const ovY = utTopY + 78 + tubeDroop + utSt.dy;
+        const ovW = 46 * (isWiltedOvary ? 0.84 : 1.0);
+        const ovH = 34 * (1.0 + (oSt.morph / 100) * 0.22);
 
-        // Utero-ovarian ligament
-        const ligStartX = side * (utHalfW * 0.80) + utSt.dx;
-        const ligStartY = utTopY + 38 + utSt.dy;
-        const ligPath = `M ${ligStartX} ${ligStartY} Q ${(ligStartX + ovX) * 0.5} ${ovY - 14} ${ovX - side * ovW * 0.78} ${ovY - 4}`;
-        ovariesMarkup += `<path d="${ligPath}" fill="none" stroke="#00B4D8" stroke-opacity="0.52" stroke-width="8.5" stroke-linecap="round" />`;
-        ovariesMarkup += `<path d="${ligPath}" fill="none" stroke="#2B2235" stroke-width="2.2" stroke-linecap="round" filter="url(#loose-pencil)" />`;
+        // Cartoon double-lined curved Utero-Ovarian Ligament highlighted in warm golden-orange!
+        const ligStartX = side * (utHalfW * 0.68) + utSt.dx;
+        const ligStartY = utTopY + 76 + utSt.dy;
+        const ligEndX = ovX - side * (ovW * 0.72);
+        const ligEndY = ovY + 8;
+        const ligCtrlX = (ligStartX + ligEndX) * 0.5;
+        const ligCtrlY = Math.max(ligStartY, ligEndY) + 18;
+        const ligTubePath = `
+          M ${ligStartX.toFixed(1)} ${(ligStartY - 6).toFixed(1)}
+          Q ${ligCtrlX.toFixed(1)} ${(ligCtrlY - 6).toFixed(1)} ${ligEndX.toFixed(1)} ${(ligEndY - 5).toFixed(1)}
+          L ${ligEndX.toFixed(1)} ${(ligEndY + 5).toFixed(1)}
+          Q ${ligCtrlX.toFixed(1)} ${(ligCtrlY + 6).toFixed(1)} ${ligStartX.toFixed(1)} ${(ligStartY + 6).toFixed(1)} Z
+        `;
+        ovariesMarkup += highlighterGroup('ovaries', ligTubePath, { fill: '#F48C06', rim: '#E85D04', strokeW: 2.5, whiteMix: 0.82 });
 
-        let ovaryPath = '';
-        if (isWiltedOvary) {
-          ovaryPath = `
-            M ${ovX - ovW} ${ovY}
-            C ${ovX - ovW * 0.5} ${ovY - ovH * 1.15}, ${ovX + ovW * 0.5} ${ovY - ovH * 0.65}, ${ovX + ovW} ${ovY}
-            C ${ovX + ovW * 0.5} ${ovY + ovH * 1.15}, ${ovX - ovW * 0.5} ${ovY + ovH * 0.75}, ${ovX - ovW} ${ovY} Z
-          `;
-        } else {
-          ovaryPath = `M ${ovX - ovW} ${ovY} a ${ovW} ${ovH} 0 1 0 ${ovW * 2} 0 a ${ovW} ${ovH} 0 1 0 ${-ovW * 2} 0`;
-        }
-        ovariesMarkup += highlighterGroup('ovaries', ovaryPath, { strokeW: 2.8 });
+        // Fluffy scalloped cloud-shaped cartoon ovary (7 rounded bumps)
+        const bumpDepth = isWiltedOvary ? 0.10 : 0.17;
+        const ovaryPath = buildCartoonCloudPath(ovX, ovY, ovW, ovH, 7, bumpDepth, side === 1 ? 0.25 : 0.65);
+        ovariesMarkup += highlighterGroup('ovaries', ovaryPath, { strokeW: 3.1, whiteMix: 0.86 });
 
-        // Internal Translucent Ovarian Follicles
+        // Cute soft cartoon follicles & shine dots inside each ovary (warm yellows & peaches)
         const fCoords = [
-          [-0.45, -0.24, 7.5],
-          [-0.08,  0.32, 9.0],
-          [ 0.38, -0.20, 12.5],
-          [ 0.42,  0.28, 8.0],
-          [-0.42,  0.25, 6.5]
+          [-0.36, -0.20, 7.5],
+          [-0.05,  0.28, 9.0],
+          [ 0.34, -0.16, 11.0],
+          [ 0.36,  0.26, 7.5],
+          [-0.35,  0.24, 6.2]
         ];
         const count = isWiltedOvary ? 2 : 5;
-        const folScale = Math.max(0.5, 1.0 + (oSt.morph / 100) * 0.35);
+        const folScale = Math.max(0.5, 1.0 + (oSt.morph / 100) * 0.32);
         for (let f = 0; f < count; f++) {
           const fx = ovX + side * fCoords[f][0] * ovW;
           const fy = ovY + fCoords[f][1] * ovH;
           const fr = fCoords[f][2] * folScale;
-          const folPath = `M ${fx - fr} ${fy} a ${fr} ${fr} 0 1 0 ${fr * 2} 0 a ${fr} ${fr} 0 1 0 -${fr * 2} 0`;
-          ovariesMarkup += highlighterGroup('ovaries', folPath, { fill: '#FEE440', rim: '#F15BB5', opacity: 0.74, strokeW: 1.7, ox: 1, oy: 1 });
+          const folPath = `M ${(fx - fr).toFixed(1)} ${fy.toFixed(1)} a ${fr.toFixed(1)} ${fr.toFixed(1)} 0 1 0 ${(fr * 2).toFixed(1)} 0 a ${fr.toFixed(1)} ${fr.toFixed(1)} 0 1 0 -${(fr * 2).toFixed(1)} 0`;
+          ovariesMarkup += highlighterGroup('ovaries', folPath, { fill: '#FFB703', rim: '#FB8500', opacity: 0.82, strokeW: 1.8, ox: 0.8, oy: 0.8, whiteMix: 0.78 });
+          ovariesMarkup += `<circle cx="${(fx - fr * 0.25).toFixed(1)}" cy="${(fy - fr * 0.25).toFixed(1)}" r="${Math.max(1.8, fr * 0.24).toFixed(1)}" fill="#FFFFFF" fill-opacity="0.92" />`;
         }
 
-        // If ovulation preset or high ovary morph, show released ovum near fimbriae!
-        if ((currentPreset === 'ovulation' || currentPreset === 'luteal' || oSt.morph > 55) && side === 1 && currentPreset !== 'ovarian_cyst' && currentPreset !== 'ovarian_cancer') {
-          const eggX = ovX + 36;
+        // If ovulation/luteal/conception preset, show released warm-golden ovum near fimbriae!
+        if ((['ovulation', 'luteal', 'conception'].includes(currentPreset) || oSt.morph > 55) && side === 1 && currentPreset !== 'ovarian_cyst' && currentPreset !== 'ovarian_cancer') {
+          const eggX = ovX + 34;
           const eggY = ovY - 34;
           const eggPath = `M ${eggX - 11} ${eggY} a 11 11 0 1 0 22 0 a 11 11 0 1 0 -22 0`;
-          ovariesMarkup += highlighterGroup('ovaries', eggPath, { fill: '#FEE440', rim: '#FF007F', opacity: 0.88, strokeW: 2.0 });
+          ovariesMarkup += highlighterGroup('ovaries', eggPath, { fill: '#FFB703', rim: '#F48C06', opacity: 0.90, strokeW: 2.2, whiteMix: 0.72 });
         }
 
-        // If Ovarian Cyst selected: render prominent translucent fluid-filled cyst on right ovary
+        // If Ovarian Cyst selected: render prominent cartoon cyst in warm amber-coral on right ovary
         if (currentPreset === 'ovarian_cyst' && side === 1) {
           const cystX = ovX + 18;
           const cystY = ovY + 4;
           const cystPath = `M ${cystX - 24} ${cystY} a 24 22 0 1 0 48 0 a 24 22 0 1 0 -48 0`;
-          ovariesMarkup += highlighterGroup('ovaries', cystPath, { fill: '#4CC9F0', rim: '#7209B7', opacity: 0.72, strokeW: 2.4 });
+          ovariesMarkup += highlighterGroup('ovaries', cystPath, { fill: '#FB8500', rim: '#D62828', opacity: 0.86, strokeW: 2.6, whiteMix: 0.80 });
         }
 
-        // If Ovarian Cancer selected: render lobulated irregular translucent mass overlay on right ovary
+        // If Ovarian Cancer selected: render bumpy cartoon mass overlay in deep crimson-red on right ovary
         if (currentPreset === 'ovarian_cancer' && side === 1) {
           const mX = ovX + 14;
           const mY = ovY + 2;
-          const massPath = `
-            M ${mX - 26} ${mY - 6}
-            C ${mX - 22} ${mY - 28}, ${mX + 8} ${mY - 30}, ${mX + 24} ${mY - 12}
-            C ${mX + 36} ${mY - 2}, ${mX + 32} ${mY + 22}, ${mX + 12} ${mY + 26}
-            C ${mX - 6} ${mY + 32}, ${mX - 30} ${mY + 18}, ${mX - 26} ${mY - 6} Z
-          `;
-          ovariesMarkup += highlighterGroup('ovaries', massPath, { fill: '#F72585', rim: '#3A0CA3', opacity: 0.76, strokeW: 2.5 });
+          const massPath = buildCartoonCloudPath(mX, mY, 27, 24, 6, 0.24, 0.4);
+          ovariesMarkup += highlighterGroup('ovaries', massPath, { fill: '#D90429', rim: '#800F2F', opacity: 0.88, strokeW: 2.6, whiteMix: 0.76 });
         }
       }
-      html += `<g class="organ-btn ${selectedOrgan === 'ovaries' ? 'selected-organ' : ''}" data-organ="ovaries" onclick="selectOrgan('ovaries', event)" transform="${organTransformAttr('ovaries', 0, utTopY + 76)}">${ovariesMarkup}</g>`;
+      html += `<g class="organ-btn ${selectedOrgan === 'ovaries' ? 'selected-organ' : ''}" data-organ="ovaries" onclick="selectOrgan('ovaries', event)" transform="${organTransformAttr('ovaries', 0, utTopY + 78)}">${ovariesMarkup}</g>`;
 
       // -----------------------------------------------------------------------
-      // 6. UTERUS (MYOMETRIUM & FUNDUS) - BUTTON: 'uterus'
+      // 6. UTERUS (SOFT CARTOON PEAR SILHOUETTE & SHINE ARC) - BUTTON: 'uterus'
+      // Soft rose-pink (lighter pink than the raspberry dark-pink fallopian tubes!)
       // -----------------------------------------------------------------------
-      const domeLift = 38 * (1.0 + (utSt.morph / 100) * 0.45);
+      const domeLift = 42 * (1.0 + (utSt.morph / 100) * 0.45);
       const uterusPath = `
-        M ${-utHalfW} ${utTopY + 18}
-        C ${-utHalfW * 0.55} ${utTopY - domeLift}, ${utHalfW * 0.55} ${utTopY - domeLift}, ${utHalfW} ${utTopY + 18}
-        C ${utHalfW * 1.04} ${(utTopY + utBotY) * 0.48}, ${cervixW * 1.40} ${utBotY - 32}, ${cervixW} ${utBotY}
-        Q 0 ${utBotY + 14} ${-cervixW} ${utBotY}
-        C ${-cervixW * 1.40} ${utBotY - 32}, ${-utHalfW * 1.04} ${(utTopY + utBotY) * 0.48}, ${-utHalfW} ${utTopY + 18} Z
+        M ${-utHalfW} ${utTopY + 16}
+        C ${-utHalfW * 0.52} ${utTopY - domeLift}, ${utHalfW * 0.52} ${utTopY - domeLift}, ${utHalfW} ${utTopY + 16}
+        C ${utHalfW * 0.96} ${(utTopY + utBotY) * 0.36}, ${cervixW * 1.32} ${utBotY - 46}, ${cervixW * 1.06} ${utBotY - 12}
+        C ${cervixW * 1.02} ${utBotY + 4}, ${cervixW * 0.96} ${utBotY + 10}, ${cervixW * 0.88} ${utBotY + 12}
+        Q 0 ${utBotY + 22} ${-cervixW * 0.88} ${utBotY + 12}
+        C ${-cervixW * 0.96} ${utBotY + 10}, ${-cervixW * 1.02} ${utBotY + 4}, ${-cervixW * 1.06} ${utBotY - 12}
+        C ${-cervixW * 1.32} ${utBotY - 46}, ${-utHalfW * 0.96} ${(utTopY + utBotY) * 0.36}, ${-utHalfW} ${utTopY + 16} Z
       `;
       let uterusMarkup = '';
       if (currentPreset === 'hysterectomy') {
-        // Hysterectomy: ghosted dashed surgical outline showing where uterus was removed
-        uterusMarkup += `<path d="${uterusPath}" fill="#FF5D8F" fill-opacity="0.08" stroke="#9F133A" stroke-width="2.2" stroke-dasharray="7,6" />`;
+        uterusMarkup += `<path d="${uterusPath}" fill="#F06292" fill-opacity="0.08" stroke="#9F133A" stroke-width="2.4" stroke-dasharray="7,6" />`;
       } else {
-        uterusMarkup += highlighterGroup('uterus', uterusPath, { strokeW: 3.2 });
+        uterusMarkup += highlighterGroup('uterus', uterusPath, { strokeW: 3.3, whiteMix: 0.85 });
+        // Glossy white cartoon shine bar + dot across top of Uterus fundus (matching reference image!)
+        const shineY = utTopY - domeLift * 0.36;
+        uterusMarkup += `<path d="M ${(-utHalfW * 0.46).toFixed(1)} ${(shineY + 10).toFixed(1)} Q 0 ${(shineY - 8).toFixed(1)} ${(utHalfW * 0.28).toFixed(1)} ${(shineY + 4).toFixed(1)}" fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-opacity="0.94" />`;
+        uterusMarkup += `<ellipse cx="${(utHalfW * 0.42).toFixed(1)}" cy="${(shineY + 10).toFixed(1)}" rx="6" ry="3.5" transform="rotate(18 ${(utHalfW * 0.42).toFixed(1)} ${(shineY + 10).toFixed(1)})" fill="#FFFFFF" fill-opacity="0.94" />`;
       }
-      // If Fibroids selected: render hand-drawn uterine fibroid nodules (myomas) in the myometrium
+      // If Fibroids selected: render cartoon fibroid nodules in warm coral-crimson
       if (currentPreset === 'fibroids') {
         const fibs = [
           { x: -42, y: -12, rx: 18, ry: 15 },
@@ -1043,142 +1127,121 @@
           { x:  18, y: -42, rx: 15, ry: 13 }
         ];
         for (const fb of fibs) {
-          const fbPath = `M ${fb.x - fb.rx} ${fb.y} a ${fb.rx} ${fb.ry} 0 1 0 ${fb.rx * 2} 0 a ${fb.rx} ${fb.ry} 0 1 0 ${-fb.rx * 2} 0`;
-          uterusMarkup += highlighterGroup('uterus', fbPath, { fill: '#9B5DE5', rim: '#F15BB5', opacity: 0.72, strokeW: 2.1 });
+          const fbPath = buildCartoonCloudPath(fb.x, fb.y, fb.rx, fb.ry, 6, 0.08, 0.1);
+          uterusMarkup += highlighterGroup('uterus', fbPath, { fill: '#E0315A', rim: '#9E0B28', opacity: 0.85, strokeW: 2.2, whiteMix: 0.78 });
         }
       }
       // If C-section selected: render low-transverse C-section incision line with suture ticks
       if (currentPreset === 'c_section') {
         const incY = utBotY - 26;
-        uterusMarkup += `<path d="M -38 ${incY} Q 0 ${incY + 10} 38 ${incY}" fill="none" stroke="#9F133A" stroke-width="3.0" stroke-linecap="round" filter="url(#loose-pencil)" />`;
+        uterusMarkup += `<path d="M -38 ${incY} Q 0 ${incY + 10} 38 ${incY}" fill="none" stroke="#9F133A" stroke-width="3.2" stroke-linecap="round" filter="url(#loose-pencil)" />`;
         for (let sx = -30; sx <= 30; sx += 12) {
           const sy = incY + (1 - (sx * sx) / 1400) * 5;
-          uterusMarkup += `<line x1="${sx}" y1="${sy - 5}" x2="${sx}" y2="${sy + 5}" stroke="#2B2235" stroke-width="2.0" stroke-linecap="round" />`;
+          uterusMarkup += `<line x1="${sx}" y1="${sy - 5}" x2="${sx}" y2="${sy + 5}" stroke="#2B2235" stroke-width="2.2" stroke-linecap="round" />`;
         }
       }
       html += `<g class="organ-btn ${selectedOrgan === 'uterus' ? 'selected-organ' : ''}" data-organ="uterus" onclick="selectOrgan('uterus', event)" transform="${organTransformAttr('uterus', 0, (utTopY + utBotY) * 0.5)}">${uterusMarkup}</g>`;
 
       // -----------------------------------------------------------------------
-      // 7. CERVIX & CERVICAL CANAL - BUTTON: 'cervix'
+      // 7. CERVIX & CERVICAL CANAL (SOFT CARTOON NECK & DIMPLED OS) - BUTTON: 'cervix'
+      // Warm cherry-red with cute dimpled bottom os curve matching reference!
       // -----------------------------------------------------------------------
       const cSt = organState.cervix;
-      const canalW = Math.max(3, 7 + (cSt.morph / 100) * 6);
+      const canalW = Math.max(4, 8 + (cSt.morph / 100) * 6);
       const cervixPath = `
-        M ${-cervixW} ${cervTopY + 6}
-        Q 0 ${cervTopY - 10} ${cervixW} ${cervTopY + 6}
-        C ${cervixW * 1.12} ${(cervTopY + cervBotY) * 0.5}, ${cervixW * 0.85} ${cervBotY}, 10 ${cervBotY}
-        Q 0 ${cervBotY - 11} -10 ${cervBotY}
-        C ${-cervixW * 0.85} ${cervBotY}, ${-cervixW * 1.12} ${(cervTopY + cervBotY) * 0.5}, ${-cervixW} ${cervTopY + 6} Z
+        M ${-cervixW * 0.96} ${cervTopY + 6}
+        Q 0 ${cervTopY - 8} ${cervixW * 0.96} ${cervTopY + 6}
+        C ${cervixW * 1.06} ${(cervTopY + cervBotY) * 0.5}, ${cervixW * 0.86} ${cervBotY + 2}, ${cervixW * 0.42} ${cervBotY}
+        Q ${cervixW * 0.22} ${cervBotY - 8} 0 ${cervBotY - 3}
+        Q ${-cervixW * 0.22} ${cervBotY - 8} ${-cervixW * 0.42} ${cervBotY}
+        C ${-cervixW * 0.86} ${cervBotY + 2}, ${-cervixW * 1.06} ${(cervTopY + cervBotY) * 0.5}, ${-cervixW * 0.96} ${cervTopY + 6} Z
       `;
       const canalPath = `
-        M 0 ${cervTopY - 4}
-        Q ${-canalW} ${(cervTopY + cervBotY) * 0.5} 0 ${cervBotY - 5}
-        Q ${canalW} ${(cervTopY + cervBotY) * 0.5} 0 ${cervTopY - 4} Z
+        M 0 ${cervTopY - 2}
+        Q ${-canalW * 1.2} ${(cervTopY + cervBotY) * 0.5} 0 ${cervBotY - 5}
+        Q ${canalW * 1.2} ${(cervTopY + cervBotY) * 0.5} 0 ${cervTopY - 2} Z
       `;
       let cervixMarkup = '';
       if (currentPreset === 'hysterectomy') {
-        cervixMarkup += `<path d="${cervixPath}" fill="#8338EC" fill-opacity="0.10" stroke="#5E60CE" stroke-width="2.0" stroke-dasharray="5,5" />`;
+        cervixMarkup += `<path d="${cervixPath}" fill="#C42847" fill-opacity="0.10" stroke="#9E1933" stroke-width="2.0" stroke-dasharray="5,5" />`;
       } else {
-        cervixMarkup += highlighterGroup('cervix', cervixPath, { strokeW: 2.8 });
-        cervixMarkup += highlighterGroup('cervix', canalPath, { fill: '#3A0CA3', rim: '#4CC9F0', opacity: 0.52, strokeW: 1.8 });
+        cervixMarkup += highlighterGroup('cervix', cervixPath, { strokeW: 3.0, whiteMix: 0.84 });
+        cervixMarkup += highlighterGroup('cervix', canalPath, { fill: '#9E0B28', rim: '#78051B', opacity: 0.78, strokeW: 2.0, whiteMix: 0.75 });
       }
-      // If hormonal contraception (pill, implant, depo, contraception), show thickened cervical mucus barrier
+      // If hormonal contraception (pill, implant, depo, contraception), show warm amber-yellow mucus plug barrier
       if (['contraception', 'arm_implants', 'use_of_the_pill', 'depo'].includes(currentPreset)) {
         const cyMid = (cervTopY + cervBotY) * 0.5;
-        cervixMarkup += `<ellipse cx="0" cy="${cyMid}" rx="9" ry="16" fill="#00F5D4" fill-opacity="0.65" stroke="#00BBF9" stroke-width="1.8" stroke-dasharray="3,2" />`;
+        cervixMarkup += `<ellipse cx="0" cy="${cyMid}" rx="10" ry="16" fill="#FFF3D1" stroke="#F48C06" stroke-width="3.0" stroke-dasharray="4,2" />`;
       }
-      // If STDs selected, show warm inflammatory markers along cervix & upper vaginal vault
+      // If STDs selected, show warm orange-red cartoon inflammation spots along cervix
       if (currentPreset === 'stds') {
         const stdDots = [[-14, cervTopY + 22], [15, cervTopY + 26], [-8, cervBotY - 10], [11, cervBotY - 8], [0, cervBotY + 18], [-18, cervBotY + 34], [16, cervBotY + 42]];
         for (const [dx, dy] of stdDots) {
-          cervixMarkup += `<circle cx="${dx}" cy="${dy}" r="5.5" fill="#FF0055" fill-opacity="0.72" stroke="#FFBE0B" stroke-width="1.8" />`;
+          cervixMarkup += `<circle cx="${dx}" cy="${dy}" r="5.5" fill="#FFE5D9" stroke="#D90429" stroke-width="2.4" />`;
         }
       }
       html += `<g class="organ-btn ${selectedOrgan === 'cervix' ? 'selected-organ' : ''}" data-organ="cervix" onclick="selectOrgan('cervix', event)" transform="${organTransformAttr('cervix', 0, (cervTopY + cervBotY) * 0.5)}">${cervixMarkup}</g>`;
 
       // -----------------------------------------------------------------------
-      // 8. ENDOMETRIUM (INNER UTERINE LINING & CAVITY) - BUTTON: 'endometrium'
+      // 8. ENDOMETRIUM (SOFT CARTOON RUBY-RED INNER CUSHION) - BUTTON: 'endometrium'
       // -----------------------------------------------------------------------
       const eSt = organState.endometrium;
-      const endoThick = Math.max(0.28, 1.0 + (eSt.morph / 100) * 0.55);
-      const inHalfW = 78 * 0.68;
-      const inTopY = -58 + 12;
-      const inBotY = 120 - 8;
+      const endoThick = Math.max(0.32, 1.0 + (eSt.morph / 100) * 0.52);
+      const inHalfW = 78 * 0.66;
+      const inTopY = -58 + 14;
+      const inBotY = 116 - 8;
 
+      // Soft rounded heart-pear outer cushion
       const endoOuterPath = `
-        M ${-inHalfW} ${inTopY}
-        Q 0 ${inTopY - 16} ${inHalfW} ${inTopY}
-        C ${inHalfW * 0.78} ${(inTopY + inBotY) * 0.5}, 16 ${inBotY - 22}, 8 ${inBotY}
-        Q 0 ${inBotY + 6} -8 ${inBotY}
-        C -16 ${inBotY - 22}, ${-inHalfW * 0.78} ${(inTopY + inBotY) * 0.5}, ${-inHalfW} ${inTopY} Z
+        M ${-inHalfW} ${inTopY + 4}
+        C ${-inHalfW * 0.45} ${inTopY - 22}, ${inHalfW * 0.45} ${inTopY - 22}, ${inHalfW} ${inTopY + 4}
+        C ${inHalfW * 0.86} ${(inTopY + inBotY) * 0.52}, 18 ${inBotY - 20}, 9 ${inBotY}
+        Q 0 ${inBotY + 7} -9 ${inBotY}
+        C -18 ${inBotY - 20}, ${-inHalfW * 0.86} ${(inTopY + inBotY) * 0.52}, ${-inHalfW} ${inTopY + 4} Z
       `;
 
-      // Scalloped wavy inner cavity edge
-      const cavScale = Math.max(0.32, Math.min(0.86, 1.0 - 0.28 * endoThick));
+      // Soft billowy cartoon inner cavity (gentle rounded clouds instead of sharp waves)
+      const cavScale = Math.max(0.34, Math.min(0.84, 1.0 - 0.26 * endoThick));
       const cavW = inHalfW * cavScale;
-      const cavTopY = inTopY + 11 * endoThick;
+      const cavTopY = inTopY + 10 * endoThick;
       const cavBotY = inBotY - 6;
 
-      let cavityPath = `M ${-cavW.toFixed(1)} ${cavTopY.toFixed(1)}`;
-      const topWaves = 6;
-      for (let w = 1; w <= topWaves; w++) {
-        const t0 = (w - 0.5) / topWaves;
-        const t1 = w / topWaves;
-        const wx0 = -cavW + 2 * cavW * t0;
-        const wx1 = -cavW + 2 * cavW * t1;
-        const wy0 = cavTopY + 6 * endoThick;
-        const wy1 = cavTopY - Math.sin(t1 * Math.PI) * 5;
-        cavityPath += ` Q ${wx0.toFixed(1)} ${wy0.toFixed(1)} ${wx1.toFixed(1)} ${wy1.toFixed(1)}`;
-      }
-      const sideWaves = 7;
-      for (let w = 1; w <= sideWaves; w++) {
-        const t0 = (w - 0.5) / sideWaves;
-        const t1 = w / sideWaves;
-        const x0 = (1 - t0) * cavW + t0 * 4 - 6 * endoThick;
-        const y0 = (1 - t0) * cavTopY + t0 * cavBotY;
-        const x1 = (1 - t1) * cavW + t1 * 4;
-        const y1 = (1 - t1) * cavTopY + t1 * cavBotY;
-        cavityPath += ` Q ${x0.toFixed(1)} ${y0.toFixed(1)} ${x1.toFixed(1)} ${y1.toFixed(1)}`;
-      }
-      cavityPath += ` L -4 ${cavBotY}`;
-      for (let w = sideWaves - 1; w >= 0; w--) {
-        const t0 = (w + 0.5) / sideWaves;
-        const t1 = w / sideWaves;
-        const x0 = -((1 - t0) * cavW + t0 * 4 - 6 * endoThick);
-        const y0 = (1 - t0) * cavTopY + t0 * cavBotY;
-        const x1 = -((1 - t1) * cavW + t1 * 4);
-        const y1 = (1 - t1) * cavTopY + t1 * cavBotY;
-        cavityPath += ` Q ${x0.toFixed(1)} ${y0.toFixed(1)} ${x1.toFixed(1)} ${y1.toFixed(1)}`;
-      }
-      cavityPath += ' Z';
+      const cavityPath = `
+        M ${-cavW.toFixed(1)} ${(cavTopY + 4).toFixed(1)}
+        Q ${(-cavW * 0.5).toFixed(1)} ${(cavTopY - 8 * endoThick).toFixed(1)} 0 ${(cavTopY - 4 * endoThick).toFixed(1)}
+        Q ${(cavW * 0.5).toFixed(1)} ${(cavTopY - 8 * endoThick).toFixed(1)} ${cavW.toFixed(1)} ${(cavTopY + 4).toFixed(1)}
+        C ${(cavW * 0.92).toFixed(1)} ${((cavTopY + cavBotY) * 0.42).toFixed(1)}, 14 ${(cavBotY - 18).toFixed(1)}, 5 ${cavBotY.toFixed(1)}
+        Q 0 ${(cavBotY + 4).toFixed(1)} -5 ${cavBotY.toFixed(1)}
+        C -14 ${(cavBotY - 18).toFixed(1)}, ${(-cavW * 0.92).toFixed(1)} ${((cavTopY + cavBotY) * 0.42).toFixed(1)}, ${-cavW.toFixed(1)} ${(cavTopY + 4).toFixed(1)} Z
+      `;
 
       let endoMarkup = '';
       if (currentPreset === 'hysterectomy') {
-        endoMarkup += `<path d="${endoOuterPath}" fill="none" stroke="#EF233C" stroke-opacity="0.22" stroke-width="1.6" stroke-dasharray="5,5" />`;
+        endoMarkup += `<path d="${endoOuterPath}" fill="none" stroke="#D61F3C" stroke-opacity="0.22" stroke-width="1.8" stroke-dasharray="5,5" />`;
       } else {
-        endoMarkup += highlighterGroup('endometrium', endoOuterPath, { strokeW: 2.5 });
-        endoMarkup += highlighterGroup('endometrium', cavityPath, { fill: '#FFB3C6', rim: '#FF8FA3', opacity: 0.65, strokeW: 2.0 });
+        endoMarkup += highlighterGroup('endometrium', endoOuterPath, { strokeW: 2.8, whiteMix: 0.84 });
+        endoMarkup += highlighterGroup('endometrium', cavityPath, { fill: '#FF758F', rim: '#D61F3C', opacity: 0.78, strokeW: 2.2, whiteMix: 0.88 });
       }
 
-      // If IUD insertions selected: render translucent T-shaped IUD inside the uterine cavity + strings in cervix
+      // If IUD insertions selected: render warm golden-orange cartoon T-shaped IUD inside uterine cavity
       if (currentPreset === 'iud_insertions') {
         const iudTopY = cavTopY + 12;
         const iudBotY = cavBotY - 4;
         endoMarkup += `
           <g filter="url(#loose-pencil)">
-            <path d="M -26 ${iudTopY} L 26 ${iudTopY}" stroke="#00BBF9" stroke-width="7.5" stroke-linecap="round" stroke-opacity="0.65" />
-            <path d="M 0 ${iudTopY} L 0 ${iudBotY}" stroke="#00BBF9" stroke-width="7.5" stroke-linecap="round" stroke-opacity="0.65" />
-            <path d="M -26 ${iudTopY} L 26 ${iudTopY} M 0 ${iudTopY} L 0 ${iudBotY}" stroke="#2B2235" stroke-width="2.6" stroke-linecap="round" />
-            <circle cx="-26" cy="${iudTopY}" r="3.5" fill="#FEE440" stroke="#2B2235" stroke-width="1.6" />
-            <circle cx="26" cy="${iudTopY}" r="3.5" fill="#FEE440" stroke="#2B2235" stroke-width="1.6" />
-            <circle cx="0" cy="${iudBotY}" r="3.2" fill="#FEE440" stroke="#2B2235" stroke-width="1.6" />
-            <path d="M 0 ${iudBotY + 3} Q -7 ${iudBotY + 26} -5 ${iudBotY + 46}" fill="none" stroke="#2B2235" stroke-width="1.6" stroke-dasharray="3,2" />
-            <path d="M 0 ${iudBotY + 3} Q 7 ${iudBotY + 26} 6 ${iudBotY + 46}" fill="none" stroke="#2B2235" stroke-width="1.6" stroke-dasharray="3,2" />
+            <path d="M -26 ${iudTopY} L 26 ${iudTopY}" stroke="#F48C06" stroke-width="8.5" stroke-linecap="round" stroke-opacity="0.78" />
+            <path d="M 0 ${iudTopY} L 0 ${iudBotY}" stroke="#F48C06" stroke-width="8.5" stroke-linecap="round" stroke-opacity="0.78" />
+            <path d="M -26 ${iudTopY} L 26 ${iudTopY} M 0 ${iudTopY} L 0 ${iudBotY}" stroke="#2B2235" stroke-width="2.8" stroke-linecap="round" />
+            <circle cx="-26" cy="${iudTopY}" r="4.2" fill="#FFF3D1" stroke="#2B2235" stroke-width="1.8" />
+            <circle cx="26" cy="${iudTopY}" r="4.2" fill="#FFF3D1" stroke="#2B2235" stroke-width="1.8" />
+            <circle cx="0" cy="${iudBotY}" r="3.8" fill="#FFF3D1" stroke="#2B2235" stroke-width="1.8" />
+            <path d="M 0 ${iudBotY + 3} Q -7 ${iudBotY + 26} -5 ${iudBotY + 46}" fill="none" stroke="#2B2235" stroke-width="1.8" stroke-dasharray="3,2" />
+            <path d="M 0 ${iudBotY + 3} Q 7 ${iudBotY + 26} 6 ${iudBotY + 46}" fill="none" stroke="#2B2235" stroke-width="1.8" stroke-dasharray="3,2" />
           </g>
         `;
       }
 
-      // If Pregnancy / Trimester presets (or high stretch), show gestational sac scaled to stage
+      // If Pregnancy / Trimester presets (or high stretch), show warm golden-peach gestational sac
       if (['pregnancy', 'first_trimester', 'second_trimester', 'third_trimester', 'second_pregnancy', 'pregnancy_after_loss'].includes(currentPreset) || (eSt.scaleX > 1.35 && eSt.morph > 50)) {
         const sacY = (cavTopY + cavBotY) * 0.45;
         let rx = 28, ry = 25;
@@ -1186,75 +1249,84 @@
         else if (currentPreset === 'second_trimester') { rx = 22; ry = 20; }
         else if (currentPreset === 'third_trimester' || currentPreset === 'second_pregnancy') { rx = 31; ry = 28; }
         const sacPath = `M ${-rx} ${sacY} a ${rx} ${ry} 0 1 0 ${rx * 2} 0 a ${rx} ${ry} 0 1 0 ${-rx * 2} 0`;
-        endoMarkup += highlighterGroup('endometrium', sacPath, { fill: '#FEE440', rim: '#00BBF9', opacity: 0.66, strokeW: 2.0 });
+        endoMarkup += highlighterGroup('endometrium', sacPath, { fill: '#FFB703', rim: '#FB8500', opacity: 0.84, strokeW: 2.3, whiteMix: 0.80 });
       }
-      // If Menstruation / First Period / Postpartum Period / Loss preset, show crimson droplets gently shedding
+      // If Menstruation / First Period / Postpartum Period / Loss preset, show cartoon crimson droplets
       if (['menstruation', 'first_period', 'first_period_after_birth', 'after_pregnancy_loss'].includes(currentPreset)) {
-        endoMarkup += highlighterGroup('endometrium', `M -5 95 C -5 88, 0 84, 0 84 C 0 84, 5 88, 5 95 A 5 5 0 1 1 -5 95 Z`, { fill: '#D90429', opacity: 0.85, strokeW: 1.5 });
-        endoMarkup += highlighterGroup('endometrium', `M -4 148 C -4 142, 0 138, 0 138 C 0 138, 4 142, 4 148 A 4 4 0 1 1 -4 148 Z`, { fill: '#D90429', opacity: 0.85, strokeW: 1.5 });
+        endoMarkup += highlighterGroup('endometrium', `M -6 95 C -6 87, 0 82, 0 82 C 0 82, 6 87, 6 95 A 6 6 0 1 1 -6 95 Z`, { fill: '#D90429', rim: '#9E0B28', opacity: 0.90, strokeW: 1.8, whiteMix: 0.65 });
+        endoMarkup += highlighterGroup('endometrium', `M -5 148 C -5 141, 0 136, 0 136 C 0 136, 5 141, 5 148 A 5 5 0 1 1 -5 148 Z`, { fill: '#D90429', rim: '#9E0B28', opacity: 0.90, strokeW: 1.8, whiteMix: 0.65 });
       }
       html += `<g class="organ-btn ${selectedOrgan === 'endometrium' ? 'selected-organ' : ''}" data-organ="endometrium" onclick="selectOrgan('endometrium', event)" transform="${organTransformAttr('endometrium', 0, (inTopY + inBotY) * 0.5)}">${endoMarkup}</g>`;
 
       // -----------------------------------------------------------------------
-      // 9. FRONT-VIEW VULVA: INTERNAL CLITORAL BULBS & GLANS CLITORIS - BUTTON: 'clitoris'
+      // 9, 10, 11, 12. SOFT CARTOON VULVA (LABIA MAJORA, LABIA MINORA, CLITORIS, VAGINAL OPENING)
+      // Puffy rounded cartoon cushions & petals in warm coral-orange, watermelon-pink, honey-gold & scarlet!
       // -----------------------------------------------------------------------
-      const vulvaCY = 362;
-      const majW = 70;
-      const majH = 90;
-      const minW = 38;
-      const minH = 66;
-      const clitY = vulvaCY - minH * 0.70;
+      const vulvaCY = 366;
+      const majW = 74;
+      const majH = 88;
+      const minW = 40;
+      const minH = 64;
+      const clitY = vulvaCY - minH * 0.68;
 
+      // Soft puffy wishbone clitoral bulbs
       const clitInternalPath = `
-        M 0 ${vulvaCY - majH * 0.62}
-        C -48 ${vulvaCY - majH * 0.20}, -44 ${vulvaCY + majH * 0.35}, -22 ${vulvaCY + majH * 0.25}
-        C -16 ${vulvaCY - majH * 0.15}, -8 ${vulvaCY - majH * 0.42}, 0 ${vulvaCY - majH * 0.46}
-        C 8 ${vulvaCY - majH * 0.42}, 16 ${vulvaCY - majH * 0.15}, 22 ${vulvaCY + majH * 0.25}
-        C 44 ${vulvaCY + majH * 0.35}, 48 ${vulvaCY - majH * 0.20}, 0 ${vulvaCY - majH * 0.62} Z
+        M 0 ${vulvaCY - majH * 0.64}
+        C -52 ${vulvaCY - majH * 0.24}, -48 ${vulvaCY + majH * 0.36}, -24 ${vulvaCY + majH * 0.26}
+        C -16 ${vulvaCY - majH * 0.12}, -9 ${vulvaCY - majH * 0.40}, 0 ${vulvaCY - majH * 0.44}
+        C 9 ${vulvaCY - majH * 0.40}, 16 ${vulvaCY - majH * 0.12}, 24 ${vulvaCY + majH * 0.26}
+        C 48 ${vulvaCY + majH * 0.36}, 52 ${vulvaCY - majH * 0.24}, 0 ${vulvaCY - majH * 0.64} Z
       `;
-      const hoodPath = `M -16 ${clitY + 3} Q 0 ${clitY - 22} 16 ${clitY + 3}`;
-      const glansPath = `M -8.5 ${clitY} a 8.5 8.5 0 1 0 17 0 a 8.5 8.5 0 1 0 -17 0`;
+      const hoodPath = `
+        M -18 ${clitY + 4}
+        C -16 ${clitY - 22}, 16 ${clitY - 22}, 18 ${clitY + 4}
+        Q 0 ${clitY - 6} -18 ${clitY + 4} Z
+      `;
+      const glansPath = `M -9.5 ${clitY + 1} a 9.5 9.5 0 1 0 19 0 a 9.5 9.5 0 1 0 -19 0`;
 
-      // -----------------------------------------------------------------------
-      // 10. FRONT-VIEW LABIA MAJORA (OUTER LIPS) - BUTTON: 'labia_majora'
-      // -----------------------------------------------------------------------
+      // 10. FRONT-VIEW LABIA MAJORA (PUFFY CARTOON OUTER LIPS) - BUTTON: 'labia_majora'
       let labMajMarkup = '';
       for (const side of [-1, 1]) {
         const lmPath = `
-          M 0 ${vulvaCY - majH * 0.86}
-          C ${side * majW * 0.98} ${vulvaCY - majH * 0.82}, ${side * majW * 1.05} ${vulvaCY + majH * 0.72}, 0 ${vulvaCY + majH * 0.90}
-          C ${side * majW * 0.36} ${vulvaCY + majH * 0.55}, ${side * majW * 0.40} ${vulvaCY - majH * 0.48}, 0 ${vulvaCY - majH * 0.86} Z
+          M 0 ${vulvaCY - majH * 0.84}
+          C ${side * majW * 1.06} ${vulvaCY - majH * 0.84}, ${side * majW * 1.12} ${vulvaCY + majH * 0.74}, 0 ${vulvaCY + majH * 0.88}
+          C ${side * majW * 0.38} ${vulvaCY + majH * 0.56}, ${side * majW * 0.42} ${vulvaCY - majH * 0.46}, 0 ${vulvaCY - majH * 0.84} Z
         `;
-        labMajMarkup += highlighterGroup('labia_majora', lmPath, { strokeW: 2.8 });
+        labMajMarkup += highlighterGroup('labia_majora', lmPath, { strokeW: 3.0, whiteMix: 0.84 });
+        // Cute cartoon white shine arc on outer lip cushion
+        labMajMarkup += `<path d="M ${(side * majW * 0.52).toFixed(1)} ${(vulvaCY - majH * 0.42).toFixed(1)} Q ${(side * majW * 0.68).toFixed(1)} ${vulvaCY} ${(side * majW * 0.48).toFixed(1)} ${(vulvaCY + majH * 0.38).toFixed(1)}" fill="none" stroke="#FFFFFF" stroke-width="4.2" stroke-linecap="round" stroke-opacity="0.86" />`;
       }
       html += `<g class="organ-btn ${selectedOrgan === 'labia_majora' ? 'selected-organ' : ''}" data-organ="labia_majora" onclick="selectOrgan('labia_majora', event)" transform="${organTransformAttr('labia_majora', 0, vulvaCY)}">${labMajMarkup}</g>`;
 
-      // -----------------------------------------------------------------------
-      // 11. FRONT-VIEW LABIA MINORA (INNER LIPS) - BUTTON: 'labia_minora'
-      // -----------------------------------------------------------------------
+      // 11. FRONT-VIEW LABIA MINORA (SOFT WAVY CARTOON INNER LIPS) - BUTTON: 'labia_minora'
       let labMinMarkup = '';
       for (const side of [-1, 1]) {
         const lminPath = `
-          M 0 ${vulvaCY - minH * 0.84}
-          C ${side * minW * 1.08} ${vulvaCY - minH * 0.45}, ${side * minW * 0.92} ${vulvaCY + minH * 0.48}, 0 ${vulvaCY + minH * 0.82}
-          C ${side * minW * 0.32} ${vulvaCY + minH * 0.45}, ${side * minW * 0.34} ${vulvaCY - minH * 0.40}, 0 ${vulvaCY - minH * 0.84} Z
+          M 0 ${vulvaCY - minH * 0.82}
+          C ${side * minW * 0.96} ${vulvaCY - minH * 0.54}, ${side * minW * 1.16} ${vulvaCY - minH * 0.05}, ${side * minW * 0.92} ${vulvaCY + minH * 0.35}
+          C ${side * minW * 0.78} ${vulvaCY + minH * 0.64}, ${side * minW * 0.36} ${vulvaCY + minH * 0.82}, 0 ${vulvaCY + minH * 0.80}
+          C ${side * minW * 0.28} ${vulvaCY + minH * 0.44}, ${side * minW * 0.32} ${vulvaCY - minH * 0.38}, 0 ${vulvaCY - minH * 0.82} Z
         `;
-        labMinMarkup += highlighterGroup('labia_minora', lminPath, { strokeW: 2.5 });
+        labMinMarkup += highlighterGroup('labia_minora', lminPath, { strokeW: 2.8, whiteMix: 0.84 });
       }
       html += `<g class="organ-btn ${selectedOrgan === 'labia_minora' ? 'selected-organ' : ''}" data-organ="labia_minora" onclick="selectOrgan('labia_minora', event)" transform="${organTransformAttr('labia_minora', 0, vulvaCY)}">${labMinMarkup}</g>`;
 
-      // Render Clitoris button over top of Labia junction so it is super easy to click
-      let clitMarkup = highlighterGroup('clitoris', clitInternalPath, { fill: '#00BBF9', rim: '#7209B7', opacity: 0.22, strokeW: 1.6 });
-      clitMarkup += highlighterGroup('clitoris', hoodPath, { fill: '#FF85A1', rim: '#FF007F', opacity: 0.58, strokeW: 2.2 });
-      clitMarkup += highlighterGroup('clitoris', glansPath, { strokeW: 2.2 });
+      // 9. Render Cartoon Clitoris button over top of Labia junction
+      let clitMarkup = highlighterGroup('clitoris', clitInternalPath, { fill: '#FB7185', rim: '#E11D48', opacity: 0.52, strokeW: 2.0, whiteMix: 0.88 });
+      clitMarkup += highlighterGroup('clitoris', hoodPath, { fill: '#F46E42', rim: '#D94E24', opacity: 0.82, strokeW: 2.5, whiteMix: 0.82 });
+      clitMarkup += highlighterGroup('clitoris', glansPath, { strokeW: 2.6, whiteMix: 0.78 });
+      clitMarkup += `<circle cx="-3" cy="${(clitY - 2).toFixed(1)}" r="2.4" fill="#FFFFFF" fill-opacity="0.92" />`;
       html += `<g class="organ-btn ${selectedOrgan === 'clitoris' ? 'selected-organ' : ''}" data-organ="clitoris" onclick="selectOrgan('clitoris', event)" transform="${organTransformAttr('clitoris', 0, clitY)}">${clitMarkup}</g>`;
 
-      // -----------------------------------------------------------------------
-      // 12. FRONT-VIEW VAGINAL OPENING (INTROITUS) - BUTTON: 'vaginal_opening'
-      // -----------------------------------------------------------------------
-      const introitusPath = `M -16 ${vulvaCY + 17} a 16 25 0 1 0 32 0 a 16 25 0 1 0 -32 0`;
-      const introMarkup = highlighterGroup('vaginal_opening', introitusPath, { strokeW: 2.6 });
-      html += `<g class="organ-btn ${selectedOrgan === 'vaginal_opening' ? 'selected-organ' : ''}" data-organ="vaginal_opening" onclick="selectOrgan('vaginal_opening', event)" transform="${organTransformAttr('vaginal_opening', 0, vulvaCY + 17)}">${introMarkup}</g>`;
+      // 12. FRONT-VIEW VAGINAL OPENING (SOFT CARTOON INTROITUS) - BUTTON: 'vaginal_opening'
+      const voY = vulvaCY + 16;
+      const introitusPath = `
+        M 0 ${voY - 22}
+        C 18 ${voY - 18}, 20 ${voY + 18}, 0 ${voY + 24}
+        C -20 ${voY + 18}, -18 ${voY - 18}, 0 ${voY - 22} Z
+      `;
+      const introMarkup = highlighterGroup('vaginal_opening', introitusPath, { strokeW: 2.8, whiteMix: 0.80 });
+      html += `<g class="organ-btn ${selectedOrgan === 'vaginal_opening' ? 'selected-organ' : ''}" data-organ="vaginal_opening" onclick="selectOrgan('vaginal_opening', event)" transform="${organTransformAttr('vaginal_opening', 0, voY)}">${introMarkup}</g>`;
 
       // -----------------------------------------------------------------------
       // OPTIONAL INTERACTIVE CALLOUT PINS

@@ -105,17 +105,14 @@
       </div>
     </div>
 
-    <!-- 2. InteractiveAgeCarousel1: Age Meter Dial (8–105 yrs old) + Horizontal Interactive Buttons Carousel -->
+    <!-- 2. InteractiveAgeCarousel1: Dynamic "My Body at {age}" Dial (8–105 yrs old) + Horizontal Interactive Buttons Carousel -->
     <div id="InteractiveAgeCarousel1" data-piece-name="InteractiveAgeCarousel1" class="bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-3">
-      <!-- Header row with live age readout & optional attach-to-age toggle -->
+      <!-- Header row with live "My Body at {age}" title & optional attach-to-age toggle -->
       <div class="flex flex-wrap items-center justify-between gap-2">
         <div class="flex flex-wrap items-center gap-2.5">
-          <span class="text-xs font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#FEACEC]/45 text-[#9F133A] border border-[#CF366C]/30">
-            Age Meter (8 – 105 yrs old)
-          </span>
-          <span id="age-dial-readout" class="text-sm md:text-base font-extrabold text-[#2B2235]">
-            Age Group: 25–30 yrs (27 yrs old)
-          </span>
+          <h2 id="age-dial-readout" class="text-base md:text-lg font-extrabold tracking-tight text-[#9F133A]">
+            My Body at 27
+          </h2>
           <span id="active-age-button-readout" class="text-xs font-semibold text-[#9F133A] bg-pink-50 border border-pink-200 px-2.5 py-0.5 rounded-lg hidden"></span>
         </div>
         <div class="flex flex-wrap items-center gap-3 text-xs">
@@ -1719,7 +1716,7 @@
 
       const readout = document.getElementById('age-dial-readout');
       if (readout) {
-        readout.textContent = `Age Group: ${info.bracket.label} yrs (${info.age} yrs old)`;
+        readout.textContent = `My Body at ${info.age}`;
       }
 
       const attachedAgeLbl = document.getElementById('attached-age-label');

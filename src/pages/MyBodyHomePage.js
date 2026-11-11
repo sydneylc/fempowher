@@ -48,7 +48,7 @@ export default function MyBodyHomePage({
     // Embedded MyBodyInteractiveHomePage1.html
     h('iframe', {
       ref: iframeRef,
-      src: '/MyBodyInteractiveHomePage1.html?v=179',
+      src: '/MyBodyInteractiveHomePage1.html?v=180',
       title: tr('eduBtnMyBody', 'My Body'),
       className: 'flex-1 w-full h-full border-0',
       onLoad: () => {

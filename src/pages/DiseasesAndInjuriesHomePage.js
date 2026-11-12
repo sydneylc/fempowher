@@ -1,9 +1,10 @@
 import React from 'https://esm.sh/react@18.3.1';
 import {
+  MakingGifButtons1,
   PregHomePageButtons,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=197';
+} from './PregnancyHomePage.js?v=198';
 
 const h = React.createElement;
 
@@ -25,14 +26,14 @@ export default function DiseasesAndInjuriesHomePage({
     return t[key] || fallback;
   };
 
-  // Same full-bleed Pregnancy-style banner button format as in SexualHealthHomePage
+  // MakingGifButtons1 / PregHomePageButtons stack for Reproductive Health Diseases & Injuries
   const diseasesBannerButtons = [
     {
       id: 'stds-diseases-banner-btn',
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: '/assets/sexual-health-stds.gif?v=197',
+      gifSrc: '/assets/sexual-health-stds.gif?v=198',
       imgClassName:
         'h-[102%] sm:h-[106%] w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
       // Brighter red #F22952 background with zero black lines — blends seamlessly with the animated GIF
@@ -51,6 +52,60 @@ export default function DiseasesAndInjuriesHomePage({
       subTextStyle: {
         color: '#FFF5FC',
         textShadow: '0 1px 8px rgba(110, 9, 38, 0.75)'
+      }
+    },
+    {
+      id: 'fistulas-diseases-banner-btn',
+      label: tr('eduBtnFistulas', 'Fistulas'),
+      subLabel: tr('eduBtnFistulasSub', 'Obstetric & Pelvic Fistulas'),
+      targetPage: 'FistulasHomePage1',
+      gifSrc: '/assets/diseases-fistulas.gif?v=198',
+      imgClassName:
+        'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
+      // 3-band coral / salmon / brick-red background with zero black lines matching diseases-fistulas.gif
+      backgroundStyle: {
+        background:
+          'linear-gradient(180deg, #E86F5C 0%, #E86F5C 42.4%, #F48B7B 42.4%, #F48B7B 55.4%, #B83B2B 55.4%, #B83B2B 100%)',
+        border: 'none'
+      },
+      labelClassName:
+        'text-3xl sm:text-4xl md:text-5xl font-black leading-none tracking-tight',
+      subLabelClassName:
+        'text-xs sm:text-sm md:text-base font-extrabold leading-snug mt-1.5',
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(90, 15, 10, 0.8)'
+      },
+      subTextStyle: {
+        color: '#FFF5F2',
+        textShadow: '0 1px 8px rgba(90, 15, 10, 0.8)'
+      }
+    },
+    {
+      id: 'fibroids-diseases-banner-btn',
+      label: tr('eduBtnFibroids', 'Fibroids'),
+      subLabel: tr('eduBtnFibroidsSub', 'Uterine Fibroids'),
+      targetPage: 'FibroidsHomePage1',
+      gifSrc: '/assets/diseases-fibroids.gif?v=198',
+      imgClassName:
+        'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
+      // 3-band plum / orchid / deep burgundy background with zero black lines matching diseases-fibroids.gif
+      backgroundStyle: {
+        background:
+          'linear-gradient(180deg, #8C2D62 0%, #8C2D62 42.6%, #D46A9E 42.6%, #D46A9E 58.7%, #5E1640 58.7%, #5E1640 100%)',
+        border: 'none'
+      },
+      labelClassName:
+        'text-3xl sm:text-4xl md:text-5xl font-black leading-none tracking-tight',
+      subLabelClassName:
+        'text-xs sm:text-sm md:text-base font-extrabold leading-snug mt-1.5',
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(55, 8, 36, 0.82)'
+      },
+      subTextStyle: {
+        color: '#FFF0FA',
+        textShadow: '0 1px 8px rgba(55, 8, 36, 0.82)'
       }
     }
   ];
@@ -77,11 +132,11 @@ export default function DiseasesAndInjuriesHomePage({
       )
     ),
 
-    // Top Full-Bleed Banner Button: STDs / Sexually Transmitted Diseases (same format & GIF as SexualHealthHomePage)
-    h(PregHomePageButtons, {
+    // Full-Bleed Banner Buttons (MakingGifButtons1 / PregHomePageButtons): STDs, Fistulas, Fibroids
+    h(MakingGifButtons1, {
       sections: diseasesBannerButtons,
       containerClassName: 'w-full grid',
-      containerStyle: { gridTemplateRows: '230px' },
+      containerStyle: { gridTemplateRows: `repeat(${diseasesBannerButtons.length}, 230px)` },
       onSelectSection: (sec) => {
         if (onNavigateEducationPage && sec.targetPage) {
           onNavigateEducationPage(sec.targetPage);

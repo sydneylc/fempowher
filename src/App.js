@@ -57,11 +57,13 @@ import CalendarSettingsHomePage1 from './pages/CalendarSettingsHomePage1.js?v=19
 import { loadUserCycleCalendarState } from './data/cycleCalendarData.js?v=196';
 import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=196';
 import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=196';
-import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=197';
-import STDMenuHomePage from './pages/STDMenuHomePage.js?v=197';
-import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=197';
-import ForMeHomePage from './pages/ForMeHomePage.js?v=197';
-import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=197';
+import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=198';
+import STDMenuHomePage from './pages/STDMenuHomePage.js?v=198';
+import FistulasHomePage1 from './pages/FistulasHomePage1.js?v=198';
+import FibroidsHomePage1 from './pages/FibroidsHomePage1.js?v=198';
+import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=198';
+import ForMeHomePage from './pages/ForMeHomePage.js?v=198';
+import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=198';
 import WorldviewHomePage from './pages/WorldviewHomePage.js?v=196';
 import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=196';
 import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=196';
@@ -2900,6 +2902,18 @@ export default function App() {
               ...commonEduPageProps,
               onBack: () => setEducationPage(stdMenuOriginPage || 'SexualHealthHomePage'),
               issues: getEducationTopicIssues('std-menu', userCountryForStories, ageGroup)
+            });
+          }
+          if (educationPage === 'FistulasHomePage1') {
+            return h(FistulasHomePage1, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage('DiseasesAndInjuriesHomePage')
+            });
+          }
+          if (educationPage === 'FibroidsHomePage1') {
+            return h(FibroidsHomePage1, {
+              ...commonEduPageProps,
+              onBack: () => setEducationPage('DiseasesAndInjuriesHomePage')
             });
           }
           if (educationPage === 'FamilyPlanningHomePage1') {

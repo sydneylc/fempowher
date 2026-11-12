@@ -124,11 +124,11 @@ export function renderEducationIssueCards({
 }
 
 // ============================================================================
-// PregHomePageButtons:
-// Reusable full-screen, zero-outline, pink-toned, large-central-GIF button stack.
-// Whenever a page uses PregHomePageButtons, it renders equal-height malleable
-// full-bleed bands with tightly-cropped animated GIFs blended into distinct
-// pinkish tones and bold centered/adjacent UserLanguageChoice1 typography.
+// PregHomePageButtons / MakingGifButtons1:
+// Reusable full-screen, zero-outline, pink/red-toned, large-central-GIF button stack.
+// MakingGifButtons1 is the official workflow & component alias for turning uploaded
+// GIFs (with black border lines stripped) into full-bleed banner buttons with
+// their own target *HomePage1 subpages.
 // ============================================================================
 export function PregHomePageButtons({
   sections = [],
@@ -222,6 +222,8 @@ export function PregHomePageButtons({
     )
   );
 }
+
+export const MakingGifButtons1 = PregHomePageButtons;
 
 export default function PregnancyHomePage({
   onBack,

@@ -33,12 +33,12 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: '/assets/sexual-health-stds.gif?v=198',
+      gifSrc: '/assets/sexual-health-stds.gif?v=199',
       imgClassName:
-        'h-[102%] sm:h-[106%] w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
-      // Brighter red #F22952 background with zero black lines — blends seamlessly with the animated GIF
+        'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
+      // Original #E04668 background matching the STD GIF background with zero black lines
       backgroundStyle: {
-        backgroundColor: '#F22952',
+        backgroundColor: '#E04668',
         border: 'none'
       },
       labelClassName:
@@ -59,13 +59,13 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnFistulas', 'Fistulas'),
       subLabel: tr('eduBtnFistulasSub', 'Obstetric & Pelvic Fistulas'),
       targetPage: 'FistulasHomePage1',
-      gifSrc: '/assets/diseases-fistulas.gif?v=198',
+      gifSrc: '/assets/diseases-fistulas.gif?v=199',
       imgClassName:
         'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
-      // 3-band coral / salmon / brick-red background with zero black lines matching diseases-fistulas.gif
+      // Smooth reddish-orange vertical gradient separated where the fistula occurs, matching diseases-fistulas.gif
       backgroundStyle: {
         background:
-          'linear-gradient(180deg, #E86F5C 0%, #E86F5C 42.4%, #F48B7B 42.4%, #F48B7B 55.4%, #B83B2B 55.4%, #B83B2B 100%)',
+          'linear-gradient(180deg, #E86F5C 0%, #E86F5C 36%, #F48B7B 45%, #F48B7B 55%, #C84632 64%, #C84632 100%)',
         border: 'none'
       },
       labelClassName:
@@ -86,13 +86,13 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnFibroids', 'Fibroids'),
       subLabel: tr('eduBtnFibroidsSub', 'Uterine Fibroids'),
       targetPage: 'FibroidsHomePage1',
-      gifSrc: '/assets/diseases-fibroids.gif?v=198',
+      gifSrc: '/assets/diseases-fibroids.gif?v=199',
       imgClassName:
         'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
       // 3-band plum / orchid / deep burgundy background with zero black lines matching diseases-fibroids.gif
       backgroundStyle: {
         background:
-          'linear-gradient(180deg, #8C2D62 0%, #8C2D62 42.6%, #D46A9E 42.6%, #D46A9E 58.7%, #5E1640 58.7%, #5E1640 100%)',
+          'linear-gradient(180deg, #8A2861 0%, #8A2861 43.1%, #DE6AA5 43.1%, #DE6AA5 58.3%, #5E1140 58.3%, #5E1140 100%)',
         border: 'none'
       },
       labelClassName:

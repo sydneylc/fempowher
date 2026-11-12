@@ -32,12 +32,12 @@ export default function SexualHealthHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: '/assets/sexual-health-stds.gif?v=197',
+      gifSrc: '/assets/sexual-health-stds.gif?v=199',
       imgClassName:
-        'h-[102%] sm:h-[106%] w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
-      // Brighter red #F22952 background with zero black lines — blends seamlessly with the animated GIF
+        'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
+      // Original #E04668 background matching the STD GIF background with zero black lines
       backgroundStyle: {
-        backgroundColor: '#F22952',
+        backgroundColor: '#E04668',
         border: 'none'
       },
       labelClassName:

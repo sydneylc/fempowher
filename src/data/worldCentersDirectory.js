@@ -17300,18 +17300,18 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "world-hosp-163",
     "regionDistrict": "Almaty, Kazakhstan",
     "type": "hospital",
-    "lat": 43.222,
-    "lng": 76.851,
+    "lat": 43.2372,
+    "lng": 76.9585,
     "name": {
-      "en": "Scientific Center of Obstetrics, Gynecology & Perinatology (Almaty, Kazakhstan)"
+      "en": "Research Center of Obstetrics, Gynecology and Perinatology (Akuşerlık, Ginekologiia jäne Perinatologiia Ğylymi Ortalyğy)"
     },
     "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
+      "en": "National Obstetrics, Gynecology & Perinatology Center"
     },
-    "phone": "+7 7172 70 5261",
-    "emergencyHotline": "103 / 150",
+    "phone": "+7 727 300 4599",
+    "emergencyHotline": "103 (Medical Emergency) / 150 (National Crisis Helpline) / 112",
     "address": {
-      "en": "136 Hospital Road, Almaty, Kazakhstan, 8475"
+      "en": "Dostyk Ave 125, Almaty, Kazakhstan"
     },
     "services": {
       "en": [
@@ -17321,7 +17321,7 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Almaty, Kazakhstan. Tap Get Directions for route."
+      "en": "Research Center of Obstetrics, Gynecology and Perinatology (Akuşerlık, Ginekologiia jäne Perinatologiia Ğylymi Ortalyğy) at Dostyk Ave 125, Almaty, Kazakhstan. Phone: +7 727 300 4599."
     }
   },
   {
@@ -73242,18 +73242,18 @@ export const WORLD_CENTERS_DIRECTORY = [
     "id": "lila-hosp-1800-u2",
     "regionDistrict": "Almaty, Kazakhstan",
     "type": "hospital",
-    "lat": 43.2439,
-    "lng": 76.8956,
+    "lat": 43.2268,
+    "lng": 76.8542,
     "name": {
-      "en": "City Perinatal Center Almaty (Городской перинатальный центр Алматы)"
+      "en": "City Perinatal Center (Қалалық перинаталды орталық)"
     },
     "categoryBadge": {
-      "en": "National Women’s, Maternity & OB/GYN Hospital"
+      "en": "City Perinatal & Maternity Referral Hospital"
     },
-    "phone": "+7 7172 70 14 40",
-    "emergencyHotline": "150 / 111 (24/7 Free National Crisis Helpline Kazakhstan)",
+    "phone": "+7 747 460 9042",
+    "emergencyHotline": "103 (Medical Emergency) / 150 (National Crisis Helpline) / 112",
     "address": {
-      "en": "City Perinatal Center, Zhuravlev St 6, Almaty, Kazakhstan"
+      "en": "11 Zhubanov St, Almaty, Kazakhstan"
     },
     "services": {
       "en": [
@@ -73263,8 +73263,9 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "Functioning Maternity & Perinatal Hospital serving Almaty, Kazakhstan. Tap Get Directions for route."
-    }
+      "en": "City Perinatal Center (Қалалық перинаталды орталық) at 11 Zhubanov St, Almaty, Kazakhstan. Phone: +7 747 460 9042 | Website: http://almaty-perinatal.kz/"
+    },
+    "website": "http://almaty-perinatal.kz/"
   },
   {
     "id": "lila-safe-1800",
@@ -120593,6 +120594,64 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "International standard private clinic at 11 Luganskovo Street, Almaty, Kazakhstan."
+    }
+  },
+  {
+    "id": "kazakh-hosp-29",
+    "regionDistrict": "Almaty, Kazakhstan",
+    "type": "hospital",
+    "lat": 43.2718,
+    "lng": 76.9531,
+    "name": {
+      "en": "Maternity Hospital #2 / City Maternity Hospital No. 2 (Қалалық №2 перзентхана)"
+    },
+    "categoryBadge": {
+      "en": "City Maternity & Obstetrics Hospital"
+    },
+    "phone": "+7 727 397 5741",
+    "website": "https://yandex.com/maps/org/city_maternity_hospital_no_2/1072665620/",
+    "emergencyHotline": "103 (Medical Emergency) / 150 (National Crisis Helpline) / 112",
+    "address": {
+      "en": "Zhangeldin St 26 (or Alibi Zhangeldin St 28), Almaty 050000, Kazakhstan"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Labor & Delivery, C-Section & Postpartum Care",
+        "Maternal Triage, Perinatal Care, Newborn Care & Gynecological Emergencies",
+        "Kazakh, Russian & English Staff (Direct Referral to Helpline 150 Crisis Shelters)"
+      ]
+    },
+    "directionsText": {
+      "en": "City Maternity Hospital No. 2 at Zhangeldin St 26 (or Alibi Zhangeldin St 28), Almaty 050000, Kazakhstan. Phone: +7 727 397 5741."
+    }
+  },
+  {
+    "id": "kazakh-hosp-30",
+    "regionDistrict": "Almaty, Kazakhstan",
+    "type": "hospital",
+    "lat": 43.2554,
+    "lng": 76.9329,
+    "name": {
+      "en": "City Maternity Hospital № 1 (Қалалық №1 перзентхана)"
+    },
+    "categoryBadge": {
+      "en": "City Maternity & Obstetrics Hospital"
+    },
+    "phone": "+7 727 292 6822",
+    "website": "https://yandex.com/maps/org/city_maternity_hospital_1/1094222100/",
+    "emergencyHotline": "103 (Medical Emergency) / 150 (National Crisis Helpline) / 112",
+    "address": {
+      "en": "Saken Seifullin Avenue 492, Almaty, Kazakhstan"
+    },
+    "services": {
+      "en": [
+        "24/7 Emergency Obstetrics, Labor & Delivery, C-Section & Postpartum Care",
+        "Maternal Triage, Perinatal Care, Newborn Care & Gynecological Emergencies",
+        "Kazakh, Russian & English Staff (Direct Referral to Helpline 150 Crisis Shelters)"
+      ]
+    },
+    "directionsText": {
+      "en": "City Maternity Hospital № 1 at Saken Seifullin Avenue 492, Almaty, Kazakhstan."
     }
   },
   {

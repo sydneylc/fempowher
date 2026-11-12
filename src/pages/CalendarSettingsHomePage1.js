@@ -1,14 +1,15 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=186';
-import { isRtlLanguage } from '../data/translations.js?v=186';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=196';
+import { isRtlLanguage } from '../data/translations.js?v=196';
 import {
   CYCLE_PHASE_DEFINITIONS,
   createBlankCycleCalendarState,
+  formatMonthYearForLang,
   getCycleCalText,
   loadUserCycleCalendarState,
   saveUserCycleCalendarState,
   renderGearHeartIcon
-} from '../data/cycleCalendarData.js?v=186';
+} from '../data/cycleCalendarData.js?v=196';
 
 const h = React.createElement;
 
@@ -50,11 +51,71 @@ export function CalendarSettingsHomePage1({
     initial.repeatsOverAndOver !== false
   );
 
-  const isCurrentlyBlank = !initial.hasEnteredCycleData || !initial.FirstDayOfPeriod1;
+  // Interactive clickable calendar picker inside FirstDayOfPeriod1 so clicking always opens a calendar
+  const nowDate = new Date();
+  const parsedFirst = firstDay ? firstDay.split('-').map(Number) : null;
+  const [isCalendarPickerOpen, setIsCalendarPickerOpen] = useState(false);
+  const [pickerYear, setPickerYear] = useState(
+    parsedFirst && parsedFirst[0] ? parsedFirst[0] : nowDate.getFullYear()
+  );
+  const [pickerMonth, setPickerMonth] = useState(
+    parsedFirst && parsedFirst[1] ? parsedFirst[1] - 1 : nowDate.getMonth()
+  );
+
+  const isCurrentlyBlank = !firstDay && (!initial.hasEnteredCycleData || !initial.FirstDayOfPeriod1);
+
+  // Auto-persist helper so user's entered dates & settings stay saved unless "Clear Calendar" is clicked
+  const persistPartialOrFullSettings = (overrides = {}) => {
+    const nextFirstDay =
+      overrides.firstDay !== undefined ? overrides.firstDay : firstDay;
+    const nextPasswordEnabled =
+      overrides.passwordEnabled !== undefined ? overrides.passwordEnabled : passwordEnabled;
+    const nextCalendarPassword =
+      overrides.calendarPassword !== undefined ? overrides.calendarPassword : calendarPassword;
+    const nextPeriodDays =
+      overrides.periodDays !== undefined ? overrides.periodDays : periodDays;
+    const nextFollicularDays =
+      overrides.follicularDays !== undefined ? overrides.follicularDays : follicularDays;
+    const nextOvulatoryDays =
+      overrides.ovulatoryDays !== undefined ? overrides.ovulatoryDays : ovulatoryDays;
+    const nextLutealDays =
+      overrides.lutealDays !== undefined ? overrides.lutealDays : lutealDays;
+    const nextRepeats =
+      overrides.repeatsOverAndOver !== undefined
+        ? overrides.repeatsOverAndOver
+        : repeatsOverAndOver;
+
+    const hasData = Boolean(nextFirstDay || initial.hasEnteredCycleData);
+    const nextState = {
+      ...initial,
+      hasEnteredCycleData: hasData && Boolean(nextFirstDay),
+      calendarPasswordEnabled: Boolean(nextPasswordEnabled),
+      calendarPassword: nextPasswordEnabled ? String(nextCalendarPassword || '') : '',
+      FirstDayOfPeriod1: nextFirstDay || '',
+      PeriodDaysDuration1: Math.max(1, Math.min(7, Number(nextPeriodDays) || 5)),
+      FollicularPhaseDuration1: Math.max(1, Math.min(7, Number(nextFollicularDays) || 5)),
+      OvulatoryPhaseDuration1: Math.max(1, Math.min(7, Number(nextOvulatoryDays) || 4)),
+      LutealPhaseDuration1: Math.max(1, Math.min(7, Number(nextLutealDays) || 6)),
+      repeatsOverAndOver: nextRepeats
+    };
+    saveUserCycleCalendarState(UserNameChoiceInsert1, nextState);
+    if (typeof onUpdateCycleCalendarState === 'function') {
+      onUpdateCycleCalendarState(nextState);
+    }
+  };
+
+  const handleSelectFirstDay = (ymd) => {
+    setFirstDay(ymd);
+    const parts = String(ymd || '').split('-').map(Number);
+    if (parts.length === 3 && parts[0] && parts[1]) {
+      setPickerYear(parts[0]);
+      setPickerMonth(parts[1] - 1);
+    }
+    persistPartialOrFullSettings({ firstDay: ymd });
+  };
 
   const handleSave = (e) => {
     if (e && e.preventDefault) e.preventDefault();
-    // If user didn't pick a date yet in the input before hitting Save, default to the 1st of the current month so they can see their settings immediately, or keep blank if they cleared it
     const now = new Date();
     const fallbackDate = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(
       now.getDate()
@@ -92,6 +153,7 @@ export function CalendarSettingsHomePage1({
     setOvulatoryDays(4);
     setLutealDays(6);
     setRepeatsOverAndOver(true);
+    setIsCalendarPickerOpen(false);
     saveUserCycleCalendarState(UserNameChoiceInsert1, blankState);
     if (typeof onUpdateCycleCalendarState === 'function') {
       onUpdateCycleCalendarState(blankState);
@@ -227,7 +289,11 @@ export function CalendarSettingsHomePage1({
                 'label',
                 {
                   className: 'text-sm sm:text-base font-black text-black block cursor-pointer',
-                  onClick: () => setPasswordEnabled((prev) => !prev)
+                  onClick: () => {
+                    const nextVal = !passwordEnabled;
+                    setPasswordEnabled(nextVal);
+                    persistPartialOrFullSettings({ passwordEnabled: nextVal });
+                  }
                 },
                 ct('addPasswordLabel', 'Add a Password')
               ),
@@ -248,7 +314,11 @@ export function CalendarSettingsHomePage1({
                 type: 'button',
                 role: 'switch',
                 'aria-checked': passwordEnabled,
-                onClick: () => setPasswordEnabled((prev) => !prev),
+                onClick: () => {
+                  const nextVal = !passwordEnabled;
+                  setPasswordEnabled(nextVal);
+                  persistPartialOrFullSettings({ passwordEnabled: nextVal });
+                },
                 className:
                   'relative inline-flex items-center shrink-0 cursor-pointer transition-colors duration-200 ease-in-out focus:outline-none',
                 style: {
@@ -285,7 +355,11 @@ export function CalendarSettingsHomePage1({
               h('input', {
                 type: 'password',
                 value: calendarPassword,
-                onChange: (e) => setCalendarPassword(e.target.value),
+                onChange: (e) => {
+                  const val = e.target.value;
+                  setCalendarPassword(val);
+                  persistPartialOrFullSettings({ calendarPassword: val });
+                },
                 placeholder: ct(
                   'passwordInputPlaceholder',
                   'Enter a password for your calendar...'
@@ -296,42 +370,244 @@ export function CalendarSettingsHomePage1({
             )
         ),
 
-        // 1. FirstDayOfPeriod1 (Bright Red boxed day)
+        // 1. FirstDayOfPeriod1 (Bright Red boxed day + Interactive Clickable Calendar Picker)
         h(
           'div',
           {
             id: 'FirstDayOfPeriod1',
-            className: 'p-4 rounded-2xl border-2 border-black bg-white space-y-2'
+            className: 'p-4 rounded-2xl border-2 border-black bg-white space-y-2.5'
           },
           h(
             'div',
             { className: 'flex items-center justify-between gap-2 flex-wrap' },
             h(
               'div',
-              { className: 'flex items-center gap-2.5' },
+              {
+                className: 'flex items-center gap-2.5 cursor-pointer',
+                onClick: () => setIsCalendarPickerOpen((prev) => !prev)
+              },
               h('span', {
                 className: 'w-6 h-6 rounded-md border-2 border-black shrink-0',
                 style: { backgroundColor: CYCLE_PHASE_DEFINITIONS[0].rgbaFill }
               }),
               h(
                 'label',
-                { className: 'text-sm sm:text-base font-black text-black' },
+                { className: 'text-sm sm:text-base font-black text-black cursor-pointer' },
                 ct('firstDayLabel', 'First Day of Period (Reported by User)')
               )
             ),
-            h('input', {
-              type: 'date',
-              value: firstDay,
-              onChange: (e) => setFirstDay(e.target.value),
-              className:
-                'px-3 py-1.5 rounded-xl border-2 border-black bg-white text-black font-extrabold text-sm cursor-pointer'
-            })
+            h(
+              'div',
+              { className: 'flex items-center gap-2 flex-wrap' },
+              // Clickable Calendar Trigger Button that always opens the interactive inline calendar
+              h(
+                'button',
+                {
+                  type: 'button',
+                  onClick: () => setIsCalendarPickerOpen((prev) => !prev),
+                  className:
+                    'px-3.5 py-1.5 rounded-xl border-2 border-black font-extrabold text-xs sm:text-sm flex items-center gap-2 cursor-pointer transition-transform active:scale-95 shadow-sm',
+                  style: {
+                    backgroundColor: firstDay ? 'rgba(255, 23, 68, 0.16)' : '#FFF0FA',
+                    color: '#000000'
+                  }
+                },
+                h(
+                  'svg',
+                  {
+                    width: 17,
+                    height: 17,
+                    viewBox: '0 0 24 24',
+                    fill: 'none',
+                    stroke: '#9F133A',
+                    strokeWidth: 2.3,
+                    strokeLinecap: 'round',
+                    strokeLinejoin: 'round'
+                  },
+                  h('rect', { x: 3, y: 4, width: 18, height: 18, rx: 2, ry: 2 }),
+                  h('line', { x1: 16, y1: 2, x2: 16, y2: 6 }),
+                  h('line', { x1: 8, y1: 2, x2: 8, y2: 6 }),
+                  h('line', { x1: 3, y1: 10, x2: 21, y2: 10 })
+                ),
+                h(
+                  'span',
+                  null,
+                  firstDay
+                    ? formatDigitsForLang(firstDay)
+                    : 'Click to Open Calendar'
+                ),
+                h('span', { className: 'text-[11px] font-black text-[#9F133A]' }, isCalendarPickerOpen ? '▲' : '▼')
+              ),
+              h('input', {
+                type: 'date',
+                value: firstDay,
+                onClick: (e) => {
+                  setIsCalendarPickerOpen(true);
+                  if (e.currentTarget && typeof e.currentTarget.showPicker === 'function') {
+                    try {
+                      e.currentTarget.showPicker();
+                    } catch (_) {}
+                  }
+                },
+                onChange: (e) => handleSelectFirstDay(e.target.value),
+                className:
+                  'px-3 py-1.5 rounded-xl border-2 border-black bg-white text-black font-extrabold text-sm cursor-pointer'
+              })
+            )
           ),
           h(
             'p',
             { className: 'text-xs font-semibold text-black/75' },
             ct('firstDayDesc', 'Bright red boxed day marking Day 1 of your menstrual bleeding.')
-          )
+          ),
+
+          // Interactive Inline Month Calendar Picker (Opens when clicking the calendar button or date input)
+          isCalendarPickerOpen &&
+            (() => {
+              const firstOfPickerMonth = new Date(pickerYear, pickerMonth, 1);
+              const startDow = firstOfPickerMonth.getDay();
+              const daysInPickerMonth = new Date(pickerYear, pickerMonth + 1, 0).getDate();
+              const pickerCells = [];
+              for (let i = 0; i < startDow; i++) pickerCells.push(null);
+              for (let d = 1; d <= daysInPickerMonth; d++) pickerCells.push(d);
+              while (pickerCells.length % 7 !== 0) pickerCells.push(null);
+
+              const weekdaysShort = ct('weekdaysShort', ['S', 'M', 'T', 'W', 'T', 'F', 'S']);
+              const pickerMonthTitle = formatDigitsForLang(
+                formatMonthYearForLang(pickerYear, pickerMonth, lang, UserLanguageChoice1)
+              );
+
+              return h(
+                'div',
+                {
+                  className:
+                    'mt-2 p-3.5 rounded-2xl border-2 border-black bg-[#FFF8FC] shadow-md space-y-2.5'
+                },
+                // Month & Year header inside picker
+                h(
+                  'div',
+                  { className: 'flex items-center justify-between gap-2' },
+                  h(
+                    'button',
+                    {
+                      type: 'button',
+                      onClick: () => {
+                        if (pickerMonth === 0) {
+                          setPickerYear((y) => y - 1);
+                          setPickerMonth(11);
+                        } else {
+                          setPickerMonth((m) => m - 1);
+                        }
+                      },
+                      className:
+                        'w-8 h-8 rounded-lg border-2 border-black bg-white hover:bg-black/5 font-black text-base flex items-center justify-center cursor-pointer'
+                    },
+                    isRtl ? '›' : '‹'
+                  ),
+                  h(
+                    'div',
+                    { className: 'flex items-center gap-2' },
+                    h(
+                      'span',
+                      { className: 'text-sm sm:text-base font-black text-black' },
+                      pickerMonthTitle
+                    ),
+                    h(
+                      'button',
+                      {
+                        type: 'button',
+                        onClick: () => {
+                          const tNow = new Date();
+                          const todayYmd = `${tNow.getFullYear()}-${String(
+                            tNow.getMonth() + 1
+                          ).padStart(2, '0')}-${String(tNow.getDate()).padStart(2, '0')}`;
+                          setPickerYear(tNow.getFullYear());
+                          setPickerMonth(tNow.getMonth());
+                          handleSelectFirstDay(todayYmd);
+                        },
+                        className:
+                          'px-2 py-0.5 rounded-md border border-black bg-white hover:bg-black/5 text-[11px] font-extrabold cursor-pointer'
+                      },
+                      ct('todayBtn', 'Today')
+                    )
+                  ),
+                  h(
+                    'button',
+                    {
+                      type: 'button',
+                      onClick: () => {
+                        if (pickerMonth === 11) {
+                          setPickerYear((y) => y + 1);
+                          setPickerMonth(0);
+                        } else {
+                          setPickerMonth((m) => m + 1);
+                        }
+                      },
+                      className:
+                        'w-8 h-8 rounded-lg border-2 border-black bg-white hover:bg-black/5 font-black text-base flex items-center justify-center cursor-pointer'
+                    },
+                    isRtl ? '‹' : '›'
+                  )
+                ),
+                // Weekday headers
+                h(
+                  'div',
+                  { className: 'grid grid-cols-7 gap-1 text-center' },
+                  weekdaysShort.map((wd, idx) =>
+                    h(
+                      'div',
+                      { key: `pk-wd-${idx}`, className: 'text-[11px] font-black text-black/70 py-0.5' },
+                      wd
+                    )
+                  )
+                ),
+                // Clickable Day cells
+                h(
+                  'div',
+                  { className: 'grid grid-cols-7 gap-1' },
+                  pickerCells.map((dayNum, idx) => {
+                    if (!dayNum) {
+                      return h('div', { key: `pk-empty-${idx}`, className: 'h-9' });
+                    }
+                    const ymd = `${pickerYear}-${String(pickerMonth + 1).padStart(2, '0')}-${String(
+                      dayNum
+                    ).padStart(2, '0')}`;
+                    const isSelectedFirstDay = firstDay === ymd;
+                    const isTodayCell =
+                      pickerYear === nowDate.getFullYear() &&
+                      pickerMonth === nowDate.getMonth() &&
+                      dayNum === nowDate.getDate();
+
+                    return h(
+                      'button',
+                      {
+                        key: `pk-day-${ymd}`,
+                        type: 'button',
+                        onClick: () => {
+                          handleSelectFirstDay(ymd);
+                          setIsCalendarPickerOpen(false);
+                        },
+                        className:
+                          'h-9 rounded-lg font-extrabold text-xs sm:text-sm flex items-center justify-center cursor-pointer transition-transform active:scale-95',
+                        style: {
+                          backgroundColor: isSelectedFirstDay
+                            ? CYCLE_PHASE_DEFINITIONS[0].rgbaFill
+                            : '#FFFFFF',
+                          border: isSelectedFirstDay
+                            ? '2.5px solid #000000'
+                            : isTodayCell
+                            ? '2px solid #9F133A'
+                            : '1px solid rgba(0,0,0,0.25)',
+                          color: '#000000',
+                          boxShadow: isSelectedFirstDay ? '0 2px 6px rgba(255,23,68,0.35)' : 'none'
+                        }
+                      },
+                      formatDigitsForLang(dayNum)
+                    );
+                  })
+                )
+              );
+            })()
         ),
 
         // 2. PeriodDaysDuration1 (1–7 Days of Period Customizable — Darker Red)
@@ -364,7 +640,10 @@ export function CalendarSettingsHomePage1({
           ),
           renderOneToSevenSelector(
             periodDays,
-            setPeriodDays,
+            (num) => {
+              setPeriodDays(num);
+              persistPartialOrFullSettings({ periodDays: num });
+            },
             CYCLE_PHASE_DEFINITIONS[1].rgbaFill,
             CYCLE_PHASE_DEFINITIONS[1].borderHex
           )
@@ -400,7 +679,10 @@ export function CalendarSettingsHomePage1({
           ),
           renderOneToSevenSelector(
             follicularDays,
-            setFollicularDays,
+            (num) => {
+              setFollicularDays(num);
+              persistPartialOrFullSettings({ follicularDays: num });
+            },
             CYCLE_PHASE_DEFINITIONS[2].rgbaFill,
             CYCLE_PHASE_DEFINITIONS[2].borderHex
           )
@@ -436,7 +718,10 @@ export function CalendarSettingsHomePage1({
           ),
           renderOneToSevenSelector(
             ovulatoryDays,
-            setOvulatoryDays,
+            (num) => {
+              setOvulatoryDays(num);
+              persistPartialOrFullSettings({ ovulatoryDays: num });
+            },
             CYCLE_PHASE_DEFINITIONS[3].rgbaFill,
             CYCLE_PHASE_DEFINITIONS[3].borderHex
           )
@@ -472,7 +757,10 @@ export function CalendarSettingsHomePage1({
           ),
           renderOneToSevenSelector(
             lutealDays,
-            setLutealDays,
+            (num) => {
+              setLutealDays(num);
+              persistPartialOrFullSettings({ lutealDays: num });
+            },
             CYCLE_PHASE_DEFINITIONS[4].rgbaFill,
             CYCLE_PHASE_DEFINITIONS[4].borderHex
           )
@@ -493,12 +781,16 @@ export function CalendarSettingsHomePage1({
           h('input', {
             type: 'checkbox',
             checked: repeatsOverAndOver,
-            onChange: (e) => setRepeatsOverAndOver(e.target.checked),
+            onChange: (e) => {
+              const checked = e.target.checked;
+              setRepeatsOverAndOver(checked);
+              persistPartialOrFullSettings({ repeatsOverAndOver: checked });
+            },
             className: 'w-5 h-5 accent-[#CF366C] cursor-pointer'
           })
         ),
 
-        // Action Buttons: Save to My Calendar OR Reset to Blank Calendar
+        // Action Buttons: Save to My Calendar OR Clear Calendar
         h(
           'div',
           { className: 'flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2' },
@@ -517,12 +809,13 @@ export function CalendarSettingsHomePage1({
           h(
             'button',
             {
+              id: 'ClearCalendarButton1',
               type: 'button',
               onClick: handleResetToBlank,
               className:
                 'py-3.5 px-5 rounded-2xl border-2 border-black bg-white hover:bg-black/5 text-black font-extrabold text-xs sm:text-sm cursor-pointer'
             },
-            ct('clearToBlankBtn', 'Reset to Blank Calendar (No Info Entered Yet)')
+            ct('clearToBlankBtn', 'Clear Calendar')
           )
         )
       )

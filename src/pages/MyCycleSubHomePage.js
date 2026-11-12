@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=188';
-import { isRtlLanguage } from '../data/translations.js?v=188';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=196';
+import { isRtlLanguage } from '../data/translations.js?v=196';
 import {
   getCycleCalText,
   formatMonthYearForLang,
   getPhasesForDate,
   loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=188';
+} from '../data/cycleCalendarData.js?v=196';
 
 const h = React.createElement;
 

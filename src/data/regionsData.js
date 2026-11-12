@@ -81,6 +81,22 @@ export const FEATURED_REGIONS = [
       rhg: 'Dhaka',
       bn: 'ঢাকা সদর',
       so: 'Dhaka'}
+  },
+  {
+    id: 'us-massachusetts',
+    nameEn: 'Massachusetts, United States',
+    nameLocal: 'Massachusetts, USA',
+    country: 'United States',
+    defaultLang: 'en',
+    secondaryLang: 'es',
+    center: [42.3601, -71.0589],
+    zoom: 9,
+    userLocation: [42.3601, -71.0589],
+    userLocationLabel: {
+      en: 'Massachusetts, United States',
+      rhg: 'Massachusetts, USA',
+      bn: 'ম্যাসাচুসেটস, যুক্তরাষ্ট্র',
+      so: 'Massachusetts, Maraykanka'}
   }
 ];
 
@@ -1179,6 +1195,105 @@ export const CLINICS_BY_REGION = {
         rhg: 'Shahbagh Metro Station-or dokkhine.',
         bn: 'শাহবাগ মেট্রো স্টেশনের দক্ষিণে সচিবালয় রোডে অবস্থিত।',
         so: 'Koonfurta Shahbagh Metro.'}
+    }
+  ],
+
+  'us-massachusetts': [
+    {
+      id: 'ma-brigham-womens',
+      regionDistrict: 'Boston, Massachusetts, USA',
+      type: 'hospital',
+      lat: 42.336,
+      lng: -71.107,
+      name: {
+        en: 'Brigham & Women’s Hospital — Center for Women & Newborns (Boston, MA)'
+      },
+      categoryBadge: {
+        en: '24/7 Comprehensive OB/GYN & Reproductive Care'
+      },
+      phone: '+1-617-732-5500',
+      emergencyHotline: '911',
+      address: {
+        en: '75 Francis St, Boston, MA 02115, USA'
+      },
+      services: {
+        en: ['24/7 OB/GYN Emergency & Gynecology', 'Multilingual Interpreter Services', 'Menopause, Fibroid & Prenatal Care']
+      },
+      directionsText: {
+        en: 'Longwood Medical Area, Green Line E Train to Brigham Circle.'
+      }
+    },
+    {
+      id: 'ma-mass-general-obgyn',
+      regionDistrict: 'Boston, Massachusetts, USA',
+      type: 'obgyn',
+      lat: 42.3626,
+      lng: -71.0686,
+      name: {
+        en: 'Massachusetts General Hospital — Obstetrics & Gynecology (Boston, MA)'
+      },
+      categoryBadge: {
+        en: '24/7 OB/GYN & Maternal Health Center'
+      },
+      phone: '+1-617-726-2000',
+      emergencyHotline: '911',
+      address: {
+        en: '55 Fruit St, Boston, MA 02114, USA'
+      },
+      services: {
+        en: ['24/7 Labor & Delivery & OB/GYN Emergency', 'Reproductive Endocrinology & Gynecology', 'Confidential Sexual Assault Nurse Examiner (SANE)']
+      },
+      directionsText: {
+        en: 'Red Line to Charles/MGH Station, main entrance on Fruit Street.'
+      }
+    },
+    {
+      id: 'ma-casa-myrna',
+      regionDistrict: 'Boston, Massachusetts, USA',
+      type: 'safe-haven',
+      lat: 42.361,
+      lng: -71.082,
+      name: {
+        en: 'Casa Myrna & SafeLink Massachusetts Women’s Safe Haven (Boston, MA)'
+      },
+      categoryBadge: {
+        en: '24/7 Women’s Domestic Violence Safe Haven'
+      },
+      phone: '+1-877-785-2020',
+      emergencyHotline: '1-877-785-2020 (SafeLink MA 24/7)',
+      address: {
+        en: '451 Blue Hill Ave, Boston, MA 02121, USA'
+      },
+      services: {
+        en: ['24/7 SafeLink Statewide Domestic Violence Hotline', 'Emergency Shelter, Legal Advocacy & Counseling', 'Free Multilingual Survivor Support']
+      },
+      directionsText: {
+        en: 'Call SafeLink 24/7 at 1-877-785-2020 for immediate confidential shelter placement anywhere in Massachusetts.'
+      }
+    },
+    {
+      id: 'ma-rosies-place',
+      regionDistrict: 'Boston, Massachusetts, USA',
+      type: 'safe-haven',
+      lat: 42.3358,
+      lng: -71.0764,
+      name: {
+        en: 'Rosie’s Place Women’s Sanctuary & Safe Haven (Boston, MA)'
+      },
+      categoryBadge: {
+        en: 'Women’s Sanctuary, Health Clinic & Safe Haven'
+      },
+      phone: '+1-617-442-9322',
+      emergencyHotline: '911 / 988',
+      address: {
+        en: '889 Harrison Ave, Boston, MA 02118, USA'
+      },
+      services: {
+        en: ['Women-only Sanctuary & Emergency Support', 'On-site Women’s Health & Wellness Clinic', 'Meals, Housing Advocacy & Legal Aid']
+      },
+      directionsText: {
+        en: '889 Harrison Ave in the South End, near Boston Medical Center.'
+      }
     }
   ]
 };

@@ -107,14 +107,31 @@ export function createBlankCycleCalendarState() {
 
 export function loadUserCycleCalendarState(usernameKey = 'Anonymous') {
   try {
-    const storageKey = `fempowher_cycle_cal_v1_${String(usernameKey || 'Anonymous').toLowerCase()}`;
-    const raw = localStorage.getItem(storageKey);
-    if (!raw) return createBlankCycleCalendarState();
-    const parsed = JSON.parse(raw);
+    const cleanUser = String(usernameKey || 'Anonymous').trim().toLowerCase() || 'anonymous';
+    const storageKey = `fempowher_cycle_cal_v1_${cleanUser}`;
+    let raw = localStorage.getItem(storageKey);
+    let parsed = raw ? JSON.parse(raw) : null;
+
+    // Fallback to account-level persisted cycleCalendarState for non-anonymous users
+    if (
+      (!parsed || typeof parsed !== 'object' || !parsed.FirstDayOfPeriod1) &&
+      cleanUser !== 'anonymous' &&
+      cleanUser !== 'user'
+    ) {
+      try {
+        const accountsRaw = localStorage.getItem('fempowher_accounts_v1');
+        const accounts = accountsRaw ? JSON.parse(accountsRaw) : null;
+        if (accounts && accounts[cleanUser] && accounts[cleanUser].cycleCalendarState) {
+          parsed = accounts[cleanUser].cycleCalendarState;
+          localStorage.setItem(storageKey, JSON.stringify(parsed));
+        }
+      } catch (_) {}
+    }
+
     if (!parsed || typeof parsed !== 'object') {
       return createBlankCycleCalendarState();
     }
-    const hasCycle = Boolean(parsed.hasEnteredCycleData && parsed.FirstDayOfPeriod1);
+    const hasCycle = Boolean(parsed.FirstDayOfPeriod1 && parsed.hasEnteredCycleData !== false);
     return {
       ...createBlankCycleCalendarState(),
       ...parsed,
@@ -134,8 +151,24 @@ export function loadUserCycleCalendarState(usernameKey = 'Anonymous') {
 
 export function saveUserCycleCalendarState(usernameKey = 'Anonymous', stateObj = {}) {
   try {
-    const storageKey = `fempowher_cycle_cal_v1_${String(usernameKey || 'Anonymous').toLowerCase()}`;
+    const cleanUser = String(usernameKey || 'Anonymous').trim().toLowerCase() || 'anonymous';
+    const storageKey = `fempowher_cycle_cal_v1_${cleanUser}`;
     localStorage.setItem(storageKey, JSON.stringify(stateObj));
+
+    // Also persist inside the user's account record in fempowher_accounts_v1 for non-anonymous users
+    if (cleanUser !== 'anonymous' && cleanUser !== 'user') {
+      try {
+        const accountsRaw = localStorage.getItem('fempowher_accounts_v1');
+        const accounts = accountsRaw ? JSON.parse(accountsRaw) : {};
+        if (accounts && typeof accounts === 'object') {
+          accounts[cleanUser] = {
+            ...(accounts[cleanUser] || { username: usernameKey }),
+            cycleCalendarState: stateObj
+          };
+          localStorage.setItem('fempowher_accounts_v1', JSON.stringify(accounts));
+        }
+      } catch (_) {}
+    }
   } catch (e) {}
 }
 
@@ -300,7 +333,7 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     daysUnit: 'days',
     dayUnit: 'day',
     saveCalendarBtn: 'Save to My Calendar',
-    clearToBlankBtn: 'Reset to Blank Calendar (No Info Entered Yet)',
+    clearToBlankBtn: 'Clear Calendar',
     blankStatusBadge: 'Currently Blank (No User Data Entered Yet)',
     activeStatusBadge: 'Custom Cycle Active on Calendar',
     calPhaseFirstDay: 'First Day of Period',

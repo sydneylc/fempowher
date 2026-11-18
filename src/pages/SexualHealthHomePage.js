@@ -3,7 +3,7 @@ import {
   PregHomePageButtons,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=205';
+} from './PregnancyHomePage.js?v=206';
 
 const h = React.createElement;
 
@@ -32,7 +32,7 @@ export default function SexualHealthHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=205',
+      gifSrc: './assets/sexual-health-stds.gif?v=206',
       imgClassName:
         'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
       // Original #E04668 background matching the STD GIF background with zero black lines

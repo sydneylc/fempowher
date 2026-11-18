@@ -1,10 +1,9 @@
 import React from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
-  PregHomePageButtons,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=205';
+} from './PregnancyHomePage.js?v=206';
 
 const h = React.createElement;
 
@@ -26,86 +25,92 @@ export default function DiseasesAndInjuriesHomePage({
     return t[key] || fallback;
   };
 
-  // MakingGifButtons1 / PregHomePageButtons stack for Reproductive Health Diseases & Injuries
+  // MakingGifButtons1 full-width buttons with a bluish-to-purplish ombré palette
+  // and PregnancyHomePage lettering structure (#9F133A on lighter top bands, #FFFFFF on deepest bottom band)
   const diseasesBannerButtons = [
     {
       id: 'stds-diseases-banner-btn',
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=205',
+      gifSrc: './assets/sexual-health-stds.gif?v=206',
       imgClassName:
-        'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
-      // Original #E04668 background matching the STD GIF background with zero black lines
+        'h-[96%] sm:h-[104%] w-auto max-w-[52vw] sm:max-w-[330px] object-contain select-none pointer-events-none',
+      // Tone 1: Soft Sky-Periwinkle Blue (#AED2FA)
       backgroundStyle: {
-        backgroundColor: '#E04668',
+        backgroundColor: '#AED2FA',
         border: 'none'
       },
-      labelClassName:
-        'text-3xl sm:text-4xl md:text-5xl font-black leading-none tracking-tight',
-      subLabelClassName:
-        'text-xs sm:text-sm md:text-base font-extrabold leading-snug mt-1.5',
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(110, 9, 38, 0.75)'
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
       },
       subTextStyle: {
-        color: '#FFF5FC',
-        textShadow: '0 1px 8px rgba(110, 9, 38, 0.75)'
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
       }
     },
     {
       id: 'fistulas-diseases-banner-btn',
       label: tr('eduBtnFistulas', 'Fistulas'),
-      subLabel: tr('eduBtnFistulasSub', 'Obstetric & Pelvic Fistulas'),
       targetPage: 'FistulasHomePage1',
-      gifSrc: './assets/diseases-fistulas.gif?v=205',
+      gifSrc: './assets/diseases-fistulas.gif?v=206',
       imgClassName:
-        'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
-      // Smooth reddish-orange vertical gradient separated where the fistula occurs, matching diseases-fistulas.gif
+        'h-[108%] sm:h-[114%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-54px',
+        marginRight: '-54px'
+      },
+      // Tone 2: Cornflower Periwinkle Blue (#8EB3F5)
       backgroundStyle: {
-        background:
-          'linear-gradient(180deg, #E86F5C 0%, #E86F5C 36%, #F48B7B 45%, #F48B7B 55%, #C84632 64%, #C84632 100%)',
+        backgroundColor: '#8EB3F5',
         border: 'none'
       },
-      labelClassName:
-        'text-3xl sm:text-4xl md:text-5xl font-black leading-none tracking-tight',
-      subLabelClassName:
-        'text-xs sm:text-sm md:text-base font-extrabold leading-snug mt-1.5',
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(90, 15, 10, 0.8)'
-      },
-      subTextStyle: {
-        color: '#FFF5F2',
-        textShadow: '0 1px 8px rgba(90, 15, 10, 0.8)'
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.9)'
       }
     },
     {
       id: 'fibroids-diseases-banner-btn',
       label: tr('eduBtnFibroids', 'Fibroids'),
-      subLabel: tr('eduBtnFibroidsSub', 'Uterine Fibroids'),
       targetPage: 'FibroidsHomePage1',
-      gifSrc: './assets/diseases-fibroids.gif?v=205',
+      gifSrc: './assets/diseases-fibroids.gif?v=206',
       imgClassName:
-        'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
-      // 3-band plum / orchid / deep burgundy background with zero black lines matching diseases-fibroids.gif
+        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-46px',
+        marginRight: '-34px'
+      },
+      // Tone 3: Soft Lavender-Violet (#9E93F0)
       backgroundStyle: {
-        background:
-          'linear-gradient(180deg, #8A2861 0%, #8A2861 43.1%, #DE6AA5 43.1%, #DE6AA5 58.3%, #5E1140 58.3%, #5E1140 100%)',
+        backgroundColor: '#9E93F0',
         border: 'none'
       },
-      labelClassName:
-        'text-3xl sm:text-4xl md:text-5xl font-black leading-none tracking-tight',
-      subLabelClassName:
-        'text-xs sm:text-sm md:text-base font-extrabold leading-snug mt-1.5',
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.9)'
+      }
+    },
+    {
+      id: 'prolapse-diseases-banner-btn',
+      label: tr('eduBtnProlapse', 'Prolapse'),
+      targetPage: 'ProlapseHomePage1',
+      gifSrc: './assets/diseases-prolapse.gif?v=206',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-46px',
+        marginRight: '-46px'
+      },
+      // Tone 4: Deep Royal Lavender-Purple (#735DD6) with pure white lettering like bottom of PregnancyHomePage
+      backgroundStyle: {
+        backgroundColor: '#735DD6',
+        border: 'none'
+      },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(55, 8, 36, 0.82)'
-      },
-      subTextStyle: {
-        color: '#FFF0FA',
-        textShadow: '0 1px 8px rgba(55, 8, 36, 0.82)'
+        textShadow: '0 2px 10px rgba(45, 22, 105, 0.65)'
       }
     }
   ];
@@ -132,7 +137,19 @@ export default function DiseasesAndInjuriesHomePage({
       )
     ),
 
-    // Existing AI-made Reproductive Health Diseases & Injuries Info Bubble
+    // Full-Width Bluish-to-Purplish Ombré Banner Buttons (MakingGifButtons1): STDs, Fistulas, Fibroids, Prolapse
+    h(MakingGifButtons1, {
+      sections: diseasesBannerButtons,
+      containerClassName: 'w-full grid',
+      containerStyle: { gridTemplateRows: `repeat(${diseasesBannerButtons.length}, 190px)` },
+      onSelectSection: (sec) => {
+        if (onNavigateEducationPage && sec.targetPage) {
+          onNavigateEducationPage(sec.targetPage);
+        }
+      }
+    }),
+
+    // Existing AI-made Reproductive Health Diseases & Injuries Info Bubble below the banner buttons
     h(
       'div',
       { className: 'max-w-3xl w-full mx-auto p-4 sm:p-6' },

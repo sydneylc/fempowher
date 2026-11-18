@@ -1,5 +1,5 @@
 // Regions, Upazila District Polygons (matching the Cox's Bazar sketch), Women's Safe Havens, OB/GYN Clinics, Emergency Contacts & Public Health News
-import { WORLD_CENTERS_DIRECTORY } from './worldCentersDirectory.js?v=202';
+import { WORLD_CENTERS_DIRECTORY } from './worldCentersDirectory.js?v=203';
 
 export const FEATURED_REGIONS = [
   {
@@ -290,69 +290,6 @@ export const CLINICS_BY_REGION = {
         rhg: 'Quetta.',
         bn: 'কোয়েটা।',
         so: 'Quetta.'}
-    },
-    {
-      id: 'global-boston-ma',
-      regionDistrict: 'Massachusetts, USA',
-      type: 'hospital',
-      lat: 42.336,
-      lng: -71.107,
-      name: {
-        en: 'Brigham & Women’s Hospital — Center for Women & Newborns (Boston, MA)',
-        rhg: 'Brigham Meyeá Haspatal, Massachusetts',
-        bn: 'ব্রিগহাম অ্যান্ড উইমেন্স হাসপাতাল, ম্যাসাচুসেটস',
-        so: 'Brigham & Women’s Hospital, Massachusetts'},
-      categoryBadge: {
-        en: '24/7 Comprehensive OB/GYN & Reproductive Care',
-        rhg: '24/7 OB/GYN Hospital',
-        bn: '২৪ ঘণ্টা গাইনি হাসপাতাল',
-        so: 'Isbitaalka Haweenka 24/7'},
-      phone: '+1-617-732-5500',
-      emergencyHotline: '911',
-      address: {
-        en: '75 Francis St, Boston, MA 02115, USA',
-        rhg: '75 Francis St, Boston, MA',
-        bn: '৭৫ ফ্রান্সিস স্ট্রিট, বোস্টন',
-        so: '75 Francis St, Boston, MA'},
-      services: {
-        en: ['24/7 OB/GYN Emergency & Gynecology', 'Multilingual Interpreter Services', 'Menopause, Fibroid & Prenatal Care'],
-        rhg: ['24/7 Meyeá Daktor'],
-        bn: ['২৪ ঘণ্টা গাইনি সেবা'],
-        so: ['Daryeelka haweenka 24/7']
-      },
-      directionsText: {
-        en: 'Longwood Medical Area, Green Line E Train to Brigham Circle.',
-        rhg: 'Boston, MA.',
-        bn: 'বোস্টন, ম্যাসাচুসেটস।',
-        so: 'Boston, MA.'}
-    },
-    {
-      id: 'global-boston-casamyra',
-      regionDistrict: 'Massachusetts, USA',
-      type: 'safe-haven',
-      lat: 42.361,
-      lng: -71.082,
-      name: {
-        en: 'Casa Myrna & Rosie’s Place Women’s Safe Haven Shelter (Boston, MA)'
-      },
-      categoryBadge: {
-        en: 'Women’s Safe Haven & Domestic Violence Shelter'
-      },
-      phone: '+1-877-785-2020',
-      emergencyHotline: 'SafeLink MA: 877-785-2020 / 911',
-      address: {
-        en: 'Boston / Greater Massachusetts Safe Shelter Network, MA, USA'
-      },
-      services: {
-        en: [
-          '24/7 Confidential Domestic Abuse Shelter & Safe Housing',
-          'Multilingual Legal, Medical & Crisis Advocacy',
-          'Emergency Walk-In Sanctuary & Meals for Women'
-        ]
-      },
-      directionsText: {
-        en: 'Call 24/7 SafeLink Hotline (877-785-2020) for immediate confidential shelter intake and transport.'
-      }
     },
     {
       id: 'global-ny-bellevue',
@@ -1198,104 +1135,7 @@ export const CLINICS_BY_REGION = {
     }
   ],
 
-  'us-massachusetts': [
-    {
-      id: 'ma-brigham-womens',
-      regionDistrict: 'Boston, Massachusetts, USA',
-      type: 'hospital',
-      lat: 42.336,
-      lng: -71.107,
-      name: {
-        en: 'Brigham & Women’s Hospital — Center for Women & Newborns (Boston, MA)'
-      },
-      categoryBadge: {
-        en: '24/7 Comprehensive OB/GYN & Reproductive Care'
-      },
-      phone: '+1-617-732-5500',
-      emergencyHotline: '911',
-      address: {
-        en: '75 Francis St, Boston, MA 02115, USA'
-      },
-      services: {
-        en: ['24/7 OB/GYN Emergency & Gynecology', 'Multilingual Interpreter Services', 'Menopause, Fibroid & Prenatal Care']
-      },
-      directionsText: {
-        en: 'Longwood Medical Area, Green Line E Train to Brigham Circle.'
-      }
-    },
-    {
-      id: 'ma-mass-general-obgyn',
-      regionDistrict: 'Boston, Massachusetts, USA',
-      type: 'obgyn',
-      lat: 42.3626,
-      lng: -71.0686,
-      name: {
-        en: 'Massachusetts General Hospital — Obstetrics & Gynecology (Boston, MA)'
-      },
-      categoryBadge: {
-        en: '24/7 OB/GYN & Maternal Health Center'
-      },
-      phone: '+1-617-726-2000',
-      emergencyHotline: '911',
-      address: {
-        en: '55 Fruit St, Boston, MA 02114, USA'
-      },
-      services: {
-        en: ['24/7 Labor & Delivery & OB/GYN Emergency', 'Reproductive Endocrinology & Gynecology', 'Confidential Sexual Assault Nurse Examiner (SANE)']
-      },
-      directionsText: {
-        en: 'Red Line to Charles/MGH Station, main entrance on Fruit Street.'
-      }
-    },
-    {
-      id: 'ma-casa-myrna',
-      regionDistrict: 'Boston, Massachusetts, USA',
-      type: 'safe-haven',
-      lat: 42.361,
-      lng: -71.082,
-      name: {
-        en: 'Casa Myrna & SafeLink Massachusetts Women’s Safe Haven (Boston, MA)'
-      },
-      categoryBadge: {
-        en: '24/7 Women’s Domestic Violence Safe Haven'
-      },
-      phone: '+1-877-785-2020',
-      emergencyHotline: '1-877-785-2020 (SafeLink MA 24/7)',
-      address: {
-        en: '451 Blue Hill Ave, Boston, MA 02121, USA'
-      },
-      services: {
-        en: ['24/7 SafeLink Statewide Domestic Violence Hotline', 'Emergency Shelter, Legal Advocacy & Counseling', 'Free Multilingual Survivor Support']
-      },
-      directionsText: {
-        en: 'Call SafeLink 24/7 at 1-877-785-2020 for immediate confidential shelter placement anywhere in Massachusetts.'
-      }
-    },
-    {
-      id: 'ma-rosies-place',
-      regionDistrict: 'Boston, Massachusetts, USA',
-      type: 'safe-haven',
-      lat: 42.3358,
-      lng: -71.0764,
-      name: {
-        en: 'Rosie’s Place Women’s Sanctuary & Safe Haven (Boston, MA)'
-      },
-      categoryBadge: {
-        en: 'Women’s Sanctuary, Health Clinic & Safe Haven'
-      },
-      phone: '+1-617-442-9322',
-      emergencyHotline: '911 / 988',
-      address: {
-        en: '889 Harrison Ave, Boston, MA 02118, USA'
-      },
-      services: {
-        en: ['Women-only Sanctuary & Emergency Support', 'On-site Women’s Health & Wellness Clinic', 'Meals, Housing Advocacy & Legal Aid']
-      },
-      directionsText: {
-        en: '889 Harrison Ave in the South End, near Boston Medical Center.'
-      }
-    }
-  ]
+  'us-massachusetts': []
 };
 
 // Public Health News Near You (Tab 3 in user's sketch: e.g. "Stay safe from cholera")

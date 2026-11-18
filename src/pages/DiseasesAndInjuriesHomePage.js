@@ -4,7 +4,7 @@ import {
   PregHomePageButtons,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=202';
+} from './PregnancyHomePage.js?v=203';
 
 const h = React.createElement;
 
@@ -33,7 +33,7 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=202',
+      gifSrc: './assets/sexual-health-stds.gif?v=203',
       imgClassName:
         'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
       // Original #E04668 background matching the STD GIF background with zero black lines
@@ -59,7 +59,7 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnFistulas', 'Fistulas'),
       subLabel: tr('eduBtnFistulasSub', 'Obstetric & Pelvic Fistulas'),
       targetPage: 'FistulasHomePage1',
-      gifSrc: './assets/diseases-fistulas.gif?v=202',
+      gifSrc: './assets/diseases-fistulas.gif?v=203',
       imgClassName:
         'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
       // Smooth reddish-orange vertical gradient separated where the fistula occurs, matching diseases-fistulas.gif
@@ -86,7 +86,7 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnFibroids', 'Fibroids'),
       subLabel: tr('eduBtnFibroidsSub', 'Uterine Fibroids'),
       targetPage: 'FibroidsHomePage1',
-      gifSrc: './assets/diseases-fibroids.gif?v=202',
+      gifSrc: './assets/diseases-fibroids.gif?v=203',
       imgClassName:
         'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
       // 3-band plum / orchid / deep burgundy background with zero black lines matching diseases-fibroids.gif

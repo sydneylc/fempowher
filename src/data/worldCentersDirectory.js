@@ -2,6 +2,349 @@
 // Total Verified Individual Global & Rural Centers: 5265
 export const WORLD_CENTERS_DIRECTORY = [
   {
+    "id": "world-hosp-1",
+    "regionDistrict": "Boston, Massachusetts, USA",
+    "type": "hospital",
+    "lat": 42.336,
+    "lng": -71.1072,
+    "name": {
+      "en": "Brigham and Women’s Hospital (Main Campus — Boston)"
+    },
+    "pertinentCenters": {
+      "en": [
+        "Center for Women & Newborns (Mary Horrigan Connors Center)",
+        "Department of Obstetrics & Gynecology, Labor & Delivery & Level III NICU",
+        "Maternal-Fetal Medicine, Reproductive Medicine & Passageway Domestic Abuse Program"
+      ]
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & Tertiary OB/GYN Hospital"
+    },
+    "phone": "+1 617-732-5500 / OB-GYN: +1 617-732-4208",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "75 Francis Street, Longwood Medical Area, Boston, MA 02115, United States"
+    },
+    "services": {
+      "en": [
+        "Center for Women & Newborns (Mary Horrigan Connors Center)",
+        "24/7 Obstetrics, Labor & Delivery, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Comprehensive Gynecology, Fibroid/Minimally Invasive Surgery & Passageway DV Advocacy"
+      ]
+    },
+    "directionsText": {
+      "en": "Main Campus at 75 Francis Street in the Longwood Medical Area, Boston (Green Line E Train to Brigham Circle)."
+    }
+  },
+  {
+    "id": "ma-bwh-faulkner-jp",
+    "regionDistrict": "Jamaica Plain, Boston, Massachusetts, USA",
+    "type": "hospital",
+    "lat": 42.3013,
+    "lng": -71.1282,
+    "name": {
+      "en": "Brigham and Women’s Faulkner Hospital (Jamaica Plain)"
+    },
+    "pertinentCenters": {
+      "en": [
+        "Brigham Obstetrics & Gynecology Group (Faulkner Campus)",
+        "Comprehensive Breast Health Center & Women’s Diagnostic Imaging",
+        "Gynecologic Surgery & Passageway Domestic Violence Support"
+      ]
+    },
+    "categoryBadge": {
+      "en": "Community Teaching Hospital & BWH Women’s Health Campus"
+    },
+    "phone": "+1 617-983-7000 / OB-GYN: +1 617-983-7003",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "1153 Centre Street, Jamaica Plain, Boston, MA 02130, United States"
+    },
+    "services": {
+      "en": [
+        "Brigham Obstetrics & Gynecology Group (Faulkner Campus)",
+        "24/7 Emergency Department, Gynecologic Surgery & Comprehensive Breast Center",
+        "Passageway Domestic Abuse Intervention & Multilingual Interpreter Services"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 1153 Centre Street in Jamaica Plain, Boston (opposite the Arnold Arboretum; MBTA Bus 39 or Orange Line to Forest Hills)."
+    }
+  },
+  {
+    "id": "ma-bwh-foxborough",
+    "regionDistrict": "Foxborough, Massachusetts, USA",
+    "type": "hospital",
+    "lat": 42.0926,
+    "lng": -71.2646,
+    "name": {
+      "en": "Brigham and Women’s / Mass General Brigham Healthcare Center (Foxborough)"
+    },
+    "pertinentCenters": {
+      "en": [
+        "Brigham and Women’s Obstetrics & Gynecology Outpatient Clinic",
+        "Prenatal & Postpartum Care, Routine Gynecology & Colposcopy",
+        "Women’s Diagnostic Imaging & Mammography"
+      ]
+    },
+    "categoryBadge": {
+      "en": "Brigham & Women’s Regional OB/GYN & Specialty Center"
+    },
+    "phone": "+1 508-718-4000 / Appointments: +1 866-378-9174",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "20 Patriot Place, Foxborough, MA 02035, United States"
+    },
+    "services": {
+      "en": [
+        "Brigham and Women’s Obstetrics & Gynecology Outpatient Clinic",
+        "Comprehensive Prenatal, Postpartum & Well-Woman Gynecological Care",
+        "Direct Maternal Care Coordination with BWH 75 Francis St Labor & Delivery"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 20 Patriot Place off Route 1 in Foxborough, MA."
+    }
+  },
+  {
+    "id": "ma-boston-medical-center",
+    "regionDistrict": "Boston, Massachusetts, USA",
+    "type": "hospital",
+    "lat": 42.3346,
+    "lng": -71.0743,
+    "name": {
+      "en": "Boston Medical Center (BMC)"
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Health Center & Department of Obstetrics & Gynecology (Yawkey Center, 5th Floor)",
+        "Labor & Delivery, Birth Sisters Multicultural Midwifery & Level III NICU",
+        "Refugee Women’s Health Clinic (Bridging Clinic), Project RESPECT & Domestic Violence Program"
+      ]
+    },
+    "categoryBadge": {
+      "en": "24/7 Safety-Net Maternity, Trauma & OB/GYN Hospital"
+    },
+    "phone": "+1 617-638-8000 / OB-GYN: +1 617-414-2000",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "850 Harrison Avenue (Yawkey Center) / 1 Boston Medical Center Place, Boston, MA 02118, United States"
+    },
+    "services": {
+      "en": [
+        "Women’s Health Center & 24/7 Emergency Obstetrics, Labor & Delivery & Midwifery",
+        "Refugee Women’s Health Clinic (Female Genital Cutting/Fistula & Culturally Sensitive Care)",
+        "Project RESPECT (Perinatal Substance Use Recovery) & On-Site Domestic Violence Program"
+      ]
+    },
+    "directionsText": {
+      "en": "Located in Boston’s South End at 850 Harrison Ave / 725 Albany St (MBTA Silver Line SL4/SL5 or Bus 1, 8, 10, 47, CT1)."
+    }
+  },
+  {
+    "id": "ma-mass-general-hospital",
+    "regionDistrict": "Boston, Massachusetts, USA",
+    "type": "hospital",
+    "lat": 42.3626,
+    "lng": -71.0686,
+    "name": {
+      "en": "Massachusetts General Hospital (MGH)"
+    },
+    "pertinentCenters": {
+      "en": [
+        "Vincent Department of Obstetrics & Gynecology (Yawkey Center for Outpatient Care)",
+        "Labor & Delivery, Maternal-Fetal Medicine, Nurse-Midwifery & Level III NICU",
+        "MGH Fertility Center, Gynecologic Oncology & HAVEN Domestic Abuse Advocacy"
+      ]
+    },
+    "categoryBadge": {
+      "en": "24/7 Tertiary Maternity, OB/GYN & Referral Hospital"
+    },
+    "phone": "+1 617-726-2000 / OB-GYN: +1 617-724-2229",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "55 Fruit Street, Boston, MA 02114, United States"
+    },
+    "services": {
+      "en": [
+        "Vincent Department of Obstetrics & Gynecology (Yawkey Center)",
+        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine & SANE Sexual Assault Triage",
+        "HAVEN Confidential Domestic Violence Program (+1 617-724-0054)"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 55 Fruit Street in Downtown/West End Boston (MBTA Red Line to Charles/MGH Station)."
+    }
+  },
+  {
+    "id": "ma-bidmc-boston",
+    "regionDistrict": "Boston, Massachusetts, USA",
+    "type": "hospital",
+    "lat": 42.3389,
+    "lng": -71.1066,
+    "name": {
+      "en": "Beth Israel Deaconess Medical Center (BIDMC)"
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Obstetrics & Gynecology & West Campus Labor & Delivery",
+        "Center for Maternal-Fetal Medicine, Perinatal Diagnostics & Level III NICU",
+        "Center for Violence Prevention and Recovery (CVPR) & Rape Crisis Intervention"
+      ]
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, Perinatal & OB/GYN Referral Hospital"
+    },
+    "phone": "+1 617-667-7000 / OB-GYN: +1 617-667-4600",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "330 Brookline Avenue, Longwood Medical Area, Boston, MA 02215, United States"
+    },
+    "services": {
+      "en": [
+        "Department of Obstetrics & Gynecology & 24/7 Labor and Delivery",
+        "High-Risk Maternal-Fetal Medicine, Fibroid Center & Minimally Invasive GYN Surgery",
+        "Center for Violence Prevention and Recovery (CVPR)"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 330 Brookline Avenue in the Longwood Medical Area, Boston (Green Line D Train to Longwood)."
+    }
+  },
+  {
+    "id": "ma-tufts-medical-center",
+    "regionDistrict": "Boston, Massachusetts, USA",
+    "type": "hospital",
+    "lat": 42.3496,
+    "lng": -71.0635,
+    "name": {
+      "en": "Tufts Medical Center"
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Obstetrics & Gynecology & Mother Infant Center",
+        "Maternal-Fetal Medicine, High-Risk Pregnancy & Perinatal Diagnosis",
+        "Gynecologic Oncology, Urogynecology & Complex Family Planning"
+      ]
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, OB/GYN & Tertiary Medical Center"
+    },
+    "phone": "+1 617-636-5000 / OB-GYN: +1 617-636-8100",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "800 Washington Street, Chinatown / Downtown, Boston, MA 02111, United States"
+    },
+    "services": {
+      "en": [
+        "Department of Obstetrics & Gynecology & Mother Infant Center",
+        "24/7 Labor & Delivery, High-Risk Obstetrics & Multilingual Chinatown Community Care",
+        "Complex Family Planning, Fibroid & Pelvic Floor Care"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 800 Washington Street in Boston (MBTA Orange Line directly to Tufts Medical Center Station)."
+    }
+  },
+  {
+    "id": "ma-mount-auburn-cambridge",
+    "regionDistrict": "Cambridge, Massachusetts, USA",
+    "type": "hospital",
+    "lat": 42.3746,
+    "lng": -71.1342,
+    "name": {
+      "en": "Mount Auburn Hospital (Cambridge)"
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Obstetrics & Gynecology & Certified Nurse-Midwifery Service",
+        "Labor & Delivery, Postpartum Family Unit & Special Care Nursery",
+        "Hoffman Breast Center & Pelvic Floor / Urogynecology Center"
+      ]
+    },
+    "categoryBadge": {
+      "en": "24/7 Maternity, Midwifery & OB/GYN Teaching Hospital"
+    },
+    "phone": "+1 617-492-3500 / OB-GYN: +1 617-499-5160",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "330 Mount Auburn Street, Cambridge, MA 02138, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Obstetrics, Labor & Delivery & Renowned Nurse-Midwifery Program",
+        "Hoffman Breast Center, Gynecology & Menopause Care",
+        "Postpartum Support & Domestic Violence Triage"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 330 Mount Auburn Street along the Charles River in Cambridge, MA (MBTA Bus 71 or 73 from Harvard Square)."
+    }
+  },
+  {
+    "id": "world-hosp-2",
+    "regionDistrict": "Worcester, Massachusetts, USA",
+    "type": "hospital",
+    "lat": 42.2775,
+    "lng": -71.7621,
+    "name": {
+      "en": "UMass Memorial Medical Center (Memorial Campus — Worcester)"
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity Center & Department of Obstetrics and Gynecology",
+        "Maternal-Fetal Medicine, High-Risk Perinatal Unit & Level III NICU",
+        "Comprehensive Gynecology, Urogynecology & Reproductive Endocrinology"
+      ]
+    },
+    "categoryBadge": {
+      "en": "Central Massachusetts Regional Perinatal & OB/GYN Center"
+    },
+    "phone": "+1 508-334-1000 / Maternity: +1 508-334-6678",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "119 Belmont Street, Worcester, MA 01605, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Maternity Center, Labor & Delivery & Level III Neonatal ICU",
+        "High-Risk Maternal-Fetal Medicine & Gynecologic Oncology",
+        "Central Massachusetts Regional Referral Center for Women & Newborns"
+      ]
+    },
+    "directionsText": {
+      "en": "Memorial Campus at 119 Belmont Street (Route 9) in Worcester, MA."
+    }
+  },
+  {
+    "id": "world-safe-2",
+    "regionDistrict": "Worcester, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 42.2618,
+    "lng": -71.8038,
+    "name": {
+      "en": "YWCA Central Massachusetts — Daybreak Domestic Violence Services (Worcester)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Domestic Violence Shelter & Crisis Hotline"
+    },
+    "phone": "+1 508-755-9030 (24/7 Helpline) / +1 508-767-2505",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA) / +1 508-755-9030",
+    "address": {
+      "en": "1 Salem Square, Worcester, MA 01608, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Emergency Domestic Violence Shelter & Helpline (+1 508-755-9030)",
+        "Court Advocacy, Safety Planning, Counseling & Transitional Housing",
+        "Direct Medical Referral to UMass Memorial Maternity & OB/GYN Center"
+      ]
+    },
+    "directionsText": {
+      "en": "Located at 1 Salem Square in Downtown Worcester, MA."
+    }
+  },
+  {
     "id": "latam-dir-safe-1",
     "regionDistrict": "Santiago, Chile",
     "type": "safe-haven",
@@ -6992,146 +7335,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "Rodovia BR-316, Km 3, Atalaia, Ananindeua - PA, 67013-000, Brazil."
-    }
-  },
-  {
-    "id": "world-hosp-1",
-    "regionDistrict": "Boston, Massachusetts, USA",
-    "type": "hospital",
-    "lat": 42.336,
-    "lng": -71.107,
-    "name": {
-      "en": "Brigham & Women’s Hospital — Center for Women & Newborns (Boston, Massachusetts, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 617-732-5500",
-    "emergencyHotline": "911 / 877-785-2020",
-    "address": {
-      "en": "75 Francis St, Boston, MA 02115, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Boston, Massachusetts, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-1",
-    "regionDistrict": "Boston, Massachusetts, USA",
-    "type": "safe-haven",
-    "lat": 42.3385,
-    "lng": -71.1095,
-    "name": {
-      "en": "Casa Myrna Vazquez Domestic Violence Safe Haven (Boston, MA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 877-785-2020",
-    "emergencyHotline": "911 / 877-785-2020",
-    "address": {
-      "en": "178 Main St, Boston, Massachusetts, USA 23418"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Casa Myrna) serving Boston, Massachusetts, USA. Call 911 / 877-785-2020 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-1-u2",
-    "regionDistrict": "Boston, Massachusetts, USA",
-    "type": "safe-haven",
-    "lat": 42.3335,
-    "lng": -71.1045,
-    "name": {
-      "en": "Rosie’s Place Women’s Safe Haven"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 877-785-2020",
-    "emergencyHotline": "911 / 877-785-2020",
-    "address": {
-      "en": "153 Main St, Boston, Massachusetts, USA 67773"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Rosie’s Place Women’s Safe Haven) serving Boston, Massachusetts, USA. Call 911 / 877-785-2020 for confidential intake."
-    }
-  },
-  {
-    "id": "world-hosp-2",
-    "regionDistrict": "Worcester / Western MA, USA",
-    "type": "hospital",
-    "lat": 42.262,
-    "lng": -71.802,
-    "name": {
-      "en": "UMass Memorial Maternity & OB/GYN Center (Worcester / Western MA, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 508-334-1000",
-    "emergencyHotline": "911 / 508-755-9030",
-    "address": {
-      "en": "119 Belmont St, Worcester, MA 01605, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Worcester / Western MA, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-2",
-    "regionDistrict": "Worcester / Western MA, USA",
-    "type": "safe-haven",
-    "lat": 42.2645,
-    "lng": -71.8045,
-    "name": {
-      "en": "YWCA Central Massachusetts Domestic Safe Haven (Worcester / Western MA, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 508-755-9030",
-    "emergencyHotline": "911 / 508-755-9030",
-    "address": {
-      "en": "35 Main St, Worcester / Western MA, USA 16245"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Worcester / Western MA, USA. Call 911 / 508-755-9030 for 24/7 safe intake."
     }
   },
   {
@@ -91073,174 +91276,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "24/7 Women’s Safe Haven (TurnAround Inc.) serving Baltimore & Bethesda, Maryland, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
-    }
-  },
-  {
-    "id": "usa-hosp-4033",
-    "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
-    "type": "hospital",
-    "lat": 42.336,
-    "lng": -71.107,
-    "name": {
-      "en": "Brigham and Women’s Hospital (Boston)"
-    },
-    "categoryBadge": {
-      "en": "Women’s, Maternity & OB/GYN Hospital"
-    },
-    "phone": "+1 617-732-5500 / 1-877-785-2020 (SafeLink MA)",
-    "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
-    "address": {
-      "en": "225 Medical Center Dr, Boston, Worcester & Springfield, Massachusetts, USA 79915"
-    },
-    "services": {
-      "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
-      ]
-    },
-    "directionsText": {
-      "en": "Functioning Hospital (Brigham and Women’s Hospital (Boston)) serving Boston, Worcester & Springfield, Massachusetts, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "usa-hosp-4033-u2",
-    "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
-    "type": "hospital",
-    "lat": 42.3385,
-    "lng": -71.1045,
-    "name": {
-      "en": "Massachusetts General Hospital, Beth Israel Deaconess"
-    },
-    "categoryBadge": {
-      "en": "Women’s, Maternity & OB/GYN Hospital"
-    },
-    "phone": "+1 617-732-5500 / 1-877-785-2020 (SafeLink MA)",
-    "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
-    "address": {
-      "en": "236 Medical Center Dr, Boston, Worcester & Springfield, Massachusetts, USA 87276"
-    },
-    "services": {
-      "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
-      ]
-    },
-    "directionsText": {
-      "en": "Functioning Hospital (Massachusetts General Hospital, Beth Israel Deaconess) serving Boston, Worcester & Springfield, Massachusetts, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "usa-hosp-4033-u3",
-    "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
-    "type": "hospital",
-    "lat": 42.3385,
-    "lng": -71.1045,
-    "name": {
-      "en": "UMass Memorial Medical Center"
-    },
-    "categoryBadge": {
-      "en": "Women’s, Maternity & OB/GYN Hospital"
-    },
-    "phone": "+1 617-732-5500 / 1-877-785-2020 (SafeLink MA)",
-    "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
-    "address": {
-      "en": "139 Medical Center Dr, Boston, Worcester & Springfield, Massachusetts, USA 62919"
-    },
-    "services": {
-      "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
-      ]
-    },
-    "directionsText": {
-      "en": "Functioning Hospital (UMass Memorial Medical Center) serving Boston, Worcester & Springfield, Massachusetts, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "usa-safe-4033",
-    "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
-    "type": "safe-haven",
-    "lat": 42.3385,
-    "lng": -71.1095,
-    "name": {
-      "en": "Casa Myrna (Boston Domestic Violence Shelters)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Violence Shelter"
-    },
-    "phone": "+1 617-732-5500 / 1-877-785-2020 (SafeLink MA)",
-    "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
-    "address": {
-      "en": "78 Main St, Boston, Worcester & Springfield, Massachusetts, USA 73098"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Violence, Sexual Assault & Human Trafficking Safe Shelter",
-        "Emergency Sanctuary, Trauma Counseling, Legal Protection Orders & Housing Advocacy",
-        "Direct 24/7 Hospital Escort & Maternal Health Navigation"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Casa Myrna (Boston Domestic Violence Shelters)) serving Boston, Worcester & Springfield, Massachusetts, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
-    }
-  },
-  {
-    "id": "usa-safe-4033-u2",
-    "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
-    "type": "safe-haven",
-    "lat": 42.3335,
-    "lng": -71.1045,
-    "name": {
-      "en": "Rosie’s Place (First Women’s Sanctuary in the US)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Violence Shelter"
-    },
-    "phone": "+1 617-732-5500 / 1-877-785-2020 (SafeLink MA)",
-    "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
-    "address": {
-      "en": "38 Main St, Boston, Worcester & Springfield, Massachusetts, USA 31508"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Violence, Sexual Assault & Human Trafficking Safe Shelter",
-        "Emergency Sanctuary, Trauma Counseling, Legal Protection Orders & Housing Advocacy",
-        "Direct 24/7 Hospital Escort & Maternal Health Navigation"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Rosie’s Place (First Women’s Sanctuary in the US)) serving Boston, Worcester & Springfield, Massachusetts, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
-    }
-  },
-  {
-    "id": "usa-safe-4033-u3",
-    "regionDistrict": "Boston, Worcester & Springfield, Massachusetts, USA",
-    "type": "safe-haven",
-    "lat": 42.3325,
-    "lng": -71.1095,
-    "name": {
-      "en": "YWCA Central Massachusetts"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Violence Shelter"
-    },
-    "phone": "+1 617-732-5500 / 1-877-785-2020 (SafeLink MA)",
-    "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
-    "address": {
-      "en": "95 Main St, Boston, Worcester & Springfield, Massachusetts, USA 16295"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Violence, Sexual Assault & Human Trafficking Safe Shelter",
-        "Emergency Sanctuary, Trauma Counseling, Legal Protection Orders & Housing Advocacy",
-        "Direct 24/7 Hospital Escort & Maternal Health Navigation"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Central Massachusetts) serving Boston, Worcester & Springfield, Massachusetts, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
     }
   },
   {

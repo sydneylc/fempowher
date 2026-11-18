@@ -4,7 +4,7 @@ import {
   PregHomePageButtons,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=201';
+} from './PregnancyHomePage.js?v=202';
 
 const h = React.createElement;
 
@@ -33,7 +33,7 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=201',
+      gifSrc: './assets/sexual-health-stds.gif?v=202',
       imgClassName:
         'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
       // Original #E04668 background matching the STD GIF background with zero black lines
@@ -59,7 +59,7 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnFistulas', 'Fistulas'),
       subLabel: tr('eduBtnFistulasSub', 'Obstetric & Pelvic Fistulas'),
       targetPage: 'FistulasHomePage1',
-      gifSrc: './assets/diseases-fistulas.gif?v=201',
+      gifSrc: './assets/diseases-fistulas.gif?v=202',
       imgClassName:
         'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
       // Smooth reddish-orange vertical gradient separated where the fistula occurs, matching diseases-fistulas.gif
@@ -86,7 +86,7 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnFibroids', 'Fibroids'),
       subLabel: tr('eduBtnFibroidsSub', 'Uterine Fibroids'),
       targetPage: 'FibroidsHomePage1',
-      gifSrc: './assets/diseases-fibroids.gif?v=201',
+      gifSrc: './assets/diseases-fibroids.gif?v=202',
       imgClassName:
         'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
       // 3-band plum / orchid / deep burgundy background with zero black lines matching diseases-fibroids.gif
@@ -132,19 +132,7 @@ export default function DiseasesAndInjuriesHomePage({
       )
     ),
 
-    // Full-Bleed Banner Buttons (MakingGifButtons1 / PregHomePageButtons): STDs, Fistulas, Fibroids
-    h(MakingGifButtons1, {
-      sections: diseasesBannerButtons,
-      containerClassName: 'w-full grid',
-      containerStyle: { gridTemplateRows: `repeat(${diseasesBannerButtons.length}, 230px)` },
-      onSelectSection: (sec) => {
-        if (onNavigateEducationPage && sec.targetPage) {
-          onNavigateEducationPage(sec.targetPage);
-        }
-      }
-    }),
-
-    // Existing AI-made Reproductive Health Diseases & Injuries Info Bubble below the banner button
+    // Existing AI-made Reproductive Health Diseases & Injuries Info Bubble
     h(
       'div',
       { className: 'max-w-3xl w-full mx-auto p-4 sm:p-6' },

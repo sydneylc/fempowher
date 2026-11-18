@@ -285,10 +285,10 @@
         <div id="canvas-container" class="w-full bg-white flex flex-col items-center justify-center" style="background-color: #ffffff;">
           <svg
             id="anatomy-svg"
-            viewBox="-355 -422 710 865"
+            viewBox="-440 -430 880 880"
             preserveAspectRatio="xMidYMid meet"
             class="select-none bg-white"
-            style="width: auto; height: auto; max-width: 100%; max-height: calc(100vh - 20px); margin: 0 auto; display: block; background-color: #ffffff;"
+            style="width: 100%; height: auto; max-width: 100%; max-height: calc(100vh - 20px); margin: 0 auto; display: block; background-color: #ffffff;"
             xmlns="http://www.w3.org/2000/svg"
           ></svg>
         </div>
@@ -2195,46 +2195,46 @@
       // -----------------------------------------------------------------------
       if (showLabels) {
         const pins = [
-          { id: 'breasts',         x: -255, y: -355, tx: -215, ty: -335, label: 'Breasts' },
-          { id: 'mammary_glands',  x:  255, y: -355, tx:  195, ty: -325, label: 'Mammary Glands' },
-          { id: 'fallopian_tubes', x: -275, y: -115, tx: -175, ty:  -78, label: 'Fallopian Tubes' },
-          { id: 'ovaries',         x: -285, y:   15, tx: -210, ty:   15, label: 'Ovaries & Follicles' },
-          { id: 'egg_ovum',        x:  265, y:   15, tx:  195, ty:   14, label: 'Egg / Ovum' },
-          { id: 'uterus',          x:  245, y:  -95, tx:   76, ty:  -55, label: 'Uterus' },
-          { id: 'endometrium',     x:  245, y:  -25, tx:   66, ty:   -5, label: 'Uterine Lining' },
-          { id: 'cervix',          x:  235, y:  135, tx:   32, ty:  135, label: 'Cervix' },
-          { id: 'vaginal_canal',   x: -235, y:  215, tx:  -42, ty:  215, label: 'Vaginal Canal' },
-          { id: 'clitoris',        x: -235, y:  310, tx:  -12, ty:  315, label: 'Clitoris' },
-          { id: 'labia_majora',    x:  235, y:  330, tx:   62, ty:  345, label: 'Outer Lips (Labia Majora)' },
-          { id: 'labia_minora',    x: -235, y:  375, tx:  -34, ty:  365, label: 'Inner Lips (Labia Minora)' },
-          { id: 'vaginal_opening', x:  235, y:  405, tx:   16, ty:  382, label: 'Vaginal Opening' }
+          { id: 'breasts',         x: -235, y: -355, tx: -215, ty: -335, label: 'Breasts' },
+          { id: 'mammary_glands',  x:  235, y: -355, tx:  195, ty: -325, label: 'Mammary Glands' },
+          { id: 'fallopian_tubes', x: -240, y: -115, tx: -175, ty:  -78, label: 'Fallopian Tubes' },
+          { id: 'ovaries',         x: -245, y:   15, tx: -210, ty:   15, label: 'Ovaries & Follicles' },
+          { id: 'egg_ovum',        x:  235, y:   15, tx:  195, ty:   14, label: 'Egg / Ovum' },
+          { id: 'uterus',          x:  220, y:  -95, tx:   76, ty:  -55, label: 'Uterus' },
+          { id: 'endometrium',     x:  220, y:  -25, tx:   66, ty:   -5, label: 'Uterine Lining' },
+          { id: 'cervix',          x:  210, y:  135, tx:   32, ty:  135, label: 'Cervix' },
+          { id: 'vaginal_canal',   x: -210, y:  215, tx:  -42, ty:  215, label: 'Vaginal Canal' },
+          { id: 'clitoris',        x: -210, y:  310, tx:  -12, ty:  315, label: 'Clitoris' },
+          { id: 'labia_majora',    x:  205, y:  330, tx:   62, ty:  345, label: 'Outer Lips (Labia Majora)' },
+          { id: 'labia_minora',    x: -205, y:  375, tx:  -34, ty:  365, label: 'Inner Lips (Labia Minora)' },
+          { id: 'vaginal_opening', x:  205, y:  405, tx:   16, ty:  382, label: 'Vaginal Opening' }
         ];
         if (isConcepActive) {
           if (conceptionComponentEnabled.fertilized_egg_tube) {
-            pins.push({ id: 'fertilized_egg_tube', x: 255, y: -125, tx: tubeMeetX, ty: tubeMeetY, label: 'Egg in Fallopian Tube' });
+            pins.push({ id: 'fertilized_egg_tube', x: 225, y: -125, tx: tubeMeetX, ty: tubeMeetY, label: 'Egg in Fallopian Tube' });
           }
           if (conceptionComponentEnabled.sperm_cell) {
-            pins.push({ id: 'sperm_cell', x: -265, y: -70, tx: tubeMeetX - 18, ty: tubeMeetY, label: 'Sperm Meeting Egg' });
+            pins.push({ id: 'sperm_cell', x: -235, y: -70, tx: tubeMeetX - 18, ty: tubeMeetY, label: 'Sperm Meeting Egg' });
           }
           if (conceptionComponentEnabled.nestling_egg_uterus) {
-            pins.push({ id: 'nestling_egg_uterus', x: 255, y: -58, tx: nestleX, ty: nestleY, label: 'Egg Nestling in Uterus' });
+            pins.push({ id: 'nestling_egg_uterus', x: 225, y: -58, tx: nestleX, ty: nestleY, label: 'Egg Nestling in Uterus' });
           }
         }
         if (isPregActive) {
           if (pregnancyComponentEnabled.placenta) {
-            pins.push({ id: 'placenta', x: -255, y: -60, tx: pregCenterX - sacRx * 0.42, ty: pregCenterY - sacRy * 0.78, label: 'Placenta' });
+            pins.push({ id: 'placenta', x: -225, y: -60, tx: pregCenterX - sacRx * 0.42, ty: pregCenterY - sacRy * 0.78, label: 'Placenta' });
           }
           if (pregnancyComponentEnabled.umbilical_cord) {
-            pins.push({ id: 'umbilical_cord', x: -265, y: 65, tx: pregCenterX - sacRx * 0.45, ty: pregCenterY, label: 'Umbilical Cord' });
+            pins.push({ id: 'umbilical_cord', x: -235, y: 65, tx: pregCenterX - sacRx * 0.45, ty: pregCenterY, label: 'Umbilical Cord' });
           }
           if (pregnancyComponentEnabled.water_sac) {
-            pins.push({ id: 'water_sac', x: 245, y: 35, tx: pregCenterX + sacRx * 0.85, ty: pregCenterY + 12, label: 'Water Sac' });
+            pins.push({ id: 'water_sac', x: 220, y: 35, tx: pregCenterX + sacRx * 0.85, ty: pregCenterY + 12, label: 'Water Sac' });
           }
           if (pregnancyComponentEnabled.amniotic_fluid) {
-            pins.push({ id: 'amniotic_fluid', x: 245, y: 78, tx: pregCenterX + sacRx * 0.55, ty: pregCenterY + 28, label: 'Amniotic Fluid' });
+            pins.push({ id: 'amniotic_fluid', x: 220, y: 78, tx: pregCenterX + sacRx * 0.55, ty: pregCenterY + 28, label: 'Amniotic Fluid' });
           }
           if (pregnancyComponentEnabled.fetus_baby) {
-            pins.push({ id: 'fetus_baby', x: 245, y: -60, tx: pregCenterX + 8, ty: pregCenterY - 8, label: isFirstTriOnly ? '1st Trimester Embryo Sac' : isSecondTriOnly ? 'Baby (2nd Trimester)' : 'Baby (3rd Trimester)' });
+            pins.push({ id: 'fetus_baby', x: 215, y: -60, tx: pregCenterX + 8, ty: pregCenterY - 8, label: isFirstTriOnly ? '1st Trimester Embryo Sac' : isSecondTriOnly ? 'Baby (2nd Trimester)' : 'Baby (3rd Trimester)' });
           }
         }
         for (const p of pins) {

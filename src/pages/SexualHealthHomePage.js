@@ -3,7 +3,7 @@ import {
   PregHomePageButtons,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=201';
+} from './PregnancyHomePage.js?v=202';
 
 const h = React.createElement;
 
@@ -32,7 +32,7 @@ export default function SexualHealthHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=201',
+      gifSrc: './assets/sexual-health-stds.gif?v=202',
       imgClassName:
         'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
       // Original #E04668 background matching the STD GIF background with zero black lines
@@ -77,19 +77,7 @@ export default function SexualHealthHomePage({
       )
     ),
 
-    // Top Full-Bleed Banner Button: STDs / Sexually Transmitted Diseases (using PregHomePageButtons)
-    h(PregHomePageButtons, {
-      sections: sexualHealthBannerButtons,
-      containerClassName: 'w-full grid',
-      containerStyle: { gridTemplateRows: '230px' },
-      onSelectSection: (sec) => {
-        if (onNavigateEducationPage && sec.targetPage) {
-          onNavigateEducationPage(sec.targetPage);
-        }
-      }
-    }),
-
-    // Existing AI-made Sexual Health Info Bubble below the banner button for now
+    // Existing AI-made Sexual Health Info Bubble
     h(
       'div',
       { className: 'max-w-3xl w-full mx-auto p-4 sm:p-6' },

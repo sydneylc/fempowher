@@ -1,5 +1,5 @@
 // Regions, Upazila District Polygons (matching the Cox's Bazar sketch), Women's Safe Havens, OB/GYN Clinics, Emergency Contacts & Public Health News
-import { WORLD_CENTERS_DIRECTORY } from './worldCentersDirectory.js?v=203';
+import { WORLD_CENTERS_DIRECTORY } from './worldCentersDirectory.js?v=204';
 
 export const FEATURED_REGIONS = [
   {
@@ -290,34 +290,6 @@ export const CLINICS_BY_REGION = {
         rhg: 'Quetta.',
         bn: 'কোয়েটা।',
         so: 'Quetta.'}
-    },
-    {
-      id: 'global-ny-bellevue',
-      regionDistrict: 'New York, USA',
-      type: 'hospital',
-      lat: 40.739,
-      lng: -73.975,
-      name: {
-        en: 'NYC Health + Hospitals / Bellevue OB/GYN & Maternal Center (New York)'
-      },
-      categoryBadge: {
-        en: '24/7 Public Hospital & OB/GYN Sanctuary Care'
-      },
-      phone: '+1-212-562-4141',
-      emergencyHotline: '911 / 1-800-621-4673',
-      address: {
-        en: '462 First Avenue, New York, NY 10016, USA'
-      },
-      services: {
-        en: [
-          '24/7 Emergency Obstetrics, Gynecology & Midwifery',
-          'Care Regardless of Immigration Status or Ability to Pay',
-          '200+ Language Medical Interpretation'
-        ]
-      },
-      directionsText: {
-        en: 'First Avenue at 27th Street, Manhattan, New York.'
-      }
     },
     {
       id: 'global-mexico-city-safe',

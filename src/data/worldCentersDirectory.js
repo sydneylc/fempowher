@@ -10,15 +10,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "name": {
       "en": "Brigham and Women’s Hospital (Main Campus — Boston)"
     },
-    "pertinentCenters": {
-      "en": [
-        "Center for Women & Newborns (Mary Horrigan Connors Center)",
-        "Department of Obstetrics & Gynecology, Labor & Delivery & Level III NICU",
-        "Maternal-Fetal Medicine, Reproductive Medicine & Passageway Domestic Abuse Program"
-      ]
-    },
     "categoryBadge": {
-      "en": "24/7 Women’s, Maternity & Tertiary OB/GYN Hospital"
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
     },
     "phone": "+1 617-732-5500 / OB-GYN: +1 617-732-4208",
     "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
@@ -28,12 +21,19 @@ export const WORLD_CENTERS_DIRECTORY = [
     "services": {
       "en": [
         "Center for Women & Newborns (Mary Horrigan Connors Center)",
-        "24/7 Obstetrics, Labor & Delivery, High-Risk Maternal-Fetal Medicine & Level III NICU",
-        "Comprehensive Gynecology, Fibroid/Minimally Invasive Surgery & Passageway DV Advocacy"
+        "Department of Obstetrics & Gynecology, Labor & Delivery & Level III NICU",
+        "Maternal-Fetal Medicine, Reproductive Medicine & Passageway Domestic Abuse Program"
       ]
     },
     "directionsText": {
-      "en": "Main Campus at 75 Francis Street in the Longwood Medical Area, Boston (Green Line E Train to Brigham Circle)."
+      "en": "Brigham and Women’s Hospital (Main Campus — Boston) at 75 Francis Street, Longwood Medical Area, Boston, MA 02115, United States. Tel: +1 617-732-5500 / OB-GYN: +1 617-732-4208."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Center for Women & Newborns (Mary Horrigan Connors Center)",
+        "Department of Obstetrics & Gynecology, Labor & Delivery & Level III NICU",
+        "Maternal-Fetal Medicine, Reproductive Medicine & Passageway Domestic Abuse Program"
+      ]
     }
   },
   {
@@ -45,15 +45,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "name": {
       "en": "Brigham and Women’s Faulkner Hospital (Jamaica Plain)"
     },
-    "pertinentCenters": {
-      "en": [
-        "Brigham Obstetrics & Gynecology Group (Faulkner Campus)",
-        "Comprehensive Breast Health Center & Women’s Diagnostic Imaging",
-        "Gynecologic Surgery & Passageway Domestic Violence Support"
-      ]
-    },
     "categoryBadge": {
-      "en": "Community Teaching Hospital & BWH Women’s Health Campus"
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
     },
     "phone": "+1 617-983-7000 / OB-GYN: +1 617-983-7003",
     "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
@@ -63,12 +56,19 @@ export const WORLD_CENTERS_DIRECTORY = [
     "services": {
       "en": [
         "Brigham Obstetrics & Gynecology Group (Faulkner Campus)",
-        "24/7 Emergency Department, Gynecologic Surgery & Comprehensive Breast Center",
-        "Passageway Domestic Abuse Intervention & Multilingual Interpreter Services"
+        "Comprehensive Breast Health Center & Women’s Diagnostic Imaging",
+        "Gynecologic Surgery & Passageway Domestic Violence Support"
       ]
     },
     "directionsText": {
-      "en": "Located at 1153 Centre Street in Jamaica Plain, Boston (opposite the Arnold Arboretum; MBTA Bus 39 or Orange Line to Forest Hills)."
+      "en": "Brigham and Women’s Faulkner Hospital (Jamaica Plain) at 1153 Centre Street, Jamaica Plain, Boston, MA 02130, United States. Tel: +1 617-983-7000 / OB-GYN: +1 617-983-7003."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Brigham Obstetrics & Gynecology Group (Faulkner Campus)",
+        "Comprehensive Breast Health Center & Women’s Diagnostic Imaging",
+        "Gynecologic Surgery & Passageway Domestic Violence Support"
+      ]
     }
   },
   {
@@ -80,15 +80,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "name": {
       "en": "Brigham and Women’s / Mass General Brigham Healthcare Center (Foxborough)"
     },
-    "pertinentCenters": {
-      "en": [
-        "Brigham and Women’s Obstetrics & Gynecology Outpatient Clinic",
-        "Prenatal & Postpartum Care, Routine Gynecology & Colposcopy",
-        "Women’s Diagnostic Imaging & Mammography"
-      ]
-    },
     "categoryBadge": {
-      "en": "Brigham & Women’s Regional OB/GYN & Specialty Center"
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
     },
     "phone": "+1 508-718-4000 / Appointments: +1 866-378-9174",
     "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
@@ -98,12 +91,19 @@ export const WORLD_CENTERS_DIRECTORY = [
     "services": {
       "en": [
         "Brigham and Women’s Obstetrics & Gynecology Outpatient Clinic",
-        "Comprehensive Prenatal, Postpartum & Well-Woman Gynecological Care",
-        "Direct Maternal Care Coordination with BWH 75 Francis St Labor & Delivery"
+        "Prenatal & Postpartum Care, Routine Gynecology & Colposcopy",
+        "Women’s Diagnostic Imaging & Mammography"
       ]
     },
     "directionsText": {
-      "en": "Located at 20 Patriot Place off Route 1 in Foxborough, MA."
+      "en": "Brigham and Women’s / Mass General Brigham Healthcare Center (Foxborough) at 20 Patriot Place, Foxborough, MA 02035, United States. Tel: +1 508-718-4000 / Appointments: +1 866-378-9174."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Brigham and Women’s Obstetrics & Gynecology Outpatient Clinic",
+        "Prenatal & Postpartum Care, Routine Gynecology & Colposcopy",
+        "Women’s Diagnostic Imaging & Mammography"
+      ]
     }
   },
   {
@@ -115,30 +115,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "name": {
       "en": "Boston Medical Center (BMC)"
     },
-    "pertinentCenters": {
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 617-638-8000 / OB-GYN: +1 617-414-2000",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "850 Harrison Avenue (Yawkey Center), South End, Boston, MA 02118, United States"
+    },
+    "services": {
       "en": [
         "Women’s Health Center & Department of Obstetrics & Gynecology (Yawkey Center, 5th Floor)",
         "Labor & Delivery, Birth Sisters Multicultural Midwifery & Level III NICU",
         "Refugee Women’s Health Clinic (Bridging Clinic), Project RESPECT & Domestic Violence Program"
       ]
     },
-    "categoryBadge": {
-      "en": "24/7 Safety-Net Maternity, Trauma & OB/GYN Hospital"
-    },
-    "phone": "+1 617-638-8000 / OB-GYN: +1 617-414-2000",
-    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
-    "address": {
-      "en": "850 Harrison Avenue (Yawkey Center) / 1 Boston Medical Center Place, Boston, MA 02118, United States"
-    },
-    "services": {
-      "en": [
-        "Women’s Health Center & 24/7 Emergency Obstetrics, Labor & Delivery & Midwifery",
-        "Refugee Women’s Health Clinic (Female Genital Cutting/Fistula & Culturally Sensitive Care)",
-        "Project RESPECT (Perinatal Substance Use Recovery) & On-Site Domestic Violence Program"
-      ]
-    },
     "directionsText": {
-      "en": "Located in Boston’s South End at 850 Harrison Ave / 725 Albany St (MBTA Silver Line SL4/SL5 or Bus 1, 8, 10, 47, CT1)."
+      "en": "Boston Medical Center (BMC) at 850 Harrison Avenue (Yawkey Center), South End, Boston, MA 02118, United States. Tel: +1 617-638-8000 / OB-GYN: +1 617-414-2000."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Health Center & Department of Obstetrics & Gynecology (Yawkey Center, 5th Floor)",
+        "Labor & Delivery, Birth Sisters Multicultural Midwifery & Level III NICU",
+        "Refugee Women’s Health Clinic (Bridging Clinic), Project RESPECT & Domestic Violence Program"
+      ]
     }
   },
   {
@@ -150,15 +150,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "name": {
       "en": "Massachusetts General Hospital (MGH)"
     },
-    "pertinentCenters": {
-      "en": [
-        "Vincent Department of Obstetrics & Gynecology (Yawkey Center for Outpatient Care)",
-        "Labor & Delivery, Maternal-Fetal Medicine, Nurse-Midwifery & Level III NICU",
-        "MGH Fertility Center, Gynecologic Oncology & HAVEN Domestic Abuse Advocacy"
-      ]
-    },
     "categoryBadge": {
-      "en": "24/7 Tertiary Maternity, OB/GYN & Referral Hospital"
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
     },
     "phone": "+1 617-726-2000 / OB-GYN: +1 617-724-2229",
     "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
@@ -167,13 +160,20 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "services": {
       "en": [
-        "Vincent Department of Obstetrics & Gynecology (Yawkey Center)",
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine & SANE Sexual Assault Triage",
-        "HAVEN Confidential Domestic Violence Program (+1 617-724-0054)"
+        "Vincent Department of Obstetrics & Gynecology (Yawkey Center for Outpatient Care)",
+        "Labor & Delivery, Maternal-Fetal Medicine, Nurse-Midwifery & Level III NICU",
+        "MGH Fertility Center, Gynecologic Oncology & HAVEN Domestic Abuse Advocacy"
       ]
     },
     "directionsText": {
-      "en": "Located at 55 Fruit Street in Downtown/West End Boston (MBTA Red Line to Charles/MGH Station)."
+      "en": "Massachusetts General Hospital (MGH) at 55 Fruit Street, Boston, MA 02114, United States. Tel: +1 617-726-2000 / OB-GYN: +1 617-724-2229."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Vincent Department of Obstetrics & Gynecology (Yawkey Center for Outpatient Care)",
+        "Labor & Delivery, Maternal-Fetal Medicine, Nurse-Midwifery & Level III NICU",
+        "MGH Fertility Center, Gynecologic Oncology & HAVEN Domestic Abuse Advocacy"
+      ]
     }
   },
   {
@@ -185,15 +185,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "name": {
       "en": "Beth Israel Deaconess Medical Center (BIDMC)"
     },
-    "pertinentCenters": {
-      "en": [
-        "Department of Obstetrics & Gynecology & West Campus Labor & Delivery",
-        "Center for Maternal-Fetal Medicine, Perinatal Diagnostics & Level III NICU",
-        "Center for Violence Prevention and Recovery (CVPR) & Rape Crisis Intervention"
-      ]
-    },
     "categoryBadge": {
-      "en": "24/7 Maternity, Perinatal & OB/GYN Referral Hospital"
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
     },
     "phone": "+1 617-667-7000 / OB-GYN: +1 617-667-4600",
     "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
@@ -202,13 +195,20 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "services": {
       "en": [
-        "Department of Obstetrics & Gynecology & 24/7 Labor and Delivery",
-        "High-Risk Maternal-Fetal Medicine, Fibroid Center & Minimally Invasive GYN Surgery",
-        "Center for Violence Prevention and Recovery (CVPR)"
+        "Department of Obstetrics & Gynecology & West Campus Labor & Delivery",
+        "Center for Maternal-Fetal Medicine, Perinatal Diagnostics & Level III NICU",
+        "Center for Violence Prevention and Recovery (CVPR) & Rape Crisis Intervention"
       ]
     },
     "directionsText": {
-      "en": "Located at 330 Brookline Avenue in the Longwood Medical Area, Boston (Green Line D Train to Longwood)."
+      "en": "Beth Israel Deaconess Medical Center (BIDMC) at 330 Brookline Avenue, Longwood Medical Area, Boston, MA 02215, United States. Tel: +1 617-667-7000 / OB-GYN: +1 617-667-4600."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Obstetrics & Gynecology & West Campus Labor & Delivery",
+        "Center for Maternal-Fetal Medicine, Perinatal Diagnostics & Level III NICU",
+        "Center for Violence Prevention and Recovery (CVPR) & Rape Crisis Intervention"
+      ]
     }
   },
   {
@@ -220,15 +220,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "name": {
       "en": "Tufts Medical Center"
     },
-    "pertinentCenters": {
-      "en": [
-        "Department of Obstetrics & Gynecology & Mother Infant Center",
-        "Maternal-Fetal Medicine, High-Risk Pregnancy & Perinatal Diagnosis",
-        "Gynecologic Oncology, Urogynecology & Complex Family Planning"
-      ]
-    },
     "categoryBadge": {
-      "en": "24/7 Maternity, OB/GYN & Tertiary Medical Center"
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
     },
     "phone": "+1 617-636-5000 / OB-GYN: +1 617-636-8100",
     "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
@@ -238,12 +231,19 @@ export const WORLD_CENTERS_DIRECTORY = [
     "services": {
       "en": [
         "Department of Obstetrics & Gynecology & Mother Infant Center",
-        "24/7 Labor & Delivery, High-Risk Obstetrics & Multilingual Chinatown Community Care",
-        "Complex Family Planning, Fibroid & Pelvic Floor Care"
+        "Maternal-Fetal Medicine, High-Risk Pregnancy & Perinatal Diagnosis",
+        "Gynecologic Oncology, Urogynecology & Complex Family Planning"
       ]
     },
     "directionsText": {
-      "en": "Located at 800 Washington Street in Boston (MBTA Orange Line directly to Tufts Medical Center Station)."
+      "en": "Tufts Medical Center at 800 Washington Street, Chinatown / Downtown, Boston, MA 02111, United States. Tel: +1 617-636-5000 / OB-GYN: +1 617-636-8100."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Obstetrics & Gynecology & Mother Infant Center",
+        "Maternal-Fetal Medicine, High-Risk Pregnancy & Perinatal Diagnosis",
+        "Gynecologic Oncology, Urogynecology & Complex Family Planning"
+      ]
     }
   },
   {
@@ -255,15 +255,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "name": {
       "en": "Mount Auburn Hospital (Cambridge)"
     },
-    "pertinentCenters": {
-      "en": [
-        "Department of Obstetrics & Gynecology & Certified Nurse-Midwifery Service",
-        "Labor & Delivery, Postpartum Family Unit & Special Care Nursery",
-        "Hoffman Breast Center & Pelvic Floor / Urogynecology Center"
-      ]
-    },
     "categoryBadge": {
-      "en": "24/7 Maternity, Midwifery & OB/GYN Teaching Hospital"
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
     },
     "phone": "+1 617-492-3500 / OB-GYN: +1 617-499-5160",
     "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
@@ -272,13 +265,20 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "services": {
       "en": [
-        "24/7 Obstetrics, Labor & Delivery & Renowned Nurse-Midwifery Program",
-        "Hoffman Breast Center, Gynecology & Menopause Care",
-        "Postpartum Support & Domestic Violence Triage"
+        "Department of Obstetrics & Gynecology & Certified Nurse-Midwifery Service",
+        "Labor & Delivery, Postpartum Family Unit & Special Care Nursery",
+        "Hoffman Breast Center & Pelvic Floor / Urogynecology Center"
       ]
     },
     "directionsText": {
-      "en": "Located at 330 Mount Auburn Street along the Charles River in Cambridge, MA (MBTA Bus 71 or 73 from Harvard Square)."
+      "en": "Mount Auburn Hospital (Cambridge) at 330 Mount Auburn Street, Cambridge, MA 02138, United States. Tel: +1 617-492-3500 / OB-GYN: +1 617-499-5160."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Obstetrics & Gynecology & Certified Nurse-Midwifery Service",
+        "Labor & Delivery, Postpartum Family Unit & Special Care Nursery",
+        "Hoffman Breast Center & Pelvic Floor / Urogynecology Center"
+      ]
     }
   },
   {
@@ -290,15 +290,8 @@ export const WORLD_CENTERS_DIRECTORY = [
     "name": {
       "en": "UMass Memorial Medical Center (Memorial Campus — Worcester)"
     },
-    "pertinentCenters": {
-      "en": [
-        "Maternity Center & Department of Obstetrics and Gynecology",
-        "Maternal-Fetal Medicine, High-Risk Perinatal Unit & Level III NICU",
-        "Comprehensive Gynecology, Urogynecology & Reproductive Endocrinology"
-      ]
-    },
     "categoryBadge": {
-      "en": "Central Massachusetts Regional Perinatal & OB/GYN Center"
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
     },
     "phone": "+1 508-334-1000 / Maternity: +1 508-334-6678",
     "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
@@ -307,13 +300,277 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "services": {
       "en": [
-        "24/7 Maternity Center, Labor & Delivery & Level III Neonatal ICU",
-        "High-Risk Maternal-Fetal Medicine & Gynecologic Oncology",
-        "Central Massachusetts Regional Referral Center for Women & Newborns"
+        "Maternity Center & Department of Obstetrics and Gynecology",
+        "Maternal-Fetal Medicine, High-Risk Perinatal Unit & Level III NICU",
+        "Comprehensive Gynecology, Urogynecology & Reproductive Endocrinology"
       ]
     },
     "directionsText": {
-      "en": "Memorial Campus at 119 Belmont Street (Route 9) in Worcester, MA."
+      "en": "UMass Memorial Medical Center (Memorial Campus — Worcester) at 119 Belmont Street, Worcester, MA 01605, United States. Tel: +1 508-334-1000 / Maternity: +1 508-334-6678."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity Center & Department of Obstetrics and Gynecology",
+        "Maternal-Fetal Medicine, High-Risk Perinatal Unit & Level III NICU",
+        "Comprehensive Gynecology, Urogynecology & Reproductive Endocrinology"
+      ]
+    }
+  },
+  {
+    "id": "ma-baystate-springfield",
+    "regionDistrict": "Springfield, Massachusetts, USA",
+    "type": "hospital",
+    "lat": 42.1194,
+    "lng": -72.6033,
+    "name": {
+      "en": "Baystate Medical Center (Springfield)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 413-794-0000",
+    "emergencyHotline": "911 / 1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "759 Chestnut Street, Springfield, MA 01199, United States"
+    },
+    "services": {
+      "en": [
+        "Wesson Women & Infants’ Unit & Department of Obstetrics and Gynecology",
+        "Regional Perinatal Center, High-Risk Maternal-Fetal Medicine & Level III NICU"
+      ]
+    },
+    "directionsText": {
+      "en": "Baystate Medical Center (Springfield) at 759 Chestnut Street, Springfield, MA 01199, United States. Tel: +1 413-794-0000."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Wesson Women & Infants’ Unit & Department of Obstetrics and Gynecology",
+        "Regional Perinatal Center, High-Risk Maternal-Fetal Medicine & Level III NICU"
+      ]
+    }
+  },
+  {
+    "id": "usa-ma-boston-rosies-place-harrison-ave",
+    "regionDistrict": "Boston, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 42.33409,
+    "lng": -71.0769,
+    "name": {
+      "en": "Rosie’s Place (Women’s Sanctuary & Shelter — Boston)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 617-442-9322",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "889 Harrison Avenue, South End, Boston, MA 02118, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Rosie’s Place (Women’s Sanctuary & Shelter — Boston) at 889 Harrison Avenue, South End, Boston, MA 02118, United States. Tel: +1 617-442-9322."
+    }
+  },
+  {
+    "id": "usa-ma-boston-casa-myrna-blue-hill-ave",
+    "regionDistrict": "Dorchester / Roxbury, Boston, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 42.30989,
+    "lng": -71.08262,
+    "name": {
+      "en": "Casa Myrna (Domestic Violence Shelters & SafeLink 24/7 Statewide Hotline)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 877-785-2020 / +1 617-521-0100",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA 24/7)",
+    "address": {
+      "en": "451 Blue Hill Avenue, Grove Hall / Dorchester, Boston, MA 02121, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Casa Myrna (Domestic Violence Shelters & SafeLink 24/7 Statewide Hotline) at 451 Blue Hill Avenue, Grove Hall / Dorchester, Boston, MA 02121, United States. Tel: +1 877-785-2020 / +1 617-521-0100."
+    }
+  },
+  {
+    "id": "usa-ma-boston-womens-lunch-place",
+    "regionDistrict": "Boston, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 42.35212,
+    "lng": -71.07374,
+    "name": {
+      "en": "Women’s Lunch Place (Day Sanctuary, Health & Advocacy for Women)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 617-267-0200",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "67 Newbury Street, Back Bay, Boston, MA 02116, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Women’s Lunch Place (Day Sanctuary, Health & Advocacy for Women) at 67 Newbury Street, Back Bay, Boston, MA 02116, United States. Tel: +1 617-267-0200."
+    }
+  },
+  {
+    "id": "usa-ma-boston-woods-mullen-shelter",
+    "regionDistrict": "Boston, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 42.3331,
+    "lng": -71.0748,
+    "name": {
+      "en": "Woods-Mullen Shelter (Boston Public Health Commission Women’s Shelter)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 617-534-7101",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "794 Massachusetts Avenue, South End, Boston, MA 02118, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Woods-Mullen Shelter (Boston Public Health Commission Women’s Shelter) at 794 Massachusetts Avenue, South End, Boston, MA 02118, United States. Tel: +1 617-534-7101."
+    }
+  },
+  {
+    "id": "usa-ma-boston-missionaries-of-charity",
+    "regionDistrict": "Dorchester, Boston, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 42.3095,
+    "lng": -71.0645,
+    "name": {
+      "en": "Missionaries of Charity — Queen of Peace Women’s Shelter (Dorchester)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 617-288-4182",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "401 Quincy Street, Dorchester, Boston, MA 02125, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Missionaries of Charity — Queen of Peace Women’s Shelter (Dorchester) at 401 Quincy Street, Dorchester, Boston, MA 02125, United States. Tel: +1 617-288-4182."
+    }
+  },
+  {
+    "id": "usa-ma-cambridge-on-the-rise",
+    "regionDistrict": "Cambridge, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 42.37022,
+    "lng": -71.10267,
+    "name": {
+      "en": "On The Rise Women’s Safe Haven (Cambridge)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 617-497-7968",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "341 Broadway, Cambridge, MA 02139, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "On The Rise Women’s Safe Haven (Cambridge) at 341 Broadway, Cambridge, MA 02139, United States. Tel: +1 617-497-7968."
+    }
+  },
+  {
+    "id": "usa-ma-somerville-st-patricks-shelter",
+    "regionDistrict": "Somerville, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 42.3802,
+    "lng": -71.0954,
+    "name": {
+      "en": "St. Patrick’s Women’s Shelter (Catholic Charities — Somerville)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 617-628-3015",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "270 Washington Street, Somerville, MA 02143, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "St. Patrick’s Women’s Shelter (Catholic Charities — Somerville) at 270 Washington Street, Somerville, MA 02143, United States. Tel: +1 617-628-3015."
+    }
+  },
+  {
+    "id": "usa-ma-milford-gan-rivkah",
+    "regionDistrict": "Milford, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 42.1565,
+    "lng": -71.5173,
+    "name": {
+      "en": "Gan Rivkah Women’s Center (Milford)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 508-838-6151",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "18 Cedar Street, Milford, MA 01757, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Gan Rivkah Women’s Center (Milford) at 18 Cedar Street, Milford, MA 01757, United States. Tel: +1 508-838-6151."
     }
   },
   {
@@ -326,22 +583,50 @@ export const WORLD_CENTERS_DIRECTORY = [
       "en": "YWCA Central Massachusetts — Daybreak Domestic Violence Services (Worcester)"
     },
     "categoryBadge": {
-      "en": "24/7 Domestic Violence Shelter & Crisis Hotline"
+      "en": "24/7 Women’s Safe Haven & Shelter"
     },
     "phone": "+1 508-755-9030 (24/7 Helpline) / +1 508-767-2505",
-    "emergencyHotline": "1-877-785-2020 (SafeLink MA) / +1 508-755-9030",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA)",
     "address": {
       "en": "1 Salem Square, Worcester, MA 01608, United States"
     },
     "services": {
       "en": [
-        "24/7 Confidential Emergency Domestic Violence Shelter & Helpline (+1 508-755-9030)",
-        "Court Advocacy, Safety Planning, Counseling & Transitional Housing",
-        "Direct Medical Referral to UMass Memorial Maternity & OB/GYN Center"
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
       ]
     },
     "directionsText": {
-      "en": "Located at 1 Salem Square in Downtown Worcester, MA."
+      "en": "YWCA Central Massachusetts — Daybreak Domestic Violence Services (Worcester) at 1 Salem Square, Worcester, MA 01608, United States. Tel: +1 508-755-9030 (24/7 Helpline) / +1 508-767-2505."
+    }
+  },
+  {
+    "id": "za-safe-user-19",
+    "regionDistrict": "New Bedford, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 41.6356,
+    "lng": -70.9289,
+    "name": {
+      "en": "The Women’s Center (Domestic Abuse & Crisis Treatment Center — New Bedford)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 508-996-3343 / 24-Hr Hotline: +1 508-999-6636",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "405 County Street, New Bedford, MA 02740, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "The Women’s Center (Domestic Abuse & Crisis Treatment Center — New Bedford) at 405 County Street, New Bedford, MA 02740, United States. Tel: +1 508-996-3343 / 24-Hr Hotline: +1 508-999-6636."
     }
   },
   {
@@ -7338,1042 +7623,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "world-hosp-3",
-    "regionDistrict": "New York City, NY, USA",
-    "type": "hospital",
-    "lat": 40.739,
-    "lng": -73.975,
-    "name": {
-      "en": "NYC Health + Hospitals / Bellevue Women’s Center (New York City, NY, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 212-562-4141",
-    "emergencyHotline": "911 / 1-800-621-4673",
-    "address": {
-      "en": "462 First Ave, New York, NY 10016, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving New York City, NY, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-3",
-    "regionDistrict": "New York City, NY, USA",
-    "type": "safe-haven",
-    "lat": 40.7415,
-    "lng": -73.9775,
-    "name": {
-      "en": "Sanctuary for Families Women’s Safe Haven NYC (New York City, NY, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 758 5105",
-    "emergencyHotline": "911 / 1-800-621-4673",
-    "address": {
-      "en": "44 Main St, New York City, NY, USA 37344"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving New York City, NY, USA. Call 911 / 1-800-621-4673 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-4",
-    "regionDistrict": "Buffalo / Upstate NY, USA",
-    "type": "hospital",
-    "lat": 42.886,
-    "lng": -78.878,
-    "name": {
-      "en": "Oishei Children’s & Women’s Maternity Hospital (Buffalo / Upstate NY, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 716-323-2000",
-    "emergencyHotline": "911 / 716-884-6000",
-    "address": {
-      "en": "818 Ellicott St, Buffalo, NY 14203, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Buffalo / Upstate NY, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-4",
-    "regionDistrict": "Buffalo / Upstate NY, USA",
-    "type": "safe-haven",
-    "lat": 42.8885,
-    "lng": -78.8805,
-    "name": {
-      "en": "Haven House Domestic Violence Shelter Buffalo (Buffalo / Upstate NY, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 716-884-6000",
-    "emergencyHotline": "911 / 716-884-6000",
-    "address": {
-      "en": "124 Main St, Buffalo / Upstate NY, USA 29174"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Buffalo / Upstate NY, USA. Call 911 / 716-884-6000 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-5",
-    "regionDistrict": "Philadelphia, PA, USA",
-    "type": "hospital",
-    "lat": 39.952,
-    "lng": -75.165,
-    "name": {
-      "en": "Pennsylvania Hospital — Women & Infants Center (Philadelphia, PA, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 215-829-3000",
-    "emergencyHotline": "911 / 1-866-723-3014",
-    "address": {
-      "en": "800 Spruce St, Philadelphia, PA 19107, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Philadelphia, PA, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-5",
-    "regionDistrict": "Philadelphia, PA, USA",
-    "type": "safe-haven",
-    "lat": 39.9545,
-    "lng": -75.1675,
-    "name": {
-      "en": "Women Against Abuse Safe Haven Philadelphia (Philadelphia, PA, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 790 3888",
-    "emergencyHotline": "911 / 1-866-723-3014",
-    "address": {
-      "en": "224 Main St, Philadelphia, PA, USA 81234"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Philadelphia, PA, USA. Call 911 / 1-866-723-3014 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-6",
-    "regionDistrict": "Pittsburgh, PA, USA",
-    "type": "hospital",
-    "lat": 40.44,
-    "lng": -79.995,
-    "name": {
-      "en": "UPMC Magee-Womens Hospital (Pittsburgh, PA, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 412-641-1000",
-    "emergencyHotline": "911 / 412-687-8005",
-    "address": {
-      "en": "300 Halket St, Pittsburgh, PA 15213, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Pittsburgh, PA, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-6",
-    "regionDistrict": "Pittsburgh, PA, USA",
-    "type": "safe-haven",
-    "lat": 40.4425,
-    "lng": -79.9975,
-    "name": {
-      "en": "Women’s Center & Shelter of Greater Pittsburgh (Pittsburgh, PA, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 412-687-8005",
-    "emergencyHotline": "911 / 412-687-8005",
-    "address": {
-      "en": "10 Main St, Pittsburgh, PA, USA 99880"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Pittsburgh, PA, USA. Call 911 / 412-687-8005 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-7",
-    "regionDistrict": "Washington, D.C., USA",
-    "type": "hospital",
-    "lat": 38.907,
-    "lng": -77.036,
-    "name": {
-      "en": "MedStar Washington Women & Infants Hospital (Washington, D.C., USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 202-877-7000",
-    "emergencyHotline": "911 / 1-844-443-5732",
-    "address": {
-      "en": "110 Irving St NW, Washington, DC 20010, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Washington, D.C., USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-7",
-    "regionDistrict": "Washington, D.C., USA",
-    "type": "safe-haven",
-    "lat": 38.9095,
-    "lng": -77.0385,
-    "name": {
-      "en": "House of Ruth Domestic Violence Safe Shelter (Washington, D.C.)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 912 2671",
-    "emergencyHotline": "911 / 1-844-443-5732",
-    "address": {
-      "en": "212 Main St, Washington, D.C., USA 71012"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (House of Ruth) serving Washington, D.C., USA. Call 911 / 1-844-443-5732 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-7-u2",
-    "regionDistrict": "Washington, D.C., USA",
-    "type": "safe-haven",
-    "lat": 38.9045,
-    "lng": -77.0335,
-    "name": {
-      "en": "My Sister’s Place Safe Haven DC"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 377 3283",
-    "emergencyHotline": "911 / 1-844-443-5732",
-    "address": {
-      "en": "38 Main St, Washington, D.C., USA 64808"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (My Sister’s Place Safe Haven DC) serving Washington, D.C., USA. Call 911 / 1-844-443-5732 for confidential intake."
-    }
-  },
-  {
-    "id": "world-hosp-8",
-    "regionDistrict": "Baltimore, Maryland, USA",
-    "type": "hospital",
-    "lat": 39.29,
-    "lng": -76.612,
-    "name": {
-      "en": "Johns Hopkins Women’s & Maternal Health Center (Baltimore, Maryland, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 410-955-5000",
-    "emergencyHotline": "911 / 410-889-7884",
-    "address": {
-      "en": "1800 Orleans St, Baltimore, MD 21287, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Baltimore, Maryland, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-8",
-    "regionDistrict": "Baltimore, Maryland, USA",
-    "type": "safe-haven",
-    "lat": 39.2925,
-    "lng": -76.6145,
-    "name": {
-      "en": "House of Ruth Maryland Domestic Abuse Shelter (Baltimore, Maryland, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 410-889-7884",
-    "emergencyHotline": "911 / 410-889-7884",
-    "address": {
-      "en": "157 Main St, Baltimore, Maryland, USA 93077"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Baltimore, Maryland, USA. Call 911 / 410-889-7884 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-9",
-    "regionDistrict": "Richmond, Virginia, USA",
-    "type": "hospital",
-    "lat": 37.54,
-    "lng": -77.436,
-    "name": {
-      "en": "VCU Health Women’s & Maternity Hospital (Richmond, Virginia, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 804-828-9000",
-    "emergencyHotline": "911 / 804-612-6126",
-    "address": {
-      "en": "1250 E Marshall St, Richmond, VA 23298, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Richmond, Virginia, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-9",
-    "regionDistrict": "Richmond, Virginia, USA",
-    "type": "safe-haven",
-    "lat": 37.5425,
-    "lng": -77.4385,
-    "name": {
-      "en": "Safe Harbor Shelter & Domestic Violence Center (Richmond, Virginia, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 804-612-6126",
-    "emergencyHotline": "911 / 804-612-6126",
-    "address": {
-      "en": "181 Main St, Richmond, Virginia, USA 52511"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Richmond, Virginia, USA. Call 911 / 804-612-6126 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-10",
-    "regionDistrict": "Charlotte, North Carolina, USA",
-    "type": "hospital",
-    "lat": 35.227,
-    "lng": -80.843,
-    "name": {
-      "en": "Atrium Health CMC Women’s OB/GYN Center (Charlotte, North Carolina, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 704-355-2000",
-    "emergencyHotline": "911 / 980-771-4673",
-    "address": {
-      "en": "1000 Blythe Blvd, Charlotte, NC 28203, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Charlotte, North Carolina, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-10",
-    "regionDistrict": "Charlotte, North Carolina, USA",
-    "type": "safe-haven",
-    "lat": 35.2295,
-    "lng": -80.8455,
-    "name": {
-      "en": "Safe Alliance Domestic Violence Shelter Charlotte (Charlotte, North Carolina, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 980-771-4673",
-    "emergencyHotline": "911 / 980-771-4673",
-    "address": {
-      "en": "89 Main St, Charlotte, North Carolina, USA 89949"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Charlotte, North Carolina, USA. Call 911 / 980-771-4673 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-11",
-    "regionDistrict": "Atlanta, Georgia, USA",
-    "type": "hospital",
-    "lat": 33.749,
-    "lng": -84.388,
-    "name": {
-      "en": "Grady Memorial Hospital — Jane Fonda Women’s & Maternity Center (Atlanta, GA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 404-616-1000",
-    "emergencyHotline": "911 / 404-873-1766",
-    "address": {
-      "en": "80 Jesse Hill Jr Dr SE, Atlanta, GA 30303, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Functioning Hospital (Grady Memorial) serving Atlanta, Georgia, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-hosp-11-u2",
-    "regionDistrict": "Atlanta, Georgia, USA",
-    "type": "hospital",
-    "lat": 33.7515,
-    "lng": -84.3855,
-    "name": {
-      "en": "Emory Women’s Center"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 404-778-3401",
-    "emergencyHotline": "911 / 404-873-1766",
-    "address": {
-      "en": "1364 Clifton Rd NE, Atlanta, GA 30322, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Functioning Hospital (Emory Women’s Center) serving Atlanta, Georgia, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-11",
-    "regionDistrict": "Atlanta, Georgia, USA",
-    "type": "safe-haven",
-    "lat": 33.7515,
-    "lng": -84.3905,
-    "name": {
-      "en": "Partnership Against Domestic Violence Safe Haven (Atlanta, Georgia, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 404-873-1766",
-    "emergencyHotline": "911 / 404-873-1766",
-    "address": {
-      "en": "109 Main St, Atlanta, Georgia, USA 94739"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Atlanta, Georgia, USA. Call 911 / 404-873-1766 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-12",
-    "regionDistrict": "Miami, Florida, USA",
-    "type": "hospital",
-    "lat": 25.761,
-    "lng": -80.191,
-    "name": {
-      "en": "Jackson Memorial Holtz Women’s Hospital (Miami, Florida, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 305-585-1111",
-    "emergencyHotline": "911 / 305-438-0556",
-    "address": {
-      "en": "1611 NW 12th Ave, Miami, FL 33136, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Miami, Florida, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-12",
-    "regionDistrict": "Miami, Florida, USA",
-    "type": "safe-haven",
-    "lat": 25.7635,
-    "lng": -80.1935,
-    "name": {
-      "en": "Lotus House Women’s Sanctuary & Shelter Miami (Miami, Florida, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 305-438-0556",
-    "emergencyHotline": "911 / 305-438-0556",
-    "address": {
-      "en": "99 Main St, Miami, Florida, USA 75649"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Miami, Florida, USA. Call 911 / 305-438-0556 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-13",
-    "regionDistrict": "Orlando / Tampa, Florida, USA",
-    "type": "hospital",
-    "lat": 28.538,
-    "lng": -81.379,
-    "name": {
-      "en": "Winnie Palmer Hospital for Women & Babies (Orlando / Tampa, Florida, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 321-841-5281",
-    "emergencyHotline": "911 / 407-886-2856",
-    "address": {
-      "en": "83 W Miller St, Orlando, FL 32806, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Orlando / Tampa, Florida, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-13",
-    "regionDistrict": "Orlando / Tampa, Florida, USA",
-    "type": "safe-haven",
-    "lat": 28.5405,
-    "lng": -81.3815,
-    "name": {
-      "en": "Harbor House of Central Florida Safe Haven (Orlando / Tampa, Florida, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 407-886-2856",
-    "emergencyHotline": "911 / 407-886-2856",
-    "address": {
-      "en": "61 Main St, Orlando / Tampa, Florida, USA 58671"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Orlando / Tampa, Florida, USA. Call 911 / 407-886-2856 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-14",
-    "regionDistrict": "New Orleans, Louisiana, USA",
-    "type": "hospital",
-    "lat": 29.951,
-    "lng": -90.071,
-    "name": {
-      "en": "Ochsner Baptist Women’s Pavilion (New Orleans, Louisiana, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 504-899-9311",
-    "emergencyHotline": "911 / 504-866-9554",
-    "address": {
-      "en": "2700 Napoleon Ave, New Orleans, LA 70115, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving New Orleans, Louisiana, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-14",
-    "regionDistrict": "New Orleans, Louisiana, USA",
-    "type": "safe-haven",
-    "lat": 29.9535,
-    "lng": -90.0735,
-    "name": {
-      "en": "New Orleans Family Justice & Women’s Safe House (New Orleans, Louisiana, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 504-866-9554",
-    "emergencyHotline": "911 / 504-866-9554",
-    "address": {
-      "en": "77 Main St, New Orleans, Louisiana, USA 34347"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving New Orleans, Louisiana, USA. Call 911 / 504-866-9554 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-15",
-    "regionDistrict": "Houston, Texas, USA",
-    "type": "hospital",
-    "lat": 29.76,
-    "lng": -95.369,
-    "name": {
-      "en": "Texas Children’s Pavilion for Women (Houston, Texas, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 832-826-3000",
-    "emergencyHotline": "911 / 713-528-2121",
-    "address": {
-      "en": "6651 Main St, Houston, TX 77030, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Houston, Texas, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-15",
-    "regionDistrict": "Houston, Texas, USA",
-    "type": "safe-haven",
-    "lat": 29.7625,
-    "lng": -95.3715,
-    "name": {
-      "en": "Houston Area Women’s Center Safe Harbor (Houston, Texas, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 713-528-2121",
-    "emergencyHotline": "911 / 713-528-2121",
-    "address": {
-      "en": "113 Main St, Houston, Texas, USA 30523"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Houston, Texas, USA. Call 911 / 713-528-2121 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-16",
-    "regionDistrict": "Dallas, Texas, USA",
-    "type": "hospital",
-    "lat": 32.776,
-    "lng": -96.797,
-    "name": {
-      "en": "Parkland Health Women & Infants Specialty Center (Dallas, Texas, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 214-590-8000",
-    "emergencyHotline": "911 / 214-941-1991",
-    "address": {
-      "en": "5200 Harry Hines Blvd, Dallas, TX 75235, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Dallas, Texas, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-16",
-    "regionDistrict": "Dallas, Texas, USA",
-    "type": "safe-haven",
-    "lat": 32.7785,
-    "lng": -96.7995,
-    "name": {
-      "en": "The Family Place Safe Haven Shelter Dallas (Dallas, Texas, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 214-941-1991",
-    "emergencyHotline": "911 / 214-941-1991",
-    "address": {
-      "en": "112 Main St, Dallas, Texas, USA 81172"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Dallas, Texas, USA. Call 911 / 214-941-1991 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-17",
-    "regionDistrict": "San Antonio / Austin, Texas, USA",
-    "type": "hospital",
-    "lat": 29.424,
-    "lng": -98.494,
-    "name": {
-      "en": "University Health Women’s & Children’s Hospital (San Antonio / Austin, Texas, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 210-358-4000",
-    "emergencyHotline": "911 / 210-733-8810",
-    "address": {
-      "en": "4502 Medical Dr, San Antonio, TX 78229, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving San Antonio / Austin, Texas, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-17",
-    "regionDistrict": "Austin, Texas, USA",
-    "type": "safe-haven",
-    "lat": 30.2672,
-    "lng": -97.7431,
-    "name": {
-      "en": "SAFE Alliance (Stop Abuse For Everyone) Women’s Shelter (Austin, TX)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 210-733-8810",
-    "emergencyHotline": "911 / 210-733-8810",
-    "address": {
-      "en": "9 Main St, San Antonio / Austin, Texas, USA 24769"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (SAFE Alliance) serving San Antonio / Austin, Texas, USA. Call 911 / 210-733-8810 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-17-u2",
-    "regionDistrict": "San Antonio / Austin, Texas, USA",
-    "type": "safe-haven",
-    "lat": 29.4215,
-    "lng": -98.4915,
-    "name": {
-      "en": "Battered Women’s Shelter TX"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 210-733-8810",
-    "emergencyHotline": "911 / 210-733-8810",
-    "address": {
-      "en": "127 Main St, San Antonio / Austin, Texas, USA 42227"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Battered Women’s Shelter TX) serving San Antonio / Austin, Texas, USA. Call 911 / 210-733-8810 for confidential intake."
-    }
-  },
-  {
-    "id": "world-hosp-18",
-    "regionDistrict": "Chicago, Illinois, USA",
-    "type": "hospital",
-    "lat": 41.878,
-    "lng": -87.629,
-    "name": {
-      "en": "Prentice Women’s Hospital at Northwestern (Chicago, Illinois, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 312-926-2000",
-    "emergencyHotline": "911 / 1-877-863-6338",
-    "address": {
-      "en": "250 E Superior St, Chicago, IL 60611, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Chicago, Illinois, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-18",
-    "regionDistrict": "Chicago, Illinois, USA",
-    "type": "safe-haven",
-    "lat": 41.8805,
-    "lng": -87.6315,
-    "name": {
-      "en": "House of the Good Shepherd"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 602 6035",
-    "emergencyHotline": "911 / 1-877-863-6338",
-    "address": {
-      "en": "183 Main St, Chicago, Illinois, USA 71653"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (House of the Good Shepherd) serving Chicago, Illinois, USA. Call 911 / 1-877-863-6338 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-18-u2",
-    "regionDistrict": "Chicago, Illinois, USA",
-    "type": "safe-haven",
-    "lat": 41.8755,
-    "lng": -87.6265,
-    "name": {
-      "en": "Between Friends Safe Haven"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 581 9227",
-    "emergencyHotline": "911 / 1-877-863-6338",
-    "address": {
-      "en": "136 Main St, Chicago, Illinois, USA 47426"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Between Friends Safe Haven) serving Chicago, Illinois, USA. Call 911 / 1-877-863-6338 for confidential intake."
-    }
-  },
-  {
-    "id": "world-hosp-19",
-    "regionDistrict": "Detroit, Michigan, USA",
-    "type": "hospital",
-    "lat": 42.331,
-    "lng": -83.045,
-    "name": {
-      "en": "Hutzel Women’s Hospital Detroit (Detroit, Michigan, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 877-922-1274",
-    "emergencyHotline": "911 / 877-922-1274",
-    "address": {
-      "en": "34 Medical Center Dr, Detroit, Michigan, USA 83634"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Detroit, Michigan, USA. Tap Get Directions for route."
-    }
-  },
-  {
     "id": "world-safe-19-haven-pontiac",
     "regionDistrict": "Pontiac / Oakland County (Metro Detroit), Michigan, USA",
     "type": "safe-haven",
@@ -8428,90 +7677,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "world-hosp-20",
-    "regionDistrict": "Minneapolis, Minnesota, USA",
-    "type": "hospital",
-    "lat": 44.977,
-    "lng": -93.265,
-    "name": {
-      "en": "Mother Baby Center at Abbott Northwestern (Minneapolis, Minnesota, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 651-227-8284",
-    "emergencyHotline": "911 / 651-227-8284",
-    "address": {
-      "en": "31 Medical Center Dr, Minneapolis, Minnesota, USA 38771"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Minneapolis, Minnesota, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-20",
-    "regionDistrict": "Minneapolis, Minnesota, USA",
-    "type": "safe-haven",
-    "lat": 44.9795,
-    "lng": -93.2675,
-    "name": {
-      "en": "Women’s Advocates Safe Shelter St. Paul/Minneapolis (Minneapolis, Minnesota, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 651-227-8284",
-    "emergencyHotline": "911 / 651-227-8284",
-    "address": {
-      "en": "115 Main St, Minneapolis, Minnesota, USA 74945"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Minneapolis, Minnesota, USA. Call 911 / 651-227-8284 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-21",
-    "regionDistrict": "St. Louis, Missouri, USA",
-    "type": "hospital",
-    "lat": 38.627,
-    "lng": -90.199,
-    "name": {
-      "en": "Barnes-Jewish Women & Infants Center (St. Louis, Missouri, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 314-993-2777",
-    "emergencyHotline": "911 / 314-993-2777",
-    "address": {
-      "en": "Barnes-Jewish Women & Infants Center, St. Louis, Missouri, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving St. Louis, Missouri, USA. Tap Get Directions for route."
-    }
-  },
-  {
     "id": "world-safe-21-alive-st-louis",
     "regionDistrict": "St. Louis, Missouri, USA",
     "type": "safe-haven",
@@ -8563,706 +7728,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "Safe Connections at 2165 Hampton Avenue, St. Louis, Missouri."
-    }
-  },
-  {
-    "id": "world-hosp-22",
-    "regionDistrict": "Denver, Colorado, USA",
-    "type": "hospital",
-    "lat": 39.739,
-    "lng": -104.99,
-    "name": {
-      "en": "Denver Health Women’s Mobile & Maternity Care (Denver, Colorado, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 303-318-9989",
-    "emergencyHotline": "911 / 303-318-9989",
-    "address": {
-      "en": "197 Medical Center Dr, Denver, Colorado, USA 85827"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Denver, Colorado, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-22",
-    "regionDistrict": "Denver, Colorado, USA",
-    "type": "safe-haven",
-    "lat": 39.7415,
-    "lng": -104.9925,
-    "name": {
-      "en": "SafeHouse Denver Domestic Abuse Sanctuary (Denver, Colorado, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 303-318-9989",
-    "emergencyHotline": "911 / 303-318-9989",
-    "address": {
-      "en": "201 Main St, Denver, Colorado, USA 25041"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Denver, Colorado, USA. Call 911 / 303-318-9989 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-23",
-    "regionDistrict": "Phoenix, Arizona, USA",
-    "type": "hospital",
-    "lat": 33.448,
-    "lng": -112.074,
-    "name": {
-      "en": "Valleywise Health Women’s & Maternity Center (Phoenix, Arizona, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 602-244-0089",
-    "emergencyHotline": "911 / 602-244-0089",
-    "address": {
-      "en": "30 Medical Center Dr, Phoenix, Arizona, USA 51480"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Phoenix, Arizona, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-23",
-    "regionDistrict": "Phoenix, Arizona, USA",
-    "type": "safe-haven",
-    "lat": 33.4505,
-    "lng": -112.0765,
-    "name": {
-      "en": "Sojourner Center Women’s Safe Haven Phoenix (Phoenix, Arizona, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 602-244-0089",
-    "emergencyHotline": "911 / 602-244-0089",
-    "address": {
-      "en": "194 Main St, Phoenix, Arizona, USA 60364"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Phoenix, Arizona, USA. Call 911 / 602-244-0089 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-24",
-    "regionDistrict": "Albuquerque, New Mexico, USA",
-    "type": "hospital",
-    "lat": 35.084,
-    "lng": -106.65,
-    "name": {
-      "en": "UNM Women’s Speciality & Midwifery Hospital (Albuquerque, New Mexico, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 505-247-4219",
-    "emergencyHotline": "911 / 505-247-4219",
-    "address": {
-      "en": "2 Medical Center Dr, Albuquerque, New Mexico, USA 74872"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Albuquerque, New Mexico, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-24",
-    "regionDistrict": "Albuquerque, New Mexico, USA",
-    "type": "safe-haven",
-    "lat": 35.0865,
-    "lng": -106.6525,
-    "name": {
-      "en": "S.A.F.E. House New Mexico Women’s Shelter (Albuquerque, New Mexico, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 505-247-4219",
-    "emergencyHotline": "911 / 505-247-4219",
-    "address": {
-      "en": "134 Main St, Albuquerque, New Mexico, USA 43474"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Albuquerque, New Mexico, USA. Call 911 / 505-247-4219 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-25",
-    "regionDistrict": "Salt Lake City, Utah, USA",
-    "type": "hospital",
-    "lat": 40.76,
-    "lng": -111.891,
-    "name": {
-      "en": "University of Utah Maternal & OB/GYN Hospital (Salt Lake City, Utah, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 801-537-8600",
-    "emergencyHotline": "911 / 801-537-8600",
-    "address": {
-      "en": "85 Medical Center Dr, Salt Lake City, Utah, USA 58545"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Salt Lake City, Utah, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-25",
-    "regionDistrict": "Salt Lake City, Utah, USA",
-    "type": "safe-haven",
-    "lat": 40.7625,
-    "lng": -111.8935,
-    "name": {
-      "en": "YWCA Utah Women in Jeopardy Safe Haven (Salt Lake City, Utah, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 801-537-8600",
-    "emergencyHotline": "911 / 801-537-8600",
-    "address": {
-      "en": "48 Main St, Salt Lake City, Utah, USA 64358"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Salt Lake City, Utah, USA. Call 911 / 801-537-8600 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-26",
-    "regionDistrict": "Los Angeles, California, USA",
-    "type": "hospital",
-    "lat": 34.052,
-    "lng": -118.243,
-    "name": {
-      "en": "LAC+USC Women’s & Reproductive Hospital (Los Angeles, California, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 213-626-3393",
-    "emergencyHotline": "911 / 213-626-3393",
-    "address": {
-      "en": "205 Medical Center Dr, Los Angeles, California, USA 71715"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Los Angeles, California, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-26",
-    "regionDistrict": "Los Angeles, California, USA",
-    "type": "safe-haven",
-    "lat": 34.0545,
-    "lng": -118.2455,
-    "name": {
-      "en": "Downtown Women’s Center"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 213-626-3393",
-    "emergencyHotline": "911 / 213-626-3393",
-    "address": {
-      "en": "225 Main St, Los Angeles, California, USA 37765"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Downtown Women’s Center) serving Los Angeles, California, USA. Call 911 / 213-626-3393 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-26-u2",
-    "regionDistrict": "Los Angeles, California, USA",
-    "type": "safe-haven",
-    "lat": 34.0495,
-    "lng": -118.2405,
-    "name": {
-      "en": "Peace Over Violence Safe Haven"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 213-626-3393",
-    "emergencyHotline": "911 / 213-626-3393",
-    "address": {
-      "en": "168 Main St, Los Angeles, California, USA 41458"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Peace Over Violence Safe Haven) serving Los Angeles, California, USA. Call 911 / 213-626-3393 for confidential intake."
-    }
-  },
-  {
-    "id": "world-hosp-27",
-    "regionDistrict": "San Francisco, California, USA",
-    "type": "hospital",
-    "lat": 37.774,
-    "lng": -122.419,
-    "name": {
-      "en": "UCSF Betty Irene Moore Women’s Hospital (San Francisco, California, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 541 2559",
-    "emergencyHotline": "911 / 1-877-503-1850",
-    "address": {
-      "en": "111 Medical Center Dr, San Francisco, California, USA 61481"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving San Francisco, California, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-27",
-    "regionDistrict": "San Francisco, California, USA",
-    "type": "safe-haven",
-    "lat": 37.7765,
-    "lng": -122.4215,
-    "name": {
-      "en": "La Casa de las Madres Domestic Violence Shelter (San Francisco, California, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 315 6349",
-    "emergencyHotline": "911 / 1-877-503-1850",
-    "address": {
-      "en": "221 Main St, San Francisco, California, USA 23451"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving San Francisco, California, USA. Call 911 / 1-877-503-1850 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-28",
-    "regionDistrict": "San Diego, California, USA",
-    "type": "hospital",
-    "lat": 32.715,
-    "lng": -117.161,
-    "name": {
-      "en": "Sharp Mary Birch Hospital for Women & Newborns (San Diego, California, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 619-234-3164",
-    "emergencyHotline": "911 / 619-234-3164",
-    "address": {
-      "en": "156 Medical Center Dr, San Diego, California, USA 67106"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving San Diego, California, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-28",
-    "regionDistrict": "San Diego, California, USA",
-    "type": "safe-haven",
-    "lat": 32.7175,
-    "lng": -117.1635,
-    "name": {
-      "en": "Becky’s House YWCA Safe Haven San Diego (San Diego, California, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 619-234-3164",
-    "emergencyHotline": "911 / 619-234-3164",
-    "address": {
-      "en": "193 Main St, San Diego, California, USA 84463"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving San Diego, California, USA. Call 911 / 619-234-3164 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-29",
-    "regionDistrict": "Seattle, Washington, USA",
-    "type": "hospital",
-    "lat": 47.606,
-    "lng": -122.332,
-    "name": {
-      "en": "UW Medicine Montlake Childbirth & OB/GYN Center (Seattle, Washington, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 206-737-0242",
-    "emergencyHotline": "911 / 206-737-0242",
-    "address": {
-      "en": "126 Medical Center Dr, Seattle, Washington, USA 79366"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Seattle, Washington, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-29",
-    "regionDistrict": "Seattle, Washington, USA",
-    "type": "safe-haven",
-    "lat": 47.6085,
-    "lng": -122.3345,
-    "name": {
-      "en": "New Beginnings Domestic Violence Safe Shelter (Seattle, WA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 206-737-0242",
-    "emergencyHotline": "911 / 206-737-0242",
-    "address": {
-      "en": "14 Main St, Seattle, Washington, USA 42974"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (New Beginnings) serving Seattle, Washington, USA. Call 911 / 206-737-0242 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-29-u2",
-    "regionDistrict": "Seattle, Washington, USA",
-    "type": "safe-haven",
-    "lat": 47.6035,
-    "lng": -122.3295,
-    "name": {
-      "en": "Mary’s Place Women’s Safe Haven"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 206-737-0242",
-    "emergencyHotline": "911 / 206-737-0242",
-    "address": {
-      "en": "47 Main St, Seattle, Washington, USA 62257"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Mary’s Place Women’s Safe Haven) serving Seattle, Washington, USA. Call 911 / 206-737-0242 for confidential intake."
-    }
-  },
-  {
-    "id": "world-hosp-30",
-    "regionDistrict": "Portland, Oregon, USA",
-    "type": "hospital",
-    "lat": 45.515,
-    "lng": -122.678,
-    "name": {
-      "en": "OHSU Center for Women’s Health (Portland, Oregon, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 503-235-5333",
-    "emergencyHotline": "911 / 503-235-5333",
-    "address": {
-      "en": "196 Medical Center Dr, Portland, Oregon, USA 36906"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Portland, Oregon, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-30",
-    "regionDistrict": "Portland, Oregon, USA",
-    "type": "safe-haven",
-    "lat": 45.5175,
-    "lng": -122.6805,
-    "name": {
-      "en": "Bradley Angle Domestic Violence Resource & Shelter Center (Portland, OR)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 503-235-5333",
-    "emergencyHotline": "911 / 503-235-5333",
-    "address": {
-      "en": "54 Main St, Portland, Oregon, USA 60374"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Bradley Angle) serving Portland, Oregon, USA. Call 911 / 503-235-5333 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-30-u2",
-    "regionDistrict": "Portland, Oregon, USA",
-    "type": "safe-haven",
-    "lat": 45.5125,
-    "lng": -122.6755,
-    "name": {
-      "en": "Rose Haven Women’s Sanctuary"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 503-235-5333",
-    "emergencyHotline": "911 / 503-235-5333",
-    "address": {
-      "en": "174 Main St, Portland, Oregon, USA 52274"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Rose Haven Women’s Sanctuary) serving Portland, Oregon, USA. Call 911 / 503-235-5333 for confidential intake."
-    }
-  },
-  {
-    "id": "world-hosp-31",
-    "regionDistrict": "Anchorage, Alaska, USA",
-    "type": "hospital",
-    "lat": 61.218,
-    "lng": -149.9,
-    "name": {
-      "en": "Alaska Native Medical Center — Maternal Ward (Anchorage, Alaska, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 907-272-0100",
-    "emergencyHotline": "911 / 907-272-0100",
-    "address": {
-      "en": "174 Medical Center Dr, Anchorage, Alaska, USA 17314"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Anchorage, Alaska, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-31",
-    "regionDistrict": "Anchorage, Alaska, USA",
-    "type": "safe-haven",
-    "lat": 61.2205,
-    "lng": -149.9025,
-    "name": {
-      "en": "Abused Women’s Aid in Crisis (AWAIC) Shelter (Anchorage, Alaska, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 907-272-0100",
-    "emergencyHotline": "911 / 907-272-0100",
-    "address": {
-      "en": "111 Main St, Anchorage, Alaska, USA 76301"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Anchorage, Alaska, USA. Call 911 / 907-272-0100 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-32",
-    "regionDistrict": "Honolulu, Hawaii, USA",
-    "type": "hospital",
-    "lat": 21.306,
-    "lng": -157.858,
-    "name": {
-      "en": "Kapiolani Medical Center for Women & Children (Honolulu, Hawaii, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s & Maternity Hospital"
-    },
-    "phone": "+1 808-531-3771",
-    "emergencyHotline": "911 / 808-531-3771",
-    "address": {
-      "en": "174 Medical Center Dr, Honolulu, Hawaii, USA 68344"
-    },
-    "services": {
-      "en": [
-        "24/7 Emergency Obstetrics, Childbirth & Gynecology",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Multilingual Female Medical Staff & Triage"
-      ]
-    },
-    "directionsText": {
-      "en": "Main Women’s & Maternity Hospital serving Honolulu, Hawaii, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-32",
-    "regionDistrict": "Honolulu, Hawaii, USA",
-    "type": "safe-haven",
-    "lat": 21.3085,
-    "lng": -157.8605,
-    "name": {
-      "en": "Domestic Violence Action Center & Shelter Honolulu (Honolulu, Hawaii, USA)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 808-531-3771",
-    "emergencyHotline": "911 / 808-531-3771",
-    "address": {
-      "en": "181 Main St, Honolulu, Hawaii, USA 75571"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Emergency Sanctuary, Counseling & Legal Protection",
-        "Direct OB/GYN & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Honolulu, Hawaii, USA. Call 911 / 808-531-3771 for 24/7 safe intake."
     }
   },
   {
@@ -20073,734 +18538,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "Women’s Safe Haven serving Suva, Fiji. Call 911 / 1560 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-201",
-    "regionDistrict": "Pine Ridge Reservation, South Dakota, USA",
-    "type": "hospital",
-    "lat": 43.025,
-    "lng": -102.556,
-    "name": {
-      "en": "Pine Ridge Indian Health Service (IHS) Hospital — Midwifery (Pine Ridge Reservation, South Dakota, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 605-867-3104",
-    "emergencyHotline": "911 / 605-867-3104",
-    "address": {
-      "en": "59 Medical Center Dr, Pine Ridge Reservation, South Dakota, USA 59659"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Regional & Rural Maternity Hospital serving Pine Ridge Reservation, South Dakota, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-201",
-    "regionDistrict": "Pine Ridge Reservation, South Dakota, USA",
-    "type": "safe-haven",
-    "lat": 43.0275,
-    "lng": -102.5585,
-    "name": {
-      "en": "Sacred Shawl Women’s Society Safe Haven (Lakota) (Pine Ridge Reservation, South Dakota, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 605-867-3104",
-    "emergencyHotline": "911 / 605-867-3104",
-    "address": {
-      "en": "187 Main St, Pine Ridge Reservation, South Dakota, USA 87487"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Pine Ridge Reservation, South Dakota, USA. Call 911 / 605-867-3104 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-202",
-    "regionDistrict": "Gallup / Navajo Nation, New Mexico & Arizona, USA",
-    "type": "hospital",
-    "lat": 35.528,
-    "lng": -108.742,
-    "name": {
-      "en": "Gallup Indian Medical Center — OB/GYN & Maternal Unit (Gallup / Navajo Nation, New Mexico & Arizona, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 505-722-6389",
-    "emergencyHotline": "911 / 505-722-6389",
-    "address": {
-      "en": "45 Medical Center Dr, Gallup / Navajo Nation, New Mexico & Arizona, USA 81615"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Regional & Rural Maternity Hospital serving Gallup / Navajo Nation, New Mexico & Arizona, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-202",
-    "regionDistrict": "Gallup / Navajo Nation, New Mexico & Arizona, USA",
-    "type": "safe-haven",
-    "lat": 35.5305,
-    "lng": -108.7445,
-    "name": {
-      "en": "Battered Families Services — Roberta’s Place Women’s Shelter (Gallup / Navajo Nation, NM)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 505-722-6389",
-    "emergencyHotline": "911 / 505-722-6389",
-    "address": {
-      "en": "33 Main St, Gallup / Navajo Nation, New Mexico & Arizona, USA 46423"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Roberta’s Place) serving Gallup / Navajo Nation, New Mexico & Arizona, USA. Call 911 / 505-722-6389 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-202-u2",
-    "regionDistrict": "Gallup / Navajo Nation, New Mexico & Arizona, USA",
-    "type": "safe-haven",
-    "lat": 35.5255,
-    "lng": -108.7395,
-    "name": {
-      "en": "Amiinibaahii Safe Haven (Diné/Navajo)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 505-722-6389",
-    "emergencyHotline": "911 / 505-722-6389",
-    "address": {
-      "en": "221 Main St, Gallup / Navajo Nation, New Mexico & Arizona, USA 18961"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Amiinibaahii Safe Haven (Diné/Navajo)) serving Gallup / Navajo Nation, New Mexico & Arizona, USA. Call 911 / 505-722-6389 for confidential intake."
-    }
-  },
-  {
-    "id": "world-hosp-203",
-    "regionDistrict": "Cherokee / Qualla Boundary, North Carolina, USA",
-    "type": "hospital",
-    "lat": 35.477,
-    "lng": -83.315,
-    "name": {
-      "en": "Cherokee Indian Hospital (CIHA) — Maternal Child Health (Cherokee / Qualla Boundary, North Carolina, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 828-497-5000",
-    "emergencyHotline": "911 / 828-497-5000",
-    "address": {
-      "en": "5 Medical Center Dr, Cherokee / Qualla Boundary, North Carolina, USA 35025"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Regional & Rural Maternity Hospital serving Cherokee / Qualla Boundary, North Carolina, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-203",
-    "regionDistrict": "Cherokee / Qualla Boundary, North Carolina, USA",
-    "type": "safe-haven",
-    "lat": 35.4795,
-    "lng": -83.3175,
-    "name": {
-      "en": "Ernestine Walkingstick Domestic Violence Shelter (Cherokee / Qualla Boundary, North Carolina, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 828-497-5000",
-    "emergencyHotline": "911 / 828-497-5000",
-    "address": {
-      "en": "173 Main St, Cherokee / Qualla Boundary, North Carolina, USA 46793"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Cherokee / Qualla Boundary, North Carolina, USA. Call 911 / 828-497-5000 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-204",
-    "regionDistrict": "Bethel / Yukon-Kuskokwim Delta, Rural Alaska, USA",
-    "type": "hospital",
-    "lat": 60.792,
-    "lng": -161.755,
-    "name": {
-      "en": "Yukon-Kuskokwim Delta Regional Hospital — Maternal Village Care (Bethel / Yukon-Kuskokwim Delta, Rural Alaska, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 907-543-3444",
-    "emergencyHotline": "911 / 907-543-3444",
-    "address": {
-      "en": "130 Medical Center Dr, Bethel / Yukon-Kuskokwim Delta, Rural Alaska, USA 25230"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Regional & Rural Maternity Hospital serving Bethel / Yukon-Kuskokwim Delta, Rural Alaska, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-204",
-    "regionDistrict": "Bethel / Yukon-Kuskokwim Delta, Rural Alaska, USA",
-    "type": "safe-haven",
-    "lat": 60.7945,
-    "lng": -161.7575,
-    "name": {
-      "en": "Tundra Women’s Coalition Safe Shelter (Yup’ik/English) (Bethel / Yukon-Kuskokwim Delta, Rural Alaska, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 907-543-3444",
-    "emergencyHotline": "911 / 907-543-3444",
-    "address": {
-      "en": "35 Main St, Bethel / Yukon-Kuskokwim Delta, Rural Alaska, USA 39445"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Bethel / Yukon-Kuskokwim Delta, Rural Alaska, USA. Call 911 / 907-543-3444 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-205",
-    "regionDistrict": "Barrow / Utqiaġvik, North Slope Arctic Alaska, USA",
-    "type": "hospital",
-    "lat": 71.29,
-    "lng": -156.788,
-    "name": {
-      "en": "Samuel Simmonds Memorial Hospital — Arctic Maternity (Barrow / Utqiaġvik, North Slope Arctic Alaska, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 907-852-0261",
-    "emergencyHotline": "911 / 907-852-0261",
-    "address": {
-      "en": "13 Medical Center Dr, Barrow / Utqiaġvik, North Slope Arctic Alaska, USA 75673"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Regional & Rural Maternity Hospital serving Barrow / Utqiaġvik, North Slope Arctic Alaska, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-205",
-    "regionDistrict": "Barrow / Utqiaġvik, North Slope Arctic Alaska, USA",
-    "type": "safe-haven",
-    "lat": 71.2925,
-    "lng": -156.7905,
-    "name": {
-      "en": "Arctic Women in Crisis (AWIC) Safe Haven (Barrow / Utqiaġvik, North Slope Arctic Alaska, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 907-852-0261",
-    "emergencyHotline": "911 / 907-852-0261",
-    "address": {
-      "en": "147 Main St, Barrow / Utqiaġvik, North Slope Arctic Alaska, USA 21797"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Barrow / Utqiaġvik, North Slope Arctic Alaska, USA. Call 911 / 907-852-0261 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-206",
-    "regionDistrict": "Pikeville / Eastern Kentucky Appalachia, USA",
-    "type": "hospital",
-    "lat": 37.479,
-    "lng": -82.518,
-    "name": {
-      "en": "Pikeville Medical Center — Appalachian Women & Infant Unit (Pikeville / Eastern Kentucky Appalachia, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 800-562-8909",
-    "emergencyHotline": "911 / 800-562-8909",
-    "address": {
-      "en": "54 Medical Center Dr, Pikeville / Eastern Kentucky Appalachia, USA 36064"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Regional & Rural Maternity Hospital serving Pikeville / Eastern Kentucky Appalachia, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-206",
-    "regionDistrict": "Pikeville / Eastern Kentucky Appalachia, USA",
-    "type": "safe-haven",
-    "lat": 37.4815,
-    "lng": -82.5205,
-    "name": {
-      "en": "Turning Point Domestic Violence Services & Safe Shelter (Eastern Kentucky / Appalachia)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 800-562-8909",
-    "emergencyHotline": "911 / 800-562-8909",
-    "address": {
-      "en": "68 Main St, Pikeville / Eastern Kentucky Appalachia, USA 53738"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Turning Point) serving Pikeville / Eastern Kentucky Appalachia, USA. Call 911 / 800-562-8909 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-206-u2",
-    "regionDistrict": "Pikeville / Eastern Kentucky Appalachia, USA",
-    "type": "safe-haven",
-    "lat": 37.4765,
-    "lng": -82.5155,
-    "name": {
-      "en": "LKLP Safe House Eastern Kentucky"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 800-562-8909",
-    "emergencyHotline": "911 / 800-562-8909",
-    "address": {
-      "en": "49 Main St, Pikeville / Eastern Kentucky Appalachia, USA 27049"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (LKLP Safe House Eastern Kentucky) serving Pikeville / Eastern Kentucky Appalachia, USA. Call 911 / 800-562-8909 for confidential intake."
-    }
-  },
-  {
-    "id": "world-hosp-207",
-    "regionDistrict": "Charleston / Rural West Virginia Appalachia, USA",
-    "type": "hospital",
-    "lat": 38.349,
-    "lng": -81.632,
-    "name": {
-      "en": "CAMC Women and Children’s Hospital West Virginia (Charleston / Rural West Virginia Appalachia, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 304-525-2252",
-    "emergencyHotline": "911 / 304-525-2252",
-    "address": {
-      "en": "200 Medical Center Dr, Charleston / Rural West Virginia Appalachia, USA 99340"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Regional & Rural Maternity Hospital serving Charleston / Rural West Virginia Appalachia, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-207",
-    "regionDistrict": "Charleston / Rural West Virginia Appalachia, USA",
-    "type": "safe-haven",
-    "lat": 38.3515,
-    "lng": -81.6345,
-    "name": {
-      "en": "Branches Domestic Violence Shelter Rural WV (Charleston / Rural West Virginia Appalachia, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 304-525-2252",
-    "emergencyHotline": "911 / 304-525-2252",
-    "address": {
-      "en": "56 Main St, Charleston / Rural West Virginia Appalachia, USA 70536"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Charleston / Rural West Virginia Appalachia, USA. Call 911 / 304-525-2252 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-208",
-    "regionDistrict": "Selma / Black Belt Rural Alabama, USA",
-    "type": "hospital",
-    "lat": 32.407,
-    "lng": -87.021,
-    "name": {
-      "en": "Vaughan Regional Medical Center — Rural Birth Center (Selma / Black Belt Rural Alabama, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 334-874-8711",
-    "emergencyHotline": "911 / 334-874-8711",
-    "address": {
-      "en": "196 Medical Center Dr, Selma / Black Belt Rural Alabama, USA 72596"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Regional & Rural Maternity Hospital serving Selma / Black Belt Rural Alabama, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-208",
-    "regionDistrict": "Selma / Black Belt Rural Alabama, USA",
-    "type": "safe-haven",
-    "lat": 32.4095,
-    "lng": -87.0235,
-    "name": {
-      "en": "SABRA Sanctuary Domestic Abuse Shelter Selma (Selma / Black Belt Rural Alabama, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 334-874-8711",
-    "emergencyHotline": "911 / 334-874-8711",
-    "address": {
-      "en": "137 Main St, Selma / Black Belt Rural Alabama, USA 71577"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Selma / Black Belt Rural Alabama, USA. Call 911 / 334-874-8711 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-209",
-    "regionDistrict": "Clarksdale / Mississippi Delta, USA",
-    "type": "hospital",
-    "lat": 34.2,
-    "lng": -90.57,
-    "name": {
-      "en": "Northwest Mississippi Regional Maternal Health Clinic (Clarksdale / Mississippi Delta, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 800-898-3234",
-    "emergencyHotline": "911 / 800-898-3234",
-    "address": {
-      "en": "76 Medical Center Dr, Clarksdale / Mississippi Delta, USA 92156"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Regional & Rural Maternity Hospital serving Clarksdale / Mississippi Delta, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-209",
-    "regionDistrict": "Clarksdale / Mississippi Delta, USA",
-    "type": "safe-haven",
-    "lat": 34.2025,
-    "lng": -90.5725,
-    "name": {
-      "en": "Care Lodge Domestic Violence Shelter (Mississippi / Delta Region)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 800-898-3234",
-    "emergencyHotline": "911 / 800-898-3234",
-    "address": {
-      "en": "8 Main St, Clarksdale / Mississippi Delta, USA 83428"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Care Lodge) serving Clarksdale / Mississippi Delta, USA. Call 911 / 800-898-3234 for confidential intake."
-    }
-  },
-  {
-    "id": "world-safe-209-u2",
-    "regionDistrict": "Clarksdale / Mississippi Delta, USA",
-    "type": "safe-haven",
-    "lat": 34.1975,
-    "lng": -90.5675,
-    "name": {
-      "en": "Delta House Safe Haven Mississippi"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 800-898-3234",
-    "emergencyHotline": "911 / 800-898-3234",
-    "address": {
-      "en": "4 Main St, Clarksdale / Mississippi Delta, USA 76464"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Delta House Safe Haven Mississippi) serving Clarksdale / Mississippi Delta, USA. Call 911 / 800-898-3234 for confidential intake."
-    }
-  },
-  {
-    "id": "world-hosp-210",
-    "regionDistrict": "McAllen / Rio Grande Valley Border, Texas, USA",
-    "type": "hospital",
-    "lat": 26.203,
-    "lng": -98.23,
-    "name": {
-      "en": "Rio Grande Regional Hospital — Women’s Pavilion (McAllen / Rio Grande Valley Border, Texas, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 800-580-4879",
-    "emergencyHotline": "911 / 800-580-4879",
-    "address": {
-      "en": "51 Medical Center Dr, McAllen / Rio Grande Valley Border, Texas, USA 54491"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Regional & Rural Maternity Hospital serving McAllen / Rio Grande Valley Border, Texas, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-210",
-    "regionDistrict": "McAllen / Rio Grande Valley Border, Texas, USA",
-    "type": "safe-haven",
-    "lat": 26.2055,
-    "lng": -98.2325,
-    "name": {
-      "en": "Mujeres Unidas / Women Together Safe Shelter RGV (McAllen / Rio Grande Valley Border, Texas, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 800-580-4879",
-    "emergencyHotline": "911 / 800-580-4879",
-    "address": {
-      "en": "168 Main St, McAllen / Rio Grande Valley Border, Texas, USA 13318"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving McAllen / Rio Grande Valley Border, Texas, USA. Call 911 / 800-580-4879 for 24/7 safe intake."
-    }
-  },
-  {
-    "id": "world-hosp-211",
-    "regionDistrict": "Billings / Crow Agency Rural Montana, USA",
-    "type": "hospital",
-    "lat": 45.783,
-    "lng": -108.5,
-    "name": {
-      "en": "Billings Clinic — Family Birth Center & Maternal-Fetal Medicine (Billings, Montana)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 406-245-4472",
-    "emergencyHotline": "911 / 406-245-4472",
-    "address": {
-      "en": "119 Medical Center Dr, Billings / Crow Agency Rural Montana, USA 39729"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Functioning Hospital (Billings Clinic) serving Billings / Crow Agency Rural Montana, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-hosp-211-u2",
-    "regionDistrict": "Crow Agency, Rural Montana, USA",
-    "type": "hospital",
-    "lat": 45.6058,
-    "lng": -107.4586,
-    "name": {
-      "en": "Crow/Northern Cheyenne IHS Maternity"
-    },
-    "categoryBadge": {
-      "en": "Rural & Regional Maternity / OB-GYN Hospital"
-    },
-    "phone": "+1 406-245-4472",
-    "emergencyHotline": "911 / 406-245-4472",
-    "address": {
-      "en": "94 Medical Center Dr, Billings / Crow Agency Rural Montana, USA 45794"
-    },
-    "services": {
-      "en": [
-        "24/7 Obstetrics, Midwifery & Rural Maternal Referral",
-        "Abnormal Bleeding, Prenatal & Menopause Care",
-        "Indigenous & Regional Language Medical Support"
-      ]
-    },
-    "directionsText": {
-      "en": "Functioning Hospital (Crow/Northern Cheyenne IHS Maternity) serving Billings / Crow Agency Rural Montana, USA. Tap Get Directions for route."
-    }
-  },
-  {
-    "id": "world-safe-211",
-    "regionDistrict": "Billings / Crow Agency Rural Montana, USA",
-    "type": "safe-haven",
-    "lat": 45.7855,
-    "lng": -108.5025,
-    "name": {
-      "en": "YWCA Gateway House Rural Montana Safe Shelter (Billings / Crow Agency Rural Montana, USA)"
-    },
-    "categoryBadge": {
-      "en": "Rural & Indigenous Women’s Safe Haven Shelter"
-    },
-    "phone": "+1 406-245-4472",
-    "emergencyHotline": "911 / 406-245-4472",
-    "address": {
-      "en": "189 Main St, Billings / Crow Agency Rural Montana, USA 59589"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse & GBV Safe Shelter",
-        "Rural Outreach, Sanctuary & Legal Protection",
-        "Direct Midwife & Maternal Hospital Escort"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven serving Billings / Crow Agency Rural Montana, USA. Call 911 / 406-245-4472 for 24/7 safe intake."
     }
   },
   {
@@ -87612,7 +85349,7 @@ export const WORLD_CENTERS_DIRECTORY = [
   },
   {
     "id": "usa-hosp-4001",
-    "regionDistrict": "Birmingham & Huntsville, Alabama, USA",
+    "regionDistrict": "Birmingham, Alabama, USA",
     "type": "hospital",
     "lat": 33.5059,
     "lng": -86.8031,
@@ -87625,25 +85362,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 205-934-4011 / +1 205-322-4878",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "90 Medical Center Dr, Birmingham & Huntsville, Alabama, USA 18840"
+      "en": "1700 6th Avenue South, Birmingham, AL 35233, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "UAB Women & Infants Center & Regional Neonatal ICU",
+        "24/7 High-Risk Obstetrics, Maternal-Fetal Medicine & Gynecologic Oncology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UAB Women & Infants Center (University of Alabama at Birmingham Hospital)) serving Birmingham & Huntsville, Alabama, USA. Tap Get Directions for route."
+      "en": "UAB Women & Infants Center (University of Alabama at Birmingham Hospital) at 1700 6th Avenue South, Birmingham, AL 35233, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "UAB Women & Infants Center & Regional Neonatal ICU",
+        "24/7 High-Risk Obstetrics, Maternal-Fetal Medicine & Gynecologic Oncology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4001-u2",
-    "regionDistrict": "Birmingham & Huntsville, Alabama, USA",
+    "regionDistrict": "Huntsville, Alabama, USA",
     "type": "hospital",
-    "lat": 33.5084,
-    "lng": -86.8006,
+    "lat": 34.7214,
+    "lng": -86.5794,
     "name": {
       "en": "Huntsville Hospital for Women & Children"
     },
@@ -87653,27 +85395,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 205-934-4011 / +1 205-322-4878",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "195 Medical Center Dr, Birmingham & Huntsville, Alabama, USA 52195"
+      "en": "245 Governors Drive SE, Huntsville, AL 35801, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women & Children’s Maternity Center & Labor and Delivery",
+        "Regional Perinatal Center & Level III NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Huntsville Hospital for Women & Children) serving Birmingham & Huntsville, Alabama, USA. Tap Get Directions for route."
+      "en": "Huntsville Hospital for Women & Children at 245 Governors Drive SE, Huntsville, AL 35801, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women & Children’s Maternity Center & Labor and Delivery",
+        "Regional Perinatal Center & Level III NICU"
+      ]
     }
   },
   {
     "id": "usa-safe-4001",
-    "regionDistrict": "Birmingham & Huntsville, Alabama, USA",
+    "regionDistrict": "Birmingham, Alabama, USA",
     "type": "safe-haven",
-    "lat": 33.5084,
-    "lng": -86.8056,
+    "lat": 33.5162,
+    "lng": -86.8048,
     "name": {
-      "en": "YWCA Central Alabama Domestic Violence Safe Haven & Crisis Center (Birmingham)"
+      "en": "YWCA Central Alabama — Domestic Violence Safe Haven & Crisis Center (Birmingham)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -87681,7 +85428,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 205-934-4011 / +1 205-322-4878",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "8 Main St, Birmingham & Huntsville, Alabama, USA 44028"
+      "en": "309 23rd Street North, Birmingham, AL 35203, United States"
     },
     "services": {
       "en": [
@@ -87691,15 +85438,15 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Birmingham & Huntsville, Alabama, USA. Call +1 205-934-4011 / +1 205-322-4878 or 1-800-799-7233 for immediate confidential intake."
+      "en": "YWCA Central Alabama — Domestic Violence Safe Haven & Crisis Center (Birmingham) at 309 23rd Street North, Birmingham, AL 35203, United States."
     }
   },
   {
     "id": "usa-hosp-4002",
-    "regionDistrict": "Selma & Rural Black Belt / Mobile, Alabama, USA",
+    "regionDistrict": "Mobile, Alabama, USA",
     "type": "hospital",
-    "lat": 32.414,
-    "lng": -87.0211,
+    "lat": 30.6944,
+    "lng": -88.0789,
     "name": {
       "en": "USA Health Children’s & Women’s Hospital (Mobile)"
     },
@@ -87709,25 +85456,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 251-415-1000 / +1 334-874-8711",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "128 Medical Center Dr, Selma & Rural Black Belt / Mobile, Alabama, USA 87488"
+      "en": "1700 Center Street, Mobile, AL 36604, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, High-Risk Obstetrics & Level III NICU",
+        "Center for Women’s Health & Gynecologic Specialties"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (USA Health Children’s & Women’s Hospital (Mobile)) serving Selma & Rural Black Belt / Mobile, Alabama, USA. Tap Get Directions for route."
+      "en": "USA Health Children’s & Women’s Hospital (Mobile) at 1700 Center Street, Mobile, AL 36604, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, High-Risk Obstetrics & Level III NICU",
+        "Center for Women’s Health & Gynecologic Specialties"
+      ]
     }
   },
   {
     "id": "usa-hosp-4002-u2",
-    "regionDistrict": "Selma & Rural Black Belt / Mobile, Alabama, USA",
+    "regionDistrict": "Selma, Alabama, USA",
     "type": "hospital",
-    "lat": 32.4165,
-    "lng": -87.0186,
+    "lat": 32.414,
+    "lng": -87.0542,
     "name": {
       "en": "Vaughan Regional Medical Center (Selma Black Belt)"
     },
@@ -87737,25 +85489,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 251-415-1000 / +1 334-874-8711",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "12 Medical Center Dr, Selma & Rural Black Belt / Mobile, Alabama, USA 68912"
+      "en": "1015 Medical Center Parkway, Selma, AL 36701, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birth Center & Obstetrical Triage",
+        "Rural Black Belt Maternal & Gynecological Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Vaughan Regional Medical Center (Selma Black Belt)) serving Selma & Rural Black Belt / Mobile, Alabama, USA. Tap Get Directions for route."
+      "en": "Vaughan Regional Medical Center (Selma Black Belt) at 1015 Medical Center Parkway, Selma, AL 36701, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center & Obstetrical Triage",
+        "Rural Black Belt Maternal & Gynecological Care"
+      ]
     }
   },
   {
     "id": "usa-safe-4002",
-    "regionDistrict": "Selma & Rural Black Belt / Mobile, Alabama, USA",
+    "regionDistrict": "Selma, Alabama, USA",
     "type": "safe-haven",
-    "lat": 32.4165,
-    "lng": -87.0236,
+    "lat": 32.4235,
+    "lng": -87.0211,
     "name": {
       "en": "SABRA Sanctuary (Selma & Rural Black Belt Domestic Violence Shelter)"
     },
@@ -87765,7 +85522,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 251-415-1000 / +1 334-874-8711",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "90 Main St, Selma & Rural Black Belt / Mobile, Alabama, USA 48690"
+      "en": "2011 Broad Street, Selma, AL 36701, United States"
     },
     "services": {
       "en": [
@@ -87775,17 +85532,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (SABRA Sanctuary (Selma & Rural Black Belt Domestic Violence Shelter)) serving Selma & Rural Black Belt / Mobile, Alabama, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "SABRA Sanctuary (Selma & Rural Black Belt Domestic Violence Shelter) at 2011 Broad Street, Selma, AL 36701, United States."
     }
   },
   {
     "id": "usa-safe-4002-u2",
-    "regionDistrict": "Selma & Rural Black Belt / Mobile, Alabama, USA",
+    "regionDistrict": "Mobile, Alabama, USA",
     "type": "safe-haven",
-    "lat": 32.4115,
-    "lng": -87.0186,
+    "lat": 30.7186,
+    "lng": -88.1289,
     "name": {
-      "en": "Penelope House"
+      "en": "Penelope House Family Violence Center (Mobile)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -87793,7 +85550,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 251-415-1000 / +1 334-874-8711",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "221 Main St, Selma & Rural Black Belt / Mobile, Alabama, USA 47421"
+      "en": "3590 Moffett Road, Mobile, AL 36618, United States"
     },
     "services": {
       "en": [
@@ -87803,17 +85560,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Penelope House) serving Selma & Rural Black Belt / Mobile, Alabama, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Penelope House Family Violence Center (Mobile) at 3590 Moffett Road, Mobile, AL 36618, United States."
     }
   },
   {
     "id": "usa-hosp-4003",
-    "regionDistrict": "Anchorage & Fairbanks, Alaska, USA",
+    "regionDistrict": "Anchorage, Alaska, USA",
     "type": "hospital",
     "lat": 61.1818,
     "lng": -149.8022,
     "name": {
-      "en": "Alaska Native Medical Center (ANMC — Maternal & OB/GYN Care)"
+      "en": "Alaska Native Medical Center (ANMC)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -87821,27 +85578,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 907-563-2662 / +1 907-272-0100",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "233 Medical Center Dr, Anchorage & Fairbanks, Alaska, USA 84433"
+      "en": "4315 Diplomacy Drive, Anchorage, AK 99508, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternal Child Health, Obstetrics & Gynecology & Midwifery",
+        "Statewide Alaska Native Referral Hospital & Level III NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Alaska Native Medical Center (ANMC — Maternal & OB/GYN Care)) serving Anchorage & Fairbanks, Alaska, USA. Tap Get Directions for route."
+      "en": "Alaska Native Medical Center (ANMC) at 4315 Diplomacy Drive, Anchorage, AK 99508, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternal Child Health, Obstetrics & Gynecology & Midwifery",
+        "Statewide Alaska Native Referral Hospital & Level III NICU"
+      ]
     }
   },
   {
     "id": "usa-hosp-4003-u2",
-    "regionDistrict": "Anchorage & Fairbanks, Alaska, USA",
+    "regionDistrict": "Anchorage, Alaska, USA",
     "type": "hospital",
-    "lat": 61.1843,
-    "lng": -149.7997,
+    "lat": 61.1889,
+    "lng": -149.8197,
     "name": {
-      "en": "Providence Alaska Medical Center"
+      "en": "Providence Alaska Medical Center (Anchorage)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -87849,25 +85611,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 907-563-2662 / +1 907-272-0100",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "46 Medical Center Dr, Anchorage & Fairbanks, Alaska, USA 65516"
+      "en": "3200 Providence Drive, Anchorage, AK 99508, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "The Maternity Center, Labor & Delivery & Newborn ICU",
+        "High-Risk Perinatal & Women’s Health Services"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Providence Alaska Medical Center) serving Anchorage & Fairbanks, Alaska, USA. Tap Get Directions for route."
+      "en": "Providence Alaska Medical Center (Anchorage) at 3200 Providence Drive, Anchorage, AK 99508, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "The Maternity Center, Labor & Delivery & Newborn ICU",
+        "High-Risk Perinatal & Women’s Health Services"
+      ]
     }
   },
   {
     "id": "usa-hosp-4003-u3",
-    "regionDistrict": "Anchorage & Fairbanks, Alaska, USA",
+    "regionDistrict": "Fairbanks, Alaska, USA",
     "type": "hospital",
-    "lat": 61.1843,
-    "lng": -149.7997,
+    "lat": 64.8315,
+    "lng": -147.7397,
     "name": {
       "en": "Fairbanks Memorial Hospital"
     },
@@ -87877,27 +85644,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 907-563-2662 / +1 907-272-0100",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "139 Medical Center Dr, Anchorage & Fairbanks, Alaska, USA 73739"
+      "en": "1650 Cowles Street, Fairbanks, AK 99701, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "The Birth Center, Obstetrics & Gynecology",
+        "Interior Alaska Regional Maternal & Neonatal Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Fairbanks Memorial Hospital) serving Anchorage & Fairbanks, Alaska, USA. Tap Get Directions for route."
+      "en": "Fairbanks Memorial Hospital at 1650 Cowles Street, Fairbanks, AK 99701, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "The Birth Center, Obstetrics & Gynecology",
+        "Interior Alaska Regional Maternal & Neonatal Care"
+      ]
     }
   },
   {
     "id": "usa-safe-4003",
-    "regionDistrict": "Anchorage & Fairbanks, Alaska, USA",
+    "regionDistrict": "Anchorage, Alaska, USA",
     "type": "safe-haven",
-    "lat": 61.1843,
-    "lng": -149.8047,
+    "lat": 61.2098,
+    "lng": -149.8856,
     "name": {
-      "en": "Abused Women’s Aid in Crisis (AWAIC Anchorage Safe Shelter)"
+      "en": "Abused Women’s Aid in Crisis (AWAIC — Anchorage Safe Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -87905,7 +85677,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 907-563-2662 / +1 907-272-0100",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "148 Main St, Anchorage & Fairbanks, Alaska, USA 99218"
+      "en": "100 West 13th Avenue, Anchorage, AK 99501, United States"
     },
     "services": {
       "en": [
@@ -87915,17 +85687,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Abused Women’s Aid in Crisis (AWAIC Anchorage Safe Shelter)) serving Anchorage & Fairbanks, Alaska, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Abused Women’s Aid in Crisis (AWAIC — Anchorage Safe Shelter) at 100 West 13th Avenue, Anchorage, AK 99501, United States."
     }
   },
   {
     "id": "usa-safe-4003-u2",
-    "regionDistrict": "Anchorage & Fairbanks, Alaska, USA",
+    "regionDistrict": "Fairbanks, Alaska, USA",
     "type": "safe-haven",
-    "lat": 61.1793,
-    "lng": -149.7997,
+    "lat": 64.8239,
+    "lng": -147.7219,
     "name": {
-      "en": "Interior Alaska Center for Non-Violent Living"
+      "en": "Interior Alaska Center for Non-Violent Living (Fairbanks)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -87933,7 +85705,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 907-563-2662 / +1 907-272-0100",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "42 Main St, Anchorage & Fairbanks, Alaska, USA 40032"
+      "en": "726 26th Avenue, Fairbanks, AK 99701, United States"
     },
     "services": {
       "en": [
@@ -87943,12 +85715,12 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Interior Alaska Center for Non-Violent Living) serving Anchorage & Fairbanks, Alaska, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Interior Alaska Center for Non-Violent Living (Fairbanks) at 726 26th Avenue, Fairbanks, AK 99701, United States."
     }
   },
   {
     "id": "usa-hosp-4004",
-    "regionDistrict": "Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA",
+    "regionDistrict": "Bethel, Alaska, USA",
     "type": "hospital",
     "lat": 60.7922,
     "lng": -161.7558,
@@ -87961,25 +85733,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 907-543-3684 / 1-800-478-7799",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "4 Medical Center Dr, Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA 40074"
+      "en": "700 Chief Eddie Hoffman Highway, Bethel, AK 99559, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Pre-Maternal Home, Labor & Delivery & Village Midwifery",
+        "Women’s Health & Obstetrics Triage"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Yukon-Kuskokwim Delta Regional Hospital (Bethel)) serving Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA. Tap Get Directions for route."
+      "en": "Yukon-Kuskokwim Delta Regional Hospital (Bethel) at 700 Chief Eddie Hoffman Highway, Bethel, AK 99559, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Pre-Maternal Home, Labor & Delivery & Village Midwifery",
+        "Women’s Health & Obstetrics Triage"
+      ]
     }
   },
   {
     "id": "usa-hosp-4004-u2",
-    "regionDistrict": "Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA",
+    "regionDistrict": "Nome, Alaska, USA",
     "type": "hospital",
-    "lat": 60.7947,
-    "lng": -161.7533,
+    "lat": 64.4986,
+    "lng": -165.3919,
     "name": {
       "en": "Norton Sound Regional Hospital (Nome)"
     },
@@ -87989,27 +85766,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 907-543-3684 / 1-800-478-7799",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "23 Medical Center Dr, Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA 75163"
+      "en": "1000 Greg Kruschek Avenue, Nome, AK 99762, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity & Women’s Health Unit",
+        "Bering Strait Regional Obstetric & Emergency Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Norton Sound Regional Hospital (Nome)) serving Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA. Tap Get Directions for route."
+      "en": "Norton Sound Regional Hospital (Nome) at 1000 Greg Kruschek Avenue, Nome, AK 99762, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity & Women’s Health Unit",
+        "Bering Strait Regional Obstetric & Emergency Care"
+      ]
     }
   },
   {
     "id": "usa-hosp-4004-u3",
-    "regionDistrict": "Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA",
+    "regionDistrict": "Juneau, Alaska, USA",
     "type": "hospital",
-    "lat": 60.7947,
-    "lng": -161.7533,
+    "lat": 58.3283,
+    "lng": -134.4642,
     "name": {
-      "en": "Bartlett Regional Hospital"
+      "en": "Bartlett Regional Hospital (Juneau)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88017,25 +85799,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 907-543-3684 / 1-800-478-7799",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "167 Medical Center Dr, Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA 10987"
+      "en": "3260 Hospital Drive, Juneau, AK 99801, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Bartlett Beginnings Family Birth Center",
+        "Southeast Alaska Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Bartlett Regional Hospital) serving Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA. Tap Get Directions for route."
+      "en": "Bartlett Regional Hospital (Juneau) at 3260 Hospital Drive, Juneau, AK 99801, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Bartlett Beginnings Family Birth Center",
+        "Southeast Alaska Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4004",
-    "regionDistrict": "Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA",
+    "regionDistrict": "Bethel, Alaska, USA",
     "type": "safe-haven",
     "lat": 60.7947,
-    "lng": -161.7583,
+    "lng": -161.7642,
     "name": {
       "en": "Tundra Women’s Coalition (Bethel Rural Alaska Safe Shelter)"
     },
@@ -88045,7 +85832,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 907-543-3684 / 1-800-478-7799",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "183 Main St, Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA 80283"
+      "en": "260 Ridgecrest Drive, Bethel, AK 99559, United States"
     },
     "services": {
       "en": [
@@ -88055,17 +85842,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Tundra Women’s Coalition (Bethel Rural Alaska Safe Shelter)) serving Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Tundra Women’s Coalition (Bethel Rural Alaska Safe Shelter) at 260 Ridgecrest Drive, Bethel, AK 99559, United States."
     }
   },
   {
     "id": "usa-safe-4004-u2",
-    "regionDistrict": "Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA",
+    "regionDistrict": "Juneau, Alaska, USA",
     "type": "safe-haven",
-    "lat": 60.7897,
-    "lng": -161.7533,
+    "lat": 58.3256,
+    "lng": -134.4589,
     "name": {
-      "en": "AWARE Shelter"
+      "en": "AWARE Shelter (Aiding Women in Abuse and Rape Emergencies — Juneau)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88073,7 +85860,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 907-543-3684 / 1-800-478-7799",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "172 Main St, Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA 54932"
+      "en": "3242 Glacier Highway, Juneau, AK 99801, United States"
     },
     "services": {
       "en": [
@@ -88083,17 +85870,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (AWARE Shelter) serving Bethel (Yukon-Kuskokwim Delta), Nome & Juneau, Alaska, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "AWARE Shelter (Aiding Women in Abuse and Rape Emergencies — Juneau) at 3242 Glacier Highway, Juneau, AK 99801, United States."
     }
   },
   {
     "id": "usa-hosp-4005",
-    "regionDistrict": "Phoenix & Tucson, Arizona, USA",
+    "regionDistrict": "Phoenix, Arizona, USA",
     "type": "hospital",
-    "lat": 33.4484,
-    "lng": -112.074,
+    "lat": 33.4651,
+    "lng": -112.0573,
     "name": {
-      "en": "Banner – University Medical Center Phoenix (Women & Infant Services), Valleywise Health"
+      "en": "Banner – University Medical Center Phoenix"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88101,17 +85888,22 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 602-839-2000 / +1 480-890-3039",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "25 Medical Center Dr, Phoenix & Tucson, Arizona, USA 23825"
+      "en": "1111 East McDowell Road, Phoenix, AZ 85006, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women and Infant Services, Labor & Delivery & Level III NICU",
+        "High-Risk Maternal-Fetal Medicine & OB/GYN"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Banner – University Medical Center Phoenix (Women & Infant Services), Valleywise Health) serving Phoenix & Tucson, Arizona, USA. Tap Get Directions for route."
+      "en": "Banner – University Medical Center Phoenix at 1111 East McDowell Road, Phoenix, AZ 85006, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women and Infant Services, Labor & Delivery & Level III NICU",
+        "High-Risk Maternal-Fetal Medicine & OB/GYN"
+      ]
     }
   },
   {
@@ -88121,7 +85913,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 32.2412,
     "lng": -110.9465,
     "name": {
-      "en": "Banner Tucson"
+      "en": "Banner – University Medical Center Tucson"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88129,27 +85921,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 602-839-2000 / +1 480-890-3039",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "99 Medical Center Dr, Phoenix & Tucson, Arizona, USA 14989"
+      "en": "1625 North Campbell Avenue, Tucson, AZ 85719, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women & Infant Services, Labor & Delivery & Perinatal Center",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Banner Tucson) serving Phoenix & Tucson, Arizona, USA. Tap Get Directions for route."
+      "en": "Banner – University Medical Center Tucson at 1625 North Campbell Avenue, Tucson, AZ 85719, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women & Infant Services, Labor & Delivery & Perinatal Center",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4005",
-    "regionDistrict": "Phoenix & Tucson, Arizona, USA",
+    "regionDistrict": "Phoenix, Arizona, USA",
     "type": "safe-haven",
-    "lat": 33.4509,
-    "lng": -112.0765,
+    "lat": 33.4514,
+    "lng": -112.0361,
     "name": {
-      "en": "Chicanos Por La Causa De Colores Domestic Violence Shelter"
+      "en": "Sojourner Center & De Colores Domestic Violence Shelter (Phoenix)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88157,7 +85954,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 602-839-2000 / +1 480-890-3039",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "141 Main St, Phoenix & Tucson, Arizona, USA 62811"
+      "en": "2120 East Van Buren Street, Phoenix, AZ 85006, United States"
     },
     "services": {
       "en": [
@@ -88167,17 +85964,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Chicanos Por La Causa De Colores Domestic Violence Shelter) serving Phoenix & Tucson, Arizona, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Sojourner Center & De Colores Domestic Violence Shelter (Phoenix) at 2120 East Van Buren Street, Phoenix, AZ 85006, United States."
     }
   },
   {
     "id": "usa-safe-4005-u2",
-    "regionDistrict": "Phoenix & Tucson, Arizona, USA",
+    "regionDistrict": "Phoenix, Arizona, USA",
     "type": "safe-haven",
-    "lat": 33.4459,
-    "lng": -112.0715,
+    "lat": 33.4511,
+    "lng": -112.0094,
     "name": {
-      "en": "UMOM Halle Women’s Center"
+      "en": "UMOM Halle Women’s Center (Phoenix)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88185,7 +85982,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 602-839-2000 / +1 480-890-3039",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "72 Main St, Phoenix & Tucson, Arizona, USA 91512"
+      "en": "3333 East Van Buren Street, Phoenix, AZ 85008, United States"
     },
     "services": {
       "en": [
@@ -88195,17 +85992,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (UMOM Halle Women’s Center) serving Phoenix & Tucson, Arizona, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "UMOM Halle Women’s Center (Phoenix) at 3333 East Van Buren Street, Phoenix, AZ 85008, United States."
     }
   },
   {
     "id": "usa-safe-4005-u3",
     "regionDistrict": "Tucson, Arizona, USA",
     "type": "safe-haven",
-    "lat": 32.2226,
-    "lng": -110.9747,
+    "lat": 32.2389,
+    "lng": -110.9344,
     "name": {
-      "en": "Emerge Center"
+      "en": "Emerge Center Against Domestic Abuse (Tucson)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88213,7 +86010,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 602-839-2000 / +1 480-890-3039",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "83 Main St, Phoenix & Tucson, Arizona, USA 72783"
+      "en": "2545 East Adams Street, Tucson, AZ 85716, United States"
     },
     "services": {
       "en": [
@@ -88223,17 +86020,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Emerge Center) serving Phoenix & Tucson, Arizona, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Emerge Center Against Domestic Abuse (Tucson) at 2545 East Adams Street, Tucson, AZ 85716, United States."
     }
   },
   {
     "id": "usa-hosp-4006",
-    "regionDistrict": "Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA",
+    "regionDistrict": "Tuba City (Navajo Nation), Arizona, USA",
     "type": "hospital",
     "lat": 36.135,
     "lng": -111.2399,
     "name": {
-      "en": "Tuba City Regional Health Care Corporation (Maternity & OB/GYN)"
+      "en": "Tuba City Regional Health Care Corporation"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88241,25 +86038,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 928-283-2501 / +1 928-729-5741",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "209 Medical Center Dr, Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA 59379"
+      "en": "167 North Main Street, Tuba City, AZ 86045, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Obstetrics & Gynecology, Certified Nurse-Midwifery & Labor/Delivery",
+        "Navajo & Hopi Nation Maternal Health Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Tuba City Regional Health Care Corporation (Maternity & OB/GYN)) serving Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA. Tap Get Directions for route."
+      "en": "Tuba City Regional Health Care Corporation at 167 North Main Street, Tuba City, AZ 86045, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Obstetrics & Gynecology, Certified Nurse-Midwifery & Labor/Delivery",
+        "Navajo & Hopi Nation Maternal Health Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4006-u2",
-    "regionDistrict": "Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA",
+    "regionDistrict": "Chinle (Navajo Nation), Arizona, USA",
     "type": "hospital",
-    "lat": 36.1375,
-    "lng": -111.2374,
+    "lat": 36.1544,
+    "lng": -109.5786,
     "name": {
       "en": "Chinle Comprehensive Health Care Facility (IHS)"
     },
@@ -88269,25 +86071,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 928-283-2501 / +1 928-729-5741",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "83 Medical Center Dr, Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA 83183"
+      "en": "US Highway 191 & Hospital Road, Chinle, AZ 86503, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s Health, Midwifery & Maternity Unit",
+        "24/7 Obstetric Emergency Triage"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Chinle Comprehensive Health Care Facility (IHS)) serving Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA. Tap Get Directions for route."
+      "en": "Chinle Comprehensive Health Care Facility (IHS) at US Highway 191 & Hospital Road, Chinle, AZ 86503, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Health, Midwifery & Maternity Unit",
+        "24/7 Obstetric Emergency Triage"
+      ]
     }
   },
   {
     "id": "usa-safe-4006",
-    "regionDistrict": "Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA",
+    "regionDistrict": "Chinle / Tuba City (Navajo Nation), Arizona, USA",
     "type": "safe-haven",
-    "lat": 36.1375,
-    "lng": -111.2424,
+    "lat": 36.1525,
+    "lng": -109.5528,
     "name": {
       "en": "Ama Doo Alchini Bighan (ADABI Navajo Nation Domestic Violence Shelter)"
     },
@@ -88297,7 +86104,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 928-283-2501 / +1 928-729-5741",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "103 Main St, Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA 59073"
+      "en": "Navajo Route 7, Chinle, AZ 86503, United States"
     },
     "services": {
       "en": [
@@ -88307,17 +86114,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Ama Doo Alchini Bighan (ADABI Navajo Nation Domestic Violence Shelter)) serving Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Ama Doo Alchini Bighan (ADABI Navajo Nation Domestic Violence Shelter) at Navajo Route 7, Chinle, AZ 86503, United States."
     }
   },
   {
     "id": "usa-safe-4006-u2",
-    "regionDistrict": "Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA",
+    "regionDistrict": "First Mesa / Kykotsmovi (Hopi Reservation), Arizona, USA",
     "type": "safe-haven",
-    "lat": 36.1325,
-    "lng": -111.2374,
+    "lat": 35.8719,
+    "lng": -110.6181,
     "name": {
-      "en": "Hopi Tewa Women’s Coalition"
+      "en": "Hopi-Tewa Women’s Coalition to End Abuse"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88325,7 +86132,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 928-283-2501 / +1 928-729-5741",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "101 Main St, Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA 81111"
+      "en": "State Route 264, Milepost 375, Kykotsmovi Village, AZ 86039, United States"
     },
     "services": {
       "en": [
@@ -88335,17 +86142,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Hopi Tewa Women’s Coalition) serving Tuba City & Chinle (Navajo Nation / Hopi Reservation), Arizona, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Hopi-Tewa Women’s Coalition to End Abuse at State Route 264, Milepost 375, Kykotsmovi Village, AZ 86039, United States."
     }
   },
   {
     "id": "usa-hosp-4007",
-    "regionDistrict": "Little Rock & Fayetteville / Delta, Arkansas, USA",
+    "regionDistrict": "Little Rock, Arkansas, USA",
     "type": "hospital",
     "lat": 34.7488,
     "lng": -92.3189,
     "name": {
-      "en": "UAMS Medical Center (Women & Infants Service Line)"
+      "en": "UAMS Medical Center (University of Arkansas for Medical Sciences)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88353,27 +86160,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 501-686-7000 / 1-800-332-4443",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "15 Medical Center Dr, Little Rock & Fayetteville / Delta, Arkansas, USA 37735"
+      "en": "4301 West Markham Street, Little Rock, AR 72205, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women and Infants Service Line, High-Risk Pregnancy & Labor/Delivery",
+        "Statewide High-Risk Perinatal Referral Center & NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UAMS Medical Center (Women & Infants Service Line)) serving Little Rock & Fayetteville / Delta, Arkansas, USA. Tap Get Directions for route."
+      "en": "UAMS Medical Center (University of Arkansas for Medical Sciences) at 4301 West Markham Street, Little Rock, AR 72205, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women and Infants Service Line, High-Risk Pregnancy & Labor/Delivery",
+        "Statewide High-Risk Perinatal Referral Center & NICU"
+      ]
     }
   },
   {
     "id": "usa-hosp-4007-u2",
-    "regionDistrict": "Little Rock & Fayetteville / Delta, Arkansas, USA",
+    "regionDistrict": "Little Rock, Arkansas, USA",
     "type": "hospital",
-    "lat": 34.7513,
-    "lng": -92.3164,
+    "lat": 34.7447,
+    "lng": -92.3886,
     "name": {
-      "en": "Baptist Health Medical Center Little Rock"
+      "en": "Baptist Health Medical Center – Little Rock"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88381,27 +86193,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 501-686-7000 / 1-800-332-4443",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "199 Medical Center Dr, Little Rock & Fayetteville / Delta, Arkansas, USA 74609"
+      "en": "9601 Baptist Health Drive, Little Rock, AR 72205, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s & Maternal Health Center & Labor/Delivery",
+        "Comprehensive OB/GYN & Postpartum Support"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Baptist Health Medical Center Little Rock) serving Little Rock & Fayetteville / Delta, Arkansas, USA. Tap Get Directions for route."
+      "en": "Baptist Health Medical Center – Little Rock at 9601 Baptist Health Drive, Little Rock, AR 72205, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s & Maternal Health Center & Labor/Delivery",
+        "Comprehensive OB/GYN & Postpartum Support"
+      ]
     }
   },
   {
     "id": "usa-safe-4007",
-    "regionDistrict": "Little Rock & Fayetteville / Delta, Arkansas, USA",
+    "regionDistrict": "Little Rock, Arkansas, USA",
     "type": "safe-haven",
-    "lat": 34.7513,
-    "lng": -92.3214,
+    "lat": 34.7428,
+    "lng": -92.3392,
     "name": {
-      "en": "Women & Children First: The Center Against Family Violence (Little Rock Safe Shelter)"
+      "en": "Women & Children First: The Center Against Family Violence (Little Rock)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88409,7 +86226,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 501-686-7000 / 1-800-332-4443",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "173 Main St, Little Rock & Fayetteville / Delta, Arkansas, USA 24053"
+      "en": "5800 West 10th Street, Little Rock, AR 72204, United States"
     },
     "services": {
       "en": [
@@ -88419,7 +86236,7 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Little Rock & Fayetteville / Delta, Arkansas, USA. Call +1 501-686-7000 / 1-800-332-4443 or 1-800-799-7233 for immediate confidential intake."
+      "en": "Women & Children First: The Center Against Family Violence (Little Rock) at 5800 West 10th Street, Little Rock, AR 72204, United States."
     }
   },
   {
@@ -88429,7 +86246,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 34.058,
     "lng": -118.2065,
     "name": {
-      "en": "Los Angeles General Medical Center (LAC+USC Women’s Hospital), Cedars-Sinai Obstetrics"
+      "en": "Los Angeles General Medical Center (LAC+USC)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88437,27 +86254,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 323-409-1000 / +1 213-680-9600",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "206 Medical Center Dr, Los Angeles, California, USA 90396"
+      "en": "2051 Marengo Street, Los Angeles, CA 90033, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s & Children’s Hospital, 24/7 Labor & Delivery & Level III NICU",
+        "Comprehensive Public Obstetrics, Gynecology & Violence Intervention"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Los Angeles General Medical Center (LAC+USC Women’s Hospital), Cedars-Sinai Obstetrics) serving Los Angeles, California, USA. Tap Get Directions for route."
+      "en": "Los Angeles General Medical Center (LAC+USC) at 2051 Marengo Street, Los Angeles, CA 90033, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s & Children’s Hospital, 24/7 Labor & Delivery & Level III NICU",
+        "Comprehensive Public Obstetrics, Gynecology & Violence Intervention"
+      ]
     }
   },
   {
     "id": "usa-hosp-4008-u2",
     "regionDistrict": "Los Angeles, California, USA",
     "type": "hospital",
-    "lat": 34.0605,
-    "lng": -118.204,
+    "lat": 34.0664,
+    "lng": -118.4464,
     "name": {
-      "en": "UCLA Mattel / Ronald Reagan Medical Center"
+      "en": "Ronald Reagan UCLA Medical Center & UCLA BirthPlace"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88465,27 +86287,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 323-409-1000 / +1 213-680-9600",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "90 Medical Center Dr, Los Angeles, California, USA 47980"
+      "en": "757 Westwood Plaza, Los Angeles, CA 90095, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "UCLA BirthPlace Westwood, Maternal-Fetal Medicine & Level IV NICU",
+        "Department of Obstetrics and Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UCLA Mattel / Ronald Reagan Medical Center) serving Los Angeles, California, USA. Tap Get Directions for route."
+      "en": "Ronald Reagan UCLA Medical Center & UCLA BirthPlace at 757 Westwood Plaza, Los Angeles, CA 90095, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "UCLA BirthPlace Westwood, Maternal-Fetal Medicine & Level IV NICU",
+        "Department of Obstetrics and Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4008",
     "regionDistrict": "Los Angeles, California, USA",
     "type": "safe-haven",
-    "lat": 34.0605,
-    "lng": -118.209,
+    "lat": 34.0436,
+    "lng": -118.2439,
     "name": {
-      "en": "Downtown Women’s Center LA"
+      "en": "Downtown Women’s Center (Los Angeles)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88493,7 +86320,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 323-409-1000 / +1 213-680-9600",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "217 Main St, Los Angeles, California, USA 22947"
+      "en": "442 South San Pedro Street, Los Angeles, CA 90013, United States"
     },
     "services": {
       "en": [
@@ -88503,15 +86330,15 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Downtown Women’s Center LA) serving Los Angeles, California, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Downtown Women’s Center (Los Angeles) at 442 South San Pedro Street, Los Angeles, CA 90013, United States."
     }
   },
   {
     "id": "usa-safe-4008-u2",
     "regionDistrict": "Los Angeles, California, USA",
     "type": "safe-haven",
-    "lat": 34.0555,
-    "lng": -118.204,
+    "lat": 34.0189,
+    "lng": -118.1542,
     "name": {
       "en": "East Los Angeles Women’s Center"
     },
@@ -88521,7 +86348,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 323-409-1000 / +1 213-680-9600",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "6 Main St, Los Angeles, California, USA 22076"
+      "en": "1431 South Atlantic Boulevard, Los Angeles, CA 90022, United States"
     },
     "services": {
       "en": [
@@ -88531,7 +86358,7 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (East Los Angeles Women’s Center) serving Los Angeles, California, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "East Los Angeles Women’s Center at 1431 South Atlantic Boulevard, Los Angeles, CA 90022, United States."
     }
   },
   {
@@ -88539,9 +86366,9 @@ export const WORLD_CENTERS_DIRECTORY = [
     "regionDistrict": "Los Angeles, California, USA",
     "type": "safe-haven",
     "lat": 34.0545,
-    "lng": -118.209,
+    "lng": -118.2689,
     "name": {
-      "en": "Peace Over Violence Safe Shelter Network"
+      "en": "Peace Over Violence (Sexual & Domestic Violence Crisis Center — LA)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88549,7 +86376,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 323-409-1000 / +1 213-680-9600",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "125 Main St, Los Angeles, California, USA 31585"
+      "en": "1541 Wilshire Boulevard, Suite 300, Los Angeles, CA 90017, United States"
     },
     "services": {
       "en": [
@@ -88559,17 +86386,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Peace Over Violence Safe Shelter Network) serving Los Angeles, California, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Peace Over Violence (Sexual & Domestic Violence Crisis Center — LA) at 1541 Wilshire Boulevard, Suite 300, Los Angeles, CA 90017, United States."
     }
   },
   {
     "id": "usa-hosp-4009",
-    "regionDistrict": "San Francisco & Oakland (Bay Area), California, USA",
+    "regionDistrict": "San Francisco, California, USA",
     "type": "hospital",
     "lat": 37.7662,
     "lng": -122.3905,
     "name": {
-      "en": "UCSF Betty Irene Moore Women’s Hospital (Mission Bay), Zuckerberg San Francisco General"
+      "en": "UCSF Betty Irene Moore Women’s Hospital (Mission Bay)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88577,27 +86404,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 415-353-2667 / 1-877-503-1850",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "110 Medical Center Dr, San Francisco & Oakland (Bay Area), California, USA 75260"
+      "en": "1855 4th Street, San Francisco, CA 94158, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "UCSF Birth Center, High-Risk Maternal-Fetal Medicine & Fetal Treatment Center",
+        "Comprehensive Gynecology, Fibroid Center & Reproductive Health"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UCSF Betty Irene Moore Women’s Hospital (Mission Bay), Zuckerberg San Francisco General) serving San Francisco & Oakland (Bay Area), California, USA. Tap Get Directions for route."
+      "en": "UCSF Betty Irene Moore Women’s Hospital (Mission Bay) at 1855 4th Street, San Francisco, CA 94158, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "UCSF Birth Center, High-Risk Maternal-Fetal Medicine & Fetal Treatment Center",
+        "Comprehensive Gynecology, Fibroid Center & Reproductive Health"
+      ]
     }
   },
   {
     "id": "usa-hosp-4009-u2",
-    "regionDistrict": "Oakland (East Bay), California, USA",
+    "regionDistrict": "Oakland, California, USA",
     "type": "hospital",
     "lat": 37.7992,
     "lng": -122.2315,
     "name": {
-      "en": "Highland Hospital"
+      "en": "Highland Hospital (Alameda Health System — Oakland)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88605,25 +86437,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 415-353-2667 / 1-877-503-1850",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "123 Medical Center Dr, San Francisco & Oakland (Bay Area), California, USA 91673"
+      "en": "1411 East 31st Street, Oakland, CA 94602, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birthing Center, Midwifery & Obstetrics/Gynecology",
+        "Sexual Assault Center & Trauma-Informed Maternal Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Highland Hospital) serving San Francisco & Oakland (Bay Area), California, USA. Tap Get Directions for route."
+      "en": "Highland Hospital (Alameda Health System — Oakland) at 1411 East 31st Street, Oakland, CA 94602, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birthing Center, Midwifery & Obstetrics/Gynecology",
+        "Sexual Assault Center & Trauma-Informed Maternal Care"
+      ]
     }
   },
   {
     "id": "usa-safe-4009",
-    "regionDistrict": "San Francisco & Oakland (Bay Area), California, USA",
+    "regionDistrict": "San Francisco, California, USA",
     "type": "safe-haven",
-    "lat": 37.7687,
-    "lng": -122.393,
+    "lat": 37.7753,
+    "lng": -122.4128,
     "name": {
       "en": "La Casa de las Madres (San Francisco 24/7 Women’s Shelter)"
     },
@@ -88633,7 +86470,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 415-353-2667 / 1-877-503-1850",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "163 Main St, San Francisco & Oakland (Bay Area), California, USA 53853"
+      "en": "1269 Howard Street, San Francisco, CA 94103, United States"
     },
     "services": {
       "en": [
@@ -88643,17 +86480,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (La Casa de las Madres (San Francisco 24/7 Women’s Shelter)) serving San Francisco & Oakland (Bay Area), California, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "La Casa de las Madres (San Francisco 24/7 Women’s Shelter) at 1269 Howard Street, San Francisco, CA 94103, United States."
     }
   },
   {
     "id": "usa-safe-4009-u2",
-    "regionDistrict": "San Francisco & Oakland (Bay Area), California, USA",
+    "regionDistrict": "Hayward / East Bay, California, USA",
     "type": "safe-haven",
-    "lat": 37.7637,
-    "lng": -122.388,
+    "lat": 37.6744,
+    "lng": -122.0811,
     "name": {
-      "en": "Ruby’s Place / Building Futures (East Bay)"
+      "en": "Ruby’s Place & Building Futures Women’s Shelter (East Bay)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88661,7 +86498,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 415-353-2667 / 1-877-503-1850",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "25 Main St, San Francisco & Oakland (Bay Area), California, USA 51355"
+      "en": "1180 B Street, Hayward, CA 94541, United States"
     },
     "services": {
       "en": [
@@ -88671,17 +86508,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Ruby’s Place / Building Futures (East Bay)) serving San Francisco & Oakland (Bay Area), California, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Ruby’s Place & Building Futures Women’s Shelter (East Bay) at 1180 B Street, Hayward, CA 94541, United States."
     }
   },
   {
     "id": "usa-hosp-4010",
-    "regionDistrict": "San Diego & Imperial Valley, California, USA",
+    "regionDistrict": "San Diego, California, USA",
     "type": "hospital",
     "lat": 32.7989,
     "lng": -117.1511,
     "name": {
-      "en": "Sharp Mary Birch Hospital for Women & Newborns"
+      "en": "Sharp Mary Birch Hospital for Women & Newborns (San Diego)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88689,27 +86526,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 858-939-3400 / +1 619-234-3164",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "25 Medical Center Dr, San Diego & Imperial Valley, California, USA 21685"
+      "en": "3003 Health Center Drive, San Diego, CA 92123, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "24/7 Labor & Delivery, High-Risk Perinatal Unit & Level III NICU",
+        "Specialty Women’s Surgery & Postpartum Support"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Sharp Mary Birch Hospital for Women & Newborns) serving San Diego & Imperial Valley, California, USA. Tap Get Directions for route."
+      "en": "Sharp Mary Birch Hospital for Women & Newborns (San Diego) at 3003 Health Center Drive, San Diego, CA 92123, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "24/7 Labor & Delivery, High-Risk Perinatal Unit & Level III NICU",
+        "Specialty Women’s Surgery & Postpartum Support"
+      ]
     }
   },
   {
     "id": "usa-hosp-4010-u2",
-    "regionDistrict": "San Diego & Imperial Valley, California, USA",
+    "regionDistrict": "La Jolla / San Diego, California, USA",
     "type": "hospital",
-    "lat": 32.8014,
-    "lng": -117.1486,
+    "lat": 32.8778,
+    "lng": -117.2219,
     "name": {
-      "en": "UC San Diego Health Jacobs Medical Center"
+      "en": "UC San Diego Health — Jacobs Medical Center (Birth Center)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88717,27 +86559,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 858-939-3400 / +1 619-234-3164",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "133 Medical Center Dr, San Diego & Imperial Valley, California, USA 49383"
+      "en": "9300 Campus Point Drive, La Jolla, San Diego, CA 92037, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, Birth Center & Certified Nurse-Midwifery",
+        "Maternal-Fetal Medicine & Level III NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UC San Diego Health Jacobs Medical Center) serving San Diego & Imperial Valley, California, USA. Tap Get Directions for route."
+      "en": "UC San Diego Health — Jacobs Medical Center (Birth Center) at 9300 Campus Point Drive, La Jolla, San Diego, CA 92037, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, Birth Center & Certified Nurse-Midwifery",
+        "Maternal-Fetal Medicine & Level III NICU"
+      ]
     }
   },
   {
     "id": "usa-hosp-4010-u3",
-    "regionDistrict": "San Diego & Imperial Valley, California, USA",
+    "regionDistrict": "El Centro, California, USA",
     "type": "hospital",
-    "lat": 32.8014,
-    "lng": -117.1486,
+    "lat": 32.785,
+    "lng": -115.5686,
     "name": {
-      "en": "El Centro Regional Medical Center"
+      "en": "El Centro Regional Medical Center (Imperial Valley)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88745,27 +86592,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 858-939-3400 / +1 619-234-3164",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "210 Medical Center Dr, San Diego & Imperial Valley, California, USA 50880"
+      "en": "1415 Ross Avenue, El Centro, CA 92243, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternal & Child Health Unit, Labor & Delivery",
+        "Imperial Valley Border Region Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (El Centro Regional Medical Center) serving San Diego & Imperial Valley, California, USA. Tap Get Directions for route."
+      "en": "El Centro Regional Medical Center (Imperial Valley) at 1415 Ross Avenue, El Centro, CA 92243, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternal & Child Health Unit, Labor & Delivery",
+        "Imperial Valley Border Region Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4010",
-    "regionDistrict": "San Diego & Imperial Valley, California, USA",
+    "regionDistrict": "San Diego, California, USA",
     "type": "safe-haven",
-    "lat": 32.8014,
-    "lng": -117.1536,
+    "lat": 32.7169,
+    "lng": -117.1553,
     "name": {
-      "en": "YWCA San Diego Becky’s House Domestic Violence Shelter & Center for Community Solutions"
+      "en": "YWCA San Diego — Becky’s House Domestic Violence Shelter"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88773,7 +86625,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 858-939-3400 / +1 619-234-3164",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "234 Main St, San Diego & Imperial Valley, California, USA 46574"
+      "en": "1012 C Street, San Diego, CA 92101, United States"
     },
     "services": {
       "en": [
@@ -88783,17 +86635,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving San Diego & Imperial Valley, California, USA. Call +1 858-939-3400 / +1 619-234-3164 or 1-800-799-7233 for immediate confidential intake."
+      "en": "YWCA San Diego — Becky’s House Domestic Violence Shelter at 1012 C Street, San Diego, CA 92101, United States."
     }
   },
   {
     "id": "usa-hosp-4011",
-    "regionDistrict": "Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA",
+    "regionDistrict": "Fresno, California, USA",
     "type": "hospital",
     "lat": 36.7468,
     "lng": -119.7726,
     "name": {
-      "en": "Community Regional Medical Center (Fresno Birthing Center)"
+      "en": "Community Regional Medical Center (Fresno)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88801,27 +86653,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 559-459-6000 / +1 559-233-4357",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "155 Medical Center Dr, Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA 87395"
+      "en": "2823 Fresno Street, Fresno, CA 93721, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birthing Center, High-Risk Pregnancy Care & Level III NICU",
+        "Central Valley Regional Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Community Regional Medical Center (Fresno Birthing Center)) serving Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA. Tap Get Directions for route."
+      "en": "Community Regional Medical Center (Fresno) at 2823 Fresno Street, Fresno, CA 93721, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birthing Center, High-Risk Pregnancy Care & Level III NICU",
+        "Central Valley Regional Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4011-u2",
-    "regionDistrict": "Bakersfield (Kern County), California, USA",
+    "regionDistrict": "Bakersfield, California, USA",
     "type": "hospital",
     "lat": 35.3812,
-    "lng": -119.0187,
+    "lng": -118.9675,
     "name": {
-      "en": "Kern Medical"
+      "en": "Kern Medical (Bakersfield)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88829,27 +86686,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 559-459-6000 / +1 559-233-4357",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "221 Medical Center Dr, Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA 84491"
+      "en": "1700 Mount Vernon Avenue, Bakersfield, CA 93306, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternal & Child Health, Labor & Delivery & OB/GYN",
+        "Kern County Safety-Net Women’s Healthcare"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Kern Medical) serving Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA. Tap Get Directions for route."
+      "en": "Kern Medical (Bakersfield) at 1700 Mount Vernon Avenue, Bakersfield, CA 93306, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternal & Child Health, Labor & Delivery & OB/GYN",
+        "Kern County Safety-Net Women’s Healthcare"
+      ]
     }
   },
   {
     "id": "usa-safe-4011",
-    "regionDistrict": "Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA",
+    "regionDistrict": "Fresno, California, USA",
     "type": "safe-haven",
-    "lat": 36.7493,
-    "lng": -119.7751,
+    "lat": 36.7417,
+    "lng": -119.7867,
     "name": {
-      "en": "Marjaree Mason Center (Fresno & Rural Central Valley Women’s Safe House)"
+      "en": "Marjaree Mason Center (Fresno & Central Valley Women’s Safe House)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88857,7 +86719,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 559-459-6000 / +1 559-233-4357",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "170 Main St, Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA 87340"
+      "en": "1600 M Street, Fresno, CA 93721, United States"
     },
     "services": {
       "en": [
@@ -88867,17 +86729,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Marjaree Mason Center (Fresno & Rural Central Valley Women’s Safe House)) serving Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Marjaree Mason Center (Fresno & Central Valley Women’s Safe House) at 1600 M Street, Fresno, CA 93721, United States."
     }
   },
   {
     "id": "usa-safe-4011-u2",
-    "regionDistrict": "Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA",
+    "regionDistrict": "Bakersfield, California, USA",
     "type": "safe-haven",
-    "lat": 36.7443,
-    "lng": -119.7701,
+    "lat": 35.3764,
+    "lng": -119.0242,
     "name": {
-      "en": "Alliance Against Family Violence"
+      "en": "Alliance Against Family Violence and Sexual Assault (Bakersfield)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88885,7 +86747,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 559-459-6000 / +1 559-233-4357",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "25 Main St, Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA 69925"
+      "en": "1921 19th Street, Bakersfield, CA 93301, United States"
     },
     "services": {
       "en": [
@@ -88895,17 +86757,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Alliance Against Family Violence) serving Fresno, Bakersfield & Central Valley Rural Agricultural Corridor, California, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Alliance Against Family Violence and Sexual Assault (Bakersfield) at 1921 19th Street, Bakersfield, CA 93301, United States."
     }
   },
   {
     "id": "usa-hosp-4012",
-    "regionDistrict": "Denver & Aurora, Colorado, USA",
+    "regionDistrict": "Aurora / Denver, Colorado, USA",
     "type": "hospital",
     "lat": 39.7459,
     "lng": -104.838,
     "name": {
-      "en": "UCHealth University of Colorado Hospital (Birth Center), Denver Health Women’s Care"
+      "en": "UCHealth University of Colorado Hospital (Anschutz Campus)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88913,27 +86775,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 720-848-0000 / +1 303-318-9989",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "187 Medical Center Dr, Denver & Aurora, Colorado, USA 19277"
+      "en": "12605 East 16th Avenue, Aurora, CO 80045, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birth Center, Colorado Fetal Care Center & Maternal-Fetal Medicine",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UCHealth University of Colorado Hospital (Birth Center), Denver Health Women’s Care) serving Denver & Aurora, Colorado, USA. Tap Get Directions for route."
+      "en": "UCHealth University of Colorado Hospital (Anschutz Campus) at 12605 East 16th Avenue, Aurora, CO 80045, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birth Center, Colorado Fetal Care Center & Maternal-Fetal Medicine",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4012-u2",
-    "regionDistrict": "Denver & Aurora, Colorado, USA",
+    "regionDistrict": "Denver, Colorado, USA",
     "type": "hospital",
-    "lat": 39.7484,
-    "lng": -104.8355,
+    "lat": 39.7275,
+    "lng": -104.9908,
     "name": {
-      "en": "Saint Joseph Hospital"
+      "en": "Denver Health Medical Center (Pavilion C — Women’s Care)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88941,27 +86808,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 720-848-0000 / +1 303-318-9989",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "77 Medical Center Dr, Denver & Aurora, Colorado, USA 99737"
+      "en": "777 Bannock Street, Denver, CO 80204, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birth Center, Midwifery & 24/7 Obstetrical Emergency Department",
+        "Women’s Care Clinic & Sexual Assault Nurse Examiners"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Saint Joseph Hospital) serving Denver & Aurora, Colorado, USA. Tap Get Directions for route."
+      "en": "Denver Health Medical Center (Pavilion C — Women’s Care) at 777 Bannock Street, Denver, CO 80204, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center, Midwifery & 24/7 Obstetrical Emergency Department",
+        "Women’s Care Clinic & Sexual Assault Nurse Examiners"
+      ]
     }
   },
   {
     "id": "usa-safe-4012",
-    "regionDistrict": "Denver & Aurora, Colorado, USA",
+    "regionDistrict": "Denver, Colorado, USA",
     "type": "safe-haven",
-    "lat": 39.7484,
-    "lng": -104.8405,
+    "lat": 39.7428,
+    "lng": -104.9733,
     "name": {
-      "en": "SafeHouse Denver, The Delores Project & Family Tree Karlis Family Center"
+      "en": "SafeHouse Denver (Domestic Violence Emergency Shelter & Counseling)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -88969,7 +86841,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 720-848-0000 / +1 303-318-9989",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "24 Main St, Denver & Aurora, Colorado, USA 98224"
+      "en": "1649 Downing Street, Denver, CO 80218, United States"
     },
     "services": {
       "en": [
@@ -88979,17 +86851,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Denver & Aurora, Colorado, USA. Call +1 720-848-0000 / +1 303-318-9989 or 1-800-799-7233 for immediate confidential intake."
+      "en": "SafeHouse Denver (Domestic Violence Emergency Shelter & Counseling) at 1649 Downing Street, Denver, CO 80218, United States."
     }
   },
   {
     "id": "usa-hosp-4013",
-    "regionDistrict": "New Haven & Hartford, Connecticut, USA",
+    "regionDistrict": "New Haven, Connecticut, USA",
     "type": "hospital",
     "lat": 41.3041,
     "lng": -72.9355,
     "name": {
-      "en": "Yale New Haven Hospital (Women’s Center & Maternity)"
+      "en": "Yale New Haven Hospital"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -88997,27 +86869,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 203-688-4242 / +1 888-774-2900",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "23 Medical Center Dr, New Haven & Hartford, Connecticut, USA 39893"
+      "en": "20 York Street, New Haven, CT 06510, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s Center, Maternity & Labor and Delivery",
+        "Maternal-Fetal Medicine, Level IV NICU & Gynecologic Oncology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Yale New Haven Hospital (Women’s Center & Maternity)) serving New Haven & Hartford, Connecticut, USA. Tap Get Directions for route."
+      "en": "Yale New Haven Hospital at 20 York Street, New Haven, CT 06510, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Center, Maternity & Labor and Delivery",
+        "Maternal-Fetal Medicine, Level IV NICU & Gynecologic Oncology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4013-u2",
-    "regionDistrict": "New Haven & Hartford, Connecticut, USA",
+    "regionDistrict": "Hartford, Connecticut, USA",
     "type": "hospital",
-    "lat": 41.3066,
-    "lng": -72.933,
+    "lat": 41.7539,
+    "lng": -72.6797,
     "name": {
-      "en": "Hartford Hospital Women’s Health Services"
+      "en": "Hartford Hospital"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89025,27 +86902,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 203-688-4242 / +1 888-774-2900",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "78 Medical Center Dr, New Haven & Hartford, Connecticut, USA 98268"
+      "en": "80 Seymour Street, Hartford, CT 06102, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s Health Services, Labor & Delivery & Conklin Building Maternity",
+        "High-Risk Perinatal & Urogynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Hartford Hospital Women’s Health Services) serving New Haven & Hartford, Connecticut, USA. Tap Get Directions for route."
+      "en": "Hartford Hospital at 80 Seymour Street, Hartford, CT 06102, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Health Services, Labor & Delivery & Conklin Building Maternity",
+        "High-Risk Perinatal & Urogynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4013",
-    "regionDistrict": "New Haven & Hartford, Connecticut, USA",
+    "regionDistrict": "New Haven / Ansonia, Connecticut, USA",
     "type": "safe-haven",
-    "lat": 41.3066,
-    "lng": -72.938,
+    "lat": 41.3011,
+    "lng": -72.9278,
     "name": {
-      "en": "Umbrella Center for Domestic Violence Services (New Haven)"
+      "en": "The Umbrella Center for Domestic Violence Services (New Haven)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89053,7 +86935,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 203-688-4242 / +1 888-774-2900",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "29 Main St, New Haven & Hartford, Connecticut, USA 28019"
+      "en": "54 Meadow Street, New Haven, CT 06519, United States"
     },
     "services": {
       "en": [
@@ -89063,17 +86945,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Umbrella Center for Domestic Violence Services (New Haven)) serving New Haven & Hartford, Connecticut, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "The Umbrella Center for Domestic Violence Services (New Haven) at 54 Meadow Street, New Haven, CT 06519, United States."
     }
   },
   {
     "id": "usa-safe-4013-u2",
     "regionDistrict": "Hartford, Connecticut, USA",
     "type": "safe-haven",
-    "lat": 41.7658,
-    "lng": -72.6734,
+    "lat": 41.7747,
+    "lng": -72.6736,
     "name": {
-      "en": "Interval House"
+      "en": "Interval House (Greater Hartford Domestic Violence Safe House)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89081,7 +86963,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 203-688-4242 / +1 888-774-2900",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "206 Main St, New Haven & Hartford, Connecticut, USA 69636"
+      "en": "1259 Main Street, Hartford, CT 06103, United States"
     },
     "services": {
       "en": [
@@ -89091,17 +86973,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Interval House) serving New Haven & Hartford, Connecticut, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Interval House (Greater Hartford Domestic Violence Safe House) at 1259 Main Street, Hartford, CT 06103, United States."
     }
   },
   {
     "id": "usa-hosp-4014",
-    "regionDistrict": "Wilmington & Newark, Delaware, USA",
+    "regionDistrict": "Newark / Wilmington, Delaware, USA",
     "type": "hospital",
     "lat": 39.6837,
     "lng": -75.6682,
     "name": {
-      "en": "ChristianaCare Center for Women’s & Children’s Health (Newark / Wilmington)"
+      "en": "ChristianaCare — Center for Women’s & Children’s Health (Newark Campus)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89109,27 +86991,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 302-733-1000 / +1 302-762-6110",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "121 Medical Center Dr, Wilmington & Newark, Delaware, USA 58001"
+      "en": "4755 Ogletown-Stanton Road, Newark, DE 19718, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "24/7 Obstetrical Emergency Department, Labor & Delivery & Level III NICU",
+        "Maternal-Fetal Medicine & Comprehensive Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Women’s & Maternity Hospital serving Wilmington & Newark, Delaware, USA. Tap Get Directions for road route."
+      "en": "ChristianaCare — Center for Women’s & Children’s Health (Newark Campus) at 4755 Ogletown-Stanton Road, Newark, DE 19718, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "24/7 Obstetrical Emergency Department, Labor & Delivery & Level III NICU",
+        "Maternal-Fetal Medicine & Comprehensive Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4014",
-    "regionDistrict": "Wilmington & Newark, Delaware, USA",
+    "regionDistrict": "Wilmington, Delaware, USA",
     "type": "safe-haven",
-    "lat": 39.6862,
-    "lng": -75.6707,
+    "lat": 39.7694,
+    "lng": -75.5056,
     "name": {
-      "en": "YWCA Delaware Home-Life Management Center & CHILD Inc. Domestic Violence Shelter"
+      "en": "YWCA Delaware & CHILD Inc. Domestic Violence Shelter (Wilmington)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89137,7 +87024,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 302-733-1000 / +1 302-762-6110",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "47 Main St, Wilmington & Newark, Delaware, USA 33167"
+      "en": "507 Philadelphia Pike, Wilmington, DE 19809, United States"
     },
     "services": {
       "en": [
@@ -89147,17 +87034,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Wilmington & Newark, Delaware, USA. Call +1 302-733-1000 / +1 302-762-6110 or 1-800-799-7233 for immediate confidential intake."
+      "en": "YWCA Delaware & CHILD Inc. Domestic Violence Shelter (Wilmington) at 507 Philadelphia Pike, Wilmington, DE 19809, United States."
     }
   },
   {
     "id": "usa-hosp-4015",
-    "regionDistrict": "Washington, District of Columbia (D.C.), USA",
+    "regionDistrict": "Washington, D.C., USA",
     "type": "hospital",
     "lat": 38.9296,
     "lng": -77.0145,
     "name": {
-      "en": "MedStar Washington Hospital Center (Women & Infants)"
+      "en": "MedStar Washington Hospital Center"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89165,25 +87052,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 202-877-7000 / +1 202-529-5991",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "166 Medical Center Dr, Washington, District of Columbia (D.C.), USA 90826"
+      "en": "110 Irving Street NW, Washington, DC 20010, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women and Infants’ Services, Labor & Delivery & Level III NICU",
+        "High-Risk Obstetrics, Midwifery & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (MedStar Washington Hospital Center (Women & Infants)) serving Washington, District of Columbia (D.C.), USA. Tap Get Directions for route."
+      "en": "MedStar Washington Hospital Center at 110 Irving Street NW, Washington, DC 20010, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women and Infants’ Services, Labor & Delivery & Level III NICU",
+        "High-Risk Obstetrics, Midwifery & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4015-u2",
-    "regionDistrict": "Washington, District of Columbia (D.C.), USA",
+    "regionDistrict": "Washington, D.C., USA",
     "type": "hospital",
-    "lat": 38.9321,
-    "lng": -77.012,
+    "lat": 38.9011,
+    "lng": -77.0503,
     "name": {
       "en": "George Washington University Hospital"
     },
@@ -89193,25 +87085,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 202-877-7000 / +1 202-529-5991",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "104 Medical Center Dr, Washington, District of Columbia (D.C.), USA 60654"
+      "en": "900 23rd Street NW, Washington, DC 20037, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s Services, Labor & Delivery & Midwifery",
+        "Comprehensive OB/GYN & Minimally Invasive Fibroid Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (George Washington University Hospital) serving Washington, District of Columbia (D.C.), USA. Tap Get Directions for route."
+      "en": "George Washington University Hospital at 900 23rd Street NW, Washington, DC 20037, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Services, Labor & Delivery & Midwifery",
+        "Comprehensive OB/GYN & Minimally Invasive Fibroid Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4015-u3",
-    "regionDistrict": "Washington, District of Columbia (D.C.), USA",
+    "regionDistrict": "Washington, D.C., USA",
     "type": "hospital",
-    "lat": 38.9321,
-    "lng": -77.012,
+    "lat": 38.9175,
+    "lng": -77.0197,
     "name": {
       "en": "Howard University Hospital"
     },
@@ -89221,27 +87118,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 202-877-7000 / +1 202-529-5991",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "196 Medical Center Dr, Washington, District of Columbia (D.C.), USA 39876"
+      "en": "2041 Georgia Avenue NW, Washington, DC 20060, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Department of Obstetrics and Gynecology & Labor and Delivery",
+        "Maternal-Fetal Medicine & Community Women’s Health"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Howard University Hospital) serving Washington, District of Columbia (D.C.), USA. Tap Get Directions for route."
+      "en": "Howard University Hospital at 2041 Georgia Avenue NW, Washington, DC 20060, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Obstetrics and Gynecology & Labor and Delivery",
+        "Maternal-Fetal Medicine & Community Women’s Health"
+      ]
     }
   },
   {
     "id": "usa-safe-4015",
-    "regionDistrict": "Washington, District of Columbia (D.C.), USA",
+    "regionDistrict": "Washington, D.C., USA",
     "type": "safe-haven",
-    "lat": 38.9321,
-    "lng": -77.017,
+    "lat": 38.9064,
+    "lng": -77.0322,
     "name": {
-      "en": "House of Ruth (Washington D.C.)"
+      "en": "House of Ruth (Washington, D.C. Domestic Violence Safe Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89249,7 +87151,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 202-877-7000 / +1 202-529-5991",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "117 Main St, Washington, District of Columbia (D.C.), USA 54047"
+      "en": "5 Thomas Circle NW, Washington, DC 20005, United States"
     },
     "services": {
       "en": [
@@ -89259,17 +87161,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (House of Ruth (Washington D.C.)) serving Washington, District of Columbia (D.C.), USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "House of Ruth (Washington, D.C. Domestic Violence Safe Shelter) at 5 Thomas Circle NW, Washington, DC 20005, United States."
     }
   },
   {
     "id": "usa-safe-4015-u2",
-    "regionDistrict": "Washington, District of Columbia (D.C.), USA",
+    "regionDistrict": "Washington, D.C., USA",
     "type": "safe-haven",
-    "lat": 38.9271,
-    "lng": -77.012,
+    "lat": 38.9169,
+    "lng": -77.0333,
     "name": {
-      "en": "My Sister’s Place"
+      "en": "My Sister’s Place (DC Domestic Violence Shelter & 24/7 Hotline)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89277,7 +87179,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 202-877-7000 / +1 202-529-5991",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "84 Main St, Washington, District of Columbia (D.C.), USA 71584"
+      "en": "1436 U Street NW, Suite 303, Washington, DC 20009, United States"
     },
     "services": {
       "en": [
@@ -89287,17 +87189,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (My Sister’s Place) serving Washington, District of Columbia (D.C.), USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "My Sister’s Place (DC Domestic Violence Shelter & 24/7 Hotline) at 1436 U Street NW, Suite 303, Washington, DC 20009, United States."
     }
   },
   {
     "id": "usa-safe-4015-u3",
-    "regionDistrict": "Washington, District of Columbia (D.C.), USA",
+    "regionDistrict": "Washington, D.C., USA",
     "type": "safe-haven",
-    "lat": 38.9261,
-    "lng": -77.017,
+    "lat": 38.8669,
+    "lng": -76.9881,
     "name": {
-      "en": "Calvary Women’s Services"
+      "en": "Calvary Women’s Services (Anacostia / Washington, D.C.)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89305,7 +87207,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 202-877-7000 / +1 202-529-5991",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "94 Main St, Washington, District of Columbia (D.C.), USA 26554"
+      "en": "1217 Good Hope Road SE, Washington, DC 20020, United States"
     },
     "services": {
       "en": [
@@ -89315,12 +87217,12 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Calvary Women’s Services) serving Washington, District of Columbia (D.C.), USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Calvary Women’s Services (Anacostia / Washington, D.C.) at 1217 Good Hope Road SE, Washington, DC 20020, United States."
     }
   },
   {
     "id": "usa-hosp-4016",
-    "regionDistrict": "Orlando & Tampa, Florida, USA",
+    "regionDistrict": "Orlando, Florida, USA",
     "type": "hospital",
     "lat": 28.5236,
     "lng": -81.3778,
@@ -89333,27 +87235,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 321-843-9792 / +1 407-886-2856",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "200 Medical Center Dr, Orlando & Tampa, Florida, USA 63640"
+      "en": "83 West Miller Street, Orlando, FL 32806, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "24/7 Women’s Triage, Labor & Delivery & Level IV NICU",
+        "High-Risk Maternal-Fetal Medicine, Fetal Care Center & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Orlando Health Winnie Palmer Hospital for Women & Babies) serving Orlando & Tampa, Florida, USA. Tap Get Directions for route."
+      "en": "Orlando Health Winnie Palmer Hospital for Women & Babies at 83 West Miller Street, Orlando, FL 32806, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "24/7 Women’s Triage, Labor & Delivery & Level IV NICU",
+        "High-Risk Maternal-Fetal Medicine, Fetal Care Center & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4016-u2",
-    "regionDistrict": "Orlando & Tampa, Florida, USA",
+    "regionDistrict": "Tampa, Florida, USA",
     "type": "hospital",
-    "lat": 28.5261,
-    "lng": -81.3753,
+    "lat": 27.9379,
+    "lng": -82.4593,
     "name": {
-      "en": "Tampa General Hospital Women’s Institute"
+      "en": "Tampa General Hospital (Women’s Institute)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89361,27 +87268,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 321-843-9792 / +1 407-886-2856",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "207 Medical Center Dr, Orlando & Tampa, Florida, USA 71937"
+      "en": "1 Tampa General Circle, Tampa, FL 33606, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Regional Perinatal Intensive Care Center, Labor & Delivery & Level III NICU",
+        "USF Health Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Tampa General Hospital Women’s Institute) serving Orlando & Tampa, Florida, USA. Tap Get Directions for route."
+      "en": "Tampa General Hospital (Women’s Institute) at 1 Tampa General Circle, Tampa, FL 33606, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Regional Perinatal Intensive Care Center, Labor & Delivery & Level III NICU",
+        "USF Health Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4016",
-    "regionDistrict": "Orlando & Tampa, Florida, USA",
+    "regionDistrict": "Orlando, Florida, USA",
     "type": "safe-haven",
-    "lat": 28.5261,
-    "lng": -81.3803,
+    "lat": 28.5086,
+    "lng": -81.2928,
     "name": {
-      "en": "Harbor House of Central Florida (Orlando)"
+      "en": "Harbor House of Central Florida (Orlando Domestic Violence Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89389,7 +87301,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 321-843-9792 / +1 407-886-2856",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "237 Main St, Orlando & Tampa, Florida, USA 39877"
+      "en": "7009 Pershing Avenue, Orlando, FL 32822, United States"
     },
     "services": {
       "en": [
@@ -89399,17 +87311,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Harbor House of Central Florida (Orlando)) serving Orlando & Tampa, Florida, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Harbor House of Central Florida (Orlando Domestic Violence Shelter) at 7009 Pershing Avenue, Orlando, FL 32822, United States."
     }
   },
   {
     "id": "usa-safe-4016-u2",
-    "regionDistrict": "Orlando & Tampa, Florida, USA",
+    "regionDistrict": "Tampa, Florida, USA",
     "type": "safe-haven",
-    "lat": 28.5211,
-    "lng": -81.3753,
+    "lat": 27.9469,
+    "lng": -82.4708,
     "name": {
-      "en": "The Spring of Tampa Bay Domestic Violence Shelter"
+      "en": "The Spring of Tampa Bay (Domestic Violence Safe Shelter — Tampa)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89417,7 +87329,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 321-843-9792 / +1 407-886-2856",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "111 Main St, Orlando & Tampa, Florida, USA 60341"
+      "en": "209 North Willow Avenue, Tampa, FL 33606, United States"
     },
     "services": {
       "en": [
@@ -89427,17 +87339,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (The Spring of Tampa Bay Domestic Violence Shelter) serving Orlando & Tampa, Florida, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "The Spring of Tampa Bay (Domestic Violence Safe Shelter — Tampa) at 209 North Willow Avenue, Tampa, FL 33606, United States."
     }
   },
   {
     "id": "usa-hosp-4017",
-    "regionDistrict": "Miami & Fort Lauderdale, Florida, USA",
+    "regionDistrict": "Miami, Florida, USA",
     "type": "hospital",
     "lat": 25.7924,
     "lng": -80.2116,
     "name": {
-      "en": "Jackson Memorial Hospital — Holtz Children’s & Women’s Hospital (Miami)"
+      "en": "Jackson Memorial Hospital — Holtz Children’s & Women’s Hospital"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89445,27 +87357,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 305-585-1111 / +1 305-438-0556",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "184 Medical Center Dr, Miami & Fort Lauderdale, Florida, USA 29654"
+      "en": "1611 NW 12th Avenue, Miami, FL 33136, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s Hospital Center, 24/7 Obstetrical Emergency & Level III NICU",
+        "Roxcy Bolton Rape Treatment Center & High-Risk Perinatal Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Jackson Memorial Hospital — Holtz Children’s & Women’s Hospital (Miami)) serving Miami & Fort Lauderdale, Florida, USA. Tap Get Directions for route."
+      "en": "Jackson Memorial Hospital — Holtz Children’s & Women’s Hospital at 1611 NW 12th Avenue, Miami, FL 33136, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Hospital Center, 24/7 Obstetrical Emergency & Level III NICU",
+        "Roxcy Bolton Rape Treatment Center & High-Risk Perinatal Care"
+      ]
     }
   },
   {
     "id": "usa-hosp-4017-u2",
-    "regionDistrict": "Miami & Fort Lauderdale, Florida, USA",
+    "regionDistrict": "Miami, Florida, USA",
     "type": "hospital",
-    "lat": 25.7949,
-    "lng": -80.2091,
+    "lat": 25.6844,
+    "lng": -80.3392,
     "name": {
-      "en": "Baptist Hospital of Miami"
+      "en": "Baptist Hospital of Miami (Family Birth Place)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89473,27 +87390,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 305-585-1111 / +1 305-438-0556",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "145 Medical Center Dr, Miami & Fort Lauderdale, Florida, USA 66035"
+      "en": "8900 North Kendall Drive, Miami, FL 33176, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birth Place, Labor & Delivery & Level III NICU",
+        "Obstetrics & Gynecology Emergency Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Baptist Hospital of Miami) serving Miami & Fort Lauderdale, Florida, USA. Tap Get Directions for route."
+      "en": "Baptist Hospital of Miami (Family Birth Place) at 8900 North Kendall Drive, Miami, FL 33176, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Place, Labor & Delivery & Level III NICU",
+        "Obstetrics & Gynecology Emergency Care"
+      ]
     }
   },
   {
     "id": "usa-safe-4017",
-    "regionDistrict": "Miami & Fort Lauderdale, Florida, USA",
+    "regionDistrict": "Miami, Florida, USA",
     "type": "safe-haven",
-    "lat": 25.7949,
-    "lng": -80.2141,
+    "lat": 25.7892,
+    "lng": -80.1992,
     "name": {
-      "en": "Lotus House Women’s Shelter (Miami — Largest US Women’s Shelter) & Women In Distress of Broward County"
+      "en": "Lotus House Women’s Shelter (Overtown, Miami)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89501,7 +87423,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 305-585-1111 / +1 305-438-0556",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "21 Main St, Miami & Fort Lauderdale, Florida, USA 14561"
+      "en": "217 NW 15th Street, Miami, FL 33136, United States"
     },
     "services": {
       "en": [
@@ -89511,17 +87433,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Miami & Fort Lauderdale, Florida, USA. Call +1 305-585-1111 / +1 305-438-0556 or 1-800-799-7233 for immediate confidential intake."
+      "en": "Lotus House Women’s Shelter (Overtown, Miami) at 217 NW 15th Street, Miami, FL 33136, United States."
     }
   },
   {
     "id": "usa-hosp-4018",
-    "regionDistrict": "Jacksonville & Tallahassee / Panhandle, Florida, USA",
+    "regionDistrict": "Jacksonville, Florida, USA",
     "type": "hospital",
     "lat": 30.349,
     "lng": -81.6631,
     "name": {
-      "en": "UF Health Jacksonville (Women’s Specialists)"
+      "en": "UF Health Jacksonville"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89529,27 +87451,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 904-244-0411 / +1 904-354-3114",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "30 Medical Center Dr, Jacksonville & Tallahassee / Panhandle, Florida, USA 50440"
+      "en": "655 West 8th Street, Jacksonville, FL 32209, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s Specialists, Labor & Delivery & Regional Perinatal Center",
+        "High-Risk Obstetrics, Gynecology & Level III NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UF Health Jacksonville (Women’s Specialists)) serving Jacksonville & Tallahassee / Panhandle, Florida, USA. Tap Get Directions for route."
+      "en": "UF Health Jacksonville at 655 West 8th Street, Jacksonville, FL 32209, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Specialists, Labor & Delivery & Regional Perinatal Center",
+        "High-Risk Obstetrics, Gynecology & Level III NICU"
+      ]
     }
   },
   {
     "id": "usa-hosp-4018-u2",
-    "regionDistrict": "Jacksonville & Tallahassee / Panhandle, Florida, USA",
+    "regionDistrict": "Tallahassee, Florida, USA",
     "type": "hospital",
-    "lat": 30.3515,
-    "lng": -81.6606,
+    "lat": 30.4567,
+    "lng": -84.2597,
     "name": {
-      "en": "Tallahassee Memorial HealthCare Alexander D. Brickler Women’s Pavilion"
+      "en": "Tallahassee Memorial HealthCare — Alexander D. Brickler, MD Women’s Pavilion"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89557,27 +87484,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 904-244-0411 / +1 904-354-3114",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "200 Medical Center Dr, Jacksonville & Tallahassee / Panhandle, Florida, USA 20300"
+      "en": "1300 Miccosukee Road, Tallahassee, FL 32308, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, Family Care Unit & Level III NICU",
+        "Big Bend Region High-Risk Maternity & OB/GYN"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Tallahassee Memorial HealthCare Alexander D. Brickler Women’s Pavilion) serving Jacksonville & Tallahassee / Panhandle, Florida, USA. Tap Get Directions for route."
+      "en": "Tallahassee Memorial HealthCare — Alexander D. Brickler, MD Women’s Pavilion at 1300 Miccosukee Road, Tallahassee, FL 32308, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, Family Care Unit & Level III NICU",
+        "Big Bend Region High-Risk Maternity & OB/GYN"
+      ]
     }
   },
   {
     "id": "usa-safe-4018",
-    "regionDistrict": "Jacksonville & Tallahassee / Panhandle, Florida, USA",
+    "regionDistrict": "Jacksonville, Florida, USA",
     "type": "safe-haven",
-    "lat": 30.3515,
-    "lng": -81.6656,
+    "lat": 30.3036,
+    "lng": -81.5942,
     "name": {
-      "en": "Hubbard House (Jacksonville Domestic Violence Shelter) & Refuge House of the Big Bend (Tallahassee)"
+      "en": "Hubbard House (Jacksonville Domestic Violence Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89585,7 +87517,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 904-244-0411 / +1 904-354-3114",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "110 Main St, Jacksonville & Tallahassee / Panhandle, Florida, USA 93360"
+      "en": "6629 Beach Boulevard, Jacksonville, FL 32216, United States"
     },
     "services": {
       "en": [
@@ -89595,7 +87527,7 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Jacksonville & Tallahassee / Panhandle, Florida, USA. Call +1 904-244-0411 / +1 904-354-3114 or 1-800-799-7233 for immediate confidential intake."
+      "en": "Hubbard House (Jacksonville Domestic Violence Shelter) at 6629 Beach Boulevard, Jacksonville, FL 32216, United States."
     }
   },
   {
@@ -89605,7 +87537,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 33.7544,
     "lng": -84.3821,
     "name": {
-      "en": "Grady Memorial Hospital (Regional Perinatal Center)"
+      "en": "Grady Memorial Hospital"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89613,27 +87545,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 404-616-1000 / +1 404-873-1766",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "120 Medical Center Dr, Atlanta, Georgia, USA 80920"
+      "en": "80 Jesse Hill Jr Drive SE, Atlanta, GA 30303, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Regional Perinatal Center, Labor & Delivery & Level III NICU",
+        "Jane Fonda Center for Adolescent Reproductive Health & Rape Crisis Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Grady Memorial Hospital (Regional Perinatal Center)) serving Atlanta, Georgia, USA. Tap Get Directions for route."
+      "en": "Grady Memorial Hospital at 80 Jesse Hill Jr Drive SE, Atlanta, GA 30303, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Regional Perinatal Center, Labor & Delivery & Level III NICU",
+        "Jane Fonda Center for Adolescent Reproductive Health & Rape Crisis Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4019-u2",
-    "regionDistrict": "Atlanta, Georgia, USA",
+    "regionDistrict": "Atlanta / Sandy Springs, Georgia, USA",
     "type": "hospital",
-    "lat": 33.7569,
-    "lng": -84.3796,
+    "lat": 33.9086,
+    "lng": -84.3547,
     "name": {
-      "en": "Northside Hospital Atlanta Women’s Center"
+      "en": "Northside Hospital Atlanta (Women’s Center)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89641,25 +87578,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 404-616-1000 / +1 404-873-1766",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "215 Medical Center Dr, Atlanta, Georgia, USA 61935"
+      "en": "1000 Johnson Ferry Road NE, Atlanta, GA 30342, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Northside Hospital Women’s Center (Largest Maternity Unit in the US)",
+        "High-Risk Perinatal Care, Labor & Delivery & Special Care Nursery"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Northside Hospital Atlanta Women’s Center) serving Atlanta, Georgia, USA. Tap Get Directions for route."
+      "en": "Northside Hospital Atlanta (Women’s Center) at 1000 Johnson Ferry Road NE, Atlanta, GA 30342, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Northside Hospital Women’s Center (Largest Maternity Unit in the US)",
+        "High-Risk Perinatal Care, Labor & Delivery & Special Care Nursery"
+      ]
     }
   },
   {
     "id": "usa-hosp-4019-u3",
     "regionDistrict": "Atlanta, Georgia, USA",
     "type": "hospital",
-    "lat": 33.7569,
-    "lng": -84.3796,
+    "lat": 33.7694,
+    "lng": -84.3864,
     "name": {
       "en": "Emory University Hospital Midtown"
     },
@@ -89669,27 +87611,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 404-616-1000 / +1 404-873-1766",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "232 Medical Center Dr, Atlanta, Georgia, USA 83352"
+      "en": "550 Peachtree Street NE, Atlanta, GA 30308, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity Center, Labor & Delivery & Level III NICU",
+        "Emory Perinatal Center & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Emory University Hospital Midtown) serving Atlanta, Georgia, USA. Tap Get Directions for route."
+      "en": "Emory University Hospital Midtown at 550 Peachtree Street NE, Atlanta, GA 30308, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity Center, Labor & Delivery & Level III NICU",
+        "Emory Perinatal Center & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4019",
     "regionDistrict": "Atlanta, Georgia, USA",
     "type": "safe-haven",
-    "lat": 33.7569,
-    "lng": -84.3846,
+    "lat": 33.7747,
+    "lng": -84.2942,
     "name": {
-      "en": "Partnership Against Domestic Violence (PADV Atlanta), Atlanta Day Shelter for Women & Children & Raksha"
+      "en": "Partnership Against Domestic Violence (PADV — Atlanta Safe Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89697,7 +87644,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 404-616-1000 / +1 404-873-1766",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "140 Main St, Atlanta, Georgia, USA 59240"
+      "en": "246 Sycamore Street, Suite 120, Decatur / Atlanta, GA 30030, United States"
     },
     "services": {
       "en": [
@@ -89707,12 +87654,12 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Atlanta, Georgia, USA. Call +1 404-616-1000 / +1 404-873-1766 or 1-800-799-7233 for immediate confidential intake."
+      "en": "Partnership Against Domestic Violence (PADV — Atlanta Safe Shelter) at 246 Sycamore Street, Suite 120, Decatur / Atlanta, GA 30030, United States."
     }
   },
   {
     "id": "usa-hosp-4020",
-    "regionDistrict": "Savannah, Augusta & Rural South Georgia, Georgia, USA",
+    "regionDistrict": "Savannah, Georgia, USA",
     "type": "hospital",
     "lat": 32.0315,
     "lng": -81.0897,
@@ -89725,27 +87672,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 912-350-8000 / +1 912-629-8888",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "84 Medical Center Dr, Savannah, Augusta & Rural South Georgia, Georgia, USA 60244"
+      "en": "4700 Waters Avenue, Savannah, GA 31404, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Regional Perinatal Center, Suzanne &aski Women’s Pavilion & Level III NICU",
+        "Southeast Georgia High-Risk Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Memorial Health University Medical Center (Savannah)) serving Savannah, Augusta & Rural South Georgia, Georgia, USA. Tap Get Directions for route."
+      "en": "Memorial Health University Medical Center (Savannah) at 4700 Waters Avenue, Savannah, GA 31404, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Regional Perinatal Center, Suzanne &aski Women’s Pavilion & Level III NICU",
+        "Southeast Georgia High-Risk Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4020-u2",
-    "regionDistrict": "Savannah, Augusta & Rural South Georgia, Georgia, USA",
+    "regionDistrict": "Augusta, Georgia, USA",
     "type": "hospital",
-    "lat": 32.034,
-    "lng": -81.0872,
+    "lat": 33.4711,
+    "lng": -81.9881,
     "name": {
-      "en": "Wellstar MCG Health"
+      "en": "Wellstar MCG Health Medical Center (Augusta)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89753,25 +87705,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 912-350-8000 / +1 912-629-8888",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "21 Medical Center Dr, Savannah, Augusta & Rural South Georgia, Georgia, USA 93471"
+      "en": "1120 15th Street, Augusta, GA 30912, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Regional Perinatal Center, Labor & Delivery & Level IV NICU",
+        "Medical College of Georgia Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Wellstar MCG Health) serving Savannah, Augusta & Rural South Georgia, Georgia, USA. Tap Get Directions for route."
+      "en": "Wellstar MCG Health Medical Center (Augusta) at 1120 15th Street, Augusta, GA 30912, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Regional Perinatal Center, Labor & Delivery & Level IV NICU",
+        "Medical College of Georgia Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4020",
-    "regionDistrict": "Savannah, Augusta & Rural South Georgia, Georgia, USA",
+    "regionDistrict": "Savannah, Georgia, USA",
     "type": "safe-haven",
-    "lat": 32.034,
-    "lng": -81.0922,
+    "lat": 32.0239,
+    "lng": -81.1011,
     "name": {
       "en": "SAFE Shelter Center for Domestic Violence Services (Savannah)"
     },
@@ -89781,7 +87738,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 912-350-8000 / +1 912-629-8888",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "112 Main St, Savannah, Augusta & Rural South Georgia, Georgia, USA 66642"
+      "en": "601 East 66th Street, Savannah, GA 31405, United States"
     },
     "services": {
       "en": [
@@ -89791,17 +87748,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (SAFE Shelter Center for Domestic Violence Services (Savannah)) serving Savannah, Augusta & Rural South Georgia, Georgia, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "SAFE Shelter Center for Domestic Violence Services (Savannah) at 601 East 66th Street, Savannah, GA 31405, United States."
     }
   },
   {
     "id": "usa-safe-4020-u2",
-    "regionDistrict": "Savannah, Augusta & Rural South Georgia, Georgia, USA",
+    "regionDistrict": "Augusta, Georgia, USA",
     "type": "safe-haven",
-    "lat": 32.029,
-    "lng": -81.0872,
+    "lat": 33.4767,
+    "lng": -81.9739,
     "name": {
-      "en": "SafeHomes of Augusta"
+      "en": "SafeHomes of Augusta (East Central Georgia Domestic Violence Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89809,7 +87766,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 912-350-8000 / +1 912-629-8888",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "31 Main St, Savannah, Augusta & Rural South Georgia, Georgia, USA 53191"
+      "en": "409 13th Street, Augusta, GA 30901, United States"
     },
     "services": {
       "en": [
@@ -89819,17 +87776,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (SafeHomes of Augusta) serving Savannah, Augusta & Rural South Georgia, Georgia, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "SafeHomes of Augusta (East Central Georgia Domestic Violence Shelter) at 409 13th Street, Augusta, GA 30901, United States."
     }
   },
   {
     "id": "usa-hosp-4021",
-    "regionDistrict": "Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA",
+    "regionDistrict": "Honolulu (Oahu), Hawaii, USA",
     "type": "hospital",
     "lat": 21.3005,
     "lng": -157.835,
     "name": {
-      "en": "Kapiʻolani Medical Center for Women & Children (Honolulu)"
+      "en": "Kapiʻolani Medical Center for Women & Children"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89837,27 +87794,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 808-983-6000 / +1 808-531-3771",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "56 Medical Center Dr, Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA 65356"
+      "en": "1319 Punahou Street, Honolulu, HI 96826, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Hawaii’s Only Specialty Maternity & Women’s Hospital",
+        "24/7 Obstetrical Triage, High-Risk Perinatal Unit, Level III NICU & Sex Abuse Treatment Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Kapiʻolani Medical Center for Women & Children (Honolulu)) serving Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA. Tap Get Directions for route."
+      "en": "Kapiʻolani Medical Center for Women & Children at 1319 Punahou Street, Honolulu, HI 96826, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Hawaii’s Only Specialty Maternity & Women’s Hospital",
+        "24/7 Obstetrical Triage, High-Risk Perinatal Unit, Level III NICU & Sex Abuse Treatment Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4021-u2",
-    "regionDistrict": "Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA",
+    "regionDistrict": "Honolulu (Oahu), Hawaii, USA",
     "type": "hospital",
-    "lat": 21.303,
-    "lng": -157.8325,
+    "lat": 21.3075,
+    "lng": -157.8542,
     "name": {
-      "en": "Queen’s Medical Center"
+      "en": "The Queen’s Medical Center (Honolulu)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89865,25 +87827,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 808-983-6000 / +1 808-531-3771",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "142 Medical Center Dr, Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA 75662"
+      "en": "1301 Punchbowl Street, Honolulu, HI 96813, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Queen’s Birthing Center & Women’s Health Center",
+        "24/7 Emergency & Obstetrical Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Queen’s Medical Center) serving Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA. Tap Get Directions for route."
+      "en": "The Queen’s Medical Center (Honolulu) at 1301 Punchbowl Street, Honolulu, HI 96813, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Queen’s Birthing Center & Women’s Health Center",
+        "24/7 Emergency & Obstetrical Care"
+      ]
     }
   },
   {
     "id": "usa-hosp-4021-u3",
-    "regionDistrict": "Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA",
+    "regionDistrict": "Hilo (Big Island), Hawaii, USA",
     "type": "hospital",
-    "lat": 21.303,
-    "lng": -157.8325,
+    "lat": 19.7219,
+    "lng": -155.1119,
     "name": {
       "en": "Hilo Benioff Medical Center"
     },
@@ -89893,27 +87860,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 808-983-6000 / +1 808-531-3771",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "131 Medical Center Dr, Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA 57661"
+      "en": "1190 Waianuenue Avenue, Hilo, HI 96720, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, Obstetrics & Gynecology",
+        "Hawaii Island Regional Maternal Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Hilo Benioff Medical Center) serving Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA. Tap Get Directions for route."
+      "en": "Hilo Benioff Medical Center at 1190 Waianuenue Avenue, Hilo, HI 96720, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, Obstetrics & Gynecology",
+        "Hawaii Island Regional Maternal Care"
+      ]
     }
   },
   {
     "id": "usa-safe-4021",
-    "regionDistrict": "Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA",
+    "regionDistrict": "Honolulu (Oahu), Hawaii, USA",
     "type": "safe-haven",
-    "lat": 21.303,
-    "lng": -157.8375,
+    "lat": 21.3114,
+    "lng": -157.8594,
     "name": {
-      "en": "Domestic Violence Action Center (Honolulu), Child & Family Service Oahu Shelter & Women Helping Women (Maui)"
+      "en": "Domestic Violence Action Center (Honolulu)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -89921,7 +87893,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 808-983-6000 / +1 808-531-3771",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "182 Main St, Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA 45162"
+      "en": "1136 Union Mall, Suite 502, Honolulu, HI 96813, United States"
     },
     "services": {
       "en": [
@@ -89931,17 +87903,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Honolulu (Oahu), Hilo (Big Island) & Maui, Hawaii, USA. Call +1 808-983-6000 / +1 808-531-3771 or 1-800-799-7233 for immediate confidential intake."
+      "en": "Domestic Violence Action Center (Honolulu) at 1136 Union Mall, Suite 502, Honolulu, HI 96813, United States."
     }
   },
   {
     "id": "usa-hosp-4022",
-    "regionDistrict": "Boise & Pocatello / Coeur d’Alene, Idaho, USA",
+    "regionDistrict": "Boise, Idaho, USA",
     "type": "hospital",
     "lat": 43.6008,
     "lng": -116.1959,
     "name": {
-      "en": "St. Luke’s Boise Medical Center (Mother & Baby Unit)"
+      "en": "St. Luke’s Boise Medical Center"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89949,27 +87921,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 208-381-2222 / +1 208-343-7025",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "228 Medical Center Dr, Boise & Pocatello / Coeur d’Alene, Idaho, USA 98478"
+      "en": "190 East Bannock Street, Boise, ID 83712, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Mother & Baby Unit, Labor & Delivery & Level IV NICU",
+        "Maternal-Fetal Medicine & Women’s Health"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (St. Luke’s Boise Medical Center (Mother & Baby Unit)) serving Boise & Pocatello / Coeur d’Alene, Idaho, USA. Tap Get Directions for route."
+      "en": "St. Luke’s Boise Medical Center at 190 East Bannock Street, Boise, ID 83712, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Mother & Baby Unit, Labor & Delivery & Level IV NICU",
+        "Maternal-Fetal Medicine & Women’s Health"
+      ]
     }
   },
   {
     "id": "usa-hosp-4022-u2",
-    "regionDistrict": "Boise & Pocatello / Coeur d’Alene, Idaho, USA",
+    "regionDistrict": "Boise, Idaho, USA",
     "type": "hospital",
-    "lat": 43.6033,
-    "lng": -116.1934,
+    "lat": 43.6147,
+    "lng": -116.2564,
     "name": {
-      "en": "Saint Alphonsus Regional Medical Center"
+      "en": "Saint Alphonsus Regional Medical Center (Boise)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -89977,25 +87954,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 208-381-2222 / +1 208-343-7025",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "149 Medical Center Dr, Boise & Pocatello / Coeur d’Alene, Idaho, USA 49189"
+      "en": "1055 North Curtis Road, Boise, ID 83706, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Maternity Center, Labor & Delivery & Level III NICU",
+        "Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Saint Alphonsus Regional Medical Center) serving Boise & Pocatello / Coeur d’Alene, Idaho, USA. Tap Get Directions for route."
+      "en": "Saint Alphonsus Regional Medical Center (Boise) at 1055 North Curtis Road, Boise, ID 83706, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Maternity Center, Labor & Delivery & Level III NICU",
+        "Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4022",
-    "regionDistrict": "Boise & Pocatello / Coeur d’Alene, Idaho, USA",
+    "regionDistrict": "Boise, Idaho, USA",
     "type": "safe-haven",
-    "lat": 43.6033,
-    "lng": -116.1984,
+    "lat": 43.6192,
+    "lng": -116.2036,
     "name": {
       "en": "Women’s and Children’s Alliance (WCA Boise Safe Shelter)"
     },
@@ -90005,7 +87987,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 208-381-2222 / +1 208-343-7025",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "220 Main St, Boise & Pocatello / Coeur d’Alene, Idaho, USA 16670"
+      "en": "720 West Washington Street, Boise, ID 83702, United States"
     },
     "services": {
       "en": [
@@ -90015,17 +87997,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Women’s and Children’s Alliance (WCA Boise Safe Shelter)) serving Boise & Pocatello / Coeur d’Alene, Idaho, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Women’s and Children’s Alliance (WCA Boise Safe Shelter) at 720 West Washington Street, Boise, ID 83702, United States."
     }
   },
   {
     "id": "usa-safe-4022-u2",
-    "regionDistrict": "Boise & Pocatello / Coeur d’Alene, Idaho, USA",
+    "regionDistrict": "Boise, Idaho, USA",
     "type": "safe-haven",
-    "lat": 43.5983,
-    "lng": -116.1934,
+    "lat": 43.6131,
+    "lng": -116.2028,
     "name": {
-      "en": "Faces of Hope Victim Center"
+      "en": "Faces of Hope Victim Center (Ada County Family Justice Center)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90033,7 +88015,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 208-381-2222 / +1 208-343-7025",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "206 Main St, Boise & Pocatello / Coeur d’Alene, Idaho, USA 77656"
+      "en": "417 South 6th Street, Boise, ID 83702, United States"
     },
     "services": {
       "en": [
@@ -90043,7 +88025,7 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Faces of Hope Victim Center) serving Boise & Pocatello / Coeur d’Alene, Idaho, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Faces of Hope Victim Center (Ada County Family Justice Center) at 417 South 6th Street, Boise, ID 83702, United States."
     }
   },
   {
@@ -90061,27 +88043,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 312-926-2000 / 1-877-863-6338",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "172 Medical Center Dr, Chicago, Illinois, USA 61012"
+      "en": "250 East Superior Street, Chicago, IL 60611, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "24/7 Obstetric Triage, Labor & Delivery & Level III NICU",
+        "Comprehensive Gynecology, Fibroid Center & Maternal-Fetal Medicine"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Northwestern Medicine Prentice Women’s Hospital) serving Chicago, Illinois, USA. Tap Get Directions for route."
+      "en": "Northwestern Medicine Prentice Women’s Hospital at 250 East Superior Street, Chicago, IL 60611, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "24/7 Obstetric Triage, Labor & Delivery & Level III NICU",
+        "Comprehensive Gynecology, Fibroid Center & Maternal-Fetal Medicine"
+      ]
     }
   },
   {
     "id": "usa-hosp-4023-u2",
     "regionDistrict": "Chicago, Illinois, USA",
     "type": "hospital",
-    "lat": 41.899,
-    "lng": -87.6191,
+    "lat": 41.7906,
+    "lng": -87.6047,
     "name": {
-      "en": "Rush University Medical Center, UChicago Medicine"
+      "en": "UChicago Medicine — Family Birth Center (Hyde Park)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90089,27 +88076,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 312-926-2000 / 1-877-863-6338",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "168 Medical Center Dr, Chicago, Illinois, USA 25158"
+      "en": "5721 South Maryland Avenue, Chicago, IL 60637, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birth Center, High-Risk Perinatal Care & Level III NICU",
+        "Complex Gynecology & Reproductive Medicine"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Rush University Medical Center, UChicago Medicine) serving Chicago, Illinois, USA. Tap Get Directions for route."
+      "en": "UChicago Medicine — Family Birth Center (Hyde Park) at 5721 South Maryland Avenue, Chicago, IL 60637, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center, High-Risk Perinatal Care & Level III NICU",
+        "Complex Gynecology & Reproductive Medicine"
+      ]
     }
   },
   {
     "id": "usa-hosp-4023-u3",
     "regionDistrict": "Chicago, Illinois, USA",
     "type": "hospital",
-    "lat": 41.899,
-    "lng": -87.6191,
+    "lat": 41.8725,
+    "lng": -87.6744,
     "name": {
-      "en": "Stroger Hospital of Cook County"
+      "en": "John H. Stroger, Jr. Hospital of Cook County"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90117,27 +88109,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 312-926-2000 / 1-877-863-6338",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "159 Medical Center Dr, Chicago, Illinois, USA 29509"
+      "en": "1969 West Ogden Avenue, Chicago, IL 60612, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Department of Obstetrics & Gynecology & 24/7 Public Maternity Ward",
+        "High-Risk Perinatal Care & Level III NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Stroger Hospital of Cook County) serving Chicago, Illinois, USA. Tap Get Directions for route."
+      "en": "John H. Stroger, Jr. Hospital of Cook County at 1969 West Ogden Avenue, Chicago, IL 60612, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Obstetrics & Gynecology & 24/7 Public Maternity Ward",
+        "High-Risk Perinatal Care & Level III NICU"
+      ]
     }
   },
   {
     "id": "usa-safe-4023",
     "regionDistrict": "Chicago, Illinois, USA",
     "type": "safe-haven",
-    "lat": 41.899,
-    "lng": -87.6241,
+    "lat": 41.9614,
+    "lng": -87.6561,
     "name": {
-      "en": "House of the Good Shepherd, Sarah’s Inn, Apna Ghar"
+      "en": "Apna Ghar (Our Home) & House of the Good Shepherd (Chicago)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90145,7 +88142,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 312-926-2000 / 1-877-863-6338",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "201 Main St, Chicago, Illinois, USA 56701"
+      "en": "4350 North Broadway, Suite 200, Chicago, IL 60613, United States"
     },
     "services": {
       "en": [
@@ -90155,17 +88152,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (House of the Good Shepherd, Sarah’s Inn, Apna Ghar) serving Chicago, Illinois, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Apna Ghar (Our Home) & House of the Good Shepherd (Chicago) at 4350 North Broadway, Suite 200, Chicago, IL 60613, United States."
     }
   },
   {
     "id": "usa-safe-4023-u2",
     "regionDistrict": "Chicago, Illinois, USA",
     "type": "safe-haven",
-    "lat": 41.894,
-    "lng": -87.6191,
+    "lat": 41.9017,
+    "lng": -87.7069,
     "name": {
-      "en": "Connections for Abused Women and their Children (CAWC)"
+      "en": "Connections for Abused Women and their Children (CAWC — Greenhouse Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90173,7 +88170,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 312-926-2000 / 1-877-863-6338",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "130 Main St, Chicago, Illinois, USA 77220"
+      "en": "1116 North Kedzie Avenue, Chicago, IL 60651, United States"
     },
     "services": {
       "en": [
@@ -90183,17 +88180,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Connections for Abused Women and their Children (CAWC)) serving Chicago, Illinois, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Connections for Abused Women and their Children (CAWC — Greenhouse Shelter) at 1116 North Kedzie Avenue, Chicago, IL 60651, United States."
     }
   },
   {
     "id": "usa-hosp-4024",
-    "regionDistrict": "Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA",
+    "regionDistrict": "Springfield, Illinois, USA",
     "type": "hospital",
     "lat": 39.8058,
     "lng": -89.6475,
     "name": {
-      "en": "Memorial Medical Center (Springfield)"
+      "en": "Springfield Memorial Hospital"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90201,25 +88198,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 217-788-3000 / +1 217-726-5200",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "108 Medical Center Dr, Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA 59248"
+      "en": "701 North First Street, Springfield, IL 62781, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Maternity Suites & Regional Perinatal Center",
+        "Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Memorial Medical Center (Springfield)) serving Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA. Tap Get Directions for route."
+      "en": "Springfield Memorial Hospital at 701 North First Street, Springfield, IL 62781, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Maternity Suites & Regional Perinatal Center",
+        "Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4024-u2",
-    "regionDistrict": "Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA",
+    "regionDistrict": "Peoria, Illinois, USA",
     "type": "hospital",
-    "lat": 39.8083,
-    "lng": -89.645,
+    "lat": 40.7031,
+    "lng": -89.5839,
     "name": {
       "en": "OSF Saint Francis Medical Center (Peoria)"
     },
@@ -90229,27 +88231,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 217-788-3000 / +1 217-726-5200",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "85 Medical Center Dr, Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA 26645"
+      "en": "530 NE Glen Oak Avenue, Peoria, IL 61637, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birthing Center, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Central Illinois Regional Perinatal Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (OSF Saint Francis Medical Center (Peoria)) serving Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA. Tap Get Directions for route."
+      "en": "OSF Saint Francis Medical Center (Peoria) at 530 NE Glen Oak Avenue, Peoria, IL 61637, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birthing Center, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Central Illinois Regional Perinatal Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4024-u3",
-    "regionDistrict": "Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA",
+    "regionDistrict": "Carbondale, Illinois, USA",
     "type": "hospital",
-    "lat": 39.8083,
-    "lng": -89.645,
+    "lat": 37.7289,
+    "lng": -89.2244,
     "name": {
-      "en": "Memorial Hospital of Carbondale"
+      "en": "SIH Memorial Hospital of Carbondale"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90257,25 +88264,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 217-788-3000 / +1 217-726-5200",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "141 Medical Center Dr, Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA 91861"
+      "en": "405 West Jackson Street, Carbondale, IL 62901, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birthing Center, Labor & Delivery & Level II+ Special Care Nursery",
+        "Southern Illinois Rural Maternal Referral Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Memorial Hospital of Carbondale) serving Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA. Tap Get Directions for route."
+      "en": "SIH Memorial Hospital of Carbondale at 405 West Jackson Street, Carbondale, IL 62901, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birthing Center, Labor & Delivery & Level II+ Special Care Nursery",
+        "Southern Illinois Rural Maternal Referral Center"
+      ]
     }
   },
   {
     "id": "usa-safe-4024",
-    "regionDistrict": "Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA",
+    "regionDistrict": "Springfield, Illinois, USA",
     "type": "safe-haven",
-    "lat": 39.8083,
-    "lng": -89.65,
+    "lat": 39.7664,
+    "lng": -89.6994,
     "name": {
       "en": "Sojourn Shelter and Services (Springfield)"
     },
@@ -90285,7 +88297,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 217-788-3000 / +1 217-726-5200",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "109 Main St, Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA 67959"
+      "en": "1800 Westchester Boulevard, Springfield, IL 62704, United States"
     },
     "services": {
       "en": [
@@ -90295,17 +88307,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Sojourn Shelter and Services (Springfield)) serving Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Sojourn Shelter and Services (Springfield) at 1800 Westchester Boulevard, Springfield, IL 62704, United States."
     }
   },
   {
     "id": "usa-safe-4024-u2",
-    "regionDistrict": "Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA",
+    "regionDistrict": "Carbondale, Illinois, USA",
     "type": "safe-haven",
-    "lat": 39.8033,
-    "lng": -89.645,
+    "lat": 37.7208,
+    "lng": -89.2264,
     "name": {
-      "en": "The Women’s Center"
+      "en": "The Women’s Center (Southern Illinois Domestic Violence Shelter — Carbondale)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90313,7 +88325,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 217-788-3000 / +1 217-726-5200",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "5 Main St, Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA 21495"
+      "en": "610 South Thompson Street, Carbondale, IL 62901, United States"
     },
     "services": {
       "en": [
@@ -90323,17 +88335,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (The Women’s Center) serving Springfield, Peoria & Carbondale (Southern Illinois), Illinois, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "The Women’s Center (Southern Illinois Domestic Violence Shelter — Carbondale) at 610 South Thompson Street, Carbondale, IL 62901, United States."
     }
   },
   {
     "id": "usa-hosp-4025",
-    "regionDistrict": "Indianapolis & Fort Wayne, Indiana, USA",
+    "regionDistrict": "Indianapolis, Indiana, USA",
     "type": "hospital",
     "lat": 39.7767,
-    "lng": -86.1753,
+    "lng": -86.1786,
     "name": {
-      "en": "IU Health Methodist"
+      "en": "IU Health Riley Maternity Tower (Indianapolis)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90341,27 +88353,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 317-962-2000 / +1 317-920-9320",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "235 Medical Center Dr, Indianapolis & Fort Wayne, Indiana, USA 22245"
+      "en": "705 Riley Hospital Drive, Indianapolis, IN 46202, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Riley Maternity Tower, Labor & Delivery, Maternal-Fetal Medicine & Level IV NICU",
+        "24/7 Obstetric Emergency Department"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (IU Health Methodist) serving Indianapolis & Fort Wayne, Indiana, USA. Tap Get Directions for route."
+      "en": "IU Health Riley Maternity Tower (Indianapolis) at 705 Riley Hospital Drive, Indianapolis, IN 46202, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Riley Maternity Tower, Labor & Delivery, Maternal-Fetal Medicine & Level IV NICU",
+        "24/7 Obstetric Emergency Department"
+      ]
     }
   },
   {
     "id": "usa-hosp-4025-u2",
-    "regionDistrict": "Indianapolis & Fort Wayne, Indiana, USA",
+    "regionDistrict": "Indianapolis, Indiana, USA",
     "type": "hospital",
-    "lat": 39.7792,
-    "lng": -86.1728,
+    "lat": 39.7786,
+    "lng": -86.1839,
     "name": {
-      "en": "Riley Maternity Tower (Indianapolis), Eskenazi Health"
+      "en": "Sidney & Lois Eskenazi Hospital (Indianapolis)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90369,27 +88386,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 317-962-2000 / +1 317-920-9320",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "194 Medical Center Dr, Indianapolis & Fort Wayne, Indiana, USA 96204"
+      "en": "720 Eskenazi Avenue, Indianapolis, IN 46202, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Beginnings Birth Center, Obstetrics & Gynecology",
+        "Center of Hope (Sexual Assault & Domestic Violence Forensic Triage)"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Riley Maternity Tower (Indianapolis), Eskenazi Health) serving Indianapolis & Fort Wayne, Indiana, USA. Tap Get Directions for route."
+      "en": "Sidney & Lois Eskenazi Hospital (Indianapolis) at 720 Eskenazi Avenue, Indianapolis, IN 46202, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Beginnings Birth Center, Obstetrics & Gynecology",
+        "Center of Hope (Sexual Assault & Domestic Violence Forensic Triage)"
+      ]
     }
   },
   {
     "id": "usa-hosp-4025-u3",
-    "regionDistrict": "Indianapolis & Fort Wayne, Indiana, USA",
+    "regionDistrict": "Fort Wayne, Indiana, USA",
     "type": "hospital",
-    "lat": 39.7792,
-    "lng": -86.1728,
+    "lat": 41.1869,
+    "lng": -85.1028,
     "name": {
-      "en": "Parkview Women’s & Children’s Hospital"
+      "en": "Parkview Women’s & Children’s Hospital (Fort Wayne)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90397,27 +88419,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 317-962-2000 / +1 317-920-9320",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "26 Medical Center Dr, Indianapolis & Fort Wayne, Indiana, USA 27906"
+      "en": "11115 Parkview Plaza Drive, Fort Wayne, IN 46845, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birthing Center, High-Risk Obstetrics & Level III NICU",
+        "Comprehensive Women’s Health"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Parkview Women’s & Children’s Hospital) serving Indianapolis & Fort Wayne, Indiana, USA. Tap Get Directions for route."
+      "en": "Parkview Women’s & Children’s Hospital (Fort Wayne) at 11115 Parkview Plaza Drive, Fort Wayne, IN 46845, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birthing Center, High-Risk Obstetrics & Level III NICU",
+        "Comprehensive Women’s Health"
+      ]
     }
   },
   {
     "id": "usa-safe-4025",
-    "regionDistrict": "Indianapolis & Fort Wayne, Indiana, USA",
+    "regionDistrict": "Indianapolis, Indiana, USA",
     "type": "safe-haven",
-    "lat": 39.7792,
-    "lng": -86.1778,
+    "lat": 39.7942,
+    "lng": -86.1564,
     "name": {
-      "en": "Julian Center (Indianapolis Domestic Violence Shelter)"
+      "en": "The Julian Center (Indianapolis Domestic Violence Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90425,7 +88452,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 317-962-2000 / +1 317-920-9320",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "154 Main St, Indianapolis & Fort Wayne, Indiana, USA 71174"
+      "en": "2011 North Meridian Street, Indianapolis, IN 46202, United States"
     },
     "services": {
       "en": [
@@ -90435,17 +88462,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Julian Center (Indianapolis Domestic Violence Shelter)) serving Indianapolis & Fort Wayne, Indiana, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "The Julian Center (Indianapolis Domestic Violence Shelter) at 2011 North Meridian Street, Indianapolis, IN 46202, United States."
     }
   },
   {
     "id": "usa-safe-4025-u2",
-    "regionDistrict": "Indianapolis & Fort Wayne, Indiana, USA",
+    "regionDistrict": "Indianapolis, Indiana, USA",
     "type": "safe-haven",
-    "lat": 39.7742,
-    "lng": -86.1728,
+    "lat": 39.8256,
+    "lng": -86.1469,
     "name": {
-      "en": "Coburn Place Safe Haven"
+      "en": "Coburn Place Safe Haven (Indianapolis)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90453,7 +88480,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 317-962-2000 / +1 317-920-9320",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "121 Main St, Indianapolis & Fort Wayne, Indiana, USA 75091"
+      "en": "604 East 38th Street, Indianapolis, IN 46205, United States"
     },
     "services": {
       "en": [
@@ -90463,17 +88490,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Coburn Place Safe Haven) serving Indianapolis & Fort Wayne, Indiana, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Coburn Place Safe Haven (Indianapolis) at 604 East 38th Street, Indianapolis, IN 46205, United States."
     }
   },
   {
     "id": "usa-hosp-4026",
-    "regionDistrict": "Iowa City & Des Moines, Iowa, USA",
+    "regionDistrict": "Iowa City, Iowa, USA",
     "type": "hospital",
     "lat": 41.6626,
     "lng": -91.5489,
     "name": {
-      "en": "University of Iowa Hospitals & Clinics (OB/GYN & High-Risk Maternity)"
+      "en": "University of Iowa Health Care Medical Center (Iowa City)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90481,27 +88508,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 319-356-1616 / 1-800-770-1650",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "132 Medical Center Dr, Iowa City & Des Moines, Iowa, USA 75332"
+      "en": "200 Hawkins Drive, Iowa City, IA 52242, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Department of Obstetrics and Gynecology, Labor & Delivery & Level IV NICU",
+        "Statewide High-Risk Maternal-Fetal Medicine Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University of Iowa Hospitals & Clinics (OB/GYN & High-Risk Maternity)) serving Iowa City & Des Moines, Iowa, USA. Tap Get Directions for route."
+      "en": "University of Iowa Health Care Medical Center (Iowa City) at 200 Hawkins Drive, Iowa City, IA 52242, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Obstetrics and Gynecology, Labor & Delivery & Level IV NICU",
+        "Statewide High-Risk Maternal-Fetal Medicine Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4026-u2",
-    "regionDistrict": "Iowa City & Des Moines, Iowa, USA",
+    "regionDistrict": "Des Moines, Iowa, USA",
     "type": "hospital",
-    "lat": 41.6651,
-    "lng": -91.5464,
+    "lat": 41.5989,
+    "lng": -93.6258,
     "name": {
-      "en": "MercyOne Des Moines Birth Center"
+      "en": "MercyOne Des Moines Medical Center"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90509,27 +88541,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 319-356-1616 / 1-800-770-1650",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "85 Medical Center Dr, Iowa City & Des Moines, Iowa, USA 17685"
+      "en": "1111 6th Avenue, Des Moines, IA 50314, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity & Infants’ Center, Labor & Delivery & Level III NICU",
+        "High-Risk Perinatal & Midwifery Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (MercyOne Des Moines Birth Center) serving Iowa City & Des Moines, Iowa, USA. Tap Get Directions for route."
+      "en": "MercyOne Des Moines Medical Center at 1111 6th Avenue, Des Moines, IA 50314, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity & Infants’ Center, Labor & Delivery & Level III NICU",
+        "High-Risk Perinatal & Midwifery Care"
+      ]
     }
   },
   {
     "id": "usa-safe-4026",
-    "regionDistrict": "Iowa City & Des Moines, Iowa, USA",
+    "regionDistrict": "Iowa City, Iowa, USA",
     "type": "safe-haven",
-    "lat": 41.6651,
-    "lng": -91.5514,
+    "lat": 41.6486,
+    "lng": -91.5297,
     "name": {
-      "en": "Domestic Violence Intervention Program (DVIP Iowa City) & Children & Families of Iowa Domestic Violence Services"
+      "en": "Domestic Violence Intervention Program (DVIP — Iowa City)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90537,7 +88574,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 319-356-1616 / 1-800-770-1650",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "107 Main St, Iowa City & Des Moines, Iowa, USA 56857"
+      "en": "1105 South Gilbert Court, Suite 300, Iowa City, IA 52240, United States"
     },
     "services": {
       "en": [
@@ -90547,17 +88584,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Iowa City & Des Moines, Iowa, USA. Call +1 319-356-1616 / 1-800-770-1650 or 1-800-799-7233 for immediate confidential intake."
+      "en": "Domestic Violence Intervention Program (DVIP — Iowa City) at 1105 South Gilbert Court, Suite 300, Iowa City, IA 52240, United States."
     }
   },
   {
     "id": "usa-hosp-4027",
-    "regionDistrict": "Wichita & Kansas City, Kansas, USA",
+    "regionDistrict": "Wichita, Kansas, USA",
     "type": "hospital",
     "lat": 37.6979,
     "lng": -97.2913,
     "name": {
-      "en": "Wesley Medical Center (Women’s Hospital Wichita)"
+      "en": "Wesley Medical Center & Wesley BirthCare Center (Wichita)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90565,27 +88602,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 316-962-2000 / +1 316-267-7233",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "160 Medical Center Dr, Wichita & Kansas City, Kansas, USA 45540"
+      "en": "550 North Hillside Street, Wichita, KS 67214, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Wesley BirthCare Center, High-Risk Obstetrics & Level III NICU",
+        "Women’s Hospital at Wesley"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Wesley Medical Center (Women’s Hospital Wichita)) serving Wichita & Kansas City, Kansas, USA. Tap Get Directions for route."
+      "en": "Wesley Medical Center & Wesley BirthCare Center (Wichita) at 550 North Hillside Street, Wichita, KS 67214, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Wesley BirthCare Center, High-Risk Obstetrics & Level III NICU",
+        "Women’s Hospital at Wesley"
+      ]
     }
   },
   {
     "id": "usa-hosp-4027-u2",
-    "regionDistrict": "Wichita & Kansas City, Kansas, USA",
+    "regionDistrict": "Kansas City, Kansas, USA",
     "type": "hospital",
-    "lat": 37.7004,
-    "lng": -97.2888,
+    "lat": 39.0558,
+    "lng": -94.6114,
     "name": {
-      "en": "The University of Kansas Hospital (Marc A. Asher Comprehensive Center)"
+      "en": "The University of Kansas Hospital (Kansas City)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90593,27 +88635,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 316-962-2000 / +1 316-267-7233",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "139 Medical Center Dr, Wichita & Kansas City, Kansas, USA 50389"
+      "en": "4000 Cambridge Street, Kansas City, KS 66160, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Obstetrics & Gynecology, Labor & Delivery & Level III NICU",
+        "High-Risk Maternal-Fetal Medicine"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (The University of Kansas Hospital (Marc A. Asher Comprehensive Center)) serving Wichita & Kansas City, Kansas, USA. Tap Get Directions for route."
+      "en": "The University of Kansas Hospital (Kansas City) at 4000 Cambridge Street, Kansas City, KS 66160, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Obstetrics & Gynecology, Labor & Delivery & Level III NICU",
+        "High-Risk Maternal-Fetal Medicine"
+      ]
     }
   },
   {
     "id": "usa-safe-4027",
-    "regionDistrict": "Wichita & Kansas City, Kansas, USA",
+    "regionDistrict": "Wichita, Kansas, USA",
     "type": "safe-haven",
-    "lat": 37.7004,
-    "lng": -97.2938,
+    "lat": 37.6864,
+    "lng": -97.3119,
     "name": {
-      "en": "YWCA Wichita Women’s Crisis Center"
+      "en": "YWCA Wichita — Women’s Crisis Center & Safe Shelter"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90621,7 +88668,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 316-962-2000 / +1 316-267-7233",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "239 Main St, Wichita & Kansas City, Kansas, USA 70309"
+      "en": "2020 East Douglas Avenue, Wichita, KS 67214, United States"
     },
     "services": {
       "en": [
@@ -90631,17 +88678,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Wichita Women’s Crisis Center) serving Wichita & Kansas City, Kansas, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Wichita — Women’s Crisis Center & Safe Shelter at 2020 East Douglas Avenue, Wichita, KS 67214, United States."
     }
   },
   {
     "id": "usa-safe-4027-u2",
-    "regionDistrict": "Wichita & Kansas City, Kansas, USA",
+    "regionDistrict": "Wichita, Kansas, USA",
     "type": "safe-haven",
-    "lat": 37.6954,
-    "lng": -97.2888,
+    "lat": 37.6928,
+    "lng": -97.3347,
     "name": {
-      "en": "Harbor House (Catholic Charities Wichita)"
+      "en": "Harbor House Domestic Violence Shelter (Catholic Charities Wichita)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90649,7 +88696,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 316-962-2000 / +1 316-267-7233",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "228 Main St, Wichita & Kansas City, Kansas, USA 61458"
+      "en": "437 North Topeka Street, Wichita, KS 67202, United States"
     },
     "services": {
       "en": [
@@ -90659,15 +88706,15 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Harbor House (Catholic Charities Wichita)) serving Wichita & Kansas City, Kansas, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Harbor House Domestic Violence Shelter (Catholic Charities Wichita) at 437 North Topeka Street, Wichita, KS 67202, United States."
     }
   },
   {
     "id": "usa-hosp-4028",
-    "regionDistrict": "Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA",
+    "regionDistrict": "Louisville, Kentucky, USA",
     "type": "hospital",
-    "lat": 38.2484,
-    "lng": -85.7469,
+    "lat": 38.2347,
+    "lng": -85.6414,
     "name": {
       "en": "Norton Women’s & Children’s Hospital (Louisville)"
     },
@@ -90677,27 +88724,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 502-893-1000 / 1-844-237-2331",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "133 Medical Center Dr, Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA 94733"
+      "en": "4001 Dutchmans Lane, Louisville, KY 40207, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, Maternal-Fetal Medicine & Level III NICU",
+        "Comprehensive Gynecology & Pelvic Health"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Norton Women’s & Children’s Hospital (Louisville)) serving Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA. Tap Get Directions for route."
+      "en": "Norton Women’s & Children’s Hospital (Louisville) at 4001 Dutchmans Lane, Louisville, KY 40207, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, Maternal-Fetal Medicine & Level III NICU",
+        "Comprehensive Gynecology & Pelvic Health"
+      ]
     }
   },
   {
     "id": "usa-hosp-4028-u2",
-    "regionDistrict": "Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA",
+    "regionDistrict": "Lexington, Kentucky, USA",
     "type": "hospital",
-    "lat": 38.2509,
-    "lng": -85.7444,
+    "lat": 38.0328,
+    "lng": -84.5083,
     "name": {
-      "en": "UK Albert B. Chandler Hospital (Lexington)"
+      "en": "UK Albert B. Chandler Hospital — Kentucky Children’s & Birthing Center (Lexington)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90705,27 +88757,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 502-893-1000 / 1-844-237-2331",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "86 Medical Center Dr, Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA 26666"
+      "en": "1000 South Limestone, Lexington, KY 40536, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birthing Center, High-Risk Maternal-Fetal Medicine & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UK Albert B. Chandler Hospital (Lexington)) serving Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA. Tap Get Directions for route."
+      "en": "UK Albert B. Chandler Hospital — Kentucky Children’s & Birthing Center (Lexington) at 1000 South Limestone, Lexington, KY 40536, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birthing Center, High-Risk Maternal-Fetal Medicine & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4028-u3",
-    "regionDistrict": "Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA",
+    "regionDistrict": "Pikeville (Eastern Kentucky Appalachia), Kentucky, USA",
     "type": "hospital",
-    "lat": 38.2509,
-    "lng": -85.7444,
+    "lat": 37.4744,
+    "lng": -82.5236,
     "name": {
-      "en": "Pikeville Medical Center (Eastern KY Appalachia)"
+      "en": "Pikeville Medical Center (Appalachian Regional Maternity)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90733,27 +88790,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 502-893-1000 / 1-844-237-2331",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "139 Medical Center Dr, Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA 57319"
+      "en": "911 Bypass Road, Pikeville, KY 41501, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women & Infant Unit, Labor & Delivery & Level II NICU",
+        "Eastern Kentucky Appalachian Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Pikeville Medical Center (Eastern KY Appalachia)) serving Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA. Tap Get Directions for route."
+      "en": "Pikeville Medical Center (Appalachian Regional Maternity) at 911 Bypass Road, Pikeville, KY 41501, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women & Infant Unit, Labor & Delivery & Level II NICU",
+        "Eastern Kentucky Appalachian Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4028",
-    "regionDistrict": "Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA",
+    "regionDistrict": "Louisville, Kentucky, USA",
     "type": "safe-haven",
-    "lat": 38.2509,
-    "lng": -85.7494,
+    "lat": 38.2389,
+    "lng": -85.7556,
     "name": {
-      "en": "The Center for Women and Families (Louisville), Greenhouse17 (Lexington)"
+      "en": "The Center for Women and Families (Louisville 24/7 Safe Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90761,7 +88823,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 502-893-1000 / 1-844-237-2331",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "9 Main St, Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA 49909"
+      "en": "927 South 2nd Street, Louisville, KY 40203, United States"
     },
     "services": {
       "en": [
@@ -90771,17 +88833,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (The Center for Women and Families (Louisville), Greenhouse17 (Lexington)) serving Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "The Center for Women and Families (Louisville 24/7 Safe Shelter) at 927 South 2nd Street, Louisville, KY 40203, United States."
     }
   },
   {
     "id": "usa-safe-4028-u2",
-    "regionDistrict": "Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA",
+    "regionDistrict": "Hazard (Eastern Kentucky Appalachia), Kentucky, USA",
     "type": "safe-haven",
-    "lat": 38.2459,
-    "lng": -85.7444,
+    "lat": 37.2722,
+    "lng": -83.2089,
     "name": {
-      "en": "LKLP Safe House (Hazard Appalachia)"
+      "en": "LKLP Safe House (Eastern Kentucky Domestic Violence Shelter — Hazard)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90789,7 +88851,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 502-893-1000 / 1-844-237-2331",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "225 Main St, Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA 69065"
+      "en": "398 Roy Campbell Drive, Hazard, KY 41701, United States"
     },
     "services": {
       "en": [
@@ -90799,17 +88861,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (LKLP Safe House (Hazard Appalachia)) serving Louisville, Lexington & Hazard / Pikeville (Appalachia), Kentucky, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "LKLP Safe House (Eastern Kentucky Domestic Violence Shelter — Hazard) at 398 Roy Campbell Drive, Hazard, KY 41701, United States."
     }
   },
   {
     "id": "usa-hosp-4029",
-    "regionDistrict": "Baton Rouge & New Orleans, Louisiana, USA",
+    "regionDistrict": "Baton Rouge, Louisiana, USA",
     "type": "hospital",
     "lat": 30.4052,
     "lng": -91.045,
     "name": {
-      "en": "Woman’s Hospital (Baton Rouge — One of the largest women’s specialty hospitals in the US), Ochsner Baptist Perkins Women’s Pavilion & Touro (New Orleans)"
+      "en": "Woman’s Hospital (Baton Rouge)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90817,25 +88879,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 225-927-1300 / 1-800-541-9706",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "56 Medical Center Dr, Baton Rouge & New Orleans, Louisiana, USA 80626"
+      "en": "100 Woman’s Way, Baton Rouge, LA 70817, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "One of the Largest Specialty Women’s & Infants’ Hospitals in the US",
+        "24/7 Obstetrical Assessment, Labor & Delivery, Maternal-Fetal Medicine & Level III NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Women’s & Maternity Hospital serving Baton Rouge & New Orleans, Louisiana, USA. Tap Get Directions for road route."
+      "en": "Woman’s Hospital (Baton Rouge) at 100 Woman’s Way, Baton Rouge, LA 70817, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "One of the Largest Specialty Women’s & Infants’ Hospitals in the US",
+        "24/7 Obstetrical Assessment, Labor & Delivery, Maternal-Fetal Medicine & Level III NICU"
+      ]
     }
   },
   {
     "id": "usa-safe-4029",
-    "regionDistrict": "Baton Rouge & New Orleans, Louisiana, USA",
+    "regionDistrict": "Baton Rouge, Louisiana, USA",
     "type": "safe-haven",
-    "lat": 30.4077,
-    "lng": -91.0475,
+    "lat": 30.4447,
+    "lng": -91.1364,
     "name": {
       "en": "Iris Domestic Violence Center (Baton Rouge)"
     },
@@ -90845,7 +88912,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 225-927-1300 / 1-800-541-9706",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "217 Main St, Baton Rouge & New Orleans, Louisiana, USA 84497"
+      "en": "5156 Government Street, Baton Rouge, LA 70806, United States"
     },
     "services": {
       "en": [
@@ -90855,17 +88922,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Iris Domestic Violence Center (Baton Rouge)) serving Baton Rouge & New Orleans, Louisiana, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Iris Domestic Violence Center (Baton Rouge) at 5156 Government Street, Baton Rouge, LA 70806, United States."
     }
   },
   {
     "id": "usa-safe-4029-u2",
-    "regionDistrict": "Baton Rouge & New Orleans, Louisiana, USA",
+    "regionDistrict": "New Orleans, Louisiana, USA",
     "type": "safe-haven",
-    "lat": 30.4027,
-    "lng": -91.0425,
+    "lat": 29.9386,
+    "lng": -90.0847,
     "name": {
-      "en": "New Orleans Women & Children’s Shelter / Metro Centers for Community Advocacy"
+      "en": "New Orleans Women & Children’s Shelter"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90873,7 +88940,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 225-927-1300 / 1-800-541-9706",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "31 Main St, Baton Rouge & New Orleans, Louisiana, USA 45331"
+      "en": "2020 South Liberty Street, New Orleans, LA 70113, United States"
     },
     "services": {
       "en": [
@@ -90883,17 +88950,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (New Orleans Women & Children’s Shelter / Metro Centers for Community Advocacy) serving Baton Rouge & New Orleans, Louisiana, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "New Orleans Women & Children’s Shelter at 2020 South Liberty Street, New Orleans, LA 70113, United States."
     }
   },
   {
     "id": "usa-hosp-4030",
-    "regionDistrict": "Shreveport, Lafayette & Monroe, Louisiana, USA",
+    "regionDistrict": "Shreveport, Louisiana, USA",
     "type": "hospital",
-    "lat": 32.482,
-    "lng": -93.7532,
+    "lat": 32.4042,
+    "lng": -93.7819,
     "name": {
-      "en": "Willis-Knighton South & the Center for Women’s Health (Shreveport), Ochsner LSU Health"
+      "en": "Willis-Knighton South & the Center for Women’s Health (Shreveport)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90901,27 +88968,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 318-212-4000 / +1 337-232-8954",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "225 Medical Center Dr, Shreveport, Lafayette & Monroe, Louisiana, USA 54445"
+      "en": "2510 Bert Kouns Industrial Loop, Shreveport, LA 71118, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Center for Women’s Health, High-Risk Obstetrics & Level III NICU",
+        "24/7 Labor & Delivery & Gynecologic Surgery"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Willis-Knighton South & the Center for Women’s Health (Shreveport), Ochsner LSU Health) serving Shreveport, Lafayette & Monroe, Louisiana, USA. Tap Get Directions for route."
+      "en": "Willis-Knighton South & the Center for Women’s Health (Shreveport) at 2510 Bert Kouns Industrial Loop, Shreveport, LA 71118, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Center for Women’s Health, High-Risk Obstetrics & Level III NICU",
+        "24/7 Labor & Delivery & Gynecologic Surgery"
+      ]
     }
   },
   {
     "id": "usa-hosp-4030-u2",
-    "regionDistrict": "Shreveport, Lafayette & Monroe, Louisiana, USA",
+    "regionDistrict": "Lafayette, Louisiana, USA",
     "type": "hospital",
-    "lat": 32.4845,
-    "lng": -93.7507,
+    "lat": 30.2056,
+    "lng": -92.0208,
     "name": {
-      "en": "Lafayette General Women’s Center"
+      "en": "Ochsner Lafayette General Medical Center"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -90929,27 +89001,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 318-212-4000 / +1 337-232-8954",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "195 Medical Center Dr, Shreveport, Lafayette & Monroe, Louisiana, USA 60485"
+      "en": "1214 Coolidge Street, Lafayette, LA 70503, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity & Women’s Services, Labor & Delivery & NICU",
+        "Acadiana Region Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Lafayette General Women’s Center) serving Shreveport, Lafayette & Monroe, Louisiana, USA. Tap Get Directions for route."
+      "en": "Ochsner Lafayette General Medical Center at 1214 Coolidge Street, Lafayette, LA 70503, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity & Women’s Services, Labor & Delivery & NICU",
+        "Acadiana Region Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4030",
-    "regionDistrict": "Shreveport, Lafayette & Monroe, Louisiana, USA",
+    "regionDistrict": "Shreveport, Louisiana, USA",
     "type": "safe-haven",
-    "lat": 32.4845,
-    "lng": -93.7557,
+    "lat": 32.5078,
+    "lng": -93.7519,
     "name": {
-      "en": "Providence House (Shreveport)"
+      "en": "Providence House &YWCA Northwest Louisiana Safe Haven (Shreveport)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90957,7 +89034,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 318-212-4000 / +1 337-232-8954",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "203 Main St, Shreveport, Lafayette & Monroe, Louisiana, USA 82593"
+      "en": "814 Cotton Street, Shreveport, LA 71101, United States"
     },
     "services": {
       "en": [
@@ -90967,17 +89044,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Providence House (Shreveport)) serving Shreveport, Lafayette & Monroe, Louisiana, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Providence House &YWCA Northwest Louisiana Safe Haven (Shreveport) at 814 Cotton Street, Shreveport, LA 71101, United States."
     }
   },
   {
     "id": "usa-safe-4030-u2",
-    "regionDistrict": "Shreveport, Lafayette & Monroe, Louisiana, USA",
+    "regionDistrict": "Lafayette, Louisiana, USA",
     "type": "safe-haven",
-    "lat": 32.4795,
-    "lng": -93.7507,
+    "lat": 30.2375,
+    "lng": -92.0369,
     "name": {
-      "en": "Faith House of Acadiana"
+      "en": "Faith House of Acadiana (Domestic Violence Crisis Shelter — Lafayette)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -90985,7 +89062,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 318-212-4000 / +1 337-232-8954",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "87 Main St, Shreveport, Lafayette & Monroe, Louisiana, USA 87587"
+      "en": "1225 West Willow Street, Lafayette, LA 70506, United States"
     },
     "services": {
       "en": [
@@ -90995,17 +89072,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Faith House of Acadiana) serving Shreveport, Lafayette & Monroe, Louisiana, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Faith House of Acadiana (Domestic Violence Crisis Shelter — Lafayette) at 1225 West Willow Street, Lafayette, LA 70506, United States."
     }
   },
   {
     "id": "usa-hosp-4031",
-    "regionDistrict": "Portland, Bangor & Aroostook County, Maine, USA",
+    "regionDistrict": "Portland, Maine, USA",
     "type": "hospital",
     "lat": 43.6536,
     "lng": -70.2758,
     "name": {
-      "en": "Maine Medical Center (Family Birth Center Portland)"
+      "en": "Maine Medical Center (Family Birth Center — Portland)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91013,25 +89090,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 207-662-0111 / 1-800-537-6066",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "7 Medical Center Dr, Portland, Bangor & Aroostook County, Maine, USA 98147"
+      "en": "22 Bramhall Street, Portland, ME 04102, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "The Family Birth Center, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Maine Medical Center (Family Birth Center Portland)) serving Portland, Bangor & Aroostook County, Maine, USA. Tap Get Directions for route."
+      "en": "Maine Medical Center (Family Birth Center — Portland) at 22 Bramhall Street, Portland, ME 04102, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "The Family Birth Center, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4031-u2",
-    "regionDistrict": "Portland, Bangor & Aroostook County, Maine, USA",
+    "regionDistrict": "Bangor, Maine, USA",
     "type": "hospital",
-    "lat": 43.6561,
-    "lng": -70.2733,
+    "lat": 44.8086,
+    "lng": -68.7497,
     "name": {
       "en": "Northern Light Eastern Maine Medical Center (Bangor)"
     },
@@ -91041,25 +89123,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 207-662-0111 / 1-800-537-6066",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "4 Medical Center Dr, Portland, Bangor & Aroostook County, Maine, USA 39654"
+      "en": "489 State Street, Bangor, ME 04401, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s & Children’s Services, Labor & Delivery & Level III NICU",
+        "Northern & Central Maine Perinatal Referral Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Northern Light Eastern Maine Medical Center (Bangor)) serving Portland, Bangor & Aroostook County, Maine, USA. Tap Get Directions for route."
+      "en": "Northern Light Eastern Maine Medical Center (Bangor) at 489 State Street, Bangor, ME 04401, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s & Children’s Services, Labor & Delivery & Level III NICU",
+        "Northern & Central Maine Perinatal Referral Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4031-u3",
-    "regionDistrict": "Portland, Bangor & Aroostook County, Maine, USA",
+    "regionDistrict": "Caribou (Aroostook County), Maine, USA",
     "type": "hospital",
-    "lat": 43.6561,
-    "lng": -70.2733,
+    "lat": 46.8789,
+    "lng": -67.9978,
     "name": {
       "en": "Cary Medical Center (Caribou)"
     },
@@ -91069,27 +89156,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 207-662-0111 / 1-800-537-6066",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "5 Medical Center Dr, Portland, Bangor & Aroostook County, Maine, USA 75365"
+      "en": "163 Van Buren Road, Caribou, ME 04736, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternal / Child Unit & Rural Aroostook Obstetrics",
+        "Women’s Health & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Cary Medical Center (Caribou)) serving Portland, Bangor & Aroostook County, Maine, USA. Tap Get Directions for route."
+      "en": "Cary Medical Center (Caribou) at 163 Van Buren Road, Caribou, ME 04736, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternal / Child Unit & Rural Aroostook Obstetrics",
+        "Women’s Health & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4031",
-    "regionDistrict": "Portland, Bangor & Aroostook County, Maine, USA",
+    "regionDistrict": "Portland, Maine, USA",
     "type": "safe-haven",
-    "lat": 43.6561,
-    "lng": -70.2783,
+    "lat": 43.6589,
+    "lng": -70.2533,
     "name": {
-      "en": "Through These Doors (Portland Domestic Violence Resource Center), Partners for Peace (Bangor)"
+      "en": "Through These Doors (Domestic Violence Resource Center — Portland)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91097,7 +89189,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 207-662-0111 / 1-800-537-6066",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "203 Main St, Portland, Bangor & Aroostook County, Maine, USA 60313"
+      "en": "75 Pearl Street, Suite 410, Portland, ME 04101, United States"
     },
     "services": {
       "en": [
@@ -91107,17 +89199,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Through These Doors (Portland Domestic Violence Resource Center), Partners for Peace (Bangor)) serving Portland, Bangor & Aroostook County, Maine, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Through These Doors (Domestic Violence Resource Center — Portland) at 75 Pearl Street, Suite 410, Portland, ME 04101, United States."
     }
   },
   {
     "id": "usa-safe-4031-u2",
-    "regionDistrict": "Portland, Bangor & Aroostook County, Maine, USA",
+    "regionDistrict": "Presque Isle (Aroostook County), Maine, USA",
     "type": "safe-haven",
-    "lat": 43.6511,
-    "lng": -70.2733,
+    "lat": 46.6908,
+    "lng": -68.0156,
     "name": {
-      "en": "Hope and Justice Project"
+      "en": "Hope and Justice Project (Aroostook County Domestic Violence Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91125,7 +89217,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 207-662-0111 / 1-800-537-6066",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "191 Main St, Portland, Bangor & Aroostook County, Maine, USA 41631"
+      "en": "754 Main Street, Presque Isle, ME 04769, United States"
     },
     "services": {
       "en": [
@@ -91135,17 +89227,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Hope and Justice Project) serving Portland, Bangor & Aroostook County, Maine, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Hope and Justice Project (Aroostook County Domestic Violence Shelter) at 754 Main Street, Presque Isle, ME 04769, United States."
     }
   },
   {
     "id": "usa-hosp-4032",
-    "regionDistrict": "Baltimore & Bethesda, Maryland, USA",
+    "regionDistrict": "Baltimore, Maryland, USA",
     "type": "hospital",
     "lat": 39.2974,
     "lng": -76.5924,
     "name": {
-      "en": "The Johns Hopkins Hospital (Department of Gynecology & Obstetrics)"
+      "en": "The Johns Hopkins Hospital"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91153,25 +89245,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 410-955-5000 / +1 410-889-7884",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "103 Medical Center Dr, Baltimore & Bethesda, Maryland, USA 72233"
+      "en": "1800 Orleans Street, Baltimore, MD 21287, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Department of Gynecology & Obstetrics, Labor & Delivery & Level IV NICU",
+        "Center for Fetal Therapy, Maternal-Fetal Medicine & Fibroid Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (The Johns Hopkins Hospital (Department of Gynecology & Obstetrics)) serving Baltimore & Bethesda, Maryland, USA. Tap Get Directions for route."
+      "en": "The Johns Hopkins Hospital at 1800 Orleans Street, Baltimore, MD 21287, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Gynecology & Obstetrics, Labor & Delivery & Level IV NICU",
+        "Center for Fetal Therapy, Maternal-Fetal Medicine & Fibroid Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4032-u2",
-    "regionDistrict": "Baltimore & Bethesda, Maryland, USA",
+    "regionDistrict": "Baltimore, Maryland, USA",
     "type": "hospital",
-    "lat": 39.2999,
-    "lng": -76.5899,
+    "lat": 39.2881,
+    "lng": -76.625,
     "name": {
       "en": "University of Maryland Medical Center"
     },
@@ -91181,27 +89278,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 410-955-5000 / +1 410-889-7884",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "29 Medical Center Dr, Baltimore & Bethesda, Maryland, USA 67179"
+      "en": "22 South Greene Street, Baltimore, MD 21201, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Center for Advanced Fetal Care, Labor & Delivery & Level IV NICU",
+        "Department of Obstetrics, Gynecology & Reproductive Sciences"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University of Maryland Medical Center) serving Baltimore & Bethesda, Maryland, USA. Tap Get Directions for route."
+      "en": "University of Maryland Medical Center at 22 South Greene Street, Baltimore, MD 21201, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Center for Advanced Fetal Care, Labor & Delivery & Level IV NICU",
+        "Department of Obstetrics, Gynecology & Reproductive Sciences"
+      ]
     }
   },
   {
     "id": "usa-hosp-4032-u3",
-    "regionDistrict": "Baltimore & Bethesda, Maryland, USA",
+    "regionDistrict": "Baltimore, Maryland, USA",
     "type": "hospital",
-    "lat": 39.2999,
-    "lng": -76.5899,
+    "lat": 39.2931,
+    "lng": -76.6136,
     "name": {
-      "en": "Mercy Medical Center (The Weinberg Center for Women’s Health)"
+      "en": "Mercy Medical Center — The Weinberg Center for Women’s Health"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91209,27 +89311,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 410-955-5000 / +1 410-889-7884",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "131 Medical Center Dr, Baltimore & Bethesda, Maryland, USA 21301"
+      "en": "301 Saint Paul Place, Baltimore, MD 21202, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Childbirth & Children’s Center & Level III NICU",
+        "National Center for Gynecologic Oncology & Breast Reconstruction"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Mercy Medical Center (The Weinberg Center for Women’s Health)) serving Baltimore & Bethesda, Maryland, USA. Tap Get Directions for route."
+      "en": "Mercy Medical Center — The Weinberg Center for Women’s Health at 301 Saint Paul Place, Baltimore, MD 21202, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Childbirth & Children’s Center & Level III NICU",
+        "National Center for Gynecologic Oncology & Breast Reconstruction"
+      ]
     }
   },
   {
     "id": "usa-safe-4032",
-    "regionDistrict": "Baltimore & Bethesda, Maryland, USA",
+    "regionDistrict": "Baltimore, Maryland, USA",
     "type": "safe-haven",
-    "lat": 39.2999,
-    "lng": -76.5949,
+    "lat": 39.3389,
+    "lng": -76.5844,
     "name": {
-      "en": "House of Ruth Maryland (Baltimore 24/7 Safe Shelter)"
+      "en": "House of Ruth Maryland (Baltimore 24/7 Domestic Violence Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91237,7 +89344,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 410-955-5000 / +1 410-889-7884",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "144 Main St, Baltimore & Bethesda, Maryland, USA 77834"
+      "en": "2201 Argonne Drive, Baltimore, MD 21218, United States"
     },
     "services": {
       "en": [
@@ -91247,17 +89354,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (House of Ruth Maryland (Baltimore 24/7 Safe Shelter)) serving Baltimore & Bethesda, Maryland, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "House of Ruth Maryland (Baltimore 24/7 Domestic Violence Shelter) at 2201 Argonne Drive, Baltimore, MD 21218, United States."
     }
   },
   {
     "id": "usa-safe-4032-u2",
-    "regionDistrict": "Baltimore & Bethesda, Maryland, USA",
+    "regionDistrict": "Baltimore / Towson, Maryland, USA",
     "type": "safe-haven",
-    "lat": 39.2949,
-    "lng": -76.5899,
+    "lat": 39.4008,
+    "lng": -76.6042,
     "name": {
-      "en": "TurnAround Inc."
+      "en": "TurnAround, Inc. (Sexual Assault & Domestic Violence Crisis Center)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91265,7 +89372,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 410-955-5000 / +1 410-889-7884",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "141 Main St, Baltimore & Bethesda, Maryland, USA 21311"
+      "en": "401 Washington Avenue, Suite 300, Towson, MD 21204, United States"
     },
     "services": {
       "en": [
@@ -91275,17 +89382,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (TurnAround Inc.) serving Baltimore & Bethesda, Maryland, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "TurnAround, Inc. (Sexual Assault & Domestic Violence Crisis Center) at 401 Washington Avenue, Suite 300, Towson, MD 21204, United States."
     }
   },
   {
     "id": "usa-hosp-4034",
-    "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
+    "regionDistrict": "Ann Arbor, Michigan, USA",
     "type": "hospital",
     "lat": 42.2825,
     "lng": -83.7267,
     "name": {
-      "en": "University of Michigan Health Von Voigtlander Women’s Hospital (Ann Arbor)"
+      "en": "University of Michigan Health — Von Voigtlander Women’s Hospital (Ann Arbor)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91293,27 +89400,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 734-936-4000 / +1 313-861-5300",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "228 Medical Center Dr, Ann Arbor, Detroit & Grand Rapids, Michigan, USA 55038"
+      "en": "1540 East Hospital Drive, Ann Arbor, MI 48109, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birth Center, High-Risk Maternal-Fetal Medicine & Fetal Diagnosis Center",
+        "Comprehensive Obstetrics, Gynecology & Midwifery"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University of Michigan Health Von Voigtlander Women’s Hospital (Ann Arbor)) serving Ann Arbor, Detroit & Grand Rapids, Michigan, USA. Tap Get Directions for route."
+      "en": "University of Michigan Health — Von Voigtlander Women’s Hospital (Ann Arbor) at 1540 East Hospital Drive, Ann Arbor, MI 48109, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birth Center, High-Risk Maternal-Fetal Medicine & Fetal Diagnosis Center",
+        "Comprehensive Obstetrics, Gynecology & Midwifery"
+      ]
     }
   },
   {
     "id": "usa-hosp-4034-u2",
-    "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
+    "regionDistrict": "Detroit, Michigan, USA",
     "type": "hospital",
-    "lat": 42.285,
-    "lng": -83.7242,
+    "lat": 42.3522,
+    "lng": -83.0569,
     "name": {
-      "en": "Hutzel Women’s Hospital / DMC (Detroit)"
+      "en": "DMC Hutzel Women’s Hospital (Detroit)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91321,27 +89433,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 734-936-4000 / +1 313-861-5300",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "145 Medical Center Dr, Ann Arbor, Detroit & Grand Rapids, Michigan, USA 40915"
+      "en": "3980 John R Street, Detroit, MI 48201, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "24/7 Obstetrical Triage, Labor & Delivery & High-Risk Perinatal Care",
+        "Michigan’s First Women’s Hospital — Gynecology & Midwifery"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Hutzel Women’s Hospital / DMC (Detroit)) serving Ann Arbor, Detroit & Grand Rapids, Michigan, USA. Tap Get Directions for route."
+      "en": "DMC Hutzel Women’s Hospital (Detroit) at 3980 John R Street, Detroit, MI 48201, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "24/7 Obstetrical Triage, Labor & Delivery & High-Risk Perinatal Care",
+        "Michigan’s First Women’s Hospital — Gynecology & Midwifery"
+      ]
     }
   },
   {
     "id": "usa-hosp-4034-u3",
-    "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
+    "regionDistrict": "Grand Rapids, Michigan, USA",
     "type": "hospital",
-    "lat": 42.285,
-    "lng": -83.7242,
+    "lat": 42.9694,
+    "lng": -85.6653,
     "name": {
-      "en": "Corewell Health Butterworth"
+      "en": "Corewell Health Butterworth Hospital (Grand Rapids)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91349,27 +89466,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 734-936-4000 / +1 313-861-5300",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "73 Medical Center Dr, Ann Arbor, Detroit & Grand Rapids, Michigan, USA 36063"
+      "en": "100 Michigan Street NE, Grand Rapids, MI 49503, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birthplace, Maternal-Fetal Medicine & Gerber Foundation NICU",
+        "West Michigan Regional Perinatal Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Corewell Health Butterworth) serving Ann Arbor, Detroit & Grand Rapids, Michigan, USA. Tap Get Directions for route."
+      "en": "Corewell Health Butterworth Hospital (Grand Rapids) at 100 Michigan Street NE, Grand Rapids, MI 49503, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birthplace, Maternal-Fetal Medicine & Gerber Foundation NICU",
+        "West Michigan Regional Perinatal Center"
+      ]
     }
   },
   {
     "id": "usa-safe-4034",
-    "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
+    "regionDistrict": "Ann Arbor, Michigan, USA",
     "type": "safe-haven",
-    "lat": 42.285,
-    "lng": -83.7292,
+    "lat": 42.2608,
+    "lng": -83.6714,
     "name": {
-      "en": "SafeHouse Center (Ann Arbor)"
+      "en": "SafeHouse Center (Washtenaw County Domestic Violence & Sexual Assault Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91377,7 +89499,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 734-936-4000 / +1 313-861-5300",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "10 Main St, Ann Arbor, Detroit & Grand Rapids, Michigan, USA 15960"
+      "en": "4100 Clark Road, Ann Arbor, MI 48105, United States"
     },
     "services": {
       "en": [
@@ -91387,17 +89509,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (SafeHouse Center (Ann Arbor)) serving Ann Arbor, Detroit & Grand Rapids, Michigan, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "SafeHouse Center (Washtenaw County Domestic Violence & Sexual Assault Shelter) at 4100 Clark Road, Ann Arbor, MI 48105, United States."
     }
   },
   {
     "id": "usa-safe-4034-u2",
-    "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
+    "regionDistrict": "Detroit, Michigan, USA",
     "type": "safe-haven",
-    "lat": 42.28,
-    "lng": -83.7242,
+    "lat": 42.3336,
+    "lng": -83.0319,
     "name": {
-      "en": "YWCA Interim House (Detroit)"
+      "en": "YWCA Interim House (Detroit Domestic Violence Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91405,7 +89527,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 734-936-4000 / +1 313-861-5300",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "77 Main St, Ann Arbor, Detroit & Grand Rapids, Michigan, USA 64897"
+      "en": "985 East Jefferson Avenue, Detroit, MI 48207, United States"
     },
     "services": {
       "en": [
@@ -91415,17 +89537,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Interim House (Detroit)) serving Ann Arbor, Detroit & Grand Rapids, Michigan, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Interim House (Detroit Domestic Violence Shelter) at 985 East Jefferson Avenue, Detroit, MI 48207, United States."
     }
   },
   {
     "id": "usa-safe-4034-u3",
-    "regionDistrict": "Ann Arbor, Detroit & Grand Rapids, Michigan, USA",
+    "regionDistrict": "Grand Rapids, Michigan, USA",
     "type": "safe-haven",
-    "lat": 42.279,
-    "lng": -83.7292,
+    "lat": 42.9619,
+    "lng": -85.6678,
     "name": {
-      "en": "YWCA West Central Michigan"
+      "en": "YWCA West Central Michigan (Grand Rapids Domestic & Sexual Abuse Services)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91433,7 +89555,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 734-936-4000 / +1 313-861-5300",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "57 Main St, Ann Arbor, Detroit & Grand Rapids, Michigan, USA 43147"
+      "en": "25 Sheldon Boulevard SE, Grand Rapids, MI 49503, United States"
     },
     "services": {
       "en": [
@@ -91443,17 +89565,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA West Central Michigan) serving Ann Arbor, Detroit & Grand Rapids, Michigan, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA West Central Michigan (Grand Rapids Domestic & Sexual Abuse Services) at 25 Sheldon Boulevard SE, Grand Rapids, MI 49503, United States."
     }
   },
   {
     "id": "usa-hosp-4035",
-    "regionDistrict": "Minneapolis, St. Paul & Rochester, Minnesota, USA",
+    "regionDistrict": "Minneapolis, Minnesota, USA",
     "type": "hospital",
-    "lat": 44.9742,
+    "lat": 44.9522,
     "lng": -93.2618,
     "name": {
-      "en": "Mother Baby Center (Abbott Northwestern & Children’s Minnesota), M Health Fairview"
+      "en": "The Mother Baby Center at Abbott Northwestern & Children’s Minnesota"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91461,27 +89583,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 612-863-4000 / 1-866-223-1111 (Day One MN)",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "Minneapolis, St. Paul & Rochester, Minnesota, USA"
+      "en": "800 East 28th Street, Minneapolis, MN 55407, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "24/7 Obstetrical Triage, Labor & Delivery, Midwifery & Level IV NICU",
+        " Midwest Fetal Care Center & High-Risk Perinatal Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Mother Baby Center (Abbott Northwestern & Children’s Minnesota), M Health Fairview) serving Minneapolis, St. Paul & Rochester, Minnesota, USA. Tap Get Directions for route."
+      "en": "The Mother Baby Center at Abbott Northwestern & Children’s Minnesota at 800 East 28th Street, Minneapolis, MN 55407, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "24/7 Obstetrical Triage, Labor & Delivery, Midwifery & Level IV NICU",
+        " Midwest Fetal Care Center & High-Risk Perinatal Care"
+      ]
     }
   },
   {
     "id": "usa-hosp-4035-u2",
-    "regionDistrict": "Minneapolis, St. Paul & Rochester, Minnesota, USA",
+    "regionDistrict": "Rochester, Minnesota, USA",
     "type": "hospital",
-    "lat": 44.9767,
-    "lng": -93.2593,
+    "lat": 44.0197,
+    "lng": -92.4806,
     "name": {
-      "en": "Mayo Clinic Hospital (Rochester OB/GYN)"
+      "en": "Mayo Clinic Hospital — Family Birth Center (Rochester)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91489,27 +89616,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 612-863-4000 / 1-866-223-1111 (Day One MN)",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "Minneapolis, St. Paul & Rochester, Minnesota, USA"
+      "en": "1216 Second Street SW, Rochester, MN 55902, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birth Center, High-Risk Maternal-Fetal Medicine & Level IV NICU",
+        "Department of Obstetrics and Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Mayo Clinic Hospital (Rochester OB/GYN)) serving Minneapolis, St. Paul & Rochester, Minnesota, USA. Tap Get Directions for route."
+      "en": "Mayo Clinic Hospital — Family Birth Center (Rochester) at 1216 Second Street SW, Rochester, MN 55902, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center, High-Risk Maternal-Fetal Medicine & Level IV NICU",
+        "Department of Obstetrics and Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4035",
-    "regionDistrict": "Minneapolis, St. Paul & Rochester, Minnesota, USA",
+    "regionDistrict": "St. Paul / Minneapolis, Minnesota, USA",
     "type": "safe-haven",
-    "lat": 44.9767,
-    "lng": -93.2643,
+    "lat": 44.9397,
+    "lng": -93.1253,
     "name": {
-      "en": "Women’s Advocates (St. Paul — First Domestic Violence Shelter in the US), Tubman & Cornerstone"
+      "en": "Women’s Advocates (St. Paul — First Domestic Violence Shelter in the US)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91517,7 +89649,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 612-863-4000 / 1-866-223-1111 (Day One MN)",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "Confidential Women’s Safe Haven & Family Justice Center, Minneapolis, St. Paul & Rochester, Minnesota, USA"
+      "en": "584 Grand Avenue, St. Paul, MN 55102, United States"
     },
     "services": {
       "en": [
@@ -91527,17 +89659,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Minneapolis, St. Paul & Rochester, Minnesota, USA. Call +1 612-863-4000 / 1-866-223-1111 (Day One MN) or 1-800-799-7233 for immediate confidential intake."
+      "en": "Women’s Advocates (St. Paul — First Domestic Violence Shelter in the US) at 584 Grand Avenue, St. Paul, MN 55102, United States."
     }
   },
   {
     "id": "usa-hosp-4036",
-    "regionDistrict": "Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA",
+    "regionDistrict": "Jackson, Mississippi, USA",
     "type": "hospital",
     "lat": 32.3276,
     "lng": -90.1753,
     "name": {
-      "en": "University of Mississippi Medical Center (UMMC Wiser Hospital for Women & Infants — Jackson)"
+      "en": "University of Mississippi Medical Center — Wiser Hospital for Women & Infants"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91545,27 +89677,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 601-984-1000 / 1-800-266-4198",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "57 Medical Center Dr, Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA 53057"
+      "en": "2500 North State Street, Jackson, MS 39216, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "State’s Only Dedicated Women’s Hospital & Level IV NICU",
+        "24/7 Obstetrical Emergency, High-Risk Maternal-Fetal Medicine & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University of Mississippi Medical Center (UMMC Wiser Hospital for Women & Infants — Jackson)) serving Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA. Tap Get Directions for route."
+      "en": "University of Mississippi Medical Center — Wiser Hospital for Women & Infants at 2500 North State Street, Jackson, MS 39216, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "State’s Only Dedicated Women’s Hospital & Level IV NICU",
+        "24/7 Obstetrical Emergency, High-Risk Maternal-Fetal Medicine & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4036-u2",
-    "regionDistrict": "Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA",
+    "regionDistrict": "Greenville (Mississippi Delta), Mississippi, USA",
     "type": "hospital",
-    "lat": 32.3301,
-    "lng": -90.1728,
+    "lat": 33.4019,
+    "lng": -91.0339,
     "name": {
-      "en": "Delta Health System"
+      "en": "Delta Health – The Medical Center (Greenville)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91573,27 +89710,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 601-984-1000 / 1-800-266-4198",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "44 Medical Center Dr, Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA 32484"
+      "en": "1400 East Union Street, Greenville, MS 38703, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, Obstetrics & Gynecology",
+        "Mississippi Delta Regional Maternal Triage"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Delta Health System) serving Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA. Tap Get Directions for route."
+      "en": "Delta Health – The Medical Center (Greenville) at 1400 East Union Street, Greenville, MS 38703, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, Obstetrics & Gynecology",
+        "Mississippi Delta Regional Maternal Triage"
+      ]
     }
   },
   {
     "id": "usa-safe-4036",
-    "regionDistrict": "Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA",
+    "regionDistrict": "Pearl / Jackson, Mississippi, USA",
     "type": "safe-haven",
-    "lat": 32.3301,
-    "lng": -90.1778,
+    "lat": 32.2756,
+    "lng": -90.0889,
     "name": {
-      "en": "Center for Violence Prevention (Jackson/Pearl Safe Haven)"
+      "en": "Center for Violence Prevention (Central Mississippi Safe Haven)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91601,7 +89743,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 601-984-1000 / 1-800-266-4198",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "199 Main St, Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA 11309"
+      "en": "4954 Old Brandon Road, Pearl / Jackson, MS 39208, United States"
     },
     "services": {
       "en": [
@@ -91611,17 +89753,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Center for Violence Prevention (Jackson/Pearl Safe Haven)) serving Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Center for Violence Prevention (Central Mississippi Safe Haven) at 4954 Old Brandon Road, Pearl / Jackson, MS 39208, United States."
     }
   },
   {
     "id": "usa-safe-4036-u2",
-    "regionDistrict": "Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA",
+    "regionDistrict": "Greenville / Merigold (Mississippi Delta), Mississippi, USA",
     "type": "safe-haven",
-    "lat": 32.3251,
-    "lng": -90.1728,
+    "lat": 33.3814,
+    "lng": -91.0386,
     "name": {
-      "en": "Oasis Women’s Shelter (Greenville Mississippi Delta)"
+      "en": "Our House / Oasis Domestic Violence Shelter (Mississippi Delta)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91629,7 +89771,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 601-984-1000 / 1-800-266-4198",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "33 Main St, Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA 48513"
+      "en": "1213 East Reed Road, Greenville, MS 38703, United States"
     },
     "services": {
       "en": [
@@ -91639,17 +89781,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Oasis Women’s Shelter (Greenville Mississippi Delta)) serving Jackson & Mississippi Delta (Greenville / Clarksdale), Mississippi, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Our House / Oasis Domestic Violence Shelter (Mississippi Delta) at 1213 East Reed Road, Greenville, MS 38703, United States."
     }
   },
   {
     "id": "usa-hosp-4037",
-    "regionDistrict": "St. Louis & Kansas City, Missouri, USA",
+    "regionDistrict": "St. Louis, Missouri, USA",
     "type": "hospital",
     "lat": 38.6366,
     "lng": -90.264,
     "name": {
-      "en": "Barnes-Jewish Hospital"
+      "en": "Barnes-Jewish Hospital & Washington University Women & Infants Center"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91657,27 +89799,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 314-362-5000 / +1 314-993-2777",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "St. Louis & Kansas City, Missouri, USA"
+      "en": "1 Barnes-Jewish Hospital Plaza, St. Louis, MO 63110, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women & Infants Center, Labor & Delivery, Fetal Care Center & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Barnes-Jewish Hospital) serving St. Louis & Kansas City, Missouri, USA. Tap Get Directions for route."
+      "en": "Barnes-Jewish Hospital & Washington University Women & Infants Center at 1 Barnes-Jewish Hospital Plaza, St. Louis, MO 63110, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women & Infants Center, Labor & Delivery, Fetal Care Center & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4037-u2",
-    "regionDistrict": "St. Louis & Kansas City, Missouri, USA",
+    "regionDistrict": "St. Louis, Missouri, USA",
     "type": "hospital",
-    "lat": 38.6391,
-    "lng": -90.2615,
+    "lat": 38.6328,
+    "lng": -90.3125,
     "name": {
-      "en": "Washington University Women & Infants Center (St. Louis), SSM Health St. Mary’s"
+      "en": "SSM Health St. Mary’s Hospital – St. Louis"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91685,27 +89832,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 314-362-5000 / +1 314-993-2777",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "St. Louis & Kansas City, Missouri, USA"
+      "en": "6420 Clayton Road, St. Louis, MO 63117, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "High-Risk Perinatal Center, Family Birthplace & Fetal Care Institute",
+        "Obstetrics, Gynecology & Midwifery"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Washington University Women & Infants Center (St. Louis), SSM Health St. Mary’s) serving St. Louis & Kansas City, Missouri, USA. Tap Get Directions for route."
+      "en": "SSM Health St. Mary’s Hospital – St. Louis at 6420 Clayton Road, St. Louis, MO 63117, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "High-Risk Perinatal Center, Family Birthplace & Fetal Care Institute",
+        "Obstetrics, Gynecology & Midwifery"
+      ]
     }
   },
   {
     "id": "usa-hosp-4037-u3",
-    "regionDistrict": "St. Louis & Kansas City, Missouri, USA",
+    "regionDistrict": "Kansas City, Missouri, USA",
     "type": "hospital",
-    "lat": 38.6391,
-    "lng": -90.2615,
+    "lat": 39.0469,
+    "lng": -94.5903,
     "name": {
-      "en": "Saint Luke’s Hospital"
+      "en": "Saint Luke’s Hospital of Kansas City"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91713,27 +89865,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 314-362-5000 / +1 314-993-2777",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "St. Louis & Kansas City, Missouri, USA"
+      "en": "4401 Wornall Road, Kansas City, MO 64111, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Saint Luke’s Maternity Center, High-Risk Pregnancy & Level III NICU",
+        "Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Saint Luke’s Hospital) serving St. Louis & Kansas City, Missouri, USA. Tap Get Directions for route."
+      "en": "Saint Luke’s Hospital of Kansas City at 4401 Wornall Road, Kansas City, MO 64111, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Saint Luke’s Maternity Center, High-Risk Pregnancy & Level III NICU",
+        "Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4037",
-    "regionDistrict": "St. Louis & Kansas City, Missouri, USA",
+    "regionDistrict": "St. Louis, Missouri, USA",
     "type": "safe-haven",
-    "lat": 38.6391,
-    "lng": -90.2665,
+    "lat": 38.6138,
+    "lng": -90.2892,
     "name": {
-      "en": "ALIVE (Alternatives to Living in Violent Environments — St. Louis) , Safe Connections"
+      "en": "Safe Connections & ALIVE Domestic Violence Crisis Shelter (St. Louis)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91741,7 +89898,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 314-362-5000 / +1 314-993-2777",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "St. Louis & Kansas City, Missouri, USA"
+      "en": "2165 Hampton Avenue, St. Louis, MO 63139, United States"
     },
     "services": {
       "en": [
@@ -91751,17 +89908,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (ALIVE (Alternatives to Living in Violent Environments — St. Louis) , Safe Connections) serving St. Louis & Kansas City, Missouri, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Safe Connections & ALIVE Domestic Violence Crisis Shelter (St. Louis) at 2165 Hampton Avenue, St. Louis, MO 63139, United States."
     }
   },
   {
     "id": "usa-safe-4037-u2",
-    "regionDistrict": "St. Louis & Kansas City, Missouri, USA",
+    "regionDistrict": "Kansas City, Missouri, USA",
     "type": "safe-haven",
-    "lat": 38.6341,
-    "lng": -90.2615,
+    "lat": 38.9781,
+    "lng": -94.5756,
     "name": {
-      "en": "Rose Brooks Center"
+      "en": "Rose Brooks Center (Kansas City Domestic Violence Safe Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91769,7 +89926,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 314-362-5000 / +1 314-993-2777",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "St. Louis & Kansas City, Missouri, USA"
+      "en": "8205 Troost Avenue, Kansas City, MO 64131, United States"
     },
     "services": {
       "en": [
@@ -91779,17 +89936,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Rose Brooks Center) serving St. Louis & Kansas City, Missouri, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Rose Brooks Center (Kansas City Domestic Violence Safe Shelter) at 8205 Troost Avenue, Kansas City, MO 64131, United States."
     }
   },
   {
     "id": "usa-hosp-4038",
-    "regionDistrict": "Billings, Missoula & Browning (Blackfeet Nation), Montana, USA",
+    "regionDistrict": "Billings, Montana, USA",
     "type": "hospital",
     "lat": 45.7897,
     "lng": -108.5133,
     "name": {
-      "en": "Billings Clinic (Family Birth Center)"
+      "en": "Billings Clinic"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91797,27 +89954,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 406-238-2500 / +1 406-245-4472",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "29 Medical Center Dr, Billings, Missoula & Browning (Blackfeet Nation), Montana, USA 33159"
+      "en": "2800 Tenth Avenue North, Billings, MT 59101, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birth Center, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Billings Clinic (Family Birth Center)) serving Billings, Missoula & Browning (Blackfeet Nation), Montana, USA. Tap Get Directions for route."
+      "en": "Billings Clinic at 2800 Tenth Avenue North, Billings, MT 59101, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4038-u2",
-    "regionDistrict": "Billings, Missoula & Browning (Blackfeet Nation), Montana, USA",
+    "regionDistrict": "Missoula, Montana, USA",
     "type": "hospital",
-    "lat": 45.7922,
-    "lng": -108.5108,
+    "lat": 46.8753,
+    "lng": -114.0028,
     "name": {
-      "en": "Providence St. Patrick Hospital (Missoula)"
+      "en": "Providence St. Patrick Hospital & Community Medical Center (Missoula)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91825,27 +89987,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 406-238-2500 / +1 406-245-4472",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "43 Medical Center Dr, Billings, Missoula & Browning (Blackfeet Nation), Montana, USA 76653"
+      "en": "500 West Broadway, Missoula, MT 59802, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Maternity Center, Labor & Delivery & Western Montana Perinatal Care",
+        "Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Providence St. Patrick Hospital (Missoula)) serving Billings, Missoula & Browning (Blackfeet Nation), Montana, USA. Tap Get Directions for route."
+      "en": "Providence St. Patrick Hospital & Community Medical Center (Missoula) at 500 West Broadway, Missoula, MT 59802, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Maternity Center, Labor & Delivery & Western Montana Perinatal Care",
+        "Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4038-u3",
-    "regionDistrict": "Billings, Missoula & Browning (Blackfeet Nation), Montana, USA",
+    "regionDistrict": "Browning (Blackfeet Nation), Montana, USA",
     "type": "hospital",
-    "lat": 45.7922,
-    "lng": -108.5108,
+    "lat": 48.5628,
+    "lng": -113.0189,
     "name": {
-      "en": "Blackfeet Community Hospital (Browning IHS)"
+      "en": "Blackfeet Community Hospital (IHS — Browning)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91853,27 +90020,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 406-238-2500 / +1 406-245-4472",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "174 Medical Center Dr, Billings, Missoula & Browning (Blackfeet Nation), Montana, USA 82334"
+      "en": "760 Hospital Circle, Browning, MT 59417, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternal & Child Health, Obstetrics & Women’s Health",
+        "Blackfeet Reservation 24/7 Emergency & Perinatal Referral"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Blackfeet Community Hospital (Browning IHS)) serving Billings, Missoula & Browning (Blackfeet Nation), Montana, USA. Tap Get Directions for route."
+      "en": "Blackfeet Community Hospital (IHS — Browning) at 760 Hospital Circle, Browning, MT 59417, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternal & Child Health, Obstetrics & Women’s Health",
+        "Blackfeet Reservation 24/7 Emergency & Perinatal Referral"
+      ]
     }
   },
   {
     "id": "usa-safe-4038",
-    "regionDistrict": "Billings, Missoula & Browning (Blackfeet Nation), Montana, USA",
+    "regionDistrict": "Billings, Montana, USA",
     "type": "safe-haven",
-    "lat": 45.7922,
-    "lng": -108.5158,
+    "lat": 45.7836,
+    "lng": -108.5236,
     "name": {
-      "en": "YWCA Billings Gateway House Shelter"
+      "en": "YWCA Billings — Gateway House Domestic Violence Shelter"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91881,7 +90053,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 406-238-2500 / +1 406-245-4472",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "17 Main St, Billings, Missoula & Browning (Blackfeet Nation), Montana, USA 45807"
+      "en": "909 Wyoming Avenue, Billings, MT 59101, United States"
     },
     "services": {
       "en": [
@@ -91891,17 +90063,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Billings Gateway House Shelter) serving Billings, Missoula & Browning (Blackfeet Nation), Montana, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Billings — Gateway House Domestic Violence Shelter at 909 Wyoming Avenue, Billings, MT 59101, United States."
     }
   },
   {
     "id": "usa-safe-4038-u2",
-    "regionDistrict": "Billings, Missoula & Browning (Blackfeet Nation), Montana, USA",
+    "regionDistrict": "Missoula, Montana, USA",
     "type": "safe-haven",
-    "lat": 45.7872,
-    "lng": -108.5108,
+    "lat": 46.8669,
+    "lng": -114.0258,
     "name": {
-      "en": "YWCA Missoula Pathways Domestic Violence Shelter"
+      "en": "YWCA Missoula — Pathways Domestic Violence Shelter"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91909,7 +90081,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 406-238-2500 / +1 406-245-4472",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "51 Main St, Billings, Missoula & Browning (Blackfeet Nation), Montana, USA 47491"
+      "en": "1800 South 3rd Street West, Missoula, MT 59801, United States"
     },
     "services": {
       "en": [
@@ -91919,17 +90091,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Missoula Pathways Domestic Violence Shelter) serving Billings, Missoula & Browning (Blackfeet Nation), Montana, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Missoula — Pathways Domestic Violence Shelter at 1800 South 3rd Street West, Missoula, MT 59801, United States."
     }
   },
   {
     "id": "usa-hosp-4039",
-    "regionDistrict": "Omaha & Lincoln, Nebraska, USA",
+    "regionDistrict": "Omaha, Nebraska, USA",
     "type": "hospital",
-    "lat": 41.2554,
-    "lng": -95.9756,
+    "lat": 41.2656,
+    "lng": -96.2136,
     "name": {
-      "en": "Methodist Women’s Hospital (Omaha), Nebraska Medicine"
+      "en": "Methodist Women’s Hospital (Omaha)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91937,27 +90109,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 402-815-4000 / +1 402-345-7273",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "104 Medical Center Dr, Omaha & Lincoln, Nebraska, USA 80344"
+      "en": "707 North 190th Plaza, Omaha, NE 68022, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Dedicated Women’s & Newborns’ Hospital, High-Risk Perinatal & Level III NICU",
+        "24/7 Obstetrical Emergency, Gynecology & Pelvic Health"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Methodist Women’s Hospital (Omaha), Nebraska Medicine) serving Omaha & Lincoln, Nebraska, USA. Tap Get Directions for route."
+      "en": "Methodist Women’s Hospital (Omaha) at 707 North 190th Plaza, Omaha, NE 68022, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Dedicated Women’s & Newborns’ Hospital, High-Risk Perinatal & Level III NICU",
+        "24/7 Obstetrical Emergency, Gynecology & Pelvic Health"
+      ]
     }
   },
   {
     "id": "usa-hosp-4039-u2",
-    "regionDistrict": "Omaha & Lincoln, Nebraska, USA",
+    "regionDistrict": "Lincoln, Nebraska, USA",
     "type": "hospital",
-    "lat": 41.2579,
-    "lng": -95.9731,
+    "lat": 40.7964,
+    "lng": -96.6531,
     "name": {
-      "en": "Bryan Medical Center"
+      "en": "Bryan Medical Center (East Campus — Lincoln)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -91965,27 +90142,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 402-815-4000 / +1 402-345-7273",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "17 Medical Center Dr, Omaha & Lincoln, Nebraska, USA 32717"
+      "en": "1600 South 48th Street, Lincoln, NE 68506, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birthplace, Maternal-Fetal Medicine & Level III NICU",
+        "Women’s Health & Obstetrics"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Bryan Medical Center) serving Omaha & Lincoln, Nebraska, USA. Tap Get Directions for route."
+      "en": "Bryan Medical Center (East Campus — Lincoln) at 1600 South 48th Street, Lincoln, NE 68506, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birthplace, Maternal-Fetal Medicine & Level III NICU",
+        "Women’s Health & Obstetrics"
+      ]
     }
   },
   {
     "id": "usa-safe-4039",
-    "regionDistrict": "Omaha & Lincoln, Nebraska, USA",
+    "regionDistrict": "Omaha, Nebraska, USA",
     "type": "safe-haven",
-    "lat": 41.2579,
-    "lng": -95.9781,
+    "lat": 41.2572,
+    "lng": -95.9689,
     "name": {
-      "en": "Women’s Center for Advancement (WCA Omaha)"
+      "en": "Women’s Center for Advancement (WCA — Omaha)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -91993,7 +90175,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 402-815-4000 / +1 402-345-7273",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "103 Main St, Omaha & Lincoln, Nebraska, USA 69563"
+      "en": "3801 Harney Street, Omaha, NE 68131, United States"
     },
     "services": {
       "en": [
@@ -92003,17 +90185,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Women’s Center for Advancement (WCA Omaha)) serving Omaha & Lincoln, Nebraska, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Women’s Center for Advancement (WCA — Omaha) at 3801 Harney Street, Omaha, NE 68131, United States."
     }
   },
   {
     "id": "usa-safe-4039-u2",
-    "regionDistrict": "Omaha & Lincoln, Nebraska, USA",
+    "regionDistrict": "Omaha, Nebraska, USA",
     "type": "safe-haven",
-    "lat": 41.2529,
-    "lng": -95.9731,
+    "lat": 41.2892,
+    "lng": -95.9997,
     "name": {
-      "en": "Catholic Charities St. Teresa Shelter"
+      "en": "Catholic Charities — The Shelter (Domestic Violence Safe Haven Omaha)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92021,7 +90203,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 402-815-4000 / +1 402-345-7273",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "219 Main St, Omaha & Lincoln, Nebraska, USA 56759"
+      "en": "3300 North 60th Street, Omaha, NE 68104, United States"
     },
     "services": {
       "en": [
@@ -92031,17 +90213,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Catholic Charities St. Teresa Shelter) serving Omaha & Lincoln, Nebraska, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Catholic Charities — The Shelter (Domestic Violence Safe Haven Omaha) at 3300 North 60th Street, Omaha, NE 68104, United States."
     }
   },
   {
     "id": "usa-safe-4039-u3",
     "regionDistrict": "Lincoln, Nebraska, USA",
     "type": "safe-haven",
-    "lat": 40.8136,
-    "lng": -96.7026,
+    "lat": 40.7769,
+    "lng": -96.6692,
     "name": {
-      "en": "Friendship Home"
+      "en": "Friendship Home (Lincoln Domestic Violence Safe Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92049,7 +90231,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 402-815-4000 / +1 402-345-7273",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "97 Main St, Omaha & Lincoln, Nebraska, USA 62417"
+      "en": "3601 Calvert Street, Lincoln, NE 68506, United States"
     },
     "services": {
       "en": [
@@ -92059,17 +90241,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Friendship Home) serving Omaha & Lincoln, Nebraska, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Friendship Home (Lincoln Domestic Violence Safe Shelter) at 3601 Calvert Street, Lincoln, NE 68506, United States."
     }
   },
   {
     "id": "usa-hosp-4040",
-    "regionDistrict": "Las Vegas & Reno, Nevada, USA",
+    "regionDistrict": "Las Vegas, Nevada, USA",
     "type": "hospital",
     "lat": 36.1593,
     "lng": -115.1695,
     "name": {
-      "en": "University Medical Center of Southern Nevada (UMC Las Vegas)"
+      "en": "University Medical Center of Southern Nevada (UMC — Las Vegas)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92077,17 +90259,22 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 702-383-2000 / +1 702-385-0072",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "166 Medical Center Dr, Las Vegas & Reno, Nevada, USA 92886"
+      "en": "1800 West Charleston Boulevard, Las Vegas, NV 89102, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birthing Center, High-Risk Obstetrics & Level III NICU",
+        "24/7 Emergency & Maternal Triage"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University Medical Center of Southern Nevada (UMC Las Vegas)) serving Las Vegas & Reno, Nevada, USA. Tap Get Directions for route."
+      "en": "University Medical Center of Southern Nevada (UMC — Las Vegas) at 1800 West Charleston Boulevard, Las Vegas, NV 89102, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birthing Center, High-Risk Obstetrics & Level III NICU",
+        "24/7 Emergency & Maternal Triage"
+      ]
     }
   },
   {
@@ -92097,7 +90284,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 36.1342,
     "lng": -115.1345,
     "name": {
-      "en": "Sunrise Hospital"
+      "en": "Sunrise Hospital and Medical Center (Las Vegas)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92105,27 +90292,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 702-383-2000 / +1 702-385-0072",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "146 Medical Center Dr, Las Vegas & Reno, Nevada, USA 36896"
+      "en": "3186 South Maryland Parkway, Las Vegas, NV 89109, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity Services, Labor & Delivery & Level III NICU",
+        "Comprehensive Women’s Health & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Sunrise Hospital) serving Las Vegas & Reno, Nevada, USA. Tap Get Directions for route."
+      "en": "Sunrise Hospital and Medical Center (Las Vegas) at 3186 South Maryland Parkway, Las Vegas, NV 89109, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity Services, Labor & Delivery & Level III NICU",
+        "Comprehensive Women’s Health & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4040-u3",
-    "regionDistrict": "Las Vegas & Reno, Nevada, USA",
+    "regionDistrict": "Reno, Nevada, USA",
     "type": "hospital",
-    "lat": 36.1618,
-    "lng": -115.167,
+    "lat": 39.5247,
+    "lng": -119.7964,
     "name": {
-      "en": "Renown Regional Medical Center"
+      "en": "Renown Regional Medical Center (Reno)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92133,27 +90325,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 702-383-2000 / +1 702-385-0072",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "128 Medical Center Dr, Las Vegas & Reno, Nevada, USA 27018"
+      "en": "1155 Mill Street, Reno, NV 89502, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Pregnancy & Childbirth Center, Maternal-Fetal Medicine & Level III NICU",
+        "Northern Nevada Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Renown Regional Medical Center) serving Las Vegas & Reno, Nevada, USA. Tap Get Directions for route."
+      "en": "Renown Regional Medical Center (Reno) at 1155 Mill Street, Reno, NV 89502, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Pregnancy & Childbirth Center, Maternal-Fetal Medicine & Level III NICU",
+        "Northern Nevada Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4040",
-    "regionDistrict": "Las Vegas & Reno, Nevada, USA",
+    "regionDistrict": "Las Vegas, Nevada, USA",
     "type": "safe-haven",
-    "lat": 36.1618,
-    "lng": -115.172,
+    "lat": 36.1886,
+    "lng": -115.1422,
     "name": {
-      "en": "The Shade Tree (Las Vegas 24-Hour Shelter for Women & Children), SafeNest & Domestic Violence Resource Center (Reno)"
+      "en": "The Shade Tree (24-Hour Shelter for Women & Children — Las Vegas)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92161,7 +90358,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 702-383-2000 / +1 702-385-0072",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "34 Main St, Las Vegas & Reno, Nevada, USA 90494"
+      "en": "1 West Owens Avenue, North Las Vegas, NV 89030, United States"
     },
     "services": {
       "en": [
@@ -92171,17 +90368,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Las Vegas & Reno, Nevada, USA. Call +1 702-383-2000 / +1 702-385-0072 or 1-800-799-7233 for immediate confidential intake."
+      "en": "The Shade Tree (24-Hour Shelter for Women & Children — Las Vegas) at 1 West Owens Avenue, North Las Vegas, NV 89030, United States."
     }
   },
   {
     "id": "usa-hosp-4041",
-    "regionDistrict": "Lebanon, Manchester & Concord, New Hampshire, USA",
+    "regionDistrict": "Lebanon, New Hampshire, USA",
     "type": "hospital",
     "lat": 43.6752,
     "lng": -72.2724,
     "name": {
-      "en": "Dartmouth Hitchcock Medical Center (Birthing Pavilion Lebanon)"
+      "en": "Dartmouth Hitchcock Medical Center (Birthing Pavilion — Lebanon)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92189,25 +90386,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 603-650-5000 / 1-866-644-3574",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "83 Medical Center Dr, Lebanon, Manchester & Concord, New Hampshire, USA 48443"
+      "en": "1 Medical Center Drive, Lebanon, NH 03756, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "The Birthing Pavilion, Maternal-Fetal Medicine & Intensive Care Nursery",
+        "Department of Obstetrics and Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Dartmouth Hitchcock Medical Center (Birthing Pavilion Lebanon)) serving Lebanon, Manchester & Concord, New Hampshire, USA. Tap Get Directions for route."
+      "en": "Dartmouth Hitchcock Medical Center (Birthing Pavilion — Lebanon) at 1 Medical Center Drive, Lebanon, NH 03756, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "The Birthing Pavilion, Maternal-Fetal Medicine & Intensive Care Nursery",
+        "Department of Obstetrics and Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4041-u2",
-    "regionDistrict": "Lebanon, Manchester & Concord, New Hampshire, USA",
+    "regionDistrict": "Manchester, New Hampshire, USA",
     "type": "hospital",
-    "lat": 43.6777,
-    "lng": -72.2699,
+    "lat": 42.9844,
+    "lng": -71.4389,
     "name": {
       "en": "Elliot Hospital (Manchester)"
     },
@@ -92217,27 +90419,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 603-650-5000 / 1-866-644-3574",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "105 Medical Center Dr, Lebanon, Manchester & Concord, New Hampshire, USA 64075"
+      "en": "1 Elliot Way, Manchester, NH 03103, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity Center, Labor & Delivery & Southern NH Level III NICU",
+        "Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Elliot Hospital (Manchester)) serving Lebanon, Manchester & Concord, New Hampshire, USA. Tap Get Directions for route."
+      "en": "Elliot Hospital (Manchester) at 1 Elliot Way, Manchester, NH 03103, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity Center, Labor & Delivery & Southern NH Level III NICU",
+        "Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4041-u3",
     "regionDistrict": "Concord, New Hampshire, USA",
     "type": "hospital",
-    "lat": 43.2081,
-    "lng": -71.5376,
+    "lat": 43.2008,
+    "lng": -71.5639,
     "name": {
-      "en": "Concord Hospital"
+      "en": "Concord Hospital (The Family Place)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92245,27 +90452,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 603-650-5000 / 1-866-644-3574",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "15 Medical Center Dr, Lebanon, Manchester & Concord, New Hampshire, USA 65255"
+      "en": "250 Pleasant Street, Concord, NH 03301, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "The Family Place Birthing Center, Midwifery & Obstetrics",
+        "Central New Hampshire Women’s Health"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Concord Hospital) serving Lebanon, Manchester & Concord, New Hampshire, USA. Tap Get Directions for route."
+      "en": "Concord Hospital (The Family Place) at 250 Pleasant Street, Concord, NH 03301, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "The Family Place Birthing Center, Midwifery & Obstetrics",
+        "Central New Hampshire Women’s Health"
+      ]
     }
   },
   {
     "id": "usa-safe-4041",
-    "regionDistrict": "Lebanon, Manchester & Concord, New Hampshire, USA",
+    "regionDistrict": "Lebanon, New Hampshire, USA",
     "type": "safe-haven",
-    "lat": 43.6777,
-    "lng": -72.2749,
+    "lat": 43.6422,
+    "lng": -72.2489,
     "name": {
-      "en": "WISE of the Upper Valley (Lebanon), YWCA New Hampshire Crisis Service & Crisis Center of Central NH"
+      "en": "WISE of the Upper Valley (Domestic & Sexual Violence Crisis Center)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92273,7 +90485,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 603-650-5000 / 1-866-644-3574",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "217 Main St, Lebanon, Manchester & Concord, New Hampshire, USA 19337"
+      "en": "38 Bank Street, Lebanon, NH 03766, United States"
     },
     "services": {
       "en": [
@@ -92283,12 +90495,12 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Lebanon, Manchester & Concord, New Hampshire, USA. Call +1 603-650-5000 / 1-866-644-3574 or 1-800-799-7233 for immediate confidential intake."
+      "en": "WISE of the Upper Valley (Domestic & Sexual Violence Crisis Center) at 38 Bank Street, Lebanon, NH 03766, United States."
     }
   },
   {
     "id": "usa-hosp-4042",
-    "regionDistrict": "Newark, New Brunswick & Hackensack, New Jersey, USA",
+    "regionDistrict": "Newark, New Jersey, USA",
     "type": "hospital",
     "lat": 40.7412,
     "lng": -74.1905,
@@ -92301,27 +90513,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 973-972-4300 / 1-800-572-7233 (NJ Domestic Violence Hotline)",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "4 Medical Center Dr, Newark, New Brunswick & Hackensack, New Jersey, USA 90904"
+      "en": "150 Bergen Street, Newark, NJ 07103, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Regional Perinatal Center, Labor & Delivery & Level III NICU",
+        "Rutgers New Jersey Medical School Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University Hospital Newark) serving Newark, New Brunswick & Hackensack, New Jersey, USA. Tap Get Directions for route."
+      "en": "University Hospital Newark at 150 Bergen Street, Newark, NJ 07103, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Regional Perinatal Center, Labor & Delivery & Level III NICU",
+        "Rutgers New Jersey Medical School Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4042-u2",
-    "regionDistrict": "Newark, New Brunswick & Hackensack, New Jersey, USA",
+    "regionDistrict": "Livingston, New Jersey, USA",
     "type": "hospital",
-    "lat": 40.7437,
-    "lng": -74.188,
+    "lat": 40.7681,
+    "lng": -74.3164,
     "name": {
-      "en": "Cooperman Barnabas Medical Center"
+      "en": "Cooperman Barnabas Medical Center (Livingston)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92329,27 +90546,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 973-972-4300 / 1-800-572-7233 (NJ Domestic Violence Hotline)",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "120 Medical Center Dr, Newark, New Brunswick & Hackensack, New Jersey, USA 90170"
+      "en": "94 Old Short Hills Road, Livingston, NJ 07039, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity & Women’s Health, High-Risk Perinatal & Level III NICU",
+        "Comprehensive Gynecology & Fibroid Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Cooperman Barnabas Medical Center) serving Newark, New Brunswick & Hackensack, New Jersey, USA. Tap Get Directions for route."
+      "en": "Cooperman Barnabas Medical Center (Livingston) at 94 Old Short Hills Road, Livingston, NJ 07039, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity & Women’s Health, High-Risk Perinatal & Level III NICU",
+        "Comprehensive Gynecology & Fibroid Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4042-u3",
-    "regionDistrict": "Newark, New Brunswick & Hackensack, New Jersey, USA",
+    "regionDistrict": "New Brunswick, New Jersey, USA",
     "type": "hospital",
-    "lat": 40.7437,
-    "lng": -74.188,
+    "lat": 40.4956,
+    "lng": -74.4508,
     "name": {
-      "en": "Robert Wood Johnson University Hospital"
+      "en": "Robert Wood Johnson University Hospital (New Brunswick)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92357,27 +90579,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 973-972-4300 / 1-800-572-7233 (NJ Domestic Violence Hotline)",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "124 Medical Center Dr, Newark, New Brunswick & Hackensack, New Jersey, USA 71814"
+      "en": "1 Robert Wood Johnson Place, New Brunswick, NJ 08901, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity & Perinatal Center, Labor & Delivery & Level III NICU",
+        "Department of Obstetrics, Gynecology & Reproductive Sciences"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Robert Wood Johnson University Hospital) serving Newark, New Brunswick & Hackensack, New Jersey, USA. Tap Get Directions for route."
+      "en": "Robert Wood Johnson University Hospital (New Brunswick) at 1 Robert Wood Johnson Place, New Brunswick, NJ 08901, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity & Perinatal Center, Labor & Delivery & Level III NICU",
+        "Department of Obstetrics, Gynecology & Reproductive Sciences"
+      ]
     }
   },
   {
     "id": "usa-hosp-4042-u4",
-    "regionDistrict": "Newark, New Brunswick & Hackensack, New Jersey, USA",
+    "regionDistrict": "Hackensack, New Jersey, USA",
     "type": "hospital",
-    "lat": 40.7437,
-    "lng": -74.188,
+    "lat": 40.8839,
+    "lng": -74.0569,
     "name": {
-      "en": "Hackensack University Medical Center"
+      "en": "Hackensack University Medical Center — Donna A. Sanzari Women’s Hospital"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92385,27 +90612,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 973-972-4300 / 1-800-572-7233 (NJ Domestic Violence Hotline)",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "7 Medical Center Dr, Newark, New Brunswick & Hackensack, New Jersey, USA 21607"
+      "en": "30 Prospect Avenue, Hackensack, NJ 07601, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Donna A. Sanzari Women’s Hospital, Labor & Delivery & Level III NICU",
+        "High-Risk Maternal-Fetal Medicine & Gynecologic Oncology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Hackensack University Medical Center) serving Newark, New Brunswick & Hackensack, New Jersey, USA. Tap Get Directions for route."
+      "en": "Hackensack University Medical Center — Donna A. Sanzari Women’s Hospital at 30 Prospect Avenue, Hackensack, NJ 07601, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Donna A. Sanzari Women’s Hospital, Labor & Delivery & Level III NICU",
+        "High-Risk Maternal-Fetal Medicine & Gynecologic Oncology"
+      ]
     }
   },
   {
     "id": "usa-safe-4042",
-    "regionDistrict": "Newark, New Brunswick & Hackensack, New Jersey, USA",
+    "regionDistrict": "New Brunswick / Newark, New Jersey, USA",
     "type": "safe-haven",
-    "lat": 40.7437,
-    "lng": -74.193,
+    "lat": 40.4869,
+    "lng": -74.4519,
     "name": {
-      "en": "Safe House (Clara Maass / Essex County), Women Aware (Middlesex County) & Center for Hope and Safety (Bergen County)"
+      "en": "Women Aware (Middlesex County Domestic Violence Safe House) & Essex County Safe House"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92413,7 +90645,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 973-972-4300 / 1-800-572-7233 (NJ Domestic Violence Hotline)",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "146 Main St, Newark, New Brunswick & Hackensack, New Jersey, USA 94396"
+      "en": "250 Livingston Avenue, New Brunswick, NJ 08901, United States"
     },
     "services": {
       "en": [
@@ -92423,17 +90655,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Newark, New Brunswick & Hackensack, New Jersey, USA. Call +1 973-972-4300 / 1-800-572-7233 (NJ Domestic Violence Hotline) or 1-800-799-7233 for immediate confidential intake."
+      "en": "Women Aware (Middlesex County Domestic Violence Safe House) & Essex County Safe House at 250 Livingston Avenue, New Brunswick, NJ 08901, United States."
     }
   },
   {
     "id": "usa-hosp-4043",
-    "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
+    "regionDistrict": "Albuquerque, New Mexico, USA",
     "type": "hospital",
     "lat": 35.0885,
     "lng": -106.6184,
     "name": {
-      "en": "UNM Hospital (University of New Mexico Women’s Special Care)"
+      "en": "UNM Hospital (University of New Mexico Health)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92441,27 +90673,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 505-272-2111 / +1 505-247-4219",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "157 Medical Center Dr, Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA 18257"
+      "en": "2211 Lomas Boulevard NE, Albuquerque, NM 87106, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s Special Care, 24/7 Obstetrical Triage, Midwifery & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UNM Hospital (University of New Mexico Women’s Special Care)) serving Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA. Tap Get Directions for route."
+      "en": "UNM Hospital (University of New Mexico Health) at 2211 Lomas Boulevard NE, Albuquerque, NM 87106, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Special Care, 24/7 Obstetrical Triage, Midwifery & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4043-u2",
-    "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
+    "regionDistrict": "Albuquerque, New Mexico, USA",
     "type": "hospital",
-    "lat": 35.091,
-    "lng": -106.6159,
+    "lat": 35.0811,
+    "lng": -106.6358,
     "name": {
-      "en": "Presbyterian Hospital"
+      "en": "Presbyterian Hospital (Albuquerque)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92469,25 +90706,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 505-272-2111 / +1 505-247-4219",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "84 Medical Center Dr, Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA 47594"
+      "en": "1100 Central Avenue SE, Albuquerque, NM 87106, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birthing Center, Labor & Delivery & NICU",
+        "Obstetrics, Gynecology & Nurse-Midwifery"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Presbyterian Hospital) serving Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA. Tap Get Directions for route."
+      "en": "Presbyterian Hospital (Albuquerque) at 1100 Central Avenue SE, Albuquerque, NM 87106, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birthing Center, Labor & Delivery & NICU",
+        "Obstetrics, Gynecology & Nurse-Midwifery"
+      ]
     }
   },
   {
     "id": "usa-hosp-4043-u3",
-    "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
+    "regionDistrict": "Gallup (Navajo / Zuni Border), New Mexico, USA",
     "type": "hospital",
-    "lat": 35.091,
-    "lng": -106.6159,
+    "lat": 35.5122,
+    "lng": -108.7317,
     "name": {
       "en": "Gallup Indian Medical Center (IHS)"
     },
@@ -92497,27 +90739,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 505-272-2111 / +1 505-247-4219",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "157 Medical Center Dr, Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA 97197"
+      "en": "516 East Nizhoni Boulevard, Gallup, NM 87301, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Obstetrics & Gynecology, Certified Nurse-Midwifery & Maternal Unit",
+        "Navajo & Zuni Border Region Referral Hospital"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Gallup Indian Medical Center (IHS)) serving Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA. Tap Get Directions for route."
+      "en": "Gallup Indian Medical Center (IHS) at 516 East Nizhoni Boulevard, Gallup, NM 87301, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Obstetrics & Gynecology, Certified Nurse-Midwifery & Maternal Unit",
+        "Navajo & Zuni Border Region Referral Hospital"
+      ]
     }
   },
   {
     "id": "usa-safe-4043",
-    "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
+    "regionDistrict": "Albuquerque, New Mexico, USA",
     "type": "safe-haven",
-    "lat": 35.091,
-    "lng": -106.6209,
+    "lat": 35.0989,
+    "lng": -106.5294,
     "name": {
-      "en": "Barrett House"
+      "en": "Barrett House Women & Children’s Shelter (Albuquerque)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92525,7 +90772,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 505-272-2111 / +1 505-247-4219",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "156 Main St, Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA 80046"
+      "en": "10300 Constitution Avenue NE, Albuquerque, NM 87112, United States"
     },
     "services": {
       "en": [
@@ -92535,17 +90782,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Barrett House) serving Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Barrett House Women & Children’s Shelter (Albuquerque) at 10300 Constitution Avenue NE, Albuquerque, NM 87112, United States."
     }
   },
   {
     "id": "usa-safe-4043-u2",
-    "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
+    "regionDistrict": "Albuquerque, New Mexico, USA",
     "type": "safe-haven",
-    "lat": 35.086,
-    "lng": -106.6159,
+    "lat": 35.0889,
+    "lng": -106.6347,
     "name": {
-      "en": "S.A.F.E. House (Albuquerque)"
+      "en": "S.A.F.E. House (Domestic Violence Sanctuary — Albuquerque)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92553,7 +90800,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 505-272-2111 / +1 505-247-4219",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "197 Main St, Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA 49957"
+      "en": "801 Encino Place NE, Albuquerque, NM 87102, United States"
     },
     "services": {
       "en": [
@@ -92563,17 +90810,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (S.A.F.E. House (Albuquerque)) serving Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "S.A.F.E. House (Domestic Violence Sanctuary — Albuquerque) at 801 Encino Place NE, Albuquerque, NM 87102, United States."
     }
   },
   {
     "id": "usa-safe-4043-u3",
-    "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
+    "regionDistrict": "Santa Fe, New Mexico, USA",
     "type": "safe-haven",
-    "lat": 35.085,
-    "lng": -106.6209,
+    "lat": 35.6556,
+    "lng": -105.9997,
     "name": {
-      "en": "Esperanza Shelter (Santa Fe)"
+      "en": "Esperanza Shelter for Battered Families (Santa Fe)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92581,7 +90828,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 505-272-2111 / +1 505-247-4219",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "7 Main St, Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA 49727"
+      "en": "3130 Rufina Street, Santa Fe, NM 87507, United States"
     },
     "services": {
       "en": [
@@ -92591,17 +90838,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Esperanza Shelter (Santa Fe)) serving Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Esperanza Shelter for Battered Families (Santa Fe) at 3130 Rufina Street, Santa Fe, NM 87507, United States."
     }
   },
   {
     "id": "usa-safe-4043-u4",
-    "regionDistrict": "Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA",
+    "regionDistrict": "Gallup, New Mexico, USA",
     "type": "safe-haven",
-    "lat": 35.091,
-    "lng": -106.6209,
+    "lat": 35.5247,
+    "lng": -108.7492,
     "name": {
-      "en": "Battered Families Services"
+      "en": "Battered Families Services — Roberta’s Place Women’s Shelter (Gallup)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92609,7 +90856,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 505-272-2111 / +1 505-247-4219",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "125 Main St, Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA 23735"
+      "en": "207 South Strong Drive, Gallup, NM 87301, United States"
     },
     "services": {
       "en": [
@@ -92619,17 +90866,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Battered Families Services) serving Albuquerque, Santa Fe & Gallup (Navajo / Zuni Border), New Mexico, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Battered Families Services — Roberta’s Place Women’s Shelter (Gallup) at 207 South Strong Drive, Gallup, NM 87301, United States."
     }
   },
   {
     "id": "usa-hosp-4044",
-    "regionDistrict": "New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA",
+    "regionDistrict": "New York City (Manhattan), New York, USA",
     "type": "hospital",
     "lat": 40.7645,
     "lng": -73.9547,
     "name": {
-      "en": "NewYork-Presbyterian Alexandra Cohen Hospital for Women & Newborns"
+      "en": "NewYork-Presbyterian Alexandra Cohen Hospital for Women and Newborns"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92637,27 +90884,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 212-746-5454 / 1-800-621-4673 (Safe Horizon 24",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "95 Medical Center Dr, New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA 73935"
+      "en": "1283 York Avenue (at 68th Street), New York, NY 10065, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Dedicated Women & Newborns Hospital (Weill Cornell), Labor & Delivery & Level IV NICU",
+        "High-Risk Maternal-Fetal Medicine & Perinatal Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (NewYork-Presbyterian Alexandra Cohen Hospital for Women & Newborns) serving New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA. Tap Get Directions for route."
+      "en": "NewYork-Presbyterian Alexandra Cohen Hospital for Women and Newborns at 1283 York Avenue (at 68th Street), New York, NY 10065, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Dedicated Women & Newborns Hospital (Weill Cornell), Labor & Delivery & Level IV NICU",
+        "High-Risk Maternal-Fetal Medicine & Perinatal Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4044-u2",
-    "regionDistrict": "New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA",
+    "regionDistrict": "New York City (Manhattan), New York, USA",
     "type": "hospital",
-    "lat": 40.767,
-    "lng": -73.9522,
+    "lat": 40.7392,
+    "lng": -73.9753,
     "name": {
-      "en": "Mount Sinai Hospital, NYC Health + Hospitals / Bellevue"
+      "en": "NYC Health + Hospitals / Bellevue"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92665,27 +90917,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 212-746-5454 / 1-800-621-4673 (Safe Horizon 24",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "100 Medical Center Dr, New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA 88980"
+      "en": "462 First Avenue (at 27th Street), New York, NY 10016, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s Health & Obstetrics/Gynecology (Care Regardless of Immigration Status or Ability to Pay)",
+        "24/7 Labor & Delivery, Midwifery, SANE Domestic/Sexual Violence Triage & Level III NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Mount Sinai Hospital, NYC Health + Hospitals / Bellevue) serving New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA. Tap Get Directions for route."
+      "en": "NYC Health + Hospitals / Bellevue at 462 First Avenue (at 27th Street), New York, NY 10016, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Health & Obstetrics/Gynecology (Care Regardless of Immigration Status or Ability to Pay)",
+        "24/7 Labor & Delivery, Midwifery, SANE Domestic/Sexual Violence Triage & Level III NICU"
+      ]
     }
   },
   {
     "id": "usa-hosp-4044-u3",
-    "regionDistrict": "New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA",
+    "regionDistrict": "New York City (Manhattan), New York, USA",
     "type": "hospital",
-    "lat": 40.767,
-    "lng": -73.9522,
+    "lat": 40.79,
+    "lng": -73.9526,
     "name": {
-      "en": "NYU Langone"
+      "en": "Mount Sinai Hospital — Kravis Women & Newborns Center"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92693,27 +90950,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 212-746-5454 / 1-800-621-4673 (Safe Horizon 24",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "127 Medical Center Dr, New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA 93967"
+      "en": "1468 Madison Avenue (at 100th Street), New York, NY 10029, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Obstetrics, Gynecology & Reproductive Science, Labor & Delivery & Level IV NICU",
+        "Maternal-Fetal Medicine & SAVI (Sexual Assault and Violence Intervention Program)"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (NYU Langone) serving New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA. Tap Get Directions for route."
+      "en": "Mount Sinai Hospital — Kravis Women & Newborns Center at 1468 Madison Avenue (at 100th Street), New York, NY 10029, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Obstetrics, Gynecology & Reproductive Science, Labor & Delivery & Level IV NICU",
+        "Maternal-Fetal Medicine & SAVI (Sexual Assault and Violence Intervention Program)"
+      ]
     }
   },
   {
     "id": "usa-safe-4044",
-    "regionDistrict": "New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA",
+    "regionDistrict": "New York City, New York, USA",
     "type": "safe-haven",
-    "lat": 40.767,
-    "lng": -73.9572,
+    "lat": 40.7139,
+    "lng": -74.0036,
     "name": {
-      "en": "Safe Horizon NYC Domestic Violence Shelters , Sanctuary for Families"
+      "en": "Safe Horizon & Sanctuary for Families (NYC Domestic Violence Shelters)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92721,7 +90983,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 212-746-5454 / 1-800-621-4673 (Safe Horizon 24",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "223 Main St, New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA 74783"
+      "en": "2 Lafayette Street, 3rd Floor, New York, NY 10007, United States"
     },
     "services": {
       "en": [
@@ -92731,17 +90993,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Safe Horizon NYC Domestic Violence Shelters , Sanctuary for Families) serving New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Safe Horizon & Sanctuary for Families (NYC Domestic Violence Shelters) at 2 Lafayette Street, 3rd Floor, New York, NY 10007, United States."
     }
   },
   {
     "id": "usa-safe-4044-u2",
-    "regionDistrict": "New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA",
+    "regionDistrict": "New York City, New York, USA",
     "type": "safe-haven",
-    "lat": 40.762,
-    "lng": -73.9522,
+    "lat": 40.7086,
+    "lng": -74.0094,
     "name": {
-      "en": "Sakhi for South Asian Women"
+      "en": "Sakhi for South Asian & Indo-Caribbean Women (NYC)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92749,7 +91011,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 212-746-5454 / 1-800-621-4673 (Safe Horizon 24",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "123 Main St, New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA 40953"
+      "en": "55 Liberty Street, Suite 4B, New York, NY 10005, United States"
     },
     "services": {
       "en": [
@@ -92759,15 +91021,15 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Sakhi for South Asian Women) serving New York City (Manhattan / Brooklyn / Bronx / Queens), New York, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Sakhi for South Asian & Indo-Caribbean Women (NYC) at 55 Liberty Street, Suite 4B, New York, NY 10005, United States."
     }
   },
   {
     "id": "usa-hosp-4045",
-    "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
+    "regionDistrict": "Buffalo, New York, USA",
     "type": "hospital",
-    "lat": 42.9041,
-    "lng": -78.8756,
+    "lat": 42.9014,
+    "lng": -78.8672,
     "name": {
       "en": "John R. Oishei Children’s & Women’s Hospital (Buffalo)"
     },
@@ -92777,27 +91039,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 716-323-2000 / +1 716-884-6000",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "231 Medical Center Dr, Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA 29071"
+      "en": "818 Ellicott Street, Buffalo, NY 14203, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Regional Perinatal Center, Labor & Delivery, High-Risk Maternity & Level IV NICU",
+        "Comprehensive Women’s Health & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (John R. Oishei Children’s & Women’s Hospital (Buffalo)) serving Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA. Tap Get Directions for route."
+      "en": "John R. Oishei Children’s & Women’s Hospital (Buffalo) at 818 Ellicott Street, Buffalo, NY 14203, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Regional Perinatal Center, Labor & Delivery, High-Risk Maternity & Level IV NICU",
+        "Comprehensive Women’s Health & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4045-u2",
-    "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
+    "regionDistrict": "Rochester, New York, USA",
     "type": "hospital",
-    "lat": 42.9066,
-    "lng": -78.8731,
+    "lat": 43.1228,
+    "lng": -77.6244,
     "name": {
-      "en": "Strong Memorial Hospital (Rochester)"
+      "en": "Strong Memorial Hospital — UR Medicine (Rochester)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92805,27 +91072,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 716-323-2000 / +1 716-884-6000",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "67 Medical Center Dr, Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA 20287"
+      "en": "601 Elmwood Avenue, Rochester, NY 14642, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Strong Beginnings Birth Center, High-Risk Maternal-Fetal Medicine & Golisano NICU",
+        "Department of Obstetrics and Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Strong Memorial Hospital (Rochester)) serving Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA. Tap Get Directions for route."
+      "en": "Strong Memorial Hospital — UR Medicine (Rochester) at 601 Elmwood Avenue, Rochester, NY 14642, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Strong Beginnings Birth Center, High-Risk Maternal-Fetal Medicine & Golisano NICU",
+        "Department of Obstetrics and Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4045-u3",
-    "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
+    "regionDistrict": "Syracuse, New York, USA",
     "type": "hospital",
-    "lat": 42.9066,
-    "lng": -78.8731,
+    "lat": 43.0414,
+    "lng": -76.1375,
     "name": {
-      "en": "Crouse Hospital (Syracuse)"
+      "en": "Crouse Hospital — Kienzle Family Maternity Center (Syracuse)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92833,27 +91105,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 716-323-2000 / +1 716-884-6000",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "47 Medical Center Dr, Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA 35787"
+      "en": "736 Irving Avenue, Syracuse, NY 13210, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Central New York Regional Perinatal Center, Labor & Delivery & Baker Level IV NICU",
+        "High-Risk Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Crouse Hospital (Syracuse)) serving Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA. Tap Get Directions for route."
+      "en": "Crouse Hospital — Kienzle Family Maternity Center (Syracuse) at 736 Irving Avenue, Syracuse, NY 13210, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Central New York Regional Perinatal Center, Labor & Delivery & Baker Level IV NICU",
+        "High-Risk Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4045-u4",
-    "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
+    "regionDistrict": "Albany, New York, USA",
     "type": "hospital",
-    "lat": 42.9066,
-    "lng": -78.8731,
+    "lat": 42.6531,
+    "lng": -73.7753,
     "name": {
-      "en": "Albany Medical Center"
+      "en": "Albany Medical Center (The Birth Place)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -92861,27 +91138,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 716-323-2000 / +1 716-884-6000",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "197 Medical Center Dr, Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA 52277"
+      "en": "43 New Scotland Avenue, Albany, NY 12208, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Capital Region Perinatal Center, Labor & Delivery & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Albany Medical Center) serving Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA. Tap Get Directions for route."
+      "en": "Albany Medical Center (The Birth Place) at 43 New Scotland Avenue, Albany, NY 12208, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Capital Region Perinatal Center, Labor & Delivery & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4045",
-    "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
+    "regionDistrict": "Buffalo, New York, USA",
     "type": "safe-haven",
-    "lat": 42.9066,
-    "lng": -78.8781,
+    "lat": 42.9103,
+    "lng": -78.87,
     "name": {
-      "en": "Haven House (Buffalo)"
+      "en": "Haven House Domestic Violence Shelter (Child & Family Services Buffalo)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92889,7 +91171,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 716-323-2000 / +1 716-884-6000",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "86 Main St, Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA 15756"
+      "en": "844 Delaware Avenue, Buffalo, NY 14209, United States"
     },
     "services": {
       "en": [
@@ -92899,15 +91181,15 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Haven House (Buffalo)) serving Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Haven House Domestic Violence Shelter (Child & Family Services Buffalo) at 844 Delaware Avenue, Buffalo, NY 14209, United States."
     }
   },
   {
     "id": "usa-safe-4045-u2",
-    "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
+    "regionDistrict": "Rochester, New York, USA",
     "type": "safe-haven",
-    "lat": 42.9016,
-    "lng": -78.8731,
+    "lat": 43.1506,
+    "lng": -77.5819,
     "name": {
       "en": "Willow Domestic Violence Center (Rochester)"
     },
@@ -92917,7 +91199,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 716-323-2000 / +1 716-884-6000",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "53 Main St, Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA 91503"
+      "en": "693 East Avenue, Rochester, NY 14607, United States"
     },
     "services": {
       "en": [
@@ -92927,17 +91209,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Willow Domestic Violence Center (Rochester)) serving Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Willow Domestic Violence Center (Rochester) at 693 East Avenue, Rochester, NY 14607, United States."
     }
   },
   {
     "id": "usa-safe-4045-u3",
-    "regionDistrict": "Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA",
+    "regionDistrict": "Syracuse, New York, USA",
     "type": "safe-haven",
-    "lat": 42.9006,
-    "lng": -78.8781,
+    "lat": 43.0564,
+    "lng": -76.1408,
     "name": {
-      "en": "Vera House (Syracuse) & Equinox"
+      "en": "Vera House (Domestic & Sexual Violence Shelter — Syracuse)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -92945,7 +91227,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 716-323-2000 / +1 716-884-6000",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "140 Main St, Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA 62800"
+      "en": "723 James Street, Syracuse, NY 13203, United States"
     },
     "services": {
       "en": [
@@ -92955,12 +91237,12 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Vera House (Syracuse) & Equinox) serving Buffalo, Rochester, Syracuse & Albany (Upstate New York), New York, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Vera House (Domestic & Sexual Violence Shelter — Syracuse) at 723 James Street, Syracuse, NY 13203, United States."
     }
   },
   {
     "id": "usa-hosp-4046",
-    "regionDistrict": "Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA",
+    "regionDistrict": "Chapel Hill, North Carolina, USA",
     "type": "hospital",
     "lat": 35.904,
     "lng": -79.051,
@@ -92973,27 +91255,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 984-974-1000 / +1 919-929-7122",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "188 Medical Center Dr, Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA 18418"
+      "en": "101 Manning Drive, Chapel Hill, NC 27514, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity Care Center, High-Risk Maternal-Fetal Medicine, Midwifery & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UNC Women’s Hospital (Chapel Hill)) serving Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA. Tap Get Directions for route."
+      "en": "UNC Women’s Hospital (Chapel Hill) at 101 Manning Drive, Chapel Hill, NC 27514, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity Care Center, High-Risk Maternal-Fetal Medicine, Midwifery & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4046-u2",
-    "regionDistrict": "Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA",
+    "regionDistrict": "Durham, North Carolina, USA",
     "type": "hospital",
-    "lat": 35.9065,
-    "lng": -79.0485,
+    "lat": 36.0067,
+    "lng": -78.9372,
     "name": {
-      "en": "Duke University Hospital (Durham), WakeMed Raleigh"
+      "en": "Duke University Hospital (Duke Birthing Center — Durham)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93001,27 +91288,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 984-974-1000 / +1 919-929-7122",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "69 Medical Center Dr, Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA 50659"
+      "en": "2301 Erwin Road, Durham, NC 27710, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Duke Birthing Center, High-Risk Perinatal Care & Intensive Care Nursery",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Duke University Hospital (Durham), WakeMed Raleigh) serving Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA. Tap Get Directions for route."
+      "en": "Duke University Hospital (Duke Birthing Center — Durham) at 2301 Erwin Road, Durham, NC 27710, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Duke Birthing Center, High-Risk Perinatal Care & Intensive Care Nursery",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4046-u3",
-    "regionDistrict": "Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA",
+    "regionDistrict": "Charlotte, North Carolina, USA",
     "type": "hospital",
-    "lat": 35.9065,
-    "lng": -79.0485,
+    "lat": 35.2044,
+    "lng": -80.8389,
     "name": {
-      "en": "Atrium Health Carolinas Medical Center"
+      "en": "Atrium Health Carolinas Medical Center (Women’s Institute — Charlotte)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93029,27 +91321,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 984-974-1000 / +1 919-929-7122",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "195 Medical Center Dr, Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA 24205"
+      "en": "1000 Blythe Boulevard, Charlotte, NC 28203, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity Center, Labor & Delivery, Maternal-Fetal Medicine & Levine Level IV NICU",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Atrium Health Carolinas Medical Center) serving Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA. Tap Get Directions for route."
+      "en": "Atrium Health Carolinas Medical Center (Women’s Institute — Charlotte) at 1000 Blythe Boulevard, Charlotte, NC 28203, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity Center, Labor & Delivery, Maternal-Fetal Medicine & Levine Level IV NICU",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4046",
-    "regionDistrict": "Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA",
+    "regionDistrict": "Raleigh / Chapel Hill / Charlotte, North Carolina, USA",
     "type": "safe-haven",
-    "lat": 35.9065,
-    "lng": -79.0535,
+    "lat": 35.7989,
+    "lng": -78.6594,
     "name": {
-      "en": "Compass Center for Women and Families (Chapel Hill), InterAct of Wake County (Raleigh) & Safe Alliance (Charlotte)"
+      "en": "InterAct of Wake County (Raleigh Family Safety & Empowerment Center)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93057,7 +91354,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 984-974-1000 / +1 919-929-7122",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "168 Main St, Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA 59178"
+      "en": "1012 Oberlin Road, Raleigh, NC 27605, United States"
     },
     "services": {
       "en": [
@@ -93067,17 +91364,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Chapel Hill, Durham, Raleigh & Charlotte, North Carolina, USA. Call +1 984-974-1000 / +1 919-929-7122 or 1-800-799-7233 for immediate confidential intake."
+      "en": "InterAct of Wake County (Raleigh Family Safety & Empowerment Center) at 1012 Oberlin Road, Raleigh, NC 27605, United States."
     }
   },
   {
     "id": "usa-hosp-4047",
-    "regionDistrict": "Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA",
+    "regionDistrict": "Fargo, North Dakota, USA",
     "type": "hospital",
-    "lat": 46.8772,
-    "lng": -96.7898,
+    "lat": 46.8436,
+    "lng": -96.8747,
     "name": {
-      "en": "Sanford Medical Center Fargo (Family Birth Center), Sanford Bismarck"
+      "en": "Sanford Medical Center Fargo (Family Birth Center)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93085,27 +91382,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 701-417-2000 / +1 701-232-3449",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "213 Medical Center Dr, Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA 38323"
+      "en": "5225 23rd Avenue South, Fargo, ND 58104, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birth Center, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Obstetrics, Gynecology & Midwifery"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Sanford Medical Center Fargo (Family Birth Center), Sanford Bismarck) serving Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA. Tap Get Directions for route."
+      "en": "Sanford Medical Center Fargo (Family Birth Center) at 5225 23rd Avenue South, Fargo, ND 58104, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Obstetrics, Gynecology & Midwifery"
+      ]
     }
   },
   {
     "id": "usa-hosp-4047-u2",
-    "regionDistrict": "Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA",
+    "regionDistrict": "Belcourt (Turtle Mountain Reservation), North Dakota, USA",
     "type": "hospital",
-    "lat": 46.8797,
-    "lng": -96.7873,
+    "lat": 48.8439,
+    "lng": -99.7478,
     "name": {
-      "en": "Quentin N. Burdick Memorial Health Care Facility (Belcourt IHS)"
+      "en": "Quentin N. Burdick Memorial Health Care Facility (IHS — Belcourt)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93113,27 +91415,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 701-417-2000 / +1 701-232-3449",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "43 Medical Center Dr, Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA 68413"
+      "en": "1300 Hospital Loop, Belcourt, ND 58316, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s Health, Prenatal & Maternal Care",
+        "Turtle Mountain Chippewa Reservation Hospital"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Quentin N. Burdick Memorial Health Care Facility (Belcourt IHS)) serving Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA. Tap Get Directions for route."
+      "en": "Quentin N. Burdick Memorial Health Care Facility (IHS — Belcourt) at 1300 Hospital Loop, Belcourt, ND 58316, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Health, Prenatal & Maternal Care",
+        "Turtle Mountain Chippewa Reservation Hospital"
+      ]
     }
   },
   {
     "id": "usa-safe-4047",
-    "regionDistrict": "Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA",
+    "regionDistrict": "Fargo, North Dakota, USA",
     "type": "safe-haven",
-    "lat": 46.8797,
-    "lng": -96.7923,
+    "lat": 46.835,
+    "lng": -96.7978,
     "name": {
-      "en": "YWCA Cass Clay Emergency Shelter (Fargo)"
+      "en": "YWCA Cass Clay Emergency Shelter for Women & Children (Fargo)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93141,7 +91448,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 701-417-2000 / +1 701-232-3449",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "197 Main St, Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA 90677"
+      "en": "3000 South University Drive, Fargo, ND 58103, United States"
     },
     "services": {
       "en": [
@@ -93151,17 +91458,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Cass Clay Emergency Shelter (Fargo)) serving Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Cass Clay Emergency Shelter for Women & Children (Fargo) at 3000 South University Drive, Fargo, ND 58103, United States."
     }
   },
   {
     "id": "usa-safe-4047-u2",
-    "regionDistrict": "Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA",
+    "regionDistrict": "Bismarck, North Dakota, USA",
     "type": "safe-haven",
-    "lat": 46.8747,
-    "lng": -96.7873,
+    "lat": 46.8067,
+    "lng": -100.7908,
     "name": {
-      "en": "Abused Adult Resource Center (Bismarck)"
+      "en": "Abused Adult Resource Center (AARC — Bismarck)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93169,7 +91476,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 701-417-2000 / +1 701-232-3449",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "26 Main St, Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA 53396"
+      "en": "218 West Broadway Avenue, Bismarck, ND 58501, United States"
     },
     "services": {
       "en": [
@@ -93179,17 +91486,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Abused Adult Resource Center (Bismarck)) serving Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Abused Adult Resource Center (AARC — Bismarck) at 218 West Broadway Avenue, Bismarck, ND 58501, United States."
     }
   },
   {
     "id": "usa-safe-4047-u3",
-    "regionDistrict": "Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA",
+    "regionDistrict": "Belcourt (Turtle Mountain Reservation), North Dakota, USA",
     "type": "safe-haven",
-    "lat": 46.8737,
-    "lng": -96.7923,
+    "lat": 48.8411,
+    "lng": -99.7442,
     "name": {
-      "en": "Hearts of Hope"
+      "en": "Hearts of Hope Domestic Violence Program (Belcourt)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93197,7 +91504,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 701-417-2000 / +1 701-232-3449",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "143 Main St, Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA 17243"
+      "en": "BIA Road 7, Belcourt, ND 58316, United States"
     },
     "services": {
       "en": [
@@ -93207,17 +91514,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Hearts of Hope) serving Fargo, Bismarck & Belcourt (Turtle Mountain Reservation), North Dakota, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Hearts of Hope Domestic Violence Program (Belcourt) at BIA Road 7, Belcourt, ND 58316, United States."
     }
   },
   {
     "id": "usa-hosp-4048",
-    "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
+    "regionDistrict": "Cleveland, Ohio, USA",
     "type": "hospital",
     "lat": 41.5028,
     "lng": -81.6213,
     "name": {
-      "en": "Cleveland Clinic Obstetrics & Gynecology Institute"
+      "en": "Cleveland Clinic (Obstetrics & Gynecology Institute)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93225,27 +91532,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 216-444-2200 / +1 216-391-4357",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "111 Medical Center Dr, Cleveland, Columbus & Cincinnati, Ohio, USA 65941"
+      "en": "9500 Euclid Avenue, Cleveland, OH 44195, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birthing Services, Fetal Care Center & High-Risk Maternal-Fetal Medicine",
+        "Comprehensive Gynecology, Endometriosis & Fibroid Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Cleveland Clinic Obstetrics & Gynecology Institute) serving Cleveland, Columbus & Cincinnati, Ohio, USA. Tap Get Directions for route."
+      "en": "Cleveland Clinic (Obstetrics & Gynecology Institute) at 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birthing Services, Fetal Care Center & High-Risk Maternal-Fetal Medicine",
+        "Comprehensive Gynecology, Endometriosis & Fibroid Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4048-u2",
-    "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
+    "regionDistrict": "Cleveland, Ohio, USA",
     "type": "hospital",
     "lat": 41.5053,
-    "lng": -81.6188,
+    "lng": -81.6056,
     "name": {
-      "en": "University Hospitals MacDonald Women’s Hospital"
+      "en": "University Hospitals MacDonald Women’s Hospital (Cleveland)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93253,27 +91565,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 216-444-2200 / +1 216-391-4357",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "138 Medical Center Dr, Cleveland, Columbus & Cincinnati, Ohio, USA 99878"
+      "en": "2101 Adelbert Road, Cleveland, OH 44106, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Ohio’s Only Dedicated Hospital for Women",
+        "24/7 Obstetric Emergency, Labor & Delivery, Midwifery & Rainbow Level IV NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University Hospitals MacDonald Women’s Hospital) serving Cleveland, Columbus & Cincinnati, Ohio, USA. Tap Get Directions for route."
+      "en": "University Hospitals MacDonald Women’s Hospital (Cleveland) at 2101 Adelbert Road, Cleveland, OH 44106, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Ohio’s Only Dedicated Hospital for Women",
+        "24/7 Obstetric Emergency, Labor & Delivery, Midwifery & Rainbow Level IV NICU"
+      ]
     }
   },
   {
     "id": "usa-hosp-4048-u3",
-    "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
+    "regionDistrict": "Columbus, Ohio, USA",
     "type": "hospital",
-    "lat": 41.5053,
-    "lng": -81.6188,
+    "lat": 39.9942,
+    "lng": -83.0183,
     "name": {
-      "en": "Ohio State Wexner Medical Center"
+      "en": "The Ohio State University Wexner Medical Center (Maternity Center — Columbus)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93281,17 +91598,22 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 216-444-2200 / +1 216-391-4357",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "6 Medical Center Dr, Cleveland, Columbus & Cincinnati, Ohio, USA 20736"
+      "en": "410 West 10th Avenue, Columbus, OH 43210, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Ohio State Wexner Medical Center) serving Cleveland, Columbus & Cincinnati, Ohio, USA. Tap Get Directions for route."
+      "en": "The Ohio State University Wexner Medical Center (Maternity Center — Columbus) at 410 West 10th Avenue, Columbus, OH 43210, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
@@ -93301,7 +91623,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 39.1389,
     "lng": -84.5025,
     "name": {
-      "en": "UC Medical Center"
+      "en": "University of Cincinnati Medical Center (UC Health — Cincinnati)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93309,27 +91631,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 216-444-2200 / +1 216-391-4357",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "171 Medical Center Dr, Cleveland, Columbus & Cincinnati, Ohio, USA 66961"
+      "en": "234 Goodman Street, Cincinnati, OH 45219, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity Unit, High-Risk Perinatal Care & Level III NICU",
+        "Department of Obstetrics and Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UC Medical Center) serving Cleveland, Columbus & Cincinnati, Ohio, USA. Tap Get Directions for route."
+      "en": "University of Cincinnati Medical Center (UC Health — Cincinnati) at 234 Goodman Street, Cincinnati, OH 45219, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity Unit, High-Risk Perinatal Care & Level III NICU",
+        "Department of Obstetrics and Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4048",
-    "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
+    "regionDistrict": "Cleveland, Ohio, USA",
     "type": "safe-haven",
-    "lat": 41.5053,
-    "lng": -81.6238,
+    "lat": 41.4319,
+    "lng": -81.8258,
     "name": {
-      "en": "Laura’s Home Women’s Crisis Center"
+      "en": "Laura’s Home Women’s Crisis Center (Cleveland)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93337,7 +91664,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 216-444-2200 / +1 216-391-4357",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "34 Main St, Cleveland, Columbus & Cincinnati, Ohio, USA 10824"
+      "en": "18120 Puritas Avenue, Cleveland, OH 44135, United States"
     },
     "services": {
       "en": [
@@ -93347,17 +91674,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Laura’s Home Women’s Crisis Center) serving Cleveland, Columbus & Cincinnati, Ohio, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Laura’s Home Women’s Crisis Center (Cleveland) at 18120 Puritas Avenue, Cleveland, OH 44135, United States."
     }
   },
   {
     "id": "usa-safe-4048-u2",
-    "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
+    "regionDistrict": "Cleveland, Ohio, USA",
     "type": "safe-haven",
-    "lat": 41.5003,
-    "lng": -81.6188,
+    "lat": 41.5078,
+    "lng": -81.6694,
     "name": {
-      "en": "Journey Center for Safety and Healing (Cleveland), LSS CHOICES (Columbus)"
+      "en": "Journey Center for Safety and Healing (Cuyahoga County DV Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93365,7 +91692,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 216-444-2200 / +1 216-391-4357",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "184 Main St, Cleveland, Columbus & Cincinnati, Ohio, USA 76594"
+      "en": "2806 Payne Avenue, Cleveland, OH 44114, United States"
     },
     "services": {
       "en": [
@@ -93375,17 +91702,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Journey Center for Safety and Healing (Cleveland), LSS CHOICES (Columbus)) serving Cleveland, Columbus & Cincinnati, Ohio, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Journey Center for Safety and Healing (Cuyahoga County DV Shelter) at 2806 Payne Avenue, Cleveland, OH 44114, United States."
     }
   },
   {
     "id": "usa-safe-4048-u3",
-    "regionDistrict": "Cleveland, Columbus & Cincinnati, Ohio, USA",
+    "regionDistrict": "Cincinnati, Ohio, USA",
     "type": "safe-haven",
-    "lat": 41.4993,
-    "lng": -81.6238,
+    "lat": 39.1056,
+    "lng": -84.5117,
     "name": {
-      "en": "YWCA Greater Cincinnati"
+      "en": "YWCA Greater Cincinnati — House of Peace Domestic Violence Shelter"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93393,7 +91720,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 216-444-2200 / +1 216-391-4357",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "46 Main St, Cleveland, Columbus & Cincinnati, Ohio, USA 22626"
+      "en": "898 Walnut Street, Cincinnati, OH 45202, United States"
     },
     "services": {
       "en": [
@@ -93403,12 +91730,12 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Greater Cincinnati) serving Cleveland, Columbus & Cincinnati, Ohio, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Greater Cincinnati — House of Peace Domestic Violence Shelter at 898 Walnut Street, Cincinnati, OH 45202, United States."
     }
   },
   {
     "id": "usa-hosp-4049",
-    "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
+    "regionDistrict": "Oklahoma City, Oklahoma, USA",
     "type": "hospital",
     "lat": 35.4819,
     "lng": -97.4981,
@@ -93421,27 +91748,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 405-271-4700 / +1 405-917-9922",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "18 Medical Center Dr, Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA 91108"
+      "en": "1200 Children’s Avenue, Oklahoma City, OK 73104, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, High-Risk Pregnancy Center & Level IV NICU",
+        "24/7 Obstetrical Emergency Department & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (OU Health Oklahoma Children’s & Women’s Hospital (Oklahoma City)) serving Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA. Tap Get Directions for route."
+      "en": "OU Health Oklahoma Children’s & Women’s Hospital (Oklahoma City) at 1200 Children’s Avenue, Oklahoma City, OK 73104, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, High-Risk Pregnancy Center & Level IV NICU",
+        "24/7 Obstetrical Emergency Department & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4049-u2",
-    "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
+    "regionDistrict": "Tulsa, Oklahoma, USA",
     "type": "hospital",
-    "lat": 35.4844,
-    "lng": -97.4956,
+    "lat": 36.0736,
+    "lng": -95.9219,
     "name": {
-      "en": "Saint Francis Hospital (Tulsa)"
+      "en": "Saint Francis Hospital (Peggy V. Helmerich Women’s Health Center — Tulsa)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93449,27 +91781,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 405-271-4700 / +1 405-917-9922",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "224 Medical Center Dr, Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA 94304"
+      "en": "6161 South Yale Avenue, Tulsa, OK 74136, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Peggy V. Helmerich Women’s Health Center, Labor & Delivery & Level IV NICU",
+        "High-Risk Maternal-Fetal Medicine"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Saint Francis Hospital (Tulsa)) serving Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA. Tap Get Directions for route."
+      "en": "Saint Francis Hospital (Peggy V. Helmerich Women’s Health Center — Tulsa) at 6161 South Yale Avenue, Tulsa, OK 74136, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Peggy V. Helmerich Women’s Health Center, Labor & Delivery & Level IV NICU",
+        "High-Risk Maternal-Fetal Medicine"
+      ]
     }
   },
   {
     "id": "usa-hosp-4049-u3",
-    "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
+    "regionDistrict": "Tahlequah (Cherokee Nation), Oklahoma, USA",
     "type": "hospital",
-    "lat": 35.4844,
-    "lng": -97.4956,
+    "lat": 35.9103,
+    "lng": -94.9608,
     "name": {
-      "en": "Cherokee Nation W.W. Hastings Hospital"
+      "en": "Cherokee Nation W.W. Hastings Hospital (Tahlequah)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93477,27 +91814,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 405-271-4700 / +1 405-917-9922",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "89 Medical Center Dr, Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA 92849"
+      "en": "100 South Bliss Avenue, Tahlequah, OK 74464, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity, Labor & Delivery, Certified Nurse-Midwifery & OB/GYN",
+        "Cherokee Nation Health Services Referral Hospital"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Cherokee Nation W.W. Hastings Hospital) serving Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA. Tap Get Directions for route."
+      "en": "Cherokee Nation W.W. Hastings Hospital (Tahlequah) at 100 South Bliss Avenue, Tahlequah, OK 74464, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity, Labor & Delivery, Certified Nurse-Midwifery & OB/GYN",
+        "Cherokee Nation Health Services Referral Hospital"
+      ]
     }
   },
   {
     "id": "usa-safe-4049",
-    "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
+    "regionDistrict": "Oklahoma City, Oklahoma, USA",
     "type": "safe-haven",
-    "lat": 35.4844,
-    "lng": -97.5006,
+    "lat": 35.5114,
+    "lng": -97.5586,
     "name": {
-      "en": "YWCA Oklahoma City Domestic Violence Shelter"
+      "en": "YWCA Oklahoma City Domestic Violence & Sexual Assault Shelter"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93505,7 +91847,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 405-271-4700 / +1 405-917-9922",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "226 Main St, Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA 26526"
+      "en": "2460 NW 39th Street, Oklahoma City, OK 73112, United States"
     },
     "services": {
       "en": [
@@ -93515,17 +91857,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Oklahoma City Domestic Violence Shelter) serving Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Oklahoma City Domestic Violence & Sexual Assault Shelter at 2460 NW 39th Street, Oklahoma City, OK 73112, United States."
     }
   },
   {
     "id": "usa-safe-4049-u2",
-    "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
+    "regionDistrict": "Oklahoma City, Oklahoma, USA",
     "type": "safe-haven",
     "lat": 35.4794,
-    "lng": -97.4956,
+    "lng": -97.5186,
     "name": {
-      "en": "Palomar Family Justice Center , Domestic Violence Intervention Services (Tulsa)"
+      "en": "Palomar: Oklahoma City’s Family Justice Center"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93533,7 +91875,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 405-271-4700 / +1 405-917-9922",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "21 Main St, Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA 16161"
+      "en": "1140 North Hudson Avenue, Oklahoma City, OK 73103, United States"
     },
     "services": {
       "en": [
@@ -93543,17 +91885,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Palomar Family Justice Center , Domestic Violence Intervention Services (Tulsa)) serving Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Palomar: Oklahoma City’s Family Justice Center at 1140 North Hudson Avenue, Oklahoma City, OK 73103, United States."
     }
   },
   {
     "id": "usa-safe-4049-u3",
-    "regionDistrict": "Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA",
+    "regionDistrict": "Tahlequah (Cherokee Nation), Oklahoma, USA",
     "type": "safe-haven",
-    "lat": 35.4784,
-    "lng": -97.5006,
+    "lat": 35.8758,
+    "lng": -94.9781,
     "name": {
-      "en": "Cherokee Nation ONE FIRE"
+      "en": "Cherokee Nation ONE FIRE Victim Services & Safe Shelter (Tahlequah)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93561,7 +91903,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 405-271-4700 / +1 405-917-9922",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "54 Main St, Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA 54514"
+      "en": "17675 South Muskogee Avenue, Tahlequah, OK 74464, United States"
     },
     "services": {
       "en": [
@@ -93571,17 +91913,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Cherokee Nation ONE FIRE) serving Oklahoma City, Tulsa & Tahlequah (Cherokee Nation), Oklahoma, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Cherokee Nation ONE FIRE Victim Services & Safe Shelter (Tahlequah) at 17675 South Muskogee Avenue, Tahlequah, OK 74464, United States."
     }
   },
   {
     "id": "usa-hosp-4050",
-    "regionDistrict": "Portland & Eugene, Oregon, USA",
+    "regionDistrict": "Portland, Oregon, USA",
     "type": "hospital",
     "lat": 45.4989,
     "lng": -122.686,
     "name": {
-      "en": "OHSU Center for Women’s Health (Oregon Health & Science University Portland), Legacy Emanuel"
+      "en": "OHSU Center for Women’s Health (Oregon Health & Science University)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93589,27 +91931,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 503-494-8311 / +1 503-222-6222",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "3 Medical Center Dr, Portland & Eugene, Oregon, USA 61973"
+      "en": "3181 SW Sam Jackson Park Road, Portland, OR 97239, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birth Center, High-Risk Maternal-Fetal Medicine, Nurse-Midwifery & Doernbecher NICU",
+        "Comprehensive Gynecology, Fibroid & Pelvic Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (OHSU Center for Women’s Health (Oregon Health & Science University Portland), Legacy Emanuel) serving Portland & Eugene, Oregon, USA. Tap Get Directions for route."
+      "en": "OHSU Center for Women’s Health (Oregon Health & Science University) at 3181 SW Sam Jackson Park Road, Portland, OR 97239, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center, High-Risk Maternal-Fetal Medicine, Nurse-Midwifery & Doernbecher NICU",
+        "Comprehensive Gynecology, Fibroid & Pelvic Care"
+      ]
     }
   },
   {
     "id": "usa-hosp-4050-u2",
-    "regionDistrict": "Portland & Eugene, Oregon, USA",
+    "regionDistrict": "Springfield / Eugene, Oregon, USA",
     "type": "hospital",
-    "lat": 45.5014,
-    "lng": -122.6835,
+    "lat": 44.0811,
+    "lng": -123.0275,
     "name": {
-      "en": "PeaceHealth Sacred Heart"
+      "en": "PeaceHealth Sacred Heart Medical Center at RiverBend (Eugene/Springfield)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93617,27 +91964,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 503-494-8311 / +1 503-222-6222",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "124 Medical Center Dr, Portland & Eugene, Oregon, USA 67884"
+      "en": "3333 RiverBend Drive, Springfield, OR 97477, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birth Center, High-Risk Obstetrics & Level III NICU",
+        "Willamette Valley Regional Perinatal Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (PeaceHealth Sacred Heart) serving Portland & Eugene, Oregon, USA. Tap Get Directions for route."
+      "en": "PeaceHealth Sacred Heart Medical Center at RiverBend (Eugene/Springfield) at 3333 RiverBend Drive, Springfield, OR 97477, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center, High-Risk Obstetrics & Level III NICU",
+        "Willamette Valley Regional Perinatal Center"
+      ]
     }
   },
   {
     "id": "usa-safe-4050",
-    "regionDistrict": "Portland & Eugene, Oregon, USA",
+    "regionDistrict": "Portland, Oregon, USA",
     "type": "safe-haven",
-    "lat": 45.5014,
-    "lng": -122.6885,
+    "lat": 45.5625,
+    "lng": -122.6744,
     "name": {
-      "en": "Bradley Angle, Raphael House of Portland"
+      "en": "Bradley Angle & Raphael House of Portland (Domestic Violence Shelters)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93645,7 +91997,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 503-494-8311 / +1 503-222-6222",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "111 Main St, Portland & Eugene, Oregon, USA 52431"
+      "en": "5432 NE Albina Avenue, Portland, OR 97217, United States"
     },
     "services": {
       "en": [
@@ -93655,17 +92007,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Bradley Angle, Raphael House of Portland) serving Portland & Eugene, Oregon, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Bradley Angle & Raphael House of Portland (Domestic Violence Shelters) at 5432 NE Albina Avenue, Portland, OR 97217, United States."
     }
   },
   {
     "id": "usa-safe-4050-u2",
-    "regionDistrict": "Portland & Eugene, Oregon, USA",
+    "regionDistrict": "Portland, Oregon, USA",
     "type": "safe-haven",
-    "lat": 45.4964,
-    "lng": -122.6835,
+    "lat": 45.5264,
+    "lng": -122.6889,
     "name": {
-      "en": "Rose Haven Day Shelter for Women"
+      "en": "Rose Haven Day Shelter and Community Center for Women (Portland)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93673,7 +92025,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 503-494-8311 / +1 503-222-6222",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "92 Main St, Portland & Eugene, Oregon, USA 66892"
+      "en": "1740 NW Glisan Street, Portland, OR 97209, United States"
     },
     "services": {
       "en": [
@@ -93683,17 +92035,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Rose Haven Day Shelter for Women) serving Portland & Eugene, Oregon, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Rose Haven Day Shelter and Community Center for Women (Portland) at 1740 NW Glisan Street, Portland, OR 97209, United States."
     }
   },
   {
     "id": "usa-hosp-4051",
-    "regionDistrict": "Pittsburgh & Philadelphia, Pennsylvania, USA",
+    "regionDistrict": "Pittsburgh, Pennsylvania, USA",
     "type": "hospital",
     "lat": 40.4375,
     "lng": -79.9608,
     "name": {
-      "en": "UPMC Magee-Womens Hospital (Pittsburgh) , Hospital of the University of Pennsylvania (HUP)"
+      "en": "UPMC Magee-Womens Hospital (Pittsburgh)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93701,27 +92053,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 412-641-1000 / +1 412-687-8005",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "196 Medical Center Dr, Pittsburgh & Philadelphia, Pennsylvania, USA 79956"
+      "en": "300 Halket Street, Pittsburgh, PA 15213, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "One of the Nation’s Largest Specialty Women’s Hospitals",
+        "24/7 Obstetrical Emergency, Labor & Delivery, Fetal Diagnosis & Level III NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UPMC Magee-Womens Hospital (Pittsburgh) , Hospital of the University of Pennsylvania (HUP)) serving Pittsburgh & Philadelphia, Pennsylvania, USA. Tap Get Directions for route."
+      "en": "UPMC Magee-Womens Hospital (Pittsburgh) at 300 Halket Street, Pittsburgh, PA 15213, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "One of the Nation’s Largest Specialty Women’s Hospitals",
+        "24/7 Obstetrical Emergency, Labor & Delivery, Fetal Diagnosis & Level III NICU"
+      ]
     }
   },
   {
     "id": "usa-hosp-4051-u2",
-    "regionDistrict": "Pittsburgh & Philadelphia, Pennsylvania, USA",
+    "regionDistrict": "Philadelphia, Pennsylvania, USA",
     "type": "hospital",
-    "lat": 40.44,
-    "lng": -79.9583,
+    "lat": 39.9447,
+    "lng": -75.1553,
     "name": {
-      "en": "Pennsylvania Hospital"
+      "en": "Pennsylvania Hospital & Hospital of the University of Pennsylvania (Penn Medicine — Philadelphia)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93729,27 +92086,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 412-641-1000 / +1 412-687-8005",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "87 Medical Center Dr, Pittsburgh & Philadelphia, Pennsylvania, USA 26637"
+      "en": "800 Spruce Street, Philadelphia, PA 19107, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Penn Medicine Women & Infants Center, Labor & Delivery & Level III NICU",
+        "Maternal-Fetal Medicine, Midwifery & PEACE Family Planning Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Pennsylvania Hospital) serving Pittsburgh & Philadelphia, Pennsylvania, USA. Tap Get Directions for route."
+      "en": "Pennsylvania Hospital & Hospital of the University of Pennsylvania (Penn Medicine — Philadelphia) at 800 Spruce Street, Philadelphia, PA 19107, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Penn Medicine Women & Infants Center, Labor & Delivery & Level III NICU",
+        "Maternal-Fetal Medicine, Midwifery & PEACE Family Planning Center"
+      ]
     }
   },
   {
     "id": "usa-safe-4051",
-    "regionDistrict": "Pittsburgh & Philadelphia, Pennsylvania, USA",
+    "regionDistrict": "Pittsburgh, Pennsylvania, USA",
     "type": "safe-haven",
-    "lat": 40.44,
-    "lng": -79.9633,
+    "lat": 40.4517,
+    "lng": -79.985,
     "name": {
-      "en": "Women’s Center & Shelter of Greater Pittsburgh (First 6 DV Shelters in the US) & Women Against Abuse (Philadelphia)"
+      "en": "Women’s Center & Shelter of Greater Pittsburgh"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93757,7 +92119,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 412-641-1000 / +1 412-687-8005",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "8 Main St, Pittsburgh & Philadelphia, Pennsylvania, USA 86308"
+      "en": "2100 Liberty Avenue, Pittsburgh, PA 15222, United States"
     },
     "services": {
       "en": [
@@ -93767,7 +92129,7 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Pittsburgh & Philadelphia, Pennsylvania, USA. Call +1 412-641-1000 / +1 412-687-8005 or 1-800-799-7233 for immediate confidential intake."
+      "en": "Women’s Center & Shelter of Greater Pittsburgh at 2100 Liberty Avenue, Pittsburgh, PA 15222, United States."
     }
   },
   {
@@ -93777,7 +92139,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 41.8126,
     "lng": -71.4133,
     "name": {
-      "en": "Women & Infants Hospital of Rhode Island (Providence — Brown University Major Obstetric & Gynecologic Teaching Hospital)"
+      "en": "Women & Infants Hospital of Rhode Island (Providence)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93785,27 +92147,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 401-274-1100 / 1-800-494-8100",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "192 Medical Center Dr, Providence, Rhode Island, USA 31592"
+      "en": "101 Dudley Street, Providence, RI 02905, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "New England’s Premier Specialty Obstetrics, Gynecology & Newborn Hospital (Brown University)",
+        "24/7 Women’s Emergency Triage, Labor & Delivery, Maternal-Fetal Medicine & Level IV NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Women’s & Maternity Hospital serving Providence, Rhode Island, USA. Tap Get Directions for road route."
+      "en": "Women & Infants Hospital of Rhode Island (Providence) at 101 Dudley Street, Providence, RI 02905, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "New England’s Premier Specialty Obstetrics, Gynecology & Newborn Hospital (Brown University)",
+        "24/7 Women’s Emergency Triage, Labor & Delivery, Maternal-Fetal Medicine & Level IV NICU"
+      ]
     }
   },
   {
     "id": "usa-safe-4052",
     "regionDistrict": "Providence, Rhode Island, USA",
     "type": "safe-haven",
-    "lat": 41.8151,
-    "lng": -71.4158,
+    "lat": 41.8345,
+    "lng": -71.4243,
     "name": {
-      "en": "Sojourner House"
+      "en": "Sojourner House (Domestic Violence & Sexual Assault Safe Shelter — Providence)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93813,7 +92180,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 401-274-1100 / 1-800-494-8100",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "205 Main St, Providence, Rhode Island, USA 22345"
+      "en": "386 Smith Street, Providence, RI 02908, United States"
     },
     "services": {
       "en": [
@@ -93823,17 +92190,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Sojourner House) serving Providence, Rhode Island, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Sojourner House (Domestic Violence & Sexual Assault Safe Shelter — Providence) at 386 Smith Street, Providence, RI 02908, United States."
     }
   },
   {
     "id": "usa-safe-4052-u2",
     "regionDistrict": "Providence, Rhode Island, USA",
     "type": "safe-haven",
-    "lat": 41.8101,
-    "lng": -71.4108,
+    "lat": 41.8181,
+    "lng": -71.4167,
     "name": {
-      "en": "Crossroads Rhode Island Women’s Shelter"
+      "en": "Crossroads Rhode Island — Women’s Shelter (Providence)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93841,7 +92208,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 401-274-1100 / 1-800-494-8100",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "228 Main St, Providence, Rhode Island, USA 37088"
+      "en": "160 Broad Street, Providence, RI 02903, United States"
     },
     "services": {
       "en": [
@@ -93851,17 +92218,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Crossroads Rhode Island Women’s Shelter) serving Providence, Rhode Island, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Crossroads Rhode Island — Women’s Shelter (Providence) at 160 Broad Street, Providence, RI 02903, United States."
     }
   },
   {
     "id": "usa-safe-4052-u3",
-    "regionDistrict": "Providence, Rhode Island, USA",
+    "regionDistrict": "Warwick / Providence, Rhode Island, USA",
     "type": "safe-haven",
-    "lat": 41.8091,
-    "lng": -71.4158,
+    "lat": 41.7664,
+    "lng": -71.4339,
     "name": {
-      "en": "Rhode Island Coalition Against Domestic Violence"
+      "en": "Rhode Island Coalition Against Domestic Violence & Elizabeth Buffum Chace Center"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93869,7 +92236,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 401-274-1100 / 1-800-494-8100",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "208 Main St, Providence, Rhode Island, USA 97448"
+      "en": "422 Post Road, Suite 102, Warwick, RI 02888, United States"
     },
     "services": {
       "en": [
@@ -93879,17 +92246,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Rhode Island Coalition Against Domestic Violence) serving Providence, Rhode Island, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Rhode Island Coalition Against Domestic Violence & Elizabeth Buffum Chace Center at 422 Post Road, Suite 102, Warwick, RI 02888, United States."
     }
   },
   {
     "id": "usa-hosp-4053",
-    "regionDistrict": "Charleston, Columbia & Greenville, South Carolina, USA",
+    "regionDistrict": "Charleston, South Carolina, USA",
     "type": "hospital",
     "lat": 32.785,
     "lng": -79.9478,
     "name": {
-      "en": "MUSC Shawn Jenkins Children’s Hospital"
+      "en": "MUSC Shawn Jenkins Children’s Hospital and Pearl Tourville Women’s Pavilion (Charleston)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93897,27 +92264,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 843-792-1414 / 1-800-273-4673",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "205 Medical Center Dr, Charleston, Columbia & Greenville, South Carolina, USA 40885"
+      "en": "10 McClennan Banks Drive, Charleston, SC 29425, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Pearl Tourville Women’s Pavilion, 24/7 Obstetrical Triage, Labor & Delivery & Level IV NICU",
+        "Advanced Fetal Care Center & High-Risk Maternal-Fetal Medicine"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (MUSC Shawn Jenkins Children’s Hospital) serving Charleston, Columbia & Greenville, South Carolina, USA. Tap Get Directions for route."
+      "en": "MUSC Shawn Jenkins Children’s Hospital and Pearl Tourville Women’s Pavilion (Charleston) at 10 McClennan Banks Drive, Charleston, SC 29425, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Pearl Tourville Women’s Pavilion, 24/7 Obstetrical Triage, Labor & Delivery & Level IV NICU",
+        "Advanced Fetal Care Center & High-Risk Maternal-Fetal Medicine"
+      ]
     }
   },
   {
     "id": "usa-hosp-4053-u2",
-    "regionDistrict": "Charleston, Columbia & Greenville, South Carolina, USA",
+    "regionDistrict": "Columbia, South Carolina, USA",
     "type": "hospital",
-    "lat": 32.7875,
-    "lng": -79.9453,
+    "lat": 34.0086,
+    "lng": -81.0319,
     "name": {
-      "en": "Pearl Tourville Women’s Pavilion (Charleston)"
+      "en": "Prisma Health Baptist & Richland Hospital (Columbia)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93925,27 +92297,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 843-792-1414 / 1-800-273-4673",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "1 Medical Center Dr, Charleston, Columbia & Greenville, South Carolina, USA 42621"
+      "en": "Taylor at Marion Street (1330 Taylor Street), Columbia, SC 29220, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birthplace, Regional Perinatal Center & Level III NICU",
+        "Midlands Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Pearl Tourville Women’s Pavilion (Charleston)) serving Charleston, Columbia & Greenville, South Carolina, USA. Tap Get Directions for route."
+      "en": "Prisma Health Baptist & Richland Hospital (Columbia) at Taylor at Marion Street (1330 Taylor Street), Columbia, SC 29220, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birthplace, Regional Perinatal Center & Level III NICU",
+        "Midlands Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4053-u3",
-    "regionDistrict": "Charleston, Columbia & Greenville, South Carolina, USA",
+    "regionDistrict": "Greenville, South Carolina, USA",
     "type": "hospital",
-    "lat": 32.7875,
-    "lng": -79.9453,
+    "lat": 34.8183,
+    "lng": -82.4097,
     "name": {
-      "en": "Prisma Health Baptist / Greenville"
+      "en": "Prisma Health Greenville Memorial Hospital"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -93953,27 +92330,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 843-792-1414 / 1-800-273-4673",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "12 Medical Center Dr, Charleston, Columbia & Greenville, South Carolina, USA 52312"
+      "en": "701 Grove Road, Greenville, SC 29605, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birthplace, High-Risk Maternal-Fetal Medicine & Bryan Level III NICU",
+        "Upstate South Carolina Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Prisma Health Baptist / Greenville) serving Charleston, Columbia & Greenville, South Carolina, USA. Tap Get Directions for route."
+      "en": "Prisma Health Greenville Memorial Hospital at 701 Grove Road, Greenville, SC 29605, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birthplace, High-Risk Maternal-Fetal Medicine & Bryan Level III NICU",
+        "Upstate South Carolina Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4053",
-    "regionDistrict": "Charleston, Columbia & Greenville, South Carolina, USA",
+    "regionDistrict": "North Charleston, South Carolina, USA",
     "type": "safe-haven",
-    "lat": 32.7875,
-    "lng": -79.9503,
+    "lat": 32.8586,
+    "lng": -79.9922,
     "name": {
-      "en": "My Sister’s House (Charleston), Sistercare (Columbia) & Safe Harbor (Greenville)"
+      "en": "My Sister’s House (Lowcountry Domestic Violence Safe Shelter — Charleston)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -93981,7 +92363,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 843-792-1414 / 1-800-273-4673",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "25 Main St, Charleston, Columbia & Greenville, South Carolina, USA 22035"
+      "en": "3720 Rivers Avenue, North Charleston, SC 29405, United States"
     },
     "services": {
       "en": [
@@ -93991,17 +92373,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Charleston, Columbia & Greenville, South Carolina, USA. Call +1 843-792-1414 / 1-800-273-4673 or 1-800-799-7233 for immediate confidential intake."
+      "en": "My Sister’s House (Lowcountry Domestic Violence Safe Shelter — Charleston) at 3720 Rivers Avenue, North Charleston, SC 29405, United States."
     }
   },
   {
     "id": "usa-hosp-4054",
-    "regionDistrict": "Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA",
+    "regionDistrict": "Sioux Falls, South Dakota, USA",
     "type": "hospital",
     "lat": 43.5322,
     "lng": -96.7436,
     "name": {
-      "en": "Sanford USD Medical Center (Sioux Falls), Monument Health Rapid City"
+      "en": "Sanford USD Medical Center (Birth Place — Sioux Falls)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94009,27 +92391,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 605-333-1000 / +1 605-338-4880",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "215 Medical Center Dr, Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA 90655"
+      "en": "1305 West 18th Street, Sioux Falls, SD 57105, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "The Birth Place, High-Risk Maternal-Fetal Medicine & Boekelheide Level IV NICU",
+        "Comprehensive Women’s Health & OB/GYN"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Sanford USD Medical Center (Sioux Falls), Monument Health Rapid City) serving Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA. Tap Get Directions for route."
+      "en": "Sanford USD Medical Center (Birth Place — Sioux Falls) at 1305 West 18th Street, Sioux Falls, SD 57105, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "The Birth Place, High-Risk Maternal-Fetal Medicine & Boekelheide Level IV NICU",
+        "Comprehensive Women’s Health & OB/GYN"
+      ]
     }
   },
   {
     "id": "usa-hosp-4054-u2",
-    "regionDistrict": "Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA",
+    "regionDistrict": "Pine Ridge (Oglala Lakota Nation), South Dakota, USA",
     "type": "hospital",
-    "lat": 43.5347,
-    "lng": -96.7411,
+    "lat": 43.0258,
+    "lng": -102.5439,
     "name": {
-      "en": "Pine Ridge IHS Hospital (Oglala Lakota Nation)"
+      "en": "Pine Ridge Indian Health Service (IHS) Hospital"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94037,27 +92424,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 605-333-1000 / +1 605-338-4880",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "142 Medical Center Dr, Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA 31982"
+      "en": "607 Indian Health Road (Highway 18), Pine Ridge, SD 57770, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Obstetrics, Certified Nurse-Midwifery & Maternal-Child Health",
+        "Oglala Sioux Tribe 24/7 Emergency & Maternity Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Pine Ridge IHS Hospital (Oglala Lakota Nation)) serving Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA. Tap Get Directions for route."
+      "en": "Pine Ridge Indian Health Service (IHS) Hospital at 607 Indian Health Road (Highway 18), Pine Ridge, SD 57770, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Obstetrics, Certified Nurse-Midwifery & Maternal-Child Health",
+        "Oglala Sioux Tribe 24/7 Emergency & Maternity Care"
+      ]
     }
   },
   {
     "id": "usa-safe-4054",
-    "regionDistrict": "Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA",
+    "regionDistrict": "Sioux Falls, South Dakota, USA",
     "type": "safe-haven",
-    "lat": 43.5347,
-    "lng": -96.7461,
+    "lat": 43.5594,
+    "lng": -96.7497,
     "name": {
-      "en": "Children’s Home Shelter for Family Safety (Sioux Falls), WAVI (Working Against Violence — Rapid City)"
+      "en": "Children’s Home Shelter for Family Safety (Formerly Children’s Inn — Sioux Falls)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94065,7 +92457,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 605-333-1000 / +1 605-338-4880",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "39 Main St, Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA 95899"
+      "en": "1000 North West Avenue, Sioux Falls, SD 57104, United States"
     },
     "services": {
       "en": [
@@ -94075,17 +92467,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Children’s Home Shelter for Family Safety (Sioux Falls), WAVI (Working Against Violence — Rapid City)) serving Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Children’s Home Shelter for Family Safety (Formerly Children’s Inn — Sioux Falls) at 1000 North West Avenue, Sioux Falls, SD 57104, United States."
     }
   },
   {
     "id": "usa-safe-4054-u2",
-    "regionDistrict": "Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA",
+    "regionDistrict": "Martin / Pine Ridge Reservation, South Dakota, USA",
     "type": "safe-haven",
-    "lat": 43.5297,
-    "lng": -96.7411,
+    "lat": 43.1756,
+    "lng": -101.7328,
     "name": {
-      "en": "Sacred Shawl Women’s Society"
+      "en": "Sacred Shawl Women’s Society Safe Haven (Oglala Lakota Nation)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94093,7 +92485,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 605-333-1000 / +1 605-338-4880",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "95 Main St, Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA 69455"
+      "en": "202 Main Street, Martin / Pine Ridge Reservation, SD 57551, United States"
     },
     "services": {
       "en": [
@@ -94103,17 +92495,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Sacred Shawl Women’s Society) serving Sioux Falls, Rapid City & Pine Ridge / Rosebud Reservations, South Dakota, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Sacred Shawl Women’s Society Safe Haven (Oglala Lakota Nation) at 202 Main Street, Martin / Pine Ridge Reservation, SD 57551, United States."
     }
   },
   {
     "id": "usa-hosp-4055",
-    "regionDistrict": "Nashville, Memphis & Knoxville, Tennessee, USA",
+    "regionDistrict": "Nashville, Tennessee, USA",
     "type": "hospital",
     "lat": 36.1419,
     "lng": -86.8023,
     "name": {
-      "en": "Vanderbilt University Medical Center (Women’s Health Nashville) , Regional One Health (Memphis)"
+      "en": "Vanderbilt University Medical Center (Nashville)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94121,17 +92513,22 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 615-322-5000 / 1-800-356-6767",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "185 Medical Center Dr, Nashville, Memphis & Knoxville, Tennessee, USA 38935"
+      "en": "1211 Medical Center Drive, Nashville, TN 37232, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Vanderbilt Birth Center, High-Risk Maternal-Fetal Medicine, Nurse-Midwifery & Monroe Carell Level IV NICU",
+        "Center for Women’s Health & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Vanderbilt University Medical Center (Women’s Health Nashville) , Regional One Health (Memphis)) serving Nashville, Memphis & Knoxville, Tennessee, USA. Tap Get Directions for route."
+      "en": "Vanderbilt University Medical Center (Nashville) at 1211 Medical Center Drive, Nashville, TN 37232, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Vanderbilt Birth Center, High-Risk Maternal-Fetal Medicine, Nurse-Midwifery & Monroe Carell Level IV NICU",
+        "Center for Women’s Health & Gynecology"
+      ]
     }
   },
   {
@@ -94141,7 +92538,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 35.9408,
     "lng": -83.9435,
     "name": {
-      "en": "UT Medical Center"
+      "en": "The University of Tennessee Medical Center (Knoxville)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94149,27 +92546,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 615-322-5000 / 1-800-356-6767",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "10 Medical Center Dr, Nashville, Memphis & Knoxville, Tennessee, USA 30630"
+      "en": "1924 Alcoa Highway, Knoxville, TN 37920, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women & Infants Center, High-Risk Perinatal Care & Level III NICU",
+        "East Tennessee Regional Referral Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UT Medical Center) serving Nashville, Memphis & Knoxville, Tennessee, USA. Tap Get Directions for route."
+      "en": "The University of Tennessee Medical Center (Knoxville) at 1924 Alcoa Highway, Knoxville, TN 37920, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women & Infants Center, High-Risk Perinatal Care & Level III NICU",
+        "East Tennessee Regional Referral Center"
+      ]
     }
   },
   {
     "id": "usa-safe-4055",
-    "regionDistrict": "Nashville, Memphis & Knoxville, Tennessee, USA",
+    "regionDistrict": "Nashville, Tennessee, USA",
     "type": "safe-haven",
-    "lat": 36.1444,
-    "lng": -86.8048,
+    "lat": 36.1156,
+    "lng": -86.8122,
     "name": {
-      "en": "YWCA Nashville"
+      "en": "YWCA Nashville & Middle Tennessee — Weaver Domestic Violence Center"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94177,7 +92579,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 615-322-5000 / 1-800-356-6767",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "3 Main St, Nashville, Memphis & Knoxville, Tennessee, USA 83503"
+      "en": "1608 Woodmont Boulevard, Nashville, TN 37215, United States"
     },
     "services": {
       "en": [
@@ -94187,17 +92589,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Nashville) serving Nashville, Memphis & Knoxville, Tennessee, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Nashville & Middle Tennessee — Weaver Domestic Violence Center at 1608 Woodmont Boulevard, Nashville, TN 37215, United States."
     }
   },
   {
     "id": "usa-safe-4055-u2",
-    "regionDistrict": "Nashville, Memphis & Knoxville, Tennessee, USA",
+    "regionDistrict": "Memphis, Tennessee, USA",
     "type": "safe-haven",
-    "lat": 36.1394,
-    "lng": -86.7998,
+    "lat": 35.1119,
+    "lng": -89.9464,
     "name": {
-      "en": "Middle Tennessee Weaver Domestic Violence Center"
+      "en": "YWCA Greater Memphis — Abused Women’s Services & Shelter"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94205,7 +92607,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 615-322-5000 / 1-800-356-6767",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "177 Main St, Nashville, Memphis & Knoxville, Tennessee, USA 25937"
+      "en": "766 South Highland Street, Memphis, TN 38111, United States"
     },
     "services": {
       "en": [
@@ -94215,17 +92617,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Middle Tennessee Weaver Domestic Violence Center) serving Nashville, Memphis & Knoxville, Tennessee, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Greater Memphis — Abused Women’s Services & Shelter at 766 South Highland Street, Memphis, TN 38111, United States."
     }
   },
   {
     "id": "usa-safe-4055-u3",
-    "regionDistrict": "Nashville, Memphis & Knoxville, Tennessee, USA",
+    "regionDistrict": "Knoxville, Tennessee, USA",
     "type": "safe-haven",
-    "lat": 36.1384,
-    "lng": -86.8048,
+    "lat": 35.9628,
+    "lng": -83.9219,
     "name": {
-      "en": "YWCA Greater Memphis Abused Women’s Services"
+      "en": "YWCA Knoxville & the Tennessee Valley (Domestic Violence & Housing Services)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94233,7 +92635,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 615-322-5000 / 1-800-356-6767",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "132 Main St, Nashville, Memphis & Knoxville, Tennessee, USA 87942"
+      "en": "420 West Clinch Avenue, Knoxville, TN 37902, United States"
     },
     "services": {
       "en": [
@@ -94243,17 +92645,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Greater Memphis Abused Women’s Services) serving Nashville, Memphis & Knoxville, Tennessee, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Knoxville & the Tennessee Valley at 420 West Clinch Avenue, Knoxville, TN 37902."
     }
   },
   {
     "id": "usa-hosp-4056",
-    "regionDistrict": "Houston & Galveston, Texas, USA",
+    "regionDistrict": "Houston, Texas, USA",
     "type": "hospital",
     "lat": 29.7082,
     "lng": -95.4018,
     "name": {
-      "en": "Texas Children’s Pavilion for Women, The Woman’s Hospital of Texas (Houston)"
+      "en": "Texas Children’s Pavilion for Women (Houston Medical Center)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94261,27 +92663,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 832-826-3000 / +1 713-528-2121",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "61 Medical Center Dr, Houston & Galveston, Texas, USA 37461"
+      "en": "6651 Main Street, Houston, TX 77030, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Dedicated Women’s & Maternal Hospital, 24/7 Obstetrical Emergency & Level IV NICU",
+        "Fetal Center, High-Risk Maternal-Fetal Medicine & Reproductive Psychiatry"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Texas Children’s Pavilion for Women, The Woman’s Hospital of Texas (Houston)) serving Houston & Galveston, Texas, USA. Tap Get Directions for route."
+      "en": "Texas Children’s Pavilion for Women (Houston Medical Center) at 6651 Main Street, Houston, TX 77030, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Dedicated Women’s & Maternal Hospital, 24/7 Obstetrical Emergency & Level IV NICU",
+        "Fetal Center, High-Risk Maternal-Fetal Medicine & Reproductive Psychiatry"
+      ]
     }
   },
   {
     "id": "usa-hosp-4056-u2",
-    "regionDistrict": "Houston & Galveston, Texas, USA",
+    "regionDistrict": "Houston, Texas, USA",
     "type": "hospital",
-    "lat": 29.7107,
-    "lng": -95.3993,
+    "lat": 29.7097,
+    "lng": -95.3939,
     "name": {
-      "en": "Ben Taub Hospital"
+      "en": "Harris Health Ben Taub Hospital (Houston)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94289,17 +92696,22 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 832-826-3000 / +1 713-528-2121",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "35 Medical Center Dr, Houston & Galveston, Texas, USA 77595"
+      "en": "1504 Taub Loop, Houston, TX 77030, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "High-Risk Obstetrics, Labor & Delivery & Level III NICU",
+        "24/7 Public Safety-Net Maternal & Gynecological Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Ben Taub Hospital) serving Houston & Galveston, Texas, USA. Tap Get Directions for route."
+      "en": "Harris Health Ben Taub Hospital (Houston) at 1504 Taub Loop, Houston, TX 77030, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "High-Risk Obstetrics, Labor & Delivery & Level III NICU",
+        "24/7 Public Safety-Net Maternal & Gynecological Care"
+      ]
     }
   },
   {
@@ -94309,7 +92721,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 29.3125,
     "lng": -94.7775,
     "name": {
-      "en": "UTMB Galveston"
+      "en": "UTMB Health John Sealy Hospital (Mother & Baby Unit — Galveston)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94317,27 +92729,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 832-826-3000 / +1 713-528-2121",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "55 Medical Center Dr, Houston & Galveston, Texas, USA 96265"
+      "en": "301 University Boulevard, Galveston, TX 77555, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Regional Maternal & Child Health Program, Labor & Delivery & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UTMB Galveston) serving Houston & Galveston, Texas, USA. Tap Get Directions for route."
+      "en": "UTMB Health John Sealy Hospital (Mother & Baby Unit — Galveston) at 301 University Boulevard, Galveston, TX 77555, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Regional Maternal & Child Health Program, Labor & Delivery & Level IV NICU",
+        "Department of Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4056",
-    "regionDistrict": "Houston & Galveston, Texas, USA",
+    "regionDistrict": "Houston, Texas, USA",
     "type": "safe-haven",
-    "lat": 29.7107,
-    "lng": -95.4043,
+    "lat": 29.7575,
+    "lng": -95.3983,
     "name": {
-      "en": "Houston Area Women’s Center (HAWC 24/7 Safe Harbor), The Bridge Over Troubled Waters"
+      "en": "Houston Area Women’s Center (HAWC — 24/7 Safe Harbor)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94345,7 +92762,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 832-826-3000 / +1 713-528-2121",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "132 Main St, Houston & Galveston, Texas, USA 98102"
+      "en": "1010 Waugh Drive, Houston, TX 77019, United States"
     },
     "services": {
       "en": [
@@ -94355,17 +92772,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Houston Area Women’s Center (HAWC 24/7 Safe Harbor), The Bridge Over Troubled Waters) serving Houston & Galveston, Texas, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Houston Area Women’s Center (HAWC — 24/7 Safe Harbor) at 1010 Waugh Drive, Houston, TX 77019, United States."
     }
   },
   {
     "id": "usa-safe-4056-u2",
-    "regionDistrict": "Houston & Galveston, Texas, USA",
+    "regionDistrict": "Houston, Texas, USA",
     "type": "safe-haven",
-    "lat": 29.7057,
-    "lng": -95.3993,
+    "lat": 29.6797,
+    "lng": -95.5394,
     "name": {
-      "en": "Daya Houston"
+      "en": "Daya Houston (South Asian & Immigrant Survivors of Domestic/Sexual Violence)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94373,7 +92790,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 832-826-3000 / +1 713-528-2121",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "80 Main St, Houston & Galveston, Texas, USA 31700"
+      "en": "9301 Southwest Freeway, Suite 455, Houston, TX 77074, United States"
     },
     "services": {
       "en": [
@@ -94383,17 +92800,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Daya Houston) serving Houston & Galveston, Texas, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Daya Houston (South Asian & Immigrant Survivors of Domestic/Sexual Violence) at 9301 Southwest Freeway, Suite 455, Houston, TX 77074, United States."
     }
   },
   {
     "id": "usa-hosp-4057",
-    "regionDistrict": "Dallas & Fort Worth, Texas, USA",
+    "regionDistrict": "Dallas, Texas, USA",
     "type": "hospital",
     "lat": 32.8123,
     "lng": -96.8389,
     "name": {
-      "en": "Parkland Memorial Hospital (Women & Infants Specialty Health — One of the busiest maternity hospitals in the US), UT Southwestern"
+      "en": "Parkland Memorial Hospital (Women & Infants Specialty Health — Dallas)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94401,27 +92818,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 214-590-8000 / +1 214-946-4357",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "160 Medical Center Dr, Dallas & Fort Worth, Texas, USA 76740"
+      "en": "5200 Harry Hines Boulevard, Dallas, TX 75235, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "One of the Busiest Maternity Hospitals in the US",
+        "24/7 Obstetrics & Gynecology Emergency Room, Labor & Delivery, Victim Intervention Program (VIP) & Level III NICU"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Parkland Memorial Hospital (Women & Infants Specialty Health — One of the busiest maternity hospitals in the US), UT Southwestern) serving Dallas & Fort Worth, Texas, USA. Tap Get Directions for route."
+      "en": "Parkland Memorial Hospital (Women & Infants Specialty Health — Dallas) at 5200 Harry Hines Boulevard, Dallas, TX 75235, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "One of the Busiest Maternity Hospitals in the US",
+        "24/7 Obstetrics & Gynecology Emergency Room, Labor & Delivery, Victim Intervention Program (VIP) & Level III NICU"
+      ]
     }
   },
   {
     "id": "usa-hosp-4057-u2",
-    "regionDistrict": "Dallas & Fort Worth, Texas, USA",
+    "regionDistrict": "Fort Worth, Texas, USA",
     "type": "hospital",
-    "lat": 32.8148,
-    "lng": -96.8364,
+    "lat": 32.7347,
+    "lng": -97.3392,
     "name": {
-      "en": "Andrews Women’s Hospital"
+      "en": "Texas Health Harris Methodist — Andrews Women’s Hospital (Fort Worth)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94429,25 +92851,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 214-590-8000 / +1 214-946-4357",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "238 Medical Center Dr, Dallas & Fort Worth, Texas, USA 35858"
+      "en": "1301 Pennsylvania Avenue, Fort Worth, TX 76104, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Dedicated Women’s Hospital, Labor & Delivery, High-Risk Perinatal Unit & Level III NICU",
+        "Gynecology & Breast Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Andrews Women’s Hospital) serving Dallas & Fort Worth, Texas, USA. Tap Get Directions for route."
+      "en": "Texas Health Harris Methodist — Andrews Women’s Hospital (Fort Worth) at 1301 Pennsylvania Avenue, Fort Worth, TX 76104, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Dedicated Women’s Hospital, Labor & Delivery, High-Risk Perinatal Unit & Level III NICU",
+        "Gynecology & Breast Care"
+      ]
     }
   },
   {
     "id": "usa-safe-4057",
-    "regionDistrict": "Dallas & Fort Worth, Texas, USA",
+    "regionDistrict": "Dallas, Texas, USA",
     "type": "safe-haven",
-    "lat": 32.8148,
-    "lng": -96.8414,
+    "lat": 32.8186,
+    "lng": -96.8092,
     "name": {
       "en": "Genesis Women’s Shelter & Support (Dallas)"
     },
@@ -94457,7 +92884,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 214-590-8000 / +1 214-946-4357",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "87 Main St, Dallas & Fort Worth, Texas, USA 42447"
+      "en": "4411 Lemmon Avenue, Suite 201, Dallas, TX 75219, United States"
     },
     "services": {
       "en": [
@@ -94467,17 +92894,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Genesis Women’s Shelter & Support (Dallas)) serving Dallas & Fort Worth, Texas, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Genesis Women’s Shelter & Support (Dallas) at 4411 Lemmon Avenue, Suite 201, Dallas, TX 75219, United States."
     }
   },
   {
     "id": "usa-safe-4057-u2",
-    "regionDistrict": "Dallas & Fort Worth, Texas, USA",
+    "regionDistrict": "Dallas, Texas, USA",
     "type": "safe-haven",
-    "lat": 32.8098,
-    "lng": -96.8364,
+    "lat": 32.8797,
+    "lng": -96.7625,
     "name": {
-      "en": "The Family Place"
+      "en": "The Family Place (Dallas Domestic Violence Safe Campus)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94485,7 +92912,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 214-590-8000 / +1 214-946-4357",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "240 Main St, Dallas & Fort Worth, Texas, USA 55000"
+      "en": "7515 Greenville Avenue, Suite 400, Dallas, TX 75231, United States"
     },
     "services": {
       "en": [
@@ -94495,17 +92922,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (The Family Place) serving Dallas & Fort Worth, Texas, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "The Family Place (Dallas Domestic Violence Safe Campus) at 7515 Greenville Avenue, Suite 400, Dallas, TX 75231, United States."
     }
   },
   {
     "id": "usa-safe-4057-u3",
-    "regionDistrict": "Dallas & Fort Worth, Texas, USA",
+    "regionDistrict": "Arlington / Fort Worth, Texas, USA",
     "type": "safe-haven",
-    "lat": 32.8088,
-    "lng": -96.8414,
+    "lat": 32.7497,
+    "lng": -97.1069,
     "name": {
-      "en": "SafeHaven of Tarrant County"
+      "en": "SafeHaven of Tarrant County (Fort Worth & Arlington Shelters)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94513,7 +92940,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 214-590-8000 / +1 214-946-4357",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "201 Main St, Dallas & Fort Worth, Texas, USA 17201"
+      "en": "1010 North Center Street, Arlington, TX 76011, United States"
     },
     "services": {
       "en": [
@@ -94523,17 +92950,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (SafeHaven of Tarrant County) serving Dallas & Fort Worth, Texas, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "SafeHaven of Tarrant County (Fort Worth & Arlington Shelters) at 1010 North Center Street, Arlington, TX 76011, United States."
     }
   },
   {
     "id": "usa-hosp-4058",
-    "regionDistrict": "San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA",
+    "regionDistrict": "San Antonio, Texas, USA",
     "type": "hospital",
     "lat": 29.5074,
     "lng": -98.5756,
     "name": {
-      "en": "University Hospital Women & Children’s Tower (San Antonio), Ascension Seton (Austin)"
+      "en": "University Health Women’s & Children’s Hospital (San Antonio)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94541,25 +92968,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 210-358-4000 / +1 210-733-8810",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "186 Medical Center Dr, San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA 63796"
+      "en": "4502 Medical Drive, San Antonio, TX 78229, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Dedicated 14-Story Women’s & Children’s Hospital, 24/7 OB/GYN Emergency & Level IV NICU",
+        "South Texas Regional Perinatal Center & Maternal-Fetal Medicine"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University Hospital Women & Children’s Tower (San Antonio), Ascension Seton (Austin)) serving San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA. Tap Get Directions for route."
+      "en": "University Health Women’s & Children’s Hospital (San Antonio) at 4502 Medical Drive, San Antonio, TX 78229, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Dedicated 14-Story Women’s & Children’s Hospital, 24/7 OB/GYN Emergency & Level IV NICU",
+        "South Texas Regional Perinatal Center & Maternal-Fetal Medicine"
+      ]
     }
   },
   {
     "id": "usa-hosp-4058-u2",
-    "regionDistrict": "San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA",
+    "regionDistrict": "El Paso, Texas, USA",
     "type": "hospital",
-    "lat": 29.5099,
-    "lng": -98.5731,
+    "lat": 31.7714,
+    "lng": -106.4331,
     "name": {
       "en": "University Medical Center of El Paso"
     },
@@ -94569,27 +93001,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 210-358-4000 / +1 210-733-8810",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "207 Medical Center Dr, San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA 29367"
+      "en": "4815 Alameda Avenue, El Paso, TX 79905, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Mother/Baby Unit, Labor & Delivery & High-Risk Perinatal Care",
+        "US-Mexico Border Regional Maternal Referral Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University Medical Center of El Paso) serving San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA. Tap Get Directions for route."
+      "en": "University Medical Center of El Paso at 4815 Alameda Avenue, El Paso, TX 79905, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Mother/Baby Unit, Labor & Delivery & High-Risk Perinatal Care",
+        "US-Mexico Border Regional Maternal Referral Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4058-u3",
-    "regionDistrict": "San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA",
+    "regionDistrict": "Edinburg / McAllen (Rio Grande Valley), Texas, USA",
     "type": "hospital",
-    "lat": 29.5099,
-    "lng": -98.5731,
+    "lat": 26.2547,
+    "lng": -98.1986,
     "name": {
-      "en": "DHR Health Women’s Hospital (Edinburg RGV)"
+      "en": "DHR Health Women’s Hospital (Rio Grande Valley)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94597,27 +93034,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 210-358-4000 / +1 210-733-8810",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "73 Medical Center Dr, San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA 37233"
+      "en": "5502 South McColl Road, Edinburg, TX 78539, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Dedicated Women’s Hospital, Labor & Delivery, High-Risk Obstetrics & Level III NICU",
+        "24/7 Obstetrical Emergency Department"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (DHR Health Women’s Hospital (Edinburg RGV)) serving San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA. Tap Get Directions for route."
+      "en": "DHR Health Women’s Hospital (Rio Grande Valley) at 5502 South McColl Road, Edinburg, TX 78539, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Dedicated Women’s Hospital, Labor & Delivery, High-Risk Obstetrics & Level III NICU",
+        "24/7 Obstetrical Emergency Department"
+      ]
     }
   },
   {
     "id": "usa-safe-4058",
-    "regionDistrict": "San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA",
+    "regionDistrict": "San Antonio, Texas, USA",
     "type": "safe-haven",
-    "lat": 29.5099,
-    "lng": -98.5781,
+    "lat": 29.4986,
+    "lng": -98.4658,
     "name": {
-      "en": "Family Violence Prevention Services / Battered Women & Children’s Shelter (San Antonio), SAFE Alliance (Austin), Center Against Sexual & Family Violence (El Paso) & Mujeres Unidas (McAllen RGV)"
+      "en": "Family Violence Prevention Services — Battered Women & Children’s Shelter (San Antonio)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94625,7 +93067,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 210-358-4000 / +1 210-733-8810",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "190 Main St, San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA 52690"
+      "en": "7911 Broadway, San Antonio, TX 78209, United States"
     },
     "services": {
       "en": [
@@ -94635,12 +93077,12 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving San Antonio, Austin & El Paso / Rio Grande Valley, Texas, USA. Call +1 210-358-4000 / +1 210-733-8810 or 1-800-799-7233 for immediate confidential intake."
+      "en": "Family Violence Prevention Services — Battered Women & Children’s Shelter (San Antonio) at 7911 Broadway, San Antonio, TX 78209, United States."
     }
   },
   {
     "id": "usa-hosp-4059",
-    "regionDistrict": "Salt Lake City & Provo, Utah, USA",
+    "regionDistrict": "Salt Lake City, Utah, USA",
     "type": "hospital",
     "lat": 40.7716,
     "lng": -111.838,
@@ -94653,27 +93095,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 801-581-2121 / +1 801-537-8600",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "144 Medical Center Dr, Salt Lake City & Provo, Utah, USA 37794"
+      "en": "50 North Medical Drive, Salt Lake City, UT 84132, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Department of Obstetrics and Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University of Utah Hospital (Maternal & Newborn Care)) serving Salt Lake City & Provo, Utah, USA. Tap Get Directions for route."
+      "en": "University of Utah Hospital (Maternal & Newborn Care) at 50 North Medical Drive, Salt Lake City, UT 84132, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, High-Risk Maternal-Fetal Medicine & Level III NICU",
+        "Department of Obstetrics and Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4059-u2",
-    "regionDistrict": "Salt Lake City & Provo, Utah, USA",
+    "regionDistrict": "Murray / Salt Lake City, Utah, USA",
     "type": "hospital",
-    "lat": 40.7741,
-    "lng": -111.8355,
+    "lat": 40.6597,
+    "lng": -111.8947,
     "name": {
-      "en": "Intermountain Medical Center Women & Newborn Center"
+      "en": "Intermountain Medical Center — Women & Newborn Center"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94681,27 +93128,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 801-581-2121 / +1 801-537-8600",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "60 Medical Center Dr, Salt Lake City & Provo, Utah, USA 90950"
+      "en": "5121 South Cottonwood Street, Murray, UT 84107, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, Maternal-Fetal Medicine & Level III NICU",
+        "Comprehensive Women’s Health"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Intermountain Medical Center Women & Newborn Center) serving Salt Lake City & Provo, Utah, USA. Tap Get Directions for route."
+      "en": "Intermountain Medical Center — Women & Newborn Center at 5121 South Cottonwood Street, Murray, UT 84107, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, Maternal-Fetal Medicine & Level III NICU",
+        "Comprehensive Women’s Health"
+      ]
     }
   },
   {
     "id": "usa-safe-4059",
-    "regionDistrict": "Salt Lake City & Provo, Utah, USA",
+    "regionDistrict": "Salt Lake City, Utah, USA",
     "type": "safe-haven",
-    "lat": 40.7741,
-    "lng": -111.8405,
+    "lat": 40.7625,
+    "lng": -111.8814,
     "name": {
-      "en": "YWCA Utah Women in Jeopardy Shelter (Salt Lake City)"
+      "en": "YWCA Utah — Women in Jeopardy Shelter & Salt Lake Area Family Justice Center"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94709,7 +93161,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 801-581-2121 / +1 801-537-8600",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "109 Main St, Salt Lake City & Provo, Utah, USA 15769"
+      "en": "322 East 300 South, Salt Lake City, UT 84111, United States"
     },
     "services": {
       "en": [
@@ -94719,17 +93171,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Utah Women in Jeopardy Shelter (Salt Lake City)) serving Salt Lake City & Provo, Utah, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Utah — Women in Jeopardy Shelter & Salt Lake Area Family Justice Center at 322 East 300 South, Salt Lake City, UT 84111, United States."
     }
   },
   {
     "id": "usa-safe-4059-u2",
-    "regionDistrict": "West Jordan / Salt Lake Valley, Utah, USA",
+    "regionDistrict": "West Jordan, Utah, USA",
     "type": "safe-haven",
-    "lat": 40.5885,
-    "lng": -111.9125,
+    "lat": 40.6122,
+    "lng": -111.9392,
     "name": {
-      "en": "South Valley Services"
+      "en": "South Valley Services (Domestic Violence Shelter — West Jordan)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94737,7 +93189,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 801-581-2121 / +1 801-537-8600",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "144 Main St, Salt Lake City & Provo, Utah, USA 57534"
+      "en": "7650 South Redwood Road, West Jordan, UT 84084, United States"
     },
     "services": {
       "en": [
@@ -94747,17 +93199,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (South Valley Services) serving Salt Lake City & Provo, Utah, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "South Valley Services (Domestic Violence Shelter — West Jordan) at 7650 South Redwood Road, West Jordan, UT 84084, United States."
     }
   },
   {
     "id": "usa-hosp-4060",
-    "regionDistrict": "Burlington & Rutland, Vermont, USA",
+    "regionDistrict": "Burlington, Vermont, USA",
     "type": "hospital",
     "lat": 44.4795,
     "lng": -73.1958,
     "name": {
-      "en": "University of Vermont Medical Center (Birthing Center Burlington)"
+      "en": "University of Vermont Medical Center (Birthing Center — Burlington)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94765,27 +93217,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 802-847-0000 / +1 802-658-1996",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "211 Medical Center Dr, Burlington & Rutland, Vermont, USA 61571"
+      "en": "111 Colchester Avenue, Burlington, VT 05401, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birthing Center, High-Risk Maternal-Fetal Medicine, Nurse-Midwifery & Level III NICU",
+        "Department of Obstetrics, Gynecology & Reproductive Sciences"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (University of Vermont Medical Center (Birthing Center Burlington)) serving Burlington & Rutland, Vermont, USA. Tap Get Directions for route."
+      "en": "University of Vermont Medical Center (Birthing Center — Burlington) at 111 Colchester Avenue, Burlington, VT 05401, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birthing Center, High-Risk Maternal-Fetal Medicine, Nurse-Midwifery & Level III NICU",
+        "Department of Obstetrics, Gynecology & Reproductive Sciences"
+      ]
     }
   },
   {
     "id": "usa-hosp-4060-u2",
-    "regionDistrict": "Burlington & Rutland, Vermont, USA",
+    "regionDistrict": "Rutland, Vermont, USA",
     "type": "hospital",
-    "lat": 44.482,
-    "lng": -73.1933,
+    "lat": 43.5997,
+    "lng": -72.9614,
     "name": {
-      "en": "Rutland Regional Medical Center"
+      "en": "Rutland Regional Medical Center (Women’s & Children’s Unit)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94793,27 +93250,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 802-847-0000 / +1 802-658-1996",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "192 Medical Center Dr, Burlington & Rutland, Vermont, USA 90452"
+      "en": "160 Allen Street, Rutland, VT 05701, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birthing Center, Labor & Delivery & Gynecology",
+        "Southern & Central Vermont Maternal Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Rutland Regional Medical Center) serving Burlington & Rutland, Vermont, USA. Tap Get Directions for route."
+      "en": "Rutland Regional Medical Center (Women’s & Children’s Unit) at 160 Allen Street, Rutland, VT 05701, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birthing Center, Labor & Delivery & Gynecology",
+        "Southern & Central Vermont Maternal Care"
+      ]
     }
   },
   {
     "id": "usa-safe-4060",
-    "regionDistrict": "Burlington & Rutland, Vermont, USA",
+    "regionDistrict": "Burlington, Vermont, USA",
     "type": "safe-haven",
-    "lat": 44.482,
-    "lng": -73.1983,
+    "lat": 44.4867,
+    "lng": -73.2067,
     "name": {
-      "en": "Steps to End Domestic Violence (Burlington)"
+      "en": "Steps to End Domestic Violence (Chittenden County Safe Shelter — Burlington)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94821,7 +93283,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 802-847-0000 / +1 802-658-1996",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "4 Main St, Burlington & Rutland, Vermont, USA 52854"
+      "en": "294 North Winooski Avenue, Burlington, VT 05401, United States"
     },
     "services": {
       "en": [
@@ -94831,7 +93293,7 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Steps to End Domestic Violence (Burlington)) serving Burlington & Rutland, Vermont, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Steps to End Domestic Violence (Chittenden County Safe Shelter — Burlington) at 294 North Winooski Avenue, Burlington, VT 05401, United States."
     }
   },
   {
@@ -94841,7 +93303,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "lat": 43.6106,
     "lng": -72.9726,
     "name": {
-      "en": "NewStory Center"
+      "en": "NewStory Center (Rutland County Domestic & Sexual Violence Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94849,7 +93311,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 802-847-0000 / +1 802-658-1996",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "107 Main St, Burlington & Rutland, Vermont, USA 60067"
+      "en": "107 Park Avenue, Rutland, VT 05701, United States"
     },
     "services": {
       "en": [
@@ -94859,17 +93321,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (NewStory Center) serving Burlington & Rutland, Vermont, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "NewStory Center (Rutland County Domestic & Sexual Violence Shelter) at 107 Park Avenue, Rutland, VT 05701, United States."
     }
   },
   {
     "id": "usa-hosp-4061",
-    "regionDistrict": "Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA",
+    "regionDistrict": "Richmond, Virginia, USA",
     "type": "hospital",
     "lat": 37.5407,
     "lng": -77.4301,
     "name": {
-      "en": "VCU Medical Center (Richmond), UVA Health (Charlottesville), Sentara Norfolk General"
+      "en": "VCU Medical Center (Richmond)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94877,27 +93339,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 804-828-9000 / 1-800-838-8238 (Virginia Family Violence Hotline)",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "57 Medical Center Dr, Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA 66597"
+      "en": "1250 East Marshall Street, Richmond, VA 23298, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, High-Risk Maternal-Fetal Medicine, Nurse-Midwifery & Level IV NICU",
+        "Institute for Women’s Health & Project Empower DV/Sexual Assault Advocacy"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (VCU Medical Center (Richmond), UVA Health (Charlottesville), Sentara Norfolk General) serving Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA. Tap Get Directions for route."
+      "en": "VCU Medical Center (Richmond) at 1250 East Marshall Street, Richmond, VA 23298, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, High-Risk Maternal-Fetal Medicine, Nurse-Midwifery & Level IV NICU",
+        "Institute for Women’s Health & Project Empower DV/Sexual Assault Advocacy"
+      ]
     }
   },
   {
     "id": "usa-hosp-4061-u2",
-    "regionDistrict": "Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA",
+    "regionDistrict": "Falls Church (Northern Virginia), Virginia, USA",
     "type": "hospital",
-    "lat": 37.5432,
-    "lng": -77.4276,
+    "lat": 38.8569,
+    "lng": -77.2261,
     "name": {
-      "en": "Inova Fairfax Women’s Hospital"
+      "en": "Inova Women’s Hospital (Inova Fairfax Medical Campus)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94905,27 +93372,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 804-828-9000 / 1-800-838-8238 (Virginia Family Violence Hotline)",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "214 Medical Center Dr, Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA 77864"
+      "en": "3300 Gallows Road, Falls Church, VA 22042, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Dedicated Women’s Hospital, High-Risk Perinatal Unit & Level IV NICU",
+        "24/7 Obstetrical Emergency & FACT Forensic Assessment and Consultation Team"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Inova Fairfax Women’s Hospital) serving Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA. Tap Get Directions for route."
+      "en": "Inova Women’s Hospital (Inova Fairfax Medical Campus) at 3300 Gallows Road, Falls Church, VA 22042, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Dedicated Women’s Hospital, High-Risk Perinatal Unit & Level IV NICU",
+        "24/7 Obstetrical Emergency & FACT Forensic Assessment and Consultation Team"
+      ]
     }
   },
   {
     "id": "usa-safe-4061",
-    "regionDistrict": "Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA",
+    "regionDistrict": "Richmond, Virginia, USA",
     "type": "safe-haven",
-    "lat": 37.5432,
-    "lng": -77.4326,
+    "lat": 37.5414,
+    "lng": -77.4389,
     "name": {
-      "en": "Safe Harbor &YWCA Richmond , Shelter for Help in Emergency (Charlottesville)"
+      "en": "Safe Harbor & YWCA Richmond (Greater Richmond Domestic Violence Shelters)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94933,7 +93405,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 804-828-9000 / 1-800-838-8238 (Virginia Family Violence Hotline)",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "14 Main St, Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA 39664"
+      "en": "6 North 5th Street, Richmond, VA 23219, United States"
     },
     "services": {
       "en": [
@@ -94943,17 +93415,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Safe Harbor &YWCA Richmond , Shelter for Help in Emergency (Charlottesville)) serving Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Safe Harbor & YWCA Richmond (Greater Richmond Domestic Violence Shelters) at 6 North 5th Street, Richmond, VA 23219, United States."
     }
   },
   {
     "id": "usa-safe-4061-u2",
-    "regionDistrict": "Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA",
+    "regionDistrict": "Norfolk (Hampton Roads), Virginia, USA",
     "type": "safe-haven",
-    "lat": 37.5382,
-    "lng": -77.4276,
+    "lat": 36.8475,
+    "lng": -76.2869,
     "name": {
-      "en": "YWCA South Hampton Roads"
+      "en": "YWCA South Hampton Roads (Women In Crisis Shelter — Norfolk)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -94961,7 +93433,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 804-828-9000 / 1-800-838-8238 (Virginia Family Violence Hotline)",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "1 Main St, Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA 82561"
+      "en": "500 East Plume Street, Suite 700, Norfolk, VA 23510, United States"
     },
     "services": {
       "en": [
@@ -94971,17 +93443,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA South Hampton Roads) serving Richmond, Charlottesville, Norfolk & Falls Church, Virginia, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA South Hampton Roads (Women In Crisis Shelter — Norfolk) at 500 East Plume Street, Suite 700, Norfolk, VA 23510, United States."
     }
   },
   {
     "id": "usa-hosp-4062",
-    "regionDistrict": "Seattle, Tacoma & Spokane, Washington, USA",
+    "regionDistrict": "Seattle, Washington, USA",
     "type": "hospital",
     "lat": 47.6502,
     "lng": -122.3072,
     "name": {
-      "en": "UW Medical Center (Montlake Birth Center)"
+      "en": "UW Medical Center – Montlake (Childbirth Center — Seattle)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -94989,27 +93461,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 206-598-3300 / +1 206-783-8620",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "200 Medical Center Dr, Seattle, Tacoma & Spokane, Washington, USA 55300"
+      "en": "1959 NE Pacific Street, Seattle, WA 98195, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Childbirth Center, High-Risk Maternal-Fetal Medicine & Level IV NICU",
+        "Department of Obstetrics and Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UW Medical Center (Montlake Birth Center)) serving Seattle, Tacoma & Spokane, Washington, USA. Tap Get Directions for route."
+      "en": "UW Medical Center – Montlake (Childbirth Center — Seattle) at 1959 NE Pacific Street, Seattle, WA 98195, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Childbirth Center, High-Risk Maternal-Fetal Medicine & Level IV NICU",
+        "Department of Obstetrics and Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4062-u2",
-    "regionDistrict": "Seattle, Tacoma & Spokane, Washington, USA",
+    "regionDistrict": "Seattle, Washington, USA",
     "type": "hospital",
-    "lat": 47.6527,
-    "lng": -122.3047,
+    "lat": 47.6086,
+    "lng": -122.3214,
     "name": {
-      "en": "Harborview Medical Center, Swedish First Hill"
+      "en": "Swedish First Hill Campus (Lytle Center for Pregnancy & Newborns — Seattle)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95017,27 +93494,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 206-598-3300 / +1 206-783-8620",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "5 Medical Center Dr, Seattle, Tacoma & Spokane, Washington, USA 66675"
+      "en": "747 Broadway, Seattle, WA 98122, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, Midwifery, High-Risk Perinatal Care & Level IV NICU",
+        "Lytle Center for Pregnancy and Newborns"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Harborview Medical Center, Swedish First Hill) serving Seattle, Tacoma & Spokane, Washington, USA. Tap Get Directions for route."
+      "en": "Swedish First Hill Campus (Lytle Center for Pregnancy & Newborns — Seattle) at 747 Broadway, Seattle, WA 98122, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, Midwifery, High-Risk Perinatal Care & Level IV NICU",
+        "Lytle Center for Pregnancy and Newborns"
+      ]
     }
   },
   {
     "id": "usa-hosp-4062-u3",
-    "regionDistrict": "Seattle, Tacoma & Spokane, Washington, USA",
+    "regionDistrict": "Spokane, Washington, USA",
     "type": "hospital",
-    "lat": 47.6527,
-    "lng": -122.3047,
+    "lat": 47.6486,
+    "lng": -117.4125,
     "name": {
-      "en": "Sacred Heart Medical Center"
+      "en": "Providence Sacred Heart Medical Center & Children’s Hospital (Spokane)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95045,27 +93527,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 206-598-3300 / +1 206-783-8620",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "91 Medical Center Dr, Seattle, Tacoma & Spokane, Washington, USA 23661"
+      "en": "101 West 8th Avenue, Spokane, WA 99204, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birth Place, High-Risk Maternal-Fetal Medicine & Level IV NICU",
+        "Inland Northwest Regional Perinatal Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Sacred Heart Medical Center) serving Seattle, Tacoma & Spokane, Washington, USA. Tap Get Directions for route."
+      "en": "Providence Sacred Heart Medical Center & Children’s Hospital (Spokane) at 101 West 8th Avenue, Spokane, WA 99204, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birth Place, High-Risk Maternal-Fetal Medicine & Level IV NICU",
+        "Inland Northwest Regional Perinatal Center"
+      ]
     }
   },
   {
     "id": "usa-safe-4062",
-    "regionDistrict": "Seattle, Tacoma & Spokane, Washington, USA",
+    "regionDistrict": "Seattle, Washington, USA",
     "type": "safe-haven",
-    "lat": 47.6527,
-    "lng": -122.3097,
+    "lat": 47.6686,
+    "lng": -122.3636,
     "name": {
-      "en": "New Beginnings (Seattle), Mary’s Place Women & Family Shelters, API Chaya"
+      "en": "Mary’s Place & New Beginnings Domestic Violence Shelter (Seattle)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95073,7 +93560,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 206-598-3300 / +1 206-783-8620",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "130 Main St, Seattle, Tacoma & Spokane, Washington, USA 46820"
+      "en": "520 NW Market Street, Seattle, WA 98107, United States"
     },
     "services": {
       "en": [
@@ -95083,17 +93570,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (New Beginnings (Seattle), Mary’s Place Women & Family Shelters, API Chaya) serving Seattle, Tacoma & Spokane, Washington, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Mary’s Place & New Beginnings Domestic Violence Shelter (Seattle) at 520 NW Market Street, Seattle, WA 98107, United States."
     }
   },
   {
     "id": "usa-safe-4062-u2",
     "regionDistrict": "Spokane, Washington, USA",
     "type": "safe-haven",
-    "lat": 47.6588,
-    "lng": -117.426,
+    "lat": 47.6661,
+    "lng": -117.4264,
     "name": {
-      "en": "YWCA Spokane"
+      "en": "YWCA Spokane (Domestic Violence Safe Shelter & Family Justice Center)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95101,7 +93588,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 206-598-3300 / +1 206-783-8620",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "187 Main St, Seattle, Tacoma & Spokane, Washington, USA 15607"
+      "en": "930 North Monroe Street, Spokane, WA 99201, United States"
     },
     "services": {
       "en": [
@@ -95111,12 +93598,12 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Spokane) serving Seattle, Tacoma & Spokane, Washington, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Spokane (Domestic Violence Safe Shelter & Family Justice Center) at 930 North Monroe Street, Spokane, WA 99201, United States."
     }
   },
   {
     "id": "usa-hosp-4063",
-    "regionDistrict": "Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA",
+    "regionDistrict": "Morgantown, West Virginia, USA",
     "type": "hospital",
     "lat": 39.6525,
     "lng": -79.956,
@@ -95129,25 +93616,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 304-598-4000 / +1 304-340-3549",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "74 Medical Center Dr, Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA 76214"
+      "en": "1 Medical Center Drive, Morgantown, WV 26506, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birthing Center, High-Risk Maternal-Fetal Medicine & Level IV NICU",
+        "Department of Obstetrics, Gynecology & Reproductive Sciences"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (WVU Medicine Children’s & Birthing Center (Morgantown)) serving Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA. Tap Get Directions for route."
+      "en": "WVU Medicine Children’s & Birthing Center (Morgantown) at 1 Medical Center Drive, Morgantown, WV 26506, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birthing Center, High-Risk Maternal-Fetal Medicine & Level IV NICU",
+        "Department of Obstetrics, Gynecology & Reproductive Sciences"
+      ]
     }
   },
   {
     "id": "usa-hosp-4063-u2",
-    "regionDistrict": "Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA",
+    "regionDistrict": "Charleston, West Virginia, USA",
     "type": "hospital",
-    "lat": 39.655,
-    "lng": -79.9535,
+    "lat": 38.3614,
+    "lng": -81.6442,
     "name": {
       "en": "CAMC Women and Children’s Hospital (Charleston)"
     },
@@ -95157,27 +93649,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 304-598-4000 / +1 304-340-3549",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "79 Medical Center Dr, Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA 90679"
+      "en": "800 Pennsylvania Avenue, Charleston, WV 25302, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Dedicated Women & Children’s Hospital, Labor & Delivery & Level III NICU",
+        "High-Risk Perinatal Care & Family Resource Center"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (CAMC Women and Children’s Hospital (Charleston)) serving Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA. Tap Get Directions for route."
+      "en": "CAMC Women and Children’s Hospital (Charleston) at 800 Pennsylvania Avenue, Charleston, WV 25302, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Dedicated Women & Children’s Hospital, Labor & Delivery & Level III NICU",
+        "High-Risk Perinatal Care & Family Resource Center"
+      ]
     }
   },
   {
     "id": "usa-hosp-4063-u3",
-    "regionDistrict": "Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA",
+    "regionDistrict": "Huntington, West Virginia, USA",
     "type": "hospital",
-    "lat": 39.655,
-    "lng": -79.9535,
+    "lat": 38.4067,
+    "lng": -82.4269,
     "name": {
-      "en": "Cabell Huntington Hospital"
+      "en": "Marshall Health — Cabell Huntington Hospital (Maternity & Perinatal Center)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95185,27 +93682,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 304-598-4000 / +1 304-340-3549",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "84 Medical Center Dr, Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA 58164"
+      "en": "1340 Hal Greer Boulevard, Huntington, WV 25701, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Perinatal Center, Labor & Delivery & Hoops Family Children’s Level III NICU",
+        "Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Cabell Huntington Hospital) serving Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA. Tap Get Directions for route."
+      "en": "Marshall Health — Cabell Huntington Hospital (Maternity & Perinatal Center) at 1340 Hal Greer Boulevard, Huntington, WV 25701, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Perinatal Center, Labor & Delivery & Hoops Family Children’s Level III NICU",
+        "Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4063",
-    "regionDistrict": "Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA",
+    "regionDistrict": "Morgantown, West Virginia, USA",
     "type": "safe-haven",
-    "lat": 39.655,
-    "lng": -79.9585,
+    "lat": 39.6336,
+    "lng": -79.9539,
     "name": {
-      "en": "Rape and Domestic Violence Information Center (Morgantown)"
+      "en": "Rape and Domestic Violence Information Center (RDVIC — Morgantown)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95213,7 +93715,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 304-598-4000 / +1 304-340-3549",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "62 Main St, Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA 68262"
+      "en": "563B High Street, Morgantown, WV 26505, United States"
     },
     "services": {
       "en": [
@@ -95223,17 +93725,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Rape and Domestic Violence Information Center (Morgantown)) serving Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Rape and Domestic Violence Information Center (RDVIC — Morgantown) at 563B High Street, Morgantown, WV 26505, United States."
     }
   },
   {
     "id": "usa-safe-4063-u2",
-    "regionDistrict": "Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA",
+    "regionDistrict": "Charleston / Huntington, West Virginia, USA",
     "type": "safe-haven",
-    "lat": 39.65,
-    "lng": -79.9535,
+    "lat": 38.3444,
+    "lng": -81.6286,
     "name": {
-      "en": "YWCA Resolve Family Abuse Program (Charleston) & Branches"
+      "en": "YWCA Charleston — Resolve Family Abuse Program & Branches Shelter"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95241,7 +93743,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 304-598-4000 / +1 304-340-3549",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "118 Main St, Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA 68768"
+      "en": "1426 Kanawha Boulevard East, Charleston, WV 25301, United States"
     },
     "services": {
       "en": [
@@ -95251,17 +93753,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (YWCA Resolve Family Abuse Program (Charleston) & Branches) serving Morgantown, Charleston & Huntington (Appalachia), West Virginia, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "YWCA Charleston — Resolve Family Abuse Program & Branches Shelter at 1426 Kanawha Boulevard East, Charleston, WV 25301, United States."
     }
   },
   {
     "id": "usa-hosp-4064",
-    "regionDistrict": "Madison, Milwaukee & Green Bay, Wisconsin, USA",
+    "regionDistrict": "Madison, Wisconsin, USA",
     "type": "hospital",
     "lat": 43.058,
     "lng": -89.4068,
     "name": {
-      "en": "UnityPoint Health – Meriter (UW Health Birthing Center Madison)"
+      "en": "UnityPoint Health – Meriter (UW Health Center for Perinatal Care — Madison)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95269,27 +93771,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 608-417-6000 / +1 608-251-4445",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "224 Medical Center Dr, Madison, Milwaukee & Green Bay, Wisconsin, USA 15804"
+      "en": "202 South Park Street, Madison, WI 53715, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birthing Center (Busiest Maternity Hospital in Wisconsin), Maternal-Fetal Medicine & Level III NICU",
+        "UW Health Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (UnityPoint Health – Meriter (UW Health Birthing Center Madison)) serving Madison, Milwaukee & Green Bay, Wisconsin, USA. Tap Get Directions for route."
+      "en": "UnityPoint Health – Meriter (UW Health Center for Perinatal Care — Madison) at 202 South Park Street, Madison, WI 53715, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birthing Center (Busiest Maternity Hospital in Wisconsin), Maternal-Fetal Medicine & Level III NICU",
+        "UW Health Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4064-u2",
-    "regionDistrict": "Madison, Milwaukee & Green Bay, Wisconsin, USA",
+    "regionDistrict": "Milwaukee, Wisconsin, USA",
     "type": "hospital",
-    "lat": 43.0605,
-    "lng": -89.4043,
+    "lat": 43.0428,
+    "lng": -88.0267,
     "name": {
-      "en": "Froedtert Hospital (Milwaukee)"
+      "en": "Froedtert Hospital (Birth Center — Milwaukee)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95297,27 +93804,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 608-417-6000 / +1 608-251-4445",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "219 Medical Center Dr, Madison, Milwaukee & Green Bay, Wisconsin, USA 10899"
+      "en": "9200 West Wisconsin Avenue, Milwaukee, WI 53226, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        " Froedtert Birth Center, High-Risk Maternal-Fetal Medicine & Children’s Wisconsin Level IV NICU",
+        "Medical College of Wisconsin Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Froedtert Hospital (Milwaukee)) serving Madison, Milwaukee & Green Bay, Wisconsin, USA. Tap Get Directions for route."
+      "en": "Froedtert Hospital (Birth Center — Milwaukee) at 9200 West Wisconsin Avenue, Milwaukee, WI 53226, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        " Froedtert Birth Center, High-Risk Maternal-Fetal Medicine & Children’s Wisconsin Level IV NICU",
+        "Medical College of Wisconsin Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4064-u3",
-    "regionDistrict": "Madison, Milwaukee & Green Bay, Wisconsin, USA",
+    "regionDistrict": "Milwaukee, Wisconsin, USA",
     "type": "hospital",
-    "lat": 43.0605,
-    "lng": -89.4043,
+    "lat": 43.0425,
+    "lng": -87.9278,
     "name": {
-      "en": "Aurora Sinai Medical Center"
+      "en": "Aurora Sinai Medical Center (Women’s Health & Birthing Center — Milwaukee)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95325,27 +93837,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 608-417-6000 / +1 608-251-4445",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "209 Medical Center Dr, Madison, Milwaukee & Green Bay, Wisconsin, USA 97839"
+      "en": "945 North 12th Street, Milwaukee, WI 53233, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Birthing Center, Certified Nurse-Midwifery & Level III NICU",
+        "Aurora Healing & Advocacy Services (24/7 Sexual Assault & DV Triage)"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Aurora Sinai Medical Center) serving Madison, Milwaukee & Green Bay, Wisconsin, USA. Tap Get Directions for route."
+      "en": "Aurora Sinai Medical Center (Women’s Health & Birthing Center — Milwaukee) at 945 North 12th Street, Milwaukee, WI 53233, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Birthing Center, Certified Nurse-Midwifery & Level III NICU",
+        "Aurora Healing & Advocacy Services (24/7 Sexual Assault & DV Triage)"
+      ]
     }
   },
   {
     "id": "usa-safe-4064",
-    "regionDistrict": "Madison, Milwaukee & Green Bay, Wisconsin, USA",
+    "regionDistrict": "Milwaukee, Wisconsin, USA",
     "type": "safe-haven",
-    "lat": 43.0605,
-    "lng": -89.4093,
+    "lat": 43.0528,
+    "lng": -87.9194,
     "name": {
-      "en": "Domestic Abuse Intervention Services (DAIS Madison), Sojourner Family Peace Center (Milwaukee)"
+      "en": "Sojourner Family Peace Center (Milwaukee)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95353,7 +93870,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 608-417-6000 / +1 608-251-4445",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "221 Main St, Madison, Milwaukee & Green Bay, Wisconsin, USA 30371"
+      "en": "619 West Walnut Street, Milwaukee, WI 53212, United States"
     },
     "services": {
       "en": [
@@ -95363,7 +93880,7 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Domestic Abuse Intervention Services (DAIS Madison), Sojourner Family Peace Center (Milwaukee)) serving Madison, Milwaukee & Green Bay, Wisconsin, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Sojourner Family Peace Center (Milwaukee) at 619 West Walnut Street, Milwaukee, WI 53212, United States."
     }
   },
   {
@@ -95371,9 +93888,9 @@ export const WORLD_CENTERS_DIRECTORY = [
     "regionDistrict": "Green Bay, Wisconsin, USA",
     "type": "safe-haven",
     "lat": 44.5133,
-    "lng": -88.0133,
+    "lng": -88.0006,
     "name": {
-      "en": "Golden House"
+      "en": "Golden House (Northeast Wisconsin Domestic Abuse Shelter — Green Bay)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95381,7 +93898,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 608-417-6000 / +1 608-251-4445",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "152 Main St, Madison, Milwaukee & Green Bay, Wisconsin, USA 83472"
+      "en": "1120 University Avenue, Green Bay, WI 54302, United States"
     },
     "services": {
       "en": [
@@ -95391,17 +93908,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Golden House) serving Madison, Milwaukee & Green Bay, Wisconsin, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Golden House (Northeast Wisconsin Domestic Abuse Shelter — Green Bay) at 1120 University Avenue, Green Bay, WI 54302, United States."
     }
   },
   {
     "id": "usa-hosp-4065",
-    "regionDistrict": "Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA",
+    "regionDistrict": "Casper, Wyoming, USA",
     "type": "hospital",
     "lat": 42.8492,
     "lng": -106.3149,
     "name": {
-      "en": "Banner Wyoming Medical Center (Casper)"
+      "en": "Banner Wyoming Medical Center (Maternal & Family Birth Center — Casper)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95409,27 +93926,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 307-577-7201 / +1 307-235-2814",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "210 Medical Center Dr, Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA 99380"
+      "en": "1233 East 2nd Street, Casper, WY 82601, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Family Birth Center, Labor & Delivery & Special Care Nursery",
+        "Central Wyoming Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Banner Wyoming Medical Center (Casper)) serving Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA. Tap Get Directions for route."
+      "en": "Banner Wyoming Medical Center (Maternal & Family Birth Center — Casper) at 1233 East 2nd Street, Casper, WY 82601, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center, Labor & Delivery & Special Care Nursery",
+        "Central Wyoming Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4065-u2",
-    "regionDistrict": "Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA",
+    "regionDistrict": "Cheyenne, Wyoming, USA",
     "type": "hospital",
-    "lat": 42.8517,
-    "lng": -106.3124,
+    "lat": 41.1408,
+    "lng": -104.8178,
     "name": {
-      "en": "Cheyenne Regional Medical Center"
+      "en": "Cheyenne Regional Medical Center (Mother/Baby Unit)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95437,25 +93959,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 307-577-7201 / +1 307-235-2814",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "15 Medical Center Dr, Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA 34895"
+      "en": "214 East 23rd Street, Cheyenne, WY 82001, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, Mother/Baby Unit & Special Care Nursery",
+        "Women’s Health & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Cheyenne Regional Medical Center) serving Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA. Tap Get Directions for route."
+      "en": "Cheyenne Regional Medical Center (Mother/Baby Unit) at 214 East 23rd Street, Cheyenne, WY 82001, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, Mother/Baby Unit & Special Care Nursery",
+        "Women’s Health & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-hosp-4065-u3",
-    "regionDistrict": "Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA",
+    "regionDistrict": "Fort Washakie (Wind River Reservation), Wyoming, USA",
     "type": "hospital",
-    "lat": 42.8517,
-    "lng": -106.3124,
+    "lat": 43.0058,
+    "lng": -108.8825,
     "name": {
       "en": "Fort Washakie Health Center (Wind River IHS)"
     },
@@ -95465,27 +93992,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 307-577-7201 / +1 307-235-2814",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "30 Medical Center Dr, Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA 81990"
+      "en": "29 Black Coal Drive, Fort Washakie, WY 82514, United States"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Women’s Health, Prenatal & Postpartum Care",
+        "Eastern Shoshone & Northern Arapaho Wind River Reservation Clinic"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Fort Washakie Health Center (Wind River IHS)) serving Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA. Tap Get Directions for route."
+      "en": "Fort Washakie Health Center (Wind River IHS) at 29 Black Coal Drive, Fort Washakie, WY 82514, United States."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s Health, Prenatal & Postpartum Care",
+        "Eastern Shoshone & Northern Arapaho Wind River Reservation Clinic"
+      ]
     }
   },
   {
     "id": "usa-safe-4065",
-    "regionDistrict": "Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA",
+    "regionDistrict": "Casper, Wyoming, USA",
     "type": "safe-haven",
-    "lat": 42.8517,
-    "lng": -106.3174,
+    "lat": 42.8606,
+    "lng": -106.2719,
     "name": {
-      "en": "Self Help Center (Casper)"
+      "en": "Self Help Center (Domestic Violence & Sexual Assault Shelter — Casper)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95493,7 +94025,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 307-577-7201 / +1 307-235-2814",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "228 Main St, Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA 47348"
+      "en": "740 Luker Lane, Suite A, Evansville / Casper, WY 82636, United States"
     },
     "services": {
       "en": [
@@ -95503,17 +94035,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Self Help Center (Casper)) serving Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Self Help Center (Domestic Violence & Sexual Assault Shelter — Casper) at 740 Luker Lane, Suite A, Evansville / Casper, WY 82636, United States."
     }
   },
   {
     "id": "usa-safe-4065-u2",
-    "regionDistrict": "Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA",
+    "regionDistrict": "Cheyenne, Wyoming, USA",
     "type": "safe-haven",
-    "lat": 42.8467,
-    "lng": -106.3124,
+    "lat": 41.1097,
+    "lng": -104.8289,
     "name": {
-      "en": "Safehouse Services"
+      "en": "Safehouse Services (Laramie County Domestic Violence Shelter — Cheyenne)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95521,7 +94053,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 307-577-7201 / +1 307-235-2814",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "180 Main St, Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA 88700"
+      "en": "714 West Fox Farm Road, Cheyenne, WY 82007, United States"
     },
     "services": {
       "en": [
@@ -95531,17 +94063,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Safehouse Services) serving Casper, Cheyenne & Fort Washakie (Wind River Reservation), Wyoming, USA. Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Safehouse Services (Laramie County Domestic Violence Shelter — Cheyenne) at 714 West Fox Farm Road, Cheyenne, WY 82007, United States."
     }
   },
   {
     "id": "usa-hosp-4066",
-    "regionDistrict": "San Juan, Ponce & Mayagüez, Puerto Rico (USA)",
+    "regionDistrict": "San Juan, Puerto Rico (USA)",
     "type": "hospital",
     "lat": 18.3965,
     "lng": -66.0746,
     "name": {
-      "en": "Hospital Universitario de Adultos / Hospital Municipal de San Juan (Centro Médico Río Piedras) & Hospital Damas (Ponce)"
+      "en": "Centro Médico de Puerto Rico — Hospital Universitario de Adultos (San Juan)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95549,25 +94081,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 787-777-3535 / +1 787-722-2977 (OPM 24",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "105 Medical Center Dr, San Juan, Ponce & Mayagüez, Puerto Rico (USA) 70845"
+      "en": "Avenida Américo Miranda, Barrio Monacillos, Río Piedras, San Juan, PR 00935"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Departamento de Obstetricia y Ginecología, Alto Riesgo Perinatal & NICU",
+        "Centro de Ayuda a Víctimas de Violación (CAVV)"
       ]
     },
     "directionsText": {
-      "en": "Functioning Women’s & Maternity Hospital serving San Juan, Ponce & Mayagüez, Puerto Rico (USA). Tap Get Directions for road route."
+      "en": "Centro Médico de Puerto Rico — Hospital Universitario de Adultos (San Juan) at Avenida Américo Miranda, Barrio Monacillos, Río Piedras, San Juan, PR 00935."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Departamento de Obstetricia y Ginecología, Alto Riesgo Perinatal & NICU",
+        "Centro de Ayuda a Víctimas de Violación (CAVV)"
+      ]
     }
   },
   {
     "id": "usa-safe-4066",
-    "regionDistrict": "San Juan, Ponce & Mayagüez, Puerto Rico (USA)",
+    "regionDistrict": "San Juan, Puerto Rico (USA)",
     "type": "safe-haven",
-    "lat": 18.399,
-    "lng": -66.0771,
+    "lat": 18.4014,
+    "lng": -66.0519,
     "name": {
       "en": "Casa Protegida Julia de Burgos (San Juan — First Women’s Shelter in Puerto Rico)"
     },
@@ -95577,7 +94114,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 787-777-3535 / +1 787-722-2977 (OPM 24",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "159 Main St, San Juan, Ponce & Mayagüez, Puerto Rico (USA) 47409"
+      "en": "Avenida Ponce de León 1055, Río Piedras, San Juan, PR 00925"
     },
     "services": {
       "en": [
@@ -95587,17 +94124,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Casa Protegida Julia de Burgos (San Juan — First Women’s Shelter in Puerto Rico)) serving San Juan, Ponce & Mayagüez, Puerto Rico (USA). Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Casa Protegida Julia de Burgos (San Juan — First Women’s Shelter in Puerto Rico) at Avenida Ponce de León 1055, Río Piedras, San Juan, PR 00925."
     }
   },
   {
     "id": "usa-safe-4066-u2",
-    "regionDistrict": "Ponce, Puerto Rico",
+    "regionDistrict": "Vega Alta / San Juan, Puerto Rico (USA)",
     "type": "safe-haven",
-    "lat": 18.0111,
-    "lng": -66.6141,
+    "lat": 18.4122,
+    "lng": -66.3314,
     "name": {
-      "en": "Hogar Ruth"
+      "en": "Hogar Ruth (Albergue para Mujeres Sobrevivientes de Violencia Doméstica)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95605,7 +94142,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 787-777-3535 / +1 787-722-2977 (OPM 24",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "65 Main St, San Juan, Ponce & Mayagüez, Puerto Rico (USA) 50865"
+      "en": "Calle Georgetti #42, Vega Alta, PR 00692"
     },
     "services": {
       "en": [
@@ -95615,17 +94152,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Hogar Ruth) serving San Juan, Ponce & Mayagüez, Puerto Rico (USA). Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Hogar Ruth (Albergue para Mujeres Sobrevivientes de Violencia Doméstica) at Calle Georgetti #42, Vega Alta, PR 00692."
     }
   },
   {
     "id": "usa-safe-4066-u3",
-    "regionDistrict": "San Juan, Ponce & Mayagüez, Puerto Rico (USA)",
+    "regionDistrict": "San Juan, Puerto Rico (USA)",
     "type": "safe-haven",
-    "lat": 18.393,
-    "lng": -66.0771,
+    "lat": 18.4258,
+    "lng": -66.0597,
     "name": {
-      "en": "Oficina de la Procuradora de las Mujeres"
+      "en": "Oficina de la Procuradora de las Mujeres (OPM — 24/7 Línea de Orientación)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95633,7 +94170,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 787-777-3535 / +1 787-722-2977 (OPM 24",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "185 Main St, San Juan, Ponce & Mayagüez, Puerto Rico (USA) 38225"
+      "en": "Avenida Ponce de León 161, Hato Rey, San Juan, PR 00917"
     },
     "services": {
       "en": [
@@ -95643,17 +94180,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Oficina de la Procuradora de las Mujeres) serving San Juan, Ponce & Mayagüez, Puerto Rico (USA). Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Oficina de la Procuradora de las Mujeres (OPM — 24/7 Línea de Orientación) at Avenida Ponce de León 161, Hato Rey, San Juan, PR 00917."
     }
   },
   {
     "id": "usa-hosp-4067",
-    "regionDistrict": "Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands",
+    "regionDistrict": "Charlotte Amalie (St. Thomas), U.S. Virgin Islands",
     "type": "hospital",
     "lat": 18.3408,
     "lng": -64.9145,
     "name": {
-      "en": "Schneider Regional Medical Center (St. Thomas)"
+      "en": "Roy Lester Schneider Hospital (Schneider Regional Medical Center — St. Thomas)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95661,27 +94198,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 340-776-8311 / +1 340-773-9272",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands"
+      "en": "9048 Sugar Estate, St. Thomas, VI 00802, U.S. Virgin Islands"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Obstetrics, Gynecology, Labor & Delivery & Neonatal Intensive Care",
+        "24/7 Emergency & Maternal Care"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Schneider Regional Medical Center (St. Thomas)) serving Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands. Tap Get Directions for route."
+      "en": "Roy Lester Schneider Hospital (Schneider Regional Medical Center — St. Thomas) at 9048 Sugar Estate, St. Thomas, VI 00802, U.S. Virgin Islands."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Obstetrics, Gynecology, Labor & Delivery & Neonatal Intensive Care",
+        "24/7 Emergency & Maternal Care"
+      ]
     }
   },
   {
     "id": "usa-hosp-4067-u2",
-    "regionDistrict": "Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands",
+    "regionDistrict": "Christiansted (St. Croix), U.S. Virgin Islands",
     "type": "hospital",
-    "lat": 18.3433,
-    "lng": -64.912,
+    "lat": 17.7303,
+    "lng": -64.7564,
     "name": {
-      "en": "Governor Juan F. Luis Hospital"
+      "en": "Governor Juan F. Luis Hospital and Medical Center (St. Croix)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95689,27 +94231,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 340-776-8311 / +1 340-773-9272",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands"
+      "en": "4007 Estate Diamond Ruby, Christiansted, St. Croix, VI 00820, U.S. Virgin Islands"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Maternity, Labor & Delivery & Postpartum Unit",
+        "St. Croix Island Obstetrics & Gynecology"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Governor Juan F. Luis Hospital) serving Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands. Tap Get Directions for route."
+      "en": "Governor Juan F. Luis Hospital and Medical Center (St. Croix) at 4007 Estate Diamond Ruby, Christiansted, St. Croix, VI 00820, U.S. Virgin Islands."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Maternity, Labor & Delivery & Postpartum Unit",
+        "St. Croix Island Obstetrics & Gynecology"
+      ]
     }
   },
   {
     "id": "usa-safe-4067",
-    "regionDistrict": "Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands",
+    "regionDistrict": "Charlotte Amalie (St. Thomas), U.S. Virgin Islands",
     "type": "safe-haven",
     "lat": 18.3433,
-    "lng": -64.917,
+    "lng": -64.9336,
     "name": {
-      "en": "Family Resource Center (St. Thomas) & Women’s Coalition of St. Croix"
+      "en": "Family Resource Center (St. Thomas Domestic Violence Shelter)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95717,7 +94264,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 340-776-8311 / +1 340-773-9272",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "Confidential Women’s Safe Haven & Family Justice Center, Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands"
+      "en": "2317 Commandant Gade, Charlotte Amalie, St. Thomas, VI 00802, U.S. Virgin Islands"
     },
     "services": {
       "en": [
@@ -95727,17 +94274,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven serving Charlotte Amalie (St. Thomas) & Christiansted (St. Croix), U.S. Virgin Islands. Call +1 340-776-8311 / +1 340-773-9272 or 1-800-799-7233 for immediate confidential intake."
+      "en": "Family Resource Center (St. Thomas Domestic Violence Shelter) at 2317 Commandant Gade, Charlotte Amalie, St. Thomas, VI 00802, U.S. Virgin Islands."
     }
   },
   {
     "id": "usa-hosp-4068",
-    "regionDistrict": "Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa)",
+    "regionDistrict": "Tamuning, Guam (USA)",
     "type": "hospital",
     "lat": 13.5042,
     "lng": 144.7775,
     "name": {
-      "en": "Guam Memorial Hospital Authority (Maternity Ward Tamuning), Commonwealth Healthcare Corporation (Saipan)"
+      "en": "Guam Memorial Hospital Authority (GMHA — Tamuning)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95745,27 +94292,32 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 671-647-2555 / +1 671-472-8873",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "79 Medical Center Dr, Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa) 62019"
+      "en": "850 Governor Carlos G. Camacho Road, Tamuning, GU 96913, Guam"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Labor & Delivery, Maternity Ward & Neonatal Intensive Care Unit",
+        "Guam Territorial Obstetrics & Gynecology Referral Hospital"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (Guam Memorial Hospital Authority (Maternity Ward Tamuning), Commonwealth Healthcare Corporation (Saipan)) serving Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa). Tap Get Directions for route."
+      "en": "Guam Memorial Hospital Authority (GMHA — Tamuning) at 850 Governor Carlos G. Camacho Road, Tamuning, GU 96913, Guam."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, Maternity Ward & Neonatal Intensive Care Unit",
+        "Guam Territorial Obstetrics & Gynecology Referral Hospital"
+      ]
     }
   },
   {
     "id": "usa-hosp-4068-u2",
-    "regionDistrict": "Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa)",
+    "regionDistrict": "Pago Pago, American Samoa (USA)",
     "type": "hospital",
-    "lat": 13.5067,
-    "lng": 144.78,
+    "lat": -14.2906,
+    "lng": -170.6836,
     "name": {
-      "en": "LBJ Tropical Medical Center"
+      "en": "LBJ Tropical Medical Center (Pago Pago)"
     },
     "categoryBadge": {
       "en": "Women’s, Maternity & OB/GYN Hospital"
@@ -95773,25 +94325,30 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 671-647-2555 / +1 671-472-8873",
     "emergencyHotline": "911 / 1-800-799-SAFE (7233) / 1-833-TLC-MAMA",
     "address": {
-      "en": "146 Medical Center Dr, Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa) 89926"
+      "en": "Fagaʻalu Valley Road, Pago Pago, AS 96799, American Samoa"
     },
     "services": {
       "en": [
-        "24/7 Labor & Delivery, High-Risk Maternal-Fetal Medicine, NICU & Gynecologic Surgery",
-        "Emergency Obstetrics, Sexual Assault Forensic Nurse Examiners (SANE) & Menopause Care",
-        "24/7 Multilingual Medical Interpreter Services (200+ Languages)"
+        "Obstetrics & Gynecology Clinic, Labor & Delivery & Nursery",
+        "American Samoa Territorial Hospital"
       ]
     },
     "directionsText": {
-      "en": "Functioning Hospital (LBJ Tropical Medical Center) serving Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa). Tap Get Directions for route."
+      "en": "LBJ Tropical Medical Center (Pago Pago) at Fagaʻalu Valley Road, Pago Pago, AS 96799, American Samoa."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Obstetrics & Gynecology Clinic, Labor & Delivery & Nursery",
+        "American Samoa Territorial Hospital"
+      ]
     }
   },
   {
     "id": "usa-safe-4068",
-    "regionDistrict": "Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa)",
+    "regionDistrict": "Hagåtña / Tamuning, Guam (USA)",
     "type": "safe-haven",
-    "lat": 13.5067,
-    "lng": 144.775,
+    "lat": 13.4739,
+    "lng": 144.7489,
     "name": {
       "en": "Guma’ Mami / Alee Shelter for Women & Children (Guam)"
     },
@@ -95801,7 +94358,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 671-647-2555 / +1 671-472-8873",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "97 Main St, Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa) 47017"
+      "en": "137 Murray Boulevard, Hagåtña, GU 96910, Guam"
     },
     "services": {
       "en": [
@@ -95811,17 +94368,17 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Guma’ Mami / Alee Shelter for Women & Children (Guam)) serving Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa). Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Guma’ Mami / Alee Shelter for Women & Children (Guam) at 137 Murray Boulevard, Hagåtña, GU 96910, Guam."
     }
   },
   {
     "id": "usa-safe-4068-u2",
-    "regionDistrict": "Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa)",
+    "regionDistrict": "Saipan, Northern Mariana Islands (USA)",
     "type": "safe-haven",
-    "lat": 13.5017,
-    "lng": 144.78,
+    "lat": 15.1517,
+    "lng": 145.7028,
     "name": {
-      "en": "Karidat Social Services"
+      "en": "Karidat Social Services — Guma’ Esperansa Women’s Shelter (Saipan)"
     },
     "categoryBadge": {
       "en": "Women’s Safe Haven & Domestic Violence Shelter"
@@ -95829,7 +94386,7 @@ export const WORLD_CENTERS_DIRECTORY = [
     "phone": "+1 671-647-2555 / +1 671-472-8873",
     "emergencyHotline": "1-800-799-SAFE (7233) / Text 'START' to 88788 / 911",
     "address": {
-      "en": "195 Main St, Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa) 94565"
+      "en": "Chalan Kanoa, Saipan, MP 96950, Northern Mariana Islands"
     },
     "services": {
       "en": [
@@ -95839,7 +94396,7 @@ export const WORLD_CENTERS_DIRECTORY = [
       ]
     },
     "directionsText": {
-      "en": "24/7 Women’s Safe Haven (Karidat Social Services) serving Tamuning / Hagåtña (Guam) & Saipan (Northern Mariana Islands) & Pago Pago (American Samoa). Call 1-800-799-SAFE (7233) / Text 'START' to 88788 / 911 for confidential intake."
+      "en": "Karidat Social Services — Guma’ Esperansa Women’s Shelter (Saipan) at Chalan Kanoa, Saipan, MP 96950, Northern Mariana Islands."
     }
   },
   {
@@ -125360,35 +123917,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     "openHours": "Open · Closes 4:30 PM"
   },
   {
-    "id": "za-safe-user-19",
-    "regionDistrict": "New Bedford, Massachusetts, United States",
-    "type": "safe-haven",
-    "lat": 41.6356,
-    "lng": -70.9289,
-    "name": {
-      "en": "The Women’s Center (Domestic Abuse & Crisis Treatment Center)"
-    },
-    "categoryBadge": {
-      "en": "Women’s Safe Haven & Domestic Abuse Shelter"
-    },
-    "phone": "+1 (508) 996-3343 / 24-Hr Hotline (508) 999-6636",
-    "emergencyHotline": "+1 (508) 996-3343 / 24-Hr Hotline (508) 999-6636 / 911",
-    "address": {
-      "en": "The Women’s Center, 405 County St, New Bedford, MA 02740, USA"
-    },
-    "services": {
-      "en": [
-        "24/7 Confidential Domestic Abuse, GBV & Emergency Safe Shelter for Women and Children",
-        "Trauma-Informed Counseling, Legal Protection, Psychosocial Care & Safe Sanctuary",
-        "Direct Medical Escort to Regional Maternity & Academic Hospitals"
-      ]
-    },
-    "directionsText": {
-      "en": "Women’s Safe Haven (The Women’s Center (Domestic Abuse & Crisis Treatment Center)) serving New Bedford, Massachusetts, United States. Call +1 (508) 996-3343 / 24-Hr Hotline (508) 999-6636 for confidential intake."
-    },
-    "website": "https://thewomenscentersc.com/"
-  },
-  {
     "id": "za-wiki-hosp-133",
     "regionDistrict": "Ga-Segonyana, Kuruman, Northern Cape, South Africa",
     "type": "hospital",
@@ -143694,118 +142222,6 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
-    "id": "usa-ma-boston-rosies-place-harrison-ave",
-    "regionDistrict": "United States (Boston, Massachusetts)",
-    "type": "safe-haven",
-    "lat": 42.3340923,
-    "lng": -71.0769049,
-    "name": {
-      "en": "Rosie's Place (Women's Sanctuary & Shelter — Boston)"
-    },
-    "categoryBadge": {
-      "en": "First Dedicated Women's Sanctuary in the US (Women-Owned)"
-    },
-    "phone": "+1 617-442-9322",
-    "emergencyHotline": "911 / +1 877-785-2020 (SafeLink MA)",
-    "address": {
-      "en": "889 Harrison Ave, Boston, MA 02118, USA (http://www.rosiesplace.org/)"
-    },
-    "services": {
-      "en": [
-        "Emergency Shelter & Overnight Sanctuary for Women",
-        "Women's Wellness Center, Legal Advocacy & Housing Stabilization",
-        "Free Meals, Showers & ESOL Classes"
-      ]
-    },
-    "directionsText": {
-      "en": "Located at 889 Harrison Ave, Boston, MA (+1 617-442-9322, http://www.rosiesplace.org/). Founded in 1974 as the first women's shelter in the United States."
-    }
-  },
-  {
-    "id": "usa-ma-boston-casa-myrna-blue-hill-ave",
-    "regionDistrict": "United States (Boston / Dorchester, Massachusetts)",
-    "type": "safe-haven",
-    "lat": 42.3098891,
-    "lng": -71.0826185,
-    "name": {
-      "en": "Casa Myrna (Domestic Violence Shelters & SafeLink 24/7 Statewide Hotline)"
-    },
-    "categoryBadge": {
-      "en": "Boston's Largest Domestic Violence Shelter & SafeLink 24/7 Hotline"
-    },
-    "phone": "+1 877-785-2020 / +1 617-521-0100",
-    "emergencyHotline": "+1 877-785-2020 (SafeLink 24/7 Toll-Free)",
-    "address": {
-      "en": "451 Blue Hill Ave, Boston, MA 02121, USA (http://www.casamyrna.org/)"
-    },
-    "services": {
-      "en": [
-        "Residential Domestic Violence Shelters for Women & Children",
-        "Operates SafeLink (+1 877-785-2020), Massachusetts's 24/7 Multilingual DV Hotline",
-        "Free Legal Advocacy, Counseling & Economic Stability"
-      ]
-    },
-    "directionsText": {
-      "en": "Located at 451 Blue Hill Ave, Boston, MA (+1 877-785-2020, http://www.casamyrna.org/)."
-    }
-  },
-  {
-    "id": "usa-ma-boston-womens-lunch-place-woods-mullen-missionary",
-    "regionDistrict": "United States (Boston, Massachusetts)",
-    "type": "safe-haven",
-    "lat": 42.3521236,
-    "lng": -71.0737378,
-    "name": {
-      "en": "Women's Lunch Place (Newbury St), Woods-Mullen Shelter (Mass Ave) & Missionary of Charity Women's Shelter"
-    },
-    "categoryBadge": {
-      "en": "Boston Women's Day Sanctuary & Overnight Shelters"
-    },
-    "phone": "+1 617-267-0200 / +1 617-534-7101 / +1 617-288-4182",
-    "emergencyHotline": "+1 877-785-2020 (SafeLink)",
-    "address": {
-      "en": "67 Newbury St (+1 617-267-0200), 794 Massachusetts Ave (+1 617-534-7101) & 401 Quincy St (+1 617-288-4182), Boston, MA"
-    },
-    "services": {
-      "en": [
-        "Women's Lunch Place Day Sanctuary, Medical Clinic & Domestic Violence Advocacy (https://www.womenslunchplace.org/)",
-        "Woods-Mullen Shelter (794 Massachusetts Ave)",
-        "Missionary of Charity Pregnant & Vulnerable Women's Shelter (401 Quincy St)"
-      ]
-    },
-    "directionsText": {
-      "en": "Covers Women's Lunch Place (67 Newbury St), Woods-Mullen Shelter (794 Mass Ave), and Missionary of Charity Women's Shelter (401 Quincy St) in Boston."
-    }
-  },
-  {
-    "id": "usa-ma-cambridge-on-the-rise-somerville-st-patricks-milford",
-    "regionDistrict": "United States (Cambridge, Somerville & Milford, Massachusetts)",
-    "type": "safe-haven",
-    "lat": 42.3702191,
-    "lng": -71.1026691,
-    "name": {
-      "en": "On The Rise Women's Safe Haven (Cambridge), St. Patrick's Women's Shelter (Somerville) & Gan Rivkah Center (Milford)"
-    },
-    "categoryBadge": {
-      "en": "Greater Boston Women's Safe Havens & Shelters"
-    },
-    "phone": "+1 617-497-7968 / +1 617-628-3015 / +1 508-838-6151",
-    "emergencyHotline": "+1 877-785-2020",
-    "address": {
-      "en": "341 Broadway, Cambridge (+1 617-497-7968), 270 Washington St, Somerville (+1 617-628-3015) & 18 Cedar St, Milford (+1 508-838-6151), MA"
-    },
-    "services": {
-      "en": [
-        "On The Rise Safe Haven for Women in Crisis (http://www.ontherise.org/)",
-        "St. Patrick's Shelter for Women (https://www.ccab.org/basic-needs/shelters/)",
-        "Gan Rivkah Center (Milford)"
-      ]
-    },
-    "directionsText": {
-      "en": "Covers On The Rise in Cambridge (341 Broadway), St. Patrick's Women's Shelter in Somerville (270 Washington St), and Gan Rivkah Center in Milford."
-    }
-  },
-  {
     "id": "usa-ri-providence-sojourner-house-smith-st",
     "regionDistrict": "United States (Providence, Rhode Island)",
     "type": "safe-haven",
@@ -151936,6 +150352,471 @@ export const WORLD_CENTERS_DIRECTORY = [
     },
     "directionsText": {
       "en": "Main public referral hospital for South Papua in Merauke."
+    }
+  },
+  {
+    "id": "usa-az-valleywise-phoenix",
+    "regionDistrict": "Phoenix, Arizona, USA",
+    "type": "hospital",
+    "lat": 33.4533,
+    "lng": -112.0247,
+    "name": {
+      "en": "Valleywise Health Medical Center (Phoenix)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 602-344-5011",
+    "emergencyHotline": "911 / 1-800-799-SAFE (7233)",
+    "address": {
+      "en": "2601 East Roosevelt Street, Phoenix, AZ 85008, United States"
+    },
+    "services": {
+      "en": [
+        "Women’s & Maternity Care, Labor & Delivery & Refugee Women’s Health Clinic",
+        "24/7 Obstetrical Triage & Level III NICU"
+      ]
+    },
+    "directionsText": {
+      "en": "Valleywise Health Medical Center (Phoenix) at 2601 East Roosevelt Street, Phoenix, AZ 85008, United States. Tel: +1 602-344-5011."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Women’s & Maternity Care, Labor & Delivery & Refugee Women’s Health Clinic",
+        "24/7 Obstetrical Triage & Level III NICU"
+      ]
+    }
+  },
+  {
+    "id": "usa-ca-cedars-sinai-la",
+    "regionDistrict": "Los Angeles, California, USA",
+    "type": "hospital",
+    "lat": 34.0758,
+    "lng": -118.3803,
+    "name": {
+      "en": "Cedars-Sinai Medical Center (Los Angeles)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 310-423-3277",
+    "emergencyHotline": "911 / 1-800-799-SAFE (7233)",
+    "address": {
+      "en": "8700 Beverly Boulevard, Los Angeles, CA 90048, United States"
+    },
+    "services": {
+      "en": [
+        "Department of Obstetrics & Gynecology, Labor & Delivery & Guerin Children’s Level IV NICU",
+        "High-Risk Maternal-Fetal Medicine & Reproductive Medicine"
+      ]
+    },
+    "directionsText": {
+      "en": "Cedars-Sinai Medical Center (Los Angeles) at 8700 Beverly Boulevard, Los Angeles, CA 90048, United States. Tel: +1 310-423-3277."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Department of Obstetrics & Gynecology, Labor & Delivery & Guerin Children’s Level IV NICU",
+        "High-Risk Maternal-Fetal Medicine & Reproductive Medicine"
+      ]
+    }
+  },
+  {
+    "id": "usa-ca-zuckerberg-sfg",
+    "regionDistrict": "San Francisco, California, USA",
+    "type": "hospital",
+    "lat": 37.7556,
+    "lng": -122.4047,
+    "name": {
+      "en": "Zuckerberg San Francisco General Hospital"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 628-206-8000",
+    "emergencyHotline": "911 / 1-800-799-SAFE (7233)",
+    "address": {
+      "en": "1001 Potrero Avenue, San Francisco, CA 94110, United States"
+    },
+    "services": {
+      "en": [
+        "Family Birth Center (Ward 6C), Women’s Options Center & Nurse-Midwifery",
+        "24/7 Obstetrical & Gynecological Emergency Care & Rape Treatment Center"
+      ]
+    },
+    "directionsText": {
+      "en": "Zuckerberg San Francisco General Hospital at 1001 Potrero Avenue, San Francisco, CA 94110, United States. Tel: +1 628-206-8000."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center (Ward 6C), Women’s Options Center & Nurse-Midwifery",
+        "24/7 Obstetrical & Gynecological Emergency Care & Rape Treatment Center"
+      ]
+    }
+  },
+  {
+    "id": "usa-fl-women-in-distress-broward",
+    "regionDistrict": "Fort Lauderdale (Broward County), Florida, USA",
+    "type": "safe-haven",
+    "lat": 26.1886,
+    "lng": -80.1842,
+    "name": {
+      "en": "Women In Distress of Broward County (Fort Lauderdale Safe Shelter)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 954-761-1133 (24/7 Crisis Line)",
+    "emergencyHotline": "1-800-500-1119 (Florida DV Hotline)",
+    "address": {
+      "en": "1515 NW 19th Street, Fort Lauderdale, FL 33311, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Women In Distress of Broward County (Fort Lauderdale Safe Shelter) at 1515 NW 19th Street, Fort Lauderdale, FL 33311, United States. Tel: +1 954-761-1133 (24/7 Crisis Line)."
+    }
+  },
+  {
+    "id": "usa-fl-refuge-house-tallahassee",
+    "regionDistrict": "Tallahassee, Florida, USA",
+    "type": "safe-haven",
+    "lat": 30.4519,
+    "lng": -84.2786,
+    "name": {
+      "en": "Refuge House of the Big Bend (Tallahassee Domestic Violence & Sexual Assault Shelter)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 850-681-2111 (24/7 Hotline)",
+    "emergencyHotline": "1-800-500-1119 (Florida DV Hotline)",
+    "address": {
+      "en": "1517 Terrace Street, Tallahassee, FL 32303, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Refuge House of the Big Bend (Tallahassee Domestic Violence & Sexual Assault Shelter) at 1517 Terrace Street, Tallahassee, FL 32303, United States. Tel: +1 850-681-2111 (24/7 Hotline)."
+    }
+  },
+  {
+    "id": "usa-il-rush-chicago",
+    "regionDistrict": "Chicago, Illinois, USA",
+    "type": "hospital",
+    "lat": 41.8744,
+    "lng": -87.6694,
+    "name": {
+      "en": "Rush University Medical Center (Family Birth Center — Chicago)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 312-942-5000",
+    "emergencyHotline": "911 / 1-877-863-6338 (IL DV Helpline)",
+    "address": {
+      "en": "1620 West Harrison Street, Chicago, IL 60612, United States"
+    },
+    "services": {
+      "en": [
+        "Family Birth Center, High-Risk Maternal-Fetal Medicine & Renée Schine Crown Level III NICU",
+        "Department of Obstetrics and Gynecology"
+      ]
+    },
+    "directionsText": {
+      "en": "Rush University Medical Center (Family Birth Center — Chicago) at 1620 West Harrison Street, Chicago, IL 60612, United States. Tel: +1 312-942-5000."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Birth Center, High-Risk Maternal-Fetal Medicine & Renée Schine Crown Level III NICU",
+        "Department of Obstetrics and Gynecology"
+      ]
+    }
+  },
+  {
+    "id": "usa-la-ochsner-baptist-nola",
+    "regionDistrict": "New Orleans, Louisiana, USA",
+    "type": "hospital",
+    "lat": 29.9347,
+    "lng": -90.1019,
+    "name": {
+      "en": "Ochsner Baptist — A Campus of Ochsner Medical Center (Perkins Women’s Pavilion — New Orleans)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 504-899-9311",
+    "emergencyHotline": "911 / 1-888-411-1333 (LA DV Hotline)",
+    "address": {
+      "en": "2700 Napoleon Avenue, New Orleans, LA 70115, United States"
+    },
+    "services": {
+      "en": [
+        "Perkins Women’s Pavilion, 24/7 Obstetrical Emergency, Labor & Delivery & Level IV NICU",
+        "Alternative Birthing Center & High-Risk Maternal-Fetal Medicine"
+      ]
+    },
+    "directionsText": {
+      "en": "Ochsner Baptist — A Campus of Ochsner Medical Center (Perkins Women’s Pavilion — New Orleans) at 2700 Napoleon Avenue, New Orleans, LA 70115, United States. Tel: +1 504-899-9311."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Perkins Women’s Pavilion, 24/7 Obstetrical Emergency, Labor & Delivery & Level IV NICU",
+        "Alternative Birthing Center & High-Risk Maternal-Fetal Medicine"
+      ]
+    }
+  },
+  {
+    "id": "usa-nc-safe-alliance-charlotte",
+    "regionDistrict": "Charlotte, North Carolina, USA",
+    "type": "safe-haven",
+    "lat": 35.2211,
+    "lng": -80.8381,
+    "name": {
+      "en": "Safe Alliance — Clyde & Ethel Dickson Domestic Violence Shelter (Charlotte)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 704-332-2513 / 24/7 Greater Charlotte Hope Line: +1 980-771-4673",
+    "emergencyHotline": "911 / 1-800-799-SAFE (7233)",
+    "address": {
+      "en": "601 East 5th Street, Suite 400, Charlotte, NC 28202, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Safe Alliance — Clyde & Ethel Dickson Domestic Violence Shelter (Charlotte) at 601 East 5th Street, Suite 400, Charlotte, NC 28202, United States. Tel: +1 704-332-2513 / 24/7 Greater Charlotte Hope Line: +1 980-771-4673."
+    }
+  },
+  {
+    "id": "usa-ny-nyu-langone-tisch",
+    "regionDistrict": "New York City (Manhattan), New York, USA",
+    "type": "hospital",
+    "lat": 40.7422,
+    "lng": -73.9739,
+    "name": {
+      "en": "NYU Langone Health — Tisch Hospital (Manhattan)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 212-263-7300",
+    "emergencyHotline": "911 / 1-800-621-HOPE (NYC DV Hotline)",
+    "address": {
+      "en": "550 First Avenue, New York, NY 10016, United States"
+    },
+    "services": {
+      "en": [
+        "Labor & Delivery, High-Risk Maternal-Fetal Medicine & KiDS of NYU Level IV NICU",
+        "Center for Fibroid Care, Endometriosis & Gynecology"
+      ]
+    },
+    "directionsText": {
+      "en": "NYU Langone Health — Tisch Hospital (Manhattan) at 550 First Avenue, New York, NY 10016, United States. Tel: +1 212-263-7300."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, High-Risk Maternal-Fetal Medicine & KiDS of NYU Level IV NICU",
+        "Center for Fibroid Care, Endometriosis & Gynecology"
+      ]
+    }
+  },
+  {
+    "id": "usa-pa-women-against-abuse-philly",
+    "regionDistrict": "Philadelphia, Pennsylvania, USA",
+    "type": "safe-haven",
+    "lat": 39.9511,
+    "lng": -75.1636,
+    "name": {
+      "en": "Women Against Abuse — Safe Haven Domestic Violence Shelters (Philadelphia)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 215-386-1280 / 24/7 Philadelphia DV Hotline: 1-866-723-3014",
+    "emergencyHotline": "1-866-723-3014",
+    "address": {
+      "en": "100 South Broad Street, Suite 1341, Philadelphia, PA 19110, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Women Against Abuse — Safe Haven Domestic Violence Shelters (Philadelphia) at 100 South Broad Street, Suite 1341, Philadelphia, PA 19110, United States. Tel: +1 215-386-1280 / 24/7 Philadelphia DV Hotline: 1-866-723-3014."
+    }
+  },
+  {
+    "id": "usa-tn-regional-one-memphis",
+    "regionDistrict": "Memphis, Tennessee, USA",
+    "type": "hospital",
+    "lat": 35.1419,
+    "lng": -90.0319,
+    "name": {
+      "en": "Regional One Health (Sheldon B. Korones Newborn Center — Memphis)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 901-545-7100",
+    "emergencyHotline": "911 / 1-800-356-6767 (TN DV Hotline)",
+    "address": {
+      "en": "877 Jefferson Avenue, Memphis, TN 38103, United States"
+    },
+    "services": {
+      "en": [
+        "High-Risk Obstetrics, Labor & Delivery & Mid-South Regional Perinatal Center",
+        "Obstetrics, Gynecology & Nurse-Midwifery"
+      ]
+    },
+    "directionsText": {
+      "en": "Regional One Health (Sheldon B. Korones Newborn Center — Memphis) at 877 Jefferson Avenue, Memphis, TN 38103, United States. Tel: +1 901-545-7100."
+    },
+    "pertinentCenters": {
+      "en": [
+        "High-Risk Obstetrics, Labor & Delivery & Mid-South Regional Perinatal Center",
+        "Obstetrics, Gynecology & Nurse-Midwifery"
+      ]
+    }
+  },
+  {
+    "id": "usa-tx-safe-alliance-austin",
+    "regionDistrict": "Austin, Texas, USA",
+    "type": "safe-haven",
+    "lat": 30.2308,
+    "lng": -97.6997,
+    "name": {
+      "en": "The SAFE Alliance (Stop Abuse For Everyone — Austin Women & Children’s Shelter)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 512-267-7233 (24/7 SAFEline)",
+    "emergencyHotline": "1-800-799-SAFE (7233)",
+    "address": {
+      "en": "1515 Grove Boulevard, Austin, TX 78741, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "The SAFE Alliance (Stop Abuse For Everyone — Austin Women & Children’s Shelter) at 1515 Grove Boulevard, Austin, TX 78741, United States. Tel: +1 512-267-7233 (24/7 SAFEline)."
+    }
+  },
+  {
+    "id": "usa-tx-mujeres-unidas-mcallen",
+    "regionDistrict": "McAllen (Rio Grande Valley), Texas, USA",
+    "type": "safe-haven",
+    "lat": 26.2086,
+    "lng": -98.2356,
+    "name": {
+      "en": "Mujeres Unidas / Women Together Foundation (McAllen Emergency Shelter)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s Safe Haven & Shelter"
+    },
+    "phone": "+1 956-630-4878 / 24/7 Crisis Line: 1-800-580-4879",
+    "emergencyHotline": "1-800-580-4879",
+    "address": {
+      "en": "511 North Cynthia Street, McAllen, TX 78501, United States"
+    },
+    "services": {
+      "en": [
+        "24/7 Confidential Women’s Safe Haven, Emergency Shelter & Crisis Support",
+        "Safety Planning, Legal Advocacy, Meals & Housing Assistance",
+        "Direct Medical Referral to Local Maternity & OB/GYN Hospitals"
+      ]
+    },
+    "directionsText": {
+      "en": "Mujeres Unidas / Women Together Foundation (McAllen Emergency Shelter) at 511 North Cynthia Street, McAllen, TX 78501, United States. Tel: +1 956-630-4878 / 24/7 Crisis Line: 1-800-580-4879."
+    }
+  },
+  {
+    "id": "usa-va-uva-health-charlottesville",
+    "regionDistrict": "Charlottesville, Virginia, USA",
+    "type": "hospital",
+    "lat": 38.0319,
+    "lng": -78.5006,
+    "name": {
+      "en": "UVA Health University Medical Center (Labor & Delivery — Charlottesville)"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 434-924-0000",
+    "emergencyHotline": "911 / 1-800-838-8238 (VA Family Violence Hotline)",
+    "address": {
+      "en": "1215 Lee Street, Charlottesville, VA 22903, United States"
+    },
+    "services": {
+      "en": [
+        "Labor & Delivery, High-Risk Maternal-Fetal Medicine, Midwifery & Level IV NICU",
+        "Department of Obstetrics and Gynecology"
+      ]
+    },
+    "directionsText": {
+      "en": "UVA Health University Medical Center (Labor & Delivery — Charlottesville) at 1215 Lee Street, Charlottesville, VA 22903, United States. Tel: +1 434-924-0000."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Labor & Delivery, High-Risk Maternal-Fetal Medicine, Midwifery & Level IV NICU",
+        "Department of Obstetrics and Gynecology"
+      ]
+    }
+  },
+  {
+    "id": "usa-va-sentara-norfolk",
+    "regionDistrict": "Norfolk, Virginia, USA",
+    "type": "hospital",
+    "lat": 36.8628,
+    "lng": -76.3025,
+    "name": {
+      "en": "Sentara Norfolk General Hospital"
+    },
+    "categoryBadge": {
+      "en": "24/7 Women’s, Maternity & OB/GYN Hospital"
+    },
+    "phone": "+1 757-388-3000",
+    "emergencyHotline": "911 / 1-800-838-8238 (VA Family Violence Hotline)",
+    "address": {
+      "en": "600 Gresham Drive, Norfolk, VA 23507, United States"
+    },
+    "services": {
+      "en": [
+        "Family Maternity Center, Eastern Virginia High-Risk Perinatal Center & Level III NICU",
+        "EVMS Maternal-Fetal Medicine & Obstetrics/Gynecology"
+      ]
+    },
+    "directionsText": {
+      "en": "Sentara Norfolk General Hospital at 600 Gresham Drive, Norfolk, VA 23507, United States. Tel: +1 757-388-3000."
+    },
+    "pertinentCenters": {
+      "en": [
+        "Family Maternity Center, Eastern Virginia High-Risk Perinatal Center & Level III NICU",
+        "EVMS Maternal-Fetal Medicine & Obstetrics/Gynecology"
+      ]
     }
   }
 ];

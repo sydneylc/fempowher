@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { PregHomePageButtons, renderSubpageBackButton } from './PregnancyHomePage.js?v=176';
+import { PregHomePageButtons, renderSubpageBackButton } from './PregnancyHomePage.js?v=201';
 
 const h = React.createElement;
 
@@ -22,7 +22,7 @@ export default function PreConceptionHomePage({
       id: 'thinking-about-baby',
       label: tr('preConBtnThinking', "I'm thinking about having a baby!"),
       targetPage: 'ThinkingAboutBabyHomePage',
-      gifSrc: '/assets/preconception-thinking.gif?v=176',
+      gifSrc: './assets/preconception-thinking.gif?v=201',
       // Tone 1: Warm Bright Orange (#FE980F) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#FE980F',
@@ -37,7 +37,7 @@ export default function PreConceptionHomePage({
       id: 'trying-to-have-baby',
       label: tr('preConBtnTrying', "I'm trying to have a baby!"),
       targetPage: 'TryingToHaveBabyHomePage',
-      gifSrc: '/assets/preconception-trying.gif?v=176',
+      gifSrc: './assets/preconception-trying.gif?v=201',
       // Positioned slightly lower so the South Asian woman's head fits comfortably across all screen sizes
       imgClassName: 'h-[98%] sm:h-[102%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: { transform: 'translateY(4%)' },
@@ -55,7 +55,7 @@ export default function PreConceptionHomePage({
       id: 'hard-time-getting-pregnant',
       label: tr('preConBtnHardTime', "I'm having a hard time getting pregnant!"),
       targetPage: 'HardTimeGettingPregnantHomePage',
-      gifSrc: '/assets/preconception-hard-time.gif?v=176',
+      gifSrc: './assets/preconception-hard-time.gif?v=201',
       // Tone 3: Vibrant Crimson Red (#FA053E) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#FA053E',

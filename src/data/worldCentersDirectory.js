@@ -490,6 +490,34 @@ export const WORLD_CENTERS_DIRECTORY = [
     }
   },
   {
+    "id": "usa-ma-east-boston-ruths-way",
+    "regionDistrict": "East Boston, Massachusetts, USA",
+    "type": "safe-haven",
+    "lat": 42.3905,
+    "lng": -71.0003,
+    "name": {
+      "en": "Ruth’s Way for Women (Women’s Recovery & Halfway House — East Boston)"
+    },
+    "categoryBadge": {
+      "en": "Women’s Halfway House & Recovery Safe Haven"
+    },
+    "phone": "+1 857-361-9913",
+    "emergencyHotline": "1-877-785-2020 (SafeLink MA)",
+    "address": {
+      "en": "23 Swan Avenue, East Boston, MA 02128, United States"
+    },
+    "services": {
+      "en": [
+        "Women’s Recovery Halfway House & Supportive Transitional Living",
+        "Trauma-Informed Women’s Support, Counseling & Reintegration",
+        "Direct Referral to Boston Medical Center & Local Women’s Health Clinics"
+      ]
+    },
+    "directionsText": {
+      "en": "Ruth’s Way for Women at 23 Swan Avenue, Orient Heights, East Boston, MA 02128. Tel: +1 857-361-9913 (Open until 8 PM)."
+    }
+  },
+  {
     "id": "usa-ma-cambridge-on-the-rise",
     "regionDistrict": "Cambridge, Massachusetts, USA",
     "type": "safe-haven",

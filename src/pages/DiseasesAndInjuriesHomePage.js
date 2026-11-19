@@ -3,7 +3,7 @@ import {
   MakingGifButtons1,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=212';
+} from './PregnancyHomePage.js?v=213';
 
 const h = React.createElement;
 
@@ -33,41 +33,62 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=212',
+      gifSrc: './assets/sexual-health-stds.gif?v=213',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-20px',
         marginRight: '-16px'
       },
-      // Tone 1: Creamy Apricot -> Soft Peach (#FFF3EB -> #FFD3C2)
+      // Tone 1: Deep Mulberry-Berry -> Rich Mulberry-Rose (#A62655 -> #C43E6E)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFF3EB 0%, #FFD3C2 100%)',
+        background: 'linear-gradient(180deg, #A62655 0%, #C43E6E 100%)',
         border: 'none'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: 'none'
+        color: '#FFFFFF',
+        textShadow: '0 1px 6px rgba(72, 10, 34, 0.5)'
       },
       subTextStyle: {
-        color: '#9F133A',
-        textShadow: 'none'
+        color: '#FFFFFF',
+        textShadow: '0 1px 6px rgba(72, 10, 34, 0.5)'
       }
     },
     {
       id: 'fistulas-diseases-banner-btn',
       label: tr('eduBtnFistulas', 'Fistulas'),
       targetPage: 'FistulasHomePage1',
-      gifSrc: './assets/diseases-fistulas.gif?v=212',
+      gifSrc: './assets/diseases-fistulas.gif?v=213',
       imgClassName:
         'h-[126%] sm:h-[134%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-86px',
         marginRight: '-86px'
       },
-      // Tone 2: Soft Peach -> Warm Coral (#FFD3C2 -> #FA9690)
+      // Tone 2: Rich Mulberry-Rose -> Warm Coral (#C43E6E -> #FA9690)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFD3C2 0%, #FA9690 100%)',
+        background: 'linear-gradient(180deg, #C43E6E 0%, #FA9690 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 1px 6px rgba(138, 28, 56, 0.45)'
+      }
+    },
+    {
+      id: 'fibroids-diseases-banner-btn',
+      label: tr('eduBtnFibroids', 'Fibroids'),
+      targetPage: 'FibroidsHomePage1',
+      gifSrc: './assets/diseases-fibroids.gif?v=213',
+      imgClassName:
+        'h-[154%] sm:h-[164%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-88px',
+        marginRight: '-68px'
+      },
+      // Tone 3: Warm Coral -> Soft Peach (#FA9690 -> #FFD3C2)
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #FA9690 0%, #FFD3C2 100%)',
         border: 'none'
       },
       textStyle: {
@@ -76,45 +97,24 @@ export default function DiseasesAndInjuriesHomePage({
       }
     },
     {
-      id: 'fibroids-diseases-banner-btn',
-      label: tr('eduBtnFibroids', 'Fibroids'),
-      targetPage: 'FibroidsHomePage1',
-      gifSrc: './assets/diseases-fibroids.gif?v=212',
-      imgClassName:
-        'h-[154%] sm:h-[164%] w-auto max-w-none object-contain select-none pointer-events-none',
-      imgStyle: {
-        marginLeft: '-88px',
-        marginRight: '-68px'
-      },
-      // Tone 3: Warm Coral -> Rich Mulberry-Rose (#FA9690 -> #C43E6E)
-      backgroundStyle: {
-        background: 'linear-gradient(180deg, #FA9690 0%, #C43E6E 100%)',
-        border: 'none'
-      },
-      textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 1px 6px rgba(138, 28, 56, 0.42)'
-      }
-    },
-    {
       id: 'prolapse-diseases-banner-btn',
       label: tr('eduBtnProlapse', 'Prolapse'),
       targetPage: 'ProlapseHomePage1',
-      gifSrc: './assets/diseases-prolapse.gif?v=212',
+      gifSrc: './assets/diseases-prolapse.gif?v=213',
       imgClassName:
         'h-[148%] sm:h-[158%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-86px',
         marginRight: '-86px'
       },
-      // Tone 4: Rich Mulberry-Rose -> Deep Mulberry-Berry (#C43E6E -> #A62655)
+      // Tone 4: Soft Peach -> Creamy Apricot (#FFD3C2 -> #FFF3EB)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #C43E6E 0%, #A62655 100%)',
+        background: 'linear-gradient(180deg, #FFD3C2 0%, #FFF3EB 100%)',
         border: 'none'
       },
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 1px 6px rgba(92, 16, 45, 0.5)'
+        color: '#9F133A',
+        textShadow: 'none'
       }
     }
   ];

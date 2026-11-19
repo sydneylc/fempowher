@@ -1,5 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=212';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=213';
+import {
+  renderBurningUrinationCartoonSvg,
+  renderClinicInjectionCartoonSvg,
+  renderMotherHoldingNewbornSvg,
+  renderPregnantLadyHeadingIcon,
+  renderUterusFallopianPidCartoonSvg
+} from './FlyerCartoonIllustrations.js?v=213';
 
 export default function GonorrheaHomePage1({
   onBack,
@@ -33,24 +40,29 @@ export default function GonorrheaHomePage1({
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
+      graphic: renderClinicInjectionCartoonSvg(),
       body:
         'Because Gonorrhea has developed resistance to many older oral antibiotics around the world, standard medical treatment is a single intramuscular antibiotic injection (usually ceftriaxone) given at a clinic or hospital, sometimes paired with oral antibiotics if Chlamydia is also present. Visit an OB/GYN clinic, public health clinic, or hospital on the FemPowHer map for testing and the proper injection. Never rely on leftover household antibiotic pills, and make sure your partner(s) are treated before resuming sex.'
     },
     {
       id: 'when-not-treated',
       heading: 'What Happens When You Do Not Treat (Long-Term)',
+      graphic: renderUterusFallopianPidCartoonSvg(),
       body:
         'Left untreated, Gonorrhea ascends into the uterus and Fallopian tubes to cause severe Pelvic Inflammatory Disease (PID), internal pelvic abscesses, chronic pelvic pain, scarring that blocks the Fallopian tubes (causing infertility or ectopic pregnancy), and in rare cases can enter the bloodstream to cause Disseminated Gonococcal Infection (DGI) with fever, skin lesions, and swollen, painful joints.'
     },
     {
       id: 'manifest-in-male',
       heading: 'How It Will Manifest in a Male',
+      graphic: renderBurningUrinationCartoonSvg(),
       body:
         'Unlike women, most men infected with Gonorrhea develop noticeable symptoms within 2 to 7 days of exposure, although some men remain asymptomatic carriers. Men typically experience a sharp burning sensation when urinating (often described as "peeing glass"), a white, yellow, or green pus-like discharge from the tip of the penis, and sometimes painful or swollen testicles.'
     },
     {
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy',
+      headingIcon: renderPregnantLadyHeadingIcon('#C9EBFF'),
+      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'Untreated Gonorrhea during pregnancy is linked to miscarriage, premature rupture of membranes, chorioamnionitis (infection of the amniotic sac), preterm birth, and postpartum uterine infection. If passed to the newborn’s eyes during childbirth, Gonorrhea causes a severe eye infection (ophthalmia neonatorum) that can damage vision if not prevented with routine newborn antibiotic eye ointment and maternal prenatal treatment.'
     },
@@ -65,8 +77,8 @@ export default function GonorrheaHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'GonorrheaHomePage1',
     title: tr('eduBtnGonorrhea', 'Gonorrhea'),
-    gifSrc: './assets/std-gonorrhea.gif?v=212',
-    // Bright Dock-Icon Keynote Sky-Azure Blue background (#1E9EFE -> #0D70EB)
+    gifSrc: './assets/std-gonorrhea.gif?v=213',
+    // Bright Dock-Icon Keynote Sky-Azure Blue background (#22A2FE -> #0D6FE8)
     bgGradient: 'linear-gradient(180deg, #22A2FE 0%, #0D6FE8 100%)',
     bgColor: '#1586F4',
     // White mixed with the sky-blue background for bolded section titles

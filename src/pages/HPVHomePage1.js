@@ -1,5 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=212';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=213';
+import {
+  renderCervixPapScreenCartoonSvg,
+  renderMotherHoldingNewbornSvg,
+  renderPregnantLadyHeadingIcon,
+  renderSilentInfectionCartoonSvg,
+  renderVaccineShieldCartoonSvg
+} from './FlyerCartoonIllustrations.js?v=213';
 
 export default function HPVHomePage1({
   onBack,
@@ -27,12 +34,14 @@ export default function HPVHomePage1({
     {
       id: 'signs-and-symptoms',
       heading: 'Signs and Symptoms',
+      graphic: renderSilentInfectionCartoonSvg(),
       body:
         'In the vast majority of women, HPV causes no visible signs or physical discomfort at all, and the body’s immune system clears the virus naturally within 12 to 24 months. When low-risk HPV causes symptoms, they appear as small, soft, flesh-colored or pinkish bumps, either flat or shaped like tiny cauliflowers (genital warts), on the vulva, inside the vagina, on the cervix, or around the anus. High-risk HPV cell changes on the cervix are completely painless and invisible to the naked eye until advanced stages, which may cause bleeding after sex or between menstrual periods.'
     },
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
+      graphic: renderCervixPapScreenCartoonSvg(),
       body:
         'While there is no pill that directly kills the HPV virus itself, every manifestation of HPV is highly treatable at an OB/GYN clinic, community women’s health center, or hospital. Genital warts can be removed with prescription topical creams, freezing (cryotherapy), or minor clinic procedures. Precancerous cervical cell changes found on a Pap smear or HPV test are safely removed with a quick outpatient procedure (such as cryotherapy, thermal ablation, or a LEEP procedure) before they can ever turn into cervical cancer.'
     },
@@ -51,12 +60,15 @@ export default function HPVHomePage1({
     {
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy',
+      headingIcon: renderPregnantLadyHeadingIcon('#FFE5BD'),
+      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'Having HPV does not usually prevent a woman from having a healthy pregnancy and safe vaginal delivery. Hormonal changes during pregnancy can sometimes cause existing genital warts to grow faster, which a doctor can monitor or safely treat if they obstruct the birth canal. Transmission of HPV to a baby during delivery is very rare, and when it does occur, the infant’s immune system almost always clears the virus on its own.'
     },
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
+      graphic: renderVaccineShieldCartoonSvg(),
       body:
         'Ask your nearest women’s health clinic about getting the HPV vaccine (which prevents over 90% of HPV-related cervical cancers and genital warts) and schedule routine cervical screening (a Pap smear or HPV swab) every 3 to 5 years, even if you feel completely healthy. Using condoms lowers the chance of HPV transmission, and avoiding tobacco smoke helps your immune system clear HPV much faster.'
     }
@@ -65,8 +77,8 @@ export default function HPVHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'HPVHomePage1',
     title: tr('eduBtnHPV', 'HPV'),
-    gifSrc: './assets/std-hpv.gif?v=212',
-    // Bright Dock-Icon Pages Tangerine-Amber Orange background (#FF9D1A -> #ED7605)
+    gifSrc: './assets/std-hpv.gif?v=213',
+    // Bright Dock-Icon Pages Tangerine-Amber Orange background (#FF9E18 -> #E87000)
     bgGradient: 'linear-gradient(180deg, #FF9E18 0%, #E87000 100%)',
     bgColor: '#F28508',
     // White mixed with the orange background for bolded section titles

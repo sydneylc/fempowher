@@ -1,13 +1,20 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=212';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=213';
+import {
+  renderMaleBladderUrethraCartoonSvg,
+  renderMotherHoldingNewbornSvg,
+  renderPartnerPillsCartoonSvg,
+  renderPregnantLadyHeadingIcon
+} from './FlyerCartoonIllustrations.js?v=213';
 
 const h = React.createElement;
 
-// Shared Full-Bleed Bright Flyer Layout for STD Education Pages
+// Shared Full-Bleed Bright Flyer Layout for STD & Reproductive Disease Education Pages
 // - Vivid dock-icon background color (no rounded-corner white/pink bubble cards)
 // - Animated transparent character GIF floating directly on the colored background
-// - Bolded section titles in white mixed with the background color
-// - Pure white paragraph/sentence writing underneath (no bullet points)
+// - Bolded section titles in white mixed with the background color (plus optional inline headingIcon)
+// - Pure white paragraph/sentence writing underneath (no bullet points, no long hyphens)
+// - Custom flat-vector cartoon illustrations alongside 3 to 4 sections on every page
 export function renderBrightStdFlyerPage({
   pageId,
   title,
@@ -15,7 +22,6 @@ export function renderBrightStdFlyerPage({
   bgGradient,
   bgColor,
   titleTintColor,
-  dividerColor = 'rgba(255, 255, 255, 0.35)',
   extraGraphic = null,
   sections = [],
   onBack,
@@ -116,12 +122,13 @@ export function renderBrightStdFlyerPage({
           })
       ),
 
-      // Flowing Flyer Sections: Bolded Tinted-White Titles + Pure White Paragraphs (Zero Bullets, Zero Bubbles, Zero Divider Lines)
+      // Flowing Flyer Sections: Bolded Tinted-White Titles + Pure White Paragraphs + Custom Cartoon Illustrations
       h(
         'div',
         { className: 'space-y-6' },
-        sections.map((sec, idx) =>
-          h(
+        sections.map((sec, idx) => {
+          const sectionGraphic = sec.graphic || (sec.withGraphic ? extraGraphic : null);
+          return h(
             'div',
             {
               key: sec.id || idx,
@@ -130,8 +137,8 @@ export function renderBrightStdFlyerPage({
             h(
               'div',
               {
-                className: sec.withGraphic
-                  ? 'flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4'
+                className: sectionGraphic
+                  ? 'flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5'
                   : 'block'
               },
               h(
@@ -140,13 +147,14 @@ export function renderBrightStdFlyerPage({
                 h(
                   'h2',
                   {
-                    className: 'text-xl sm:text-2xl font-black tracking-tight mb-2',
+                    className: 'text-xl sm:text-2xl font-black tracking-tight mb-2 flex items-center gap-2.5 flex-wrap',
                     style: {
                       color: titleTintColor || '#FFD4DC',
                       textShadow: '0 1px 6px rgba(0, 0, 0, 0.22)'
                     }
                   },
-                  sec.heading
+                  h('span', null, sec.heading),
+                  sec.headingIcon || null
                 ),
                 h(
                   'p',
@@ -157,13 +165,13 @@ export function renderBrightStdFlyerPage({
                   sec.body
                 )
               ),
-              sec.withGraphic && extraGraphic
+              sectionGraphic
             )
-          )
-        )
+          );
+        })
       ),
 
-      // Bottom Direct Action Link (No Bubble Box, Clean Flat Flyer Link to Nearest Clinic on Map)
+      // Bottom Direct Action Link (Clean Flat Flyer Link to Nearest Clinic on Map)
       typeof onShowNearestClinic === 'function' &&
         h(
           'div',
@@ -189,7 +197,7 @@ export function renderBrightStdFlyerPage({
 }
 
 // Cute flat blue fish illustration matching the WHO Trichomonas flyer
-function renderCuteFlyerFishSvg() {
+export function renderCuteFlyerFishSvg() {
   return h(
     'svg',
     {
@@ -268,13 +276,14 @@ export default function TrichomonasHomePage1({
     {
       id: 'signs-and-symptoms',
       heading: 'Signs and Symptoms',
-      withGraphic: true,
+      graphic: renderCuteFlyerFishSvg(),
       body:
         'About 70% of people infected with Trichomonas do not notice any signs at first, or symptoms may appear 5 to 28 days after exposure. When symptoms occur in women, they typically include a thin or frothy vaginal discharge that may look yellow, green, or gray and often carries a distinct fishy smell. The vagina and outer lips (vulva) may feel red, raw, swollen, and intensely itchy, accompanied by burning or pain when urinating or during sexual intercourse.'
     },
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
+      graphic: renderPartnerPillsCartoonSvg(),
       body:
         'Trichomonas is cured with prescription oral antibiotic medication, specifically metronidazole or tinidazole tablets, taken either as a single dose or over 7 days. You can get tested and treated at any OB/GYN clinic, public sexual health clinic, community health center, or maternity hospital on the FemPowHer map. Both you and your sexual partner(s) must take the antibiotic treatment at the same time and wait at least 7 days after finishing the medication before having sex again so the parasite is not passed back and forth.'
     },
@@ -287,12 +296,15 @@ export default function TrichomonasHomePage1({
     {
       id: 'manifest-in-male',
       heading: 'How It Will Manifest in a Male',
+      graphic: renderMaleBladderUrethraCartoonSvg(),
       body:
         'Most men with Trichomonas have no symptoms at all and do not realize they are carrying and transmitting the parasite to their female partners. When men do develop symptoms, they experience itching or irritation inside the penis, an inflamed urethra (urethritis), a mild clear or whitish penile discharge, and burning during urination or after ejaculation.'
     },
     {
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy',
+      headingIcon: renderPregnantLadyHeadingIcon('#FFC4CB'),
+      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'Pregnant women with untreated Trichomonas have a higher risk of premature rupture of membranes (the water breaking too early), preterm labor (delivering before 37 weeks), and having a baby born with a low birth weight. In rare cases, the baby can pick up the infection while passing through the birth canal. Tell your midwife or doctor if you notice unusual discharge during pregnancy so you can receive safe prenatal antibiotic treatment.'
     },
@@ -307,13 +319,12 @@ export default function TrichomonasHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'TrichomonasHomePage1',
     title: tr('eduBtnTrichomonas', 'Trichomonas'),
-    gifSrc: './assets/std-trichomonas.gif?v=212',
-    // Bright Apple-Music / WHO Flyer Red-Coral background (#E82534 -> #D61B2A)
+    gifSrc: './assets/std-trichomonas.gif?v=213',
+    // Bright Apple-Music / WHO Flyer Red-Coral background (#F42B3E -> #DA1C2E)
     bgGradient: 'linear-gradient(180deg, #F42B3E 0%, #DA1C2E 100%)',
     bgColor: '#E62235',
     // White mixed with the red background for bolded section titles
     titleTintColor: '#FFC4CB',
-    extraGraphic: renderCuteFlyerFishSvg(),
     sections,
     onBack,
     onShowNearestClinic,

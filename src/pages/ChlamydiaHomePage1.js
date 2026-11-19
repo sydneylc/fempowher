@@ -1,5 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=212';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=213';
+import {
+  renderMotherHoldingNewbornSvg,
+  renderPartnerPillsCartoonSvg,
+  renderPregnantLadyHeadingIcon,
+  renderSilentInfectionCartoonSvg,
+  renderUterusFallopianPidCartoonSvg
+} from './FlyerCartoonIllustrations.js?v=213';
 
 export default function ChlamydiaHomePage1({
   onBack,
@@ -27,18 +34,21 @@ export default function ChlamydiaHomePage1({
     {
       id: 'signs-and-symptoms',
       heading: 'Signs and Symptoms',
+      graphic: renderSilentInfectionCartoonSvg(),
       body:
         'Chlamydia is widely known to doctors as a "silent infection" because roughly 70% to 80% of women with Chlamydia feel no symptoms at all. When signs do appear, usually 1 to 3 weeks after exposure, they include an abnormal yellowish or mucoid vaginal discharge coming from an inflamed cervix, a burning sensation when urinating, bleeding or spotting between menstrual periods or after sex, and dull lower abdominal or pelvic pain.'
     },
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
+      graphic: renderPartnerPillsCartoonSvg(),
       body:
         'Chlamydia is 100% curable with a short course of prescription oral antibiotics, typically doxycycline taken twice daily for 7 days, or a single prescribed dose of azithromycin (especially during pregnancy). You can be tested with a simple urine sample or gentle vaginal swab at any local OB/GYN clinic, family planning center, or hospital on your FemPowHer map. Both you and your sexual partner(s) must complete antibiotic treatment and wait 7 full days before having sex again.'
     },
     {
       id: 'when-not-treated',
       heading: 'What Happens When You Do Not Treat (Long-Term)',
+      graphic: renderUterusFallopianPidCartoonSvg(),
       body:
         'Because Chlamydia is often silent, untreated bacteria can travel upward from the cervix into the uterus and Fallopian tubes, causing Pelvic Inflammatory Disease (PID). Over time, PID can silently form scar tissue and adhesions inside the Fallopian tubes, leading to chronic pelvic pain, tubal infertility (difficulty getting pregnant), or a life-threatening ectopic pregnancy (where a fertilized egg gets trapped in a scarred Fallopian tube).'
     },
@@ -51,6 +61,8 @@ export default function ChlamydiaHomePage1({
     {
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy',
+      headingIcon: renderPregnantLadyHeadingIcon('#C9FFD0'),
+      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'Untreated Chlamydia during pregnancy increases the risk of preterm membrane rupture, early labor, and low birth weight. In addition, a baby passing through an infected birth canal during vaginal delivery can develop a Chlamydia eye infection (neonatal conjunctivitis) or infant pneumonia within the first weeks of life. Routine prenatal screening and safe antibiotic treatment during pregnancy completely protect both mother and baby.'
     },
@@ -65,8 +77,8 @@ export default function ChlamydiaHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'ChlamydiaHomePage1',
     title: tr('eduBtnChlamydia', 'Chlamydia'),
-    gifSrc: './assets/std-chlamydia.gif?v=212',
-    // Bright Dock-Icon Numbers Vivid Emerald-Lime Green background (#1FC72E -> #12A820)
+    gifSrc: './assets/std-chlamydia.gif?v=213',
+    // Bright Dock-Icon Numbers Vivid Emerald-Lime Green background (#25CB35 -> #12A620)
     bgGradient: 'linear-gradient(180deg, #25CB35 0%, #12A620 100%)',
     bgColor: '#1BB82A',
     // White mixed with the green background for bolded section titles

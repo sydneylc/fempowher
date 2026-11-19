@@ -1,12 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=213';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
 import {
-  renderMaleBladderUrethraCartoonSvg,
-  renderMotherHoldingNewbornSvg,
+  renderKegelExerciseTimerCartoonSvg,
   renderPelvicPessaryRingCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=213';
+} from './FlyerCartoonIllustrations.js?v=214';
 
 export default function ProlapseHomePage1({
   onBack,
@@ -35,7 +34,6 @@ export default function ProlapseHomePage1({
     {
       id: 'signs-and-symptoms',
       heading: 'Signs and Symptoms',
-      graphic: renderMaleBladderUrethraCartoonSvg(),
       body:
         'Women with pelvic organ prolapse typically notice a feeling of heaviness, pulling, or fullness in the lower pelvis or vagina (often described as feeling like you are sitting on a small ball), especially at the end of the day or after standing and lifting. You may see or feel a soft bulge of tissue near the vaginal opening, experience leaking of urine when coughing or lifting, or have difficulty emptying the bladder or bowel completely without changing position.'
     },
@@ -62,13 +60,13 @@ export default function ProlapseHomePage1({
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy and Childbirth',
       headingIcon: renderPregnantLadyHeadingIcon('#E9D5FF'),
-      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'Difficult or prolonged vaginal deliveries are the most common cause of pelvic floor stretching later in life, and existing mild prolapse can feel heavier during pregnancy as the baby grows. Doing daily pelvic floor exercises during pregnancy and after childbirth, spacing pregnancies so your body can recover, and discussing delivery options with your midwife or obstetrician help protect your pelvic support.'
     },
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
+      graphic: renderKegelExerciseTimerCartoonSvg(),
       body:
         'Practice daily Kegel exercises by gently squeezing and lifting the muscles you would use to stop the flow of urine, holding for 5 seconds and relaxing for 5 seconds, 10 times in a row, three times a day. Drink plenty of water and eat fiber-rich foods so you never have to strain during bowel movements, avoid lifting heavy objects whenever possible, and visit a local OB/GYN clinic to ask about a pessary support ring or pelvic floor care.'
     }
@@ -77,7 +75,7 @@ export default function ProlapseHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'ProlapseHomePage1',
     title: tr('eduBtnProlapse', 'Prolapse'),
-    gifSrc: './assets/diseases-prolapse.gif?v=213',
+    gifSrc: './assets/diseases-prolapse.gif?v=214',
     // Bright Royal Purple-Violet background (#8B2CF5 -> #6818C4)
     bgGradient: 'linear-gradient(180deg, #8E2FF7 0%, #6817C2 100%)',
     bgColor: '#7B23DC',

@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=213';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
 import {
-  renderMotherHoldingNewbornSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderSilentInfectionCartoonSvg,
+  renderThreeMonthRetestCalendarSvg,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=213';
+} from './FlyerCartoonIllustrations.js?v=214';
 
 export default function ChlamydiaHomePage1({
   onBack,
@@ -62,13 +62,13 @@ export default function ChlamydiaHomePage1({
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy',
       headingIcon: renderPregnantLadyHeadingIcon('#C9FFD0'),
-      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'Untreated Chlamydia during pregnancy increases the risk of preterm membrane rupture, early labor, and low birth weight. In addition, a baby passing through an infected birth canal during vaginal delivery can develop a Chlamydia eye infection (neonatal conjunctivitis) or infant pneumonia within the first weeks of life. Routine prenatal screening and safe antibiotic treatment during pregnancy completely protect both mother and baby.'
     },
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
+      graphic: renderThreeMonthRetestCalendarSvg(),
       body:
         'If you have a new partner, notice spotting after sex or unusual discharge, or have not had an STI screening this year, visit a local clinic for a quick urine or swab test. Take the entire antibiotic course prescribed, help your partner get treated at the same time, and return for a repeat test 3 months after treatment to make sure you have not been re-exposed.'
     }
@@ -77,7 +77,7 @@ export default function ChlamydiaHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'ChlamydiaHomePage1',
     title: tr('eduBtnChlamydia', 'Chlamydia'),
-    gifSrc: './assets/std-chlamydia.gif?v=213',
+    gifSrc: './assets/std-chlamydia.gif?v=214',
     // Bright Dock-Icon Numbers Vivid Emerald-Lime Green background (#25CB35 -> #12A620)
     bgGradient: 'linear-gradient(180deg, #25CB35 0%, #12A620 100%)',
     bgColor: '#1BB82A',

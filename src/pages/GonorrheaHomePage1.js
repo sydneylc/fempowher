@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=213';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
 import {
   renderBurningUrinationCartoonSvg,
   renderClinicInjectionCartoonSvg,
-  renderMotherHoldingNewbornSvg,
+  renderDiplococciMicroscopeCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=213';
+} from './FlyerCartoonIllustrations.js?v=214';
 
 export default function GonorrheaHomePage1({
   onBack,
@@ -28,6 +28,7 @@ export default function GonorrheaHomePage1({
     {
       id: 'what-is',
       heading: 'What is Gonorrhea?',
+      graphic: renderDiplococciMicroscopeCartoonSvg(),
       body:
         'Gonorrhea is a common, curable bacterial sexually transmitted infection caused by Neisseria gonorrhoeae, which are microscopic kidney-bean-shaped bacteria that grow in pairs (diplococci) and thrive in warm, moist areas of the reproductive tract. It spreads through vaginal, anal, or oral sexual contact and can infect the cervix, uterus, Fallopian tubes, urethra, throat, eyes, and rectum.'
     },
@@ -62,7 +63,6 @@ export default function GonorrheaHomePage1({
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy',
       headingIcon: renderPregnantLadyHeadingIcon('#C9EBFF'),
-      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'Untreated Gonorrhea during pregnancy is linked to miscarriage, premature rupture of membranes, chorioamnionitis (infection of the amniotic sac), preterm birth, and postpartum uterine infection. If passed to the newborn’s eyes during childbirth, Gonorrhea causes a severe eye infection (ophthalmia neonatorum) that can damage vision if not prevented with routine newborn antibiotic eye ointment and maternal prenatal treatment.'
     },
@@ -77,7 +77,7 @@ export default function GonorrheaHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'GonorrheaHomePage1',
     title: tr('eduBtnGonorrhea', 'Gonorrhea'),
-    gifSrc: './assets/std-gonorrhea.gif?v=213',
+    gifSrc: './assets/std-gonorrhea.gif?v=214',
     // Bright Dock-Icon Keynote Sky-Azure Blue background (#22A2FE -> #0D6FE8)
     bgGradient: 'linear-gradient(180deg, #22A2FE 0%, #0D6FE8 100%)',
     bgColor: '#1586F4',

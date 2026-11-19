@@ -1,12 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=213';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
 import {
+  renderCleanWaterHydrationCartoonSvg,
   renderFistulaHealingRepairCartoonSvg,
   renderMaleBladderUrethraCartoonSvg,
-  renderMotherHoldingNewbornSvg,
-  renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=213';
+} from './FlyerCartoonIllustrations.js?v=214';
 
 export default function FistulasHomePage1({
   onBack,
@@ -54,7 +53,6 @@ export default function FistulasHomePage1({
     {
       id: 'manifest-in-partner',
       heading: 'How Partners and Families Can Support Healing',
-      graphic: renderPartnerPillsCartoonSvg(),
       body:
         'A fistula is not contagious and cannot be passed to a husband or partner. Partners and family members play a critical role by rejecting social stigma, helping the woman travel to a hospital or specialized fistula center, supporting her hydration and hygiene at home, and following the surgeon’s instructions to wait until the vaginal tissue is completely healed after repair surgery before resuming sexual intercourse.'
     },
@@ -62,13 +60,13 @@ export default function FistulasHomePage1({
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy and Future Childbirth',
       headingIcon: renderPregnantLadyHeadingIcon('#FFC7DC'),
-      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'After successful fistula repair surgery, many women go on to have healthy future pregnancies and healthy babies. To protect the surgically repaired tissue between the birth canal and bladder from tearing open again during labor, doctors recommend early prenatal visits and delivering any future baby by planned Cesarean section at a well-equipped maternity hospital.'
     },
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
+      graphic: renderCleanWaterHydrationCartoonSvg(),
       body:
         'If you notice continuous leaking of urine or stool after childbirth, do not restrict drinking water. Instead, drink plenty of clean water every day to keep your urine diluted and prevent kidney infections and skin burning. Wash gently with clean warm water, protect irritated skin with a gentle barrier ointment if available, and use the FemPowHer map to connect with the nearest Women’s Hospital or Fistula Care Center.'
     }
@@ -77,7 +75,7 @@ export default function FistulasHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'FistulasHomePage1',
     title: tr('eduBtnFistulas', 'Fistulas'),
-    gifSrc: './assets/diseases-fistulas.gif?v=213',
+    gifSrc: './assets/diseases-fistulas.gif?v=214',
     // Bright Berry-Rose background (#E6225B -> #C61349)
     bgGradient: 'linear-gradient(180deg, #ED2762 0%, #C7144A 100%)',
     bgColor: '#D91E55',

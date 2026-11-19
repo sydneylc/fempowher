@@ -1,12 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=213';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
 import {
   renderCervixPapScreenCartoonSvg,
-  renderMotherHoldingNewbornSvg,
   renderPregnantLadyHeadingIcon,
   renderSilentInfectionCartoonSvg,
   renderVaccineShieldCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=213';
+} from './FlyerCartoonIllustrations.js?v=214';
 
 export default function HPVHomePage1({
   onBack,
@@ -61,7 +60,6 @@ export default function HPVHomePage1({
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy',
       headingIcon: renderPregnantLadyHeadingIcon('#FFE5BD'),
-      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'Having HPV does not usually prevent a woman from having a healthy pregnancy and safe vaginal delivery. Hormonal changes during pregnancy can sometimes cause existing genital warts to grow faster, which a doctor can monitor or safely treat if they obstruct the birth canal. Transmission of HPV to a baby during delivery is very rare, and when it does occur, the infant’s immune system almost always clears the virus on its own.'
     },
@@ -77,7 +75,7 @@ export default function HPVHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'HPVHomePage1',
     title: tr('eduBtnHPV', 'HPV'),
-    gifSrc: './assets/std-hpv.gif?v=213',
+    gifSrc: './assets/std-hpv.gif?v=214',
     // Bright Dock-Icon Pages Tangerine-Amber Orange background (#FF9E18 -> #E87000)
     bgGradient: 'linear-gradient(180deg, #FF9E18 0%, #E87000 100%)',
     bgColor: '#F28508',

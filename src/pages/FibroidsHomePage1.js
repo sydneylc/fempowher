@@ -1,12 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=213';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
 import {
   renderCervixPapScreenCartoonSvg,
   renderFibroidsUterusDiagramSvg,
   renderIronRichCareCartoonSvg,
-  renderMotherHoldingNewbornSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=213';
+} from './FlyerCartoonIllustrations.js?v=214';
 
 export default function FibroidsHomePage1({
   onBack,
@@ -62,7 +61,6 @@ export default function FibroidsHomePage1({
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy',
       headingIcon: renderPregnantLadyHeadingIcon('#FFD2CC'),
-      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'Most women with fibroids have completely normal pregnancies, though submucosal fibroids that distort the inside of the uterine cavity can sometimes make it harder for a fertilized egg to implant or slightly increase the risk of miscarriage, breech positioning, or Cesarean delivery. Sometimes pregnancy hormones cause a fibroid to grow quickly and outgrow its blood supply (red degeneration), causing temporary localized pain that your obstetrician can safely manage with rest and prenatal care.'
     },
@@ -77,7 +75,7 @@ export default function FibroidsHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'FibroidsHomePage1',
     title: tr('eduBtnFibroids', 'Fibroids'),
-    gifSrc: './assets/diseases-fibroids.gif?v=213',
+    gifSrc: './assets/diseases-fibroids.gif?v=214',
     // Bright Warm Scarlet-Terracotta background (#F04330 -> #C92616)
     bgGradient: 'linear-gradient(180deg, #F04330 0%, #C92616 100%)',
     bgColor: '#DC3422',

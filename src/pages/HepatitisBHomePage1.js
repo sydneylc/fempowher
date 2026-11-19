@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=213';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
 import {
   renderHealthyLiverShieldCartoonSvg,
   renderJaundiceManCartoonSvg,
   renderMotherHoldingNewbornSvg,
   renderPregnantLadyHeadingIcon,
   renderVaccineShieldCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=213';
+} from './FlyerCartoonIllustrations.js?v=214';
 
 export default function HepatitisBHomePage1({
   onBack,
@@ -77,7 +77,7 @@ export default function HepatitisBHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'HepatitisBHomePage1',
     title: tr('eduBtnHepatitisB', 'Hepatitis B'),
-    gifSrc: './assets/std-hepatitis-b.gif?v=213',
+    gifSrc: './assets/std-hepatitis-b.gif?v=214',
     // Bright Dock-Icon App Store Royal-Cobalt Blue background (#1B7BFE -> #0B4FD8)
     bgGradient: 'linear-gradient(180deg, #1B7BFE 0%, #0B4FD8 100%)',
     bgColor: '#1264EC',

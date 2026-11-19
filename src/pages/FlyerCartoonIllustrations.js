@@ -861,3 +861,187 @@ export function renderPelvicPessaryRingCartoonSvg() {
     )
   );
 }
+
+// 17. Swab Test Tube & No-Alcohol With Metronidazole Cartoon (for Trichomonas What You Can Do Today)
+export function renderSwabAndNoAlcoholCartoonSvg() {
+  return h(
+    'svg',
+    {
+      viewBox: '0 0 185 145',
+      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      'aria-hidden': 'true'
+    },
+    // Clinic swab test tube on left
+    h('rect', { x: '36', y: '24', width: '26', height: '82', rx: '13', fill: '#FFFFFF', opacity: '0.92' }),
+    h('rect', { x: '33', y: '18', width: '32', height: '10', rx: '4', fill: '#38BDF8' }),
+    h('line', { x1: '49', y1: '28', x2: '49', y2: '82', stroke: '#F59E0B', strokeWidth: '3', strokeLinecap: 'round' }),
+    h('ellipse', { cx: '49', cy: '86', rx: '6', ry: '9', fill: '#FDA4AF' }),
+    // Crossed-out wine/alcohol glass on right (avoid alcohol while taking metronidazole)
+    h('circle', { cx: '124', cy: '62', r: '34', fill: 'rgba(0,0,0,0.22)', stroke: '#FFE047', strokeWidth: '4' }),
+    h('path', { d: 'M112 42 L136 42 L132 62 C130 70, 118 70, 116 62 Z', fill: '#FFFFFF' }),
+    h('line', { x1: '124', y1: '68', x2: '124', y2: '84', stroke: '#FFFFFF', strokeWidth: '3.5' }),
+    h('line', { x1: '114', y1: '84', x2: '134', y2: '84', stroke: '#FFFFFF', strokeWidth: '3.5', strokeLinecap: 'round' }),
+    h('line', { x1: '101', y1: '39', x2: '147', y2: '85', stroke: '#FFE047', strokeWidth: '4.5', strokeLinecap: 'round' }),
+    // Label banner
+    h('rect', { x: '12', y: '117', width: '161', height: '21', rx: '10.5', fill: 'rgba(0,0,0,0.28)' }),
+    h(
+      'text',
+      {
+        x: '92.5',
+        y: '131.5',
+        textAnchor: 'middle',
+        fill: '#FFFFFF',
+        fontSize: '10',
+        fontWeight: '900',
+        letterSpacing: '0.7'
+      },
+      'SWAB TEST & NO ALCOHOL'
+    )
+  );
+}
+
+// 18. Paired Kidney-Bean Diplococci Microscope Cartoon (for Gonorrhea What is Gonorrhea?)
+export function renderDiplococciMicroscopeCartoonSvg() {
+  return h(
+    'svg',
+    {
+      viewBox: '0 0 185 145',
+      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      'aria-hidden': 'true'
+    },
+    // Microscope view circle
+    h('circle', { cx: '92.5', cy: '58', r: '44', fill: '#E0F2FE', stroke: '#FFFFFF', strokeWidth: '5' }),
+    // Pair 1 of kidney-bean diplococci
+    h('ellipse', { cx: '72', cy: '48', rx: '11', ry: '7', transform: 'rotate(-25 72 48)', fill: '#EC4899' }),
+    h('ellipse', { cx: '83', cy: '55', rx: '11', ry: '7', transform: 'rotate(-25 83 55)', fill: '#DB2777' }),
+    // Pair 2 of kidney-bean diplococci
+    h('ellipse', { cx: '106', cy: '62', rx: '11', ry: '7', transform: 'rotate(20 106 62)', fill: '#EC4899' }),
+    h('ellipse', { cx: '114', cy: '51', rx: '11', ry: '7', transform: 'rotate(20 114 51)', fill: '#DB2777' }),
+    // Pair 3
+    h('ellipse', { cx: '84', cy: '77', rx: '9', ry: '6', fill: '#F472B6' }),
+    h('ellipse', { cx: '96', cy: '77', rx: '9', ry: '6', fill: '#EC4899' }),
+    // Label banner
+    h('rect', { x: '16', y: '117', width: '153', height: '21', rx: '10.5', fill: 'rgba(0,0,0,0.28)' }),
+    h(
+      'text',
+      {
+        x: '92.5',
+        y: '131.5',
+        textAnchor: 'middle',
+        fill: '#FFFFFF',
+        fontSize: '10.5',
+        fontWeight: '900',
+        letterSpacing: '0.8'
+      },
+      'PAIRED DIPLOCOCCI'
+    )
+  );
+}
+
+// 19. 3-Month Calendar Retest Cartoon (for Chlamydia What You Can Do Today)
+export function renderThreeMonthRetestCalendarSvg() {
+  return h(
+    'svg',
+    {
+      viewBox: '0 0 185 145',
+      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      'aria-hidden': 'true'
+    },
+    // Calendar card
+    h('rect', { x: '44', y: '22', width: '97', height: '84', rx: '14', fill: '#FFFFFF' }),
+    h('path', { d: 'M44 36 A14 14 0 0 1 58 22 L127 22 A14 14 0 0 1 141 36 L141 44 L44 44 Z', fill: '#059669' }),
+    // Calendar rings
+    h('rect', { x: '64', y: '15', width: '7', height: '14', rx: '3.5', fill: '#FEF08A' }),
+    h('rect', { x: '114', y: '15', width: '7', height: '14', rx: '3.5', fill: '#FEF08A' }),
+    // Big "3 MO" text inside calendar
+    h('text', { x: '92.5', y: '74', textAnchor: 'middle', fill: '#065F46', fontSize: '24', fontWeight: '900' }, '3 MO'),
+    h('text', { x: '92.5', y: '94', textAnchor: 'middle', fill: '#10B981', fontSize: '11', fontWeight: '900' }, 'CHECKUP'),
+    // Label banner
+    h('rect', { x: '16', y: '117', width: '153', height: '21', rx: '10.5', fill: 'rgba(0,0,0,0.28)' }),
+    h(
+      'text',
+      {
+        x: '92.5',
+        y: '131.5',
+        textAnchor: 'middle',
+        fill: '#FFFFFF',
+        fontSize: '10.5',
+        fontWeight: '900',
+        letterSpacing: '0.8'
+      },
+      'RE-TEST IN 3 MONTHS'
+    )
+  );
+}
+
+// 20. Clean Water Hydration Pitcher & Glass Cartoon (for Fistulas What You Can Do Today)
+export function renderCleanWaterHydrationCartoonSvg() {
+  return h(
+    'svg',
+    {
+      viewBox: '0 0 185 145',
+      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      'aria-hidden': 'true'
+    },
+    // Big blue water droplet + drinking glass
+    h('path', {
+      d: 'M62 22 C62 22, 92 56, 92 78 C92 95, 78 108, 62 108 C46 108, 32 95, 32 78 C32 56, 62 22, 62 22 Z',
+      fill: '#38BDF8',
+      stroke: '#FFFFFF',
+      strokeWidth: '3'
+    }),
+    // Sparkle highlight on water droplet
+    h('path', { d: 'M48 68 C46 78, 50 88, 58 92', stroke: '#FFFFFF', strokeWidth: '3', fill: 'none', strokeLinecap: 'round' }),
+    // Full glass of clean water on right
+    h('polygon', { points: '108,34 150,34 144,104 114,104', fill: 'rgba(255,255,255,0.28)', stroke: '#FFFFFF', strokeWidth: '3' }),
+    h('polygon', { points: '111,52 147,52 143,102 115,102', fill: '#7DD3FC' }),
+    // Label banner
+    h('rect', { x: '12', y: '117', width: '161', height: '21', rx: '10.5', fill: 'rgba(0,0,0,0.28)' }),
+    h(
+      'text',
+      {
+        x: '92.5',
+        y: '131.5',
+        textAnchor: 'middle',
+        fill: '#FFFFFF',
+        fontSize: '10.5',
+        fontWeight: '900',
+        letterSpacing: '0.8'
+      },
+      'DRINK CLEAN WATER'
+    )
+  );
+}
+
+// 21. Daily 5-Second Kegel Exercise Timer Cartoon (for Prolapse What You Can Do Today)
+export function renderKegelExerciseTimerCartoonSvg() {
+  return h(
+    'svg',
+    {
+      viewBox: '0 0 185 145',
+      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      'aria-hidden': 'true'
+    },
+    // Stopwatch circle
+    h('circle', { cx: '92.5', cy: '62', r: '40', fill: '#FFFFFF' }),
+    h('rect', { x: '84', y: '12', width: '17', height: '7', rx: '3.5', fill: '#FEF08A' }),
+    // Upward pelvic lift arrows + "5s" inside timer
+    h('text', { x: '92.5', y: '67', textAnchor: 'middle', fill: '#6B21A8', fontSize: '26', fontWeight: '900' }, '5s'),
+    h('text', { x: '92.5', y: '85', textAnchor: 'middle', fill: '#9333EA', fontSize: '10.5', fontWeight: '900' }, 'HOLD & LIFT'),
+    // Label banner
+    h('rect', { x: '14', y: '117', width: '157', height: '21', rx: '10.5', fill: 'rgba(0,0,0,0.28)' }),
+    h(
+      'text',
+      {
+        x: '92.5',
+        y: '131.5',
+        textAnchor: 'middle',
+        fill: '#FFFFFF',
+        fontSize: '10.5',
+        fontWeight: '900',
+        letterSpacing: '0.8'
+      },
+      'DAILY KEGEL EXERCISES'
+    )
+  );
+}

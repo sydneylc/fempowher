@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=213';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=214';
 import {
   renderMaleBladderUrethraCartoonSvg,
-  renderMotherHoldingNewbornSvg,
   renderPartnerPillsCartoonSvg,
-  renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=213';
+  renderPregnantLadyHeadingIcon,
+  renderSwabAndNoAlcoholCartoonSvg
+} from './FlyerCartoonIllustrations.js?v=214';
 
 const h = React.createElement;
 
@@ -304,13 +304,13 @@ export default function TrichomonasHomePage1({
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy',
       headingIcon: renderPregnantLadyHeadingIcon('#FFC4CB'),
-      graphic: renderMotherHoldingNewbornSvg(),
       body:
         'Pregnant women with untreated Trichomonas have a higher risk of premature rupture of membranes (the water breaking too early), preterm labor (delivering before 37 weeks), and having a baby born with a low birth weight. In rare cases, the baby can pick up the infection while passing through the birth canal. Tell your midwife or doctor if you notice unusual discharge during pregnancy so you can receive safe prenatal antibiotic treatment.'
     },
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
+      graphic: renderSwabAndNoAlcoholCartoonSvg(),
       body:
         'If you notice frothy or yellowish-green discharge, a strong fishy odor, or vaginal itching and burning, visit a local clinic for a quick, painless swab test rather than using over-the-counter yeast creams or douching (which will not cure Trichomonas and can worsen irritation). Take every pill of your prescribed antibiotic, avoid alcohol while taking metronidazole or tinidazole to prevent severe nausea, and make sure your partner is treated before resuming sex.'
     }
@@ -319,7 +319,7 @@ export default function TrichomonasHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'TrichomonasHomePage1',
     title: tr('eduBtnTrichomonas', 'Trichomonas'),
-    gifSrc: './assets/std-trichomonas.gif?v=213',
+    gifSrc: './assets/std-trichomonas.gif?v=214',
     // Bright Apple-Music / WHO Flyer Red-Coral background (#F42B3E -> #DA1C2E)
     bgGradient: 'linear-gradient(180deg, #F42B3E 0%, #DA1C2E 100%)',
     bgColor: '#E62235',

@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=217';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=218';
 import {
   renderCervixPapScreenCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderSilentInfectionCartoonSvg,
   renderVaccineShieldCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=217';
+} from './FlyerCartoonIllustrations.js?v=218';
 
 export default function HPVHomePage1({
   onBack,
@@ -78,7 +78,7 @@ export default function HPVHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'HPVHomePage1',
     title: tr('eduBtnHPV', 'HPV'),
-    gifSrc: './assets/std-hpv.gif?v=217',
+    gifSrc: './assets/std-hpv.gif?v=218',
     bgGradient: 'linear-gradient(180deg, #FF9E18 0%, #E87000 100%)',
     bgColor: '#F28508',
     titleTintColor: '#FFE5BD',

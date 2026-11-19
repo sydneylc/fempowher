@@ -81,42 +81,37 @@
 </head>
 <body class="bg-white text-[var(--foreground,#2b2235)] antialiased p-4 md:p-6">
   <div id="MyBodyHomePageList1" class="max-w-7xl mx-auto space-y-4">
-    <!-- 1. InteractiveTopSettings1: Top Header & Lifecycle State Buttons -->
-    <div id="InteractiveTopSettings1" data-piece-name="InteractiveTopSettings1" class="bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-      <div>
-        <h1 class="text-lg md:text-xl font-bold tracking-tight">
-          emPowHer — Interactive Translucent Reproductive System
-        </h1>
-        <p class="text-xs md:text-sm text-[var(--muted-foreground,#6e5d78)]">
-          Every organ &amp; substructure is a translucent highlighter button with loose hand-drawn outlines. Click any part to inspect, stretch, wilt, resize, recolor, or drag to move.
-        </p>
-      </div>
-
-      <!-- Top Physiological State Presets -->
-      <div class="flex flex-wrap items-center gap-2" id="preset-buttons">
-        <button onclick="applyPreset('baseline')" id="preset-baseline" class="px-3.5 py-2 rounded-xl text-xs font-semibold border transition bg-pink-600 text-white border-pink-600 shadow-sm">
-          Baseline (Normal)
-        </button>
-        <button onclick="applyPreset('ovulation')" id="preset-ovulation" class="px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition">
-          Ovulation / Luteal
-        </button>
-        <button onclick="applyPreset('menstruation')" id="preset-menstruation" class="px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition">
-          Menstruation (Period)
-        </button>
-        <button onclick="applyPreset('pregnancy')" id="preset-pregnancy" class="px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition">
-          Pregnancy (Stretch)
-        </button>
-        <button onclick="applyPreset('lactation')" id="preset-lactation" class="px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition">
-          Lactation
-        </button>
-        <button onclick="applyPreset('menopause')" id="preset-menopause" class="px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition">
-          Menopause (Wilt)
-        </button>
-      </div>
-    </div>
-
-    <!-- 2. InteractiveAgeCarousel1: Dynamic "My Body at {age}" Dial (8–105 yrs old) + Horizontal Interactive Buttons Carousel -->
+    <!-- 1 & 2 Unified: InteractiveAgeCarousel1 (Includes InteractiveTopSettings1 title & 6 straight-line state buttons right above "My Body at {age}" + Heart Dial + Carousel) -->
     <div id="InteractiveAgeCarousel1" data-piece-name="InteractiveAgeCarousel1" class="bg-[var(--card,#ffffff)] border border-[var(--border,#e5dce8)] rounded-2xl p-4 shadow-sm space-y-3">
+      <!-- Top Title + 6 State Buttons in One Straight Horizontal Row Above "My Body at __" -->
+      <div id="InteractiveTopSettings1" data-piece-name="InteractiveTopSettings1" class="pb-3 border-b border-[#F3C8DA] space-y-2.5">
+        <h1 class="text-base sm:text-lg md:text-xl font-extrabold tracking-tight text-center text-[#9F133A]">
+          FemPowHer’s Interactive Female Reproductive System
+        </h1>
+
+        <!-- Top Physiological State Presets in One Straight Line -->
+        <div class="grid grid-cols-2 sm:grid-cols-6 items-center gap-1.5 sm:gap-2 w-full" id="preset-buttons">
+          <button onclick="applyPreset('baseline')" id="preset-baseline" class="w-full px-2 py-2 rounded-xl text-[11px] sm:text-xs font-semibold border transition text-center truncate bg-pink-600 text-white border-pink-600 shadow-sm">
+            Baseline (Normal)
+          </button>
+          <button onclick="applyPreset('ovulation')" id="preset-ovulation" class="w-full px-2 py-2 rounded-xl text-[11px] sm:text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition text-center truncate">
+            Ovulation / Luteal
+          </button>
+          <button onclick="applyPreset('menstruation')" id="preset-menstruation" class="w-full px-2 py-2 rounded-xl text-[11px] sm:text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition text-center truncate">
+            Menstruation (Period)
+          </button>
+          <button onclick="applyPreset('pregnancy')" id="preset-pregnancy" class="w-full px-2 py-2 rounded-xl text-[11px] sm:text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition text-center truncate">
+            Pregnancy (Stretch)
+          </button>
+          <button onclick="applyPreset('lactation')" id="preset-lactation" class="w-full px-2 py-2 rounded-xl text-[11px] sm:text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition text-center truncate">
+            Lactation
+          </button>
+          <button onclick="applyPreset('menopause')" id="preset-menopause" class="w-full px-2 py-2 rounded-xl text-[11px] sm:text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition text-center truncate">
+            Menopause (Wilt)
+          </button>
+        </div>
+      </div>
+
       <!-- Header row with live "My Body at {age}" title & optional attach-to-age toggle -->
       <div class="flex flex-wrap items-center justify-between gap-2">
         <div class="flex flex-wrap items-center gap-2.5">
@@ -1126,9 +1121,9 @@
       }
       document.querySelectorAll('#preset-buttons button').forEach(btn => {
         if (btn.id === 'preset-' + presetName) {
-          btn.className = "px-3.5 py-2 rounded-xl text-xs font-semibold border transition bg-pink-600 text-white border-pink-600 shadow-sm";
+          btn.className = "w-full px-2 py-2 rounded-xl text-[11px] sm:text-xs font-semibold border transition text-center truncate bg-pink-600 text-white border-pink-600 shadow-sm";
         } else {
-          btn.className = "px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition";
+          btn.className = "w-full px-2 py-2 rounded-xl text-[11px] sm:text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition text-center truncate";
         }
       });
 
@@ -1190,9 +1185,9 @@
 
       document.querySelectorAll('#preset-buttons button').forEach(btn => {
         if (btn.id === 'preset-' + currentPreset) {
-          btn.className = "px-3.5 py-2 rounded-xl text-xs font-semibold border transition bg-pink-600 text-white border-pink-600 shadow-sm";
+          btn.className = "w-full px-2 py-2 rounded-xl text-[11px] sm:text-xs font-semibold border transition text-center truncate bg-pink-600 text-white border-pink-600 shadow-sm";
         } else {
-          btn.className = "px-3.5 py-2 rounded-xl text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition";
+          btn.className = "w-full px-2 py-2 rounded-xl text-[11px] sm:text-xs font-semibold border border-[var(--border,#dfd5e4)] hover:bg-pink-50/60 transition text-center truncate";
         }
       });
 

@@ -2,14 +2,13 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=222';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=222';
+} from './PregnancyHomePage.js?v=223';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=223';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
-  renderPartnerPillsCartoonSvg,
-  renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=222';
+  renderPartnerPillsCartoonSvg
+} from './FlyerCartoonIllustrations.js?v=223';
 
 const h = React.createElement;
 
@@ -32,11 +31,12 @@ export default function LossOfAChildHomePage({
     return t[key] || fallback;
   };
 
-  // 4 Full-Width MakingGifButtons1 First-Person Loss of a Child Buttons (gifSrc: null ready for GIFs later)
+  // 5 Short, Emotionally Steady, Globally Translatable First-Person Buttons for Loss of a Child
+  // (gifSrc: null slots ready for custom GIFs to be added later)
   const lossButtons = [
     {
-      id: 'loss-early-miscarriage',
-      label: tr('lossBtnMiscarriage', 'I am having or just had a miscarriage (Early Pregnancy Loss)'),
+      id: 'loss-miscarriage',
+      label: tr('lossBtnMiscarriage', 'I’ve Had a Miscarriage'),
       targetPage: 'MiscarriageHomePage',
       gifSrc: null,
       backgroundStyle: {
@@ -49,11 +49,11 @@ export default function LossOfAChildHomePage({
       }
     },
     {
-      id: 'loss-stillbirth-infant',
-      label: tr('lossBtnStillbirth', 'Stillbirth & Infant Loss (Physical Healing & Milk Care)'),
+      id: 'loss-stillbirth',
+      label: tr('lossBtnStillbirth', 'I’ve Had a Stillbirth'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFB5D6 0%, #F472B6 100%)',
+        background: 'linear-gradient(180deg, #FFB8D8 0%, #F472B6 100%)',
         border: 'none'
       },
       textStyle: {
@@ -62,86 +62,146 @@ export default function LossOfAChildHomePage({
       }
     },
     {
-      id: 'loss-grief-and-support',
-      label: tr('lossBtnGriefSupport', 'Grief, Emotional Healing & Fighting Unfair Blame'),
+      id: 'loss-infant',
+      label: tr('lossBtnLostInfant', 'I’ve Lost an Infant'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #EC4899 0%, #BE185D 100%)',
+        background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(88, 8, 42, 0.7)'
+        textShadow: '0 2px 10px rgba(108, 10, 50, 0.65)'
       }
     },
     {
-      id: 'loss-pregnancy-after-loss',
-      label: tr('eduBtnPregnancyAfterLoss', 'Pregnancy After a Loss'),
-      targetPage: 'PregnancyAfterLossHomePage',
+      id: 'loss-child',
+      label: tr('lossBtnLostChild', 'I’ve Lost My Child'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #9F133A 0%, #6E0926 100%)',
+        background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(42, 2, 16, 0.78)'
+        textShadow: '0 2px 10px rgba(64, 5, 28, 0.72)'
+      }
+    },
+    {
+      id: 'loss-pregnant-after-loss',
+      label: tr('lossBtnPregnantAfterLoss', 'I Am Pregnant After a Loss'),
+      targetPage: 'PregnancyAfterLossHomePage',
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(36, 2, 16, 0.78)'
       }
     }
   ];
 
   const subPageConfigs = {
-    'loss-stillbirth-infant': {
-      pageId: 'StillbirthInfantLossHomePage1',
-      title: tr('lossBtnStillbirth', 'Stillbirth & Infant Loss (Physical Healing & Milk Care)'),
+    'loss-stillbirth': {
+      pageId: 'StillbirthLossHomePage1',
+      title: tr('lossBtnStillbirth', 'I’ve Had a Stillbirth'),
       bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1E40AF 100%)',
       bgColor: '#1D4ED8',
       titleTintColor: '#DBEAFE',
       sections: [
         {
-          id: 'what-happens-physically',
-          heading: 'Understanding Physical Recovery After Stillbirth or Infant Loss',
+          id: 'what-is-stillbirth',
+          heading: 'Understanding Stillbirth (Losing a Baby Before or During Delivery)',
           body:
-            'After delivering a baby in the second or third trimester or losing an infant, your body goes through complete postpartum physical recovery even while your heart is grieving. Your uterus contracts back to its pre-pregnancy size, you will have vaginal bleeding (lochia) for 4 to 6 weeks, and your perineum or Cesarean incision requires gentle daily care and rest.'
+            'A stillbirth is the loss of a baby in the womb after 20 weeks of pregnancy or during labor and childbirth. It is a profound medical and emotional tragedy that happens to millions of mothers around the world every year due to placental complications, umbilical cord accidents, preeclampsia, obstructed labor, or silent infections. A stillbirth is never a curse and never the fault of the mother.'
         },
         {
-          id: 'managing-breast-milk',
-          heading: 'Gently Stopping Breast Milk Production Without Pain or Infection',
-          stickerLabel: 'DRINK CLEAN WATER',
-          graphicRenderer: (sticker) => renderCleanWaterHydrationCartoonSvg(sticker),
-          body:
-            'Three to five days after delivery, your breasts may become full and begin producing milk. Wear a firm, comfortable bra day and night, apply cool compresses or chilled clean cabbage leaves for 15 minutes at a time, avoid hot shower water directly on your breasts, and hand-express only a few drops if needed to relieve tightness (avoid full pumping, which stimulates more milk). You can also ask your hospital or OB/GYN clinic about safe medication to suppress lactation.'
-        },
-        {
-          id: 'danger-signs',
-          heading: 'When to Go to a Hospital Immediately',
+          id: 'physical-recovery',
+          heading: 'Physical Postpartum Healing After Delivering a Baby Who Was Born Still',
           stickerLabel: 'IRON & ANEMIA CARE',
           graphicRenderer: (sticker) => renderIronRichCareCartoonSvg(sticker),
           body:
-            'Go to a hospital immediately if you soak through two pads in an hour, pass very large clots, develop a fever or chills, notice foul-smelling vaginal discharge, or feel a hot, red, painful lump in your breast accompanied by fever.'
+            'Because you went through labor and delivery (or a Cesarean section), your body goes through full postpartum physical recovery even while your heart is grieving. You will have vaginal bleeding (lochia) for 4 to 6 weeks as your uterus shrinks back down, and any vaginal stitches or surgical incision need gentle daily washing with clean warm water, iron-rich foods, and rest from heavy physical work.'
+        },
+        {
+          id: 'managing-breast-milk',
+          heading: 'Gently Stopping Breast Milk When Your Milk Comes In',
+          stickerLabel: 'DRINK CLEAN WATER',
+          graphicRenderer: (sticker) => renderCleanWaterHydrationCartoonSvg(sticker),
+          body:
+            'Three to five days after delivery, your breasts may fill with milk, which can be deeply painful emotionally and physically. Wear a snug, comfortable bra day and night, place cool packs or chilled clean cabbage leaves on your breasts for 15 minutes at a time, keep hot shower water off your breasts, and hand-express only a few drops if needed to relieve pressure (avoid full pumping, which tells the body to make more milk). Ask your doctor or midwife if a milk-suppressing tablet (such as cabergoline) is available.'
+        },
+        {
+          id: 'danger-signs-and-support',
+          heading: 'When to Go to a Hospital and Supporting Your Heart',
+          stickerLabel: 'TREAT BOTH PARTNERS',
+          graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
+          body:
+            'Go to a hospital immediately if you soak through two pads in an hour, develop a fever or chills, notice foul-smelling vaginal discharge, or feel a hot, red, painful lump in your breast. Give yourself permission to grieve in your own way and lean on compassionate family, midwives, or a Women’s Safe Haven on your FemPowHer map.'
         }
       ]
     },
-    'loss-grief-and-support': {
-      pageId: 'GriefAndSupportLossHomePage1',
-      title: tr('lossBtnGriefSupport', 'Grief, Emotional Healing & Fighting Unfair Blame'),
+    'loss-infant': {
+      pageId: 'LostAnInfantHomePage1',
+      title: tr('lossBtnLostInfant', 'I’ve Lost an Infant'),
+      bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
+      bgColor: '#0E857B',
+      titleTintColor: '#CCFBF1',
+      sections: [
+        {
+          id: 'losing-a-newborn-or-infant',
+          heading: 'Losing a Newborn or Baby in the First Year of Life',
+          body:
+            'Losing an infant, whether in the first days after birth (neonatal loss) or during the first year of life, is one of the deepest heartbreaks a mother can ever experience. Whether your baby passed away from preterm birth complications, infection, birth asphyxia, congenital conditions, or sudden infant death (SIDS), please know that you are not alone and you deserve gentle medical and emotional care.'
+        },
+        {
+          id: 'caring-for-breasts-when-nursing-stops',
+          heading: 'Caring for Your Breasts If You Were Breastfeeding Your Baby',
+          stickerLabel: 'DRINK CLEAN WATER',
+          graphicRenderer: (sticker) => renderCleanWaterHydrationCartoonSvg(sticker),
+          body:
+            'If you had been breastfeeding your infant when your baby passed away, stopping nursing suddenly can cause painful breast engorgement, plugged ducts, or mastitis (breast infection). Wear a supportive non-underwire bra, apply cold compresses, drink clean water (never restrict water), and express just enough milk by hand to soften the breast until your milk supply gradually slows down. If you develop a fever, chills, or a red, hot wedge on your breast, visit a clinic promptly for safe antibiotic care.'
+        },
+        {
+          id: 'postpartum-body-and-grief',
+          heading: 'How Grief and Postpartum Hormones Affect Your Body',
+          stickerLabel: 'IRON & ANEMIA CARE',
+          graphicRenderer: (sticker) => renderIronRichCareCartoonSvg(sticker),
+          body:
+            'In the weeks and months after losing an infant, sharp hormone drops combined with grief can cause exhaustion, chest tightness, aching arms, trouble sleeping, and irregular menstrual periods when your cycle returns. Be gentle with your body, try to eat small nourishing meals, and never hesitate to visit a Women’s Clinic or Safe Haven on your FemPowHer map for physical checkups or grief support.'
+        }
+      ]
+    },
+    'loss-child': {
+      pageId: 'LostMyChildHomePage1',
+      title: tr('lossBtnLostChild', 'I’ve Lost My Child'),
       bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
       bgColor: '#6D28D9',
       titleTintColor: '#EDE9FE',
       sections: [
         {
-          id: 'never-your-fault',
-          heading: 'Pregnancy and Infant Loss Are Never a Woman’s Fault',
+          id: 'grief-at-any-age',
+          heading: 'Carrying the Loss of Your Child at Any Age',
+          body:
+            'Whether your child was a toddler, a young child, a teenager, or an adult, losing your child is a life-altering grief that no mother should have to carry alone. Grief is not something you "get over" on a schedule; it comes in waves, and loving and remembering your child is a natural part of who you are.'
+        },
+        {
+          id: 'how-intense-grief-affects-a-womans-body',
+          heading: 'How Deep Grief Affects Your Physical Health, Heart, and Cycle',
+          stickerLabel: 'DRINK CLEAN WATER',
+          graphicRenderer: (sticker) => renderCleanWaterHydrationCartoonSvg(sticker),
+          body:
+            'Severe grief floods the body with stress hormones (cortisol and adrenaline), which can weaken your immune system, disrupt sleep and digestion, cause chest pain or palpitations, and even cause your menstrual period to stop temporarily or become irregular. Drinking clean water, resting even when you cannot sleep, and checking in with a compassionate healthcare provider help protect your physical health while you grieve.'
+        },
+        {
+          id: 'supporting-each-other',
+          heading: 'Grieving With Your Partner, Surviving Children, and Community',
           stickerLabel: 'TREAT BOTH PARTNERS',
           graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
           body:
-            'In many communities around the world, women are unfairly blamed or stigmatized after a miscarriage, stillbirth, or infant loss. Medically and scientifically, the vast majority of pregnancy losses happen because of random chromosomal differences in the embryo, placental or umbilical cord complications, or untreated maternal infections, never because of a curse, stress, or something you did wrong.'
-        },
-        {
-          id: 'grieving-at-your-pace',
-          heading: 'Honoring Your Grief and Supporting Your Body and Mind',
-          body:
-            'There is no "right" timeline for grief. You may feel waves of deep sadness, anger, exhaustion, or emptiness, especially as pregnancy hormones drop rapidly after delivery. Allow yourself to rest, eat nourishing meals, and connect with compassionate nurses, maternal support groups, or Women’s Safe Havens on your FemPowHer map.'
+            'Mothers and fathers often grieve differently: one person may need to talk and cry openly while the other stays quiet or stays busy with work. Give yourself and your loved ones grace, reject any cultural or family blame, and use the FemPowHer map or Emergency Contacts tab anytime you need a safe place to talk or medical support.'
         }
       ]
     }
@@ -193,7 +253,7 @@ export default function LossOfAChildHomePage({
     h(MakingGifButtons1, {
       sections: lossButtons,
       containerClassName: 'flex-1 w-full grid',
-      containerStyle: { gridTemplateRows: `repeat(${lossButtons.length}, minmax(175px, 1fr))` },
+      containerStyle: { gridTemplateRows: `repeat(${lossButtons.length}, minmax(165px, 1fr))` },
       onSelectSection: (sec) => {
         if (sec.targetPage && onNavigateEducationPage) {
           onNavigateEducationPage(sec.targetPage);

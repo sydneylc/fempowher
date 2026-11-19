@@ -2,7 +2,7 @@ import React from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=222';
+} from './PregnancyHomePage.js?v=223';
 
 const h = React.createElement;
 
@@ -21,13 +21,13 @@ export default function STDMenuHomePage({
   };
 
   // 5 Full-Width MakingGifButtons1 First-Person Hub Buttons for STDs
-  // (gifSrc slots ready for custom GIFs to be added later; button 4 opens TypesOfSTDsHomePage1 with all 8 STD characters)
   const stdHubButtons = [
     {
       id: 'std-hub-what-are-stds-btn',
       label: tr('stdMenuBtnWhatAre', 'What are STDs & how do I protect myself?'),
       targetPage: 'WhatAreSTDsHomePage1',
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/std-hub-what-are.gif')
+      gifSrc: './assets/std-hub-what-are.gif',
+      gifAlt: 'Yemeni woman in traditional embroidered headdress curious about STD protection with a teal shield',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFE8F5 0%, #FFBDE2 100%)',
         border: 'none'
@@ -41,7 +41,8 @@ export default function STDMenuHomePage({
       id: 'std-hub-think-i-have-btn',
       label: tr('stdMenuBtnThinkIHave', 'I think I might have an STD!'),
       targetPage: 'ThinkIHaveSTDHomePage1',
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/std-hub-think-i-have.gif')
+      gifSrc: './assets/std-hub-think-i-have.gif',
+      gifAlt: 'Blonde Finnish woman freaking out with worried eyes and an amber-orange alert bubble',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB8D9 0%, #F472B6 100%)',
         border: 'none'
@@ -55,7 +56,8 @@ export default function STDMenuHomePage({
       id: 'std-hub-just-diagnosed-btn',
       label: tr('stdMenuBtnJustDiagnosed', 'I just got diagnosed with an STD!'),
       targetPage: 'JustDiagnosedSTDHomePage1',
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/std-hub-just-diagnosed.gif')
+      gifSrc: './assets/std-hub-just-diagnosed.gif',
+      gifAlt: 'Polynesian woman with plumeria flower holding a care plan card and treatment bottle with healing hearts',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
         border: 'none'
@@ -69,7 +71,8 @@ export default function STDMenuHomePage({
       id: 'std-hub-types-of-stds-btn',
       label: tr('stdMenuBtnTypes', 'Types of STDs'),
       targetPage: 'TypesOfSTDsHomePage1',
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/std-hub-types.gif')
+      gifSrc: './assets/std-hub-types.gif',
+      gifAlt: 'Golden magnifying glass lens showcasing all 8 animated STD characters',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
         border: 'none'
@@ -83,7 +86,8 @@ export default function STDMenuHomePage({
       id: 'std-hub-stds-and-pregnancy-btn',
       label: tr('stdMenuBtnPregnancy', 'STDs & Pregnancy'),
       targetPage: 'STDsAndPregnancyHomePage1',
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/std-hub-pregnancy.gif')
+      gifSrc: './assets/std-hub-pregnancy.gif',
+      gifAlt: 'Pregnant Central Asian woman in embroidered Doppa cap cradling her belly with a royal-blue prenatal care badge',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
         border: 'none'

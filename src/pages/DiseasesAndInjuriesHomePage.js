@@ -3,7 +3,7 @@ import {
   MakingGifButtons1,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=206';
+} from './PregnancyHomePage.js?v=207';
 
 const h = React.createElement;
 
@@ -33,9 +33,13 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=206',
+      gifSrc: './assets/sexual-health-stds.gif?v=207',
       imgClassName:
-        'h-[96%] sm:h-[104%] w-auto max-w-[52vw] sm:max-w-[330px] object-contain select-none pointer-events-none',
+        'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-20px',
+        marginRight: '-16px'
+      },
       // Tone 1: Soft Sky-Periwinkle Blue (#AED2FA)
       backgroundStyle: {
         backgroundColor: '#AED2FA',
@@ -54,12 +58,12 @@ export default function DiseasesAndInjuriesHomePage({
       id: 'fistulas-diseases-banner-btn',
       label: tr('eduBtnFistulas', 'Fistulas'),
       targetPage: 'FistulasHomePage1',
-      gifSrc: './assets/diseases-fistulas.gif?v=206',
+      gifSrc: './assets/diseases-fistulas.gif?v=207',
       imgClassName:
-        'h-[108%] sm:h-[114%] w-auto max-w-none object-contain select-none pointer-events-none',
+        'h-[126%] sm:h-[134%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
-        marginLeft: '-54px',
-        marginRight: '-54px'
+        marginLeft: '-86px',
+        marginRight: '-86px'
       },
       // Tone 2: Cornflower Periwinkle Blue (#8EB3F5)
       backgroundStyle: {
@@ -75,12 +79,12 @@ export default function DiseasesAndInjuriesHomePage({
       id: 'fibroids-diseases-banner-btn',
       label: tr('eduBtnFibroids', 'Fibroids'),
       targetPage: 'FibroidsHomePage1',
-      gifSrc: './assets/diseases-fibroids.gif?v=206',
+      gifSrc: './assets/diseases-fibroids.gif?v=207',
       imgClassName:
-        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+        'h-[154%] sm:h-[164%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
-        marginLeft: '-46px',
-        marginRight: '-34px'
+        marginLeft: '-88px',
+        marginRight: '-68px'
       },
       // Tone 3: Soft Lavender-Violet (#9E93F0)
       backgroundStyle: {
@@ -96,12 +100,12 @@ export default function DiseasesAndInjuriesHomePage({
       id: 'prolapse-diseases-banner-btn',
       label: tr('eduBtnProlapse', 'Prolapse'),
       targetPage: 'ProlapseHomePage1',
-      gifSrc: './assets/diseases-prolapse.gif?v=206',
+      gifSrc: './assets/diseases-prolapse.gif?v=207',
       imgClassName:
-        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+        'h-[148%] sm:h-[158%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
-        marginLeft: '-46px',
-        marginRight: '-46px'
+        marginLeft: '-86px',
+        marginRight: '-86px'
       },
       // Tone 4: Deep Royal Lavender-Purple (#735DD6) with pure white lettering like bottom of PregnancyHomePage
       backgroundStyle: {
@@ -141,7 +145,7 @@ export default function DiseasesAndInjuriesHomePage({
     h(MakingGifButtons1, {
       sections: diseasesBannerButtons,
       containerClassName: 'w-full grid',
-      containerStyle: { gridTemplateRows: `repeat(${diseasesBannerButtons.length}, 190px)` },
+      containerStyle: { gridTemplateRows: `repeat(${diseasesBannerButtons.length}, 220px)` },
       onSelectSection: (sec) => {
         if (onNavigateEducationPage && sec.targetPage) {
           onNavigateEducationPage(sec.targetPage);

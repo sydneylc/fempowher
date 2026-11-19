@@ -1,9 +1,9 @@
 import React from 'https://esm.sh/react@18.3.1';
 import {
-  PregHomePageButtons,
+  MakingGifButtons1,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=206';
+} from './PregnancyHomePage.js?v=207';
 
 const h = React.createElement;
 
@@ -25,32 +25,33 @@ export default function SexualHealthHomePage({
     return t[key] || fallback;
   };
 
-  // First full-bleed Pregnancy-style banner button in Sexual Health (more will be added later)
+  // Exact copy of the STDs MakingGifButtons1 button from DiseasesAndInjuriesHomePage,
+  // leading to the shared STDMenuHomePage
   const sexualHealthBannerButtons = [
     {
-      id: 'stds-banner-btn',
+      id: 'stds-sexual-health-banner-btn',
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=206',
+      gifSrc: './assets/sexual-health-stds.gif?v=207',
       imgClassName:
-        'h-full w-auto max-w-[54vw] sm:max-w-[380px] object-contain select-none pointer-events-none',
-      // Original #E04668 background matching the STD GIF background with zero black lines
+        'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-20px',
+        marginRight: '-16px'
+      },
+      // Soft Sky-Periwinkle Blue (#AED2FA) matching DiseasesAndInjuriesHomePage STDs button
       backgroundStyle: {
-        backgroundColor: '#E04668',
+        backgroundColor: '#AED2FA',
         border: 'none'
       },
-      labelClassName:
-        'text-3xl sm:text-4xl md:text-5xl font-black leading-none tracking-tight',
-      subLabelClassName:
-        'text-xs sm:text-sm md:text-base font-extrabold leading-snug mt-1.5',
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(110, 9, 38, 0.75)'
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
       },
       subTextStyle: {
-        color: '#FFF5FC',
-        textShadow: '0 1px 8px rgba(110, 9, 38, 0.75)'
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
       }
     }
   ];
@@ -77,7 +78,19 @@ export default function SexualHealthHomePage({
       )
     ),
 
-    // Existing AI-made Sexual Health Info Bubble
+    // Top Full-Width STDs Button (MakingGifButtons1) -> opens shared STDMenuHomePage
+    h(MakingGifButtons1, {
+      sections: sexualHealthBannerButtons,
+      containerClassName: 'w-full grid',
+      containerStyle: { gridTemplateRows: '220px' },
+      onSelectSection: (sec) => {
+        if (onNavigateEducationPage && sec.targetPage) {
+          onNavigateEducationPage(sec.targetPage);
+        }
+      }
+    }),
+
+    // Existing AI-made Sexual Health Info Bubble below the banner button
     h(
       'div',
       { className: 'max-w-3xl w-full mx-auto p-4 sm:p-6' },

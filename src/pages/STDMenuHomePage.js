@@ -3,7 +3,7 @@ import {
   MakingGifButtons1,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=215';
+} from './PregnancyHomePage.js?v=216';
 
 const h = React.createElement;
 
@@ -32,7 +32,7 @@ export default function STDMenuHomePage({
       id: 'std-trichomonas-btn',
       label: tr('eduBtnTrichomonas', 'Trichomonas'),
       targetPage: 'TrichomonasHomePage1',
-      gifSrc: './assets/std-trichomonas.gif?v=215',
+      gifSrc: './assets/std-trichomonas.gif?v=216',
       imgClassName:
         'h-[115%] sm:h-[125%] w-auto max-w-[54vw] sm:max-w-[370px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -53,7 +53,7 @@ export default function STDMenuHomePage({
       id: 'std-hpv-btn',
       label: tr('eduBtnHPV', 'HPV'),
       targetPage: 'HPVHomePage1',
-      gifSrc: './assets/std-hpv.gif?v=215',
+      gifSrc: './assets/std-hpv.gif?v=216',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -74,7 +74,7 @@ export default function STDMenuHomePage({
       id: 'std-chlamydia-btn',
       label: tr('eduBtnChlamydia', 'Chlamydia'),
       targetPage: 'ChlamydiaHomePage1',
-      gifSrc: './assets/std-chlamydia.gif?v=215',
+      gifSrc: './assets/std-chlamydia.gif?v=216',
       imgClassName:
         'h-[122%] sm:h-[130%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -95,7 +95,7 @@ export default function STDMenuHomePage({
       id: 'std-gonorrhea-btn',
       label: tr('eduBtnGonorrhea', 'Gonorrhea'),
       targetPage: 'GonorrheaHomePage1',
-      gifSrc: './assets/std-gonorrhea.gif?v=215',
+      gifSrc: './assets/std-gonorrhea.gif?v=216',
       imgClassName:
         'h-[120%] sm:h-[128%] w-auto max-w-[54vw] sm:max-w-[365px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -116,7 +116,7 @@ export default function STDMenuHomePage({
       id: 'std-hepatitis-b-btn',
       label: tr('eduBtnHepatitisB', 'Hepatitis B'),
       targetPage: 'HepatitisBHomePage1',
-      gifSrc: './assets/std-hepatitis-b.gif?v=215',
+      gifSrc: './assets/std-hepatitis-b.gif?v=216',
       imgClassName:
         'h-[126%] sm:h-[134%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
       imgStyle: {

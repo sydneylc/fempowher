@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=215';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=216';
 import {
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderSilentInfectionCartoonSvg,
   renderThreeMonthRetestCalendarSvg,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=215';
+} from './FlyerCartoonIllustrations.js?v=216';
 
 export default function ChlamydiaHomePage1({
   onBack,
@@ -81,10 +81,10 @@ export default function ChlamydiaHomePage1({
     }
   ];
 
-  return renderBrightStdFlyerPage({
+  return FlyerSTDstyleCartoonCaller1({
     pageId: 'ChlamydiaHomePage1',
     title: tr('eduBtnChlamydia', 'Chlamydia'),
-    gifSrc: './assets/std-chlamydia.gif?v=215',
+    gifSrc: './assets/std-chlamydia.gif?v=216',
     bgGradient: 'linear-gradient(180deg, #25CB35 0%, #12A620 100%)',
     bgColor: '#1BB82A',
     titleTintColor: '#C9FFD0',

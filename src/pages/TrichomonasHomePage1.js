@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=215';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=216';
 import {
   renderMaleBladderUrethraCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderSwabAndNoAlcoholCartoonSvg,
   translateFlyerPhraseInstant
-} from './FlyerCartoonIllustrations.js?v=215';
+} from './FlyerCartoonIllustrations.js?v=216';
 
 const h = React.createElement;
 
@@ -320,8 +320,24 @@ function BrightStdFlyerPageComponent({
   );
 }
 
-export function renderBrightStdFlyerPage(props) {
+// ============================================================================
+// FlyerSTDstyleCartoonCaller1:
+// Official Reusable Flyer Info Page Caller & Component Style:
+// - Full-bleed bright dock-icon / WHO-flyer background color (zero rounded-corner white/pink bubble cards)
+// - Animated transparent character GIF floating directly on the bright background next to the main title
+// - Bolded section titles colored in white mixed with the background color (titleTintColor)
+// - Pure white (#FFFFFF) flowing sentences/paragraphs underneath (zero bullet points, zero long hyphens, zero divider lines)
+// - 3 to 4 custom topic-connected cartoons/stickers placed alongside sections on the page (plus inline headingIcon like the pregnant lady icon)
+// - 100% UserLanguageChoice1 translation for every word on the flyer AND every word inside the cartoon stickers
+// ============================================================================
+export function FlyerSTDstyleCartoonCaller1(props) {
   return h(BrightStdFlyerPageComponent, props);
+}
+
+export const renderBrightStdFlyerPage = FlyerSTDstyleCartoonCaller1;
+
+if (typeof window !== 'undefined') {
+  window.FlyerSTDstyleCartoonCaller1 = FlyerSTDstyleCartoonCaller1;
 }
 
 // Cute flat blue fish illustration matching the WHO Trichomonas flyer
@@ -438,10 +454,10 @@ export default function TrichomonasHomePage1({
     }
   ];
 
-  return renderBrightStdFlyerPage({
+  return FlyerSTDstyleCartoonCaller1({
     pageId: 'TrichomonasHomePage1',
     title: tr('eduBtnTrichomonas', 'Trichomonas'),
-    gifSrc: './assets/std-trichomonas.gif?v=215',
+    gifSrc: './assets/std-trichomonas.gif?v=216',
     bgGradient: 'linear-gradient(180deg, #F42B3E 0%, #DA1C2E 100%)',
     bgColor: '#E62235',
     titleTintColor: '#FFC4CB',

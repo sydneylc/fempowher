@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=221';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=221';
+} from './PregnancyHomePage.js?v=222';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=222';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
@@ -12,7 +12,7 @@ import {
   renderPartnerPillsCartoonSvg,
   renderPelvicPessaryRingCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=221';
+} from './FlyerCartoonIllustrations.js?v=222';
 
 const h = React.createElement;
 
@@ -52,7 +52,7 @@ export default function PostpartumHomePage({
     },
     {
       id: 'postpartum-csection-vaginal',
-      label: tr('postpartumBtnCSectionVaginal', 'Healing after a Vaginal Birth vs. C-Section'),
+      label: tr('postpartumBtnCSectionVaginal', 'Healing After Birth'),
       gifSrc: null, // Ready for custom GIF (e.g. './assets/postpartum-healing.gif')
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB8D8 0%, #F472B6 100%)',
@@ -65,7 +65,7 @@ export default function PostpartumHomePage({
     },
     {
       id: 'postpartum-breastfeeding',
-      label: tr('postpartumBtnBreastfeeding', 'Breastfeeding, Milk Supply & Caring for My Breasts'),
+      label: tr('postpartumBtnBreastfeeding', 'Breastfeeding'),
       gifSrc: null, // Ready for custom GIF (e.g. './assets/postpartum-breastfeeding.gif')
       backgroundStyle: {
         background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
@@ -78,7 +78,7 @@ export default function PostpartumHomePage({
     },
     {
       id: 'postpartum-mental-health',
-      label: tr('postpartumBtnMentalHealth', 'I feel overwhelmed, sad, or anxious (Postpartum Depression)'),
+      label: tr('postpartumBtnMentalHealth', 'I feel overwhelmed, sad, or anxious'),
       gifSrc: null, // Ready for custom GIF (e.g. './assets/postpartum-mental-health.gif')
       backgroundStyle: {
         background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
@@ -91,7 +91,7 @@ export default function PostpartumHomePage({
     },
     {
       id: 'postpartum-after-loss',
-      label: tr('postpartumBtnAfterLoss', 'Postpartum after a Pregnancy or Infant Loss'),
+      label: tr('postpartumBtnAfterLoss', 'Postpartum after Loss'),
       gifSrc: null, // Ready for custom GIF (e.g. './assets/postpartum-after-loss.gif')
       backgroundStyle: {
         background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
@@ -149,7 +149,7 @@ export default function PostpartumHomePage({
     },
     'postpartum-csection-vaginal': {
       pageId: 'PostpartumCSectionVaginalHomePage1',
-      title: tr('postpartumBtnCSectionVaginal', 'Healing after a Vaginal Birth vs. C-Section'),
+      title: tr('postpartumBtnCSectionVaginal', 'Healing After Birth'),
       bgGradient: 'linear-gradient(180deg, #F97316 0%, #D9460F 100%)',
       bgColor: '#EA580C',
       titleTintColor: '#FFE2CC',
@@ -186,7 +186,7 @@ export default function PostpartumHomePage({
     },
     'postpartum-breastfeeding': {
       pageId: 'PostpartumBreastfeedingHomePage1',
-      title: tr('postpartumBtnBreastfeeding', 'Breastfeeding, Milk Supply & Caring for My Breasts'),
+      title: tr('postpartumBtnBreastfeeding', 'Breastfeeding'),
       bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
       bgColor: '#0E857B',
       titleTintColor: '#CCFBF1',
@@ -216,7 +216,7 @@ export default function PostpartumHomePage({
     },
     'postpartum-mental-health': {
       pageId: 'PostpartumMentalHealthHomePage1',
-      title: tr('postpartumBtnMentalHealth', 'I feel overwhelmed, sad, or anxious (Postpartum Depression)'),
+      title: tr('postpartumBtnMentalHealth', 'I feel overwhelmed, sad, or anxious'),
       bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
       bgColor: '#6D28D9',
       titleTintColor: '#EDE9FE',
@@ -245,7 +245,7 @@ export default function PostpartumHomePage({
     },
     'postpartum-after-loss': {
       pageId: 'PostpartumAfterLossHomePage1',
-      title: tr('postpartumBtnAfterLoss', 'Postpartum after a Pregnancy or Infant Loss'),
+      title: tr('postpartumBtnAfterLoss', 'Postpartum after Loss'),
       bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1E40AF 100%)',
       bgColor: '#1D4ED8',
       titleTintColor: '#DBEAFE',
@@ -253,7 +253,6 @@ export default function PostpartumHomePage({
         {
           id: 'your-body-is-still-postpartum',
           heading: 'Going Through Physical Postpartum Recovery Without Your Baby in Your Arms',
-          headingIcon: renderPregnantLadyHeadingIcon('#DBEAFE'),
           body:
             'One of the hardest realities after a second-trimester loss, stillbirth, or newborn loss is that your body still goes through every physical change of postpartum recovery while your heart is grieving. Your uterus still contracts back down, you still bleed lochia for several weeks, your hormones drop rapidly, and you deserve the exact same gentle physical rest, follow-up medical checkups, and protection from heavy labor as any mother who just gave birth.'
         },

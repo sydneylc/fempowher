@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=221';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=222';
 import {
   renderClinicInjectionCartoonSvg,
   renderPainlessChancreStagesCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=221';
+} from './FlyerCartoonIllustrations.js?v=222';
 
 export default function SyphilisHomePage1({
   onBack,
@@ -78,7 +78,7 @@ export default function SyphilisHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'SyphilisHomePage1',
     title: tr('eduBtnSyphilis', 'Syphilis'),
-    gifSrc: './assets/std-syphilis.gif?v=221',
+    gifSrc: './assets/std-syphilis.gif?v=222',
     // Bright Deep Fuchsia-Berry Magenta background (#E81D76 -> #B80F58)
     bgGradient: 'linear-gradient(180deg, #EC227A 0%, #BA105B 100%)',
     bgColor: '#D6196B',

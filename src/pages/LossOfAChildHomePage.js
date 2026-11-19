@@ -2,14 +2,14 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=221';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=221';
+} from './PregnancyHomePage.js?v=222';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=222';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=221';
+} from './FlyerCartoonIllustrations.js?v=222';
 
 const h = React.createElement;
 
@@ -101,7 +101,6 @@ export default function LossOfAChildHomePage({
         {
           id: 'what-happens-physically',
           heading: 'Understanding Physical Recovery After Stillbirth or Infant Loss',
-          headingIcon: renderPregnantLadyHeadingIcon('#DBEAFE'),
           body:
             'After delivering a baby in the second or third trimester or losing an infant, your body goes through complete postpartum physical recovery even while your heart is grieving. Your uterus contracts back to its pre-pregnancy size, you will have vaginal bleeding (lochia) for 4 to 6 weeks, and your perineum or Cesarean incision requires gentle daily care and rest.'
         },

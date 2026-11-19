@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=210';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=211';
 
 export default function HepatitisBHomePage1({
   onBack,
@@ -22,13 +22,13 @@ export default function HepatitisBHomePage1({
       id: 'what-is',
       heading: 'What is Hepatitis B?',
       body:
-        'Hepatitis B is a serious liver infection caused by the Hepatitis B virus (HBV). It is transmitted when blood, semen, or vaginal fluids from a person carrying the virus enter another person’s body—most commonly through unprotected sexual contact, sharing needles or unsterilized medical/tattooing instruments, or from an infected mother to her baby during childbirth. Hepatitis B is 50 to 100 times more infectious than HIV, yet it is completely preventable with the Hepatitis B vaccine.'
+        'Hepatitis B is a serious liver infection caused by the Hepatitis B virus (HBV). It is transmitted when blood, semen, or vaginal fluids from a person carrying the virus enter another person’s body, most commonly through unprotected sexual contact, sharing needles or unsterilized medical or tattooing instruments, or from an infected mother to her baby during childbirth. Hepatitis B is 50 to 100 times more infectious than HIV, yet it is completely preventable with the Hepatitis B vaccine.'
     },
     {
       id: 'signs-and-symptoms',
       heading: 'Signs and Symptoms',
       body:
-        'Many people—especially when first infected—have no symptoms at all. When acute symptoms do appear (typically 1 to 4 months after exposure), they include extreme tiredness, loss of appetite, nausea and vomiting, low-grade fever, aching joints, pain or tenderness in the upper right abdomen (where the liver sits), dark tea-colored urine, pale clay-colored stools, and yellowing of the skin and the whites of the eyes (jaundice).'
+        'Many people, especially when first infected, have no symptoms at all. When acute symptoms do appear (typically 1 to 4 months after exposure), they include extreme tiredness, loss of appetite, nausea and vomiting, low-grade fever, aching joints, pain or tenderness in the upper right abdomen (where the liver sits), dark tea-colored urine, pale clay-colored stools, and yellowing of the skin and the whites of the eyes (jaundice).'
     },
     {
       id: 'how-to-treat',
@@ -40,7 +40,7 @@ export default function HepatitisBHomePage1({
       id: 'when-not-treated',
       heading: 'What Happens When You Do Not Treat (Long-Term)',
       body:
-        'While about 90% of healthy adults clear an acute Hepatitis B infection naturally, roughly 5% to 10% of adults—and up to 90% of infants infected at birth—develop lifelong chronic Hepatitis B. Left unmonitored and untreated over decades, chronic Hepatitis B causes ongoing liver inflammation that can silently progress to severe liver scarring (cirrhosis), liver failure, or liver cancer.'
+        'While about 90% of healthy adults clear an acute Hepatitis B infection naturally, roughly 5% to 10% of adults, and up to 90% of infants infected at birth, develop lifelong chronic Hepatitis B. Left unmonitored and untreated over decades, chronic Hepatitis B causes ongoing liver inflammation that can silently progress to severe liver scarring (cirrhosis), liver failure, or liver cancer.'
     },
     {
       id: 'manifest-in-male',
@@ -52,20 +52,20 @@ export default function HepatitisBHomePage1({
       id: 'affect-pregnancy',
       heading: 'How It Can Affect Pregnancy',
       body:
-        'Mother-to-child transmission at birth is the leading cause of chronic Hepatitis B worldwide—if a mother tests positive for Hepatitis B and no preventive steps are taken at delivery, her baby has up to a 90% chance of developing lifelong chronic infection. Fortunately, transmission to the baby is over 95% preventable: every pregnant woman should receive a Hepatitis B blood test, mothers with high viral loads can take safe antiviral medication in the third trimester, and the newborn is given the first Hepatitis B vaccine dose plus Hepatitis B Immune Globulin (HBIG) within 12 hours of birth.'
+        'Mother-to-child transmission at birth is the leading cause of chronic Hepatitis B worldwide. If a mother tests positive for Hepatitis B and no preventive steps are taken at delivery, her baby has up to a 90% chance of developing lifelong chronic infection. Fortunately, transmission to the baby is over 95% preventable: every pregnant woman should receive a Hepatitis B blood test, mothers with high viral loads can take safe antiviral medication in the third trimester, and the newborn is given the first Hepatitis B vaccine dose plus Hepatitis B Immune Globulin (HBIG) within 12 hours of birth.'
     },
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
       body:
-        'If you have never received the Hepatitis B vaccine series, ask your local clinic or hospital about getting vaccinated—it provides lifelong protection. If you are pregnant or planning a pregnancy, make sure a Hepatitis B surface antigen (HBsAg) blood test is part of your prenatal visit, use condoms with partners whose status is unknown, and never share needles, razors, or unsterile instruments.'
+        'If you have never received the Hepatitis B vaccine series, ask your local clinic or hospital about getting vaccinated because it provides lifelong protection. If you are pregnant or planning a pregnancy, make sure a Hepatitis B surface antigen (HBsAg) blood test is part of your prenatal visit, use condoms with partners whose status is unknown, and never share needles, razors, or unsterile instruments.'
     }
   ];
 
   return renderBrightStdFlyerPage({
     pageId: 'HepatitisBHomePage1',
     title: tr('eduBtnHepatitisB', 'Hepatitis B'),
-    gifSrc: './assets/std-hepatitis-b.gif?v=210',
+    gifSrc: './assets/std-hepatitis-b.gif?v=211',
     // Bright Dock-Icon App Store Royal-Cobalt Blue background (#1774FA -> #0C50DB)
     bgGradient: 'linear-gradient(180deg, #1B7BFE 0%, #0B4FD8 100%)',
     bgColor: '#1264EC',

@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=210';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=211';
 
 const h = React.createElement;
 
@@ -88,8 +88,7 @@ export function renderBrightStdFlyerPage({
         'div',
         {
           className:
-            'mt-5 mb-6 flex flex-col sm:flex-row items-center justify-between gap-4 border-b-2 pb-5',
-          style: { borderColor: dividerColor }
+            'mt-5 mb-6 flex flex-col sm:flex-row items-center justify-between gap-4 pb-2'
         },
         h(
           'div',
@@ -117,7 +116,7 @@ export function renderBrightStdFlyerPage({
           })
       ),
 
-      // Flowing Flyer Sections: Bolded Tinted-White Titles + Pure White Paragraphs (Zero Bullets, Zero Bubbles)
+      // Flowing Flyer Sections: Bolded Tinted-White Titles + Pure White Paragraphs (Zero Bullets, Zero Bubbles, Zero Divider Lines)
       h(
         'div',
         { className: 'space-y-6' },
@@ -126,8 +125,7 @@ export function renderBrightStdFlyerPage({
             'div',
             {
               key: sec.id || idx,
-              className: 'pb-5 border-b',
-              style: { borderColor: dividerColor }
+              className: 'pb-2'
             },
             h(
               'div',
@@ -165,7 +163,7 @@ export function renderBrightStdFlyerPage({
         )
       ),
 
-      // Bottom Direct Action Link (No Bubble Box — Clean Flat Flyer Link to Nearest Clinic on Map)
+      // Bottom Direct Action Link (No Bubble Box, Clean Flat Flyer Link to Nearest Clinic on Map)
       typeof onShowNearestClinic === 'function' &&
         h(
           'div',
@@ -278,7 +276,7 @@ export default function TrichomonasHomePage1({
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
       body:
-        'Trichomonas is cured with prescription oral antibiotic medication—specifically metronidazole or tinidazole tablets—taken either as a single dose or over 7 days. You can get tested and treated at any OB/GYN clinic, public sexual health clinic, community health center, or maternity hospital on the FemPowHer map. Both you and your sexual partner(s) must take the antibiotic treatment at the same time and wait at least 7 days after finishing the medication before having sex again so the parasite is not passed back and forth.'
+        'Trichomonas is cured with prescription oral antibiotic medication, specifically metronidazole or tinidazole tablets, taken either as a single dose or over 7 days. You can get tested and treated at any OB/GYN clinic, public sexual health clinic, community health center, or maternity hospital on the FemPowHer map. Both you and your sexual partner(s) must take the antibiotic treatment at the same time and wait at least 7 days after finishing the medication before having sex again so the parasite is not passed back and forth.'
     },
     {
       id: 'when-not-treated',
@@ -309,7 +307,7 @@ export default function TrichomonasHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'TrichomonasHomePage1',
     title: tr('eduBtnTrichomonas', 'Trichomonas'),
-    gifSrc: './assets/std-trichomonas.gif?v=210',
+    gifSrc: './assets/std-trichomonas.gif?v=211',
     // Bright Apple-Music / WHO Flyer Red-Coral background (#E82534 -> #D61B2A)
     bgGradient: 'linear-gradient(180deg, #F42B3E 0%, #DA1C2E 100%)',
     bgColor: '#E62235',

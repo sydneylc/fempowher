@@ -3,7 +3,7 @@ import {
   MakingGifButtons1,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=210';
+} from './PregnancyHomePage.js?v=211';
 
 const h = React.createElement;
 
@@ -33,25 +33,25 @@ export default function SexualHealthHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=210',
+      gifSrc: './assets/sexual-health-stds.gif?v=211',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-20px',
         marginRight: '-16px'
       },
-      // Creamy Apricot -> Soft Peach (#FFF3EB -> #FFD3C2) matching DiseasesAndInjuriesHomePage STDs button
+      // Deep Mulberry-Berry -> Rich Mulberry-Rose (#A62655 -> #C43E6E) matching DiseasesAndInjuriesHomePage STDs button
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFF3EB 0%, #FFD3C2 100%)',
+        background: 'linear-gradient(180deg, #A62655 0%, #C43E6E 100%)',
         border: 'none'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: 'none'
+        color: '#FFFFFF',
+        textShadow: '0 1px 6px rgba(72, 10, 34, 0.5)'
       },
       subTextStyle: {
-        color: '#9F133A',
-        textShadow: 'none'
+        color: '#FFFFFF',
+        textShadow: '0 1px 6px rgba(72, 10, 34, 0.5)'
       }
     }
   ];

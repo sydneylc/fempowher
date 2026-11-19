@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=210';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=211';
 
 export default function GonorrheaHomePage1({
   onBack,
@@ -22,19 +22,19 @@ export default function GonorrheaHomePage1({
       id: 'what-is',
       heading: 'What is Gonorrhea?',
       body:
-        'Gonorrhea is a common, curable bacterial sexually transmitted infection caused by Neisseria gonorrhoeae—microscopic kidney-bean-shaped bacteria that grow in pairs (diplococci) and thrive in warm, moist areas of the reproductive tract. It spreads through vaginal, anal, or oral sexual contact and can infect the cervix, uterus, Fallopian tubes, urethra, throat, eyes, and rectum.'
+        'Gonorrhea is a common, curable bacterial sexually transmitted infection caused by Neisseria gonorrhoeae, which are microscopic kidney-bean-shaped bacteria that grow in pairs (diplococci) and thrive in warm, moist areas of the reproductive tract. It spreads through vaginal, anal, or oral sexual contact and can infect the cervix, uterus, Fallopian tubes, urethra, throat, eyes, and rectum.'
     },
     {
       id: 'signs-and-symptoms',
       heading: 'Signs and Symptoms',
       body:
-        'More than half of women infected with Gonorrhea have no obvious symptoms or experience mild signs that are easily mistaken for a common bladder or vaginal infection. When symptoms appear—usually within 2 to 14 days of exposure—they include a thicker, creamy, yellowish, or greenish vaginal discharge, pain or burning when urinating, bleeding between menstrual periods, heavier periods, soreness in the throat (from oral contact), or pain in the lower belly and pelvis.'
+        'More than half of women infected with Gonorrhea have no obvious symptoms or experience mild signs that are easily mistaken for a common bladder or vaginal infection. When symptoms appear, usually within 2 to 14 days of exposure, they include a thicker, creamy, yellowish, or greenish vaginal discharge, pain or burning when urinating, bleeding between menstrual periods, heavier periods, soreness in the throat (from oral contact), or pain in the lower belly and pelvis.'
     },
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
       body:
-        'Because Gonorrhea has developed resistance to many older oral antibiotics around the world, standard medical treatment is a single intramuscular antibiotic injection (usually ceftriaxone) given at a clinic or hospital, sometimes paired with oral antibiotics if Chlamydia is also present. Visit an OB/GYN clinic, public health clinic, or hospital on the FemPowHer map for testing and the proper injection—never rely on leftover household antibiotic pills—and make sure your partner(s) are treated before resuming sex.'
+        'Because Gonorrhea has developed resistance to many older oral antibiotics around the world, standard medical treatment is a single intramuscular antibiotic injection (usually ceftriaxone) given at a clinic or hospital, sometimes paired with oral antibiotics if Chlamydia is also present. Visit an OB/GYN clinic, public health clinic, or hospital on the FemPowHer map for testing and the proper injection. Never rely on leftover household antibiotic pills, and make sure your partner(s) are treated before resuming sex.'
     },
     {
       id: 'when-not-treated',
@@ -46,7 +46,7 @@ export default function GonorrheaHomePage1({
       id: 'manifest-in-male',
       heading: 'How It Will Manifest in a Male',
       body:
-        'Unlike women, most men infected with Gonorrhea develop noticeable symptoms within 2 to 7 days of exposure—though some men remain asymptomatic carriers. Men typically experience a sharp burning sensation when urinating (often described as "peeing glass"), a white, yellow, or green pus-like discharge from the tip of the penis, and sometimes painful or swollen testicles.'
+        'Unlike women, most men infected with Gonorrhea develop noticeable symptoms within 2 to 7 days of exposure, although some men remain asymptomatic carriers. Men typically experience a sharp burning sensation when urinating (often described as "peeing glass"), a white, yellow, or green pus-like discharge from the tip of the penis, and sometimes painful or swollen testicles.'
     },
     {
       id: 'affect-pregnancy',
@@ -65,7 +65,7 @@ export default function GonorrheaHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'GonorrheaHomePage1',
     title: tr('eduBtnGonorrhea', 'Gonorrhea'),
-    gifSrc: './assets/std-gonorrhea.gif?v=210',
+    gifSrc: './assets/std-gonorrhea.gif?v=211',
     // Bright Dock-Icon Keynote Sky-Azure Blue background (#1E9EFE -> #0D70EB)
     bgGradient: 'linear-gradient(180deg, #22A2FE 0%, #0D6FE8 100%)',
     bgColor: '#1586F4',

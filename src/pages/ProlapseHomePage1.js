@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=210';
+import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=211';
 
 const h = React.createElement;
 
@@ -10,7 +10,7 @@ const DEFAULT_PROLAPSE_ISSUES = [
       en: 'Understanding Prolapse (Pelvic Organ & Uterine Prolapse)'
     },
     normalVsAbnormal: {
-      en: 'Pelvic organ prolapse happens when the pelvic floor muscles and ligaments that support the uterus, bladder, or rectum become stretched or weakened—often after childbirth, heavy physical labor, chronic coughing, or hormonal changes after menopause—allowing the uterus or vaginal walls to drop (prolapse) downward into or slightly outside the vaginal opening. It is very common, never something to be ashamed of, and treatable.'
+      en: 'Pelvic organ prolapse happens when the pelvic floor muscles and ligaments that support the uterus, bladder, or rectum become stretched or weakened, often after childbirth, heavy physical labor, chronic coughing, or hormonal changes after menopause, allowing the uterus or vaginal walls to drop (prolapse) downward into or slightly outside the vaginal opening. It is very common, never something to be ashamed of, and treatable.'
     },
     redFlags: {
       en: [

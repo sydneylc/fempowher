@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=210';
+import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=211';
 
 const h = React.createElement;
 
@@ -10,7 +10,7 @@ const DEFAULT_FISTULA_ISSUES = [
       en: 'Understanding Fistulas (Obstetric & Pelvic Fistula)'
     },
     normalVsAbnormal: {
-      en: 'A fistula is an abnormal opening or tunnel that forms between the birth canal (vagina, cervix, or uterus) and the bladder or rectum—most often after prolonged, obstructed childbirth without timely medical or surgical care, or after pelvic injury or surgery. It can cause continuous, involuntary leaking of urine or stool. A fistula is a medical injury, never a curse or a fault of the woman, and most fistulas can be surgically repaired.'
+      en: 'A fistula is an abnormal opening or tunnel that forms between the birth canal (vagina, cervix, or uterus) and the bladder or rectum, most often after prolonged, obstructed childbirth without timely medical or surgical care, or after pelvic injury or surgery. It can cause continuous, involuntary leaking of urine or stool. A fistula is a medical injury, never a curse or a fault of the woman, and most fistulas can be surgically repaired.'
     },
     redFlags: {
       en: [
@@ -21,7 +21,7 @@ const DEFAULT_FISTULA_ISSUES = [
       ]
     },
     selfCare: {
-      en: 'Drink plenty of clean water to keep urine diluted and prevent kidney or bladder infections. Wash gently with clean warm water (avoid harsh soaps) and apply a protective barrier ointment if available. Seek a hospital or specialized Women’s Safe Haven / Fistula Repair Center on your map—many humanitarian hospitals provide free fistula repair surgery and rehabilitation.'
+      en: 'Drink plenty of clean water to keep urine diluted and prevent kidney or bladder infections. Wash gently with clean warm water (avoid harsh soaps) and apply a protective barrier ointment if available. Seek a hospital or specialized Women’s Safe Haven / Fistula Repair Center on your map, many humanitarian hospitals provide free fistula repair surgery and rehabilitation.'
     }
   }
 ];

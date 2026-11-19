@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=207';
-import { renderGearHeartIcon } from '../data/cycleCalendarData.js?v=207';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=208';
+import { renderGearHeartIcon } from '../data/cycleCalendarData.js?v=208';
 
 const h = React.createElement;
 
@@ -116,7 +116,7 @@ export default function MyBodyHomePage({
     // Embedded MyBodyInteractiveHomePage1.html
     h('iframe', {
       ref: iframeRef,
-      src: './MyBodyInteractiveHomePage1.html?v=207',
+      src: './MyBodyInteractiveHomePage1.html?v=208',
       title: tr('eduBtnMyBody', 'My Body'),
       className: 'flex-1 w-full h-full border-0 bg-white',
       style: { backgroundColor: '#ffffff' },

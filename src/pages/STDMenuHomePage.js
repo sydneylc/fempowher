@@ -3,7 +3,7 @@ import {
   MakingGifButtons1,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=208';
+} from './PregnancyHomePage.js?v=209';
 
 const h = React.createElement;
 
@@ -32,16 +32,16 @@ export default function STDMenuHomePage({
       id: 'std-trichomonas-btn',
       label: tr('eduBtnTrichomonas', 'Trichomonas'),
       targetPage: 'TrichomonasHomePage1',
-      gifSrc: './assets/std-trichomonas.gif?v=208',
+      gifSrc: './assets/std-trichomonas.gif?v=209',
       imgClassName:
         'h-[115%] sm:h-[125%] w-auto max-w-[54vw] sm:max-w-[370px] object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-14px',
         marginRight: '-14px'
       },
-      // Neon Rainbow Stop 1: Electric Neon Pink-Magenta -> Neon Sunset Coral
+      // Neon Rainbow Band 1 (Distinct Hot Pink / Magenta Ombré):
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FF4FA8 0%, #FF8352 100%)',
+        background: 'linear-gradient(180deg, #FF6BB8 0%, #EB2F88 100%)',
         border: 'none'
       },
       textStyle: {
@@ -53,16 +53,16 @@ export default function STDMenuHomePage({
       id: 'std-hpv-btn',
       label: tr('eduBtnHPV', 'HPV'),
       targetPage: 'HPVHomePage1',
-      gifSrc: './assets/std-hpv.gif?v=208',
+      gifSrc: './assets/std-hpv.gif?v=209',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-28px',
         marginRight: '-28px'
       },
-      // Neon Rainbow Stop 2: Neon Sunset Coral -> Neon Electric Lemon-Gold
+      // Neon Rainbow Band 2 (Distinct Neon Tangerine-Orange Ombré — clear step change from Pink):
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FF8352 0%, #FFE63B 100%)',
+        background: 'linear-gradient(180deg, #FFAD4C 0%, #FF7724 100%)',
         border: 'none'
       },
       textStyle: {
@@ -74,16 +74,16 @@ export default function STDMenuHomePage({
       id: 'std-chlamydia-btn',
       label: tr('eduBtnChlamydia', 'Chlamydia'),
       targetPage: 'ChlamydiaHomePage1',
-      gifSrc: './assets/std-chlamydia.gif?v=208',
+      gifSrc: './assets/std-chlamydia.gif?v=209',
       imgClassName:
         'h-[122%] sm:h-[130%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-34px',
         marginRight: '-34px'
       },
-      // Neon Rainbow Stop 3: Neon Electric Lemon-Gold -> Neon Lime-Mint Green
+      // Neon Rainbow Band 3 (Distinct Neon Lemon-Yellow Ombré — clear step change from Orange):
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFE63B 0%, #4EF57A 100%)',
+        background: 'linear-gradient(180deg, #FFF463 0%, #F4D21B 100%)',
         border: 'none'
       },
       textStyle: {
@@ -95,16 +95,16 @@ export default function STDMenuHomePage({
       id: 'std-gonorrhea-btn',
       label: tr('eduBtnGonorrhea', 'Gonorrhea'),
       targetPage: 'GonorrheaHomePage1',
-      gifSrc: './assets/std-gonorrhea.gif?v=208',
+      gifSrc: './assets/std-gonorrhea.gif?v=209',
       imgClassName:
         'h-[120%] sm:h-[128%] w-auto max-w-[54vw] sm:max-w-[365px] object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-26px',
         marginRight: '-26px'
       },
-      // Neon Rainbow Stop 4: Neon Lime-Mint Green -> Neon Electric Cyan-Aqua
+      // Neon Rainbow Band 4 (Distinct Neon Lime-Mint Green Ombré — clear step change from Yellow):
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #4EF57A 0%, #2CE6FF 100%)',
+        background: 'linear-gradient(180deg, #74F898 0%, #27D866 100%)',
         border: 'none'
       },
       textStyle: {
@@ -116,16 +116,16 @@ export default function STDMenuHomePage({
       id: 'std-hepatitis-b-btn',
       label: tr('eduBtnHepatitisB', 'Hepatitis B'),
       targetPage: 'HepatitisBHomePage1',
-      gifSrc: './assets/std-hepatitis-b.gif?v=208',
+      gifSrc: './assets/std-hepatitis-b.gif?v=209',
       imgClassName:
         'h-[126%] sm:h-[134%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-38px',
         marginRight: '-38px'
       },
-      // Neon Rainbow Stop 5: Neon Electric Cyan-Aqua -> Neon Electric Blue-Violet
+      // Neon Rainbow Band 5 (Distinct Neon Electric Cyan-to-Indigo Ombré — clear step change from Green):
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #2CE6FF 0%, #8C52FF 100%)',
+        background: 'linear-gradient(180deg, #3ADAFF 0%, #6E58F8 100%)',
         border: 'none'
       },
       textStyle: {

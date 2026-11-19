@@ -41,6 +41,14 @@ export const FLYER_INSTANT_I18N = {
     'What is Chlamydia?': '¿Qué es la clamidia?',
     'What is Gonorrhea?': '¿Qué es la gonorrea?',
     'What is Hepatitis B?': '¿Qué es la hepatitis B?',
+    'What is Genital Herpes?': '¿Qué es el herpes genital?',
+    'What is HIV?': '¿Qué es el VIH?',
+    'What is Syphilis?': '¿Qué es la sífilis?',
+    'DAILY ANTIVIRAL PILLS': 'ANTIVIRALES DIARIOS',
+    'U=U (UNDETECTABLE)': 'I=I (INDETECTABLE)',
+    'PrEP & PEP PREVENTION': 'PREVENCIÓN PrEP Y PEP',
+    'PAINLESS SORE & RASH': 'LLAGA SIN DOLOR Y SARPULLIDO',
+    '100% CURED BY PENICILLIN': '100% CURABLE CON PENICILINA',
     'What is a Fistula?': '¿Qué es una fístula?',
     'What are Fibroids?': '¿Qué son los fibromas?',
     'What is Prolapse?': '¿Qué es el prolapso?',
@@ -85,6 +93,14 @@ export const FLYER_INSTANT_I18N = {
     'What is Chlamydia?': 'Qu’est-ce que la chlamydia ?',
     'What is Gonorrhea?': 'Qu’est-ce que la gonorrhée ?',
     'What is Hepatitis B?': 'Qu’est-ce que l’hépatite B ?',
+    'What is Genital Herpes?': 'Qu’est-ce que l’herpès génital ?',
+    'What is HIV?': 'Qu’est-ce que le VIH ?',
+    'What is Syphilis?': 'Qu’est-ce que la syphilis ?',
+    'DAILY ANTIVIRAL PILLS': 'ANTIVIRAUX QUOTIDIENS',
+    'U=U (UNDETECTABLE)': 'I=I (INDÉTECTABLE)',
+    'PrEP & PEP PREVENTION': 'PRÉVENTION PrEP ET PEP',
+    'PAINLESS SORE & RASH': 'PLAIE INDOLORE ET ÉRUPTION',
+    '100% CURED BY PENICILLIN': '100% GUÉRI PAR PÉNICILLINE',
     'What is a Fistula?': 'Qu’est-ce qu’une fistule ?',
     'What are Fibroids?': 'Que sont les fibromes ?',
     'What is Prolapse?': 'Qu’est-ce que le prolapsus ?',
@@ -129,6 +145,14 @@ export const FLYER_INSTANT_I18N = {
     'What is Chlamydia?': 'ما هي الكلاميديا؟',
     'What is Gonorrhea?': 'ما هو السيلان؟',
     'What is Hepatitis B?': 'ما هو التهاب الكبد ب؟',
+    'What is Genital Herpes?': 'ما هو الهربس التناسلي؟',
+    'What is HIV?': 'ما هو فيروس نقص المناعة البشرية (HIV)؟',
+    'What is Syphilis?': 'ما هو مرض الزهري (السفلس)؟',
+    'DAILY ANTIVIRAL PILLS': 'مضادات الفيروسات اليومية',
+    'U=U (UNDETECTABLE)': 'غير قابل للكشف = لا ينتقل',
+    'PrEP & PEP PREVENTION': 'الوقاية بـ PrEP و PEP',
+    'PAINLESS SORE & RASH': 'قرحة غير مؤلمة وطفح جلدي',
+    '100% CURED BY PENICILLIN': 'يُشفى 100% بالبنسلين',
     'What is a Fistula?': 'ما هو الناسور؟',
     'What are Fibroids?': 'ما هي الألياف الرحمية؟',
     'What is Prolapse?': 'ما هو هبوط أعضاء الحوض؟',
@@ -173,6 +197,14 @@ export const FLYER_INSTANT_I18N = {
     'What is Chlamydia?': 'کلامیدیا چیست؟',
     'What is Gonorrhea?': 'سوزاک (گونوریا) چیست؟',
     'What is Hepatitis B?': 'زردی سیاه (هپاتیت B) چیست؟',
+    'What is Genital Herpes?': 'تبخال تناسلی (هرپس) چیست؟',
+    'What is HIV?': 'ویروس اچ‌آی‌وی (HIV) چیست؟',
+    'What is Syphilis?': 'سیفلیس (سفلیس) چیست؟',
+    'DAILY ANTIVIRAL PILLS': 'تابلیت‌های ضد ویروس روزانه',
+    'U=U (UNDETECTABLE)': 'غیرقابل تشخیص = غیرقابل انتقال',
+    'PrEP & PEP PREVENTION': 'وقایه با PrEP و PEP',
+    'PAINLESS SORE & RASH': 'زخم بدون درد و بخار جلد',
+    '100% CURED BY PENICILLIN': '۱۰۰٪ قابل تداوی با پنی‌سیلین',
     'What is a Fistula?': 'فیستول ولادی چیست؟',
     'What are Fibroids?': 'فیبروم رحم چیست؟',
     'What is Prolapse?': 'افتادگی رحم و لگن چیست؟',
@@ -959,6 +991,8 @@ export function renderHealthyLiverShieldCartoonSvg(stickerText = 'PROTECT YOUR L
   );
 }
 
+
+
 // 13. Uterine Fibroids Locations Diagram Cartoon ("BENIGN MUSCLE GROWTHS" in UserLanguageChoice1)
 export function renderFibroidsUterusDiagramSvg(stickerText = 'BENIGN MUSCLE GROWTHS') {
   const fontSize = getStickerFontSize(stickerText, 10.5);
@@ -1044,6 +1078,8 @@ export function renderIronRichCareCartoonSvg(stickerText = 'IRON & ANEMIA CARE')
   );
 }
 
+
+
 // 15. Fistula Surgical Healing & Free Repair Center Cartoon ("90%+ SURGICALLY CURABLE" in UserLanguageChoice1)
 export function renderFistulaHealingRepairCartoonSvg(stickerText = '90%+ SURGICALLY CURABLE') {
   const fontSize = getStickerFontSize(stickerText, 10.5);
@@ -1085,6 +1121,8 @@ export function renderFistulaHealingRepairCartoonSvg(stickerText = '90%+ SURGICA
     )
   );
 }
+
+
 
 // 16. Pelvic Floor Hammock & Silicone Pessary Ring Cartoon ("PESSARY & PELVIC SUPPORT" in UserLanguageChoice1)
 export function renderPelvicPessaryRingCartoonSvg(stickerText = 'PESSARY & PELVIC SUPPORT') {
@@ -1138,6 +1176,8 @@ export function renderPelvicPessaryRingCartoonSvg(stickerText = 'PESSARY & PELVI
   );
 }
 
+
+
 // 17. Swab Test Tube & No-Alcohol With Metronidazole Cartoon ("SWAB TEST & NO ALCOHOL" in UserLanguageChoice1)
 export function renderSwabAndNoAlcoholCartoonSvg(stickerText = 'SWAB TEST & NO ALCOHOL') {
   const fontSize = getStickerFontSize(stickerText, 10);
@@ -1174,6 +1214,8 @@ export function renderSwabAndNoAlcoholCartoonSvg(stickerText = 'SWAB TEST & NO A
   );
 }
 
+
+
 // 18. Paired Kidney-Bean Diplococci Microscope Cartoon ("PAIRED DIPLOCOCCI" in UserLanguageChoice1)
 export function renderDiplococciMicroscopeCartoonSvg(stickerText = 'PAIRED DIPLOCOCCI') {
   const fontSize = getStickerFontSize(stickerText, 10.5);
@@ -1207,6 +1249,8 @@ export function renderDiplococciMicroscopeCartoonSvg(stickerText = 'PAIRED DIPLO
     )
   );
 }
+
+
 
 // 19. 3-Month Calendar Retest Cartoon ("RE-TEST IN 3 MONTHS" in UserLanguageChoice1)
 export function renderThreeMonthRetestCalendarSvg(
@@ -1245,6 +1289,8 @@ export function renderThreeMonthRetestCalendarSvg(
   );
 }
 
+
+
 // 20. Clean Water Hydration Pitcher & Glass Cartoon ("DRINK CLEAN WATER" in UserLanguageChoice1)
 export function renderCleanWaterHydrationCartoonSvg(stickerText = 'DRINK CLEAN WATER') {
   const fontSize = getStickerFontSize(stickerText, 10.5);
@@ -1281,6 +1327,8 @@ export function renderCleanWaterHydrationCartoonSvg(stickerText = 'DRINK CLEAN W
   );
 }
 
+
+
 // 21. Daily 5-Second Kegel Exercise Timer Cartoon ("DAILY KEGEL EXERCISES" in UserLanguageChoice1)
 export function renderKegelExerciseTimerCartoonSvg(
   stickerText = 'DAILY KEGEL EXERCISES',
@@ -1299,6 +1347,116 @@ export function renderKegelExerciseTimerCartoonSvg(
     h('rect', { x: '84', y: '12', width: '17', height: '7', rx: '3.5', fill: '#FEF08A' }),
     h('text', { x: '92.5', y: '67', textAnchor: 'middle', fill: '#6B21A8', fontSize: '23', fontWeight: '900' }, innerTopText),
     h('text', { x: '92.5', y: '85', textAnchor: 'middle', fill: '#9333EA', fontSize: '9.5', fontWeight: '900' }, innerBottomText),
+    h('rect', { x: '10', y: '117', width: '165', height: '21', rx: '10.5', fill: 'rgba(0,0,0,0.28)' }),
+    h(
+      'text',
+      {
+        x: '92.5',
+        y: '131.5',
+        textAnchor: 'middle',
+        fill: '#FFFFFF',
+        fontSize: String(fontSize),
+        fontWeight: '900',
+        letterSpacing: '0.5'
+      },
+      stickerText
+    )
+  );
+}
+
+// 22. U=U (Undetectable = Untransmittable) Heart Shield Cartoon (for HIVHomePage1)
+export function renderUequalsUArtCartoonSvg(stickerText = 'U=U (UNDETECTABLE)') {
+  const fontSize = getStickerFontSize(stickerText, 10.5);
+  return h(
+    'svg',
+    {
+      viewBox: '0 0 185 145',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
+      'aria-hidden': 'true'
+    },
+    h('circle', { cx: '92.5', cy: '58', r: '44', fill: '#FFFFFF', opacity: '0.96' }),
+    h('path', {
+      d: 'M92.5 34 C82 18, 54 22, 54 46 C54 68, 92.5 88, 92.5 94 C92.5 88, 131 68, 131 46 C131 22, 103 18, 92.5 34 Z',
+      fill: '#EC4899'
+    }),
+    h('text', { x: '92.5', y: '60', textAnchor: 'middle', fill: '#FFFFFF', fontSize: '22', fontWeight: '900' }, 'U=U'),
+    h('rect', { x: '10', y: '117', width: '165', height: '21', rx: '10.5', fill: 'rgba(0,0,0,0.28)' }),
+    h(
+      'text',
+      {
+        x: '92.5',
+        y: '131.5',
+        textAnchor: 'middle',
+        fill: '#FFFFFF',
+        fontSize: String(fontSize),
+        fontWeight: '900',
+        letterSpacing: '0.5'
+      },
+      stickerText
+    )
+  );
+}
+
+// 23. PrEP & 72h Emergency PEP Shield Cartoon (for HIVHomePage1)
+export function renderPrepPepShieldCartoonSvg(stickerText = 'PrEP & PEP PREVENTION') {
+  const fontSize = getStickerFontSize(stickerText, 10.5);
+  return h(
+    'svg',
+    {
+      viewBox: '0 0 185 145',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
+      'aria-hidden': 'true'
+    },
+    h('path', {
+      d: 'M66 16 L112 28 L112 64 C112 90, 90 106, 66 113 C42 106, 20 90, 20 64 L20 28 Z',
+      fill: '#38BDF8',
+      stroke: '#FFFFFF',
+      strokeWidth: '3'
+    }),
+    h('text', { x: '66', y: '67', textAnchor: 'middle', fill: '#FFFFFF', fontSize: '18', fontWeight: '900' }, 'PrEP'),
+    // 72h PEP emergency clock badge
+    h('circle', { cx: '134', cy: '68', r: '28', fill: '#FEF08A', stroke: '#FFFFFF', strokeWidth: '3' }),
+    h('text', { x: '134', y: '66', textAnchor: 'middle', fill: '#713F12', fontSize: '14', fontWeight: '900' }, '72h'),
+    h('text', { x: '134', y: '81', textAnchor: 'middle', fill: '#A16207', fontSize: '11', fontWeight: '900' }, 'PEP'),
+    h('rect', { x: '10', y: '117', width: '165', height: '21', rx: '10.5', fill: 'rgba(0,0,0,0.28)' }),
+    h(
+      'text',
+      {
+        x: '92.5',
+        y: '131.5',
+        textAnchor: 'middle',
+        fill: '#FFFFFF',
+        fontSize: String(fontSize),
+        fontWeight: '900',
+        letterSpacing: '0.5'
+      },
+      stickerText
+    )
+  );
+}
+
+// 24. Painless Sore & Palm Rash Stages Cartoon (for SyphilisHomePage1)
+export function renderPainlessChancreStagesCartoonSvg(stickerText = 'PAINLESS SORE & RASH') {
+  const fontSize = getStickerFontSize(stickerText, 10.5);
+  return h(
+    'svg',
+    {
+      viewBox: '0 0 185 145',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
+      'aria-hidden': 'true'
+    },
+    // Stage 1 badge
+    h('circle', { cx: '58', cy: '58', r: '32', fill: '#FFE4E6', stroke: '#FFFFFF', strokeWidth: '3' }),
+    h('circle', { cx: '58', cy: '58', r: '12', fill: '#E11D48' }),
+    h('text', { x: '58', y: '36', textAnchor: 'middle', fill: '#881337', fontSize: '9.5', fontWeight: '900' }, 'STAGE 1'),
+    // Stage 2 palm rash dots badge
+    h('circle', { cx: '128', cy: '58', r: '32', fill: '#FEF3C7', stroke: '#FFFFFF', strokeWidth: '3' }),
+    h('text', { x: '128', y: '36', textAnchor: 'middle', fill: '#92400E', fontSize: '9.5', fontWeight: '900' }, 'STAGE 2'),
+    h('circle', { cx: '118', cy: '54', r: '3.5', fill: '#D97706' }),
+    h('circle', { cx: '134', cy: '50', r: '3.5', fill: '#D97706' }),
+    h('circle', { cx: '126', cy: '64', r: '3.5', fill: '#D97706' }),
+    h('circle', { cx: '138', cy: '66', r: '3.5', fill: '#D97706' }),
+    h('circle', { cx: '116', cy: '70', r: '3.5', fill: '#D97706' }),
     h('rect', { x: '10', y: '117', width: '165', height: '21', rx: '10.5', fill: 'rgba(0,0,0,0.28)' }),
     h(
       'text',

@@ -1,34 +1,8 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=209';
-
-const h = React.createElement;
-
-const DEFAULT_GONORRHEA_ISSUES = [
-  {
-    id: 'std-gonorrhea-overview',
-    title: {
-      en: 'Understanding Gonorrhea'
-    },
-    normalVsAbnormal: {
-      en: 'Gonorrhea is a bacterial sexually transmitted infection (caused by Neisseria gonorrhoeae, which grows in pairs called diplococci). It can infect the cervix, uterus, Fallopian tubes, urethra, throat, or rectum. Many women have mild or no symptoms at first, but untreated gonorrhea can cause Pelvic Inflammatory Disease (PID), scarring of the Fallopian tubes, or pass to a baby during childbirth.'
-    },
-    redFlags: {
-      en: [
-        'Increased watery, creamy, yellowish, or greenish vaginal discharge',
-        'Pain or burning when urinating',
-        'Bleeding between menstrual periods or heavier periods',
-        'Lower abdominal or pelvic pain, fever, or swollen painful joints'
-      ]
-    },
-    selfCare: {
-      en: 'Gonorrhea is curable with specific antibiotic treatment (usually a ceftriaxone injection given at a clinic or hospital). Because antibiotic resistance is common with gonorrhea, always get treated at a verified health clinic rather than taking leftover pills, and make sure partner(s) are treated too.'
-    }
-  }
-];
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=210';
 
 export default function GonorrheaHomePage1({
   onBack,
-  issues = [],
   UserLanguageChoice1 = null,
   lang = 'en',
   t = {},
@@ -43,34 +17,66 @@ export default function GonorrheaHomePage1({
     return t[key] || fallback;
   };
 
-  const activeIssues = issues && issues.length > 0 ? issues : DEFAULT_GONORRHEA_ISSUES;
-
-  return h(
-    'div',
+  const sections = [
     {
-      id: 'GonorrheaHomePage1',
-      className: 'min-h-full w-full shrink-0 bg-white flex flex-col p-4 sm:p-6'
+      id: 'what-is',
+      heading: 'What is Gonorrhea?',
+      body:
+        'Gonorrhea is a common, curable bacterial sexually transmitted infection caused by Neisseria gonorrhoeae—microscopic kidney-bean-shaped bacteria that grow in pairs (diplococci) and thrive in warm, moist areas of the reproductive tract. It spreads through vaginal, anal, or oral sexual contact and can infect the cervix, uterus, Fallopian tubes, urethra, throat, eyes, and rectum.'
     },
-    h(
-      'div',
-      { className: 'max-w-3xl w-full mx-auto' },
-      renderSubpageBackButton(onBack, t, lang),
-      h(
-        'h1',
-        {
-          className: 'text-2xl sm:text-3xl font-extrabold text-center mt-4',
-          style: { color: '#9F133A' }
-        },
-        tr('eduBtnGonorrhea', 'Gonorrhea')
-      ),
-      renderEducationIssueCards({
-        issues: activeIssues,
-        lang,
-        t,
-        speakingId,
-        speakText,
-        onShowNearestClinic
-      })
-    )
-  );
+    {
+      id: 'signs-and-symptoms',
+      heading: 'Signs and Symptoms',
+      body:
+        'More than half of women infected with Gonorrhea have no obvious symptoms or experience mild signs that are easily mistaken for a common bladder or vaginal infection. When symptoms appear—usually within 2 to 14 days of exposure—they include a thicker, creamy, yellowish, or greenish vaginal discharge, pain or burning when urinating, bleeding between menstrual periods, heavier periods, soreness in the throat (from oral contact), or pain in the lower belly and pelvis.'
+    },
+    {
+      id: 'how-to-treat',
+      heading: 'How to Treat and Where to Go to Be Treated',
+      body:
+        'Because Gonorrhea has developed resistance to many older oral antibiotics around the world, standard medical treatment is a single intramuscular antibiotic injection (usually ceftriaxone) given at a clinic or hospital, sometimes paired with oral antibiotics if Chlamydia is also present. Visit an OB/GYN clinic, public health clinic, or hospital on the FemPowHer map for testing and the proper injection—never rely on leftover household antibiotic pills—and make sure your partner(s) are treated before resuming sex.'
+    },
+    {
+      id: 'when-not-treated',
+      heading: 'What Happens When You Do Not Treat (Long-Term)',
+      body:
+        'Left untreated, Gonorrhea ascends into the uterus and Fallopian tubes to cause severe Pelvic Inflammatory Disease (PID), internal pelvic abscesses, chronic pelvic pain, scarring that blocks the Fallopian tubes (causing infertility or ectopic pregnancy), and in rare cases can enter the bloodstream to cause Disseminated Gonococcal Infection (DGI) with fever, skin lesions, and swollen, painful joints.'
+    },
+    {
+      id: 'manifest-in-male',
+      heading: 'How It Will Manifest in a Male',
+      body:
+        'Unlike women, most men infected with Gonorrhea develop noticeable symptoms within 2 to 7 days of exposure—though some men remain asymptomatic carriers. Men typically experience a sharp burning sensation when urinating (often described as "peeing glass"), a white, yellow, or green pus-like discharge from the tip of the penis, and sometimes painful or swollen testicles.'
+    },
+    {
+      id: 'affect-pregnancy',
+      heading: 'How It Can Affect Pregnancy',
+      body:
+        'Untreated Gonorrhea during pregnancy is linked to miscarriage, premature rupture of membranes, chorioamnionitis (infection of the amniotic sac), preterm birth, and postpartum uterine infection. If passed to the newborn’s eyes during childbirth, Gonorrhea causes a severe eye infection (ophthalmia neonatorum) that can damage vision if not prevented with routine newborn antibiotic eye ointment and maternal prenatal treatment.'
+    },
+    {
+      id: 'what-to-do-today',
+      heading: 'What You Can Do Today',
+      body:
+        'If you or your partner notice burning with urination, unusual yellowish-green discharge, or pelvic pain, go to a local clinic immediately for a combined Gonorrhea and Chlamydia test. Complete your clinic treatment, ensure all recent partners receive treatment too, abstain from sex for 7 days after both partners are treated, and get re-tested in 3 months.'
+    }
+  ];
+
+  return renderBrightStdFlyerPage({
+    pageId: 'GonorrheaHomePage1',
+    title: tr('eduBtnGonorrhea', 'Gonorrhea'),
+    gifSrc: './assets/std-gonorrhea.gif?v=210',
+    // Bright Dock-Icon Keynote Sky-Azure Blue background (#1E9EFE -> #0D70EB)
+    bgGradient: 'linear-gradient(180deg, #22A2FE 0%, #0D6FE8 100%)',
+    bgColor: '#1586F4',
+    // White mixed with the sky-blue background for bolded section titles
+    titleTintColor: '#C9EBFF',
+    sections,
+    onBack,
+    onShowNearestClinic,
+    speakingId,
+    speakText,
+    lang,
+    t
+  });
 }

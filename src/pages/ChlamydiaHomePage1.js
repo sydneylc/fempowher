@@ -1,34 +1,8 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=209';
-
-const h = React.createElement;
-
-const DEFAULT_CHLAMYDIA_ISSUES = [
-  {
-    id: 'std-chlamydia-overview',
-    title: {
-      en: 'Understanding Chlamydia'
-    },
-    normalVsAbnormal: {
-      en: 'Chlamydia is a very common bacterial sexually transmitted infection (caused by Chlamydia trachomatis). More than 70% of women with chlamydia feel no symptoms at all, which is why it is often called a "silent" infection. If left untreated, it can travel up into the uterus and Fallopian tubes and cause Pelvic Inflammatory Disease (PID), chronic pelvic pain, ectopic pregnancy, or difficulty getting pregnant.'
-    },
-    redFlags: {
-      en: [
-        'New or unusual yellowish or cloudy vaginal discharge',
-        'Burning or stinging when urinating',
-        'Bleeding or spotting between periods or after sexual intercourse',
-        'Lower abdominal or pelvic pain, pain deep inside during sex, or fever'
-      ]
-    },
-    selfCare: {
-      en: 'Chlamydia is 100% curable with a simple course of prescription antibiotics (such as doxycycline or azithromycin). Ensure your partner(s) are treated at the same time and avoid sex for 7 days after starting treatment so you do not get re-infected.'
-    }
-  }
-];
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=210';
 
 export default function ChlamydiaHomePage1({
   onBack,
-  issues = [],
   UserLanguageChoice1 = null,
   lang = 'en',
   t = {},
@@ -43,34 +17,66 @@ export default function ChlamydiaHomePage1({
     return t[key] || fallback;
   };
 
-  const activeIssues = issues && issues.length > 0 ? issues : DEFAULT_CHLAMYDIA_ISSUES;
-
-  return h(
-    'div',
+  const sections = [
     {
-      id: 'ChlamydiaHomePage1',
-      className: 'min-h-full w-full shrink-0 bg-white flex flex-col p-4 sm:p-6'
+      id: 'what-is',
+      heading: 'What is Chlamydia?',
+      body:
+        'Chlamydia is the most frequently reported bacterial sexually transmitted infection worldwide, caused by the bacterium Chlamydia trachomatis. It spreads through vaginal, anal, or oral sex with an infected partner—even if ejaculation does not occur—and primarily infects the delicate cells of a woman’s cervix and urethra, as well as the rectum or throat.'
     },
-    h(
-      'div',
-      { className: 'max-w-3xl w-full mx-auto' },
-      renderSubpageBackButton(onBack, t, lang),
-      h(
-        'h1',
-        {
-          className: 'text-2xl sm:text-3xl font-extrabold text-center mt-4',
-          style: { color: '#9F133A' }
-        },
-        tr('eduBtnChlamydia', 'Chlamydia')
-      ),
-      renderEducationIssueCards({
-        issues: activeIssues,
-        lang,
-        t,
-        speakingId,
-        speakText,
-        onShowNearestClinic
-      })
-    )
-  );
+    {
+      id: 'signs-and-symptoms',
+      heading: 'Signs and Symptoms',
+      body:
+        'Chlamydia is widely known to doctors as a "silent infection" because roughly 70% to 80% of women with Chlamydia feel no symptoms at all. When signs do appear—usually 1 to 3 weeks after exposure—they include an abnormal yellowish or mucoid vaginal discharge coming from an inflamed cervix, a burning sensation when urinating, bleeding or spotting between menstrual periods or after sex, and dull lower abdominal or pelvic pain.'
+    },
+    {
+      id: 'how-to-treat',
+      heading: 'How to Treat and Where to Go to Be Treated',
+      body:
+        'Chlamydia is 100% curable with a short course of prescription oral antibiotics—typically doxycycline taken twice daily for 7 days, or a single prescribed dose of azithromycin (especially during pregnancy). You can be tested with a simple urine sample or gentle vaginal swab at any local OB/GYN clinic, family planning center, or hospital on your FemPowHer map. Both you and your sexual partner(s) must complete antibiotic treatment and wait 7 full days before having sex again.'
+    },
+    {
+      id: 'when-not-treated',
+      heading: 'What Happens When You Do Not Treat (Long-Term)',
+      body:
+        'Because Chlamydia is often silent, untreated bacteria can travel upward from the cervix into the uterus and Fallopian tubes, causing Pelvic Inflammatory Disease (PID). Over time, PID can silently form scar tissue and adhesions inside the Fallopian tubes, leading to chronic pelvic pain, tubal infertility (difficulty getting pregnant), or a life-threatening ectopic pregnancy (where a fertilized egg gets trapped in a scarred Fallopian tube).'
+    },
+    {
+      id: 'manifest-in-male',
+      heading: 'How It Will Manifest in a Male',
+      body:
+        'About half of infected men have no symptoms at all and can pass Chlamydia to their partner without knowing it. When men do develop symptoms, they typically notice a watery, milky, or cloudy discharge from the tip of the penis, burning or stinging during urination, and occasionally pain, tenderness, or swelling in one or both testicles (epididymitis).'
+    },
+    {
+      id: 'affect-pregnancy',
+      heading: 'How It Can Affect Pregnancy',
+      body:
+        'Untreated Chlamydia during pregnancy increases the risk of preterm membrane rupture, early labor, and low birth weight. In addition, a baby passing through an infected birth canal during vaginal delivery can develop a Chlamydia eye infection (neonatal conjunctivitis) or infant pneumonia within the first weeks of life. Routine prenatal screening and safe antibiotic treatment during pregnancy completely protect both mother and baby.'
+    },
+    {
+      id: 'what-to-do-today',
+      heading: 'What You Can Do Today',
+      body:
+        'If you have a new partner, notice spotting after sex or unusual discharge, or have not had an STI screening this year, visit a local clinic for a quick urine or swab test. Take the entire antibiotic course prescribed, help your partner get treated at the same time, and return for a repeat test 3 months after treatment to make sure you have not been re-exposed.'
+    }
+  ];
+
+  return renderBrightStdFlyerPage({
+    pageId: 'ChlamydiaHomePage1',
+    title: tr('eduBtnChlamydia', 'Chlamydia'),
+    gifSrc: './assets/std-chlamydia.gif?v=210',
+    // Bright Dock-Icon Numbers Vivid Emerald-Lime Green background (#1FC72E -> #12A820)
+    bgGradient: 'linear-gradient(180deg, #25CB35 0%, #12A620 100%)',
+    bgColor: '#1BB82A',
+    // White mixed with the green background for bolded section titles
+    titleTintColor: '#C9FFD0',
+    sections,
+    onBack,
+    onShowNearestClinic,
+    speakingId,
+    speakText,
+    lang,
+    t
+  });
 }

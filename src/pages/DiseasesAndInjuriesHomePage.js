@@ -3,7 +3,7 @@ import {
   MakingGifButtons1,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=209';
+} from './PregnancyHomePage.js?v=210';
 
 const h = React.createElement;
 
@@ -25,96 +25,96 @@ export default function DiseasesAndInjuriesHomePage({
     return t[key] || fallback;
   };
 
-  // MakingGifButtons1 full-width buttons with a bluish-to-purplish ombré palette
-  // and PregnancyHomePage lettering structure (#9F133A on lighter top bands, #FFFFFF on deepest bottom band)
+  // MakingGifButtons1 full-width buttons with a seamless Apricot-to-Coral-to-Mulberry ombré palette
+  // (#9F133A crisp lettering on lighter top bands with zero chalky glow, #FFFFFF on deeper bands)
   const diseasesBannerButtons = [
     {
       id: 'stds-diseases-banner-btn',
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=209',
+      gifSrc: './assets/sexual-health-stds.gif?v=210',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-20px',
         marginRight: '-16px'
       },
-      // Tone 1: Soft Sky-Periwinkle Blue (#AED2FA)
+      // Tone 1: Creamy Apricot -> Soft Peach (#FFF3EB -> #FFD3C2)
       backgroundStyle: {
-        backgroundColor: '#AED2FA',
+        background: 'linear-gradient(180deg, #FFF3EB 0%, #FFD3C2 100%)',
         border: 'none'
       },
       textStyle: {
         color: '#9F133A',
-        textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
+        textShadow: 'none'
       },
       subTextStyle: {
         color: '#9F133A',
-        textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
+        textShadow: 'none'
       }
     },
     {
       id: 'fistulas-diseases-banner-btn',
       label: tr('eduBtnFistulas', 'Fistulas'),
       targetPage: 'FistulasHomePage1',
-      gifSrc: './assets/diseases-fistulas.gif?v=209',
+      gifSrc: './assets/diseases-fistulas.gif?v=210',
       imgClassName:
         'h-[126%] sm:h-[134%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-86px',
         marginRight: '-86px'
       },
-      // Tone 2: Cornflower Periwinkle Blue (#8EB3F5)
+      // Tone 2: Soft Peach -> Warm Coral (#FFD3C2 -> #FA9690)
       backgroundStyle: {
-        backgroundColor: '#8EB3F5',
+        background: 'linear-gradient(180deg, #FFD3C2 0%, #FA9690 100%)',
         border: 'none'
       },
       textStyle: {
         color: '#9F133A',
-        textShadow: '0 1px 10px rgba(255, 255, 255, 0.9)'
+        textShadow: 'none'
       }
     },
     {
       id: 'fibroids-diseases-banner-btn',
       label: tr('eduBtnFibroids', 'Fibroids'),
       targetPage: 'FibroidsHomePage1',
-      gifSrc: './assets/diseases-fibroids.gif?v=209',
+      gifSrc: './assets/diseases-fibroids.gif?v=210',
       imgClassName:
         'h-[154%] sm:h-[164%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-88px',
         marginRight: '-68px'
       },
-      // Tone 3: Soft Lavender-Violet (#9E93F0)
+      // Tone 3: Warm Coral -> Rich Mulberry-Rose (#FA9690 -> #C43E6E)
       backgroundStyle: {
-        backgroundColor: '#9E93F0',
+        background: 'linear-gradient(180deg, #FA9690 0%, #C43E6E 100%)',
         border: 'none'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: '0 1px 10px rgba(255, 255, 255, 0.9)'
+        color: '#FFFFFF',
+        textShadow: '0 1px 6px rgba(138, 28, 56, 0.42)'
       }
     },
     {
       id: 'prolapse-diseases-banner-btn',
       label: tr('eduBtnProlapse', 'Prolapse'),
       targetPage: 'ProlapseHomePage1',
-      gifSrc: './assets/diseases-prolapse.gif?v=209',
+      gifSrc: './assets/diseases-prolapse.gif?v=210',
       imgClassName:
         'h-[148%] sm:h-[158%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-86px',
         marginRight: '-86px'
       },
-      // Tone 4: Deep Royal Lavender-Purple (#735DD6) with pure white lettering like bottom of PregnancyHomePage
+      // Tone 4: Rich Mulberry-Rose -> Deep Mulberry-Berry (#C43E6E -> #A62655)
       backgroundStyle: {
-        backgroundColor: '#735DD6',
+        background: 'linear-gradient(180deg, #C43E6E 0%, #A62655 100%)',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(45, 22, 105, 0.65)'
+        textShadow: '0 1px 6px rgba(92, 16, 45, 0.5)'
       }
     }
   ];

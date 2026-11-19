@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=215';
 import {
   renderBurningUrinationCartoonSvg,
   renderClinicInjectionCartoonSvg,
   renderDiplococciMicroscopeCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=214';
+} from './FlyerCartoonIllustrations.js?v=215';
 
 export default function GonorrheaHomePage1({
   onBack,
@@ -28,7 +28,8 @@ export default function GonorrheaHomePage1({
     {
       id: 'what-is',
       heading: 'What is Gonorrhea?',
-      graphic: renderDiplococciMicroscopeCartoonSvg(),
+      stickerLabel: 'PAIRED DIPLOCOCCI',
+      graphicRenderer: (sticker) => renderDiplococciMicroscopeCartoonSvg(sticker),
       body:
         'Gonorrhea is a common, curable bacterial sexually transmitted infection caused by Neisseria gonorrhoeae, which are microscopic kidney-bean-shaped bacteria that grow in pairs (diplococci) and thrive in warm, moist areas of the reproductive tract. It spreads through vaginal, anal, or oral sexual contact and can infect the cervix, uterus, Fallopian tubes, urethra, throat, eyes, and rectum.'
     },
@@ -41,21 +42,24 @@ export default function GonorrheaHomePage1({
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
-      graphic: renderClinicInjectionCartoonSvg(),
+      stickerLabel: 'CLINIC ANTIBIOTIC SHOT',
+      graphicRenderer: (sticker) => renderClinicInjectionCartoonSvg(sticker),
       body:
         'Because Gonorrhea has developed resistance to many older oral antibiotics around the world, standard medical treatment is a single intramuscular antibiotic injection (usually ceftriaxone) given at a clinic or hospital, sometimes paired with oral antibiotics if Chlamydia is also present. Visit an OB/GYN clinic, public health clinic, or hospital on the FemPowHer map for testing and the proper injection. Never rely on leftover household antibiotic pills, and make sure your partner(s) are treated before resuming sex.'
     },
     {
       id: 'when-not-treated',
       heading: 'What Happens When You Do Not Treat (Long-Term)',
-      graphic: renderUterusFallopianPidCartoonSvg(),
+      stickerLabel: 'PROTECT FALLOPIAN TUBES',
+      graphicRenderer: (sticker) => renderUterusFallopianPidCartoonSvg(sticker),
       body:
         'Left untreated, Gonorrhea ascends into the uterus and Fallopian tubes to cause severe Pelvic Inflammatory Disease (PID), internal pelvic abscesses, chronic pelvic pain, scarring that blocks the Fallopian tubes (causing infertility or ectopic pregnancy), and in rare cases can enter the bloodstream to cause Disseminated Gonococcal Infection (DGI) with fever, skin lesions, and swollen, painful joints.'
     },
     {
       id: 'manifest-in-male',
       heading: 'How It Will Manifest in a Male',
-      graphic: renderBurningUrinationCartoonSvg(),
+      stickerLabel: 'BURNING URINATION',
+      graphicRenderer: (sticker) => renderBurningUrinationCartoonSvg(sticker),
       body:
         'Unlike women, most men infected with Gonorrhea develop noticeable symptoms within 2 to 7 days of exposure, although some men remain asymptomatic carriers. Men typically experience a sharp burning sensation when urinating (often described as "peeing glass"), a white, yellow, or green pus-like discharge from the tip of the penis, and sometimes painful or swollen testicles.'
     },
@@ -77,17 +81,16 @@ export default function GonorrheaHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'GonorrheaHomePage1',
     title: tr('eduBtnGonorrhea', 'Gonorrhea'),
-    gifSrc: './assets/std-gonorrhea.gif?v=214',
-    // Bright Dock-Icon Keynote Sky-Azure Blue background (#22A2FE -> #0D6FE8)
+    gifSrc: './assets/std-gonorrhea.gif?v=215',
     bgGradient: 'linear-gradient(180deg, #22A2FE 0%, #0D6FE8 100%)',
     bgColor: '#1586F4',
-    // White mixed with the sky-blue background for bolded section titles
     titleTintColor: '#C9EBFF',
     sections,
     onBack,
     onShowNearestClinic,
     speakingId,
     speakText,
+    UserLanguageChoice1,
     lang,
     t
   });

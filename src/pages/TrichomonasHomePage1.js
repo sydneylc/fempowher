@@ -1,21 +1,36 @@
-import React from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=214';
+import React, { useState, useEffect } from 'https://esm.sh/react@18.3.1';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=215';
 import {
   renderMaleBladderUrethraCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
-  renderSwabAndNoAlcoholCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=214';
+  renderSwabAndNoAlcoholCartoonSvg,
+  translateFlyerPhraseInstant
+} from './FlyerCartoonIllustrations.js?v=215';
 
 const h = React.createElement;
 
-// Shared Full-Bleed Bright Flyer Layout for STD & Reproductive Disease Education Pages
-// - Vivid dock-icon background color (no rounded-corner white/pink bubble cards)
-// - Animated transparent character GIF floating directly on the colored background
-// - Bolded section titles in white mixed with the background color (plus optional inline headingIcon)
-// - Pure white paragraph/sentence writing underneath (no bullet points, no long hyphens)
-// - Custom flat-vector cartoon illustrations alongside 3 to 4 sections on every page
-export function renderBrightStdFlyerPage({
+function resolveTranslateTargetCode(lang = 'en', UserLanguageChoice1 = null) {
+  const rawTarget =
+    (UserLanguageChoice1 &&
+      typeof UserLanguageChoice1 === 'object' &&
+      UserLanguageChoice1.translateTarget &&
+      UserLanguageChoice1.translateTarget !== 'en'
+      ? UserLanguageChoice1.translateTarget
+      : null) ||
+    (UserLanguageChoice1 && typeof UserLanguageChoice1 === 'object' && UserLanguageChoice1.code
+      ? UserLanguageChoice1.code
+      : null) ||
+    lang ||
+    'en';
+  const code = String(rawTarget).toLowerCase().trim();
+  if (!code || code === 'en') return 'en';
+  if (code === 'prs') return 'fa';
+  if (code === 'rhg') return 'bn';
+  return code;
+}
+
+function BrightStdFlyerPageComponent({
   pageId,
   title,
   gifSrc,
@@ -28,18 +43,114 @@ export function renderBrightStdFlyerPage({
   onShowNearestClinic = null,
   speakingId = null,
   speakText = null,
+  UserLanguageChoice1 = null,
   lang = 'en',
   t = {}
 }) {
-  const rtl = isRtlLanguage(lang);
-  const fullAudioText = [title, ...sections.map((s) => `${s.heading}. ${s.body}`)].join('. ');
+  const activeCode =
+    (UserLanguageChoice1 && typeof UserLanguageChoice1 === 'object' && UserLanguageChoice1.code) ||
+    lang ||
+    'en';
+  const tlTarget = resolveTranslateTargetCode(activeCode, UserLanguageChoice1);
+  const rtl = isRtlLanguage(activeCode, UserLanguageChoice1?.writtenLanguage);
+
+  const [translatedMap, setTranslatedMap] = useState({});
+
+  useEffect(() => {
+    if (!tlTarget || tlTarget === 'en') {
+      setTranslatedMap({});
+      return;
+    }
+
+    const cacheKey = `fempowher_flyer_i18n_v215_${pageId}_${tlTarget}`;
+    try {
+      const cached = localStorage.getItem(cacheKey);
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (parsed && typeof parsed === 'object') {
+          setTranslatedMap(parsed);
+          return;
+        }
+      }
+    } catch (e) {}
+
+    // Collect all strings on this flyer page (title, headings, paragraphs, sticker labels, inner sticker words, bottom button)
+    const phrasesToTranslate = [];
+    const addPhrase = (p) => {
+      if (p && typeof p === 'string' && !phrasesToTranslate.includes(p)) {
+        phrasesToTranslate.push(p);
+      }
+    };
+
+    addPhrase(title);
+    sections.forEach((sec) => {
+      addPhrase(sec.heading);
+      addPhrase(sec.body);
+      addPhrase(sec.stickerLabel);
+      addPhrase(sec.stickerInnerTop);
+      addPhrase(sec.stickerInnerBottom);
+    });
+    addPhrase('Find Nearest Women’s Clinic or Hospital on Map →');
+
+    if (phrasesToTranslate.length === 0) return;
+
+    let cancelled = false;
+    // Use newline delimiter to translate all headings, paragraphs, and sticker words in a single request
+    const payload = phrasesToTranslate.join('\n');
+    fetch(
+      `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${encodeURIComponent(
+        tlTarget
+      )}&dt=t&q=${encodeURIComponent(payload)}`
+    )
+      .then((r) => r.json())
+      .then((data) => {
+        if (cancelled || !data || !Array.isArray(data[0])) return;
+        const fullTranslated = data[0].map((seg) => seg[0] || '').join('');
+        const lines = fullTranslated.split('\n');
+        const mapObj = {};
+        phrasesToTranslate.forEach((orig, idx) => {
+          if (lines[idx] && lines[idx].trim()) {
+            mapObj[orig] = lines[idx].trim();
+          }
+        });
+        setTranslatedMap(mapObj);
+        try {
+          localStorage.setItem(cacheKey, JSON.stringify(mapObj));
+        } catch (e) {}
+      })
+      .catch(() => {});
+
+    return () => {
+      cancelled = true;
+    };
+  }, [pageId, tlTarget, title]);
+
+  // Translate any string on the page or inside a cartoon sticker into UserLanguageChoice1
+  const trPhrase = (phrase) => {
+    if (!phrase) return '';
+    if (tlTarget === 'en' && activeCode === 'en') return phrase;
+    if (translatedMap && translatedMap[phrase]) {
+      return translatedMap[phrase];
+    }
+    const instant = translateFlyerPhraseInstant(phrase, activeCode, UserLanguageChoice1);
+    if (instant && instant !== phrase) {
+      return instant;
+    }
+    return phrase;
+  };
+
+  const displayTitle = trPhrase(title);
+  const fullAudioText = [
+    displayTitle,
+    ...sections.map((s) => `${trPhrase(s.heading)}. ${trPhrase(s.body)}`)
+  ].join('. ');
 
   return h(
     'div',
     {
       id: pageId,
       dir: rtl ? 'rtl' : 'ltr',
-      className: 'min-h-full w-full shrink-0 flex flex-col px-5 sm:px-10 py-6 sm:py-8 select-text',
+      className: 'min-h-full w-full shrink-0 flex flex-col px-5 sm:px-10 py-6 sm:py-8 select-text overflow-x-hidden',
       style: {
         background: bgGradient || bgColor || '#FA2D48',
         backgroundColor: bgColor || '#FA2D48',
@@ -49,7 +160,7 @@ export function renderBrightStdFlyerPage({
     h(
       'div',
       { className: 'max-w-3xl w-full mx-auto' },
-      // Top Row: Back Button + Optional Listen Aloud Button
+      // Top Row: Back Button + Optional Listen Aloud Button (UserLanguageChoice1)
       h(
         'div',
         { className: 'flex items-center justify-between gap-3 flex-wrap' },
@@ -67,7 +178,7 @@ export function renderBrightStdFlyerPage({
             }
           },
           h('span', { 'aria-hidden': 'true' }, rtl ? '→' : '←'),
-          h('span', null, cleanBackLabel(t?.eduBackBtn))
+          h('span', null, cleanBackLabel(t?.backBtn || t?.eduBackBtn, activeCode))
         ),
         typeof speakText === 'function' &&
           h(
@@ -84,8 +195,8 @@ export function renderBrightStdFlyerPage({
               }
             },
             speakingId === pageId
-              ? t?.stopAudioBtn || 'Stop Audio'
-              : t?.listenAudioBtn || 'Listen Aloud (Audio Guide)'
+              ? t?.stopAudioBtn || trPhrase('Stop Audio')
+              : t?.listenAudioBtn || trPhrase('Listen Aloud (Audio Guide)')
           )
       ),
 
@@ -108,13 +219,13 @@ export function renderBrightStdFlyerPage({
                 textShadow: '0 2px 12px rgba(0, 0, 0, 0.18)'
               }
             },
-            title
+            displayTitle
           )
         ),
         gifSrc &&
           h('img', {
             src: gifSrc,
-            alt: title,
+            alt: displayTitle,
             className: 'h-36 sm:h-44 w-auto object-contain select-none pointer-events-none shrink-0',
             style: {
               filter: 'drop-shadow(0 6px 14px rgba(0, 0, 0, 0.18))'
@@ -122,12 +233,20 @@ export function renderBrightStdFlyerPage({
           })
       ),
 
-      // Flowing Flyer Sections: Bolded Tinted-White Titles + Pure White Paragraphs + Custom Cartoon Illustrations
+      // Flowing Flyer Sections: Bolded Tinted-White Titles + Pure White Paragraphs + Translated Custom Cartoon Stickers
       h(
         'div',
         { className: 'space-y-6' },
         sections.map((sec, idx) => {
-          const sectionGraphic = sec.graphic || (sec.withGraphic ? extraGraphic : null);
+          const translatedSticker = sec.stickerLabel ? trPhrase(sec.stickerLabel) : undefined;
+          const translatedInnerTop = sec.stickerInnerTop ? trPhrase(sec.stickerInnerTop) : undefined;
+          const translatedInnerBottom = sec.stickerInnerBottom ? trPhrase(sec.stickerInnerBottom) : undefined;
+
+          const sectionGraphic =
+            typeof sec.graphicRenderer === 'function'
+              ? sec.graphicRenderer(translatedSticker, translatedInnerTop, translatedInnerBottom)
+              : sec.graphic || (sec.withGraphic ? extraGraphic : null);
+
           return h(
             'div',
             {
@@ -138,12 +257,12 @@ export function renderBrightStdFlyerPage({
               'div',
               {
                 className: sectionGraphic
-                  ? 'flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5'
+                  ? 'flex flex-col md:flex-row items-center md:items-center justify-between gap-5'
                   : 'block'
               },
               h(
                 'div',
-                { className: 'flex-1' },
+                { className: 'flex-1 w-full' },
                 h(
                   'h2',
                   {
@@ -153,7 +272,7 @@ export function renderBrightStdFlyerPage({
                       textShadow: '0 1px 6px rgba(0, 0, 0, 0.22)'
                     }
                   },
-                  h('span', null, sec.heading),
+                  h('span', null, trPhrase(sec.heading)),
                   sec.headingIcon || null
                 ),
                 h(
@@ -162,16 +281,21 @@ export function renderBrightStdFlyerPage({
                     className: 'text-sm sm:text-base font-semibold leading-relaxed',
                     style: { color: '#FFFFFF' }
                   },
-                  sec.body
+                  trPhrase(sec.body)
                 )
               ),
-              sectionGraphic
+              sectionGraphic &&
+                h(
+                  'div',
+                  { className: 'shrink-0 flex items-center justify-center mx-auto md:mx-0' },
+                  sectionGraphic
+                )
             )
           );
         })
       ),
 
-      // Bottom Direct Action Link (Clean Flat Flyer Link to Nearest Clinic on Map)
+      // Bottom Direct Action Link (Translated in UserLanguageChoice1)
       typeof onShowNearestClinic === 'function' &&
         h(
           'div',
@@ -189,11 +313,15 @@ export function renderBrightStdFlyerPage({
                 boxShadow: '0 4px 14px rgba(0, 0, 0, 0.18)'
               }
             },
-            t?.findNearestClinicBtn || 'Find Nearest Women’s Clinic or Hospital on Map →'
+            t?.findNearestClinicBtn || trPhrase('Find Nearest Women’s Clinic or Hospital on Map →')
           )
         )
     )
   );
+}
+
+export function renderBrightStdFlyerPage(props) {
+  return h(BrightStdFlyerPageComponent, props);
 }
 
 // Cute flat blue fish illustration matching the WHO Trichomonas flyer
@@ -205,27 +333,22 @@ export function renderCuteFlyerFishSvg() {
       className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
-    // Tail fin
     h('path', {
       d: 'M142 40 L174 16 L166 40 L174 64 Z',
       fill: '#23599E'
     }),
-    // Top dorsal fin
     h('path', {
       d: 'M72 19 C92 8, 118 10, 130 24 Z',
       fill: '#23599E'
     }),
-    // Bottom fin
     h('path', {
       d: 'M105 58 L128 65 L122 53 Z',
       fill: '#23599E'
     }),
-    // Main fish body
     h('path', {
       d: 'M12 38 C32 14, 104 12, 148 40 C104 68, 32 64, 12 43 L24 40 Z',
       fill: '#A3BCE8'
     }),
-    // Gill curve
     h('path', {
       d: 'M52 24 C60 36, 58 48, 48 56',
       stroke: '#23599E',
@@ -233,15 +356,12 @@ export function renderCuteFlyerFishSvg() {
       fill: 'none',
       strokeLinecap: 'round'
     }),
-    // Side pectoral fin
     h('path', {
       d: 'M65 42 L84 35 L82 49 Z',
       fill: '#23599E'
     }),
-    // Eye
     h('circle', { cx: '32', cy: '34', r: '6', fill: '#FFFFFF' }),
     h('circle', { cx: '31', cy: '34', r: '3.5', fill: '#222222' }),
-    // White scale dots
     h('circle', { cx: '88', cy: '28', r: '2', fill: '#FFFFFF', opacity: '0.85' }),
     h('circle', { cx: '102', cy: '31', r: '2', fill: '#FFFFFF', opacity: '0.85' }),
     h('circle', { cx: '115', cy: '27', r: '2', fill: '#FFFFFF', opacity: '0.85' }),
@@ -283,7 +403,8 @@ export default function TrichomonasHomePage1({
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
-      graphic: renderPartnerPillsCartoonSvg(),
+      stickerLabel: 'TREAT BOTH PARTNERS',
+      graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
       body:
         'Trichomonas is cured with prescription oral antibiotic medication, specifically metronidazole or tinidazole tablets, taken either as a single dose or over 7 days. You can get tested and treated at any OB/GYN clinic, public sexual health clinic, community health center, or maternity hospital on the FemPowHer map. Both you and your sexual partner(s) must take the antibiotic treatment at the same time and wait at least 7 days after finishing the medication before having sex again so the parasite is not passed back and forth.'
     },
@@ -310,7 +431,8 @@ export default function TrichomonasHomePage1({
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
-      graphic: renderSwabAndNoAlcoholCartoonSvg(),
+      stickerLabel: 'SWAB TEST & NO ALCOHOL',
+      graphicRenderer: (sticker) => renderSwabAndNoAlcoholCartoonSvg(sticker),
       body:
         'If you notice frothy or yellowish-green discharge, a strong fishy odor, or vaginal itching and burning, visit a local clinic for a quick, painless swab test rather than using over-the-counter yeast creams or douching (which will not cure Trichomonas and can worsen irritation). Take every pill of your prescribed antibiotic, avoid alcohol while taking metronidazole or tinidazole to prevent severe nausea, and make sure your partner is treated before resuming sex.'
     }
@@ -319,17 +441,16 @@ export default function TrichomonasHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'TrichomonasHomePage1',
     title: tr('eduBtnTrichomonas', 'Trichomonas'),
-    gifSrc: './assets/std-trichomonas.gif?v=214',
-    // Bright Apple-Music / WHO Flyer Red-Coral background (#F42B3E -> #DA1C2E)
+    gifSrc: './assets/std-trichomonas.gif?v=215',
     bgGradient: 'linear-gradient(180deg, #F42B3E 0%, #DA1C2E 100%)',
     bgColor: '#E62235',
-    // White mixed with the red background for bolded section titles
     titleTintColor: '#FFC4CB',
     sections,
     onBack,
     onShowNearestClinic,
     speakingId,
     speakText,
+    UserLanguageChoice1,
     lang,
     t
   });

@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=215';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderFistulaHealingRepairCartoonSvg,
   renderMaleBladderUrethraCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=214';
+} from './FlyerCartoonIllustrations.js?v=215';
 
 export default function FistulasHomePage1({
   onBack,
@@ -40,7 +40,8 @@ export default function FistulasHomePage1({
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
-      graphic: renderFistulaHealingRepairCartoonSvg(),
+      stickerLabel: '90%+ SURGICALLY CURABLE',
+      graphicRenderer: (sticker) => renderFistulaHealingRepairCartoonSvg(sticker),
       body:
         'Over 90% of obstetric and pelvic fistulas can be completely closed and cured with specialized reconstructive fistula repair surgery. If you go to a hospital within the first few days after delivery, small bladder fistulas can sometimes heal with simple continuous bladder catheter drainage alone, without surgery. Visit a Women’s Hospital or Fistula Repair Center on your FemPowHer map, where many humanitarian and public hospitals provide fistula repair surgery, physical therapy, and post-surgical care free of charge.'
     },
@@ -66,7 +67,8 @@ export default function FistulasHomePage1({
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
-      graphic: renderCleanWaterHydrationCartoonSvg(),
+      stickerLabel: 'DRINK CLEAN WATER',
+      graphicRenderer: (sticker) => renderCleanWaterHydrationCartoonSvg(sticker),
       body:
         'If you notice continuous leaking of urine or stool after childbirth, do not restrict drinking water. Instead, drink plenty of clean water every day to keep your urine diluted and prevent kidney infections and skin burning. Wash gently with clean warm water, protect irritated skin with a gentle barrier ointment if available, and use the FemPowHer map to connect with the nearest Women’s Hospital or Fistula Care Center.'
     }
@@ -75,17 +77,16 @@ export default function FistulasHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'FistulasHomePage1',
     title: tr('eduBtnFistulas', 'Fistulas'),
-    gifSrc: './assets/diseases-fistulas.gif?v=214',
-    // Bright Berry-Rose background (#E6225B -> #C61349)
+    gifSrc: './assets/diseases-fistulas.gif?v=215',
     bgGradient: 'linear-gradient(180deg, #ED2762 0%, #C7144A 100%)',
     bgColor: '#D91E55',
-    // White mixed with the berry background for bolded section titles
     titleTintColor: '#FFC7DC',
     sections,
     onBack,
     onShowNearestClinic,
     speakingId,
     speakText,
+    UserLanguageChoice1,
     lang,
     t
   });

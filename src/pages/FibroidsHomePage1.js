@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=215';
 import {
   renderCervixPapScreenCartoonSvg,
   renderFibroidsUterusDiagramSvg,
   renderIronRichCareCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=214';
+} from './FlyerCartoonIllustrations.js?v=215';
 
 export default function FibroidsHomePage1({
   onBack,
@@ -27,21 +27,24 @@ export default function FibroidsHomePage1({
     {
       id: 'what-is',
       heading: 'What are Fibroids?',
-      graphic: renderFibroidsUterusDiagramSvg(),
+      stickerLabel: 'BENIGN MUSCLE GROWTHS',
+      graphicRenderer: (sticker) => renderFibroidsUterusDiagramSvg(sticker),
       body:
         'Uterine fibroids (medically called leiomyomas or myomas) are very common, benign (non-cancerous) swirling muscular growths that develop from the smooth muscle tissue of the uterus. They can grow inside the muscular wall of the uterus (intramural), bulge into the inner uterine cavity (submucosal), project outward from the outer surface of the uterus (subserosal), or hang from a narrow stalk (pedunculated). Up to 70% of women develop at least one small fibroid by age 50, and fibroids almost never turn into cancer.'
     },
     {
       id: 'signs-and-symptoms',
       heading: 'Signs and Symptoms',
-      graphic: renderIronRichCareCartoonSvg(),
+      stickerLabel: 'IRON & ANEMIA CARE',
+      graphicRenderer: (sticker) => renderIronRichCareCartoonSvg(sticker),
       body:
         'Many women with small fibroids feel no symptoms at all. When fibroids grow larger or press against the uterine lining, they commonly cause heavy, gushing, or prolonged menstrual periods with large blood clots, pelvic heaviness or fullness, a visibly enlarged lower belly, frequent urination (when a fibroid presses on the bladder), constipation, and dull aching in the lower back or legs.'
     },
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
-      graphic: renderCervixPapScreenCartoonSvg(),
+      stickerLabel: 'PAP & HPV SCREENING',
+      graphicRenderer: (sticker) => renderCervixPapScreenCartoonSvg(sticker),
       body:
         'Fibroids are diagnosed with a gentle pelvic exam and a painless pelvic ultrasound at any OB/GYN clinic or women’s hospital on your FemPowHer map. Treatment depends on your symptoms and whether you plan to have children in the future: doctors can prescribe iron supplements, non-hormonal medications (like tranexamic acid) or hormonal options to reduce heavy bleeding, minimally invasive procedures to shrink fibroids, or a myomectomy (a surgery that removes only the fibroids while keeping your uterus intact for future pregnancy).'
     },
@@ -75,17 +78,16 @@ export default function FibroidsHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'FibroidsHomePage1',
     title: tr('eduBtnFibroids', 'Fibroids'),
-    gifSrc: './assets/diseases-fibroids.gif?v=214',
-    // Bright Warm Scarlet-Terracotta background (#F04330 -> #C92616)
+    gifSrc: './assets/diseases-fibroids.gif?v=215',
     bgGradient: 'linear-gradient(180deg, #F04330 0%, #C92616 100%)',
     bgColor: '#DC3422',
-    // White mixed with the terracotta-red background for bolded section titles
     titleTintColor: '#FFD2CC',
     sections,
     onBack,
     onShowNearestClinic,
     speakingId,
     speakText,
+    UserLanguageChoice1,
     lang,
     t
   });

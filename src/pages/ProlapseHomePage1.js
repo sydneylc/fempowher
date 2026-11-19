@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=215';
 import {
   renderKegelExerciseTimerCartoonSvg,
   renderPelvicPessaryRingCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=214';
+} from './FlyerCartoonIllustrations.js?v=215';
 
 export default function ProlapseHomePage1({
   onBack,
@@ -27,7 +27,8 @@ export default function ProlapseHomePage1({
     {
       id: 'what-is',
       heading: 'What is Prolapse?',
-      graphic: renderUterusFallopianPidCartoonSvg(),
+      stickerLabel: 'PROTECT FALLOPIAN TUBES',
+      graphicRenderer: (sticker) => renderUterusFallopianPidCartoonSvg(sticker),
       body:
         'Pelvic organ prolapse (including uterine prolapse) happens when the hammock of pelvic floor muscles and ligaments that holds up the uterus, bladder, and rectum becomes stretched or weakened, allowing the uterus or vaginal walls to drop downward into or slightly outside the vaginal opening. It most commonly develops after one or more vaginal childbirths, years of carrying heavy loads, chronic coughing or constipation, or the natural drop in estrogen after menopause. Prolapse is very common and never something to be ashamed of.'
     },
@@ -40,7 +41,8 @@ export default function ProlapseHomePage1({
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
-      graphic: renderPelvicPessaryRingCartoonSvg(),
+      stickerLabel: 'PESSARY & PELVIC SUPPORT',
+      graphicRenderer: (sticker) => renderPelvicPessaryRingCartoonSvg(sticker),
       body:
         'Prolapse is completely treatable at an OB/GYN clinic or Women’s Hospital on your FemPowHer map, often without any surgery at all. Mild to moderate prolapse improves significantly with guided pelvic floor muscle exercises (Kegels) and a vaginal pessary, which is a soft, removable medical silicone support ring that a nurse or doctor fits comfortably inside the vagina to hold the uterus and bladder in place. For severe prolapse, pelvic reconstructive surgery can permanently restore support.'
     },
@@ -66,7 +68,11 @@ export default function ProlapseHomePage1({
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
-      graphic: renderKegelExerciseTimerCartoonSvg(),
+      stickerLabel: 'DAILY KEGEL EXERCISES',
+      stickerInnerTop: '5s',
+      stickerInnerBottom: 'HOLD & LIFT',
+      graphicRenderer: (sticker, topTxt, botTxt) =>
+        renderKegelExerciseTimerCartoonSvg(sticker, topTxt, botTxt),
       body:
         'Practice daily Kegel exercises by gently squeezing and lifting the muscles you would use to stop the flow of urine, holding for 5 seconds and relaxing for 5 seconds, 10 times in a row, three times a day. Drink plenty of water and eat fiber-rich foods so you never have to strain during bowel movements, avoid lifting heavy objects whenever possible, and visit a local OB/GYN clinic to ask about a pessary support ring or pelvic floor care.'
     }
@@ -75,17 +81,16 @@ export default function ProlapseHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'ProlapseHomePage1',
     title: tr('eduBtnProlapse', 'Prolapse'),
-    gifSrc: './assets/diseases-prolapse.gif?v=214',
-    // Bright Royal Purple-Violet background (#8B2CF5 -> #6818C4)
+    gifSrc: './assets/diseases-prolapse.gif?v=215',
     bgGradient: 'linear-gradient(180deg, #8E2FF7 0%, #6817C2 100%)',
     bgColor: '#7B23DC',
-    // White mixed with the purple background for bolded section titles
     titleTintColor: '#E9D5FF',
     sections,
     onBack,
     onShowNearestClinic,
     speakingId,
     speakText,
+    UserLanguageChoice1,
     lang,
     t
   });

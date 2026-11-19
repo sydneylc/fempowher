@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=215';
 import {
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderSilentInfectionCartoonSvg,
   renderThreeMonthRetestCalendarSvg,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=214';
+} from './FlyerCartoonIllustrations.js?v=215';
 
 export default function ChlamydiaHomePage1({
   onBack,
@@ -34,21 +34,24 @@ export default function ChlamydiaHomePage1({
     {
       id: 'signs-and-symptoms',
       heading: 'Signs and Symptoms',
-      graphic: renderSilentInfectionCartoonSvg(),
+      stickerLabel: 'SILENT (NO SYMPTOMS)',
+      graphicRenderer: (sticker) => renderSilentInfectionCartoonSvg(sticker),
       body:
         'Chlamydia is widely known to doctors as a "silent infection" because roughly 70% to 80% of women with Chlamydia feel no symptoms at all. When signs do appear, usually 1 to 3 weeks after exposure, they include an abnormal yellowish or mucoid vaginal discharge coming from an inflamed cervix, a burning sensation when urinating, bleeding or spotting between menstrual periods or after sex, and dull lower abdominal or pelvic pain.'
     },
     {
       id: 'how-to-treat',
       heading: 'How to Treat and Where to Go to Be Treated',
-      graphic: renderPartnerPillsCartoonSvg(),
+      stickerLabel: 'TREAT BOTH PARTNERS',
+      graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
       body:
         'Chlamydia is 100% curable with a short course of prescription oral antibiotics, typically doxycycline taken twice daily for 7 days, or a single prescribed dose of azithromycin (especially during pregnancy). You can be tested with a simple urine sample or gentle vaginal swab at any local OB/GYN clinic, family planning center, or hospital on your FemPowHer map. Both you and your sexual partner(s) must complete antibiotic treatment and wait 7 full days before having sex again.'
     },
     {
       id: 'when-not-treated',
       heading: 'What Happens When You Do Not Treat (Long-Term)',
-      graphic: renderUterusFallopianPidCartoonSvg(),
+      stickerLabel: 'PROTECT FALLOPIAN TUBES',
+      graphicRenderer: (sticker) => renderUterusFallopianPidCartoonSvg(sticker),
       body:
         'Because Chlamydia is often silent, untreated bacteria can travel upward from the cervix into the uterus and Fallopian tubes, causing Pelvic Inflammatory Disease (PID). Over time, PID can silently form scar tissue and adhesions inside the Fallopian tubes, leading to chronic pelvic pain, tubal infertility (difficulty getting pregnant), or a life-threatening ectopic pregnancy (where a fertilized egg gets trapped in a scarred Fallopian tube).'
     },
@@ -68,7 +71,11 @@ export default function ChlamydiaHomePage1({
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
-      graphic: renderThreeMonthRetestCalendarSvg(),
+      stickerLabel: 'RE-TEST IN 3 MONTHS',
+      stickerInnerTop: '3 MO',
+      stickerInnerBottom: 'CHECKUP',
+      graphicRenderer: (sticker, topTxt, botTxt) =>
+        renderThreeMonthRetestCalendarSvg(sticker, topTxt, botTxt),
       body:
         'If you have a new partner, notice spotting after sex or unusual discharge, or have not had an STI screening this year, visit a local clinic for a quick urine or swab test. Take the entire antibiotic course prescribed, help your partner get treated at the same time, and return for a repeat test 3 months after treatment to make sure you have not been re-exposed.'
     }
@@ -77,17 +84,16 @@ export default function ChlamydiaHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'ChlamydiaHomePage1',
     title: tr('eduBtnChlamydia', 'Chlamydia'),
-    gifSrc: './assets/std-chlamydia.gif?v=214',
-    // Bright Dock-Icon Numbers Vivid Emerald-Lime Green background (#25CB35 -> #12A620)
+    gifSrc: './assets/std-chlamydia.gif?v=215',
     bgGradient: 'linear-gradient(180deg, #25CB35 0%, #12A620 100%)',
     bgColor: '#1BB82A',
-    // White mixed with the green background for bolded section titles
     titleTintColor: '#C9FFD0',
     sections,
     onBack,
     onShowNearestClinic,
     speakingId,
     speakText,
+    UserLanguageChoice1,
     lang,
     t
   });

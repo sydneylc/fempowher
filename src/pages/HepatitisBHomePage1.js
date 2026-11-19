@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=214';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=215';
 import {
   renderHealthyLiverShieldCartoonSvg,
   renderJaundiceManCartoonSvg,
   renderMotherHoldingNewbornSvg,
   renderPregnantLadyHeadingIcon,
   renderVaccineShieldCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=214';
+} from './FlyerCartoonIllustrations.js?v=215';
 
 export default function HepatitisBHomePage1({
   onBack,
@@ -28,14 +28,16 @@ export default function HepatitisBHomePage1({
     {
       id: 'what-is',
       heading: 'What is Hepatitis B?',
-      graphic: renderHealthyLiverShieldCartoonSvg(),
+      stickerLabel: 'PROTECT YOUR LIVER',
+      graphicRenderer: (sticker) => renderHealthyLiverShieldCartoonSvg(sticker),
       body:
         'Hepatitis B is a serious liver infection caused by the Hepatitis B virus (HBV). It is transmitted when blood, semen, or vaginal fluids from a person carrying the virus enter another person’s body, most commonly through unprotected sexual contact, sharing needles or unsterilized medical or tattooing instruments, or from an infected mother to her baby during childbirth. Hepatitis B is 50 to 100 times more infectious than HIV, yet it is completely preventable with the Hepatitis B vaccine.'
     },
     {
       id: 'signs-and-symptoms',
       heading: 'Signs and Symptoms',
-      graphic: renderJaundiceManCartoonSvg(),
+      stickerLabel: 'JAUNDICE',
+      graphicRenderer: (sticker) => renderJaundiceManCartoonSvg(sticker),
       body:
         'Many people, especially when first infected, have no symptoms at all. When acute symptoms do appear (typically 1 to 4 months after exposure), they include extreme tiredness, loss of appetite, nausea and vomiting, low-grade fever, aching joints, pain or tenderness in the upper right abdomen (where the liver sits), dark tea-colored urine, pale clay-colored stools, and yellowing of the skin and the whites of the eyes (jaundice).'
     },
@@ -68,7 +70,8 @@ export default function HepatitisBHomePage1({
     {
       id: 'what-to-do-today',
       heading: 'What You Can Do Today',
-      graphic: renderVaccineShieldCartoonSvg(),
+      stickerLabel: 'VACCINE PROTECTION',
+      graphicRenderer: (sticker) => renderVaccineShieldCartoonSvg(sticker),
       body:
         'If you have never received the Hepatitis B vaccine series, ask your local clinic or hospital about getting vaccinated because it provides lifelong protection. If you are pregnant or planning a pregnancy, make sure a Hepatitis B surface antigen (HBsAg) blood test is part of your prenatal visit, use condoms with partners whose status is unknown, and never share needles, razors, or unsterile instruments.'
     }
@@ -77,17 +80,16 @@ export default function HepatitisBHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'HepatitisBHomePage1',
     title: tr('eduBtnHepatitisB', 'Hepatitis B'),
-    gifSrc: './assets/std-hepatitis-b.gif?v=214',
-    // Bright Dock-Icon App Store Royal-Cobalt Blue background (#1B7BFE -> #0B4FD8)
+    gifSrc: './assets/std-hepatitis-b.gif?v=215',
     bgGradient: 'linear-gradient(180deg, #1B7BFE 0%, #0B4FD8 100%)',
     bgColor: '#1264EC',
-    // White mixed with the royal-blue background for bolded section titles
     titleTintColor: '#C8DCFF',
     sections,
     onBack,
     onShowNearestClinic,
     speakingId,
     speakText,
+    UserLanguageChoice1,
     lang,
     t
   });

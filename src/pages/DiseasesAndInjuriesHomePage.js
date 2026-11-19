@@ -3,7 +3,7 @@ import {
   MakingGifButtons1,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=220';
+} from './PregnancyHomePage.js?v=221';
 
 const h = React.createElement;
 
@@ -33,7 +33,7 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=220',
+      gifSrc: './assets/sexual-health-stds.gif?v=221',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -58,7 +58,7 @@ export default function DiseasesAndInjuriesHomePage({
       id: 'fistulas-diseases-banner-btn',
       label: tr('eduBtnFistulas', 'Fistulas'),
       targetPage: 'FistulasHomePage1',
-      gifSrc: './assets/diseases-fistulas.gif?v=220',
+      gifSrc: './assets/diseases-fistulas.gif?v=221',
       imgClassName:
         'h-[126%] sm:h-[134%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -79,7 +79,7 @@ export default function DiseasesAndInjuriesHomePage({
       id: 'fibroids-diseases-banner-btn',
       label: tr('eduBtnFibroids', 'Fibroids'),
       targetPage: 'FibroidsHomePage1',
-      gifSrc: './assets/diseases-fibroids.gif?v=220',
+      gifSrc: './assets/diseases-fibroids.gif?v=221',
       imgClassName:
         'h-[154%] sm:h-[164%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -100,7 +100,7 @@ export default function DiseasesAndInjuriesHomePage({
       id: 'prolapse-diseases-banner-btn',
       label: tr('eduBtnProlapse', 'Prolapse'),
       targetPage: 'ProlapseHomePage1',
-      gifSrc: './assets/diseases-prolapse.gif?v=220',
+      gifSrc: './assets/diseases-prolapse.gif?v=221',
       imgClassName:
         'h-[148%] sm:h-[158%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -141,7 +141,7 @@ export default function DiseasesAndInjuriesHomePage({
       )
     ),
 
-    // Full-Width Bluish-to-Purplish Ombré Banner Buttons (MakingGifButtons1): STDs, Fistulas, Fibroids, Prolapse
+    // Full-Width Ombré Banner Buttons (MakingGifButtons1): STDs, Fistulas, Fibroids, Prolapse
     h(MakingGifButtons1, {
       sections: diseasesBannerButtons,
       containerClassName: 'w-full grid',
@@ -151,20 +151,6 @@ export default function DiseasesAndInjuriesHomePage({
           onNavigateEducationPage(sec.targetPage);
         }
       }
-    }),
-
-    // Existing AI-made Reproductive Health Diseases & Injuries Info Bubble below the banner buttons
-    h(
-      'div',
-      { className: 'max-w-3xl w-full mx-auto p-4 sm:p-6' },
-      renderEducationIssueCards({
-        issues,
-        lang,
-        t,
-        speakingId,
-        speakText,
-        onShowNearestClinic
-      })
-    )
+    })
   );
 }

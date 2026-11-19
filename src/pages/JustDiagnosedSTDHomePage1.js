@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=220';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=221';
 import {
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderSwabAndNoAlcoholCartoonSvg,
   renderThreeMonthRetestCalendarSvg,
   renderUequalsUArtCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=220';
+} from './FlyerCartoonIllustrations.js?v=221';
 
 export default function JustDiagnosedSTDHomePage1({
   onBack,
@@ -84,7 +84,7 @@ export default function JustDiagnosedSTDHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'JustDiagnosedSTDHomePage1',
     title: tr('stdMenuBtnJustDiagnosed', 'I just got diagnosed with an STD!'),
-    gifSrc: './assets/sexual-health-stds.gif?v=220',
+    gifSrc: './assets/sexual-health-stds.gif?v=221',
     bgGradient: 'linear-gradient(180deg, #E61E64 0%, #B8124C 100%)',
     bgColor: '#D41758',
     titleTintColor: '#FFC7DC',

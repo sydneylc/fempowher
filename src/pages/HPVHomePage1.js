@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=211';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=212';
 
 export default function HPVHomePage1({
   onBack,
@@ -65,7 +65,7 @@ export default function HPVHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'HPVHomePage1',
     title: tr('eduBtnHPV', 'HPV'),
-    gifSrc: './assets/std-hpv.gif?v=211',
+    gifSrc: './assets/std-hpv.gif?v=212',
     // Bright Dock-Icon Pages Tangerine-Amber Orange background (#FF9D1A -> #ED7605)
     bgGradient: 'linear-gradient(180deg, #FF9E18 0%, #E87000 100%)',
     bgColor: '#F28508',

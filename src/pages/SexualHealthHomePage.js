@@ -1,9 +1,8 @@
 import React from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
-  renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=211';
+} from './PregnancyHomePage.js?v=212';
 
 const h = React.createElement;
 
@@ -11,12 +10,8 @@ export default function SexualHealthHomePage({
   onBack,
   onNavigateEducationPage = null,
   UserLanguageChoice1 = null,
-  issues = [],
   lang = 'en',
-  t = {},
-  speakingId = null,
-  speakText = () => {},
-  onShowNearestClinic = () => {}
+  t = {}
 }) {
   const tr = (key, fallback) => {
     if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {
@@ -33,7 +28,7 @@ export default function SexualHealthHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=211',
+      gifSrc: './assets/sexual-health-stds.gif?v=212',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -78,7 +73,7 @@ export default function SexualHealthHomePage({
       )
     ),
 
-    // Top Full-Width STDs Button (MakingGifButtons1) -> opens shared STDMenuHomePage
+    // Full-Width STDs Button (MakingGifButtons1) -> opens shared STDMenuHomePage
     h(MakingGifButtons1, {
       sections: sexualHealthBannerButtons,
       containerClassName: 'w-full grid',
@@ -88,20 +83,6 @@ export default function SexualHealthHomePage({
           onNavigateEducationPage(sec.targetPage);
         }
       }
-    }),
-
-    // Existing AI-made Sexual Health Info Bubble below the banner button
-    h(
-      'div',
-      { className: 'max-w-3xl w-full mx-auto p-4 sm:p-6' },
-      renderEducationIssueCards({
-        issues,
-        lang,
-        t,
-        speakingId,
-        speakText,
-        onShowNearestClinic
-      })
-    )
+    })
   );
 }

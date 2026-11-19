@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=211';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=212';
 
 export default function ChlamydiaHomePage1({
   onBack,
@@ -65,7 +65,7 @@ export default function ChlamydiaHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'ChlamydiaHomePage1',
     title: tr('eduBtnChlamydia', 'Chlamydia'),
-    gifSrc: './assets/std-chlamydia.gif?v=211',
+    gifSrc: './assets/std-chlamydia.gif?v=212',
     // Bright Dock-Icon Numbers Vivid Emerald-Lime Green background (#1FC72E -> #12A820)
     bgGradient: 'linear-gradient(180deg, #25CB35 0%, #12A620 100%)',
     bgColor: '#1BB82A',

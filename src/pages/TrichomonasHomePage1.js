@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=211';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=212';
 
 const h = React.createElement;
 
@@ -307,7 +307,7 @@ export default function TrichomonasHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'TrichomonasHomePage1',
     title: tr('eduBtnTrichomonas', 'Trichomonas'),
-    gifSrc: './assets/std-trichomonas.gif?v=211',
+    gifSrc: './assets/std-trichomonas.gif?v=212',
     // Bright Apple-Music / WHO Flyer Red-Coral background (#E82534 -> #D61B2A)
     bgGradient: 'linear-gradient(180deg, #F42B3E 0%, #DA1C2E 100%)',
     bgColor: '#E62235',

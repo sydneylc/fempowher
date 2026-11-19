@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=211';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=212';
 
 export default function GonorrheaHomePage1({
   onBack,
@@ -65,7 +65,7 @@ export default function GonorrheaHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'GonorrheaHomePage1',
     title: tr('eduBtnGonorrhea', 'Gonorrhea'),
-    gifSrc: './assets/std-gonorrhea.gif?v=211',
+    gifSrc: './assets/std-gonorrhea.gif?v=212',
     // Bright Dock-Icon Keynote Sky-Azure Blue background (#1E9EFE -> #0D70EB)
     bgGradient: 'linear-gradient(180deg, #22A2FE 0%, #0D6FE8 100%)',
     bgColor: '#1586F4',

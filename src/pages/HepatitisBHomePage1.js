@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=211';
+import { renderBrightStdFlyerPage } from './TrichomonasHomePage1.js?v=212';
 
 export default function HepatitisBHomePage1({
   onBack,
@@ -65,7 +65,7 @@ export default function HepatitisBHomePage1({
   return renderBrightStdFlyerPage({
     pageId: 'HepatitisBHomePage1',
     title: tr('eduBtnHepatitisB', 'Hepatitis B'),
-    gifSrc: './assets/std-hepatitis-b.gif?v=211',
+    gifSrc: './assets/std-hepatitis-b.gif?v=212',
     // Bright Dock-Icon App Store Royal-Cobalt Blue background (#1774FA -> #0C50DB)
     bgGradient: 'linear-gradient(180deg, #1B7BFE 0%, #0B4FD8 100%)',
     bgColor: '#1264EC',

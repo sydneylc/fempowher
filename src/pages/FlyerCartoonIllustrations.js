@@ -390,7 +390,7 @@ export function renderMotherHoldingNewbornSvg() {
     'svg',
     {
       viewBox: '0 0 180 155',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('circle', { cx: '92', cy: '80', r: '64', fill: '#FFF4DC', opacity: '0.95' }),
@@ -457,7 +457,7 @@ export function renderJaundiceManCartoonSvg(stickerText = 'JAUNDICE') {
     'svg',
     {
       viewBox: '0 0 185 160',
-      className: 'w-40 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-34 sm:w-42 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h(
@@ -559,7 +559,7 @@ export function renderMaleBladderUrethraCartoonSvg() {
     'svg',
     {
       viewBox: '0 0 170 135',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('path', {
@@ -617,7 +617,7 @@ export function renderPartnerPillsCartoonSvg(stickerText = 'TREAT BOTH PARTNERS'
     'svg',
     {
       viewBox: '0 0 185 140',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('rect', { x: '26', y: '20', width: '52', height: '14', rx: '4', fill: '#FFFFFF' }),
@@ -657,7 +657,7 @@ export function renderVaccineShieldCartoonSvg(stickerText = 'VACCINE PROTECTION'
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('path', {
@@ -704,7 +704,7 @@ export function renderCervixPapScreenCartoonSvg(stickerText = 'PAP & HPV SCREENI
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('circle', { cx: '78', cy: '58', r: '42', fill: '#FFF1F2', stroke: '#FFFFFF', strokeWidth: '6' }),
@@ -755,7 +755,7 @@ export function renderSilentInfectionCartoonSvg(stickerText = 'SILENT (NO SYMPTO
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('circle', { cx: '92.5', cy: '58', r: '44', fill: '#FFFFFF', opacity: '0.95' }),
@@ -789,7 +789,7 @@ export function renderUterusFallopianPidCartoonSvg(stickerText = 'PROTECT FALLOP
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('path', {
@@ -840,7 +840,7 @@ export function renderClinicInjectionCartoonSvg(stickerText = 'CLINIC ANTIBIOTIC
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('circle', { cx: '92.5', cy: '60', r: '44', fill: 'rgba(255,255,255,0.2)', stroke: '#FFFFFF', strokeWidth: '2' }),
@@ -880,7 +880,7 @@ export function renderBurningUrinationCartoonSvg(stickerText = 'BURNING URINATIO
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('path', {
@@ -921,7 +921,7 @@ export function renderHealthyLiverShieldCartoonSvg(stickerText = 'PROTECT YOUR L
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('path', {
@@ -966,7 +966,7 @@ export function renderFibroidsUterusDiagramSvg(stickerText = 'BENIGN MUSCLE GROW
     'svg',
     {
       viewBox: '0 0 185 148',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('path', {
@@ -1006,7 +1006,7 @@ export function renderIronRichCareCartoonSvg(stickerText = 'IRON & ANEMIA CARE')
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('path', {
@@ -1051,7 +1051,7 @@ export function renderFistulaHealingRepairCartoonSvg(stickerText = '90%+ SURGICA
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('path', {
@@ -1093,7 +1093,7 @@ export function renderPelvicPessaryRingCartoonSvg(stickerText = 'PESSARY & PELVI
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('circle', {
@@ -1145,7 +1145,7 @@ export function renderSwabAndNoAlcoholCartoonSvg(stickerText = 'SWAB TEST & NO A
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('rect', { x: '36', y: '24', width: '26', height: '82', rx: '13', fill: '#FFFFFF', opacity: '0.92' }),
@@ -1181,7 +1181,7 @@ export function renderDiplococciMicroscopeCartoonSvg(stickerText = 'PAIRED DIPLO
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('circle', { cx: '92.5', cy: '58', r: '44', fill: '#E0F2FE', stroke: '#FFFFFF', strokeWidth: '5' }),
@@ -1219,7 +1219,7 @@ export function renderThreeMonthRetestCalendarSvg(
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('rect', { x: '44', y: '22', width: '97', height: '84', rx: '14', fill: '#FFFFFF' }),
@@ -1252,7 +1252,7 @@ export function renderCleanWaterHydrationCartoonSvg(stickerText = 'DRINK CLEAN W
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('path', {
@@ -1292,7 +1292,7 @@ export function renderKegelExerciseTimerCartoonSvg(
     'svg',
     {
       viewBox: '0 0 185 145',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('circle', { cx: '92.5', cy: '62', r: '40', fill: '#FFFFFF' }),

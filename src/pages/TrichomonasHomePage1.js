@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=216';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=217';
 import {
   renderMaleBladderUrethraCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderSwabAndNoAlcoholCartoonSvg,
   translateFlyerPhraseInstant
-} from './FlyerCartoonIllustrations.js?v=216';
+} from './FlyerCartoonIllustrations.js?v=217';
 
 const h = React.createElement;
 
@@ -233,66 +233,87 @@ function BrightStdFlyerPageComponent({
           })
       ),
 
-      // Flowing Flyer Sections: Bolded Tinted-White Titles + Pure White Paragraphs + Translated Custom Cartoon Stickers
+      // Flowing Flyer Sections: Bolded Tinted-White Titles + Pure White Paragraphs + Varied Left/Right Side Cartoon Stickers
       h(
         'div',
         { className: 'space-y-6' },
-        sections.map((sec, idx) => {
-          const translatedSticker = sec.stickerLabel ? trPhrase(sec.stickerLabel) : undefined;
-          const translatedInnerTop = sec.stickerInnerTop ? trPhrase(sec.stickerInnerTop) : undefined;
-          const translatedInnerBottom = sec.stickerInnerBottom ? trPhrase(sec.stickerInnerBottom) : undefined;
+        (() => {
+          let graphicCounter = 0;
+          return sections.map((sec, idx) => {
+            const translatedSticker = sec.stickerLabel ? trPhrase(sec.stickerLabel) : undefined;
+            const translatedInnerTop = sec.stickerInnerTop ? trPhrase(sec.stickerInnerTop) : undefined;
+            const translatedInnerBottom = sec.stickerInnerBottom ? trPhrase(sec.stickerInnerBottom) : undefined;
 
-          const sectionGraphic =
-            typeof sec.graphicRenderer === 'function'
-              ? sec.graphicRenderer(translatedSticker, translatedInnerTop, translatedInnerBottom)
-              : sec.graphic || (sec.withGraphic ? extraGraphic : null);
+            const sectionGraphic =
+              typeof sec.graphicRenderer === 'function'
+                ? sec.graphicRenderer(translatedSticker, translatedInnerTop, translatedInnerBottom)
+                : sec.graphic || (sec.withGraphic ? extraGraphic : null);
 
-          return h(
-            'div',
-            {
-              key: sec.id || idx,
-              className: 'pb-2'
-            },
-            h(
+            // Vary cartoon placement across the page (Right of text -> Left of text -> Right of text -> Below/Left)
+            // just like the WHO flyer where the fish sits on the right and the bladder sits on the left.
+            let placement = sec.graphicPlacement || null;
+            if (sectionGraphic && !placement) {
+              const cycle = graphicCounter % 4;
+              placement = cycle === 0 ? 'right' : cycle === 1 ? 'left' : cycle === 2 ? 'right' : 'left-bottom';
+              graphicCounter += 1;
+            }
+
+            const rowLayoutClass = !sectionGraphic
+              ? 'block'
+              : placement === 'left'
+              ? 'flex flex-row-reverse items-center justify-between gap-3.5 sm:gap-6'
+              : placement === 'left-bottom'
+              ? 'flex flex-col sm:flex-row-reverse items-center justify-between gap-3.5 sm:gap-6'
+              : 'flex flex-row items-center justify-between gap-3.5 sm:gap-6';
+
+            return h(
               'div',
               {
-                className: sectionGraphic
-                  ? 'flex flex-col md:flex-row items-center md:items-center justify-between gap-5'
-                  : 'block'
+                key: sec.id || idx,
+                className: 'pb-2'
               },
               h(
                 'div',
-                { className: 'flex-1 w-full' },
-                h(
-                  'h2',
-                  {
-                    className: 'text-xl sm:text-2xl font-black tracking-tight mb-2 flex items-center gap-2.5 flex-wrap',
-                    style: {
-                      color: titleTintColor || '#FFD4DC',
-                      textShadow: '0 1px 6px rgba(0, 0, 0, 0.22)'
-                    }
-                  },
-                  h('span', null, trPhrase(sec.heading)),
-                  sec.headingIcon || null
-                ),
-                h(
-                  'p',
-                  {
-                    className: 'text-sm sm:text-base font-semibold leading-relaxed',
-                    style: { color: '#FFFFFF' }
-                  },
-                  trPhrase(sec.body)
-                )
-              ),
-              sectionGraphic &&
+                {
+                  className: rowLayoutClass
+                },
                 h(
                   'div',
-                  { className: 'shrink-0 flex items-center justify-center mx-auto md:mx-0' },
-                  sectionGraphic
-                )
-            )
-          );
-        })
+                  { className: 'flex-1 min-w-0' },
+                  h(
+                    'h2',
+                    {
+                      className: 'text-xl sm:text-2xl font-black tracking-tight mb-2 flex items-center gap-2.5 flex-wrap',
+                      style: {
+                        color: titleTintColor || '#FFD4DC',
+                        textShadow: '0 1px 6px rgba(0, 0, 0, 0.22)'
+                      }
+                    },
+                    h('span', null, trPhrase(sec.heading)),
+                    sec.headingIcon || null
+                  ),
+                  h(
+                    'p',
+                    {
+                      className: 'text-sm sm:text-base font-semibold leading-relaxed',
+                      style: { color: '#FFFFFF' }
+                    },
+                    trPhrase(sec.body)
+                  )
+                ),
+                sectionGraphic &&
+                  h(
+                    'div',
+                    {
+                      className:
+                        'shrink-0 flex items-center justify-center max-w-[38%] sm:max-w-none'
+                    },
+                    sectionGraphic
+                  )
+              )
+            );
+          });
+        })()
       ),
 
       // Bottom Direct Action Link (Translated in UserLanguageChoice1)
@@ -346,7 +367,7 @@ export function renderCuteFlyerFishSvg() {
     'svg',
     {
       viewBox: '0 0 180 80',
-      className: 'w-36 sm:w-44 h-auto shrink-0 select-none pointer-events-none',
+      className: 'w-32 sm:w-40 md:w-44 max-w-full h-auto shrink-0 select-none pointer-events-none',
       'aria-hidden': 'true'
     },
     h('path', {
@@ -457,7 +478,7 @@ export default function TrichomonasHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'TrichomonasHomePage1',
     title: tr('eduBtnTrichomonas', 'Trichomonas'),
-    gifSrc: './assets/std-trichomonas.gif?v=216',
+    gifSrc: './assets/std-trichomonas.gif?v=217',
     bgGradient: 'linear-gradient(180deg, #F42B3E 0%, #DA1C2E 100%)',
     bgColor: '#E62235',
     titleTintColor: '#FFC4CB',

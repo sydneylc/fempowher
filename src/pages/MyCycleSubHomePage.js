@@ -1,13 +1,13 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=236';
-import { isRtlLanguage } from '../data/translations.js?v=236';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=237';
+import { isRtlLanguage } from '../data/translations.js?v=237';
 import {
   CYCLE_PHASE_DEFINITIONS,
   getCycleCalText,
   formatMonthYearForLang,
   getPhasesForDate,
   loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=236';
+} from '../data/cycleCalendarData.js?v=237';
 
 const h = React.createElement;
 
@@ -891,8 +891,8 @@ export default function MyCycleSubHomePage({
       // ======================================================================
       // TOP TWO-COLUMN SECTION:
       // - LEFT OF THE CALENDAR:
-      //     1. "Period Products" big bubble (Pads, Clean Cloth, Tampon, Cup, Period Underwear + First-Period Quick Questions)
-      //     2. Directly below it: "What Do Period Blood Colors Mean?" in the same style ( stays in the left column so it never interferes with what goes underneath the calendar!)
+      //     1. At the top: "Tap Any Spot on the Body to See Why It Feels That Way!" Big Bubble
+      //     2. Directly underneath that on the left: "What Do Period Blood Colors Mean?" Bubble (no "Tap Any Color!")
       // - RIGHT COLUMN:
       //     1. `CycleCalendarWidget1`
       //     2. `"You are in..."` Current Phase Square
@@ -907,8 +907,8 @@ export default function MyCycleSubHomePage({
 
         // ====================================================================
         // LEFT COLUMN:
-        //   Period Blood Colors Bubble (since Period Products moved to the top
-        //   of FirstPeriodHomePage "I got my first period!")
+        //   1. At the top: "Tap Any Spot on the Body to See Why It Feels That Way!"
+        //   2. Underneath that: "What Do Period Blood Colors Mean?"
         // ====================================================================
         h(
           'div',
@@ -917,15 +917,14 @@ export default function MyCycleSubHomePage({
             className: 'w-full lg:flex-1 flex flex-col gap-6 min-w-0'
           },
 
-          // DIFFERENT PERIOD BLOOD COLORS IN THE OVERHANGING-PILL BUBBLE STYLE
+          // 1. TOP OF LEFT COLUMN: "Tap Any Spot on the Body to See Why It Feels That Way!" Big Bubble
           h(
             'div',
             {
-              id: 'PeriodBloodColorsBubble1',
-              'data-piece-name': 'PeriodBloodColorsBubble1',
+              id: 'TapAnySpotOnBodyBubble1',
+              'data-piece-name': 'TapAnySpotOnBodyBubble1',
               className: 'w-full flex flex-col items-stretch'
             },
-            // Overhanging top pill bar: "Period Blood Colors (Tap Any Color!)"
             h(
               'div',
               {
@@ -936,10 +935,130 @@ export default function MyCycleSubHomePage({
               h(
                 'span',
                 { className: 'text-sm sm:text-base font-extrabold text-black leading-tight' },
-                tr('periodBloodColorsBubbleTitle', 'What Do Period Blood Colors Mean? (Tap Any Color!)')
+                tr('tapAnySpotOnBodyBubbleTitle', 'Tap Any Spot on the Body to See Why It Feels That Way!')
               )
             ),
-            // Main rounded body of Period Blood Colors bubble
+            h(
+              'div',
+              {
+                className:
+                  'w-full rounded-[32px] border-[2.5px] border-black bg-[#FFF9FC] pt-6 pb-5 px-4 sm:px-5 shadow-md flex flex-col md:flex-row items-stretch gap-4'
+              },
+              // Left inside bubble: Friendly interactive female body silhouette with 5 clickable body spot pills
+              h(
+                'div',
+                {
+                  className:
+                    'w-full md:w-56 shrink-0 p-3.5 rounded-3xl border-2 border-black bg-[#FFE8F2] flex flex-col items-center justify-between gap-2 relative'
+                },
+                h(
+                  'div',
+                  { className: 'w-full flex flex-col items-center gap-2 py-1' },
+                  // Head circle
+                  h('div', {
+                    className: 'w-14 h-14 rounded-full border-2 border-black bg-[#8D5524]'
+                  }),
+                  // Torso with the 5 clickable hotspot buttons stacked down the body
+                  h(
+                    'div',
+                    {
+                      className:
+                        'w-44 rounded-[34px] border-2 border-black bg-[#F1C27D] py-3 px-2.5 flex flex-col items-center gap-2'
+                    },
+                    bodyFeelingsSpots.map((spot) => {
+                      const isSelected = spot.id === activeBodySpot.id;
+                      return h(
+                        'button',
+                        {
+                          key: spot.id,
+                          type: 'button',
+                          onClick: () => setSelectedBodySpotId(spot.id),
+                          className:
+                            'w-full py-1.5 px-2 rounded-xl border-2 border-black text-xs font-black text-center cursor-pointer transition-transform active:scale-95 shadow-sm',
+                          style: {
+                            backgroundColor: isSelected ? '#9F133A' : '#FFFFFF',
+                            color: isSelected ? '#FFFFFF' : '#000000'
+                          }
+                        },
+                        isSelected ? `${spot.label} ★` : spot.label
+                      );
+                    })
+                  )
+                )
+              ),
+
+              // Right inside bubble: Plain-language explanation of why that body part feels that way + 3 easy relief steps
+              h(
+                'div',
+                {
+                  className:
+                    'flex-1 p-4 rounded-3xl border-2 border-black bg-white flex flex-col justify-between gap-3'
+                },
+                h(
+                  'div',
+                  { className: 'space-y-2' },
+                  h(
+                    'h3',
+                    { className: 'text-base sm:text-lg font-black text-[#9F133A]' },
+                    activeBodySpot.title
+                  ),
+                  h(
+                    'p',
+                    { className: 'text-xs sm:text-sm font-bold text-black/90 leading-relaxed' },
+                    activeBodySpot.whyText
+                  )
+                ),
+                h(
+                  'div',
+                  {
+                    className: 'p-3.5 rounded-2xl border-2 border-[#FEACEC] bg-[#FFF5FA] space-y-1.5'
+                  },
+                  h(
+                    'div',
+                    { className: 'text-xs sm:text-sm font-black text-[#9F133A]' },
+                    tr('easyWaysToFeelBetterHeader', 'Easy Ways to Help Your Body Feel Better:')
+                  ),
+                  h(
+                    'ul',
+                    { className: 'space-y-1.5 text-xs sm:text-[13px] font-bold text-black/90 leading-snug' },
+                    activeBodySpot.tips.map((tip, tIdx) =>
+                      h(
+                        'li',
+                        { key: `spot-tip-${tIdx}`, className: 'flex items-start gap-1.5' },
+                        h('span', { className: 'font-black text-[#9F133A] shrink-0' }, '•'),
+                        h('span', null, tip)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          ),
+
+          // 2. DIRECTLY UNDERNEATH "TAP ANY SPOT" ON THE LEFT:
+          //    DIFFERENT PERIOD BLOOD COLORS IN THE OVERHANGING-PILL BUBBLE STYLE (No "Tap Any Color!")
+          h(
+            'div',
+            {
+              id: 'PeriodBloodColorsBubble1',
+              'data-piece-name': 'PeriodBloodColorsBubble1',
+              className: 'w-full flex flex-col items-stretch'
+            },
+            // Overhanging top pill bar: "What Do Period Blood Colors Mean?"
+            h(
+              'div',
+              {
+                className:
+                  'w-full px-4 py-2 rounded-2xl border-[2.5px] border-black bg-white shadow-sm z-10 flex items-center justify-center text-center',
+                style: { marginBottom: '-8px' }
+              },
+              h(
+                'span',
+                { className: 'text-sm sm:text-base font-extrabold text-black leading-tight' },
+                tr('periodBloodColorsBubbleTitleClean', 'What Do Period Blood Colors Mean?')
+              )
+            ),
+            // Main rounded body of Period Blood Colors bubble (all 5 colors & meanings visible directly, no tap needed!)
             h(
               'div',
               {
@@ -949,21 +1068,13 @@ export default function MyCycleSubHomePage({
               h(
                 'div',
                 { className: 'grid grid-cols-2 sm:grid-cols-5 gap-2.5' },
-                periodBloodColorsList.map((colItem) => {
-                  const isSelected = selectedBloodColorId === colItem.id;
-                  return h(
-                    'button',
+                periodBloodColorsList.map((colItem) =>
+                  h(
+                    'div',
                     {
                       key: colItem.id,
-                      type: 'button',
-                      onClick: () => setSelectedBloodColorId(colItem.id),
                       className:
-                        'p-2.5 rounded-2xl border-2 border-black bg-white flex flex-col justify-between gap-2 text-left cursor-pointer transition-transform active:scale-95',
-                      style: {
-                        boxShadow: isSelected
-                          ? '0 0 0 2.5px #000000, 0 4px 12px rgba(0,0,0,0.14)'
-                          : 'none'
-                      }
+                        'p-2.5 rounded-2xl border-2 border-black bg-white flex flex-col justify-start gap-2 text-left'
                     },
                     h(
                       'div',
@@ -982,8 +1093,8 @@ export default function MyCycleSubHomePage({
                       { className: 'text-[10.5px] font-bold text-black/85 leading-snug' },
                       colItem.desc
                     )
-                  );
-                })
+                  )
+                )
               )
             )
           )
@@ -1169,128 +1280,6 @@ export default function MyCycleSubHomePage({
                   'p',
                   { className: 'text-[11px] font-bold text-black/85 leading-snug' },
                   activeWombStoryObj.detailLine
-                )
-              )
-            )
-          )
-        )
-      ),
-
-      // ======================================================================
-      // DIRECTLY BELOW THE BLOOD COLORS & TOP ROW:
-      // "Tap Any Spot on the Body to See Why It Feels That Way!" Big Bubble
-      // ======================================================================
-      h(
-        'div',
-        {
-          id: 'TapAnySpotOnBodyBubble1',
-          'data-piece-name': 'TapAnySpotOnBodyBubble1',
-          className: 'w-full flex flex-col items-stretch px-1 sm:px-2'
-        },
-        h(
-          'div',
-          {
-            className:
-              'w-full px-4 py-2 rounded-2xl border-[2.5px] border-black bg-white shadow-sm z-10 flex items-center justify-center text-center',
-            style: { marginBottom: '-8px' }
-          },
-          h(
-            'span',
-            { className: 'text-sm sm:text-base font-extrabold text-black leading-tight' },
-            tr('tapAnySpotOnBodyBubbleTitle', 'Tap Any Spot on the Body to See Why It Feels That Way!')
-          )
-        ),
-        h(
-          'div',
-          {
-            className:
-              'w-full rounded-[32px] border-[2.5px] border-black bg-[#FFF9FC] pt-6 pb-5 px-4 sm:px-6 shadow-md flex flex-col md:flex-row items-stretch gap-5'
-          },
-          // Left inside bubble: Friendly interactive female body silhouette with 5 clickable body spot pills
-          h(
-            'div',
-            {
-              className:
-                'w-full md:w-64 shrink-0 p-4 rounded-3xl border-2 border-black bg-[#FFE8F2] flex flex-col items-center justify-between gap-2 relative'
-            },
-            // Simple friendly cartoon head + torso silhouette behind the 5 clickable spot buttons
-            h(
-              'div',
-              { className: 'w-full flex flex-col items-center gap-2 py-1' },
-              // Head circle
-              h('div', {
-                className: 'w-14 h-14 rounded-full border-2 border-black bg-[#8D5524]'
-              }),
-              // Torso with the 5 clickable hotspot buttons stacked down the body
-              h(
-                'div',
-                {
-                  className:
-                    'w-48 rounded-[34px] border-2 border-black bg-[#F1C27D] py-3 px-2.5 flex flex-col items-center gap-2'
-                },
-                bodyFeelingsSpots.map((spot) => {
-                  const isSelected = spot.id === activeBodySpot.id;
-                  return h(
-                    'button',
-                    {
-                      key: spot.id,
-                      type: 'button',
-                      onClick: () => setSelectedBodySpotId(spot.id),
-                      className:
-                        'w-full py-1.5 px-2.5 rounded-xl border-2 border-black text-xs font-black text-center cursor-pointer transition-transform active:scale-95 shadow-sm',
-                      style: {
-                        backgroundColor: isSelected ? '#9F133A' : '#FFFFFF',
-                        color: isSelected ? '#FFFFFF' : '#000000'
-                      }
-                    },
-                    isSelected ? `${spot.label} ★` : spot.label
-                  );
-                })
-              )
-            )
-          ),
-
-          // Right inside bubble: Plain-language explanation of why that body part feels that way + 3 easy relief steps
-          h(
-            'div',
-            {
-              className:
-                'flex-1 p-4 sm:p-5 rounded-3xl border-2 border-black bg-white flex flex-col justify-between gap-3'
-            },
-            h(
-              'div',
-              { className: 'space-y-2' },
-              h(
-                'h3',
-                { className: 'text-base sm:text-lg font-black text-[#9F133A]' },
-                activeBodySpot.title
-              ),
-              h(
-                'p',
-                { className: 'text-xs sm:text-sm font-bold text-black/90 leading-relaxed' },
-                activeBodySpot.whyText
-              )
-            ),
-            h(
-              'div',
-              {
-                className: 'p-3.5 rounded-2xl border-2 border-[#FEACEC] bg-[#FFF5FA] space-y-1.5'
-              },
-              h(
-                'div',
-                { className: 'text-xs sm:text-sm font-black text-[#9F133A]' },
-                tr('easyWaysToFeelBetterHeader', 'Easy Ways to Help Your Body Feel Better:')
-              ),
-              h(
-                'ul',
-                { className: 'space-y-1.5 text-xs sm:text-[13px] font-bold text-black/90 leading-snug' },
-                activeBodySpot.tips.map((tip, tIdx) =>
-                  h(
-                    'li',
-                    { key: `spot-tip-${tIdx}`, className: 'flex items-start gap-1.5' },
-                    h('span', { className: 'font-black text-[#9F133A] shrink-0' }, '•'),
-                    h('span', null, tip)
-                  )
                 )
               )
             )

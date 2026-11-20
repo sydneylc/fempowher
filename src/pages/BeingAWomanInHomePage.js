@@ -2,9 +2,208 @@ import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1'
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=238';
+} from './PregnancyHomePage.js?v=240';
 
 const h = React.createElement;
+
+// Maps every nation in NATION_TO_DEMONYM_MAP / userNationVariable1 to its cultural
+// outfit family slug so all 4 buttons on BeingAWomanInHomePage display women dressed in
+// distinct traditional/national outfits of that nation doing a different activity per button!
+export function resolveBeingAWomanNationOutfitSlug(nationName = '', demonymName = '') {
+  const hay = `${nationName} ${demonymName}`.toLowerCase();
+
+  // 1. Horn of Africa & Nile Valley (Somalia, Sudan, South Sudan, Ethiopia, Eritrea)
+  if (
+    hay.includes('somal') ||
+    hay.includes('sudan') ||
+    hay.includes('ethiop') ||
+    hay.includes('eritr')
+  ) {
+    return 'horn_africa';
+  }
+
+  // 2A. Pakistan, Bangladesh, Balochistan & Cox's Bazar / Rohingya (mostly hijabi or niqabed Muslim women)
+  if (
+    hay.includes('pakistan') ||
+    hay.includes('bangladesh') ||
+    hay.includes('cox') ||
+    hay.includes('rohingya') ||
+    hay.includes('baloch')
+  ) {
+    return 'pakistan_bangladesh';
+  }
+
+  // 2B. India, Nepal & Sri Lanka (mostly Hindu / South Asian women including our Indian menopause elder lady + 1 Muslim woman)
+  if (
+    hay.includes('india') ||
+    hay.includes('nepal') ||
+    hay.includes('sri lanka')
+  ) {
+    return 'india';
+  }
+
+  // 3. Central Asia, Caucasus & Kurdish/Afghan Highlands (Afghanistan, Kurdistan, Uzbekistan, Mongolia, Armenia, Azerbaijan)
+  if (
+    hay.includes('afghan') ||
+    hay.includes('kurd') ||
+    hay.includes('uzbek') ||
+    hay.includes('mongol') ||
+    hay.includes('armenia') ||
+    hay.includes('azerbaijan')
+  ) {
+    return 'central_asia';
+  }
+
+  // 4. Middle East & North Africa (Yemen, Palestine, Egypt, Morocco, Algeria, Tunisia, Libya, Syria, Iraq, Iran, Jordan, Lebanon, Turkey)
+  if (
+    hay.includes('yemen') ||
+    hay.includes('palestin') ||
+    hay.includes('egypt') ||
+    hay.includes('morocc') ||
+    hay.includes('algeri') ||
+    hay.includes('tunis') ||
+    hay.includes('liby') ||
+    hay.includes('syri') ||
+    hay.includes('iraq') ||
+    hay.includes('iran') ||
+    hay.includes('jordan') ||
+    hay.includes('leban') ||
+    hay.includes('turk')
+  ) {
+    return 'mena_arab';
+  }
+
+  // 5. Southeast Asia (Vietnam, Philippines, Indonesia, Thailand, Cambodia, Myanmar/Burma, Malaysia, Singapore)
+  if (
+    hay.includes('vietnam') ||
+    hay.includes('philippin') ||
+    hay.includes('filipin') ||
+    hay.includes('indonesi') ||
+    hay.includes('thai') ||
+    hay.includes('cambod') ||
+    hay.includes('myanmar') ||
+    hay.includes('burm') ||
+    hay.includes('malaysi') ||
+    hay.includes('singapor')
+  ) {
+    return 'southeast_asia';
+  }
+
+  // 6. East Asia (Japan, South Korea, China, Taiwan)
+  if (
+    hay.includes('japan') ||
+    hay.includes('korea') ||
+    hay.includes('chin') ||
+    hay.includes('taiwan')
+  ) {
+    return 'east_asia';
+  }
+
+  // 7. Andean & Mesoamerican Indigenous Latin America (Peru, Bolivia, Ecuador, Guatemala)
+  if (
+    hay.includes('peru') ||
+    hay.includes('bolivi') ||
+    hay.includes('ecuador') ||
+    hay.includes('guatemal')
+  ) {
+    return 'andean_latam';
+  }
+
+  // 8. Tropical Latin America & Caribbean (Colombia, Brazil, Mexico, Argentina, Chile, Venezuela, Cuba, Haiti, Jamaica, Dominican Republic, etc.)
+  if (
+    hay.includes('colombi') ||
+    hay.includes('brazil') ||
+    hay.includes('mexic') ||
+    hay.includes('argentin') ||
+    hay.includes('chile') ||
+    hay.includes('venezuel') ||
+    hay.includes('cuba') ||
+    hay.includes('haiti') ||
+    hay.includes('jamaic') ||
+    hay.includes('dominican') ||
+    hay.includes('costa rica') ||
+    hay.includes('el salvador') ||
+    hay.includes('hondur') ||
+    hay.includes('nicaragu') ||
+    hay.includes('panam') ||
+    hay.includes('paragu') ||
+    hay.includes('urugu')
+  ) {
+    return 'tropical_latam';
+  }
+
+  // 9. Oceania & Pacific (Australia, New Zealand)
+  if (
+    hay.includes('australia') ||
+    hay.includes('new zealand') ||
+    hay.includes('pacific') ||
+    hay.includes('samoa') ||
+    hay.includes('fiji')
+  ) {
+    return 'oceania';
+  }
+
+  // 10. Eastern & Southern Europe (Ukraine, Poland, Romania, Russia, Bosnia, Albania, Bulgaria, Croatia, Czech, Hungary, Greece, Italy, Spain, Portugal)
+  if (
+    hay.includes('ukrain') ||
+    hay.includes('poland') ||
+    hay.includes('polish') ||
+    hay.includes('romani') ||
+    hay.includes('russi') ||
+    hay.includes('bosni') ||
+    hay.includes('albani') ||
+    hay.includes('bulgari') ||
+    hay.includes('croati') ||
+    hay.includes('czech') ||
+    hay.includes('hungar') ||
+    hay.includes('greec') ||
+    hay.includes('greek') ||
+    hay.includes('ital') ||
+    hay.includes('spain') ||
+    hay.includes('spanish') ||
+    hay.includes('portug')
+  ) {
+    return 'east_south_eu';
+  }
+
+  // 11A. United States & Canada (Blonde lady, African American lady, Latina lady, Brunette Muslim lady with loose headscarf)
+  if (
+    hay.includes('united states') ||
+    hay.includes('american') ||
+    hay.includes('usa') ||
+    hay.includes('canad')
+  ) {
+    return 'usa_canada';
+  }
+
+  // 11B. Nordic & Western Europe (Finland, Sweden, Norway, Denmark, UK, Ireland, France, Germany, Netherlands, Belgium, Austria, Switzerland)
+  if (
+    hay.includes('finland') ||
+    hay.includes('finnish') ||
+    hay.includes('swed') ||
+    hay.includes('norw') ||
+    hay.includes('denmark') ||
+    hay.includes('danish') ||
+    hay.includes('united kingdom') ||
+    hay.includes('british') ||
+    hay.includes('ireland') ||
+    hay.includes('irish') ||
+    hay.includes('franc') ||
+    hay.includes('french') ||
+    hay.includes('german') ||
+    hay.includes('netherland') ||
+    hay.includes('dutch') ||
+    hay.includes('belgi') ||
+    hay.includes('austri') ||
+    hay.includes('swiss') ||
+    hay.includes('switzerland')
+  ) {
+    return 'nordic_west_eu';
+  }
+
+  // 12. West, Central, East & Southern Africa (Nigeria, DRC/Congo, Ghana, Senegal, Kenya, Tanzania, Uganda, Rwanda, Burundi, South Africa, Zimbabwe, Zambia, Malawi, Mozambique, Angola, Cameroon, Mali, Niger, Burkina Faso, Chad, etc.)
+  return 'west_central_africa';
+}
 
 export default function BeingAWomanInHomePage({
   onBack,
@@ -105,12 +304,23 @@ export default function BeingAWomanInHomePage({
   ]);
 
   // 4 Full-Width PregHomePageButtons (MakingGifButtons1) for Being A Woman In [userNationVariable1] / Worldview
-  // (gifSrc: null slots ready for custom GIFs to be added later; words only for now)
+  // Dynamically selects the nation's 4 distinct traditional/cultural outfits & 4 distinct activities!
+  const nationOutfitSlug = resolveBeingAWomanNationOutfitSlug(
+    userNationVariable1,
+    userNationVariable2
+  );
+
   const beingAWomanButtons = [
     {
       id: 'gender-outlook',
       label: 'Gender Outlook',
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/being-woman-gender-outlook.gif')
+      gifSrc: `./assets/bw-${nationOutfitSlug}-outlook.gif?v=240`,
+      imgClassName:
+        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC4E0 100%)',
         border: 'none'
@@ -123,7 +333,13 @@ export default function BeingAWomanInHomePage({
     {
       id: 'traditional-health',
       label: `Female Health in ${userNationVariable1}`,
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/being-woman-female-health.gif')
+      gifSrc: `./assets/bw-${nationOutfitSlug}-health.gif?v=240`,
+      imgClassName:
+        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-52px',
+        marginRight: '-52px'
+      },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB5D6 0%, #F472B6 100%)',
         border: 'none'
@@ -136,7 +352,13 @@ export default function BeingAWomanInHomePage({
     {
       id: 'role-models',
       label: `Female Role Models from ${userNationVariable1}`,
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/being-woman-role-models.gif')
+      gifSrc: `./assets/bw-${nationOutfitSlug}-rolemodels.gif?v=240`,
+      imgClassName:
+        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-50px',
+        marginRight: '-50px'
+      },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #EC4899 0%, #BE185D 100%)',
         border: 'none'
@@ -149,7 +371,13 @@ export default function BeingAWomanInHomePage({
     {
       id: 'health-alerts',
       label: `Women’s Health Alerts in ${userNationVariable1}`,
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/being-woman-health-alerts.gif')
+      gifSrc: `./assets/bw-${nationOutfitSlug}-alerts.gif?v=240`,
+      imgClassName:
+        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-44px',
+        marginRight: '-44px'
+      },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #9F133A 0%, #6E0926 100%)',
         border: 'none'

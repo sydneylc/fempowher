@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=226';
-import { renderGearHeartIcon } from '../data/cycleCalendarData.js?v=226';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=228';
+import { renderGearHeartIcon } from '../data/cycleCalendarData.js?v=228';
 
 const h = React.createElement;
 
@@ -59,7 +59,7 @@ export default function MyBodyHomePage({
     {
       id: 'MyBodyHomePageList1',
       'data-piece-list': 'MyBodySettingsButton1,InteractiveTopSettings1,InteractiveAgeCarousel1,InteractiveAgeDial1,InteractiveActiveBodyFilters1,InteractiveAgeButtonsCarousel1,OrganButtons1,ConceptionComponents1,PregnancyComponents1,MyBodyImage1,MyBodySettings1',
-      className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden'
+      className: 'min-h-full w-full shrink-0 bg-white flex flex-col overflow-x-hidden'
     },
     // Top Header Bar with Back Button + My Body Title + Top-Right MyBodySettingsButton1 (automatically compacts when scrolling down!)
     h(
@@ -116,7 +116,7 @@ export default function MyBodyHomePage({
     // Embedded MyBodyInteractiveHomePage1.html
     h('iframe', {
       ref: iframeRef,
-      src: './MyBodyInteractiveHomePage1.html?v=226&old=218',
+      src: './MyBodyInteractiveHomePage1.html?v=228&old=218',
       title: tr('eduBtnMyBody', 'My Body'),
       className: 'flex-1 w-full h-full border-0 bg-white',
       style: { backgroundColor: '#ffffff' },

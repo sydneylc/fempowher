@@ -2,7 +2,7 @@ import React from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=226';
+} from './PregnancyHomePage.js?v=228';
 
 const h = React.createElement;
 
@@ -21,13 +21,19 @@ export default function STDMenuHomePage({
   };
 
   // 5 Full-Width MakingGifButtons1 First-Person Hub Buttons for STDs
+  // Every button keeps the exact tall PregnancyHomePage height & large GIF character scale, scrolling vertically
   const stdHubButtons = [
     {
       id: 'std-hub-what-are-stds-btn',
       label: tr('stdMenuBtnWhatAre', 'What are STDs & how do I protect myself?'),
       targetPage: 'WhatAreSTDsHomePage1',
-      gifSrc: './assets/std-hub-what-are.gif',
-      gifAlt: 'Yemeni woman in traditional embroidered headdress curious about STD protection with a teal shield',
+      gifSrc: './assets/std-hub-what-are.gif?v=228',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFE8F5 0%, #FFBDE2 100%)',
         border: 'none'
@@ -41,8 +47,13 @@ export default function STDMenuHomePage({
       id: 'std-hub-think-i-have-btn',
       label: tr('stdMenuBtnThinkIHave', 'I think I might have an STD!'),
       targetPage: 'ThinkIHaveSTDHomePage1',
-      gifSrc: './assets/std-hub-think-i-have.gif',
-      gifAlt: 'Blonde Finnish woman freaking out with worried eyes and an amber-orange alert bubble',
+      gifSrc: './assets/std-hub-think-i-have.gif?v=228',
+      imgClassName:
+        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-54px',
+        marginRight: '-54px'
+      },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB8D9 0%, #F472B6 100%)',
         border: 'none'
@@ -56,8 +67,13 @@ export default function STDMenuHomePage({
       id: 'std-hub-just-diagnosed-btn',
       label: tr('stdMenuBtnJustDiagnosed', 'I just got diagnosed with an STD!'),
       targetPage: 'JustDiagnosedSTDHomePage1',
-      gifSrc: './assets/std-hub-just-diagnosed.gif',
-      gifAlt: 'Polynesian woman with plumeria flower holding a care plan card and treatment bottle with healing hearts',
+      gifSrc: './assets/std-hub-just-diagnosed.gif?v=228',
+      imgClassName:
+        'h-[120%] sm:h-[128%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-58px',
+        marginRight: '-58px'
+      },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
         border: 'none'
@@ -71,8 +87,13 @@ export default function STDMenuHomePage({
       id: 'std-hub-types-of-stds-btn',
       label: tr('stdMenuBtnTypes', 'Types of STDs'),
       targetPage: 'TypesOfSTDsHomePage1',
-      gifSrc: './assets/std-hub-types.gif',
-      gifAlt: 'Golden magnifying glass lens showcasing all 8 animated STD characters',
+      gifSrc: './assets/std-hub-types.gif?v=228',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-36px',
+        marginRight: '-36px'
+      },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
         border: 'none'
@@ -86,8 +107,13 @@ export default function STDMenuHomePage({
       id: 'std-hub-stds-and-pregnancy-btn',
       label: tr('stdMenuBtnPregnancy', 'STDs & Pregnancy'),
       targetPage: 'STDsAndPregnancyHomePage1',
-      gifSrc: './assets/std-hub-pregnancy.gif',
-      gifAlt: 'Pregnant Central Asian woman in embroidered Doppa cap cradling her belly with a royal-blue prenatal care badge',
+      gifSrc: './assets/std-hub-pregnancy.gif?v=228',
+      imgClassName:
+        'h-[120%] sm:h-[128%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-56px',
+        marginRight: '-56px'
+      },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
         border: 'none'
@@ -103,12 +129,12 @@ export default function STDMenuHomePage({
     'div',
     {
       id: 'STDMenuHomePage',
-      className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden'
+      className: 'min-h-full w-full shrink-0 bg-white flex flex-col overflow-x-hidden'
     },
     // Top Header Bar: Back Button + STDs Title & Sexually Transmitted Diseases Subtitle
     h(
       'div',
-      { className: 'w-full px-4 sm:px-6 pt-3 pb-2 shrink-0 bg-white' },
+      { className: 'w-full px-4 sm:px-6 pt-3 pb-3 shrink-0 bg-white' },
       h(
         'div',
         { className: 'max-w-5xl w-full mx-auto' },
@@ -116,7 +142,7 @@ export default function STDMenuHomePage({
         h(
           'h1',
           {
-            className: 'text-2xl sm:text-3xl font-extrabold text-center mt-0.5',
+            className: 'text-2xl sm:text-3xl font-extrabold text-center mt-1',
             style: { color: '#9F133A' }
           },
           tr('eduBtnSTDs', 'STDs')
@@ -124,7 +150,7 @@ export default function STDMenuHomePage({
         h(
           'p',
           {
-            className: 'text-xs sm:text-sm text-center font-bold mt-0.5',
+            className: 'text-xs sm:text-sm text-center font-bold mt-1',
             style: { color: '#6E0926' }
           },
           tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases')
@@ -132,7 +158,7 @@ export default function STDMenuHomePage({
       )
     ),
 
-    // 5 Full-Width First-Person Hub Buttons (MakingGifButtons1) — exact same full-screen proportional fit as Menopause & Menstrual Cycle
+    // 5 Full-Width First-Person Hub Buttons (MakingGifButtons1) — full PregnancyHomePage height per button
     h(MakingGifButtons1, {
       sections: stdHubButtons,
       onSelectSection: (sec) => {

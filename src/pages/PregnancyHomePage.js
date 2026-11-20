@@ -1,5 +1,5 @@
-import React from 'https://esm.sh/react@18.3.1';
-import { isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=226';
+import React, { useState, useEffect } from 'https://esm.sh/react@18.3.1';
+import { isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=228';
 
 const h = React.createElement;
 
@@ -125,26 +125,99 @@ export function renderEducationIssueCards({
 
 // ============================================================================
 // PregHomePageButtons / MakingGifButtons1:
-// Reusable full-screen, zero-outline, pink/red-toned, large-central-GIF button stack.
-// MakingGifButtons1 is the official workflow & component alias for turning uploaded
-// GIFs (with black border lines stripped) into full-bleed banner buttons with
-// their own target *HomePage1 subpages.
+// Reusable full-width, zero-outline, large-GIF banner button stack.
+// - Every button across the entire app remains the exact tall height and large GIF
+//   scale of the 3 PregnancyHomePage buttons (`clamp(230px, calc((100vh - 175px) / 3), 275px)`).
+// - When a page has more than 3 buttons (4, 5, 6, or 8), the buttons never shrink;
+//   the user simply scrolls down.
+// - Supports placing the GIF on either side of the words (`sec.gifSide: 'left' | 'right'`).
+// - Automatically translates all button labels and subLabels into UserLanguageChoice1.
 // ============================================================================
 export function PregHomePageButtons({
   sections = [],
   onSelectSection = () => {},
-  containerClassName = 'flex-1 w-full grid min-h-[450px]',
-  containerStyle = null
+  containerClassName = 'w-full grid'
 }) {
   const rowCount = Math.max(1, sections.length || 3);
+  const standardPregButtonRowHeight = 'clamp(230px, calc((100vh - 175px) / 3), 275px)';
+
+  // Live UserLanguageChoice1 translation fallback for any button label/subLabel on any page
+  const [translatedLabels, setTranslatedLabels] = useState({});
+  const docLang =
+    (typeof document !== 'undefined' && document.documentElement && document.documentElement.lang) || 'en';
+
+  useEffect(() => {
+    const code = String(docLang || 'en').toLowerCase().trim();
+    if (!code || code === 'en') {
+      setTranslatedLabels({});
+      return;
+    }
+    const tlTarget = code === 'prs' ? 'fa' : code === 'rhg' ? 'bn' : code;
+    const phrases = [];
+    sections.forEach((sec) => {
+      if (sec.label && typeof sec.label === 'string' && !phrases.includes(sec.label)) {
+        phrases.push(sec.label);
+      }
+      if (sec.subLabel && typeof sec.subLabel === 'string' && !phrases.includes(sec.subLabel)) {
+        phrases.push(sec.subLabel);
+      }
+    });
+    if (phrases.length === 0) return;
+
+    const cacheKey = `fempowher_gifbtns_i18n_v228_${tlTarget}_${phrases.join('|').slice(0, 120)}`;
+    try {
+      const cached = localStorage.getItem(cacheKey);
+      if (cached) {
+        setTranslatedLabels(JSON.parse(cached));
+        return;
+      }
+    } catch (e) {}
+
+    let cancelled = false;
+    fetch(
+      `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${encodeURIComponent(
+        tlTarget
+      )}&dt=t&q=${encodeURIComponent(phrases.join('\n'))}`
+    )
+      .then((r) => r.json())
+      .then((data) => {
+        if (cancelled || !data || !Array.isArray(data[0])) return;
+        const fullTranslated = data[0].map((seg) => seg[0] || '').join('');
+        const lines = fullTranslated.split('\n');
+        const mapObj = {};
+        phrases.forEach((orig, idx) => {
+          if (lines[idx] && lines[idx].trim()) {
+            mapObj[orig] = lines[idx].trim();
+          }
+        });
+        setTranslatedLabels(mapObj);
+        try {
+          localStorage.setItem(cacheKey, JSON.stringify(mapObj));
+        } catch (e) {}
+      })
+      .catch(() => {});
+
+    return () => {
+      cancelled = true;
+    };
+  }, [docLang, sections.map((s) => `${s.id}:${s.label || ''}:${s.subLabel || ''}`).join('|')]);
+
+  const trBtnText = (txt) => {
+    if (!txt) return '';
+    return translatedLabels[txt] || txt;
+  };
+
   return h(
     'div',
     {
-      className: containerClassName,
-      style: containerStyle || { gridTemplateRows: `repeat(${rowCount}, minmax(0, 1fr))` }
+      className: 'w-full grid shrink-0',
+      style: {
+        gridTemplateRows: `repeat(${rowCount}, ${standardPregButtonRowHeight})`
+      }
     },
-    sections.map((sec) =>
-      h(
+    sections.map((sec) => {
+      const gifOnRight = sec.gifSide === 'right';
+      return h(
         'button',
         {
           key: sec.id,
@@ -157,13 +230,15 @@ export function PregHomePageButtons({
             }
           },
           className:
-            'w-full h-full min-h-0 relative overflow-hidden flex items-center justify-center px-3 sm:px-8 py-0 cursor-pointer transition hover:brightness-[0.99] active:scale-[0.999] focus:outline-none border-0 rounded-none',
+            'w-full h-full min-h-[230px] relative overflow-hidden flex items-center justify-center px-3 sm:px-8 py-0 cursor-pointer transition hover:brightness-[0.99] active:scale-[0.999] focus:outline-none border-0 rounded-none',
           style: sec.backgroundStyle || { backgroundColor: '#FCE4F4', border: 'none' }
         },
         h(
           'div',
           {
-            className: 'w-full h-full max-w-4xl mx-auto flex items-center justify-center gap-3 sm:gap-8'
+            className: `w-full h-full max-w-4xl mx-auto flex ${
+              gifOnRight ? 'flex-row-reverse' : 'flex-row'
+            } items-center justify-center gap-3 sm:gap-8`
           },
           sec.gifSrc &&
             h(
@@ -173,10 +248,10 @@ export function PregHomePageButtons({
               },
               h('img', {
                 src: sec.gifSrc,
-                alt: sec.label || '',
+                alt: trBtnText(sec.label) || '',
                 className:
                   sec.imgClassName ||
-                  'h-[104%] sm:h-[108%] w-auto max-w-none object-contain select-none pointer-events-none',
+                  'h-[106%] sm:h-[112%] w-auto max-w-none object-contain select-none pointer-events-none',
                 style: sec.imgStyle || undefined
               })
             ),
@@ -184,7 +259,7 @@ export function PregHomePageButtons({
             'div',
             {
               className: sec.gifSrc
-                ? 'flex flex-col items-center justify-center text-center z-10 max-w-[52%] sm:max-w-[55%]'
+                ? 'flex flex-col items-center justify-center text-center z-10 max-w-[54%] sm:max-w-[58%]'
                 : 'flex flex-col items-center justify-center text-center z-10 max-w-[88%] sm:max-w-[80%]'
             },
             h(
@@ -198,7 +273,7 @@ export function PregHomePageButtons({
                   textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
                 }
               },
-              sec.label
+              trBtnText(sec.label)
             ),
             sec.subLabel &&
               h(
@@ -214,12 +289,12 @@ export function PregHomePageButtons({
                       textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
                     }
                 },
-                sec.subLabel
+                trBtnText(sec.subLabel)
               )
           )
         )
-      )
-    )
+      );
+    })
   );
 }
 
@@ -244,7 +319,7 @@ export default function PregnancyHomePage({
       id: 'questions',
       label: tr('pregFeelQuestions', 'I have questions'),
       targetPage: 'QuestionsPregHomePage',
-      gifSrc: './assets/pregnancy-questions.gif?v=226',
+      gifSrc: './assets/pregnancy-questions.gif?v=228',
       // Tone 1: Light Apple-Mint Green (#B2EAA2) — zero outline, matches the GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#B2EAA2',
@@ -259,7 +334,7 @@ export default function PregnancyHomePage({
       id: 'feeling-good',
       label: tr('pregFeelGood', "I'm feeling good"),
       targetPage: 'FeelingGoodPregHomePage',
-      gifSrc: './assets/pregnancy-feeling-good.gif?v=226',
+      gifSrc: './assets/pregnancy-feeling-good.gif?v=228',
       // Tone 2: Emerald-Mint Green (#50D5A2) with Dark Olive Green Grass (#546414) — zero outline
       backgroundStyle: {
         background:
@@ -275,7 +350,7 @@ export default function PregnancyHomePage({
       id: 'hard-time',
       label: tr('pregFeelHardTime', "I'm having a hard time"),
       targetPage: 'HardTimePregHomePage',
-      gifSrc: './assets/pregnancy-hard-time.gif?v=226',
+      gifSrc: './assets/pregnancy-hard-time.gif?v=228',
       // Tone 3: Deep Teal-Green (#0DAA8D) with Olive floor horizon & bright lime (#BEFE62) rug/leaves in GIF
       backgroundStyle: {
         background:
@@ -291,7 +366,7 @@ export default function PregnancyHomePage({
 
   return h(
     'div',
-    { className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden' },
+    { className: 'min-h-full w-full shrink-0 bg-white flex flex-col overflow-x-hidden' },
     // Top Header Bar: Back Button + Pregnancy Title (UserLanguageChoice1) + Centered Question (UserLanguageChoice1)
     h(
       'div',

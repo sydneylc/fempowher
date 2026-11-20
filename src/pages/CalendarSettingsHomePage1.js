@@ -1,6 +1,6 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=232';
-import { isRtlLanguage } from '../data/translations.js?v=232';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=233';
+import { isRtlLanguage } from '../data/translations.js?v=233';
 import {
   CYCLE_PHASE_DEFINITIONS,
   createBlankCycleCalendarState,
@@ -10,7 +10,7 @@ import {
   loadUserCycleCalendarState,
   saveUserCycleCalendarState,
   renderGearHeartIcon
-} from '../data/cycleCalendarData.js?v=232';
+} from '../data/cycleCalendarData.js?v=233';
 
 const h = React.createElement;
 
@@ -736,7 +736,7 @@ export function CalendarSettingsHomePage1({
                 null,
                 ct(
                   'autoBaselineBannerTitle',
-                  'Automatic Norm / Baseline Cycle Guesstimate'
+                  'Automatic Normal Cycle Estimate'
                 )
               )
             ),
@@ -745,7 +745,7 @@ export function CalendarSettingsHomePage1({
               { className: 'text-xs font-semibold text-black/80 leading-snug' },
               ct(
                 'autoBaselineBannerDesc',
-                'Based on when your period occurred, the system automatically fills in the normal baseline guesstimate for the rest of your phases (Follicular, Ovulatory & Luteal for a ~28-day cycle). You can still edit any phase below!'
+                'Just pick your First Day of Period! The calendar automatically fills in a normal 28-day cycle estimate for the rest of your phases. You can still change any number below anytime.'
               )
             )
           ),
@@ -757,7 +757,7 @@ export function CalendarSettingsHomePage1({
               className:
                 'shrink-0 px-3 py-1.5 rounded-xl border-2 border-black bg-white hover:bg-black/5 text-xs font-extrabold text-black cursor-pointer transition-transform active:scale-95 shadow-sm'
             },
-            ct('resetToBaselineBtn', 'Reset to Norm Baseline')
+            ct('resetToBaselineBtn', 'Reset to Normal Estimate')
           )
         ),
 

@@ -1283,6 +1283,8 @@ export const UI_TEXT = {
     eduBtnForMe: 'For Me',
     eduBtnForLovedOne: 'For a Loved One',
     eduBtnTraditionalStories: 'Traditional Female Health Stories',
+    eduBtnStigmasInWomensHealth: "Stigmas in Women's Health",
+    stigmasYouAreNotAloneCaps: 'YOU ARE NOT ALONE !',
     eduBtnWorldview: 'Worldview',
     eduBtnWomensHealthNews: 'Women’s Health in the News',
     eduBackToTable: '← Back to All Education Topics',

@@ -1,13 +1,13 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=232';
-import { CycleCalendarWidget1 } from './MyCycleSubHomePage.js?v=232';
-import { isRtlLanguage } from '../data/translations.js?v=232';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=233';
+import { CycleCalendarWidget1 } from './MyCycleSubHomePage.js?v=233';
+import { isRtlLanguage } from '../data/translations.js?v=233';
 import {
   CYCLE_PHASE_DEFINITIONS,
   getCycleCalText,
   getPhasesForDate,
   loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=232';
+} from '../data/cycleCalendarData.js?v=233';
 
 const h = React.createElement;
 
@@ -105,27 +105,27 @@ export default function FertilityAndMyCycleHomePage1({
       id: 'PeriodDaysDuration1',
       title: tr('fertilityPhaseMenstrualTitle', 'Menstrual Phase'),
       daysRange: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(pStart)}–${formatDigitsForLang(pEnd)}`,
-      shortSub: tr('fertilityPhaseMenstrualSub', 'Shedding uterine lining'),
-      hormoneHeadline: tr('fertilityHormoneMenstrual', 'Estrogen & Progesterone Reset'),
-      fertilityStatus: tr('fertilityStatusMenstrual', 'Lowest conception chance • Cycle Day 1 reset'),
+      shortSub: tr('fertilityPhaseMenstrualSub', 'Period bleeding'),
+      hormoneHeadline: tr('fertilityHormoneMenstrual', 'Your Body Starts a Fresh Cycle'),
+      fertilityStatus: tr('fertilityStatusMenstrual', 'Lowest chance of getting pregnant'),
       colorHex: CYCLE_PHASE_DEFINITIONS[1].colorHex,
       rgbaFill: CYCLE_PHASE_DEFINITIONS[1].rgbaFill,
       guideTitle: tr(
         'fertilityGuideMenstrualTitle',
-        'Live Phase Guide: Menstrual Phase + Fertility & Body Insights'
+        'What Is Happening in My Body: Menstrual Phase (Your Period)'
       ),
       bullets: [
         tr(
           'fertilityGuideMenstrualB1',
-          'What Your Body Is Doing: Your uterus is shedding last cycle’s lining through menstrual bleeding, while your pituitary gland already begins signaling your ovaries to prepare a fresh cohort of follicles for the new cycle.'
+          'What Your Body Is Doing: Because there was no pregnancy last month, your womb (uterus) lets go of its soft inner lining. That lining comes out through your vagina as period blood.'
         ),
         tr(
           'fertilityGuideMenstrualB2',
-          'Fertility & Conception Window: Conception chance is at its lowest during menstrual bleeding, unless you have a very short cycle (under 21 days) where ovulation happens soon after your period ends.'
+          'Can I Get Pregnant Right Now?: This is the time you are least likely to get pregnant. (Only women with very short cycles under 21 days can sometimes get pregnant right at the end of their period.)'
         ),
         tr(
           'fertilityGuideMenstrualB3',
-          'How You May Feel & Self-Care: Lower hormone levels can bring cramps, lower back ache, and fatigue. Focus on iron-rich foods (lentils, leafy greens, beans, eggs), warm herbal tea, and gentle rest.'
+          'How You May Feel & Care for Yourself: You might feel belly cramps, a sore lower back, or low energy. Drink warm water or tea, rest when you can, and eat foods with iron like beans, dark green leaves, lentils, or eggs.'
         )
       ]
     },
@@ -133,27 +133,27 @@ export default function FertilityAndMyCycleHomePage1({
       id: 'FollicularPhaseDuration1',
       title: tr('fertilityPhaseFollicularTitle', 'Follicular Phase'),
       daysRange: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(fStart)}–${formatDigitsForLang(fEnd)}`,
-      shortSub: tr('fertilityPhaseFollicularSub', 'Egg maturing + Estrogen rises'),
-      hormoneHeadline: tr('fertilityHormoneFollicular', 'Estrogen Rising • Follicle Maturing'),
-      fertilityStatus: tr('fertilityStatusFollicular', 'Fertility building as ovulation approaches'),
+      shortSub: tr('fertilityPhaseFollicularSub', 'Getting a new egg ready'),
+      hormoneHeadline: tr('fertilityHormoneFollicular', 'New Egg Growing • Energy Rising'),
+      fertilityStatus: tr('fertilityStatusFollicular', 'Chance of getting pregnant goes up near the end of this phase'),
       colorHex: CYCLE_PHASE_DEFINITIONS[2].colorHex,
       rgbaFill: CYCLE_PHASE_DEFINITIONS[2].rgbaFill,
       guideTitle: tr(
         'fertilityGuideFollicularTitle',
-        'Live Phase Guide: Follicular Phase + Fertility & Body Insights'
+        'What Is Happening in My Body: Follicular Phase'
       ),
       bullets: [
         tr(
           'fertilityGuideFollicularB1',
-          'What Your Body Is Doing: Follicle-stimulating hormone (FSH) nurtures several ovarian follicles until one dominant follicle matures an egg. Rising estrogen rebuilds a fresh, nutrient-rich uterine lining.'
+          'What Your Body Is Doing: Right after your period stops, your ovaries start growing a tiny new egg inside a small sac, and your womb starts building a fresh soft lining again.'
         ),
         tr(
           'fertilityGuideFollicularB2',
-          'Fertility & Cervical Fluid Sign: Early follicular days are dry or sticky, then cervical fluid becomes creamy and wetter toward the end of this phase. Because sperm can survive up to 5 days in fertile cervical fluid, the final 2 to 3 days of the Follicular Phase begin your fertile window!'
+          'Can I Get Pregnant Right Now?: In the first few days after your period, your underwear feels dry and pregnancy is less likely. By the last 2 or 3 days of this phase, you may see creamy or wet fluid—and because sperm from sex can stay alive inside you for up to 5 days waiting for the egg, you CAN get pregnant toward the end of this phase!'
         ),
         tr(
           'fertilityGuideFollicularB3',
-          'How You May Feel & Self-Care: Rising estrogen boosts mental clarity, physical stamina, optimism, and social energy.'
+          'How You May Feel: Most women feel lighter, happier, clearer-headed, and have much more energy during these days.'
         )
       ]
     },
@@ -161,27 +161,27 @@ export default function FertilityAndMyCycleHomePage1({
       id: 'OvulatoryPhaseDuration1',
       title: tr('fertilityPhaseOvulatoryTitle', 'Ovulatory (Fertile!)'),
       daysRange: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(oStart)}–${formatDigitsForLang(oEnd)}`,
-      shortSub: tr('fertilityPhaseOvulatorySub', 'Peak conception window!'),
-      hormoneHeadline: tr('fertilityHormoneOvulatory', 'Estrogen & LH Surge • Egg Released'),
-      fertilityStatus: tr('fertilityStatusOvulatory', 'Peak Fertile Window! Highest chance of pregnancy'),
+      shortSub: tr('fertilityPhaseOvulatorySub', 'Egg comes out (Easiest to get pregnant!)'),
+      hormoneHeadline: tr('fertilityHormoneOvulatory', 'Egg Released • Peak Fertile Days'),
+      fertilityStatus: tr('fertilityStatusOvulatory', 'Highest chance of getting pregnant right now!'),
       colorHex: CYCLE_PHASE_DEFINITIONS[3].colorHex,
       rgbaFill: CYCLE_PHASE_DEFINITIONS[3].rgbaFill,
       guideTitle: tr(
         'fertilityGuideOvulatoryTitle',
-        'Live Phase Guide: Ovulatory Phase + Peak Fertility Insights'
+        'What Is Happening in My Body: Ovulatory Phase (Most Fertile Days)'
       ),
       bullets: [
         tr(
           'fertilityGuideOvulatoryB1',
-          'What Your Body Is Doing: Peak estrogen triggers a surge of Luteinizing Hormone (LH), causing your ovary to release its mature egg into the fallopian tube, where it can be fertilized for 12 to 24 hours.'
+          'What Your Body Is Doing: Your ovary lets go of a tiny egg! The egg travels down a tube toward your womb and waits for 1 day to see if sperm will meet it.'
         ),
         tr(
           'fertilityGuideOvulatoryB2',
-          'Fertility & Body Signs: This is your peak conception window! Your cervix softens and produces clear, slippery, stretchy "raw egg-white" cervical fluid that nourishes sperm and helps them swim to the egg.'
+          'Can I Get Pregnant Right Now?: YES! These are the days you are most likely to get pregnant. Your body makes clear, slippery, stretchy fluid (that looks like raw egg white) to help sperm swim to the egg.'
         ),
         tr(
           'fertilityGuideOvulatoryB3',
-          'How You May Feel: Many women notice a natural peak in confidence, energy, and sex drive, sometimes accompanied by a brief one-sided lower belly twinge (mittelschmerz) when the egg releases.'
+          'How You May Feel: You may feel high energy, extra confident, and more interested in sex. Some women also feel a tiny pinch on one side of their lower belly when the egg comes out.'
         )
       ]
     },
@@ -189,27 +189,27 @@ export default function FertilityAndMyCycleHomePage1({
       id: 'LutealPhaseDuration1',
       title: tr('fertilityPhaseLutealTitle', 'Luteal Phase'),
       daysRange: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(lStart)}–${formatDigitsForLang(lEnd)}`,
-      shortSub: tr('fertilityPhaseLutealSub', 'Progesterone peak + Implantation window'),
-      hormoneHeadline: tr('fertilityHormoneLuteal', 'Progesterone Peak • Uterine Lining Thick'),
-      fertilityStatus: tr('fertilityStatusLuteal', 'Implantation window (6–10 days after ovulation)'),
+      shortSub: tr('fertilityPhaseLutealSub', 'Womb lining thickens before next period'),
+      hormoneHeadline: tr('fertilityHormoneLuteal', 'Womb Lining Soft & Thick'),
+      fertilityStatus: tr('fertilityStatusLuteal', 'If an egg met sperm, it attaches in the womb 6–10 days after ovulation'),
       colorHex: CYCLE_PHASE_DEFINITIONS[4].colorHex,
       rgbaFill: CYCLE_PHASE_DEFINITIONS[4].rgbaFill,
       guideTitle: tr(
         'fertilityGuideLutealTitle',
-        'Live Phase Guide: Luteal Phase + Trying to Get Pregnant Insights'
+        'What Is Happening in My Body: Luteal Phase'
       ),
       bullets: [
         tr(
           'fertilityGuideLutealB1',
-          'What Your Body Is Doing: After ovulation, the empty follicle transforms into the corpus luteum and secretes progesterone, warming your resting body temperature by ~0.2°C and thickening your uterine lining like a soft quilt.'
+          'What Your Body Is Doing: Your body makes the lining inside your womb thick, warm, and soft like a blanket in case a fertilized egg needs a home to grow into a baby.'
         ),
         tr(
           'fertilityGuideLutealB2',
-          'Fertility & Implantation Window: The unfertilized egg is no longer available after ovulation, so new conception cannot occur in the mid-to-late Luteal Phase. However, if an egg was fertilized during your Ovulatory window, implantation into the uterine wall takes place 6 to 10 days after ovulation!'
+          'Can I Get Pregnant Right Now?: Once the egg from ovulation is gone, you cannot start a new pregnancy during the middle or end of the Luteal Phase. If sperm did meet the egg during your fertile days, the tiny fertilized egg snuggles into your womb wall about 6 to 10 days after ovulation. If not, your body gets ready to start your next period.'
         ),
         tr(
           'fertilityGuideLutealB3',
-          'How You May Feel & Self-Care: Progesterone slows digestion and raises resting metabolism, which can cause food cravings, breast tenderness, bloating, or nesting fatigue. Prioritize magnesium-rich foods, hydration, and extra sleep.'
+          'How You May Feel & Care for Yourself: As your period gets closer, you might feel hungrier, bloated, tired, emotional, or have sore breasts. Drink plenty of water, get extra sleep, and be gentle with yourself.'
         )
       ]
     }
@@ -457,7 +457,7 @@ export default function FertilityAndMyCycleHomePage1({
               { className: 'text-xs font-extrabold text-black/70 text-center mt-2' },
               tr(
                 'wheelTapInstruction',
-                'Tap any phase on the wheel (or the cards below) to see what your hormones & fertility are doing!'
+                'Tap any part of the circle (or the boxes below) to see what your body is doing and when you can get pregnant!'
               )
             )
           )
@@ -545,7 +545,7 @@ export default function FertilityAndMyCycleHomePage1({
                 h(
                   'div',
                   { className: 'text-[11px] font-black text-[#9F133A]' },
-                  `${tr('fertileWindowDaysLabel', 'Fertile Ovulation Window')}: ${tr(
+                  `${tr('fertileWindowDaysLabel', 'Days You Can Most Easily Get Pregnant')}: ${tr(
                     'daysLabel',
                     'Days'
                   )} ${formatDigitsForLang(oStart)}–${formatDigitsForLang(oEnd)}`

@@ -25,7 +25,7 @@ export const CYCLE_PHASE_DEFINITIONS = [
     blurbTitleKey: 'calPhaseFirstDay',
     blurbKey: 'calBlurbFirstDay',
     defaultBlurbEn:
-      'Day 1 of menstrual bleeding as your uterus begins shedding its lining. You may feel lower belly cramps, low energy, or a quiet urge to rest and stay warm.',
+      'Day 1 of your period when bleeding starts. You might have belly cramps, feel tired, or just want to rest and stay warm.',
     colorHex: '#EF233C',
     // Translucent bright red so overlaps remain visible
     rgbaFill: 'rgba(239, 35, 60, 0.56)',
@@ -41,10 +41,10 @@ export const CYCLE_PHASE_DEFINITIONS = [
     labelKey: 'calPhasePeriodDays',
     defaultLabelEn: 'Period (1–7 Days)',
     blurbTitleKey: 'calPhasePeriodTitleShort',
-    defaultBlurbTitleEn: 'Menstrual Period',
+    defaultBlurbTitleEn: 'Period',
     blurbKey: 'calBlurbPeriodDays',
     defaultBlurbEn:
-      'Your uterus sheds its lining over 3 to 7 days (5 days norm). Hormone levels are at their lowest, so you may feel tired, crampy, tender, or introspective before energy starts returning.',
+      'Your body lets go of the soft lining inside your womb as period blood (usually for 3 to 7 days). You might feel tired, crampy, or sore before your energy comes back.',
     colorHex: '#9B111E',
     // Translucent darker red
     rgbaFill: 'rgba(155, 17, 30, 0.54)',
@@ -62,7 +62,7 @@ export const CYCLE_PHASE_DEFINITIONS = [
     blurbTitleKey: 'calPhaseFollicular',
     blurbKey: 'calBlurbFollicular',
     defaultBlurbEn:
-      'Your ovaries mature a new egg and estrogen steadily rises (about 7 to 9 days after your period). You will often feel lighter, clearer-headed, more upbeat, social, and energized.',
+      'Right after your period ends, your body gets a new tiny egg ready. You will often feel happier, clearer, and have much more energy to do things.',
     colorHex: '#F78C06',
     // Translucent orange as in the drawing
     rgbaFill: 'rgba(247, 140, 6, 0.50)',
@@ -79,7 +79,7 @@ export const CYCLE_PHASE_DEFINITIONS = [
     blurbTitleKey: 'calPhaseOvulatory',
     blurbKey: 'calBlurbOvulatory',
     defaultBlurbEn:
-      'Estrogen peaks and your ovary releases an egg (your fertile window, ~3 to 4 days). You may feel your highest confidence, warmth, and sex drive, with clear stretchy cervical fluid.',
+      'Your ovary lets go of a tiny egg. These are the days you can most easily get pregnant! You may feel great energy, feel more interested in sex, and notice clear, slippery fluid in your underwear.',
     colorHex: '#D8316C',
     // Translucent pinkish-red as in the drawing
     rgbaFill: 'rgba(216, 49, 108, 0.52)',
@@ -96,7 +96,7 @@ export const CYCLE_PHASE_DEFINITIONS = [
     blurbTitleKey: 'calPhaseLuteal',
     blurbKey: 'calBlurbLuteal',
     defaultBlurbEn:
-      'Progesterone rises to thicken your uterine lining (~12 to 14 days norm). You may feel calmer or in a nesting mood at first, then notice breast tenderness, food cravings, bloating, or PMS as your period nears.',
+      'Your womb builds a soft, thick lining in case a baby starts growing. If you are not pregnant, your body gets ready for your next period. You may feel hungrier, bloated, emotional, tired, or have sore breasts.',
     colorHex: '#B51762',
     // Translucent darkest pink as in the drawing
     rgbaFill: 'rgba(181, 23, 98, 0.56)',
@@ -378,24 +378,24 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     activeStatusBadge: 'Custom Cycle Active on Calendar',
     calPhaseFirstDay: 'First Day of Period',
     calPhasePeriodDays: 'Period (1–7 Days)',
-    calPhasePeriodTitleShort: 'Menstrual Period',
+    calPhasePeriodTitleShort: 'Period',
     calPhaseFollicular: 'Follicular Phase',
     calPhaseOvulatory: 'Ovulatory Phase',
     calPhaseLuteal: 'Luteal Phase',
     calBlurbFirstDay:
-      'Day 1 of menstrual bleeding as your uterus begins shedding its lining. You may feel lower belly cramps, low energy, or a quiet urge to rest and stay warm.',
+      'Day 1 of your period when bleeding starts. You might have belly cramps, feel tired, or just want to rest and stay warm.',
     calBlurbPeriodDays:
-      'Your uterus sheds its lining over 3 to 7 days (5 days norm). Hormone levels are at their lowest, so you may feel tired, crampy, tender, or introspective before energy starts returning.',
+      'Your body lets go of the soft lining inside your womb as period blood (usually for 3 to 7 days). You might feel tired, crampy, or sore before your energy comes back.',
     calBlurbFollicular:
-      'Your ovaries mature a new egg and estrogen steadily rises (about 7 to 9 days after your period). You will often feel lighter, clearer-headed, more upbeat, social, and energized.',
+      'Right after your period ends, your body gets a new tiny egg ready. You will often feel happier, clearer, and have much more energy to do things.',
     calBlurbOvulatory:
-      'Estrogen peaks and your ovary releases an egg (your fertile window, ~3 to 4 days). You may feel your highest confidence, warmth, and sex drive, with clear stretchy cervical fluid.',
+      'Your ovary lets go of a tiny egg. These are the days you can most easily get pregnant! You may feel great energy, feel more interested in sex, and notice clear, slippery fluid in your underwear.',
     calBlurbLuteal:
-      'Progesterone rises to thicken your uterine lining (~12 to 14 days norm). You may feel calmer or in a nesting mood at first, then notice breast tenderness, food cravings, bloating, or PMS as your period nears.',
-    autoBaselineBannerTitle: 'Automatic Baseline Cycle Guesstimate Active',
+      'Your womb builds a soft, thick lining in case a baby starts growing. If you are not pregnant, your body gets ready for your next period. You may feel hungrier, bloated, emotional, tired, or have sore breasts.',
+    autoBaselineBannerTitle: 'Automatic Normal Cycle Estimate',
     autoBaselineBannerDesc:
-      'Just enter your First Day of Period (and your period length)! The calendar automatically fills in the normal baseline guesstimate for your Follicular (8d), Ovulatory (3d), and Luteal (12d) phases (~28-day cycle). You can still edit any phase below anytime.',
-    resetToBaselineBtn: 'Reset Phases to Norm Baseline Guesstimate',
+      'Just pick your First Day of Period! The calendar automatically fills in a normal 28-day cycle estimate for the rest of your phases. You can still change any number below anytime.',
+    resetToBaselineBtn: 'Reset to Normal Estimate',
     weekdaysShort: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
     weekdaysFull: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   },

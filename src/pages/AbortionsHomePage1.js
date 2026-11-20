@@ -2,15 +2,15 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=241';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=241';
+} from './PregnancyHomePage.js?v=242';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=242';
 import {
   renderCervixPapScreenCartoonSvg,
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderThreeMonthRetestCalendarSvg
-} from './FlyerCartoonIllustrations.js?v=241';
+} from './FlyerCartoonIllustrations.js?v=242';
 
 const h = React.createElement;
 

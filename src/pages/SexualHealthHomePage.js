@@ -2,14 +2,16 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=224';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=224';
+} from './PregnancyHomePage.js?v=225';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=225';
 import {
   renderCervixPapScreenCartoonSvg,
   renderCleanWaterHydrationCartoonSvg,
   renderPartnerPillsCartoonSvg,
-  renderSwabAndNoAlcoholCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=224';
+  renderPrepPepShieldCartoonSvg,
+  renderSwabAndNoAlcoholCartoonSvg,
+  renderUterusFallopianPidCartoonSvg
+} from './FlyerCartoonIllustrations.js?v=225';
 
 const h = React.createElement;
 
@@ -32,15 +34,71 @@ export default function SexualHealthHomePage({
     return t[key] || fallback;
   };
 
-  // 4 Full-Width MakingGifButtons1 Sexual Health Buttons
-  // (Button 1 has the animated STDs GIF; Buttons 2-4 have gifSrc: null ready for custom GIFs later)
+  // 5 First-Person MakingGifButtons1 Sexual Health Buttons
+  // 1. What is sex?
+  // 2. I just had sex for the first time! (includes cultural destigmatization of virginity & the hymen)
+  // 3. I don't want to have sex.
+  // 4. Sex hurts!
+  // 5. STDs (Sexually Transmitted Diseases) -> with animated sexual-health-stds.gif leading to STDMenuHomePage
   const sexualHealthBannerButtons = [
+    {
+      id: 'sh-what-is-sex',
+      label: tr('shBtnWhatIsSex', 'What is sex?'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC8E2 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+      }
+    },
+    {
+      id: 'sh-first-time-sex',
+      label: tr('shBtnFirstTimeSex', 'I just had sex for the first time!'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #FFB8D9 0%, #F472B6 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.95)'
+      }
+    },
+    {
+      id: 'sh-dont-want-sex',
+      label: tr('shBtnDontWantSex', 'I don’t want to have sex.'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #EC4899 0%, #D42C73 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(96, 8, 44, 0.65)'
+      }
+    },
+    {
+      id: 'sh-pain-during-sex',
+      label: tr('shBtnPainDuringSex', 'Sex hurts!'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #C82368 0%, #A62655 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(72, 6, 32, 0.72)'
+      }
+    },
     {
       id: 'stds-sexual-health-banner-btn',
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=224',
+      gifSrc: './assets/sexual-health-stds.gif?v=225',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -48,97 +106,126 @@ export default function SexualHealthHomePage({
         marginRight: '-16px'
       },
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #A62655 0%, #C43E6E 100%)',
+        background: 'linear-gradient(180deg, #A62655 0%, #7C1040 100%)',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 1px 6px rgba(72, 10, 34, 0.5)'
+        textShadow: '0 1px 6px rgba(48, 4, 22, 0.65)'
       },
       subTextStyle: {
         color: '#FFFFFF',
-        textShadow: '0 1px 6px rgba(72, 10, 34, 0.5)'
-      }
-    },
-    {
-      id: 'sh-yeast-and-bv',
-      label: tr('shBtnYeastAndBV', 'Vaginal Itching, Odor, or Discharge (Yeast & BV vs. STDs)'),
-      gifSrc: null,
-      backgroundStyle: {
-        background: 'linear-gradient(180deg, #E85C90 0%, #D43772 100%)',
-        border: 'none'
-      },
-      textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(84, 8, 38, 0.65)'
-      }
-    },
-    {
-      id: 'sh-pain-during-sex',
-      label: tr('shBtnPainDuringSex', 'Pain, Dryness, or Bleeding During Sex'),
-      gifSrc: null,
-      backgroundStyle: {
-        background: 'linear-gradient(180deg, #F890B8 0%, #EA5891 100%)',
-        border: 'none'
-      },
-      textStyle: {
-        color: '#9F133A',
-        textShadow: '0 1px 10px rgba(255, 255, 255, 0.92)'
-      }
-    },
-    {
-      id: 'sh-consent-and-safety',
-      label: tr('shBtnConsentAndSafety', 'Consent, Safety & Healthy Intimacy'),
-      gifSrc: null,
-      backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFD4E8 0%, #FFADD2 100%)',
-        border: 'none'
-      },
-      textStyle: {
-        color: '#9F133A',
-        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+        textShadow: '0 1px 6px rgba(48, 4, 22, 0.65)'
       }
     }
   ];
 
   const subPageConfigs = {
-    'sh-yeast-and-bv': {
-      pageId: 'VaginalYeastAndBVHomePage1',
-      title: tr('shBtnYeastAndBV', 'Vaginal Itching, Odor, or Discharge (Yeast & BV vs. STDs)'),
-      bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
-      bgColor: '#0E857B',
-      titleTintColor: '#CCFBF1',
-      sections: [
-        {
-          id: 'yeast-vs-bv-vs-std',
-          heading: 'Not Every Vaginal Change Is an STD: Understanding Yeast Infections and Bacterial Vaginosis (BV)',
-          stickerLabel: 'SWAB TEST & NO ALCOHOL',
-          graphicRenderer: (sticker) => renderSwabAndNoAlcoholCartoonSvg(sticker),
-          body:
-            'The healthy vagina naturally maintains a mildly acidic balance protected by good Lactobacillus bacteria. When antibiotics, douching, scented soaps, tight damp clothing, or hormonal shifts disrupt that balance, two very common non-STD conditions can occur: a Vaginal Yeast Infection (which causes thick, white, cottage-cheese-like, odorless discharge with intense vulvar itching and burning) or Bacterial Vaginosis (which causes thin, grayish-white discharge with a strong fishy odor, especially after sex, usually without severe itching).'
-        },
-        {
-          id: 'why-a-clinic-swab-matters',
-          heading: 'Why Getting a Quick Clinic Swab Prevents Treating the Wrong Condition',
-          body:
-            'Because Trichomonas, Chlamydia, and Gonorrhea can look and feel very similar to Bacterial Vaginosis or a yeast infection, using an over-the-counter yeast cream when you actually have BV or Trichomonas will not cure your symptoms. A 2-minute swab at any women’s clinic on your FemPowHer map identifies whether you need a simple antifungal (for yeast) or metronidazole/clindamycin (for BV or Trichomonas).'
-        }
-      ]
-    },
-    'sh-pain-during-sex': {
-      pageId: 'PainDuringSexHomePage1',
-      title: tr('shBtnPainDuringSex', 'Pain, Dryness, or Bleeding During Sex'),
+    'sh-what-is-sex': {
+      pageId: 'WhatIsSexHomePage1',
+      title: tr('shBtnWhatIsSex', 'What is sex?'),
       bgGradient: 'linear-gradient(180deg, #E11D48 0%, #BE123C 100%)',
       bgColor: '#D41742',
       titleTintColor: '#FFC9D6',
       sections: [
         {
-          id: 'causes-of-painful-sex',
-          heading: 'Sex Should Never Hurt: Common Medical Causes of Pain or Spotting',
+          id: 'what-is-sexual-intimacy',
+          heading: 'What Is Sex? Understanding Intimacy, Anatomy, and Connection',
+          stickerLabel: 'TREAT BOTH PARTNERS',
+          graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
+          body:
+            'Sex is physical intimacy shared between consenting people that can include touching, kissing, oral contact, manual stimulation, or vaginal or anal intercourse. Biologically, when a woman feels safe, relaxed, and aroused, blood flows to the clitoris (the sensitive nerve center at the top of the vulva) and the vaginal walls naturally release moisture (lubrication) while the pelvic muscles relax and lengthen.'
+        },
+        {
+          id: 'how-pregnancy-and-stds-happen',
+          heading: 'When Sex Can Lead to Pregnancy or STDs (And How to Stay Protected)',
+          stickerLabel: 'PROTECT FALLOPIAN TUBES',
+          graphicRenderer: (sticker) => renderUterusFallopianPidCartoonSvg(sticker),
+          body:
+            'Pregnancy can occur whenever semen or pre-ejaculate fluid from a penis enters or comes near the vaginal opening and sperm travel up through the cervix and uterus to meet an egg in the Fallopian tube. Sexually transmitted infections (STDs) can spread through vaginal, anal, or oral sex or skin-to-skin genital contact. Using condoms and reliable birth control lets you protect both your health and your future timeline.'
+        }
+      ]
+    },
+    'sh-first-time-sex': {
+      pageId: 'FirstTimeSexHomePage1',
+      title: tr('shBtnFirstTimeSex', 'I just had sex for the first time!'),
+      bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
+      bgColor: '#6D28D9',
+      titleTintColor: '#EDE9FE',
+      sections: [
+        {
+          id: 'virginity-across-cultures',
+          heading: 'Destigmatizing "Virginity" Across All Cultures: Your Worth Never Changes',
+          stickerLabel: 'TREAT BOTH PARTNERS',
+          graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
+          body:
+            'In many cultures and traditions around the world, "virginity" is treated as a measure of a girl’s or woman’s purity, honor, or value. Medically and humanly, virginity is not a physical object you "lose" and it never changes your dignity, cleanliness, or worth as a human being. Having sex for the first time is simply a personal life experience, and no medical exam on earth can tell whether a woman has had sex.'
+        },
+        {
+          id: 'the-truth-about-the-hymen-and-bleeding',
+          heading: 'The Medical Truth About the Hymen (Why Over Half of Women Do Not Bleed the First Time)',
           stickerLabel: 'PAP & HPV SCREENING',
           graphicRenderer: (sticker) => renderCervixPapScreenCartoonSvg(sticker),
           body:
-            'Pain during sexual intercourse (dyspareunia) or bleeding after sex is a common medical symptom that deserves gentle evaluation. Surface burning or stinging at the vaginal entrance is often caused by insufficient lubrication, hormonal dryness (during breastfeeding, on certain contraceptives, or after menopause), a yeast or herpes infection, or involuntary pelvic floor muscle tightening (vaginismus). Deep pelvic pain during penetration can point to uterine fibroids, endometriosis, an ovarian cyst, or cervical/pelvic inflammation.'
+            'Many people are taught the myth that the hymen is a sealed barrier that "breaks" and must bleed on the wedding night or first time having sex. In anatomical reality, the hymen is just a thin, stretchy rim of soft pink tissue around the lower edge of the vaginal opening (with a natural opening in the middle so menstrual blood can flow out every month). It naturally stretches from sports, walking, riding a bike, or using tampons, and some girls are born with almost no visible hymenal tissue at all. Over 50% of women do not bleed at all the first time they have vaginal intercourse, especially when they are relaxed, aroused, and treated gently. The World Health Organization has officially declared that "virginity testing" (two-finger exams or checking bedsheets for blood) has zero scientific validity and is a violation of women’s human rights.'
+        },
+        {
+          id: 'caring-for-your-body-after-first-time',
+          heading: 'What to Do for Your Body Right After Having Sex (Preventing UTIs)',
+          stickerLabel: 'DRINK CLEAN WATER',
+          graphicRenderer: (sticker) => renderCleanWaterHydrationCartoonSvg(sticker),
+          body:
+            'Always urinate (pee) within 15 to 30 minutes after having vaginal sex and drink a glass of clean water: peeing flushes out any bacteria that were pushed near the urethra opening during intercourse and prevents a painful Urinary Tract Infection (UTI). Wash the outside of your vulva gently with warm water (never douche or put soap inside the vagina).'
+        },
+        {
+          id: 'if-unprotected',
+          heading: 'If You Did Not Use a Condom or Birth Control',
+          stickerLabel: 'PrEP & PEP PREVENTION',
+          graphicRenderer: (sticker) => renderPrepPepShieldCartoonSvg(sticker),
+          body:
+            'Yes, you can get pregnant or catch an STD the very first time you have sex. If the sex was unprotected and you do not want to get pregnant, you can take an Emergency Contraception pill (morning-after pill) within 3 to 5 days, and if there was any risk of HIV exposure, a clinic can provide emergency PEP within 72 hours.'
+        }
+      ]
+    },
+    'sh-dont-want-sex': {
+      pageId: 'DontWantSexHomePage1',
+      title: tr('shBtnDontWantSex', 'I don’t want to have sex.'),
+      bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
+      bgColor: '#0E857B',
+      titleTintColor: '#CCFBF1',
+      sections: [
+        {
+          id: 'saying-no-is-always-okay',
+          heading: 'It Is 100% Okay Not to Want Sex (At Any Age or Relationship Stage)',
+          stickerLabel: 'TREAT BOTH PARTNERS',
+          graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
+          body:
+            'Your body belongs only to you. You never owe anyone sex, whether you have never had sex before, have had sex in the past, are dating, or are married. Saying "no" or "I want to wait" is a complete sentence. It is also completely normal to have periods of low sexual desire (due to stress, exhaustion, postpartum recovery, breastfeeding, hormonal birth control, menopause, or depression) or to identify on the asexual spectrum where you feel little or no sexual attraction.'
+        },
+        {
+          id: 'if-you-feel-pressured-or-unsafe',
+          heading: 'What to Do If Someone Is Pressuring, Threatening, or Forcing You',
+          stickerLabel: 'SWAB TEST & NO ALCOHOL',
+          graphicRenderer: (sticker) => renderSwabAndNoAlcoholCartoonSvg(sticker),
+          body:
+            'If a partner, spouse, or anyone else pressures you through guilt, threats, withholding money, sabotaging your birth control, or physical force, that is sexual coercion and abuse, never love. Tap the Map or Emergency Contacts tab at the bottom of your FemPowHer screen anytime to find the closest confidential 24/7 Women’s Safe Haven, domestic violence shelter, or hospital.'
+        }
+      ]
+    },
+    'sh-pain-during-sex': {
+      pageId: 'PainDuringSexHomePage1',
+      title: tr('shBtnPainDuringSex', 'Sex hurts!'),
+      bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1D4ED8 100%)',
+      bgColor: '#2057E0',
+      titleTintColor: '#CFE2FF',
+      sections: [
+        {
+          id: 'causes-of-painful-sex',
+          heading: 'Sex Should Never Hurt: Common Medical Causes of Pain or Bleeding',
+          stickerLabel: 'PAP & HPV SCREENING',
+          graphicRenderer: (sticker) => renderCervixPapScreenCartoonSvg(sticker),
+          body:
+            'Pain during sexual intercourse (dyspareunia) or bleeding after sex is a very common medical symptom that deserves gentle care. Burning or tightness right at the vaginal entrance is often caused by not enough foreplay or lubrication, hormonal dryness (while breastfeeding, on certain contraceptives, or after menopause), a yeast or herpes infection, or involuntary tightening of the pelvic floor muscles (vaginismus). Deep pain inside the pelvis during penetration can point to uterine fibroids, endometriosis, an ovarian cyst, or cervical/pelvic inflammation (PID).'
         },
         {
           id: 'what-to-do',
@@ -146,24 +233,7 @@ export default function SexualHealthHomePage({
           stickerLabel: 'DRINK CLEAN WATER',
           graphicRenderer: (sticker) => renderCleanWaterHydrationCartoonSvg(sticker),
           body:
-            'Use a clean, unscented water-based or silicone-based lubricant, communicate openly with your partner to pause anytime something hurts, and visit an OB/GYN clinic on your FemPowHer map for a gentle pelvic exam and cervical screening.'
-        }
-      ]
-    },
-    'sh-consent-and-safety': {
-      pageId: 'ConsentAndSafetyHomePage1',
-      title: tr('shBtnConsentAndSafety', 'Consent, Safety & Healthy Intimacy'),
-      bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
-      bgColor: '#6D28D9',
-      titleTintColor: '#EDE9FE',
-      sections: [
-        {
-          id: 'your-body-your-choice',
-          heading: 'Your Body Belongs to You: Enthusiastic Consent and Safety',
-          stickerLabel: 'TREAT BOTH PARTNERS',
-          graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
-          body:
-            'Healthy intimacy requires free, ongoing, pressure-free agreement from both partners, and you have the right to say no, ask to use a condom, or stop at any moment, whether in dating or marriage. If you ever experience sexual coercion, reproductive control (a partner hiding or sabotaging your birth control), or physical or sexual violence, tap the Map or Emergency Contacts tab in FemPowHer to connect with a confidential 24/7 Women’s Safe Haven or hospital.'
+            'Pause immediately anytime sex hurts (never "push through" sharp pain, which trains the pelvic floor muscles to tense up even more). Use a clean, unscented water-based or silicone-based lubricant, and visit an OB/GYN clinic on your FemPowHer map for a gentle exam.'
         }
       ]
     }
@@ -215,7 +285,7 @@ export default function SexualHealthHomePage({
     h(MakingGifButtons1, {
       sections: sexualHealthBannerButtons,
       containerClassName: 'flex-1 w-full grid',
-      containerStyle: { gridTemplateRows: '220px repeat(3, minmax(165px, 1fr))' },
+      containerStyle: { gridTemplateRows: 'repeat(4, minmax(160px, 1fr)) 220px' },
       onSelectSection: (sec) => {
         if (sec.targetPage && onNavigateEducationPage) {
           onNavigateEducationPage(sec.targetPage);

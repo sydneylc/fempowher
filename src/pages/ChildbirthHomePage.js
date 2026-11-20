@@ -2,14 +2,14 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=224';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=224';
+} from './PregnancyHomePage.js?v=225';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=225';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
   renderMotherHoldingNewbornSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=224';
+} from './FlyerCartoonIllustrations.js?v=225';
 
 const h = React.createElement;
 
@@ -31,11 +31,11 @@ export default function ChildbirthHomePage({
     return t[key] || fallback;
   };
 
-  // 4 Full-Width MakingGifButtons1 First-Person Childbirth Buttons (gifSrc: null ready for GIFs later)
+  // 4 Concise, First-Person MakingGifButtons1 Childbirth Buttons (gifSrc: null ready for GIFs later)
   const childbirthButtons = [
     {
       id: 'childbirth-stages-of-labor',
-      label: tr('childbirthBtnStages', 'How do I know I am in labor? (Stages of Labor & Water Breaking)'),
+      label: tr('childbirthBtnStages', 'How Do I Know I’m in Labor?'),
       gifSrc: null,
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC4E0 100%)',
@@ -48,7 +48,7 @@ export default function ChildbirthHomePage({
     },
     {
       id: 'childbirth-vaginal-and-pain-relief',
-      label: tr('childbirthBtnVaginal', 'Vaginal Birth, Pain Relief & Pushing Positions'),
+      label: tr('childbirthBtnVaginal', 'Vaginal Birth'),
       gifSrc: null,
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB5D6 0%, #F472B6 100%)',
@@ -61,7 +61,7 @@ export default function ChildbirthHomePage({
     },
     {
       id: 'childbirth-csection',
-      label: tr('childbirthBtnCSection', 'Cesarean Section (Planned & Emergency C-Section)'),
+      label: tr('childbirthBtnCSection', 'C-Section'),
       gifSrc: null,
       backgroundStyle: {
         background: 'linear-gradient(180deg, #EC4899 0%, #BE185D 100%)',
@@ -74,7 +74,7 @@ export default function ChildbirthHomePage({
     },
     {
       id: 'childbirth-emergency-signs',
-      label: tr('childbirthBtnDangerSigns', 'Emergency Danger Signs During Labor & Delivery'),
+      label: tr('childbirthBtnDangerSigns', 'Emergency Signs in Labor'),
       gifSrc: null,
       backgroundStyle: {
         background: 'linear-gradient(180deg, #9F133A 0%, #6E0926 100%)',
@@ -90,7 +90,7 @@ export default function ChildbirthHomePage({
   const subPageConfigs = {
     'childbirth-stages-of-labor': {
       pageId: 'ChildbirthStagesHomePage1',
-      title: tr('childbirthBtnStages', 'How do I know I am in labor? (Stages of Labor & Water Breaking)'),
+      title: tr('childbirthBtnStages', 'How Do I Know I’m in Labor?'),
       bgGradient: 'linear-gradient(180deg, #E11D48 0%, #BE123C 100%)',
       bgColor: '#D41742',
       titleTintColor: '#FFC9D6',
@@ -114,7 +114,7 @@ export default function ChildbirthHomePage({
     },
     'childbirth-vaginal-and-pain-relief': {
       pageId: 'ChildbirthVaginalHomePage1',
-      title: tr('childbirthBtnVaginal', 'Vaginal Birth, Pain Relief & Pushing Positions'),
+      title: tr('childbirthBtnVaginal', 'Vaginal Birth'),
       bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
       bgColor: '#0E857B',
       titleTintColor: '#CCFBF1',
@@ -136,7 +136,7 @@ export default function ChildbirthHomePage({
     },
     'childbirth-csection': {
       pageId: 'ChildbirthCSectionHomePage1',
-      title: tr('childbirthBtnCSection', 'Cesarean Section (Planned & Emergency C-Section)'),
+      title: tr('childbirthBtnCSection', 'C-Section'),
       bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1E40AF 100%)',
       bgColor: '#1D4ED8',
       titleTintColor: '#DBEAFE',
@@ -152,7 +152,7 @@ export default function ChildbirthHomePage({
     },
     'childbirth-emergency-signs': {
       pageId: 'ChildbirthDangerSignsHomePage1',
-      title: tr('childbirthBtnDangerSigns', 'Emergency Danger Signs During Labor & Delivery'),
+      title: tr('childbirthBtnDangerSigns', 'Emergency Signs in Labor'),
       bgGradient: 'linear-gradient(180deg, #DC2626 0%, #991B1B 100%)',
       bgColor: '#B91C1C',
       titleTintColor: '#FECACA',

@@ -1,17 +1,20 @@
 import React from 'https://esm.sh/react@18.3.1';
-import BeingAWomanInHomePage from './BeingAWomanInHomePage.js?v=228';
-import { getBeingAWomanContent } from '../data/beingAWomanData.js?v=228';
+import BeingAWomanInHomePage from './BeingAWomanInHomePage.js?v=229';
+import { getBeingAWomanContent } from '../data/beingAWomanData.js?v=229';
 
 const h = React.createElement;
 
 // ============================================================================
 // AnonBeingAWomanWorldViewPage
-// NOTE FOR SYDNEY (Task #1 on Sydney's Edit List):
-//   Currently displays "Being a Woman Worldview" as the title for all Anonymous users,
-//   and uses the "Being A Woman In Sudan" ("Sudan" / "Sudanese") tabs inside as a placeholder
-//   until Sydney customizes the anonymous worldview content.
+// Displays "Being a Woman Worldview" for Anonymous users using the same 4-button
+// PregHomePageButtons (MakingGifButtons1) hub as BeingAWomanInHomePage.
 // ============================================================================
-export default function AnonBeingAWomanWorldViewPage({ onBack, lang = 'en', t = {} }) {
+export default function AnonBeingAWomanWorldViewPage({
+  onBack,
+  UserLanguageChoice1 = null,
+  lang = 'en',
+  t = {}
+}) {
   const sudanContent = getBeingAWomanContent('Sudan', 'Sudanese', {
     center: [15.5007, 32.5599],
     zoom: 5
@@ -21,6 +24,7 @@ export default function AnonBeingAWomanWorldViewPage({ onBack, lang = 'en', t = 
     onBack,
     userNationVariable1: 'Sudan',
     userNationVariable2: 'Sudanese',
+    UserLanguageChoice1,
     beingAWomanContent: sudanContent,
     roleModelCountryCenter: [15.5007, 32.5599],
     roleModelCountryZoom: 5,

@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=228';
+import {
+  MakingGifButtons1,
+  renderSubpageBackButton
+} from './PregnancyHomePage.js?v=229';
 
 const h = React.createElement;
 
@@ -7,6 +10,7 @@ export default function BeingAWomanInHomePage({
   onBack,
   userNationVariable1 = 'Somalia',
   userNationVariable2 = 'Somali',
+  UserLanguageChoice1 = null,
   beingAWomanContent = {},
   roleModelCountryCenter = [5.1521, 46.1996],
   roleModelCountryZoom = 6,
@@ -15,7 +19,8 @@ export default function BeingAWomanInHomePage({
   lang = 'en',
   t = {}
 }) {
-  const [beingWomanSubTab, setBeingWomanSubTab] = useState('gender-outlook');
+  // Starts at null on the main 4-button MakingGifButtons1 menu; clicking a button opens its subpage
+  const [beingWomanSubTab, setBeingWomanSubTab] = useState(null);
   const [selectedRoleModel, setSelectedRoleModel] = useState(null);
 
   const roleModelMapContainerRef = useRef(null);
@@ -99,79 +104,140 @@ export default function BeingAWomanInHomePage({
     roleModelCountryZoom
   ]);
 
+  // 4 Full-Width PregHomePageButtons (MakingGifButtons1) for Being A Woman In [userNationVariable1] / Worldview
+  // (gifSrc: null slots ready for custom GIFs to be added later; words only for now)
+  const beingAWomanButtons = [
+    {
+      id: 'gender-outlook',
+      label: 'Gender Outlook',
+      gifSrc: null, // Ready for custom GIF (e.g. './assets/being-woman-gender-outlook.gif')
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC4E0 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+      }
+    },
+    {
+      id: 'traditional-health',
+      label: `Traditional ${userNationVariable2} Female Health`,
+      gifSrc: null, // Ready for custom GIF (e.g. './assets/being-woman-traditional-health.gif')
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #FFB5D6 0%, #F472B6 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.95)'
+      }
+    },
+    {
+      id: 'role-models',
+      label: `Female Role Models from ${userNationVariable1}`,
+      gifSrc: null, // Ready for custom GIF (e.g. './assets/being-woman-role-models.gif')
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #EC4899 0%, #BE185D 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(88, 8, 42, 0.7)'
+      }
+    },
+    {
+      id: 'health-alerts',
+      label: `Women’s Health Alerts in ${userNationVariable1}`,
+      gifSrc: null, // Ready for custom GIF (e.g. './assets/being-woman-health-alerts.gif')
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #9F133A 0%, #6E0926 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(42, 2, 16, 0.78)'
+      }
+    }
+  ];
+
+  // MAIN MENU VIEW: 4 Full-Width MakingGifButtons1 Buttons (Zero info cards dumped below)
+  if (!beingWomanSubTab) {
+    return h(
+      'div',
+      {
+        id: 'BeingAWomanInHomePage',
+        className: 'min-h-full w-full shrink-0 bg-white flex flex-col overflow-x-hidden'
+      },
+      h(
+        'div',
+        { className: 'w-full px-4 sm:px-6 pt-3 pb-3 shrink-0 bg-white' },
+        h(
+          'div',
+          { className: 'max-w-5xl w-full mx-auto' },
+          renderSubpageBackButton(onBack, t, lang),
+          h(
+            'div',
+            { className: 'text-center mt-1' },
+            h(
+              'div',
+              { className: 'text-xs font-bold uppercase tracking-widest', style: { color: '#CF366C' } },
+              customTopLabel
+            ),
+            h(
+              'h1',
+              { className: 'text-2xl sm:text-3xl font-extrabold mt-0.5', style: { color: '#9F133A' } },
+              customMainTitle || userNationVariable1
+            )
+          )
+        )
+      ),
+      h(MakingGifButtons1, {
+        sections: beingAWomanButtons,
+        onSelectSection: (sec) => {
+          if (sec && sec.id) {
+            setBeingWomanSubTab(sec.id);
+          }
+        }
+      })
+    );
+  }
+
+  // SUBPAGE VIEW: Opened when clicking one of the 4 MakingGifButtons1 buttons
+  const activeSubTitle =
+    beingWomanSubTab === 'gender-outlook'
+      ? `Gender Outlook • ${userNationVariable1}`
+      : beingWomanSubTab === 'traditional-health'
+      ? `Traditional ${userNationVariable2} Female Health`
+      : beingWomanSubTab === 'role-models'
+      ? `Female Role Models from ${userNationVariable1}`
+      : `Women’s Health Alerts in ${userNationVariable1}`;
+
   return h(
     'div',
     { className: 'min-h-full w-full shrink-0 bg-white flex flex-col p-4 sm:p-6' },
     h(
       'div',
       { className: 'max-w-3xl w-full mx-auto space-y-5' },
-      renderSubpageBackButton(onBack, t, lang),
+      renderSubpageBackButton(() => setBeingWomanSubTab(null), t, lang),
 
-      // Header inside BeingAWomanInHomePage
+      // Subpage Header
       h(
         'div',
         { className: 'text-center border-b-2 pb-3', style: { borderColor: '#FEACEC' } },
         h(
           'div',
           { className: 'text-xs font-bold uppercase tracking-widest', style: { color: '#CF366C' } },
-          customTopLabel
+          `${customTopLabel} ${customMainTitle || userNationVariable1}`
         ),
         h(
           'h1',
-          { className: 'text-2xl sm:text-4xl font-extrabold mt-0.5', style: { color: '#9F133A' } },
-          customMainTitle || userNationVariable1
+          { className: 'text-2xl sm:text-3xl font-extrabold mt-0.5', style: { color: '#9F133A' } },
+          activeSubTitle
         )
       ),
 
-      // 4 Connected Sub-Section Buttons:
-      //   1. Gender Outlook
-      //   2. Traditional [userNationVariable2] Female Health
-      //   3. Female Role Models From Where You Are
-      //   4. Women’s Health Alerts in [userNationVariable1]
-      h(
-        'div',
-        { className: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5' },
-        [
-          { id: 'gender-outlook', label: 'Gender Outlook' },
-          {
-            id: 'traditional-health',
-            label: `Traditional ${userNationVariable2} Female Health`
-          },
-          {
-            id: 'role-models',
-            label: 'Female Role Models From Where You Are'
-          },
-          {
-            id: 'health-alerts',
-            label: `Women’s Health Alerts in ${userNationVariable1}`
-          }
-        ].map((sub) => {
-          const isActiveSub = beingWomanSubTab === sub.id;
-          return h(
-            'button',
-            {
-              key: sub.id,
-              type: 'button',
-              onClick: () => setBeingWomanSubTab(sub.id),
-              className: 'px-4 py-3 rounded-2xl text-xs sm:text-sm font-bold transition shadow-sm text-center',
-              style: isActiveSub
-                ? {
-                    backgroundColor: '#9F133A',
-                    color: '#FFFFFF',
-                    border: '2px solid #FEACEC'
-                  }
-                : {
-                    backgroundColor: '#FFF0FA',
-                    color: '#9F133A',
-                    border: '2px solid #CF366C'
-                  }
-            },
-            sub.label
-          );
-        })
-      ),
-
-      // SUB-SECTION 1: GENDER OUTLOOK
+      // SUBPAGE 1: GENDER OUTLOOK HOMEPAGE (All country gender outlook info lives inside here)
       beingWomanSubTab === 'gender-outlook' &&
         h(
           'div',
@@ -247,7 +313,7 @@ export default function BeingAWomanInHomePage({
               h(
                 'div',
                 { className: 'text-sm sm:text-base font-extrabold text-white mt-0.5' },
-                `Discover Female Role Models From ${userNationVariable1} on the Role Models Map`
+                `Discover Female Role Models from ${userNationVariable1} on the Role Models Map`
               )
             ),
             h(
@@ -255,15 +321,15 @@ export default function BeingAWomanInHomePage({
               {
                 type: 'button',
                 onClick: () => setBeingWomanSubTab('role-models'),
-                className: 'px-5 py-2.5 rounded-full font-extrabold text-xs sm:text-sm shrink-0 shadow-md transition hover:opacity-95',
+                className: 'px-5 py-2.5 rounded-full font-extrabold text-xs sm:text-sm shrink-0 shadow-md transition hover:opacity-95 cursor-pointer',
                 style: { backgroundColor: '#FEACEC', color: '#9F133A' }
               },
-              'Female Role Models From Where You Are →'
+              `Female Role Models from ${userNationVariable1} →`
             )
           )
         ),
 
-      // SUB-SECTION 2: TRADITIONAL [userNationVariable2] FEMALE HEALTH
+      // SUBPAGE 2: TRADITIONAL [userNationVariable2] FEMALE HEALTH
       beingWomanSubTab === 'traditional-health' &&
         h(
           'div',
@@ -316,7 +382,7 @@ export default function BeingAWomanInHomePage({
           )
         ),
 
-      // SUB-SECTION 3: FEMALE ROLE MODELS FROM WHERE YOU ARE (Dedicated Map + Bios)
+      // SUBPAGE 3: FEMALE ROLE MODELS FROM [userNationVariable1] (Dedicated Map + Bios)
       beingWomanSubTab === 'role-models' &&
         h(
           'div',
@@ -330,7 +396,7 @@ export default function BeingAWomanInHomePage({
             h(
               'h4',
               { className: 'text-base sm:text-lg font-extrabold', style: { color: '#9F133A' } },
-              `Female Role Models From ${userNationVariable1} (${userNationVariable2} Heritage)`
+              `Female Role Models from ${userNationVariable1} (${userNationVariable2} Heritage)`
             ),
             h(
               'p',
@@ -385,7 +451,7 @@ export default function BeingAWomanInHomePage({
                   {
                     type: 'button',
                     onClick: () => setSelectedRoleModel(null),
-                    className: 'px-3 py-1 rounded-full text-xs font-bold text-white',
+                    className: 'px-3 py-1 rounded-full text-xs font-bold text-white cursor-pointer',
                     style: { backgroundColor: '#9F133A' }
                   },
                   'Close Bio'
@@ -409,7 +475,7 @@ export default function BeingAWomanInHomePage({
                   key: rm.id,
                   type: 'button',
                   onClick: () => setSelectedRoleModel(rm),
-                  className: 'text-left p-4 rounded-2xl border-2 transition shadow-sm hover:opacity-95',
+                  className: 'text-left p-4 rounded-2xl border-2 transition shadow-sm hover:opacity-95 cursor-pointer',
                   style: isPicked
                     ? { backgroundColor: '#9F133A', color: '#FFFFFF', borderColor: '#FEACEC' }
                     : { backgroundColor: '#FFFFFF', color: '#9F133A', borderColor: '#FEACEC' }
@@ -444,7 +510,7 @@ export default function BeingAWomanInHomePage({
           )
         ),
 
-      // SUB-SECTION 4: WOMEN'S HEALTH ALERTS IN [userNationVariable1]
+      // SUBPAGE 4: WOMEN'S HEALTH ALERTS IN [userNationVariable1]
       beingWomanSubTab === 'health-alerts' &&
         h(
           'div',

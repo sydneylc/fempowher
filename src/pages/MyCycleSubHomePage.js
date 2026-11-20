@@ -1,13 +1,13 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=237';
-import { isRtlLanguage } from '../data/translations.js?v=237';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=238';
+import { isRtlLanguage } from '../data/translations.js?v=238';
 import {
   CYCLE_PHASE_DEFINITIONS,
   getCycleCalText,
   formatMonthYearForLang,
   getPhasesForDate,
   loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=237';
+} from '../data/cycleCalendarData.js?v=238';
 
 const h = React.createElement;
 
@@ -889,10 +889,10 @@ export default function MyCycleSubHomePage({
       ),
 
       // ======================================================================
-      // TOP TWO-COLUMN SECTION:
+      // TOP SIDE-BY-SIDE TWO-COLUMN SECTION (Always Left & Right side-by-side!):
       // - LEFT OF THE CALENDAR:
       //     1. At the top: "Tap Any Spot on the Body to See Why It Feels That Way!" Big Bubble
-      //     2. Directly underneath that on the left: "What Do Period Blood Colors Mean?" Bubble (no "Tap Any Color!")
+      //     2. Directly underneath that on the left: "What Do Period Blood Colors Mean?" Bubble
       // - RIGHT COLUMN:
       //     1. `CycleCalendarWidget1`
       //     2. `"You are in..."` Current Phase Square
@@ -902,7 +902,7 @@ export default function MyCycleSubHomePage({
         'div',
         {
           className:
-            'w-full flex flex-col lg:flex-row items-center lg:items-start justify-between gap-6 px-1 sm:px-2'
+            'w-full flex flex-row items-start justify-between gap-4 sm:gap-6 px-1 sm:px-2'
         },
 
         // ====================================================================
@@ -914,7 +914,7 @@ export default function MyCycleSubHomePage({
           'div',
           {
             id: 'MyCycleLeftColumn1',
-            className: 'w-full lg:flex-1 flex flex-col gap-6 min-w-0'
+            className: 'flex-1 flex flex-col gap-6 min-w-0'
           },
 
           // 1. TOP OF LEFT COLUMN: "Tap Any Spot on the Body to See Why It Feels That Way!" Big Bubble
@@ -934,7 +934,7 @@ export default function MyCycleSubHomePage({
               },
               h(
                 'span',
-                { className: 'text-sm sm:text-base font-extrabold text-black leading-tight' },
+                { className: 'text-xs sm:text-base font-extrabold text-black leading-tight' },
                 tr('tapAnySpotOnBodyBubbleTitle', 'Tap Any Spot on the Body to See Why It Feels That Way!')
               )
             ),
@@ -942,30 +942,27 @@ export default function MyCycleSubHomePage({
               'div',
               {
                 className:
-                  'w-full rounded-[32px] border-[2.5px] border-black bg-[#FFF9FC] pt-6 pb-5 px-4 sm:px-5 shadow-md flex flex-col md:flex-row items-stretch gap-4'
+                  'w-full rounded-[32px] border-[2.5px] border-black bg-[#FFF9FC] pt-5 pb-4 px-3.5 sm:px-4 shadow-md flex flex-row items-stretch gap-3.5'
               },
-              // Left inside bubble: Friendly interactive female body silhouette with 5 clickable body spot pills
+              // Left inside bubble: Friendly interactive female body silhouette with 5 clickable body spot pills (matches Option 2 image!)
               h(
                 'div',
                 {
                   className:
-                    'w-full md:w-56 shrink-0 p-3.5 rounded-3xl border-2 border-black bg-[#FFE8F2] flex flex-col items-center justify-between gap-2 relative'
+                    'w-48 sm:w-52 shrink-0 p-3 rounded-3xl border-2 border-black bg-[#FFE8F2] flex flex-col items-center justify-center relative'
                 },
                 h(
                   'div',
-                  { className: 'w-full flex flex-col items-center gap-2 py-1' },
-                  // Head circle
-                  h('div', {
-                    className: 'w-14 h-14 rounded-full border-2 border-black bg-[#8D5524]'
-                  }),
-                  // Torso with the 5 clickable hotspot buttons stacked down the body
+                  { className: 'w-full flex flex-col items-center py-1 relative' },
+                  // Head circle with Mood & Head pill across it as in Option 2 image
                   h(
                     'div',
                     {
                       className:
-                        'w-44 rounded-[34px] border-2 border-black bg-[#F1C27D] py-3 px-2.5 flex flex-col items-center gap-2'
+                        'w-16 h-16 rounded-full border-2 border-black bg-[#8D5524] flex items-center justify-center mb-1 relative'
                     },
-                    bodyFeelingsSpots.map((spot) => {
+                    (() => {
+                      const spot = bodyFeelingsSpots[0];
                       const isSelected = spot.id === activeBodySpot.id;
                       return h(
                         'button',
@@ -974,7 +971,33 @@ export default function MyCycleSubHomePage({
                           type: 'button',
                           onClick: () => setSelectedBodySpotId(spot.id),
                           className:
-                            'w-full py-1.5 px-2 rounded-xl border-2 border-black text-xs font-black text-center cursor-pointer transition-transform active:scale-95 shadow-sm',
+                            'w-40 py-1 px-2 rounded-xl border-2 border-black text-[11px] font-black text-center cursor-pointer transition-transform active:scale-95 shadow-sm shrink-0',
+                          style: {
+                            backgroundColor: isSelected ? '#9F133A' : '#FFFFFF',
+                            color: isSelected ? '#FFFFFF' : '#000000'
+                          }
+                        },
+                        isSelected ? `${spot.label} ★` : spot.label
+                      );
+                    })()
+                  ),
+                  // Torso with the remaining spots stacked down the body + Tired Legs / Back at bottom
+                  h(
+                    'div',
+                    {
+                      className:
+                        'w-32 rounded-[28px] border-2 border-black bg-[#F1C27D] py-3 px-1 flex flex-col items-center gap-3'
+                    },
+                    bodyFeelingsSpots.slice(1, 4).map((spot) => {
+                      const isSelected = spot.id === activeBodySpot.id;
+                      return h(
+                        'button',
+                        {
+                          key: spot.id,
+                          type: 'button',
+                          onClick: () => setSelectedBodySpotId(spot.id),
+                          className:
+                            'w-40 py-1.5 px-2 rounded-xl border-2 border-black text-[11px] font-black text-center cursor-pointer transition-transform active:scale-95 shadow-sm shrink-0',
                           style: {
                             backgroundColor: isSelected ? '#9F133A' : '#FFFFFF',
                             color: isSelected ? '#FFFFFF' : '#000000'
@@ -983,7 +1006,27 @@ export default function MyCycleSubHomePage({
                         isSelected ? `${spot.label} ★` : spot.label
                       );
                     })
-                  )
+                  ),
+                  // 5th pill below torso: Tired Legs / Back (matches Option 2 image!)
+                  (() => {
+                    const spot = bodyFeelingsSpots[4];
+                    const isSelected = spot.id === activeBodySpot.id;
+                    return h(
+                      'button',
+                      {
+                        key: spot.id,
+                        type: 'button',
+                        onClick: () => setSelectedBodySpotId(spot.id),
+                        className:
+                          'mt-3 w-40 py-1.5 px-2 rounded-xl border-2 border-black text-[11px] font-black text-center cursor-pointer transition-transform active:scale-95 shadow-sm shrink-0',
+                        style: {
+                          backgroundColor: isSelected ? '#9F133A' : '#FFFFFF',
+                          color: isSelected ? '#FFFFFF' : '#000000'
+                        }
+                      },
+                      isSelected ? `${spot.label} ★` : spot.label
+                    );
+                  })()
                 )
               ),
 
@@ -992,35 +1035,35 @@ export default function MyCycleSubHomePage({
                 'div',
                 {
                   className:
-                    'flex-1 p-4 rounded-3xl border-2 border-black bg-white flex flex-col justify-between gap-3'
+                    'flex-1 min-w-0 p-3.5 sm:p-4 rounded-3xl border-2 border-black bg-white flex flex-col justify-between gap-2.5'
                 },
                 h(
                   'div',
                   { className: 'space-y-2' },
                   h(
                     'h3',
-                    { className: 'text-base sm:text-lg font-black text-[#9F133A]' },
+                    { className: 'text-sm sm:text-base font-black text-[#9F133A] leading-snug' },
                     activeBodySpot.title
                   ),
                   h(
                     'p',
-                    { className: 'text-xs sm:text-sm font-bold text-black/90 leading-relaxed' },
+                    { className: 'text-xs font-bold text-black/90 leading-relaxed' },
                     activeBodySpot.whyText
                   )
                 ),
                 h(
                   'div',
                   {
-                    className: 'p-3.5 rounded-2xl border-2 border-[#FEACEC] bg-[#FFF5FA] space-y-1.5'
+                    className: 'p-3 rounded-2xl border-2 border-[#FEACEC] bg-[#FFF5FA] space-y-1'
                   },
                   h(
                     'div',
-                    { className: 'text-xs sm:text-sm font-black text-[#9F133A]' },
+                    { className: 'text-xs font-black text-[#9F133A]' },
                     tr('easyWaysToFeelBetterHeader', 'Easy Ways to Help Your Body Feel Better:')
                   ),
                   h(
                     'ul',
-                    { className: 'space-y-1.5 text-xs sm:text-[13px] font-bold text-black/90 leading-snug' },
+                    { className: 'space-y-1 text-[11px] sm:text-xs font-bold text-black/90 leading-snug' },
                     activeBodySpot.tips.map((tip, tIdx) =>
                       h(
                         'li',

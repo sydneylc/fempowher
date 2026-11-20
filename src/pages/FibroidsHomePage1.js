@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=231';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=232';
 import {
   renderCervixPapScreenCartoonSvg,
   renderFibroidsUterusDiagramSvg,
   renderIronRichCareCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=231';
+} from './FlyerCartoonIllustrations.js?v=232';
 
 export default function FibroidsHomePage1({
   onBack,
@@ -78,7 +78,7 @@ export default function FibroidsHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'FibroidsHomePage1',
     title: tr('eduBtnFibroids', 'Fibroids'),
-    gifSrc: './assets/diseases-fibroids.gif?v=231',
+    gifSrc: './assets/diseases-fibroids.gif?v=232',
     bgGradient: 'linear-gradient(180deg, #F04330 0%, #C92616 100%)',
     bgColor: '#DC3422',
     titleTintColor: '#FFD2CC',

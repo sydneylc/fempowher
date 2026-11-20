@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=231';
-import { isRtlLanguage } from '../data/translations.js?v=231';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=232';
+import { isRtlLanguage } from '../data/translations.js?v=232';
 import {
   CYCLE_PHASE_DEFINITIONS,
   getCycleCalText,
@@ -9,7 +9,7 @@ import {
   loadUserCycleCalendarState,
   saveUserCycleCalendarState,
   renderGearHeartIcon
-} from '../data/cycleCalendarData.js?v=231';
+} from '../data/cycleCalendarData.js?v=232';
 
 const h = React.createElement;
 
@@ -725,7 +725,7 @@ export default function InteractiveCalendarHomePage1({
                   )
               ),
 
-              // Translucent Phase Ribbons Layer (hovering or clicking any phase ribbon pops out the FaceTime-style word bubble!)
+              // Translucent Phase Ribbons Layer (hovering or clicking any phase ribbon pops out the FaceTime-style word bubble! Dark outline is ONLY around today's date circle!)
               hasColors &&
                 phases.length > 0 &&
                 h(
@@ -754,12 +754,9 @@ export default function InteractiveCalendarHomePage1({
                         style: {
                           backgroundColor: p.rgbaFill,
                           mixBlendMode: 'multiply',
-                          border:
-                            p.isFirstDayBox || p.isLastPeriodDayBox
-                              ? '2px solid #000000'
-                              : 'none',
-                          borderRadius:
-                            p.isFirstDayBox || p.isLastPeriodDayBox ? '6px' : '9999px'
+                          // No dark outline on 1st day / last day / fertile days — dark outline is ONLY for today's date!
+                          border: 'none',
+                          borderRadius: '8px'
                         }
                       },
                       h('span', { className: 'truncate' }, phaseName),
@@ -768,7 +765,7 @@ export default function InteractiveCalendarHomePage1({
                           'span',
                           {
                             className:
-                              'ms-1 px-1 rounded bg-white/90 border border-black text-[9px] font-black shrink-0'
+                              'ms-1 px-1 rounded bg-white/90 text-[9px] font-black shrink-0'
                           },
                           ct('firstDayTag', '1st Day')
                         ),
@@ -778,7 +775,7 @@ export default function InteractiveCalendarHomePage1({
                           'span',
                           {
                             className:
-                              'ms-1 px-1 rounded bg-white/90 border border-black text-[9px] font-black shrink-0'
+                              'ms-1 px-1 rounded bg-white/90 text-[9px] font-black shrink-0'
                           },
                           ct('lastDayTag', 'Last Day')
                         )

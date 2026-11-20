@@ -1,12 +1,13 @@
 import React, { useState, useRef, useEffect } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=231';
-import { isRtlLanguage } from '../data/translations.js?v=231';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=232';
+import { isRtlLanguage } from '../data/translations.js?v=232';
 import {
+  CYCLE_PHASE_DEFINITIONS,
   getCycleCalText,
   formatMonthYearForLang,
   getPhasesForDate,
   loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=231';
+} from '../data/cycleCalendarData.js?v=232';
 
 const h = React.createElement;
 
@@ -193,10 +194,10 @@ export function CycleCalendarWidget1({
         )
       ),
 
-      // Calendar Grid centered so it shows the current day
+      // Calendar Grid centered so it shows the current day — clean rounded date tiles (dark outline ONLY around today's date!)
       h(
         'div',
-        { className: 'grid grid-cols-7 gap-y-0.5 text-center flex-1 items-center' },
+        { className: 'grid grid-cols-7 gap-1 text-center flex-1 items-center py-0.5' },
         cells.map((dateObj, idx) => {
           if (!dateObj) {
             return h('div', { key: `empty-${idx}`, className: 'h-6' });
@@ -206,9 +207,6 @@ export function CycleCalendarWidget1({
           const phases = hasColors ? getPhasesForDate(dateObj, activeState) : [];
           const primaryPhase = phases[0] || null;
           const secondaryPhase = phases[1] || null;
-
-          const hasFirstDayBox = phases.some((p) => p.isFirstDayBox);
-          const hasLastDayBox = phases.some((p) => p.isLastPeriodDayBox);
 
           return h(
             'div',
@@ -220,26 +218,22 @@ export function CycleCalendarWidget1({
               onMouseLeave: primaryPhase ? hideWidgetPhaseBubble : undefined,
               className: 'relative h-6 flex items-center justify-center',
               style: {
-                // Translucent horizontal phase bar when user has entered data
+                // Translucent rounded tile using current colors
                 backgroundColor: primaryPhase ? primaryPhase.rgbaFill : 'transparent',
                 backgroundImage:
                   primaryPhase && secondaryPhase
                     ? `linear-gradient(135deg, ${primaryPhase.rgbaFill} 0%, ${secondaryPhase.rgbaFill} 100%)`
                     : 'none',
-                border:
-                  hasFirstDayBox || hasLastDayBox
-                    ? '1.75px solid #000000'
-                    : isToday
-                    ? '1.75px solid #000000'
-                    : 'none',
-                borderRadius: hasFirstDayBox || hasLastDayBox ? '5px' : isToday ? '9999px' : '3px'
+                // ONLY make a dark outline around the day for today's date!
+                border: isToday ? '2px solid #000000' : 'none',
+                borderRadius: isToday ? '9999px' : '6px'
               }
             },
             h(
               'span',
               {
                 className: isToday
-                  ? 'text-xs font-black text-black underline decoration-2 decoration-black'
+                  ? 'text-xs font-black text-black'
                   : 'text-[11px] font-bold text-black'
               },
               formatDigitsForLang(dayNum)
@@ -335,7 +329,55 @@ export default function MyCycleSubHomePage({
     }
     return t[key] || fallback;
   };
+  const ct = getCycleCalText(lang, UserLanguageChoice1);
   const isRtl = isRtlLanguage(lang);
+
+  const activeState = cycleCalendarState || loadUserCycleCalendarState(UserNameChoiceInsert1);
+  const hasColors = Boolean(
+    activeState && activeState.hasEnteredCycleData && activeState.FirstDayOfPeriod1
+  );
+
+  const now = new Date();
+  const periodLen = Math.max(1, Math.min(10, Number(activeState.PeriodDaysDuration1) || 5));
+  const follicularLen = Math.max(1, Math.min(21, Number(activeState.FollicularPhaseDuration1) || 8));
+  const ovulatoryLen = Math.max(1, Math.min(10, Number(activeState.OvulatoryPhaseDuration1) || 3));
+  const lutealLen = Math.max(1, Math.min(21, Number(activeState.LutealPhaseDuration1) || 12));
+  const totalCycleLen = periodLen + follicularLen + ovulatoryLen + lutealLen;
+
+  let currentDayInCycle = 1;
+  let currentPhaseDef = CYCLE_PHASE_DEFINITIONS[1];
+  let daysUntilNextPeriod = totalCycleLen;
+
+  if (hasColors) {
+    const parts = String(activeState.FirstDayOfPeriod1).split('-').map(Number);
+    if (parts.length === 3 && parts[0] && parts[1] && parts[2]) {
+      const startUtc = Date.UTC(parts[0], parts[1] - 1, parts[2]);
+      const todayUtc = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+      const diffDays = Math.round((todayUtc - startUtc) / 86400000);
+      if (diffDays >= 0) {
+        const zeroIdx = diffDays % totalCycleLen;
+        currentDayInCycle = zeroIdx + 1;
+        daysUntilNextPeriod = totalCycleLen - zeroIdx;
+        if (zeroIdx < periodLen) {
+          currentPhaseDef = CYCLE_PHASE_DEFINITIONS[1];
+        } else if (zeroIdx < periodLen + follicularLen) {
+          currentPhaseDef = CYCLE_PHASE_DEFINITIONS[2];
+        } else if (zeroIdx < periodLen + follicularLen + ovulatoryLen) {
+          currentPhaseDef = CYCLE_PHASE_DEFINITIONS[3];
+        } else {
+          currentPhaseDef = CYCLE_PHASE_DEFINITIONS[4];
+        }
+      }
+    }
+  }
+
+  const currentPhaseTitle =
+    (activeState.customKeyLabels && activeState.customKeyLabels[currentPhaseDef.id]) ||
+    ct(
+      currentPhaseDef.blurbTitleKey || currentPhaseDef.labelKey,
+      currentPhaseDef.defaultBlurbTitleEn || currentPhaseDef.defaultLabelEn
+    );
+  const currentPhaseBlurb = ct(currentPhaseDef.blurbKey, currentPhaseDef.defaultBlurbEn || '');
 
   const handleOpenCalendar = () => {
     if (typeof onNavigateEducationPage === 'function') {
@@ -367,7 +409,7 @@ export default function MyCycleSubHomePage({
 
       // Main Row underneath centered "My Cycle!" title:
       // Left area stays open/available so other items can be placed to the left of CycleCalendarWidget1,
-      // while CycleCalendarWidget1 sits off to the right side!
+      // while CycleCalendarWidget1 and the "You are in..." square sit off to the right side!
       h(
         'div',
         {
@@ -379,18 +421,88 @@ export default function MyCycleSubHomePage({
           className: 'flex-1 min-h-[218px]'
         }),
 
-        // Right-aligned 2"x2" CycleCalendarWidget1 sneak peek & button
+        // Right-aligned column: CycleCalendarWidget1 + "You are in..." current phase square underneath
         h(
           'div',
-          { className: 'shrink-0' },
+          {
+            className: 'shrink-0 flex flex-col items-center gap-4',
+            style: { width: 'min(326px, 88vw)' }
+          },
           h(CycleCalendarWidget1, {
             UserNameChoiceInsert1,
             UserLanguageChoice1,
             lang,
             formatDigitsForLang,
-            cycleCalendarState,
+            cycleCalendarState: activeState,
             onOpenCalendar: handleOpenCalendar
-          })
+          }),
+
+          // "You are in..." square directly underneath the calendar
+          h(
+            'div',
+            {
+              id: 'MyCycleYouAreInSquare1',
+              'data-piece-name': 'MyCycleYouAreInSquare1',
+              className: 'w-full flex flex-col items-stretch text-center'
+            },
+            // Overhanging top pill bar: "You are in..."
+            h(
+              'div',
+              {
+                className:
+                  'w-full px-4 py-2 rounded-2xl border-[2.5px] border-black bg-white shadow-sm z-10 flex items-center justify-center text-center',
+                style: { marginBottom: '-8px' }
+              },
+              h(
+                'span',
+                { className: 'text-sm sm:text-base font-extrabold text-black leading-tight' },
+                tr('youAreInHeaderPill', 'You are in...')
+              )
+            ),
+            // Main rounded square body tinted to current phase color
+            h(
+              'div',
+              {
+                className:
+                  'w-full rounded-[28px] border-[2.5px] border-black pt-5 pb-4 px-4 shadow-md flex flex-col items-center justify-between gap-2',
+                style: {
+                  backgroundColor: hasColors ? currentPhaseDef.rgbaFill : '#FFF5FA'
+                }
+              },
+              h(
+                'div',
+                { className: 'text-xl sm:text-2xl font-black text-black leading-tight' },
+                hasColors
+                  ? currentPhaseTitle
+                  : tr('noPeriodLoggedYetTitle', 'Add Period Date on Calendar')
+              ),
+              h(
+                'div',
+                { className: 'text-xs font-extrabold text-black/85' },
+                hasColors
+                  ? `${tr('dayLabel', 'Day')} ${formatDigitsForLang(currentDayInCycle)} ${tr(
+                      'ofLabel',
+                      'of'
+                    )} ${formatDigitsForLang(totalCycleLen)} • ${tr(
+                      'nextPeriodInLabel',
+                      'Next period in'
+                    )} ${formatDigitsForLang(daysUntilNextPeriod)} ${ct('daysUnit', 'days')}`
+                  : tr(
+                      'tapCalendarToStartPrompt',
+                      'Tap your calendar above to pick your First Day of Period and auto-populate your phases!'
+                    )
+              ),
+              hasColors &&
+                h(
+                  'div',
+                  {
+                    className:
+                      'w-full p-2.5 rounded-2xl border-2 border-black bg-white text-left text-[11px] font-bold text-black/85 leading-snug'
+                  },
+                  currentPhaseBlurb
+                )
+            )
+          )
         )
       )
     )

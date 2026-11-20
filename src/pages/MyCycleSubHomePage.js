@@ -1,13 +1,13 @@
-import React, { useState, useRef, useEffect } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=233';
-import { isRtlLanguage } from '../data/translations.js?v=233';
+import React from 'https://esm.sh/react@18.3.1';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=234';
+import { isRtlLanguage } from '../data/translations.js?v=234';
 import {
   CYCLE_PHASE_DEFINITIONS,
   getCycleCalText,
   formatMonthYearForLang,
   getPhasesForDate,
   loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=233';
+} from '../data/cycleCalendarData.js?v=234';
 
 const h = React.createElement;
 
@@ -20,7 +20,8 @@ const h = React.createElement;
 // - Top pill displays: `{UserNameChoiceInsert1}'s Cycle Calendar`
 // - Defaults to white & black (no colors) centered on the current month & day
 //   until the user adds their cycle info in CalendarSettingsHomePage1.
-// - Clicking it opens InteractiveCalendarHomePage1.
+// - Clicking it opens InteractiveCalendarHomePage1 (no phase pop-out bubbles
+//   on the outside preview widget).
 // ============================================================================
 export function CycleCalendarWidget1({
   UserNameChoiceInsert1 = 'User',
@@ -38,65 +39,6 @@ export function CycleCalendarWidget1({
 
   const activeState = cycleCalendarState || loadUserCycleCalendarState(UserNameChoiceInsert1);
   const hasColors = Boolean(activeState && activeState.hasEnteredCycleData && activeState.FirstDayOfPeriod1);
-
-  const [widgetBubble, setWidgetBubble] = useState(null);
-  const hideWidgetBubbleRef = useRef(null);
-
-  useEffect(() => {
-    return () => {
-      if (hideWidgetBubbleRef.current) clearTimeout(hideWidgetBubbleRef.current);
-    };
-  }, []);
-
-  const showWidgetPhaseBubble = (phaseDef, targetEl) => {
-    if (!phaseDef || !targetEl || typeof targetEl.getBoundingClientRect !== 'function') return;
-    if (hideWidgetBubbleRef.current) {
-      clearTimeout(hideWidgetBubbleRef.current);
-      hideWidgetBubbleRef.current = null;
-    }
-    const rect = targetEl.getBoundingClientRect();
-    const vw = window.innerWidth || 1024;
-    const vh = window.innerHeight || 768;
-    const bubbleW = Math.min(256, vw - 24);
-    const bubbleH = 124;
-
-    const customLabel =
-      activeState && activeState.customKeyLabels && activeState.customKeyLabels[phaseDef.id];
-    const titleText =
-      customLabel ||
-      ct(
-        phaseDef.blurbTitleKey || phaseDef.labelKey,
-        phaseDef.defaultBlurbTitleEn || phaseDef.defaultLabelEn
-      );
-    const blurbText = ct(phaseDef.blurbKey, phaseDef.defaultBlurbEn || '');
-
-    let placement = 'top';
-    let left = Math.max(12, Math.min(vw - bubbleW - 12, rect.left + rect.width / 2 - bubbleW / 2));
-    let top = rect.top - bubbleH - 10;
-    let tailX = Math.max(22, Math.min(bubbleW - 22, rect.left + rect.width / 2 - left));
-
-    if (rect.top <= bubbleH + 20) {
-      placement = 'bottom';
-      top = Math.min(vh - bubbleH - 12, rect.bottom + 10);
-    }
-
-    setWidgetBubble({
-      title: titleText,
-      blurb: blurbText,
-      rgbaFill: phaseDef.rgbaFill,
-      colorHex: phaseDef.colorHex,
-      left,
-      top,
-      width: bubbleW,
-      placement,
-      tailX
-    });
-  };
-
-  const hideWidgetPhaseBubble = () => {
-    if (hideWidgetBubbleRef.current) clearTimeout(hideWidgetBubbleRef.current);
-    hideWidgetBubbleRef.current = setTimeout(() => setWidgetBubble(null), 110);
-  };
 
   const monthTitle = formatDigitsForLang(
     formatMonthYearForLang(currentYear, currentMonth, lang, UserLanguageChoice1)
@@ -123,7 +65,7 @@ export function CycleCalendarWidget1({
     'button',
     {
       id: 'CycleCalendarWidget1',
-       'data-piece-name': 'CycleCalendarWidget1',
+      'data-piece-name': 'CycleCalendarWidget1',
       type: 'button',
       onClick: onOpenCalendar,
       title: ct('widgetClickPrompt', 'Tap to open interactive calendar →'),
@@ -212,10 +154,6 @@ export function CycleCalendarWidget1({
             'div',
             {
               key: `day-${dayNum}`,
-              onMouseEnter: primaryPhase
-                ? (e) => showWidgetPhaseBubble(primaryPhase, e.currentTarget)
-                : undefined,
-              onMouseLeave: primaryPhase ? hideWidgetPhaseBubble : undefined,
               className: 'relative h-6 flex items-center justify-center',
               style: {
                 // Translucent rounded tile using current colors
@@ -241,63 +179,6 @@ export function CycleCalendarWidget1({
           );
         })
       ),
-
-      // FaceTime-style pop-out word bubble when hovering a phase day inside CycleCalendarWidget1
-      widgetBubble &&
-        h(
-          'div',
-          {
-            style: {
-              position: 'fixed',
-              left: `${widgetBubble.left}px`,
-              top: `${widgetBubble.top}px`,
-              width: `${widgetBubble.width}px`,
-              zIndex: 9999,
-              background: 'rgba(238, 238, 242, 0.95)',
-              backdropFilter: 'blur(16px) saturate(180%)',
-              WebkitBackdropFilter: 'blur(16px) saturate(180%)',
-              borderRadius: '18px',
-              border: '1.5px solid rgba(0, 0, 0, 0.22)',
-              boxShadow: '0 10px 28px rgba(0, 0, 0, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.85)',
-              padding: '10px 13px',
-              color: '#111111',
-              pointerEvents: 'none'
-            }
-          },
-          h(
-            'div',
-            { className: 'flex items-center gap-2 mb-1' },
-            h('span', {
-              className: 'w-3 h-3 rounded-full shrink-0 border border-black/60',
-              style: { backgroundColor: widgetBubble.rgbaFill || widgetBubble.colorHex }
-            }),
-            h(
-              'span',
-              { className: 'text-xs font-black text-black leading-tight' },
-              widgetBubble.title
-            )
-          ),
-          h(
-            'p',
-            { className: 'text-[11px] font-semibold text-black/85 leading-snug' },
-            widgetBubble.blurb
-          ),
-          widgetBubble.placement === 'top' &&
-            h('div', {
-              style: {
-                position: 'absolute',
-                bottom: '-8px',
-                left: `${widgetBubble.tailX - 8}px`,
-                width: '15px',
-                height: '15px',
-                background: 'rgba(238, 238, 242, 0.96)',
-                borderRight: '1.5px solid rgba(0, 0, 0, 0.22)',
-                borderBottom: '1.5px solid rgba(0, 0, 0, 0.22)',
-                transform: 'rotate(45deg)',
-                borderBottomRightRadius: '3px'
-              }
-            })
-        ),
 
       // Bottom subtle prompt inside widget
       h(

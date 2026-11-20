@@ -1,6 +1,6 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=233';
-import { isRtlLanguage } from '../data/translations.js?v=233';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=234';
+import { isRtlLanguage } from '../data/translations.js?v=234';
 
 const h = React.createElement;
 

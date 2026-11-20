@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=233';
-import { isRtlLanguage } from '../data/translations.js?v=233';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=234';
+import { isRtlLanguage } from '../data/translations.js?v=234';
 import {
   CYCLE_PHASE_DEFINITIONS,
   getCycleCalText,
@@ -9,7 +9,7 @@ import {
   loadUserCycleCalendarState,
   saveUserCycleCalendarState,
   renderGearHeartIcon
-} from '../data/cycleCalendarData.js?v=233';
+} from '../data/cycleCalendarData.js?v=234';
 
 const h = React.createElement;
 
@@ -87,8 +87,9 @@ export default function InteractiveCalendarHomePage1({
     updateState(nextState);
   };
 
-  // Compute smart spatial placement for the FaceTime-style word bubble (above, below, right, or left)
-  const showPhaseWordBubble = (phaseDef, targetEl, pinned = false) => {
+  // Compute exact centered placement for the FaceTime-style word bubble
+  // directly anchored to the hovered/clicked checklist row or calendar phase ribbon
+  const showPhaseWordBubble = (phaseDef, targetEl, pinned = false, isFromKeySidebar = false) => {
     if (!phaseDef || !targetEl || typeof targetEl.getBoundingClientRect !== 'function') return;
     if (hideBubbleTimeoutRef.current) {
       clearTimeout(hideBubbleTimeoutRef.current);
@@ -98,8 +99,7 @@ export default function InteractiveCalendarHomePage1({
     const rect = targetEl.getBoundingClientRect();
     const vw = window.innerWidth || 1024;
     const vh = window.innerHeight || 768;
-    const bubbleW = Math.min(264, vw - 24);
-    const bubbleH = 128;
+    const bubbleW = Math.min(252, vw - 24);
 
     const customLabel =
       activeState && activeState.customKeyLabels && activeState.customKeyLabels[phaseDef.id];
@@ -111,32 +111,50 @@ export default function InteractiveCalendarHomePage1({
       );
     const blurbText = ct(phaseDef.blurbKey, phaseDef.defaultBlurbEn || '');
 
-    // Decide where is spatially best:
-    // 1. If triggered from the Key sidebar (on the left in LTR), popping out to the RIGHT side or BELOW is cleanest.
-    // 2. If triggered from a calendar cell, prefer popping out ABOVE (just like the FaceTime dock bubble!) if room, else BELOW.
-    let placement = 'top';
-    let left = rect.left + rect.width / 2 - bubbleW / 2;
-    let top = rect.top - bubbleH - 12;
-    let tailX = bubbleW / 2;
+    const targetCenterX = rect.left + rect.width / 2;
+    const targetCenterY = rect.top + rect.height / 2;
 
-    if (rect.top > bubbleH + 24) {
-      placement = 'top';
-      top = rect.top - bubbleH - 10;
-      left = Math.max(12, Math.min(vw - bubbleW - 12, rect.left + rect.width / 2 - bubbleW / 2));
-      tailX = Math.max(22, Math.min(bubbleW - 22, rect.left + rect.width / 2 - left));
-    } else if (vh - rect.bottom > bubbleH + 24) {
-      placement = 'bottom';
-      top = rect.bottom + 12;
-      left = Math.max(12, Math.min(vw - bubbleW - 12, rect.left + rect.width / 2 - bubbleW / 2));
-      tailX = Math.max(22, Math.min(bubbleW - 22, rect.left + rect.width / 2 - left));
-    } else if (vw - rect.right > bubbleW + 20) {
+    let placement = 'top';
+    let anchorX = targetCenterX;
+    let anchorY = rect.top - 10;
+    let tailOffsetX = 0;
+
+    if (isFromKeySidebar && !isRtl && vw - rect.right > bubbleW + 24) {
+      // Key checklist is on the far left edge: pop out right next to the checklist item, vertically centered!
       placement = 'right';
-      left = rect.right + 12;
-      top = Math.max(12, Math.min(vh - bubbleH - 12, rect.top + rect.height / 2 - bubbleH / 2));
-    } else {
+      anchorX = rect.right + 12;
+      anchorY = targetCenterY;
+    } else if (isFromKeySidebar && isRtl && rect.left > bubbleW + 24) {
+      // RTL Key checklist on the far right edge: pop out to the left of the checklist item, vertically centered!
       placement = 'left';
-      left = Math.max(12, rect.left - bubbleW - 12);
-      top = Math.max(12, Math.min(vh - bubbleH - 12, rect.top + rect.height / 2 - bubbleH / 2));
+      anchorX = rect.left - 12;
+      anchorY = targetCenterY;
+    } else if (rect.top > 155) {
+      // Default FaceTime dock style: pop out directly ABOVE the item, centered on it!
+      placement = 'top';
+      const clampedCenterX = Math.max(
+        bubbleW / 2 + 12,
+        Math.min(vw - bubbleW / 2 - 12, targetCenterX)
+      );
+      anchorX = clampedCenterX;
+      anchorY = rect.top - 10;
+      tailOffsetX = Math.max(
+        -(bubbleW / 2 - 20),
+        Math.min(bubbleW / 2 - 20, targetCenterX - clampedCenterX)
+      );
+    } else {
+      // Near top of screen: pop out directly BELOW the item, centered on it!
+      placement = 'bottom';
+      const clampedCenterX = Math.max(
+        bubbleW / 2 + 12,
+        Math.min(vw - bubbleW / 2 - 12, targetCenterX)
+      );
+      anchorX = clampedCenterX;
+      anchorY = rect.bottom + 10;
+      tailOffsetX = Math.max(
+        -(bubbleW / 2 - 20),
+        Math.min(bubbleW / 2 - 20, targetCenterX - clampedCenterX)
+      );
     }
 
     setPhaseWordBubble({
@@ -145,11 +163,11 @@ export default function InteractiveCalendarHomePage1({
       blurb: blurbText,
       colorHex: phaseDef.colorHex,
       rgbaFill: phaseDef.rgbaFill,
-      left,
-      top,
+      anchorX,
+      anchorY,
       width: bubbleW,
       placement,
-      tailX,
+      tailOffsetX,
       pinned
     });
   };
@@ -246,25 +264,33 @@ export default function InteractiveCalendarHomePage1({
           },
           style: {
             position: 'fixed',
-            left: `${phaseWordBubble.left}px`,
-            top: `${phaseWordBubble.top}px`,
+            left: `${phaseWordBubble.anchorX}px`,
+            top: `${phaseWordBubble.anchorY}px`,
             width: `${phaseWordBubble.width}px`,
+            transform:
+              phaseWordBubble.placement === 'top'
+                ? 'translate(-50%, -100%)'
+                : phaseWordBubble.placement === 'bottom'
+                ? 'translate(-50%, 0)'
+                : phaseWordBubble.placement === 'right'
+                ? 'translate(0, -50%)'
+                : 'translate(-100%, -50%)',
             zIndex: 9999,
-            background: 'rgba(238, 238, 242, 0.94)',
+            background: 'rgba(238, 238, 242, 0.96)',
             backdropFilter: 'blur(16px) saturate(180%)',
             WebkitBackdropFilter: 'blur(16px) saturate(180%)',
             borderRadius: '18px',
             border: '1.5px solid rgba(0, 0, 0, 0.22)',
             boxShadow: '0 10px 28px rgba(0, 0, 0, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.85)',
-            padding: '10px 13px',
+            padding: '10px 14px',
             color: '#111111',
-            transition: 'opacity 120ms ease-out, transform 120ms ease-out'
+            textAlign: 'center'
           }
         },
-        // Header row inside word bubble: Phase color dot + Bold Phase Title
+        // Centered Header row inside word bubble: Phase color dot + Bold Phase Title
         h(
           'div',
-          { className: 'flex items-center gap-2 mb-1' },
+          { className: 'flex items-center justify-center gap-2 mb-1' },
           h('span', {
             className: 'w-3 h-3 rounded-full shrink-0 border border-black/60',
             style: { backgroundColor: phaseWordBubble.rgbaFill || phaseWordBubble.colorHex }
@@ -275,25 +301,25 @@ export default function InteractiveCalendarHomePage1({
             phaseWordBubble.title
           )
         ),
-        // Short blurb about what the phase is and how you may act or feel
+        // Centered Short blurb about what the phase is and how you may act or feel
         h(
           'p',
-          { className: 'text-[11px] font-semibold text-black/85 leading-snug' },
+          { className: 'text-[11px] font-semibold text-black/85 leading-snug text-center' },
           phaseWordBubble.blurb
         ),
-        // FaceTime-style triangular pointer tail
+        // FaceTime-style triangular pointer tail pointing straight to the target center
         phaseWordBubble.placement === 'top' &&
           h('div', {
             style: {
               position: 'absolute',
-              bottom: '-8px',
-              left: `${phaseWordBubble.tailX - 8}px`,
-              width: '15px',
-              height: '15px',
+              bottom: '-7px',
+              left: `calc(50% + ${phaseWordBubble.tailOffsetX || 0}px)`,
+              width: '14px',
+              height: '14px',
               background: 'rgba(238, 238, 242, 0.96)',
               borderRight: '1.5px solid rgba(0, 0, 0, 0.22)',
               borderBottom: '1.5px solid rgba(0, 0, 0, 0.22)',
-              transform: 'rotate(45deg)',
+              transform: 'translateX(-50%) rotate(45deg)',
               borderBottomRightRadius: '3px'
             }
           }),
@@ -301,15 +327,45 @@ export default function InteractiveCalendarHomePage1({
           h('div', {
             style: {
               position: 'absolute',
-              top: '-8px',
-              left: `${phaseWordBubble.tailX - 8}px`,
-              width: '15px',
-              height: '15px',
+              top: '-7px',
+              left: `calc(50% + ${phaseWordBubble.tailOffsetX || 0}px)`,
+              width: '14px',
+              height: '14px',
               background: 'rgba(238, 238, 242, 0.96)',
               borderLeft: '1.5px solid rgba(0, 0, 0, 0.22)',
               borderTop: '1.5px solid rgba(0, 0, 0, 0.22)',
-              transform: 'rotate(45deg)',
+              transform: 'translateX(-50%) rotate(45deg)',
               borderTopLeftRadius: '3px'
+            }
+          }),
+        phaseWordBubble.placement === 'right' &&
+          h('div', {
+            style: {
+              position: 'absolute',
+              left: '-7px',
+              top: '50%',
+              width: '14px',
+              height: '14px',
+              background: 'rgba(238, 238, 242, 0.96)',
+              borderLeft: '1.5px solid rgba(0, 0, 0, 0.22)',
+              borderBottom: '1.5px solid rgba(0, 0, 0, 0.22)',
+              transform: 'translateY(-50%) rotate(45deg)',
+              borderBottomLeftRadius: '3px'
+            }
+          }),
+        phaseWordBubble.placement === 'left' &&
+          h('div', {
+            style: {
+              position: 'absolute',
+              right: '-7px',
+              top: '50%',
+              width: '14px',
+              height: '14px',
+              background: 'rgba(238, 238, 242, 0.96)',
+              borderRight: '1.5px solid rgba(0, 0, 0, 0.22)',
+              borderTop: '1.5px solid rgba(0, 0, 0, 0.22)',
+              transform: 'translateY(-50%) rotate(45deg)',
+              borderTopRightRadius: '3px'
             }
           })
       ),
@@ -536,11 +592,11 @@ export default function InteractiveCalendarHomePage1({
                     'div',
                     {
                       key: phase.id,
-                      onMouseEnter: (e) => showPhaseWordBubble(phase, e.currentTarget, false),
+                      onMouseEnter: (e) => showPhaseWordBubble(phase, e.currentTarget, false, true),
                       onMouseLeave: scheduleHidePhaseWordBubble,
                       onClick: (e) => {
                         e.stopPropagation();
-                        showPhaseWordBubble(phase, e.currentTarget, true);
+                        showPhaseWordBubble(phase, e.currentTarget, true, true);
                       },
                       className:
                         'px-1.5 py-0.5 rounded-lg border border-black/30 bg-white hover:bg-black/[0.03] flex flex-col gap-0.5 cursor-pointer transition-colors'

@@ -2,7 +2,7 @@ import React from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=225';
+} from './PregnancyHomePage.js?v=226';
 
 const h = React.createElement;
 
@@ -103,12 +103,12 @@ export default function STDMenuHomePage({
     'div',
     {
       id: 'STDMenuHomePage',
-      className: 'min-h-full w-full shrink-0 bg-white flex flex-col overflow-x-hidden'
+      className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden'
     },
     // Top Header Bar: Back Button + STDs Title & Sexually Transmitted Diseases Subtitle
     h(
       'div',
-      { className: 'w-full px-4 sm:px-6 pt-3 pb-3 shrink-0 bg-white' },
+      { className: 'w-full px-4 sm:px-6 pt-3 pb-2 shrink-0 bg-white' },
       h(
         'div',
         { className: 'max-w-5xl w-full mx-auto' },
@@ -116,7 +116,7 @@ export default function STDMenuHomePage({
         h(
           'h1',
           {
-            className: 'text-2xl sm:text-3xl font-extrabold text-center mt-1',
+            className: 'text-2xl sm:text-3xl font-extrabold text-center mt-0.5',
             style: { color: '#9F133A' }
           },
           tr('eduBtnSTDs', 'STDs')
@@ -124,7 +124,7 @@ export default function STDMenuHomePage({
         h(
           'p',
           {
-            className: 'text-xs sm:text-sm text-center font-bold mt-1',
+            className: 'text-xs sm:text-sm text-center font-bold mt-0.5',
             style: { color: '#6E0926' }
           },
           tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases')
@@ -132,11 +132,9 @@ export default function STDMenuHomePage({
       )
     ),
 
-    // 5 Full-Width First-Person Hub Buttons (MakingGifButtons1)
+    // 5 Full-Width First-Person Hub Buttons (MakingGifButtons1) — exact same full-screen proportional fit as Menopause & Menstrual Cycle
     h(MakingGifButtons1, {
       sections: stdHubButtons,
-      containerClassName: 'flex-1 w-full grid',
-      containerStyle: { gridTemplateRows: `repeat(${stdHubButtons.length}, minmax(165px, 1fr))` },
       onSelectSection: (sec) => {
         if (onNavigateEducationPage && sec.targetPage) {
           onNavigateEducationPage(sec.targetPage);

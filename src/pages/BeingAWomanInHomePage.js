@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1'
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=242';
+} from './PregnancyHomePage.js?v=243';
 
 const h = React.createElement;
 
@@ -42,12 +42,26 @@ export function resolveBeingAWomanNationOutfitSlug(nationName = '', demonymName 
     return 'india';
   }
 
-  // 3. Central Asia, Caucasus & Kurdish/Afghan Highlands (Afghanistan, Kurdistan, Uzbekistan, Mongolia, Armenia, Azerbaijan)
+  // 3A. Uzbekistan (distinct from Afghanistan: Y2K outfit with long black hair & makeup, fur hat & fur-collared coat, traditional Uzbek braids & doppi)
+  if (hay.includes('uzbek')) {
+    return 'uzbekistan';
+  }
+
+  // 3B. Kyrgyzstan, Kazakhstan & Mongolia (steppe fur hats & fur coats on older grandmothers + young lady with brunette braids & fur hat on top)
+  if (
+    hay.includes('kyrgyz') ||
+    hay.includes('kazakh') ||
+    hay.includes('mongol') ||
+    hay.includes('turkmen') ||
+    hay.includes('tajik')
+  ) {
+    return 'kyrgyz_kazakh';
+  }
+
+  // 3C. Afghanistan, Kurdistan & Caucasus (kept exactly as the Afghan ladies are!)
   if (
     hay.includes('afghan') ||
     hay.includes('kurd') ||
-    hay.includes('uzbek') ||
-    hay.includes('mongol') ||
     hay.includes('armenia') ||
     hay.includes('azerbaijan')
   ) {
@@ -314,7 +328,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'gender-outlook',
       label: 'Gender Outlook',
-      gifSrc: `./assets/bw-${nationOutfitSlug}-outlook.gif?v=242`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-outlook.gif?v=243`,
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -333,7 +347,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'traditional-health',
       label: `Female Health in ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-health.gif?v=242`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-health.gif?v=243`,
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -352,7 +366,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'role-models',
       label: `Female Role Models from ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-rolemodels.gif?v=242`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-rolemodels.gif?v=243`,
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -371,7 +385,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'health-alerts',
       label: `Women’s Health Alerts in ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-alerts.gif?v=242`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-alerts.gif?v=243`,
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {

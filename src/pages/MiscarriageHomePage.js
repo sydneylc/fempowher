@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=242';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=243';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderThreeMonthRetestCalendarSvg
-} from './FlyerCartoonIllustrations.js?v=242';
+} from './FlyerCartoonIllustrations.js?v=243';
 
 export default function MiscarriageHomePage({
   onBack,

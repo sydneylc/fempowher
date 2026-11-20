@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=243';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=244';
 
 const h = React.createElement;
 

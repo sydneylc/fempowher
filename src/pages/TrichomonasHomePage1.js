@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=243';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=244';
 import {
   renderMaleBladderUrethraCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderSwabAndNoAlcoholCartoonSvg,
   translateFlyerPhraseInstant
-} from './FlyerCartoonIllustrations.js?v=243';
+} from './FlyerCartoonIllustrations.js?v=244';
 
 const h = React.createElement;
 
@@ -478,7 +478,7 @@ export default function TrichomonasHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'TrichomonasHomePage1',
     title: tr('eduBtnTrichomonas', 'Trichomonas'),
-    gifSrc: './assets/std-trichomonas.gif?v=243',
+    gifSrc: './assets/std-trichomonas.gif?v=244',
     bgGradient: 'linear-gradient(180deg, #F42B3E 0%, #DA1C2E 100%)',
     bgColor: '#E62235',
     titleTintColor: '#FFC4CB',

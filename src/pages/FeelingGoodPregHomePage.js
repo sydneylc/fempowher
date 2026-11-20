@@ -1,5 +1,5 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton, renderEducationIssueCards } from './PregnancyHomePage.js?v=243';
+import { renderSubpageBackButton, renderEducationIssueCards } from './PregnancyHomePage.js?v=244';
 
 const h = React.createElement;
 

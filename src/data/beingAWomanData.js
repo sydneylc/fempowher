@@ -21,12 +21,17 @@ export const NATION_TO_DEMONYM_MAP = {
   balochistan: { nation: 'Balochistan', demonym: 'Baloch', center: [28.4907, 65.0958], zoom: 6 },
   bangladesh: { nation: 'Bangladesh', demonym: 'Bangladeshi', center: [23.685, 90.3563], zoom: 7 },
   'coxs bazar': { nation: 'Cox’s Bazar & Rohingya Camps', demonym: 'Rohingya & Bangladeshi', center: [21.25, 92.12], zoom: 9 },
+  belarus: { nation: 'Belarus', demonym: 'Belarusian', center: [53.7098, 27.9534], zoom: 6 },
   belgium: { nation: 'Belgium', demonym: 'Belgian', center: [50.5039, 4.4699], zoom: 7 },
+  belize: { nation: 'Belize', demonym: 'Belizean', center: [17.1899, -88.4976], zoom: 7 },
   benin: { nation: 'Benin', demonym: 'Beninese', center: [9.3077, 2.3158], zoom: 7 },
+  bhutan: { nation: 'Bhutan', demonym: 'Bhutanese', center: [27.5142, 90.4336], zoom: 7 },
+  'འབྲུག': { nation: 'Bhutan', demonym: 'Bhutanese', center: [27.5142, 90.4336], zoom: 7 },
   bolivia: { nation: 'Bolivia', demonym: 'Bolivian', center: [-16.2902, -63.5887], zoom: 6 },
   bosnia: { nation: 'Bosnia and Herzegovina', demonym: 'Bosnian', center: [43.9159, 17.6791], zoom: 7 },
   botswana: { nation: 'Botswana', demonym: 'Motswana', center: [-22.3285, 24.6849], zoom: 6 },
   brazil: { nation: 'Brazil', demonym: 'Brazilian', center: [-14.235, -51.9253], zoom: 4 },
+  brunei: { nation: 'Brunei', demonym: 'Bruneian', center: [4.5353, 114.7277], zoom: 8 },
   bulgaria: { nation: 'Bulgaria', demonym: 'Bulgarian', center: [42.7339, 25.4858], zoom: 7 },
   'burkina faso': { nation: 'Burkina Faso', demonym: 'Burkinabé', center: [12.2383, -1.5616], zoom: 6 },
   burundi: { nation: 'Burundi', demonym: 'Burundian', center: [-3.3731, 29.9189], zoom: 8 },
@@ -128,29 +133,75 @@ export const NATION_TO_DEMONYM_MAP = {
   turkey: { nation: 'Turkey', demonym: 'Turkish', center: [38.9637, 35.2433], zoom: 6 },
   uganda: { nation: 'Uganda', demonym: 'Ugandan', center: [1.3733, 32.2903], zoom: 7 },
   ukraine: { nation: 'Ukraine', demonym: 'Ukrainian', center: [48.3794, 31.1656], zoom: 6 },
+  'united arab emirates': { nation: 'United Arab Emirates', demonym: 'Emirati', center: [23.4241, 53.8478], zoom: 6 },
+  uae: { nation: 'United Arab Emirates', demonym: 'Emirati', center: [23.4241, 53.8478], zoom: 6 },
   'united kingdom': { nation: 'United Kingdom', demonym: 'British', center: [55.3781, -3.436], zoom: 5 },
   uk: { nation: 'United Kingdom', demonym: 'British', center: [55.3781, -3.436], zoom: 5 },
   'united states': { nation: 'United States', demonym: 'American', center: [39.8283, -98.5795], zoom: 4 },
   usa: { nation: 'United States', demonym: 'American', center: [39.8283, -98.5795], zoom: 4 },
   uruguay: { nation: 'Uruguay', demonym: 'Uruguayan', center: [-32.5228, -55.7658], zoom: 7 },
   uzbekistan: { nation: 'Uzbekistan', demonym: 'Uzbek', center: [41.3775, 64.5853], zoom: 6 },
+  vanuatu: { nation: 'Vanuatu', demonym: 'Ni-Vanuatu', center: [-15.3767, 166.9592], zoom: 6 },
   venezuela: { nation: 'Venezuela', demonym: 'Venezuelan', center: [6.4238, -66.5897], zoom: 6 },
   vietnam: { nation: 'Vietnam', demonym: 'Vietnamese', center: [14.0583, 108.2772], zoom: 5 },
   yemen: { nation: 'Yemen', demonym: 'Yemeni', center: [15.5527, 48.5164], zoom: 6 },
   zambia: { nation: 'Zambia', demonym: 'Zambian', center: [-13.1339, 27.8493], zoom: 6 },
-  zimbabwe: { nation: 'Zimbabwe', demonym: 'Zimbabwean', center: [-19.0154, 29.1549], zoom: 6 }
+  zimbabwe: { nation: 'Zimbabwe', demonym: 'Zimbabwean', center: [-19.0154, 29.1549], zoom: 6 },
+  laos: { nation: 'Laos', demonym: 'Lao', center: [19.8563, 102.4955], zoom: 6 },
+  'timor-leste': { nation: 'Timor-Leste', demonym: 'Timorese', center: [-8.8742, 125.7275], zoom: 7 },
+  'east timor': { nation: 'Timor-Leste', demonym: 'Timorese', center: [-8.8742, 125.7275], zoom: 7 },
+  maldives: { nation: 'Maldives', demonym: 'Maldivian', center: [3.2028, 73.2207], zoom: 6 },
+  tibet: { nation: 'Tibet', demonym: 'Tibetan', center: [29.652, 91.1721], zoom: 6 },
+  'north korea': { nation: 'North Korea', demonym: 'Korean', center: [40.3399, 127.5101], zoom: 6 },
+  'hong kong': { nation: 'Hong Kong', demonym: 'Hong Kong', center: [22.3193, 114.1694], zoom: 10 },
+  macau: { nation: 'Macau', demonym: 'Macanese', center: [22.1987, 113.5439], zoom: 11 },
+  tajikistan: { nation: 'Tajikistan', demonym: 'Tajik', center: [38.861, 71.2761], zoom: 6 },
+  turkmenistan: { nation: 'Turkmenistan', demonym: 'Turkmen', center: [38.9697, 59.5563], zoom: 6 },
+  georgia: { nation: 'Georgia', demonym: 'Georgian', center: [42.3154, 43.3569], zoom: 7 },
+  'saudi arabia': { nation: 'Saudi Arabia', demonym: 'Saudi', center: [23.8859, 45.0792], zoom: 5 },
+  qatar: { nation: 'Qatar', demonym: 'Qatari', center: [25.3548, 51.1839], zoom: 8 },
+  kuwait: { nation: 'Kuwait', demonym: 'Kuwaiti', center: [29.3117, 47.4818], zoom: 8 },
+  oman: { nation: 'Oman', demonym: 'Omani', center: [21.4735, 55.9754], zoom: 6 },
+  bahrain: { nation: 'Bahrain', demonym: 'Bahraini', center: [26.0667, 50.5577], zoom: 9 },
+  'papua new guinea': { nation: 'Papua New Guinea', demonym: 'Papua New Guinean', center: [-6.315, 143.9555], zoom: 5 },
+  fiji: { nation: 'Fiji', demonym: 'Fijian', center: [-17.7134, 178.065], zoom: 7 },
+  samoa: { nation: 'Samoa', demonym: 'Samoan', center: [-13.759, -172.1046], zoom: 8 },
+  tonga: { nation: 'Tonga', demonym: 'Tongan', center: [-21.179, -175.1982], zoom: 7 },
+  'solomon islands': { nation: 'Solomon Islands', demonym: 'Solomon Islander', center: [-9.6457, 160.1562], zoom: 6 },
+  serbia: { nation: 'Serbia', demonym: 'Serbian', center: [44.0165, 21.0059], zoom: 7 },
+  montenegro: { nation: 'Montenegro', demonym: 'Montenegrin', center: [42.7087, 19.3744], zoom: 8 },
+  'north macedonia': { nation: 'North Macedonia', demonym: 'Macedonian', center: [41.6086, 21.7453], zoom: 8 },
+  kosovo: { nation: 'Kosovo', demonym: 'Kosovar', center: [42.6026, 20.903], zoom: 8 },
+  moldova: { nation: 'Moldova', demonym: 'Moldovan', center: [47.4116, 28.3699], zoom: 7 },
+  slovakia: { nation: 'Slovakia', demonym: 'Slovak', center: [48.669, 19.699], zoom: 7 },
+  slovenia: { nation: 'Slovenia', demonym: 'Slovenian', center: [46.1512, 14.9955], zoom: 8 },
+  estonia: { nation: 'Estonia', demonym: 'Estonian', center: [58.5953, 25.0136], zoom: 7 },
+  latvia: { nation: 'Latvia', demonym: 'Latvian', center: [56.8796, 24.6032], zoom: 7 },
+  lithuania: { nation: 'Lithuania', demonym: 'Lithuanian', center: [55.1694, 23.8813], zoom: 7 },
+  iceland: { nation: 'Iceland', demonym: 'Icelandic', center: [64.9631, -19.0208], zoom: 6 },
+  luxembourg: { nation: 'Luxembourg', demonym: 'Luxembourgish', center: [49.8153, 6.1296], zoom: 9 },
+  malta: { nation: 'Malta', demonym: 'Maltese', center: [35.9375, 14.3754], zoom: 10 },
+  cyprus: { nation: 'Cyprus', demonym: 'Cypriot', center: [35.1264, 33.4299], zoom: 8 },
+  guyana: { nation: 'Guyana', demonym: 'Guyanese', center: [4.8604, -58.9302], zoom: 6 },
+  suriname: { nation: 'Suriname', demonym: 'Surinamese', center: [3.9193, -56.0278], zoom: 6 },
+  'trinidad and tobago': { nation: 'Trinidad and Tobago', demonym: 'Trinidadian', center: [10.6918, -61.2225], zoom: 8 },
+  barbados: { nation: 'Barbados', demonym: 'Barbadian', center: [13.1939, -59.5432], zoom: 10 },
+  bahamas: { nation: 'Bahamas', demonym: 'Bahamian', center: [25.0343, -77.3963], zoom: 7 },
+  djibouti: { nation: 'Djibouti', demonym: 'Djiboutian', center: [11.8251, 42.5903], zoom: 8 }
 };
 
-// Resolves userNationVariable1 (the Nation/Region noun, e.g. "Somalia", "Nigeria")
-// and userNationVariable2 (the adjectival demonym, e.g. "Somali", "Nigerian")
+// Resolves userNationVariable1 (the Nation/Region noun, e.g. "Somalia", "Nigeria", "Bhutan")
+// and userNationVariable2 (the adjectival demonym, e.g. "Somali", "Nigerian", "Bhutanese")
 export function resolveUserNationVariables(currentRegion, closestHospitals = [], closestShelters = []) {
   const nearestFacility = closestHospitals[0] || closestShelters[0] || null;
   const rawCountry = String(currentRegion?.country || '').trim();
   const rawNameEn = String(currentRegion?.nameEn || '').trim();
   const facilityRegion = String(nearestFacility?.regionDistrict || '').trim();
 
-  // Check special sub-regions first (Balochistan, Cox's Bazar, Kurdistan)
+  const primaryPool = `${rawNameEn} ${rawCountry}`.toLowerCase();
   const combinedPool = `${rawNameEn} ${rawCountry} ${facilityRegion}`.toLowerCase();
+
+  // Check special sub-regions first (Balochistan, Cox's Bazar, Kurdistan)
   if (combinedPool.includes('balochistan') || combinedPool.includes('baluchistan')) {
     return {
       userNationVariable1: 'Balochistan',
@@ -168,7 +219,28 @@ export function resolveUserNationVariables(currentRegion, closestHospitals = [],
     };
   }
 
-  for (const [key, entry] of Object.entries(NATION_TO_DEMONYM_MAP)) {
+  // Sort keys longest-first so 'south sudan' matches before 'sudan', 'papua new guinea' before 'guinea', 'nigeria' before 'niger', etc.
+  const sortedEntries = Object.entries(NATION_TO_DEMONYM_MAP).sort(
+    (a, b) => b[0].length - a[0].length
+  );
+
+  // 1. First match directly against the user's searched/selected region & country (primaryPool)
+  //    so a neighboring facility in facilityRegion never hijacks the searched nation!
+  if (primaryPool && !primaryPool.includes('planet earth')) {
+    for (const [key, entry] of sortedEntries) {
+      if (primaryPool.includes(key)) {
+        return {
+          userNationVariable1: entry.nation,
+          userNationVariable2: entry.demonym,
+          countryCenter: entry.center,
+          countryZoom: entry.zoom
+        };
+      }
+    }
+  }
+
+  // 2. Otherwise check the full combinedPool (including nearest facility region)
+  for (const [key, entry] of sortedEntries) {
     if (combinedPool.includes(key)) {
       return {
         userNationVariable1: entry.nation,
@@ -221,6 +293,94 @@ export function resolveUserNationVariables(currentRegion, closestHospitals = [],
 // ============================================================================
 
 export const COUNTRY_WOMANHOOD_PROFILES = {
+  Bhutan: {
+    genderOutlook: [
+      {
+        id: 'bhutan-dv-leaving',
+        title: 'Leaving an Abusive Relationship & Domestic Violence Laws in Bhutan',
+        summary:
+          'Bhutan enacted the Domestic Violence Prevention Act (DVPA) in 2013 to protect women and children from physical, emotional, sexual, and economic abuse, supported by specialized Women and Child Protection Units (WCPU) in the Royal Bhutan Police and RENEW safe shelters.',
+        keyRealities: [
+          'How Protection Works in Practice: Under Bhutan’s Domestic Violence Prevention Act of 2013, survivors can request immediate Protection Orders, temporary custody, and emergency financial maintenance through Dzongkhag (district) courts or the Royal Bhutan Police Women and Child Protection Units.',
+          'RENEW Safe Homes (Gawailing Happy Home): Founded in Thimphu with community volunteers (CBSS) across all 20 Dzongkhags, RENEW (Respect, Educate, Nurture and Empower Women) provides confidential shelter, counseling, legal aid, and livelihood training for Bhutanese women leaving abusive homes.',
+          'Matrilineal Land Inheritance vs. Modern Vulnerability: In many western, central, and eastern Bhutanese communities (Ngalop and Sharchop traditions), family homes and ancestral land traditionally pass through daughters rather than sons, giving rural women strong property roots, though urban women migrating to Thimphu or Phuentsholing may depend on a spouse’s income.'
+        ]
+      },
+      {
+        id: 'bhutan-divorce-custody',
+        title: 'Divorce, Child Custody & Child Support Realities in Bhutan (Marriage Act)',
+        summary:
+          'Under the Marriage Act of Bhutan, mothers have strong statutory rights to physical custody of young children and mandatory child support (Chags-go) from the father.',
+        keyRealities: [
+          'Custody of Children under Bhutanese Law: Under the Marriage Act of Bhutan, physical custody of children under age 9 is almost always awarded to the mother unless a court finds compelling evidence otherwise, and older children’s welfare and safety remain the primary criteria.',
+          'Mandatory Child Maintenance: Regardless of who initiates the divorce, Bhutanese family courts enforce monthly child maintenance payments per child until age 18 (or longer if the child is pursuing full-time higher education).'
+        ]
+      },
+      {
+        id: 'bhutan-bodily-autonomy',
+        title: 'Free Universal Maternal Healthcare & Reproductive Rights in Bhutan',
+        summary:
+          'Under the Constitution of Bhutan, basic public health services—including prenatal care, hospital childbirth, contraception, and cervical cancer vaccination/screening—are provided free of charge across the country.',
+        keyRealities: [
+          'Free Maternal & OB/GYN Care: From Jigme Dorji Wangchuck National Referral Hospital (JDWNRH) in Thimphu to regional referral hospitals in Mongar and Gelephu and rural Basic Health Units (BHUs), prenatal checkups, skilled birth attendance, and emergency obstetric transport are free.',
+          'Cervical Cancer Prevention Pioneer: Bhutan was the first low/middle-income nation in South/Himalayan Asia to achieve over 90% national HPV vaccination coverage for girls alongside nationwide Pap/HPV screening to eliminate cervical cancer.'
+        ]
+      }
+    ],
+    traditionalHealth: [
+      {
+        id: 'bhutan-trad-postpartum',
+        title: 'Traditional Bhutanese Postpartum Care, Sowa Rigpa & Warm Nourishment',
+        body:
+          'In Bhutanese postpartum tradition, new mothers rest indoors for several weeks after birth while family members prepare warming, iron- and protein-rich foods—including warm butter tea (Suja), bone and meat broths, red rice porridge, and soft eggs—to restore "Lung" (vital wind/energy) under traditional Sowa Rigpa (gSo-ba Rig-pa) Himalayan medicine principles.',
+        healthNote:
+          'Medical Perspective: Bhutan uniquely integrates traditional Sowa Rigpa practitioners alongside modern biomedical doctors inside national and district hospitals, allowing mothers to combine warm nutritional recovery and herbal baths (Menchu / Dotsho hot-stone baths after full healing) with modern postnatal checkups.'
+      },
+      {
+        id: 'bhutan-trad-menstrual',
+        title: 'Himalayan Herbal Comforts, Hot-Stone Baths (Dotsho) & Community Care',
+        body:
+          'Across Bhutanese valleys, women use warm mineral water and river-stone baths infused with Artemisia (Khempa) leaves to soothe lower-back and pelvic aches, while village women’s networks and RENEW community volunteers support mothers and daughters across mountain districts.',
+        healthNote:
+          'Medical Perspective: Warm external Artemisia compresses and rest help relax pelvic muscles during menstrual cramps, while free iron-folic acid supplements at any Basic Health Unit prevent high-altitude maternal anemia.'
+      }
+    ],
+    roleModels: [
+      {
+        id: 'rm-bhutan-renew',
+        name: 'Her Majesty Gyalyum Sangay Choden Wangchuck & RENEW Advocates',
+        years: '1963–Present',
+        birthplace: 'Thimphu, Bhutan',
+        ethnicity: 'Bhutanese (Drukpa)',
+        lat: 27.4728,
+        lng: 89.639,
+        headline: 'Founder of RENEW (Respect, Educate, Nurture and Empower Women) & UNFPA Goodwill Ambassador',
+        bio:
+          'Founded RENEW in 2004 to establish Bhutan’s first domestic violence safe shelter (Gawailing Happy Home), nationwide community-based support volunteers across all 20 Dzongkhags, and tireless national advocacy for reproductive health, cervical cancer elimination, and domestic violence protection.'
+      },
+      {
+        id: 'rm-bhutan-kunzang',
+        name: 'Kunzang Choden & Pioneering Bhutanese Women Voices',
+        years: '1952–Present',
+        birthplace: 'Bumthang, Bhutan',
+        ethnicity: 'Bhutanese',
+        lat: 27.5492,
+        lng: 90.7525,
+        headline: 'First Bhutanese Woman Novelist & Chronicler of Bhutanese Women’s Lives and Matrilineal Heritage',
+        bio:
+          'Born in central Bhutan (Bumthang), Kunzang Choden documented the oral histories, spiritual resilience, childbirth realities, and matrilineal family traditions of Bhutanese women across generations in her landmark works "The Circle of Karma" and "Folktales of Bhutan."'
+      }
+    ],
+    healthAlerts: [
+      {
+        id: 'bhutan-alert-1',
+        title: 'Free 24/7 Maternal Care, RENEW Domestic Violence Support & Toll-Free 112 / 1010 Helplines',
+        severity: 'Active National Maternal & Protection Notice',
+        body:
+          'Free emergency obstetric care and prenatal screening are available at JDWNRH (Thimphu), Mongar Regional Referral Hospital, Central Regional Referral Hospital (Gelephu), and all Basic Health Units (BHUs). For emergency ambulance dispatch call 112; for confidential domestic violence shelter and legal aid contact RENEW or the Royal Bhutan Police Women & Child Protection Unit (113).'
+      }
+    ]
+  },
   Somalia: {
     genderOutlook: [
       {

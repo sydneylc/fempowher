@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1'
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=229';
+} from './PregnancyHomePage.js?v=230';
 
 const h = React.createElement;
 
@@ -122,8 +122,8 @@ export default function BeingAWomanInHomePage({
     },
     {
       id: 'traditional-health',
-      label: `Traditional ${userNationVariable2} Female Health`,
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/being-woman-traditional-health.gif')
+      label: `Female Health in ${userNationVariable1}`,
+      gifSrc: null, // Ready for custom GIF (e.g. './assets/being-woman-female-health.gif')
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB5D6 0%, #F472B6 100%)',
         border: 'none'
@@ -208,7 +208,7 @@ export default function BeingAWomanInHomePage({
     beingWomanSubTab === 'gender-outlook'
       ? `Gender Outlook • ${userNationVariable1}`
       : beingWomanSubTab === 'traditional-health'
-      ? `Traditional ${userNationVariable2} Female Health`
+      ? `Female Health in ${userNationVariable1}`
       : beingWomanSubTab === 'role-models'
       ? `Female Role Models from ${userNationVariable1}`
       : `Women’s Health Alerts in ${userNationVariable1}`;
@@ -329,58 +329,9 @@ export default function BeingAWomanInHomePage({
           )
         ),
 
-      // SUBPAGE 2: TRADITIONAL [userNationVariable2] FEMALE HEALTH
+      // SUBPAGE 2: FEMALE HEALTH IN [userNationVariable1] (Emptied info — ready for custom content)
       beingWomanSubTab === 'traditional-health' &&
-        h(
-          'div',
-          { className: 'space-y-4' },
-          h(
-            'div',
-            {
-              className: 'p-4 rounded-2xl border',
-              style: { backgroundColor: '#FFF5FC', borderColor: '#FEACEC' }
-            },
-            h(
-              'h4',
-              { className: 'text-base sm:text-lg font-extrabold', style: { color: '#9F133A' } },
-              `Traditional ${userNationVariable2} Female Health`
-            ),
-            h(
-              'p',
-              { className: 'text-xs sm:text-sm font-bold mt-1 leading-relaxed', style: { color: '#CF366C' } },
-              `Cultural practices, postpartum recovery traditions, community care circles, and traditional female health customs across ${userNationVariable1}.`
-            )
-          ),
-          (beingAWomanContent?.traditionalHealth || []).map((trad) =>
-            h(
-              'div',
-              {
-                key: trad.id,
-                className: 'p-4 sm:p-5 rounded-2xl border-2 space-y-3',
-                style: { backgroundColor: '#FFFFFF', borderColor: '#FEACEC' }
-              },
-              h(
-                'h5',
-                { className: 'text-base sm:text-lg font-extrabold', style: { color: '#9F133A' } },
-                trad.title
-              ),
-              h(
-                'p',
-                { className: 'text-xs sm:text-sm font-bold leading-relaxed', style: { color: '#9F133A' } },
-                trad.body
-              ),
-              trad.healthNote &&
-                h(
-                  'div',
-                  {
-                    className: 'p-3 rounded-xl border text-xs sm:text-sm font-bold leading-relaxed',
-                    style: { backgroundColor: '#FFF0FA', borderColor: '#CF366C', color: '#9F133A' }
-                  },
-                  trad.healthNote
-                )
-            )
-          )
-        ),
+        h('div', { className: 'py-6' }),
 
       // SUBPAGE 3: FEMALE ROLE MODELS FROM [userNationVariable1] (Dedicated Map + Bios)
       beingWomanSubTab === 'role-models' &&

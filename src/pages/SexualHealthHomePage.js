@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=229';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=229';
+} from './PregnancyHomePage.js?v=230';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=230';
 import {
   renderCervixPapScreenCartoonSvg,
   renderCleanWaterHydrationCartoonSvg,
@@ -11,7 +11,7 @@ import {
   renderPrepPepShieldCartoonSvg,
   renderSwabAndNoAlcoholCartoonSvg,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=229';
+} from './FlyerCartoonIllustrations.js?v=230';
 
 const h = React.createElement;
 
@@ -98,7 +98,7 @@ export default function SexualHealthHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=229',
+      gifSrc: './assets/sexual-health-stds.gif?v=230',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {

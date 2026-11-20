@@ -10,77 +10,78 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=223';
-import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=223';
-import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=223';
-import { fetchLiveCentersNearPoint, isInvalidFacilityName } from './data/liveOverpassDiscovery.js?v=223';
-import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=223';
-import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=223';
+} from './data/translations.js?v=224';
+import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=224';
+import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=224';
+import { fetchLiveCentersNearPoint, isInvalidFacilityName } from './data/liveOverpassDiscovery.js?v=224';
+import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=224';
+import { resolveUserNationVariables, getBeingAWomanContent } from './data/beingAWomanData.js?v=224';
 
 // Import individual Page Components from src/pages/
-import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=223';
-import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=223';
-import NewUserPage from './pages/NewUserPage.js?v=223';
-import SignInPage from './pages/SignInPage.js?v=223';
-import AnonPage1 from './pages/AnonPage1.js?v=223';
-import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=223';
-import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=223';
-import MapLegend1 from './pages/MapLegend1.js?v=223';
-import DatabasePage1 from './pages/DatabasePage1.js?v=223';
-import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=223';
-import MyBodyHomePage from './pages/MyBodyHomePage.js?v=223';
-import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=223';
-import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=223';
-import PregnancyHomePage from './pages/PregnancyHomePage.js?v=223';
-import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=223';
-import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=223';
-import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=223';
-import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=223';
-import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=223';
-import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=223';
-import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=223';
-import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=223';
-import PostpartumHomePage from './pages/PostpartumHomePage.js?v=223';
-import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=223';
-import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=223';
-import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=223';
-import MenopauseHomePage from './pages/MenopauseHomePage.js?v=223';
-import WhatIsMenopauseHomePage from './pages/WhatIsMenopauseHomePage.js?v=223';
-import StartingMenopauseHomePage from './pages/StartingMenopauseHomePage.js?v=223';
-import HardTimeMenopauseHomePage from './pages/HardTimeMenopauseHomePage.js?v=223';
-import AfterMenopauseHomePage from './pages/AfterMenopauseHomePage.js?v=223';
-import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=223';
-import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=223';
-import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=223';
-import InteractiveCalendarHomePage1 from './pages/InteractiveCalendarHomePage1.js?v=223';
-import CalendarSettingsHomePage1 from './pages/CalendarSettingsHomePage1.js?v=223';
-import { loadUserCycleCalendarState } from './data/cycleCalendarData.js?v=223';
-import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=223';
-import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=223';
-import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=223';
-import STDMenuHomePage from './pages/STDMenuHomePage.js?v=223';
-import WhatAreSTDsHomePage1 from './pages/WhatAreSTDsHomePage1.js?v=223';
-import ThinkIHaveSTDHomePage1 from './pages/ThinkIHaveSTDHomePage1.js?v=223';
-import JustDiagnosedSTDHomePage1 from './pages/JustDiagnosedSTDHomePage1.js?v=223';
-import TypesOfSTDsHomePage1 from './pages/TypesOfSTDsHomePage1.js?v=223';
-import STDsAndPregnancyHomePage1 from './pages/STDsAndPregnancyHomePage1.js?v=223';
-import TrichomonasHomePage1 from './pages/TrichomonasHomePage1.js?v=223';
-import HPVHomePage1 from './pages/HPVHomePage1.js?v=223';
-import ChlamydiaHomePage1 from './pages/ChlamydiaHomePage1.js?v=223';
-import GonorrheaHomePage1 from './pages/GonorrheaHomePage1.js?v=223';
-import HepatitisBHomePage1 from './pages/HepatitisBHomePage1.js?v=223';
-import GenitalHerpesHomePage1 from './pages/GenitalHerpesHomePage1.js?v=223';
-import HIVHomePage1 from './pages/HIVHomePage1.js?v=223';
-import SyphilisHomePage1 from './pages/SyphilisHomePage1.js?v=223';
-import FistulasHomePage1 from './pages/FistulasHomePage1.js?v=223';
-import FibroidsHomePage1 from './pages/FibroidsHomePage1.js?v=223';
-import ProlapseHomePage1 from './pages/ProlapseHomePage1.js?v=223';
-import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=223';
-import ForMeHomePage from './pages/ForMeHomePage.js?v=223';
-import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=223';
-import WorldviewHomePage from './pages/WorldviewHomePage.js?v=223';
-import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=223';
-import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=223';
+import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=224';
+import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=224';
+import NewUserPage from './pages/NewUserPage.js?v=224';
+import SignInPage from './pages/SignInPage.js?v=224';
+import AnonPage1 from './pages/AnonPage1.js?v=224';
+import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=224';
+import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=224';
+import MapLegend1 from './pages/MapLegend1.js?v=224';
+import DatabasePage1 from './pages/DatabasePage1.js?v=224';
+import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=224';
+import MyBodyHomePage from './pages/MyBodyHomePage.js?v=224';
+import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=224';
+import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=224';
+import PregnancyHomePage from './pages/PregnancyHomePage.js?v=224';
+import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=224';
+import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=224';
+import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=224';
+import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=224';
+import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=224';
+import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=224';
+import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=224';
+import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=224';
+import PostpartumHomePage from './pages/PostpartumHomePage.js?v=224';
+import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=224';
+import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=224';
+import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=224';
+import MenopauseHomePage from './pages/MenopauseHomePage.js?v=224';
+import WhatIsMenopauseHomePage from './pages/WhatIsMenopauseHomePage.js?v=224';
+import StartingMenopauseHomePage from './pages/StartingMenopauseHomePage.js?v=224';
+import HardTimeMenopauseHomePage from './pages/HardTimeMenopauseHomePage.js?v=224';
+import AfterMenopauseHomePage from './pages/AfterMenopauseHomePage.js?v=224';
+import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=224';
+import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=224';
+import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=224';
+import InteractiveCalendarHomePage1 from './pages/InteractiveCalendarHomePage1.js?v=224';
+import CalendarSettingsHomePage1 from './pages/CalendarSettingsHomePage1.js?v=224';
+import { loadUserCycleCalendarState } from './data/cycleCalendarData.js?v=224';
+import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=224';
+import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=224';
+import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=224';
+import STDMenuHomePage from './pages/STDMenuHomePage.js?v=224';
+import WhatAreSTDsHomePage1 from './pages/WhatAreSTDsHomePage1.js?v=224';
+import ThinkIHaveSTDHomePage1 from './pages/ThinkIHaveSTDHomePage1.js?v=224';
+import JustDiagnosedSTDHomePage1 from './pages/JustDiagnosedSTDHomePage1.js?v=224';
+import TypesOfSTDsHomePage1 from './pages/TypesOfSTDsHomePage1.js?v=224';
+import STDsAndPregnancyHomePage1 from './pages/STDsAndPregnancyHomePage1.js?v=224';
+import TrichomonasHomePage1 from './pages/TrichomonasHomePage1.js?v=224';
+import HPVHomePage1 from './pages/HPVHomePage1.js?v=224';
+import ChlamydiaHomePage1 from './pages/ChlamydiaHomePage1.js?v=224';
+import GonorrheaHomePage1 from './pages/GonorrheaHomePage1.js?v=224';
+import HepatitisBHomePage1 from './pages/HepatitisBHomePage1.js?v=224';
+import GenitalHerpesHomePage1 from './pages/GenitalHerpesHomePage1.js?v=224';
+import HIVHomePage1 from './pages/HIVHomePage1.js?v=224';
+import SyphilisHomePage1 from './pages/SyphilisHomePage1.js?v=224';
+import FistulasHomePage1 from './pages/FistulasHomePage1.js?v=224';
+import FibroidsHomePage1 from './pages/FibroidsHomePage1.js?v=224';
+import ProlapseHomePage1 from './pages/ProlapseHomePage1.js?v=224';
+import AbortionsHomePage1 from './pages/AbortionsHomePage1.js?v=224';
+import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=224';
+import ForMeHomePage from './pages/ForMeHomePage.js?v=224';
+import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=224';
+import WorldviewHomePage from './pages/WorldviewHomePage.js?v=224';
+import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=224';
+import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=224';
 
 const h = React.createElement;
 
@@ -388,8 +389,14 @@ export default function App() {
       'lossBtnLostChild',
       'lossBtnPregnantAfterLoss',
       'fpBtnContraceptionForMe',
+      'fpBtnMyFamilyPlanning',
       'fpBtnEmergencyContraception',
       'fpBtnPregnancySpacing',
+      'eduBtnAbortions',
+      'abortionBtnOptions',
+      'abortionBtnRecovery',
+      'abortionBtnEmergencyCare',
+      'abortionBtnEmotionsFertility',
       'childbirthBtnStages',
       'childbirthBtnVaginal',
       'childbirthBtnCSection',
@@ -1949,6 +1956,12 @@ export default function App() {
       shade: 'lighter'
     },
     {
+      id: 'abortions',
+      page: 'AbortionsHomePage1',
+      label: t.eduBtnAbortions || 'Abortions',
+      shade: 'lighter'
+    },
+    {
       id: 'menopause',
       page: 'MenopauseHomePage',
       label: t.eduBtnMenopause || 'Menopause',
@@ -3133,6 +3146,11 @@ export default function App() {
             return h(ProlapseHomePage1, {
               ...commonEduPageProps,
               onBack: () => setEducationPage('DiseasesAndInjuriesHomePage')
+            });
+          }
+          if (educationPage === 'AbortionsHomePage1') {
+            return h(AbortionsHomePage1, {
+              ...commonEduPageProps
             });
           }
           if (educationPage === 'FamilyPlanningHomePage1') {

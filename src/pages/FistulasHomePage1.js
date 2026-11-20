@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=223';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=224';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderFistulaHealingRepairCartoonSvg,
   renderMaleBladderUrethraCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=223';
+} from './FlyerCartoonIllustrations.js?v=224';
 
 export default function FistulasHomePage1({
   onBack,
@@ -77,7 +77,7 @@ export default function FistulasHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'FistulasHomePage1',
     title: tr('eduBtnFistulas', 'Fistulas'),
-    gifSrc: './assets/diseases-fistulas.gif?v=223',
+    gifSrc: './assets/diseases-fistulas.gif?v=224',
     bgGradient: 'linear-gradient(180deg, #ED2762 0%, #C7144A 100%)',
     bgColor: '#D91E55',
     titleTintColor: '#FFC7DC',

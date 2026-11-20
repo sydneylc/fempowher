@@ -2,13 +2,13 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=230';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=230';
+} from './PregnancyHomePage.js?v=231';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=231';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
   renderPartnerPillsCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=230';
+} from './FlyerCartoonIllustrations.js?v=231';
 
 const h = React.createElement;
 
@@ -32,13 +32,13 @@ export default function LossOfAChildHomePage({
   };
 
   // 5 Short, Emotionally Steady, Globally Translatable First-Person Buttons for Loss of a Child
-  // (gifSrc: null slots ready for custom GIFs to be added later)
   const lossButtons = [
     {
       id: 'loss-miscarriage',
       label: tr('lossBtnMiscarriage', 'I’ve Had a Miscarriage'),
       targetPage: 'MiscarriageHomePage',
-      gifSrc: null,
+      gifSrc: './assets/loss-hub-miscarriage.gif?v=232',
+      gifAlt: 'Woman in an olive-and-sand military soldier uniform and beret placing one hand over her heart and the other over her womb with a falling tear and memorial blossom',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC4E0 100%)',
         border: 'none'
@@ -51,7 +51,8 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-stillbirth',
       label: tr('lossBtnStillbirth', 'I’ve Had a Stillbirth'),
-      gifSrc: null,
+      gifSrc: './assets/loss-hub-stillbirth.gif?v=232',
+      gifAlt: 'Middle Eastern woman in a plum-indigo hijab and modest gloves holding a white keepsake card with two tiny baby footprints while a white butterfly drifts upward',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB8D8 0%, #F472B6 100%)',
         border: 'none'
@@ -64,7 +65,8 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-infant',
       label: tr('lossBtnLostInfant', 'I’ve Lost an Infant'),
-      gifSrc: null,
+      gifSrc: './assets/loss-hub-infant.gif?v=232',
+      gifAlt: 'Southeast Asian woman with a low side bun and jade hairpin cradling a folded baby blanket and tiny blue infant booties',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
         border: 'none'
@@ -77,7 +79,8 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-child',
       label: tr('lossBtnLostChild', 'I’ve Lost My Child'),
-      gifSrc: null,
+      gifSrc: './assets/loss-hub-child.gif?v=232',
+      gifAlt: 'Afro-Latina / West African mother with textured dark afro puffs and a gold headband hugging her child’s beloved teddy bear',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
         border: 'none'
@@ -91,7 +94,8 @@ export default function LossOfAChildHomePage({
       id: 'loss-pregnant-after-loss',
       label: tr('lossBtnPregnantAfterLoss', 'I Am Pregnant After a Loss'),
       targetPage: 'PregnancyAfterLossHomePage',
-      gifSrc: null,
+      gifSrc: './assets/loss-hub-pregnant-after-loss.gif?v=232',
+      gifAlt: 'Visibly pregnant Indigenous Andean woman with twin braids looking anxious and worried with a forehead sweat drop while clutching her belly beside a rainbow and heart badge',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
         border: 'none'
@@ -231,11 +235,11 @@ export default function LossOfAChildHomePage({
     'div',
     {
       id: 'LossOfAChildHomePage',
-      className: 'min-h-full w-full shrink-0 bg-white flex flex-col overflow-x-hidden'
+      className: 'h-full min-h-full w-full bg-white flex flex-col overflow-hidden'
     },
     h(
       'div',
-      { className: 'w-full px-4 sm:px-6 pt-3 pb-3 shrink-0 bg-white' },
+      { className: 'w-full px-4 sm:px-6 pt-3 pb-2 shrink-0 bg-white' },
       h(
         'div',
         { className: 'max-w-5xl w-full mx-auto' },
@@ -243,7 +247,7 @@ export default function LossOfAChildHomePage({
         h(
           'h1',
           {
-            className: 'text-2xl sm:text-3xl font-extrabold text-center mt-1',
+            className: 'text-2xl sm:text-3xl font-extrabold text-center mt-0.5',
             style: { color: '#9F133A' }
           },
           tr('eduBtnLossOfChild', t.eduBtnLossOfChild || 'Loss of a Child')
@@ -252,8 +256,6 @@ export default function LossOfAChildHomePage({
     ),
     h(MakingGifButtons1, {
       sections: lossButtons,
-      containerClassName: 'flex-1 w-full grid',
-      containerStyle: { gridTemplateRows: `repeat(${lossButtons.length}, minmax(165px, 1fr))` },
       onSelectSection: (sec) => {
         if (sec.targetPage && onNavigateEducationPage) {
           onNavigateEducationPage(sec.targetPage);

@@ -22,64 +22,103 @@ export const CYCLE_PHASE_DEFINITIONS = [
     variableName: 'FirstDayOfPeriod1',
     labelKey: 'calPhaseFirstDay',
     defaultLabelEn: 'First Day of Period',
+    blurbTitleKey: 'calPhaseFirstDay',
+    blurbKey: 'calBlurbFirstDay',
+    defaultBlurbEn:
+      'Day 1 of menstrual bleeding as your uterus begins shedding its lining. You may feel lower belly cramps, low energy, or a quiet urge to rest and stay warm.',
     colorHex: '#EF233C',
     // Translucent bright red so overlaps remain visible
     rgbaFill: 'rgba(239, 35, 60, 0.56)',
     borderHex: '#111111',
     isBoxedDay: true,
     minDays: 1,
-    maxDays: 1
+    maxDays: 1,
+    baselineDays: 1
   },
   {
     id: 'PeriodDaysDuration1',
     variableName: 'PeriodDaysDuration1',
     labelKey: 'calPhasePeriodDays',
     defaultLabelEn: 'Period (1–7 Days)',
+    blurbTitleKey: 'calPhasePeriodTitleShort',
+    defaultBlurbTitleEn: 'Menstrual Period',
+    blurbKey: 'calBlurbPeriodDays',
+    defaultBlurbEn:
+      'Your uterus sheds its lining over 3 to 7 days (5 days norm). Hormone levels are at their lowest, so you may feel tired, crampy, tender, or introspective before energy starts returning.',
     colorHex: '#9B111E',
     // Translucent darker red
     rgbaFill: 'rgba(155, 17, 30, 0.54)',
     borderHex: '#6E0915',
     isBoxedLastDay: true,
     minDays: 1,
-    maxDays: 7
+    maxDays: 7,
+    baselineDays: 5
   },
   {
     id: 'FollicularPhaseDuration1',
     variableName: 'FollicularPhaseDuration1',
     labelKey: 'calPhaseFollicular',
-    defaultLabelEn: 'Follicular Phase (1–7 Days)',
+    defaultLabelEn: 'Follicular Phase',
+    blurbTitleKey: 'calPhaseFollicular',
+    blurbKey: 'calBlurbFollicular',
+    defaultBlurbEn:
+      'Your ovaries mature a new egg and estrogen steadily rises (about 7 to 9 days after your period). You will often feel lighter, clearer-headed, more upbeat, social, and energized.',
     colorHex: '#F78C06',
     // Translucent orange as in the drawing
     rgbaFill: 'rgba(247, 140, 6, 0.50)',
     borderHex: '#C86D00',
     minDays: 1,
-    maxDays: 7
+    maxDays: 14,
+    baselineDays: 8
   },
   {
     id: 'OvulatoryPhaseDuration1',
     variableName: 'OvulatoryPhaseDuration1',
     labelKey: 'calPhaseOvulatory',
-    defaultLabelEn: 'Ovulatory Phase (1–7 Days)',
+    defaultLabelEn: 'Ovulatory Phase',
+    blurbTitleKey: 'calPhaseOvulatory',
+    blurbKey: 'calBlurbOvulatory',
+    defaultBlurbEn:
+      'Estrogen peaks and your ovary releases an egg (your fertile window, ~3 to 4 days). You may feel your highest confidence, warmth, and sex drive, with clear stretchy cervical fluid.',
     colorHex: '#D8316C',
     // Translucent pinkish-red as in the drawing
     rgbaFill: 'rgba(216, 49, 108, 0.52)',
     borderHex: '#A31D4E',
     minDays: 1,
-    maxDays: 7
+    maxDays: 7,
+    baselineDays: 3
   },
   {
     id: 'LutealPhaseDuration1',
     variableName: 'LutealPhaseDuration1',
     labelKey: 'calPhaseLuteal',
-    defaultLabelEn: 'Luteal Phase (1–7 Days)',
+    defaultLabelEn: 'Luteal Phase',
+    blurbTitleKey: 'calPhaseLuteal',
+    blurbKey: 'calBlurbLuteal',
+    defaultBlurbEn:
+      'Progesterone rises to thicken your uterine lining (~12 to 14 days norm). You may feel calmer or in a nesting mood at first, then notice breast tenderness, food cravings, bloating, or PMS as your period nears.',
     colorHex: '#B51762',
     // Translucent darkest pink as in the drawing
     rgbaFill: 'rgba(181, 23, 98, 0.56)',
     borderHex: '#7A0C40',
     minDays: 1,
-    maxDays: 7
+    maxDays: 16,
+    baselineDays: 12
   }
 ];
+
+// Norm / Baseline cycle durations automatically applied when a user enters when her period occurred
+export function getBaselineCyclePhaseDurations(periodDays = 5) {
+  const cleanPeriod = Math.max(1, Math.min(10, Number(periodDays) || 5));
+  // Baseline 28-day cycle: Period (default 5d) + Follicular (13 - periodDays = 8d) + Ovulatory (3d) + Luteal (12d) = 28 days
+  const baselineFollicular = Math.max(5, 13 - cleanPeriod);
+  return {
+    PeriodDaysDuration1: cleanPeriod,
+    FollicularPhaseDuration1: baselineFollicular,
+    OvulatoryPhaseDuration1: 3,
+    LutealPhaseDuration1: 12
+  };
+}
 
 // Default blank state for all current and new users before they enter any info
 export function createBlankCycleCalendarState() {
@@ -88,10 +127,11 @@ export function createBlankCycleCalendarState() {
     calendarPasswordEnabled: false,
     calendarPassword: '',
     FirstDayOfPeriod1: '', // YYYY-MM-DD when user sets it in CalendarSettingsHomePage1
-    PeriodDaysDuration1: 5, // 1–7 days customizable (includes FirstDayOfPeriod1 as day 1)
-    FollicularPhaseDuration1: 5, // 1–7 days customizable
-    OvulatoryPhaseDuration1: 4, // 1–7 days customizable
-    LutealPhaseDuration1: 6, // 1–7 days customizable
+    autoBaselinePhases: true, // Automatically guesstimates Follicular, Ovulatory & Luteal from Period unless customized
+    PeriodDaysDuration1: 5, // Default 5-day period norm (editable)
+    FollicularPhaseDuration1: 8, // Baseline norm post-period follicular days (editable)
+    OvulatoryPhaseDuration1: 3, // Baseline norm fertile ovulation window days (editable)
+    LutealPhaseDuration1: 12, // Baseline norm luteal phase days (editable)
     repeatsOverAndOver: true,
     // Editable Key & Filters state (so user can customize or toggle visibility in Key)
     visiblePhases: {
@@ -192,10 +232,10 @@ export function getPhasesForDate(dateObj, calendarState) {
 
   if (diffDays < 0) return [];
 
-  const periodLen = Math.max(1, Math.min(7, Number(calendarState.PeriodDaysDuration1) || 5));
-  const follicularLen = Math.max(1, Math.min(7, Number(calendarState.FollicularPhaseDuration1) || 5));
-  const ovulatoryLen = Math.max(1, Math.min(7, Number(calendarState.OvulatoryPhaseDuration1) || 4));
-  const lutealLen = Math.max(1, Math.min(7, Number(calendarState.LutealPhaseDuration1) || 6));
+  const periodLen = Math.max(1, Math.min(10, Number(calendarState.PeriodDaysDuration1) || 5));
+  const follicularLen = Math.max(1, Math.min(21, Number(calendarState.FollicularPhaseDuration1) || 8));
+  const ovulatoryLen = Math.max(1, Math.min(10, Number(calendarState.OvulatoryPhaseDuration1) || 3));
+  const lutealLen = Math.max(1, Math.min(21, Number(calendarState.LutealPhaseDuration1) || 12));
 
   const totalCycleLen = periodLen + follicularLen + ovulatoryLen + lutealLen;
   if (totalCycleLen <= 0) return [];
@@ -338,9 +378,24 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     activeStatusBadge: 'Custom Cycle Active on Calendar',
     calPhaseFirstDay: 'First Day of Period',
     calPhasePeriodDays: 'Period (1–7 Days)',
+    calPhasePeriodTitleShort: 'Menstrual Period',
     calPhaseFollicular: 'Follicular Phase',
     calPhaseOvulatory: 'Ovulatory Phase',
     calPhaseLuteal: 'Luteal Phase',
+    calBlurbFirstDay:
+      'Day 1 of menstrual bleeding as your uterus begins shedding its lining. You may feel lower belly cramps, low energy, or a quiet urge to rest and stay warm.',
+    calBlurbPeriodDays:
+      'Your uterus sheds its lining over 3 to 7 days (5 days norm). Hormone levels are at their lowest, so you may feel tired, crampy, tender, or introspective before energy starts returning.',
+    calBlurbFollicular:
+      'Your ovaries mature a new egg and estrogen steadily rises (about 7 to 9 days after your period). You will often feel lighter, clearer-headed, more upbeat, social, and energized.',
+    calBlurbOvulatory:
+      'Estrogen peaks and your ovary releases an egg (your fertile window, ~3 to 4 days). You may feel your highest confidence, warmth, and sex drive, with clear stretchy cervical fluid.',
+    calBlurbLuteal:
+      'Progesterone rises to thicken your uterine lining (~12 to 14 days norm). You may feel calmer or in a nesting mood at first, then notice breast tenderness, food cravings, bloating, or PMS as your period nears.',
+    autoBaselineBannerTitle: 'Automatic Baseline Cycle Guesstimate Active',
+    autoBaselineBannerDesc:
+      'Just enter your First Day of Period (and your period length)! The calendar automatically fills in the normal baseline guesstimate for your Follicular (8d), Ovulatory (3d), and Luteal (12d) phases (~28-day cycle). You can still edit any phase below anytime.',
+    resetToBaselineBtn: 'Reset Phases to Norm Baseline Guesstimate',
     weekdaysShort: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
     weekdaysFull: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   },

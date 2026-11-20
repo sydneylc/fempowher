@@ -1,15 +1,16 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=230';
-import { isRtlLanguage } from '../data/translations.js?v=230';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=231';
+import { isRtlLanguage } from '../data/translations.js?v=231';
 import {
   CYCLE_PHASE_DEFINITIONS,
   createBlankCycleCalendarState,
+  getBaselineCyclePhaseDurations,
   formatMonthYearForLang,
   getCycleCalText,
   loadUserCycleCalendarState,
   saveUserCycleCalendarState,
   renderGearHeartIcon
-} from '../data/cycleCalendarData.js?v=230';
+} from '../data/cycleCalendarData.js?v=231';
 
 const h = React.createElement;
 
@@ -43,10 +44,13 @@ export function CalendarSettingsHomePage1({
   const [passwordEnabled, setPasswordEnabled] = useState(Boolean(initial.calendarPasswordEnabled));
   const [calendarPassword, setCalendarPassword] = useState(initial.calendarPassword || '');
   const [firstDay, setFirstDay] = useState(initial.FirstDayOfPeriod1 || '');
+  const [autoBaselinePhases, setAutoBaselinePhases] = useState(
+    initial.autoBaselinePhases !== false
+  );
   const [periodDays, setPeriodDays] = useState(Number(initial.PeriodDaysDuration1) || 5);
-  const [follicularDays, setFollicularDays] = useState(Number(initial.FollicularPhaseDuration1) || 5);
-  const [ovulatoryDays, setOvulatoryDays] = useState(Number(initial.OvulatoryPhaseDuration1) || 4);
-  const [lutealDays, setLutealDays] = useState(Number(initial.LutealPhaseDuration1) || 6);
+  const [follicularDays, setFollicularDays] = useState(Number(initial.FollicularPhaseDuration1) || 8);
+  const [ovulatoryDays, setOvulatoryDays] = useState(Number(initial.OvulatoryPhaseDuration1) || 3);
+  const [lutealDays, setLutealDays] = useState(Number(initial.LutealPhaseDuration1) || 12);
   const [repeatsOverAndOver, setRepeatsOverAndOver] = useState(
     initial.repeatsOverAndOver !== false
   );
@@ -68,6 +72,10 @@ export function CalendarSettingsHomePage1({
   const persistPartialOrFullSettings = (overrides = {}) => {
     const nextFirstDay =
       overrides.firstDay !== undefined ? overrides.firstDay : firstDay;
+    const nextAutoBaseline =
+      overrides.autoBaselinePhases !== undefined
+        ? overrides.autoBaselinePhases
+        : autoBaselinePhases;
     const nextPasswordEnabled =
       overrides.passwordEnabled !== undefined ? overrides.passwordEnabled : passwordEnabled;
     const nextCalendarPassword =
@@ -89,13 +97,14 @@ export function CalendarSettingsHomePage1({
     const nextState = {
       ...initial,
       hasEnteredCycleData: hasData && Boolean(nextFirstDay),
+      autoBaselinePhases: Boolean(nextAutoBaseline),
       calendarPasswordEnabled: Boolean(nextPasswordEnabled),
       calendarPassword: nextPasswordEnabled ? String(nextCalendarPassword || '') : '',
       FirstDayOfPeriod1: nextFirstDay || '',
-      PeriodDaysDuration1: Math.max(1, Math.min(7, Number(nextPeriodDays) || 5)),
-      FollicularPhaseDuration1: Math.max(1, Math.min(7, Number(nextFollicularDays) || 5)),
-      OvulatoryPhaseDuration1: Math.max(1, Math.min(7, Number(nextOvulatoryDays) || 4)),
-      LutealPhaseDuration1: Math.max(1, Math.min(7, Number(nextLutealDays) || 6)),
+      PeriodDaysDuration1: Math.max(1, Math.min(10, Number(nextPeriodDays) || 5)),
+      FollicularPhaseDuration1: Math.max(1, Math.min(21, Number(nextFollicularDays) || 8)),
+      OvulatoryPhaseDuration1: Math.max(1, Math.min(10, Number(nextOvulatoryDays) || 3)),
+      LutealPhaseDuration1: Math.max(1, Math.min(21, Number(nextLutealDays) || 12)),
       repeatsOverAndOver: nextRepeats
     };
     saveUserCycleCalendarState(UserNameChoiceInsert1, nextState);
@@ -111,7 +120,35 @@ export function CalendarSettingsHomePage1({
       setPickerYear(parts[0]);
       setPickerMonth(parts[1] - 1);
     }
-    persistPartialOrFullSettings({ firstDay: ymd });
+    // Automatically populate the norm/baseline guesstimate for the rest of the phase times when period date is entered
+    if (autoBaselinePhases) {
+      const base = getBaselineCyclePhaseDurations(periodDays);
+      setFollicularDays(base.FollicularPhaseDuration1);
+      setOvulatoryDays(base.OvulatoryPhaseDuration1);
+      setLutealDays(base.LutealPhaseDuration1);
+      persistPartialOrFullSettings({
+        firstDay: ymd,
+        follicularDays: base.FollicularPhaseDuration1,
+        ovulatoryDays: base.OvulatoryPhaseDuration1,
+        lutealDays: base.LutealPhaseDuration1
+      });
+    } else {
+      persistPartialOrFullSettings({ firstDay: ymd });
+    }
+  };
+
+  const handleResetPhasesToNormBaseline = () => {
+    const base = getBaselineCyclePhaseDurations(periodDays);
+    setAutoBaselinePhases(true);
+    setFollicularDays(base.FollicularPhaseDuration1);
+    setOvulatoryDays(base.OvulatoryPhaseDuration1);
+    setLutealDays(base.LutealPhaseDuration1);
+    persistPartialOrFullSettings({
+      autoBaselinePhases: true,
+      follicularDays: base.FollicularPhaseDuration1,
+      ovulatoryDays: base.OvulatoryPhaseDuration1,
+      lutealDays: base.LutealPhaseDuration1
+    });
   };
 
   const handleSave = (e) => {
@@ -125,13 +162,14 @@ export function CalendarSettingsHomePage1({
     const nextState = {
       ...initial,
       hasEnteredCycleData: true,
+      autoBaselinePhases: Boolean(autoBaselinePhases),
       calendarPasswordEnabled: Boolean(passwordEnabled),
       calendarPassword: passwordEnabled ? String(calendarPassword || '') : '',
       FirstDayOfPeriod1: chosenFirstDay,
-      PeriodDaysDuration1: Math.max(1, Math.min(7, Number(periodDays) || 5)),
-      FollicularPhaseDuration1: Math.max(1, Math.min(7, Number(follicularDays) || 5)),
-      OvulatoryPhaseDuration1: Math.max(1, Math.min(7, Number(ovulatoryDays) || 4)),
-      LutealPhaseDuration1: Math.max(1, Math.min(7, Number(lutealDays) || 6)),
+      PeriodDaysDuration1: Math.max(1, Math.min(10, Number(periodDays) || 5)),
+      FollicularPhaseDuration1: Math.max(1, Math.min(21, Number(follicularDays) || 8)),
+      OvulatoryPhaseDuration1: Math.max(1, Math.min(10, Number(ovulatoryDays) || 3)),
+      LutealPhaseDuration1: Math.max(1, Math.min(21, Number(lutealDays) || 12)),
       repeatsOverAndOver
     };
     saveUserCycleCalendarState(UserNameChoiceInsert1, nextState);
@@ -148,10 +186,11 @@ export function CalendarSettingsHomePage1({
     setPasswordEnabled(false);
     setCalendarPassword('');
     setFirstDay('');
+    setAutoBaselinePhases(true);
     setPeriodDays(5);
-    setFollicularDays(5);
-    setOvulatoryDays(4);
-    setLutealDays(6);
+    setFollicularDays(8);
+    setOvulatoryDays(3);
+    setLutealDays(12);
     setRepeatsOverAndOver(true);
     setIsCalendarPickerOpen(false);
     saveUserCycleCalendarState(UserNameChoiceInsert1, blankState);
@@ -163,12 +202,20 @@ export function CalendarSettingsHomePage1({
     }
   };
 
-  const renderOneToSevenSelector = (currentValue, onSelect, rgbaColor, borderColor) =>
+  const renderPhaseDaysSelector = (
+    currentValue,
+    onSelect,
+    rgbaColor,
+    borderColor,
+    optionsList = [1, 2, 3, 4, 5, 6, 7],
+    normDayValue = null
+  ) =>
     h(
       'div',
-      { className: 'flex flex-wrap items-center gap-2 mt-2' },
-      [1, 2, 3, 4, 5, 6, 7].map((num) => {
+      { className: 'flex flex-wrap items-center gap-1.5 mt-2' },
+      optionsList.map((num) => {
         const active = Number(currentValue) === num;
+        const isNorm = normDayValue === num;
         return h(
           'button',
           {
@@ -176,7 +223,7 @@ export function CalendarSettingsHomePage1({
             type: 'button',
             onClick: () => onSelect(num),
             className:
-              'w-10 h-10 rounded-xl font-black text-sm flex items-center justify-center cursor-pointer transition-transform active:scale-95',
+              'min-w-[38px] h-10 px-2 rounded-xl font-black text-xs sm:text-sm flex flex-col items-center justify-center cursor-pointer transition-transform active:scale-95',
             style: {
               backgroundColor: active ? rgbaColor : '#FFFFFF',
               border: active ? '2.5px solid #000000' : `1.5px solid ${borderColor}`,
@@ -184,7 +231,13 @@ export function CalendarSettingsHomePage1({
               boxShadow: active ? '0 2px 6px rgba(0,0,0,0.16)' : 'none'
             }
           },
-          formatDigitsForLang(num)
+          h('span', { className: 'leading-none' }, formatDigitsForLang(num)),
+          isNorm &&
+            h(
+              'span',
+              { className: 'text-[8px] font-extrabold uppercase tracking-tighter text-black/75 leading-none mt-0.5' },
+              ct('normTagShort', 'norm')
+            )
         );
       }),
       h(
@@ -638,18 +691,77 @@ export function CalendarSettingsHomePage1({
               'Darker red bar spanning from your first day through your last day of period.'
             )
           ),
-          renderOneToSevenSelector(
+          renderPhaseDaysSelector(
             periodDays,
             (num) => {
               setPeriodDays(num);
-              persistPartialOrFullSettings({ periodDays: num });
+              if (autoBaselinePhases) {
+                const base = getBaselineCyclePhaseDurations(num);
+                setFollicularDays(base.FollicularPhaseDuration1);
+                setOvulatoryDays(base.OvulatoryPhaseDuration1);
+                setLutealDays(base.LutealPhaseDuration1);
+                persistPartialOrFullSettings({
+                  periodDays: num,
+                  follicularDays: base.FollicularPhaseDuration1,
+                  ovulatoryDays: base.OvulatoryPhaseDuration1,
+                  lutealDays: base.LutealPhaseDuration1
+                });
+              } else {
+                persistPartialOrFullSettings({ periodDays: num });
+              }
             },
             CYCLE_PHASE_DEFINITIONS[1].rgbaFill,
-            CYCLE_PHASE_DEFINITIONS[1].borderHex
+            CYCLE_PHASE_DEFINITIONS[1].borderHex,
+            [1, 2, 3, 4, 5, 6, 7],
+            5
           )
         ),
 
-        // 3. FollicularPhaseDuration1 (1–7 Days Customizable — Orange)
+        // Auto-Baseline Guesstimate Info Banner + Reset to Baseline Button
+        h(
+          'div',
+          {
+            className:
+              'p-4 rounded-2xl border-2 border-black bg-[#FFF5FA] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3'
+          },
+          h(
+            'div',
+            { className: 'space-y-0.5' },
+            h(
+              'div',
+              { className: 'text-xs sm:text-sm font-black text-[#9F133A] flex items-center gap-1.5' },
+              h('span', null, '✨'),
+              h(
+                'span',
+                null,
+                ct(
+                  'autoBaselineBannerTitle',
+                  'Automatic Norm / Baseline Cycle Guesstimate'
+                )
+              )
+            ),
+            h(
+              'p',
+              { className: 'text-xs font-semibold text-black/80 leading-snug' },
+              ct(
+                'autoBaselineBannerDesc',
+                'Based on when your period occurred, the system automatically fills in the normal baseline guesstimate for the rest of your phases (Follicular, Ovulatory & Luteal for a ~28-day cycle). You can still edit any phase below!'
+              )
+            )
+          ),
+          h(
+            'button',
+            {
+              type: 'button',
+              onClick: handleResetPhasesToNormBaseline,
+              className:
+                'shrink-0 px-3 py-1.5 rounded-xl border-2 border-black bg-white hover:bg-black/5 text-xs font-extrabold text-black cursor-pointer transition-transform active:scale-95 shadow-sm'
+            },
+            ct('resetToBaselineBtn', 'Reset to Norm Baseline')
+          )
+        ),
+
+        // 3. FollicularPhaseDuration1 (Editable with Norm Baseline Auto-Filled — Orange)
         h(
           'div',
           {
@@ -658,15 +770,26 @@ export function CalendarSettingsHomePage1({
           },
           h(
             'div',
-            { className: 'flex items-center gap-2.5' },
-            h('span', {
-              className: 'w-6 h-6 rounded-md border-2 border-black shrink-0',
-              style: { backgroundColor: CYCLE_PHASE_DEFINITIONS[2].rgbaFill }
-            }),
+            { className: 'flex items-center justify-between gap-2 flex-wrap' },
             h(
-              'label',
-              { className: 'text-sm sm:text-base font-black text-black' },
-              ct('follicularLabel', 'Follicular Phase (1–7 Days Customizable)')
+              'div',
+              { className: 'flex items-center gap-2.5' },
+              h('span', {
+                className: 'w-6 h-6 rounded-md border-2 border-black shrink-0',
+                style: { backgroundColor: CYCLE_PHASE_DEFINITIONS[2].rgbaFill }
+              }),
+              h(
+                'label',
+                { className: 'text-sm sm:text-base font-black text-black' },
+                ct('follicularLabel', 'Follicular Phase (Auto-Guesstimated & Editable)')
+              )
+            ),
+            h(
+              'span',
+              { className: 'px-2 py-0.5 rounded-full border border-black/40 bg-[#FFF3E0] text-[11px] font-extrabold text-black' },
+              `${ct('normGuesstimateTag', 'Norm Guesstimate')}: ${formatDigitsForLang(
+                getBaselineCyclePhaseDurations(periodDays).FollicularPhaseDuration1
+              )} ${ct('daysUnit', 'days')}`
             )
           ),
           h(
@@ -677,18 +800,21 @@ export function CalendarSettingsHomePage1({
               'Warm orange translucent bar following your period as an egg matures.'
             )
           ),
-          renderOneToSevenSelector(
+          renderPhaseDaysSelector(
             follicularDays,
             (num) => {
+              setAutoBaselinePhases(false);
               setFollicularDays(num);
-              persistPartialOrFullSettings({ follicularDays: num });
+              persistPartialOrFullSettings({ autoBaselinePhases: false, follicularDays: num });
             },
             CYCLE_PHASE_DEFINITIONS[2].rgbaFill,
-            CYCLE_PHASE_DEFINITIONS[2].borderHex
+            CYCLE_PHASE_DEFINITIONS[2].borderHex,
+            [4, 5, 6, 7, 8, 9, 10, 11, 12],
+            getBaselineCyclePhaseDurations(periodDays).FollicularPhaseDuration1
           )
         ),
 
-        // 4. OvulatoryPhaseDuration1 (1–7 Days Customizable — Pinkish-Red)
+        // 4. OvulatoryPhaseDuration1 (Editable with Norm Baseline Auto-Filled — Pinkish-Red)
         h(
           'div',
           {
@@ -697,15 +823,24 @@ export function CalendarSettingsHomePage1({
           },
           h(
             'div',
-            { className: 'flex items-center gap-2.5' },
-            h('span', {
-              className: 'w-6 h-6 rounded-md border-2 border-black shrink-0',
-              style: { backgroundColor: CYCLE_PHASE_DEFINITIONS[3].rgbaFill }
-            }),
+            { className: 'flex items-center justify-between gap-2 flex-wrap' },
             h(
-              'label',
-              { className: 'text-sm sm:text-base font-black text-black' },
-              ct('ovulatoryLabel', 'Ovulatory Phase (1–7 Days Customizable)')
+              'div',
+              { className: 'flex items-center gap-2.5' },
+              h('span', {
+                className: 'w-6 h-6 rounded-md border-2 border-black shrink-0',
+                style: { backgroundColor: CYCLE_PHASE_DEFINITIONS[3].rgbaFill }
+              }),
+              h(
+                'label',
+                { className: 'text-sm sm:text-base font-black text-black' },
+                ct('ovulatoryLabel', 'Ovulatory Phase (Auto-Guesstimated & Editable)')
+              )
+            ),
+            h(
+              'span',
+              { className: 'px-2 py-0.5 rounded-full border border-black/40 bg-[#FCE4EC] text-[11px] font-extrabold text-black' },
+              `${ct('normGuesstimateTag', 'Norm Guesstimate')}: ${formatDigitsForLang(3)} ${ct('daysUnit', 'days')}`
             )
           ),
           h(
@@ -716,18 +851,21 @@ export function CalendarSettingsHomePage1({
               'Pinkish-red translucent bar marking your fertile ovulation window.'
             )
           ),
-          renderOneToSevenSelector(
+          renderPhaseDaysSelector(
             ovulatoryDays,
             (num) => {
+              setAutoBaselinePhases(false);
               setOvulatoryDays(num);
-              persistPartialOrFullSettings({ ovulatoryDays: num });
+              persistPartialOrFullSettings({ autoBaselinePhases: false, ovulatoryDays: num });
             },
             CYCLE_PHASE_DEFINITIONS[3].rgbaFill,
-            CYCLE_PHASE_DEFINITIONS[3].borderHex
+            CYCLE_PHASE_DEFINITIONS[3].borderHex,
+            [1, 2, 3, 4, 5, 6],
+            3
           )
         ),
 
-        // 5. LutealPhaseDuration1 (1–7 Days Customizable — Darkest Pink)
+        // 5. LutealPhaseDuration1 (Editable with Norm Baseline Auto-Filled — Darkest Pink)
         h(
           'div',
           {
@@ -736,15 +874,24 @@ export function CalendarSettingsHomePage1({
           },
           h(
             'div',
-            { className: 'flex items-center gap-2.5' },
-            h('span', {
-              className: 'w-6 h-6 rounded-md border-2 border-black shrink-0',
-              style: { backgroundColor: CYCLE_PHASE_DEFINITIONS[4].rgbaFill }
-            }),
+            { className: 'flex items-center justify-between gap-2 flex-wrap' },
             h(
-              'label',
-              { className: 'text-sm sm:text-base font-black text-black' },
-              ct('lutealLabel', 'Luteal Phase (1–7 Days Customizable)')
+              'div',
+              { className: 'flex items-center gap-2.5' },
+              h('span', {
+                className: 'w-6 h-6 rounded-md border-2 border-black shrink-0',
+                style: { backgroundColor: CYCLE_PHASE_DEFINITIONS[4].rgbaFill }
+              }),
+              h(
+                'label',
+                { className: 'text-sm sm:text-base font-black text-black' },
+                ct('lutealLabel', 'Luteal Phase (Auto-Guesstimated & Editable)')
+              )
+            ),
+            h(
+              'span',
+              { className: 'px-2 py-0.5 rounded-full border border-black/40 bg-[#F8BBD0] text-[11px] font-extrabold text-black' },
+              `${ct('normGuesstimateTag', 'Norm Guesstimate')}: ${formatDigitsForLang(12)} ${ct('daysUnit', 'days')}`
             )
           ),
           h(
@@ -755,14 +902,17 @@ export function CalendarSettingsHomePage1({
               'Darkest pink translucent bar after ovulation until the next cycle begins.'
             )
           ),
-          renderOneToSevenSelector(
+          renderPhaseDaysSelector(
             lutealDays,
             (num) => {
+              setAutoBaselinePhases(false);
               setLutealDays(num);
-              persistPartialOrFullSettings({ lutealDays: num });
+              persistPartialOrFullSettings({ autoBaselinePhases: false, lutealDays: num });
             },
             CYCLE_PHASE_DEFINITIONS[4].rgbaFill,
-            CYCLE_PHASE_DEFINITIONS[4].borderHex
+            CYCLE_PHASE_DEFINITIONS[4].borderHex,
+            [8, 9, 10, 11, 12, 13, 14, 15, 16],
+            12
           )
         ),
 

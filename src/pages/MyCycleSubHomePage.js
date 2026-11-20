@@ -1,13 +1,13 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=235';
-import { isRtlLanguage } from '../data/translations.js?v=235';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=236';
+import { isRtlLanguage } from '../data/translations.js?v=236';
 import {
   CYCLE_PHASE_DEFINITIONS,
   getCycleCalText,
   formatMonthYearForLang,
   getPhasesForDate,
   loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=235';
+} from '../data/cycleCalendarData.js?v=236';
 
 const h = React.createElement;
 
@@ -907,8 +907,8 @@ export default function MyCycleSubHomePage({
 
         // ====================================================================
         // LEFT COLUMN:
-        //   1. Period Products Big Bubble
-        //   2. Directly Below It: Period Blood Colors Bubble
+        //   Period Blood Colors Bubble (since Period Products moved to the top
+        //   of FirstPeriodHomePage "I got my first period!")
         // ====================================================================
         h(
           'div',
@@ -917,150 +917,7 @@ export default function MyCycleSubHomePage({
             className: 'w-full lg:flex-1 flex flex-col gap-6 min-w-0'
           },
 
-          // 1. PERIOD PRODUCTS BIG BUBBLE (Top overhanging pill title: "Period Products")
-          h(
-            'div',
-            {
-              id: 'PeriodProductsBigBubble1',
-              'data-piece-name': 'PeriodProductsBigBubble1',
-              className: 'w-full flex flex-col items-stretch'
-            },
-            // Overhanging top pill bar: "Period Products"
-            h(
-              'div',
-              {
-                className:
-                  'w-full px-4 py-2 rounded-2xl border-[2.5px] border-black bg-white shadow-sm z-10 flex items-center justify-center text-center',
-                style: { marginBottom: '-8px' }
-              },
-              h(
-                'span',
-                { className: 'text-sm sm:text-base font-extrabold text-black leading-tight' },
-                tr('periodProductsBubbleTitle', 'Period Products')
-              )
-            ),
-            // Main rounded body of Period Products bubble
-            h(
-              'div',
-              {
-                className:
-                  'w-full rounded-[32px] border-[2.5px] border-black bg-[#FFF9FC] pt-5 pb-5 px-4 sm:px-5 shadow-md flex flex-col gap-4'
-              },
-              // Product selector pills
-              h(
-                'div',
-                { className: 'flex flex-wrap items-center gap-2' },
-                periodProductsList.map((prod) => {
-                  const isSelected = prod.id === activeProduct.id;
-                  return h(
-                    'button',
-                    {
-                      key: prod.id,
-                      type: 'button',
-                      onClick: () => setSelectedProductId(prod.id),
-                      className:
-                        'px-3 py-1.5 rounded-full border-2 border-black text-xs font-extrabold cursor-pointer transition-transform active:scale-95',
-                      style: {
-                        backgroundColor: isSelected ? '#9F133A' : '#FFFFFF',
-                        color: isSelected ? '#FFFFFF' : '#000000'
-                      }
-                    },
-                    prod.tabLabel
-                  );
-                })
-              ),
-
-              // Product illustration box + Simple 5th-grade step-by-step instructions
-              h(
-                'div',
-                { className: 'flex flex-col sm:flex-row items-center sm:items-stretch gap-4' },
-                // Cartoon illustration card
-                h(
-                  'div',
-                  {
-                    className:
-                      'w-full sm:w-40 shrink-0 p-3 rounded-2xl border-2 border-black bg-[#FFE4EF] flex flex-col items-center justify-center text-center gap-1.5'
-                  },
-                  renderPeriodProductIllustrationSvg(activeProduct.id),
-                  h(
-                    'span',
-                    { className: 'text-[11px] font-black text-[#9F133A] leading-tight' },
-                    activeProduct.caption
-                  )
-                ),
-                // Step-by-step simple explanation
-                h(
-                  'div',
-                  { className: 'flex-1 flex flex-col justify-center space-y-2' },
-                  h(
-                    'h3',
-                    { className: 'text-sm sm:text-base font-black text-[#9F133A]' },
-                    activeProduct.heading
-                  ),
-                  h(
-                    'ul',
-                    { className: 'space-y-1.5 text-xs sm:text-[13px] font-bold text-black/90 leading-snug' },
-                    activeProduct.bullets.map((bLine, bIdx) =>
-                      h(
-                        'li',
-                        { key: `prod-b-${bIdx}`, className: 'flex items-start gap-1.5' },
-                        h('span', { className: 'font-black text-[#9F133A] shrink-0' }, '•'),
-                        h('span', null, bLine)
-                      )
-                    )
-                  )
-                )
-              ),
-
-              // First-Time Period Quick Questions inside the Period Products bubble
-              h(
-                'div',
-                {
-                  className: 'p-3.5 rounded-2xl border-2 border-[#9F133A] bg-white space-y-2.5'
-                },
-                h(
-                  'div',
-                  { className: 'text-xs sm:text-sm font-black text-[#9F133A]' },
-                  tr('firstPeriodQuickQuestionsHeader', 'First-Time Period Quick Questions (Tap to Read):')
-                ),
-                h(
-                  'div',
-                  { className: 'flex flex-wrap gap-1.5' },
-                  firstPeriodQuickQuestions.map((item, qIdx) => {
-                    const active = selectedQuickQuestionIdx === qIdx;
-                    return h(
-                      'button',
-                      {
-                        key: `quick-q-${qIdx}`,
-                        type: 'button',
-                        onClick: () => setSelectedQuickQuestionIdx(qIdx),
-                        className:
-                          'px-2.5 py-1 rounded-xl border text-[11px] font-extrabold cursor-pointer transition-colors',
-                        style: {
-                          backgroundColor: active ? '#9F133A' : '#FCE4F4',
-                          borderColor: '#9F133A',
-                          color: active ? '#FFFFFF' : '#9F133A'
-                        }
-                      },
-                      item.q
-                    );
-                  })
-                ),
-                firstPeriodQuickQuestions[selectedQuickQuestionIdx] &&
-                  h(
-                    'p',
-                    {
-                      className:
-                        'text-xs font-bold text-black/90 bg-[#FFF5FA] p-2.5 rounded-xl border border-[#FEACEC] leading-snug'
-                    },
-                    firstPeriodQuickQuestions[selectedQuickQuestionIdx].a
-                  )
-              )
-            )
-          ),
-
-          // 2. DIRECTLY BELOW PERIOD PRODUCTS (ON THE LEFT OF THE CALENDAR):
-          //    DIFFERENT PERIOD BLOOD COLORS IN THAT SAME OVERHANGING-PILL BUBBLE STYLE
+          // DIFFERENT PERIOD BLOOD COLORS IN THE OVERHANGING-PILL BUBBLE STYLE
           h(
             'div',
             {

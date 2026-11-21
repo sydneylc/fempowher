@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=261';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=262';
 
 const h = React.createElement;
 
@@ -437,6 +437,39 @@ function renderHighlightedText(text = '', query = '', matchStartIndexRef = null,
 // - Bottom quick-reference subpage buttons located at the very bottom (opening empty home pages for now)
 // - 100% UserLanguageChoice1 dynamic translation
 // ============================================================================
+const PACKET_LANGUAGE_OPTIONS = [
+  { code: 'en', label: 'English' },
+  { code: 'es', label: 'Español (Spanish)' },
+  { code: 'fr', label: 'Français (French)' },
+  { code: 'ar', label: 'العربية (Arabic)' },
+  { code: 'hi', label: 'हिन्दी (Hindi)' },
+  { code: 'ur', label: 'اردو (Urdu)' },
+  { code: 'bn', label: 'বাংলা (Bengali)' },
+  { code: 'pt', label: 'Português (Portuguese)' },
+  { code: 'sw', label: 'Kiswahili (Swahili)' },
+  { code: 'am', label: 'አማርኛ (Amharic)' },
+  { code: 'ru', label: 'Русский (Russian)' },
+  { code: 'zh-CN', label: '中文 (Chinese)' },
+  { code: 'fa', label: 'فارسی / دری (Persian / Dari)' },
+  { code: 'ps', label: 'پښتو (Pashto)' },
+  { code: 'tr', label: 'Türkçe (Turkish)' },
+  { code: 'id', label: 'Bahasa Indonesia (Indonesian)' },
+  { code: 'vi', label: 'Tiếng Việt (Vietnamese)' },
+  { code: 'tl', label: 'Tagalog (Filipino)' },
+  { code: 'uk', label: 'Українська (Ukrainian)' },
+  { code: 'ha', label: 'Hausa' },
+  { code: 'yo', label: 'Yorùbá (Yoruba)' },
+  { code: 'ig', label: 'Igbo' },
+  { code: 'so', label: 'Soomaali (Somali)' },
+  { code: 'ne', label: 'नेपाली (Nepali)' },
+  { code: 'my', label: 'မြန်မာ (Burmese)' },
+  { code: 'th', label: 'ไทย (Thai)' },
+  { code: 'ko', label: '한국어 (Korean)' },
+  { code: 'ja', label: '日本語 (Japanese)' },
+  { code: 'de', label: 'Deutsch (German)' },
+  { code: 'it', label: 'Italiano (Italian)' }
+];
+
 export function IamPregALHomePageStyle({
   pageId,
   title,
@@ -450,6 +483,7 @@ export function IamPregALHomePageStyle({
     inkColor: '#4A0E24',
     timelineLine: '#F4A2C6'
   },
+  showPacketLanguageBar = false,
   onBack,
   UserLanguageChoice1 = null,
   lang = 'en',
@@ -461,15 +495,19 @@ export function IamPregALHomePageStyle({
   const [totalMatches, setTotalMatches] = useState(0);
   const [activeEmptySubPage, setActiveEmptySubPage] = useState(null);
   const [translatedMap, setTranslatedMap] = useState({});
+  const [packetLangOverride, setPacketLangOverride] = useState('');
 
   const pageRootRef = useRef(null);
   const sectionRefs = useRef({});
 
-  const activeCode =
+  const baseActiveCode =
     (UserLanguageChoice1 && typeof UserLanguageChoice1 === 'object' && UserLanguageChoice1.code) ||
     lang ||
     'en';
-  const tlTarget = resolveTranslateTargetCode(activeCode, UserLanguageChoice1);
+  const activeCode = packetLangOverride || baseActiveCode;
+  const tlTarget = packetLangOverride
+    ? packetLangOverride
+    : resolveTranslateTargetCode(baseActiveCode, UserLanguageChoice1);
   const rtl = isRtlLanguage(activeCode, UserLanguageChoice1?.writtenLanguage);
 
   // Live UserLanguageChoice1 translation for all headings, long paragraphs, Key pills, and bottom buttons
@@ -502,6 +540,8 @@ export function IamPregALHomePageStyle({
     addP('Topics Key');
     addP('Jump to topic in page:');
     addP('Search keyword in page...');
+    addP('Translate Packet Language:');
+    addP('Download / Save Packet in My Language');
     sections.forEach((sec) => {
       addP(sec.keyLabel);
       addP(sec.heading);
@@ -574,8 +614,24 @@ export function IamPregALHomePageStyle({
     }
   }, [searchQuery, activeMatchIndex, translatedMap]);
 
-  // If user clicked one of the bottom subpage buttons, render its Empty Home Page with Back button
+  // If user clicked one of the bottom subpage buttons:
+  // - If it has its own `sections`, render a full IamPregALHomePageStyle page (with optional Packet Language & Download Bar)!
+  // - Otherwise render its Empty Home Page with Back button.
   if (activeEmptySubPage) {
+    if (Array.isArray(activeEmptySubPage.sections) && activeEmptySubPage.sections.length > 0) {
+      return h(IamPregALHomePageStyle, {
+        pageId: activeEmptySubPage.pageId,
+        title: activeEmptySubPage.title,
+        sections: activeEmptySubPage.sections,
+        bottomSubPages: activeEmptySubPage.bottomSubPages || [],
+        palette: activeEmptySubPage.palette || palette,
+        showPacketLanguageBar: Boolean(activeEmptySubPage.showPacketLanguageBar),
+        onBack: () => setActiveEmptySubPage(null),
+        UserLanguageChoice1,
+        lang,
+        t
+      });
+    }
     return h(
       'div',
       {
@@ -614,6 +670,45 @@ export function IamPregALHomePageStyle({
       )
     );
   }
+
+  const handleDownloadTranslatedPacket = () => {
+    const docTitle = trPhrase(title);
+    const dirAttr = rtl ? 'rtl' : 'ltr';
+    const sectionsHtml = sections
+      .map(
+        (sec) => `
+        <section style="margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid ${palette.timelineLine};">
+          <h2 style="color:${palette.headerDark};font-size:20px;margin-bottom:10px;">${trPhrase(sec.heading)}</h2>
+          ${(sec.paragraphs || [])
+            .map((p) => `<p style="color:${palette.inkColor};font-size:15px;line-height:1.65;margin-bottom:10px;">${trPhrase(p)}</p>`)
+            .join('')}
+        </section>`
+      )
+      .join('');
+    const htmlContent = `<!DOCTYPE html>
+<html lang="${tlTarget || 'en'}" dir="${dirAttr}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${docTitle}</title>
+</head>
+<body style="font-family:system-ui,-apple-system,sans-serif;background:${palette.pageBg};color:${palette.inkColor};max-width:780px;margin:0 auto;padding:28px;">
+  <h1 style="color:${palette.headerDark};font-size:28px;border-bottom:3px solid ${palette.accentMedium};padding-bottom:12px;">${docTitle}</h1>
+  ${sectionsHtml}
+</body>
+</html>`;
+    try {
+      const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `FemPowHer_Patient_Packet_${tlTarget || 'en'}.html`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (e) {}
+  };
 
   const matchCounterRef = { current: 0 };
 
@@ -670,7 +765,63 @@ export function IamPregALHomePageStyle({
               style: { color: palette.headerDark }
             },
             renderHighlightedText(trPhrase(title), searchQuery, matchCounterRef, activeMatchIndex)
-          )
+          ),
+          showPacketLanguageBar &&
+            h(
+              'div',
+              {
+                className:
+                  'w-full p-3.5 rounded-2xl flex flex-wrap items-center justify-between gap-3 shadow-sm mt-2',
+                style: {
+                  backgroundColor: palette.tintLight,
+                  border: `2px solid ${palette.accentMedium}`
+                }
+              },
+              h(
+                'div',
+                { className: 'flex flex-wrap items-center gap-2' },
+                h(
+                  'label',
+                  {
+                    htmlFor: `${pageId}-packet-lang-select`,
+                    className: 'text-xs sm:text-sm font-black',
+                    style: { color: palette.headerDark }
+                  },
+                  trPhrase('Translate Packet Language:')
+                ),
+                h(
+                  'select',
+                  {
+                    id: `${pageId}-packet-lang-select`,
+                    value: packetLangOverride || tlTarget || 'en',
+                    onChange: (e) => setPacketLangOverride(e.target.value),
+                    className:
+                      'px-3 py-1.5 rounded-full text-xs sm:text-sm font-extrabold bg-white cursor-pointer focus:outline-none shadow-sm',
+                    style: {
+                      color: palette.headerDark,
+                      border: `1.5px solid ${palette.headerDark}`
+                    }
+                  },
+                  PACKET_LANGUAGE_OPTIONS.map((opt) =>
+                    h('option', { key: opt.code, value: opt.code }, opt.label)
+                  )
+                )
+              ),
+              h(
+                'button',
+                {
+                  type: 'button',
+                  onClick: handleDownloadTranslatedPacket,
+                  className:
+                    'px-4 py-1.5 rounded-full text-xs sm:text-sm font-black transition hover:opacity-95 cursor-pointer shadow-sm',
+                  style: {
+                    backgroundColor: palette.headerDark,
+                    color: '#FFFFFF'
+                  }
+                },
+                trPhrase('Download / Save Packet in My Language')
+              )
+            )
         ),
 
         // Right side: Top-Right Key Symbol Button + Search Bar Underneath + Collapsible Unnumbered Topics Tray

@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=261';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=261';
+} from './PregnancyHomePage.js?v=262';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=262';
 
 const h = React.createElement;
 
@@ -376,14 +376,85 @@ export default function AbortionsHomePage1({
       ],
       bottomSubPages: [
         {
+          pageId: 'AbortionSelfCarePatientPacketHomePage1',
+          title: 'Open & Translate Patient Information Packet (Self-Care Medical Abortion Checklist)',
+          subtitle: 'Step-by-step before, during, and after patient checklist with instant language translation and offline download',
+          showPacketLanguageBar: true,
+          palette: {
+            pageBg: '#FFFAFC',
+            headerDark: '#9F133A',
+            accentMedium: '#CF366C',
+            tintLight: '#FFE4F0',
+            inkColor: '#4A0E24',
+            timelineLine: '#F4A2C6'
+          },
+          sections: [
+            {
+              id: 'packet-part1-before-eligibility-checklist',
+              keyLabel: 'Before: Eligibility Checklist',
+              heading: 'Before Taking Medication Abortion Pills: Self-Assessment Eligibility Checklist',
+              gifSrc: null,
+              cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+              paragraphs: [
+                'Global self-care guidelines allow a woman in the first 12 weeks of pregnancy to safely self-manage a medication abortion at home when she checks four simple questions first. Count how many weeks pregnant you are starting from the first day of your last normal menstrual period (LMP). If it has been 12 weeks (84 days) or less since your last period started, check the four safety questions below:',
+                '1. Do you currently have an IUD (intrauterine device or coil) inside your womb? If yes, a nurse, midwife, or doctor must remove the IUD before you take abortion pills. 2. Do you have sharp, one-sided lower belly pain or unusual spotting that could be an ectopic pregnancy (a pregnancy growing in a Fallopian tube outside the womb)? If yes, get checked at a clinic first because pills do not empty a pregnancy outside the womb.',
+                '3. Do you have an inherited bleeding disorder, severe anemia, or take prescription blood-thinning medicine? 4. Do you have chronic adrenal gland failure, take long-term corticosteroid medicine, or have an allergy to mifepristone or misoprostol? If you answered NO to all four questions and you are under 12 weeks pregnant, medication abortion at home is medically safe for you. If you answered YES to any question or are 12 weeks pregnant or more, receive your care inside a clinic or hospital.'
+              ]
+            },
+            {
+              id: 'packet-part2-how-to-take-pills-checklist',
+              keyLabel: 'During: Pill Dosing Checklist',
+              heading: 'How to Take Mifepristone and Misoprostol Tablets Step by Step (Under 12 Weeks)',
+              gifSrc: null,
+              cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+              paragraphs: [
+                'Option A (Two-Medicine Packet: Mifepristone + Misoprostol): Step 1: Swallow 1 tablet of mifepristone (200 mg) with clean water. Step 2: Wait 24 to 48 hours (1 to 2 days). Step 3: Take 4 tablets of misoprostol (200 micrograms each, which equals 800 micrograms total) all at the same time in one of three ways: hold all 4 tablets under your tongue for 30 minutes (sublingual), hold them between your lower cheek and gum for 30 minutes (buccal), or place them deep inside the vagina and lie down for 30 minutes. After 30 minutes, swallow any remaining pill pieces with water. If you are between 10 and 12 weeks pregnant and bleeding has not started within 4 hours, take a second dose of 4 misoprostol tablets.',
+                'Option B (Misoprostol-Only Packet, when mifepristone is not available): Take 4 tablets of misoprostol (200 micrograms each = 800 micrograms total) held under your tongue, inside your cheek, or in the vagina for 30 minutes, and swallow any remaining pieces. Wait 3 hours, then take another 4 tablets of misoprostol the same way. Wait another 3 hours, and take a third dose of 4 tablets (12 tablets total over 6 hours).',
+                'What to do if you vomit: If you throw up within 30 to 45 minutes of swallowing mifepristone or while holding misoprostol in your mouth, the medicine may not have absorbed and the dose may need to be repeated. If you throw up more than 45 minutes later, the medicine is already in your bloodstream. Take ibuprofen (400 mg to 800 mg) for cramps when you take misoprostol or when cramping begins (do not take aspirin because it increases bleeding).'
+              ]
+            },
+            {
+              id: 'packet-part3-what-to-expect-bleeding',
+              keyLabel: 'What to Expect as Womb Empties',
+              heading: 'What Normal Cramping, Bleeding, and Pill Side Effects Feel Like',
+              gifSrc: null,
+              cartoonRenderer: () => renderWarmComfortRecoveryCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+              paragraphs: [
+                'Cramping and vaginal bleeding usually begin 1 to 4 hours after taking misoprostol. For 4 to 6 hours, bleeding will be heavier than a normal period and you will pass blood clots as the womb pushes out the pregnancy lining. Once the pregnancy passes, cramps ease and bleeding slows down.',
+                'On the day you take misoprostol, the medicine can cause temporary side effects for a few hours, including chills or shivering, a mild low fever, nausea, loose stools, or tiredness. These medicine effects disappear within 24 hours.',
+                'Lighter period-like bleeding or brown spotting normally continues on and off for 1 to 3 weeks. Use clean sanitary pads or clean cloths, drink plenty of clean water, eat iron-rich foods, and do not douche or put soaps or herbs inside the vagina.'
+              ]
+            },
+            {
+              id: 'packet-part4-completeness-self-check',
+              keyLabel: 'After: 4-Question Completeness Check',
+              heading: 'Self-Assessing That the Abortion Is Complete (4-Question Patient Checklist)',
+              gifSrc: null,
+              cartoonRenderer: () => renderSafeMedicalCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+              paragraphs: [
+                'Global self-care guidelines confirm that you do not need a routine clinic ultrasound after an uncomplicated early medication abortion if you can answer YES to these four self-check questions:',
+                '1. Did you have bleeding as heavy as or heavier than a normal period along with cramps after taking misoprostol? 2. Have your bleeding and cramps slowed down since the heaviest hours passed? 3. Have your pregnancy symptoms (morning sickness, nausea, tender breasts) gone away within 1 to 2 weeks? 4. Is a home urine pregnancy test negative when taken 3 to 4 weeks after the abortion?',
+                'Remember that a standard home urine pregnancy test taken too early (only 1 or 2 weeks after an abortion) often shows a false positive because leftover pregnancy hormone takes 3 to 4 weeks to leave your urine. If you answered NO to any of the four questions above, visit a clinic or midwife to check if the pregnancy is still growing or if tissue remains in the womb.'
+              ]
+            },
+            {
+              id: 'packet-part5-emergency-signs-and-contraception',
+              keyLabel: 'Emergency Red Flags & Contraception',
+              heading: 'Emergency Danger Signs Checklist and Starting Contraception',
+              gifSrc: null,
+              cartoonRenderer: () => renderEmergencyCrossShieldCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+              paragraphs: [
+                'Go to an emergency hospital or clinic on your FemPowHer map immediately if you have any of these four red-flag danger signs: 1. Heavy bleeding that completely soaks through 2 full-sized sanitary pads an hour for 2 hours in a row (4 soaked pads in 2 hours) or feeling dizzy and faint. 2. A fever of 100.4°F (38°C) or higher that lasts more than 24 hours after taking misoprostol, or any fever that starts in the days after your abortion. 3. Severe belly pain that does not get better after taking ibuprofen. 4. Bad-smelling or pus-like vaginal discharge.',
+                'Medical privacy fact at the hospital: A medication abortion taken by mouth or under the tongue looks 100% identical to a natural miscarriage on every ultrasound, physical exam, and blood or urine test, and receives the exact same treatment (Post-Abortion Care).',
+                'Return of ovulation and starting birth control: Your ovaries can release a new egg (ovulate) just 8 to 14 days after an abortion, before your next period comes in 4 to 6 weeks. You can start birth control pills, injections, the arm implant, patches, rings, or condoms on the very same day you take your abortion pills.'
+              ]
+            }
+          ]
+        },
+        {
           pageId: 'AbortionTypesDetailedGuideHomePage1',
           title: 'Types of Abortions',
           subtitle: 'Induced, therapeutic, medication, Karman vacuum aspiration, D&E, D&C, and spontaneous types'
-        },
-        {
-          pageId: 'AbortionSafeVsUnsafeLinkHomePage1',
-          title: 'Safe and Unsafe Abortion Care',
-          subtitle: 'What makes abortion care medically safe under 12 weeks and over 12 weeks'
         }
       ]
     },
@@ -427,12 +498,12 @@ export default function AbortionsHomePage1({
         {
           id: 'safety-under-twelve-vs-over-twelve-weeks',
           keyLabel: 'Under 12 Weeks vs. Over 12 Weeks',
-          heading: 'How Safety Needs Change After 12 to 14 Weeks of Pregnancy',
+          heading: 'Self-Care Eligibility Under 12 Weeks vs. Clinical Care Over 12 Weeks',
           gifSrc: null,
           cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'During the first 12 weeks of pregnancy, the embryo and placenta are very small, so medication abortion tablets can be safely taken at home or outside a clinic when a woman has quality pills, clear instructions, and a way to reach a hospital if needed.',
-            'Once a pregnancy is past 12 to 14 weeks, the fetus and placenta are larger and the womb has a much richer blood supply. Because of this, safe abortion after 12 weeks takes place inside a clinic or hospital where trained clinicians prepare the cervix gently, use the right second-trimester medicine doses (which are actually smaller, repeated doses of misoprostol every 3 hours so the larger womb does not contract too violently), or perform a Dilation and Evacuation (D&E) procedure.',
+            'During the first 12 weeks of pregnancy, the embryo and placenta are very small, so medication abortion tablets can be safely self-managed at home or outside a clinic as long as four safety checks are met: 1. You do not currently have an IUD inside your womb (if you do, a clinician must remove the IUD before you take abortion pills). 2. You do not have sharp one-sided lower belly pain or signs of an ectopic pregnancy in a Fallopian tube. 3. You do not have a severe bleeding disorder, severe anemia, or take prescription blood-thinning medicine. 4. You do not have chronic adrenal failure, take long-term steroid medication, or have an allergy to mifepristone or misoprostol.',
+            'Once a pregnancy is past 12 to 14 weeks, the fetus and placenta are larger and the womb has a much richer blood supply. Because of this, safe abortion after 12 weeks takes place inside a clinic or hospital where trained clinicians prepare the cervix gently, use the right second-trimester medicine doses (smaller, repeated doses of misoprostol every 3 hours so the larger womb does not contract too violently), or perform a Dilation and Evacuation (D&E) procedure.',
             'In a later-pregnancy medication abortion inside a clinic, a nurse or midwife also watches closely to make sure both the fetus and the entire placenta pass completely so heavy bleeding does not occur.'
           ]
         },
@@ -495,7 +566,7 @@ export default function AbortionsHomePage1({
           cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
           paragraphs: [
             'A medication abortion uses prescription tablets to empty the womb without surgical instruments. The most effective method combines mifepristone (200 mg swallowed with water to block the hormone progesterone) followed 24 to 48 hours later by misoprostol (which softens the cervix and makes the womb contract). Where mifepristone is unavailable, a misoprostol-only regimen is also recommended.',
-            'If you are under 12 weeks pregnant: 24 to 48 hours after swallowing mifepristone, you take a single dose of 4 misoprostol tablets (800 micrograms total) held under the tongue, inside the cheek, or placed vaginally for 30 minutes. Cramping and bleeding usually start within 1 to 4 hours and empty the womb in 4 to 6 hours (at 10 to 12 weeks, a second dose of misoprostol is sometimes taken 3 to 4 hours later if needed). If using misoprostol alone under 12 weeks, 4 tablets (800 micrograms) are taken every 3 hours until the pregnancy passes.',
+            'If you are under 12 weeks pregnant: 24 to 48 hours after swallowing mifepristone, you take a single dose of 4 misoprostol tablets (200 micrograms each = 800 micrograms total) held under the tongue, inside the cheek, or placed deep in the vagina for 30 minutes, then swallow any remaining pieces with water. Cramping and bleeding usually start within 1 to 4 hours and empty the womb in 4 to 6 hours (at 10 to 12 weeks, a second dose of misoprostol is sometimes taken 3 to 4 hours later if needed). If using misoprostol alone under 12 weeks, 4 tablets (800 micrograms) are taken every 3 hours (usually 3 doses total) until the pregnancy passes. If you throw up within 30 to 45 minutes of swallowing mifepristone or while holding misoprostol in your mouth, the dose may need to be repeated; after 45 minutes, the medicine is already absorbed.',
             'If you are 12 weeks pregnant or more: medication abortion is still a safe, effective option, but the dosing is different and takes place in a clinic or hospital. After taking mifepristone 24 to 48 hours earlier, smaller doses of misoprostol (400 micrograms, which is 2 tablets) are given every 3 hours under medical supervision until the womb contracts in a mini-labor and delivers both the fetus and the placenta.'
           ]
         },
@@ -624,14 +695,14 @@ export default function AbortionsHomePage1({
         },
         {
           id: 'when-pregnancy-test-turns-negative',
-          keyLabel: 'Follow-Up & Tests',
-          heading: 'When to Take a Follow-Up Pregnancy Test',
+          keyLabel: '4-Question Completeness Check',
+          heading: 'Self-Assessing That Your Abortion Is Complete and When to Take a Pregnancy Test',
           gifSrc: null,
           cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#CCFBF1', '#0F766E', '#0D9488'),
           paragraphs: [
-            'Even after a pregnancy has ended completely, the pregnancy hormone hCG takes several weeks to clear out of your bloodstream and urine. Because standard home urine pregnancy tests are very sensitive, taking a urine test 1 or 2 weeks after an abortion will often still show a positive line even when the abortion worked completely.',
-            'Unless a clinic checks your blood hormone levels earlier, wait about 3 to 4 weeks after a medication abortion before taking a standard home urine pregnancy test to confirm it has turned negative.',
-            'If your urine pregnancy test is still positive 4 weeks after an abortion, or if you still feel pregnant with morning sickness and sore breasts, visit a local clinic or midwife on your FemPowHer map for an evaluation.'
+            'Global self-care guidelines use a simple 4-question checklist to help you confirm that an early medication abortion is complete: 1. Did you have bleeding as heavy as or heavier than a normal period along with cramps after taking misoprostol? 2. Have your bleeding and cramps slowed down since the pregnancy passed? 3. Have your pregnancy symptoms (morning sickness, nausea, tender breasts) gone away within 1 to 2 weeks? 4. Is a home urine pregnancy test negative 3 to 4 weeks later?',
+            'Even after a pregnancy has ended completely, the pregnancy hormone hCG takes several weeks to clear out of your bloodstream and urine. Because standard home urine pregnancy tests are very sensitive, taking a urine test 1 or 2 weeks after an abortion will often still show a positive line even when the abortion worked completely. Wait about 3 to 4 weeks before taking a standard home urine pregnancy test.',
+            'If you answer YES to all four checklist questions above, you do not need a routine follow-up ultrasound unless you want one. If your urine pregnancy test is still positive 4 weeks after an abortion, or if you had no bleeding or still feel pregnant, visit a local clinic or midwife on your FemPowHer map for an evaluation.'
           ]
         }
       ],

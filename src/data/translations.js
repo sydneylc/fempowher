@@ -1162,7 +1162,7 @@ export const UI_TEXT = {
     childbirthBtnCSection: 'C-Section',
     childbirthBtnDangerSigns: 'Emergency Signs in Labor',
     shBtnWhatIsSex: 'What is sex?',
-    shBtnFirstTimeSex: 'I just had sex for the first time!',
+    shBtnFirstTimeSex: 'I had sex for the first time!',
     shBtnDontWantSex: 'I don’t want to have sex.',
     shBtnPainDuringSex: 'Sex hurts!',
     stdMenuBtnWhatAre: 'STDs (Jouno Bemari) ki ar nijore kemne hifazot gorí?',

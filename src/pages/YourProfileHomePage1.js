@@ -1,14 +1,93 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { isRtlLanguage } from '../data/translations.js?v=282';
+import { isRtlLanguage } from '../data/translations.js?v=283';
 import {
   renderGearHeartIcon,
   encryptCycleDataWithPassword,
   decryptCycleDataWithPassword,
   hashAccountCredential,
   isAnonymousCycleUser
-} from '../data/cycleCalendarData.js?v=282';
+} from '../data/cycleCalendarData.js?v=283';
 
 const h = React.createElement;
+
+// Option 1 Custom Cartoon Neon-Pink Padlock with Heart Keyhole (No emojis!)
+export function renderNeonPinkHeartLockIcon(size = 22) {
+  return h(
+    'svg',
+    {
+      width: size,
+      height: size,
+      viewBox: '0 0 100 100',
+      fill: 'none',
+      xmlns: 'http://www.w3.org/2000/svg',
+      'aria-hidden': 'true',
+      className: 'shrink-0 inline-block',
+      style: {
+        filter: 'drop-shadow(0 0 4px rgba(255, 30, 142, 0.55))'
+      }
+    },
+    // Outer U-shackle arch in pastel pink with bold black cartoon outline
+    h('path', {
+      d: 'M31 44 V29 C31 17.5 40 10 50 10 C60 10 69 17.5 69 29 V44 H59 V29 C59 23 55 19.5 50 19.5 C45 19.5 41 23 41 29 V44 Z',
+      fill: '#FFD1EC',
+      stroke: '#000000',
+      strokeWidth: '5.5',
+      strokeLinejoin: 'round'
+    }),
+    // Chubby cartoon neon-pink padlock body
+    h('rect', {
+      x: '18',
+      y: '39',
+      width: '64',
+      height: '51',
+      rx: '16',
+      fill: '#FF1E8E',
+      stroke: '#000000',
+      strokeWidth: '5.5'
+    }),
+    // Inner bright neon pink highlight body
+    h('rect', {
+      x: '22.5',
+      y: '43.5',
+      width: '55',
+      height: '42',
+      rx: '12',
+      fill: '#FF3FA4'
+    }),
+    // Cartoon glossy white shine pill + dot on top-left
+    h('rect', {
+      x: '27',
+      y: '47.5',
+      width: '15',
+      height: '5',
+      rx: '2.5',
+      fill: '#FFFFFF'
+    }),
+    h('circle', {
+      cx: '46.5',
+      cy: '50',
+      r: '2.5',
+      fill: '#FFFFFF'
+    }),
+    // Keyhole slot below heart
+    h('rect', {
+      x: '47',
+      y: '66',
+      width: '6',
+      height: '13',
+      rx: '3',
+      fill: '#111111'
+    }),
+    // Center Heart Keyhole with white rim + black heart center (exact Option 1 design!)
+    h('path', {
+      d: 'M50 70.5 C50 70.5 39.5 63.5 39.5 57.2 C39.5 53.6 42.3 51.2 45.5 51.2 C47.5 51.2 49.1 52.3 50 53.8 C50.9 52.3 52.5 51.2 54.5 51.2 C57.7 51.2 60.5 53.6 60.5 57.2 C60.5 63.5 50 70.5 50 70.5 Z',
+      fill: '#111111',
+      stroke: '#FFFFFF',
+      strokeWidth: '2.4',
+      strokeLinejoin: 'round'
+    })
+  );
+}
 
 // Clickable Star SVG that turns bright yellow (#FACC15) when favorited
 function renderFavoriteStarIcon(isFavorited, onClickStar) {
@@ -537,8 +616,9 @@ export default function YourProfileHomePage1({
           { className: 'flex items-center justify-between gap-2 flex-wrap border-b-2 border-black pb-3' },
           h(
             'h2',
-            { className: 'text-lg sm:text-xl font-black text-[#9F133A]' },
-            `🔒 ${UserNameChoiceInsert1}'s Health Documents`
+            { className: 'text-lg sm:text-xl font-black text-[#9F133A] flex items-center gap-2' },
+            renderNeonPinkHeartLockIcon(26),
+            h('span', null, `${UserNameChoiceInsert1}'s Health Documents`)
           ),
           h(
             'button',
@@ -619,14 +699,19 @@ export default function YourProfileHomePage1({
             {
               type: 'submit',
               className:
-                'w-full py-3.5 px-5 rounded-2xl border-2 border-black text-white font-black text-sm sm:text-base shadow-md cursor-pointer transition-transform active:scale-98',
+                'w-full py-3.5 px-5 rounded-2xl border-2 border-black text-white font-black text-sm sm:text-base shadow-md cursor-pointer transition-transform active:scale-98 flex items-center justify-center gap-2.5',
               style: {
                 background: 'linear-gradient(135deg, #9F133A 0%, #CF366C 100%)'
               }
             },
-            storedDocsPassHash
-              ? tr('unlockHealthDocsBtn', '🔓 Unlock Health Documents')
-              : tr('setPasswordAndOpenBtn', '🔒 Set Password & Open Health Documents')
+            renderNeonPinkHeartLockIcon(24),
+            h(
+              'span',
+              null,
+              storedDocsPassHash
+                ? tr('unlockHealthDocsBtn', 'Unlock Health Documents')
+                : tr('setPasswordAndOpenBtn', 'Set Password & Open Health Documents')
+            )
           )
         )
       )
@@ -723,9 +808,10 @@ export default function YourProfileHomePage1({
                 setProfileSubPage('main');
               },
               className:
-                'px-3.5 py-1.5 rounded-xl border-2 border-black bg-[#FFF0FA] hover:bg-[#FCE4F4] text-xs font-black text-[#9F133A] cursor-pointer'
+                'px-3.5 py-1.5 rounded-xl border-2 border-black bg-[#FFF0FA] hover:bg-[#FCE4F4] text-xs font-black text-[#9F133A] cursor-pointer inline-flex items-center gap-2'
             },
-            `🔒 ${tr('lockAndBackBtn', 'Lock & Back to Profile')}`
+            renderNeonPinkHeartLockIcon(20),
+            h('span', null, tr('lockAndBackBtn', 'Lock & Back to Profile'))
           )
         ),
 
@@ -833,7 +919,7 @@ export default function YourProfileHomePage1({
                     background: 'linear-gradient(135deg, #9F133A 0%, #CF366C 100%)'
                   }
                 },
-                h('span', null, '📎'),
+                h('span', null, '+'),
                 h('span', null, tr('uploadFileOrPhotoBtn', 'Upload Document / Photo')),
                 h('input', {
                   type: 'file',
@@ -1207,9 +1293,10 @@ export default function YourProfileHomePage1({
           'div',
           {
             className:
-              'inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full border border-black bg-[#FFF0FA] text-[11px] font-black text-[#9F133A]'
+              'inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-black bg-[#FFF0FA] text-[11px] font-black text-[#9F133A]'
           },
-          '🔒 Password Always Required to Open'
+          renderNeonPinkHeartLockIcon(18),
+          h('span', null, 'Password Always Required to Open')
         )
       ),
 
@@ -1244,7 +1331,7 @@ export default function YourProfileHomePage1({
                 cat.label
               )
             ),
-            h('span', { className: 'text-sm font-black text-[#9F133A] shrink-0' }, '🔒')
+            renderNeonPinkHeartLockIcon(24)
           );
         })
       )

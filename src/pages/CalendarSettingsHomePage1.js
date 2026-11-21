@@ -1,6 +1,6 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=282';
-import { isRtlLanguage } from '../data/translations.js?v=282';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=283';
+import { isRtlLanguage } from '../data/translations.js?v=283';
 import {
   CYCLE_PHASE_DEFINITIONS,
   FERTILITY_GREEN_OVERLAY_DEFINITION,
@@ -13,7 +13,7 @@ import {
   loadUserCycleCalendarState,
   saveUserCycleCalendarState,
   renderGearHeartIcon
-} from '../data/cycleCalendarData.js?v=282';
+} from '../data/cycleCalendarData.js?v=283';
 
 const h = React.createElement;
 

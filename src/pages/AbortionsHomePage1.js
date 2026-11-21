@@ -2,9 +2,9 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=282';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=282';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=282';
+} from './PregnancyHomePage.js?v=283';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=283';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=283';
 
 const h = React.createElement;
 
@@ -219,7 +219,7 @@ export default function AbortionsHomePage1({
     {
       id: 'abortion-what-is',
       label: tr('abortionBtnWhatIs', 'What Is an Abortion?'),
-      gifSrc: './assets/abortion-what-is.gif?v=282',
+      gifSrc: './assets/abortion-what-is.gif?v=283',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -239,7 +239,7 @@ export default function AbortionsHomePage1({
     {
       id: 'abortion-safe-and-unsafe',
       label: tr('abortionBtnSafeAndUnsafe', 'Safe and Unsafe Abortion Care'),
-      gifSrc: './assets/abortion-safe-and-unsafe.gif?v=282',
+      gifSrc: './assets/abortion-safe-and-unsafe.gif?v=283',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -257,16 +257,37 @@ export default function AbortionsHomePage1({
       }
     },
     {
+      id: 'abortion-map',
+      label: tr('abortionBtnMap', "FemPowHer's Abortion Map"),
+      gifSrc: './assets/abortion-map-earth.gif?v=283',
+      fallbackGifSrc: './assets/planet-earth-blowing-kiss.gif?v=283',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 3: Medium Periwinkle-Lavender (#6366F1) — switched with What Are My Options? and placed above it as a full-width button!
+      backgroundStyle: {
+        backgroundColor: '#6366F1',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(30, 27, 75, 0.76)'
+      }
+    },
+    {
       id: 'abortion-options',
       label: tr('abortionBtnOptions', 'What Are My Options?'),
-      gifSrc: './assets/abortion-options.gif?v=282',
+      gifSrc: './assets/abortion-options.gif?v=283',
       imgClassName:
-        'h-[108%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none',
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
-        marginLeft: '-56px',
-        marginRight: '-56px'
+        marginLeft: '-48px',
+        marginRight: '-48px'
       },
-      // Tone 3A (Left Half): Soft Periwinkle Blue (#818CF8) — flat solid color, no white line
+      // Tone 4: Soft Periwinkle Blue (#818CF8) — full-width button directly below FemPowHer's Abortion Map
       backgroundStyle: {
         backgroundColor: '#818CF8',
         border: 'none'
@@ -274,26 +295,12 @@ export default function AbortionsHomePage1({
       textStyle: {
         color: '#FFFFFF',
         textShadow: '0 2px 10px rgba(30, 27, 75, 0.72)'
-      },
-      splitRightButton: {
-        id: 'abortion-map',
-        label: tr('abortionBtnMap', "FemPowHer's Abortion Map"),
-        gifSrc: null,
-        // Tone 3B (Right Half — NO GIF as requested): Medium Periwinkle-Lavender (#6366F1)
-        backgroundStyle: {
-          backgroundColor: '#6366F1',
-          border: 'none'
-        },
-        textStyle: {
-          color: '#FFFFFF',
-          textShadow: '0 2px 10px rgba(30, 27, 75, 0.76)'
-        }
       }
     },
     {
       id: 'abortion-recovery',
       label: tr('abortionBtnRecovery', 'I Just Had an Abortion: What Is Happening to My Body?'),
-      gifSrc: './assets/abortion-recovery.gif?v=282',
+      gifSrc: './assets/abortion-recovery.gif?v=283',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -313,7 +320,7 @@ export default function AbortionsHomePage1({
     {
       id: 'abortion-emergency-care',
       label: tr('abortionBtnEmergencyCare', 'Emergency Post-Abortion Care & Danger Signs'),
-      gifSrc: './assets/abortion-emergency-care.gif?v=282',
+      gifSrc: './assets/abortion-emergency-care.gif?v=283',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -333,7 +340,7 @@ export default function AbortionsHomePage1({
     {
       id: 'abortion-emotions-and-fertility',
       label: tr('abortionBtnEmotionsFertility', 'Emotional Care, Privacy & My Future Fertility'),
-      gifSrc: './assets/abortion-emotions-fertility.gif?v=282',
+      gifSrc: './assets/abortion-emotions-fertility.gif?v=283',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {

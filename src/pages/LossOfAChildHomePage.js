@@ -2,9 +2,9 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=282';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=282';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=282';
+} from './PregnancyHomePage.js?v=283';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=283';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=283';
 
 const h = React.createElement;
 
@@ -252,7 +252,7 @@ export default function LossOfAChildHomePage({
       id: 'loss-miscarriage',
       label: tr('lossBtnMiscarriage', 'I’ve Had a Miscarriage'),
       targetPage: 'MiscarriageHomePage',
-      gifSrc: './assets/loss-hub-miscarriage.gif?v=282',
+      gifSrc: './assets/loss-hub-miscarriage.gif?v=283',
       gifAlt: 'Woman in an olive-and-sand military soldier uniform and beret placing one hand over her heart and the other over her womb with a falling tear and memorial blossom',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC4E0 100%)',
@@ -266,7 +266,7 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-stillbirth',
       label: tr('lossBtnStillbirth', 'I’ve Had a Stillbirth'),
-      gifSrc: './assets/loss-hub-stillbirth.gif?v=282',
+      gifSrc: './assets/loss-hub-stillbirth.gif?v=283',
       gifAlt: 'Middle Eastern woman in a plum-indigo hijab and modest gloves holding a white keepsake card with two tiny baby footprints while a white butterfly drifts upward',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB8D8 0%, #F472B6 100%)',
@@ -280,7 +280,7 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-infant',
       label: tr('lossBtnLostInfant', 'I’ve Lost an Infant'),
-      gifSrc: './assets/loss-hub-infant.gif?v=282',
+      gifSrc: './assets/loss-hub-infant.gif?v=283',
       gifAlt: 'Southeast Asian woman with a low side bun and jade hairpin cradling a folded baby blanket and tiny blue infant booties',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
@@ -294,7 +294,7 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-child',
       label: tr('lossBtnLostChild', 'I’ve Lost My Child'),
-      gifSrc: './assets/loss-hub-child.gif?v=282',
+      gifSrc: './assets/loss-hub-child.gif?v=283',
       gifAlt: 'Afro-Latina / West African mother with textured dark afro puffs and a gold headband hugging her child’s beloved teddy bear',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
@@ -309,7 +309,7 @@ export default function LossOfAChildHomePage({
       id: 'loss-pregnant-after-loss',
       label: tr('lossBtnPregnantAfterLoss', 'I Am Pregnant After a Loss'),
       targetPage: 'PregnancyAfterLossHomePage',
-      gifSrc: './assets/loss-hub-pregnant-after-loss.gif?v=282',
+      gifSrc: './assets/loss-hub-pregnant-after-loss.gif?v=283',
       gifAlt: 'Visibly pregnant Indigenous Andean woman with twin braids looking anxious and worried with a forehead sweat drop while clutching her belly beside a rainbow and heart badge',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',

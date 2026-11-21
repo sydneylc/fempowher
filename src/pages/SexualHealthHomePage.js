@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=258';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=258';
+} from './PregnancyHomePage.js?v=259';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=259';
 import {
   renderCervixPapScreenCartoonSvg,
   renderCleanWaterHydrationCartoonSvg,
@@ -11,7 +11,7 @@ import {
   renderPrepPepShieldCartoonSvg,
   renderSwabAndNoAlcoholCartoonSvg,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=258';
+} from './FlyerCartoonIllustrations.js?v=259';
 
 const h = React.createElement;
 
@@ -34,17 +34,18 @@ export default function SexualHealthHomePage({
     return t[key] || fallback;
   };
 
-  // 5 First-Person MakingGifButtons1 Sexual Health Buttons
+  // 6 First-Person MakingGifButtons1 Sexual Health Buttons
   // 1. What is sex?
-  // 2. I just had sex for the first time! (includes cultural destigmatization of virginity & the hymen)
-  // 3. I don't want to have sex.
-  // 4. Sex hurts!
-  // 5. STDs (Sexually Transmitted Diseases) -> with animated sexual-health-stds.gif leading to STDMenuHomePage
+  // 2. Contraception
+  // 3. I just had sex for the first time! (includes cultural destigmatization of virginity & the hymen)
+  // 4. I don't want to have sex.
+  // 5. Sex hurts!
+  // 6. STDs (Sexually Transmitted Diseases) -> with animated sexual-health-stds.gif leading to STDMenuHomePage
   const sexualHealthBannerButtons = [
     {
       id: 'sh-what-is-sex',
       label: tr('shBtnWhatIsSex', 'What is sex?'),
-      gifSrc: './assets/sh-what-is-sex.gif?v=258',
+      gifSrc: './assets/sh-what-is-sex.gif?v=259',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -52,7 +53,20 @@ export default function SexualHealthHomePage({
         marginRight: '-48px'
       },
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC8E2 100%)',
+        background: 'linear-gradient(180deg, #FFF0F7 0%, #FFD4EA 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+      }
+    },
+    {
+      id: 'sh-contraception',
+      label: tr('shBtnContraception', 'Contraception'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #FFD4EA 0%, #FFA8D2 100%)',
         border: 'none'
       },
       textStyle: {
@@ -63,7 +77,7 @@ export default function SexualHealthHomePage({
     {
       id: 'sh-first-time-sex',
       label: tr('shBtnFirstTimeSex', 'I just had sex for the first time!'),
-      gifSrc: './assets/sh-first-time-sex.gif?v=258',
+      gifSrc: './assets/sh-first-time-sex.gif?v=259',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -71,7 +85,7 @@ export default function SexualHealthHomePage({
         marginRight: '-52px'
       },
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFB8D9 0%, #F472B6 100%)',
+        background: 'linear-gradient(180deg, #FFA8D2 0%, #F472B6 100%)',
         border: 'none'
       },
       textStyle: {
@@ -82,7 +96,7 @@ export default function SexualHealthHomePage({
     {
       id: 'sh-dont-want-sex',
       label: tr('shBtnDontWantSex', 'I don’t want to have sex.'),
-      gifSrc: './assets/sh-dont-want-sex.gif?v=258',
+      gifSrc: './assets/sh-dont-want-sex.gif?v=259',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -101,7 +115,7 @@ export default function SexualHealthHomePage({
     {
       id: 'sh-pain-during-sex',
       label: tr('shBtnPainDuringSex', 'Sex hurts!'),
-      gifSrc: './assets/sh-pain-during-sex.gif?v=258',
+      gifSrc: './assets/sh-pain-during-sex.gif?v=259',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -122,7 +136,7 @@ export default function SexualHealthHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=258',
+      gifSrc: './assets/sexual-health-stds.gif?v=259',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -148,7 +162,7 @@ export default function SexualHealthHomePage({
     'sh-what-is-sex': {
       pageId: 'WhatIsSexHomePage1',
       title: tr('shBtnWhatIsSex', 'What is sex?'),
-      gifSrc: './assets/sh-what-is-sex.gif?v=258',
+      gifSrc: './assets/sh-what-is-sex.gif?v=259',
       bgGradient: 'linear-gradient(180deg, #E11D48 0%, #BE123C 100%)',
       bgColor: '#D41742',
       titleTintColor: '#FFC9D6',
@@ -171,10 +185,44 @@ export default function SexualHealthHomePage({
         }
       ]
     },
+    'sh-contraception': {
+      pageId: 'SexualHealthContraceptionHomePage1',
+      title: tr('shBtnContraception', 'Contraception'),
+      gifSrc: null,
+      bgGradient: 'linear-gradient(180deg, #9F133A 0%, #7C1040 100%)',
+      bgColor: '#8E1138',
+      titleTintColor: '#FFD6EA',
+      sections: [
+        {
+          id: 'barrier-methods-and-dual-protection',
+          heading: 'Barrier Contraception (External & Internal Condoms for Pregnancy + STD Protection)',
+          stickerLabel: 'PrEP & PEP PREVENTION',
+          graphicRenderer: (sticker) => renderPrepPepShieldCartoonSvg(sticker),
+          body:
+            'External (male) condoms and internal (female) condoms are the only contraceptive methods that protect against both unintended pregnancy and sexually transmitted infections (STDs), including HIV, chlamydia, gonorrhea, and trichomoniasis. Many women use "dual protection," pairing a condom with a highly effective hormonal method or IUD.'
+        },
+        {
+          id: 'hormonal-and-long-acting-contraception',
+          heading: 'Hormonal Methods & Long-Acting Reversible Contraception (IUDs & Implants)',
+          stickerLabel: 'TREAT BOTH PARTNERS',
+          graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
+          body:
+            'Long-Acting Reversible Contraception (LARC), including the small flexible arm implant and hormonal or copper intrauterine devices (IUDs), are over 99% effective for 3 to 10 years and your fertility returns quickly as soon as they are removed. Short-acting hormonal options include daily birth control pills, the 3-month contraceptive injection, the weekly skin patch, and the monthly vaginal ring.'
+        },
+        {
+          id: 'emergency-contraception-overview',
+          heading: 'Emergency Contraception (After Unprotected Sex or a Broken Condom)',
+          stickerLabel: 'PAP & HPV SCREENING',
+          graphicRenderer: (sticker) => renderCervixPapScreenCartoonSvg(sticker),
+          body:
+            'If a condom breaks, you miss birth control pills, or you have unprotected sex, emergency contraceptive pills (morning-after pills) can prevent pregnancy by delaying ovulation when taken within 3 to 5 days (the sooner the better), or a Copper or hormonal IUD can be placed at a clinic within 5 days for over 99% emergency protection.'
+        }
+      ]
+    },
     'sh-first-time-sex': {
       pageId: 'FirstTimeSexHomePage1',
       title: tr('shBtnFirstTimeSex', 'I just had sex for the first time!'),
-      gifSrc: './assets/sh-first-time-sex.gif?v=258',
+      gifSrc: './assets/sh-first-time-sex.gif?v=259',
       bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
       bgColor: '#6D28D9',
       titleTintColor: '#EDE9FE',
@@ -216,7 +264,7 @@ export default function SexualHealthHomePage({
     'sh-dont-want-sex': {
       pageId: 'DontWantSexHomePage1',
       title: tr('shBtnDontWantSex', 'I don’t want to have sex.'),
-      gifSrc: './assets/sh-dont-want-sex.gif?v=258',
+      gifSrc: './assets/sh-dont-want-sex.gif?v=259',
       bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
       bgColor: '#0E857B',
       titleTintColor: '#CCFBF1',
@@ -242,7 +290,7 @@ export default function SexualHealthHomePage({
     'sh-pain-during-sex': {
       pageId: 'PainDuringSexHomePage1',
       title: tr('shBtnPainDuringSex', 'Sex hurts!'),
-      gifSrc: './assets/sh-pain-during-sex.gif?v=258',
+      gifSrc: './assets/sh-pain-during-sex.gif?v=259',
       bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1D4ED8 100%)',
       bgColor: '#2057E0',
       titleTintColor: '#CFE2FF',
@@ -312,8 +360,6 @@ export default function SexualHealthHomePage({
     ),
     h(MakingGifButtons1, {
       sections: sexualHealthBannerButtons,
-      containerClassName: 'flex-1 w-full grid',
-      containerStyle: { gridTemplateRows: 'repeat(4, minmax(160px, 1fr)) 220px' },
       onSelectSection: (sec) => {
         if (sec.targetPage && onNavigateEducationPage) {
           onNavigateEducationPage(sec.targetPage);

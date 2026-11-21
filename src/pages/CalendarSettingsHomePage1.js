@@ -1,30 +1,33 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=273';
-import { isRtlLanguage } from '../data/translations.js?v=273';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=277';
+import { isRtlLanguage } from '../data/translations.js?v=277';
 import {
   CYCLE_PHASE_DEFINITIONS,
+  FERTILITY_GREEN_OVERLAY_DEFINITION,
   createBlankCycleCalendarState,
+  computeAdaptiveCyclePrediction,
   getBaselineCyclePhaseDurations,
   formatMonthYearForLang,
   getCycleCalText,
+  isAnonymousCycleUser,
   loadUserCycleCalendarState,
   saveUserCycleCalendarState,
   renderGearHeartIcon
-} from '../data/cycleCalendarData.js?v=273';
+} from '../data/cycleCalendarData.js?v=277';
 
 const h = React.createElement;
 
 // ============================================================================
 // CalendarSettingsHomePage1 (also exported as CalenderSettingsHomePage1)
 // Editable Settings Page for a user's Cycle Calendar:
-// - All words/titles are subject to UserLanguageChoice1.
-// - Lets the user configure:
-//   1. FirstDayOfPeriod1 (Bright Red — First day of period reported by user)
-//   2. PeriodDaysDuration1 (Darker Red — 1–7 days of period customizable)
-//   3. FollicularPhaseDuration1 (Orange — 1–7 days customizable)
-//   4. OvulatoryPhaseDuration1 (Pinkish-Red — 1–7 days customizable)
-//   5. LutealPhaseDuration1 (Darkest Pink — 1–7 days customizable)
-// - Defaults to blank (`hasEnteredCycleData: false`) until the user saves.
+// - Section 1: Menstrual Cycle (Automatic main cycle frame + EWMA cycle prediction)
+//   - Ovulatory Phase includes starred subheading:
+//     "★ Easiest time to get pregnant (Most fertile window)"
+// - Section 2: Trying to Get Pregnant (Fertility) with opt-in checkmark
+//   - Enables green fertility highlight over ovulation window on the calendar
+//   - Enables the interactive 4-Phase Cycle & Fertility Wheel in the Calendar Key
+//   - Includes customizable widgets for Most Likely Fertile Days, Exact Ovulation Day,
+//     Could Still Be Fertile After Ovulation, and Unlikely to Get Pregnant days.
 // ============================================================================
 export function CalendarSettingsHomePage1({
   onBack,
@@ -38,12 +41,23 @@ export function CalendarSettingsHomePage1({
 }) {
   const ct = getCycleCalText(lang, UserLanguageChoice1);
   const isRtl = isRtlLanguage(lang);
+  const isAnonUser = isAnonymousCycleUser(UserNameChoiceInsert1);
 
   const initial = cycleCalendarState || loadUserCycleCalendarState(UserNameChoiceInsert1);
 
+  const [optInEncryptedStorage, setOptInEncryptedStorage] = useState(
+    initial.optInEncryptedStorage !== false
+  );
   const [passwordEnabled, setPasswordEnabled] = useState(Boolean(initial.calendarPasswordEnabled));
   const [calendarPassword, setCalendarPassword] = useState(initial.calendarPassword || '');
   const [firstDay, setFirstDay] = useState(initial.FirstDayOfPeriod1 || '');
+  const [periodHistoryDates, setPeriodHistoryDates] = useState(() => {
+    const arr = Array.isArray(initial.periodHistoryDates) ? [...initial.periodHistoryDates] : [];
+    if (initial.FirstDayOfPeriod1 && !arr.includes(initial.FirstDayOfPeriod1)) {
+      arr.push(initial.FirstDayOfPeriod1);
+    }
+    return arr.sort();
+  });
   const [autoBaselinePhases, setAutoBaselinePhases] = useState(
     initial.autoBaselinePhases !== false
   );
@@ -55,7 +69,24 @@ export function CalendarSettingsHomePage1({
     initial.repeatsOverAndOver !== false
   );
 
-  // Interactive clickable calendar picker inside FirstDayOfPeriod1 so clicking always opens a calendar
+  // Section 2: Opt-in "Trying to Get Pregnant (Fertility)" state
+  const [fertilityTrackingEnabled, setFertilityTrackingEnabled] = useState(
+    Boolean(initial.fertilityTrackingEnabled)
+  );
+  const [fertileWindowDays, setFertileWindowDays] = useState(
+    Number(initial.FertileWindowDays1) || 5
+  );
+  const [exactOvulationDays, setExactOvulationDays] = useState(
+    Number(initial.ExactOvulationDays1) || 1
+  );
+  const [postOvulationFertileDays, setPostOvulationFertileDays] = useState(
+    Number(initial.PostOvulationFertileDays1) ?? 1
+  );
+  const [showInfertileDaysOnWheel, setShowInfertileDaysOnWheel] = useState(
+    initial.showInfertileDaysOnWheel !== false
+  );
+
+  // Interactive clickable calendar picker inside FirstDayOfPeriod1
   const nowDate = new Date();
   const parsedFirst = firstDay ? firstDay.split('-').map(Number) : null;
   const [isCalendarPickerOpen, setIsCalendarPickerOpen] = useState(false);
@@ -68,10 +99,24 @@ export function CalendarSettingsHomePage1({
 
   const isCurrentlyBlank = !firstDay && (!initial.hasEnteredCycleData || !initial.FirstDayOfPeriod1);
 
+  const adaptivePrediction = computeAdaptiveCyclePrediction(
+    periodHistoryDates,
+    firstDay,
+    periodDays
+  );
+
   // Auto-persist helper so user's entered dates & settings stay saved unless "Clear Calendar" is clicked
   const persistPartialOrFullSettings = (overrides = {}) => {
+    const nextOptIn =
+      overrides.optInEncryptedStorage !== undefined
+        ? overrides.optInEncryptedStorage
+        : optInEncryptedStorage;
     const nextFirstDay =
       overrides.firstDay !== undefined ? overrides.firstDay : firstDay;
+    const nextHistory =
+      overrides.periodHistoryDates !== undefined
+        ? overrides.periodHistoryDates
+        : periodHistoryDates;
     const nextAutoBaseline =
       overrides.autoBaselinePhases !== undefined
         ? overrides.autoBaselinePhases
@@ -93,19 +138,55 @@ export function CalendarSettingsHomePage1({
         ? overrides.repeatsOverAndOver
         : repeatsOverAndOver;
 
-    const hasData = Boolean(nextFirstDay || initial.hasEnteredCycleData);
+    const nextFertilityEnabled =
+      overrides.fertilityTrackingEnabled !== undefined
+        ? overrides.fertilityTrackingEnabled
+        : fertilityTrackingEnabled;
+    const nextFertileWindowDays =
+      overrides.fertileWindowDays !== undefined
+        ? overrides.fertileWindowDays
+        : fertileWindowDays;
+    const nextExactOvulationDays =
+      overrides.exactOvulationDays !== undefined
+        ? overrides.exactOvulationDays
+        : exactOvulationDays;
+    const nextPostOvulationDays =
+      overrides.postOvulationFertileDays !== undefined
+        ? overrides.postOvulationFertileDays
+        : postOvulationFertileDays;
+    const nextShowInfertile =
+      overrides.showInfertileDaysOnWheel !== undefined
+        ? overrides.showInfertileDaysOnWheel
+        : showInfertileDaysOnWheel;
+
+    const cleanHistorySet = new Set(Array.isArray(nextHistory) ? nextHistory : []);
+    if (nextFirstDay && /^\d{4}-\d{2}-\d{2}$/.test(String(nextFirstDay))) {
+      cleanHistorySet.add(String(nextFirstDay));
+    }
+    const sortedHistory = Array.from(cleanHistorySet).sort();
+    const latestFirstDay =
+      sortedHistory.length > 0 ? sortedHistory[sortedHistory.length - 1] : nextFirstDay || '';
+
+    const hasData = Boolean(latestFirstDay || initial.hasEnteredCycleData);
     const nextState = {
       ...initial,
-      hasEnteredCycleData: hasData && Boolean(nextFirstDay),
+      optInEncryptedStorage: Boolean(nextOptIn),
+      hasEnteredCycleData: hasData && Boolean(latestFirstDay),
       autoBaselinePhases: Boolean(nextAutoBaseline),
       calendarPasswordEnabled: Boolean(nextPasswordEnabled),
       calendarPassword: nextPasswordEnabled ? String(nextCalendarPassword || '') : '',
-      FirstDayOfPeriod1: nextFirstDay || '',
+      FirstDayOfPeriod1: latestFirstDay,
+      periodHistoryDates: sortedHistory,
       PeriodDaysDuration1: Math.max(1, Math.min(10, Number(nextPeriodDays) || 5)),
       FollicularPhaseDuration1: Math.max(1, Math.min(21, Number(nextFollicularDays) || 8)),
       OvulatoryPhaseDuration1: Math.max(1, Math.min(10, Number(nextOvulatoryDays) || 3)),
       LutealPhaseDuration1: Math.max(1, Math.min(21, Number(nextLutealDays) || 12)),
-      repeatsOverAndOver: nextRepeats
+      repeatsOverAndOver: nextRepeats,
+      fertilityTrackingEnabled: Boolean(nextFertilityEnabled),
+      FertileWindowDays1: Math.max(1, Math.min(7, Number(nextFertileWindowDays) || 5)),
+      ExactOvulationDays1: Math.max(1, Math.min(2, Number(nextExactOvulationDays) || 1)),
+      PostOvulationFertileDays1: Math.max(0, Math.min(3, Number(nextPostOvulationDays) ?? 1)),
+      showInfertileDaysOnWheel: Boolean(nextShowInfertile)
     };
     saveUserCycleCalendarState(UserNameChoiceInsert1, nextState);
     if (typeof onUpdateCycleCalendarState === 'function') {
@@ -114,31 +195,72 @@ export function CalendarSettingsHomePage1({
   };
 
   const handleSelectFirstDay = (ymd) => {
-    setFirstDay(ymd);
+    if (!ymd) return;
     const parts = String(ymd || '').split('-').map(Number);
     if (parts.length === 3 && parts[0] && parts[1]) {
       setPickerYear(parts[0]);
       setPickerMonth(parts[1] - 1);
     }
-    // Automatically populate the norm/baseline guesstimate for the rest of the phase times when period date is entered
+
+    // Add to monthly period history so the EWMA cycle algorithm learns across months
+    // (If another date in the exact same month/year within 14 days was tapped, replace that month's entry)
+    const targetUtc = Date.UTC(parts[0], parts[1] - 1, parts[2]);
+    const filteredHistory = periodHistoryDates.filter((existingYmd) => {
+      const ep = String(existingYmd).split('-').map(Number);
+      if (ep.length !== 3) return false;
+      const eUtc = Date.UTC(ep[0], ep[1] - 1, ep[2]);
+      return Math.abs(Math.round((targetUtc - eUtc) / 86400000)) > 14;
+    });
+    const updatedHistory = [...filteredHistory, ymd].sort();
+    const latestYmd = updatedHistory[updatedHistory.length - 1] || ymd;
+
+    setFirstDay(latestYmd);
+    setPeriodHistoryDates(updatedHistory);
+
     if (autoBaselinePhases) {
-      const base = getBaselineCyclePhaseDurations(periodDays);
+      const base = getBaselineCyclePhaseDurations(periodDays, latestYmd, updatedHistory);
       setFollicularDays(base.FollicularPhaseDuration1);
       setOvulatoryDays(base.OvulatoryPhaseDuration1);
       setLutealDays(base.LutealPhaseDuration1);
       persistPartialOrFullSettings({
-        firstDay: ymd,
+        firstDay: latestYmd,
+        periodHistoryDates: updatedHistory,
         follicularDays: base.FollicularPhaseDuration1,
         ovulatoryDays: base.OvulatoryPhaseDuration1,
         lutealDays: base.LutealPhaseDuration1
       });
     } else {
-      persistPartialOrFullSettings({ firstDay: ymd });
+      persistPartialOrFullSettings({
+        firstDay: latestYmd,
+        periodHistoryDates: updatedHistory
+      });
     }
   };
 
+  const handleRemoveHistoryDate = (ymdToRemove) => {
+    const remaining = periodHistoryDates.filter((d) => d !== ymdToRemove).sort();
+    const nextLatest = remaining.length > 0 ? remaining[remaining.length - 1] : '';
+    setPeriodHistoryDates(remaining);
+    setFirstDay(nextLatest);
+    if (!nextLatest) {
+      handleResetToBlank();
+      return;
+    }
+    const base = getBaselineCyclePhaseDurations(periodDays, nextLatest, remaining);
+    if (autoBaselinePhases) {
+      setFollicularDays(base.FollicularPhaseDuration1);
+      setOvulatoryDays(base.OvulatoryPhaseDuration1);
+      setLutealDays(base.LutealPhaseDuration1);
+    }
+    persistPartialOrFullSettings({
+      firstDay: nextLatest,
+      periodHistoryDates: remaining,
+      follicularDays: autoBaselinePhases ? base.FollicularPhaseDuration1 : follicularDays
+    });
+  };
+
   const handleResetPhasesToNormBaseline = () => {
-    const base = getBaselineCyclePhaseDurations(periodDays);
+    const base = getBaselineCyclePhaseDurations(periodDays, firstDay, periodHistoryDates);
     setAutoBaselinePhases(true);
     setFollicularDays(base.FollicularPhaseDuration1);
     setOvulatoryDays(base.OvulatoryPhaseDuration1);
@@ -158,19 +280,28 @@ export function CalendarSettingsHomePage1({
       now.getDate()
     ).padStart(2, '0')}`;
     const chosenFirstDay = firstDay || fallbackDate;
+    const updatedHistory = Array.from(new Set([...periodHistoryDates, chosenFirstDay])).sort();
+    const latestDay = updatedHistory[updatedHistory.length - 1] || chosenFirstDay;
 
     const nextState = {
       ...initial,
+      optInEncryptedStorage: Boolean(optInEncryptedStorage),
       hasEnteredCycleData: true,
       autoBaselinePhases: Boolean(autoBaselinePhases),
       calendarPasswordEnabled: Boolean(passwordEnabled),
       calendarPassword: passwordEnabled ? String(calendarPassword || '') : '',
-      FirstDayOfPeriod1: chosenFirstDay,
+      FirstDayOfPeriod1: latestDay,
+      periodHistoryDates: updatedHistory,
       PeriodDaysDuration1: Math.max(1, Math.min(10, Number(periodDays) || 5)),
       FollicularPhaseDuration1: Math.max(1, Math.min(21, Number(follicularDays) || 8)),
       OvulatoryPhaseDuration1: Math.max(1, Math.min(10, Number(ovulatoryDays) || 3)),
       LutealPhaseDuration1: Math.max(1, Math.min(21, Number(lutealDays) || 12)),
-      repeatsOverAndOver
+      repeatsOverAndOver,
+      fertilityTrackingEnabled: Boolean(fertilityTrackingEnabled),
+      FertileWindowDays1: Math.max(1, Math.min(7, Number(fertileWindowDays) || 5)),
+      ExactOvulationDays1: Math.max(1, Math.min(2, Number(exactOvulationDays) || 1)),
+      PostOvulationFertileDays1: Math.max(0, Math.min(3, Number(postOvulationFertileDays) ?? 1)),
+      showInfertileDaysOnWheel: Boolean(showInfertileDaysOnWheel)
     };
     saveUserCycleCalendarState(UserNameChoiceInsert1, nextState);
     if (typeof onUpdateCycleCalendarState === 'function') {
@@ -186,12 +317,18 @@ export function CalendarSettingsHomePage1({
     setPasswordEnabled(false);
     setCalendarPassword('');
     setFirstDay('');
+    setPeriodHistoryDates([]);
     setAutoBaselinePhases(true);
     setPeriodDays(5);
     setFollicularDays(8);
     setOvulatoryDays(3);
     setLutealDays(12);
     setRepeatsOverAndOver(true);
+    setFertilityTrackingEnabled(false);
+    setFertileWindowDays(5);
+    setExactOvulationDays(1);
+    setPostOvulationFertileDays(1);
+    setShowInfertileDaysOnWheel(true);
     setIsCalendarPickerOpen(false);
     saveUserCycleCalendarState(UserNameChoiceInsert1, blankState);
     if (typeof onUpdateCycleCalendarState === 'function') {
@@ -247,6 +384,12 @@ export function CalendarSettingsHomePage1({
       )
     );
 
+  const baselineFollicularNorm = getBaselineCyclePhaseDurations(
+    periodDays,
+    firstDay,
+    periodHistoryDates
+  ).FollicularPhaseDuration1;
+
   return h(
     'div',
     {
@@ -295,36 +438,84 @@ export function CalendarSettingsHomePage1({
             )
           )
         ),
-        // Status Badge (Blank vs Active)
+        // Status Badge (Anonymous Session vs Encrypted Account vs Blank)
         h(
           'span',
           {
             className: 'px-3 py-1 rounded-full border-2 border-black text-xs font-extrabold',
             style: {
-              backgroundColor: isCurrentlyBlank ? '#FFFFFF' : 'rgba(216, 49, 108, 0.22)'
+              backgroundColor: isAnonUser
+                ? '#FEF3C7'
+                : isCurrentlyBlank
+                ? '#FFFFFF'
+                : 'rgba(216, 49, 108, 0.22)'
             }
           },
-          isCurrentlyBlank
+          isAnonUser
+            ? ct('anonSessionBadge', 'Anonymous Session Only (Erased When You Leave)')
+            : isCurrentlyBlank
             ? ct('blankStatusBadge', 'Currently Blank (No User Data Entered Yet)')
-            : ct('activeStatusBadge', 'Custom Cycle Active on Calendar')
+            : ct('activeStatusBadge', '🔒 Encrypted Custom Cycle Active')
         )
       ),
 
-      h(
-        'p',
-        { className: 'text-xs sm:text-sm font-bold text-black/80 px-1' },
-        ct(
-          'calSettingsSubtitle',
-          'Customize your cycle phases (1–7 days each). All colors are translucent on your calendar so phase transitions & overlaps stay visible.'
-        )
-      ),
+      // Privacy & Encryption Opt-In Notice Card
+      isAnonUser
+        ? h(
+            'div',
+            {
+              className:
+                'p-4 rounded-2xl border-2 border-black bg-[#FFFBEB] text-xs font-bold text-black/90 space-y-1'
+            },
+            h(
+              'div',
+              { className: 'text-sm font-black text-[#92400E]' },
+              '🔒 Anonymous Session Privacy Rule:'
+            ),
+            h(
+              'p',
+              null,
+              'Because you are browsing anonymously, any period date or cycle setting you enter here stays ONLY in your current open session and is automatically erased the second you leave or close this session.'
+            )
+          )
+        : h(
+            'label',
+            {
+              className:
+                'p-4 rounded-2xl border-2 border-black bg-[#F0FDF4] flex items-center justify-between gap-3 cursor-pointer'
+            },
+            h(
+              'div',
+              { className: 'space-y-0.5' },
+              h(
+                'div',
+                { className: 'text-sm font-black text-[#065F46]' },
+                `🔒 Opt-In Password-Encrypted Calendar Storage (${UserNameChoiceInsert1})`
+              ),
+              h(
+                'p',
+                { className: 'text-xs font-bold text-black/80 leading-snug' },
+                'When checked, your reported period dates and cycle settings are encrypted with your account password so they stay saved across future sessions and can only be unlocked when you log in to your account.'
+              )
+            ),
+            h('input', {
+              type: 'checkbox',
+              checked: optInEncryptedStorage,
+              onChange: (e) => {
+                const checked = e.target.checked;
+                setOptInEncryptedStorage(checked);
+                persistPartialOrFullSettings({ optInEncryptedStorage: checked });
+              },
+              className: 'w-5 h-5 accent-[#059669] cursor-pointer shrink-0'
+            })
+          ),
 
       // Editable Phase Cards Form
       h(
         'form',
         { onSubmit: handleSave, className: 'space-y-4' },
 
-        // 0. FIRST BUBBLE: CalendarPasswordSetting1 — "Add a Password" + Apple iOS Green Lever Switch
+        // 0. Extra Calendar Widget Lock Password
         h(
           'div',
           {
@@ -348,19 +539,18 @@ export function CalendarSettingsHomePage1({
                     persistPartialOrFullSettings({ passwordEnabled: nextVal });
                   }
                 },
-                ct('addPasswordLabel', 'Add a Password')
+                ct('addPasswordLabel', 'Add an Extra Calendar Lock Password')
               ),
               h(
                 'p',
                 { className: 'text-xs font-semibold text-black/75 mt-0.5' },
                 ct(
                   'addPasswordDesc',
-                  'Lock your cycle calendar with a password when opening the calendar widget.'
+                  'Lock your cycle calendar with an extra password when opening the calendar widget.'
                 )
               )
             ),
 
-            // Apple-style Toggle Lever Switch (Turns Apple Green #34C759 when clicked ON)
             h(
               'button',
               {
@@ -381,8 +571,7 @@ export function CalendarSettingsHomePage1({
                   backgroundColor: passwordEnabled ? '#34C759' : '#E5E5EA',
                   border: '2px solid #000000',
                   padding: '2px'
-                },
-                title: ct('addPasswordLabel', 'Add a Password')
+                }
               },
               h('span', {
                 className: 'inline-block rounded-full bg-white shadow-md transition-transform duration-200 ease-in-out',
@@ -400,7 +589,6 @@ export function CalendarSettingsHomePage1({
             )
           ),
 
-          // When Apple lever is switched ON (green), reveal the password input box
           passwordEnabled &&
             h(
               'div',
@@ -423,7 +611,43 @@ export function CalendarSettingsHomePage1({
             )
         ),
 
-        // 1. FirstDayOfPeriod1 (Bright Red boxed day + Interactive Clickable Calendar Picker)
+        // ====================================================================
+        // SECTION 1 TITLE: MENSTRUAL CYCLE (Main Automatic Home Frame)
+        // ====================================================================
+        h(
+          'div',
+          {
+            id: 'MenstrualCycleSettingsHeader1',
+            className: 'pt-2 pb-1 px-1 border-b-[2.5px] border-black flex flex-col gap-0.5'
+          },
+          h(
+            'div',
+            { className: 'flex items-center justify-between gap-2 flex-wrap' },
+            h(
+              'h2',
+              { className: 'text-lg sm:text-xl font-black text-[#9F133A] tracking-tight' },
+              ct('menstrualSectionHeader', 'Menstrual Cycle')
+            ),
+            h(
+              'span',
+              {
+                className:
+                  'px-2.5 py-0.5 rounded-full border-2 border-black bg-[#FCE4F4] text-[11px] font-black text-[#9F133A]'
+              },
+              'Main Automatic Cycle Frame ✓'
+            )
+          ),
+          h(
+            'p',
+            { className: 'text-xs font-bold text-black/75' },
+            ct(
+              'menstrualSectionSub',
+              'Main automatic cycle frame on your calendar. As you log more monthly period dates, our cycle algorithm learns your body’s personal rhythm!'
+            )
+          )
+        ),
+
+        // 1. FirstDayOfPeriod1 (Bright Red boxed day + Interactive Calendar Picker + Multi-Month Period History)
         h(
           'div',
           {
@@ -452,7 +676,6 @@ export function CalendarSettingsHomePage1({
             h(
               'div',
               { className: 'flex items-center gap-2 flex-wrap' },
-              // Clickable Calendar Trigger Button that always opens the interactive inline calendar
               h(
                 'button',
                 {
@@ -514,7 +737,74 @@ export function CalendarSettingsHomePage1({
             ct('firstDayDesc', 'Bright red boxed day marking Day 1 of your menstrual bleeding.')
           ),
 
-          // Interactive Inline Month Calendar Picker (Opens when clicking the calendar button or date input)
+          // Logged Monthly Period History & Tentative Next Period Prediction Banner
+          firstDay &&
+            h(
+              'div',
+              {
+                className:
+                  'p-3 rounded-xl border-2 border-black/80 bg-[#FFF5FA] space-y-2'
+              },
+              h(
+                'div',
+                { className: 'flex items-center justify-between gap-2 flex-wrap' },
+                h(
+                  'div',
+                  { className: 'text-xs font-black text-[#9F133A]' },
+                  `📅 Tentative Next Period Prediction: ${formatDigitsForLang(
+                    adaptivePrediction.tentativeNextPeriodDate || '—'
+                  )}`
+                ),
+                h(
+                  'span',
+                  {
+                    className:
+                      'px-2 py-0.5 rounded-full border border-black bg-white text-[10.5px] font-extrabold text-black'
+                  },
+                  adaptivePrediction.validGaps.length > 0
+                    ? `Learned Cycle Rhythm: ${formatDigitsForLang(
+                        adaptivePrediction.predictedCycleLength
+                      )} days (${adaptivePrediction.cyclesLoggedCount} periods logged)`
+                    : `Estimated Cycle: ${formatDigitsForLang(
+                        adaptivePrediction.predictedCycleLength
+                      )} days (Log next month's 1st day to refine!)`
+                )
+              ),
+              periodHistoryDates.length > 0 &&
+                h(
+                  'div',
+                  { className: 'flex items-center gap-1.5 flex-wrap pt-0.5' },
+                  h(
+                    'span',
+                    { className: 'text-[11px] font-extrabold text-black/75' },
+                    'Reported Period 1st Days:'
+                  ),
+                  periodHistoryDates.map((dStr) =>
+                    h(
+                      'span',
+                      {
+                        key: `hist-${dStr}`,
+                        className:
+                          'inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full border border-black bg-white text-[11px] font-black text-black'
+                      },
+                      formatDigitsForLang(dStr),
+                      periodHistoryDates.length > 1 &&
+                        h(
+                          'button',
+                          {
+                            type: 'button',
+                            onClick: () => handleRemoveHistoryDate(dStr),
+                            className: 'text-[#9F133A] hover:text-black font-black cursor-pointer',
+                            title: 'Remove this logged date'
+                          },
+                          '×'
+                        )
+                    )
+                  )
+                )
+            ),
+
+          // Interactive Inline Month Calendar Picker
           isCalendarPickerOpen &&
             (() => {
               const firstOfPickerMonth = new Date(pickerYear, pickerMonth, 1);
@@ -536,7 +826,6 @@ export function CalendarSettingsHomePage1({
                   className:
                     'mt-2 p-3.5 rounded-2xl border-2 border-black bg-[#FFF8FC] shadow-md space-y-2.5'
                 },
-                // Month & Year header inside picker
                 h(
                   'div',
                   { className: 'flex items-center justify-between gap-2' },
@@ -602,7 +891,6 @@ export function CalendarSettingsHomePage1({
                     isRtl ? '‹' : '›'
                   )
                 ),
-                // Weekday headers
                 h(
                   'div',
                   { className: 'grid grid-cols-7 gap-1 text-center' },
@@ -614,7 +902,6 @@ export function CalendarSettingsHomePage1({
                     )
                   )
                 ),
-                // Clickable Day cells
                 h(
                   'div',
                   { className: 'grid grid-cols-7 gap-1' },
@@ -625,7 +912,7 @@ export function CalendarSettingsHomePage1({
                     const ymd = `${pickerYear}-${String(pickerMonth + 1).padStart(2, '0')}-${String(
                       dayNum
                     ).padStart(2, '0')}`;
-                    const isSelectedFirstDay = firstDay === ymd;
+                    const isSelectedFirstDay = firstDay === ymd || periodHistoryDates.includes(ymd);
                     const isTodayCell =
                       pickerYear === nowDate.getFullYear() &&
                       pickerMonth === nowDate.getMonth() &&
@@ -696,7 +983,7 @@ export function CalendarSettingsHomePage1({
             (num) => {
               setPeriodDays(num);
               if (autoBaselinePhases) {
-                const base = getBaselineCyclePhaseDurations(num);
+                const base = getBaselineCyclePhaseDurations(num, firstDay, periodHistoryDates);
                 setFollicularDays(base.FollicularPhaseDuration1);
                 setOvulatoryDays(base.OvulatoryPhaseDuration1);
                 setLutealDays(base.LutealPhaseDuration1);
@@ -717,7 +1004,7 @@ export function CalendarSettingsHomePage1({
           )
         ),
 
-        // Auto-Baseline Guesstimate Info Banner + Reset to Baseline Button
+        // Smart Cycle Algorithm Info Banner + Reset to Smart Estimate Button
         h(
           'div',
           {
@@ -736,7 +1023,7 @@ export function CalendarSettingsHomePage1({
                 null,
                 ct(
                   'autoBaselineBannerTitle',
-                  'Automatic Normal Cycle Estimate'
+                  'Smart Cycle & Next-Period Prediction Algorithm'
                 )
               )
             ),
@@ -745,7 +1032,7 @@ export function CalendarSettingsHomePage1({
               { className: 'text-xs font-semibold text-black/80 leading-snug' },
               ct(
                 'autoBaselineBannerDesc',
-                'Just pick your First Day of Period! The calendar automatically fills in a normal 28-day cycle estimate for the rest of your phases. You can still change any number below anytime.'
+                'Pick your First Day of Period! Our recency-weighted cycle algorithm automatically predicts your tentative next period and adjusts your phases as you log more months.'
               )
             )
           ),
@@ -757,11 +1044,11 @@ export function CalendarSettingsHomePage1({
               className:
                 'shrink-0 px-3 py-1.5 rounded-xl border-2 border-black bg-white hover:bg-black/5 text-xs font-extrabold text-black cursor-pointer transition-transform active:scale-95 shadow-sm'
             },
-            ct('resetToBaselineBtn', 'Reset to Normal Estimate')
+            ct('resetToBaselineBtn', 'Reset to Smart Estimate')
           )
         ),
 
-        // 3. FollicularPhaseDuration1 (Editable with Norm Baseline Auto-Filled — Orange)
+        // 3. FollicularPhaseDuration1 (Editable with Smart Norm Auto-Filled — Orange)
         h(
           'div',
           {
@@ -781,14 +1068,14 @@ export function CalendarSettingsHomePage1({
               h(
                 'label',
                 { className: 'text-sm sm:text-base font-black text-black' },
-                ct('follicularLabel', 'Follicular Phase (Auto-Guesstimated & Editable)')
+                ct('follicularLabel', 'Follicular Phase (1–7+ Days Customizable)')
               )
             ),
             h(
               'span',
               { className: 'px-2 py-0.5 rounded-full border border-black/40 bg-[#FFF3E0] text-[11px] font-extrabold text-black' },
               `${ct('normGuesstimateTag', 'Norm Guesstimate')}: ${formatDigitsForLang(
-                getBaselineCyclePhaseDurations(periodDays).FollicularPhaseDuration1
+                baselineFollicularNorm
               )} ${ct('daysUnit', 'days')}`
             )
           ),
@@ -810,11 +1097,12 @@ export function CalendarSettingsHomePage1({
             CYCLE_PHASE_DEFINITIONS[2].rgbaFill,
             CYCLE_PHASE_DEFINITIONS[2].borderHex,
             [4, 5, 6, 7, 8, 9, 10, 11, 12],
-            getBaselineCyclePhaseDurations(periodDays).FollicularPhaseDuration1
+            baselineFollicularNorm
           )
         ),
 
-        // 4. OvulatoryPhaseDuration1 (Editable with Norm Baseline Auto-Filled — Pinkish-Red)
+        // 4. OvulatoryPhaseDuration1 (Editable with Starred Subheading underneath:
+        //    "★ Easiest time to get pregnant (Most fertile window)")
         h(
           'div',
           {
@@ -826,15 +1114,24 @@ export function CalendarSettingsHomePage1({
             { className: 'flex items-center justify-between gap-2 flex-wrap' },
             h(
               'div',
-              { className: 'flex items-center gap-2.5' },
+              { className: 'flex items-start gap-2.5' },
               h('span', {
-                className: 'w-6 h-6 rounded-md border-2 border-black shrink-0',
+                className: 'w-6 h-6 rounded-md border-2 border-black shrink-0 mt-0.5',
                 style: { backgroundColor: CYCLE_PHASE_DEFINITIONS[3].rgbaFill }
               }),
               h(
-                'label',
-                { className: 'text-sm sm:text-base font-black text-black' },
-                ct('ovulatoryLabel', 'Ovulatory Phase (Auto-Guesstimated & Editable)')
+                'div',
+                { className: 'flex flex-col' },
+                h(
+                  'label',
+                  { className: 'text-sm sm:text-base font-black text-black leading-snug' },
+                  ct('ovulatoryLabel', 'Ovulatory Phase (1–7 Days Customizable)')
+                ),
+                h(
+                  'span',
+                  { className: 'text-xs font-black text-[#9F133A] mt-0.5' },
+                  ct('ovulatoryStarredSub', '★ Easiest time to get pregnant (Most fertile window)')
+                )
               )
             ),
             h(
@@ -885,7 +1182,7 @@ export function CalendarSettingsHomePage1({
               h(
                 'label',
                 { className: 'text-sm sm:text-base font-black text-black' },
-                ct('lutealLabel', 'Luteal Phase (Auto-Guesstimated & Editable)')
+                ct('lutealLabel', 'Luteal Phase (1–7+ Days Customizable)')
               )
             ),
             h(
@@ -916,6 +1213,300 @@ export function CalendarSettingsHomePage1({
           )
         ),
 
+        // ====================================================================
+        // SECTION 2 TITLE + OPT-IN CHECKMARK:
+        // "Trying to Get Pregnant (Fertility)"
+        // When checked:
+        //  1. Reveals the fertility sub-widgets below (modeled on the Ovulation diagrams)
+        //  2. Layers a greenish highlight filter over the ovulation window on the calendar
+        //  3. Places the interactive 4-Phase Cycle & Fertility Wheel at the bottom of the Calendar Key
+        // ====================================================================
+        h(
+          'div',
+          {
+            id: 'TryingToGetPregnantSection1',
+            className: 'pt-4 space-y-3.5'
+          },
+          h(
+            'label',
+            {
+              className:
+                'p-4 rounded-2xl border-[2.5px] border-black flex items-center justify-between gap-3 cursor-pointer shadow-sm transition-colors',
+              style: {
+                backgroundColor: fertilityTrackingEnabled ? '#ECFDF5' : '#FFF9FC'
+              }
+            },
+            h(
+              'div',
+              { className: 'space-y-1 min-w-0' },
+              h(
+                'div',
+                { className: 'flex items-center gap-2 flex-wrap' },
+                h(
+                  'span',
+                  {
+                    className: 'w-5 h-5 rounded-md border-2 border-black shrink-0',
+                    style: { backgroundColor: FERTILITY_GREEN_OVERLAY_DEFINITION.rgbaFill }
+                  }
+                ),
+                h(
+                  'h2',
+                  { className: 'text-lg sm:text-xl font-black text-[#065F46] tracking-tight' },
+                  ct('tryingToGetPregnantHeader', 'Trying to Get Pregnant (Fertility)')
+                )
+              ),
+              h(
+                'div',
+                { className: 'text-xs font-black text-[#9F133A]' },
+                ct('ovulatoryStarredSub', '★ Easiest time to get pregnant (Most fertile window)')
+              ),
+              h(
+                'p',
+                { className: 'text-xs font-bold text-black/80 leading-snug' },
+                ct(
+                  'tryingToGetPregnantSub',
+                  'Check this box to turn on a green fertility highlight over your ovulation window and add the interactive Cycle & Fertility Wheel to your Calendar Key.'
+                )
+              )
+            ),
+            h('input', {
+              type: 'checkbox',
+              checked: fertilityTrackingEnabled,
+              onChange: (e) => {
+                const checked = e.target.checked;
+                setFertilityTrackingEnabled(checked);
+                persistPartialOrFullSettings({ fertilityTrackingEnabled: checked });
+              },
+              className: 'w-6 h-6 accent-[#059669] cursor-pointer shrink-0'
+            })
+          ),
+
+          // Sub-widgets revealed when "Trying to Get Pregnant (Fertility)" is checked!
+          fertilityTrackingEnabled &&
+            h(
+              'div',
+              {
+                className:
+                  'p-4 rounded-3xl border-2 border-black bg-[#F0FDF4] space-y-3.5'
+              },
+              // Sub-Widget 1: Most Likely Days to Get Pregnant (Sperm + Egg Window: Days 10–14 / 8–14)
+              h(
+                'div',
+                {
+                  id: 'FertileWindowDays1',
+                  className: 'p-4 rounded-2xl border-2 border-black bg-white space-y-1.5'
+                },
+                h(
+                  'div',
+                  { className: 'flex items-center justify-between gap-2 flex-wrap' },
+                  h(
+                    'div',
+                    { className: 'flex items-start gap-2.5' },
+                    h('span', {
+                      className: 'w-6 h-6 rounded-md border-2 border-black shrink-0 mt-0.5',
+                      style: { backgroundColor: FERTILITY_GREEN_OVERLAY_DEFINITION.rgbaFill }
+                    }),
+                    h(
+                      'div',
+                      { className: 'flex flex-col' },
+                      h(
+                        'label',
+                        { className: 'text-sm sm:text-base font-black text-black' },
+                        ct(
+                          'fertilityMostLikelyDaysLabel',
+                          'Most Likely Days to Get Pregnant (Sperm + Egg Window)'
+                        )
+                      ),
+                      h(
+                        'span',
+                        { className: 'text-xs font-black text-[#047857]' },
+                        '★ Green fertility highlight on calendar over your ovulation window'
+                      )
+                    )
+                  ),
+                  h(
+                    'span',
+                    {
+                      className:
+                        'px-2 py-0.5 rounded-full border border-black/40 bg-[#D1FAE5] text-[11px] font-extrabold text-black'
+                    },
+                    `${ct('normGuesstimateTag', 'Norm Guesstimate')}: ${formatDigitsForLang(5)} ${ct(
+                      'daysUnit',
+                      'days'
+                    )}`
+                  )
+                ),
+                h(
+                  'p',
+                  { className: 'text-xs font-semibold text-black/75' },
+                  ct(
+                    'fertilityMostLikelyDaysDesc',
+                    'Green highlight over the days leading up to ovulation (sperm can stay alive inside your womb for up to 5 days waiting for the egg).'
+                  )
+                ),
+                renderPhaseDaysSelector(
+                  fertileWindowDays,
+                  (num) => {
+                    setFertileWindowDays(num);
+                    persistPartialOrFullSettings({ fertileWindowDays: num });
+                  },
+                  FERTILITY_GREEN_OVERLAY_DEFINITION.rgbaFill,
+                  FERTILITY_GREEN_OVERLAY_DEFINITION.borderHex,
+                  [3, 4, 5, 6, 7],
+                  5
+                )
+              ),
+
+              // Sub-Widget 2: Exact Ovulation Day (Egg Release Day — Day 14 in average cycle)
+              h(
+                'div',
+                {
+                  id: 'ExactOvulationDays1',
+                  className: 'p-4 rounded-2xl border-2 border-black bg-white space-y-1.5'
+                },
+                h(
+                  'div',
+                  { className: 'flex items-center justify-between gap-2 flex-wrap' },
+                  h(
+                    'div',
+                    { className: 'flex items-start gap-2.5' },
+                    h('span', {
+                      className: 'w-6 h-6 rounded-md border-2 border-black shrink-0 mt-0.5',
+                      style: { backgroundColor: FERTILITY_GREEN_OVERLAY_DEFINITION.peakRgbaFill }
+                    }),
+                    h(
+                      'div',
+                      { className: 'flex flex-col' },
+                      h(
+                        'label',
+                        { className: 'text-sm sm:text-base font-black text-black' },
+                        ct('fertilityExactOvulationLabel', 'Exact Ovulation Day (Egg Release Day)')
+                      ),
+                      h(
+                        'span',
+                        { className: 'text-xs font-black text-[#9F133A]' },
+                        '★ Peak day your ovary lets go of the egg'
+                      )
+                    )
+                  ),
+                  h(
+                    'span',
+                    {
+                      className:
+                        'px-2 py-0.5 rounded-full border border-black/40 bg-[#A7F3D0] text-[11px] font-extrabold text-black'
+                    },
+                    `${ct('normGuesstimateTag', 'Norm Guesstimate')}: ${formatDigitsForLang(1)} ${ct(
+                      'dayUnit',
+                      'day'
+                    )}`
+                  )
+                ),
+                h(
+                  'p',
+                  { className: 'text-xs font-semibold text-black/75' },
+                  ct(
+                    'fertilityExactOvulationDesc',
+                    'The peak 1 to 2 days in the middle of your cycle when your ovary lets go of the egg.'
+                  )
+                ),
+                renderPhaseDaysSelector(
+                  exactOvulationDays,
+                  (num) => {
+                    setExactOvulationDays(num);
+                    persistPartialOrFullSettings({ exactOvulationDays: num });
+                  },
+                  FERTILITY_GREEN_OVERLAY_DEFINITION.peakRgbaFill,
+                  FERTILITY_GREEN_OVERLAY_DEFINITION.borderHex,
+                  [1, 2],
+                  1
+                )
+              ),
+
+              // Sub-Widget 3: Could Still Be Fertile After Ovulation (Day 15 / 1-2 days after egg release)
+              h(
+                'div',
+                {
+                  id: 'PostOvulationFertileDays1',
+                  className: 'p-4 rounded-2xl border-2 border-black bg-white space-y-1.5'
+                },
+                h(
+                  'div',
+                  { className: 'flex items-center justify-between gap-2 flex-wrap' },
+                  h(
+                    'div',
+                    { className: 'flex items-center gap-2.5' },
+                    h('span', {
+                      className: 'w-6 h-6 rounded-md border-2 border-black shrink-0',
+                      style: { backgroundColor: 'rgba(16, 185, 129, 0.24)' }
+                    }),
+                    h(
+                      'label',
+                      { className: 'text-sm sm:text-base font-black text-black' },
+                      ct('fertilityPostOvulationLabel', 'Could Still Be Fertile After Ovulation')
+                    )
+                  ),
+                  h(
+                    'span',
+                    {
+                      className:
+                        'px-2 py-0.5 rounded-full border border-black/40 bg-[#ECFDF5] text-[11px] font-extrabold text-black'
+                    },
+                    `${ct('normGuesstimateTag', 'Norm Guesstimate')}: ${formatDigitsForLang(1)} ${ct(
+                      'dayUnit',
+                      'day'
+                    )}`
+                  )
+                ),
+                h(
+                  'p',
+                  { className: 'text-xs font-semibold text-black/75' },
+                  ct(
+                    'fertilityPostOvulationDesc',
+                    '1 to 2 days right after ovulation when the egg is still inside your tube and pregnancy can still happen.'
+                  )
+                ),
+                renderPhaseDaysSelector(
+                  postOvulationFertileDays,
+                  (num) => {
+                    setPostOvulationFertileDays(num);
+                    persistPartialOrFullSettings({ postOvulationFertileDays: num });
+                  },
+                  'rgba(16, 185, 129, 0.28)',
+                  FERTILITY_GREEN_OVERLAY_DEFINITION.borderHex,
+                  [0, 1, 2, 3],
+                  1
+                )
+              ),
+
+              // Sub-Widget 4: Show "Unlikely to Get Pregnant" (Infertile) days on the Fertility Wheel
+              h(
+                'label',
+                {
+                  className:
+                    'p-3.5 rounded-2xl border-2 border-black bg-white flex items-center justify-between gap-3 cursor-pointer'
+                },
+                h(
+                  'span',
+                  { className: 'text-xs sm:text-sm font-extrabold text-black' },
+                  ct(
+                    'fertilityShowInfertileLabel',
+                    'Show "Unlikely to Get Pregnant" days on the Fertility Wheel'
+                  )
+                ),
+                h('input', {
+                  type: 'checkbox',
+                  checked: showInfertileDaysOnWheel,
+                  onChange: (e) => {
+                    const checked = e.target.checked;
+                    setShowInfertileDaysOnWheel(checked);
+                    persistPartialOrFullSettings({ showInfertileDaysOnWheel: checked });
+                  },
+                  className: 'w-5 h-5 accent-[#059669] cursor-pointer'
+                })
+              )
+            )
+        ),
+
         // Repeat Over and Over Toggle
         h(
           'label',
@@ -926,7 +1517,7 @@ export function CalendarSettingsHomePage1({
           h(
             'span',
             { className: 'text-sm font-extrabold text-black' },
-            ct('repeatsToggleLabel', 'Repeat cycle phases continuously across future dates')
+            ct('repeatsToggleLabel', 'Repeat & predict tentative cycle phases across future months')
           ),
           h('input', {
             type: 'checkbox',

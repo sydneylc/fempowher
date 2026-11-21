@@ -1,34 +1,680 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=273';
-import { CycleCalendarWidget1 } from './MyCycleSubHomePage.js?v=273';
-import { isRtlLanguage } from '../data/translations.js?v=273';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=277';
+import { CycleCalendarWidget1 } from './MyCycleSubHomePage.js?v=277';
+import { isRtlLanguage } from '../data/translations.js?v=277';
 import {
   CYCLE_PHASE_DEFINITIONS,
+  FERTILITY_GREEN_OVERLAY_DEFINITION,
+  computeAdaptiveCyclePrediction,
   getCycleCalText,
-  getPhasesForDate,
-  loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=273';
+  loadUserCycleCalendarState,
+  saveUserCycleCalendarState
+} from '../data/cycleCalendarData.js?v=277';
 
 const h = React.createElement;
 
+// Build SVG Donut arcs for the Interactive 4-Phase Cycle & Fertility Wheel
+function buildArcPath(cx, cy, rOuter, rInner, startAngleDeg, endAngleDeg) {
+  const safeEnd = Math.max(startAngleDeg + 0.5, Math.min(359.99, endAngleDeg));
+  const toRad = (deg) => ((deg - 90) * Math.PI) / 180;
+  const x1Out = cx + rOuter * Math.cos(toRad(startAngleDeg));
+  const y1Out = cy + rOuter * Math.sin(toRad(startAngleDeg));
+  const x2Out = cx + rOuter * Math.cos(toRad(safeEnd));
+  const y2Out = cy + rOuter * Math.sin(toRad(safeEnd));
+
+  const x1In = cx + rInner * Math.cos(toRad(safeEnd));
+  const y1In = cy + rInner * Math.sin(toRad(safeEnd));
+  const x2In = cx + rInner * Math.cos(toRad(startAngleDeg));
+  const y2In = cy + rInner * Math.sin(toRad(startAngleDeg));
+
+  const largeArc = safeEnd - startAngleDeg > 180 ? 1 : 0;
+
+  return [
+    `M ${x1Out.toFixed(2)} ${y1Out.toFixed(2)}`,
+    `A ${rOuter} ${rOuter} 0 ${largeArc} 1 ${x2Out.toFixed(2)} ${y2Out.toFixed(2)}`,
+    `L ${x1In.toFixed(2)} ${y1In.toFixed(2)}`,
+    `A ${rInner} ${rInner} 0 ${largeArc} 0 ${x2In.toFixed(2)} ${y2In.toFixed(2)}`,
+    'Z'
+  ].join(' ');
+}
+
 // ============================================================================
-// FertilityAndMyCycleHomePage1 — "Fertility and My Cycle" interactive homepage
-// implementing Option B:
-// - Left Column: Interactive 4-Phase Circular Cycle & Fertility Wheel (using
-//   the exact current phase colors from CYCLE_PHASE_DEFINITIONS)
-// - Right Column:
-//   1. Exact synchronized copy of CycleCalendarWidget1 (shares the exact same
-//      `cycleCalendarState` and localStorage history as the calendar in
-//      MyCycleSubHomePage; interacting with either calendar applies the same
-//      changes to both; only today's date has a dark outline!)
-//   2. Overhanging-pill `"You are in..."` square directly underneath the
-//      calendar showing the user's current phase, cycle day, countdown to next
-//      period, and fertile / implantation window status.
-// - Below Both Columns:
-//   1. 4 clickable Phase Cards (`Menstrual Phase`, `Follicular Phase`,
-//      `Ovulatory (Fertile!)`, `Luteal Phase`)
-//   2. Live Phase & Fertility Guide for the selected or current phase.
+// InteractiveCycleFertilityWheel1 — Shared, Two-Way Synchronized 4-Phase
+// Cycle & Fertility Wheel used in:
+//   1. FertilityAndMyCycleHomePage1 (Full page wheel)
+//   2. CalendarKeyAndFilters1 bottom mini-wheel (when "Trying to Get Pregnant" is checked)
+//   3. Expanded floating wheel widget covering part of InteractiveCalendarHomePage1
+// Any click or adjustment on any wheel updates `cycleCalendarState` so all
+// wheels across the entire app stay 100% synchronized!
 // ============================================================================
+export function InteractiveCycleFertilityWheel1({
+  UserNameChoiceInsert1 = 'User',
+  UserLanguageChoice1 = null,
+  lang = 'en',
+  t = {},
+  formatDigitsForLang = (v) => String(v),
+  cycleCalendarState = null,
+  onUpdateCycleCalendarState = null,
+  compactKeyPreview = false,
+  onRequestExpandFromKey = null,
+  onCloseExpandedModal = null,
+  showInteractiveControls = true
+}) {
+  const tr = (key, fallback) => {
+    if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {
+      return UserLanguageChoice1.translate(key, t[key] || fallback);
+    }
+    return t[key] || fallback;
+  };
+  const ct = getCycleCalText(lang, UserLanguageChoice1);
+
+  const activeState = cycleCalendarState || loadUserCycleCalendarState(UserNameChoiceInsert1);
+  const hasColors = Boolean(
+    activeState && activeState.hasEnteredCycleData && activeState.FirstDayOfPeriod1
+  );
+
+  const periodLen = Math.max(1, Math.min(10, Number(activeState.PeriodDaysDuration1) || 5));
+  const follicularLen = Math.max(1, Math.min(21, Number(activeState.FollicularPhaseDuration1) || 8));
+  const ovulatoryLen = Math.max(1, Math.min(10, Number(activeState.OvulatoryPhaseDuration1) || 3));
+  const lutealLen = Math.max(1, Math.min(21, Number(activeState.LutealPhaseDuration1) || 12));
+  const totalCycleLen = periodLen + follicularLen + ovulatoryLen + lutealLen;
+
+  const pStart = 1;
+  const pEnd = periodLen;
+  const fStart = pEnd + 1;
+  const fEnd = pEnd + follicularLen;
+  const oStart = fEnd + 1;
+  const oEnd = fEnd + ovulatoryLen;
+  const lStart = oEnd + 1;
+  const lEnd = totalCycleLen;
+
+  // Fertility window day numbers (1-indexed within cycle)
+  const fertileLeadDays = Math.max(1, Math.min(7, Number(activeState.FertileWindowDays1) || 5));
+  const exactOvDays = Math.max(1, Math.min(2, Number(activeState.ExactOvulationDays1) || 1));
+  const postOvDays = Math.max(0, Math.min(3, Number(activeState.PostOvulationFertileDays1) ?? 1));
+
+  const peakOvDayEnd = oEnd;
+  const peakOvDayStart = Math.max(oStart, peakOvDayEnd - exactOvDays + 1);
+  const fertileWindowDayStart = Math.max(pEnd + 1, peakOvDayEnd - fertileLeadDays + 1);
+  const fertileWindowDayEnd = Math.min(lEnd, peakOvDayEnd + postOvDays);
+
+  // Determine today's cycle day
+  const now = new Date();
+  let currentDayInCycle = 1;
+  let currentPhaseKey = 'PeriodDaysDuration1';
+  if (hasColors) {
+    const parts = String(activeState.FirstDayOfPeriod1).split('-').map(Number);
+    if (parts.length === 3 && parts[0] && parts[1] && parts[2]) {
+      const startUtc = Date.UTC(parts[0], parts[1] - 1, parts[2]);
+      const todayUtc = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+      const diffDays = Math.round((todayUtc - startUtc) / 86400000);
+      if (diffDays >= 0) {
+        const zeroIdx = diffDays % totalCycleLen;
+        currentDayInCycle = zeroIdx + 1;
+        if (zeroIdx < periodLen) {
+          currentPhaseKey = 'PeriodDaysDuration1';
+        } else if (zeroIdx < periodLen + follicularLen) {
+          currentPhaseKey = 'FollicularPhaseDuration1';
+        } else if (zeroIdx < periodLen + follicularLen + ovulatoryLen) {
+          currentPhaseKey = 'OvulatoryPhaseDuration1';
+        } else {
+          currentPhaseKey = 'LutealPhaseDuration1';
+        }
+      }
+    }
+  }
+
+  const syncedPhaseId = activeState.selectedWheelPhaseId || currentPhaseKey;
+  const syncedDayNumber = activeState.selectedWheelDayNumber || null;
+
+  const syncWheelStateChange = (patch) => {
+    const nextState = {
+      ...activeState,
+      ...patch
+    };
+    saveUserCycleCalendarState(UserNameChoiceInsert1, nextState);
+    if (typeof onUpdateCycleCalendarState === 'function') {
+      onUpdateCycleCalendarState(nextState);
+    }
+  };
+
+  const phaseMetaList = [
+    {
+      id: 'PeriodDaysDuration1',
+      title: tr('fertilityPhaseMenstrualTitle', 'Menstrual Phase'),
+      shortWheelLabel: tr('wheelPeriodShort', 'Period'),
+      daysRange: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(pStart)}–${formatDigitsForLang(pEnd)}`,
+      shortSub: tr('fertilityPhaseMenstrualSub', 'Period bleeding (Unlikely to get pregnant)'),
+      rgbaFill: CYCLE_PHASE_DEFINITIONS[1].rgbaFill
+    },
+    {
+      id: 'FollicularPhaseDuration1',
+      title: tr('fertilityPhaseFollicularTitle', 'Follicular Phase'),
+      shortWheelLabel: tr('wheelFollicularShort', 'Follicular'),
+      daysRange: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(fStart)}–${formatDigitsForLang(fEnd)}`,
+      shortSub: tr('fertilityPhaseFollicularSub', 'Getting a new egg ready'),
+      rgbaFill: CYCLE_PHASE_DEFINITIONS[2].rgbaFill
+    },
+    {
+      id: 'OvulatoryPhaseDuration1',
+      title: tr('fertilityPhaseOvulatoryTitle', 'Ovulatory Phase'),
+      shortWheelLabel: tr('wheelOvulatoryShort', 'Fertile / Ovulation'),
+      daysRange: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(oStart)}–${formatDigitsForLang(oEnd)}`,
+      shortSub: tr('ovulatoryStarredSub', '★ Easiest time to get pregnant'),
+      rgbaFill: CYCLE_PHASE_DEFINITIONS[3].rgbaFill
+    },
+    {
+      id: 'LutealPhaseDuration1',
+      title: tr('fertilityPhaseLutealTitle', 'Luteal Phase'),
+      shortWheelLabel: tr('wheelLutealShort', 'Luteal'),
+      daysRange: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(lStart)}–${formatDigitsForLang(lEnd)}`,
+      shortSub: tr('fertilityPhaseLutealSub', 'Womb lining thickens before next period'),
+      rgbaFill: CYCLE_PHASE_DEFINITIONS[4].rgbaFill
+    }
+  ];
+
+  const activePhaseMeta =
+    phaseMetaList.find((p) => p.id === syncedPhaseId) || phaseMetaList[0];
+
+  const pDeg = (periodLen / totalCycleLen) * 360;
+  const fDeg = (follicularLen / totalCycleLen) * 360;
+  const oDeg = (ovulatoryLen / totalCycleLen) * 360;
+
+  const wheelSegments = [
+    { ...phaseMetaList[0], startAngle: 0, endAngle: pDeg },
+    { ...phaseMetaList[1], startAngle: pDeg, endAngle: pDeg + fDeg },
+    { ...phaseMetaList[2], startAngle: pDeg + fDeg, endAngle: pDeg + fDeg + oDeg },
+    { ...phaseMetaList[3], startAngle: pDeg + fDeg + oDeg, endAngle: 360 }
+  ];
+
+  // Build individual day beads (1..totalCycleLen) around the outer ring of the wheel
+  // matching the uploaded "Days of Average Menstrual Cycle" & "fertility tracking diagram"
+  const dayBeads = [];
+  for (let d = 1; d <= totalCycleLen; d++) {
+    const angleDeg = ((d - 0.5) / totalCycleLen) * 360;
+    const rad = ((angleDeg - 90) * Math.PI) / 180;
+    const beadR = 176;
+    const bx = 200 + beadR * Math.cos(rad);
+    const by = 200 + beadR * Math.sin(rad);
+
+    let phaseIdForDay = 'LutealPhaseDuration1';
+    if (d <= pEnd) phaseIdForDay = 'PeriodDaysDuration1';
+    else if (d <= fEnd) phaseIdForDay = 'FollicularPhaseDuration1';
+    else if (d <= oEnd) phaseIdForDay = 'OvulatoryPhaseDuration1';
+
+    const isPeakOv = d >= peakOvDayStart && d <= peakOvDayEnd;
+    const isFertileGreen = d >= fertileWindowDayStart && d <= fertileWindowDayEnd;
+    const isPostOv = d > peakOvDayEnd && d <= fertileWindowDayEnd;
+
+    let beadFill = '#E5E7EB';
+    let beadTextHex = '#111111';
+    let dayNote = tr('wheelDayUnlikelyNote', 'Pregnancy unlikely on this day.');
+
+    if (d <= pEnd) {
+      beadFill = '#F87171';
+      beadTextHex = '#000000';
+      dayNote =
+        d === 1
+          ? tr('wheelDay1Note', 'Day 1: First day of menstrual bleeding.')
+          : tr('wheelPeriodDayNote', 'Menstruation (period bleeding).');
+    } else if (isPeakOv) {
+      beadFill = '#059669';
+      beadTextHex = '#FFFFFF';
+      dayNote = tr(
+        'wheelPeakOvulationNote',
+        '★ Ovulation Day! Egg comes out. Highest chance to get pregnant!'
+      );
+    } else if (isPostOv) {
+      beadFill = '#34D399';
+      beadTextHex = '#000000';
+      dayNote = tr(
+        'wheelPostOvulationNote',
+        '★ Could still be fertile right after ovulation before the egg dissolves.'
+      );
+    } else if (isFertileGreen) {
+      beadFill = '#10B981';
+      beadTextHex = '#FFFFFF';
+      dayNote = tr(
+        'wheelMostFertileDaysNote',
+        '★ Most fertile days! Sperm can wait up to 5 days inside your womb for the egg.'
+      );
+    } else if (activeState.showInfertileDaysOnWheel !== false) {
+      beadFill = '#D1FAE5';
+      beadTextHex = '#065F46';
+      dayNote = tr('wheelInfertileDayNote', 'Unlikely to get pregnant (Infertile phase of cycle).');
+    }
+
+    dayBeads.push({
+      dayNum: d,
+      bx,
+      by,
+      phaseIdForDay,
+      isPeakOv,
+      isFertileGreen,
+      beadFill,
+      beadTextHex,
+      dayNote
+    });
+  }
+
+  const selectedDayObj = syncedDayNumber
+    ? dayBeads.find((b) => b.dayNum === Number(syncedDayNumber))
+    : null;
+
+  // Compact preview rendered at the bottom of the Calendar Key sidebar
+  if (compactKeyPreview) {
+    return h(
+      'div',
+      {
+        id: 'CalendarKeyMiniFertilityWheel1',
+        onClick: () => {
+          if (typeof onRequestExpandFromKey === 'function') {
+            onRequestExpandFromKey();
+          }
+        },
+        className:
+          'mt-2 p-2 rounded-2xl border-2 border-black bg-[#F0FDF4] hover:bg-[#DCFCE7] cursor-pointer transition-transform active:scale-95 flex flex-col items-center gap-1 shadow-sm'
+      },
+      h(
+        'div',
+        { className: 'w-full flex items-center justify-between gap-1' },
+        h(
+          'span',
+          { className: 'text-[9.5px] font-black text-[#065F46] leading-tight truncate' },
+          '★ Fertility Wheel'
+        ),
+        h(
+          'span',
+          {
+            className:
+              'px-1.5 py-0.5 rounded-md border border-black bg-white text-[8.5px] font-black text-black shrink-0'
+          },
+          'Expand ⤢'
+        )
+      ),
+      h(
+        'svg',
+        {
+          viewBox: '0 0 400 400',
+          className: 'w-24 h-24 overflow-visible'
+        },
+        wheelSegments.map((seg) =>
+          h('path', {
+            key: `mini-seg-${seg.id}`,
+            d: buildArcPath(200, 200, 152, 86, seg.startAngle, seg.endAngle),
+            fill: seg.rgbaFill,
+            stroke: '#000000',
+            strokeWidth: syncedPhaseId === seg.id ? '4' : '2.2'
+          })
+        ),
+        // Green fertility highlight arc on the outer edge of the mini wheel
+        h('path', {
+          d: buildArcPath(
+            200,
+            200,
+            174,
+            155,
+            ((fertileWindowDayStart - 1) / totalCycleLen) * 360,
+            (fertileWindowDayEnd / totalCycleLen) * 360
+          ),
+          fill: FERTILITY_GREEN_OVERLAY_DEFINITION.peakRgbaFill,
+          stroke: '#047857',
+          strokeWidth: '2.5'
+        }),
+        h('circle', {
+          cx: 200,
+          cy: 200,
+          r: 84,
+          fill: '#FFFFFF',
+          stroke: '#000000',
+          strokeWidth: '2.5'
+        }),
+        h(
+          'text',
+          {
+            x: 200,
+            y: 192,
+            textAnchor: 'middle',
+            fill: '#9F133A',
+            fontSize: '26',
+            fontWeight: '900'
+          },
+          selectedDayObj
+            ? `D${formatDigitsForLang(selectedDayObj.dayNum)}`
+            : `${formatDigitsForLang(totalCycleLen)}d`
+        ),
+        h(
+          'text',
+          {
+            x: 200,
+            y: 220,
+            textAnchor: 'middle',
+            fill: '#065F46',
+            fontSize: '18',
+            fontWeight: '900'
+          },
+          activePhaseMeta.shortWheelLabel
+        )
+      ),
+      h(
+        'div',
+        { className: 'text-[8.5px] font-extrabold text-black/80 text-center leading-tight' },
+        'Tap to open & adjust on calendar'
+      )
+    );
+  }
+
+  // Full / Expanded Interactive Wheel Widget
+  return h(
+    'div',
+    {
+      id: 'Interactive4PhaseCycleWheel1',
+      className: 'w-full flex flex-col items-stretch'
+    },
+    // Top overhanging rounded pill bar
+    h(
+      'div',
+      {
+        className:
+          'w-full px-4 py-2 rounded-2xl border-[2.5px] border-black bg-white shadow-sm z-10 flex items-center justify-between gap-2',
+        style: { marginBottom: '-8px' }
+      },
+      h(
+        'span',
+        { className: 'text-xs sm:text-base font-extrabold text-black leading-tight mx-auto' },
+        tr('interactiveWheelHeader', 'Interactive 4-Phase Cycle & Fertility Wheel')
+      ),
+      typeof onCloseExpandedModal === 'function' &&
+        h(
+          'button',
+          {
+            type: 'button',
+            onClick: onCloseExpandedModal,
+            className:
+              'px-2.5 py-0.5 rounded-lg border-2 border-black bg-[#FFF0F6] hover:bg-black/10 text-xs font-black text-black cursor-pointer shrink-0'
+          },
+          '✕ Close'
+        )
+    ),
+    // Main rounded box body containing the interactive SVG wheel + synced controls
+    h(
+      'div',
+      {
+        className:
+          'w-full rounded-[32px] border-[2.5px] border-black bg-white pt-6 pb-5 px-4 shadow-md flex flex-col items-center justify-center gap-3'
+      },
+      h(
+        'svg',
+        {
+          viewBox: '0 0 400 400',
+          className: 'w-full max-w-[365px] h-auto overflow-visible'
+        },
+        // 4 Main Phase Donut Arcs
+        wheelSegments.map((seg) => {
+          const isSelected = syncedPhaseId === seg.id;
+          const isCurrent = hasColors && currentPhaseKey === seg.id;
+          const midAngle = (seg.startAngle + seg.endAngle) / 2;
+          const midRad = ((midAngle - 90) * Math.PI) / 180;
+          const labelR = 124;
+          const lx = 200 + labelR * Math.cos(midRad);
+          const ly = 200 + labelR * Math.sin(midRad);
+
+          return h(
+            'g',
+            {
+              key: seg.id,
+              onClick: () =>
+                syncWheelStateChange({
+                  selectedWheelPhaseId: seg.id,
+                  selectedWheelDayNumber: null
+                }),
+              className: 'cursor-pointer transition-transform duration-150',
+              style: {
+                transformOrigin: '200px 200px',
+                transform: isSelected ? 'scale(1.02)' : 'scale(1)'
+              }
+            },
+            h('path', {
+              d: buildArcPath(200, 200, 156, 88, seg.startAngle, seg.endAngle),
+              fill: seg.rgbaFill,
+              stroke: '#000000',
+              strokeWidth: isSelected ? '3.2' : '2'
+            }),
+            h(
+              'text',
+              {
+                x: lx,
+                y: ly,
+                textAnchor: 'middle',
+                dominantBaseline: 'middle',
+                fill: '#000000',
+                fontSize: '11',
+                fontWeight: '900'
+              },
+              isCurrent ? `${seg.shortWheelLabel} ★` : seg.shortWheelLabel
+            )
+          );
+        }),
+
+        // Outer ring of clickable Cycle Day Beads (1..totalCycleLen) matching the uploaded fertility tracking diagrams!
+        dayBeads.map((b) => {
+          const isDaySelected = Number(syncedDayNumber) === b.dayNum;
+          const isTodayBead = hasColors && currentDayInCycle === b.dayNum;
+          return h(
+            'g',
+            {
+              key: `wheel-bead-${b.dayNum}`,
+              onClick: (e) => {
+                e.stopPropagation();
+                syncWheelStateChange({
+                  selectedWheelPhaseId: b.phaseIdForDay,
+                  selectedWheelDayNumber: b.dayNum
+                });
+              },
+              className: 'cursor-pointer'
+            },
+            h('circle', {
+              cx: b.bx,
+              cy: b.by,
+              r: isDaySelected ? 13.5 : isTodayBead ? 12.5 : 11,
+              fill: b.beadFill,
+              stroke: isDaySelected || isTodayBead ? '#000000' : 'rgba(0,0,0,0.65)',
+              strokeWidth: isDaySelected ? '2.8' : isTodayBead ? '2.4' : '1.4'
+            }),
+            h(
+              'text',
+              {
+                x: b.bx,
+                y: b.by + 0.5,
+                textAnchor: 'middle',
+                dominantBaseline: 'middle',
+                fill: b.beadTextHex,
+                fontSize: totalCycleLen > 32 ? '8' : '9',
+                fontWeight: '900'
+              },
+              formatDigitsForLang(b.dayNum)
+            )
+          );
+        }),
+
+        // Inner White Hub Circle
+        h('circle', {
+          cx: 200,
+          cy: 200,
+          r: 87,
+          fill: '#FFFFFF',
+          stroke: '#000000',
+          strokeWidth: '2.5'
+        }),
+        // Center Hub Text
+        h(
+          'text',
+          {
+            x: 200,
+            y: 168,
+            textAnchor: 'middle',
+            fill: '#9F133A',
+            fontSize: '18',
+            fontWeight: '900'
+          },
+          selectedDayObj
+            ? `${tr('dayUpperLabel', 'DAY')} ${formatDigitsForLang(selectedDayObj.dayNum)}`
+            : hasColors
+            ? `${tr('dayUpperLabel', 'DAY')} ${formatDigitsForLang(currentDayInCycle)}`
+            : tr('tapAnyPhaseUpper', '4 PHASES')
+        ),
+        h(
+          'text',
+          {
+            x: 200,
+            y: 191,
+            textAnchor: 'middle',
+            fill: '#000000',
+            fontSize: '13',
+            fontWeight: '900'
+          },
+          activePhaseMeta.title
+        ),
+        h(
+          'text',
+          {
+            x: 200,
+            y: 210,
+            textAnchor: 'middle',
+            fill: '#9F133A',
+            fontSize: '10.5',
+            fontWeight: '800'
+          },
+          activePhaseMeta.daysRange
+        ),
+        h(
+          'text',
+          {
+            x: 200,
+            y: 228,
+            textAnchor: 'middle',
+            fill: activePhaseMeta.id === 'OvulatoryPhaseDuration1' ? '#047857' : '#333333',
+            fontSize: '9',
+            fontWeight: '800'
+          },
+          activePhaseMeta.id === 'OvulatoryPhaseDuration1'
+            ? '★ Easiest time to get pregnant'
+            : activePhaseMeta.shortSub
+        )
+      ),
+
+      // Selected Day / Fertile Window Quick Legend Bar (Synced across all wheels)
+      selectedDayObj &&
+        h(
+          'div',
+          {
+            className:
+              'w-full p-3 rounded-2xl border-2 border-black bg-[#F0FDF4] text-xs font-bold text-black flex items-center justify-between gap-2'
+          },
+          h(
+            'div',
+            { className: 'space-y-0.5' },
+            h(
+              'div',
+              { className: 'font-black text-[#065F46]' },
+              `${tr('dayLabel', 'Day')} ${formatDigitsForLang(selectedDayObj.dayNum)} • ${
+                activePhaseMeta.title
+              }`
+            ),
+            h('div', { className: 'text-black/85' }, selectedDayObj.dayNote)
+          ),
+          h(
+            'button',
+            {
+              type: 'button',
+              onClick: () => syncWheelStateChange({ selectedWheelDayNumber: null }),
+              className:
+                'px-2 py-1 rounded-lg border border-black bg-white text-[10px] font-black cursor-pointer shrink-0'
+            },
+            'Show All'
+          )
+        ),
+
+      // Interactive Quick Adjuster on the Wheel (changes sync across all wheels + calendar!)
+      showInteractiveControls &&
+        h(
+          'div',
+          {
+            className:
+              'w-full p-3 rounded-2xl border-2 border-black bg-[#FFF9FC] flex flex-wrap items-center justify-between gap-2'
+          },
+          h(
+            'div',
+            { className: 'text-[11px] font-black text-black' },
+            `★ Most Fertile Window: ${tr('daysLabel', 'Days')} ${formatDigitsForLang(
+              fertileWindowDayStart
+            )}–${formatDigitsForLang(fertileWindowDayEnd)} (${ct(
+              'ovulatoryStarredSub',
+              '★ Easiest time to get pregnant'
+            )})`
+          ),
+          h(
+            'div',
+            { className: 'flex items-center gap-1.5' },
+            h(
+              'span',
+              { className: 'text-[10.5px] font-extrabold text-black/75' },
+              `${activePhaseMeta.shortWheelLabel} ${ct('daysUnit', 'days')}:`
+            ),
+            h(
+              'button',
+              {
+                type: 'button',
+                onClick: () => {
+                  const curr = Number(activeState[activePhaseMeta.id]) || 5;
+                  const nextVal = Math.max(1, curr - 1);
+                  syncWheelStateChange({
+                    autoBaselinePhases: false,
+                    [activePhaseMeta.id]: nextVal
+                  });
+                },
+                className:
+                  'w-6 h-6 rounded-lg border-2 border-black bg-white hover:bg-black/5 font-black text-xs flex items-center justify-center cursor-pointer'
+              },
+              '−'
+            ),
+            h(
+              'span',
+              { className: 'text-xs font-black px-1' },
+              formatDigitsForLang(Number(activeState[activePhaseMeta.id]) || 5)
+            ),
+            h(
+              'button',
+              {
+                type: 'button',
+                onClick: () => {
+                  const curr = Number(activeState[activePhaseMeta.id]) || 5;
+                  const nextVal = Math.min(20, curr + 1);
+                  syncWheelStateChange({
+                    autoBaselinePhases: false,
+                    [activePhaseMeta.id]: nextVal
+                  });
+                },
+                className:
+                  'w-6 h-6 rounded-lg border-2 border-black bg-white hover:bg-black/5 font-black text-xs flex items-center justify-center cursor-pointer'
+              },
+              '+'
+            )
+          )
+        ),
+
+      h(
+        'p',
+        { className: 'text-xs font-extrabold text-black/70 text-center' },
+        tr(
+          'wheelTapInstruction',
+          'Tap any numbered day bead or phase slice on the wheel! Changes sync across your Calendar Key and Fertility Wheel.'
+        )
+      )
+    )
+  );
+}
+
 export default function FertilityAndMyCycleHomePage1({
   onBack,
   onNavigateEducationPage = null,
@@ -37,7 +683,8 @@ export default function FertilityAndMyCycleHomePage1({
   lang = 'en',
   t = {},
   formatDigitsForLang = (v) => String(v),
-  cycleCalendarState = null
+  cycleCalendarState = null,
+  onUpdateCycleCalendarState = null
 }) {
   const tr = (key, fallback) => {
     if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {
@@ -60,7 +707,6 @@ export default function FertilityAndMyCycleHomePage1({
   const lutealLen = Math.max(1, Math.min(21, Number(activeState.LutealPhaseDuration1) || 12));
   const totalCycleLen = periodLen + follicularLen + ovulatoryLen + lutealLen;
 
-  // Determine today's exact cycle day & current phase from the shared calendar state
   let currentDayInCycle = 1;
   let currentPhaseKey = 'PeriodDaysDuration1';
   let daysUntilNextPeriod = totalCycleLen;
@@ -88,8 +734,19 @@ export default function FertilityAndMyCycleHomePage1({
     }
   }
 
-  const [selectedPhaseId, setSelectedPhaseId] = useState(null);
-  const displayedPhaseId = selectedPhaseId || currentPhaseKey;
+  const displayedPhaseId = activeState.selectedWheelPhaseId || currentPhaseKey;
+
+  const handleSelectPhaseCard = (phaseId) => {
+    const nextState = {
+      ...activeState,
+      selectedWheelPhaseId: phaseId,
+      selectedWheelDayNumber: null
+    };
+    saveUserCycleCalendarState(UserNameChoiceInsert1, nextState);
+    if (typeof onUpdateCycleCalendarState === 'function') {
+      onUpdateCycleCalendarState(nextState);
+    }
+  };
 
   const pStart = 1;
   const pEnd = periodLen;
@@ -99,6 +756,12 @@ export default function FertilityAndMyCycleHomePage1({
   const oEnd = fEnd + ovulatoryLen;
   const lStart = oEnd + 1;
   const lEnd = totalCycleLen;
+
+  const prediction = computeAdaptiveCyclePrediction(
+    activeState.periodHistoryDates,
+    activeState.FirstDayOfPeriod1,
+    periodLen
+  );
 
   const phaseCardsData = [
     {
@@ -149,7 +812,7 @@ export default function FertilityAndMyCycleHomePage1({
         ),
         tr(
           'fertilityGuideFollicularB2',
-          'Can I Get Pregnant Right Now?: In the first few days after your period, your underwear feels dry and pregnancy is less likely. By the last 2 or 3 days of this phase, you may see creamy or wet fluid—and because sperm from sex can stay alive inside you for up to 5 days waiting for the egg, you CAN get pregnant toward the end of this phase!'
+          'Can I Get Pregnant Right Now?: In the first few days after your period, your underwear feels dry and pregnancy is less likely. By the last 2 or 3 days of this phase, you may see creamy or wet fluid, and because sperm from sex can stay alive inside you for up to 5 days waiting for the egg, you CAN get pregnant toward the end of this phase!'
         ),
         tr(
           'fertilityGuideFollicularB3',
@@ -159,16 +822,16 @@ export default function FertilityAndMyCycleHomePage1({
     },
     {
       id: 'OvulatoryPhaseDuration1',
-      title: tr('fertilityPhaseOvulatoryTitle', 'Ovulatory (Fertile!)'),
+      title: tr('fertilityPhaseOvulatoryTitle', 'Ovulatory Phase'),
       daysRange: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(oStart)}–${formatDigitsForLang(oEnd)}`,
-      shortSub: tr('fertilityPhaseOvulatorySub', 'Egg comes out (Easiest to get pregnant!)'),
+      shortSub: tr('ovulatoryStarredSub', '★ Easiest time to get pregnant (Most fertile window)'),
       hormoneHeadline: tr('fertilityHormoneOvulatory', 'Egg Released • Peak Fertile Days'),
-      fertilityStatus: tr('fertilityStatusOvulatory', 'Highest chance of getting pregnant right now!'),
+      fertilityStatus: tr('fertilityStatusOvulatory', '★ Easiest time to get pregnant right now!'),
       colorHex: CYCLE_PHASE_DEFINITIONS[3].colorHex,
       rgbaFill: CYCLE_PHASE_DEFINITIONS[3].rgbaFill,
       guideTitle: tr(
         'fertilityGuideOvulatoryTitle',
-        'What Is Happening in My Body: Ovulatory Phase (Most Fertile Days)'
+        'What Is Happening in My Body: Ovulatory Phase (★ Easiest Time to Get Pregnant)'
       ),
       bullets: [
         tr(
@@ -220,62 +883,6 @@ export default function FertilityAndMyCycleHomePage1({
   const activeGuidePhaseObj =
     phaseCardsData.find((p) => p.id === displayedPhaseId) || currentPhaseObj;
 
-  // Build SVG Donut arcs for the Interactive 4-Phase Cycle & Fertility Wheel
-  // Angles proportional to the user's actual phase durations (or norm 28-day baseline)
-  const buildArcPath = (cx, cy, rOuter, rInner, startAngleDeg, endAngleDeg) => {
-    const toRad = (deg) => ((deg - 90) * Math.PI) / 180;
-    const x1Out = cx + rOuter * Math.cos(toRad(startAngleDeg));
-    const y1Out = cy + rOuter * Math.sin(toRad(startAngleDeg));
-    const x2Out = cx + rOuter * Math.cos(toRad(endAngleDeg));
-    const y2Out = cy + rOuter * Math.sin(toRad(endAngleDeg));
-
-    const x1In = cx + rInner * Math.cos(toRad(endAngleDeg));
-    const y1In = cy + rInner * Math.sin(toRad(endAngleDeg));
-    const x2In = cx + rInner * Math.cos(toRad(startAngleDeg));
-    const y2In = cy + rInner * Math.sin(toRad(startAngleDeg));
-
-    const largeArc = endAngleDeg - startAngleDeg > 180 ? 1 : 0;
-
-    return [
-      `M ${x1Out.toFixed(2)} ${y1Out.toFixed(2)}`,
-      `A ${rOuter} ${rOuter} 0 ${largeArc} 1 ${x2Out.toFixed(2)} ${y2Out.toFixed(2)}`,
-      `L ${x1In.toFixed(2)} ${y1In.toFixed(2)}`,
-      `A ${rInner} ${rInner} 0 ${largeArc} 0 ${x2In.toFixed(2)} ${y2In.toFixed(2)}`,
-      'Z'
-    ].join(' ');
-  };
-
-  const pDeg = (periodLen / totalCycleLen) * 360;
-  const fDeg = (follicularLen / totalCycleLen) * 360;
-  const oDeg = (ovulatoryLen / totalCycleLen) * 360;
-
-  const wheelSegments = [
-    {
-      ...phaseCardsData[0],
-      startAngle: 0,
-      endAngle: pDeg,
-      shortWheelLabel: tr('wheelPeriodShort', 'Period')
-    },
-    {
-      ...phaseCardsData[1],
-      startAngle: pDeg,
-      endAngle: pDeg + fDeg,
-      shortWheelLabel: tr('wheelFollicularShort', 'Follicular')
-    },
-    {
-      ...phaseCardsData[2],
-      startAngle: pDeg + fDeg,
-      endAngle: pDeg + fDeg + oDeg,
-      shortWheelLabel: tr('wheelOvulatoryShort', 'Fertile / Ovulation')
-    },
-    {
-      ...phaseCardsData[3],
-      startAngle: pDeg + fDeg + oDeg,
-      endAngle: 360,
-      shortWheelLabel: tr('wheelLutealShort', 'Luteal')
-    }
-  ];
-
   const handleOpenCalendar = () => {
     if (typeof onNavigateEducationPage === 'function') {
       onNavigateEducationPage('InteractiveCalendarHomePage1');
@@ -294,7 +901,6 @@ export default function FertilityAndMyCycleHomePage1({
       { className: 'max-w-5xl w-full mx-auto flex-1 flex flex-col space-y-6 pb-10' },
       renderSubpageBackButton(onBack, t, lang),
 
-      // Centered Title: "Fertility and My Cycle" (UserLanguageChoice1)
       h(
         'h1',
         {
@@ -304,11 +910,9 @@ export default function FertilityAndMyCycleHomePage1({
         tr('cycleBtnFertilityAndMyCycle', 'Fertility and My Cycle')
       ),
 
-      // ======================================================================
       // TOP TWO-COLUMN ROW:
-      // Left: Interactive 4-Phase Cycle & Fertility Wheel
+      // Left: Shared Two-Way Synced Interactive 4-Phase Cycle & Fertility Wheel
       // Right: Synchronized Copy of CycleCalendarWidget1 + "You are in..." Square Underneath
-      // ======================================================================
       h(
         'div',
         {
@@ -316,151 +920,19 @@ export default function FertilityAndMyCycleHomePage1({
             'w-full flex flex-col lg:flex-row items-center lg:items-start justify-between gap-6 px-1 sm:px-2'
         },
 
-        // LEFT COLUMN: Interactive 4-Phase Cycle & Fertility Wheel
+        // LEFT COLUMN: Shared Synced Wheel
         h(
           'div',
-          {
-            id: 'Interactive4PhaseCycleWheel1',
-            className: 'w-full lg:flex-1 flex flex-col items-stretch'
-          },
-          // Top overhanging rounded pill bar matching the calendar aesthetic
-          h(
-            'div',
-            {
-              className:
-                'w-full px-4 py-2 rounded-2xl border-[2.5px] border-black bg-white shadow-sm z-10 flex items-center justify-center text-center',
-              style: { marginBottom: '-8px' }
-            },
-            h(
-              'span',
-              { className: 'text-sm sm:text-base font-extrabold text-black leading-tight' },
-              tr('interactiveWheelHeader', 'Interactive 4-Phase Cycle & Fertility Wheel')
-            )
-          ),
-          // Main rounded box body containing the interactive SVG wheel
-          h(
-            'div',
-            {
-              className:
-                'w-full rounded-[32px] border-[2.5px] border-black bg-white pt-6 pb-5 px-4 shadow-md flex flex-col items-center justify-center'
-            },
-            h(
-              'svg',
-              {
-                viewBox: '0 0 380 380',
-                className: 'w-full max-w-[355px] h-auto overflow-visible'
-              },
-              wheelSegments.map((seg) => {
-                const isSelected = displayedPhaseId === seg.id;
-                const isCurrent = hasColors && currentPhaseKey === seg.id;
-                const midAngle = (seg.startAngle + seg.endAngle) / 2;
-                const midRad = ((midAngle - 90) * Math.PI) / 180;
-                const labelR = 136;
-                const lx = 190 + labelR * Math.cos(midRad);
-                const ly = 190 + labelR * Math.sin(midRad);
-
-                return h(
-                  'g',
-                  {
-                    key: seg.id,
-                    onClick: () => setSelectedPhaseId(seg.id),
-                    className: 'cursor-pointer transition-transform duration-150',
-                    style: {
-                      transformOrigin: '190px 190px',
-                      transform: isSelected ? 'scale(1.025)' : 'scale(1)'
-                    }
-                  },
-                  h('path', {
-                    d: buildArcPath(190, 190, 174, 98, seg.startAngle, seg.endAngle),
-                    fill: seg.rgbaFill,
-                    stroke: '#000000',
-                    strokeWidth: isSelected ? '3.2' : '2'
-                  }),
-                  h(
-                    'text',
-                    {
-                      x: lx,
-                      y: ly,
-                      textAnchor: 'middle',
-                      dominantBaseline: 'middle',
-                      fill: '#000000',
-                      fontSize: '11.5',
-                      fontWeight: '900'
-                    },
-                    isCurrent ? `${seg.shortWheelLabel} ★` : seg.shortWheelLabel
-                  )
-                );
-              }),
-              // Inner White Hub Circle
-              h('circle', {
-                cx: 190,
-                cy: 190,
-                r: 97,
-                fill: '#FFFFFF',
-                stroke: '#000000',
-                strokeWidth: '2.5'
-              }),
-              // Center Hub Text
-              h(
-                'text',
-                {
-                  x: 190,
-                  y: 162,
-                  textAnchor: 'middle',
-                  fill: '#9F133A',
-                  fontSize: '20',
-                  fontWeight: '900'
-                },
-                hasColors
-                  ? `${tr('dayUpperLabel', 'DAY')} ${formatDigitsForLang(currentDayInCycle)}`
-                  : tr('tapAnyPhaseUpper', '4 PHASES')
-              ),
-              h(
-                'text',
-                {
-                  x: 190,
-                  y: 186,
-                  textAnchor: 'middle',
-                  fill: '#000000',
-                  fontSize: '14',
-                  fontWeight: '900'
-                },
-                activeGuidePhaseObj.title
-              ),
-              h(
-                'text',
-                {
-                  x: 190,
-                  y: 207,
-                  textAnchor: 'middle',
-                  fill: '#9F133A',
-                  fontSize: '10.5',
-                  fontWeight: '800'
-                },
-                activeGuidePhaseObj.daysRange
-              ),
-              h(
-                'text',
-                {
-                  x: 190,
-                  y: 226,
-                  textAnchor: 'middle',
-                  fill: '#333333',
-                  fontSize: '9.5',
-                  fontWeight: '700'
-                },
-                activeGuidePhaseObj.shortSub
-              )
-            ),
-            h(
-              'p',
-              { className: 'text-xs font-extrabold text-black/70 text-center mt-2' },
-              tr(
-                'wheelTapInstruction',
-                'Tap any part of the circle (or the boxes below) to see what your body is doing and when you can get pregnant!'
-              )
-            )
-          )
+          { className: 'w-full lg:flex-1 flex flex-col items-stretch' },
+          h(InteractiveCycleFertilityWheel1, {
+            UserNameChoiceInsert1,
+            UserLanguageChoice1,
+            lang,
+            t,
+            formatDigitsForLang,
+            cycleCalendarState: activeState,
+            onUpdateCycleCalendarState
+          })
         ),
 
         // RIGHT COLUMN: Synchronized Copy of CycleCalendarWidget1 + "You are in..." Square Underneath
@@ -470,7 +942,6 @@ export default function FertilityAndMyCycleHomePage1({
             className: 'shrink-0 flex flex-col items-center gap-4',
             style: { width: 'min(326px, 88vw)' }
           },
-          // 1. Exact Synchronized Copy of CycleCalendarWidget1
           h(CycleCalendarWidget1, {
             UserNameChoiceInsert1,
             UserLanguageChoice1,
@@ -480,7 +951,7 @@ export default function FertilityAndMyCycleHomePage1({
             onOpenCalendar: handleOpenCalendar
           }),
 
-          // 2. "You are in..." Square Directly Underneath the Calendar
+          // "You are in..." Square Directly Underneath the Calendar
           h(
             'div',
             {
@@ -488,7 +959,6 @@ export default function FertilityAndMyCycleHomePage1({
               'data-piece-name': 'YouAreInCurrentPhaseSquare1',
               className: 'w-full flex flex-col items-stretch text-center'
             },
-            // Top overhanging pill bar: "You are in..."
             h(
               'div',
               {
@@ -502,7 +972,6 @@ export default function FertilityAndMyCycleHomePage1({
                 tr('youAreInHeaderPill', 'You are in...')
               )
             ),
-            // Main rounded square body tinted with the user's current phase color
             h(
               'div',
               {
@@ -519,6 +988,13 @@ export default function FertilityAndMyCycleHomePage1({
                   ? currentPhaseObj.title
                   : tr('noPeriodLoggedYetTitle', 'Add Period Date on Calendar')
               ),
+              hasColors &&
+                currentPhaseObj.id === 'OvulatoryPhaseDuration1' &&
+                h(
+                  'div',
+                  { className: 'text-xs font-black text-[#9F133A]' },
+                  ct('ovulatoryStarredSub', '★ Easiest time to get pregnant (Most fertile window)')
+                ),
               h(
                 'div',
                 { className: 'text-xs font-extrabold text-black/85' },
@@ -528,14 +1004,17 @@ export default function FertilityAndMyCycleHomePage1({
                       'of'
                     )} ${formatDigitsForLang(totalCycleLen)} • ${tr(
                       'nextPeriodInLabel',
-                      'Next period in'
-                    )} ${formatDigitsForLang(daysUntilNextPeriod)} ${ct('daysUnit', 'days')}`
+                      'Tentative next period in'
+                    )} ${formatDigitsForLang(daysUntilNextPeriod)} ${ct('daysUnit', 'days')}${
+                      prediction.tentativeNextPeriodDate
+                        ? ` (${formatDigitsForLang(prediction.tentativeNextPeriodDate)})`
+                        : ''
+                    }`
                   : tr(
                       'tapCalendarToStartPrompt',
                       'Tap your calendar above to pick your First Day of Period and auto-populate your phases!'
                     )
               ),
-              // White inner fertility status card inside "You are in..." square
               h(
                 'div',
                 {
@@ -545,7 +1024,7 @@ export default function FertilityAndMyCycleHomePage1({
                 h(
                   'div',
                   { className: 'text-[11px] font-black text-[#9F133A]' },
-                  `${tr('fertileWindowDaysLabel', 'Days You Can Most Easily Get Pregnant')}: ${tr(
+                  `★ ${tr('fertileWindowDaysLabel', 'Easiest time to get pregnant')}: ${tr(
                     'daysLabel',
                     'Days'
                   )} ${formatDigitsForLang(oStart)}–${formatDigitsForLang(oEnd)}`
@@ -561,9 +1040,7 @@ export default function FertilityAndMyCycleHomePage1({
         )
       ),
 
-      // ======================================================================
       // BELOW THE CALENDAR & WHEEL: 4 Clickable Phase Cards
-      // ======================================================================
       h(
         'div',
         { className: 'w-full space-y-2.5 pt-2' },
@@ -586,7 +1063,7 @@ export default function FertilityAndMyCycleHomePage1({
               {
                 key: card.id,
                 type: 'button',
-                onClick: () => setSelectedPhaseId(card.id),
+                onClick: () => handleSelectPhaseCard(card.id),
                 className:
                   'p-4 rounded-2xl border-[2.5px] border-black text-left flex flex-col justify-between gap-1.5 cursor-pointer transition-transform active:scale-[0.98]',
                 style: {
@@ -611,15 +1088,21 @@ export default function FertilityAndMyCycleHomePage1({
                   )
               ),
               h('div', { className: 'text-xs sm:text-sm font-extrabold text-black' }, card.daysRange),
-              h('div', { className: 'text-xs font-bold text-black/85 leading-snug' }, card.shortSub)
+              h(
+                'div',
+                {
+                  className: `text-xs font-bold leading-snug ${
+                    card.id === 'OvulatoryPhaseDuration1' ? 'text-[#9F133A] font-black' : 'text-black/85'
+                  }`
+                },
+                card.shortSub
+              )
             );
           })
         )
       ),
 
-      // ======================================================================
       // LIVE PHASE & FERTILITY GUIDE BOX BELOW THE 4 CARDS
-      // ======================================================================
       h(
         'div',
         {

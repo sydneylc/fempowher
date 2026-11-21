@@ -2,15 +2,17 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=273';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=273';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=273';
+} from './PregnancyHomePage.js?v=277';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=277';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=277';
 import {
   renderCervixPapScreenCartoonSvg,
+  renderCleanWaterHydrationCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
+  renderPrepPepShieldCartoonSvg,
   renderThreeMonthRetestCalendarSvg
-} from './FlyerCartoonIllustrations.js?v=273';
+} from './FlyerCartoonIllustrations.js?v=277';
 
 const h = React.createElement;
 
@@ -38,7 +40,7 @@ export default function FamilyPlanningHomePage1({
     {
       id: 'fp-my-family-planning',
       label: tr('fpBtnMyFamilyPlanning', 'My Family Planning'),
-      gifSrc: './assets/fp-my-family-planning.gif?v=273',
+      gifSrc: './assets/fp-my-family-planning.gif?v=277',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -58,12 +60,13 @@ export default function FamilyPlanningHomePage1({
       id: 'fp-contraception-for-me',
       label: tr('fpBtnContraceptionForMe', 'My Birth Control & Contraception Options'),
       targetPage: 'ForMeHomePage',
-      gifSrc: './assets/fp-contraception-for-me.gif?v=273',
+      gifSrc: './assets/fp-contraception-for-me.gif?v=277',
       imgClassName:
-        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+        'h-[110%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-48px',
-        marginRight: '-48px'
+        marginRight: '-48px',
+        transform: 'translateY(11%)'
       },
       backgroundStyle: {
         backgroundColor: '#EC769E',
@@ -77,7 +80,7 @@ export default function FamilyPlanningHomePage1({
     {
       id: 'fp-emergency-contraception',
       label: tr('fpBtnEmergencyContraception', 'Emergency Contraceptions & Options'),
-      gifSrc: './assets/fp-emergency-contraception.gif?v=273',
+      gifSrc: './assets/fp-emergency-contraception.gif?v=277',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -96,12 +99,13 @@ export default function FamilyPlanningHomePage1({
     {
       id: 'fp-healthy-pregnancy-spacing',
       label: tr('fpBtnPregnancySpacing', 'Healthy Spacing Between Pregnancies'),
-      gifSrc: './assets/fp-healthy-pregnancy-spacing.gif?v=273',
+      gifSrc: './assets/fp-healthy-pregnancy-spacing.gif?v=277',
       imgClassName:
-        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+        'h-[112%] sm:h-[118%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-48px',
-        marginRight: '-48px'
+        marginRight: '-48px',
+        transform: 'translateY(8%)'
       },
       backgroundStyle: {
         backgroundColor: '#C22458',
@@ -116,7 +120,7 @@ export default function FamilyPlanningHomePage1({
       id: 'fp-preconception',
       label: tr('eduBtnPreConception', 'Pre-Conception (Planning for a Baby)'),
       targetPage: 'PreConceptionHomePage',
-      gifSrc: './assets/fp-preconception.gif?v=273',
+      gifSrc: './assets/fp-preconception.gif?v=277',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -136,12 +140,13 @@ export default function FamilyPlanningHomePage1({
       id: 'fp-for-loved-one',
       label: tr('eduBtnForLovedOne', 'For a Loved One (Supporting a Partner, Sister, or Friend)'),
       targetPage: 'ForALovedOneHomePage',
-      gifSrc: './assets/fp-for-loved-one.gif?v=273',
+      gifSrc: './assets/fp-for-loved-one.gif?v=277',
       imgClassName:
-        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+        'h-[112%] sm:h-[118%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-48px',
-        marginRight: '-48px'
+        marginRight: '-48px',
+        transform: 'translateY(8%)'
       },
       backgroundStyle: {
         backgroundColor: '#6E0926',
@@ -158,7 +163,7 @@ export default function FamilyPlanningHomePage1({
     'fp-my-family-planning': {
       pageId: 'MyFamilyPlanningHomePage1',
       title: tr('fpBtnMyFamilyPlanning', 'My Family Planning'),
-      gifSrc: './assets/fp-my-family-planning.gif?v=273',
+      gifSrc: './assets/fp-my-family-planning.gif?v=277',
       bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1D4ED8 100%)',
       bgColor: '#2057E0',
       titleTintColor: '#CFE2FF',
@@ -181,10 +186,44 @@ export default function FamilyPlanningHomePage1({
         }
       ]
     },
+    'fp-contraception-for-me': {
+      pageId: 'ForMeHomePage',
+      title: tr('fpBtnContraceptionForMe', 'My Birth Control & Contraception Options'),
+      gifSrc: './assets/fp-contraception-for-me.gif?v=277',
+      bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
+      bgColor: '#6D28D9',
+      titleTintColor: '#EDE9FE',
+      sections: [
+        {
+          id: 'larc-iud-implant',
+          heading: 'Long-Acting Reversible Contraception (IUD & Arm Implant — Over 99% Effective)',
+          stickerLabel: 'PAP & HPV SCREENING',
+          graphicRenderer: (sticker) => renderCervixPapScreenCartoonSvg(sticker),
+          body:
+            'Hormonal and Copper IUDs (Intrauterine Devices placed gently in the uterus at a clinic) and the contraceptive arm implant (a tiny flexible rod under the skin of the upper arm) are over 99% effective for 3 to 10 years, require no daily reminders, and your natural fertility returns immediately as soon as you ask a provider to remove them.'
+        },
+        {
+          id: 'pills-patch-ring-injection',
+          heading: 'Birth Control Pills, Vaginal Ring, Patch & 3-Month Injection',
+          stickerLabel: 'TREAT BOTH PARTNERS',
+          graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
+          body:
+            'Birth control pills (taken once a day), the contraceptive vaginal ring (placed for 3 weeks), the weekly skin patch, and the 3-month contraceptive injection (Depo-Provera) use safe hormones to prevent ovulation so no egg is released. They can also make periods lighter, more regular, and less painful.'
+        },
+        {
+          id: 'condoms-dual-protection',
+          heading: 'External & Internal Condoms: The Only Birth Control That Also Stops STDs',
+          stickerLabel: 'PrEP & PEP PREVENTION',
+          graphicRenderer: (sticker) => renderPrepPepShieldCartoonSvg(sticker),
+          body:
+            'While IUDs, implants, pills, and injections are wonderful at preventing pregnancy, only external (male) condoms and internal (female) condoms protect you from both pregnancy and Sexually Transmitted Diseases (STDs) like HIV, Chlamydia, and Gonorrhea.'
+        }
+      ]
+    },
     'fp-emergency-contraception': {
       pageId: 'EmergencyContraceptionHomePage1',
       title: tr('fpBtnEmergencyContraception', 'Emergency Contraceptions & Options'),
-      gifSrc: './assets/fp-emergency-contraception.gif?v=273',
+      gifSrc: './assets/fp-emergency-contraception.gif?v=277',
       bgGradient: 'linear-gradient(180deg, #E11D48 0%, #BE123C 100%)',
       bgColor: '#D41742',
       titleTintColor: '#FFC9D6',
@@ -208,7 +247,7 @@ export default function FamilyPlanningHomePage1({
     'fp-healthy-pregnancy-spacing': {
       pageId: 'HealthyPregnancySpacingHomePage1',
       title: tr('fpBtnPregnancySpacing', 'Healthy Spacing Between Pregnancies'),
-      gifSrc: './assets/fp-healthy-pregnancy-spacing.gif?v=273',
+      gifSrc: './assets/fp-healthy-pregnancy-spacing.gif?v=277',
       bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
       bgColor: '#0E857B',
       titleTintColor: '#CCFBF1',
@@ -224,6 +263,41 @@ export default function FamilyPlanningHomePage1({
             renderThreeMonthRetestCalendarSvg(sticker, topTxt, botTxt),
           body:
             'The World Health Organization and obstetricians recommend waiting at least 18 to 24 months after giving birth before getting pregnant again (and at least 6 months after a Cesarean section for the uterine scar to strengthen). Healthy spacing gives your body time to rebuild iron, folate, and calcium stores, lowers the risk of preterm birth and low birth weight, and protects maternal survival.'
+        }
+      ]
+    },
+    'fp-for-loved-one': {
+      pageId: 'ForALovedOneHomePage',
+      title: tr('eduBtnForLovedOne', 'For a Loved One (Supporting a Partner, Sister, or Friend)'),
+      gifSrc: './assets/fp-for-loved-one.gif?v=277',
+      bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
+      bgColor: '#6D28D9',
+      titleTintColor: '#EDE9FE',
+      sections: [
+        {
+          id: 'supporting-pregnant-loved-one',
+          heading: 'Supporting a Pregnant Partner, Daughter, Sister, or Friend (Knowing the Warning Signs)',
+          headingIcon: renderPregnantLadyHeadingIcon('#EDE9FE'),
+          stickerLabel: 'TREAT BOTH PARTNERS',
+          graphicRenderer: (sticker) => renderPartnerPillsCartoonSvg(sticker),
+          body:
+            'When someone you love is pregnant, planning a pregnancy, or recovering after childbirth, your gentle support can save her life. Accompany her to prenatal checkups, help her rest and eat iron-rich foods, and know the urgent maternal red flags: never wait more than 12 hours in active labor before reaching a hospital, and seek emergency care immediately if she experiences vaginal bleeding, severe headache, blurred vision, high fever, or sudden swelling of the face and hands.'
+        },
+        {
+          id: 'supporting-daughters-and-elders',
+          heading: 'Caring Across Generations: Daughters (8–20) & Mothers or Grandmothers (50+)',
+          stickerLabel: 'PAP & HPV SCREENING',
+          graphicRenderer: (sticker) => renderCervixPapScreenCartoonSvg(sticker),
+          body:
+            'For younger daughters and sisters (ages 8–20), reassure her before her first period so she knows menstruation is healthy and normal, and seek care if she has debilitating cramps or heavy bleeding causing dizziness and anemia. For mothers, aunties, and grandmothers (50+ after menopause), remember that even a single drop of vaginal bleeding or spotting after menopause is an urgent medical sign that needs an OB/GYN checkup right away.'
+        },
+        {
+          id: 'listening-without-judgment',
+          heading: 'How to Listen Without Judgment and Help Her Reach a Safe Haven or Clinic',
+          stickerLabel: 'DRINK CLEAN WATER',
+          graphicRenderer: (sticker) => renderCleanWaterHydrationCartoonSvg(sticker),
+          body:
+            'Many women and girls hide reproductive pain, unplanned pregnancy concerns, or domestic coercion out of modesty, stigma, or fear of burdening the family. Ask your loved one gently how she is feeling, press "Listen Aloud" in FemPowHer so she can hear any health guide in her own spoken language, and offer to walk or ride with her to a confidential OB/GYN clinic or 24/7 Women’s Safe Haven on the FemPowHer map.'
         }
       ]
     }

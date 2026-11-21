@@ -1,13 +1,14 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=273';
-import { isRtlLanguage } from '../data/translations.js?v=273';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=277';
+import { isRtlLanguage } from '../data/translations.js?v=277';
 import {
   CYCLE_PHASE_DEFINITIONS,
+  computeAdaptiveCyclePrediction,
   getCycleCalText,
   formatMonthYearForLang,
   getPhasesForDate,
   loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=273';
+} from '../data/cycleCalendarData.js?v=277';
 
 const h = React.createElement;
 
@@ -140,9 +141,11 @@ export function CycleCalendarWidget1({
           }
           const dayNum = dateObj.getDate();
           const isToday = dayNum === currentDay;
-          const phases = hasColors ? getPhasesForDate(dateObj, activeState) : [];
-          const primaryPhase = phases[0] || null;
-          const secondaryPhase = phases[1] || null;
+          const allPhases = hasColors ? getPhasesForDate(dateObj, activeState) : [];
+          const regularPhases = allPhases.filter((p) => !p.isFertilityGreenHighlight);
+          const greenOverlay = allPhases.find((p) => p.isFertilityGreenHighlight);
+          const primaryPhase = regularPhases[0] || null;
+          const secondaryPhase = regularPhases[1] || null;
 
           return h(
             'div',
@@ -152,9 +155,16 @@ export function CycleCalendarWidget1({
               style: {
                 backgroundColor: primaryPhase ? primaryPhase.rgbaFill : 'transparent',
                 backgroundImage:
-                  primaryPhase && secondaryPhase
+                  greenOverlay && primaryPhase
+                    ? `linear-gradient(135deg, rgba(16, 185, 129, 0.38) 0%, ${primaryPhase.rgbaFill} 55%, rgba(5, 150, 105, 0.42) 100%)`
+                    : primaryPhase && secondaryPhase
                     ? `linear-gradient(135deg, ${primaryPhase.rgbaFill} 0%, ${secondaryPhase.rgbaFill} 100%)`
                     : 'none',
+                boxShadow: greenOverlay
+                  ? 'inset 0 0 0 1.75px #059669'
+                  : primaryPhase && primaryPhase.isTentativePrediction && primaryPhase.isFirstDayBox
+                  ? 'inset 0 0 0 1.25px rgba(0,0,0,0.6)'
+                  : 'none',
                 border: isToday ? '2px solid #000000' : 'none',
                 borderRadius: isToday ? '9999px' : '6px'
               }
@@ -661,10 +671,13 @@ export default function MyCycleSubHomePage({
       id: 'OvulatoryPhaseDuration1',
       title: tr('wombStepOvulatoryTitle', 'Ovulatory Phase'),
       daysText: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(oStart)}–${formatDigitsForLang(oEnd)}`,
-      shortLine: tr('wombStepOvulatoryShort', 'Your ovary lets go of the tiny egg (easiest days to get pregnant).'),
+      shortLine: tr(
+        'wombStepOvulatoryShort',
+        '★ Easiest time to get pregnant (Most fertile window) • Your ovary lets go of the tiny egg.'
+      ),
       detailLine: tr(
         'wombStepOvulatoryDetail',
-        'Your ovary releases a tiny egg into the tube leading to your womb. You may notice clear, slippery fluid in your underwear. These are the days a woman can most easily get pregnant if she has sex.'
+        '★ Easiest time to get pregnant! Your ovary releases a tiny egg into the tube leading to your womb. You may notice clear, slippery fluid in your underwear. These are the days a woman can most easily get pregnant if she has sex.'
       ),
       rgbaFill: CYCLE_PHASE_DEFINITIONS[3].rgbaFill
     },
@@ -1130,17 +1143,35 @@ export default function MyCycleSubHomePage({
                   ? currentPhaseTitle
                   : tr('noPeriodLoggedYetTitle', 'Add Period Date on Calendar')
               ),
+              hasColors &&
+                currentPhaseDef.id === 'OvulatoryPhaseDuration1' &&
+                h(
+                  'div',
+                  { className: 'text-xs font-black text-[#9F133A]' },
+                  ct('calPhaseOvulatoryStarSub', '★ Easiest time to get pregnant (Most fertile window)')
+                ),
               h(
                 'div',
                 { className: 'text-xs font-extrabold text-black/85 leading-snug' },
                 hasColors
-                  ? `${tr('dayLabel', 'Day')} ${formatDigitsForLang(currentDayInCycle)} ${tr(
-                      'ofLabel',
-                      'of'
-                    )} ${formatDigitsForLang(totalCycleLen)} • ${tr(
-                      'nextPeriodInLabel',
-                      'Next period in'
-                    )} ${formatDigitsForLang(daysUntilNextPeriod)} ${ct('daysUnit', 'days')}`
+                  ? (() => {
+                      const pred = computeAdaptiveCyclePrediction(
+                        activeState.periodHistoryDates,
+                        activeState.FirstDayOfPeriod1,
+                        periodLen
+                      );
+                      return `${tr('dayLabel', 'Day')} ${formatDigitsForLang(currentDayInCycle)} ${tr(
+                        'ofLabel',
+                        'of'
+                      )} ${formatDigitsForLang(totalCycleLen)} • ${tr(
+                        'nextPeriodInLabel',
+                        'Tentative next period in'
+                      )} ${formatDigitsForLang(daysUntilNextPeriod)} ${ct('daysUnit', 'days')}${
+                        pred.tentativeNextPeriodDate
+                          ? ` (${formatDigitsForLang(pred.tentativeNextPeriodDate)})`
+                          : ''
+                      }`;
+                    })()
                   : tr(
                       'tapCalendarToStartPrompt',
                       'Tap your calendar above to pick your First Day of Period and auto-populate your phases!'

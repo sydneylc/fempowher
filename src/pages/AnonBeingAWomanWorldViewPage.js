@@ -1,6 +1,6 @@
 import React from 'https://esm.sh/react@18.3.1';
-import BeingAWomanInHomePage from './BeingAWomanInHomePage.js?v=278';
-import { getBeingAWomanContent } from '../data/beingAWomanData.js?v=278';
+import BeingAWomanInHomePage from './BeingAWomanInHomePage.js?v=279';
+import { getBeingAWomanContent } from '../data/beingAWomanData.js?v=279';
 
 const h = React.createElement;
 

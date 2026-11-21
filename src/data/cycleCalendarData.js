@@ -67,11 +67,11 @@ export const CYCLE_PHASE_DEFINITIONS = [
     labelKey: 'calPhaseOvulatory',
     defaultLabelEn: 'Ovulatory Phase',
     starredSubKey: 'calPhaseOvulatoryStarSub',
-    defaultStarredSubEn: '★ Easiest time to get pregnant (Most fertile window)',
+    defaultStarredSubEn: '★ Easiest time to get pregnant',
     blurbTitleKey: 'calPhaseOvulatory',
     blurbKey: 'calBlurbOvulatory',
     defaultBlurbEn:
-      '★ Easiest time to get pregnant! Your ovary lets go of a tiny egg. You may feel great energy, feel more interested in sex, and notice clear, slippery fluid in your underwear.',
+      'Your ovary lets go of a tiny egg (which stays alive for 12 to 24 hours). You may feel great energy, feel more interested in sex, and notice clear, slippery fluid in your underwear.',
     colorHex: '#D8316C',
     rgbaFill: 'rgba(216, 49, 108, 0.52)',
     borderHex: '#A31D4E',
@@ -97,20 +97,28 @@ export const CYCLE_PHASE_DEFINITIONS = [
   }
 ];
 
-// Greenish fertility highlight filter definition when "Trying to Get Pregnant (Fertility)" is checked
+// Vibrant Neon Green fertility highlight filter definition when "Trying to Get Pregnant (Fertility)" is checked:
+// - Least neon (Vibrant Lime-Green): Most likely fertile window days (5 days before ovulation when sperm survive 3-5 days + 1 day after ovulation while egg survives 12-24h)
+// - Medium-Bright Neon Green: 1-2 days right before ovulation (highest single-day chance along with ovulation day!)
+// - Most Neon & Glowing (Electric Neon Green #39FF14): Exact Ovulation Day (egg release day!)
 export const FERTILITY_GREEN_OVERLAY_DEFINITION = {
   id: 'FertilityGreenOverlay1',
   labelKey: 'calFertilityGreenOverlayLabel',
-  defaultLabelEn: 'Trying to Get Pregnant (Fertile Highlight)',
+  defaultLabelEn: 'Trying to Get Pregnant (Neon Fertile Highlight)',
   starredSubKey: 'calPhaseOvulatoryStarSub',
   defaultStarredSubEn: '★ Easiest time to get pregnant',
   blurbKey: 'calFertilityGreenOverlayBlurb',
   defaultBlurbEn:
-    'Green fertility filter highlighting the days you are most likely to get pregnant (leading up to ovulation, egg release day, and 1 day right after ovulation).',
-  colorHex: '#10B981',
-  rgbaFill: 'rgba(16, 185, 129, 0.34)',
-  peakRgbaFill: 'rgba(5, 150, 105, 0.48)',
-  borderHex: '#047857'
+    'Pregnancy is most likely during the 6-day fertile window (the 5 days before ovulation + ovulation day itself). Sperm can live inside you for 3 to 5 days waiting for the egg, while the egg lives for 12 to 24 hours after release. Having sex on ovulation day or the 1 to 2 days right before ovulation gives the highest single-day chance of getting pregnant!',
+  colorHex: '#39FF14',
+  // Least neon (still vibrant neon lime-green) for general fertile window days
+  rgbaFill: 'rgba(118, 255, 3, 0.44)',
+  // Medium-high vibrant neon green for the 1-2 days right before ovulation
+  highFertileRgbaFill: 'rgba(0, 255, 102, 0.58)',
+  // Most neon glowing electric green for the Exact Ovulation Day!
+  peakRgbaFill: 'rgba(57, 255, 20, 0.78)',
+  peakNeonGlow: '0 0 12px rgba(57, 255, 20, 0.95), inset 0 0 0 2.5px #15803D',
+  borderHex: '#16A34A'
 };
 
 // Helper: Number of days in the calendar month of a YYYY-MM-DD date string (defaults to 30 if invalid)
@@ -795,30 +803,42 @@ export function getPhasesForDate(dateObj, calendarState) {
     }
   }
 
-  // 5. Greenish Fertility Highlight Filter over Ovulation / Trying to Get Pregnant Window
+  // 5. Vibrant Neon Green Fertility Highlight Filter over Ovulation / Trying to Get Pregnant Window
   //    Active when user ticks the "Trying to Get Pregnant (Fertility)" checkbox in Settings!
   if (calendarState.fertilityTrackingEnabled && visible.FertilityGreenOverlay1 !== false) {
     const fertileLeadDays = Math.max(1, Math.min(7, Number(calendarState.FertileWindowDays1) || 5));
     const exactOvDays = Math.max(1, Math.min(2, Number(calendarState.ExactOvulationDays1) || 1));
     const postOvDays = Math.max(0, Math.min(3, Number(calendarState.PostOvulationFertileDays1) ?? 1));
 
-    // Peak ovulation day sits at the center/end of the Ovulatory phase (oMid)
+    // Peak ovulation day sits at the end of the Ovulatory phase
     const peakOvStart = Math.max(oStart, oEnd - exactOvDays + 1);
     const peakOvEnd = oEnd;
+    // The 1-2 days right before ovulation (highest single-day chance along with ovulation day)
+    const highPreOvStart = Math.max(pEnd + 1, peakOvStart - 2);
     const fertileGreenStart = Math.max(pEnd + 1, peakOvEnd - fertileLeadDays + 1);
     const fertileGreenEnd = Math.min(lEnd, peakOvEnd + postOvDays);
 
     if (dayInCycle >= fertileGreenStart && dayInCycle <= fertileGreenEnd) {
       const isPeakOvulationDay = dayInCycle >= peakOvStart && dayInCycle <= peakOvEnd;
+      const isHighFertilePreOvDay =
+        !isPeakOvulationDay && dayInCycle >= highPreOvStart && dayInCycle < peakOvStart;
       const isPostOvulationDay = dayInCycle > peakOvEnd;
       matched.push({
         ...FERTILITY_GREEN_OVERLAY_DEFINITION,
         isFertilityGreenHighlight: true,
         isPeakOvulationDay,
+        isHighFertilePreOvDay,
         isPostOvulationDay,
         rgbaFill: isPeakOvulationDay
           ? FERTILITY_GREEN_OVERLAY_DEFINITION.peakRgbaFill
+          : isHighFertilePreOvDay
+          ? FERTILITY_GREEN_OVERLAY_DEFINITION.highFertileRgbaFill
           : FERTILITY_GREEN_OVERLAY_DEFINITION.rgbaFill,
+        neonGlow: isPeakOvulationDay
+          ? FERTILITY_GREEN_OVERLAY_DEFINITION.peakNeonGlow
+          : isHighFertilePreOvDay
+          ? '0 0 8px rgba(0, 255, 102, 0.75), inset 0 0 0 2px #16A34A'
+          : 'inset 0 0 0 1.75px #22C55E',
         dayInPhase: dayInCycle - fertileGreenStart + 1,
         dayInCycleNumber: dayInCycle + 1,
         isPhaseStart: dayInCycle === fertileGreenStart,
@@ -866,7 +886,7 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
       'Main automatic cycle frame on your calendar. As you log more monthly period dates, our cycle algorithm learns your body’s personal rhythm!',
     tryingToGetPregnantHeader: 'Trying to Get Pregnant (Fertility)',
     tryingToGetPregnantSub:
-      'Check this box to turn on a green fertility highlight over your ovulation window and add the interactive Cycle & Fertility Wheel to your Calendar Key.',
+      'Check this box to turn on a vibrant neon green fertility highlight over your ovulation window and add the interactive Cycle & Fertility Wheel to your Calendar Key.',
     firstDayLabel: 'First Day of Period (Reported by User)',
     firstDayDesc: 'Bright red boxed day marking Day 1 of your menstrual bleeding.',
     periodDaysLabel: 'Days of Period (1–7 Days Customizable)',
@@ -874,19 +894,19 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     follicularLabel: 'Follicular Phase (1–7 Days Customizable)',
     follicularDesc: 'Warm orange translucent bar following your period as an egg matures.',
     ovulatoryLabel: 'Ovulatory Phase (1–7 Days Customizable)',
-    ovulatoryStarredSub: '★ Easiest time to get pregnant (Most fertile window)',
+    ovulatoryStarredSub: '★ Easiest time to get pregnant',
     ovulatoryDesc: 'Pinkish-red translucent bar marking your fertile ovulation window.',
     lutealLabel: 'Luteal Phase (1–7 Days Customizable)',
     lutealDesc: 'Darkest pink translucent bar after ovulation until the next cycle begins.',
-    fertilityMostLikelyDaysLabel: 'Most Likely Days to Get Pregnant (Sperm + Egg Window)',
+    fertilityMostLikelyDaysLabel: 'Most Likely Days to Get Pregnant (6-Day Sperm + Egg Window)',
     fertilityMostLikelyDaysDesc:
-      'Green highlight over the days leading up to ovulation (sperm can stay alive inside your womb for up to 5 days waiting for the egg).',
-    fertilityExactOvulationLabel: 'Exact Ovulation Day (Egg Release Day)',
+      'Pregnancy is most likely during the 6-day window (5 days before ovulation + ovulation day itself). Sperm can live inside you for 3 to 5 days waiting for the egg!',
+    fertilityExactOvulationLabel: 'Exact Ovulation Day (Glowing Neon Green Peak Day)',
     fertilityExactOvulationDesc:
-      'The peak 1 to 2 days in the middle of your cycle when your ovary lets go of the egg.',
+      'Once released, an egg lives for 12 to 24 hours. Having sex on ovulation day or the 1 to 2 days right before ovulation gives the highest single-day chance of getting pregnant.',
     fertilityPostOvulationLabel: 'Could Still Be Fertile After Ovulation',
     fertilityPostOvulationDesc:
-      '1 to 2 days right after ovulation when the egg is still inside your tube and pregnancy can still happen.',
+      '1 day right after ovulation while the released egg can still be fertilized (12 to 24 hours).',
     fertilityShowInfertileLabel: 'Show "Unlikely to Get Pregnant" days on the Fertility Wheel',
     repeatsToggleLabel: 'Repeat & predict tentative cycle phases across future months',
     daysUnit: 'days',
@@ -901,11 +921,11 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     calPhasePeriodTitleShort: 'Period',
     calPhaseFollicular: 'Follicular Phase',
     calPhaseOvulatory: 'Ovulatory Phase',
-    calPhaseOvulatoryStarSub: '★ Easiest time to get pregnant (Most fertile window)',
+    calPhaseOvulatoryStarSub: '★ Easiest time to get pregnant',
     calPhaseLuteal: 'Luteal Phase',
-    calFertilityGreenOverlayLabel: 'Trying to Get Pregnant (Green Highlight)',
+    calFertilityGreenOverlayLabel: 'Trying to Get Pregnant (Neon Green)',
     calFertilityGreenOverlayBlurb:
-      '★ Easiest time to get pregnant! Green highlight over your fertile ovulation days.',
+      'Pregnancy is most likely during the 6-day window (5 days before ovulation + ovulation day). Sperm survive 3 to 5 days waiting for the egg, while the egg lives 12 to 24 hours. Having sex on ovulation day or 1 to 2 days right before gives the highest single-day chance!',
     calBlurbFirstDay:
       'Day 1 of your period when bleeding starts. You might have belly cramps, feel tired, or just want to rest and stay warm.',
     calBlurbPeriodDays:
@@ -913,7 +933,7 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     calBlurbFollicular:
       'Right after your period ends, your body gets a new tiny egg ready. You will often feel happier, clearer, and have much more energy to do things.',
     calBlurbOvulatory:
-      '★ Easiest time to get pregnant! Your ovary lets go of a tiny egg. You may feel great energy, feel more interested in sex, and notice clear, slippery fluid in your underwear.',
+      'Your ovary lets go of a tiny egg (which stays alive for 12 to 24 hours). You may feel great energy, feel more interested in sex, and notice clear, slippery fluid in your underwear.',
     calBlurbLuteal:
       'Your womb builds a soft, thick lining in case a baby starts growing. If you are not pregnant, your body gets ready for your next period. You may feel hungrier, bloated, emotional, tired, or have sore breasts.',
     autoBaselineBannerTitle: 'Smart Cycle & Next-Period Prediction Algorithm',
@@ -954,7 +974,7 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     follicularLabel: 'المرحلة الجريبية (١–٧ أيام قابلة للتخصيص)',
     follicularDesc: 'شريط برتقالي شفاف يلي فترة الحيض.',
     ovulatoryLabel: 'مرحلة الإباضة (١–٧ أيام قابلة للتخصيص)',
-    ovulatoryStarredSub: '★ أسهل وقت لحدوث الحمل (نافذة الخصوبة)',
+    ovulatoryStarredSub: '★ أسهل وقت لحدوث الحمل',
     ovulatoryDesc: 'شريط وردي محمرّ شفاف يحدد نافذة الإباضة والخصوبة.',
     lutealLabel: 'المرحلة الأصفرية (١–٧ أيام قابلة للتخصيص)',
     lutealDesc: 'شريط وردي داكن شفاف بعد الإباضة وحتى بداية الدورة التالية.',
@@ -1005,7 +1025,7 @@ export const CYCLE_CALENDAR_TRANSLATIONS = {
     follicularLabel: 'Fase Folicular (1–7 Días Personalizables)',
     follicularDesc: 'Naranja translúcido después del período.',
     ovulatoryLabel: 'Fase Ovulatoria (1–7 Días Personalizables)',
-    ovulatoryStarredSub: '★ Momento más fácil para quedar embarazada (Ventana fértil)',
+    ovulatoryStarredSub: '★ Momento más fácil para quedar embarazada',
     ovulatoryDesc: 'Rojo rosado translúcido durante los días de ovulación.',
     lutealLabel: 'Fase Lútea (1–7 Días Personalizables)',
     lutealDesc: 'Rosa más oscuro translúcido después de la ovulación.',

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'https://esm.sh/react@18.3.1';
-import { isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=278';
+import { isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=279';
 
 const h = React.createElement;
 
@@ -345,7 +345,7 @@ export default function PregnancyHomePage({
       id: 'questions',
       label: tr('pregFeelQuestions', 'I have questions'),
       targetPage: 'QuestionsPregHomePage',
-      gifSrc: './assets/pregnancy-questions.gif?v=278',
+      gifSrc: './assets/pregnancy-questions.gif?v=279',
       // Tone 1: Light Apple-Mint Green (#B2EAA2) — zero outline, matches the GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#B2EAA2',
@@ -360,7 +360,7 @@ export default function PregnancyHomePage({
       id: 'feeling-good',
       label: tr('pregFeelGood', "I'm feeling good"),
       targetPage: 'FeelingGoodPregHomePage',
-      gifSrc: './assets/pregnancy-feeling-good.gif?v=278',
+      gifSrc: './assets/pregnancy-feeling-good.gif?v=279',
       // Tone 2: Emerald-Mint Green (#50D5A2) with Dark Olive Green Grass (#546414) — zero outline
       backgroundStyle: {
         background:
@@ -376,7 +376,7 @@ export default function PregnancyHomePage({
       id: 'hard-time',
       label: tr('pregFeelHardTime', "I'm having a hard time"),
       targetPage: 'HardTimePregHomePage',
-      gifSrc: './assets/pregnancy-hard-time.gif?v=278',
+      gifSrc: './assets/pregnancy-hard-time.gif?v=279',
       // Tone 3: Deep Teal-Green (#0DAA8D) with Olive floor horizon & bright lime (#BEFE62) rug/leaves in GIF
       backgroundStyle: {
         background:

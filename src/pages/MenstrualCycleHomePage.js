@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { PregHomePageButtons, renderSubpageBackButton } from './PregnancyHomePage.js?v=278';
+import { PregHomePageButtons, renderSubpageBackButton } from './PregnancyHomePage.js?v=279';
 
 const h = React.createElement;
 
@@ -22,7 +22,7 @@ export default function MenstrualCycleHomePage({
       id: 'first-period',
       label: tr('cycleBtnFirstPeriod', 'I got my first period!'),
       targetPage: 'FirstPeriodHomePage',
-      gifSrc: './assets/menstrual-first-period.gif?v=278',
+      gifSrc: './assets/menstrual-first-period.gif?v=279',
       // Tone 1: Soft Petal Pink (#FCE4F4) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#FCE4F4',
@@ -37,7 +37,7 @@ export default function MenstrualCycleHomePage({
       id: 'my-cycle',
       label: tr('cycleBtnMyCycle', 'My cycle!'),
       targetPage: 'MyCycleSubHomePage',
-      gifSrc: './assets/menstrual-my-cycle.gif?v=278',
+      gifSrc: './assets/menstrual-my-cycle.gif?v=279',
       // Tone 2: Warm Rose Blossom Pink (#F8CBE6) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#F8CBE6',
@@ -52,7 +52,7 @@ export default function MenstrualCycleHomePage({
       id: 'periods-worst',
       label: tr('cycleBtnPeriodsWorst', 'My periods are the worst!'),
       targetPage: 'PainfulPeriodsHomePage',
-      gifSrc: './assets/menstrual-periods-worst.gif?v=278',
+      gifSrc: './assets/menstrual-periods-worst.gif?v=279',
       // Tone 3: Mauve-Rose Pink (#EDA4C6) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#EDA4C6',
@@ -67,7 +67,7 @@ export default function MenstrualCycleHomePage({
       id: 'period-stopped',
       label: tr('cycleBtnPeriodStopped', 'My period stopped!'),
       targetPage: 'PeriodStoppedHomePage',
-      gifSrc: './assets/menstrual-period-stopped.gif?v=278',
+      gifSrc: './assets/menstrual-period-stopped.gif?v=279',
       // Tone 4: Deep Berry Rose Pink (#D96B98) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#D96B98',
@@ -82,7 +82,7 @@ export default function MenstrualCycleHomePage({
       id: 'fertility-and-my-cycle',
       label: tr('cycleBtnFertilityAndMyCycle', 'Fertility and My Cycle'),
       targetPage: 'FertilityAndMyCycleHomePage1',
-      gifSrc: './assets/menstrual-fertility-cycle.gif?v=278',
+      gifSrc: './assets/menstrual-fertility-cycle.gif?v=279',
       // Tone 5: Rich Velvet Berry Rose (#C45182) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#C45182',

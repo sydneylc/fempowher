@@ -1,10 +1,10 @@
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=278';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=279';
 import {
   renderCervixPapScreenCartoonSvg,
   renderCleanWaterHydrationCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=278';
+} from './FlyerCartoonIllustrations.js?v=279';
 
 export default function ForALovedOneHomePage({
   onBack,
@@ -25,7 +25,7 @@ export default function ForALovedOneHomePage({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'ForALovedOneHomePage',
     title: tr('eduBtnForLovedOne', 'For a Loved One (Supporting a Partner, Sister, or Friend)'),
-    gifSrc: './assets/fp-for-loved-one.gif?v=278',
+    gifSrc: './assets/fp-for-loved-one.gif?v=279',
     bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
     bgColor: '#6D28D9',
     titleTintColor: '#EDE9FE',

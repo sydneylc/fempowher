@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=278';
-import { isRtlLanguage } from '../data/translations.js?v=278';
-import { InteractiveCycleFertilityWheel1 } from './FertilityAndMyCycleHomePage1.js?v=278';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=279';
+import { isRtlLanguage } from '../data/translations.js?v=279';
+import { InteractiveCycleFertilityWheel1 } from './FertilityAndMyCycleHomePage1.js?v=279';
 import {
   CYCLE_PHASE_DEFINITIONS,
   FERTILITY_GREEN_OVERLAY_DEFINITION,
@@ -11,7 +11,7 @@ import {
   loadUserCycleCalendarState,
   saveUserCycleCalendarState,
   renderGearHeartIcon
-} from '../data/cycleCalendarData.js?v=278';
+} from '../data/cycleCalendarData.js?v=279';
 
 const h = React.createElement;
 
@@ -121,7 +121,9 @@ export default function InteractiveCalendarHomePage1({
 
     const starredSub =
       phaseDef.id === 'OvulatoryPhaseDuration1' || phaseDef.isFertilityGreenHighlight
-        ? ct('calPhaseOvulatoryStarSub', '★ Easiest time to get pregnant (Most fertile window)')
+        ? activeState && activeState.fertilityTrackingEnabled
+          ? ct('calPhaseOvulatoryStarSub', '★ Easiest time to get pregnant')
+          : '★'
         : null;
 
     const targetCenterX = rect.left + rect.width / 2;
@@ -660,7 +662,9 @@ export default function InteractiveCalendarHomePage1({
                             displayLabel
                           )
                     ),
-                    // Starred subheading under Ovulatory Phase everywhere in the calendar!
+                    // Starred subheading under Ovulatory Phase:
+                    // - When fertility is NOT checked: only a star "★" (no writing)
+                    // - When fertility IS checked: "★ Easiest time to get pregnant"
                     phase.id === 'OvulatoryPhaseDuration1' &&
                       h(
                         'div',
@@ -669,7 +673,9 @@ export default function InteractiveCalendarHomePage1({
                             isKeyExpanded ? '' : 'truncate'
                           }`
                         },
-                        ct('calPhaseOvulatoryStarSub', '★ Easiest time to get pregnant')
+                        activeState.fertilityTrackingEnabled
+                          ? ct('calPhaseOvulatoryStarSub', '★ Easiest time to get pregnant')
+                          : '★'
                       ),
                     isKeyExpanded &&
                       h(
@@ -872,12 +878,28 @@ export default function InteractiveCalendarHomePage1({
                 className:
                   'relative border-b border-e border-black/25 p-1.5 sm:p-2 flex flex-col justify-between overflow-hidden bg-white',
                 style: greenFertilityOverlay
-                  ? {
-                      // Subtle greenish highlight tint over the entire day cell when Trying to Get Pregnant is checked!
-                      backgroundImage:
-                        'linear-gradient(180deg, rgba(16, 185, 129, 0.14) 0%, rgba(16, 185, 129, 0.24) 100%)',
-                      boxShadow: 'inset 0 0 0 2px rgba(5, 150, 105, 0.65)'
-                    }
+                  ? greenFertilityOverlay.isPeakOvulationDay
+                    ? {
+                        // MOST NEON & GLOWING: Exact Ovulation Day (#39FF14 electric neon green + glow!)
+                        backgroundImage:
+                          'linear-gradient(180deg, rgba(57, 255, 20, 0.34) 0%, rgba(57, 255, 20, 0.56) 100%)',
+                        boxShadow:
+                          '0 0 16px rgba(57, 255, 20, 0.95), inset 0 0 0 2.5px #15803D'
+                      }
+                    : greenFertilityOverlay.isHighFertilePreOvDay
+                    ? {
+                        // MEDIUM-HIGH NEON GREEN: 1-2 days right before ovulation (highest single-day chance with ovulation day)
+                        backgroundImage:
+                          'linear-gradient(180deg, rgba(0, 255, 102, 0.24) 0%, rgba(0, 255, 102, 0.40) 100%)',
+                        boxShadow:
+                          '0 0 10px rgba(0, 255, 102, 0.75), inset 0 0 0 2px #16A34A'
+                      }
+                    : {
+                        // LEAST NEON (STILL BRIGHT NEON LIME-GREEN): Most likely fertile window days
+                        backgroundImage:
+                          'linear-gradient(180deg, rgba(118, 255, 3, 0.18) 0%, rgba(118, 255, 3, 0.30) 100%)',
+                        boxShadow: 'inset 0 0 0 2px #22C55E'
+                      }
                   : undefined
               },
               // Top row inside day cell: Date Number + "Today" badge
@@ -904,7 +926,7 @@ export default function InteractiveCalendarHomePage1({
                   )
               ),
 
-              // Translucent Phase Ribbons Layer (with Greenish Fertility Highlight over Ovulation when checked!)
+              // Translucent Phase Ribbons Layer (with Vibrant Neon Green Fertility Highlight over Ovulation when checked!)
               hasColors &&
                 regularPhases.length > 0 &&
                 h(
@@ -920,6 +942,9 @@ export default function InteractiveCalendarHomePage1({
 
                     const isOvulatoryBar = p.id === 'OvulatoryPhaseDuration1';
                     const hasGreenOverlayOnThisBar = Boolean(greenFertilityOverlay && isOvulatoryBar);
+                    const isPeakOvulationBar = Boolean(
+                      hasGreenOverlayOnThisBar && greenFertilityOverlay.isPeakOvulationDay
+                    );
 
                     return h(
                       'div',
@@ -935,12 +960,16 @@ export default function InteractiveCalendarHomePage1({
                           'w-full px-1.5 py-1 flex flex-col justify-center text-[10px] sm:text-xs font-extrabold text-black cursor-pointer transition-transform hover:scale-[1.02] relative overflow-hidden',
                         style: {
                           backgroundColor: p.rgbaFill,
-                          // If Trying to Get Pregnant green filter is active over ovulation, layer a translucent green highlight over the existing pinkish-red color!
-                          backgroundImage: hasGreenOverlayOnThisBar
-                            ? 'linear-gradient(135deg, rgba(16, 185, 129, 0.36) 0%, rgba(216, 49, 108, 0.45) 55%, rgba(5, 150, 105, 0.42) 100%)'
+                          // Layer vibrant neon green highlight over the existing pinkish-red color when Trying to Get Pregnant is checked!
+                          backgroundImage: isPeakOvulationBar
+                            ? 'linear-gradient(135deg, rgba(57, 255, 20, 0.78) 0%, rgba(216, 49, 108, 0.42) 50%, rgba(57, 255, 20, 0.85) 100%)'
+                            : hasGreenOverlayOnThisBar
+                            ? 'linear-gradient(135deg, rgba(0, 255, 102, 0.56) 0%, rgba(216, 49, 108, 0.45) 55%, rgba(118, 255, 3, 0.56) 100%)'
                             : undefined,
-                          boxShadow: hasGreenOverlayOnThisBar
-                            ? 'inset 0 0 0 2px #059669'
+                          boxShadow: isPeakOvulationBar
+                            ? '0 0 12px rgba(57, 255, 20, 0.95), inset 0 0 0 2.5px #15803D'
+                            : hasGreenOverlayOnThisBar
+                            ? '0 0 6px rgba(0, 255, 102, 0.7), inset 0 0 0 2px #16A34A'
                             : p.isTentativePrediction && p.isFirstDayBox
                             ? 'inset 0 0 0 1.5px rgba(0,0,0,0.55)'
                             : 'none',
@@ -976,22 +1005,24 @@ export default function InteractiveCalendarHomePage1({
                             ct('lastDayTag', 'Last Day')
                           )
                       ),
-                      // Starred subheading under Ovulatory Phase on the calendar ribbon
+                      // Star underneath Ovulatory Phase on the calendar ribbon:
+                      // - When fertility is NOT checked: ONLY "★" (no writing!)
+                      // - When fertility IS checked: "★ Easiest time to get pregnant"
                       isOvulatoryBar &&
                         h(
                           'div',
                           {
                             className:
-                              'text-[8.5px] font-black leading-tight truncate text-[#064E3B]'
+                              'text-[8.5px] font-black leading-tight truncate text-[#052E16]'
                           },
-                          hasGreenOverlayOnThisBar
-                            ? '★ Easiest to get pregnant (Fertile)'
-                            : '★ Easiest time to get pregnant'
+                          activeState.fertilityTrackingEnabled
+                            ? ct('calPhaseOvulatoryStarSub', '★ Easiest time to get pregnant')
+                            : '★'
                         )
                     );
                   }),
 
-                  // If the green fertility window extends onto late Follicular or early Luteal day (before/after the 3-day Ovulatory bar), show a slim green highlight strip over that day too!
+                  // If the neon green fertility window extends onto late Follicular or early Luteal day (before/after the 3-day Ovulatory bar), show a neon green highlight strip over that day too!
                   greenFertilityOverlay &&
                     !regularPhases.some((rp) => rp.id === 'OvulatoryPhaseDuration1') &&
                     h(
@@ -1005,15 +1036,15 @@ export default function InteractiveCalendarHomePage1({
                           showPhaseWordBubble(greenFertilityOverlay, e.currentTarget, true);
                         },
                         className:
-                          'w-full px-1.5 py-0.5 rounded-md text-[8.5px] font-black text-[#064E3B] truncate cursor-pointer',
+                          'w-full px-1.5 py-0.5 rounded-md text-[8.5px] font-black text-[#052E16] truncate cursor-pointer',
                         style: {
                           backgroundColor: greenFertilityOverlay.rgbaFill,
-                          boxShadow: 'inset 0 0 0 1.5px #059669'
+                          boxShadow: greenFertilityOverlay.neonGlow || 'inset 0 0 0 1.5px #16A34A'
                         }
                       },
                       greenFertilityOverlay.isPostOvulationDay
                         ? '★ Could still be fertile'
-                        : '★ Fertile window'
+                        : '★ Easiest time to get pregnant'
                     )
                 )
             );

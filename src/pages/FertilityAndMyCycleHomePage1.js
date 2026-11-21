@@ -1,7 +1,7 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=278';
-import { CycleCalendarWidget1 } from './MyCycleSubHomePage.js?v=278';
-import { isRtlLanguage } from '../data/translations.js?v=278';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=279';
+import { CycleCalendarWidget1 } from './MyCycleSubHomePage.js?v=279';
+import { isRtlLanguage } from '../data/translations.js?v=279';
 import {
   CYCLE_PHASE_DEFINITIONS,
   FERTILITY_GREEN_OVERLAY_DEFINITION,
@@ -9,7 +9,7 @@ import {
   getCycleCalText,
   loadUserCycleCalendarState,
   saveUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=278';
+} from '../data/cycleCalendarData.js?v=279';
 
 const h = React.createElement;
 
@@ -203,6 +203,7 @@ export function InteractiveCycleFertilityWheel1({
     else if (d <= oEnd) phaseIdForDay = 'OvulatoryPhaseDuration1';
 
     const isPeakOv = d >= peakOvDayStart && d <= peakOvDayEnd;
+    const isHighPreOv = !isPeakOv && d >= Math.max(pEnd + 1, peakOvDayStart - 2) && d < peakOvDayStart;
     const isFertileGreen = d >= fertileWindowDayStart && d <= fertileWindowDayEnd;
     const isPostOv = d > peakOvDayEnd && d <= fertileWindowDayEnd;
 
@@ -218,28 +219,39 @@ export function InteractiveCycleFertilityWheel1({
           ? tr('wheelDay1Note', 'Day 1: First day of menstrual bleeding.')
           : tr('wheelPeriodDayNote', 'Menstruation (period bleeding).');
     } else if (isPeakOv) {
-      beadFill = '#059669';
-      beadTextHex = '#FFFFFF';
+      // Most Neon & Glowing Electric Green for Exact Ovulation Day
+      beadFill = '#39FF14';
+      beadTextHex = '#000000';
       dayNote = tr(
         'wheelPeakOvulationNote',
-        '★ Ovulation Day! Egg comes out. Highest chance to get pregnant!'
+        '★ Exact Ovulation Day! Your ovary releases the egg (which lives 12 to 24 hours). Having sex today or 1 to 2 days before gives the highest single-day chance of getting pregnant!'
+      );
+    } else if (isHighPreOv) {
+      // Medium-Bright Neon Green for 1-2 days right before ovulation
+      beadFill = '#00FF66';
+      beadTextHex = '#000000';
+      dayNote = tr(
+        'wheelHighPreOvulationNote',
+        '★ 1 to 2 days right before ovulation! Along with ovulation day, having sex on these days gives the highest single-day chance of getting pregnant because sperm are ready when the egg arrives.'
       );
     } else if (isPostOv) {
-      beadFill = '#34D399';
+      // Least neon (still bright neon lime-green) for 1 day after ovulation
+      beadFill = '#7CFF5B';
       beadTextHex = '#000000';
       dayNote = tr(
         'wheelPostOvulationNote',
-        '★ Could still be fertile right after ovulation before the egg dissolves.'
+        '★ Could still be fertile right after ovulation while the egg remains viable (about 12 to 24 hours after release).'
       );
     } else if (isFertileGreen) {
-      beadFill = '#10B981';
-      beadTextHex = '#FFFFFF';
+      // Least neon (still bright neon lime-green) for the 6-day fertile window
+      beadFill = '#7CFF5B';
+      beadTextHex = '#000000';
       dayNote = tr(
         'wheelMostFertileDaysNote',
-        '★ Most fertile days! Sperm can wait up to 5 days inside your womb for the egg.'
+        '★ Most likely fertile window (6-day window: 5 days before ovulation + ovulation day)! Sperm can survive in your reproductive tract for 3 to 5 days waiting for the egg.'
       );
     } else if (activeState.showInfertileDaysOnWheel !== false) {
-      beadFill = '#D1FAE5';
+      beadFill = '#DCFCE7';
       beadTextHex = '#065F46';
       dayNote = tr('wheelInfertileDayNote', 'Unlikely to get pregnant (Infertile phase of cycle).');
     }
@@ -824,7 +836,7 @@ export default function FertilityAndMyCycleHomePage1({
       id: 'OvulatoryPhaseDuration1',
       title: tr('fertilityPhaseOvulatoryTitle', 'Ovulatory Phase'),
       daysRange: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(oStart)}–${formatDigitsForLang(oEnd)}`,
-      shortSub: tr('ovulatoryStarredSub', '★ Easiest time to get pregnant (Most fertile window)'),
+      shortSub: tr('ovulatoryStarredSub', '★ Easiest time to get pregnant'),
       hormoneHeadline: tr('fertilityHormoneOvulatory', 'Egg Released • Peak Fertile Days'),
       fertilityStatus: tr('fertilityStatusOvulatory', '★ Easiest time to get pregnant right now!'),
       colorHex: CYCLE_PHASE_DEFINITIONS[3].colorHex,
@@ -836,15 +848,19 @@ export default function FertilityAndMyCycleHomePage1({
       bullets: [
         tr(
           'fertilityGuideOvulatoryB1',
-          'What Your Body Is Doing: Your ovary lets go of a tiny egg! The egg travels down a tube toward your womb and waits for 1 day to see if sperm will meet it.'
+          'Highest Single-Day Chance: Having sex on the day of ovulation, as well as the 1 to 2 days right before ovulation, gives you the highest single-day chance of getting pregnant.'
         ),
         tr(
           'fertilityGuideOvulatoryB2',
-          'Can I Get Pregnant Right Now?: YES! These are the days you are most likely to get pregnant. Your body makes clear, slippery, stretchy fluid (that looks like raw egg white) to help sperm swim to the egg.'
+          'Why Timing Matters (The 6-Day Fertile Window): Pregnancy is most likely during the 6-day window that includes the 5 days before ovulation and the day of ovulation itself.'
         ),
         tr(
           'fertilityGuideOvulatoryB3',
-          'How You May Feel: You may feel high energy, extra confident, and more interested in sex. Some women also feel a tiny pinch on one side of their lower belly when the egg comes out.'
+          'Sperm Lifespan (3 to 5 Days) vs. Egg Lifespan (12 to 24 Hours): Sperm can survive in your reproductive tract for up to 3 to 5 days, while a released egg only remains viable for fertilization for about 12 to 24 hours. Having sex before ovulation ensures sperm are already waiting when the egg arrives!'
+        ),
+        tr(
+          'fertilityGuideOvulatoryB4',
+          'How You May Feel: Your body makes clear, slippery fluid (like raw egg white) to help sperm swim. You may feel high energy, extra confident, and more interested in sex.'
         )
       ]
     },
@@ -993,7 +1009,9 @@ export default function FertilityAndMyCycleHomePage1({
                 h(
                   'div',
                   { className: 'text-xs font-black text-[#9F133A]' },
-                  ct('ovulatoryStarredSub', '★ Easiest time to get pregnant (Most fertile window)')
+                  activeState.fertilityTrackingEnabled
+                    ? ct('ovulatoryStarredSub', '★ Easiest time to get pregnant')
+                    : '★'
                 ),
               h(
                 'div',

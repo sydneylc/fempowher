@@ -1,6 +1,6 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=278';
-import { isRtlLanguage } from '../data/translations.js?v=278';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=279';
+import { isRtlLanguage } from '../data/translations.js?v=279';
 import {
   CYCLE_PHASE_DEFINITIONS,
   FERTILITY_GREEN_OVERLAY_DEFINITION,
@@ -13,7 +13,7 @@ import {
   loadUserCycleCalendarState,
   saveUserCycleCalendarState,
   renderGearHeartIcon
-} from '../data/cycleCalendarData.js?v=278';
+} from '../data/cycleCalendarData.js?v=279';
 
 const h = React.createElement;
 
@@ -1102,7 +1102,7 @@ export function CalendarSettingsHomePage1({
         ),
 
         // 4. OvulatoryPhaseDuration1 (Editable with Starred Subheading underneath:
-        //    "★ Easiest time to get pregnant (Most fertile window)")
+        //    When fertility is NOT checked: only "★"; when fertility IS checked: "★ Easiest time to get pregnant")
         h(
           'div',
           {
@@ -1130,7 +1130,9 @@ export function CalendarSettingsHomePage1({
                 h(
                   'span',
                   { className: 'text-xs font-black text-[#9F133A] mt-0.5' },
-                  ct('ovulatoryStarredSub', '★ Easiest time to get pregnant (Most fertile window)')
+                  fertilityTrackingEnabled
+                    ? ct('ovulatoryStarredSub', '★ Easiest time to get pregnant')
+                    : '★'
                 )
               )
             ),
@@ -1216,10 +1218,6 @@ export function CalendarSettingsHomePage1({
         // ====================================================================
         // SECTION 2 TITLE + OPT-IN CHECKMARK:
         // "Trying to Get Pregnant (Fertility)"
-        // When checked:
-        //  1. Reveals the fertility sub-widgets below (modeled on the Ovulation diagrams)
-        //  2. Layers a greenish highlight filter over the ovulation window on the calendar
-        //  3. Places the interactive 4-Phase Cycle & Fertility Wheel at the bottom of the Calendar Key
         // ====================================================================
         h(
           'div',
@@ -1233,7 +1231,10 @@ export function CalendarSettingsHomePage1({
               className:
                 'p-4 rounded-2xl border-[2.5px] border-black flex items-center justify-between gap-3 cursor-pointer shadow-sm transition-colors',
               style: {
-                backgroundColor: fertilityTrackingEnabled ? '#ECFDF5' : '#FFF9FC'
+                backgroundColor: fertilityTrackingEnabled ? 'rgba(118, 255, 3, 0.20)' : '#FFF9FC',
+                boxShadow: fertilityTrackingEnabled
+                  ? '0 0 14px rgba(57, 255, 20, 0.45)'
+                  : 'none'
               }
             },
             h(
@@ -1246,26 +1247,29 @@ export function CalendarSettingsHomePage1({
                   'span',
                   {
                     className: 'w-5 h-5 rounded-md border-2 border-black shrink-0',
-                    style: { backgroundColor: FERTILITY_GREEN_OVERLAY_DEFINITION.rgbaFill }
+                    style: {
+                      backgroundColor: '#39FF14',
+                      boxShadow: '0 0 8px rgba(57, 255, 20, 0.9)'
+                    }
                   }
                 ),
                 h(
                   'h2',
-                  { className: 'text-lg sm:text-xl font-black text-[#065F46] tracking-tight' },
+                  { className: 'text-lg sm:text-xl font-black text-[#052E16] tracking-tight' },
                   ct('tryingToGetPregnantHeader', 'Trying to Get Pregnant (Fertility)')
                 )
               ),
               h(
                 'div',
                 { className: 'text-xs font-black text-[#9F133A]' },
-                ct('ovulatoryStarredSub', '★ Easiest time to get pregnant (Most fertile window)')
+                ct('ovulatoryStarredSub', '★ Easiest time to get pregnant')
               ),
               h(
                 'p',
                 { className: 'text-xs font-bold text-black/80 leading-snug' },
                 ct(
                   'tryingToGetPregnantSub',
-                  'Check this box to turn on a green fertility highlight over your ovulation window and add the interactive Cycle & Fertility Wheel to your Calendar Key.'
+                  'Check this box to turn on a vibrant neon green fertility highlight over your ovulation window and add the interactive Cycle & Fertility Wheel to your Calendar Key.'
                 )
               )
             ),
@@ -1277,7 +1281,7 @@ export function CalendarSettingsHomePage1({
                 setFertilityTrackingEnabled(checked);
                 persistPartialOrFullSettings({ fertilityTrackingEnabled: checked });
               },
-              className: 'w-6 h-6 accent-[#059669] cursor-pointer shrink-0'
+              className: 'w-6 h-6 accent-[#16A34A] cursor-pointer shrink-0'
             })
           ),
 
@@ -1287,9 +1291,50 @@ export function CalendarSettingsHomePage1({
               'div',
               {
                 className:
-                  'p-4 rounded-3xl border-2 border-black bg-[#F0FDF4] space-y-3.5'
+                  'p-4 rounded-3xl border-2 border-black space-y-3.5',
+                style: {
+                  backgroundColor: 'rgba(118, 255, 3, 0.14)'
+                }
               },
-              // Sub-Widget 1: Most Likely Days to Get Pregnant (Sperm + Egg Window: Days 10–14 / 8–14)
+              // Why Timing Matters Clinical Summary Card (Sperm 3-5d, Egg 12-24h, 6-day window, highest single-day chance)
+              h(
+                'div',
+                {
+                  className:
+                    'p-4 rounded-2xl border-2 border-black bg-white space-y-2'
+                },
+                h(
+                  'div',
+                  { className: 'text-xs sm:text-sm font-black text-[#052E16]' },
+                  '★ Why Timing Matters When Trying to Get Pregnant:'
+                ),
+                h(
+                  'ul',
+                  { className: 'space-y-1.5 text-xs font-bold text-black/90 leading-snug' },
+                  h(
+                    'li',
+                    null,
+                    '• Highest Single-Day Chance: Having sex on the day of ovulation, as well as the 1 to 2 days right before ovulation, gives you the highest single-day chance of getting pregnant.'
+                  ),
+                  h(
+                    'li',
+                    null,
+                    '• The 6-Day Fertile Window: Pregnancy is most likely during the 6-day window that includes the 5 days before ovulation and the day of ovulation itself.'
+                  ),
+                  h(
+                    'li',
+                    null,
+                    '• Sperm Lifespan (3 to 5 Days): Sperm can survive inside your reproductive tract for up to 3 to 5 days, meaning sex before ovulation can still result in pregnancy once the egg is released.'
+                  ),
+                  h(
+                    'li',
+                    null,
+                    '• Egg Lifespan (12 to 24 Hours): Once released, an egg only remains alive for fertilization for about 12 to 24 hours. Having sex before ovulation ensures sperm are already waiting when the egg arrives!'
+                  )
+                )
+              ),
+
+              // Sub-Widget 1: Most Likely Days to Get Pregnant (Least Neon — Vibrant Neon Lime-Green)
               h(
                 'div',
                 {
@@ -1314,13 +1359,13 @@ export function CalendarSettingsHomePage1({
                         { className: 'text-sm sm:text-base font-black text-black' },
                         ct(
                           'fertilityMostLikelyDaysLabel',
-                          'Most Likely Days to Get Pregnant (Sperm + Egg Window)'
+                          'Most Likely Days to Get Pregnant (6-Day Sperm + Egg Window)'
                         )
                       ),
                       h(
                         'span',
-                        { className: 'text-xs font-black text-[#047857]' },
-                        '★ Green fertility highlight on calendar over your ovulation window'
+                        { className: 'text-xs font-black text-[#15803D]' },
+                        '★ Soft neon green highlight on calendar over your fertile days'
                       )
                     )
                   ),
@@ -1328,7 +1373,7 @@ export function CalendarSettingsHomePage1({
                     'span',
                     {
                       className:
-                        'px-2 py-0.5 rounded-full border border-black/40 bg-[#D1FAE5] text-[11px] font-extrabold text-black'
+                        'px-2 py-0.5 rounded-full border border-black/40 bg-[#DCFCE7] text-[11px] font-extrabold text-black'
                     },
                     `${ct('normGuesstimateTag', 'Norm Guesstimate')}: ${formatDigitsForLang(5)} ${ct(
                       'daysUnit',
@@ -1341,7 +1386,7 @@ export function CalendarSettingsHomePage1({
                   { className: 'text-xs font-semibold text-black/75' },
                   ct(
                     'fertilityMostLikelyDaysDesc',
-                    'Green highlight over the days leading up to ovulation (sperm can stay alive inside your womb for up to 5 days waiting for the egg).'
+                    'Pregnancy is most likely during the 6-day window (5 days before ovulation + ovulation day itself). Sperm can live inside you for 3 to 5 days waiting for the egg!'
                   )
                 ),
                 renderPhaseDaysSelector(
@@ -1357,7 +1402,7 @@ export function CalendarSettingsHomePage1({
                 )
               ),
 
-              // Sub-Widget 2: Exact Ovulation Day (Egg Release Day — Day 14 in average cycle)
+              // Sub-Widget 2: Exact Ovulation Day (Most Neon & Glowing Electric Green #39FF14)
               h(
                 'div',
                 {
@@ -1372,7 +1417,10 @@ export function CalendarSettingsHomePage1({
                     { className: 'flex items-start gap-2.5' },
                     h('span', {
                       className: 'w-6 h-6 rounded-md border-2 border-black shrink-0 mt-0.5',
-                      style: { backgroundColor: FERTILITY_GREEN_OVERLAY_DEFINITION.peakRgbaFill }
+                      style: {
+                        backgroundColor: '#39FF14',
+                        boxShadow: '0 0 12px rgba(57, 255, 20, 0.95)'
+                      }
                     }),
                     h(
                       'div',
@@ -1380,12 +1428,12 @@ export function CalendarSettingsHomePage1({
                       h(
                         'label',
                         { className: 'text-sm sm:text-base font-black text-black' },
-                        ct('fertilityExactOvulationLabel', 'Exact Ovulation Day (Egg Release Day)')
+                        ct('fertilityExactOvulationLabel', 'Exact Ovulation Day (Glowing Neon Green Peak Day)')
                       ),
                       h(
                         'span',
-                        { className: 'text-xs font-black text-[#9F133A]' },
-                        '★ Peak day your ovary lets go of the egg'
+                        { className: 'text-xs font-black text-[#15803D]' },
+                        '★ Glowing electric neon green peak day when your ovary releases the egg'
                       )
                     )
                   ),
@@ -1393,7 +1441,7 @@ export function CalendarSettingsHomePage1({
                     'span',
                     {
                       className:
-                        'px-2 py-0.5 rounded-full border border-black/40 bg-[#A7F3D0] text-[11px] font-extrabold text-black'
+                        'px-2 py-0.5 rounded-full border border-black bg-[#39FF14]/40 text-[11px] font-extrabold text-black'
                     },
                     `${ct('normGuesstimateTag', 'Norm Guesstimate')}: ${formatDigitsForLang(1)} ${ct(
                       'dayUnit',
@@ -1406,7 +1454,7 @@ export function CalendarSettingsHomePage1({
                   { className: 'text-xs font-semibold text-black/75' },
                   ct(
                     'fertilityExactOvulationDesc',
-                    'The peak 1 to 2 days in the middle of your cycle when your ovary lets go of the egg.'
+                    'Once released, an egg lives for 12 to 24 hours. Having sex on ovulation day or the 1 to 2 days right before ovulation gives the highest single-day chance of getting pregnant.'
                   )
                 ),
                 renderPhaseDaysSelector(
@@ -1422,7 +1470,7 @@ export function CalendarSettingsHomePage1({
                 )
               ),
 
-              // Sub-Widget 3: Could Still Be Fertile After Ovulation (Day 15 / 1-2 days after egg release)
+              // Sub-Widget 3: Could Still Be Fertile After Ovulation (12–24h egg viability after release)
               h(
                 'div',
                 {
@@ -1437,7 +1485,7 @@ export function CalendarSettingsHomePage1({
                     { className: 'flex items-center gap-2.5' },
                     h('span', {
                       className: 'w-6 h-6 rounded-md border-2 border-black shrink-0',
-                      style: { backgroundColor: 'rgba(16, 185, 129, 0.24)' }
+                      style: { backgroundColor: 'rgba(118, 255, 3, 0.34)' }
                     }),
                     h(
                       'label',
@@ -1462,7 +1510,7 @@ export function CalendarSettingsHomePage1({
                   { className: 'text-xs font-semibold text-black/75' },
                   ct(
                     'fertilityPostOvulationDesc',
-                    '1 to 2 days right after ovulation when the egg is still inside your tube and pregnancy can still happen.'
+                    '1 day right after ovulation while the released egg can still be fertilized (12 to 24 hours).'
                   )
                 ),
                 renderPhaseDaysSelector(
@@ -1471,7 +1519,7 @@ export function CalendarSettingsHomePage1({
                     setPostOvulationFertileDays(num);
                     persistPartialOrFullSettings({ postOvulationFertileDays: num });
                   },
-                  'rgba(16, 185, 129, 0.28)',
+                  'rgba(118, 255, 3, 0.38)',
                   FERTILITY_GREEN_OVERLAY_DEFINITION.borderHex,
                   [0, 1, 2, 3],
                   1
@@ -1501,7 +1549,7 @@ export function CalendarSettingsHomePage1({
                     setShowInfertileDaysOnWheel(checked);
                     persistPartialOrFullSettings({ showInfertileDaysOnWheel: checked });
                   },
-                  className: 'w-5 h-5 accent-[#059669] cursor-pointer'
+                  className: 'w-5 h-5 accent-[#16A34A] cursor-pointer'
                 })
               )
             )

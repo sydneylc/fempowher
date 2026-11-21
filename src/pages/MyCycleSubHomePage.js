@@ -1,6 +1,6 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=278';
-import { isRtlLanguage } from '../data/translations.js?v=278';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=279';
+import { isRtlLanguage } from '../data/translations.js?v=279';
 import {
   CYCLE_PHASE_DEFINITIONS,
   computeAdaptiveCyclePrediction,
@@ -8,7 +8,7 @@ import {
   formatMonthYearForLang,
   getPhasesForDate,
   loadUserCycleCalendarState
-} from '../data/cycleCalendarData.js?v=278';
+} from '../data/cycleCalendarData.js?v=279';
 
 const h = React.createElement;
 
@@ -156,12 +156,16 @@ export function CycleCalendarWidget1({
                 backgroundColor: primaryPhase ? primaryPhase.rgbaFill : 'transparent',
                 backgroundImage:
                   greenOverlay && primaryPhase
-                    ? `linear-gradient(135deg, rgba(16, 185, 129, 0.38) 0%, ${primaryPhase.rgbaFill} 55%, rgba(5, 150, 105, 0.42) 100%)`
+                    ? greenOverlay.isPeakOvulationDay
+                      ? `linear-gradient(135deg, rgba(57, 255, 20, 0.78) 0%, ${primaryPhase.rgbaFill} 50%, rgba(57, 255, 20, 0.85) 100%)`
+                      : `linear-gradient(135deg, rgba(118, 255, 3, 0.48) 0%, ${primaryPhase.rgbaFill} 55%, rgba(0, 255, 102, 0.56) 100%)`
                     : primaryPhase && secondaryPhase
                     ? `linear-gradient(135deg, ${primaryPhase.rgbaFill} 0%, ${secondaryPhase.rgbaFill} 100%)`
                     : 'none',
                 boxShadow: greenOverlay
-                  ? 'inset 0 0 0 1.75px #059669'
+                  ? greenOverlay.isPeakOvulationDay
+                    ? '0 0 8px rgba(57, 255, 20, 0.95), inset 0 0 0 2px #15803D'
+                    : 'inset 0 0 0 1.75px #16A34A'
                   : primaryPhase && primaryPhase.isTentativePrediction && primaryPhase.isFirstDayBox
                   ? 'inset 0 0 0 1.25px rgba(0,0,0,0.6)'
                   : 'none',
@@ -671,13 +675,15 @@ export default function MyCycleSubHomePage({
       id: 'OvulatoryPhaseDuration1',
       title: tr('wombStepOvulatoryTitle', 'Ovulatory Phase'),
       daysText: `${tr('daysLabel', 'Days')} ${formatDigitsForLang(oStart)}–${formatDigitsForLang(oEnd)}`,
-      shortLine: tr(
-        'wombStepOvulatoryShort',
-        '★ Easiest time to get pregnant (Most fertile window) • Your ovary lets go of the tiny egg.'
-      ),
+      shortLine: activeState.fertilityTrackingEnabled
+        ? tr(
+            'wombStepOvulatoryShort',
+            '★ Easiest time to get pregnant • Your ovary lets go of the tiny egg.'
+          )
+        : '★ Your ovary lets go of the tiny egg.',
       detailLine: tr(
         'wombStepOvulatoryDetail',
-        '★ Easiest time to get pregnant! Your ovary releases a tiny egg into the tube leading to your womb. You may notice clear, slippery fluid in your underwear. These are the days a woman can most easily get pregnant if she has sex.'
+        'Your ovary releases a tiny egg (which lives for 12 to 24 hours) into the tube leading to your womb. You may notice clear, slippery fluid in your underwear. Because sperm can live inside you for 3 to 5 days waiting for the egg, the 5 days before ovulation and ovulation day itself are the easiest days to get pregnant.'
       ),
       rgbaFill: CYCLE_PHASE_DEFINITIONS[3].rgbaFill
     },
@@ -1148,7 +1154,9 @@ export default function MyCycleSubHomePage({
                 h(
                   'div',
                   { className: 'text-xs font-black text-[#9F133A]' },
-                  ct('calPhaseOvulatoryStarSub', '★ Easiest time to get pregnant (Most fertile window)')
+                  activeState.fertilityTrackingEnabled
+                    ? ct('calPhaseOvulatoryStarSub', '★ Easiest time to get pregnant')
+                    : '★'
                 ),
               h(
                 'div',

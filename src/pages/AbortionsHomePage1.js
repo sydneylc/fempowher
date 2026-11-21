@@ -2,9 +2,9 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=268';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=268';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=268';
+} from './PregnancyHomePage.js?v=269';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=269';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=269';
 
 const h = React.createElement;
 
@@ -244,15 +244,34 @@ export default function AbortionsHomePage1({
     },
     {
       id: 'abortion-options',
-      label: tr('abortionBtnOptions', 'What Are My Options? (Medication Pills vs. In-Clinic Care)'),
+      label: tr('abortionBtnOptions', 'What Are My Options?'),
       gifSrc: null,
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFA8D2 0%, #F472B6 100%)',
-        border: 'none'
+        borderRight: '2px solid #FFFFFF',
+        borderTop: 'none',
+        borderBottom: 'none',
+        borderLeft: 'none'
       },
       textStyle: {
         color: '#9F133A',
         textShadow: '0 1px 10px rgba(255, 255, 255, 0.95)'
+      },
+      splitRightButton: {
+        id: 'abortion-map',
+        label: tr('abortionBtnMap', "FemPowHer's Abortion Map"),
+        gifSrc: null,
+        backgroundStyle: {
+          background: 'linear-gradient(180deg, #FFA8D2 0%, #F472B6 100%)',
+          borderLeft: '2px solid #FFFFFF',
+          borderTop: 'none',
+          borderBottom: 'none',
+          borderRight: 'none'
+        },
+        textStyle: {
+          color: '#9F133A',
+          textShadow: '0 1px 10px rgba(255, 255, 255, 0.95)'
+        }
       }
     },
     {
@@ -889,7 +908,7 @@ export default function AbortionsHomePage1({
 
     'abortion-options': {
       pageId: 'AbortionOptionsHomePage1',
-      title: tr('abortionBtnOptions', 'What Are My Options? (Medication Pills vs. In-Clinic Care)'),
+      title: tr('abortionBtnOptions', 'What Are My Options?'),
       palette: {
         pageBg: '#F8FAFF',
         headerDark: '#1E3A8A',
@@ -1235,6 +1254,29 @@ export default function AbortionsHomePage1({
       ]
     }
   };
+
+  if (activeSubPage === 'abortion-map') {
+    return h(
+      'div',
+      {
+        id: 'AbortionMapHomePage1',
+        className: 'min-h-full w-full shrink-0 bg-white flex flex-col p-4 sm:p-6'
+      },
+      h(
+        'div',
+        { className: 'max-w-5xl w-full mx-auto flex-1 flex flex-col' },
+        renderSubpageBackButton(() => setActiveSubPage(null), t, lang),
+        h(
+          'h1',
+          {
+            className: 'text-2xl sm:text-4xl font-extrabold text-center mt-2',
+            style: { color: '#9F133A' }
+          },
+          tr('abortionBtnMap', "FemPowHer's Abortion Map")
+        )
+      )
+    );
+  }
 
   if (activeSubPage && subPageConfigs[activeSubPage]) {
     const cfg = subPageConfigs[activeSubPage];

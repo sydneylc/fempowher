@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'https://esm.sh/react@18.3.1';
-import { ALL_NATIONS_ON_EARTH } from './DatabasePage1.js?v=268';
-import { isRtlLanguage } from '../data/translations.js?v=268';
+import { ALL_NATIONS_ON_EARTH } from './DatabasePage1.js?v=269';
+import { isRtlLanguage } from '../data/translations.js?v=269';
 
 const h = React.createElement;
 
@@ -660,11 +660,20 @@ export const MY_BODY_HEALTH_3TIER_INDEX = [
   {
     id: 'tier2-abortion-options',
     tier: 2,
-    title: 'What Are My Options? (Medication Pills vs. In-Clinic Care)',
+    title: 'What Are My Options?',
     parentTitle: 'Abortions',
     page: 'AbortionsHomePage1',
     subPage: 'abortion-options',
     keywords: 'what are my options medication pills mifepristone misoprostol in-clinic vacuum aspiration karman cannula d&c d&e pain relief ibuprofen'
+  },
+  {
+    id: 'tier2-abortion-map',
+    tier: 2,
+    title: "FemPowHer's Abortion Map",
+    parentTitle: 'Abortions',
+    page: 'AbortionsHomePage1',
+    subPage: 'abortion-map',
+    keywords: 'fempowhers abortion map global abortion laws access clinics'
   },
   {
     id: 'tier2-abortion-recovery',
@@ -1283,7 +1292,7 @@ export function SmartSearchBtn1({
       setTranslatedIndexTitles({});
       return;
     }
-    const cacheKey = `fempowher_smartsearch1_i18n_v268_${tlTarget}`;
+    const cacheKey = `fempowher_smartsearch1_i18n_v269_${tlTarget}`;
     try {
       const cached = localStorage.getItem(cacheKey);
       if (cached) {

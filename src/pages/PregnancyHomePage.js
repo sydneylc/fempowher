@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'https://esm.sh/react@18.3.1';
-import { isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=268';
+import { isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=269';
 
 const h = React.createElement;
 
@@ -161,6 +161,15 @@ export function PregHomePageButtons({
       if (sec.subLabel && typeof sec.subLabel === 'string' && !phrases.includes(sec.subLabel)) {
         phrases.push(sec.subLabel);
       }
+      if (sec.splitRightButton) {
+        const rb = sec.splitRightButton;
+        if (rb.label && typeof rb.label === 'string' && !phrases.includes(rb.label)) {
+          phrases.push(rb.label);
+        }
+        if (rb.subLabel && typeof rb.subLabel === 'string' && !phrases.includes(rb.subLabel)) {
+          phrases.push(rb.subLabel);
+        }
+      }
     });
     if (phrases.length === 0) return;
 
@@ -207,6 +216,89 @@ export function PregHomePageButtons({
     return translatedLabels[txt] || txt;
   };
 
+  const renderSingleGifBannerBtn = (btnObj, isHalfWidth = false) => {
+    const gifOnRight = btnObj.gifSide === 'right';
+    return h(
+      'button',
+      {
+        key: btnObj.id,
+        type: 'button',
+        onClick: () => {
+          if (typeof btnObj.onClick === 'function') {
+            btnObj.onClick(btnObj);
+          } else {
+            onSelectSection(btnObj);
+          }
+        },
+        className:
+          'w-full h-full min-h-[230px] relative overflow-hidden flex items-center justify-center px-3 sm:px-6 py-0 cursor-pointer transition hover:brightness-[0.99] active:scale-[0.999] focus:outline-none border-0 rounded-none',
+        style: btnObj.backgroundStyle || { backgroundColor: '#FCE4F4', border: 'none' }
+      },
+      h(
+        'div',
+        {
+          className: `w-full h-full max-w-4xl mx-auto flex ${
+            gifOnRight ? 'flex-row-reverse' : 'flex-row'
+          } items-center justify-center gap-3 sm:gap-6`
+        },
+        btnObj.gifSrc &&
+          h(
+            'div',
+            {
+              className: 'h-full flex items-center justify-center shrink-0 z-10'
+            },
+            h('img', {
+              src: btnObj.gifSrc,
+              alt: trBtnText(btnObj.label) || '',
+              className:
+                btnObj.imgClassName ||
+                'h-[106%] sm:h-[112%] w-auto max-w-none object-contain select-none pointer-events-none',
+              style: btnObj.imgStyle || undefined
+            })
+          ),
+        h(
+          'div',
+          {
+            className: btnObj.gifSrc
+              ? 'flex flex-col items-center justify-center text-center z-10 max-w-[54%] sm:max-w-[58%]'
+              : 'flex flex-col items-center justify-center text-center z-10 max-w-[90%] sm:max-w-[85%]'
+          },
+          h(
+            'span',
+            {
+              className:
+                btnObj.labelClassName ||
+                (isHalfWidth
+                  ? 'text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold leading-tight tracking-tight'
+                  : 'text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold leading-tight tracking-tight'),
+              style: btnObj.textStyle || {
+                color: '#9F133A',
+                textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
+              }
+            },
+            trBtnText(btnObj.label)
+          ),
+          btnObj.subLabel &&
+            h(
+              'span',
+              {
+                className:
+                  btnObj.subLabelClassName ||
+                  'text-xs sm:text-sm md:text-base font-extrabold leading-snug mt-1',
+                style:
+                  btnObj.subTextStyle ||
+                  btnObj.textStyle || {
+                    color: '#9F133A',
+                    textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
+                  }
+              },
+              trBtnText(btnObj.subLabel)
+            )
+        )
+      )
+    );
+  };
+
   return h(
     'div',
     {
@@ -216,84 +308,18 @@ export function PregHomePageButtons({
       }
     },
     sections.map((sec) => {
-      const gifOnRight = sec.gifSide === 'right';
-      return h(
-        'button',
-        {
-          key: sec.id,
-          type: 'button',
-          onClick: () => {
-            if (typeof sec.onClick === 'function') {
-              sec.onClick(sec);
-            } else {
-              onSelectSection(sec);
-            }
-          },
-          className:
-            'w-full h-full min-h-[230px] relative overflow-hidden flex items-center justify-center px-3 sm:px-8 py-0 cursor-pointer transition hover:brightness-[0.99] active:scale-[0.999] focus:outline-none border-0 rounded-none',
-          style: sec.backgroundStyle || { backgroundColor: '#FCE4F4', border: 'none' }
-        },
-        h(
+      if (sec.splitRightButton) {
+        return h(
           'div',
           {
-            className: `w-full h-full max-w-4xl mx-auto flex ${
-              gifOnRight ? 'flex-row-reverse' : 'flex-row'
-            } items-center justify-center gap-3 sm:gap-8`
+            key: `${sec.id}-split-row`,
+            className: 'w-full h-full min-h-[230px] grid grid-cols-2'
           },
-          sec.gifSrc &&
-            h(
-              'div',
-              {
-                className: 'h-full flex items-center justify-center shrink-0 z-10'
-              },
-              h('img', {
-                src: sec.gifSrc,
-                alt: trBtnText(sec.label) || '',
-                className:
-                  sec.imgClassName ||
-                  'h-[106%] sm:h-[112%] w-auto max-w-none object-contain select-none pointer-events-none',
-                style: sec.imgStyle || undefined
-              })
-            ),
-          h(
-            'div',
-            {
-              className: sec.gifSrc
-                ? 'flex flex-col items-center justify-center text-center z-10 max-w-[54%] sm:max-w-[58%]'
-                : 'flex flex-col items-center justify-center text-center z-10 max-w-[88%] sm:max-w-[80%]'
-            },
-            h(
-              'span',
-              {
-                className:
-                  sec.labelClassName ||
-                  'text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold leading-tight tracking-tight',
-                style: sec.textStyle || {
-                  color: '#9F133A',
-                  textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
-                }
-              },
-              trBtnText(sec.label)
-            ),
-            sec.subLabel &&
-              h(
-                'span',
-                {
-                  className:
-                    sec.subLabelClassName ||
-                    'text-xs sm:text-sm md:text-base font-extrabold leading-snug mt-1',
-                  style:
-                    sec.subTextStyle ||
-                    sec.textStyle || {
-                      color: '#9F133A',
-                      textShadow: '0 1px 8px rgba(255, 255, 255, 0.85)'
-                    }
-                },
-                trBtnText(sec.subLabel)
-              )
-          )
-        )
-      );
+          renderSingleGifBannerBtn(sec, true),
+          renderSingleGifBannerBtn(sec.splitRightButton, true)
+        );
+      }
+      return renderSingleGifBannerBtn(sec, false);
     })
   );
 }
@@ -319,7 +345,7 @@ export default function PregnancyHomePage({
       id: 'questions',
       label: tr('pregFeelQuestions', 'I have questions'),
       targetPage: 'QuestionsPregHomePage',
-      gifSrc: './assets/pregnancy-questions.gif?v=268',
+      gifSrc: './assets/pregnancy-questions.gif?v=269',
       // Tone 1: Light Apple-Mint Green (#B2EAA2) — zero outline, matches the GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#B2EAA2',
@@ -334,7 +360,7 @@ export default function PregnancyHomePage({
       id: 'feeling-good',
       label: tr('pregFeelGood', "I'm feeling good"),
       targetPage: 'FeelingGoodPregHomePage',
-      gifSrc: './assets/pregnancy-feeling-good.gif?v=268',
+      gifSrc: './assets/pregnancy-feeling-good.gif?v=269',
       // Tone 2: Emerald-Mint Green (#50D5A2) with Dark Olive Green Grass (#546414) — zero outline
       backgroundStyle: {
         background:
@@ -350,7 +376,7 @@ export default function PregnancyHomePage({
       id: 'hard-time',
       label: tr('pregFeelHardTime', "I'm having a hard time"),
       targetPage: 'HardTimePregHomePage',
-      gifSrc: './assets/pregnancy-hard-time.gif?v=268',
+      gifSrc: './assets/pregnancy-hard-time.gif?v=269',
       // Tone 3: Deep Teal-Green (#0DAA8D) with Olive floor horizon & bright lime (#BEFE62) rug/leaves in GIF
       backgroundStyle: {
         background:

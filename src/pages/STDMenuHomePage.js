@@ -2,7 +2,7 @@ import React from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=268';
+} from './PregnancyHomePage.js?v=269';
 
 const h = React.createElement;
 
@@ -27,7 +27,7 @@ export default function STDMenuHomePage({
       id: 'std-hub-what-are-stds-btn',
       label: tr('stdMenuBtnWhatAre', 'What are STDs & how do I protect myself?'),
       targetPage: 'WhatAreSTDsHomePage1',
-      gifSrc: './assets/std-hub-what-are.gif?v=268',
+      gifSrc: './assets/std-hub-what-are.gif?v=269',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -47,7 +47,7 @@ export default function STDMenuHomePage({
       id: 'std-hub-think-i-have-btn',
       label: tr('stdMenuBtnThinkIHave', 'I think I might have an STD!'),
       targetPage: 'ThinkIHaveSTDHomePage1',
-      gifSrc: './assets/std-hub-think-i-have.gif?v=268',
+      gifSrc: './assets/std-hub-think-i-have.gif?v=269',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -67,7 +67,7 @@ export default function STDMenuHomePage({
       id: 'std-hub-just-diagnosed-btn',
       label: tr('stdMenuBtnJustDiagnosed', 'I just got diagnosed with an STD!'),
       targetPage: 'JustDiagnosedSTDHomePage1',
-      gifSrc: './assets/std-hub-just-diagnosed.gif?v=268',
+      gifSrc: './assets/std-hub-just-diagnosed.gif?v=269',
       imgClassName:
         'h-[120%] sm:h-[128%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -87,7 +87,7 @@ export default function STDMenuHomePage({
       id: 'std-hub-types-of-stds-btn',
       label: tr('stdMenuBtnTypes', 'Types of STDs'),
       targetPage: 'TypesOfSTDsHomePage1',
-      gifSrc: './assets/std-hub-types.gif?v=268',
+      gifSrc: './assets/std-hub-types.gif?v=269',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -107,7 +107,7 @@ export default function STDMenuHomePage({
       id: 'std-hub-stds-and-pregnancy-btn',
       label: tr('stdMenuBtnPregnancy', 'STDs & Pregnancy'),
       targetPage: 'STDsAndPregnancyHomePage1',
-      gifSrc: './assets/std-hub-pregnancy.gif?v=268',
+      gifSrc: './assets/std-hub-pregnancy.gif?v=269',
       imgClassName:
         'h-[120%] sm:h-[128%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {

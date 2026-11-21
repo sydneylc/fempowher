@@ -1,5 +1,5 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { LANGUAGES, PREBOARDING_A_TEXT, UI_TEXT, isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=268';
+import { LANGUAGES, PREBOARDING_A_TEXT, UI_TEXT, isRtlLanguage, cleanBackLabel } from '../data/translations.js?v=269';
 
 const h = React.createElement;
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=270';
-import { findClosestHealthQuery } from './SmartSearchBtn1.js?v=270';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=271';
+import { findClosestHealthQuery } from './SmartSearchBtn1.js?v=271';
 
 const h = React.createElement;
 

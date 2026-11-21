@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { SmartSearchBtn1 } from './SmartSearchBtn1.js?v=270';
+import { SmartSearchBtn1 } from './SmartSearchBtn1.js?v=271';
 
 const h = React.createElement;
 

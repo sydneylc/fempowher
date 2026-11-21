@@ -2,9 +2,9 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=270';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=270';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=270';
+} from './PregnancyHomePage.js?v=271';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=271';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=271';
 
 const h = React.createElement;
 
@@ -214,14 +214,15 @@ export default function AbortionsHomePage1({
     return t[key] || fallback;
   };
 
-  // 6 Full-Width MakingGifButtons1 First-Person Abortions Buttons (Globally Respectful Clinical Language)
+  // 6 Full-Width MakingGifButtons1 Rows (7 Distinct Solid-Shade Pink/Barbie-Pink/Berry Buttons with Zero White Divider Line)
   const abortionButtons = [
     {
       id: 'abortion-what-is',
       label: tr('abortionBtnWhatIs', 'What Is an Abortion?'),
       gifSrc: null,
+      // Tone 1: Soft Pastel Blush Pink (#FFD6EB) — flat solid color so button 1 is clearly distinct from button 2
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFF0F7 0%, #FFD4EA 100%)',
+        backgroundColor: '#FFD6EB',
         border: 'none'
       },
       textStyle: {
@@ -233,44 +234,41 @@ export default function AbortionsHomePage1({
       id: 'abortion-safe-and-unsafe',
       label: tr('abortionBtnSafeAndUnsafe', 'Safe and Unsafe Abortion Care'),
       gifSrc: null,
+      // Tone 2: Bubblegum Rose Pink (#FF9ECF) — flat solid color clearly distinct from Tone 1 and Tone 3
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFD4EA 0%, #FFA8D2 100%)',
+        backgroundColor: '#FF9ECF',
         border: 'none'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+        color: '#7C0A2B',
+        textShadow: '0 1px 8px rgba(255, 240, 248, 0.9)'
       }
     },
     {
       id: 'abortion-options',
       label: tr('abortionBtnOptions', 'What Are My Options?'),
       gifSrc: null,
+      // Tone 3A (Left Half): Bright Barbie Pink (#FF5CA8) — flat solid color, no white line
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFA8D2 0%, #F472B6 100%)',
-        borderRight: '2px solid #FFFFFF',
-        borderTop: 'none',
-        borderBottom: 'none',
-        borderLeft: 'none'
+        backgroundColor: '#FF5CA8',
+        border: 'none'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: '0 1px 10px rgba(255, 255, 255, 0.95)'
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(122, 10, 62, 0.65)'
       },
       splitRightButton: {
         id: 'abortion-map',
         label: tr('abortionBtnMap', "FemPowHer's Abortion Map"),
         gifSrc: null,
+        // Tone 3B (Right Half): Vibrant Hot Barbie Pink (#E0218A) — distinct Barbie pink shade, no white line
         backgroundStyle: {
-          background: 'linear-gradient(180deg, #FFA8D2 0%, #F472B6 100%)',
-          borderLeft: '2px solid #FFFFFF',
-          borderTop: 'none',
-          borderBottom: 'none',
-          borderRight: 'none'
+          backgroundColor: '#E0218A',
+          border: 'none'
         },
         textStyle: {
-          color: '#9F133A',
-          textShadow: '0 1px 10px rgba(255, 255, 255, 0.95)'
+          color: '#FFFFFF',
+          textShadow: '0 2px 10px rgba(96, 6, 52, 0.72)'
         }
       }
     },
@@ -278,39 +276,42 @@ export default function AbortionsHomePage1({
       id: 'abortion-recovery',
       label: tr('abortionBtnRecovery', 'I Just Had an Abortion: What Is Happening to My Body?'),
       gifSrc: null,
+      // Tone 4: Rich Raspberry-Berry Pink (#C41864) — flat solid color
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
+        backgroundColor: '#C41864',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(108, 10, 50, 0.65)'
+        textShadow: '0 2px 10px rgba(82, 6, 38, 0.72)'
       }
     },
     {
       id: 'abortion-emergency-care',
       label: tr('abortionBtnEmergencyCare', 'Emergency Post-Abortion Care & Danger Signs'),
       gifSrc: null,
+      // Tone 5: Deep Crimson-Berry (#9A114B) — flat solid color
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
+        backgroundColor: '#9A114B',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(64, 5, 28, 0.72)'
+        textShadow: '0 2px 10px rgba(56, 4, 24, 0.75)'
       }
     },
     {
       id: 'abortion-emotions-and-fertility',
       label: tr('abortionBtnEmotionsFertility', 'Emotional Care, Privacy & My Future Fertility'),
       gifSrc: null,
+      // Tone 6: Deepest Maroon-Plum Berry (#6B0832) — flat solid color
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
+        backgroundColor: '#6B0832',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(36, 2, 16, 0.78)'
+        textShadow: '0 2px 10px rgba(32, 2, 14, 0.8)'
       }
     }
   ];
@@ -485,7 +486,7 @@ export default function AbortionsHomePage1({
       label: tr('abortionTypeBtnMedication', 'Medication Abortion (Medical Abortion With Pills)'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFF0F7 0%, #FFD4EA 100%)',
+        backgroundColor: '#FFD6EB',
         border: 'none'
       },
       textStyle: {
@@ -498,12 +499,12 @@ export default function AbortionsHomePage1({
       label: tr('abortionTypeBtnVacuum', 'Vacuum Aspiration (Karman Cannula Suction)'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFD4EA 0%, #FFA8D2 100%)',
+        backgroundColor: '#FF9ECF',
         border: 'none'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+        color: '#7C0A2B',
+        textShadow: '0 1px 8px rgba(255, 240, 248, 0.9)'
       }
     },
     {
@@ -511,12 +512,12 @@ export default function AbortionsHomePage1({
       label: tr('abortionTypeBtnDE', 'Dilation and Evacuation (D&E)'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFA8D2 0%, #F472B6 100%)',
+        backgroundColor: '#FF5CA8',
         border: 'none'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: '0 1px 10px rgba(255, 255, 255, 0.95)'
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(122, 10, 62, 0.65)'
       }
     },
     {
@@ -524,12 +525,12 @@ export default function AbortionsHomePage1({
       label: tr('abortionTypeBtnDC', 'Dilation and Curettage (D&C)'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
+        backgroundColor: '#E0218A',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(108, 10, 50, 0.65)'
+        textShadow: '0 2px 10px rgba(96, 6, 52, 0.72)'
       }
     },
     {
@@ -537,7 +538,7 @@ export default function AbortionsHomePage1({
       label: tr('abortionTypeBtnInducedTherapeutic', 'Induced, Elective & Therapeutic (Life-Saving) Abortion'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
+        backgroundColor: '#A81454',
         border: 'none'
       },
       textStyle: {
@@ -550,7 +551,7 @@ export default function AbortionsHomePage1({
       label: tr('abortionTypeBtnSpontaneous', 'Spontaneous Abortion (Natural Miscarriage & Sub-Types)'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
+        backgroundColor: '#6B0832',
         border: 'none'
       },
       textStyle: {

@@ -2,9 +2,9 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=279';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=279';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=279';
+} from './PregnancyHomePage.js?v=281';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=281';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=281';
 
 const h = React.createElement;
 
@@ -219,7 +219,7 @@ export default function AbortionsHomePage1({
     {
       id: 'abortion-what-is',
       label: tr('abortionBtnWhatIs', 'What Is an Abortion?'),
-      gifSrc: './assets/abortion-what-is.gif?v=279',
+      gifSrc: './assets/abortion-what-is.gif?v=281',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -239,7 +239,7 @@ export default function AbortionsHomePage1({
     {
       id: 'abortion-safe-and-unsafe',
       label: tr('abortionBtnSafeAndUnsafe', 'Safe and Unsafe Abortion Care'),
-      gifSrc: './assets/abortion-safe-and-unsafe.gif?v=279',
+      gifSrc: './assets/abortion-safe-and-unsafe.gif?v=281',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -259,7 +259,7 @@ export default function AbortionsHomePage1({
     {
       id: 'abortion-options',
       label: tr('abortionBtnOptions', 'What Are My Options?'),
-      gifSrc: './assets/abortion-options.gif?v=279',
+      gifSrc: './assets/abortion-options.gif?v=281',
       imgClassName:
         'h-[108%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -293,7 +293,7 @@ export default function AbortionsHomePage1({
     {
       id: 'abortion-recovery',
       label: tr('abortionBtnRecovery', 'I Just Had an Abortion: What Is Happening to My Body?'),
-      gifSrc: './assets/abortion-recovery.gif?v=279',
+      gifSrc: './assets/abortion-recovery.gif?v=281',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -313,7 +313,7 @@ export default function AbortionsHomePage1({
     {
       id: 'abortion-emergency-care',
       label: tr('abortionBtnEmergencyCare', 'Emergency Post-Abortion Care & Danger Signs'),
-      gifSrc: './assets/abortion-emergency-care.gif?v=279',
+      gifSrc: './assets/abortion-emergency-care.gif?v=281',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -333,7 +333,7 @@ export default function AbortionsHomePage1({
     {
       id: 'abortion-emotions-and-fertility',
       label: tr('abortionBtnEmotionsFertility', 'Emotional Care, Privacy & My Future Fertility'),
-      gifSrc: './assets/abortion-emotions-fertility.gif?v=279',
+      gifSrc: './assets/abortion-emotions-fertility.gif?v=281',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {

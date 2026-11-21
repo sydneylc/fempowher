@@ -10,100 +10,100 @@ import {
   resolveUserLanguageChoice1,
   isRtlLanguage,
   cleanBackLabel
-} from './data/translations.js?v=279';
-import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=279';
-import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=279';
-import { fetchLiveCentersNearPoint, isInvalidFacilityName } from './data/liveOverpassDiscovery.js?v=279';
-import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=279';
+} from './data/translations.js?v=281';
+import { FEATURED_REGIONS, COXS_BAZAR_SUBREGIONS, CLINICS_BY_REGION, PUBLIC_HEALTH_NEWS } from './data/regionsData.js?v=281';
+import { AGE_SPECIFIC_ISSUES, getEducationTopicIssues } from './data/healthContent.js?v=281';
+import { fetchLiveCentersNearPoint, isInvalidFacilityName } from './data/liveOverpassDiscovery.js?v=281';
+import { getImmediateCrisisInfoForArea } from './data/emergencyHotlinesByArea.js?v=281';
 import {
   resolveUserNationVariables,
   getBeingAWomanContent,
   NATION_TO_DEMONYM_MAP
-} from './data/beingAWomanData.js?v=279';
+} from './data/beingAWomanData.js?v=281';
 
 // Import individual Page Components from src/pages/
-import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=279';
-import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=279';
-import NewUserPage from './pages/NewUserPage.js?v=279';
-import SignInPage from './pages/SignInPage.js?v=279';
-import AnonPage1 from './pages/AnonPage1.js?v=279';
-import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=279';
-import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=279';
-import MapLegend1 from './pages/MapLegend1.js?v=279';
-import DatabasePage1 from './pages/DatabasePage1.js?v=279';
-import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=279';
-import { findClosestGeoPlace } from './pages/SmartSearchBtn1.js?v=279';
-import MyBodyHomePage from './pages/MyBodyHomePage.js?v=279';
-import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=279';
-import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=279';
-import PregnancyHomePage from './pages/PregnancyHomePage.js?v=279';
-import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=279';
-import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=279';
-import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=279';
-import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=279';
-import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=279';
-import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=279';
-import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=279';
-import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=279';
-import PostpartumHomePage from './pages/PostpartumHomePage.js?v=279';
-import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=279';
-import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=279';
-import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=279';
-import MenopauseHomePage from './pages/MenopauseHomePage.js?v=279';
-import WhatIsMenopauseHomePage from './pages/WhatIsMenopauseHomePage.js?v=279';
-import StartingMenopauseHomePage from './pages/StartingMenopauseHomePage.js?v=279';
-import HardTimeMenopauseHomePage from './pages/HardTimeMenopauseHomePage.js?v=279';
-import AfterMenopauseHomePage from './pages/AfterMenopauseHomePage.js?v=279';
-import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=279';
-import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=279';
-import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=279';
-import FertilityAndMyCycleHomePage1 from './pages/FertilityAndMyCycleHomePage1.js?v=279';
-import InteractiveCalendarHomePage1 from './pages/InteractiveCalendarHomePage1.js?v=279';
-import CalendarSettingsHomePage1 from './pages/CalendarSettingsHomePage1.js?v=279';
+import FemPowHerPreloader from './pages/FemPowHerPreloader.js?v=281';
+import FemPowHerPreBoardingAPage from './pages/FemPowHerPreBoardingAPage.js?v=281';
+import NewUserPage from './pages/NewUserPage.js?v=281';
+import SignInPage from './pages/SignInPage.js?v=281';
+import AnonPage1 from './pages/AnonPage1.js?v=281';
+import TOTAL_ANON_CONFIG from './pages/TotalAnon.js?v=281';
+import FemPowHerPreBoardingBPage from './pages/FemPowHerPreBoardingBPage.js?v=281';
+import MapLegend1 from './pages/MapLegend1.js?v=281';
+import DatabasePage1 from './pages/DatabasePage1.js?v=281';
+import MyBodyandHealthHomePage1 from './pages/MyBodyandHealthHomePage1.js?v=281';
+import { findClosestGeoPlace } from './pages/SmartSearchBtn1.js?v=281';
+import MyBodyHomePage from './pages/MyBodyHomePage.js?v=281';
+import FamilyPlanningHomePage1 from './pages/FamilyPlanningHomePage1.js?v=281';
+import PregnancyAndBirthHomePage from './pages/PregnancyAndBirthHomePage.js?v=281';
+import PregnancyHomePage from './pages/PregnancyHomePage.js?v=281';
+import PreConceptionHomePage from './pages/PreConceptionHomePage.js?v=281';
+import ThinkingAboutBabyHomePage from './pages/ThinkingAboutBabyHomePage.js?v=281';
+import TryingToHaveBabyHomePage from './pages/TryingToHaveBabyHomePage.js?v=281';
+import HardTimeGettingPregnantHomePage from './pages/HardTimeGettingPregnantHomePage.js?v=281';
+import FeelingGoodPregHomePage from './pages/FeelingGoodPregHomePage.js?v=281';
+import QuestionsPregHomePage from './pages/QuestionsPregHomePage.js?v=281';
+import HardTimePregHomePage from './pages/HardTimePregHomePage.js?v=281';
+import ChildbirthHomePage from './pages/ChildbirthHomePage.js?v=281';
+import PostpartumHomePage from './pages/PostpartumHomePage.js?v=281';
+import MiscarriageHomePage from './pages/MiscarriageHomePage.js?v=281';
+import LossOfAChildHomePage from './pages/LossOfAChildHomePage.js?v=281';
+import PregnancyAfterLossHomePage from './pages/PregnancyAfterLossHomePage.js?v=281';
+import MenopauseHomePage from './pages/MenopauseHomePage.js?v=281';
+import WhatIsMenopauseHomePage from './pages/WhatIsMenopauseHomePage.js?v=281';
+import StartingMenopauseHomePage from './pages/StartingMenopauseHomePage.js?v=281';
+import HardTimeMenopauseHomePage from './pages/HardTimeMenopauseHomePage.js?v=281';
+import AfterMenopauseHomePage from './pages/AfterMenopauseHomePage.js?v=281';
+import MenstrualCycleHomePage from './pages/MenstrualCycleHomePage.js?v=281';
+import FirstPeriodHomePage from './pages/FirstPeriodHomePage.js?v=281';
+import MyCycleSubHomePage from './pages/MyCycleSubHomePage.js?v=281';
+import FertilityAndMyCycleHomePage1 from './pages/FertilityAndMyCycleHomePage1.js?v=281';
+import InteractiveCalendarHomePage1 from './pages/InteractiveCalendarHomePage1.js?v=281';
+import CalendarSettingsHomePage1 from './pages/CalendarSettingsHomePage1.js?v=281';
 import {
   loadUserCycleCalendarState,
   setAuthenticatedCycleUserPassword,
   clearAnonymousCycleSession,
-  createBlankCycleCalendarState
-} from './data/cycleCalendarData.js?v=279';
-import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=279';
-import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=279';
-import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=279';
-import STDMenuHomePage from './pages/STDMenuHomePage.js?v=279';
-import WhatAreSTDsHomePage1 from './pages/WhatAreSTDsHomePage1.js?v=279';
-import ThinkIHaveSTDHomePage1 from './pages/ThinkIHaveSTDHomePage1.js?v=279';
-import JustDiagnosedSTDHomePage1 from './pages/JustDiagnosedSTDHomePage1.js?v=279';
-import TypesOfSTDsHomePage1 from './pages/TypesOfSTDsHomePage1.js?v=279';
-import STDsAndPregnancyHomePage1 from './pages/STDsAndPregnancyHomePage1.js?v=279';
-import TrichomonasHomePage1 from './pages/TrichomonasHomePage1.js?v=279';
-import HPVHomePage1 from './pages/HPVHomePage1.js?v=279';
-import ChlamydiaHomePage1 from './pages/ChlamydiaHomePage1.js?v=279';
-import GonorrheaHomePage1 from './pages/GonorrheaHomePage1.js?v=279';
-import HepatitisBHomePage1 from './pages/HepatitisBHomePage1.js?v=279';
-import GenitalHerpesHomePage1 from './pages/GenitalHerpesHomePage1.js?v=279';
-import HIVHomePage1 from './pages/HIVHomePage1.js?v=279';
-import SyphilisHomePage1 from './pages/SyphilisHomePage1.js?v=279';
-import FistulasHomePage1 from './pages/FistulasHomePage1.js?v=279';
-import FibroidsHomePage1 from './pages/FibroidsHomePage1.js?v=279';
-import ProlapseHomePage1 from './pages/ProlapseHomePage1.js?v=279';
-import AbortionsHomePage1 from './pages/AbortionsHomePage1.js?v=279';
-import StigmasInWomensHealthHomePage1 from './pages/StigmasInWomensHealthHomePage1.js?v=279';
-import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=279';
-import ForMeHomePage from './pages/ForMeHomePage.js?v=279';
-import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=279';
-import WorldviewHomePage from './pages/WorldviewHomePage.js?v=279';
-import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=279';
-import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=279';
+  createBlankCycleCalendarState,
+  hashAccountCredential
+} from './data/cycleCalendarData.js?v=281';
+import PainfulPeriodsHomePage from './pages/PainfulPeriodsHomePage.js?v=281';
+import PeriodStoppedHomePage from './pages/PeriodStoppedHomePage.js?v=281';
+import SexualHealthHomePage from './pages/SexualHealthHomePage.js?v=281';
+import STDMenuHomePage from './pages/STDMenuHomePage.js?v=281';
+import WhatAreSTDsHomePage1 from './pages/WhatAreSTDsHomePage1.js?v=281';
+import ThinkIHaveSTDHomePage1 from './pages/ThinkIHaveSTDHomePage1.js?v=281';
+import JustDiagnosedSTDHomePage1 from './pages/JustDiagnosedSTDHomePage1.js?v=281';
+import TypesOfSTDsHomePage1 from './pages/TypesOfSTDsHomePage1.js?v=281';
+import STDsAndPregnancyHomePage1 from './pages/STDsAndPregnancyHomePage1.js?v=281';
+import TrichomonasHomePage1 from './pages/TrichomonasHomePage1.js?v=281';
+import HPVHomePage1 from './pages/HPVHomePage1.js?v=281';
+import ChlamydiaHomePage1 from './pages/ChlamydiaHomePage1.js?v=281';
+import GonorrheaHomePage1 from './pages/GonorrheaHomePage1.js?v=281';
+import HepatitisBHomePage1 from './pages/HepatitisBHomePage1.js?v=281';
+import GenitalHerpesHomePage1 from './pages/GenitalHerpesHomePage1.js?v=281';
+import HIVHomePage1 from './pages/HIVHomePage1.js?v=281';
+import SyphilisHomePage1 from './pages/SyphilisHomePage1.js?v=281';
+import FistulasHomePage1 from './pages/FistulasHomePage1.js?v=281';
+import FibroidsHomePage1 from './pages/FibroidsHomePage1.js?v=281';
+import ProlapseHomePage1 from './pages/ProlapseHomePage1.js?v=281';
+import AbortionsHomePage1 from './pages/AbortionsHomePage1.js?v=281';
+import StigmasInWomensHealthHomePage1 from './pages/StigmasInWomensHealthHomePage1.js?v=281';
+import ForALovedOneHomePage from './pages/ForALovedOneHomePage.js?v=281';
+import ForMeHomePage from './pages/ForMeHomePage.js?v=281';
+import DiseasesAndInjuriesHomePage from './pages/DiseasesAndInjuriesHomePage.js?v=281';
+import WorldviewHomePage from './pages/WorldviewHomePage.js?v=281';
+import BeingAWomanInHomePage from './pages/BeingAWomanInHomePage.js?v=281';
+import AnonBeingAWomanWorldViewPage from './pages/AnonBeingAWomanWorldViewPage.js?v=281';
 
 const h = React.createElement;
 
-// Built-in First User / Creator Account: sydneyalc (Located in Massachusetts, United States — Non-Anonymous)
-// + Rohingya-located account created with stvjc@channing.harvard.edu
+// Built-in Accounts (Authenticated via One-Way Cryptographic Hashes — zero plaintext passwords or emails in code)
 const DEFAULT_ACCOUNTS = {
   sydneyalc: {
     username: 'sydneyalc',
-    password: 'AntiGravityRulez',
-    email: 'sydneylosikoffcarey@gmail.com',
+    passwordHash: 'fpw_h2:0f3ebfee05fff55801bfa9f7',
+    emailHash: 'fpw_h2:9d948786a23a577852e3f6a7',
     lang: 'en',
     writtenLanguage: 'English',
     ageGroup: '20-25',
@@ -116,8 +116,8 @@ const DEFAULT_ACCOUNTS = {
   },
   stvjc: {
     username: 'stvjc',
-    password: 'AntiGravityRulez',
-    email: 'stvjc@channing.harvard.edu',
+    passwordHash: 'fpw_h2:85919158ae2ccf989a38e2ff',
+    emailHash: 'fpw_h2:ba0db820b3fa235033a1f035',
     lang: 'rhg',
     writtenLanguage: 'Rohingya (Ruáingga / 𐴌𐴗𐴥𐴝𐴙𐴚𐴒𐴙𐴝)',
     ageGroup: '20-25',
@@ -129,8 +129,8 @@ const DEFAULT_ACCOUNTS = {
   },
   obgyn: {
     username: 'obgyn',
-    password: 'fempowher',
-    email: 'obgyn@fempowher.org',
+    passwordHash: 'fpw_h2:5fcfe8bc7608176ca5db39a5',
+    emailHash: 'fpw_h2:768ff92653985200744ed736',
     lang: 'en',
     writtenLanguage: 'English',
     ageGroup: '26-35',
@@ -143,15 +143,36 @@ const DEFAULT_ACCOUNTS = {
   }
 };
 
+function sanitizeAccountRecord(key, record) {
+  if (!record || typeof record !== 'object') return record;
+  const cleanKey = String(key || record.username || '').trim().toLowerCase();
+  const copy = { ...record };
+  if (copy.password) {
+    copy.passwordHash = copy.passwordHash || hashAccountCredential(cleanKey, copy.password);
+    delete copy.password;
+  }
+  if (copy.email) {
+    copy.emailHash = copy.emailHash || hashAccountCredential('email', String(copy.email).trim().toLowerCase());
+    delete copy.email;
+  }
+  return copy;
+}
+
 function loadAccounts() {
   try {
     const raw = localStorage.getItem('fempowher_accounts_v1');
     const parsed = raw ? JSON.parse(raw) : {};
-    const existingSydney = parsed && parsed.sydneyalc ? parsed.sydneyalc : {};
+    const sanitizedParsed = {};
+    for (const [k, v] of Object.entries(parsed || {})) {
+      sanitizedParsed[k] = sanitizeAccountRecord(k, v);
+    }
+    const existingSydney = sanitizedParsed.sydneyalc || {};
     const upgradedSydney = {
       ...DEFAULT_ACCOUNTS.sydneyalc,
       ...existingSydney,
       username: 'sydneyalc',
+      passwordHash: DEFAULT_ACCOUNTS.sydneyalc.passwordHash,
+      emailHash: DEFAULT_ACCOUNTS.sydneyalc.emailHash,
       isAnonymous: false,
       nation: 'United States',
       region: 'Massachusetts',
@@ -164,12 +185,13 @@ function loadAccounts() {
           ? null
           : existingSydney.customRegion || null
     };
-    const existingObgyn = parsed && parsed.obgyn ? parsed.obgyn : {};
+    const existingObgyn = sanitizedParsed.obgyn || {};
     const upgradedObgyn = {
       ...DEFAULT_ACCOUNTS.obgyn,
       ...existingObgyn,
       username: 'obgyn',
-      password: 'fempowher',
+      passwordHash: DEFAULT_ACCOUNTS.obgyn.passwordHash,
+      emailHash: DEFAULT_ACCOUNTS.obgyn.emailHash,
       isAnonymous: false,
       nation: 'United States',
       region: 'Massachusetts',
@@ -184,7 +206,7 @@ function loadAccounts() {
     };
     const merged = {
       ...DEFAULT_ACCOUNTS,
-      ...parsed,
+      ...sanitizedParsed,
       sydneyalc: upgradedSydney,
       obgyn: upgradedObgyn
     };
@@ -200,7 +222,7 @@ function saveAccount(acct) {
     const all = loadAccounts();
     const key = acct.username.toLowerCase();
     const prev = all[key] || {};
-    all[key] = { ...prev, ...acct };
+    all[key] = sanitizeAccountRecord(key, { ...prev, ...acct });
     localStorage.setItem('fempowher_accounts_v1', JSON.stringify(all));
   } catch (e) {}
 }
@@ -255,19 +277,43 @@ export default function App() {
   );
   useEffect(() => {
     const lowerUser = String(username || '').toLowerCase();
-    let effectivePass = password;
-    if (lowerUser === 'sydneyalc') {
-      effectivePass = password || 'AntiGravityRulez';
-      setAuthenticatedCycleUserPassword('sydneyalc', effectivePass);
-      setIsAnonymous(false);
-      setRegionId((prev) => (!prev || prev === 'total-anon-earth' ? 'us-massachusetts' : prev));
-    } else if (lowerUser === 'obgyn') {
-      effectivePass = password || 'fempowher';
-      setAuthenticatedCycleUserPassword('obgyn', effectivePass);
+    if (lowerUser === 'sydneyalc' || lowerUser === 'obgyn') {
+      if (password) {
+        setAuthenticatedCycleUserPassword(lowerUser, password);
+      }
       setIsAnonymous(false);
       setRegionId((prev) => (!prev || prev === 'total-anon-earth' ? 'us-massachusetts' : prev));
     }
-    setCycleCalendarState(loadUserCycleCalendarState(username || 'Anonymous', effectivePass));
+    setCycleCalendarState(loadUserCycleCalendarState(username || 'Anonymous', password));
+  }, [username, password]);
+
+  // Client-side source & inspection guard for non-admin public visitors
+  useEffect(() => {
+    if (typeof window === 'undefined') return undefined;
+    const isAdminUnlocked = String(username || '').toLowerCase() === 'sydneyalc' && Boolean(password);
+    if (isAdminUnlocked) return undefined;
+
+    const handleContextMenu = (e) => {
+      e.preventDefault();
+    };
+    const handleKeyDown = (e) => {
+      const k = String(e.key || '').toLowerCase();
+      const isInspectShortcut =
+        e.key === 'F12' ||
+        ((e.metaKey || e.ctrlKey) && e.altKey && (k === 'i' || k === 'j' || k === 'c' || k === 'u')) ||
+        ((e.metaKey || e.ctrlKey) && e.shiftKey && (k === 'i' || k === 'j' || k === 'c')) ||
+        ((e.metaKey || e.ctrlKey) && k === 'u');
+      if (isInspectShortcut) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+    };
+    window.addEventListener('contextmenu', handleContextMenu);
+    window.addEventListener('keydown', handleKeyDown, true);
+    return () => {
+      window.removeEventListener('contextmenu', handleContextMenu);
+      window.removeEventListener('keydown', handleKeyDown, true);
+    };
   }, [username, password]);
   const [beingWomanSubTab, setBeingWomanSubTab] = useState('gender-outlook');
   const [selectedRoleModel, setSelectedRoleModel] = useState(null);
@@ -1859,12 +1905,13 @@ export default function App() {
       onBack: () => setCurrentPage('FemPowHerPreBoardingAPage'),
       onRegisterUser: ({ username: newU, password: newP, email: newE }) => {
         const key = newU.toLowerCase();
-        // If registering as sydneyalc, set official non-anonymous Massachusetts account immediately
         if (key === 'sydneyalc') {
-          const sydneyPass = newP || 'AntiGravityRulez';
+          if (hashAccountCredential('sydneyalc', newP) !== DEFAULT_ACCOUNTS.sydneyalc.passwordHash) {
+            return;
+          }
           setUsername('sydneyalc');
-          setPassword(sydneyPass);
-          setEmail(newE || 'sydneylosikoffcarey@gmail.com');
+          setPassword(newP);
+          setEmail('');
           setLang('en');
           setWrittenLanguage('English');
           setAgeGroup('20-25');
@@ -1873,12 +1920,12 @@ export default function App() {
           setMapCenterCoords([42.3601, -71.0589]);
           setMapZoom(9);
           setIsAnonymous(false);
-          setAuthenticatedCycleUserPassword('sydneyalc', sydneyPass);
-          setCycleCalendarState(loadUserCycleCalendarState('sydneyalc', sydneyPass));
+          setAuthenticatedCycleUserPassword('sydneyalc', newP);
+          setCycleCalendarState(loadUserCycleCalendarState('sydneyalc', newP));
           saveAccount({
             username: 'sydneyalc',
-            password: sydneyPass,
-            email: newE || 'sydneylosikoffcarey@gmail.com',
+            passwordHash: DEFAULT_ACCOUNTS.sydneyalc.passwordHash,
+            emailHash: DEFAULT_ACCOUNTS.sydneyalc.emailHash,
             lang: 'en',
             writtenLanguage: 'English',
             ageGroup: '20-25',
@@ -1921,21 +1968,30 @@ export default function App() {
       onSignInUser: ({ username: signU, password: signP }) => {
         const accounts = loadAccounts();
         const lookupKey = signU.trim().toLowerCase();
+        const lookupEmailHash = hashAccountCredential('email', lookupKey);
         const acct =
           accounts[lookupKey] ||
           Object.values(accounts).find(
-            (a) => a && a.email && String(a.email).trim().toLowerCase() === lookupKey
+            (a) =>
+              a &&
+              ((a.emailHash && a.emailHash === lookupEmailHash) ||
+                (a.email && String(a.email).trim().toLowerCase() === lookupKey))
           );
         if (!acct) {
           return { error: 'Username or email not found. Please check spelling or use New User.'};
         }
-        if (acct.password !== signP) {
+        const acctUserLower = String(acct.username || lookupKey).trim().toLowerCase();
+        const inputPassHash = hashAccountCredential(acctUserLower, signP);
+        const passMatches =
+          (acct.passwordHash && acct.passwordHash === inputPassHash) ||
+          (acct.password && acct.password === signP);
+        if (!passMatches) {
           return { error: 'Incorrect password. Please try again.'};
         }
         const signLang = acct.lang || 'en';
         setUsername(acct.username);
         setPassword(signP);
-        setEmail(acct.email || '');
+        setEmail('');
         setLang(signLang);
         const matchedLangObj = LANGUAGES.find((l) => l.code === signLang);
         setWrittenLanguage(acct.writtenLanguage || (matchedLangObj ? matchedLangObj.name : 'English'));

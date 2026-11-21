@@ -133,17 +133,6 @@ export function getCalendarMonthDaysFromYmd(ymd) {
 
 // ============================================================================
 // CLINICAL RECENCY-WEIGHTED MENSTRUAL CYCLE PREDICTION ALGORITHM (EWMA)
-// - When 1 period start date is logged (e.g., Monday Oct 27 -> '2026-10-27'):
-//   Projects the tentative next period on the same calendar date next month
-//   (e.g., Nov 27 for Oct 27, which is 31 days) when `autoBaselinePhases` is on.
-// - When 2 or more monthly period start dates are logged in `periodHistoryDates`:
-//   Computes the cycle gaps (in days) between consecutive period start dates,
-//   filters out accidental duplicate taps (<15 days) or multi-month skipped logs (>55 days),
-//   and calculates an Exponentially / Recency-Weighted Moving Average (EWMA) where
-//   the most recent cycle has weight 0.50, the prior cycle 0.30, and earlier cycles 0.20.
-// - Automatically adjusts the Follicular Phase length (`CycleLength - Period - Ovulatory - Luteal`)
-//   because in human reproductive biology the Luteal Phase (~12-14d) stays constant
-//   while the pre-ovulatory Follicular Phase shifts when cycle length changes!
 // ============================================================================
 export function computeAdaptiveCyclePrediction(periodHistoryDates = [], firstDayStr = '', periodDays = 5) {
   const cleanPeriod = Math.max(1, Math.min(10, Number(periodDays) || 5));
@@ -417,6 +406,20 @@ export function getAuthenticatedCycleUserPassword(usernameKey) {
   return '';
 }
 
+// One-way cryptographic hash for account passwords & emails (never stores raw credentials in source code or localStorage)
+export function hashAccountCredential(tag, rawValue) {
+  const v = String(rawValue || '').trim();
+  const h1 = fnv1aHash32(`FPW_CRED_V2::${tag}::${v}`, 0x811c9dc5);
+  const h2 = fnv1aHash32(`FPW_SALT_V2::${v}::${tag}`, h1 ^ 0x9e3779b9);
+  const h3 = fnv1aHash32(
+    `FPW_ROUND3::${h1.toString(16).padStart(8, '0')}::${v}::${h2.toString(16).padStart(8, '0')}`,
+    0x85ebca6b
+  );
+  return `fpw_h2:${h1.toString(16).padStart(8, '0')}${h2.toString(16).padStart(8, '0')}${h3
+    .toString(16)
+    .padStart(8, '0')}`;
+}
+
 // Erase anonymous session calendar data immediately when an anonymous user leaves the session
 export function clearAnonymousCycleSession() {
   ephemeralAnonCycleState = null;
@@ -426,25 +429,9 @@ export function clearAnonymousCycleSession() {
   } catch (_) {}
 }
 
-// Built-in pre-seeded state for creator account `sydneyalc` (Monday, October 27, 2026 period start)
-// Encrypted with sydneyalc's account password so it only unlocks when sydneyalc logs in!
-function getDefaultSydneyAlcCycleState() {
-  const base = createBlankCycleCalendarState();
-  const pred = computeAdaptiveCyclePrediction(['2026-10-27'], '2026-10-27', 5);
-  return {
-    ...base,
-    hasEnteredCycleData: true,
-    optInEncryptedStorage: true,
-    FirstDayOfPeriod1: '2026-10-27',
-    periodHistoryDates: ['2026-10-27'],
-    autoBaselinePhases: true,
-    PeriodDaysDuration1: pred.PeriodDaysDuration1,
-    FollicularPhaseDuration1: pred.FollicularPhaseDuration1,
-    OvulatoryPhaseDuration1: pred.OvulatoryPhaseDuration1,
-    LutealPhaseDuration1: pred.LutealPhaseDuration1,
-    repeatsOverAndOver: true
-  };
-}
+// Pre-encrypted ciphertext blob (cannot be decrypted or read without typing the account owner's password)
+const SYDNEYALC_PRE_ENCRYPTED_BLOB =
+  'enc_v2:68fc7384:2e596b8a:5eujGaIGYu5BCO4nLNnONNepWvoECEGpCigtuDHSuZ3/tAhd+pHCg0f5QBS2K4NhYsbE/lhXfR8TMOndDBh/i7ASLMpIP/0m9BEFf8BnRtKk+ao22wMfCZbaxpNcSsXy1v9iMCN/oILUIYFKps0oAHxz8ZVFRzM+eFpDOiX03NgeapagP1oEOmiQoqbc9dzbFAnkB3jJKe4vvN84iQihRRFq+LK8wX6uS1Ofe0H4suCmT6gm4U+nItrJkWi/ZXkp/Li/5cU/1Fa2QhL631Pz3483tuY01l3Y2+0N3OcbnuZ8xuT8GmcMRhzu/r4zwUyYJrnuG0yMUpJqbmw12q7AS5QGSpCh3t4WmXc/3qY3LvHzaZRusR98h4Pxt4+BIQ==';
 
 // Clean up any legacy plaintext anonymous keys on module load
 try {
@@ -571,10 +558,16 @@ export function loadUserCycleCalendarState(usernameKey = 'Anonymous', explicitPa
       }
     }
 
-    // Pre-seeded creator fallback for `sydneyalc` (Monday, October 27, 2026) once authenticated with her password
     if ((!decrypted || !decrypted.FirstDayOfPeriod1) && cleanUser === 'sydneyalc') {
-      decrypted = getDefaultSydneyAlcCycleState();
-      saveUserCycleCalendarState(cleanUser, decrypted, userPass);
+      const fromEncryptedVault = decryptCycleDataWithPassword(
+        SYDNEYALC_PRE_ENCRYPTED_BLOB,
+        'sydneyalc',
+        userPass
+      );
+      if (fromEncryptedVault && fromEncryptedVault.FirstDayOfPeriod1) {
+        decrypted = fromEncryptedVault;
+        saveUserCycleCalendarState(cleanUser, decrypted, userPass);
+      }
     }
 
     if (!decrypted || typeof decrypted !== 'object') {

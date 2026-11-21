@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=251';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=252';
 
 const h = React.createElement;
 
@@ -427,7 +427,8 @@ function renderHighlightedText(text = '', query = '', matchStartIndexRef = null,
 }
 
 // ============================================================================
-// Reusable Long-Form Book-Wrap Page Component (Option 3 Refined):
+// ============================================================================
+// IamPregALHomePageStyle (LongFormTopicBookWrapPage):
 // - Zero chapter labels and zero numbers anywhere
 // - Top-right Key symbol button opening unnumbered sub-topic jump pills
 // - Search bar directly underneath the Key symbol that highlights & scrolls to matches
@@ -436,7 +437,7 @@ function renderHighlightedText(text = '', query = '', matchStartIndexRef = null,
 // - Bottom quick-reference subpage buttons located at the very bottom (opening empty home pages for now)
 // - 100% UserLanguageChoice1 dynamic translation
 // ============================================================================
-export function LongFormTopicBookWrapPage({
+export function IamPregALHomePageStyle({
   pageId,
   title,
   sections = [],
@@ -961,6 +962,8 @@ export function LongFormTopicBookWrapPage({
   );
 }
 
+export const LongFormTopicBookWrapPage = IamPregALHomePageStyle;
+
 export default function PregnancyAfterLossHomePage({
   onBack,
   UserLanguageChoice1 = null,
@@ -1053,7 +1056,7 @@ export default function PregnancyAfterLossHomePage({
     }
   ];
 
-  return h(LongFormTopicBookWrapPage, {
+  return h(IamPregALHomePageStyle, {
     pageId: 'PregnancyAfterLossHomePage',
     title: tr('lossBtnPregnantAfterLoss', 'I Am Pregnant After a Loss'),
     sections,

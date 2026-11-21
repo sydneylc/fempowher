@@ -1,10 +1,13 @@
 import React from 'https://esm.sh/react@18.3.1';
+import { SmartSearchBtn1 } from './SmartSearchBtn1.js?v=263';
 
 const h = React.createElement;
 
 export default function MyBodyandHealthHomePage1({
   UserNameChoiceInsert1,
   displayUsername = 'User',
+  UserLanguageChoice1 = null,
+  lang = 'en',
   t = {},
   AGE_GROUPS = [],
   ageGroup = '20-25',
@@ -19,7 +22,7 @@ export default function MyBodyandHealthHomePage1({
   return h(
     'div',
     { className: 'max-w-3xl w-full mx-auto p-4 sm:p-6 space-y-5' },
-    // Top Header Card
+    // Top Header Card with SmartSearchBtn1 Inside the Header Bubble
     h(
       'div',
       {
@@ -36,7 +39,13 @@ export default function MyBodyandHealthHomePage1({
         { className: 'text-xl sm:text-2xl font-bold mt-1' },
         pageTitle
       ),
-      h('p', { className: 'text-xs sm:text-sm mt-1', style: { color: '#FEACEC' } }, t.issuesSubtitle)
+      h('p', { className: 'text-xs sm:text-sm mt-1', style: { color: '#FEACEC' } }, t.issuesSubtitle),
+      h(SmartSearchBtn1, {
+        setEducationPage,
+        UserLanguageChoice1,
+        lang,
+        t
+      })
     ),
 
     // Equal-Sized 10 Buttons Directly on Page (2x5 Grid)

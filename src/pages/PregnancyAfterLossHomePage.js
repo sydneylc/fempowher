@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=262';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=263';
+import { findClosestHealthQuery } from './SmartSearchBtn1.js?v=263';
 
 const h = React.createElement;
 
@@ -918,6 +919,36 @@ export function IamPregALHomePageStyle({
                 )
               )
           ),
+          searchQuery.trim().length >= 3 &&
+            totalMatches === 0 &&
+            (() => {
+              const closestInPage = findClosestHealthQuery(searchQuery);
+              if (!closestInPage || closestInPage.toLowerCase() === searchQuery.trim().toLowerCase()) {
+                return null;
+              }
+              return h(
+                'div',
+                { className: 'w-full flex items-center justify-end gap-1.5 text-xs font-extrabold px-1' },
+                h('span', { style: { color: palette.headerDark } }, trPhrase('Did you mean:')),
+                h(
+                  'button',
+                  {
+                    type: 'button',
+                    onClick: () => {
+                      setSearchQuery(closestInPage);
+                      setActiveMatchIndex(0);
+                    },
+                    className: 'px-2.5 py-0.5 rounded-full font-black underline cursor-pointer shadow-sm',
+                    style: {
+                      backgroundColor: palette.tintLight,
+                      color: palette.headerDark,
+                      border: `1px solid ${palette.accentMedium}`
+                    }
+                  },
+                  `${closestInPage}?`
+                )
+              );
+            })(),
 
           // 3. Unnumbered Sub-Topics Tray (Opens when Key Symbol is clicked)
           keyMenuOpen &&

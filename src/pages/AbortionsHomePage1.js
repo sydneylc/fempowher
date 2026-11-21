@@ -2,8 +2,9 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=262';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=262';
+} from './PregnancyHomePage.js?v=263';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=263';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=263';
 
 const h = React.createElement;
 
@@ -204,7 +205,7 @@ export default function AbortionsHomePage1({
   lang = 'en',
   t = {}
 }) {
-  const [activeSubPage, setActiveSubPage] = useState(null);
+  const [activeSubPage, setActiveSubPage] = useState(() => consumePendingEducationSubPage());
 
   const tr = (key, fallback) => {
     if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {

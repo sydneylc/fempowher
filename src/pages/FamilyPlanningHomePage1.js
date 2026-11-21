@@ -2,14 +2,15 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=262';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=262';
+} from './PregnancyHomePage.js?v=263';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=263';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=263';
 import {
   renderCervixPapScreenCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderThreeMonthRetestCalendarSvg
-} from './FlyerCartoonIllustrations.js?v=262';
+} from './FlyerCartoonIllustrations.js?v=263';
 
 const h = React.createElement;
 
@@ -23,7 +24,7 @@ export default function FamilyPlanningHomePage1({
   speakText = () => {},
   onShowNearestClinic = () => {}
 }) {
-  const [activeSubPage, setActiveSubPage] = useState(null);
+  const [activeSubPage, setActiveSubPage] = useState(() => consumePendingEducationSubPage());
 
   const tr = (key, fallback) => {
     if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {

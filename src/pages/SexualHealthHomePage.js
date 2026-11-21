@@ -2,8 +2,9 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=262';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=262';
+} from './PregnancyHomePage.js?v=263';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=263';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=263';
 import {
   renderCervixPapScreenCartoonSvg,
   renderCleanWaterHydrationCartoonSvg,
@@ -11,7 +12,7 @@ import {
   renderPrepPepShieldCartoonSvg,
   renderSwabAndNoAlcoholCartoonSvg,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=262';
+} from './FlyerCartoonIllustrations.js?v=263';
 
 const h = React.createElement;
 
@@ -25,7 +26,7 @@ export default function SexualHealthHomePage({
   speakText = () => {},
   onShowNearestClinic = () => {}
 }) {
-  const [activeSubPage, setActiveSubPage] = useState(null);
+  const [activeSubPage, setActiveSubPage] = useState(() => consumePendingEducationSubPage());
 
   const tr = (key, fallback) => {
     if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {
@@ -45,15 +46,16 @@ export default function SexualHealthHomePage({
     {
       id: 'sh-what-is-sex',
       label: tr('shBtnWhatIsSex', 'What is sex?'),
-      gifSrc: './assets/sh-what-is-sex.gif?v=262',
+      gifSrc: './assets/sh-what-is-sex.gif?v=263',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-48px',
         marginRight: '-48px'
       },
+      // Tone 1: Soft Rose-Blush Red (#F78CA7) — flat solid color so each button band is clearly distinct!
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #F88DA6 0%, #EE6A88 100%)',
+        backgroundColor: '#F78CA7',
         border: 'none'
       },
       textStyle: {
@@ -64,15 +66,16 @@ export default function SexualHealthHomePage({
     {
       id: 'sh-contraception',
       label: tr('shBtnContraception', 'Contraception'),
-      gifSrc: './assets/sh-contraception.gif?v=262',
+      gifSrc: './assets/sh-contraception.gif?v=263',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-48px',
         marginRight: '-48px'
       },
+      // Tone 2: Warm Raspberry-Rose Red (#E45278) — flat solid color
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #EE6A88 0%, #DC3F66 100%)',
+        backgroundColor: '#E45278',
         border: 'none'
       },
       textStyle: {
@@ -83,15 +86,16 @@ export default function SexualHealthHomePage({
     {
       id: 'sh-first-time-sex',
       label: tr('shBtnFirstTimeSex', 'I had sex for the first time!'),
-      gifSrc: './assets/sh-first-time-sex.gif?v=262',
+      gifSrc: './assets/sh-first-time-sex.gif?v=263',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-52px',
         marginRight: '-52px'
       },
+      // Tone 3: Rich Crimson-Berry Red (#C92452) — flat solid color
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #DC3F66 0%, #BF1E48 100%)',
+        backgroundColor: '#C92452',
         border: 'none'
       },
       textStyle: {
@@ -102,15 +106,16 @@ export default function SexualHealthHomePage({
     {
       id: 'sh-dont-want-sex',
       label: tr('shBtnDontWantSex', 'I don’t want to have sex.'),
-      gifSrc: './assets/sh-dont-want-sex.gif?v=262',
+      gifSrc: './assets/sh-dont-want-sex.gif?v=263',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-50px',
         marginRight: '-50px'
       },
+      // Tone 4: Deep Ruby-Garnet Red (#A4133C) — flat solid color
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #BF1E48 0%, #9E143A 100%)',
+        backgroundColor: '#A4133C',
         border: 'none'
       },
       textStyle: {
@@ -121,15 +126,16 @@ export default function SexualHealthHomePage({
     {
       id: 'sh-pain-during-sex',
       label: tr('shBtnPainDuringSex', 'Sex hurts!'),
-      gifSrc: './assets/sh-pain-during-sex.gif?v=262',
+      gifSrc: './assets/sh-pain-during-sex.gif?v=263',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-48px',
         marginRight: '-48px'
       },
+      // Tone 5: Dark Burgundy-Maroon (#7F0B2C) — flat solid color
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #9E143A 0%, #7C0D2C 100%)',
+        backgroundColor: '#7F0B2C',
         border: 'none'
       },
       textStyle: {
@@ -142,15 +148,16 @@ export default function SexualHealthHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=262',
+      gifSrc: './assets/sexual-health-stds.gif?v=263',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-20px',
         marginRight: '-16px'
       },
+      // Tone 6: Deepest Wine-Maroon (#58051D) — flat solid color
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #7C0D2C 0%, #58071E 100%)',
+        backgroundColor: '#58051D',
         border: 'none'
       },
       textStyle: {
@@ -168,7 +175,7 @@ export default function SexualHealthHomePage({
     'sh-what-is-sex': {
       pageId: 'WhatIsSexHomePage1',
       title: tr('shBtnWhatIsSex', 'What is sex?'),
-      gifSrc: './assets/sh-what-is-sex.gif?v=262',
+      gifSrc: './assets/sh-what-is-sex.gif?v=263',
       bgGradient: 'linear-gradient(180deg, #E11D48 0%, #BE123C 100%)',
       bgColor: '#D41742',
       titleTintColor: '#FFC9D6',
@@ -194,7 +201,7 @@ export default function SexualHealthHomePage({
     'sh-contraception': {
       pageId: 'SexualHealthContraceptionHomePage1',
       title: tr('shBtnContraception', 'Contraception'),
-      gifSrc: './assets/sh-contraception.gif?v=262',
+      gifSrc: './assets/sh-contraception.gif?v=263',
       bgGradient: 'linear-gradient(180deg, #9F133A 0%, #7C1040 100%)',
       bgColor: '#8E1138',
       titleTintColor: '#FFD6EA',
@@ -228,7 +235,7 @@ export default function SexualHealthHomePage({
     'sh-first-time-sex': {
       pageId: 'FirstTimeSexHomePage1',
       title: tr('shBtnFirstTimeSex', 'I had sex for the first time!'),
-      gifSrc: './assets/sh-first-time-sex.gif?v=262',
+      gifSrc: './assets/sh-first-time-sex.gif?v=263',
       bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
       bgColor: '#6D28D9',
       titleTintColor: '#EDE9FE',
@@ -270,7 +277,7 @@ export default function SexualHealthHomePage({
     'sh-dont-want-sex': {
       pageId: 'DontWantSexHomePage1',
       title: tr('shBtnDontWantSex', 'I don’t want to have sex.'),
-      gifSrc: './assets/sh-dont-want-sex.gif?v=262',
+      gifSrc: './assets/sh-dont-want-sex.gif?v=263',
       bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
       bgColor: '#0E857B',
       titleTintColor: '#CCFBF1',
@@ -296,7 +303,7 @@ export default function SexualHealthHomePage({
     'sh-pain-during-sex': {
       pageId: 'PainDuringSexHomePage1',
       title: tr('shBtnPainDuringSex', 'Sex hurts!'),
-      gifSrc: './assets/sh-pain-during-sex.gif?v=262',
+      gifSrc: './assets/sh-pain-during-sex.gif?v=263',
       bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1D4ED8 100%)',
       bgColor: '#2057E0',
       titleTintColor: '#CFE2FF',

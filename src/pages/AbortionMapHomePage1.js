@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useMemo } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=286';
-import { isRtlLanguage } from '../data/translations.js?v=286';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=287';
+import { isRtlLanguage } from '../data/translations.js?v=287';
 import {
   ABORTION_MAP_CANVAS_WIDTH,
   ABORTION_MAP_CANVAS_HEIGHT,
@@ -8,7 +8,7 @@ import {
   ABORTION_ACCESS_LEVELS,
   ABORTION_MAP_COUNTRIES,
   ABORTION_MAP_SVG_POLYGONS
-} from '../data/abortionMapWorldData.js?v=286';
+} from '../data/abortionMapWorldData.js?v=287';
 
 const h = React.createElement;
 
@@ -19,6 +19,85 @@ const REGION_PRESETS = [
   { id: 'africa', labelKey: 'abortionMapPresetAfrica', defaultLabel: 'Africa', zoom: 2.2, panX: -15, panY: -95 },
   { id: 'me_c_asia', labelKey: 'abortionMapPresetMiddleEast', defaultLabel: 'Middle East & C. Asia', zoom: 2.75, panX: -135, panY: 75 },
   { id: 'asia_pac', labelKey: 'abortionMapPresetAsiaPacific', defaultLabel: 'Asia & Pacific', zoom: 2.05, panX: -335, panY: -25 }
+];
+
+// Patient-friendly, low-reading-level WHO columns (removes confusing lawyer-only jargon like Civil Code, Ministerial Decree, Other, etc.)
+// polarity:
+// - 'negative_when_yes': Yes = BAD for abortion access (Light Red #FEE2E2), No = GOOD for abortion access (Light Green #DCFCE7)
+// - 'positive_when_yes': Yes = GOOD for abortion access (Light Green #DCFCE7), No = BAD for abortion access (Light Red #FEE2E2)
+const PATIENT_FRIENDLY_WHO_COLUMNS = [
+  {
+    rawCol: 'Criminal / Penal Code',
+    polarity: 'negative_when_yes',
+    titleKey: 'abortionMapSimpleColPenalCode',
+    defaultTitle: 'In Criminal / Punishment Law',
+    subKey: 'abortionMapSimpleColPenalCodeSub',
+    defaultSub: 'No = Good (not in crime laws) • Yes = Can carry criminal penalties if rules are broken',
+    yesBadgeKey: 'abortionMapPenalYesBadge',
+    defaultYesBadge: 'Yes (In Criminal Law)',
+    noBadgeKey: 'abortionMapPenalNoBadge',
+    defaultNoBadge: 'No (Taken Out of Crime Law)'
+  },
+  {
+    rawCol: 'Health Regulation / Clinical Guidelines',
+    polarity: 'positive_when_yes',
+    titleKey: 'abortionMapSimpleColClinicalGuides',
+    defaultTitle: 'Safe Doctor Care Guides',
+    subKey: 'abortionMapSimpleColClinicalGuidesSub',
+    defaultSub: 'Yes = Good (official safe medical guides exist for doctors and clinics)',
+    yesBadgeKey: 'abortionMapGuidesYesBadge',
+    defaultYesBadge: 'Yes (Safe Care Guides)',
+    noBadgeKey: 'abortionMapGuidesNoBadge',
+    defaultNoBadge: 'No Official Guides'
+  },
+  {
+    rawCol: 'EML / Registered List',
+    polarity: 'positive_when_yes',
+    titleKey: 'abortionMapSimpleColPillsApproved',
+    defaultTitle: 'Abortion Pills Approved',
+    subKey: 'abortionMapSimpleColPillsApprovedSub',
+    defaultSub: 'Yes = Good (safe abortion medicines are on the national approved list)',
+    yesBadgeKey: 'abortionMapPillsYesBadge',
+    defaultYesBadge: 'Yes (Pills Approved)',
+    noBadgeKey: 'abortionMapPillsNoBadge',
+    defaultNoBadge: 'No (Not on Approved List)'
+  },
+  {
+    rawCol: 'Document Relating to Funding',
+    polarity: 'positive_when_yes',
+    titleKey: 'abortionMapSimpleColCostHelp',
+    defaultTitle: 'Public Cost / Insurance Help',
+    subKey: 'abortionMapSimpleColCostHelpSub',
+    defaultSub: 'Yes = Good (public health funding or insurance policy exists to help pay)',
+    yesBadgeKey: 'abortionMapFundingYesBadge',
+    defaultYesBadge: 'Yes (Cost Help Exists)',
+    noBadgeKey: 'abortionMapFundingNoBadge',
+    defaultNoBadge: 'No Public Funding Policy'
+  },
+  {
+    rawCol: 'Reproductive Health Act',
+    polarity: 'positive_when_yes',
+    titleKey: 'abortionMapSimpleColReproAct',
+    defaultTitle: 'Reproductive Health Law',
+    subKey: 'abortionMapSimpleColReproActSub',
+    defaultSub: 'Yes = Good (national reproductive health law exists)',
+    yesBadgeKey: 'abortionMapReproYesBadge',
+    defaultYesBadge: 'Yes (Health Law Exists)',
+    noBadgeKey: 'abortionMapReproNoBadge',
+    defaultNoBadge: 'No Separate Health Act'
+  },
+  {
+    rawCol: 'Abortion Specific Law',
+    polarity: 'positive_when_yes',
+    titleKey: 'abortionMapSimpleColDedicatedLaw',
+    defaultTitle: 'Clear Abortion Care Law',
+    subKey: 'abortionMapSimpleColDedicatedLawSub',
+    defaultSub: 'Yes = Good (dedicated law explains when and how abortion care is provided)',
+    yesBadgeKey: 'abortionMapDedicatedYesBadge',
+    defaultYesBadge: 'Yes (Clear Care Law)',
+    noBadgeKey: 'abortionMapDedicatedNoBadge',
+    defaultNoBadge: 'No Dedicated Care Law'
+  }
 ];
 
 export default function AbortionMapHomePage1({
@@ -258,9 +337,6 @@ export default function AbortionMapHomePage1({
   const showCountryBubble = (countryObj, targetEl, pinned = false) => {
     if (!countryObj) return;
     const lvlObj = levelByNum[countryObj.level] || ABORTION_ACCESS_LEVELS[6];
-    const activeFlags = ABORTION_LEGAL_COLUMNS.filter(
-      (col) => countryObj.flags && countryObj.flags[col] === 'Yes'
-    );
     showFaceTimeWordBubble(
       {
         kind: 'country',
@@ -271,11 +347,12 @@ export default function AbortionMapHomePage1({
         levelBadgeText: translateLevelShortLabel(lvlObj),
         colorHex: lvlObj.colorHex,
         summaryText: translateCountrySummary(countryObj),
+        inCriminalLaw:
+          Boolean(countryObj.flags && countryObj.flags['Criminal / Penal Code'] === 'Yes'),
         hasClinicalGuidelines:
-          countryObj.flags && countryObj.flags['Health Regulation / Clinical Guidelines'] === 'Yes',
+          Boolean(countryObj.flags && countryObj.flags['Health Regulation / Clinical Guidelines'] === 'Yes'),
         hasEmlRegistered:
-          countryObj.flags && countryObj.flags['EML / Registered List'] === 'Yes',
-        activeFlagsCount: activeFlags.length,
+          Boolean(countryObj.flags && countryObj.flags['EML / Registered List'] === 'Yes'),
         subRegionsCount: (countryObj.subRegions && countryObj.subRegions.length) || 0
       },
       targetEl,
@@ -501,36 +578,54 @@ export default function AbortionMapHomePage1({
           wordBubble.summaryText
         ),
 
-        // Quick WHO Policy Pills for Country Bubble
+        // Quick Patient-Friendly WHO Policy Pills for Country Bubble (Green = Good for abortion access, Light Red = Bad/Restrictive)
         wordBubble.kind === 'country' &&
           h(
             'div',
-            { className: 'flex flex-wrap items-center justify-center gap-1.5 pt-1 border-t border-black/15' },
+            { className: 'flex flex-wrap items-center justify-center gap-1.5 pt-1.5 border-t border-black/15' },
+            // 1. In Criminal / Punishment Law: No = Green (Good!), Yes = Light Red (Bad/Restrictive!)
+            h(
+              'span',
+              {
+                className: `px-2 py-0.5 rounded-md border text-[10px] font-extrabold ${
+                  !wordBubble.inCriminalLaw
+                    ? 'bg-[#DCFCE7] border-[#15803D] text-[#052E16]'
+                    : 'bg-[#FEE2E2] border-[#B91C1C] text-[#7F1D1D]'
+                }`
+              },
+              `${tr('abortionMapSimpleColPenalCode', 'In Criminal / Punishment Law')}: ${
+                wordBubble.inCriminalLaw
+                  ? tr('abortionMapYes', 'Yes')
+                  : tr('abortionMapNo', 'No')
+              }`
+            ),
+            // 2. Safe Doctor Care Guides: Yes = Green (Good!), No = Light Red
             h(
               'span',
               {
                 className: `px-2 py-0.5 rounded-md border text-[10px] font-extrabold ${
                   wordBubble.hasClinicalGuidelines
                     ? 'bg-[#DCFCE7] border-[#15803D] text-[#052E16]'
-                    : 'bg-white/80 border-black/30 text-black/70'
+                    : 'bg-[#FEE2E2] border-[#B91C1C] text-[#7F1D1D]'
                 }`
               },
-              `${tr('abortionMapClinicalGuidelinesLabel', 'Clinical Guidelines')}: ${
+              `${tr('abortionMapSimpleColClinicalGuides', 'Safe Doctor Care Guides')}: ${
                 wordBubble.hasClinicalGuidelines
                   ? tr('abortionMapYes', 'Yes')
                   : tr('abortionMapNo', 'No')
               }`
             ),
+            // 3. Abortion Pills Approved: Yes = Green (Good!), No = Light Red
             h(
               'span',
               {
                 className: `px-2 py-0.5 rounded-md border text-[10px] font-extrabold ${
                   wordBubble.hasEmlRegistered
                     ? 'bg-[#DCFCE7] border-[#15803D] text-[#052E16]'
-                    : 'bg-white/80 border-black/30 text-black/70'
+                    : 'bg-[#FEE2E2] border-[#B91C1C] text-[#7F1D1D]'
                 }`
               },
-              `${tr('abortionMapEmlShortLabel', 'Essential Medicines (EML)')}: ${
+              `${tr('abortionMapSimpleColPillsApproved', 'Abortion Pills Approved')}: ${
                 wordBubble.hasEmlRegistered
                   ? tr('abortionMapYes', 'Yes')
                   : tr('abortionMapNo', 'No')
@@ -1249,12 +1344,6 @@ export default function AbortionMapHomePage1({
         selectedCountryObj &&
           (() => {
             const lvlObj = levelByNum[selectedCountryObj.level] || ABORTION_ACCESS_LEVELS[6];
-            const yesCols = ABORTION_LEGAL_COLUMNS.filter(
-              (col) => selectedCountryObj.flags && selectedCountryObj.flags[col] === 'Yes'
-            );
-            const noCols = ABORTION_LEGAL_COLUMNS.filter(
-              (col) => !selectedCountryObj.flags || selectedCountryObj.flags[col] !== 'Yes'
-            );
 
             return h(
               'div',
@@ -1311,43 +1400,71 @@ export default function AbortionMapHomePage1({
                 translateCountrySummary(selectedCountryObj)
               ),
 
-              // Active WHO Legal & Policy Instruments for this country
+              // Patient-Friendly Key Facts for this country (Green = Helpful for Abortion Access, Light Red = Restrictive / Missing Support)
               h(
                 'div',
-                { className: 'flex flex-col gap-1.5' },
+                { className: 'flex flex-col gap-2' },
                 h(
                   'div',
                   { className: 'text-xs font-black text-[#9F133A] uppercase tracking-wide' },
                   tr(
-                    'abortionMapIdentifiedLegalSourcesHeader',
-                    'Identified Legal & Policy Documents in WHO Database:'
+                    'abortionMapPatientKeyFactsHeader',
+                    'What a Patient Needs to Know (Green = Helps Access • Red = Restricts or Missing):'
                   )
                 ),
                 h(
                   'div',
-                  { className: 'flex flex-wrap gap-1.5' },
-                  yesCols.map((col) =>
-                    h(
-                      'span',
+                  { className: 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2' },
+                  PATIENT_FRIENDLY_WHO_COLUMNS.map((colDef) => {
+                    const isYes =
+                      Boolean(selectedCountryObj.flags && selectedCountryObj.flags[colDef.rawCol] === 'Yes');
+                    // Polarity check:
+                    // - If 'negative_when_yes' (Criminal / Penal Code): No is GOOD (Green), Yes is BAD (Light Red)
+                    // - If 'positive_when_yes' (Safe Care Guides, Pills Approved, Cost Help, etc.): Yes is GOOD (Green), No is BAD (Light Red)
+                    const isGoodForPatient =
+                      colDef.polarity === 'negative_when_yes' ? !isYes : isYes;
+
+                    return h(
+                      'div',
                       {
-                        key: `yes-col-${col}`,
-                        className:
-                          'px-2.5 py-1 rounded-xl border-[1.5px] border-black bg-[#DCFCE7] text-[11px] font-black text-black'
+                        key: `patient-col-${colDef.rawCol}`,
+                        className: `rounded-xl border-[1.5px] p-2.5 flex flex-col justify-between gap-1 ${
+                          isGoodForPatient
+                            ? 'bg-[#DCFCE7] border-[#15803D] text-[#052E16]'
+                            : 'bg-[#FEE2E2] border-[#B91C1C] text-[#7F1D1D]'
+                        }`
                       },
-                      `✓ ${translateLegalColumn(col)}`
-                    )
-                  ),
-                  noCols.map((col) =>
-                    h(
-                      'span',
-                      {
-                        key: `no-col-${col}`,
-                        className:
-                          'px-2.5 py-1 rounded-xl border border-black/30 bg-gray-100 text-[11px] font-semibold text-black/60'
-                      },
-                      `– ${translateLegalColumn(col)}`
-                    )
-                  )
+                      h(
+                        'div',
+                        { className: 'flex items-center justify-between gap-2' },
+                        h(
+                          'span',
+                          { className: 'text-xs font-black leading-tight' },
+                          tr(colDef.titleKey, colDef.defaultTitle)
+                        ),
+                        h(
+                          'span',
+                          {
+                            className: `px-2 py-0.5 rounded-full border text-[10.5px] font-black shrink-0 ${
+                              isGoodForPatient
+                                ? 'bg-white border-[#15803D] text-[#052E16]'
+                                : 'bg-white border-[#B91C1C] text-[#7F1D1D]'
+                            }`
+                          },
+                          isYes
+                            ? tr('abortionMapYes', 'Yes')
+                            : tr('abortionMapNo', 'No')
+                        )
+                      ),
+                      h(
+                        'div',
+                        { className: 'text-[10.5px] font-bold opacity-90 leading-snug' },
+                        isYes
+                          ? tr(colDef.yesBadgeKey, colDef.defaultYesBadge)
+                          : tr(colDef.noBadgeKey, colDef.defaultNoBadge)
+                      )
+                    );
+                  })
                 )
               ),
 
@@ -1366,23 +1483,55 @@ export default function AbortionMapHomePage1({
                     'div',
                     { className: 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2' },
                     selectedCountryObj.subRegions.map((sr) => {
-                      const srYes = ABORTION_LEGAL_COLUMNS.filter(
-                        (col) => sr.flags && sr.flags[col] === 'Yes'
+                      const srInCrimeLaw = Boolean(sr.flags && sr.flags['Criminal / Penal Code'] === 'Yes');
+                      const srHasGuides = Boolean(
+                        sr.flags && sr.flags['Health Regulation / Clinical Guidelines'] === 'Yes'
+                      );
+                      const srHasPills = Boolean(
+                        sr.flags && sr.flags['EML / Registered List'] === 'Yes'
                       );
                       return h(
                         'div',
                         {
                           key: `subregion-${sr.name}`,
                           className:
-                            'rounded-xl border-[1.5px] border-black bg-[#FFF5F7] p-2.5 flex flex-col gap-1'
+                            'rounded-xl border-[1.5px] border-black bg-[#FFF5F7] p-2.5 flex flex-col gap-1.5'
                         },
                         h('div', { className: 'text-xs font-black text-black' }, sr.name),
                         h(
                           'div',
-                          { className: 'text-[10.5px] font-bold text-black/80 leading-snug' },
-                          srYes.length > 0
-                            ? srYes.map((c) => translateLegalColumn(c)).join(' • ')
-                            : tr('abortionMapGovernedByFederalLaw', 'Governed under national/federal framework')
+                          { className: 'flex flex-wrap gap-1' },
+                          h(
+                            'span',
+                            {
+                              className: `px-1.5 py-0.5 rounded border text-[9.5px] font-black ${
+                                !srInCrimeLaw
+                                  ? 'bg-[#DCFCE7] border-[#15803D] text-[#052E16]'
+                                  : 'bg-[#FEE2E2] border-[#B91C1C] text-[#7F1D1D]'
+                              }`
+                            },
+                            `${tr('abortionMapSimpleColPenalCode', 'In Criminal / Punishment Law')}: ${
+                              srInCrimeLaw ? tr('abortionMapYes', 'Yes') : tr('abortionMapNo', 'No')
+                            }`
+                          ),
+                          srHasGuides &&
+                            h(
+                              'span',
+                              {
+                                className:
+                                  'px-1.5 py-0.5 rounded border bg-[#DCFCE7] border-[#15803D] text-[#052E16] text-[9.5px] font-black'
+                              },
+                              `${tr('abortionMapSimpleColClinicalGuides', 'Safe Doctor Care Guides')}: ${tr('abortionMapYes', 'Yes')}`
+                            ),
+                          srHasPills &&
+                            h(
+                              'span',
+                              {
+                                className:
+                                  'px-1.5 py-0.5 rounded border bg-[#DCFCE7] border-[#15803D] text-[#052E16] text-[9.5px] font-black'
+                              },
+                              `${tr('abortionMapSimpleColPillsApproved', 'Abortion Pills Approved')}: ${tr('abortionMapYes', 'Yes')}`
+                            )
                         )
                       );
                     })
@@ -1394,7 +1543,7 @@ export default function AbortionMapHomePage1({
     ),
 
     // ========================================================================
-    // SAVED WHO EXCEL LEGAL & POLICY DATASET MODAL (OPENED FROM THE BUBBLE AT THE BOTTOM OF THE KEY)
+    // SAVED WHO PATIENT-FRIENDLY DATASET MODAL (OPENED FROM THE BUBBLE AT THE BOTTOM OF THE KEY)
     // ========================================================================
     isDatasetBubbleModalOpen &&
       h(
@@ -1426,16 +1575,16 @@ export default function AbortionMapHomePage1({
                 'h2',
                 { className: 'text-base sm:text-xl font-black text-[#9F133A]' },
                 tr(
-                  'abortionMapModalTitle',
-                  'Saved WHO Global Abortion Legal & Policy Sources Dataset (194 Sovereign Nations & 89 Sub-Regions)'
+                  'abortionMapModalTitlePatient',
+                  'What Patients Need to Know: Global Abortion Care & Law Guide (194 Nations)'
                 )
               ),
               h(
                 'p',
-                { className: 'text-xs font-bold text-black/80' },
+                { className: 'text-xs font-bold text-black/80 mt-0.5' },
                 tr(
-                  'abortionMapModalSubtitle',
-                  'Complete 15-column policy table saved from the WHO Excel database for reference and future clinical work.'
+                  'abortionMapModalSubtitlePatient',
+                  'Green means helpful for abortion rights and safe care (even when the answer is "No" for Criminal Law!). Light Red means restrictive or missing support.'
                 )
               )
             ),
@@ -1451,12 +1600,12 @@ export default function AbortionMapHomePage1({
             )
           ),
 
-          // Filter Controls inside Modal
+          // Filter Controls + Color Legend inside Modal
           h(
             'div',
             {
               className:
-                'px-4 sm:px-6 py-2.5 border-b border-black/20 bg-white flex flex-wrap items-center gap-3'
+                'px-4 sm:px-6 py-2.5 border-b border-black/20 bg-white flex flex-wrap items-center gap-2.5'
             },
             h('input', {
               type: 'text',
@@ -1464,7 +1613,7 @@ export default function AbortionMapHomePage1({
               onChange: (e) => setDatasetFilterCountry(e.target.value),
               placeholder: tr('abortionMapModalSearchPlaceholder', 'Filter by nation or state/province...'),
               className:
-                'w-full sm:w-72 px-3 py-1.5 rounded-xl border-[1.5px] border-black text-xs font-bold text-black'
+                'w-full sm:w-64 px-3 py-1.5 rounded-xl border-[1.5px] border-black text-xs font-bold text-black'
             }),
             h(
               'select',
@@ -1474,7 +1623,7 @@ export default function AbortionMapHomePage1({
                 className:
                   'px-3 py-1.5 rounded-xl border-[1.5px] border-black text-xs font-black text-black bg-white'
               },
-              h('option', { value: 'ALL' }, tr('abortionMapAllWhoRegions', 'All WHO Regions')),
+              h('option', { value: 'ALL' }, tr('abortionMapAllWhoRegions', 'All World Regions')),
               h('option', { value: 'African Region' }, translateWhoRegion('African Region')),
               h('option', { value: 'Region of the Americas' }, translateWhoRegion('Region of the Americas')),
               h('option', { value: 'Eastern Mediterranean Region' }, translateWhoRegion('Eastern Mediterranean Region')),
@@ -1482,14 +1631,30 @@ export default function AbortionMapHomePage1({
               h('option', { value: 'South-East Asia Region' }, translateWhoRegion('South-East Asia Region')),
               h('option', { value: 'Western Pacific Region' }, translateWhoRegion('Western Pacific Region'))
             ),
+            // Simple Green vs Red Legend Pills
             h(
-              'span',
-              { className: 'text-xs font-black text-black/75 ms-auto' },
-              `${filteredDatasetCountries.length} ${tr('abortionMapNationsShownCount', 'nations shown')}`
+              'div',
+              { className: 'flex flex-wrap items-center gap-1.5 ms-auto' },
+              h(
+                'span',
+                {
+                  className:
+                    'px-2.5 py-1 rounded-lg border border-[#15803D] bg-[#DCFCE7] text-[#052E16] text-[11px] font-black'
+                },
+                tr('abortionMapGreenGoodLegend', 'Green = Good for Abortion Access')
+              ),
+              h(
+                'span',
+                {
+                  className:
+                    'px-2.5 py-1 rounded-lg border border-[#B91C1C] bg-[#FEE2E2] text-[#7F1D1D] text-[11px] font-black'
+                },
+                tr('abortionMapRedBadLegend', 'Light Red = Restricts or Missing Support')
+              )
             )
           ),
 
-          // Scrollable 15-Column Table
+          // Scrollable Patient-Friendly 6-Column Table
           h(
             'div',
             { className: 'flex-1 overflow-auto p-3 sm:p-4' },
@@ -1504,22 +1669,27 @@ export default function AbortionMapHomePage1({
                   { className: 'bg-[#FCE7EB] border-b-2 border-black' },
                   h(
                     'th',
-                    { className: 'p-2 border border-black/30 font-black text-black sticky start-0 bg-[#FCE7EB] z-10' },
-                    tr('abortionMapColCountry', 'Country / Sub-Region')
+                    { className: 'p-2.5 border border-black/30 font-black text-black sticky start-0 bg-[#FCE7EB] z-10 min-w-[155px]' },
+                    tr('abortionMapColCountry', 'Country / State')
                   ),
                   h(
                     'th',
-                    { className: 'p-2 border border-black/30 font-black text-black' },
+                    { className: 'p-2.5 border border-black/30 font-black text-black text-center' },
                     tr('abortionMapColLevel', 'Level')
                   ),
-                  ABORTION_LEGAL_COLUMNS.map((col) =>
+                  PATIENT_FRIENDLY_WHO_COLUMNS.map((colDef) =>
                     h(
                       'th',
                       {
-                        key: `th-${col}`,
-                        className: 'p-2 border border-black/30 font-black text-black min-w-[96px]'
+                        key: `th-${colDef.rawCol}`,
+                        className: 'p-2.5 border border-black/30 font-black text-black min-w-[135px]'
                       },
-                      translateLegalColumn(col)
+                      h('div', { className: 'text-xs font-black text-black leading-tight' }, tr(colDef.titleKey, colDef.defaultTitle)),
+                      h(
+                        'div',
+                        { className: 'text-[10px] font-bold text-black/70 leading-tight mt-0.5' },
+                        tr(colDef.subKey, colDef.defaultSub)
+                      )
                     )
                   )
                 )
@@ -1539,34 +1709,41 @@ export default function AbortionMapHomePage1({
                         'td',
                         {
                           className:
-                            'p-2 border border-black/20 font-black text-black sticky start-0 bg-white z-10'
+                            'p-2.5 border border-black/20 font-black text-black sticky start-0 bg-white z-10'
                         },
                         translateCountryName(cObj)
                       ),
                       h(
                         'td',
-                        { className: 'p-2 border border-black/20 text-center font-black' },
+                        { className: 'p-2.5 border border-black/20 text-center font-black' },
                         h(
                           'span',
                           {
                             className:
-                              'inline-block px-2 py-0.5 rounded-full border border-black text-[10.5px] font-black text-black',
+                              'inline-block px-2.5 py-0.5 rounded-full border border-black text-[11px] font-black text-black',
                             style: { backgroundColor: lvlObj.colorHex }
                           },
-                          `L${cObj.level}`
+                          `${tr('abortionMapLevelWord', 'Level')} ${cObj.level}`
                         )
                       ),
-                      ABORTION_LEGAL_COLUMNS.map((col) => {
-                        const val = cObj.flags && cObj.flags[col] === 'Yes';
+                      PATIENT_FRIENDLY_WHO_COLUMNS.map((colDef) => {
+                        const isYes = Boolean(cObj.flags && cObj.flags[colDef.rawCol] === 'Yes');
+                        const isGoodForPatient =
+                          colDef.polarity === 'negative_when_yes' ? !isYes : isYes;
+
                         return h(
                           'td',
                           {
-                            key: `cell-${cObj.name}-${col}`,
-                            className: `p-2 border border-black/20 text-center font-bold ${
-                              val ? 'bg-[#DCFCE7] text-[#052E16]' : 'text-black/50'
+                            key: `cell-${cObj.name}-${colDef.rawCol}`,
+                            className: `p-2.5 border border-black/20 text-center font-black ${
+                              isGoodForPatient
+                                ? 'bg-[#DCFCE7] text-[#052E16]'
+                                : 'bg-[#FEE2E2] text-[#7F1D1D]'
                             }`
                           },
-                          val ? tr('abortionMapYes', 'Yes') : tr('abortionMapNo', 'No')
+                          isYes
+                            ? tr('abortionMapYes', 'Yes')
+                            : tr('abortionMapNo', 'No')
                         );
                       })
                     ),
@@ -1577,32 +1754,39 @@ export default function AbortionMapHomePage1({
                           'tr',
                           {
                             key: `subrow-${cObj.name}-${sr.name}`,
-                            className: 'border-b border-black/10 bg-gray-50/80 text-[11px]'
+                            className: 'border-b border-black/15 bg-gray-50/80 text-[11px]'
                           },
                           h(
                             'td',
                             {
                               className:
-                                'p-1.5 ps-5 border border-black/15 font-bold text-black/85 sticky start-0 bg-gray-50 z-10'
+                                'p-2 ps-5 border border-black/15 font-bold text-black/85 sticky start-0 bg-gray-50 z-10'
                             },
                             `↳ ${sr.name}`
                           ),
                           h(
                             'td',
-                            { className: 'p-1.5 border border-black/15 text-center font-bold text-black/60' },
-                            `L${cObj.level}`
+                            { className: 'p-2 border border-black/15 text-center font-bold text-black/70' },
+                            `${tr('abortionMapLevelWord', 'Level')} ${cObj.level}`
                           ),
-                          ABORTION_LEGAL_COLUMNS.map((col) => {
-                            const val = sr.flags && sr.flags[col] === 'Yes';
+                          PATIENT_FRIENDLY_WHO_COLUMNS.map((colDef) => {
+                            const isYes = Boolean(sr.flags && sr.flags[colDef.rawCol] === 'Yes');
+                            const isGoodForPatient =
+                              colDef.polarity === 'negative_when_yes' ? !isYes : isYes;
+
                             return h(
                               'td',
                               {
-                                key: `subcell-${sr.name}-${col}`,
-                                className: `p-1.5 border border-black/15 text-center font-semibold ${
-                                  val ? 'bg-[#DCFCE7]/70 text-[#052E16]' : 'text-black/40'
+                                key: `subcell-${sr.name}-${colDef.rawCol}`,
+                                className: `p-2 border border-black/15 text-center font-bold ${
+                                  isGoodForPatient
+                                    ? 'bg-[#DCFCE7]/85 text-[#052E16]'
+                                    : 'bg-[#FEE2E2]/85 text-[#7F1D1D]'
                                 }`
                               },
-                              val ? tr('abortionMapYes', 'Yes') : tr('abortionMapNo', 'No')
+                              isYes
+                                ? tr('abortionMapYes', 'Yes')
+                                : tr('abortionMapNo', 'No')
                             );
                           })
                         )

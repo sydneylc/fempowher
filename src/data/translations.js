@@ -1152,7 +1152,7 @@ export const UI_TEXT = {
     fpBtnContraceptionForMe: 'My Birth Control & Contraception Options',
     fpBtnEmergencyContraception: 'Emergency Contraceptions & Options',
     eduBtnAbortions: 'Abortions',
-    abortionBtnOptions: 'What are my options? (Medication Pills vs. In-Clinic Care)',
+    abortionBtnOptions: 'What Are My Options?',
     abortionBtnRecovery: 'I just had an abortion! What is happening to my body?',
     abortionBtnEmergencyCare: 'Emergency Post-Abortion Care & Danger Signs',
     abortionBtnEmotionsFertility: 'Emotional Care, Privacy & My Future Fertility',

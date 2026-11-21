@@ -1,8 +1,8 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=269';
-import { isRtlLanguage } from '../data/translations.js?v=269';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=269';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=269';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=270';
+import { isRtlLanguage } from '../data/translations.js?v=270';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=270';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=270';
 
 const h = React.createElement;
 

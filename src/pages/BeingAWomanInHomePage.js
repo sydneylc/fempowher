@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1'
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=269';
+} from './PregnancyHomePage.js?v=270';
 
 const h = React.createElement;
 
@@ -508,7 +508,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'gender-outlook',
       label: isWorldview ? 'Gender Outlook in Worldview' : 'Gender Outlook',
-      gifSrc: `./assets/bw-${nationOutfitSlug}-outlook.gif?v=269`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-outlook.gif?v=270`,
       imgClassName: isWorldview
         ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
         : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
@@ -527,7 +527,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'traditional-health',
       label: `Female Health in ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-health.gif?v=269`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-health.gif?v=270`,
       imgClassName: isWorldview
         ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
         : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
@@ -546,7 +546,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'role-models',
       label: `Female Role Models from ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-rolemodels.gif?v=269`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-rolemodels.gif?v=270`,
       imgClassName: isWorldview
         ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
         : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
@@ -565,7 +565,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'health-alerts',
       label: `Women’s Health Alerts in ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-alerts.gif?v=269`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-alerts.gif?v=270`,
       imgClassName: isWorldview
         ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
         : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',

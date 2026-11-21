@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=254';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=255';
 import {
   renderClinicInjectionCartoonSvg,
   renderMotherHoldingNewbornSvg,
@@ -7,7 +7,7 @@ import {
   renderPregnantLadyHeadingIcon,
   renderUequalsUArtCartoonSvg,
   renderVaccineShieldCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=254';
+} from './FlyerCartoonIllustrations.js?v=255';
 
 export default function STDsAndPregnancyHomePage1({
   onBack,
@@ -83,7 +83,7 @@ export default function STDsAndPregnancyHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'STDsAndPregnancyHomePage1',
     title: tr('stdMenuBtnPregnancy', 'STDs & Pregnancy'),
-    gifSrc: './assets/sexual-health-stds.gif?v=254',
+    gifSrc: './assets/sexual-health-stds.gif?v=255',
     bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1D4ED8 100%)',
     bgColor: '#2057E0',
     titleTintColor: '#CFE2FF',

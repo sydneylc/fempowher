@@ -2,7 +2,7 @@ import React from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=247';
+} from './PregnancyHomePage.js?v=248';
 
 const h = React.createElement;
 
@@ -27,7 +27,7 @@ export default function TypesOfSTDsHomePage1({
       id: 'std-trichomonas-btn',
       label: tr('eduBtnTrichomonas', 'Trichomonas'),
       targetPage: 'TrichomonasHomePage1',
-      gifSrc: './assets/std-trichomonas.gif?v=247',
+      gifSrc: './assets/std-trichomonas.gif?v=248',
       imgClassName:
         'h-[115%] sm:h-[125%] w-auto max-w-[54vw] sm:max-w-[370px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -48,7 +48,7 @@ export default function TypesOfSTDsHomePage1({
       id: 'std-hpv-btn',
       label: tr('eduBtnHPV', 'HPV'),
       targetPage: 'HPVHomePage1',
-      gifSrc: './assets/std-hpv.gif?v=247',
+      gifSrc: './assets/std-hpv.gif?v=248',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -69,7 +69,7 @@ export default function TypesOfSTDsHomePage1({
       id: 'std-chlamydia-btn',
       label: tr('eduBtnChlamydia', 'Chlamydia'),
       targetPage: 'ChlamydiaHomePage1',
-      gifSrc: './assets/std-chlamydia.gif?v=247',
+      gifSrc: './assets/std-chlamydia.gif?v=248',
       imgClassName:
         'h-[122%] sm:h-[130%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -90,7 +90,7 @@ export default function TypesOfSTDsHomePage1({
       id: 'std-gonorrhea-btn',
       label: tr('eduBtnGonorrhea', 'Gonorrhea'),
       targetPage: 'GonorrheaHomePage1',
-      gifSrc: './assets/std-gonorrhea.gif?v=247',
+      gifSrc: './assets/std-gonorrhea.gif?v=248',
       imgClassName:
         'h-[120%] sm:h-[128%] w-auto max-w-[54vw] sm:max-w-[365px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -111,7 +111,7 @@ export default function TypesOfSTDsHomePage1({
       id: 'std-hepatitis-b-btn',
       label: tr('eduBtnHepatitisB', 'Hepatitis B'),
       targetPage: 'HepatitisBHomePage1',
-      gifSrc: './assets/std-hepatitis-b.gif?v=247',
+      gifSrc: './assets/std-hepatitis-b.gif?v=248',
       imgClassName:
         'h-[126%] sm:h-[134%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -132,7 +132,7 @@ export default function TypesOfSTDsHomePage1({
       id: 'std-genital-herpes-btn',
       label: tr('eduBtnGenitalHerpes', 'Genital Herpes'),
       targetPage: 'GenitalHerpesHomePage1',
-      gifSrc: './assets/std-genital-herpes.gif?v=247',
+      gifSrc: './assets/std-genital-herpes.gif?v=248',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-[54vw] sm:max-w-[365px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -153,7 +153,7 @@ export default function TypesOfSTDsHomePage1({
       id: 'std-hiv-btn',
       label: tr('eduBtnHIV', 'HIV'),
       targetPage: 'HIVHomePage1',
-      gifSrc: './assets/std-hiv.gif?v=247',
+      gifSrc: './assets/std-hiv.gif?v=248',
       imgClassName:
         'h-[124%] sm:h-[132%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
       imgStyle: {
@@ -174,7 +174,7 @@ export default function TypesOfSTDsHomePage1({
       id: 'std-syphilis-btn',
       label: tr('eduBtnSyphilis', 'Syphilis'),
       targetPage: 'SyphilisHomePage1',
-      gifSrc: './assets/std-syphilis.gif?v=247',
+      gifSrc: './assets/std-syphilis.gif?v=248',
       imgClassName:
         'h-[124%] sm:h-[134%] w-auto max-w-[54vw] sm:max-w-[365px] object-contain select-none pointer-events-none',
       imgStyle: {

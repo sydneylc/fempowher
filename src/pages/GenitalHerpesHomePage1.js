@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=264';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=265';
 import {
   renderBurningUrinationCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderSilentInfectionCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=264';
+} from './FlyerCartoonIllustrations.js?v=265';
 
 export default function GenitalHerpesHomePage1({
   onBack,
@@ -78,7 +78,7 @@ export default function GenitalHerpesHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'GenitalHerpesHomePage1',
     title: tr('eduBtnGenitalHerpes', 'Genital Herpes'),
-    gifSrc: './assets/std-genital-herpes.gif?v=264',
+    gifSrc: './assets/std-genital-herpes.gif?v=265',
     // Bright Electric Indigo-Blue background (#4A47F5 -> #2F2CD8)
     bgGradient: 'linear-gradient(180deg, #4E4BF8 0%, #2E2BD4 100%)',
     bgColor: '#3E3BE6',

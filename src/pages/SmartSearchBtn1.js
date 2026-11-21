@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'https://esm.sh/react@18.3.1';
-import { ALL_NATIONS_ON_EARTH } from './DatabasePage1.js?v=264';
-import { isRtlLanguage } from '../data/translations.js?v=264';
+import { ALL_NATIONS_ON_EARTH } from './DatabasePage1.js?v=265';
+import { isRtlLanguage } from '../data/translations.js?v=265';
 
 const h = React.createElement;
 
@@ -732,6 +732,17 @@ export const MY_BODY_HEALTH_3TIER_INDEX = [
     keywords: 'after menopause postmenopause osteoporosis bone calcium heart health postmenopausal bleeding'
   },
 
+  // --- Inside Stigmas in Women's Health ---
+  {
+    id: 'tier2-stigma-abortion',
+    tier: 2,
+    title: 'Abortion Stigma',
+    parentTitle: "Stigmas in Women's Health",
+    page: 'StigmasInWomensHealthHomePage1',
+    subPage: 'stigma-abortion',
+    keywords: 'abortion stigma dangerous myths and methods to avoid herbal teas sharp objects wrong pill doses shame taboo'
+  },
+
   // --- Inside STDs & Reproductive Health Diseases & Injuries ---
   {
     id: 'tier2-std-what-are',
@@ -1227,7 +1238,7 @@ export function SmartSearchBtn1({
       setTranslatedIndexTitles({});
       return;
     }
-    const cacheKey = `fempowher_smartsearch1_i18n_v264_${tlTarget}`;
+    const cacheKey = `fempowher_smartsearch1_i18n_v265_${tlTarget}`;
     try {
       const cached = localStorage.getItem(cacheKey);
       if (cached) {

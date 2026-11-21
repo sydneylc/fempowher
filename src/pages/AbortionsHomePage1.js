@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=257';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=257';
+} from './PregnancyHomePage.js?v=258';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=258';
 
 const h = React.createElement;
 
@@ -213,14 +213,27 @@ export default function AbortionsHomePage1({
     return t[key] || fallback;
   };
 
-  // 5 Full-Width MakingGifButtons1 First-Person Abortions Buttons (Globally Respectful Clinical Language)
+  // 6 Full-Width MakingGifButtons1 First-Person Abortions Buttons (Globally Respectful Clinical Language)
   const abortionButtons = [
     {
-      id: 'abortion-types-and-safety',
-      label: tr('abortionBtnTypesAndSafety', 'Types of Abortion & What Makes Care Safe vs. Unsafe'),
+      id: 'abortion-what-is',
+      label: tr('abortionBtnWhatIs', 'What Is an Abortion?'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC4E0 100%)',
+        background: 'linear-gradient(180deg, #FFF0F7 0%, #FFD4EA 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+      }
+    },
+    {
+      id: 'abortion-safe-and-unsafe',
+      label: tr('abortionBtnSafeAndUnsafe', 'Safe and Unsafe Abortion Care'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #FFD4EA 0%, #FFA8D2 100%)',
         border: 'none'
       },
       textStyle: {
@@ -233,7 +246,7 @@ export default function AbortionsHomePage1({
       label: tr('abortionBtnOptions', 'What Are My Options? (Medication Pills vs. In-Clinic Care)'),
       gifSrc: null,
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFB8D8 0%, #F472B6 100%)',
+        background: 'linear-gradient(180deg, #FFA8D2 0%, #F472B6 100%)',
         border: 'none'
       },
       textStyle: {
@@ -283,12 +296,12 @@ export default function AbortionsHomePage1({
   ];
 
   // ============================================================================
-  // 5 Distinct-Palette IamPregALHomePageStyle Configurations (Global Health Info)
+  // 6 Distinct-Palette IamPregALHomePageStyle Configurations (Global Health Info)
   // ============================================================================
   const subPageConfigs = {
-    'abortion-types-and-safety': {
-      pageId: 'AbortionTypesAndSafetyHomePage1',
-      title: tr('abortionBtnTypesAndSafety', 'Types of Abortion & What Makes Care Safe vs. Unsafe'),
+    'abortion-what-is': {
+      pageId: 'WhatIsAnAbortionHomePage1',
+      title: tr('abortionBtnWhatIs', 'What Is an Abortion?'),
       palette: {
         pageBg: '#FFFAFC',
         headerDark: '#9F133A',
@@ -299,23 +312,94 @@ export default function AbortionsHomePage1({
       },
       sections: [
         {
-          id: 'understanding-medical-types-of-abortion',
-          keyLabel: 'Types of Abortion',
-          heading: 'Understanding What Health Workers Mean by Different Types of Abortion',
+          id: 'what-is-an-abortion-general-rundown',
+          keyLabel: 'General Rundown',
+          heading: 'What Is an Abortion? A General Rundown',
           gifSrc: null,
           cartoonRenderer: () => renderSafeMedicalCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
           paragraphs: [
-            'In everyday language, people usually use the word abortion to mean ending a pregnancy on purpose (called an induced abortion). In medical care around the world, doctors, nurses, and midwives also use the word abortion for several different situations where a pregnancy ends before the fetus can survive on its own outside the womb.',
-            'First, an induced abortion is when a pregnancy is ended intentionally using either safe prescription tablets (medication abortion) or a gentle clinic procedure (procedural abortion). Sometimes an induced abortion is chosen for personal or family reasons, and other times it is recommended by doctors to save a mother’s life or protect her physical health from severe conditions like heart failure, cancer, severe preeclampsia, or a life-threatening infection in the womb.',
-            'Second, clinicians refer to a natural miscarriage as a spontaneous abortion, and they use the term incomplete abortion when some pregnancy tissue stays inside the womb after a miscarriage or an abortion and needs gentle medical treatment (called Post-Abortion Care) so the mother does not bleed heavily or get an infection. Globally, induced abortion is very common: about 73 million induced abortions take place around the world every year, which is nearly 3 out of every 10 pregnancies.'
+            'In medicine and healthcare around the world, an abortion is the ending of a pregnancy before the fetus can survive on its own outside the womb. In everyday conversation, most people use the word "abortion" to mean choosing to end a pregnancy with medicine tablets or a clinic procedure, while doctors, midwives, and hospital charts also use the word "abortion" for natural miscarriages and emergency pregnancy care.',
+            'Understanding the different medical words and types of abortion helps remove confusion or fear if you ever see these terms written on a hospital discharge paper, an ultrasound report, or a clinic chart. Around the world, ending a pregnancy is a very common part of reproductive healthcare: about 73 million induced abortions take place globally each year (nearly 3 out of every 10 pregnancies), alongside millions of natural miscarriages.',
+            'Below are the main types of abortion and the different medical and everyday terms used to describe them:'
           ]
         },
+        {
+          id: 'type-spontaneous-abortion',
+          keyLabel: 'Spontaneous Abortion (Miscarriage)',
+          heading: 'Spontaneous Abortion (Natural Miscarriage)',
+          gifSrc: null,
+          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          paragraphs: [
+            '• Spontaneous Abortion (Natural Miscarriage)',
+            '• Threatened Abortion  • Inevitable Abortion  • Incomplete Abortion  • Complete Abortion  • Missed Abortion (Silent Miscarriage)  • Septic Abortion  • Recurrent Spontaneous Abortion'
+          ]
+        },
+        {
+          id: 'type-induced-and-elective-abortion',
+          keyLabel: 'Induced / Elective Abortion',
+          heading: 'Induced Abortion (Elective or Voluntary Abortion)',
+          gifSrc: null,
+          cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          paragraphs: [
+            '• Induced Abortion',
+            '• Elective Abortion (Voluntary Abortion)'
+          ]
+        },
+        {
+          id: 'type-therapeutic-medically-indicated-abortion',
+          keyLabel: 'Therapeutic (Medically Indicated)',
+          heading: 'Therapeutic Abortion (Medically Indicated or Life-Saving Abortion)',
+          gifSrc: null,
+          cartoonRenderer: () => renderEmergencyCrossShieldCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          paragraphs: [
+            '• Therapeutic Abortion (Medically Indicated Abortion)',
+            '• Maternal Life-Saving or Health-Preserving Termination of Pregnancy'
+          ]
+        },
+        {
+          id: 'type-medication-vs-procedural-abortion',
+          keyLabel: 'Medication vs. Procedural Types',
+          heading: 'Medication Abortion (Medical) vs. Procedural Abortion (Surgical / In-Clinic)',
+          gifSrc: null,
+          cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          paragraphs: [
+            '• Medication Abortion (Medical Abortion with Pills: Mifepristone & Misoprostol or Misoprostol-Only)',
+            '• Procedural / Surgical Abortion: Vacuum Aspiration (Manual Vacuum Aspiration / MVA or Electric Vacuum Aspiration / EVA), Dilation and Evacuation (D&E), and Medical Induction of Labor'
+          ]
+        }
+      ],
+      bottomSubPages: [
+        {
+          pageId: 'AbortionMedicalTermsGlossaryHomePage1',
+          title: 'Hospital & Ultrasound Terms Explained Simply',
+          subtitle: 'What words like spontaneous, incomplete, missed, or induced abortion mean on medical records'
+        },
+        {
+          pageId: 'AbortionSafeVsUnsafeLinkHomePage1',
+          title: 'Safe and Unsafe Abortion Care',
+          subtitle: 'How global health guidelines protect women’s lives and health'
+        }
+      ]
+    },
+
+    'abortion-safe-and-unsafe': {
+      pageId: 'AbortionSafeAndUnsafeHomePage1',
+      title: tr('abortionBtnSafeAndUnsafe', 'Safe and Unsafe Abortion Care'),
+      palette: {
+        pageBg: '#FFFDF9',
+        headerDark: '#9A3412',
+        accentMedium: '#EA580C',
+        tintLight: '#FFEDD5',
+        inkColor: '#431407',
+        timelineLine: '#FDBA74'
+      },
+      sections: [
         {
           id: 'what-makes-an-abortion-safe',
           keyLabel: 'What Makes Care Safe',
           heading: 'What Makes an Abortion Medically Safe',
           gifSrc: null,
-          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          cartoonRenderer: () => renderSafeMedicalCareCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
             'When an abortion is carried out using a modern, evidence-based medical method that matches how many weeks pregnant a woman is, and when the woman has accurate information and support from a trained health worker, abortion is one of the simplest and safest procedures in healthcare.',
             'Serious complications from a properly performed early medication abortion or vacuum aspiration procedure are extremely rare. A wide range of trained health professionals can safely provide early abortion care and guidance, including doctors, midwives, nurses, nurse-midwives, and trained clinicians or pharmacists.',
@@ -327,7 +411,7 @@ export default function AbortionsHomePage1({
           keyLabel: 'Safe vs. Unsafe Methods',
           heading: 'Why Unsafe Methods Are So Dangerous to a Woman’s Life',
           gifSrc: null,
-          cartoonRenderer: () => renderEmergencyCrossShieldCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          cartoonRenderer: () => renderEmergencyCrossShieldCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
             'Around the world, nearly half (about 45%) of all abortions happen in unsafe conditions. Global health experts group unsafe abortions into two levels of risk: "less safe" and "least safe." An abortion becomes "less safe" when someone uses real medication tablets without accurate instructions on the right dose for their stage of pregnancy or without access to medical support if they need help.',
             'An abortion is "least safe" and life-threatening when an untrained person uses dangerous methods. Dangerous methods include putting sharp objects, sticks, wires, roots, or herbal pastes inside the vagina or cervix, drinking toxic chemicals, bleach, detergent, or strong herbal brews, taking high doses of the wrong medicines, or pushing and hitting the belly with force.',
@@ -335,11 +419,23 @@ export default function AbortionsHomePage1({
           ]
         },
         {
+          id: 'why-restrictions-increase-unsafe-care',
+          keyLabel: 'Global Safety & Access',
+          heading: 'Why Accurate Information and Comprehensive Care Save Lives',
+          gifSrc: null,
+          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
+          paragraphs: [
+            'Global public health data shows that barriers like high costs, lack of accurate health education, social stigma, and lack of trained midwives or clinics do not stop women from needing abortions, but instead push women toward dangerous, unsafe methods.',
+            'Unsafe abortions are one of the leading but completely preventable causes of maternal deaths and emergency hospital admissions worldwide. Almost every death and severe injury from unsafe abortion can be prevented through accurate reproductive health education, access to modern family planning, safe evidence-based abortion care, and prompt emergency Post-Abortion Care.',
+            'Comprehensive care means treating every woman with dignity, protecting her privacy, and ensuring she has accurate medical facts to protect her body.'
+          ]
+        },
+        {
           id: 'ultrasound-and-early-checks',
           keyLabel: 'Estimating Pregnancy Weeks',
           heading: 'How Health Workers Check How Far Along a Pregnancy Is',
           gifSrc: null,
-          cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
             'Before choosing a method, it is important to estimate how many weeks pregnant you are. Pregnancy weeks are counted starting from the first day of your last normal menstrual period (LMP), not from the day you had sex.',
             'According to international medical guidance, an ultrasound scan is not routinely required before having an early abortion. A trained midwife, nurse, or doctor can usually check how far along the pregnancy is by asking about the first day of your last period, checking your pregnancy symptoms, and doing a gentle physical exam of the belly and pelvis.',
@@ -351,7 +447,7 @@ export default function AbortionsHomePage1({
           keyLabel: 'Early Home & Clinic Care',
           heading: 'Early Care Within the First 12 Weeks of Pregnancy',
           gifSrc: null,
-          cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
             'During the first 12 weeks of pregnancy (the first trimester), global medical guidelines recognize that medication abortion using quality mifepristone and misoprostol tablets can take place safely at home or outside a hospital, as long as the woman has accurate instructions, quality medicine, and a way to reach a clinic or hospital if a complication occurs.',
             'Passing an early pregnancy at home with medication tablets feels very much like having a heavy, crampy menstrual period or a natural early miscarriage. Most women prefer to have a trusted partner, relative, or friend nearby, clean sanitary pads, clean drinking water, and ibuprofen tablets for cramps.',

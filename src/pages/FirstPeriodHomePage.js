@@ -1,6 +1,6 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=260';
-import { isRtlLanguage } from '../data/translations.js?v=260';
+import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=261';
+import { isRtlLanguage } from '../data/translations.js?v=261';
 
 const h = React.createElement;
 

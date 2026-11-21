@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=260';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=260';
+} from './PregnancyHomePage.js?v=261';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=261';
 
 const h = React.createElement;
 
@@ -296,7 +296,7 @@ export default function AbortionsHomePage1({
   ];
 
   // ============================================================================
-  // 6 Distinct-Palette IamPregALHomePageStyle Configurations (Global Health Info)
+  // 6 Distinct-Palette IamPregALHomePageStyle Configurations (WHO Abortion Care Guideline)
   // ============================================================================
   const subPageConfigs = {
     'abortion-what-is': {
@@ -318,33 +318,33 @@ export default function AbortionsHomePage1({
           gifSrc: null,
           cartoonRenderer: () => renderSafeMedicalCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
           paragraphs: [
-            'An abortion is a medical process or procedure that ends a pregnancy by emptying the embryo or fetus and pregnancy lining from the womb (uterus) so that the pregnancy does not result in a birth.',
-            'Ending a pregnancy is a very common part of women’s healthcare around the world. Every year, about 73 million induced abortions take place globally. About 6 out of every 10 unintended pregnancies (61%), and nearly 3 out of every 10 of all pregnancies worldwide (29%), end in an induced abortion.',
-            'Comprehensive abortion care is an essential healthcare service that includes three parts: giving accurate medical information, safely ending a pregnancy or managing a pregnancy loss, and providing post-abortion care and family planning.'
+            'An abortion is a medical process or procedure that ends a pregnancy by emptying the embryo or fetus, placenta, and pregnancy lining from the womb (uterus) so that the pregnancy does not result in a birth.',
+            'Every year, about 73 million induced abortions take place around the world. About 6 out of every 10 unintended pregnancies (61%), and nearly 3 out of every 10 of all pregnancies worldwide (29%), end in an induced abortion.',
+            'Comprehensive abortion care is an essential healthcare service that includes three parts: accurate medical information, safe medical or procedural care to end a pregnancy or treat a pregnancy loss at any stage, and post-abortion care and contraception.'
           ]
         },
         {
           id: 'how-an-abortion-works',
-          keyLabel: 'How the Procedure Works',
-          heading: 'How an Abortion Works in Your Body',
+          keyLabel: 'How the Procedures Work',
+          heading: 'How Medication and Procedural Abortions Work in Your Body',
           gifSrc: null,
           cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
           paragraphs: [
-            'There are two safe medical ways an abortion empties the womb: using prescription medication tablets or having a short procedure in a clinic or hospital.',
-            'In a medication abortion, you take two prescription medicines (mifepristone followed 24 to 48 hours later by misoprostol, or misoprostol alone if mifepristone is not available). Mifepristone blocks the hormone progesterone that holds the pregnancy lining inside the womb. Misoprostol softens the cervix and causes the womb muscle to cramp and push out the pregnancy tissue and blood through the vagina, just like a heavy period or natural miscarriage.',
-            'In a procedural (in-clinic) abortion, a trained doctor, midwife, or nurse numbs the cervix with local numbing medicine and gently empties the womb inside a clinic. In early pregnancy, this is done with vacuum aspiration, where a thin, soft plastic tube uses gentle suction to clear the womb in 5 to 10 minutes.'
+            'An abortion empties the womb in one of two ways: with prescription medication tablets or with an in-clinic procedure. The exact method depends on how many weeks pregnant you are, counted from the first day of your last menstrual period.',
+            'In a medication abortion, two medicines (mifepristone followed 24 to 48 hours later by misoprostol, or repeated doses of misoprostol alone) are used. Mifepristone blocks the hormone progesterone that holds the pregnancy lining inside the womb. Misoprostol softens and opens the cervix and causes the womb muscle to cramp and push out the pregnancy tissue through the vagina. Under 12 weeks, this requires one or two doses of misoprostol; at or over 12 weeks, smaller repeated doses of misoprostol are given every 3 hours inside a clinic or hospital until the womb delivers the fetus and placenta.',
+            'In a procedural (in-clinic) abortion up to 12 to 14 weeks, a trained midwife, nurse, or doctor numbs the cervix and performs vacuum aspiration by passing a thin, flexible plastic tube called a Karman cannula through the cervix to empty the womb with gentle suction from a hand-held syringe (Manual Vacuum Aspiration / MVA) or electric pump (EVA) in 5 to 10 minutes. Some hospitals still perform Dilation and Curettage (D&C), where the cervix is opened and a metal spoon-shaped instrument called a curette scrapes the womb wall, though modern global health guidelines recommend vacuum aspiration with a soft Karman cannula instead of sharp D&C. After 12 to 14 weeks, the in-clinic procedure is called Dilation and Evacuation (D&E), where the cervix is softened and opened ahead of time and the clinician uses suction and smooth forceps to empty the womb.'
           ]
         },
         {
           id: 'when-an-abortion-can-happen',
           keyLabel: 'When It Can Happen',
-          heading: 'When in Pregnancy an Abortion Can Happen',
+          heading: 'When in Pregnancy an Abortion Can Happen (Under 12 Weeks and Over 12 Weeks)',
           gifSrc: null,
           cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
           paragraphs: [
-            'Pregnancy weeks are counted from the first day of your last normal menstrual period. Most abortions happen during the first 12 weeks of pregnancy (the first trimester). During the first 12 weeks, a woman can safely use medication tablets (including taking the tablets at home when she has quality medicine, clear instructions, and access to medical support if needed) or have a 5-to-10-minute vacuum aspiration procedure at a clinic.',
-            'An abortion can also be performed after 12 to 14 weeks of pregnancy (in the second trimester or later) inside a clinic or hospital. Later abortions happen when a woman discovers her pregnancy late, faces barriers or delays reaching a clinic, learns that the fetus has a severe or fatal medical condition, or develops a life-threatening health condition during pregnancy such as severe preeclampsia, heart failure, cancer, or a womb infection.',
-            'After 12 to 14 weeks, clinicians either give repeated doses of medicine inside a health facility so the womb contracts and delivers, or perform a clinical procedure called Dilation and Evacuation (D&E) after gently softening and opening the cervix.'
+            'Abortions take place both in the first 12 weeks of pregnancy and after 12 weeks of pregnancy. How far along you are determines which pill dose or clinic procedure is safest for your body.',
+            'During the first 12 to 14 weeks of pregnancy, the pregnancy tissue is small. You can use early medication tablets (at home or through a clinic up to 12 weeks) or have a 5-to-10-minute vacuum aspiration with a Karman cannula in a clinic up to 12 to 14 weeks.',
+            'At or after 12 to 14 weeks of pregnancy (in the second trimester or later), abortions are performed inside a clinic or hospital. Women need care after 12 weeks for many reasons: irregular periods that hid the pregnancy early on, delays or travel barriers reaching a clinic, changes in life or safety circumstances, learning on a second-trimester scan that the fetus has a severe anomaly, or developing a life-threatening maternal health emergency like severe preeclampsia, heart failure, cancer, or ruptured membranes with infection. At or over 12 to 14 weeks, safe care is done either by Dilation and Evacuation (D&E) or by supervised medical induction in a clinic bed.'
           ]
         },
         {
@@ -355,8 +355,8 @@ export default function AbortionsHomePage1({
           cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
           paragraphs: [
             'When an abortion is done using a modern medical method matched to how many weeks pregnant a woman is and supported by a trained health worker, it is one of the safest procedures in medicine. However, in many parts of the world, abortion is heavily stigmatized, shamed, or restricted.',
-            'Stigma, social judgment, high costs, and legal or clinic barriers do not reduce the number of women who need abortions. Instead, stigma and barriers force women to hide their need for care, delay treatment until later in pregnancy, or turn to dangerous, unsafe methods.',
-            'Because of these barriers, about 45% of all abortions worldwide are unsafe, making unsafe abortion one of the leading but completely preventable causes of maternal death and injury. Every woman deserves plain, accurate medical facts and respectful, non-judgmental care.'
+            'Stigma, social judgment, high costs, mandatory waiting periods, and legal or clinic barriers do not reduce the number of women who need abortions. Instead, those barriers delay women past 12 weeks or force women to turn to dangerous, unsafe methods.',
+            'Because of these barriers, about 45% of all abortions worldwide are unsafe, making unsafe abortion one of the leading but completely preventable causes of maternal death and injury. Every woman deserves plain, accurate medical facts and respectful care at every stage of pregnancy.'
           ]
         },
         {
@@ -368,7 +368,8 @@ export default function AbortionsHomePage1({
           paragraphs: [
             '• Induced Abortion (Elective or Voluntary Abortion)',
             '• Therapeutic Abortion (Medically Indicated or Life-Saving Abortion)',
-            '• Medication Abortion (Medical Abortion With Pills) vs. Procedural / Surgical Abortion (Vacuum Aspiration, Dilation and Evacuation / D&E, or Medical Induction)',
+            '• Medication Abortion (Medical Abortion With Mifepristone & Misoprostol or Misoprostol-Only: Under 12 Weeks vs. Medical Induction At or Over 12 Weeks)',
+            '• Procedural / Surgical Abortion: Vacuum Aspiration With a Karman Cannula (MVA / EVA up to 12 to 14 Weeks), Dilation and Evacuation (D&E at or over 12 to 14 Weeks), and Dilation and Curettage (D&C)',
             '• Spontaneous Abortion (Natural Miscarriage: Threatened, Inevitable, Incomplete, Complete, Missed, Septic, or Recurrent Spontaneous Abortion)'
           ]
         }
@@ -377,12 +378,12 @@ export default function AbortionsHomePage1({
         {
           pageId: 'AbortionTypesDetailedGuideHomePage1',
           title: 'Types of Abortions',
-          subtitle: 'Induced, therapeutic, medication, procedural, and spontaneous abortion types'
+          subtitle: 'Induced, therapeutic, medication, Karman vacuum aspiration, D&E, D&C, and spontaneous types'
         },
         {
           pageId: 'AbortionSafeVsUnsafeLinkHomePage1',
           title: 'Safe and Unsafe Abortion Care',
-          subtitle: 'What makes abortion care medically safe and what dangerous methods to avoid'
+          subtitle: 'What makes abortion care medically safe under 12 weeks and over 12 weeks'
         }
       ]
     },
@@ -402,74 +403,74 @@ export default function AbortionsHomePage1({
         {
           id: 'what-makes-an-abortion-safe',
           keyLabel: 'What Makes Care Safe',
-          heading: 'What Makes an Abortion Medically Safe',
+          heading: 'What Makes an Abortion Medically Safe at Any Week of Pregnancy',
           gifSrc: null,
           cartoonRenderer: () => renderSafeMedicalCareCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'When an abortion is carried out using a modern, evidence-based medical method that matches how many weeks pregnant a woman is, and when the woman has accurate information and support from a trained health worker, abortion is one of the simplest and safest procedures in healthcare.',
-            'Serious complications from a properly performed early medication abortion or vacuum aspiration procedure are extremely rare. A wide range of trained health professionals can safely provide early abortion care and guidance, including doctors, midwives, nurses, nurse-midwives, and trained clinicians or pharmacists.',
-            'Having clear, honest medical information before you begin, knowing what normal bleeding and cramping feel like, and knowing where your nearest emergency clinic or hospital is located on your FemPowHer map are key parts of staying safe.'
+            'An abortion is medically safe when two conditions are met: first, it uses an evidence-based medical method that matches how many weeks pregnant you are; and second, it is supported or performed by someone with the necessary medical training and accurate information.',
+            'Up to 12 to 14 weeks of pregnancy, the safe recommended methods are medication tablets (mifepristone plus misoprostol, or misoprostol alone) or vacuum aspiration using a sterile plastic Karman cannula (Manual Vacuum Aspiration / MVA or Electric Vacuum Aspiration / EVA). At or over 12 to 14 weeks of pregnancy, the safe recommended methods are Dilation and Evacuation (D&E) or supervised medical abortion (repeated small doses of misoprostol after mifepristone) inside a clinic or hospital.',
+            'When the method matches your pregnancy weeks and clean medical standards are followed, serious complications are rare at any stage of pregnancy.'
           ]
         },
         {
           id: 'what-makes-an-abortion-unsafe',
           keyLabel: 'Safe vs. Unsafe Methods',
-          heading: 'Why Unsafe Methods Are So Dangerous to a Woman’s Life',
+          heading: 'Why Unsafe Methods ("Less Safe" and "Least Safe") Are Dangerous',
           gifSrc: null,
           cartoonRenderer: () => renderEmergencyCrossShieldCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'Around the world, nearly half (about 45%) of all abortions happen in unsafe conditions. Global health experts group unsafe abortions into two levels of risk: "less safe" and "least safe." An abortion becomes "less safe" when someone uses real medication tablets without accurate instructions on the right dose for their stage of pregnancy or without access to medical support if they need help.',
-            'An abortion is "least safe" and life-threatening when an untrained person uses dangerous methods. Dangerous methods include putting sharp objects, sticks, wires, roots, or herbal pastes inside the vagina or cervix, drinking toxic chemicals, bleach, detergent, or strong herbal brews, taking high doses of the wrong medicines, or pushing and hitting the belly with force.',
-            'These dangerous methods often fail to end the pregnancy and can cause deadly blood loss (hemorrhage), severe blood infection (sepsis), poisoning, or a tear in the wall of the womb or bowel. Please never put any sharp object, herb, or chemical inside your body.'
+            'Around the world, about 45% of all abortions happen in unsafe conditions. Global health guidelines divide unsafe abortions into "less safe" and "least safe." An abortion is "less safe" when an outdated surgical scraping method like sharp metal curettage (sharp D&C) is used without modern vacuum aspiration, or when someone takes abortion pills without the right dose instructions for their pregnancy weeks (for example, taking an early-pregnancy pill dose at home when they are actually more than 12 to 14 weeks pregnant and need clinical monitoring).',
+            'An abortion is "least safe" and life-threatening when an untrained person uses dangerous methods. Dangerous methods include putting sharp sticks, wires, knitting needles, catheters, roots, or herbal pastes inside the vagina or cervix, drinking toxic chemicals, bleach, detergent, or strong herbal brews, taking high doses of the wrong medicines (like chloroquine or painkillers), or pushing and hitting the belly with force.',
+            'These dangerous methods often fail to end the pregnancy and can cause deadly blood loss (hemorrhage), severe blood infection (sepsis), poisoning, or a tear (perforation) in the wall of the womb or bowel. Never put any sharp object, herb, or chemical inside your body.'
           ]
         },
         {
-          id: 'why-restrictions-increase-unsafe-care',
-          keyLabel: 'Global Safety & Access',
-          heading: 'Why Accurate Information and Comprehensive Care Save Lives',
+          id: 'safety-under-twelve-vs-over-twelve-weeks',
+          keyLabel: 'Under 12 Weeks vs. Over 12 Weeks',
+          heading: 'How Safety Needs Change After 12 to 14 Weeks of Pregnancy',
           gifSrc: null,
-          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
+          cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'Global public health data shows that barriers like high costs, lack of accurate health education, social stigma, and lack of trained midwives or clinics do not stop women from needing abortions, but instead push women toward dangerous, unsafe methods.',
-            'Unsafe abortions are one of the leading but completely preventable causes of maternal deaths and emergency hospital admissions worldwide. Almost every death and severe injury from unsafe abortion can be prevented through accurate reproductive health education, access to modern family planning, safe evidence-based abortion care, and prompt emergency Post-Abortion Care.',
-            'Comprehensive care means treating every woman with dignity, protecting her privacy, and ensuring she has accurate medical facts to protect her body.'
+            'During the first 12 weeks of pregnancy, the embryo and placenta are very small, so medication abortion tablets can be safely taken at home or outside a clinic when a woman has quality pills, clear instructions, and a way to reach a hospital if needed.',
+            'Once a pregnancy is past 12 to 14 weeks, the fetus and placenta are larger and the womb has a much richer blood supply. Because of this, safe abortion after 12 weeks takes place inside a clinic or hospital where trained clinicians prepare the cervix gently, use the right second-trimester medicine doses (which are actually smaller, repeated doses of misoprostol every 3 hours so the larger womb does not contract too violently), or perform a Dilation and Evacuation (D&E) procedure.',
+            'In a later-pregnancy medication abortion inside a clinic, a nurse or midwife also watches closely to make sure both the fetus and the entire placenta pass completely so heavy bleeding does not occur.'
           ]
         },
         {
           id: 'ultrasound-and-early-checks',
-          keyLabel: 'Estimating Pregnancy Weeks',
+          keyLabel: 'Checking Pregnancy Weeks',
           heading: 'How Health Workers Check How Far Along a Pregnancy Is',
           gifSrc: null,
           cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'Before choosing a method, it is important to estimate how many weeks pregnant you are. Pregnancy weeks are counted starting from the first day of your last normal menstrual period (LMP), not from the day you had sex.',
-            'According to international medical guidance, an ultrasound scan is not routinely required before having an early abortion. A trained midwife, nurse, or doctor can usually check how far along the pregnancy is by asking about the first day of your last period, checking your pregnancy symptoms, and doing a gentle physical exam of the belly and pelvis.',
-            'An ultrasound is helpful when a woman does not remember when her last period was, when her periods are very irregular, or when she has sharp one-sided belly pain that could be a sign of an ectopic pregnancy growing in a Fallopian tube outside the womb.'
+            'Knowing whether you are under 12 weeks or over 12 to 14 weeks pregnant is the first step in choosing the right method. Pregnancy weeks are counted starting from the first day of your last normal menstrual period (LMP), not from the day you had sex.',
+            'According to international medical guidance, an ultrasound scan is not routinely required before having an abortion. A trained midwife, nurse, or doctor can check how far along the pregnancy is by asking about the first day of your last period and feeling the size of your womb during a gentle pelvic and belly exam (at 12 weeks, the top of the womb begins to rise just above the pubic bone).',
+            'An ultrasound is used when a woman is unsure of her last period, when the womb feels larger than 12 to 14 weeks, or when she has sharp one-sided belly pain that could point to an ectopic pregnancy in a Fallopian tube.'
           ]
         },
         {
-          id: 'early-self-management-and-support',
-          keyLabel: 'Early Home & Clinic Care',
-          heading: 'Early Care Within the First 12 Weeks of Pregnancy',
+          id: 'why-restrictions-increase-unsafe-care',
+          keyLabel: 'Who Provides Safe Care',
+          heading: 'Who Can Safely Provide Abortion Care Around the World',
           gifSrc: null,
-          cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
+          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'During the first 12 weeks of pregnancy (the first trimester), global medical guidelines recognize that medication abortion using quality mifepristone and misoprostol tablets can take place safely at home or outside a hospital, as long as the woman has accurate instructions, quality medicine, and a way to reach a clinic or hospital if a complication occurs.',
-            'Passing an early pregnancy at home with medication tablets feels very much like having a heavy, crampy menstrual period or a natural early miscarriage. Most women prefer to have a trusted partner, relative, or friend nearby, clean sanitary pads, clean drinking water, and ibuprofen tablets for cramps.',
-            'Whether care takes place at home or inside a clinic, every woman deserves to be treated with dignity, privacy, and medical respect.'
+            'Safe abortion care does not only come from specialist hospital surgeons. Global clinical guidelines confirm that trained midwives, nurses, nurse-midwives, family doctors, and associate clinicians can safely provide medication abortions and vacuum aspiration procedures with a Karman cannula up to 12 to 14 weeks.',
+            'For pregnancies over 12 to 14 weeks, trained doctors, specialist clinicians, and midwifery teams inside clinics and hospitals provide supervised medical induction or Dilation and Evacuation (D&E), as well as emergency Post-Abortion Care for any complication.',
+            'Whether you are 6 weeks pregnant or 18 weeks pregnant, you deserve skilled, hygienic medical care and respectful treatment.'
           ]
         }
       ],
       bottomSubPages: [
         {
           pageId: 'AbortionWeeksCalculatorGuideHomePage1',
-          title: 'How to Count Pregnancy Weeks From Your Last Period',
-          subtitle: 'Simple steps to estimate gestational age using your menstrual cycle calendar'
+          title: 'How to Count Pregnancy Weeks (Under 12 Weeks vs. Over 12 Weeks)',
+          subtitle: 'How clinicians estimate pregnancy weeks from your last period and womb size'
         },
         {
           pageId: 'AbortionUnsafeMythsWarningHomePage1',
           title: 'Dangerous Myths and Methods to Avoid',
-          subtitle: 'Why herbal teas, sharp objects, and unverified pills can harm your body'
+          subtitle: 'Why herbal teas, sharp objects, and wrong pill doses can harm your body'
         }
       ]
     },
@@ -488,75 +489,75 @@ export default function AbortionsHomePage1({
       sections: [
         {
           id: 'medication-abortion-tablets',
-          keyLabel: 'Medication Tablets',
-          heading: 'Medication Abortion With Mifepristone and Misoprostol Tablets',
+          keyLabel: 'Medication Pills (<12w & ≥12w)',
+          heading: 'Medication Abortion With Mifepristone and Misoprostol (Under 12 Weeks and Over 12 Weeks)',
           gifSrc: null,
           cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
           paragraphs: [
-            'A medication abortion uses safe prescription tablets to end a pregnancy without surgery or instruments entering the womb. The most effective method uses two medicines together: mifepristone followed 24 to 48 hours later by misoprostol. In places where mifepristone is not available, a misoprostol-only schedule is also an effective, evidence-based option.',
-            'First, mifepristone is swallowed with water. It gently blocks the hormone progesterone, which the womb lining needs to hold the pregnancy. Most women feel no strong symptoms after the first pill. Next, 24 to 48 hours later, misoprostol tablets are held under the tongue, inside the cheek, or placed as directed until they dissolve. Misoprostol causes the cervix to soften and the womb to cramp and empty, usually starting within 1 to 4 hours.',
-            'When used in the first 10 to 12 weeks of pregnancy, the two-pill combination of mifepristone and misoprostol is about 95% to 98% effective at emptying the womb completely without needing an in-clinic procedure.'
+            'A medication abortion uses prescription tablets to empty the womb without surgical instruments. The most effective method combines mifepristone (200 mg swallowed with water to block the hormone progesterone) followed 24 to 48 hours later by misoprostol (which softens the cervix and makes the womb contract). Where mifepristone is unavailable, a misoprostol-only regimen is also recommended.',
+            'If you are under 12 weeks pregnant: 24 to 48 hours after swallowing mifepristone, you take a single dose of 4 misoprostol tablets (800 micrograms total) held under the tongue, inside the cheek, or placed vaginally for 30 minutes. Cramping and bleeding usually start within 1 to 4 hours and empty the womb in 4 to 6 hours (at 10 to 12 weeks, a second dose of misoprostol is sometimes taken 3 to 4 hours later if needed). If using misoprostol alone under 12 weeks, 4 tablets (800 micrograms) are taken every 3 hours until the pregnancy passes.',
+            'If you are 12 weeks pregnant or more: medication abortion is still a safe, effective option, but the dosing is different and takes place in a clinic or hospital. After taking mifepristone 24 to 48 hours earlier, smaller doses of misoprostol (400 micrograms, which is 2 tablets) are given every 3 hours under medical supervision until the womb contracts in a mini-labor and delivers both the fetus and the placenta.'
           ]
         },
         {
           id: 'in-clinic-vacuum-aspiration',
-          keyLabel: 'In-Clinic Vacuum Aspiration',
-          heading: 'In-Clinic Vacuum Aspiration in the First 12 to 14 Weeks',
+          keyLabel: 'Karman Vacuum Aspiration & D&C',
+          heading: 'Vacuum Aspiration With a Karman Cannula (Up to 12 to 14 Weeks) vs. D&C',
           gifSrc: null,
           cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
           paragraphs: [
-            'An in-clinic vacuum aspiration (using either a quiet hand-held syringe called Manual Vacuum Aspiration or a gentle electric pump) is the recommended clinical procedure for an abortion in the first 12 to 14 weeks of pregnancy. It is also the exact same gentle procedure used to treat an incomplete miscarriage.',
-            'During vacuum aspiration, a trained doctor, midwife, or nurse numbs the cervix with local numbing medicine and gently passes a thin, soft plastic tube through the natural opening of the cervix to empty the womb with gentle suction. The procedure itself usually takes only 5 to 10 minutes, and most women go home after resting in the clinic for an hour.',
-            'Global medical guidelines strongly recommend vacuum aspiration or medication tablets instead of an older surgical method called sharp dilation and curettage (sharp D&C, which scrapes the womb walls with a metal tool), because vacuum aspiration is gentler, safer, and causes less bleeding.'
+            'Up to 12 to 14 weeks of pregnancy, the recommended in-clinic procedure is vacuum aspiration. After numbing the cervix with local anesthetic, the clinician gently passes a thin, smooth, flexible plastic tube called a Karman cannula through the cervix into the womb. The Karman cannula is attached either to a quiet hand-held vacuum syringe (Manual Vacuum Aspiration / MVA) or a gentle electric suction pump (Electric Vacuum Aspiration / EVA). Gentle suction empties the womb in 5 to 10 minutes with over 98% to 99% effectiveness.',
+            'If you are between 12 and 14 weeks pregnant, the clinician often gives misoprostol tablets 2 to 3 hours before the vacuum aspiration (called cervical priming) to soften the cervix so a slightly wider Karman cannula can pass easily and safely without straining the cervix.',
+            'You may also hear doctors or hospitals use the term D&C (Dilation and Curettage). In a traditional sharp D&C, the cervix is dilated with metal rods and a spoon-shaped metal loop called a sharp curette is used to scrape the inside walls of the womb. Many hospitals still say "D&C" out of habit when they actually perform gentle suction, but global medical guidelines recommend vacuum aspiration with a plastic Karman cannula instead of sharp metal scraping because Karman vacuum aspiration is faster, less painful, and has a lower risk of bleeding or scarring.'
           ]
         },
         {
           id: 'care-after-twelve-to-fourteen-weeks',
-          keyLabel: 'Later Pregnancy Care',
-          heading: 'How Medical and In-Clinic Care Work After 12 to 14 Weeks',
+          keyLabel: 'D&E (Over 12 to 14 Weeks)',
+          heading: 'Dilation and Evacuation (D&E) When You Are More Than 12 to 14 Weeks Pregnant',
           gifSrc: null,
           cartoonRenderer: () => renderSafeMedicalCareCartoonSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
           paragraphs: [
-            'Most abortions happen in the first 12 weeks of pregnancy, when care is simplest. Sometimes, however, a woman needs an abortion after 12 to 14 weeks because she learned she was pregnant late, faced delays getting to a clinic, developed a serious medical illness during pregnancy, or learned that the fetus has a severe medical condition.',
-            'After 12 to 14 weeks, safe care takes place inside a medical facility with trained clinicians. There are two main evidence-based methods: medical induction (where mifepristone and repeated doses of misoprostol are given under a midwife or doctor’s care until the womb contracts and delivers) and Dilation and Evacuation (D&E, where the cervix is gently softened and prepared ahead of time and a skilled clinician empties the womb using suction and medical instruments).',
-            'Because the womb is larger later in pregnancy, having skilled clinical care inside a health facility ensures you receive strong pain relief and close monitoring for bleeding.'
+            'When a pregnancy is past 12 to 14 weeks (in the second trimester), the recommended procedural method is Dilation and Evacuation (D&E). D&E is performed inside a clinic or hospital by a trained clinician and takes place in two steps: preparing the cervix and emptying the womb.',
+            'Step 1 (Cervical Preparation): Because the pregnancy is larger after 12 to 14 weeks, the cervix must be softened and opened slowly and gently ahead of time so it is not injured. Depending on how many weeks pregnant you are, the clinician gives mifepristone or misoprostol tablets several hours before the procedure, or places tiny, thin sticks called osmotic dilators (such as laminaria made from sterilized seaweed or synthetic dilators) inside the opening of the cervix for several hours or overnight. As the dilators absorb moisture, they slowly expand and open the cervix gently.',
+            'Step 2 (The Evacuation Procedure): Once the cervix is softly opened, you are given pain medication, local cervical numbing, and sedation if available, and the clinician empties the womb using vacuum suction with a wider cannula together with smooth medical forceps. The evacuation step itself usually takes 15 to 30 minutes, and most women can go home the same day after resting in the recovery room.'
           ]
         },
         {
           id: 'pain-management-during-care',
           keyLabel: 'Managing Pain & Cramps',
-          heading: 'How Pain and Cramps Are Managed Safely',
+          heading: 'Pain Relief for Medication and In-Clinic Care at Every Stage',
           gifSrc: null,
           cartoonRenderer: () => renderWarmComfortRecoveryCartoonSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
           paragraphs: [
-            'Every woman deserves effective pain relief during an abortion. Because the womb is a strong muscle, cramping is a normal part of how the womb squeezes to empty itself and close off tiny blood vessels.',
-            'For both medication tablets and in-clinic procedures, global health guidelines recommend non-steroidal anti-inflammatory pain medicine such as ibuprofen (taken when cramping starts or 30 to 60 minutes before misoprostol or a clinic procedure). Avoid taking aspirin for pain, because aspirin thins the blood and can make bleeding heavier. A warm water bottle, heating pad, or warm cloth held against your lower belly or lower back also helps relax cramping muscles.',
-            'During an in-clinic vacuum aspiration or D&E procedure, clinicians should always offer local numbing medicine injected gently around the cervix (called a paracervical block), along with oral pain tablets or light sedation if available and desired.'
+            'Global medical guidelines state that pain relief should always be offered for both medical and procedural abortions at every stage of pregnancy. Cramping happens because the womb muscle contracts tightly to empty itself and seal off blood vessels.',
+            'For medication abortion (under 12 weeks or over 12 weeks), non-steroidal anti-inflammatory medicine like ibuprofen is recommended starting when misoprostol is taken or when cramps begin, along with a warm water bottle or heating pad on your lower belly. In a hospital or clinic induction after 12 weeks, stronger oral or injectable pain relief and anti-nausea medicine can also be given. Avoid aspirin because it increases bleeding.',
+            'For in-clinic procedures (Karman vacuum aspiration or D&E), clinicians should always give ibuprofen ahead of time plus a paracervical block (local numbing medicine injected gently around the cervix so dilating the cervix hurts much less), along with optional anti-anxiety medicine or conscious sedation.'
           ]
         },
         {
           id: 'antibiotics-and-ekt-considerations',
-          keyLabel: 'Infection & Ectopic Checks',
-          heading: 'Preventing Infection and Checking for Ectopic Pregnancy',
+          keyLabel: 'Antibiotics, Rh & Ectopic Checks',
+          heading: 'Preventing Infection, Rh-Negative Blood Care, and Ectopic Pregnancy Checks',
           gifSrc: null,
           cartoonRenderer: () => renderEmergencyCrossShieldCartoonSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
           paragraphs: [
-            'Before an in-clinic procedural abortion where instruments pass through the cervix, clinics routinely give a single dose of preventive antibiotic medicine so bacteria from the vagina or cervix cannot cause a womb infection. For an uncomplicated early medication abortion with pills, routine antibiotics are usually not needed unless there is a sign of infection.',
-            'It is also important to know that medication abortion pills (mifepristone and misoprostol) only empty a pregnancy that is inside the womb. They cannot treat an ectopic pregnancy, which is a rare pregnancy growing outside the womb in a Fallopian tube.',
-            'If you have sharp, stabbing pain on one side of your lower belly, pain in the tip of your shoulder, dizziness, or fainting, or if you take abortion pills and have almost no bleeding at all, see a doctor or hospital right away to make sure the pregnancy is not ectopic.'
+            'For any in-clinic procedural abortion (vacuum aspiration with a Karman cannula, D&E, or D&C), global guidelines recommend a single dose of preventive antibiotics (such as doxycycline, azithromycin, or metronidazole) before the procedure to protect the womb from infection. For an uncomplicated medication abortion with pills, routine antibiotics are not required.',
+            'Regarding Rh-negative blood: international guidelines note that under 12 weeks of pregnancy, so little fetal blood crosses into the mother that routine Rh testing and anti-D (RhoGAM) injections are not required before an early abortion. At or over 12 weeks of pregnancy, if a woman is known to have Rh-negative blood and anti-D injection is available, it is given after the abortion to protect future pregnancies.',
+            'Finally, remember that abortion pills only empty a pregnancy inside the womb. If you have sharp, stabbing pain on one side of your lower belly, shoulder-tip pain, or dizziness, get checked at a clinic to rule out an ectopic pregnancy in a Fallopian tube.'
           ]
         }
       ],
       bottomSubPages: [
         {
           pageId: 'AbortionPillsVsClinicComparisonHomePage1',
-          title: 'Comparing Medication Tablets vs. Vacuum Aspiration',
-          subtitle: 'Side-by-side timeline, comfort, privacy, and recovery overview'
+          title: 'Comparing Pills, Karman Vacuum Aspiration, D&E, and Induction',
+          subtitle: 'Which methods are used under 12 weeks vs. over 12 to 14 weeks'
         },
         {
           pageId: 'AbortionPainReliefChecklistHomePage1',
-          title: 'Comfort Kit for Cramping & Recovery',
-          subtitle: 'Safe pain relief tablets, heat therapy, hydration, and rest tips'
+          title: 'Pain Relief & Cervical Preparation Guide',
+          subtitle: 'How ibuprofen, paracervical numbing, and gentle cervical dilators work'
         }
       ]
     },
@@ -576,13 +577,13 @@ export default function AbortionsHomePage1({
         {
           id: 'normal-bleeding-and-clots',
           keyLabel: 'Normal Bleeding & Clots',
-          heading: 'What Normal Bleeding and Blood Clots Look Like',
+          heading: 'What Normal Bleeding and Blood Clots Look Like (After Pills, Karman Suction, D&C, or D&E)',
           gifSrc: null,
           cartoonRenderer: () => renderWarmComfortRecoveryCartoonSvg('#CCFBF1', '#0F766E', '#0D9488'),
           paragraphs: [
-            'After an abortion, vaginal bleeding is a normal sign that your womb is emptying its thick pregnancy lining and shrinking back to its normal size. How much you bleed depends on whether you used medication tablets or had an in-clinic procedure, and how many weeks pregnant you were.',
-            'With a medication abortion, bleeding usually becomes heavier than a normal period within 1 to 4 hours after taking misoprostol. It is normal to see dark red blood and small to medium blood clots for 4 to 6 hours while the pregnancy passes. In the first 8 to 9 weeks of pregnancy, the embryo is very tiny and usually passes hidden inside normal blood clots. Once the womb empties, the heavy bleeding slows down into lighter period-like bleeding or brown spotting that can come and go for 1 to 3 weeks.',
-            'After an in-clinic vacuum aspiration, bleeding is often light right from the start because the clinician already emptied most of the lining during the procedure. Some women have light spotting for a few days, stop bleeding for a couple of days, and then notice a few more days of period-like bleeding around day 4 or 5 before it fades completely.'
+            'After an abortion, vaginal bleeding is a normal sign that your womb is emptying its pregnancy lining and shrinking back to its normal size. How much you bleed depends on whether you used medication tablets or had an in-clinic procedure (Karman vacuum aspiration, D&C, or D&E), and how many weeks pregnant you were.',
+            'With a medication abortion, bleeding becomes heavier than a normal period within 1 to 4 hours after taking misoprostol. Under 12 weeks, it is normal to see dark red blood and small to medium clots for 4 to 6 hours while the pregnancy passes (under 8 to 9 weeks, the embryo is tiny and passes hidden inside normal blood clots). At or over 12 weeks in a clinical medical induction, contractions are stronger like a mini-labor until both the fetus and the placenta are delivered, followed by postpartum-style bleeding (lochia) for 2 to 4 weeks.',
+            'After an in-clinic vacuum aspiration with a Karman cannula, a D&C, or a second-trimester D&E (Dilation and Evacuation), initial bleeding is often lighter because the clinician already emptied the womb and placenta tissue during the procedure. It is common to have light period-like bleeding or spotting that stops and starts for 1 to 3 weeks (with an occasional brief increase in bleeding around day 4 or 5 as hormones drop) before fading to brown spotting.'
           ]
         },
         {
@@ -679,9 +680,9 @@ export default function AbortionsHomePage1({
           gifSrc: null,
           cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFE4E6', '#9F1239', '#E11D48'),
           paragraphs: [
-            'Post-Abortion Care (PAC) is essential emergency medical care provided by hospitals, doctors, and midwives around the world to treat complications from any miscarriage, incomplete abortion, or unsafe abortion. Every hospital and emergency clinic has a medical duty to provide life-saving Post-Abortion Care.',
-            'If a piece of pregnancy tissue is stuck in the womb (an incomplete abortion), the womb cannot squeeze all the way down, which causes heavy bleeding or infection. In Post-Abortion Care, a doctor or midwife gently empties the remaining tissue using either a quick 5-to-10-minute vacuum aspiration or a dose of misoprostol tablets.',
-            'If there is an infection in the womb, doctors give antibiotic medicine and IV fluids, and if a woman has lost a lot of blood, the hospital gives fluids, iron, or a blood transfusion to stabilize her safely.'
+            'Post-Abortion Care (PAC) is essential emergency medical care provided by hospitals, doctors, and midwives around the world to treat complications from any miscarriage, incomplete abortion, or unsafe abortion at any week of pregnancy. Every hospital and emergency clinic has a medical duty to provide life-saving Post-Abortion Care.',
+            'If a piece of pregnancy or placenta tissue is stuck in the womb (an incomplete abortion), the womb cannot squeeze all the way down, which causes heavy bleeding or infection. Up to 14 weeks of pregnancy, the doctor or midwife gently empties the remaining tissue using either a quick 5-to-10-minute vacuum aspiration with a soft plastic Karman cannula or a dose of misoprostol tablets (sublingually or orally). Over 14 weeks, clinicians empty retained placenta or tissue using gentle clinical evacuation or misoprostol in the hospital.',
+            'If there is an infection in the womb, doctors give intravenous (IV) antibiotic medicine and fluids before or during uterine evacuation, and if a woman has lost a lot of blood, the hospital gives IV fluids, iron, or a blood transfusion to stabilize her safely.'
           ]
         },
         {
@@ -754,9 +755,9 @@ export default function AbortionsHomePage1({
           gifSrc: null,
           cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#F3E8FF', '#6B21A8', '#9333EA'),
           paragraphs: [
-            'One of the most common fears women around the world hear from rumors is that having an abortion will make them infertile. According to extensive global medical research, a safe, uncomplicated abortion (whether with medication tablets or in-clinic vacuum aspiration) does not cause infertility and does not make it harder to get pregnant in the future.',
+            'One of the most common fears women around the world hear from rumors is that having an abortion will make them infertile. According to extensive global medical research, a safe, uncomplicated abortion (whether with medication tablets, vacuum aspiration with a Karman cannula, or D&E) does not cause infertility and does not make it harder to get pregnant in the future.',
             'A safe, uncomplicated abortion also does not increase the risk of miscarriage, ectopic pregnancy, birth defects, preterm birth, or low birth weight in your future pregnancies, and it does not cause breast cancer.',
-            'Fertility is only threatened when an unsafe method causes an untreated, severe womb infection or physical injury to the uterus. That is why safe care and prompt treatment for any sign of infection are so important for protecting your future family plans.'
+            'Fertility is only threatened when an unsafe method or repeated sharp metal scraping (sharp D&C) causes an untreated womb infection, uterine scarring (Asherman syndrome), or physical injury to the uterus. That is why safe methods (pills, Karman vacuum aspiration, or skilled D&E) and prompt treatment for any sign of infection are so important for protecting your future family plans.'
           ]
         },
         {

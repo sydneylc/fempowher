@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=253';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=253';
+} from './PregnancyHomePage.js?v=254';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=254';
 
 const h = React.createElement;
 
@@ -251,7 +251,7 @@ export default function LossOfAChildHomePage({
       id: 'loss-miscarriage',
       label: tr('lossBtnMiscarriage', 'I’ve Had a Miscarriage'),
       targetPage: 'MiscarriageHomePage',
-      gifSrc: './assets/loss-hub-miscarriage.gif?v=253',
+      gifSrc: './assets/loss-hub-miscarriage.gif?v=254',
       gifAlt: 'Woman in an olive-and-sand military soldier uniform and beret placing one hand over her heart and the other over her womb with a falling tear and memorial blossom',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC4E0 100%)',
@@ -265,7 +265,7 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-stillbirth',
       label: tr('lossBtnStillbirth', 'I’ve Had a Stillbirth'),
-      gifSrc: './assets/loss-hub-stillbirth.gif?v=253',
+      gifSrc: './assets/loss-hub-stillbirth.gif?v=254',
       gifAlt: 'Middle Eastern woman in a plum-indigo hijab and modest gloves holding a white keepsake card with two tiny baby footprints while a white butterfly drifts upward',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB8D8 0%, #F472B6 100%)',
@@ -279,7 +279,7 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-infant',
       label: tr('lossBtnLostInfant', 'I’ve Lost an Infant'),
-      gifSrc: './assets/loss-hub-infant.gif?v=253',
+      gifSrc: './assets/loss-hub-infant.gif?v=254',
       gifAlt: 'Southeast Asian woman with a low side bun and jade hairpin cradling a folded baby blanket and tiny blue infant booties',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
@@ -293,7 +293,7 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-child',
       label: tr('lossBtnLostChild', 'I’ve Lost My Child'),
-      gifSrc: './assets/loss-hub-child.gif?v=253',
+      gifSrc: './assets/loss-hub-child.gif?v=254',
       gifAlt: 'Afro-Latina / West African mother with textured dark afro puffs and a gold headband hugging her child’s beloved teddy bear',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
@@ -308,7 +308,7 @@ export default function LossOfAChildHomePage({
       id: 'loss-pregnant-after-loss',
       label: tr('lossBtnPregnantAfterLoss', 'I Am Pregnant After a Loss'),
       targetPage: 'PregnancyAfterLossHomePage',
-      gifSrc: './assets/loss-hub-pregnant-after-loss.gif?v=253',
+      gifSrc: './assets/loss-hub-pregnant-after-loss.gif?v=254',
       gifAlt: 'Visibly pregnant Indigenous Andean woman with twin braids looking anxious and worried with a forehead sweat drop while clutching her belly beside a rainbow and heart badge',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
@@ -517,74 +517,74 @@ export default function LossOfAChildHomePage({
         {
           id: 'grief-for-a-child-at-any-age',
           keyLabel: 'Grieving Your Child',
-          heading: 'Carrying the Loss of Your Child at Any Age',
+          heading: 'Everyone Grieves the Loss of a Child Differently',
           gifSrc: null,
           cartoonRenderer: () => renderFootprintsMemorialCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'Whether your child was a toddler, a young school-age child, a teenager, or an older child, losing your child is a life-changing heartbreak that no mother should ever have to carry alone. Losing a child shakes every part of your identity, your home, and your daily routine.',
-            'Grief is not an illness that you "get over" on a calendar schedule. It comes in waves. Some days you may be able to work and care for your household, and then a favorite meal, a birthday, a school uniform, a song, or a quiet evening can bring a wave of tears as strong as the first day.',
-            'Continuing to love your child, speak their name, and hold them in your heart is not "being stuck." It is the lifelong bond between a mother and her child.'
+            'Whether your child was very young or older, losing your child is a life-changing heartbreak. There is no single right way to feel, and there is no timeline or checklist for how grief is supposed to look.',
+            'Everyone grieves differently. Some mothers need to talk about their child often and cry openly, while others feel quiet, numb, or want privacy. Grief often moves in waves, where ordinary moments, a favorite meal, a song, or a quiet evening can bring deep emotion or loving memories.',
+            'Continuing to love your child, speak their name, or hold them quietly in your heart in your own way is part of the lifelong bond between a mother and her child.'
           ]
         },
         {
-          id: 'helping-your-other-children-grieve',
-          keyLabel: 'Helping Surviving Children',
-          heading: 'Interacting With Your Other Children When They Lose a Sister or Brother',
+          id: 'grieving-with-your-other-children',
+          keyLabel: 'Grieving With Your Other Children',
+          heading: 'Grieving With Your Other Children',
           gifSrc: null,
           cartoonRenderer: () => renderGrievingSiblingSupportCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'One of the hardest challenges for a grieving mother is caring for her other surviving children while her own heart is broken. Your surviving children have not only lost their brother or sister; they are also scared because they see their mother and father in deep pain. First, reassure your surviving child often: remind them clearly that they are deeply loved, that they are safe, and that you are still here for them. Recognize that your child is grieving too, even if they step in and out of sadness by crying one moment and asking to go play five minutes later.',
-            'Be honest with your child in a simple, direct, and age-appropriate way. Avoid confusing phrases like "your sister went to sleep" or "we lost your brother," which can make young children terrified of going to bed or afraid of getting lost. Instead, use gentle, clear words about what happened, and avoid minimizing or dismissing their feelings with phrases like "you have to be strong now" or "you will be stronger because of it," which can make a child feel they must hide their tears to protect you.',
-            'Listen closely when your child wants to share their story or memories about what happened, and ask open-ended questions about what is on their mind instead of guessing how they feel. Because children often cannot put big feelings into grown-up words, give your child creative outlets to express their love and grief for their sibling through drawing pictures, writing a note, making crafts, listening to music, or playing together.'
+            'If you have other children at home, every child and every family walks through loss in their own way. Children often move in and out of grief differently than adults, sometimes feeling sad or quiet one moment and wanting to play or do normal routines a few minutes later. Simply letting your other children know that they are loved and that you are there with them can bring comfort to all of you.',
+            'When children have questions or big feelings, simple and honest words at their age level often feel less confusing to them than indirect phrases like "went to sleep," and letting them share whatever is on their mind without feeling like they have to "be strong" gives everyone room to breathe.',
+            'Some children like to talk about what happened, while others express what is in their heart quietly through drawing, writing, crafts, listening to music, or playing. There is no single rule you have to follow with your children; just sharing honest love and patience together is enough.'
           ]
         },
         {
           id: 'how-deep-grief-affects-a-womans-body',
           keyLabel: 'How Grief Affects Your Body',
-          heading: 'How Deep Grief Affects Your Physical Health, Heart, and Cycle',
+          heading: 'How Deep Grief Can Feel in Your Physical Body and Cycle',
           gifSrc: null,
           cartoonRenderer: () => renderDoctorPlacentaAnswersCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'Intense grief is not only an emotion in your mind; it is also a powerful physical stress response across your whole body. When you lose a child, your nervous system releases high levels of stress hormones like cortisol and adrenaline for weeks and months.',
-            'These stress hormones can cause real physical symptoms, including tightness or aching in your chest, a fast heartbeat, stomach pain, loss of appetite, headaches, extreme tiredness, trouble falling or staying asleep, and catching illnesses more easily because your immune system is worn down.',
-            'In women who have a monthly menstrual cycle, severe grief stress can also cause the brain to pause ovulation temporarily, making your period stop for a month or more, come late, or become heavier or irregular. Visiting a compassionate doctor or women’s clinic on your FemPowHer map for a gentle physical checkup helps protect your heart, blood pressure, and iron levels while you grieve.'
+            'Deep grief is not only something you feel in your heart; your physical body feels it too. During intense loss, the body naturally releases high levels of stress hormones like cortisol and adrenaline.',
+            'Because of those stress hormones, it is very common to notice physical changes such as tightness or aching in your chest, a fast heartbeat, an upset stomach, changes in appetite, headaches, deep tiredness, or changes in how you sleep.',
+            'In women who have a monthly menstrual cycle, heavy stress can sometimes cause ovulation to pause for a little while, making a period arrive late, skip a month, or feel heavier or different than usual. Whenever you feel ready, a gentle check-in with a compassionate doctor or women’s clinic on your FemPowHer map is always there to support your physical health.'
           ]
         },
         {
           id: 'grieving-with-partner-and-community',
           keyLabel: 'Partner & Family Grief',
-          heading: 'How Mothers and Fathers Grieve Differently and Rejecting Unfair Blame',
+          heading: 'Different Grief Styles in Families and Communities',
           gifSrc: null,
           cartoonRenderer: () => renderGriefCommunitySupportCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'Mothers, fathers, and relatives often grieve the exact same child in very different ways. One parent may need to cry openly and talk about the child every day, while the other parent becomes quiet, stays busy with work or repairs, or cries in private so they do not upset the household. Knowing that different grief styles still come from deep love helps keep partners from pulling apart.',
-            'In some families or communities, mothers face unfair blame, gossip, or criticism after a child dies from an illness, infection, or accident. Please reject any cruel blame. No mother can control every illness or accident in this world.',
-            'Surround yourself and your surviving children with relatives, neighbors, or support groups who treat you with patience, warmth, and respect.'
+            'Two people who loved the exact same child deeply can grieve in completely opposite ways. One person may find comfort in talking and looking at photos, while another person copes by staying quiet, keeping busy, or spending time alone. Different ways of grieving do not mean one person loved the child less.',
+            'In some places or families, mothers sometimes hear unhelpful comments, pressure to "move on," or unfair blame after an illness or accident. No mother can control every illness or event in this world, and you never owe anyone a specific performance of grief.',
+            'You are free to lean toward the people and spaces that feel gentle, patient, and safe to you, and to step back from conversations that feel heavy or judgmental.'
           ]
         },
         {
           id: 'caring-for-yourself-one-day-at-a-time',
-          keyLabel: 'Daily Survival & Support',
-          heading: 'Getting Through Unbearable Days One Hour at a Time',
+          keyLabel: 'Moving at Your Own Pace',
+          heading: 'Taking Things at Your Own Pace With No Pressure',
           gifSrc: null,
           cartoonRenderer: () => renderPostpartumRestAndMilkCareCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'When grief feels too heavy to carry for a whole week or month, break time down into tiny steps: focus only on getting through the next hour, or the next ten minutes. Start with basic physical care for your body: drink a glass of clean water, eat a small bowl of warm food, step outside for fresh air, and rest your body on a bed even if you cannot fall asleep right away.',
-            'When neighbors or friends ask how they can help, give them one clear, practical task, such as bringing a cooked meal, helping walk your other children to school, or sitting quietly with you without expecting you to talk.',
-            'If your grief ever feels too heavy to survive, or if you have thoughts of hurting yourself, please know that your life is deeply needed, especially by your surviving children and loved ones, and help is available right now. Open the Emergency Contacts tab or the FemPowHer map to connect with local crisis hotlines, hospitals, counselors, and Women’s Safe Havens in your region.'
+            'When a loss feels overwhelming, there is nothing you are "supposed" to accomplish each day. Every person’s rhythm is different. On some days, just resting, taking a breath of fresh air, drinking some water, or eating a little food when you can is plenty.',
+            'You also do not have to manage the people around you, entertain visitors, or come up with tasks for friends who ask how to help if you do not have the energy. It is completely okay to want quiet time alone, just as it is okay to want company.',
+            'If the weight of your grief ever feels too heavy to carry alone, compassionate support is always available whenever you want it through the Emergency Contacts tab and the local clinics, counselors, and Women’s Safe Havens on your FemPowHer map.'
           ]
         }
       ],
       bottomSubPages: [
         {
           pageId: 'ChildLossSiblingGriefGuideHomePage1',
-          title: 'Helping Surviving Brothers & Sisters Grieve',
-          subtitle: 'Age-by-age ways to answer children’s questions honestly and gently'
+          title: 'Grieving With Your Other Children',
+          subtitle: 'Gentle, open-ended ways families walk through grief together'
         },
         {
           pageId: 'ChildLossPhysicalHealthCheckHomePage1',
-          title: 'Protecting Your Heart, Sleep & Cycle During Grief',
-          subtitle: 'When to check in with a doctor for physical symptoms of deep grief'
+          title: 'How Grief Feels in Your Body, Sleep & Cycle',
+          subtitle: 'Understanding physical stress responses during deep grief'
         }
       ]
     }

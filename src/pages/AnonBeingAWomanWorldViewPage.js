@@ -1,6 +1,6 @@
 import React from 'https://esm.sh/react@18.3.1';
-import BeingAWomanInHomePage from './BeingAWomanInHomePage.js?v=244';
-import { getBeingAWomanContent } from '../data/beingAWomanData.js?v=244';
+import BeingAWomanInHomePage from './BeingAWomanInHomePage.js?v=247';
+import { getBeingAWomanContent } from '../data/beingAWomanData.js?v=247';
 
 const h = React.createElement;
 
@@ -15,19 +15,19 @@ export default function AnonBeingAWomanWorldViewPage({
   lang = 'en',
   t = {}
 }) {
-  const sudanContent = getBeingAWomanContent('Sudan', 'Sudanese', {
-    center: [15.5007, 32.5599],
-    zoom: 5
+  const worldviewContent = getBeingAWomanContent('Worldview', 'Worldview', {
+    center: [18.0, 15.0],
+    zoom: 2
   });
 
   return h(BeingAWomanInHomePage, {
     onBack,
-    userNationVariable1: 'Sudan',
-    userNationVariable2: 'Sudanese',
+    userNationVariable1: 'Worldview',
+    userNationVariable2: 'Worldview',
     UserLanguageChoice1,
-    beingAWomanContent: sudanContent,
-    roleModelCountryCenter: [15.5007, 32.5599],
-    roleModelCountryZoom: 5,
+    beingAWomanContent: worldviewContent,
+    roleModelCountryCenter: [18.0, 15.0],
+    roleModelCountryZoom: 2,
     customTopLabel: 'Anonymous Global View',
     customMainTitle: 'Being a Woman Worldview',
     lang,

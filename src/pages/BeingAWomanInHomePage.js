@@ -2,18 +2,92 @@ import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1'
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=244';
+} from './PregnancyHomePage.js?v=247';
 
 const h = React.createElement;
 
-// Maps every nation in NATION_TO_DEMONYM_MAP / userNationVariable1 to its cultural
-// outfit family slug so all 4 buttons on BeingAWomanInHomePage display women dressed in
-// distinct traditional/national outfits of that nation doing a different activity per button!
+// Maps every nation in NATION_TO_DEMONYM_MAP / userNationVariable1 to its own unique
+// per-nation slug (e.g. 'ireland', 'finland', 'norway', 'spain', 'united_kingdom', 'united_states',
+// 'canada', 'somalia', etc.) so every single country has its own distinct 4-button set!
+const ALL_PER_NATION_SLUGS = [
+  'afghanistan', 'albania', 'algeria', 'angola', 'argentina', 'armenia', 'australia', 'austria',
+  'azerbaijan', 'bahamas', 'bahrain', 'balochistan', 'bangladesh', 'bangladesh_coxs_bazar', 'barbados',
+  'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia_and_herzegovina', 'botswana',
+  'brazil', 'brunei', 'bulgaria', 'burkina_faso', 'burundi', 'cabo_verde', 'cambodia', 'cameroon',
+  'canada', 'central_african_republic', 'chad', 'chile', 'china', 'colombia', 'costa_rica',
+  'cote_divoire', 'croatia', 'cuba', 'cyprus', 'czech_republic', 'democratic_republic_of_the_congo',
+  'denmark', 'djibouti', 'dominican_republic', 'ecuador', 'egypt', 'el_salvador', 'eritrea', 'estonia',
+  'ethiopia', 'fiji', 'finland', 'france', 'georgia', 'germany', 'ghana', 'greece', 'guatemala',
+  'guinea', 'guyana', 'haiti', 'honduras', 'hong_kong', 'hungary', 'iceland', 'india', 'indonesia',
+  'iran', 'iraq', 'ireland', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kosovo',
+  'kurdistan', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'liberia', 'libya', 'lithuania',
+  'luxembourg', 'macau', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'mexico',
+  'moldova', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar', 'namibia', 'nepal',
+  'netherlands', 'new_zealand', 'nicaragua', 'niger', 'nigeria', 'north_korea', 'north_macedonia',
+  'norway', 'oman', 'pakistan', 'palestine', 'panama', 'papua_new_guinea', 'paraguay', 'peru',
+  'philippines', 'poland', 'portugal', 'qatar', 'romania', 'russia', 'rwanda', 'samoa', 'saudi_arabia',
+  'senegal', 'serbia', 'sierra_leone', 'singapore', 'slovakia', 'slovenia', 'solomon_islands',
+  'somalia', 'south_africa', 'south_korea', 'south_sudan', 'spain', 'sri_lanka', 'sudan', 'suriname',
+  'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'tibet',
+  'timor_leste', 'tonga', 'trinidad_and_tobago', 'tunisia', 'turkey', 'turkmenistan', 'uganda',
+  'ukraine', 'united_arab_emirates', 'united_kingdom', 'united_states', 'uruguay', 'uzbekistan',
+  'vanuatu', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe'
+];
+
 export function resolveBeingAWomanNationOutfitSlug(
   nationName = '',
   demonymName = '',
   countryCenter = null
 ) {
+  const norm = (str) =>
+    String(str || '')
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[’'`().]/g, '')
+      .replace(/[^a-z0-9]+/g, '_')
+      .replace(/^_+|_+$/g, '');
+
+  const nSlug = norm(nationName);
+  const combinedHay = `${nSlug}_${norm(demonymName)}`;
+
+  if (combinedHay.includes('worldview') || combinedHay.includes('planet_earth')) {
+    return 'worldview';
+  }
+
+  // 1. Direct match against all 172 dedicated per-nation GIF sets (longest slug first so south_sudan matches before sudan, etc.)
+  const sortedSlugs = [...ALL_PER_NATION_SLUGS].sort((a, b) => b.length - a.length);
+  if (ALL_PER_NATION_SLUGS.includes(nSlug)) {
+    return nSlug;
+  }
+  for (const slug of sortedSlugs) {
+    if (combinedHay.includes(slug)) {
+      return slug;
+    }
+  }
+
+  // Common synonym & demonym aliases -> exact per-nation slug
+  if (combinedHay.includes('irish')) return 'ireland';
+  if (combinedHay.includes('finnish')) return 'finland';
+  if (combinedHay.includes('norwegian')) return 'norway';
+  if (combinedHay.includes('spanish')) return 'spain';
+  if (combinedHay.includes('british') || combinedHay.includes('uk') || combinedHay.includes('england') || combinedHay.includes('scotland') || combinedHay.includes('wales')) return 'united_kingdom';
+  if (combinedHay.includes('american') || combinedHay.includes('usa') || combinedHay.includes('massachusetts')) return 'united_states';
+  if (combinedHay.includes('canadian')) return 'canada';
+  if (combinedHay.includes('swedish')) return 'sweden';
+  if (combinedHay.includes('danish')) return 'denmark';
+  if (combinedHay.includes('dutch')) return 'netherlands';
+  if (combinedHay.includes('french')) return 'france';
+  if (combinedHay.includes('german')) return 'germany';
+  if (combinedHay.includes('greek')) return 'greece';
+  if (combinedHay.includes('polish')) return 'poland';
+  if (combinedHay.includes('turkish')) return 'turkey';
+  if (combinedHay.includes('cox') || combinedHay.includes('rohingya') || combinedHay.includes('ukhiya')) return 'bangladesh_coxs_bazar';
+  if (combinedHay.includes('congo') || combinedHay.includes('drc')) return 'democratic_republic_of_the_congo';
+  if (combinedHay.includes('cape_verde')) return 'cabo_verde';
+  if (combinedHay.includes('ivoir')) return 'cote_divoire';
+  if (combinedHay.includes('emirat') || combinedHay.includes('uae')) return 'united_arab_emirates';
+
   const hay = `${nationName} ${demonymName}`.toLowerCase();
 
   // 1. Horn of Africa & Nile Valley (Somalia, Sudan, South Sudan, Ethiopia, Eritrea, Djibouti)
@@ -467,18 +541,21 @@ export default function BeingAWomanInHomePage({
     userNationVariable2,
     roleModelCountryCenter
   );
+  const isWorldview =
+    nationOutfitSlug === 'worldview' ||
+    String(userNationVariable1 || '').toLowerCase() === 'worldview';
 
   const beingAWomanButtons = [
     {
       id: 'gender-outlook',
-      label: 'Gender Outlook',
-      gifSrc: `./assets/bw-${nationOutfitSlug}-outlook.gif?v=244`,
-      imgClassName:
-        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
-      imgStyle: {
-        marginLeft: '-48px',
-        marginRight: '-48px'
-      },
+      label: isWorldview ? 'Gender Outlook in Worldview' : 'Gender Outlook',
+      gifSrc: `./assets/bw-${nationOutfitSlug}-outlook.gif?v=247`,
+      imgClassName: isWorldview
+        ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
+        : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: isWorldview
+        ? { marginLeft: '-16px', marginRight: '-12px' }
+        : { marginLeft: '-48px', marginRight: '-48px' },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC4E0 100%)',
         border: 'none'
@@ -491,13 +568,13 @@ export default function BeingAWomanInHomePage({
     {
       id: 'traditional-health',
       label: `Female Health in ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-health.gif?v=244`,
-      imgClassName:
-        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
-      imgStyle: {
-        marginLeft: '-52px',
-        marginRight: '-52px'
-      },
+      gifSrc: `./assets/bw-${nationOutfitSlug}-health.gif?v=247`,
+      imgClassName: isWorldview
+        ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
+        : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: isWorldview
+        ? { marginLeft: '-16px', marginRight: '-12px' }
+        : { marginLeft: '-52px', marginRight: '-52px' },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB5D6 0%, #F472B6 100%)',
         border: 'none'
@@ -510,13 +587,13 @@ export default function BeingAWomanInHomePage({
     {
       id: 'role-models',
       label: `Female Role Models from ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-rolemodels.gif?v=244`,
-      imgClassName:
-        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
-      imgStyle: {
-        marginLeft: '-50px',
-        marginRight: '-50px'
-      },
+      gifSrc: `./assets/bw-${nationOutfitSlug}-rolemodels.gif?v=247`,
+      imgClassName: isWorldview
+        ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
+        : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: isWorldview
+        ? { marginLeft: '-16px', marginRight: '-12px' }
+        : { marginLeft: '-50px', marginRight: '-50px' },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #EC4899 0%, #BE185D 100%)',
         border: 'none'
@@ -529,13 +606,13 @@ export default function BeingAWomanInHomePage({
     {
       id: 'health-alerts',
       label: `Women’s Health Alerts in ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-alerts.gif?v=244`,
-      imgClassName:
-        'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
-      imgStyle: {
-        marginLeft: '-44px',
-        marginRight: '-44px'
-      },
+      gifSrc: `./assets/bw-${nationOutfitSlug}-alerts.gif?v=247`,
+      imgClassName: isWorldview
+        ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
+        : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: isWorldview
+        ? { marginLeft: '-16px', marginRight: '-12px' }
+        : { marginLeft: '-44px', marginRight: '-44px' },
       backgroundStyle: {
         background: 'linear-gradient(180deg, #9F133A 0%, #6E0926 100%)',
         border: 'none'
@@ -592,7 +669,9 @@ export default function BeingAWomanInHomePage({
   // SUBPAGE VIEW: Opened when clicking one of the 4 MakingGifButtons1 buttons
   const activeSubTitle =
     beingWomanSubTab === 'gender-outlook'
-      ? `Gender Outlook • ${userNationVariable1}`
+      ? isWorldview
+        ? 'Gender Outlook in Worldview'
+        : `Gender Outlook • ${userNationVariable1}`
       : beingWomanSubTab === 'traditional-health'
       ? `Female Health in ${userNationVariable1}`
       : beingWomanSubTab === 'role-models'

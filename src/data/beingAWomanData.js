@@ -219,6 +219,37 @@ export function resolveUserNationVariables(currentRegion, closestHospitals = [],
     };
   }
 
+  // Explicit Sudan vs South Sudan disambiguation so searching "Sudan" never resolves to "South Sudan"
+  if (
+    primaryPool.includes('south sudan') ||
+    primaryPool.includes('juba') ||
+    primaryPool.includes('malakal') ||
+    primaryPool.includes('wau')
+  ) {
+    return {
+      userNationVariable1: 'South Sudan',
+      userNationVariable2: 'South Sudanese',
+      countryCenter: [6.877, 31.307],
+      countryZoom: 6
+    };
+  }
+  if (
+    primaryPool.includes('sudan') ||
+    primaryPool.includes('khartoum') ||
+    primaryPool.includes('omdurman') ||
+    primaryPool.includes('darfur') ||
+    primaryPool.includes('port sudan') ||
+    primaryPool.includes('kassala') ||
+    primaryPool.includes('wad madani')
+  ) {
+    return {
+      userNationVariable1: 'Sudan',
+      userNationVariable2: 'Sudanese',
+      countryCenter: [15.5007, 32.5599],
+      countryZoom: 5
+    };
+  }
+
   // Sort keys longest-first so 'south sudan' matches before 'sudan', 'papua new guinea' before 'guinea', 'nigeria' before 'niger', etc.
   const sortedEntries = Object.entries(NATION_TO_DEMONYM_MAP).sort(
     (a, b) => b[0].length - a[0].length
@@ -924,17 +955,160 @@ export const COUNTRY_WOMANHOOD_PROFILES = {
           'If you have experienced sexual violence, seek medical care within 72 hours at any Hôpital Général de Référence (HGR), Clinique Tumaini (MSF), HEAL Africa, or Panzi Hospital for free HIV post-exposure prophylaxis (PEP), emergency contraception, STI treatment, and confidential psychosocial listening at any Maison d’Écoute or Espace Sûr. All UNHCR and partner GBV services are 100% free of charge.'
       }
     ]
+  },
+
+  Worldview: {
+    genderOutlook: [
+      {
+        id: 'worldview-dv-leaving',
+        title: 'Leaving an Abusive Relationship & Domestic Violence Laws Across the World',
+        summary:
+          'Around the world, a woman’s safety when leaving an abusive partner depends on how written national laws interact with local police, family courts, and religious or customary mediation systems.',
+        keyRealities: [
+          'Statutory Protection Orders vs. Local Custom: In countries with specialized domestic violence statutes (such as Brazil’s Lei Maria da Penha, Colombia’s Law 1257, Nigeria’s VAPP Act, Bhutan’s DVPA, and U.S./European restraining orders), courts can order immediate removal of an abuser and confidential shelter placement. Where police or elders pressure women to reconcile privately, connecting with a dedicated women’s legal clinic or safe haven advocate makes a critical difference.',
+          'Plural Legal Systems (Civil, Religious & Customary Courts): In many nations across Africa, the Middle East, and South/Southeast Asia, family matters are governed by a mix of civil statutes, Islamic Sharia (such as judicial divorce for harm — Fasaakh / Talaq al-Darar), or customary law. Documenting medical injuries and consulting a women’s legal aid organization protects both your safety and financial rights.'
+        ]
+      },
+      {
+        id: 'worldview-divorce-custody',
+        title: 'Divorce & Who Gets the Children (Global Child Custody Realities)',
+        summary:
+          'Across almost every legal and religious tradition worldwide, a mother’s greatest fear when leaving an abusive marriage is losing her children. Understanding how custody works globally helps mothers plan safely.',
+        keyRealities: [
+          'Primary Care of Young Children: Under both international civil family law ("the best interests of the child") and religious family law traditions (such as Hadanah in Islamic family courts), physical care of infants and young children is almost universally prioritized for the mother, and documented domestic violence disqualifies or restricts an abusive father from custody in a growing number of jurisdictions.',
+          'Tip — Search Any Country on the Map: Type any country, city, or town into the top map search bar to view that specific nation’s exact domestic violence laws, custody realities, traditional female health practices, and local female role models.'
+        ]
+      }
+    ],
+    traditionalHealth: [
+      {
+        id: 'worldview-trad-postpartum',
+        title: 'Global 40-Day Postpartum Rest & Maternal Nourishment Traditions Around the World',
+        body:
+          'Across continents, traditional female health honors the 30 to 40 days after childbirth as a sacred window of maternal rest, warmth, and community care — from La Cuarentena / La Dieta in Latin America and O Resguardo in Brazil, to Al-Nifaas in Sudan and the Arab world, Omugwo in Nigeria, Zuo Yuezi in East Asia, Sowa Rigpa in Bhutan, and Ayurvedic jaapa care in South Asia.',
+        healthNote:
+          'Medical Perspective: Warm iron-rich broths, fenugreek and herbal teas, gentle external herbal washes, and family support strongly protect maternal recovery, breastfeeding, and mental health when combined with modern postnatal blood-pressure and infection checkups.'
+      },
+      {
+        id: 'worldview-trad-midwifery',
+        title: 'Traditional Midwives, Birth Companions & Women’s Solidarity Circles Worldwide',
+        body:
+          'From Afro-Colombian Parteras and Peruvian Andean vertical-birth midwives to Sudanese Dayat, CongoleseMaisons d’Écoute, and Bhutanese RENEW volunteers, community birth attendants and women’s mutual-aid circles have supported girls and mothers through menstruation, birth, and menopause for generations.',
+        healthNote:
+          'Medical Perspective: Integrating culturally respectful birth companionship with 24/7 hospital emergency obstetric access saves mothers’ and babies’ lives globally.'
+      }
+    ],
+    roleModels: [
+      {
+        id: 'rm-wv-hawa',
+        name: 'Dr. Hawa Abdi (Somalia)',
+        years: '1947–2020 — Mogadishu, Somalia',
+        birthplace: 'Mogadishu, Somalia',
+        ethnicity: 'Somali',
+        lat: 2.1426,
+        lng: 45.1567,
+        headline: 'OB/GYN Physician, Lawyer & Founder of a 400-Bed Sanctuary Hospital for 90,000 Displaced Women',
+        bio:
+          'Earned both a medical degree in obstetrics and gynecology and a law degree, transforming her family’s rural clinic outside Mogadishu into a 400-bed maternity and humanitarian hospital sheltering 90,000 displaced women and children.'
+      },
+      {
+        id: 'rm-wv-khalida',
+        name: 'Dr. Khalida Zahir (Sudan)',
+        years: '1927–2015 — Omdurman & Khartoum, Sudan',
+        birthplace: 'Omdurman, Sudan',
+        ethnicity: 'Sudanese',
+        lat: 15.6445,
+        lng: 32.4777,
+        headline: 'First Sudanese Woman Medical Doctor & Co-Founder of the Sudanese Women’s Union',
+        bio:
+          'Graduated in 1952 as Sudan’s first female physician, treated women and children free of charge, and co-founded the Sudanese Women’s Union to champion women’s healthcare and legal rights.'
+      },
+      {
+        id: 'rm-wv-stella',
+        name: 'Dr. Ameyo Stella Adadevoh (Nigeria)',
+        years: '1956–2014 — Lagos, Nigeria',
+        birthplace: 'Lagos, Nigeria',
+        ethnicity: 'Nigerian',
+        lat: 6.4541,
+        lng: 3.3947,
+        headline: 'Nigerian Physician Who Diagnosed & Stopped the 2014 Ebola Outbreak in Lagos',
+        bio:
+          'Courageously diagnosed and quarantined Nigeria’s index Ebola case at her Lagos hospital despite intense pressure, protecting millions of lives across West Africa.'
+      },
+      {
+        id: 'rm-wv-christine',
+        name: 'Christine Schuler Deschryver & Julienne Lusenge (DRC)',
+        years: 'Bukavu & Beni, Democratic Republic of the Congo',
+        birthplace: 'Democratic Republic of the Congo',
+        ethnicity: 'Congolese',
+        lat: -2.5412,
+        lng: 28.8635,
+        headline: 'Founders of City of Joy (Bukavu) & SOFEPADI Safe Houses for Congolese Survivors',
+        bio:
+          'Built residential healing sanctuaries, fistula and 72-hour emergency medical referral clinics, and free legal aid centers for women survivors across Eastern DRC.'
+      },
+      {
+        id: 'rm-wv-mariadapenha',
+        name: 'Maria da Penha Maia Fernandes (Brazil)',
+        years: 'Born 1945 — Fortaleza, Ceará, Brazil',
+        birthplace: 'Fortaleza, Brazil',
+        ethnicity: 'Brazilian',
+        lat: -3.7319,
+        lng: -38.5267,
+        headline: 'Biopharmacist Whose 20-Year Legal Fight Created Brazil’s Landmark Domestic Violence Law',
+        bio:
+          'Survived two murder attempts by her husband and fought all the way to the Inter-American Commission on Human Rights, resulting in Brazil’s Lei Maria da Penha (Law 11.340) establishing specialized women’s courts and urgent protective orders.'
+      },
+      {
+        id: 'rm-wv-laura',
+        name: 'Dr. Laura Esther Rodríguez Dulanto (Peru)',
+        years: '1872–1919 — Supe & Lima, Peru',
+        birthplace: 'Supe, Peru',
+        ethnicity: 'Peruvian',
+        lat: -10.7969,
+        lng: -77.7131,
+        headline: 'First Female Physician & Surgeon in Peru & Pioneer of Gynecology and Nursing Education',
+        bio:
+          'Overcame bans on girls’ secondary schooling to become Peru’s first woman medical doctor in 1900, dedicating her life to gynecology and training women nurses.'
+      },
+      {
+        id: 'rm-wv-renew',
+        name: 'Her Majesty Gyalyum Sangay Choden Wangchuck (Bhutan)',
+        years: 'Born 1963 — Thimphu, Bhutan',
+        birthplace: 'Thimphu, Bhutan',
+        ethnicity: 'Bhutanese',
+        lat: 27.4728,
+        lng: 89.639,
+        headline: 'Founder of RENEW Safe Shelters & Champion of Cervical Cancer Elimination in Bhutan',
+        bio:
+          'Founded RENEW in 2004 to establish domestic violence safe shelters and community volunteers across all 20 districts of Bhutan alongside nationwide reproductive health education.'
+      }
+    ],
+    healthAlerts: [
+      {
+        id: 'worldview-alert-1',
+        title: 'Global 72-Hour Emergency Care for Survivors & 24/7 Obstetric Warning Signs',
+        severity: 'Global Women’s Health & Safety Notice',
+        body:
+          'Anywhere in the world, seek immediate medical care within 72 hours after sexual violence for free emergency HIV post-exposure prophylaxis (PEP) and emergency contraception, and go to the nearest maternity hospital immediately for severe pregnancy/postpartum bleeding, fever, severe headache, or blurred vision. Use the top search bar on the map to switch to any country on Earth!'
+      }
+    ]
   }
 };
 
 export function getBeingAWomanContent(userNationVariable1, userNationVariable2, currentRegion) {
+  const normTarget = String(userNationVariable1 || '').trim().toLowerCase();
   const exactMatch =
     COUNTRY_WOMANHOOD_PROFILES[userNationVariable1] ||
     Object.entries(COUNTRY_WOMANHOOD_PROFILES).find(
-      ([k]) =>
-        userNationVariable1.toLowerCase().includes(k.toLowerCase()) ||
-        k.toLowerCase().includes(userNationVariable1.toLowerCase())
-    )?.[1];
+      ([k]) => k.toLowerCase() === normTarget
+    )?.[1] ||
+    Object.entries(COUNTRY_WOMANHOOD_PROFILES).find(([k]) => {
+      const kl = k.toLowerCase();
+      if (kl === 'sudan' && normTarget.includes('south sudan')) return false;
+      if (normTarget === 'sudan' && kl.includes('south sudan')) return false;
+      return normTarget.includes(kl) || kl.includes(normTarget);
+    })?.[1];
 
   const defaultHealthAlerts = [
     {

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1'
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=249';
+} from './PregnancyHomePage.js?v=250';
 
 const h = React.createElement;
 
@@ -93,9 +93,11 @@ export function resolveBeingAWomanNationOutfitSlug(
     return 'kyrgyz_kazakh';
   }
 
-  // 3C. Afghanistan, Kurdistan & Caucasus (kept as the Afghan / regional ladies are)
+  // 3C. Afghanistan, Kurdistan & Caucasus (Afghanistan incorporates 1 azure-blue Sitara/Lithma button alongside its 3 curated Afghan women!)
+  if (hay.includes('afghan')) {
+    return 'afghanistan';
+  }
   if (
-    hay.includes('afghan') ||
     hay.includes('kurd') ||
     hay.includes('armenia') ||
     hay.includes('azerbaijan') ||
@@ -104,9 +106,26 @@ export function resolveBeingAWomanNationOutfitSlug(
     return 'central_asia';
   }
 
-  // 4. Middle East & North Africa (Yemen, Palestine, Egypt, Morocco, Algeria, Tunisia, Libya, Syria, Iraq, Iran, Jordan, Lebanon, Turkey, Saudi Arabia, UAE, Qatar, Kuwait, Oman, Bahrain)
+  // 4. Middle East & North Africa (Yemen, Oman, Iran, Bahrain, Saudi Arabia, and UAE each incorporate 1 Sitara/Lithma button in their colorway alongside 3 curated MENA women!)
+  if (hay.includes('yemen')) {
+    return 'yemen';
+  }
+  if (hay.includes('oman')) {
+    return 'oman';
+  }
+  if (hay.includes('iran') || hay.includes('persian')) {
+    return 'iran';
+  }
+  if (hay.includes('bahrain')) {
+    return 'bahrain';
+  }
+  if (hay.includes('saudi')) {
+    return 'saudi_arabia';
+  }
+  if (hay.includes('emirat') || hay.includes('uae') || hay.includes('dubai')) {
+    return 'united_arab_emirates';
+  }
   if (
-    hay.includes('yemen') ||
     hay.includes('palestin') ||
     hay.includes('egypt') ||
     hay.includes('morocc') ||
@@ -115,18 +134,11 @@ export function resolveBeingAWomanNationOutfitSlug(
     hay.includes('liby') ||
     hay.includes('syri') ||
     hay.includes('iraq') ||
-    hay.includes('iran') ||
     hay.includes('jordan') ||
     hay.includes('leban') ||
     hay.includes('turk') ||
-    hay.includes('saudi') ||
-    hay.includes('emirat') ||
-    hay.includes('uae') ||
-    hay.includes('dubai') ||
     hay.includes('qatar') ||
     hay.includes('kuwait') ||
-    hay.includes('oman') ||
-    hay.includes('bahrain') ||
     hay.includes('israel') ||
     hay.includes('mauritani')
   ) {
@@ -233,7 +245,10 @@ export function resolveBeingAWomanNationOutfitSlug(
     return 'oceania';
   }
 
-  // 10. Eastern & Southern Europe (Ukraine, Poland, Romania, Russia, Bosnia, Albania, Bulgaria, Croatia, Czech, Hungary, Greece, Italy, Spain, Portugal, Serbia, Belarus, etc.)
+  // 10. Eastern & Southern Europe (Spain gets its distinct 4-button set; others use east_south_eu)
+  if (hay.includes('spain') || hay.includes('spanish')) {
+    return 'spain';
+  }
   if (
     hay.includes('ukrain') ||
     hay.includes('poland') ||
@@ -249,8 +264,6 @@ export function resolveBeingAWomanNationOutfitSlug(
     hay.includes('greec') ||
     hay.includes('greek') ||
     hay.includes('ital') ||
-    hay.includes('spain') ||
-    hay.includes('spanish') ||
     hay.includes('portug') ||
     hay.includes('belarus') ||
     hay.includes('serbi') ||
@@ -279,21 +292,29 @@ export function resolveBeingAWomanNationOutfitSlug(
     return 'usa_canada';
   }
 
-  // 11B. Nordic & Western Europe (Finland, Sweden, Norway, Denmark, UK, Ireland, France, Germany, Netherlands, Belgium, Austria, Switzerland, Iceland, Luxembourg)
+  // 11B. Nordic & Western Europe (Ireland, Finland, Norway, and UK each have their own distinct 4-button diverse set; others use nordic_west_eu)
+  if (hay.includes('ireland') || hay.includes('irish')) {
+    return 'ireland';
+  }
+  if (hay.includes('finland') || hay.includes('finnish')) {
+    return 'finland';
+  }
+  if (hay.includes('norw')) {
+    return 'norway';
+  }
   if (
-    hay.includes('finland') ||
-    hay.includes('finnish') ||
-    hay.includes('swed') ||
-    hay.includes('norw') ||
-    hay.includes('denmark') ||
-    hay.includes('danish') ||
     hay.includes('united kingdom') ||
     hay.includes('british') ||
     hay.includes('england') ||
     hay.includes('scotland') ||
-    hay.includes('wales') ||
-    hay.includes('ireland') ||
-    hay.includes('irish') ||
+    hay.includes('wales')
+  ) {
+    return 'united_kingdom';
+  }
+  if (
+    hay.includes('swed') ||
+    hay.includes('denmark') ||
+    hay.includes('danish') ||
     hay.includes('franc') ||
     hay.includes('french') ||
     hay.includes('german') ||
@@ -311,6 +332,14 @@ export function resolveBeingAWomanNationOutfitSlug(
     hay.includes('greenland')
   ) {
     return 'nordic_west_eu';
+  }
+
+  // 11C. South Africa & Namibia (each incorporates 1 woman of White European descent alongside 3 curated Southern African women!)
+  if (hay.includes('south africa')) {
+    return 'south_africa';
+  }
+  if (hay.includes('namibi')) {
+    return 'namibia';
   }
 
   // 12. Continent-Aware Coordinate Fallback (if an unrecognized town, island, or country name is passed):
@@ -479,7 +508,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'gender-outlook',
       label: isWorldview ? 'Gender Outlook in Worldview' : 'Gender Outlook',
-      gifSrc: `./assets/bw-${nationOutfitSlug}-outlook.gif?v=249`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-outlook.gif?v=250`,
       imgClassName: isWorldview
         ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
         : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
@@ -498,7 +527,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'traditional-health',
       label: `Female Health in ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-health.gif?v=249`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-health.gif?v=250`,
       imgClassName: isWorldview
         ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
         : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
@@ -517,7 +546,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'role-models',
       label: `Female Role Models from ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-rolemodels.gif?v=249`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-rolemodels.gif?v=250`,
       imgClassName: isWorldview
         ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
         : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
@@ -536,7 +565,7 @@ export default function BeingAWomanInHomePage({
     {
       id: 'health-alerts',
       label: `Women’s Health Alerts in ${userNationVariable1}`,
-      gifSrc: `./assets/bw-${nationOutfitSlug}-alerts.gif?v=249`,
+      gifSrc: `./assets/bw-${nationOutfitSlug}-alerts.gif?v=250`,
       imgClassName: isWorldview
         ? 'h-[106%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none'
         : 'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',

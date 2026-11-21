@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'https://esm.sh/react@18.3.1';
-import { ALL_NATIONS_ON_EARTH } from './DatabasePage1.js?v=265';
-import { isRtlLanguage } from '../data/translations.js?v=265';
+import { ALL_NATIONS_ON_EARTH } from './DatabasePage1.js?v=266';
+import { isRtlLanguage } from '../data/translations.js?v=266';
 
 const h = React.createElement;
 
@@ -742,6 +742,51 @@ export const MY_BODY_HEALTH_3TIER_INDEX = [
     subPage: 'stigma-abortion',
     keywords: 'abortion stigma dangerous myths and methods to avoid herbal teas sharp objects wrong pill doses shame taboo'
   },
+  {
+    id: 'tier2-stigma-postpartum',
+    tier: 2,
+    title: 'Postpartum Stigma',
+    parentTitle: "Stigmas in Women's Health",
+    page: 'StigmasInWomensHealthHomePage1',
+    subPage: 'stigma-postpartum',
+    keywords: 'postpartum stigma depression anxiety breastfeeding recovery after birth shame'
+  },
+  {
+    id: 'tier2-stigma-menopause',
+    tier: 2,
+    title: 'Menopause Stigma',
+    parentTitle: "Stigmas in Women's Health",
+    page: 'StigmasInWomensHealthHomePage1',
+    subPage: 'stigma-menopause',
+    keywords: 'menopause stigma perimenopause aging hot flashes taboo'
+  },
+  {
+    id: 'tier2-stigma-pregnancy-birth',
+    tier: 2,
+    title: 'Pregnancy & Birth Stigmas',
+    parentTitle: "Stigmas in Women's Health",
+    page: 'StigmasInWomensHealthHomePage1',
+    subPage: 'stigma-pregnancy-birth',
+    keywords: 'pregnancy and birth stigmas infertility blame baby sex daughter son c-section vaginal delivery'
+  },
+  {
+    id: 'tier2-stigma-sex',
+    tier: 2,
+    title: 'Sex Stigma',
+    parentTitle: "Stigmas in Women's Health",
+    page: 'StigmasInWomensHealthHomePage1',
+    subPage: 'stigma-sex',
+    keywords: 'sex stigma virginity hymen bleeding myth consent sexuality'
+  },
+  {
+    id: 'tier2-stigma-stds',
+    tier: 2,
+    title: 'STDs Stigma',
+    parentTitle: "Stigmas in Women's Health",
+    page: 'StigmasInWomensHealthHomePage1',
+    subPage: 'stigma-stds',
+    keywords: 'stds stigma sexually transmitted diseases infections testing treatment shame'
+  },
 
   // --- Inside STDs & Reproductive Health Diseases & Injuries ---
   {
@@ -1238,7 +1283,7 @@ export function SmartSearchBtn1({
       setTranslatedIndexTitles({});
       return;
     }
-    const cacheKey = `fempowher_smartsearch1_i18n_v265_${tlTarget}`;
+    const cacheKey = `fempowher_smartsearch1_i18n_v266_${tlTarget}`;
     try {
       const cached = localStorage.getItem(cacheKey);
       if (cached) {

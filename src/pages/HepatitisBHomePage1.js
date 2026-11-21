@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=265';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=266';
 import {
   renderHealthyLiverShieldCartoonSvg,
   renderJaundiceManCartoonSvg,
   renderMotherHoldingNewbornSvg,
   renderPregnantLadyHeadingIcon,
   renderVaccineShieldCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=265';
+} from './FlyerCartoonIllustrations.js?v=266';
 
 export default function HepatitisBHomePage1({
   onBack,
@@ -80,7 +80,7 @@ export default function HepatitisBHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'HepatitisBHomePage1',
     title: tr('eduBtnHepatitisB', 'Hepatitis B'),
-    gifSrc: './assets/std-hepatitis-b.gif?v=265',
+    gifSrc: './assets/std-hepatitis-b.gif?v=266',
     bgGradient: 'linear-gradient(180deg, #1B7BFE 0%, #0B4FD8 100%)',
     bgColor: '#1264EC',
     titleTintColor: '#C8DCFF',

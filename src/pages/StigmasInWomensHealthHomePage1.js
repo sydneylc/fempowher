@@ -1,8 +1,8 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=265';
-import { isRtlLanguage } from '../data/translations.js?v=265';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=265';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=265';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=266';
+import { isRtlLanguage } from '../data/translations.js?v=266';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=266';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=266';
 
 const h = React.createElement;
 
@@ -82,17 +82,42 @@ export default function StigmasInWomensHealthHomePage1({
   };
   const isRtl = isRtlLanguage(lang);
 
-  // Main-style buttons inside "Stigmas in Women's Health" (matching My Body & Health main button style)
+  // 6 Main-style buttons inside "Stigmas in Women's Health" (matching My Body & Health main button style)
   const stigmaMainStyleButtons = [
     {
       id: 'stigma-abortion',
       label: tr('stigmaBtnAbortionStigma', 'Abortion Stigma'),
       shade: 'lighter'
+    },
+    {
+      id: 'stigma-postpartum',
+      label: tr('stigmaBtnPostpartumStigma', 'Postpartum Stigma'),
+      shade: 'standard'
+    },
+    {
+      id: 'stigma-menopause',
+      label: tr('stigmaBtnMenopauseStigma', 'Menopause Stigma'),
+      shade: 'standard'
+    },
+    {
+      id: 'stigma-pregnancy-birth',
+      label: tr('stigmaBtnPregnancyBirthStigmas', 'Pregnancy & Birth Stigmas'),
+      shade: 'standard'
+    },
+    {
+      id: 'stigma-sex',
+      label: tr('stigmaBtnSexStigma', 'Sex Stigma'),
+      shade: 'standard'
+    },
+    {
+      id: 'stigma-stds',
+      label: tr('stigmaBtnStdsStigma', 'STDs Stigma'),
+      shade: 'darker'
     }
   ];
 
-  if (activeStigmaPage === 'stigma-abortion') {
-    return h(IamPregALHomePageStyle, {
+  const stigmaSubPages = {
+    'stigma-abortion': {
       pageId: 'AbortionStigmaHomePage1',
       title: tr('stigmaBtnAbortionStigma', 'Abortion Stigma'),
       palette: {
@@ -135,7 +160,148 @@ export default function StigmasInWomensHealthHomePage1({
           title: 'Dangerous Myths and Methods to Avoid',
           subtitle: 'Why herbal teas, sharp objects, and wrong pill doses can harm your body'
         }
+      ]
+    },
+    'stigma-postpartum': {
+      pageId: 'PostpartumStigmaHomePage1',
+      title: tr('stigmaBtnPostpartumStigma', 'Postpartum Stigma'),
+      palette: {
+        pageBg: '#FFFAFC',
+        headerDark: '#9F133A',
+        accentMedium: '#CF366C',
+        tintLight: '#FFE4F0',
+        inkColor: '#4A0E24',
+        timelineLine: '#F4A2C6'
+      },
+      sections: [
+        {
+          id: 'postpartum-stigma-overview',
+          keyLabel: 'Postpartum Stigma',
+          heading: 'Breaking the Silence Around Postpartum Recovery, Depression, and Body Changes',
+          gifSrc: null,
+          cartoonRenderer: () => renderStigmaSupportCommunitySvg('#FFE4F0', '#9F133A', '#CF366C'),
+          paragraphs: [
+            'Around the world, new mothers are often pressured to look and feel overjoyed every single moment after giving birth, while hiding deep exhaustion, postpartum depression or anxiety, painful breastfeeding struggles, vaginal bleeding (lochia), or pelvic floor healing.',
+            'Postpartum depression and anxiety are real medical conditions caused by sharp hormone drops and physical exhaustion, never a sign that a woman is a bad or unloving mother. Every mother deserves rest, medical care, and emotional support without judgment.'
+          ]
+        }
       ],
+      bottomSubPages: []
+    },
+    'stigma-menopause': {
+      pageId: 'MenopauseStigmaHomePage1',
+      title: tr('stigmaBtnMenopauseStigma', 'Menopause Stigma'),
+      palette: {
+        pageBg: '#FDFBFF',
+        headerDark: '#6B21A8',
+        accentMedium: '#9333EA',
+        tintLight: '#F3E8FF',
+        inkColor: '#3B0764',
+        timelineLine: '#D8B4FE'
+      },
+      sections: [
+        {
+          id: 'menopause-stigma-overview',
+          keyLabel: 'Menopause Stigma',
+          heading: 'Honoring Women Through Perimenopause and Menopause Without Shame',
+          gifSrc: null,
+          cartoonRenderer: () => renderStigmaSupportCommunitySvg('#F3E8FF', '#6B21A8', '#9333EA'),
+          paragraphs: [
+            'In many societies, menopause is treated as a taboo subject or falsely linked to a loss of a woman’s value, beauty, or vitality. Because of this silence, millions of women suffer through hot flashes, night sweats, sleep loss, mood shifts, and vaginal dryness without knowing that effective relief exists.',
+            'Menopause is a natural biological transition, and a woman’s wisdom, dignity, and health after her fertile years matter deeply.'
+          ]
+        }
+      ],
+      bottomSubPages: []
+    },
+    'stigma-pregnancy-birth': {
+      pageId: 'PregnancyBirthStigmasHomePage1',
+      title: tr('stigmaBtnPregnancyBirthStigmas', 'Pregnancy & Birth Stigmas'),
+      palette: {
+        pageBg: '#F8FAFF',
+        headerDark: '#1E3A8A',
+        accentMedium: '#2563EB',
+        tintLight: '#DBEAFE',
+        inkColor: '#172554',
+        timelineLine: '#93C5FD'
+      },
+      sections: [
+        {
+          id: 'pregnancy-birth-stigma-overview',
+          keyLabel: 'Pregnancy & Birth Stigmas',
+          heading: 'Rejecting Unfair Blame Around Infertility, Baby’s Biological Sex, and How You Give Birth',
+          gifSrc: null,
+          cartoonRenderer: () => renderAbortionStigmaShieldSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
+          paragraphs: [
+            'Across many regions, women face unfair blame for infertility, for giving birth to daughters instead of sons, for needing pain relief or a Cesarean section during delivery, or for experiencing a pregnancy complication or miscarriage.',
+            'Biologically, the father’s sperm cell (which carries either an X or a Y chromosome) determines whether a baby is a girl or a boy, and half of all infertility involves male factors. Furthermore, whether a woman gives birth vaginally or by C-section, with pain medicine or without, safe delivery for mother and baby is all that matters.'
+          ]
+        }
+      ],
+      bottomSubPages: []
+    },
+    'stigma-sex': {
+      pageId: 'SexStigmaHomePage1',
+      title: tr('stigmaBtnSexStigma', 'Sex Stigma'),
+      palette: {
+        pageBg: '#F7FEFD',
+        headerDark: '#0F766E',
+        accentMedium: '#0D9488',
+        tintLight: '#CCFBF1',
+        inkColor: '#134E4A',
+        timelineLine: '#5EEAD4'
+      },
+      sections: [
+        {
+          id: 'sex-stigma-overview',
+          keyLabel: 'Sex Stigma',
+          heading: 'Dismantling Myths About Virginity, the Hymen, Consent, and Female Pleasure',
+          gifSrc: null,
+          cartoonRenderer: () => renderStigmaSupportCommunitySvg('#CCFBF1', '#0F766E', '#0D9488'),
+          paragraphs: [
+            'Cultural taboos around female sexuality often teach girls that their human worth depends on a myth of "virginity" or bleeding on the first time having sex, while silencing conversations about consent, contraception, and painful sex.',
+            'Over half of women do not bleed the first time they have vaginal intercourse because the hymen is naturally stretchy and open, and no medical exam can test virginity. Every woman has the right to bodily autonomy, safety, and honest sexual health education.'
+          ]
+        }
+      ],
+      bottomSubPages: []
+    },
+    'stigma-stds': {
+      pageId: 'StdsStigmaHomePage1',
+      title: tr('stigmaBtnStdsStigma', 'STDs Stigma'),
+      palette: {
+        pageBg: '#FFF8F9',
+        headerDark: '#9F1239',
+        accentMedium: '#E11D48',
+        tintLight: '#FFE4E6',
+        inkColor: '#4C0519',
+        timelineLine: '#FDA4AF'
+      },
+      sections: [
+        {
+          id: 'stds-stigma-overview',
+          keyLabel: 'STDs Stigma',
+          heading: 'An STD Is a Common Medical Infection, Never a Moral Failure',
+          gifSrc: null,
+          cartoonRenderer: () => renderAbortionStigmaShieldSvg('#FFE4E6', '#9F1239', '#E11D48'),
+          paragraphs: [
+            'Around the world, more than 1 million sexually transmitted infections are acquired every single day, and most adults will contract at least one STD (such as HPV) in their lifetime, including married women who have only ever had one partner.',
+            'Shame and stigma keep people from getting tested and treated. Bacterial and parasitic STDs like chlamydia, gonorrhea, syphilis, and trichomoniasis are completely curable with antibiotic medicine, and viral STDs like HIV, herpes, and Hepatitis B can be safely managed with modern treatment.'
+          ]
+        }
+      ],
+      bottomSubPages: []
+    }
+  };
+
+  if (activeStigmaPage && stigmaSubPages[activeStigmaPage]) {
+    const cfg = stigmaSubPages[activeStigmaPage];
+    return h(IamPregALHomePageStyle, {
+      pageId: cfg.pageId,
+      title: cfg.title,
+      palette: cfg.palette,
+      sections: cfg.sections,
+      bottomSubPages: cfg.bottomSubPages,
       onBack: () => setActiveStigmaPage(null),
       UserLanguageChoice1,
       lang,

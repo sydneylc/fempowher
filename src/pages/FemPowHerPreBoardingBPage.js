@@ -8,7 +8,7 @@ import {
   UI_TEXT,
   isRtlLanguage,
   cleanBackLabel
-} from '../data/translations.js?v=255';
+} from '../data/translations.js?v=256';
 
 const h = React.createElement;
 

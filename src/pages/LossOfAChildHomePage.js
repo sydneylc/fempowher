@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=255';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=255';
+} from './PregnancyHomePage.js?v=256';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=256';
 
 const h = React.createElement;
 
@@ -251,7 +251,7 @@ export default function LossOfAChildHomePage({
       id: 'loss-miscarriage',
       label: tr('lossBtnMiscarriage', 'I’ve Had a Miscarriage'),
       targetPage: 'MiscarriageHomePage',
-      gifSrc: './assets/loss-hub-miscarriage.gif?v=255',
+      gifSrc: './assets/loss-hub-miscarriage.gif?v=256',
       gifAlt: 'Woman in an olive-and-sand military soldier uniform and beret placing one hand over her heart and the other over her womb with a falling tear and memorial blossom',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC4E0 100%)',
@@ -265,7 +265,7 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-stillbirth',
       label: tr('lossBtnStillbirth', 'I’ve Had a Stillbirth'),
-      gifSrc: './assets/loss-hub-stillbirth.gif?v=255',
+      gifSrc: './assets/loss-hub-stillbirth.gif?v=256',
       gifAlt: 'Middle Eastern woman in a plum-indigo hijab and modest gloves holding a white keepsake card with two tiny baby footprints while a white butterfly drifts upward',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #FFB8D8 0%, #F472B6 100%)',
@@ -279,7 +279,7 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-infant',
       label: tr('lossBtnLostInfant', 'I’ve Lost an Infant'),
-      gifSrc: './assets/loss-hub-infant.gif?v=255',
+      gifSrc: './assets/loss-hub-infant.gif?v=256',
       gifAlt: 'Southeast Asian woman with a low side bun and jade hairpin cradling a folded baby blanket and tiny blue infant booties',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
@@ -293,7 +293,7 @@ export default function LossOfAChildHomePage({
     {
       id: 'loss-child',
       label: tr('lossBtnLostChild', 'I’ve Lost My Child'),
-      gifSrc: './assets/loss-hub-child.gif?v=255',
+      gifSrc: './assets/loss-hub-child.gif?v=256',
       gifAlt: 'Afro-Latina / West African mother with textured dark afro puffs and a gold headband hugging her child’s beloved teddy bear',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
@@ -308,7 +308,7 @@ export default function LossOfAChildHomePage({
       id: 'loss-pregnant-after-loss',
       label: tr('lossBtnPregnantAfterLoss', 'I Am Pregnant After a Loss'),
       targetPage: 'PregnancyAfterLossHomePage',
-      gifSrc: './assets/loss-hub-pregnant-after-loss.gif?v=255',
+      gifSrc: './assets/loss-hub-pregnant-after-loss.gif?v=256',
       gifAlt: 'Visibly pregnant Indigenous Andean woman with twin braids looking anxious and worried with a forehead sweat drop while clutching her belly beside a rainbow and heart badge',
       backgroundStyle: {
         background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
@@ -343,13 +343,13 @@ export default function LossOfAChildHomePage({
         {
           id: 'what-is-stillbirth',
           keyLabel: 'What Is Stillbirth',
-          heading: 'Understanding Stillbirth and Why You Are Not to Blame',
+          heading: 'Understanding Stillbirth, Antepartum vs. Intrapartum Loss, and Causes',
           gifSrc: null,
           cartoonRenderer: () => renderFootprintsMemorialCartoonSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
           paragraphs: [
-            'A stillbirth is the loss of a baby in the womb after 20 to 24 weeks of pregnancy or during labor and birth. Doctors and midwives group stillbirth by when it happens: an early stillbirth happens between 20 and 27 weeks of pregnancy, a late stillbirth happens between 28 and 36 weeks, and a term stillbirth happens at 37 weeks or later.',
-            'In about 1 out of every 3 stillbirths, no exact medical cause can be found even after testing, and many stillbirths happen in pregnancies that seemed completely healthy. When a cause is found, it usually involves the placenta or umbilical cord (such as placental abruption or a cord accident blocking blood and oxygen), a silent maternal or fetal infection, genetic or structural differences in the baby, or medical conditions like severe high blood pressure (preeclampsia) or diabetes.',
-            'Losing a baby so far along in pregnancy is a heartbreaking tragedy. Please know that a stillbirth is never a curse and never punishment for anything you thought, said, or did.'
+            'A stillbirth is when a baby dies in the womb in the later half of pregnancy or during labor and birth. In global health reporting, stillbirth is often defined as the loss of a baby at or after 28 weeks of pregnancy, while many national medical systems define it starting at 20, 22, or 24 weeks of pregnancy. Around the world, nearly 2 million stillbirths happen every year, which is about 1 baby every 16 seconds. You are never alone in this heartbreak.',
+            'Doctors and midwives group stillbirth into two main times: an antepartum stillbirth happens inside the womb before labor starts, while an intrapartum stillbirth happens during labor and delivery. Globally, more than 40% of all stillbirths happen during labor and birth, often in full-term pregnancies that seemed healthy until complications arose during delivery. Before a stillbirth is diagnosed on an ultrasound or heartbeat check, the most common sign a mother notices is that her baby’s kicks and movements slow down or stop, sometimes along with cramping, vaginal bleeding, or leaking fluid.',
+            'Common medical causes of stillbirth include complications during prolonged or obstructed labor, placenta and umbilical cord problems (such as placental abruption or a cord accident cutting off oxygen), maternal infections during pregnancy (such as malaria, syphilis, or bacterial infections), severe high blood pressure (preeclampsia and eclampsia), diabetes, slow fetal growth in the womb, and pregnancies continuing past 42 weeks. Less than 10% of stillbirths are caused by congenital anomalies, and in about 1 out of 3 cases no single cause can be found. A stillbirth is never a curse and never your fault.'
           ]
         },
         {
@@ -367,13 +367,13 @@ export default function LossOfAChildHomePage({
         {
           id: 'seeing-holding-and-memories',
           keyLabel: 'Holding Your Baby & Answers',
-          heading: 'Seeing, Holding, and Making Memories With Your Baby After Birth',
+          heading: 'Seeing, Holding, Making Memories, and Finding Medical Answers',
           gifSrc: null,
           cartoonRenderer: () => renderDoctorPlacentaAnswersCartoonSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
           paragraphs: [
             'When your baby is born, there is no single "right" way to say goodbye. Your midwife or doctor should follow your wishes gently and never rush you. Many mothers and fathers find deep comfort in seeing and holding their baby wrapped in a soft blanket, naming their baby, taking handprints or footprints, keeping a lock of hair, or using a special cooled cot if the hospital has one so the family can spend quiet time together.',
             'If you feel too scared or overwhelmed to hold your baby right away, you can ask the midwife to describe your baby to you first or wrap your baby gently until you feel ready, and you can also invite a religious leader, chaplain, or family elder to offer prayers or blessings according to your culture and faith.',
-            'Your doctor or midwife may also ask if you want an examination of the placenta, blood tests, or a gentle post-birth exam of the baby. Looking at the placenta and cord often helps doctors find answers about why the stillbirth happened and helps them create a care plan to protect you in the future.'
+            'Your doctor or midwife may also ask if you want an examination of the placenta and umbilical cord, maternal blood tests for infections or blood-clotting conditions, or a gentle post-birth exam of the baby. Checking for treatable conditions like hidden infections, high blood pressure, or placenta issues helps doctors explain what happened and helps protect your health in any future pregnancy.'
           ]
         },
         {
@@ -390,14 +390,14 @@ export default function LossOfAChildHomePage({
         },
         {
           id: 'urgent-postpartum-signs-and-support',
-          keyLabel: 'Warning Signs & Support',
-          heading: 'Urgent Postpartum Danger Signs and Supporting Your Heart',
+          keyLabel: 'Breaking Silence & Warning Signs',
+          heading: 'Breaking the Silence Around Stillbirth and Watching for Postpartum Warning Signs',
           gifSrc: null,
           cartoonRenderer: () => renderWarningShieldCartoonSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
           paragraphs: [
-            'Serious postpartum complications can happen any time in the weeks and months after delivering a baby. Go to an emergency hospital right away if you have heavy bleeding that soaks through 2 pads an hour, a fever of 100.4°F (38°C) or higher, bad-smelling vaginal discharge, a severe headache that does not go away, blurry vision or seeing spots, sudden swelling in your hands or face, pain or redness in your calf or leg, or chest pain and trouble breathing.',
-            'Always tell the emergency nurse or doctor that you recently delivered a baby so they check for postpartum complications immediately.',
-            'Your emotional survival matters just as much as your physical recovery. Lean on loved ones who let you speak your baby’s name and cry freely, and use your FemPowHer map or Emergency Contacts tab anytime you need a compassionate women’s clinic, counselor, or Women’s Safe Haven near you.'
+            'In many communities around the world, stillbirth is still surrounded by silence, social taboo, and stigma, where mothers are told not to talk about their baby or are unfairly blamed for the loss. Keeping grief locked in silence makes mothers much more likely to suffer alone with long-lasting depression, anxiety, and trauma. Talking openly about your baby and receiving respectful bereavement care is a basic human right.',
+            'At the same time, your physical safety after delivery is critical. Go to an emergency hospital right away if you have heavy bleeding that soaks through 2 pads an hour, a fever of 100.4°F (38°C) or higher, bad-smelling vaginal discharge, a severe headache that does not go away, blurry vision or seeing spots, sudden swelling in your hands or face, pain or redness in your calf or leg, or chest pain and trouble breathing.',
+            'Always tell the emergency nurse or doctor that you recently delivered a baby so they check for postpartum complications immediately, and use your FemPowHer map or Emergency Contacts tab anytime you want a compassionate women’s clinic, counselor, or Women’s Safe Haven near you.'
           ]
         }
       ],
@@ -434,8 +434,8 @@ export default function LossOfAChildHomePage({
           gifSrc: null,
           cartoonRenderer: () => renderFootprintsMemorialCartoonSvg('#CCFBF1', '#0F766E', '#0D9488'),
           paragraphs: [
-            'Losing a baby in the first 28 days after birth (neonatal loss) or at any point during the first year of life is one of the deepest heartbreaks a mother can ever face. An infant loss can happen from premature birth, birth complications, congenital conditions, severe infections, accidental death, or Sudden Unexpected Death in Infancy (SUDI), which includes Sudden Infant Death Syndrome (SIDS).',
-            'When an infant dies suddenly in their sleep or after an illness in the hospital, mothers almost always replay every single moment in their minds and wonder if they missed a sign. Please hear this clearly: you loved your baby with all your heart, and you are not to blame.',
+            'Losing a baby in the first 28 days after birth (neonatal loss) or at any point during the first year of life is one of the deepest heartbreaks a mother can ever face. Around the world, the first 28 days of life is the most fragile time for a baby’s survival. An infant loss can happen from premature birth complications, birth complications during labor such as lack of oxygen (birth asphyxia), severe newborn infections (such as sepsis, pneumonia, tetanus, or meningitis), congenital conditions, accidental death, or Sudden Unexpected Death in Infancy (SUDI), which includes Sudden Infant Death Syndrome (SIDS).',
+            'When an infant dies suddenly in their sleep or after an illness in the hospital, mothers almost always replay every single moment in their minds and wonder if they missed a sign. In many places, silence and social taboo around newborn loss also leave mothers feeling isolated, as if they are expected to hide their tears. Please hear this clearly: you loved your baby with all your heart, your baby’s life mattered deeply, and you are not to blame.',
             'Your arms may physically ache to hold your baby, and you may wake up at night thinking you hear your baby crying in a quiet room. Bereavement midwives and counselors note that aching arms and hearing your baby are normal physical and emotional responses when your body and brain spent months caring for a newborn.'
           ]
         },
@@ -521,7 +521,7 @@ export default function LossOfAChildHomePage({
           gifSrc: null,
           cartoonRenderer: () => renderFootprintsMemorialCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
           paragraphs: [
-            'Whether your child was very young or older, losing your child is a life-changing heartbreak. There is no single right way to feel, and there is no timeline or checklist for how grief is supposed to look.',
+            'Whether your child was very young or older, and whether the loss happened after an illness or infection (such as pneumonia, malaria, severe fever, or sepsis), a long-term health condition, or a sudden accident, losing your child is a life-changing heartbreak. Around the world, millions of mothers carry this pain, yet social silence often makes a mother feel as if she is carrying it completely alone. There is no single right way to feel, and there is no timeline or checklist for how grief is supposed to look.',
             'Everyone grieves differently. Some mothers need to talk about their child often and cry openly, while others feel quiet, numb, or want privacy. Grief often moves in waves, where ordinary moments, a favorite meal, a song, or a quiet evening can bring deep emotion or loving memories.',
             'Continuing to love your child, speak their name, or hold them quietly in your heart in your own way is part of the lifelong bond between a mother and her child.'
           ]

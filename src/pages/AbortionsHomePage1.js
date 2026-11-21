@@ -2,9 +2,9 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=263';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=263';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=263';
+} from './PregnancyHomePage.js?v=264';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=264';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=264';
 
 const h = React.createElement;
 
@@ -297,12 +297,258 @@ export default function AbortionsHomePage1({
   ];
 
   // ============================================================================
+  // Big GIF Button List + Dedicated IamPregALHomePageStyle Homepages for Each Type of Abortion
+  // (Used both inside the "Types of Abortions" section of "What Is an Abortion?" and on the
+  //  dedicated "Types of Abortions" homepage button at the bottom!)
+  // ============================================================================
+  const abortionTypeHomepages = {
+    'type-medication-abortion': {
+      pageId: 'TypeMedicationAbortionHomePage1',
+      title: 'Medication Abortion (Medical Abortion With Pills)',
+      palette: {
+        pageBg: '#F8FAFF',
+        headerDark: '#1E3A8A',
+        accentMedium: '#2563EB',
+        tintLight: '#DBEAFE',
+        inkColor: '#172554',
+        timelineLine: '#93C5FD'
+      },
+      sections: [
+        {
+          id: 'med-type-what-it-is',
+          keyLabel: 'What It Is',
+          heading: 'What Is a Medication (Medical) Abortion?',
+          gifSrc: null,
+          cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#DBEAFE', '#1E3A8A', '#2563EB'),
+          paragraphs: [
+            'A medication abortion (also called a medical abortion) uses prescription tablets to end a pregnancy without any surgical instruments entering the womb. The gold-standard regimen uses two medicines: mifepristone (which blocks the hormone progesterone needed to sustain the pregnancy lining) followed 24 to 48 hours later by misoprostol (which softens the cervix and causes the womb muscle to cramp and empty). Where mifepristone is not available, repeated doses of misoprostol alone are used.',
+            'Under 12 weeks of pregnancy, 1 tablet of mifepristone (200 mg) is swallowed with water, followed 24 to 48 hours later by 4 tablets of misoprostol (800 micrograms total) held under the tongue, inside the cheek, or in the vagina for 30 minutes. It is 95% to 98% effective and feels like a heavy, crampy period or natural early miscarriage.',
+            'At or over 12 weeks of pregnancy, medication abortion is performed inside a clinic or hospital using mifepristone followed 24 to 48 hours later by smaller repeated doses of misoprostol (400 micrograms every 3 hours) until the womb contracts and delivers.'
+          ]
+        }
+      ]
+    },
+    'type-vacuum-aspiration': {
+      pageId: 'TypeVacuumAspirationHomePage1',
+      title: 'Vacuum Aspiration (Karman Cannula Suction)',
+      palette: {
+        pageBg: '#F7FEFD',
+        headerDark: '#0F766E',
+        accentMedium: '#0D9488',
+        tintLight: '#CCFBF1',
+        inkColor: '#134E4A',
+        timelineLine: '#5EEAD4'
+      },
+      sections: [
+        {
+          id: 'va-type-what-it-is',
+          keyLabel: 'Karman Vacuum Aspiration',
+          heading: 'What Is Vacuum Aspiration With a Karman Cannula?',
+          gifSrc: null,
+          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#CCFBF1', '#0F766E', '#0D9488'),
+          paragraphs: [
+            'Vacuum aspiration is the recommended in-clinic procedural abortion method up to 12 to 14 weeks of pregnancy, and it is also used worldwide to treat an incomplete miscarriage. A trained doctor, midwife, or nurse numbs the cervix with local anesthetic (a paracervical block) and passes a thin, smooth, flexible plastic tube called a Karman cannula through the natural opening of the cervix into the womb.',
+            'The Karman cannula is connected either to a quiet hand-held suction syringe (Manual Vacuum Aspiration / MVA) or a gentle electric pump (Electric Vacuum Aspiration / EVA). Gentle suction empties the womb in 5 to 10 minutes with over 98% to 99% effectiveness.',
+            'At 12 to 14 weeks of pregnancy, misoprostol tablets are often given 2 to 3 hours beforehand (cervical priming) so the cervix softens and opens easily for the Karman cannula.'
+          ]
+        }
+      ]
+    },
+    'type-dilation-and-evacuation': {
+      pageId: 'TypeDilationAndEvacuationHomePage1',
+      title: 'Dilation and Evacuation (D&E)',
+      palette: {
+        pageBg: '#FDFBFF',
+        headerDark: '#6B21A8',
+        accentMedium: '#9333EA',
+        tintLight: '#F3E8FF',
+        inkColor: '#3B0764',
+        timelineLine: '#D8B4FE'
+      },
+      sections: [
+        {
+          id: 'de-type-what-it-is',
+          keyLabel: 'What Is D&E',
+          heading: 'What Is Dilation and Evacuation (D&E)?',
+          gifSrc: null,
+          cartoonRenderer: () => renderSafeMedicalCareCartoonSvg('#F3E8FF', '#6B21A8', '#9333EA'),
+          paragraphs: [
+            'Dilation and Evacuation (D&E) is the recommended in-clinic procedural abortion method when a pregnancy is past 12 to 14 weeks (in the second trimester). It is performed inside a clinic or hospital in two steps.',
+            'First, the cervix is slowly and gently softened and dilated over several hours or overnight using medicines (mifepristone or misoprostol) or tiny moisture-absorbing sticks called osmotic dilators (such as laminaria) placed in the cervical opening so the cervix is protected from tearing.',
+            'Second, after local cervical numbing, pain medicine, and sedation if available, the clinician empties the womb in 15 to 30 minutes using vacuum suction with a wider cannula together with smooth medical forceps.'
+          ]
+        }
+      ]
+    },
+    'type-dilation-and-curettage': {
+      pageId: 'TypeDilationAndCurettageHomePage1',
+      title: 'Dilation and Curettage (D&C)',
+      palette: {
+        pageBg: '#FFFDF9',
+        headerDark: '#9A3412',
+        accentMedium: '#EA580C',
+        tintLight: '#FFEDD5',
+        inkColor: '#431407',
+        timelineLine: '#FDBA74'
+      },
+      sections: [
+        {
+          id: 'dc-type-what-it-is',
+          keyLabel: 'What Is D&C',
+          heading: 'What Is Dilation and Curettage (D&C) and How Does It Differ From Vacuum Aspiration?',
+          gifSrc: null,
+          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFEDD5', '#9A3412', '#EA580C'),
+          paragraphs: [
+            'Dilation and Curettage (D&C) is an older surgical procedure in which the cervix is dilated and a spoon-shaped metal instrument called a curette is used to scrape the pregnancy lining from the walls of the womb.',
+            'Many hospitals and patients still use the phrase "D&C" as a general name for any procedure that empties the womb, even when the doctor actually uses gentle suction. However, global medical guidelines recommend replacing traditional sharp metal scraping (sharp D&C) with gentle plastic Karman cannula vacuum aspiration or medication tablets whenever possible.',
+            'Vacuum aspiration with a soft Karman cannula causes less pain, less bleeding, and carries a much lower risk of uterine perforation or internal scar tissue (Asherman syndrome) than sharp metal curettage.'
+          ]
+        }
+      ]
+    },
+    'type-induced-and-therapeutic': {
+      pageId: 'TypeInducedAndTherapeuticHomePage1',
+      title: 'Induced, Elective & Therapeutic (Medically Indicated) Abortion',
+      palette: {
+        pageBg: '#FFF8F9',
+        headerDark: '#9F1239',
+        accentMedium: '#E11D48',
+        tintLight: '#FFE4E6',
+        inkColor: '#4C0519',
+        timelineLine: '#FDA4AF'
+      },
+      sections: [
+        {
+          id: 'induced-therapeutic-what-it-is',
+          keyLabel: 'Induced vs. Therapeutic',
+          heading: 'Induced (Elective / Voluntary) Abortion and Therapeutic (Life-Saving) Abortion',
+          gifSrc: null,
+          cartoonRenderer: () => renderEmergencyCrossShieldCartoonSvg('#FFE4E6', '#9F1239', '#E11D48'),
+          paragraphs: [
+            'An induced abortion is any abortion where medication tablets or a clinic procedure is used intentionally to end a pregnancy. When a woman chooses an induced abortion for personal, family, financial, or life-timing reasons, it is often called an elective or voluntary abortion.',
+            'When an induced abortion is performed to save the pregnant woman’s life, protect her physical or mental health from severe harm (such as severe preeclampsia or eclampsia, heart failure, kidney failure, cancer requiring urgent treatment, or severe womb infection after membranes rupture early), or because the fetus has a severe or fatal anomaly, it is called a therapeutic or medically indicated abortion.',
+            'Medically, both elective and therapeutic abortions use the exact same safe, evidence-based methods matched to how many weeks pregnant the woman is.'
+          ]
+        }
+      ]
+    },
+    'type-spontaneous-miscarriage': {
+      pageId: 'TypeSpontaneousAbortionHomePage1',
+      title: 'Spontaneous Abortion (Natural Miscarriage & Medical Sub-Types)',
+      palette: {
+        pageBg: '#FDFBFF',
+        headerDark: '#6B21A8',
+        accentMedium: '#9333EA',
+        tintLight: '#F3E8FF',
+        inkColor: '#3B0764',
+        timelineLine: '#D8B4FE'
+      },
+      sections: [
+        {
+          id: 'spontaneous-subtypes-explained',
+          keyLabel: 'Spontaneous Abortion Types',
+          heading: 'Why Doctors Call Miscarriage a Spontaneous Abortion and What Each Sub-Type Means',
+          gifSrc: null,
+          cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#F3E8FF', '#6B21A8', '#9333EA'),
+          paragraphs: [
+            'On hospital charts and ultrasound reports around the world, the medical word for a natural miscarriage is spontaneous abortion. Seeing the word "abortion" on a hospital chart after a miscarriage simply means the pregnancy ended before 20 weeks.',
+            'Clinicians group spontaneous abortion into specific sub-types based on what is happening in the womb: a threatened abortion means there is vaginal bleeding in early pregnancy while the cervix is still closed and the baby still has a heartbeat; an inevitable abortion means bleeding and cramping have opened the cervix so the miscarriage cannot be stopped; an incomplete abortion means some pregnancy tissue has passed but some remains inside the womb; a complete abortion means all pregnancy tissue has passed naturally and the womb is empty; and a missed abortion (silent miscarriage) means the embryo stopped growing inside the womb before bleeding or cramping started.',
+            'When an incomplete or missed miscarriage needs medical help to finish emptying safely so infection or heavy bleeding does not occur, doctors use the exact same gentle care: misoprostol tablets or vacuum aspiration with a soft Karman cannula.'
+          ]
+        }
+      ]
+    }
+  };
+
+  const abortionTypesBigGifButtons = [
+    {
+      id: 'type-medication-abortion',
+      label: tr('abortionTypeBtnMedication', 'Medication Abortion (Medical Abortion With Pills)'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #FFF0F7 0%, #FFD4EA 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+      }
+    },
+    {
+      id: 'type-vacuum-aspiration',
+      label: tr('abortionTypeBtnVacuum', 'Vacuum Aspiration (Karman Cannula Suction)'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #FFD4EA 0%, #FFA8D2 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+      }
+    },
+    {
+      id: 'type-dilation-and-evacuation',
+      label: tr('abortionTypeBtnDE', 'Dilation and Evacuation (D&E)'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #FFA8D2 0%, #F472B6 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.95)'
+      }
+    },
+    {
+      id: 'type-dilation-and-curettage',
+      label: tr('abortionTypeBtnDC', 'Dilation and Curettage (D&C)'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(108, 10, 50, 0.65)'
+      }
+    },
+    {
+      id: 'type-induced-and-therapeutic',
+      label: tr('abortionTypeBtnInducedTherapeutic', 'Induced, Elective & Therapeutic (Life-Saving) Abortion'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(64, 5, 28, 0.72)'
+      }
+    },
+    {
+      id: 'type-spontaneous-miscarriage',
+      label: tr('abortionTypeBtnSpontaneous', 'Spontaneous Abortion (Natural Miscarriage & Sub-Types)'),
+      gifSrc: null,
+      backgroundStyle: {
+        background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
+        border: 'none'
+      },
+      textStyle: {
+        color: '#FFFFFF',
+        textShadow: '0 2px 10px rgba(36, 2, 16, 0.78)'
+      }
+    }
+  ];
+
+  // ============================================================================
   // 6 Distinct-Palette IamPregALHomePageStyle Configurations (WHO Abortion Care Guideline)
   // ============================================================================
   const subPageConfigs = {
     'abortion-what-is': {
       pageId: 'WhatIsAnAbortionHomePage1',
       title: tr('abortionBtnWhatIs', 'What Is an Abortion?'),
+      hidePageTimeline: true,
       palette: {
         pageBg: '#FFFAFC',
         headerDark: '#9F133A',
@@ -325,6 +571,45 @@ export default function AbortionsHomePage1({
           ]
         },
         {
+          id: 'stigma-and-barriers',
+          keyLabel: 'Stigma & Health Complications',
+          heading: 'Stigma Around Abortion and Why Safe Care Matters',
+          gifSrc: null,
+          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          paragraphs: [
+            'When an abortion is done using a modern medical method matched to how many weeks pregnant a woman is and supported by a trained health worker, it is one of the safest procedures in medicine. However, in many parts of the world, abortion is heavily stigmatized, shamed, or restricted.',
+            'Stigma, social judgment, high costs, mandatory waiting periods, and legal or clinic barriers do not reduce the number of women who need abortions. Instead, those barriers delay women past 12 weeks or force women to turn to dangerous, unsafe methods. Because of these barriers, about 45% of all abortions worldwide are unsafe, which can lead to serious but preventable medical complications.'
+          ],
+          subCategoryTitle: 'Health Complications:',
+          detailedBullets: [
+            {
+              title: 'Retained Products of Conception (Incomplete Abortion):',
+              description:
+                'Parts of the fetus, placenta, or reproductive tissue that are not fully evacuated from the womb, which prevent the uterus from contracting shut and can lead to prolonged heavy bleeding or infection.'
+            },
+            {
+              title: 'Hemorrhage (Severe Heavy Bleeding):',
+              description:
+                'Heavy blood loss from the womb caused by retained tissue, an injury to the cervix or uterus, or the womb muscle failing to contract tightly, which can lead to severe anemia or life-threatening shock if untreated.'
+            },
+            {
+              title: 'Uterine Infection and Sepsis:',
+              description:
+                'Bacteria entering the healing womb during an unsterile procedure or from untreated retained tissue, causing fever, chills, foul-smelling discharge, pelvic pain, and potentially spreading through the bloodstream (sepsis).'
+            },
+            {
+              title: 'Cervical or Uterine Perforation (Injury to the Womb):',
+              description:
+                'A tear, scratch, or puncture in the cervix or muscular wall of the uterus, most often caused when sharp instruments or unsafe foreign objects are pushed inside the womb.'
+            },
+            {
+              title: 'Intrauterine Scarring (Asherman Syndrome):',
+              description:
+                'Bands of scar tissue forming inside the uterine lining after repeated sharp metal scraping (sharp D&C) or severe untreated womb infections, which can make future periods lighter or affect future fertility.'
+            }
+          ]
+        },
+        {
           id: 'how-an-abortion-works',
           keyLabel: 'How the Procedures Work',
           heading: 'How Medication and Procedural Abortions Work in Your Body',
@@ -338,26 +623,38 @@ export default function AbortionsHomePage1({
         },
         {
           id: 'when-an-abortion-can-happen',
-          keyLabel: 'When It Can Happen',
-          heading: 'When in Pregnancy an Abortion Can Happen (Under 12 Weeks and Over 12 Weeks)',
+          keyLabel: 'Different Times of Pregnancy',
+          heading: 'Abortion at Different Times of Pregnancy',
           gifSrc: null,
-          cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          cartoonRenderer: null,
           paragraphs: [
-            'Abortions take place both in the first 12 weeks of pregnancy and after 12 weeks of pregnancy. How far along you are determines which pill dose or clinic procedure is safest for your body.',
-            'During the first 12 to 14 weeks of pregnancy, the pregnancy tissue is small. You can use early medication tablets (at home or through a clinic up to 12 weeks) or have a 5-to-10-minute vacuum aspiration with a Karman cannula in a clinic up to 12 to 14 weeks.',
-            'At or after 12 to 14 weeks of pregnancy (in the second trimester or later), abortions are performed inside a clinic or hospital. Women need care after 12 weeks for many reasons: irregular periods that hid the pregnancy early on, delays or travel barriers reaching a clinic, changes in life or safety circumstances, learning on a second-trimester scan that the fetus has a severe anomaly, or developing a life-threatening maternal health emergency like severe preeclampsia, heart failure, cancer, or ruptured membranes with infection. At or over 12 to 14 weeks, safe care is done either by Dilation and Evacuation (D&E) or by supervised medical induction in a clinic bed.'
-          ]
-        },
-        {
-          id: 'stigma-and-barriers',
-          keyLabel: 'Stigma & Why Access Matters',
-          heading: 'Stigma Around Abortion and Why Safe Care Matters',
-          gifSrc: null,
-          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
-          paragraphs: [
-            'When an abortion is done using a modern medical method matched to how many weeks pregnant a woman is and supported by a trained health worker, it is one of the safest procedures in medicine. However, in many parts of the world, abortion is heavily stigmatized, shamed, or restricted.',
-            'Stigma, social judgment, high costs, mandatory waiting periods, and legal or clinic barriers do not reduce the number of women who need abortions. Instead, those barriers delay women past 12 weeks or force women to turn to dangerous, unsafe methods.',
-            'Because of these barriers, about 45% of all abortions worldwide are unsafe, making unsafe abortion one of the leading but completely preventable causes of maternal death and injury. Every woman deserves plain, accurate medical facts and respectful care at every stage of pregnancy.'
+            'Pregnancy length is counted in weeks starting from the first day of your last normal menstrual period. As a pregnancy grows, the recommended medical and procedural methods adjust so that emptying the womb stays safe at every stage:'
+          ],
+          timelineBulbs: [
+            {
+              heading: 'Up to 12 Weeks of Pregnancy (Early First Trimester)',
+              paragraphs: [
+                'During the first 12 weeks of pregnancy, the embryo and pregnancy lining are very small. Most abortions take place during this stage. Care can be done safely with medication tablets (mifepristone followed 24 to 48 hours later by misoprostol, or misoprostol alone, taken at home or through a clinic) or with a 5-to-10-minute gentle vacuum aspiration procedure in a clinic using a soft plastic Karman cannula.'
+              ]
+            },
+            {
+              heading: '12 to 14 Weeks of Pregnancy (Late First Trimester to Early Second Trimester)',
+              paragraphs: [
+                'Between 12 and 14 weeks of pregnancy, care takes place inside a clinic or hospital. A trained clinician can still perform vacuum aspiration using a slightly wider Karman cannula (often giving misoprostol tablets 2 to 3 hours beforehand to soften the cervix gently), or provide supervised medication abortion using mifepristone followed by repeated smaller doses of misoprostol every 3 hours.'
+              ]
+            },
+            {
+              heading: '14 to 20 Weeks of Pregnancy (Mid-Second Trimester)',
+              paragraphs: [
+                'After 14 weeks of pregnancy, the fetus and placenta are larger and the cervix requires gentle preparation ahead of time. Safe care inside a clinic or hospital is performed either through Dilation and Evacuation (D&E, where the cervix is slowly softened and opened over several hours or overnight with osmotic dilators like laminaria or misoprostol before the clinician empties the womb with suction and smooth forceps) or through supervised clinical medical induction.'
+              ]
+            },
+            {
+              heading: 'After 20 Weeks of Pregnancy (Later Pregnancy Medical & Emergency Care)',
+              paragraphs: [
+                'Abortions later in pregnancy take place inside a hospital when a mother’s life or physical health is in danger (such as from severe preeclampsia or eclampsia, heart failure, cancer, or a severe intrauterine infection after membranes rupture early), when a severe or fatal fetal anomaly is diagnosed on a second-trimester scan, or when severe barriers delayed earlier access. Care is provided by specialist clinical teams using inpatient medical induction of labor or specialized D&E with full pain relief and close monitoring.'
+              ]
+            }
           ]
         },
         {
@@ -365,14 +662,23 @@ export default function AbortionsHomePage1({
           keyLabel: 'Types of Abortions',
           heading: 'Types of Abortions',
           gifSrc: null,
-          cartoonRenderer: () => renderEmergencyCrossShieldCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          cartoonRenderer: null,
           paragraphs: [
-            '• Induced Abortion (Elective or Voluntary Abortion)',
-            '• Therapeutic Abortion (Medically Indicated or Life-Saving Abortion)',
-            '• Medication Abortion (Medical Abortion With Mifepristone & Misoprostol or Misoprostol-Only: Under 12 Weeks vs. Medical Induction At or Over 12 Weeks)',
-            '• Procedural / Surgical Abortion: Vacuum Aspiration With a Karman Cannula (MVA / EVA up to 12 to 14 Weeks), Dilation and Evacuation (D&E at or over 12 to 14 Weeks), and Dilation and Curettage (D&C)',
-            '• Spontaneous Abortion (Natural Miscarriage: Threatened, Inevitable, Incomplete, Complete, Missed, Septic, or Recurrent Spontaneous Abortion)'
-          ]
+            'Select any type of abortion below to open its dedicated guide:'
+          ],
+          customContentRenderer: ({ openSubPage }) =>
+            h(
+              'div',
+              { className: 'mt-3 -mx-4 sm:-mx-8 overflow-hidden rounded-2xl shadow-md' },
+              h(MakingGifButtons1, {
+                sections: abortionTypesBigGifButtons,
+                onSelectSection: (sec) => {
+                  if (sec && sec.id && abortionTypeHomepages[sec.id]) {
+                    openSubPage(abortionTypeHomepages[sec.id]);
+                  }
+                }
+              })
+            )
         }
       ],
       bottomSubPages: [
@@ -380,6 +686,7 @@ export default function AbortionsHomePage1({
           pageId: 'AbortionSelfCarePatientPacketHomePage1',
           title: 'Open & Translate Patient Information Packet (Self-Care Medical Abortion Checklist)',
           subtitle: 'Step-by-step before, during, and after patient checklist with instant language translation and offline download',
+          sourceSubtitle: 'From the World Health Organization (WHO)',
           showPacketLanguageBar: true,
           palette: {
             pageBg: '#FFFAFC',
@@ -455,7 +762,40 @@ export default function AbortionsHomePage1({
         {
           pageId: 'AbortionTypesDetailedGuideHomePage1',
           title: 'Types of Abortions',
-          subtitle: 'Induced, therapeutic, medication, Karman vacuum aspiration, D&E, D&C, and spontaneous types'
+          subtitle: 'Induced, therapeutic, medication, Karman vacuum aspiration, D&E, D&C, and spontaneous types',
+          customPageRenderer: ({ onBack: onBackFromTypesHub, openSubPage, trPhrase: trP }) =>
+            h(
+              'div',
+              {
+                id: 'AbortionTypesDetailedGuideHomePage1',
+                className: 'min-h-full w-full shrink-0 bg-white flex flex-col overflow-x-hidden'
+              },
+              h(
+                'div',
+                { className: 'w-full px-4 sm:px-6 pt-3 pb-3 shrink-0 bg-white' },
+                h(
+                  'div',
+                  { className: 'max-w-5xl w-full mx-auto' },
+                  renderSubpageBackButton(onBackFromTypesHub, t, lang),
+                  h(
+                    'h1',
+                    {
+                      className: 'text-2xl sm:text-3xl font-extrabold text-center mt-1',
+                      style: { color: '#9F133A' }
+                    },
+                    trP('Types of Abortions')
+                  )
+                )
+              ),
+              h(MakingGifButtons1, {
+                sections: abortionTypesBigGifButtons,
+                onSelectSection: (sec) => {
+                  if (sec && sec.id && abortionTypeHomepages[sec.id]) {
+                    openSubPage(abortionTypeHomepages[sec.id]);
+                  }
+                }
+              })
+            )
         }
       ]
     },
@@ -901,6 +1241,8 @@ export default function AbortionsHomePage1({
     return h(IamPregALHomePageStyle, {
       pageId: cfg.pageId,
       title: cfg.title,
+      sourceSubtitle: cfg.sourceSubtitle || null,
+      hidePageTimeline: Boolean(cfg.hidePageTimeline),
       sections: cfg.sections,
       bottomSubPages: cfg.bottomSubPages,
       palette: cfg.palette,

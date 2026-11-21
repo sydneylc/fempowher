@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.3.1';
-import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=263';
-import { findClosestHealthQuery } from './SmartSearchBtn1.js?v=263';
+import { cleanBackLabel, isRtlLanguage } from '../data/translations.js?v=264';
+import { findClosestHealthQuery } from './SmartSearchBtn1.js?v=264';
 
 const h = React.createElement;
 
@@ -474,6 +474,8 @@ const PACKET_LANGUAGE_OPTIONS = [
 export function IamPregALHomePageStyle({
   pageId,
   title,
+  sourceSubtitle = null,
+  hidePageTimeline = false,
   sections = [],
   bottomSubPages = [],
   palette = {
@@ -538,6 +540,7 @@ export function IamPregALHomePageStyle({
     };
 
     addP(title);
+    if (sourceSubtitle) addP(sourceSubtitle);
     addP('Topics Key');
     addP('Jump to topic in page:');
     addP('Search keyword in page...');
@@ -547,10 +550,20 @@ export function IamPregALHomePageStyle({
       addP(sec.keyLabel);
       addP(sec.heading);
       (sec.paragraphs || []).forEach((p) => addP(p));
+      if (sec.subCategoryTitle) addP(sec.subCategoryTitle);
+      (sec.detailedBullets || []).forEach((b) => {
+        addP(b.title);
+        addP(b.description);
+      });
+      (sec.timelineBulbs || []).forEach((tb) => {
+        addP(tb.heading);
+        (tb.paragraphs || []).forEach((p) => addP(p));
+      });
     });
     bottomSubPages.forEach((bp) => {
       addP(bp.title);
       addP(bp.subtitle);
+      if (bp.sourceSubtitle) addP(bp.sourceSubtitle);
     });
 
     if (phrases.length === 0) return;
@@ -615,14 +628,26 @@ export function IamPregALHomePageStyle({
     }
   }, [searchQuery, activeMatchIndex, translatedMap]);
 
-  // If user clicked one of the bottom subpage buttons:
+  // If user clicked one of the bottom subpage buttons (or an embedded big GIF button):
+  // - If it has a customPageRenderer, render that custom page!
   // - If it has its own `sections`, render a full IamPregALHomePageStyle page (with optional Packet Language & Download Bar)!
   // - Otherwise render its Empty Home Page with Back button.
   if (activeEmptySubPage) {
+    if (typeof activeEmptySubPage.customPageRenderer === 'function') {
+      return activeEmptySubPage.customPageRenderer({
+        onBack: () => setActiveEmptySubPage(null),
+        openSubPage: (sub) => setActiveEmptySubPage(sub),
+        trPhrase,
+        rtl,
+        activeCode
+      });
+    }
     if (Array.isArray(activeEmptySubPage.sections) && activeEmptySubPage.sections.length > 0) {
       return h(IamPregALHomePageStyle, {
         pageId: activeEmptySubPage.pageId,
         title: activeEmptySubPage.title,
+        sourceSubtitle: activeEmptySubPage.sourceSubtitle || null,
+        hidePageTimeline: Boolean(activeEmptySubPage.hidePageTimeline),
         sections: activeEmptySubPage.sections,
         bottomSubPages: activeEmptySubPage.bottomSubPages || [],
         palette: activeEmptySubPage.palette || palette,
@@ -695,6 +720,7 @@ export function IamPregALHomePageStyle({
 </head>
 <body style="font-family:system-ui,-apple-system,sans-serif;background:${palette.pageBg};color:${palette.inkColor};max-width:780px;margin:0 auto;padding:28px;">
   <h1 style="color:${palette.headerDark};font-size:28px;border-bottom:3px solid ${palette.accentMedium};padding-bottom:12px;">${docTitle}</h1>
+  ${sourceSubtitle ? `<p style="color:${palette.accentMedium};font-size:13px;font-style:italic;margin-top:4px;margin-bottom:18px;">${trPhrase(sourceSubtitle)}</p>` : ''}
   ${sectionsHtml}
 </body>
 </html>`;
@@ -767,6 +793,15 @@ export function IamPregALHomePageStyle({
             },
             renderHighlightedText(trPhrase(title), searchQuery, matchCounterRef, activeMatchIndex)
           ),
+          sourceSubtitle &&
+            h(
+              'p',
+              {
+                className: 'text-xs sm:text-sm font-semibold italic -mt-1',
+                style: { color: palette.accentMedium }
+              },
+              trPhrase(sourceSubtitle)
+            ),
           showPacketLanguageBar &&
             h(
               'div',
@@ -995,16 +1030,18 @@ export function IamPregALHomePageStyle({
         )
       ),
 
-      // Main Long-Form Book-Wrap Body with Left Vertical Timeline Ribbon (Zero Chapters, Zero Numbers)
+      // Main Long-Form Book-Wrap Body (Supports both standard left timeline and selective per-section timeline)
       h(
         'div',
         {
-          className: 'relative mt-4 pl-6 sm:pl-9 space-y-10',
-          style: {
-            borderLeft: rtl ? 'none' : `4px solid ${palette.timelineLine}`,
-            borderRight: rtl ? `4px solid ${palette.timelineLine}` : 'none',
-            paddingRight: rtl ? '1.75rem' : undefined
-          }
+          className: hidePageTimeline ? 'relative mt-4 space-y-10' : 'relative mt-4 pl-6 sm:pl-9 space-y-10',
+          style: hidePageTimeline
+            ? undefined
+            : {
+                borderLeft: rtl ? 'none' : `4px solid ${palette.timelineLine}`,
+                borderRight: rtl ? `4px solid ${palette.timelineLine}` : 'none',
+                paddingRight: rtl ? '1.75rem' : undefined
+              }
         },
         sections.map((sec, idx) => {
           const floatRight = idx % 2 === 0;
@@ -1035,17 +1072,18 @@ export function IamPregALHomePageStyle({
               },
               className: 'relative scroll-mt-6'
             },
-            // Timeline Dot on the Left Ribbon
-            h('span', {
-              'aria-hidden': 'true',
-              className: 'w-4 h-4 rounded-full absolute top-1.5',
-              style: {
-                left: rtl ? undefined : '-33px',
-                right: rtl ? '-33px' : undefined,
-                backgroundColor: idx % 2 === 0 ? palette.headerDark : palette.accentMedium,
-                boxShadow: `0 0 0 3px ${palette.pageBg}`
-              }
-            }),
+            // Timeline Dot on the Left Ribbon (only when page timeline is active)
+            !hidePageTimeline &&
+              h('span', {
+                'aria-hidden': 'true',
+                className: 'w-4 h-4 rounded-full absolute top-1.5',
+                style: {
+                  left: rtl ? undefined : '-33px',
+                  right: rtl ? '-33px' : undefined,
+                  backgroundColor: idx % 2 === 0 ? palette.headerDark : palette.accentMedium,
+                  boxShadow: `0 0 0 3px ${palette.pageBg}`
+                }
+              }),
 
             // Unnumbered Section Heading
             h(
@@ -1090,8 +1128,139 @@ export function IamPregALHomePageStyle({
                   )
                 )
               ),
+              // Optional Sub-Category with Bold Name + Smaller Not-Bolded Explanation Sentence (e.g. Health Complications:)
+              Array.isArray(sec.detailedBullets) &&
+                sec.detailedBullets.length > 0 &&
+                h(
+                  'div',
+                  {
+                    className: 'mt-3 mb-4 p-4 rounded-2xl',
+                    style: {
+                      backgroundColor: palette.tintLight,
+                      border: `1.5px solid ${palette.timelineLine}`
+                    }
+                  },
+                  sec.subCategoryTitle &&
+                    h(
+                      'h3',
+                      {
+                        className: 'text-base sm:text-lg font-black mb-2.5',
+                        style: { color: palette.headerDark }
+                      },
+                      renderHighlightedText(
+                        trPhrase(sec.subCategoryTitle),
+                        searchQuery,
+                        matchCounterRef,
+                        activeMatchIndex
+                      )
+                    ),
+                  h(
+                    'ul',
+                    { className: 'list-disc pl-5 space-y-2.5' },
+                    sec.detailedBullets.map((b, bIdx) =>
+                      h(
+                        'li',
+                        { key: bIdx, style: { color: palette.inkColor } },
+                        h(
+                          'span',
+                          {
+                            className: 'font-black text-sm sm:text-base',
+                            style: { color: palette.headerDark }
+                          },
+                          renderHighlightedText(
+                            trPhrase(b.title),
+                            searchQuery,
+                            matchCounterRef,
+                            activeMatchIndex
+                          )
+                        ),
+                        ' ',
+                        h(
+                          'span',
+                          {
+                            className: 'font-normal text-xs sm:text-sm leading-relaxed',
+                            style: { color: palette.inkColor }
+                          },
+                          renderHighlightedText(
+                            trPhrase(b.description),
+                            searchQuery,
+                            matchCounterRef,
+                            activeMatchIndex
+                          )
+                        )
+                      )
+                    )
+                  )
+                ),
               h('div', { style: { clear: 'both' } })
-            )
+            ),
+
+            // Optional Dedicated Left Vertical Line + Round Bulbs Timeline (e.g. Abortion at Different Times of Pregnancy)
+            Array.isArray(sec.timelineBulbs) &&
+              sec.timelineBulbs.length > 0 &&
+              h(
+                'div',
+                {
+                  className: 'relative mt-4 pl-6 sm:pl-9 space-y-7',
+                  style: {
+                    borderLeft: rtl ? 'none' : `4px solid ${palette.timelineLine}`,
+                    borderRight: rtl ? `4px solid ${palette.timelineLine}` : 'none',
+                    paddingRight: rtl ? '1.75rem' : undefined
+                  }
+                },
+                sec.timelineBulbs.map((tb, tbIdx) =>
+                  h(
+                    'div',
+                    { key: tbIdx, className: 'relative' },
+                    h('span', {
+                      'aria-hidden': 'true',
+                      className: 'w-4 h-4 rounded-full absolute top-1.5',
+                      style: {
+                        left: rtl ? undefined : '-33px',
+                        right: rtl ? '-33px' : undefined,
+                        backgroundColor: tbIdx % 2 === 0 ? palette.headerDark : palette.accentMedium,
+                        boxShadow: `0 0 0 3px ${palette.pageBg}`
+                      }
+                    }),
+                    h(
+                      'h3',
+                      {
+                        className: 'text-base sm:text-lg font-black mb-1.5',
+                        style: { color: palette.headerDark }
+                      },
+                      renderHighlightedText(
+                        trPhrase(tb.heading),
+                        searchQuery,
+                        matchCounterRef,
+                        activeMatchIndex
+                      )
+                    ),
+                    (tb.paragraphs || []).map((p, pIdx) =>
+                      h(
+                        'p',
+                        {
+                          key: pIdx,
+                          className: 'text-sm sm:text-base font-semibold leading-relaxed mb-2.5',
+                          style: { color: palette.inkColor }
+                        },
+                        renderHighlightedText(
+                          trPhrase(p),
+                          searchQuery,
+                          matchCounterRef,
+                          activeMatchIndex
+                        )
+                      )
+                    )
+                  )
+                )
+              ),
+
+            // Optional Custom Section Content (such as Big GIF Buttons for Types of Abortions)
+            typeof sec.customContentRenderer === 'function' &&
+              sec.customContentRenderer({
+                trPhrase,
+                openSubPage: (sub) => setActiveEmptySubPage(sub)
+              })
           );
         })
       ),

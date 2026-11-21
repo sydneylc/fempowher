@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=263';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=264';
 import {
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderPrepPepShieldCartoonSvg,
   renderUequalsUArtCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=263';
+} from './FlyerCartoonIllustrations.js?v=264';
 
 export default function HIVHomePage1({
   onBack,
@@ -78,7 +78,7 @@ export default function HIVHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'HIVHomePage1',
     title: tr('eduBtnHIV', 'HIV'),
-    gifSrc: './assets/std-hiv.gif?v=263',
+    gifSrc: './assets/std-hiv.gif?v=264',
     // Bright Electric Violet-Purple background (#9333EA -> #6B21A8)
     bgGradient: 'linear-gradient(180deg, #9836F2 0%, #6D1EB0 100%)',
     bgColor: '#8129D0',

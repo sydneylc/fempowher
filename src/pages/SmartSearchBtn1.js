@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'https://esm.sh/react@18.3.1';
-import { ALL_NATIONS_ON_EARTH } from './DatabasePage1.js?v=263';
-import { isRtlLanguage } from '../data/translations.js?v=263';
+import { ALL_NATIONS_ON_EARTH } from './DatabasePage1.js?v=264';
+import { isRtlLanguage } from '../data/translations.js?v=264';
 
 const h = React.createElement;
 
@@ -1227,7 +1227,7 @@ export function SmartSearchBtn1({
       setTranslatedIndexTitles({});
       return;
     }
-    const cacheKey = `fempowher_smartsearch1_i18n_v263_${tlTarget}`;
+    const cacheKey = `fempowher_smartsearch1_i18n_v264_${tlTarget}`;
     try {
       const cached = localStorage.getItem(cacheKey);
       if (cached) {

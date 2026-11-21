@@ -1,11 +1,11 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=277';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=278';
 import {
   renderKegelExerciseTimerCartoonSvg,
   renderPelvicPessaryRingCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=277';
+} from './FlyerCartoonIllustrations.js?v=278';
 
 export default function ProlapseHomePage1({
   onBack,
@@ -81,7 +81,7 @@ export default function ProlapseHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'ProlapseHomePage1',
     title: tr('eduBtnProlapse', 'Prolapse'),
-    gifSrc: './assets/diseases-prolapse.gif?v=277',
+    gifSrc: './assets/diseases-prolapse.gif?v=278',
     bgGradient: 'linear-gradient(180deg, #8E2FF7 0%, #6817C2 100%)',
     bgColor: '#7B23DC',
     titleTintColor: '#E9D5FF',

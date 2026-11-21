@@ -2,9 +2,9 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=277';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=277';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=277';
+} from './PregnancyHomePage.js?v=278';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=278';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=278';
 
 const h = React.createElement;
 
@@ -214,104 +214,140 @@ export default function AbortionsHomePage1({
     return t[key] || fallback;
   };
 
-  // 6 Full-Width MakingGifButtons1 Rows (7 Distinct Solid-Shade Pink/Barbie-Pink/Berry Buttons with Zero White Divider Line)
+  // 6 Full-Width MakingGifButtons1 Rows (7 Distinct Solid-Shade Light Blue -> Periwinkle Lavender Buttons with Zero White Divider Line)
   const abortionButtons = [
     {
       id: 'abortion-what-is',
       label: tr('abortionBtnWhatIs', 'What Is an Abortion?'),
-      gifSrc: null,
-      // Tone 1: Soft Pastel Blush Pink (#FFD6EB) — flat solid color so button 1 is clearly distinct from button 2
+      gifSrc: './assets/abortion-what-is.gif?v=278',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 1: Soft Powder Sky Blue (#BAE6FD) — flat solid color
       backgroundStyle: {
-        backgroundColor: '#FFD6EB',
+        backgroundColor: '#BAE6FD',
         border: 'none'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+        color: '#1E3A8A',
+        textShadow: '0 1px 10px rgba(255, 255, 255, 0.94)'
       }
     },
     {
       id: 'abortion-safe-and-unsafe',
       label: tr('abortionBtnSafeAndUnsafe', 'Safe and Unsafe Abortion Care'),
-      gifSrc: null,
-      // Tone 2: Bubblegum Rose Pink (#FF9ECF) — flat solid color clearly distinct from Tone 1 and Tone 3
+      gifSrc: './assets/abortion-safe-and-unsafe.gif?v=278',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 2: Cornflower Sky Blue (#93C5FD) — flat solid color
       backgroundStyle: {
-        backgroundColor: '#FF9ECF',
+        backgroundColor: '#93C5FD',
         border: 'none'
       },
       textStyle: {
-        color: '#7C0A2B',
-        textShadow: '0 1px 8px rgba(255, 240, 248, 0.9)'
+        color: '#172554',
+        textShadow: '0 1px 10px rgba(240, 249, 255, 0.92)'
       }
     },
     {
       id: 'abortion-options',
       label: tr('abortionBtnOptions', 'What Are My Options?'),
-      gifSrc: null,
-      // Tone 3A (Left Half): Bright Barbie Pink (#FF5CA8) — flat solid color, no white line
+      gifSrc: './assets/abortion-options.gif?v=278',
+      imgClassName:
+        'h-[108%] sm:h-[116%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-56px',
+        marginRight: '-56px'
+      },
+      // Tone 3A (Left Half): Soft Periwinkle Blue (#818CF8) — flat solid color, no white line
       backgroundStyle: {
-        backgroundColor: '#FF5CA8',
+        backgroundColor: '#818CF8',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(122, 10, 62, 0.65)'
+        textShadow: '0 2px 10px rgba(30, 27, 75, 0.72)'
       },
       splitRightButton: {
         id: 'abortion-map',
         label: tr('abortionBtnMap', "FemPowHer's Abortion Map"),
         gifSrc: null,
-        // Tone 3B (Right Half): Vibrant Hot Barbie Pink (#E0218A) — distinct Barbie pink shade, no white line
+        // Tone 3B (Right Half — NO GIF as requested): Medium Periwinkle-Lavender (#6366F1)
         backgroundStyle: {
-          backgroundColor: '#E0218A',
+          backgroundColor: '#6366F1',
           border: 'none'
         },
         textStyle: {
           color: '#FFFFFF',
-          textShadow: '0 2px 10px rgba(96, 6, 52, 0.72)'
+          textShadow: '0 2px 10px rgba(30, 27, 75, 0.76)'
         }
       }
     },
     {
       id: 'abortion-recovery',
       label: tr('abortionBtnRecovery', 'I Just Had an Abortion: What Is Happening to My Body?'),
-      gifSrc: null,
-      // Tone 4: Rich Raspberry-Berry Pink (#C41864) — flat solid color
+      gifSrc: './assets/abortion-recovery.gif?v=278',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 4: Rich Periwinkle-Lavender (#7C6EE6) — flat solid color
       backgroundStyle: {
-        backgroundColor: '#C41864',
+        backgroundColor: '#7C6EE6',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(82, 6, 38, 0.72)'
+        textShadow: '0 2px 10px rgba(30, 20, 78, 0.76)'
       }
     },
     {
       id: 'abortion-emergency-care',
       label: tr('abortionBtnEmergencyCare', 'Emergency Post-Abortion Care & Danger Signs'),
-      gifSrc: null,
-      // Tone 5: Deep Crimson-Berry (#9A114B) — flat solid color
+      gifSrc: './assets/abortion-emergency-care.gif?v=278',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 5: Deep Periwinkle-Indigo Lavender (#5E50CE) — flat solid color
       backgroundStyle: {
-        backgroundColor: '#9A114B',
+        backgroundColor: '#5E50CE',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(56, 4, 24, 0.75)'
+        textShadow: '0 2px 10px rgba(24, 16, 68, 0.80)'
       }
     },
     {
       id: 'abortion-emotions-and-fertility',
       label: tr('abortionBtnEmotionsFertility', 'Emotional Care, Privacy & My Future Fertility'),
-      gifSrc: null,
-      // Tone 6: Deepest Maroon-Plum Berry (#6B0832) — flat solid color
+      gifSrc: './assets/abortion-emotions-fertility.gif?v=278',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 6: Deepest Royal Periwinkle-Lavender (#4338CA) — flat solid color
       backgroundStyle: {
-        backgroundColor: '#6B0832',
+        backgroundColor: '#4338CA',
         border: 'none'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(32, 2, 14, 0.8)'
+        textShadow: '0 2px 10px rgba(18, 12, 56, 0.84)'
       }
     }
   ];

@@ -1,6 +1,6 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=277';
-import { isRtlLanguage } from '../data/translations.js?v=277';
+import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=278';
+import { isRtlLanguage } from '../data/translations.js?v=278';
 
 const h = React.createElement;
 
@@ -552,24 +552,24 @@ export function PeriodBloodColorsBubble1({
       'div',
       {
         className:
-          'w-full rounded-[32px] border-[2.5px] border-black bg-[#FFF9FC] pt-6 pb-5 px-4 sm:px-6 shadow-md flex flex-col gap-3.5'
+          'w-full rounded-[28px] border-[2.5px] border-black bg-[#FFF9FC] pt-5 pb-4 px-3 sm:px-4 shadow-md flex flex-col gap-2.5'
       },
       h(
         'div',
-        { className: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5' },
+        { className: 'grid grid-cols-2 sm:grid-cols-5 gap-2.5 items-start' },
         periodBloodColorsList.map((colItem) =>
           h(
             'div',
             {
               key: colItem.id,
               className:
-                'p-3.5 rounded-2xl border-2 border-black bg-white flex flex-col justify-start gap-2.5 text-left min-w-0'
+                'p-2.5 rounded-2xl border-2 border-black bg-white flex flex-col items-center justify-start gap-2 text-left min-w-0'
             },
             h(
               'div',
               {
                 className:
-                  'w-full py-2 px-3 rounded-xl border-2 border-black text-xs sm:text-sm font-black text-center leading-tight break-words',
+                  'w-fit max-w-full mx-auto py-1.5 px-3 rounded-xl border-2 border-black text-xs sm:text-[13px] font-black text-center leading-tight break-words shadow-xs',
                 style: {
                   backgroundColor: colItem.hex,
                   color: colItem.textHex
@@ -579,7 +579,7 @@ export function PeriodBloodColorsBubble1({
             ),
             h(
               'div',
-              { className: 'text-xs font-bold text-black/85 leading-relaxed break-words' },
+              { className: 'w-full text-[11px] font-bold text-black/85 leading-snug break-words' },
               colItem.desc
             )
           )

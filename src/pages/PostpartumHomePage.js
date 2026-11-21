@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=281';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=281';
+} from './PregnancyHomePage.js?v=282';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=282';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
@@ -12,7 +12,7 @@ import {
   renderPartnerPillsCartoonSvg,
   renderPelvicPessaryRingCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=281';
+} from './FlyerCartoonIllustrations.js?v=282';
 
 const h = React.createElement;
 

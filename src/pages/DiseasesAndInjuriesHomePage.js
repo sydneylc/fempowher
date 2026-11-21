@@ -3,7 +3,7 @@ import {
   MakingGifButtons1,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=267';
+} from './PregnancyHomePage.js?v=268';
 
 const h = React.createElement;
 
@@ -25,96 +25,112 @@ export default function DiseasesAndInjuriesHomePage({
     return t[key] || fallback;
   };
 
-  // MakingGifButtons1 full-width buttons with a seamless Apricot-to-Coral-to-Mulberry ombré palette
-  // (#9F133A crisp lettering on lighter top bands with zero chalky glow, #FFFFFF on deeper bands)
+  // Expandable 12-stop Forest Green -> Emerald -> Teal -> Azure Blue button palette
+  // Each button uses a distinct solid tone + crisp bottom divider so every button is clearly its own button
+  // and new buttons can be added seamlessly along the Forest Green to Azure Blue spectrum.
+  const DISEASES_FOREST_TO_AZURE_PALETTE = [
+    '#14532D', // 1. Deep Forest Green
+    '#15803D', // 2. Rich Forest Emerald Green
+    '#0F766E', // 3. Deep Jade Teal-Green
+    '#0284C7', // 4. Vibrant Azure Blue
+    '#166534', // 5. Woodland Pine Green (for future buttons)
+    '#047857', // 6. Rich Emerald (for future buttons)
+    '#0D9488', // 7. Seafoam Teal (for future buttons)
+    '#0E7490', // 8. Deep Cyan-Azure (for future buttons)
+    '#0369A1', // 9. Ocean Azure Blue (for future buttons)
+    '#2563EB', // 10. Royal Azure Blue (for future buttons)
+    '#1D4ED8', // 11. Cobalt Azure Blue (for future buttons)
+    '#1E40AF'  // 12. Deep Sapphire Azure (for future buttons)
+  ];
+
   const diseasesBannerButtons = [
     {
       id: 'stds-diseases-banner-btn',
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=267',
+      gifSrc: './assets/sexual-health-stds.gif?v=268',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-20px',
         marginRight: '-16px'
       },
-      // Tone 1: Deep Mulberry-Berry -> Rich Mulberry-Rose (#A62655 -> #C43E6E)
+      // Tone 1: Deep Forest Green (#14532D)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #A62655 0%, #C43E6E 100%)',
-        border: 'none'
+        backgroundColor: DISEASES_FOREST_TO_AZURE_PALETTE[0],
+        borderBottom: '4px solid #FFFFFF'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 1px 6px rgba(72, 10, 34, 0.5)'
+        textShadow: '0 2px 8px rgba(6, 32, 16, 0.7)'
       },
       subTextStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 1px 6px rgba(72, 10, 34, 0.5)'
+        color: '#DCFCE7',
+        textShadow: '0 1px 6px rgba(6, 32, 16, 0.65)'
       }
     },
     {
       id: 'fistulas-diseases-banner-btn',
       label: tr('eduBtnFistulas', 'Fistulas'),
       targetPage: 'FistulasHomePage1',
-      gifSrc: './assets/diseases-fistulas.gif?v=267',
+      gifSrc: './assets/diseases-fistulas.gif?v=268',
       imgClassName:
         'h-[126%] sm:h-[134%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-86px',
         marginRight: '-86px'
       },
-      // Tone 2: Rich Mulberry-Rose -> Warm Coral (#C43E6E -> #FA9690)
+      // Tone 2: Rich Forest Emerald Green (#15803D)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #C43E6E 0%, #FA9690 100%)',
-        border: 'none'
+        backgroundColor: DISEASES_FOREST_TO_AZURE_PALETTE[1],
+        borderBottom: '4px solid #FFFFFF'
       },
       textStyle: {
         color: '#FFFFFF',
-        textShadow: '0 1px 6px rgba(138, 28, 56, 0.45)'
+        textShadow: '0 2px 8px rgba(6, 40, 20, 0.68)'
       }
     },
     {
       id: 'fibroids-diseases-banner-btn',
       label: tr('eduBtnFibroids', 'Fibroids'),
       targetPage: 'FibroidsHomePage1',
-      gifSrc: './assets/diseases-fibroids.gif?v=267',
+      gifSrc: './assets/diseases-fibroids.gif?v=268',
       imgClassName:
         'h-[154%] sm:h-[164%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-88px',
         marginRight: '-68px'
       },
-      // Tone 3: Warm Coral -> Soft Peach (#FA9690 -> #FFD3C2)
+      // Tone 3: Deep Jade Teal-Green (#0F766E)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FA9690 0%, #FFD3C2 100%)',
-        border: 'none'
+        backgroundColor: DISEASES_FOREST_TO_AZURE_PALETTE[2],
+        borderBottom: '4px solid #FFFFFF'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: 'none'
+        color: '#FFFFFF',
+        textShadow: '0 2px 8px rgba(6, 42, 40, 0.68)'
       }
     },
     {
       id: 'prolapse-diseases-banner-btn',
       label: tr('eduBtnProlapse', 'Prolapse'),
       targetPage: 'ProlapseHomePage1',
-      gifSrc: './assets/diseases-prolapse.gif?v=267',
+      gifSrc: './assets/diseases-prolapse.gif?v=268',
       imgClassName:
         'h-[148%] sm:h-[158%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
         marginLeft: '-86px',
         marginRight: '-86px'
       },
-      // Tone 4: Soft Peach -> Creamy Apricot (#FFD3C2 -> #FFF3EB)
+      // Tone 4: Vibrant Azure Blue (#0284C7)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFD3C2 0%, #FFF3EB 100%)',
-        border: 'none'
+        backgroundColor: DISEASES_FOREST_TO_AZURE_PALETTE[3],
+        borderBottom: '4px solid #FFFFFF'
       },
       textStyle: {
-        color: '#9F133A',
-        textShadow: 'none'
+        color: '#FFFFFF',
+        textShadow: '0 2px 8px rgba(7, 42, 74, 0.68)'
       }
     }
   ];

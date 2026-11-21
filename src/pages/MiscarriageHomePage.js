@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=252';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=253';
 
 const h = React.createElement;
 
@@ -146,8 +146,8 @@ function renderMiscarriagePhysicalCareCartoonSvg() {
   );
 }
 
-// 3. CDC Hear Her Urgent Maternal Warning Signs Cartoon
-function renderCdcHearHerWarningShieldCartoonSvg() {
+// 3. Urgent Physical Warning Signs Shield Cartoon
+function renderWarningShieldCartoonSvg() {
   return h(
     'svg',
     {
@@ -277,8 +277,7 @@ export default function MiscarriageHomePage({
     return t[key] || fallback;
   };
 
-  // 5 CDC-Grounded Sections (cdc.gov/reproductive-health & cdc.gov/hearher)
-  // Written at an accessible 5th-grade reading level with zero chapters, zero numbers, and zero em-dashes
+  // 5 Global Sections Written at an Accessible 5th-Grade Reading Level (Zero Chapter Numbers, Zero Em-Dashes)
   const sections = [
     {
       id: 'what-is-miscarriage',
@@ -287,8 +286,8 @@ export default function MiscarriageHomePage({
       gifSrc: null,
       cartoonRenderer: renderMiscarriageNotYourFaultCartoonSvg,
       paragraphs: [
-        'According to the Centers for Disease Control and Prevention (CDC), a miscarriage is the natural loss of a pregnancy before the 20th week of pregnancy. Most miscarriages happen during the first 12 weeks. Early pregnancy loss is very common and happens in about 1 out of every 4 known pregnancies.',
-        'Almost all early miscarriages happen because the fertilized egg had a random chromosome change that kept it from growing normally. A miscarriage is not caused by normal daily work, walking, carrying groceries, feeling stressed, crying, or eating normal food. Please know that you did not cause this loss, and you should never be blamed or ashamed.',
+        'A miscarriage is the natural loss of a pregnancy before the 20th week of pregnancy. Most miscarriages happen during the first 12 weeks. Early pregnancy loss is very common across the whole world and happens in about 1 out of every 4 known pregnancies.',
+        'Almost all early miscarriages happen because the fertilized egg had a random chromosome difference that kept it from growing normally. In rarer cases, an early loss happens because of a molar pregnancy (where placenta tissue grows abnormally instead of a normal embryo) or an ectopic pregnancy (where the fertilized egg implants outside the womb, usually in a Fallopian tube). A miscarriage is never caused by normal daily work, walking, carrying groceries, feeling stressed, crying, or eating normal food. Please know that you did not cause this loss, and you should never be blamed or ashamed.',
         'Even when a pregnancy ends early, your body and your heart went through a real loss. Some mothers feel deep sadness right away, while others feel shock, numbness, anger, or guilt. Every feeling you have is valid, and you deserve gentle care while you heal.'
       ]
     },
@@ -299,33 +298,33 @@ export default function MiscarriageHomePage({
       gifSrc: null,
       cartoonRenderer: renderMiscarriagePhysicalCareCartoonSvg,
       paragraphs: [
-        'During and after a miscarriage, your womb gently squeezes to empty its soft lining and return to its normal size. Public health guidance notes that it is normal to have vaginal bleeding, spotting, and belly cramps that feel like a heavy period for several days up to 2 weeks.',
-        'While your womb and cervix are closing, germs can travel up into the womb more easily. To prevent an infection, use clean period pads or clean folded cloths instead of tampons. Do not douche, do not swim in pools, and wait until all bleeding has completely stopped and your doctor or midwife says it is safe before having sex.',
+        'During and after a miscarriage, your womb gently squeezes to empty its soft lining and return to its normal size. It is normal to have vaginal bleeding, spotting, and belly cramps that feel like a heavy period for several days up to 2 weeks. Sometimes a miscarriage passes naturally at home, and other times a doctor or midwife gives medicine tablets or performs a gentle procedure to help empty the womb safely.',
+        'While your womb and cervix are closing, germs can travel up into the womb more easily. To prevent an infection, use clean period pads or clean folded cloths instead of tampons. Do not douche, do not put herbs or soaps inside the vagina, and wait until all bleeding has completely stopped and you feel ready before having sex.',
         'Drink plenty of clean water and eat foods rich in iron, such as beans, lentils, dark leafy greens, eggs, or meat, to help your body replace the blood it lost. Rest whenever you feel tired, and place a warm water bottle or warm cloth on your lower belly to ease cramps.'
       ]
     },
     {
-      id: 'cdc-hear-her-warning-signs',
-      keyLabel: 'CDC Warning Signs',
-      heading: 'CDC Hear Her Urgent Maternal Warning Signs After a Loss',
+      id: 'urgent-warning-signs',
+      keyLabel: 'Warning Signs',
+      heading: 'Urgent Physical Warning Signs to Watch For',
       gifSrc: null,
-      cartoonRenderer: renderCdcHearHerWarningShieldCartoonSvg,
+      cartoonRenderer: renderWarningShieldCartoonSvg,
       paragraphs: [
-        'Through its Hear Her maternal health campaign, the CDC reminds women and families that serious medical complications can happen during a miscarriage and in the weeks and months after a pregnancy ends. Trust your instincts when something feels wrong in your body.',
-        'Go to an emergency room or hospital on your FemPowHer map right away if you have heavy bleeding that soaks through more than 2 full pads an hour for 2 hours in a row, severe belly pain or sharp one-sided pain that medicine does not help, a fever of 100.4°F (38°C) or higher, or bad-smelling vaginal discharge.',
-        'The CDC Hear Her guidelines also urge you to get immediate medical care if you feel dizzy or faint, have a severe headache that will not go away, notice blurry vision, have chest pain or trouble breathing, or have thoughts of hurting yourself. Always tell the doctor or nurse clearly that you were recently pregnant and just had a miscarriage so they give you the right emergency care.'
+        'Serious medical complications such as heavy blood loss, retained tissue in the womb, or uterine infection can happen during a miscarriage or in the weeks after a pregnancy ends. Trust your instincts when something feels wrong in your body.',
+        'Go to an emergency hospital or maternity clinic on your FemPowHer map right away if you have heavy bleeding that soaks through more than 2 full pads an hour for 2 hours in a row, severe belly pain or sharp one-sided pain that medicine does not help, a fever of 100.4°F (38°C) or higher, chills, or bad-smelling vaginal discharge.',
+        'You should also get immediate medical care if you feel dizzy or faint, have a severe headache that will not go away, notice blurry vision, have chest pain or trouble breathing, or have thoughts of hurting yourself. Always tell the doctor, midwife, or nurse clearly that you were recently pregnant and just had a miscarriage so they give you the right emergency care.'
       ]
     },
     {
       id: 'emotional-healing-and-support',
       keyLabel: 'Grief & Support',
-      heading: 'Caring for Your Heart and Finding CDC Recommended Support',
+      heading: 'Waves of Grief, Hormone Drops, and Caring for Your Heart',
       gifSrc: null,
       cartoonRenderer: renderMiscarriageSupportCircleCartoonSvg,
       paragraphs: [
         'After a miscarriage, your pregnancy hormones drop quickly. This sudden hormone drop can make sadness, crying spells, trouble sleeping, and tiredness feel even stronger. Grief does not follow a straight line, and you do not have to hide your tears or pretend you are fine.',
-        'The CDC highlights that talking with people who understand pregnancy loss can keep you from feeling alone. Trusted bereavement organizations referenced in public health resources include Share Pregnancy and Infant Loss Support, the March of Dimes, and the MISS Foundation, along with local women’s clinics and safe havens on your FemPowHer map.',
-        'If your sadness or worry makes it hard to eat, sleep, or get through the day, or if you ever feel hopeless, free and private help is available 24 hours a day. In the United States and Canada, you can call or text the National Maternal Mental Health Hotline at 1-833-TLC-MAMA (1-833-852-6262) or call or text 988, or check the Emergency Contacts tab in FemPowHer for your country’s crisis line.'
+        'In many communities, early pregnancy loss is kept quiet, which can leave mothers feeling very lonely. Talking with a trusted friend, partner, midwife, or women’s support group who understands pregnancy loss can help lift that loneliness.',
+        'If your sadness or worry makes it hard to eat, sleep, or get through the day, or if you ever feel hopeless, you can use the FemPowHer map and the Emergency Contacts tab to find confidential women’s clinics, safe havens, and crisis support lines in your region.'
       ]
     },
     {
@@ -336,7 +335,7 @@ export default function MiscarriageHomePage({
       cartoonRenderer: renderFutureCycleHopeCartoonSvg,
       paragraphs: [
         'Your normal monthly period usually comes back 4 to 6 weeks after a miscarriage. However, your ovaries can release an egg as soon as 2 weeks after a miscarriage, even before your first period arrives. If you do not want to get pregnant right away while your body heals, ask your clinic about safe birth control options.',
-        'Having one miscarriage does not mean you cannot have a healthy baby in the future. Most women who have an early miscarriage go on to have a healthy pregnancy later. Before or after your recovery, you can visit an OB/GYN clinic or midwife to check your iron levels, check if you have Rh-negative blood (which may need a protective shot), and take a daily folic acid vitamin.',
+        'Having one miscarriage does not mean you cannot have a healthy baby in the future. Over 85% of women who experience an early miscarriage go on to have a healthy pregnancy later. You can visit a local OB/GYN clinic or midwife to check your iron levels, check if you have Rh-negative blood (which may need a protective injection), and take a daily folic acid vitamin.',
         'There is no single right time to try again once your body has healed. Some mothers want to try again soon, while others need months or years to grieve first. Listen to your own body and heart.'
       ]
     }

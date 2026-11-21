@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useMemo } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=285';
-import { isRtlLanguage } from '../data/translations.js?v=285';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=286';
+import { isRtlLanguage } from '../data/translations.js?v=286';
 import {
   ABORTION_MAP_CANVAS_WIDTH,
   ABORTION_MAP_CANVAS_HEIGHT,
@@ -8,7 +8,7 @@ import {
   ABORTION_ACCESS_LEVELS,
   ABORTION_MAP_COUNTRIES,
   ABORTION_MAP_SVG_POLYGONS
-} from '../data/abortionMapWorldData.js?v=285';
+} from '../data/abortionMapWorldData.js?v=286';
 
 const h = React.createElement;
 
@@ -634,63 +634,126 @@ export default function AbortionMapHomePage1({
       ),
 
     // ========================================================================
-    // TOP HEADER BAR
+    // TOP HEADER BAR: BIG TITLE + SMALL WHO DATABASE CREDIT + SEARCH BAR RIGHT UNDERNEATH
     // ========================================================================
     h(
       'div',
       {
+        onClick: (e) => e.stopPropagation(),
         className:
-          'w-full px-3 sm:px-6 pt-3 pb-2.5 border-b-2 border-black bg-white shrink-0 flex flex-wrap items-center justify-between gap-3'
+          'w-full px-3 sm:px-6 pt-3 pb-3.5 border-b-2 border-black bg-white shrink-0 flex flex-col gap-2.5'
       },
-      h('div', { className: 'shrink-0' }, renderSubpageBackButton(onBack, t, lang)),
+      // Top row: Back button on left + Big Title & small WHO database credit centered + WHO Table button on right
       h(
         'div',
-        { className: 'flex flex-col items-center text-center min-w-0 flex-1' },
+        { className: 'w-full flex items-start justify-between gap-3' },
+        h('div', { className: 'shrink-0 pt-0.5' }, renderSubpageBackButton(onBack, t, lang)),
         h(
-          'h1',
-          {
-            className: 'text-xl sm:text-3xl font-black tracking-tight leading-tight',
-            style: { color: '#9F133A' }
-          },
-          tr('abortionBtnMap', "FemPowHer's Abortion Map")
-        ),
-        h(
-          'p',
-          { className: 'text-xs sm:text-sm font-bold text-black/80 mt-0.5 max-w-2xl' },
-          tr(
-            'abortionMapSubtitle1',
-            'Hover over or tap any nation on the map (or any level in the Key) to see its abortion care accessibility level and legal protections.'
+          'div',
+          { className: 'flex flex-col items-center text-center min-w-0 flex-1' },
+          h(
+            'h1',
+            {
+              className: 'text-2xl sm:text-4xl font-black tracking-tight leading-tight',
+              style: { color: '#9F133A' }
+            },
+            tr('abortionBtnMap', "FemPowHer's Abortion Map")
+          ),
+          h(
+            'p',
+            {
+              className:
+                'text-[11px] sm:text-xs font-bold text-black/75 mt-0.5 leading-snug'
+            },
+            tr(
+              'abortionMapWhoThankYouCredit',
+              'Thank You to World Health Organization — Global Abortion Policies Database (exact database we used)'
+            )
           )
+        ),
+        // Right quick button to open the Saved WHO Excel Policy Dataset
+        h(
+          'button',
+          {
+            type: 'button',
+            onClick: () => {
+              setDatasetFilterCountry('');
+              setIsDatasetBubbleModalOpen(true);
+            },
+            className:
+              'px-2.5 sm:px-3 py-1.5 rounded-xl border-2 border-black bg-[#FFF5F7] hover:bg-[#FCE7EB] text-[10.5px] sm:text-xs font-black text-[#9F133A] shadow-sm cursor-pointer shrink-0'
+          },
+          tr('abortionMapOpenSavedDataTopBtn', 'WHO Policy Table')
         )
       ),
-      // Right quick button to open the Saved WHO Excel Policy Dataset
+
+      // Centered Search Bar right at the very top underneath the title & WHO credit
       h(
-        'button',
-        {
-          type: 'button',
-          onClick: () => {
-            setDatasetFilterCountry('');
-            setIsDatasetBubbleModalOpen(true);
-          },
+        'div',
+        { className: 'w-full max-w-xl mx-auto relative' },
+        h('input', {
+          type: 'text',
+          value: searchQuery,
+          onChange: (e) => setSearchQuery(e.target.value),
+          placeholder: tr(
+            'abortionMapSearchPlaceholder',
+            'Search any nation (e.g., Canada, Brazil, Poland, El Salvador)...'
+          ),
           className:
-            'px-3 py-1.5 rounded-xl border-2 border-black bg-[#FFF5F7] hover:bg-[#FCE7EB] text-xs font-black text-[#9F133A] shadow-sm cursor-pointer shrink-0'
-        },
-        tr('abortionMapOpenSavedDataTopBtn', 'WHO Policy Table (194 Nations)')
+            'w-full px-4 py-2 rounded-full border-2 border-black text-xs sm:text-sm font-bold text-black bg-[#FFF5F7]/60 focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#9F133A] shadow-sm text-center'
+        }),
+        searchMatches.length > 0 &&
+          h(
+            'div',
+            {
+              className:
+                'absolute start-0 top-full mt-1.5 w-full rounded-2xl border-2 border-black bg-white shadow-xl z-50 overflow-hidden'
+            },
+            searchMatches.map((c) => {
+              const lvlObj = levelByNum[c.level] || ABORTION_ACCESS_LEVELS[6];
+              return h(
+                'button',
+                {
+                  key: `search-match-${c.name}`,
+                  type: 'button',
+                  onClick: () => {
+                    setSearchQuery('');
+                    handleFocusCountry(c);
+                  },
+                  className:
+                    'w-full px-4 py-2 text-start text-xs sm:text-sm font-black text-black hover:bg-[#FFF5F7] border-b border-black/10 last:border-b-0 flex items-center justify-between gap-2 cursor-pointer'
+                },
+                h('span', { className: 'truncate' }, translateCountryName(c)),
+                h(
+                  'span',
+                  {
+                    className:
+                      'px-2.5 py-0.5 rounded-full border border-black text-[10.5px] font-black text-black shrink-0',
+                    style: { backgroundColor: lvlObj.colorHex }
+                  },
+                  `${tr('abortionMapLevelWord', 'Level')} ${c.level}`
+                )
+              );
+            })
+          )
       )
     ),
 
     // ========================================================================
-    // MAIN WORKSPACE: LEFT RAINBOW KEY (WITH SAVED EXCEL DATA BUBBLE AT BOTTOM) + RIGHT AZURE WORLD MAP
+    // MAIN WORKSPACE: LEFT RAINBOW KEY (ALWAYS ON THE LEFT NEXT TO THE MAP) + RIGHT AZURE WORLD MAP
     // ========================================================================
     h(
       'div',
       {
         className:
-          'w-full max-w-[1440px] mx-auto flex-1 flex flex-col lg:flex-row gap-3 sm:gap-4 p-3 sm:p-4 items-stretch'
+          'flex-1 w-full max-w-[1440px] mx-auto flex flex-row items-stretch gap-2.5 sm:gap-4 p-2 sm:p-4 bg-white relative'
       },
 
       // ======================================================================
-      // LEFT SIDEBAR: 10-LEVEL RAINBOW ACCESSIBILITY KEY + SAVED WHO EXCEL BUBBLE AT BOTTOM
+      // 1. VERTICAL KEY & FILTERS MENU ON THE LEFT (AbortionMapKeyAndFilters1)
+      // Modeled directly on CalendarKeyAndFilters1:
+      // - Compact (not expanded): shows ONLY the checkmark box + "Level 1" .. "Level 10"
+      // - Expanded: shows the full level title, scale note, Check All/Uncheck All, and description
       // ======================================================================
       h(
         'aside',
@@ -698,82 +761,97 @@ export default function AbortionMapHomePage1({
           id: 'AbortionMapKeyAndFilters1',
           onClick: (e) => e.stopPropagation(),
           style: {
-            width: isKeyExpanded ? '340px' : '256px',
-            maxWidth: '100%'
+            width: isKeyExpanded ? 'min(320px, 44vw)' : 'min(156px, 32vw)'
           },
           className:
-            'w-full lg:w-auto shrink-0 rounded-[24px] border-[2.5px] border-black bg-white p-3.5 flex flex-col justify-between transition-all duration-200 shadow-sm'
+            'rounded-2xl border-2 border-black bg-white flex flex-col justify-between p-2.5 sm:p-3 transition-all duration-200 shrink-0 shadow-sm'
         },
         h(
           'div',
-          { className: 'flex flex-col' },
-          // Key Title + Expand button
+          { className: 'flex flex-col gap-1.5' },
+          // Header: KEY + Expand/Compact button (exact match to Menstrual Cycle Key)
           h(
             'div',
-            { className: 'flex items-center justify-between gap-2 pb-2 mb-2 border-b-2 border-black' },
+            { className: 'flex items-center justify-between gap-1 border-b-2 border-black pb-2' },
             h(
-              'span',
-              { className: 'text-sm sm:text-base font-black tracking-wide text-black uppercase' },
-              tr('abortionMapKeyTitle', 'KEY (LEVELS 1 TO 10)')
+              'div',
+              { className: 'min-w-0' },
+              h(
+                'h2',
+                { className: 'text-sm sm:text-base font-black text-black uppercase tracking-wide truncate' },
+                tr('abortionMapKeyShortHeading', 'Key')
+              ),
+              isKeyExpanded &&
+                h(
+                  'p',
+                  { className: 'text-[10px] font-bold text-black/70 leading-tight' },
+                  tr('abortionMapKeyAndFiltersSub', 'Levels 1 to 10')
+                )
             ),
             h(
               'button',
               {
+                id: 'AbortionMapKeyExpandButton1',
                 type: 'button',
                 onClick: () => setIsKeyExpanded((v) => !v),
                 className:
-                  'px-2.5 py-1 rounded-lg border-[1.5px] border-black bg-white hover:bg-black/5 text-[11px] font-black text-black cursor-pointer shrink-0'
+                  'px-2 py-1 rounded-lg border-2 border-black bg-white hover:bg-black/5 text-[10px] sm:text-xs font-extrabold text-black cursor-pointer shrink-0',
+                title: isKeyExpanded
+                  ? tr('abortionMapKeyCompactBtn', 'Compact')
+                  : tr('abortionMapKeyExpandBtn', 'Expand')
               },
               isKeyExpanded
-                ? tr('abortionMapKeyCompactBtn', '← Compact')
-                : tr('abortionMapKeyExpandBtn', 'Expand →')
+                ? `⇤ ${tr('abortionMapKeyCompactWord', 'Compact')}`
+                : `${tr('abortionMapKeyExpandWord', 'Expand')} ⇥`
             )
           ),
 
-          // Scale legend header (Level 1 Most Allowed -> Level 10 Criminalized)
-          h(
-            'div',
-            {
-              className:
-                'flex items-center justify-between text-[10.5px] font-black text-black/80 px-1 mb-2'
-            },
-            h('span', { className: 'text-[#15803D]' }, tr('abortionMapKeyMostAllowed', '1 = Broadest Access')),
-            h('span', { className: 'text-[#991B1B]' }, tr('abortionMapKeyCriminalized', '10 = Criminalized'))
-          ),
-
-          // Show All / Hide All quick links
-          h(
-            'div',
-            { className: 'flex items-center justify-between gap-2 mb-2 px-1' },
+          // Scale legend & Check All / Uncheck All (only shown when Expanded so Compact stays super clean!)
+          isKeyExpanded &&
             h(
-              'button',
+              'div',
               {
-                type: 'button',
-                onClick: () => handleSelectAllLevels(true),
-                className: 'text-[10.5px] font-black underline text-black hover:text-[#9F133A] cursor-pointer'
+                className:
+                  'flex items-center justify-between text-[10px] font-black text-black/80 px-0.5 pt-0.5'
               },
-              tr('abortionMapShowAllLevels', 'Check All Levels')
+              h('span', { className: 'text-[#15803D]' }, tr('abortionMapKeyMostAllowed', '1 = Broadest Access')),
+              h('span', { className: 'text-[#991B1B]' }, tr('abortionMapKeyCriminalized', '10 = Criminalized'))
             ),
-            h(
-              'button',
-              {
-                type: 'button',
-                onClick: () => handleSelectAllLevels(false),
-                className: 'text-[10.5px] font-bold underline text-black/70 hover:text-black cursor-pointer'
-              },
-              tr('abortionMapClearLevels', 'Uncheck All')
-            )
-          ),
 
-          // 10 Rainbow Level Filter Pills
+          isKeyExpanded &&
+            h(
+              'div',
+              { className: 'flex items-center justify-between gap-2 px-0.5 pb-0.5' },
+              h(
+                'button',
+                {
+                  type: 'button',
+                  onClick: () => handleSelectAllLevels(true),
+                  className: 'text-[10px] font-black underline text-black hover:text-[#9F133A] cursor-pointer'
+                },
+                tr('abortionMapShowAllLevels', 'Check All Levels')
+              ),
+              h(
+                'button',
+                {
+                  type: 'button',
+                  onClick: () => handleSelectAllLevels(false),
+                  className: 'text-[10px] font-bold underline text-black/70 hover:text-black cursor-pointer'
+                },
+                tr('abortionMapClearLevels', 'Uncheck All')
+              )
+            ),
+
+          // 10 Rainbow Level Filter Pills (modeled directly on Cycle Calendar Key pills)
           h(
             'div',
-            { className: 'flex flex-col gap-1.5' },
+            { className: 'flex flex-col gap-1 pt-0.5' },
             ABORTION_ACCESS_LEVELS.map((lvlObj) => {
               const isChecked = visibleLevels[lvlObj.level] !== false;
-              const labelText = isKeyExpanded
+              const compactLevelOnlyLabel = `${tr('abortionMapLevelWord', 'Level')} ${lvlObj.level}`;
+              const displayLabel = isKeyExpanded
                 ? translateLevelTitle(lvlObj)
-                : translateLevelShortLabel(lvlObj);
+                : compactLevelOnlyLabel;
 
               return h(
                 'div',
@@ -783,44 +861,50 @@ export default function AbortionMapHomePage1({
                   onMouseLeave: scheduleHideWordBubble,
                   onClick: (e) => {
                     e.stopPropagation();
-                    handleToggleLevelFilter(lvlObj.level);
+                    showLevelKeyBubble(lvlObj, e.currentTarget, true);
                   },
-                  className: `w-full rounded-xl border-[1.5px] border-black px-2.5 py-1.5 flex items-center gap-2 cursor-pointer transition-transform hover:scale-[1.01] ${
-                    isChecked ? 'opacity-100' : 'opacity-45'
-                  }`,
-                  style: {
-                    backgroundColor: lvlObj.colorHex
-                  }
+                  className:
+                    'px-2 py-1 rounded-xl border border-black/35 bg-white hover:bg-black/[0.03] flex flex-col gap-0.5 cursor-pointer transition-colors'
                 },
-                // Checkbox square
-                h(
-                  'span',
-                  {
-                    className:
-                      'w-4 h-4 rounded border-[1.5px] border-black bg-white flex items-center justify-center text-[11px] font-black text-black shrink-0'
-                  },
-                  isChecked ? '✓' : ''
-                ),
-                // Black readable text on every single rainbow level color
                 h(
                   'div',
-                  { className: 'flex-1 min-w-0' },
+                  { className: 'flex items-center gap-2' },
+                  // Colored Checkmark Square (toggles filter when clicked)
                   h(
-                    'div',
+                    'button',
                     {
-                      className: `text-[11.5px] font-black text-black leading-tight ${
+                      type: 'button',
+                      onClick: (e) => {
+                        e.stopPropagation();
+                        handleToggleLevelFilter(lvlObj.level);
+                      },
+                      className:
+                        'w-3.5 h-3.5 rounded-[4px] shrink-0 cursor-pointer flex items-center justify-center text-[9px] font-black leading-none text-black',
+                      style: {
+                        backgroundColor: isChecked ? lvlObj.colorHex : '#FFFFFF',
+                        border: `1.5px solid ${lvlObj.borderHex || '#000000'}`
+                      },
+                      title: displayLabel
+                    },
+                    isChecked ? '✓' : ''
+                  ),
+                  // Label: When NOT expanded, shows ONLY "Level 1" .. "Level 10"
+                  h(
+                    'span',
+                    {
+                      className: `text-[10.5px] sm:text-xs font-extrabold text-black leading-tight ${
                         isKeyExpanded ? '' : 'truncate'
                       }`
                     },
-                    labelText
-                  ),
-                  isKeyExpanded &&
-                    h(
-                      'p',
-                      { className: 'text-[10px] font-bold text-black/85 leading-snug mt-0.5' },
-                      translateLevelDescription(lvlObj)
-                    )
-                )
+                    displayLabel
+                  )
+                ),
+                isKeyExpanded &&
+                  h(
+                    'p',
+                    { className: 'text-[9.5px] font-bold text-black/75 ps-5 leading-snug' },
+                    translateLevelDescription(lvlObj)
+                  )
               );
             })
           )
@@ -833,8 +917,7 @@ export default function AbortionMapHomePage1({
           'div',
           {
             id: 'AbortionMapSavedExcelDataKeyBubble1',
-            className:
-              'mt-3 pt-3 border-t-2 border-black flex flex-col gap-2'
+            className: 'mt-2 pt-2 border-t border-black/30 flex flex-col gap-1.5'
           },
           h(
             'div',
@@ -844,40 +927,27 @@ export default function AbortionMapHomePage1({
                 setIsDatasetBubbleModalOpen(true);
               },
               className:
-                'w-full rounded-2xl border-2 border-black bg-[#FFF5F7] hover:bg-[#FCE7EB] p-3 cursor-pointer transition-all shadow-sm flex flex-col items-center text-center'
+                'w-full rounded-xl border-2 border-black bg-[#FFF5F7] hover:bg-[#FCE7EB] p-2 cursor-pointer transition-all shadow-sm flex flex-col items-center text-center'
             },
             h(
-              'span',
-              {
-                className:
-                  'px-2 py-0.5 rounded-full border border-black bg-white text-[9.5px] font-black uppercase tracking-wider text-[#9F133A] mb-1'
-              },
-              tr('abortionMapSavedDatasetBadge', 'Saved WHO Excel Dataset')
-            ),
-            h(
               'div',
-              { className: 'text-xs sm:text-[13px] font-black text-black leading-snug' },
-              tr(
-                'abortionMapSavedDatasetBubbleTitle',
-                'Additional Legal & Policy Sources Archive'
-              )
+              { className: 'text-[10px] sm:text-[11px] font-black text-[#9F133A] leading-tight' },
+              isKeyExpanded
+                ? tr(
+                    'abortionMapSavedDatasetBubbleTitle',
+                    'Saved WHO Legal & Policy Excel Dataset'
+                  )
+                : tr('abortionMapSavedDatasetCompactBtn', 'WHO Excel Data')
             ),
-            h(
-              'p',
-              { className: 'text-[10.5px] font-bold text-black/75 leading-tight mt-1' },
-              tr(
-                'abortionMapSavedDatasetBubbleDesc',
-                'All 15 WHO legal columns (Constitution, Penal Code, Clinical Guidelines, EML, Funding, Sub-Regions & more) saved for reference.'
+            isKeyExpanded &&
+              h(
+                'p',
+                { className: 'text-[9.5px] font-bold text-black/75 leading-tight mt-0.5' },
+                tr(
+                  'abortionMapSavedDatasetBubbleDesc',
+                  'All 15 WHO legal columns & 89 sub-regions saved for reference.'
+                )
               )
-            ),
-            h(
-              'span',
-              {
-                className:
-                  'mt-2 px-3 py-1 rounded-xl border-[1.5px] border-black bg-white text-[11px] font-black text-black'
-              },
-              tr('abortionMapSavedDatasetOpenBtn', 'Open Saved Legal Table →')
-            )
           )
         )
       ),
@@ -891,62 +961,14 @@ export default function AbortionMapHomePage1({
           className: 'flex-1 min-w-0 flex flex-col gap-3'
         },
 
-        // Top Map Toolbar: Search Country + Region Quick-Jump Buttons + Zoom Controls
+        // Top Map Toolbar: Region Quick-Jump Buttons + Zoom Controls
         h(
           'div',
           {
             onClick: (e) => e.stopPropagation(),
             className:
-              'w-full rounded-2xl border-2 border-black bg-white p-2.5 sm:p-3 flex flex-wrap items-center justify-between gap-2 shadow-sm'
+              'w-full rounded-2xl border-2 border-black bg-white p-2 sm:p-2.5 flex flex-wrap items-center justify-between gap-2 shadow-sm'
           },
-
-          // Country Search input with instant dropdown
-          h(
-            'div',
-            { className: 'relative w-full sm:w-64' },
-            h('input', {
-              type: 'text',
-              value: searchQuery,
-              onChange: (e) => setSearchQuery(e.target.value),
-              placeholder: tr('abortionMapSearchPlaceholder', 'Search any nation (e.g., Canada, Brazil, Poland)...'),
-              className:
-                'w-full px-3 py-1.5 rounded-xl border-[1.5px] border-black text-xs font-bold text-black bg-white focus:outline-none focus:ring-2 focus:ring-[#9F133A]'
-            }),
-            searchMatches.length > 0 &&
-              h(
-                'div',
-                {
-                  className:
-                    'absolute start-0 top-full mt-1 w-full rounded-xl border-2 border-black bg-white shadow-xl z-50 overflow-hidden'
-                },
-                searchMatches.map((c) => {
-                  const lvlObj = levelByNum[c.level] || ABORTION_ACCESS_LEVELS[6];
-                  return h(
-                    'button',
-                    {
-                      key: `search-match-${c.name}`,
-                      type: 'button',
-                      onClick: () => {
-                        setSearchQuery('');
-                        handleFocusCountry(c);
-                      },
-                      className:
-                        'w-full px-3 py-2 text-start text-xs font-black text-black hover:bg-[#FFF5F7] border-b border-black/10 last:border-b-0 flex items-center justify-between gap-2 cursor-pointer'
-                    },
-                    h('span', { className: 'truncate' }, translateCountryName(c)),
-                    h(
-                      'span',
-                      {
-                        className:
-                          'px-2 py-0.5 rounded-full border border-black text-[10px] font-black text-black shrink-0',
-                        style: { backgroundColor: lvlObj.colorHex }
-                      },
-                      `L${c.level}`
-                    )
-                  );
-                })
-              )
-          ),
 
           // Continent / Region Quick-Zoom Buttons
           h(

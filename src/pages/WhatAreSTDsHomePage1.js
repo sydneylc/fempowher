@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=266';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=267';
 import {
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderPrepPepShieldCartoonSvg,
   renderSilentInfectionCartoonSvg,
   renderVaccineShieldCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=266';
+} from './FlyerCartoonIllustrations.js?v=267';
 
 export default function WhatAreSTDsHomePage1({
   onBack,
@@ -81,7 +81,7 @@ export default function WhatAreSTDsHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'WhatAreSTDsHomePage1',
     title: tr('stdMenuBtnWhatAre', 'What are STDs & how do I protect myself?'),
-    gifSrc: './assets/sexual-health-stds.gif?v=266',
+    gifSrc: './assets/sexual-health-stds.gif?v=267',
     bgGradient: 'linear-gradient(180deg, #10B981 0%, #059669 100%)',
     bgColor: '#0E9F6E',
     titleTintColor: '#C6FCEC',

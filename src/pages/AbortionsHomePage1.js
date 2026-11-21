@@ -2,9 +2,9 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=272';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=272';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=272';
+} from './PregnancyHomePage.js?v=273';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=273';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=273';
 
 const h = React.createElement;
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'https://esm.sh/react@18.3.1';
-import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=272';
-import { isRtlLanguage } from '../data/translations.js?v=272';
+import { renderEducationIssueCards, renderSubpageBackButton } from './PregnancyHomePage.js?v=273';
+import { isRtlLanguage } from '../data/translations.js?v=273';
 
 const h = React.createElement;
 
@@ -374,7 +374,7 @@ export function PeriodProductsBigBubble1({
       // Product illustration box + Simple 5th-grade step-by-step instructions
       h(
         'div',
-        { className: 'flex flex-col sm:flex-row items-center sm:items-stretch gap-4' },
+        { className: 'flex flex-col sm:flex-row items-center sm:items-start gap-4' },
         h(
           'div',
           {
@@ -390,7 +390,7 @@ export function PeriodProductsBigBubble1({
         ),
         h(
           'div',
-          { className: 'flex-1 flex flex-col justify-center space-y-2' },
+          { className: 'flex-1 min-w-[220px] flex flex-col justify-center space-y-2' },
           h(
             'h3',
             { className: 'text-sm sm:text-base font-black text-[#9F133A]' },
@@ -459,6 +459,136 @@ export function PeriodProductsBigBubble1({
   );
 }
 
+// ============================================================================
+// PeriodBloodColorsBubble1 — "What Do Period Blood Colors Mean?" full-width
+// overhanging-pill bubble placed directly underneath PeriodProductsBigBubble1
+// in FirstPeriodHomePage.js (matching MyCycleSubHomePage.js).
+// ============================================================================
+export function PeriodBloodColorsBubble1({
+  UserLanguageChoice1 = null,
+  t = {}
+}) {
+  const tr = (key, fallback) => {
+    if (UserLanguageChoice1 && typeof UserLanguageChoice1.translate === 'function') {
+      return UserLanguageChoice1.translate(key, t[key] || fallback);
+    }
+    return t[key] || fallback;
+  };
+
+  const periodBloodColorsList = [
+    {
+      id: 'bright-red',
+      name: tr('bloodColBrightRedName', 'Bright Red'),
+      hex: '#EF233C',
+      textHex: '#FFFFFF',
+      desc: tr(
+        'bloodColBrightRedDesc',
+        'Fresh blood flowing quickly from your womb. This is very normal on your heavier bleeding days (usually Days 1, 2, and 3 of your period).'
+      )
+    },
+    {
+      id: 'dark-red',
+      name: tr('bloodColDarkRedName', 'Dark Red / Plum'),
+      hex: '#800F2F',
+      textHex: '#FFFFFF',
+      desc: tr(
+        'bloodColDarkRedDesc',
+        'Normal period blood that sat inside your womb for a few hours before coming out (especially common when you first wake up in the morning). Small coin-sized jelly drops are normal too.'
+      )
+    },
+    {
+      id: 'brown-rust',
+      name: tr('bloodColBrownName', 'Brown / Rust'),
+      hex: '#7F4F24',
+      textHex: '#FFFFFF',
+      desc: tr(
+        'bloodColBrownDesc',
+        'When blood touches air, it turns brown! You will often see brown blood on the very first day or the last 1 to 2 days of your period as older blood finishes leaving your womb.'
+      )
+    },
+    {
+      id: 'light-pink',
+      name: tr('bloodColPinkName', 'Light Pink'),
+      hex: '#FF8FA3',
+      textHex: '#000000',
+      desc: tr(
+        'bloodColPinkDesc',
+        'A tiny drop of red blood mixed with your natural clear vaginal wetness. Common at the very start or end of your period, or for 1 day when an egg comes out at ovulation.'
+      )
+    },
+    {
+      id: 'gray-orange',
+      name: tr('bloodColGrayName', 'Gray or Bad Smell'),
+      hex: '#6C757D',
+      textHex: '#FFFFFF',
+      desc: tr(
+        'bloodColGrayDesc',
+        'Gray discharge, green or yellow fluid, itching, burning, or a strong fishy or rotten smell is NOT normal period blood. It can mean an infection that a clinic can easily treat with medicine.'
+      )
+    }
+  ];
+
+  return h(
+    'div',
+    {
+      id: 'PeriodBloodColorsBubble1',
+      'data-piece-name': 'PeriodBloodColorsBubble1',
+      className: 'w-full flex flex-col items-stretch mb-6 select-none'
+    },
+    h(
+      'div',
+      {
+        className:
+          'w-full px-4 py-2.5 rounded-2xl border-[2.5px] border-black bg-white shadow-sm z-10 flex items-center justify-center text-center',
+        style: { marginBottom: '-8px' }
+      },
+      h(
+        'span',
+        { className: 'text-sm sm:text-base font-extrabold text-black leading-tight' },
+        tr('periodBloodColorsBubbleTitleClean', 'What Do Period Blood Colors Mean?')
+      )
+    ),
+    h(
+      'div',
+      {
+        className:
+          'w-full rounded-[32px] border-[2.5px] border-black bg-[#FFF9FC] pt-6 pb-5 px-4 sm:px-6 shadow-md flex flex-col gap-3.5'
+      },
+      h(
+        'div',
+        { className: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5' },
+        periodBloodColorsList.map((colItem) =>
+          h(
+            'div',
+            {
+              key: colItem.id,
+              className:
+                'p-3.5 rounded-2xl border-2 border-black bg-white flex flex-col justify-start gap-2.5 text-left min-w-0'
+            },
+            h(
+              'div',
+              {
+                className:
+                  'w-full py-2 px-3 rounded-xl border-2 border-black text-xs sm:text-sm font-black text-center leading-tight break-words',
+                style: {
+                  backgroundColor: colItem.hex,
+                  color: colItem.textHex
+                }
+              },
+              colItem.name
+            ),
+            h(
+              'div',
+              { className: 'text-xs font-bold text-black/85 leading-relaxed break-words' },
+              colItem.desc
+            )
+          )
+        )
+      )
+    )
+  );
+}
+
 export default function FirstPeriodHomePage({
   onBack,
   issues = [],
@@ -486,7 +616,7 @@ export default function FirstPeriodHomePage({
     },
     h(
       'div',
-      { className: 'max-w-3xl w-full mx-auto' },
+      { className: 'max-w-5xl w-full mx-auto' },
       renderSubpageBackButton(onBack, t, lang),
       h(
         'h1',
@@ -497,8 +627,14 @@ export default function FirstPeriodHomePage({
         tr('cycleBtnFirstPeriod', 'I got my first period!')
       ),
 
-      // Top of "I got my first period!" page: Period Products Big Bubble
+      // 1. Top of "I got my first period!" page: Period Products Big Bubble
       h(PeriodProductsBigBubble1, {
+        UserLanguageChoice1,
+        t
+      }),
+
+      // 2. Directly underneath Period Products: "What Do Period Blood Colors Mean?" Bubble
+      h(PeriodBloodColorsBubble1, {
         UserLanguageChoice1,
         t
       }),

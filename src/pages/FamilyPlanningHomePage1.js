@@ -2,15 +2,15 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=272';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=272';
-import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=272';
+} from './PregnancyHomePage.js?v=273';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=273';
+import { consumePendingEducationSubPage } from './SmartSearchBtn1.js?v=273';
 import {
   renderCervixPapScreenCartoonSvg,
   renderPartnerPillsCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderThreeMonthRetestCalendarSvg
-} from './FlyerCartoonIllustrations.js?v=272';
+} from './FlyerCartoonIllustrations.js?v=273';
 
 const h = React.createElement;
 
@@ -38,7 +38,7 @@ export default function FamilyPlanningHomePage1({
     {
       id: 'fp-my-family-planning',
       label: tr('fpBtnMyFamilyPlanning', 'My Family Planning'),
-      gifSrc: './assets/fp-my-family-planning.gif?v=272',
+      gifSrc: './assets/fp-my-family-planning.gif?v=273',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -58,7 +58,7 @@ export default function FamilyPlanningHomePage1({
       id: 'fp-contraception-for-me',
       label: tr('fpBtnContraceptionForMe', 'My Birth Control & Contraception Options'),
       targetPage: 'ForMeHomePage',
-      gifSrc: './assets/fp-contraception-for-me.gif?v=272',
+      gifSrc: './assets/fp-contraception-for-me.gif?v=273',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -77,7 +77,7 @@ export default function FamilyPlanningHomePage1({
     {
       id: 'fp-emergency-contraception',
       label: tr('fpBtnEmergencyContraception', 'Emergency Contraceptions & Options'),
-      gifSrc: './assets/fp-emergency-contraception.gif?v=272',
+      gifSrc: './assets/fp-emergency-contraception.gif?v=273',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -96,7 +96,7 @@ export default function FamilyPlanningHomePage1({
     {
       id: 'fp-healthy-pregnancy-spacing',
       label: tr('fpBtnPregnancySpacing', 'Healthy Spacing Between Pregnancies'),
-      gifSrc: './assets/fp-healthy-pregnancy-spacing.gif?v=272',
+      gifSrc: './assets/fp-healthy-pregnancy-spacing.gif?v=273',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -116,7 +116,7 @@ export default function FamilyPlanningHomePage1({
       id: 'fp-preconception',
       label: tr('eduBtnPreConception', 'Pre-Conception (Planning for a Baby)'),
       targetPage: 'PreConceptionHomePage',
-      gifSrc: './assets/fp-preconception.gif?v=272',
+      gifSrc: './assets/fp-preconception.gif?v=273',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -136,7 +136,7 @@ export default function FamilyPlanningHomePage1({
       id: 'fp-for-loved-one',
       label: tr('eduBtnForLovedOne', 'For a Loved One (Supporting a Partner, Sister, or Friend)'),
       targetPage: 'ForALovedOneHomePage',
-      gifSrc: './assets/fp-for-loved-one.gif?v=272',
+      gifSrc: './assets/fp-for-loved-one.gif?v=273',
       imgClassName:
         'h-[118%] sm:h-[126%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -158,7 +158,7 @@ export default function FamilyPlanningHomePage1({
     'fp-my-family-planning': {
       pageId: 'MyFamilyPlanningHomePage1',
       title: tr('fpBtnMyFamilyPlanning', 'My Family Planning'),
-      gifSrc: './assets/fp-my-family-planning.gif?v=272',
+      gifSrc: './assets/fp-my-family-planning.gif?v=273',
       bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1D4ED8 100%)',
       bgColor: '#2057E0',
       titleTintColor: '#CFE2FF',
@@ -184,7 +184,7 @@ export default function FamilyPlanningHomePage1({
     'fp-emergency-contraception': {
       pageId: 'EmergencyContraceptionHomePage1',
       title: tr('fpBtnEmergencyContraception', 'Emergency Contraceptions & Options'),
-      gifSrc: './assets/fp-emergency-contraception.gif?v=272',
+      gifSrc: './assets/fp-emergency-contraception.gif?v=273',
       bgGradient: 'linear-gradient(180deg, #E11D48 0%, #BE123C 100%)',
       bgColor: '#D41742',
       titleTintColor: '#FFC9D6',
@@ -208,7 +208,7 @@ export default function FamilyPlanningHomePage1({
     'fp-healthy-pregnancy-spacing': {
       pageId: 'HealthyPregnancySpacingHomePage1',
       title: tr('fpBtnPregnancySpacing', 'Healthy Spacing Between Pregnancies'),
-      gifSrc: './assets/fp-healthy-pregnancy-spacing.gif?v=272',
+      gifSrc: './assets/fp-healthy-pregnancy-spacing.gif?v=273',
       bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
       bgColor: '#0E857B',
       titleTintColor: '#CCFBF1',

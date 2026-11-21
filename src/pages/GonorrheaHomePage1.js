@@ -1,12 +1,12 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=272';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=273';
 import {
   renderBurningUrinationCartoonSvg,
   renderClinicInjectionCartoonSvg,
   renderDiplococciMicroscopeCartoonSvg,
   renderPregnantLadyHeadingIcon,
   renderUterusFallopianPidCartoonSvg
-} from './FlyerCartoonIllustrations.js?v=272';
+} from './FlyerCartoonIllustrations.js?v=273';
 
 export default function GonorrheaHomePage1({
   onBack,
@@ -81,7 +81,7 @@ export default function GonorrheaHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'GonorrheaHomePage1',
     title: tr('eduBtnGonorrhea', 'Gonorrhea'),
-    gifSrc: './assets/std-gonorrhea.gif?v=272',
+    gifSrc: './assets/std-gonorrhea.gif?v=273',
     bgGradient: 'linear-gradient(180deg, #22A2FE 0%, #0D6FE8 100%)',
     bgColor: '#1586F4',
     titleTintColor: '#C9EBFF',

@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=259';
-import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=259';
+} from './PregnancyHomePage.js?v=260';
+import { IamPregALHomePageStyle } from './PregnancyAfterLossHomePage.js?v=260';
 
 const h = React.createElement;
 
@@ -312,72 +312,77 @@ export default function AbortionsHomePage1({
       },
       sections: [
         {
-          id: 'what-is-an-abortion-general-rundown',
-          keyLabel: 'General Rundown',
-          heading: 'What Is an Abortion? A General Rundown',
+          id: 'what-is-an-abortion-definition',
+          keyLabel: 'What Is an Abortion',
+          heading: 'What Is an Abortion?',
           gifSrc: null,
           cartoonRenderer: () => renderSafeMedicalCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
           paragraphs: [
-            'In medicine and healthcare around the world, an abortion is the ending of a pregnancy before the fetus can survive on its own outside the womb. In everyday conversation, most people use the word "abortion" to mean choosing to end a pregnancy with medicine tablets or a clinic procedure, while doctors, midwives, and hospital charts also use the word "abortion" for natural miscarriages and emergency pregnancy care.',
-            'Understanding the different medical words and types of abortion helps remove confusion or fear if you ever see these terms written on a hospital discharge paper, an ultrasound report, or a clinic chart. Around the world, ending a pregnancy is a very common part of reproductive healthcare: about 73 million induced abortions take place globally each year (nearly 3 out of every 10 pregnancies), alongside millions of natural miscarriages.',
-            'Below are the main types of abortion and the different medical and everyday terms used to describe them:'
+            'An abortion is a medical process or procedure that ends a pregnancy by emptying the embryo or fetus and pregnancy lining from the womb (uterus) so that the pregnancy does not result in a birth.',
+            'Ending a pregnancy is a very common part of women’s healthcare around the world. Every year, about 73 million induced abortions take place globally. About 6 out of every 10 unintended pregnancies (61%), and nearly 3 out of every 10 of all pregnancies worldwide (29%), end in an induced abortion.',
+            'Comprehensive abortion care is an essential healthcare service that includes three parts: giving accurate medical information, safely ending a pregnancy or managing a pregnancy loss, and providing post-abortion care and family planning.'
           ]
         },
         {
-          id: 'type-spontaneous-abortion',
-          keyLabel: 'Spontaneous Abortion (Miscarriage)',
-          heading: 'Spontaneous Abortion (Natural Miscarriage)',
-          gifSrc: null,
-          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
-          paragraphs: [
-            '• Spontaneous Abortion (Natural Miscarriage)',
-            '• Threatened Abortion  • Inevitable Abortion  • Incomplete Abortion  • Complete Abortion  • Missed Abortion (Silent Miscarriage)  • Septic Abortion  • Recurrent Spontaneous Abortion'
-          ]
-        },
-        {
-          id: 'type-induced-and-elective-abortion',
-          keyLabel: 'Induced / Elective Abortion',
-          heading: 'Induced Abortion (Elective or Voluntary Abortion)',
-          gifSrc: null,
-          cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
-          paragraphs: [
-            '• Induced Abortion',
-            '• Elective Abortion (Voluntary Abortion)'
-          ]
-        },
-        {
-          id: 'type-therapeutic-medically-indicated-abortion',
-          keyLabel: 'Therapeutic (Medically Indicated)',
-          heading: 'Therapeutic Abortion (Medically Indicated or Life-Saving Abortion)',
-          gifSrc: null,
-          cartoonRenderer: () => renderEmergencyCrossShieldCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
-          paragraphs: [
-            '• Therapeutic Abortion (Medically Indicated Abortion)',
-            '• Maternal Life-Saving or Health-Preserving Termination of Pregnancy'
-          ]
-        },
-        {
-          id: 'type-medication-vs-procedural-abortion',
-          keyLabel: 'Medication vs. Procedural Types',
-          heading: 'Medication Abortion (Medical) vs. Procedural Abortion (Surgical / In-Clinic)',
+          id: 'how-an-abortion-works',
+          keyLabel: 'How the Procedure Works',
+          heading: 'How an Abortion Works in Your Body',
           gifSrc: null,
           cartoonRenderer: () => renderMedicationTabletsCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
           paragraphs: [
-            '• Medication Abortion (Medical Abortion with Pills: Mifepristone & Misoprostol or Misoprostol-Only)',
-            '• Procedural / Surgical Abortion: Vacuum Aspiration (Manual Vacuum Aspiration / MVA or Electric Vacuum Aspiration / EVA), Dilation and Evacuation (D&E), and Medical Induction of Labor'
+            'There are two safe medical ways an abortion empties the womb: using prescription medication tablets or having a short procedure in a clinic or hospital.',
+            'In a medication abortion, you take two prescription medicines (mifepristone followed 24 to 48 hours later by misoprostol, or misoprostol alone if mifepristone is not available). Mifepristone blocks the hormone progesterone that holds the pregnancy lining inside the womb. Misoprostol softens the cervix and causes the womb muscle to cramp and push out the pregnancy tissue and blood through the vagina, just like a heavy period or natural miscarriage.',
+            'In a procedural (in-clinic) abortion, a trained doctor, midwife, or nurse numbs the cervix with local numbing medicine and gently empties the womb inside a clinic. In early pregnancy, this is done with vacuum aspiration, where a thin, soft plastic tube uses gentle suction to clear the womb in 5 to 10 minutes.'
+          ]
+        },
+        {
+          id: 'when-an-abortion-can-happen',
+          keyLabel: 'When It Can Happen',
+          heading: 'When in Pregnancy an Abortion Can Happen',
+          gifSrc: null,
+          cartoonRenderer: () => renderFertilityCycleCalendarCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          paragraphs: [
+            'Pregnancy weeks are counted from the first day of your last normal menstrual period. Most abortions happen during the first 12 weeks of pregnancy (the first trimester). During the first 12 weeks, a woman can safely use medication tablets (including taking the tablets at home when she has quality medicine, clear instructions, and access to medical support if needed) or have a 5-to-10-minute vacuum aspiration procedure at a clinic.',
+            'An abortion can also be performed after 12 to 14 weeks of pregnancy (in the second trimester or later) inside a clinic or hospital. Later abortions happen when a woman discovers her pregnancy late, faces barriers or delays reaching a clinic, learns that the fetus has a severe or fatal medical condition, or develops a life-threatening health condition during pregnancy such as severe preeclampsia, heart failure, cancer, or a womb infection.',
+            'After 12 to 14 weeks, clinicians either give repeated doses of medicine inside a health facility so the womb contracts and delivers, or perform a clinical procedure called Dilation and Evacuation (D&E) after gently softening and opening the cervix.'
+          ]
+        },
+        {
+          id: 'stigma-and-barriers',
+          keyLabel: 'Stigma & Why Access Matters',
+          heading: 'Stigma Around Abortion and Why Safe Care Matters',
+          gifSrc: null,
+          cartoonRenderer: () => renderGentleClinicCareCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          paragraphs: [
+            'When an abortion is done using a modern medical method matched to how many weeks pregnant a woman is and supported by a trained health worker, it is one of the safest procedures in medicine. However, in many parts of the world, abortion is heavily stigmatized, shamed, or restricted.',
+            'Stigma, social judgment, high costs, and legal or clinic barriers do not reduce the number of women who need abortions. Instead, stigma and barriers force women to hide their need for care, delay treatment until later in pregnancy, or turn to dangerous, unsafe methods.',
+            'Because of these barriers, about 45% of all abortions worldwide are unsafe, making unsafe abortion one of the leading but completely preventable causes of maternal death and injury. Every woman deserves plain, accurate medical facts and respectful, non-judgmental care.'
+          ]
+        },
+        {
+          id: 'types-of-abortions-titles',
+          keyLabel: 'Types of Abortions',
+          heading: 'Types of Abortions',
+          gifSrc: null,
+          cartoonRenderer: () => renderEmergencyCrossShieldCartoonSvg('#FFE4F0', '#9F133A', '#CF366C'),
+          paragraphs: [
+            '• Induced Abortion (Elective or Voluntary Abortion)',
+            '• Therapeutic Abortion (Medically Indicated or Life-Saving Abortion)',
+            '• Medication Abortion (Medical Abortion With Pills) vs. Procedural / Surgical Abortion (Vacuum Aspiration, Dilation and Evacuation / D&E, or Medical Induction)',
+            '• Spontaneous Abortion (Natural Miscarriage: Threatened, Inevitable, Incomplete, Complete, Missed, Septic, or Recurrent Spontaneous Abortion)'
           ]
         }
       ],
       bottomSubPages: [
         {
-          pageId: 'AbortionMedicalTermsGlossaryHomePage1',
-          title: 'Hospital & Ultrasound Terms Explained Simply',
-          subtitle: 'What words like spontaneous, incomplete, missed, or induced abortion mean on medical records'
+          pageId: 'AbortionTypesDetailedGuideHomePage1',
+          title: 'Types of Abortions',
+          subtitle: 'Induced, therapeutic, medication, procedural, and spontaneous abortion types'
         },
         {
           pageId: 'AbortionSafeVsUnsafeLinkHomePage1',
           title: 'Safe and Unsafe Abortion Care',
-          subtitle: 'How global health guidelines protect women’s lives and health'
+          subtitle: 'What makes abortion care medically safe and what dangerous methods to avoid'
         }
       ]
     },

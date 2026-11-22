@@ -1,5 +1,5 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { PregHomePageButtons, renderSubpageBackButton } from './PregnancyHomePage.js?v=288';
+import { PregHomePageButtons, renderSubpageBackButton } from './PregnancyHomePage.js?v=289';
 
 const h = React.createElement;
 
@@ -22,7 +22,7 @@ export default function MenopauseHomePage({
       id: 'what-is-menopause',
       label: tr('menoBtnWhatIs', 'What is menopause?'),
       targetPage: 'WhatIsMenopauseHomePage',
-      gifSrc: './assets/menopause-what-is.gif?v=288',
+      gifSrc: './assets/menopause-what-is.gif?v=289',
       // Tone 1: Lightest Sunshine Yellow (#FFF27A) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#FFF27A',
@@ -37,7 +37,7 @@ export default function MenopauseHomePage({
       id: 'starting-menopause',
       label: tr('menoBtnStarting', "I think I'm starting menopause!"),
       targetPage: 'StartingMenopauseHomePage',
-      gifSrc: './assets/menopause-starting.gif?v=288',
+      gifSrc: './assets/menopause-starting.gif?v=289',
       // Tone 2: Warm Buttercup Yellow (#FCE052) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#FCE052',
@@ -52,7 +52,7 @@ export default function MenopauseHomePage({
       id: 'hard-time-menopause',
       label: tr('menoBtnHardTime', 'Menopause is giving me a hard time!'),
       targetPage: 'HardTimeMenopauseHomePage',
-      gifSrc: './assets/menopause-hard-time.gif?v=288',
+      gifSrc: './assets/menopause-hard-time.gif?v=289',
       // Tone 3: Deep Marigold Gold (#F6BC28) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#F6BC28',
@@ -67,7 +67,7 @@ export default function MenopauseHomePage({
       id: 'after-menopause',
       label: tr('menoBtnAfter', 'My body after menopause!'),
       targetPage: 'AfterMenopauseHomePage',
-      gifSrc: './assets/menopause-after.gif?v=288',
+      gifSrc: './assets/menopause-after.gif?v=289',
       // Tone 4: Darkest Ochre Gold (#D6A124) — zero outline, matches GIF background seamlessly
       backgroundStyle: {
         backgroundColor: '#D6A124',

@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=288';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=288';
+} from './PregnancyHomePage.js?v=289';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=289';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
@@ -12,7 +12,7 @@ import {
   renderPartnerPillsCartoonSvg,
   renderPelvicPessaryRingCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=288';
+} from './FlyerCartoonIllustrations.js?v=289';
 
 const h = React.createElement;
 
@@ -35,71 +35,106 @@ export default function PostpartumHomePage({
   };
 
   // 5 Full-Width MakingGifButtons1 First-Person Postpartum Buttons
-  // (gifSrc: null slots ready for custom GIFs to be added later)
+  // White -> Warm Ivory Cream -> Oatmeal Cream -> Toasted Almond Cream -> Honey-Caramel Darker Cream Ombré
   const postpartumButtons = [
     {
       id: 'postpartum-body-recovery',
       label: tr('postpartumBtnBodyRecovery', 'I just gave birth! What is happening to my body?'),
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/postpartum-body-recovery.gif')
+      gifSrc: './assets/postpartum-body-recovery.gif?v=289',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 1: Soft Alabaster Porcelain White (#FAF6EE)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC2DE 100%)',
+        backgroundColor: '#FAF6EE',
         border: 'none'
       },
       textStyle: {
         color: '#9F133A',
-        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+        textShadow: '0 1px 8px rgba(255, 255, 255, 0.96)'
       }
     },
     {
       id: 'postpartum-csection-vaginal',
       label: tr('postpartumBtnCSectionVaginal', 'Healing After Birth'),
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/postpartum-healing.gif')
+      gifSrc: './assets/postpartum-healing.gif?v=289',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 2: Soft Warm Ivory Cream (#F3E9D7)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFB8D8 0%, #F472B6 100%)',
+        backgroundColor: '#F3E9D7',
         border: 'none'
       },
       textStyle: {
         color: '#9F133A',
-        textShadow: '0 1px 10px rgba(255, 255, 255, 0.95)'
+        textShadow: '0 1px 10px rgba(255, 252, 245, 0.95)'
       }
     },
     {
       id: 'postpartum-breastfeeding',
       label: tr('postpartumBtnBreastfeeding', 'Breastfeeding'),
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/postpartum-breastfeeding.gif')
+      gifSrc: './assets/postpartum-breastfeeding.gif?v=289',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 3: Warm Oatmeal-Biscuit Cream (#E8D7BE)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
+        backgroundColor: '#E8D7BE',
         border: 'none'
       },
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(108, 10, 50, 0.65)'
+        color: '#880E36',
+        textShadow: '0 1px 10px rgba(255, 250, 240, 0.94)'
       }
     },
     {
       id: 'postpartum-mental-health',
       label: tr('postpartumBtnMentalHealth', 'I feel overwhelmed, sad, or anxious'),
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/postpartum-mental-health.gif')
+      gifSrc: './assets/postpartum-mental-health.gif?v=289',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 4: Rich Toasted Almond Cream (#DCC4A4)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
+        backgroundColor: '#DCC4A4',
         border: 'none'
       },
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(64, 5, 28, 0.72)'
+        color: '#780A2D',
+        textShadow: '0 1px 10px rgba(255, 248, 236, 0.92)'
       }
     },
     {
       id: 'postpartum-after-loss',
       label: tr('postpartumBtnAfterLoss', 'Postpartum after Loss'),
-      gifSrc: null, // Ready for custom GIF (e.g. './assets/postpartum-after-loss.gif')
+      gifSrc: './assets/postpartum-after-loss.gif?v=289',
+      imgClassName:
+        'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-48px',
+        marginRight: '-48px'
+      },
+      // Tone 5: Deep Warm Honey-Caramel Darker Cream (#C9AC84)
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
+        backgroundColor: '#C9AC84',
         border: 'none'
       },
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(36, 2, 16, 0.78)'
+        color: '#5E0622',
+        textShadow: '0 1px 10px rgba(255, 245, 230, 0.92)'
       }
     }
   ];
@@ -108,6 +143,7 @@ export default function PostpartumHomePage({
     'postpartum-body-recovery': {
       pageId: 'PostpartumBodyRecoveryHomePage1',
       title: tr('postpartumBtnBodyRecovery', 'I just gave birth! What is happening to my body?'),
+      gifSrc: './assets/postpartum-body-recovery.gif?v=289',
       bgGradient: 'linear-gradient(180deg, #E11D48 0%, #BE123C 100%)',
       bgColor: '#D41742',
       titleTintColor: '#FFC9D6',
@@ -150,6 +186,7 @@ export default function PostpartumHomePage({
     'postpartum-csection-vaginal': {
       pageId: 'PostpartumCSectionVaginalHomePage1',
       title: tr('postpartumBtnCSectionVaginal', 'Healing After Birth'),
+      gifSrc: './assets/postpartum-healing.gif?v=289',
       bgGradient: 'linear-gradient(180deg, #F97316 0%, #D9460F 100%)',
       bgColor: '#EA580C',
       titleTintColor: '#FFE2CC',
@@ -187,6 +224,7 @@ export default function PostpartumHomePage({
     'postpartum-breastfeeding': {
       pageId: 'PostpartumBreastfeedingHomePage1',
       title: tr('postpartumBtnBreastfeeding', 'Breastfeeding'),
+      gifSrc: './assets/postpartum-breastfeeding.gif?v=289',
       bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
       bgColor: '#0E857B',
       titleTintColor: '#CCFBF1',
@@ -217,6 +255,7 @@ export default function PostpartumHomePage({
     'postpartum-mental-health': {
       pageId: 'PostpartumMentalHealthHomePage1',
       title: tr('postpartumBtnMentalHealth', 'I feel overwhelmed, sad, or anxious'),
+      gifSrc: './assets/postpartum-mental-health.gif?v=289',
       bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
       bgColor: '#6D28D9',
       titleTintColor: '#EDE9FE',
@@ -246,6 +285,7 @@ export default function PostpartumHomePage({
     'postpartum-after-loss': {
       pageId: 'PostpartumAfterLossHomePage1',
       title: tr('postpartumBtnAfterLoss', 'Postpartum after Loss'),
+      gifSrc: './assets/postpartum-after-loss.gif?v=289',
       bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1E40AF 100%)',
       bgColor: '#1D4ED8',
       titleTintColor: '#DBEAFE',
@@ -289,7 +329,7 @@ export default function PostpartumHomePage({
     return FlyerSTDstyleCartoonCaller1({
       pageId: cfg.pageId,
       title: cfg.title,
-      gifSrc: null,
+      gifSrc: cfg.gifSrc || null,
       bgGradient: cfg.bgGradient,
       bgColor: cfg.bgColor,
       titleTintColor: cfg.titleTintColor,

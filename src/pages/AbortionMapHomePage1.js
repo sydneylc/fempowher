@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useMemo } from 'https://esm.sh/react@18.3.1';
-import { renderSubpageBackButton } from './PregnancyHomePage.js?v=288';
-import { isRtlLanguage } from '../data/translations.js?v=288';
+import { renderSubpageBackButton } from './PregnancyHomePage.js?v=289';
+import { isRtlLanguage } from '../data/translations.js?v=289';
 import {
   ABORTION_MAP_CANVAS_WIDTH,
   ABORTION_MAP_CANVAS_HEIGHT,
@@ -8,7 +8,7 @@ import {
   ABORTION_ACCESS_LEVELS,
   ABORTION_MAP_COUNTRIES,
   ABORTION_MAP_SVG_POLYGONS
-} from '../data/abortionMapWorldData.js?v=288';
+} from '../data/abortionMapWorldData.js?v=289';
 
 const h = React.createElement;
 

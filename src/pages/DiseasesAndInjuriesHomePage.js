@@ -3,7 +3,7 @@ import {
   MakingGifButtons1,
   renderEducationIssueCards,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=288';
+} from './PregnancyHomePage.js?v=289';
 
 const h = React.createElement;
 
@@ -51,6 +51,13 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnFGM', 'FGM'),
       subLabel: tr('eduBtnFGMSub', 'Female genital mutilation'),
       targetPage: 'FGMHomePage1',
+      gifSrc: './assets/diseases-fgm.gif?v=289',
+      imgClassName:
+        'h-[118%] sm:h-[126%] w-auto max-w-[54vw] sm:max-w-[360px] object-contain select-none pointer-events-none',
+      imgStyle: {
+        marginLeft: '-24px',
+        marginRight: '-16px'
+      },
       // Tone 1: Deep Forest Green (#14532D)
       backgroundStyle: {
         backgroundColor: DISEASES_FOREST_TO_AZURE_PALETTE[0],
@@ -69,7 +76,7 @@ export default function DiseasesAndInjuriesHomePage({
       id: 'fibroids-diseases-banner-btn',
       label: tr('eduBtnFibroids', 'Fibroids'),
       targetPage: 'FibroidsHomePage1',
-      gifSrc: './assets/diseases-fibroids.gif?v=288',
+      gifSrc: './assets/diseases-fibroids.gif?v=289',
       imgClassName:
         'h-[154%] sm:h-[164%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -90,7 +97,7 @@ export default function DiseasesAndInjuriesHomePage({
       id: 'fistulas-diseases-banner-btn',
       label: tr('eduBtnFistulas', 'Fistulas'),
       targetPage: 'FistulasHomePage1',
-      gifSrc: './assets/diseases-fistulas.gif?v=288',
+      gifSrc: './assets/diseases-fistulas.gif?v=289',
       imgClassName:
         'h-[126%] sm:h-[134%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -111,7 +118,7 @@ export default function DiseasesAndInjuriesHomePage({
       id: 'prolapse-diseases-banner-btn',
       label: tr('eduBtnProlapse', 'Prolapse'),
       targetPage: 'ProlapseHomePage1',
-      gifSrc: './assets/diseases-prolapse.gif?v=288',
+      gifSrc: './assets/diseases-prolapse.gif?v=289',
       imgClassName:
         'h-[148%] sm:h-[158%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -133,7 +140,7 @@ export default function DiseasesAndInjuriesHomePage({
       label: tr('eduBtnSTDs', 'STDs'),
       subLabel: tr('eduBtnSTDsSub', 'Sexually Transmitted Diseases'),
       targetPage: 'STDMenuHomePage',
-      gifSrc: './assets/sexual-health-stds.gif?v=288',
+      gifSrc: './assets/sexual-health-stds.gif?v=289',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-[56vw] sm:max-w-[390px] object-contain select-none pointer-events-none',
       imgStyle: {

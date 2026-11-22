@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'https://esm.sh/react@18.3.1';
-import { ALL_NATIONS_ON_EARTH } from './DatabasePage1.js?v=290';
-import { isRtlLanguage } from '../data/translations.js?v=290';
+import { ALL_NATIONS_ON_EARTH } from './DatabasePage1.js?v=291';
+import { isRtlLanguage } from '../data/translations.js?v=291';
 
 const h = React.createElement;
 

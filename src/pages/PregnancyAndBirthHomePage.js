@@ -2,7 +2,7 @@ import React from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=290';
+} from './PregnancyHomePage.js?v=291';
 
 const h = React.createElement;
 
@@ -26,7 +26,7 @@ export default function PregnancyAndBirthHomePage({
       id: 'pb-pre-conception',
       label: tr('eduBtnPreConception', 'Pre-Conception'),
       targetPage: 'PreConceptionHomePage',
-      gifSrc: './assets/pb-preconception.gif?v=290',
+      gifSrc: './assets/pb-preconception.gif?v=291',
       imgClassName: 'w-full h-full object-contain',
       imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
@@ -42,7 +42,7 @@ export default function PregnancyAndBirthHomePage({
       id: 'pb-pregnancy',
       label: tr('eduBtnPregnancy', 'Pregnancy'),
       targetPage: 'PregnancyHomePage',
-      gifSrc: './assets/pb-pregnancy.gif?v=290',
+      gifSrc: './assets/pb-pregnancy.gif?v=291',
       imgClassName: 'w-full h-full object-contain',
       imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
@@ -58,7 +58,7 @@ export default function PregnancyAndBirthHomePage({
       id: 'pb-childbirth',
       label: tr('eduBtnChildbirth', 'Childbirth'),
       targetPage: 'ChildbirthHomePage',
-      gifSrc: './assets/pb-childbirth.gif?v=290',
+      gifSrc: './assets/pb-childbirth.gif?v=291',
       imgClassName: 'w-full h-full object-contain',
       imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
@@ -74,7 +74,7 @@ export default function PregnancyAndBirthHomePage({
       id: 'pb-pregnancy-loss',
       label: tr('eduBtnMiscarriage', 'Pregnancy Loss'),
       targetPage: 'MiscarriageHomePage',
-      gifSrc: './assets/pb-pregnancy-loss.gif?v=290',
+      gifSrc: './assets/pb-pregnancy-loss.gif?v=291',
       imgClassName: 'w-full h-full object-contain',
       imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
@@ -90,7 +90,7 @@ export default function PregnancyAndBirthHomePage({
       id: 'pb-pregnancy-after-loss',
       label: tr('eduBtnPregnancyAfterLoss', 'Pregnancy After a Loss'),
       targetPage: 'PregnancyAfterLossHomePage',
-      gifSrc: './assets/pb-pregnancy-after-loss.gif?v=290',
+      gifSrc: './assets/pb-pregnancy-after-loss.gif?v=291',
       imgClassName: 'w-full h-full object-contain',
       imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {

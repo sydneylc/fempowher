@@ -2,14 +2,14 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=290';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=290';
+} from './PregnancyHomePage.js?v=291';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=291';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
   renderMotherHoldingNewbornSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=290';
+} from './FlyerCartoonIllustrations.js?v=291';
 
 const h = React.createElement;
 
@@ -36,7 +36,7 @@ export default function ChildbirthHomePage({
     {
       id: 'childbirth-stages-of-labor',
       label: tr('childbirthBtnStages', 'How Do I Know I’m in Labor?'),
-      gifSrc: './assets/childbirth-how-do-i-know-labor.gif?v=290',
+      gifSrc: './assets/childbirth-how-do-i-know-labor.gif?v=291',
       imgClassName: 'w-full h-full object-contain',
       imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
@@ -51,7 +51,7 @@ export default function ChildbirthHomePage({
     {
       id: 'childbirth-vaginal-and-pain-relief',
       label: tr('childbirthBtnVaginal', 'Vaginal Birth'),
-      gifSrc: './assets/childbirth-vaginal-birth.gif?v=290',
+      gifSrc: './assets/childbirth-vaginal-birth.gif?v=291',
       imgClassName: 'w-full h-full object-contain',
       imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
@@ -66,7 +66,7 @@ export default function ChildbirthHomePage({
     {
       id: 'childbirth-csection',
       label: tr('childbirthBtnCSection', 'C-Section'),
-      gifSrc: './assets/childbirth-csection.gif?v=290',
+      gifSrc: './assets/childbirth-csection.gif?v=291',
       imgClassName: 'w-full h-full object-contain',
       imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
@@ -81,7 +81,7 @@ export default function ChildbirthHomePage({
     {
       id: 'childbirth-emergency-signs',
       label: tr('childbirthBtnDangerSigns', 'Emergency Signs in Labor'),
-      gifSrc: './assets/childbirth-emergency-signs.gif?v=290',
+      gifSrc: './assets/childbirth-emergency-signs.gif?v=291',
       imgClassName: 'w-full h-full object-contain',
       imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
@@ -99,7 +99,7 @@ export default function ChildbirthHomePage({
     'childbirth-stages-of-labor': {
       pageId: 'ChildbirthStagesHomePage1',
       title: tr('childbirthBtnStages', 'How Do I Know I’m in Labor?'),
-      gifSrc: './assets/childbirth-how-do-i-know-labor.gif?v=290',
+      gifSrc: './assets/childbirth-how-do-i-know-labor.gif?v=291',
       bgGradient: 'linear-gradient(180deg, #E11D48 0%, #BE123C 100%)',
       bgColor: '#D41742',
       titleTintColor: '#FFC9D6',
@@ -124,7 +124,7 @@ export default function ChildbirthHomePage({
     'childbirth-vaginal-and-pain-relief': {
       pageId: 'ChildbirthVaginalHomePage1',
       title: tr('childbirthBtnVaginal', 'Vaginal Birth'),
-      gifSrc: './assets/childbirth-vaginal-birth.gif?v=290',
+      gifSrc: './assets/childbirth-vaginal-birth.gif?v=291',
       bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
       bgColor: '#0E857B',
       titleTintColor: '#CCFBF1',
@@ -147,7 +147,7 @@ export default function ChildbirthHomePage({
     'childbirth-csection': {
       pageId: 'ChildbirthCSectionHomePage1',
       title: tr('childbirthBtnCSection', 'C-Section'),
-      gifSrc: './assets/childbirth-csection.gif?v=290',
+      gifSrc: './assets/childbirth-csection.gif?v=291',
       bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1E40AF 100%)',
       bgColor: '#1D4ED8',
       titleTintColor: '#DBEAFE',
@@ -164,7 +164,7 @@ export default function ChildbirthHomePage({
     'childbirth-emergency-signs': {
       pageId: 'ChildbirthDangerSignsHomePage1',
       title: tr('childbirthBtnDangerSigns', 'Emergency Signs in Labor'),
-      gifSrc: './assets/childbirth-emergency-signs.gif?v=290',
+      gifSrc: './assets/childbirth-emergency-signs.gif?v=291',
       bgGradient: 'linear-gradient(180deg, #DC2626 0%, #991B1B 100%)',
       bgColor: '#B91C1C',
       titleTintColor: '#FECACA',

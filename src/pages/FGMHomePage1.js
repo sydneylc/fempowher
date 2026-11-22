@@ -1,10 +1,10 @@
 import React from 'https://esm.sh/react@18.3.1';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=289';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=290';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderFistulaHealingRepairCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=289';
+} from './FlyerCartoonIllustrations.js?v=290';
 
 export default function FGMHomePage1({
   onBack,
@@ -63,7 +63,7 @@ export default function FGMHomePage1({
   return FlyerSTDstyleCartoonCaller1({
     pageId: 'FGMHomePage1',
     title: `${tr('eduBtnFGM', 'FGM')} (${tr('eduBtnFGMSub', 'Female genital mutilation')})`,
-    gifSrc: './assets/diseases-fgm.gif?v=289',
+    gifSrc: './assets/diseases-fgm.gif?v=290',
     bgGradient: 'linear-gradient(180deg, #14532D 0%, #0F766E 100%)',
     bgColor: '#14532D',
     titleTintColor: '#DCFCE7',

@@ -2,8 +2,8 @@ import React, { useState } from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=289';
-import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=289';
+} from './PregnancyHomePage.js?v=290';
+import { FlyerSTDstyleCartoonCaller1 } from './TrichomonasHomePage1.js?v=290';
 import {
   renderCleanWaterHydrationCartoonSvg,
   renderIronRichCareCartoonSvg,
@@ -12,7 +12,7 @@ import {
   renderPartnerPillsCartoonSvg,
   renderPelvicPessaryRingCartoonSvg,
   renderPregnantLadyHeadingIcon
-} from './FlyerCartoonIllustrations.js?v=289';
+} from './FlyerCartoonIllustrations.js?v=290';
 
 const h = React.createElement;
 
@@ -40,7 +40,7 @@ export default function PostpartumHomePage({
     {
       id: 'postpartum-body-recovery',
       label: tr('postpartumBtnBodyRecovery', 'I just gave birth! What is happening to my body?'),
-      gifSrc: './assets/postpartum-body-recovery.gif?v=289',
+      gifSrc: './assets/postpartum-body-recovery.gif?v=290',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -60,7 +60,7 @@ export default function PostpartumHomePage({
     {
       id: 'postpartum-csection-vaginal',
       label: tr('postpartumBtnCSectionVaginal', 'Healing After Birth'),
-      gifSrc: './assets/postpartum-healing.gif?v=289',
+      gifSrc: './assets/postpartum-healing.gif?v=290',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -80,7 +80,7 @@ export default function PostpartumHomePage({
     {
       id: 'postpartum-breastfeeding',
       label: tr('postpartumBtnBreastfeeding', 'Breastfeeding'),
-      gifSrc: './assets/postpartum-breastfeeding.gif?v=289',
+      gifSrc: './assets/postpartum-breastfeeding.gif?v=290',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -100,7 +100,7 @@ export default function PostpartumHomePage({
     {
       id: 'postpartum-mental-health',
       label: tr('postpartumBtnMentalHealth', 'I feel overwhelmed, sad, or anxious'),
-      gifSrc: './assets/postpartum-mental-health.gif?v=289',
+      gifSrc: './assets/postpartum-mental-health.gif?v=290',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -120,7 +120,7 @@ export default function PostpartumHomePage({
     {
       id: 'postpartum-after-loss',
       label: tr('postpartumBtnAfterLoss', 'Postpartum after Loss'),
-      gifSrc: './assets/postpartum-after-loss.gif?v=289',
+      gifSrc: './assets/postpartum-after-loss.gif?v=290',
       imgClassName:
         'h-[116%] sm:h-[124%] w-auto max-w-none object-contain select-none pointer-events-none',
       imgStyle: {
@@ -143,7 +143,7 @@ export default function PostpartumHomePage({
     'postpartum-body-recovery': {
       pageId: 'PostpartumBodyRecoveryHomePage1',
       title: tr('postpartumBtnBodyRecovery', 'I just gave birth! What is happening to my body?'),
-      gifSrc: './assets/postpartum-body-recovery.gif?v=289',
+      gifSrc: './assets/postpartum-body-recovery.gif?v=290',
       bgGradient: 'linear-gradient(180deg, #E11D48 0%, #BE123C 100%)',
       bgColor: '#D41742',
       titleTintColor: '#FFC9D6',
@@ -186,7 +186,7 @@ export default function PostpartumHomePage({
     'postpartum-csection-vaginal': {
       pageId: 'PostpartumCSectionVaginalHomePage1',
       title: tr('postpartumBtnCSectionVaginal', 'Healing After Birth'),
-      gifSrc: './assets/postpartum-healing.gif?v=289',
+      gifSrc: './assets/postpartum-healing.gif?v=290',
       bgGradient: 'linear-gradient(180deg, #F97316 0%, #D9460F 100%)',
       bgColor: '#EA580C',
       titleTintColor: '#FFE2CC',
@@ -224,7 +224,7 @@ export default function PostpartumHomePage({
     'postpartum-breastfeeding': {
       pageId: 'PostpartumBreastfeedingHomePage1',
       title: tr('postpartumBtnBreastfeeding', 'Breastfeeding'),
-      gifSrc: './assets/postpartum-breastfeeding.gif?v=289',
+      gifSrc: './assets/postpartum-breastfeeding.gif?v=290',
       bgGradient: 'linear-gradient(180deg, #0D9488 0%, #0F766E 100%)',
       bgColor: '#0E857B',
       titleTintColor: '#CCFBF1',
@@ -255,7 +255,7 @@ export default function PostpartumHomePage({
     'postpartum-mental-health': {
       pageId: 'PostpartumMentalHealthHomePage1',
       title: tr('postpartumBtnMentalHealth', 'I feel overwhelmed, sad, or anxious'),
-      gifSrc: './assets/postpartum-mental-health.gif?v=289',
+      gifSrc: './assets/postpartum-mental-health.gif?v=290',
       bgGradient: 'linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%)',
       bgColor: '#6D28D9',
       titleTintColor: '#EDE9FE',
@@ -285,7 +285,7 @@ export default function PostpartumHomePage({
     'postpartum-after-loss': {
       pageId: 'PostpartumAfterLossHomePage1',
       title: tr('postpartumBtnAfterLoss', 'Postpartum after Loss'),
-      gifSrc: './assets/postpartum-after-loss.gif?v=289',
+      gifSrc: './assets/postpartum-after-loss.gif?v=290',
       bgGradient: 'linear-gradient(180deg, #2563EB 0%, #1E40AF 100%)',
       bgColor: '#1D4ED8',
       titleTintColor: '#DBEAFE',

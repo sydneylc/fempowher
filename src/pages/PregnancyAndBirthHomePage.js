@@ -2,7 +2,7 @@ import React from 'https://esm.sh/react@18.3.1';
 import {
   MakingGifButtons1,
   renderSubpageBackButton
-} from './PregnancyHomePage.js?v=289';
+} from './PregnancyHomePage.js?v=290';
 
 const h = React.createElement;
 
@@ -20,76 +20,86 @@ export default function PregnancyAndBirthHomePage({
     return t[key] || fallback;
   };
 
-  // 5 Full-Width MakingGifButtons1 Ombré Buttons for Pregnancy & Birth (gifSrc: null ready for GIFs later)
+  // 5 Full-Width MakingGifButtons1 Ombré Buttons for Pregnancy & Birth (Very Light Oranges to Light Yellow Ombré)
   const pregnancyAndBirthButtons = [
     {
       id: 'pb-pre-conception',
       label: tr('eduBtnPreConception', 'Pre-Conception'),
       targetPage: 'PreConceptionHomePage',
-      gifSrc: null,
+      gifSrc: './assets/pb-preconception.gif?v=290',
+      imgClassName: 'w-full h-full object-contain',
+      imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFEBF4 0%, #FFC2DE 100%)',
+        backgroundColor: '#FFB07C',
         border: 'none'
       },
       textStyle: {
         color: '#9F133A',
-        textShadow: '0 1px 8px rgba(255, 255, 255, 0.92)'
+        textShadow: '0 1px 10px rgba(255, 250, 240, 0.96)'
       }
     },
     {
       id: 'pb-pregnancy',
       label: tr('eduBtnPregnancy', 'Pregnancy'),
       targetPage: 'PregnancyHomePage',
-      gifSrc: null,
+      gifSrc: './assets/pb-pregnancy.gif?v=290',
+      imgClassName: 'w-full h-full object-contain',
+      imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #FFB8D8 0%, #F472B6 100%)',
+        backgroundColor: '#FFC48D',
         border: 'none'
       },
       textStyle: {
         color: '#9F133A',
-        textShadow: '0 1px 10px rgba(255, 255, 255, 0.95)'
+        textShadow: '0 1px 10px rgba(255, 250, 240, 0.96)'
       }
     },
     {
       id: 'pb-childbirth',
       label: tr('eduBtnChildbirth', 'Childbirth'),
       targetPage: 'ChildbirthHomePage',
-      gifSrc: null,
+      gifSrc: './assets/pb-childbirth.gif?v=290',
+      imgClassName: 'w-full h-full object-contain',
+      imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #EC4899 0%, #C82368 100%)',
+        backgroundColor: '#FFD69E',
         border: 'none'
       },
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(108, 10, 50, 0.65)'
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 252, 242, 0.96)'
       }
     },
     {
       id: 'pb-pregnancy-loss',
       label: tr('eduBtnMiscarriage', 'Pregnancy Loss'),
       targetPage: 'MiscarriageHomePage',
-      gifSrc: null,
+      gifSrc: './assets/pb-pregnancy-loss.gif?v=290',
+      imgClassName: 'w-full h-full object-contain',
+      imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #B81D5B 0%, #8E1145 100%)',
+        backgroundColor: '#FFE6AD',
         border: 'none'
       },
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(64, 5, 28, 0.72)'
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 253, 245, 0.96)'
       }
     },
     {
       id: 'pb-pregnancy-after-loss',
       label: tr('eduBtnPregnancyAfterLoss', 'Pregnancy After a Loss'),
       targetPage: 'PregnancyAfterLossHomePage',
-      gifSrc: null,
+      gifSrc: './assets/pb-pregnancy-after-loss.gif?v=290',
+      imgClassName: 'w-full h-full object-contain',
+      imgStyle: { objectPosition: 'center center', transform: 'scale(1.18)' },
       backgroundStyle: {
-        background: 'linear-gradient(180deg, #7C1040 0%, #58092B 100%)',
+        backgroundColor: '#FFF4BF',
         border: 'none'
       },
       textStyle: {
-        color: '#FFFFFF',
-        textShadow: '0 2px 10px rgba(36, 2, 16, 0.78)'
+        color: '#9F133A',
+        textShadow: '0 1px 10px rgba(255, 255, 248, 0.96)'
       }
     }
   ];
